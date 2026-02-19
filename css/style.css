@@ -1,0 +1,372 @@
+/* ============================================================
+   Chartrand Apps — Global Styles
+   ============================================================ */
+
+:root {
+  --bg:       #FAFAF9;
+  --text:     #1C1C1E;
+  --muted:    #6B7280;
+  --accent:   #2563EB;
+  --accent-h: #1D4ED8;
+  --border:   #E5E7EB;
+  --card-bg:  #FFFFFF;
+  --radius:   12px;
+  --max-w:    720px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI",
+               Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 0 16px;
+}
+
+/* ---- Layout ---- */
+
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+/* ---- Header / Nav ---- */
+
+header {
+  padding: 40px 0 32px;
+}
+
+.site-name {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+
+.site-name:hover {
+  color: var(--accent);
+}
+
+/* ---- Hero ---- */
+
+.hero {
+  padding: 64px 0 48px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin-bottom: 16px;
+}
+
+.hero .tagline {
+  font-size: 1.125rem;
+  color: var(--muted);
+}
+
+/* ---- Section ---- */
+
+.section {
+  padding: 48px 0;
+}
+
+.section-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+/* ---- App Card ---- */
+
+.app-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.app-card:hover {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.08);
+}
+
+.app-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  flex-shrink: 0;
+  background: #E8F0FE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+}
+
+.app-icon img {
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+}
+
+.app-info h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+
+.app-info p {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+/* ---- App Page ---- */
+
+.app-hero {
+  padding: 56px 0 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.app-hero-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+  flex-shrink: 0;
+  background: #E8F0FE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44px;
+}
+
+.app-hero-icon img {
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+}
+
+.app-hero-text h1 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  margin-bottom: 8px;
+}
+
+.app-hero-text .subtitle {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-bottom: 20px;
+}
+
+/* ---- Buttons ---- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s, opacity 0.15s;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--accent-h);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--accent);
+  border: 1px solid var(--border);
+}
+
+.btn-secondary:hover {
+  border-color: var(--accent);
+  background: rgba(37, 99, 235, 0.04);
+}
+
+/* ---- Links section ---- */
+
+.link-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.link-row a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.9375rem;
+}
+
+.link-row a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Description block ---- */
+
+.description {
+  font-size: 1.0625rem;
+  line-height: 1.7;
+  color: var(--text);
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+}
+
+/* ---- FAQ / Support ---- */
+
+.faq-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.faq-item h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.faq-item p {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+/* ---- Privacy / Prose ---- */
+
+.prose {
+  padding: 40px 0;
+}
+
+.prose h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-bottom: 8px;
+}
+
+.prose .meta {
+  font-size: 0.875rem;
+  color: var(--muted);
+  margin-bottom: 40px;
+}
+
+.prose h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 36px;
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+}
+
+.prose p {
+  font-size: 0.9375rem;
+  color: var(--muted);
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.prose a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.prose a:hover {
+  text-decoration: underline;
+}
+
+/* ---- Footer ---- */
+
+footer {
+  padding: 48px 0 40px;
+  border-top: 1px solid var(--border);
+  margin-top: 48px;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.footer-copy {
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  font-size: 0.875rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--accent);
+}
+
+/* ---- Divider ---- */
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 0;
+}
+
+/* ---- Responsive ---- */
+
+@media (max-width: 480px) {
+  .app-hero {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
