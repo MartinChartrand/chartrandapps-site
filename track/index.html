@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track — Simple Project Tracking for Directors & Managers</title>
+    <meta name="description" content="Track your projects with clarity. Visual status indicators, smart deadline reminders, one-tap export. No account required. Available in English and French.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #1d1d1f;
+            background: #fbfbfd;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            padding: 80px 20px 60px;
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: -0.02em;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 40px;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .app-store-badge {
+            display: inline-block;
+            margin: 20px 0;
+        }
+
+        .app-store-badge img {
+            height: 50px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+
+        .feature:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+        }
+
+        .feature-icon {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        .feature h3 {
+            font-size: 1.4em;
+            margin-bottom: 12px;
+            color: #1d1d1f;
+        }
+
+        .feature p {
+            color: #6e6e73;
+            line-height: 1.5;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #1d1d1f;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            font-size: 1.2em;
+            color: #6e6e73;
+            margin-bottom: 60px;
+        }
+
+        .privacy-note {
+            background: #f5f5f7;
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            margin: 60px 0;
+        }
+
+        .privacy-note h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #1d1d1f;
+        }
+
+        .privacy-note p {
+            font-size: 1.1em;
+            color: #6e6e73;
+            max-width: 700px;
+            margin: 0 auto 20px;
+        }
+
+        .privacy-note a {
+            color: #007AFF;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .privacy-note a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #1d1d1f;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 80px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-links {
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5em;
+            }
+
+            .hero p {
+                font-size: 1.2em;
+            }
+
+            .section-title {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>Track</h1>
+        <p>Clear view of your projects</p>
+        <p style="font-size: 1.1em; opacity: 0.9;">Simple project tracking for directors and managers.<br>Visual status. Smart reminders. One-tap export.</p>
+
+        <!-- App Store Badge - Update with actual link when app is live -->
+        <div class="app-store-badge">
+            <a href="https://apps.apple.com/app/id6759844078" target="_blank">
+                <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store">
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="section-title">Built for Clarity</h2>
+        <p class="section-subtitle">No complexity. No learning curve. Just what you need.</p>
+
+        <div class="features">
+            <div class="feature">
+                <div class="feature-icon">✓</div>
+                <h3>Visual Status</h3>
+                <p>Green (✓) = on track, Yellow (−) = at risk, Red (✕) = blocked. See project health at a glance.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">⏰</div>
+                <h3>Smart Reminders</h3>
+                <p>Deadline notifications when you need them. Choose same day, 1, 3, or 7 days before. Never miss what matters.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">📤</div>
+                <h3>One-Tap Export</h3>
+                <p>Share via email, save to Notes, or send via Messages. Your project list, instantly formatted and ready.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">☁️</div>
+                <h3>iCloud Sync</h3>
+                <p>Optional sync across your iPhone and iPad. Your data stays in your Apple ecosystem.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🌍</div>
+                <h3>Bilingual</h3>
+                <p>Switch between French and English anytime. Built for Canadian directors managing bilingual teams.</p>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🎯</div>
+                <h3>No Account</h3>
+                <p>No sign-up. No login. No email collection. Open the app and start tracking immediately.</p>
+            </div>
+        </div>
+
+        <div class="privacy-note">
+            <h2>🔒 Privacy First</h2>
+            <p><strong>Track collects zero data.</strong> Everything stays on your device. Optional iCloud sync uses Apple's secure infrastructure — we never see your projects.</p>
+            <p>No analytics. No tracking. No external servers. Just a tool that works for you, not against you.</p>
+            <p><a href="https://chartrandapps.ca/track/privacy.html">Read our Privacy Policy</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://chartrandapps.ca">Chartrand Apps</a>
+            <a href="https://chartrandapps.ca/track/support.html">Support</a>
+            <a href="https://chartrandapps.ca/track/privacy.html">Privacy</a>
+        </div>
+        <p style="opacity: 0.7; font-size: 0.9em;">© 2026 Martin Chartrand</p>
+    </footer>
+</body>
+</html>
