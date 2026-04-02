@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>Évaluation financière</title>
+  <title>Questionnaire — Reprendre le controle</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
   <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
@@ -13,11 +13,9 @@
       theme: {
         extend: {
           colors: {
-            calm: { 50: '#f0fdf4', 100: '#dcfce7', 200: '#bbf7d0', 500: '#22c55e', 600: '#16a34a', 700: '#15803d' },
-            warm: { 50: '#fefce8', 100: '#fef9c3', 500: '#eab308' },
-            ocean: { 50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 400: '#60a5fa', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8' },
-            soft: { 50: '#faf5ff', 100: '#f3e8ff', 500: '#a855f7' },
-            slate: { 50: '#f8fafc', 100: '#f1f5f9', 200: '#e2e8f0', 300: '#cbd5e1', 400: '#94a3b8', 500: '#64748b', 600: '#475569', 700: '#334155', 800: '#1e293b', 900: '#0f172a' }
+            calm: { 50: '#f0fdf4', 100: '#dcfce7', 600: '#16a34a' },
+            ocean: { 50: '#eff6ff', 100: '#dbeafe', 200: '#bfdbfe', 500: '#3b82f6', 600: '#2563eb', 700: '#1d4ed8' },
+            slate: { 50: '#f8fafc', 100: '#f1f5f9', 200: '#e2e8f0', 300: '#cbd5e1', 400: '#94a3b8', 500: '#64748b', 600: '#475569', 700: '#334155', 800: '#1e293b' }
           }
         }
       }
@@ -26,9 +24,6 @@
   <style>
     * { -webkit-tap-highlight-color: transparent; }
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
-    input[type="number"]::-webkit-inner-spin-button,
-    input[type="number"]::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; }
-    input[type="number"] { -moz-appearance: textfield; }
     .fade-in { animation: fadeIn 0.3s ease-in-out; }
     @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
   </style>
@@ -37,47 +32,6 @@
   <div id="root"></div>
   <script type="text/babel">
     const { useState, useRef, useCallback, useMemo, useEffect } = React;
-
-    // ─── Data ──────────────────────────────────────────────────────
-    const FIXED_EXPENSE_CATS = [
-      { key: 'loyer_hypotheque', label: 'Loyer ou hypotheque' },
-      { key: 'taxes_foncieres', label: 'Taxes foncieres' },
-      { key: 'electricite', label: 'Electricite / chauffage' },
-      { key: 'internet_cell', label: 'Internet / cellulaire' },
-      { key: 'assurances', label: 'Assurances (auto, habitation, etc.)' },
-      { key: 'transport', label: 'Transport (paiement auto, transport en commun, essence)' },
-      { key: 'soins_sante', label: 'Traitements / soins de sante reguliers' },
-      { key: 'abonnements', label: 'Abonnements (streaming, gym, etc.)' },
-    ];
-
-    const VARIABLE_CATS = [
-      { key: 'epicerie', label: 'Epicerie', opts: ['Moins de 200$', '200-400$', '400-600$', '600$+', 'Je ne sais pas'] },
-      { key: 'restaurants', label: 'Restaurants / take-out / livraison', opts: ['Moins de 50$', '50-150$', '150-300$', '300$+', 'Je ne sais pas'] },
-      { key: 'vetements', label: 'Vetements / accessoires', opts: ['Presque rien', 'Moins de 100$', '100-300$', '300$+', 'Je ne sais pas'] },
-      { key: 'soins_perso', label: 'Soins personnels (coiffure, esthetique, etc.)', opts: ['Moins de 50$', '50-150$', '150-300$', '300$+', 'Je ne sais pas'] },
-      { key: 'sorties', label: 'Sorties / divertissement', opts: ['Moins de 50$', '50-150$', '150-300$', '300$+', 'Je ne sais pas'] },
-      { key: 'cadeaux', label: 'Cadeaux', opts: ['Rarement', 'Moins de 50$', '50-150$', '150$+', 'Je ne sais pas'] },
-      { key: 'achats_en_ligne', label: 'Achats en ligne (Amazon, etc.)', opts: ['Rarement', 'Moins de 100$', '100-300$', '300$+', 'Je ne sais pas'] },
-    ];
-
-    const DEBT_TYPES = ['Ligne de credit', 'Carte de credit', 'Pret personnel', 'Pret auto', 'Autre'];
-
-    const DECLENCHEURS = [
-      'Quand je suis stressee ou fatiguee',
-      'Quand je suis avec des amis',
-      'Les achats en ligne le soir',
-      'Les aubaines / promotions',
-      "L'epicerie (j'achete plus que prevu)",
-      'Les restos / sorties',
-    ];
-
-    const RAISONS_ECHEC = [
-      "C'etait trop complique",
-      "J'oubliais de noter mes depenses",
-      "C'etait deprimant de voir les chiffres",
-      'La vie a pris le dessus',
-      "L'outil que j'utilisais me convenait pas",
-    ];
 
     // ─── Reusable Components ───────────────────────────────────────
     function ProgressBar({ current, total }) {
@@ -95,14 +49,27 @@
       );
     }
 
-    function BlockIntro({ text }) {
+    function Intro({ text }) {
       return <p className="text-slate-600 text-base leading-relaxed mb-6 italic">{text}</p>;
     }
 
-    function Question({ text, children }) {
+    function Q({ text, note, children }) {
       return (
         <div className="mb-5">
           <p className="text-slate-800 text-lg font-medium leading-snug mb-4">{text}</p>
+          {note && <p className="text-slate-500 text-sm mb-3">{note}</p>}
+          {children}
+        </div>
+      );
+    }
+
+    function Scenario({ text, question, children }) {
+      return (
+        <div className="mb-5">
+          <div className="bg-white border-2 border-slate-200 rounded-2xl p-4 mb-4">
+            <p className="text-slate-700 text-base leading-relaxed italic">{text}</p>
+          </div>
+          <p className="text-slate-800 text-lg font-medium leading-snug mb-4">{question}</p>
           {children}
         </div>
       );
@@ -110,14 +77,9 @@
 
     function Chip({ label, selected, onClick }) {
       return (
-        <button
-          type="button"
-          onClick={onClick}
+        <button type="button" onClick={onClick}
           className={`w-full text-left px-4 py-3.5 rounded-xl border-2 text-base transition-all duration-150 min-h-[44px]
-            ${selected
-              ? 'border-ocean-500 bg-ocean-50 text-ocean-700 font-medium'
-              : 'border-slate-200 bg-white text-slate-700 hover:border-slate-300 active:bg-slate-50'}`}
-        >
+            ${selected ? 'border-ocean-500 bg-ocean-50 text-ocean-700 font-medium' : 'border-slate-200 bg-white text-slate-700 active:bg-slate-50'}`}>
           {label}
         </button>
       );
@@ -126,23 +88,21 @@
     function ChipGroup({ options, value, onChange }) {
       return (
         <div className="flex flex-col gap-2.5">
-          {options.map(opt => (
-            <Chip key={opt} label={opt} selected={value === opt} onClick={() => onChange(opt)} />
-          ))}
+          {options.map(opt => <Chip key={opt} label={opt} selected={value === opt} onClick={() => onChange(opt)} />)}
         </div>
       );
     }
 
-    function MultiChipGroup({ options, values = [], onChange }) {
+    function MultiChipGroup({ options, values = [], onChange, max }) {
       const toggle = (opt) => {
-        if (values.includes(opt)) onChange(values.filter(v => v !== opt));
-        else onChange([...values, opt]);
+        if (values.includes(opt)) { onChange(values.filter(v => v !== opt)); return; }
+        if (max && values.length >= max) return;
+        onChange([...values, opt]);
       };
       return (
         <div className="flex flex-col gap-2.5">
-          {options.map(opt => (
-            <Chip key={opt} label={opt} selected={values.includes(opt)} onClick={() => toggle(opt)} />
-          ))}
+          {options.map(opt => <Chip key={opt} label={opt} selected={values.includes(opt)} onClick={() => toggle(opt)} />)}
+          {max && <p className="text-slate-400 text-xs text-right">Maximum {max} choix</p>}
         </div>
       );
     }
@@ -153,32 +113,17 @@
       return <input type="text" className={cls} value={value || ''} onChange={e => onChange(e.target.value)} placeholder={placeholder} />;
     }
 
-    function NumberInput({ value, onChange, placeholder }) {
-      return (
-        <input
-          type="number"
-          inputMode="numeric"
-          pattern="[0-9]*"
-          className="w-full px-4 py-3 rounded-xl border-2 border-slate-200 text-base text-slate-800 placeholder-slate-400 focus:border-ocean-500 focus:outline-none transition-colors bg-white min-h-[44px]"
-          value={value === null || value === undefined ? '' : value}
-          onChange={e => onChange(e.target.value === '' ? null : Number(e.target.value))}
-          placeholder={placeholder || '0$'}
-        />
-      );
-    }
-
-    function NavButtons({ onBack, onNext, backLabel, nextLabel, nextDisabled }) {
+    function Nav({ onBack, onNext, nextLabel }) {
       return (
         <div className="flex gap-3 mt-8">
           {onBack && (
             <button type="button" onClick={onBack}
               className="flex-1 px-4 py-3.5 rounded-xl border-2 border-slate-200 text-slate-600 font-medium text-base bg-white active:bg-slate-50 min-h-[44px]">
-              {backLabel || 'Retour'}
+              Retour
             </button>
           )}
-          <button type="button" onClick={onNext} disabled={nextDisabled}
-            className={`flex-1 px-4 py-3.5 rounded-xl font-medium text-base min-h-[44px] transition-colors
-              ${nextDisabled ? 'bg-slate-200 text-slate-400 cursor-not-allowed' : 'bg-ocean-600 text-white active:bg-ocean-700'}`}>
+          <button type="button" onClick={onNext}
+            className="flex-1 px-4 py-3.5 rounded-xl font-medium text-base min-h-[44px] bg-ocean-600 text-white active:bg-ocean-700 transition-colors">
             {nextLabel || 'Continuer'}
           </button>
         </div>
@@ -189,340 +134,274 @@
     function App() {
       const startTime = useRef(Date.now());
       const [step, setStep] = useState(0);
-      const [answers, setAnswers] = useState({
-        revenu: null,
-        stabilite: null,
-        logement: null,
-        depenses_fixes: {},
-        depenses_fixes_autre_label: '',
-        depenses_fixes_autre_montant: null,
-        depenses_fixes_na: {},
-        depenses_fixes_notes: '',
-        taxes_foncieres_annuel: false,
-        nombre_dettes: null,
-        dettes: [],
-        sentiment_dettes: null,
-        sentiment_dettes_autre: '',
-        variables: {},
-        declencheurs: [],
-        declencheurs_autre: '',
-        suivi_actuel: null,
-        suivi_actuel_autre: '',
-        app_details: '',
-        budget_tente: null,
-        raisons_echec: [],
-        raisons_echec_autre: '',
-        objectif_libre: '',
-        priorite: null,
-        priorite_autre: '',
-        horizon: null,
-        frequence_saisie: null,
-        affichage: null,
-        notifications: null,
-        confidentialite: null,
-        question_ouverte: '',
-        question_ouverte_skip: false,
+      const [a, setA] = useState({
+        // Axe 1
+        q1_1: null, q1_1_autre: '',
+        q1_2: null,
+        q1_3: null,
+        q1_4: null,
+        // Axe 2
+        q2_1: null,
+        q2_2: [], // multi max 3
+        q2_3: null, q2_3_autre: '',
+        q2_4: null, q2_4_autre: '',
+        // Axe 3
+        q3_1: null,
+        q3_2: [], // multi max 3
+        q3_3: [], q3_3_autre: '',
+        q3_4: null,
+        // Axe 4
+        q4_1: null,
+        q4_2: [], q4_2_autre: '',
+        q4_3: [], q4_3_autre: '',
+        q4_4: '', q4_4_skip: false,
+        // Axe 5
+        q5_1: null, q5_1_autre: '',
+        q5_2: null,
+        q5_3: null,
+        // Axe 6
+        q6_1: null, q6_2: null, q6_3: null, q6_4: null,
+        q6_5: null, q6_6: null, q6_7: null, q6_8: null,
+        // Axe 7
+        q7_1: [], // multi max 3
+        q7_2: '', q7_2_skip: false,
+        // Axe 8
+        q8_1: null, q8_2: null, q8_3: null,
+        q8_4: [], // multi
+        q8_5: null,
       });
 
       const [copyMsg, setCopyMsg] = useState('');
-      const containerRef = useRef(null);
 
-      const set = useCallback((key, val) => {
-        setAnswers(prev => ({ ...prev, [key]: val }));
-      }, []);
+      const set = useCallback((key, val) => setA(prev => ({ ...prev, [key]: val })), []);
 
-      const setNested = useCallback((group, key, val) => {
-        setAnswers(prev => ({ ...prev, [group]: { ...prev[group], [key]: val } }));
-      }, []);
+      useEffect(() => { window.scrollTo({ top: 0, behavior: 'smooth' }); }, [step]);
 
-      // Scroll to top on step change
-      useEffect(() => {
-        if (containerRef.current) containerRef.current.scrollTo({ top: 0, behavior: 'smooth' });
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }, [step]);
-
-      // Debt count helper
-      const debtCount = useMemo(() => {
-        const map = { 'Aucune': 0, '1': 1, '2': 2, '3': 3, '4 ou plus': 4 };
-        return map[answers.nombre_dettes] ?? 0;
-      }, [answers.nombre_dettes]);
-
-      // Ensure debts array matches count
-      useEffect(() => {
-        if (debtCount > answers.dettes.length) {
-          const newDebts = [...answers.dettes];
-          while (newDebts.length < debtCount) {
-            newDebts.push({ type: null, solde: null, paiement_min: null, taux: null, taux_inconnu: false });
-          }
-          set('dettes', newDebts);
-        }
-      }, [debtCount]);
-
-      const setDebt = (idx, key, val) => {
-        setAnswers(prev => {
-          const d = [...prev.dettes];
-          d[idx] = { ...d[idx], [key]: val };
-          return { ...prev, dettes: d };
-        });
-      };
-
-      // Fixed expenses subtotal
-      const fixedTotal = useMemo(() => {
-        let total = 0;
-        Object.entries(answers.depenses_fixes).forEach(([, v]) => { if (v) total += v; });
-        if (answers.depenses_fixes_autre_montant) total += answers.depenses_fixes_autre_montant;
-        // Adjust taxes foncieres if annual
-        if (answers.taxes_foncieres_annuel && answers.depenses_fixes.taxes_foncieres) {
-          total -= answers.depenses_fixes.taxes_foncieres;
-          total += Math.round(answers.depenses_fixes.taxes_foncieres / 12);
-        }
-        return total;
-      }, [answers.depenses_fixes, answers.depenses_fixes_autre_montant, answers.taxes_foncieres_annuel]);
-
-      // Step definitions — each step knows its block (1-8 for progress), condition, and render
-      // STEP MAP:
+      // ─── Step mapping ──────────────────────────────────────────
       // 0: Welcome
-      // 1: Block1 intro + Q1.1
-      // 2: Q1.2
-      // 3: Q1.3
-      // 4: Block2 intro + Q2.1
-      // 5: Q2.2
-      // 6: Block3 intro + Q3.1
-      // 7: Q3.2 debt 1
-      // 8: Q3.2 debt 2
-      // 9: Q3.2 debt 3
-      // 10: Q3.2 debt 4
-      // 11: Q3.3
-      // 12: Block4 intro + Q4.1
-      // 13: Q4.2
-      // 14: Block5 intro + Q5.1
-      // 15: Q5.2 (conditional)
-      // 16: Q5.3
-      // 17: Q5.4 (conditional)
-      // 18: Block6 intro + Q6.1
-      // 19: Q6.2
-      // 20: Q6.3
-      // 21: Block7 intro + Q7.1
-      // 22: Q7.2
-      // 23: Q7.3
-      // 24: Q7.4
-      // 25: Block8 intro + Q8.1
-      // 26: End
+      // 1-4: Axe 1 (Q1.1-Q1.4)
+      // 5-8: Axe 2 (Q2.1-Q2.4)
+      // 9-12: Axe 3 (Q3.1-Q3.4)
+      // 13-16: Axe 4 (Q4.1-Q4.4, Q4.2+Q4.3 conditional)
+      // 17-19: Axe 5 (Q5.1-Q5.3)
+      // 20-27: Axe 6 (Q6.1-Q6.8)
+      // 28-29: Axe 7 (Q7.1 conditional, Q7.2)
+      // 30-34: Axe 8 (Q8.1-Q8.5)
+      // 35: End
 
-      const TOTAL_BLOCKS = 8;
-
-      const stepBlock = (s) => {
+      const TOTAL_AXES = 8;
+      const stepToAxe = (s) => {
         if (s <= 0) return 0;
-        if (s <= 3) return 1;
-        if (s <= 5) return 2;
-        if (s <= 11) return 3;
-        if (s <= 13) return 4;
-        if (s <= 17) return 5;
-        if (s <= 20) return 6;
-        if (s <= 24) return 7;
-        if (s <= 25) return 8;
+        if (s <= 4) return 1;
+        if (s <= 8) return 2;
+        if (s <= 12) return 3;
+        if (s <= 16) return 4;
+        if (s <= 19) return 5;
+        if (s <= 27) return 6;
+        if (s <= 29) return 7;
+        if (s <= 34) return 8;
         return 9;
       };
 
+      // Positive scenario responses for Q7.1 filtering
+      const scenarioKeys = ['q6_1','q6_2','q6_3','q6_4','q6_5','q6_6','q6_7','q6_8'];
+      const scenarioLabels = {
+        q6_1: 'Savoir combien il me reste a depenser par categorie',
+        q6_2: 'Etre avertie quand je depasse',
+        q6_3: 'Voir quand mes dettes seront payees',
+        q6_4: 'Savoir si je vais manquer d\'argent avant la fin du mois',
+        q6_5: 'Avoir un bilan clair chaque mois',
+        q6_6: 'Logger mes depenses en quelques secondes',
+        q6_7: 'Etre felicitee quand j\'atteins un objectif',
+        q6_8: 'Recevoir un resume tranquille de ma journee',
+      };
+      // Each scenario: first 2 options are "positive"
+      const scenarioOptions = {
+        q6_1: ['Oui, beaucoup', 'Oui, un peu', 'Pas vraiment', 'Je ne suis pas sure'],
+        q6_2: ["Ca m'aiderait a m'arreter", 'Je le verrais mais ca changerait probablement rien', 'Ca me stresserait trop', 'Ca depend de mon humeur'],
+        q6_3: ['Oui, beaucoup', 'Oui, un peu', 'Pas vraiment', 'Je ne suis pas sure'],
+        q6_4: ['Oui, beaucoup', 'Oui, un peu', 'Pas vraiment', 'Je ne suis pas sure'],
+        q6_5: ['Oui, beaucoup', 'Oui, un peu', 'Pas vraiment', 'Je ne suis pas sure'],
+        q6_6: ['Oui, a chaque achat', 'Oui, pour les gros achats', 'Peut-etre, si j\'y pense', 'Probablement pas'],
+        q6_7: ['Ca me motiverait beaucoup', "C'est un beau bonus mais pas essentiel", "J'ai pas besoin de ca", 'Je ne suis pas sure'],
+        q6_8: ["J'aimerais ca, c'est rassurant", 'Utile mais pas tous les soirs', 'Ca me stresserait', "J'aimerais mieux checker moi-meme quand j'en ai envie"],
+      };
+
+      const positiveScenarios = useMemo(() => {
+        return scenarioKeys.filter(k => {
+          const opts = scenarioOptions[k];
+          return a[k] === opts[0] || a[k] === opts[1];
+        });
+      }, [a.q6_1, a.q6_2, a.q6_3, a.q6_4, a.q6_5, a.q6_6, a.q6_7, a.q6_8]);
+
+      const skipQ7_1 = positiveScenarios.length <= 3;
+
       const shouldShow = (s) => {
-        // Debt detail steps — only show if enough debts
-        if (s === 7) return debtCount >= 1;
-        if (s === 8) return debtCount >= 2;
-        if (s === 9) return debtCount >= 3;
-        if (s === 10) return debtCount >= 4;
-        // Q3.3 only if debts > 0
-        if (s === 11) return debtCount > 0;
-        // Q5.2 only if app selected
-        if (s === 15) return answers.suivi_actuel === "J'utilise une app";
-        // Q5.4 only if budget attempted
-        if (s === 17) return answers.budget_tente && answers.budget_tente !== 'Non, jamais';
+        if (s === 14) return a.q4_1 && a.q4_1 !== 'Non, jamais';
+        if (s === 15) return a.q4_1 && a.q4_1 !== 'Non, jamais';
+        if (s === 28) return !skipQ7_1;
         return true;
       };
 
-      const goNext = () => {
-        let next = step + 1;
-        while (next <= 26 && !shouldShow(next)) next++;
-        setStep(Math.min(next, 26));
-      };
+      const goNext = () => { let n = step + 1; while (n <= 35 && !shouldShow(n)) n++; setStep(Math.min(n, 35)); };
+      const goBack = () => { let n = step - 1; while (n >= 0 && !shouldShow(n)) n--; setStep(Math.max(n, 0)); };
 
-      const goBack = () => {
-        let prev = step - 1;
-        while (prev >= 0 && !shouldShow(prev)) prev--;
-        setStep(Math.max(prev, 0));
-      };
+      const currentAxe = stepToAxe(step);
 
-      // ─── Export helpers ────────────────────────────────────────
-      const buildJSON = () => {
-        const duration = Math.round((Date.now() - startTime.current) / 60000);
-        const now = new Date().toISOString();
+      // ─── Design Signals Generator ────────────────────────────
+      const generateDesignSignals = () => {
+        // ton_app: Q1.1 + Q1.2 + Q1.3
+        let ton = '';
+        const emo = a.q1_1;
+        if (emo === 'Du stress ou de l\'anxiete') ton = 'Rassurante et normalisante';
+        else if (emo === 'De la culpabilite') ton = 'Normalisante, zero jugement, focus sur le progres';
+        else if (emo === 'De la confusion — je sais pas trop ou j\'en suis') ton = 'Clarifiante, dashboards simples, metaphores visuelles';
+        else if (emo === 'De la frustration — je devrais etre plus avancee') ton = 'Orientee action, objectifs clairs, progression visible';
+        else if (emo === 'Pas grand-chose, c\'est correct') ton = 'Utilitaire, moins d\'emotional design';
+        else ton = 'A determiner';
 
-        const revenuMap = {
-          'Moins de 2 500$': 'moins_2500',
-          '2 500$ - 3 500$': '2500-3500',
-          '3 500$ - 4 500$': '3500-4500',
-          '4 500$ - 5 500$': '4500-5500',
-          'Plus de 5 500$': 'plus_5500',
-          'Je prefere ne pas repondre': 'non_divulgue',
-        };
+        const evitement = a.q1_2;
+        if (evitement === 'Oui, souvent — j\'aime mieux pas savoir') ton += ' — evitement eleve, montrer le positif en premier';
+        else if (evitement === 'Non, je check tout le temps (peut-etre trop)') ton += ' — check compulsif, calmer plutot qu\'alimenter';
 
-        const stabiliteMap = {
-          'Oui, c\'est regulier (salaire fixe)': 'regulier',
-          'Ca varie un peu': 'varie_peu',
-          'Ca varie beaucoup': 'varie_beaucoup',
-          'Je ne suis pas sure': 'incertain',
-        };
+        const tolerance = a.q1_3;
+        if (tolerance === 'Ca me motiverait a faire mieux le mois prochain') ton += ', tolerance a la verite elevee';
+        else if (tolerance === 'Ca me decouragerait un peu' || tolerance === 'Ca me donnerait le gout de fermer l\'app et de pas y revenir') ton += ', tolerance a la verite faible — reframer en positif';
 
-        const logementMap = {
-          'Proprietaire': 'proprietaire',
-          'Locataire': 'locataire',
-          'Autre situation': 'autre',
-        };
+        // intervention_timing: Q2.1 + Q3.2
+        let timing = a.q2_1 || 'Non precise';
+        if (a.q3_2.length) timing += ' + declencheurs: ' + a.q3_2.slice(0, 3).join(', ');
 
-        const fixedItems = [];
-        FIXED_EXPENSE_CATS.forEach(cat => {
-          let montant = answers.depenses_fixes[cat.key];
-          if (montant) {
-            if (cat.key === 'taxes_foncieres' && answers.taxes_foncieres_annuel) {
-              montant = Math.round(montant / 12);
-            }
-            fixedItems.push({ categorie: cat.key, montant_mensuel: montant });
-          }
-        });
-        if (answers.depenses_fixes_autre_montant) {
-          fixedItems.push({ categorie: answers.depenses_fixes_autre_label || 'autre', montant_mensuel: answers.depenses_fixes_autre_montant });
-        }
+        // dashboard_principal: Q7.1 (top 3)
+        let dashboard = a.q7_1.length ? a.q7_1.join(' + ') : (positiveScenarios.length <= 3
+          ? positiveScenarios.map(k => scenarioLabels[k]).join(' + ')
+          : 'A determiner par priorisation');
 
-        const debtItems = answers.dettes.slice(0, debtCount).map(d => ({
-          type: d.type ? d.type.toLowerCase().replace(/ /g, '_').replace(/é/g, 'e') : null,
-          solde: d.solde,
-          paiement_minimum: d.paiement_min,
-          taux_interet: d.taux_inconnu ? null : d.taux,
-        }));
+        // engagement_model: Q8.1 + Q6.7 + Q6.8
+        let engagement = a.q8_1 || 'Non precise';
+        const q67 = a.q6_7;
+        const q68 = a.q6_8;
+        if (q67 === 'Ca me motiverait beaucoup' || q67 === "C'est un beau bonus mais pas essentiel") engagement += ', milestones/streaks';
+        if (q68 === "J'aimerais ca, c'est rassurant" || q68 === 'Utile mais pas tous les soirs') engagement += ', daily digest';
 
-        const sentimentMap = {
-          "C'est gerable, mais je veux m'en debarrasser plus vite": 'gerable',
-          'Ca me stresse pas mal': 'stresse',
-          'Je me sens depassee': 'depassee',
-          "J'y pense pas trop": 'indifferent',
-        };
+        // presentation_ecarts: Q1.3
+        let ecarts = 'Directe, orientee action';
+        if (tolerance === 'Ca me decouragerait un peu') ecarts = 'Reframee en positif — jamais d\'ecart brut';
+        else if (tolerance === 'Ca me donnerait le gout de fermer l\'app et de pas y revenir') ecarts = 'Micro-objectifs quotidiens, zero bilan mensuel brutal';
+        else if (tolerance === 'Ca m\'informerait — c\'est utile de savoir') ecarts = 'Informative et factuelle';
 
-        const variableItems = VARIABLE_CATS.map(cat => ({
-          categorie: cat.key,
-          fourchette: answers.variables[cat.key] || null,
-        })).filter(i => i.fourchette);
+        // onboarding_urgency: Q4.1 + Q4.3
+        let onboarding = 'Standard';
+        if (a.q4_1 === 'Oui, plusieurs fois') onboarding = 'Doit livrer du value percu en < 2 minutes — abandonneuse multiple';
+        else if (a.q4_1 === 'Oui, une fois') onboarding = 'Value rapide important — une tentative precedente echouee';
+        else if (a.q4_1 === 'Non, jamais') onboarding = 'Premiere experience — onboarding pedagogique';
+        if (a.q4_3.length) onboarding += '. Raisons abandon: ' + a.q4_3.slice(0, 2).join(', ');
 
-        const declSlugMap = {
-          'Quand je suis stressee ou fatiguee': 'stress_fatigue',
-          'Quand je suis avec des amis': 'amis',
-          'Les achats en ligne le soir': 'achats_en_ligne_soir',
-          'Les aubaines / promotions': 'aubaines_promos',
-          "L'epicerie (j'achete plus que prevu)": 'epicerie_surplus',
-          'Les restos / sorties': 'restos_sorties',
-        };
+        // automation_level: Q8.3
+        let automation = 'Non precise';
+        if (a.q8_3 === 'Me laisse tout controler et decider moi-meme') automation = 'Manuel — l\'utilisatrice configure tout';
+        else if (a.q8_3 === 'Me suggere des choses mais me laisse le dernier mot') automation = 'Semi-auto — suggestions avec dernier mot';
+        else if (a.q8_3 === 'Prend des decisions pour moi le plus possible (ex: allouer les budgets automatiquement)') automation = 'Pilote automatique — budget auto base sur les patterns';
 
-        const suiviMap = {
-          'Je ne les suis pas vraiment': 'aucun',
-          'Je regarde mes releves bancaires de temps en temps': 'releves',
-          "J'ai un fichier Excel ou un cahier": 'excel_cahier',
-          "J'utilise une app": 'app',
-        };
-
-        const budgetMap = {
-          'Non, jamais': 'jamais',
-          "Oui, mais j'ai lache assez vite": 'oui_lache_vite',
-          "Oui, ca a marche un temps mais j'ai arrete": 'oui_arrete',
-          "Oui, j'en ai un mais je le respecte pas": 'oui_pas_respecte',
-        };
-
-        const prioriteMap = {
-          'Rembourser mes dettes': 'rembourser_dettes',
-          'Arreter de depasser mon budget': 'arreter_depasser',
-          "Me batir un coussin d'urgence": 'coussin_urgence',
-          'Reduire mon stress financier': 'reduire_stress',
-        };
-
-        const horizonMap = {
-          "D'ici 3 mois": '3_mois',
-          "D'ici 6 mois": '6_mois',
-          "D'ici 1 an": '1_an',
-          'Je veux juste que ca aille mieux, pas de deadline': 'pas_deadline',
-        };
-
-        const freqMap = {
-          'A chaque achat (ou presque)': 'chaque_achat',
-          'Une fois par jour, le soir': 'une_fois_par_jour',
-          'Quelques fois par semaine': 'quelques_fois_semaine',
-          'Une fois par semaine': 'une_fois_semaine',
-          'Le moins possible': 'le_moins_possible',
-        };
-
-        const affMap = {
-          'Des graphiques visuels (barres, cercles, courbes)': 'graphiques',
-          'Des chiffres simples et clairs': 'chiffres',
-          'Un melange des deux': 'melange',
-          'Je ne sais pas': 'incertain',
-        };
-
-        const notifMap = {
-          'Oui, pour me rappeler de noter mes depenses': 'rappel_saisie',
-          'Oui, si j\'approche de ma limite de budget': 'approche_limite',
-          'Oui, les deux': 'les_deux',
-          'Non, pas de notifications': 'aucune',
-        };
-
-        const confMap = {
-          'Non, c\'est juste pour moi': 'juste_pour_moi',
-          'Peut-etre, avec mon conjoint ou une personne de confiance': 'partage_possible',
-          'Je ne sais pas encore': 'incertain',
-        };
+        // privacy_level: Q1.4 + Q8.5
+        let privacy = 'Standard';
+        if (a.q8_5 === 'Oui, beaucoup — c\'est tres prive') privacy = 'Eleve — Face ID par defaut, pas de montants sur lock screen';
+        else if (a.q8_5 === 'Un peu — je prefererais que non') privacy = 'Modere — Face ID optionnel, notifications generiques';
+        else if (a.q8_5 === 'Pas vraiment — c\'est pas un secret') privacy = 'Faible — pas de verrou necessaire';
+        if (a.q1_4 === 'Pas du tout — personne sait vraiment comment ca va' || a.q1_4 === 'Pas vraiment — c\'est un sujet que j\'evite') privacy += ', zero feature sociale';
 
         return {
-          metadata: { version: '1.0', date_completed: now, duration_minutes: duration },
-          portrait: {
-            revenu_mensuel_net: revenuMap[answers.revenu] || answers.revenu,
-            stabilite_revenu: stabiliteMap[answers.stabilite] || answers.stabilite,
-            logement: logementMap[answers.logement] || answers.logement,
+          ton_app: ton,
+          intervention_timing: timing,
+          dashboard_principal: dashboard,
+          engagement_model: engagement,
+          presentation_ecarts: ecarts,
+          onboarding_urgency: onboarding,
+          automation_level: automation,
+          privacy_level: privacy,
+        };
+      };
+
+      // ─── Slugify helper ────────────────────────────────────────
+      const slug = (s) => {
+        if (!s) return null;
+        return s.toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/[^a-z0-9]+/g, '_')
+          .replace(/^_|_$/g, '');
+      };
+
+      // ─── Export builders ───────────────────────────────────────
+      const buildJSON = () => {
+        const duration = Math.round((Date.now() - startTime.current) / 60000);
+        const signals = generateDesignSignals();
+
+        // top 3: if Q7.1 was skipped, use all positives
+        const top3 = skipQ7_1
+          ? positiveScenarios.map(k => scenarioLabels[k])
+          : a.q7_1;
+
+        const scenarioFeatures = {
+          q6_1: { key: 'budget_enveloppes_temps_reel', feature: 'Budget par enveloppes avec solde temps reel' },
+          q6_2: { key: 'alerte_depassement', feature: 'Notifications de depassement d\'enveloppe' },
+          q6_3: { key: 'projection_dette', feature: 'Projection snowball/avalanche avec timeline' },
+          q6_4: { key: 'forecast_fin_de_mois', feature: 'Cash flow forecast 30 jours' },
+          q6_5: { key: 'bilan_mensuel', feature: 'Rapport mensuel automatique' },
+          q6_6: { key: 'saisie_rapide', feature: 'Interface de saisie 2 taps' },
+          q6_7: { key: 'celebration_milestone', feature: 'Milestones + streaks + progress bar' },
+          q6_8: { key: 'check_in_soir', feature: 'Daily digest notification' },
+        };
+
+        const scenarios = {};
+        scenarioKeys.forEach(k => {
+          const sf = scenarioFeatures[k];
+          scenarios[sf.key] = { reponse: slug(a[k]), feature: sf.feature };
+        });
+
+        return {
+          metadata: { version: '4.0', type: 'needs_discovery', date_completed: new Date().toISOString(), duration_minutes: duration },
+          profil_emotionnel: {
+            reflexe_emotionnel: slug(a.q1_1) || (a.q1_1_autre ? a.q1_1_autre : null),
+            comportement_evitement: slug(a.q1_2),
+            seuil_tolerance_verite: slug(a.q1_3),
+            argent_tabou: slug(a.q1_4),
           },
-          depenses_fixes: {
-            items: fixedItems,
-            total_mensuel: fixedTotal,
-            notes: answers.depenses_fixes_notes || '',
+          pain_points: {
+            pire_moment_du_mois: slug(a.q2_1),
+            depenses_regrettees: a.q2_2.map(slug),
+            declencheur_prise_conscience: slug(a.q2_3) || (a.q2_3_autre ? a.q2_3_autre : null),
+            peur_principale: slug(a.q2_4) || (a.q2_4_autre ? a.q2_4_autre : null),
           },
-          dettes: {
-            nombre: debtCount,
-            items: debtItems,
-            sentiment: answers.sentiment_dettes
-              ? (sentimentMap[answers.sentiment_dettes] || (answers.sentiment_dettes === 'Autre' ? answers.sentiment_dettes_autre : answers.sentiment_dettes))
-              : null,
+          comportements: {
+            profil_depense: slug(a.q3_1),
+            declencheurs: a.q3_2.map(slug),
+            workarounds_actuels: [...a.q3_3.map(slug), ...(a.q3_3_autre ? [a.q3_3_autre] : [])],
+            mode_paiement: slug(a.q3_4),
           },
-          depenses_variables: {
-            items: variableItems,
-            declencheurs: [
-              ...answers.declencheurs.map(d => declSlugMap[d] || d),
-              ...(answers.declencheurs_autre ? [answers.declencheurs_autre] : []),
-            ],
+          historique_tentatives: {
+            nombre_tentatives: slug(a.q4_1),
+            ce_qui_marchait: [...a.q4_2.map(slug), ...(a.q4_2_autre ? [a.q4_2_autre] : [])],
+            raisons_abandon: [...a.q4_3.map(slug), ...(a.q4_3_autre ? [a.q4_3_autre] : [])],
+            app_de_reve_verbatim: a.q4_4_skip ? '' : (a.q4_4 || ''),
           },
-          habitudes: {
-            suivi_actuel: suiviMap[answers.suivi_actuel] || (answers.suivi_actuel === 'Autre' ? answers.suivi_actuel_autre : answers.suivi_actuel),
-            app_utilisee: answers.suivi_actuel === "J'utilise une app" ? answers.app_details : null,
-            budget_tente: budgetMap[answers.budget_tente] || answers.budget_tente,
-            raisons_echec: [
-              ...answers.raisons_echec.map(r => r.toLowerCase().replace(/ /g, '_').replace(/'/g, '').replace(/é/g, 'e')),
-              ...(answers.raisons_echec_autre ? [answers.raisons_echec_autre] : []),
-            ],
+          identite_aspirationnelle: {
+            vision_succes: slug(a.q5_1) || (a.q5_1_autre ? a.q5_1_autre : null),
+            modele_reference: slug(a.q5_2),
+            rapport_au_temps: slug(a.q5_3),
           },
-          motivation: {
-            objectif_libre: answers.objectif_libre || '',
-            priorite: prioriteMap[answers.priorite] || (answers.priorite === 'Autre' ? answers.priorite_autre : answers.priorite),
-            horizon: horizonMap[answers.horizon] || answers.horizon,
+          besoins_identifies: {
+            scenarios,
+            top_3_priorites: top3,
+            besoin_non_couvert: a.q7_2_skip ? '' : (a.q7_2 || ''),
           },
-          preferences_usage: {
-            frequence_saisie: freqMap[answers.frequence_saisie] || answers.frequence_saisie,
-            affichage: affMap[answers.affichage] || answers.affichage,
-            notifications: notifMap[answers.notifications] || answers.notifications,
-            confidentialite: confMap[answers.confidentialite] || answers.confidentialite,
+          preferences_interaction: {
+            rythme: slug(a.q8_1),
+            style_visuel: slug(a.q8_2),
+            controle_vs_autopilot: slug(a.q8_3),
+            notifications_acceptees: a.q8_4.map(slug),
+            confidentialite: slug(a.q8_5),
           },
-          question_ouverte: answers.question_ouverte_skip ? '' : (answers.question_ouverte || ''),
+          design_signals: signals,
         };
       };
 
@@ -531,74 +410,74 @@
         const dur = j.metadata.duration_minutes;
         const dateStr = new Date().toLocaleDateString('fr-CA', { year: 'numeric', month: 'long', day: 'numeric' });
 
-        let md = `# Evaluation des besoins financiers\n**Date :** ${dateStr} | **Duree :** ${dur} minutes\n\n`;
+        let md = `# Profil de decouverte des besoins — Finance personnelle\n**Date :** ${dateStr} | **Duree :** ${dur} minutes\n\n---\n\n`;
 
-        md += `## Portrait de base\n`;
-        md += `- Revenu net mensuel : ${answers.revenu || 'Non repondu'}\n`;
-        md += `- Stabilite : ${answers.stabilite || 'Non repondu'}\n`;
-        md += `- Logement : ${answers.logement || 'Non repondu'}\n\n`;
+        md += `## Profil emotionnel\n`;
+        md += `- Emotion primaire face a l'argent : ${a.q1_1 || 'Non repondu'}${a.q1_1 === 'Autre' && a.q1_1_autre ? ' — ' + a.q1_1_autre : ''}\n`;
+        md += `- Comportement d'evitement : ${a.q1_2 || 'Non repondu'}\n`;
+        md += `- Tolerance a la confrontation : ${a.q1_3 || 'Non repondu'}\n`;
+        md += `- Argent comme sujet social : ${a.q1_4 || 'Non repondu'}\n\n`;
 
-        md += `## Depenses fixes (total : ${fixedTotal}$/mois)\n`;
-        if (j.depenses_fixes.items.length) {
-          md += `| Categorie | Montant |\n|---|---|\n`;
-          j.depenses_fixes.items.forEach(i => {
-            md += `| ${i.categorie.replace(/_/g, ' ')} | ${i.montant_mensuel}$ |\n`;
-          });
-        } else {
-          md += `Aucune depense fixe saisie.\n`;
+        md += `## Points de douleur\n`;
+        md += `- Moment critique du mois : ${a.q2_1 || 'Non repondu'}\n`;
+        md += `- Depenses regrettees : ${a.q2_2.length ? a.q2_2.join(', ') : 'Non repondu'}\n`;
+        md += `- Declencheur de la prise de conscience : ${a.q2_3 || 'Non repondu'}${a.q2_3 === 'Autre' && a.q2_3_autre ? ' — ' + a.q2_3_autre : ''}\n`;
+        md += `- Peur principale : ${a.q2_4 || 'Non repondu'}${a.q2_4 === 'Autre' && a.q2_4_autre ? ' — ' + a.q2_4_autre : ''}\n\n`;
+
+        md += `## Comportements\n`;
+        md += `- Profil : ${a.q3_1 || 'Non repondu'}\n`;
+        md += `- Declencheurs : ${a.q3_2.length ? a.q3_2.join(', ') : 'Non repondu'}\n`;
+        md += `- Workarounds actuels : ${a.q3_3.length ? [...a.q3_3, ...(a.q3_3_autre ? [a.q3_3_autre] : [])].join(', ') : 'Non repondu'}\n`;
+        md += `- Mode de paiement principal : ${a.q3_4 || 'Non repondu'}\n\n`;
+
+        md += `## Historique des tentatives\n`;
+        md += `- Nombre : ${a.q4_1 || 'Non repondu'}\n`;
+        if (a.q4_1 && a.q4_1 !== 'Non, jamais') {
+          md += `- Ce qui avait marche : ${a.q4_2.length ? [...a.q4_2, ...(a.q4_2_autre ? [a.q4_2_autre] : [])].join(', ') : 'Non repondu'}\n`;
+          md += `- Raisons d'abandon : ${a.q4_3.length ? [...a.q4_3, ...(a.q4_3_autre ? [a.q4_3_autre] : [])].join(', ') : 'Non repondu'}\n`;
         }
-        if (j.depenses_fixes.notes) md += `\nNotes : ${j.depenses_fixes.notes}\n`;
+        md += `- App de reve (verbatim) : "${a.q4_4_skip ? '' : (a.q4_4 || '')}"\n\n`;
+
+        md += `## Identite aspirationnelle\n`;
+        md += `- Vision du succes : ${a.q5_1 || 'Non repondu'}${a.q5_1 === 'Autre' && a.q5_1_autre ? ' — ' + a.q5_1_autre : ''}\n`;
+        md += `- Modele de reference : ${a.q5_2 || 'Non repondu'}\n`;
+        md += `- Rapport au temps : ${a.q5_3 || 'Non repondu'}\n\n`;
+
+        md += `## Besoins identifies (scenarios)\n`;
+        md += `| Scenario | Interet | Feature technique |\n|---|---|---|\n`;
+        const scenarioNames = ['Voir combien il reste par categorie', 'Warning de depassement', 'Date de fin de dettes', 'Radar de fin de mois', 'Bilan mensuel', 'Saisie en 5 secondes', 'Celebration d\'objectif', 'Check-in du soir'];
+        const featureNames = ['Budget enveloppes temps reel', 'Alertes d\'enveloppe', 'Projection snowball/avalanche', 'Cash flow forecast', 'Rapport mensuel auto', 'Interface 2 taps', 'Milestones + streaks', 'Daily digest'];
+        scenarioKeys.forEach((k, i) => {
+          md += `| ${scenarioNames[i]} | ${a[k] || 'Non repondu'} | ${featureNames[i]} |\n`;
+        });
+
+        const top3 = skipQ7_1
+          ? positiveScenarios.map(k => scenarioLabels[k])
+          : a.q7_1;
+        if (top3.length) {
+          md += `\n### Top 3 priorites\n`;
+          top3.forEach((t, i) => { md += `${i + 1}. ${t}\n`; });
+        }
+        if (!a.q7_2_skip && a.q7_2) md += `\n**Besoin non couvert :** ${a.q7_2}\n`;
         md += '\n';
 
-        md += `## Dettes (${j.dettes.nombre})\n`;
-        if (j.dettes.items.length) {
-          j.dettes.items.forEach((d, i) => {
-            md += `### Dette ${i + 1}\n`;
-            md += `- Type : ${d.type || 'Non precise'}\n`;
-            md += `- Solde : ${d.solde ? d.solde + '$' : 'Non precise'}\n`;
-            md += `- Paiement minimum : ${d.paiement_minimum ? d.paiement_minimum + '$/mois' : 'Non precise'}\n`;
-            md += `- Taux d'interet : ${d.taux_interet ? d.taux_interet + '%' : 'Inconnu'}\n`;
-          });
-        } else {
-          md += `Aucune dette.\n`;
-        }
-        if (j.dettes.sentiment) md += `\nSentiment : ${j.dettes.sentiment}\n`;
-        md += '\n';
+        md += `## Preferences d'interaction\n`;
+        md += `- Rythme : ${a.q8_1 || 'Non repondu'}\n`;
+        md += `- Style visuel : ${a.q8_2 || 'Non repondu'}\n`;
+        md += `- Controle : ${a.q8_3 || 'Non repondu'}\n`;
+        md += `- Notifications : ${a.q8_4.length ? a.q8_4.join(', ') : 'Non repondu'}\n`;
+        md += `- Confidentialite : ${a.q8_5 || 'Non repondu'}\n\n`;
 
-        md += `## Depenses variables\n`;
-        if (j.depenses_variables.items.length) {
-          j.depenses_variables.items.forEach(i => {
-            md += `- ${i.categorie.replace(/_/g, ' ')} : ${i.fourchette}\n`;
-          });
-        }
-        if (j.depenses_variables.declencheurs.length) {
-          md += `\n**Declencheurs de depenses :** ${j.depenses_variables.declencheurs.join(', ')}\n`;
-        }
-        md += '\n';
-
-        md += `## Habitudes actuelles\n`;
-        md += `- Suivi : ${j.habitudes.suivi_actuel || 'Non repondu'}\n`;
-        if (j.habitudes.app_utilisee) md += `- App utilisee : ${j.habitudes.app_utilisee}\n`;
-        md += `- Budget tente : ${j.habitudes.budget_tente || 'Non repondu'}\n`;
-        if (j.habitudes.raisons_echec.length) {
-          md += `- Raisons d'echec : ${j.habitudes.raisons_echec.join(', ')}\n`;
-        }
-        md += '\n';
-
-        md += `## Motivation\n`;
-        md += `- Objectif : ${j.motivation.objectif_libre || 'Non repondu'}\n`;
-        md += `- Priorite #1 : ${j.motivation.priorite || 'Non repondu'}\n`;
-        md += `- Horizon : ${j.motivation.horizon || 'Non repondu'}\n\n`;
-
-        md += `## Preferences d'usage\n`;
-        md += `- Frequence de saisie : ${j.preferences_usage.frequence_saisie || 'Non repondu'}\n`;
-        md += `- Affichage prefere : ${j.preferences_usage.affichage || 'Non repondu'}\n`;
-        md += `- Notifications : ${j.preferences_usage.notifications || 'Non repondu'}\n`;
-        md += `- Confidentialite : ${j.preferences_usage.confidentialite || 'Non repondu'}\n\n`;
-
-        if (j.question_ouverte) {
-          md += `## Question ouverte\n${j.question_ouverte}\n`;
-        }
+        md += `---\n\n## Signaux de design (genere automatiquement)\n`;
+        const signals = generateDesignSignals();
+        md += `- **Ton :** ${signals.ton_app}\n`;
+        md += `- **Timing d'intervention :** ${signals.intervention_timing}\n`;
+        md += `- **Dashboard :** ${signals.dashboard_principal}\n`;
+        md += `- **Engagement :** ${signals.engagement_model}\n`;
+        md += `- **Ecarts :** ${signals.presentation_ecarts}\n`;
+        md += `- **Onboarding :** ${signals.onboarding_urgency}\n`;
+        md += `- **Automation :** ${signals.automation_level}\n`;
+        md += `- **Privacy :** ${signals.privacy_level}\n`;
 
         return md;
       };
@@ -606,32 +485,23 @@
       const downloadFile = (content, filename, type) => {
         const blob = new Blob([content], { type });
         const url = URL.createObjectURL(blob);
-        const a = document.createElement('a');
-        a.href = url; a.download = filename; a.click();
+        const el = document.createElement('a');
+        el.href = url; el.download = filename; el.click();
         URL.revokeObjectURL(url);
       };
 
       const handleExport = () => {
-        downloadFile(JSON.stringify(buildJSON(), null, 2), 'evaluation-financiere.json', 'application/json');
-        setTimeout(() => {
-          downloadFile(buildMarkdown(), 'evaluation-financiere.md', 'text/markdown');
-        }, 300);
+        downloadFile(JSON.stringify(buildJSON(), null, 2), 'decouverte-besoins.json', 'application/json');
+        setTimeout(() => downloadFile(buildMarkdown(), 'decouverte-besoins.md', 'text/markdown'), 300);
       };
 
       const handleCopy = async () => {
-        try {
-          await navigator.clipboard.writeText(buildMarkdown());
-          setCopyMsg('Copie!');
-          setTimeout(() => setCopyMsg(''), 2000);
-        } catch {
-          setCopyMsg('Erreur de copie');
-          setTimeout(() => setCopyMsg(''), 2000);
-        }
+        try { await navigator.clipboard.writeText(buildMarkdown()); setCopyMsg('Copie!'); }
+        catch { setCopyMsg('Erreur'); }
+        setTimeout(() => setCopyMsg(''), 2000);
       };
 
-      // ─── Step Renderers ────────────────────────────────────────
-      const currentBlock = stepBlock(step);
-
+      // ─── Render Steps ──────────────────────────────────────────
       const renderStep = () => {
         switch (step) {
 
@@ -640,531 +510,572 @@
             return (
               <div className="flex flex-col items-center justify-center min-h-[70vh] text-center fade-in">
                 <div className="w-16 h-16 bg-ocean-100 rounded-full flex items-center justify-center mb-6">
-                  <svg className="w-8 h-8 text-ocean-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                  <svg className="w-8 h-8 text-ocean-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" /></svg>
                 </div>
                 <p className="text-slate-700 text-lg leading-relaxed mb-8 max-w-sm">
-                  Salut! Ce petit questionnaire va m'aider a comprendre ta situation financiere et ce dont tu aurais besoin comme outil pour t'aider. Y'a pas de bonnes ou de mauvaises reponses — c'est juste pour avoir un portrait clair. Ca prend environ 10-15 minutes. Tout reste sur ton telephone, rien n'est envoye nulle part.
+                  Salut! Ce questionnaire va m'aider a comprendre comment tu vis ta relation avec l'argent, et ce qui t'aiderait vraiment au quotidien. Y'a pas de bonnes ou de mauvaises reponses. On te demande aucun montant, aucun chiffre — c'est pas un formulaire de banque. Ca prend environ 12-15 minutes. Tout reste sur ton telephone.
                 </p>
-                <button onClick={goNext}
-                  className="px-8 py-4 bg-ocean-600 text-white rounded-2xl text-lg font-medium active:bg-ocean-700 transition-colors min-h-[44px]">
-                  C'est parti
-                </button>
+                <button onClick={goNext} className="px-8 py-4 bg-ocean-600 text-white rounded-2xl text-lg font-medium active:bg-ocean-700 min-h-[44px]">C'est parti</button>
               </div>
             );
 
-          // ── Block 1: Portrait ──
+          // ── Axe 1: Profil emotionnel ──
           case 1:
             return (
               <div className="fade-in">
-                <BlockIntro text="On commence par les grandes lignes. Juste pour comprendre le decor." />
-                <Question text="Ton revenu net par mois (ce qui tombe dans ton compte apres les deductions), c'est environ combien?">
-                  <ChipGroup
-                    options={['Moins de 2 500$', '2 500$ - 3 500$', '3 500$ - 4 500$', '4 500$ - 5 500$', 'Plus de 5 500$', 'Je prefere ne pas repondre']}
-                    value={answers.revenu}
-                    onChange={v => set('revenu', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Intro text="On commence par quelque chose de simple : comment tu te sens par rapport a l'argent en general. C'est pas un test de personnalite — c'est juste pour comprendre ton point de depart." />
+                <Q text="Quand tu penses a tes finances, c'est quoi la premiere chose que tu ressens?">
+                  <ChipGroup options={[
+                    'Du stress ou de l\'anxiete', 'De la culpabilite',
+                    'De la confusion — je sais pas trop ou j\'en suis',
+                    'De la frustration — je devrais etre plus avancee',
+                    'Pas grand-chose, c\'est correct', 'Autre'
+                  ]} value={a.q1_1} onChange={v => set('q1_1', v)} />
+                  {a.q1_1 === 'Autre' && <div className="mt-3"><TextInput value={a.q1_1_autre} onChange={v => set('q1_1_autre', v)} placeholder="Precise..." /></div>}
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
           case 2:
             return (
               <div className="fade-in">
-                <Question text="Est-ce que ton revenu est pas mal stable d'un mois a l'autre?">
-                  <ChipGroup
-                    options={["Oui, c'est regulier (salaire fixe)", 'Ca varie un peu', 'Ca varie beaucoup', 'Je ne suis pas sure']}
-                    value={answers.stabilite}
-                    onChange={v => set('stabilite', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Est-ce que ca t'arrive d'eviter de regarder ton compte bancaire?">
+                  <ChipGroup options={[
+                    'Oui, souvent — j\'aime mieux pas savoir',
+                    'Des fois, quand je sais que ca va etre laid',
+                    'Rarement — je regarde assez regulierement',
+                    'Non, je check tout le temps (peut-etre trop)'
+                  ]} value={a.q1_2} onChange={v => set('q1_2', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
           case 3:
             return (
               <div className="fade-in">
-                <Question text="Tu es...">
-                  <ChipGroup
-                    options={['Proprietaire', 'Locataire', 'Autre situation']}
-                    value={answers.logement}
-                    onChange={v => set('logement', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Si une app te montrait exactement combien t'as depense de trop dans un mois, ca te ferait quoi?">
+                  <ChipGroup options={[
+                    'Ca me motiverait a faire mieux le mois prochain',
+                    'Ca m\'informerait — c\'est utile de savoir',
+                    'Ca me decouragerait un peu',
+                    'Ca me donnerait le gout de fermer l\'app et de pas y revenir'
+                  ]} value={a.q1_3} onChange={v => set('q1_3', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          // ── Block 2: Depenses fixes ──
           case 4:
             return (
               <div className="fade-in">
-                <BlockIntro text="Maintenant, on regarde ce qui sort chaque mois de maniere automatique ou previsible. C'est ton 'cout d'exister' — les depenses qui sont la, qu'on le veuille ou non." />
-                <p className="text-slate-600 text-sm mb-4">Pour chaque categorie qui s'applique, entre le montant mensuel approximatif. Laisse vide si ca ne s'applique pas.</p>
-
-                <div className="space-y-3">
-                  {FIXED_EXPENSE_CATS.map(cat => (
-                    <div key={cat.key} className="bg-white rounded-xl border-2 border-slate-200 p-3">
-                      <div className="flex justify-between items-center mb-2">
-                        <label className="text-sm font-medium text-slate-700 flex-1 pr-2">{cat.label}</label>
-                        <button type="button"
-                          onClick={() => {
-                            setNested('depenses_fixes_na', cat.key, !answers.depenses_fixes_na[cat.key]);
-                            if (!answers.depenses_fixes_na[cat.key]) setNested('depenses_fixes', cat.key, null);
-                          }}
-                          className={`text-xs px-2.5 py-1 rounded-lg min-h-[32px] ${answers.depenses_fixes_na[cat.key] ? 'bg-slate-200 text-slate-500' : 'bg-slate-100 text-slate-400'}`}>
-                          {answers.depenses_fixes_na[cat.key] ? 'N/A' : 'Ne s\'applique pas'}
-                        </button>
-                      </div>
-                      {!answers.depenses_fixes_na[cat.key] && (
-                        <div className="flex items-center gap-2">
-                          <NumberInput
-                            value={answers.depenses_fixes[cat.key]}
-                            onChange={v => setNested('depenses_fixes', cat.key, v)}
-                            placeholder="Montant$"
-                          />
-                          {cat.key === 'taxes_foncieres' && (
-                            <button type="button"
-                              onClick={() => set('taxes_foncieres_annuel', !answers.taxes_foncieres_annuel)}
-                              className={`text-xs px-2 py-1 rounded-lg whitespace-nowrap min-h-[32px] ${answers.taxes_foncieres_annuel ? 'bg-ocean-100 text-ocean-700' : 'bg-slate-100 text-slate-500'}`}>
-                              {answers.taxes_foncieres_annuel ? 'annuel' : 'mensuel'}
-                            </button>
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  ))}
-
-                  {/* Autre depense fixe */}
-                  <div className="bg-white rounded-xl border-2 border-slate-200 p-3">
-                    <label className="text-sm font-medium text-slate-700 block mb-2">Autre depense fixe</label>
-                    <input type="text" placeholder="Description"
-                      className="w-full px-3 py-2 rounded-lg border border-slate-200 text-sm mb-2 min-h-[40px]"
-                      value={answers.depenses_fixes_autre_label}
-                      onChange={e => set('depenses_fixes_autre_label', e.target.value)}
-                    />
-                    <NumberInput
-                      value={answers.depenses_fixes_autre_montant}
-                      onChange={v => set('depenses_fixes_autre_montant', v)}
-                      placeholder="Montant$"
-                    />
-                  </div>
-                </div>
-
-                {/* Subtotal */}
-                <div className="mt-4 p-4 bg-ocean-50 rounded-xl border-2 border-ocean-200">
-                  <div className="flex justify-between items-center">
-                    <span className="font-medium text-ocean-700">Sous-total mensuel</span>
-                    <span className="text-xl font-bold text-ocean-700">{fixedTotal.toLocaleString('fr-CA')}$</span>
-                  </div>
-                </div>
-
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Est-ce que l'argent est un sujet facile a aborder avec les gens autour de toi?">
+                  <ChipGroup options={[
+                    'Oui, j\'en parle assez ouvertement',
+                    'Avec certaines personnes, oui',
+                    'Pas vraiment — c\'est un sujet que j\'evite',
+                    'Pas du tout — personne sait vraiment comment ca va'
+                  ]} value={a.q1_4} onChange={v => set('q1_4', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
+          // ── Axe 2: Pain points ──
           case 5:
             return (
               <div className="fade-in">
-                <Question text="Est-ce qu'il y a d'autres depenses fixes mensuelles qu'on n'a pas couvertes?">
-                  <TextInput
-                    value={answers.depenses_fixes_notes}
-                    onChange={v => set('depenses_fixes_notes', v)}
-                    placeholder="Optionnel — laisse vide si c'est complet"
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Intro text="Maintenant, on va parler des moments difficiles. Ceux ou tu sens que ca derape, ou que t'es pas a l'aise." />
+                <Q text="C'est quand dans le mois que tu te sens le plus stressee par l'argent?">
+                  <ChipGroup options={[
+                    'Au debut, quand toutes les factures tombent',
+                    'Au milieu, quand je realise qu\'il reste pas tant d\'argent',
+                    'A la fin, quand j\'attends la prochaine paie',
+                    'Apres un gros achat ou une depense imprevue',
+                    'Ca depend — c\'est pas previsible',
+                    'Pas vraiment de moment pire qu\'un autre'
+                  ]} value={a.q2_1} onChange={v => set('q2_1', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          // ── Block 3: Dettes ──
           case 6:
             return (
               <div className="fade-in">
-                <BlockIntro text="On va parler des dettes. C'est normal d'en avoir — la majorite du monde en a. L'idee c'est juste d'avoir le portrait pour pouvoir batir un plan realiste." />
-                <Question text="En ce moment, combien de dettes differentes tu rembourses? (ligne de credit, carte de credit, pret, etc.)">
-                  <ChipGroup
-                    options={['Aucune', '1', '2', '3', '4 ou plus']}
-                    value={answers.nombre_dettes}
-                    onChange={v => set('nombre_dettes', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Quel genre de depense te cause le plus de regret apres coup?" note="Tu peux en choisir jusqu'a 3.">
+                  <MultiChipGroup max={3} options={[
+                    'Les achats impulsifs en ligne',
+                    'Les restos et sorties qui s\'accumulent',
+                    'Les abonnements que j\'oublie que j\'ai',
+                    'Les cadeaux ou les depenses sociales (pour faire plaisir)',
+                    'L\'epicerie qui coute toujours plus que prevu',
+                    'Les soins ou traitements que je peux pas eviter',
+                    'Rien de specifique — c\'est l\'accumulation de tout',
+                    'Je regrette rarement mes depenses'
+                  ]} values={a.q2_2} onChange={v => set('q2_2', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          case 7: case 8: case 9: case 10: {
-            const idx = step - 7;
-            const debt = answers.dettes[idx] || {};
-            const label = debtCount === 1 ? 'Ta dette' : `Dette ${idx + 1} de ${debtCount}`;
-            const transition = idx > 0 ? 'Ok, et la suivante?' : null;
+          case 7:
             return (
               <div className="fade-in">
-                {transition && <p className="text-slate-500 italic mb-4">{transition}</p>}
-                <h3 className="text-lg font-semibold text-slate-800 mb-4">{label}</h3>
-
-                <div className="space-y-4">
-                  <div>
-                    <p className="text-sm font-medium text-slate-600 mb-2">Type de dette</p>
-                    <div className="flex flex-wrap gap-2">
-                      {DEBT_TYPES.map(t => (
-                        <button key={t} type="button" onClick={() => setDebt(idx, 'type', t)}
-                          className={`px-3.5 py-2 rounded-xl border-2 text-sm min-h-[44px] transition-colors
-                            ${debt.type === t ? 'border-ocean-500 bg-ocean-50 text-ocean-700 font-medium' : 'border-slate-200 bg-white text-slate-600'}`}>
-                          {t}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-
-                  <div>
-                    <p className="text-sm font-medium text-slate-600 mb-2">Solde approximatif</p>
-                    <NumberInput value={debt.solde} onChange={v => setDebt(idx, 'solde', v)} placeholder="Ex: 9000" />
-                  </div>
-
-                  <div>
-                    <p className="text-sm font-medium text-slate-600 mb-2">Paiement minimum mensuel</p>
-                    <NumberInput value={debt.paiement_min} onChange={v => setDebt(idx, 'paiement_min', v)} placeholder="Ex: 200" />
-                  </div>
-
-                  <div>
-                    <p className="text-sm font-medium text-slate-600 mb-2">Taux d'interet (%)</p>
-                    <div className="flex items-center gap-3">
-                      <div className="flex-1">
-                        <NumberInput value={debt.taux} onChange={v => { setDebt(idx, 'taux', v); setDebt(idx, 'taux_inconnu', false); }} placeholder="Ex: 19.9" />
-                      </div>
-                      <button type="button"
-                        onClick={() => { setDebt(idx, 'taux_inconnu', !debt.taux_inconnu); if (!debt.taux_inconnu) setDebt(idx, 'taux', null); }}
-                        className={`px-3 py-2 rounded-xl border-2 text-sm whitespace-nowrap min-h-[44px]
-                          ${debt.taux_inconnu ? 'border-ocean-500 bg-ocean-50 text-ocean-700' : 'border-slate-200 text-slate-500'}`}>
-                        Je ne le sais pas
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Qu'est-ce qui t'a amenee a vouloir reprendre le controle? Y'a-tu eu un declic?">
+                  <ChipGroup options={[
+                    'Un evenement precis (une facture, une dette, un refus de credit)',
+                    'Une accumulation graduelle — ca fait longtemps que j\'y pense',
+                    'Quelqu\'un m\'en a parle ou m\'a fait reflechir',
+                    'Un projet que je veux me payer (voyage, achat, etc.)',
+                    'Je veux juste etre moins stressee',
+                    'Autre'
+                  ]} value={a.q2_3} onChange={v => set('q2_3', v)} />
+                  {a.q2_3 === 'Autre' && <div className="mt-3"><TextInput value={a.q2_3_autre} onChange={v => set('q2_3_autre', v)} placeholder="Precise..." /></div>}
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
-          }
+
+          case 8:
+            return (
+              <div className="fade-in">
+                <Q text="Qu'est-ce qui t'inquiete le plus si rien change?">
+                  <ChipGroup options={[
+                    'Ne jamais me sortir de mes dettes',
+                    'Toujours vivre paie a paie sans marge de manoeuvre',
+                    'Ne pas pouvoir me permettre ce que je veux dans la vie',
+                    'Avoir une urgence et pas pouvoir la couvrir',
+                    'Perdre le controle de plus en plus',
+                    'Que ca affecte ma sante ou mes relations',
+                    'Autre'
+                  ]} value={a.q2_4} onChange={v => set('q2_4', v)} />
+                  {a.q2_4 === 'Autre' && <div className="mt-3"><TextInput value={a.q2_4_autre} onChange={v => set('q2_4_autre', v)} placeholder="Precise..." /></div>}
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          // ── Axe 3: Comportements ──
+          case 9:
+            return (
+              <div className="fade-in">
+                <Intro text="On va parler de comment tu geres tes depenses dans la vraie vie. Encore une fois, y'a zero jugement — on veut juste comprendre comment ca marche pour toi." />
+                <Q text="En general, comment tu decrirais ta facon de depenser?">
+                  <ChipGroup options={[
+                    'J\'achete sur le coup — quand je veux quelque chose, je l\'achete',
+                    'J\'hesite longtemps, mais je finis souvent par acheter quand meme',
+                    'Je suis raisonnable au quotidien mais je derape sur les gros achats',
+                    'Je me prive beaucoup puis je craque d\'un coup',
+                    'Je suis assez disciplinee en general'
+                  ]} value={a.q3_1} onChange={v => set('q3_1', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          case 10:
+            return (
+              <div className="fade-in">
+                <Q text="Quand tu depenses plus que tu voudrais, c'est souvent a cause de quoi?" note="Tu peux en choisir jusqu'a 3.">
+                  <MultiChipGroup max={3} options={[
+                    'Le stress ou la fatigue',
+                    'L\'ennui',
+                    'Etre avec des amis ou de la famille (pression sociale)',
+                    'Les promotions ou les aubaines',
+                    'Les achats en ligne le soir',
+                    'Me recompenser apres une journee difficile',
+                    'Je ne sais pas trop — ca arrive sans que je m\'en rende compte',
+                    'Ca m\'arrive rarement'
+                  ]} values={a.q3_2} onChange={v => set('q3_2', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
 
           case 11:
             return (
               <div className="fade-in">
-                <Question text="Comment tu te sens par rapport a tes dettes en ce moment?">
-                  <ChipGroup
-                    options={["C'est gerable, mais je veux m'en debarrasser plus vite", 'Ca me stresse pas mal', 'Je me sens depassee', "J'y pense pas trop", 'Autre']}
-                    value={answers.sentiment_dettes}
-                    onChange={v => set('sentiment_dettes', v)}
-                  />
-                  {answers.sentiment_dettes === 'Autre' && (
-                    <div className="mt-3">
-                      <TextInput value={answers.sentiment_dettes_autre} onChange={v => set('sentiment_dettes_autre', v)} placeholder="Precise..." />
-                    </div>
-                  )}
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="En ce moment, comment tu fais pour essayer de controler tes depenses?" note="Tu peux en choisir plusieurs.">
+                  <MultiChipGroup options={[
+                    'Je fais du calcul mental approximatif',
+                    'Je regarde mon solde bancaire de temps en temps',
+                    'J\'essaie de payer plus en argent comptant ou debit',
+                    'Je me fixe des regles dans ma tete ("pas plus que X par semaine")',
+                    'J\'attends d\'etre a sec pour arreter de depenser',
+                    'J\'evite de regarder — ce que je sais pas me fait pas mal',
+                    'Je fais rien de particulier',
+                    'Autre'
+                  ]} values={a.q3_3} onChange={v => set('q3_3', v)} />
+                  {a.q3_3.includes('Autre') && <div className="mt-3"><TextInput value={a.q3_3_autre} onChange={v => set('q3_3_autre', v)} placeholder="Precise..." /></div>}
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          // ── Block 4: Depenses variables ──
           case 12:
             return (
               <div className="fade-in">
-                <BlockIntro text="C'est souvent ici que le budget derape sans qu'on s'en rende compte. Pas besoin d'etre precise au dollar — des estimes, c'est parfait." />
-                <p className="text-slate-700 font-medium mb-4">Par mois, tu depenses environ combien pour...</p>
-
-                <div className="space-y-5">
-                  {VARIABLE_CATS.map(cat => (
-                    <div key={cat.key}>
-                      <p className="text-sm font-medium text-slate-700 mb-2">{cat.label}</p>
-                      <div className="flex flex-wrap gap-1.5">
-                        {cat.opts.map(opt => (
-                          <button key={opt} type="button"
-                            onClick={() => setNested('variables', cat.key, opt)}
-                            className={`px-3 py-2 rounded-lg border-2 text-sm min-h-[40px] transition-colors
-                              ${answers.variables[cat.key] === opt ? 'border-ocean-500 bg-ocean-50 text-ocean-700 font-medium' : 'border-slate-200 bg-white text-slate-600'}`}>
-                            {opt}
-                          </button>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Comment tu paies la majorite de tes achats?">
+                  <ChipGroup options={[
+                    'Carte de credit principalement',
+                    'Carte de debit principalement',
+                    'Un melange des deux',
+                    'Argent comptant souvent',
+                    'Paiement mobile (Apple Pay, etc.)'
+                  ]} value={a.q3_4} onChange={v => set('q3_4', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
+          // ── Axe 4: Archeologie des echecs ──
           case 13:
             return (
               <div className="fade-in">
-                <Question text="Quand tu depenses plus que prevu, c'est souvent dans quelles circonstances?">
-                  <p className="text-slate-500 text-sm mb-3">Tu peux en choisir plusieurs.</p>
-                  <MultiChipGroup
-                    options={DECLENCHEURS}
-                    values={answers.declencheurs}
-                    onChange={v => set('declencheurs', v)}
-                  />
-                  <div className="mt-3">
-                    <TextInput value={answers.declencheurs_autre} onChange={v => set('declencheurs_autre', v)} placeholder="Autre (optionnel)" />
-                  </div>
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Intro text="La plupart des gens ont deja essaye de mieux gerer leur argent a un moment donne. Si c'est ton cas, ce qui nous interesse c'est ce qui a marche et surtout pourquoi ca a arrete de marcher." />
+                <Q text="As-tu deja essaye de faire un budget ou d'utiliser un outil pour tes finances?">
+                  <ChipGroup options={['Non, jamais', 'Oui, une fois', 'Oui, plusieurs fois']} value={a.q4_1} onChange={v => set('q4_1', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          // ── Block 5: Habitudes ──
-          case 14:
+          case 14: // conditional
             return (
               <div className="fade-in">
-                <BlockIntro text="On veut comprendre comment tu geres tes finances aujourd'hui. C'est pas un test — c'est pour savoir ce qui marche et ce qui marche pas pour toi." />
-                <Question text="Comment tu suis tes depenses en ce moment?">
-                  <ChipGroup
-                    options={['Je ne les suis pas vraiment', 'Je regarde mes releves bancaires de temps en temps', "J'ai un fichier Excel ou un cahier", "J'utilise une app", 'Autre']}
-                    value={answers.suivi_actuel}
-                    onChange={v => set('suivi_actuel', v)}
-                  />
-                  {answers.suivi_actuel === 'Autre' && (
-                    <div className="mt-3">
-                      <TextInput value={answers.suivi_actuel_autre} onChange={v => set('suivi_actuel_autre', v)} placeholder="Precise..." />
-                    </div>
-                  )}
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Pendant que ca marchait, qu'est-ce qui te faisait du bien?" note="Tu peux en choisir plusieurs.">
+                  <MultiChipGroup options={[
+                    'Avoir une vue claire de ma situation',
+                    'Le sentiment de controle',
+                    'Voir mes dettes diminuer',
+                    'Me sentir responsable et organisee',
+                    'Pouvoir planifier sans stresser',
+                    'Autre'
+                  ]} values={a.q4_2} onChange={v => set('q4_2', v)} />
+                  {a.q4_2.includes('Autre') && <div className="mt-3"><TextInput value={a.q4_2_autre} onChange={v => set('q4_2_autre', v)} placeholder="Precise..." /></div>}
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          case 15:
+          case 15: // conditional
             return (
               <div className="fade-in">
-                <Question text="Laquelle? Et qu'est-ce qui marche ou marche pas avec?">
-                  <TextInput
-                    value={answers.app_details}
-                    onChange={v => set('app_details', v)}
-                    placeholder="Ex: YNAB, mais c'etait trop complique..."
-                    multiline
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Qu'est-ce qui a fait que t'as lache?" note="Tu peux en choisir jusqu'a 3.">
+                  <MultiChipGroup max={3} options={[
+                    "C'etait trop long a maintenir au quotidien",
+                    "J'ai eu un imprevu qui a fait exploser le budget",
+                    "C'etait deprimant de voir les vrais chiffres",
+                    "L'outil etait trop complique",
+                    "J'avais l'impression que ca servait a rien",
+                    "J'ai tout simplement oublie, la routine a pris le dessus",
+                    'Un changement de vie (demenagement, emploi, relation)',
+                    'Autre'
+                  ]} values={a.q4_3} onChange={v => set('q4_3', v)} />
+                  {a.q4_3.includes('Autre') && <div className="mt-3"><TextInput value={a.q4_3_autre} onChange={v => set('q4_3_autre', v)} placeholder="Precise..." /></div>}
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
           case 16:
             return (
               <div className="fade-in">
-                <Question text="As-tu deja essaye de faire un budget?">
-                  <ChipGroup
-                    options={['Non, jamais', "Oui, mais j'ai lache assez vite", "Oui, ca a marche un temps mais j'ai arrete", "Oui, j'en ai un mais je le respecte pas"]}
-                    value={answers.budget_tente}
-                    onChange={v => set('budget_tente', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Si tu pouvais decrire l'outil parfait pour gerer ton argent en une phrase, ca serait quoi?">
+                  {!a.q4_4_skip && <TextInput value={a.q4_4} onChange={v => set('q4_4', v)} placeholder="Ex: quelque chose de simple qui me dit si j'ai les moyens..." />}
+                  <button type="button" onClick={() => { set('q4_4_skip', !a.q4_4_skip); if (!a.q4_4_skip) set('q4_4', ''); }}
+                    className={`mt-3 px-4 py-2.5 rounded-xl border-2 text-sm min-h-[44px] transition-colors ${a.q4_4_skip ? 'border-ocean-500 bg-ocean-50 text-ocean-700' : 'border-slate-200 text-slate-500'}`}>
+                    Je ne sais pas
+                  </button>
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
+          // ── Axe 5: Identite aspirationnelle ──
           case 17:
             return (
               <div className="fade-in">
-                <Question text="Qu'est-ce qui a fait que ca n'a pas tenu?">
-                  <p className="text-slate-500 text-sm mb-3">Tu peux en choisir plusieurs.</p>
-                  <MultiChipGroup
-                    options={RAISONS_ECHEC}
-                    values={answers.raisons_echec}
-                    onChange={v => set('raisons_echec', v)}
-                  />
-                  <div className="mt-3">
-                    <TextInput value={answers.raisons_echec_autre} onChange={v => set('raisons_echec_autre', v)} placeholder="Autre (optionnel)" />
-                  </div>
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Intro text="On parle souvent de ce qu'on veut changer. Mais c'est aussi important de savoir comment tu voudrais te sentir une fois que c'est regle." />
+                <Q text="Imagine que dans un an, t'as completement le controle de tes finances. C'est quoi le premier signe que tu le remarquerais?">
+                  <ChipGroup options={[
+                    'Je pourrais dire oui a un voyage ou une activite sans paniquer',
+                    'Je saurais exactement ou j\'en suis a tout moment',
+                    'J\'aurais de l\'argent de cote pour les imprevus',
+                    'Je dormirais mieux la nuit',
+                    'Mes dettes seraient reglees ou presque',
+                    'Je me sentirais fiere de moi',
+                    'Autre'
+                  ]} value={a.q5_1} onChange={v => set('q5_1', v)} />
+                  {a.q5_1 === 'Autre' && <div className="mt-3"><TextInput value={a.q5_1_autre} onChange={v => set('q5_1_autre', v)} placeholder="Precise..." /></div>}
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          // ── Block 6: Motivation ──
           case 18:
             return (
               <div className="fade-in">
-                <BlockIntro text="Derniere ligne droite. Cette partie-la, c'est la plus importante — c'est ton 'pourquoi'." />
-                <Question text="Si tu avais le controle total de tes finances, qu'est-ce que ca changerait dans ta vie?">
-                  <TextInput
-                    value={answers.objectif_libre}
-                    onChange={v => set('objectif_libre', v)}
-                    placeholder="Ex: moins de stress, un coussin pour les imprevus, pouvoir planifier un voyage sans culpabilite..."
-                    multiline
-                  />
-                  {!answers.objectif_libre && (
-                    <p className="text-slate-400 text-sm mt-2 italic">Meme une phrase, c'est parfait</p>
-                  )}
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Est-ce qu'il y a quelqu'un autour de toi qui gere bien ses finances et que t'admires un peu pour ca?">
+                  <ChipGroup options={[
+                    'Oui, et je sais comment cette personne fait',
+                    'Oui, mais je sais pas comment elle fait',
+                    'Pas vraiment',
+                    'Tout le monde autour de moi semble dans le meme bateau'
+                  ]} value={a.q5_2} onChange={v => set('q5_2', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
           case 19:
             return (
               <div className="fade-in">
-                <Question text="En ce moment, c'est quoi ta priorite financiere numero 1?">
-                  <ChipGroup
-                    options={['Rembourser mes dettes', 'Arreter de depasser mon budget', "Me batir un coussin d'urgence", 'Reduire mon stress financier', 'Autre']}
-                    value={answers.priorite}
-                    onChange={v => set('priorite', v)}
-                  />
-                  {answers.priorite === 'Autre' && (
-                    <div className="mt-3">
-                      <TextInput value={answers.priorite_autre} onChange={v => set('priorite_autre', v)} placeholder="Precise..." />
-                    </div>
-                  )}
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Q text="Quand tu penses a tes finances, t'es plutot tournee vers...">
+                  <ChipGroup options={[
+                    'Le passe — ce que j\'aurais du faire autrement',
+                    'Le present — passer a travers le mois',
+                    'Le futur — ce que je veux batir pour plus tard'
+                  ]} value={a.q5_3} onChange={v => set('q5_3', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
+          // ── Axe 6: Scenarios (each individually) ──
           case 20:
             return (
               <div className="fade-in">
-                <Question text="Dans combien de temps tu aimerais sentir que tes finances sont sous controle?">
-                  <ChipGroup
-                    options={["D'ici 3 mois", "D'ici 6 mois", "D'ici 1 an", 'Je veux juste que ca aille mieux, pas de deadline']}
-                    value={answers.horizon}
-                    onChange={v => set('horizon', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Intro text="Je vais te decrire des petites situations du quotidien. Pour chacune, dis-moi si ca t'aiderait. Y'a pas de piege — c'est juste pour comprendre ce qui serait utile dans ta vraie vie." />
+                <Scenario
+                  text="T'es a l'epicerie un mercredi soir. Imagine que sur ton telephone, tu pourrais voir en une seconde : 'Il te reste 142$ pour l'epicerie cette semaine.' Clair, simple, sans aller fouiller dans ton compte de banque."
+                  question="Est-ce que ca t'aiderait?">
+                  <ChipGroup options={scenarioOptions.q6_1} value={a.q6_1} onChange={v => set('q6_1', v)} />
+                </Scenario>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          // ── Block 7: Preferences ──
           case 21:
             return (
               <div className="fade-in">
-                <BlockIntro text="Dernieres questions — c'est pour savoir quel genre d'outil te conviendrait le mieux." />
-                <Question text="Tu serais prete a noter tes depenses a quelle frequence?">
-                  <ChipGroup
-                    options={['A chaque achat (ou presque)', 'Une fois par jour, le soir', 'Quelques fois par semaine', 'Une fois par semaine', 'Le moins possible']}
-                    value={answers.frequence_saisie}
-                    onChange={v => set('frequence_saisie', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Scenario
+                  text="T'es en train de magasiner en ligne, un mardi soir. Ton telephone t'envoie un petit message : 'Tu as depense 230$ en achats en ligne ce mois-ci — ton budget etait de 100$.' Pas un sermon, juste un fait."
+                  question="Comment tu reagirais?">
+                  <ChipGroup options={scenarioOptions.q6_2} value={a.q6_2} onChange={v => set('q6_2', v)} />
+                </Scenario>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
           case 22:
             return (
               <div className="fade-in">
-                <Question text="Tu preferes voir ta situation financiere comment?">
-                  <ChipGroup
-                    options={['Des graphiques visuels (barres, cercles, courbes)', 'Des chiffres simples et clairs', 'Un melange des deux', 'Je ne sais pas']}
-                    value={answers.affichage}
-                    onChange={v => set('affichage', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Scenario
+                  text="Imagine que l'app te montre une ligne du temps : 'Si tu continues tes paiements actuels, ta dette sera completement payee le 14 mars 2028. Si tu mets 50$ de plus par mois, c'est fini en octobre 2027.' Une date precise, pas juste un feeling."
+                  question="Est-ce que ca t'aiderait?">
+                  <ChipGroup options={scenarioOptions.q6_3} value={a.q6_3} onChange={v => set('q6_3', v)} />
+                </Scenario>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
           case 23:
             return (
               <div className="fade-in">
-                <Question text="Est-ce que tu aimerais recevoir des rappels ou des notifications?">
-                  <ChipGroup
-                    options={['Oui, pour me rappeler de noter mes depenses', "Oui, si j'approche de ma limite de budget", 'Oui, les deux', 'Non, pas de notifications']}
-                    value={answers.notifications}
-                    onChange={v => set('notifications', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Scenario
+                  text="On est le 18 du mois. L'app te dit : 'Au rythme actuel, il va te rester environ 85$ pour les 12 prochains jours avant ta prochaine paie.' Ca te donnerait le temps de ralentir si necessaire."
+                  question="Est-ce que ca t'aiderait?">
+                  <ChipGroup options={scenarioOptions.q6_4} value={a.q6_4} onChange={v => set('q6_4', v)} />
+                </Scenario>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
           case 24:
             return (
               <div className="fade-in">
-                <Question text="Est-ce que quelqu'un d'autre que toi verrait l'application?">
-                  <ChipGroup
-                    options={["Non, c'est juste pour moi", 'Peut-etre, avec mon conjoint ou une personne de confiance', 'Je ne sais pas encore']}
-                    value={answers.confidentialite}
-                    onChange={v => set('confidentialite', v)}
-                  />
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} />
+                <Scenario
+                  text="Le premier du mois, l'app te montre un petit resume : 'Le mois passe, t'as respecte 4 categories sur 6. L'epicerie a depasse de 120$, surtout les weekends.' Les faits, le contexte, zero morale."
+                  question="Est-ce que ca t'aiderait?">
+                  <ChipGroup options={scenarioOptions.q6_5} value={a.q6_5} onChange={v => set('q6_5', v)} />
+                </Scenario>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          // ── Block 8: Question ouverte ──
           case 25:
             return (
               <div className="fade-in">
-                <BlockIntro text="C'est la derniere question, promis." />
-                <Question text="Est-ce qu'il y a quelque chose qu'on n'a pas couvert et qui te semble important? Quelque chose qui te tracasse, un besoin specifique, n'importe quoi?">
-                  {!answers.question_ouverte_skip && (
-                    <TextInput
-                      value={answers.question_ouverte}
-                      onChange={v => set('question_ouverte', v)}
-                      placeholder="Ecris ici..."
-                      multiline
-                    />
-                  )}
-                  <button type="button"
-                    onClick={() => { set('question_ouverte_skip', !answers.question_ouverte_skip); if (!answers.question_ouverte_skip) set('question_ouverte', ''); }}
-                    className={`mt-3 px-4 py-2.5 rounded-xl border-2 text-sm min-h-[44px] transition-colors
-                      ${answers.question_ouverte_skip ? 'border-ocean-500 bg-ocean-50 text-ocean-700' : 'border-slate-200 text-slate-500'}`}>
-                    Non, c'est complet
-                  </button>
-                </Question>
-                <NavButtons onBack={goBack} onNext={goNext} nextLabel="Terminer" />
+                <Scenario
+                  text="Chaque fois que tu fais un achat, tu ouvres l'app, tu tapes le montant, tu peses sur la categorie, et c'est fait. 5 secondes. Pas de formulaire, pas de details."
+                  question="Si c'etait aussi rapide que ca, est-ce que tu le ferais?">
+                  <ChipGroup options={scenarioOptions.q6_6} value={a.q6_6} onChange={v => set('q6_6', v)} />
+                </Scenario>
+                <Nav onBack={goBack} onNext={goNext} />
               </div>
             );
 
-          // ── End Screen ──
           case 26:
+            return (
+              <div className="fade-in">
+                <Scenario
+                  text="Tu viens de finir de rembourser une dette. L'app te montre : 'C'est fait! Prochaine cible : le pret personnel.' Et tu vois ta progression avancer concretement."
+                  question="Comment tu te sentirais?">
+                  <ChipGroup options={scenarioOptions.q6_7} value={a.q6_7} onChange={v => set('q6_7', v)} />
+                </Scenario>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          case 27:
+            return (
+              <div className="fade-in">
+                <Scenario
+                  text="A 21h, ton telephone t'envoie un petit message : 'Ta journee de depenses : 47$. Il te reste 312$ pour la semaine. Bonne soiree.' Pas une alarme — juste un resume tranquille."
+                  question="Comment tu trouverais ca?">
+                  <ChipGroup options={scenarioOptions.q6_8} value={a.q6_8} onChange={v => set('q6_8', v)} />
+                </Scenario>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          // ── Axe 7: Priorisation ──
+          case 28: // conditional — only if > 3 positive scenarios
+            return (
+              <div className="fade-in">
+                <Intro text="T'as vu plusieurs idees. Si tu devais choisir les 3 qui t'aideraient le plus au quotidien, lesquelles tu prendrais?" />
+                <Q text="Choisis les 3 qui changeraient le plus ta vie." note="Maximum 3 choix.">
+                  <MultiChipGroup max={3}
+                    options={positiveScenarios.map(k => scenarioLabels[k])}
+                    values={a.q7_1}
+                    onChange={v => set('q7_1', v)}
+                  />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          case 29:
+            return (
+              <div className="fade-in">
+                {skipQ7_1 && <Intro text="T'as vu plusieurs idees. Une derniere question la-dessus." />}
+                <Q text="Est-ce qu'il y a quelque chose que t'aimerais qu'un outil fasse et qu'on n'a pas mentionne?">
+                  {!a.q7_2_skip && <TextInput value={a.q7_2} onChange={v => set('q7_2', v)} placeholder="Ecris ici..." multiline />}
+                  <button type="button" onClick={() => { set('q7_2_skip', !a.q7_2_skip); if (!a.q7_2_skip) set('q7_2', ''); }}
+                    className={`mt-3 px-4 py-2.5 rounded-xl border-2 text-sm min-h-[44px] transition-colors ${a.q7_2_skip ? 'border-ocean-500 bg-ocean-50 text-ocean-700' : 'border-slate-200 text-slate-500'}`}>
+                    Non, c'est bon
+                  </button>
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          // ── Axe 8: Preferences d'interaction ──
+          case 30:
+            return (
+              <div className="fade-in">
+                <Intro text="On est presque a la fin. Juste quelques questions sur comment tu voudrais utiliser un outil comme ca." />
+                <Q text="A quelle frequence tu serais prete a interagir avec l'app?">
+                  <ChipGroup options={[
+                    'Chaque jour, quelques minutes',
+                    'Quelques fois par semaine',
+                    'Une fois par semaine, pour faire le point',
+                    'Le moins possible — juste quand c\'est important'
+                  ]} value={a.q8_1} onChange={v => set('q8_1', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          case 31:
+            return (
+              <div className="fade-in">
+                <Q text="Tu preferes voir ta situation financiere comment?">
+                  <ChipGroup options={[
+                    'Des graphiques et des visuels (barres, cercles, couleurs)',
+                    'Des chiffres simples et clairs',
+                    'Un melange des deux',
+                    'Juste un feu de circulation — vert, jaune, rouge'
+                  ]} value={a.q8_2} onChange={v => set('q8_2', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          case 32:
+            return (
+              <div className="fade-in">
+                <Q text="Tu prefererais une app qui...">
+                  <ChipGroup options={[
+                    'Me laisse tout controler et decider moi-meme',
+                    'Me suggere des choses mais me laisse le dernier mot',
+                    'Prend des decisions pour moi le plus possible (ex: allouer les budgets automatiquement)'
+                  ]} value={a.q8_3} onChange={v => set('q8_3', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          case 33:
+            return (
+              <div className="fade-in">
+                <Q text="Quel genre de notifications tu accepterais?" note="Tu peux en choisir plusieurs.">
+                  <MultiChipGroup options={[
+                    'Me rappeler de noter mes depenses',
+                    'M\'avertir si je depasse un budget',
+                    'Me donner un resume quotidien',
+                    'Me feliciter quand ca va bien',
+                    'Aucune — je veux ouvrir l\'app quand je veux'
+                  ]} values={a.q8_4} onChange={v => set('q8_4', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} />
+              </div>
+            );
+
+          case 34:
+            return (
+              <div className="fade-in">
+                <Q text="Si quelqu'un prenait ton telephone, est-ce que ca te derangerait qu'il voie l'app?">
+                  <ChipGroup options={[
+                    'Oui, beaucoup — c\'est tres prive',
+                    'Un peu — je prefererais que non',
+                    'Pas vraiment — c\'est pas un secret'
+                  ]} value={a.q8_5} onChange={v => set('q8_5', v)} />
+                </Q>
+                <Nav onBack={goBack} onNext={goNext} nextLabel="Terminer" />
+              </div>
+            );
+
+          // ── End ──
+          case 35:
             return (
               <div className="fade-in text-center">
                 <div className="w-16 h-16 bg-calm-100 rounded-full flex items-center justify-center mx-auto mb-6">
                   <svg className="w-8 h-8 text-calm-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                 </div>
                 <p className="text-slate-700 text-lg leading-relaxed mb-8">
-                  Merci! T'as fait le tour. Toutes tes reponses sont pretes a etre exportees. Rien n'a ete envoye nulle part — tout est encore juste sur ton telephone.
+                  Merci! Tes reponses vont vraiment aider a batir un outil qui fait du sens pour le vrai monde. Rien n'a ete envoye — tout est encore sur ton telephone.
                 </p>
-
                 <div className="space-y-3">
-                  <button onClick={handleExport}
-                    className="w-full px-6 py-4 bg-ocean-600 text-white rounded-2xl text-lg font-medium active:bg-ocean-700 min-h-[44px]">
-                    Exporter mes reponses
-                  </button>
-
-                  <button onClick={handleCopy}
-                    className="w-full px-6 py-3.5 border-2 border-ocean-200 text-ocean-700 rounded-2xl text-base font-medium active:bg-ocean-50 min-h-[44px]">
-                    {copyMsg || 'Copier dans le presse-papier'}
-                  </button>
-
-                  <button onClick={() => setStep(1)}
-                    className="w-full px-6 py-3.5 text-slate-500 rounded-2xl text-base active:bg-slate-100 min-h-[44px]">
-                    Revoir mes reponses
-                  </button>
+                  <button onClick={handleExport} className="w-full px-6 py-4 bg-ocean-600 text-white rounded-2xl text-lg font-medium active:bg-ocean-700 min-h-[44px]">Exporter mes reponses</button>
+                  <button onClick={handleCopy} className="w-full px-6 py-3.5 border-2 border-ocean-200 text-ocean-700 rounded-2xl text-base font-medium active:bg-ocean-50 min-h-[44px]">{copyMsg || 'Copier dans le presse-papier'}</button>
+                  <button onClick={() => setStep(1)} className="w-full px-6 py-3.5 text-slate-500 rounded-2xl text-base active:bg-slate-100 min-h-[44px]">Revoir mes reponses</button>
                 </div>
               </div>
             );
 
-          default:
-            return null;
+          default: return null;
         }
       };
 
       return (
-        <div ref={containerRef} className="max-w-lg mx-auto min-h-screen flex flex-col">
-          {currentBlock >= 1 && currentBlock <= 8 && (
-            <ProgressBar current={currentBlock} total={TOTAL_BLOCKS} />
-          )}
-          <div className="flex-1 px-5 py-6">
-            {renderStep()}
-          </div>
-          <div className="px-5 pb-4 text-center">
-            <p className="text-xs text-slate-300">Tes donnees restent sur ton appareil</p>
-          </div>
+        <div className="max-w-lg mx-auto min-h-screen flex flex-col">
+          {currentAxe >= 1 && currentAxe <= 8 && <ProgressBar current={currentAxe} total={TOTAL_AXES} />}
+          <div className="flex-1 px-5 py-6">{renderStep()}</div>
+          <div className="px-5 pb-4 text-center"><p className="text-xs text-slate-300">Tes donnees restent sur ton appareil</p></div>
         </div>
       );
     }
