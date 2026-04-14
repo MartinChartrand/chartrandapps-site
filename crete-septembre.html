@@ -305,12 +305,15 @@
     height: 100%;
     object-fit: cover;
     z-index: 0;
+    filter: brightness(0.78) saturate(1.05);
   }
   .chapter-cover::after {
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to bottom, rgba(26,42,58,0.1) 0%, rgba(26,42,58,0.2) 45%, rgba(26,42,58,0.82) 100%);
+    background:
+      linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 35%, rgba(0,0,0,0.82) 100%),
+      linear-gradient(to right, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.15) 55%, transparent 100%);
     z-index: 1;
   }
   .chapter-cover-inner {
@@ -346,8 +349,9 @@
     font-weight: 300;
     line-height: 0.95;
     letter-spacing: -0.02em;
-    margin: 0 0 16px;
+    margin: 0 0 20px;
     color: #fff;
+    text-shadow: 0 2px 24px rgba(0,0,0,0.5);
   }
   .chapter-subtitle {
     font-family: 'Cormorant Garamond', serif;
@@ -356,7 +360,8 @@
     font-weight: 300;
     max-width: 560px;
     line-height: 1.45;
-    color: rgba(255,255,255,0.92);
+    color: rgba(255,255,255,0.95);
+    text-shadow: 0 1px 16px rgba(0,0,0,0.55);
   }
   @media (max-width: 700px) {
     .chapter-cover { height: 72vh; min-height: 440px; }
@@ -1410,17 +1415,22 @@
 </div>
 
 <!-- LOUTRO -->
-<div id="loutro" class="tab-section">
+<div id="loutro" class="tab-section bg-sand">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1673594214953-21b34424467a?w=1800&q=85" alt="Vue panoramique de Loutro — baie en demi-lune">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">02 / 04 &nbsp;·&nbsp; Base 2 &nbsp;·&nbsp; 13–18 septembre &nbsp;·&nbsp; 6 nuits</span>
+      <h2 class="chapter-title">Loutro</h2>
+      <p class="chapter-subtitle">Village sans route, accessible uniquement en bateau. Maisons blanches en demi-lune, montagnes à pic, mer de Libye.</p>
+    </div>
+  </div>
   <div class="section">
     <div class="container">
-      <div class="section-header">
-        <span class="section-num">Base 2 · 13–18 septembre · 6 nuits</span>
-        <h2 class="section-title">Loutro</h2>
-        <p class="section-intro">Village sans route. Accessible uniquement par bateau (20 min depuis Chora Sfakion) ou à pied par les sentiers côtiers. Maisons blanches sur une baie en demi-lune, montagnes à pic derrière, mer de Libye devant. Le lieu le plus romantique et le plus isolé de toute la Crète.</p>
+      <div class="pullquote reveal">
+        <p>Six nuits à Loutro, c'est la pièce maîtresse du voyage. Pas de route, pas de voiture, pas d'issue rapide — et c'est exactement ce qu'on cherche.</p>
       </div>
 
-      <div class="curatorial">
-        <p class="lede">Six nuits à Loutro, c'est la pièce maîtresse du voyage. Pas de route, pas de voiture, pas d'issue rapide — et c'est exactement ce qu'on cherche.</p>
+      <div class="curatorial reveal">
         <p>On laisse l'auto à Chora Sfakion (~3 €/jour), on prend le ferry ANENDYK de 20 minutes (8–15 €, premier à 9h30, dernier à 18h45), et on disparaît. Village en croissant de maisons blanches face à la mer de Libye, montagnes à pic derrière. Pas d'ATM — on sort le cash avant d'embarquer.</p>
 
         <h4>L'eau</h4>
@@ -1439,15 +1449,13 @@
         <p>La <strong>sfakianopita</strong> — crêpe mince au myzithra frais, raki, miel de thym. C'est la spécialité de la région de Sfakia, candidate au patrimoine UNESCO. Une fois qu'on y a goûté, on en commande chaque jour jusqu'à la fin du séjour.</p>
       </div>
 
-      <img class="photo-hero" src="https://images.unsplash.com/photo-1673594214953-21b34424467a?w=1200&q=80" alt="Vue panoramique de Loutro — baie en demi-lune" loading="lazy">
-      <div class="photo-grid">
+      <div class="photo-grid reveal">
         <img src="https://images.unsplash.com/photo-1620992363972-c960f373f79f?w=600&q=80" alt="Maisons blanches de Loutro face à la mer" loading="lazy">
         <img src="https://images.unsplash.com/photo-1764140254410-f8462f93b51e?w=600&q=80" alt="Village côtier niché au bord des montagnes" loading="lazy">
         <img src="https://images.unsplash.com/photo-1751060867787-3d28ea3d6e22?w=600&q=80" alt="Loutro entre montagne et mer" loading="lazy">
         <img src="https://images.unsplash.com/photo-1747002723821-38872177dfe3?w=600&q=80" alt="Taverna en bord de mer — chaises bleues" loading="lazy" class="photo-wide">
         <img src="https://images.unsplash.com/photo-1737176301309-34954bc4fb12?w=600&q=80" alt="Vue sur la plage depuis la colline" loading="lazy">
       </div>
-      <p class="photo-caption">Loutro — le village sans route, accessible uniquement par bateau</p>
 
       <!-- CARTE -->
       <span class="map-label">Carte — Loutro et côte sud</span>
@@ -1622,16 +1630,21 @@
 
 <!-- SITIA -->
 <div id="sitia" class="tab-section">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1741618487089-c7a11f4e89d0?w=1800&q=85" alt="Port de Sitia — côte rocheuse et plage">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">03 / 04 &nbsp;·&nbsp; Base 3 &nbsp;·&nbsp; 19–27 septembre &nbsp;·&nbsp; 9 nuits</span>
+      <h2 class="chapter-title">Sitia</h2>
+      <p class="chapter-subtitle">L'est authentique. Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port. Eau à son maximum thermique : 27–28°C.</p>
+    </div>
+  </div>
   <div class="section">
     <div class="container">
-      <div class="section-header">
-        <span class="section-num">Base 3 · 19–27 septembre · 9 nuits</span>
-        <h2 class="section-title">Sitia</h2>
-        <p class="section-intro">L'est de la Crète est une autre île. Sitia est une vraie ville crétoise — ses restaurants sont fréquentés par des Grecs, pas par des touristes. Les routes vers l'est donnent accès aux endroits les plus isolés de l'île. L'eau est à son maximum thermique en ce moment : 27–28°C.</p>
+      <div class="pullquote reveal">
+        <p>Neuf nuits à Sitia, c'est le pari du voyage. Personne y va. C'est précisément pour ça.</p>
       </div>
 
-      <div class="curatorial">
-        <p class="lede">Neuf nuits à Sitia, c'est le pari du voyage. Personne y va. C'est précisément pour ça.</p>
+      <div class="curatorial reveal">
         <p>La Crète orientale, c'est la Crète qui mange encore dans ses propres tavernas, qui parle à ses propres voisins, qui ne s'est jamais déguisée pour personne. L'eau est à 27–28°C — le maximum thermique annuel — et elle reste calme parce que personne n'est là pour la brasser.</p>
 
         <h4>Le logement</h4>
@@ -1650,15 +1663,13 @@
         <p>Commander une carafe de <strong>Liatiko</strong> — le cépage autochtone rouge crétois, quasi introuvable hors de l'île — avec le dakos d'Inodion. C'est le repas qui justifie la journée de route depuis Loutro (~3h30 via Plakias et Frangokastello).</p>
       </div>
 
-      <img class="photo-hero" src="https://images.unsplash.com/photo-1741618487089-c7a11f4e89d0?w=1200&q=80" alt="Port de Sitia — côte rocheuse et plage" loading="lazy">
-      <div class="photo-grid">
+      <div class="photo-grid reveal">
         <img src="https://images.unsplash.com/photo-1741617621351-9e15b51e5cb4?w=600&q=80" alt="Baignade près des bâtiments historiques de Sitia" loading="lazy" class="photo-wide">
         <img src="https://images.unsplash.com/photo-1572256729029-2554f8839c6b?w=600&q=80" alt="Ruelles blanches de l'est crétois" loading="lazy">
         <img src="https://images.unsplash.com/photo-1637649983971-597acff319a5?w=600&q=80" alt="Spinalonga — île-forteresse" loading="lazy">
         <img src="https://images.unsplash.com/photo-1577909927624-46239c787f4e?w=600&q=80" alt="Bateaux devant Spinalonga" loading="lazy">
         <img src="https://images.unsplash.com/photo-1517580314428-09d986e8f63a?w=600&q=80" alt="Pieuvres séchant au soleil — tradition crétoise" loading="lazy">
       </div>
-      <p class="photo-caption">Sitia, Spinalonga, et la tradition des pieuvres séchées au soleil</p>
 
       <!-- CARTE -->
       <span class="map-label">Carte — Sitia et est crétois</span>
@@ -1831,17 +1842,22 @@
 </div>
 
 <!-- RETHYMNO -->
-<div id="rethymno" class="tab-section">
+<div id="rethymno" class="tab-section bg-sand">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1625231432020-208fbfe585ed?w=1800&q=85" alt="Port de Rethymno — bateaux et architecture vénitienne">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">04 / 04 &nbsp;·&nbsp; Base 4 &nbsp;·&nbsp; 28 septembre–5 octobre &nbsp;·&nbsp; 7 nuits</span>
+      <h2 class="chapter-title">Rethymno</h2>
+      <p class="chapter-subtitle">La deuxième plus belle vieille ville de Crète. Vénitienne, compacte, plus détendue que Chania. Plakias à 45 minutes.</p>
+    </div>
+  </div>
   <div class="section">
     <div class="container">
-      <div class="section-header">
-        <span class="section-num">Base 4 · 28 septembre–5 octobre · 7 nuits</span>
-        <h2 class="section-title">Rethymno</h2>
-        <p class="section-intro">Retour vers l'ouest en douceur, avant le vol depuis Héraklion. Rethymno a la deuxième plus belle vieille ville de Crète — vénitienne, compacte, plus détendue que Chania. La côte sud (Plakias) est à 45 minutes.</p>
+      <div class="pullquote reveal">
+        <p>Sept nuits à Rethymno, c'est le sas de sortie. Après Loutro et Sitia, on n'a plus le goût de découvrir à toute vitesse.</p>
       </div>
 
-      <div class="curatorial">
-        <p class="lede">Sept nuits à Rethymno, c'est le sas de sortie. Après Loutro et Sitia, on n'a plus le goût de découvrir à toute vitesse.</p>
+      <div class="curatorial reveal">
         <p>On veut une belle vieille ville, une adresse le soir, une plage à 45 minutes, et le vol retour facile depuis Héraklion (82 km, 1h15 d'autoroute). Rethymno coche toutes les cases, et c'est plus posé que Chania.</p>
 
         <h4>Le logement</h4>
@@ -1860,15 +1876,13 @@
         <p><strong>Androniki's Cretan House</strong> dans un village des collines — marché le matin, cuisine l'après-midi, festin le soir. Une journée complète, les mains dans la pâte à kalitsounia. C'est l'expérience qu'on ramène en mémoire musculaire, pas juste en photos. Deuxième option : <strong>kalitsounia</strong> chez <strong>Ntourountous</strong> ou <strong>Hatziparshos</strong>, deux boulangeries traditionnelles — chaussons à la mizithra et miel, la vraie version.</p>
       </div>
 
-      <img class="photo-hero" src="https://images.unsplash.com/photo-1625231432020-208fbfe585ed?w=1200&q=80" alt="Port de Rethymno — bateaux et architecture vénitienne" loading="lazy">
-      <div class="photo-grid">
+      <div class="photo-grid reveal">
         <img src="https://images.unsplash.com/photo-1719328264273-5546f7924872?w=600&q=80" alt="Phare de Rethymno" loading="lazy">
         <img src="https://images.unsplash.com/photo-1562267699-ecc4b90e44da?w=600&q=80" alt="Baignade à Plakias" loading="lazy" class="photo-wide">
         <img src="https://images.unsplash.com/photo-1625939618055-2014e8c4334f?w=600&q=80" alt="Architecture vénitienne de Rethymno" loading="lazy">
         <img src="https://images.unsplash.com/photo-1719917484287-b984aed711c1?w=600&q=80" alt="Table sous les arbres en bord de mer" loading="lazy">
         <img src="https://images.unsplash.com/photo-1717251881858-b06e4656f913?w=600&q=80" alt="Moules et vin — dîner crétois" loading="lazy">
       </div>
-      <p class="photo-caption">Rethymno — vieille ville vénitienne, Plakias, et gastronomie crétoise</p>
 
       <!-- Google Maps embed -->
       <div class="map-container">
