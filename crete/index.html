@@ -986,14 +986,18 @@
     border: none;
   }
   .mb-marker {
-    width: 22px;
-    height: 22px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 2px solid #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.38);
     cursor: pointer;
     transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+  .mb-marker svg { width: 15px; height: 15px; fill: #fff; }
   .mb-marker:hover { transform: scale(1.18); }
   .mb-marker.hotel { background: var(--deep); }
   .mb-marker.resto { background: var(--terre); }
@@ -1011,13 +1015,17 @@
   }
   .map-legend span { display: inline-flex; align-items: center; gap: 7px; }
   .map-legend i {
-    width: 11px;
-    height: 11px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     border: 1.5px solid #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.25);
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
   }
+  .map-legend i svg { width: 10px; height: 10px; fill: #fff; }
   .map-legend i.hotel { background: var(--deep); }
   .map-legend i.resto { background: var(--terre); }
   .map-legend i.plage { background: var(--mer); }
@@ -1354,10 +1362,10 @@
         <div class="mapbox-map" id="map-chania"></div>
       </div>
       <div class="map-legend" aria-hidden="true">
-        <span><i class="hotel"></i>Hébergement</span>
-        <span><i class="resto"></i>Table</span>
-        <span><i class="plage"></i>Plage</span>
-        <span><i class="sight"></i>À voir</span>
+        <span><i class="hotel"><svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg></i>Hébergement</span>
+        <span><i class="resto"><svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg></i>Table</span>
+        <span><i class="plage"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg></i>Plage</span>
+        <span><i class="sight"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg></i>À voir</span>
       </div>
 
       <!-- HÉBERGEMENTS -->
@@ -1575,10 +1583,10 @@
         <div class="mapbox-map" id="map-loutro"></div>
       </div>
       <div class="map-legend" aria-hidden="true">
-        <span><i class="hotel"></i>Hébergement</span>
-        <span><i class="resto"></i>Table</span>
-        <span><i class="plage"></i>Plage</span>
-        <span><i class="sight"></i>À voir</span>
+        <span><i class="hotel"><svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg></i>Hébergement</span>
+        <span><i class="resto"><svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg></i>Table</span>
+        <span><i class="plage"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg></i>Plage</span>
+        <span><i class="sight"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg></i>À voir</span>
       </div>
 
       <!-- ACCÈS -->
@@ -1795,10 +1803,10 @@
         <div class="mapbox-map" id="map-sitia"></div>
       </div>
       <div class="map-legend" aria-hidden="true">
-        <span><i class="hotel"></i>Hébergement</span>
-        <span><i class="resto"></i>Table</span>
-        <span><i class="plage"></i>Plage</span>
-        <span><i class="sight"></i>À voir</span>
+        <span><i class="hotel"><svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg></i>Hébergement</span>
+        <span><i class="resto"><svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg></i>Table</span>
+        <span><i class="plage"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg></i>Plage</span>
+        <span><i class="sight"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg></i>À voir</span>
       </div>
 
       <!-- HÉBERGEMENTS -->
@@ -2014,10 +2022,10 @@
         <div class="mapbox-map" id="map-rethymno"></div>
       </div>
       <div class="map-legend" aria-hidden="true">
-        <span><i class="hotel"></i>Hébergement</span>
-        <span><i class="resto"></i>Table</span>
-        <span><i class="plage"></i>Plage</span>
-        <span><i class="sight"></i>À voir</span>
+        <span><i class="hotel"><svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg></i>Hébergement</span>
+        <span><i class="resto"><svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg></i>Table</span>
+        <span><i class="plage"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg></i>Plage</span>
+        <span><i class="sight"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg></i>À voir</span>
       </div>
 
       <!-- HÉBERGEMENTS -->
@@ -2389,54 +2397,94 @@
     'map-chania': {
       center: [35.45, 24.00], zoom: 9,
       markers: [
-        { type:'hotel', name:'Halepa Hotel', lng:24.0350, lat:35.5180, link:'https://www.google.com/maps/search/Halepa+Hotel+Chania+Crete' },
-        { type:'hotel', name:'Ionas Boutique Hotel', lng:24.0175, lat:35.5163, link:'https://www.google.com/maps/search/Ionas+Boutique+Hotel+Chania' },
-        { type:'resto', name:'Tamam', lng:24.0180, lat:35.5163, link:'https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania' },
-        { type:'sight', name:'Splantzia (vieille ville)', lng:24.0210, lat:35.5175, link:'https://www.google.com/maps/search/Splantzia+Square+Chania+Crete' },
-        { type:'plage', name:'Falassarna', lng:23.5783, lat:35.5033, link:'https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete' },
-        { type:'plage', name:'Elafonisi', lng:23.5400, lat:35.2717, link:'https://www.google.com/maps/search/Elafonisi+Beach+Crete' },
-        { type:'plage', name:'Balos', lng:23.5850, lat:35.5983, link:'https://www.google.com/maps/search/Balos+Lagoon+Crete' },
-        { type:'plage', name:'Seitan Limania', lng:24.1633, lat:35.5942, link:'https://www.google.com/maps/search/Seitan+Limania+Chania+Crete' }
+        { type:'hotel', name:'Halepa Hotel', lat:35.5180, lng:24.0350, link:'https://www.google.com/maps/search/Halepa+Hotel+Chania+Crete' },
+        { type:'hotel', name:'Ionas Boutique Hotel', lat:35.5163, lng:24.0175, link:'https://www.google.com/maps/search/Ionas+Boutique+Hotel+Chania' },
+        { type:'resto', name:'Tamam', lat:35.5156, lng:24.0178, link:'https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania' },
+        { type:'resto', name:'Chrisostomos', lat:35.5160, lng:24.0192, link:'https://www.google.com/maps/search/Chrisostomos+Restaurant+Chania' },
+        { type:'resto', name:'Evgonia', lat:35.5138, lng:24.0185, link:'https://www.google.com/maps/search/Evgonia+Milonogianni+Chania' },
+        { type:'resto', name:'Ntourountous (loukoumades)', lat:35.5148, lng:24.0188, link:'https://www.google.com/maps/search/Ntourountous+bakery+Place+1866+Chania' },
+        { type:'sight', name:'Splantzia (vieille ville)', lat:35.5175, lng:24.0210, link:'https://www.google.com/maps/search/Splantzia+Square+Chania+Crete' },
+        { type:'sight', name:'Profiti Ilia (colline)', lat:35.5165, lng:24.0300, link:'https://www.google.com/maps/search/Prophet+Elijah+Hill+Chania+Crete' },
+        { type:'sight', name:'Manousakis Winery', lat:35.4547, lng:23.9525, link:'https://www.google.com/maps/search/Manousakis+Winery+Chania+Crete' },
+        { type:'sight', name:'Karavitakis Winery', lat:35.4830, lng:23.7150, link:'https://www.google.com/maps/search/Karavitakis+Winery+Crete' },
+        { type:'plage', name:'Nea Chora', lat:35.5135, lng:24.0100, link:'https://www.google.com/maps/search/Nea+Chora+Beach+Chania' },
+        { type:'plage', name:'Falassarna', lat:35.5033, lng:23.5783, link:'https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete' },
+        { type:'plage', name:'Elafonisi', lat:35.2717, lng:23.5400, link:'https://www.google.com/maps/search/Elafonisi+Beach+Crete' },
+        { type:'plage', name:'Balos', lat:35.5983, lng:23.5850, link:'https://www.google.com/maps/search/Balos+Lagoon+Crete' },
+        { type:'plage', name:'Seitan Limania', lat:35.5942, lng:24.1633, link:'https://www.google.com/maps/search/Seitan+Limania+Chania+Crete' }
       ]
     },
     'map-loutro': {
       center: [35.195, 24.090], zoom: 12,
       markers: [
-        { type:'hotel', name:'Hotel Porto Loutro', lng:24.0782, lat:35.1983, link:'https://www.google.com/maps/search/Hotel+Porto+Loutro+Crete' },
-        { type:'resto', name:'Notos', lng:24.0785, lat:35.1981, link:'https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete' },
-        { type:'plage', name:'Glyka Nera (Sweet Water)', lng:24.0950, lat:35.1967, link:'https://www.google.com/maps/search/Glyka+Nera+Beach+Loutro+Crete' },
-        { type:'plage', name:'Marmara', lng:24.0483, lat:35.2033, link:'https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete' },
-        { type:'sight', name:'Phoenix / Finix', lng:24.0700, lat:35.1998, link:'https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete' },
-        { type:'sight', name:'Chora Sfakion (embarquement)', lng:24.1383, lat:35.2017, link:'https://www.google.com/maps/search/Chora+Sfakion+Crete' }
+        { type:'hotel', name:'Hotel Porto Loutro', lat:35.1983, lng:24.0782, link:'https://www.google.com/maps/search/Hotel+Porto+Loutro+Crete' },
+        { type:'hotel', name:'Hotel Anna', lat:35.1980, lng:24.0778, link:'https://www.google.com/maps/search/Hotel+Anna+Loutro+Crete' },
+        { type:'hotel', name:'Blue House', lat:35.1985, lng:24.0785, link:'https://www.google.com/maps/search/Blue+House+Loutro+Crete' },
+        { type:'resto', name:'Notos Restaurant & Rooms', lat:35.1981, lng:24.0787, link:'https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete' },
+        { type:'resto', name:'Stratis Taverna', lat:35.1979, lng:24.0790, link:'https://www.google.com/maps/search/Stratis+Taverna+Loutro+Crete' },
+        { type:'resto', name:'Ilios Taverna', lat:35.1982, lng:24.0793, link:'https://www.google.com/maps/search/Ilios+Taverna+Loutro+Crete' },
+        { type:'resto', name:'Old Phoenix', lat:35.1998, lng:24.0700, link:'https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete' },
+        { type:'plage', name:'Glyka Nera (Sweet Water)', lat:35.1967, lng:24.0950, link:'https://www.google.com/maps/search/Glyka+Nera+Sweetwater+Beach+Loutro+Crete' },
+        { type:'plage', name:'Marmara Beach', lat:35.2033, lng:24.0483, link:'https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete' },
+        { type:'sight', name:'Chora Sfakion (embarquement)', lat:35.2017, lng:24.1383, link:'https://www.google.com/maps/search/Chora+Sfakion+Crete' }
       ]
     },
     'map-sitia': {
       center: [35.18, 26.10], zoom: 9,
       markers: [
-        { type:'hotel', name:'Livikoview Xerokambos', lng:26.2883, lat:35.0750, link:'https://www.google.com/maps/search/Livikoview+Xerokambos+Crete' },
-        { type:'sight', name:'Sitia (vieille ville)', lng:26.1033, lat:35.2083, link:'https://www.google.com/maps/search/Sitia+Crete' },
-        { type:'plage', name:'Vai (palmeraie)', lng:26.2667, lat:35.2583, link:'https://www.google.com/maps/search/Vai+Beach+Crete' },
-        { type:'plage', name:'Xerokambos', lng:26.2833, lat:35.0683, link:'https://www.google.com/maps/search/Xerokambos+Crete' },
-        { type:'sight', name:'Kato Zakros (palais minoen)', lng:26.2650, lat:35.0967, link:'https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete' },
-        { type:'sight', name:'Monastère de Toplou', lng:26.2333, lat:35.2283, link:'https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete' },
-        { type:'sight', name:'Spinalonga', lng:25.7400, lat:35.2950, link:'https://www.google.com/maps/search/Spinalonga+Island+Elounda+Crete' }
+        { type:'hotel', name:'Nereids Apartments', lat:35.2080, lng:26.1035, link:'https://www.google.com/maps/search/Nereids+Apartments+Sitia+Crete' },
+        { type:'hotel', name:'Elysee Hotel', lat:35.2072, lng:26.1042, link:'https://www.google.com/maps/search/Elysee+Hotel+Sitia+Crete' },
+        { type:'hotel', name:'Livikoview Xerokambos', lat:35.0750, lng:26.2883, link:'https://www.google.com/maps/search/Livikoview+Xerokambos+Crete' },
+        { type:'resto', name:'Zorbas Tavern', lat:35.2085, lng:26.1050, link:'https://www.google.com/maps/search/Zorbas+Tavern+Sitia+Crete' },
+        { type:'resto', name:'Inodion', lat:35.2078, lng:26.1044, link:'https://www.google.com/maps/search/Inodion+Restaurant+Sitia+Crete' },
+        { type:'resto', name:'Tzivaeri', lat:35.2082, lng:26.1047, link:'https://www.google.com/maps/search/Tzivaeri+Tavern+Sitia+Crete' },
+        { type:'resto', name:'The Balcony', lat:35.2084, lng:26.1040, link:'https://www.google.com/maps/search/The+Balcony+Restaurant+Sitia+Crete' },
+        { type:'resto', name:'Mazzida Ammos (Xerokambos)', lat:35.0700, lng:26.2890, link:'https://www.google.com/maps/search/Mazzida+Ammos+Xerokambos+Crete' },
+        { type:'sight', name:'Sitia (vieille ville)', lat:35.2083, lng:26.1033, link:'https://www.google.com/maps/search/Sitia+Crete' },
+        { type:'plage', name:'Vaï (palmeraie)', lat:35.2583, lng:26.2667, link:'https://www.google.com/maps/search/Vai+Beach+Crete' },
+        { type:'plage', name:'Psili Ammos', lat:35.2567, lng:26.2617, link:'https://www.google.com/maps/search/Psili+Ammos+Vai+Crete' },
+        { type:'plage', name:'Xerokambos', lat:35.0683, lng:26.2833, link:'https://www.google.com/maps/search/Xerokambos+Crete' },
+        { type:'plage', name:'Argilos Beach', lat:35.0660, lng:26.2870, link:'https://www.google.com/maps/search/Argilos+Beach+Xerokambos+Crete' },
+        { type:'sight', name:'Kato Zakros (palais minoen)', lat:35.0967, lng:26.2650, link:'https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete' },
+        { type:'sight', name:'Monastère de Toplou', lat:35.2283, lng:26.2333, link:'https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete' },
+        { type:'sight', name:'Spinalonga', lat:35.2950, lng:25.7400, link:'https://www.google.com/maps/search/Spinalonga+Island+Elounda+Crete' }
       ]
     },
     'map-rethymno': {
       center: [35.28, 24.50], zoom: 10,
       markers: [
-        { type:'sight', name:'Rethymno (vieille ville)', lng:24.4733, lat:35.3667, link:'https://maps.google.com/maps?q=Rethymno+Old+Town+Crete' },
-        { type:'sight', name:'Fortezza', lng:24.4717, lat:35.3700, link:'https://maps.google.com/maps?q=Fortezza+Rethymno' },
-        { type:'resto', name:'Avli', lng:24.4745, lat:35.3680, link:'https://maps.google.com/maps?q=Avli+restaurant+Rethymno' },
-        { type:'plage', name:'Preveli', lng:24.4750, lat:35.1533, link:'https://maps.google.com/maps?q=Preveli+Beach+Crete' },
-        { type:'plage', name:'Plakias', lng:24.3933, lat:35.1867, link:'https://maps.google.com/maps?q=Plakias+Beach+Crete' },
-        { type:'plage', name:'Korakas', lng:24.3670, lat:35.1830, link:'https://maps.google.com/maps?q=Korakas+Beach+Plakias' },
-        { type:'sight', name:'Monastère d\'Arkadi', lng:24.6267, lat:35.3100, link:'https://maps.google.com/maps?q=Arkadi+Monastery+Crete' }
+        { type:'hotel', name:'Atelier Vieux Port', lat:35.3683, lng:24.4790, link:'https://www.google.com/maps/search/Atelier+Vieux+Port+Rethymno' },
+        { type:'hotel', name:'Pepi Boutique Hotel', lat:35.3673, lng:24.4763, link:'https://www.google.com/maps/search/Pepi+Boutique+Hotel+Rethymno' },
+        { type:'hotel', name:'Rimondi Boutique Hotel', lat:35.3678, lng:24.4760, link:'https://www.google.com/maps/search/Rimondi+Boutique+Hotel+Rethymno' },
+        { type:'resto', name:'Avli', lat:35.3680, lng:24.4745, link:'https://www.google.com/maps/search/Avli+restaurant+Rethymno' },
+        { type:'resto', name:'Prima Plora', lat:35.3677, lng:24.4697, link:'https://www.google.com/maps/search/Prima+Plora+Rethymno' },
+        { type:'resto', name:'Zefyros Fish Taverna', lat:35.3687, lng:24.4795, link:'https://www.google.com/maps/search/Zefyros+Fish+Taverna+Rethymno' },
+        { type:'resto', name:'Taverna Alekos (Armenoi)', lat:35.2900, lng:24.5100, link:'https://www.google.com/maps/search/Taverna+Alekos+Armenoi+Rethymno' },
+        { type:'resto', name:'Sella Vineria', lat:35.3675, lng:24.4740, link:'https://www.google.com/maps/search/Sella+Vineria+Rethymno' },
+        { type:'resto', name:'Rewine', lat:35.3683, lng:24.4748, link:'https://www.google.com/maps/search/Rewine+Rethymno' },
+        { type:'resto', name:"Androniki's Cretan House", lat:35.3680, lng:24.4755, link:'https://www.google.com/maps/search/Androniki+Cretan+House+Rethymno' },
+        { type:'resto', name:'Ntourountous (bakery)', lat:35.3680, lng:24.4750, link:'https://www.google.com/maps/search/Ntourountous+bakery+Rethymno' },
+        { type:'resto', name:'Hatziparshos', lat:35.3677, lng:24.4753, link:'https://www.google.com/maps/search/Hatziparshos+bakery+Rethymno' },
+        { type:'sight', name:'Rethymno (vieille ville)', lat:35.3667, lng:24.4733, link:'https://maps.google.com/maps?q=Rethymno+Old+Town+Crete' },
+        { type:'sight', name:'Fortezza', lat:35.3700, lng:24.4717, link:'https://maps.google.com/maps?q=Fortezza+Rethymno' },
+        { type:'sight', name:'Marché du mercredi (Koumoundourou)', lat:35.3695, lng:24.4730, link:'https://www.google.com/maps/search/Koumoundourou+Street+Rethymno' },
+        { type:'sight', name:"Monastère d'Arkadi", lat:35.3100, lng:24.6267, link:'https://maps.google.com/maps?q=Arkadi+Monastery+Crete' },
+        { type:'plage', name:'Preveli', lat:35.1533, lng:24.4750, link:'https://maps.google.com/maps?q=Preveli+Beach+Crete' },
+        { type:'plage', name:'Plakias', lat:35.1867, lng:24.3933, link:'https://maps.google.com/maps?q=Plakias+Beach+Crete' },
+        { type:'plage', name:'Damnoni', lat:35.1880, lng:24.4060, link:'https://www.google.com/maps/search/Damnoni+Beach+Crete' },
+        { type:'plage', name:'Korakas', lat:35.1830, lng:24.3670, link:'https://maps.google.com/maps?q=Korakas+Beach+Plakias' }
       ]
     }
   };
 
   var TYPE_LABELS = { hotel:'Hébergement', resto:'Table', plage:'Plage', sight:'À voir' };
+
+  var GLYPHS = {
+    hotel: '<svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg>',
+    resto: '<svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg>',
+    plage: '<svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg>',
+    sight: '<svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg>'
+  };
 
   function escapeHtml(s) {
     return String(s).replace(/[&<>"']/g, function(c) {
@@ -2463,10 +2511,10 @@
     cfg.markers.forEach(function(m) {
       var icon = L.divIcon({
         className: 'mb-marker ' + m.type,
-        iconSize: [22, 22],
-        iconAnchor: [11, 11],
-        popupAnchor: [0, -10],
-        html: ''
+        iconSize: [30, 30],
+        iconAnchor: [15, 15],
+        popupAnchor: [0, -14],
+        html: GLYPHS[m.type] || ''
       });
       var popupHtml =
         '<span class="pop-kicker">' + escapeHtml(TYPE_LABELS[m.type]) + '</span>' +
