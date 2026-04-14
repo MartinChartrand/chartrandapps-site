@@ -2436,8 +2436,6 @@
     var el = document.getElementById(id);
     if (!el) return;
     var map = L.map(id, {
-      center: cfg.center,
-      zoom: cfg.zoom,
       scrollWheelZoom: false,
       zoomControl: true,
       attributionControl: true
@@ -2449,6 +2447,7 @@
       maxZoom: 19
     }).addTo(map);
 
+    var latLngs = [];
     cfg.markers.forEach(function(m) {
       var icon = L.divIcon({
         className: 'mb-marker ' + m.type,
@@ -2464,7 +2463,17 @@
       L.marker([m.lat, m.lng], { icon: icon, title: m.name, alt: m.name })
         .bindPopup(popupHtml, { closeButton: true, maxWidth: 260 })
         .addTo(map);
+      latLngs.push([m.lat, m.lng]);
     });
+
+    if (latLngs.length) {
+      map.fitBounds(L.latLngBounds(latLngs), {
+        padding: [44, 44],
+        maxZoom: cfg.maxZoom || 12
+      });
+    } else {
+      map.setView(cfg.center, cfg.zoom);
+    }
   }
 
   if ('IntersectionObserver' in window) {
