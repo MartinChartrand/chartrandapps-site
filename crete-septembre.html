@@ -37,6 +37,10 @@
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
 
   body {
     font-family: 'DM Sans', system-ui, sans-serif;
@@ -272,19 +276,13 @@
     font-weight: 600;
   }
 
-  /* TAB CONTENT TRANSITIONS */
+  /* SECTIONS — all visible, linear scroll */
   .tab-section {
-    display: none;
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  .tab-section.visible {
     display: block;
-    animation: tabFadeIn 0.4s ease-out forwards;
+    scroll-margin-top: 72px;
   }
-  @keyframes tabFadeIn {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
+  @media (max-width: 700px) {
+    .tab-section { scroll-margin-top: 58px; }
   }
 
   /* TIMELINE */
@@ -919,22 +917,22 @@
 </header>
 
 <!-- NAV -->
-<nav class="nav" role="tablist" aria-label="Sections de l'itinéraire" id="main-nav">
+<nav class="nav" aria-label="Sections de l'itinéraire" id="main-nav">
   <div class="nav-inner">
-    <button class="nav-btn active" role="tab" aria-selected="true" aria-controls="vue" data-tab="vue">Vue d'ensemble</button>
-    <button class="nav-btn" role="tab" aria-selected="false" aria-controls="chania" data-tab="chania">Chania</button>
-    <button class="nav-btn" role="tab" aria-selected="false" aria-controls="loutro" data-tab="loutro">Loutro</button>
-    <button class="nav-btn" role="tab" aria-selected="false" aria-controls="sitia" data-tab="sitia">Sitia</button>
-    <button class="nav-btn" role="tab" aria-selected="false" aria-controls="rethymno" data-tab="rethymno">Rethymno</button>
-    <button class="nav-btn" role="tab" aria-selected="false" aria-controls="budget" data-tab="budget">Budget</button>
-    <button class="nav-btn" role="tab" aria-selected="false" aria-controls="pratique" data-tab="pratique">Pratique</button>
+    <button class="nav-btn active" aria-current="true" data-tab="vue">Vue d'ensemble</button>
+    <button class="nav-btn" data-tab="chania">Chania</button>
+    <button class="nav-btn" data-tab="loutro">Loutro</button>
+    <button class="nav-btn" data-tab="sitia">Sitia</button>
+    <button class="nav-btn" data-tab="rethymno">Rethymno</button>
+    <button class="nav-btn" data-tab="budget">Budget</button>
+    <button class="nav-btn" data-tab="pratique">Pratique</button>
   </div>
 </nav>
 
 <main id="main-content">
 
 <!-- VUE D'ENSEMBLE -->
-<div id="vue" class="tab-section visible" role="tabpanel" aria-labelledby="tab-vue">
+<div id="vue" class="tab-section">
   <div class="section">
     <div class="container">
       <div class="section-header">
@@ -1050,7 +1048,7 @@
 </div>
 
 <!-- CHANIA -->
-<div id="chania" class="tab-section" role="tabpanel" aria-labelledby="tab-chania">
+<div id="chania" class="tab-section">
   <div class="section">
     <div class="container">
       <div class="section-header">
@@ -1265,7 +1263,7 @@
 </div>
 
 <!-- LOUTRO -->
-<div id="loutro" class="tab-section" role="tabpanel" aria-labelledby="tab-loutro">
+<div id="loutro" class="tab-section">
   <div class="section">
     <div class="container">
       <div class="section-header">
@@ -1476,7 +1474,7 @@
 </div>
 
 <!-- SITIA -->
-<div id="sitia" class="tab-section" role="tabpanel" aria-labelledby="tab-sitia">
+<div id="sitia" class="tab-section">
   <div class="section">
     <div class="container">
       <div class="section-header">
@@ -1686,7 +1684,7 @@
 </div>
 
 <!-- RETHYMNO -->
-<div id="rethymno" class="tab-section" role="tabpanel" aria-labelledby="tab-rethymno">
+<div id="rethymno" class="tab-section">
   <div class="section">
     <div class="container">
       <div class="section-header">
@@ -1901,7 +1899,7 @@
 </div>
 
 <!-- BUDGET -->
-<div id="budget" class="tab-section" role="tabpanel" aria-labelledby="tab-budget">
+<div id="budget" class="tab-section">
   <div class="section">
     <div class="container">
       <div class="section-header">
@@ -2012,7 +2010,7 @@
 </div>
 
 <!-- PRATIQUE -->
-<div id="pratique" class="tab-section" role="tabpanel" aria-labelledby="tab-pratique">
+<div id="pratique" class="tab-section">
   <div class="section">
     <div class="container">
       <div class="section-header">
@@ -2094,84 +2092,89 @@
 (function() {
   'use strict';
 
-  // Tab navigation
-  const tabs = document.querySelectorAll('.nav-btn');
+  // Jump navigation (replaces tab show/hide — all sections render in linear scroll)
+  const navBtns = document.querySelectorAll('.nav-btn');
   const sections = document.querySelectorAll('.tab-section');
   const nav = document.querySelector('.nav');
 
-  function show(tabId, btn) {
-    sections.forEach(function(s) { s.classList.remove('visible'); });
-    tabs.forEach(function(b) {
-      b.classList.remove('active');
-      b.setAttribute('aria-selected', 'false');
+  function setActive(id) {
+    navBtns.forEach(function(b) {
+      var isActive = b.getAttribute('data-tab') === id;
+      b.classList.toggle('active', isActive);
+      if (isActive) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
     });
-
-    var target = document.getElementById(tabId);
-    if (target) {
-      target.classList.add('visible');
+    // Center active button on mobile
+    if (window.innerWidth < 700) {
+      var active = document.querySelector('.nav-btn.active');
+      if (active) active.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
     }
-    if (btn) {
-      btn.classList.add('active');
-      btn.setAttribute('aria-selected', 'true');
-
-      // Scroll nav button into view on mobile
-      if (window.innerWidth < 700) {
-        btn.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
-      }
-    }
-
-    // Update URL hash without scrolling
-    if (history.replaceState) {
-      history.replaceState(null, null, '#' + tabId);
-    }
-
-    // Smooth scroll to nav
-    window.scrollTo({ top: nav.offsetTop, behavior: 'smooth' });
   }
 
-  // Click handlers
-  tabs.forEach(function(btn) {
+  function jumpTo(id) {
+    var target = document.getElementById(id);
+    if (!target) return;
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (history.replaceState) history.replaceState(null, '', '#' + id);
+    setActive(id);
+  }
+
+  // Click handlers → jump to section
+  navBtns.forEach(function(btn) {
     btn.addEventListener('click', function() {
-      show(this.getAttribute('data-tab'), this);
+      jumpTo(this.getAttribute('data-tab'));
     });
   });
 
-  // Keyboard navigation (arrow keys between tabs)
-  tabs.forEach(function(btn, i) {
+  // Keyboard nav (arrow keys jump between sections)
+  navBtns.forEach(function(btn, i) {
     btn.addEventListener('keydown', function(e) {
       var idx = i;
-      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
-        e.preventDefault();
-        idx = (i + 1) % tabs.length;
-      } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
-        e.preventDefault();
-        idx = (i - 1 + tabs.length) % tabs.length;
-      } else if (e.key === 'Home') {
-        e.preventDefault();
-        idx = 0;
-      } else if (e.key === 'End') {
-        e.preventDefault();
-        idx = tabs.length - 1;
-      } else {
-        return;
-      }
-      tabs[idx].focus();
-      show(tabs[idx].getAttribute('data-tab'), tabs[idx]);
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); idx = (i + 1) % navBtns.length; }
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); idx = (i - 1 + navBtns.length) % navBtns.length; }
+      else if (e.key === 'Home') { e.preventDefault(); idx = 0; }
+      else if (e.key === 'End') { e.preventDefault(); idx = navBtns.length - 1; }
+      else return;
+      navBtns[idx].focus();
+      jumpTo(navBtns[idx].getAttribute('data-tab'));
     });
   });
 
-  // Handle URL hash on load
+  // IntersectionObserver — update active state + URL hash as user scrolls
+  var scrollSyncEnabled = true;
+  if ('IntersectionObserver' in window) {
+    var currentId = null;
+    var observer = new IntersectionObserver(function(entries) {
+      if (!scrollSyncEnabled) return;
+      // Pick the entry closest to the top of the viewport
+      var visible = entries.filter(function(e) { return e.isIntersecting; });
+      if (!visible.length) return;
+      visible.sort(function(a, b) { return a.boundingClientRect.top - b.boundingClientRect.top; });
+      var id = visible[0].target.id;
+      if (id && id !== currentId) {
+        currentId = id;
+        navBtns.forEach(function(b) {
+          var isActive = b.getAttribute('data-tab') === id;
+          b.classList.toggle('active', isActive);
+          if (isActive) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+        });
+        if (history.replaceState) history.replaceState(null, '', '#' + id);
+      }
+    }, { rootMargin: '-80px 0px -60% 0px', threshold: 0 });
+    sections.forEach(function(s) { observer.observe(s); });
+  }
+
+  // Handle URL hash on load (direct link / bookmark)
   function handleHash() {
     var hash = window.location.hash.replace('#', '');
     if (hash && document.getElementById(hash)) {
-      var btn = document.querySelector('.nav-btn[data-tab="' + hash + '"]');
-      if (btn) {
-        show(hash, btn);
-        return;
-      }
+      // Let the browser scroll natively via scroll-margin-top
+      setActive(hash);
     }
   }
-  handleHash();
+  if (window.location.hash) {
+    // Defer so scroll-margin applies and images start loading
+    setTimeout(handleHash, 50);
+  }
   window.addEventListener('hashchange', handleHash);
 
   // Nav scroll shadow
