@@ -15,6 +15,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
   :root {
     --terre: #C4714A;
@@ -892,24 +893,116 @@
   .link-pill.trip { background: #F0FAF0; color: #00AA6C; }
   .link-pill.trip:hover { background: #00AA6C; color: white; }
 
-  /* GOOGLE MAPS EMBED */
+  /* LEAFLET MAP */
   .map-container {
     position: relative;
     width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
+    height: 460px;
     border-radius: var(--radius);
     overflow: hidden;
     margin: 28px 0;
     box-shadow: var(--shadow-md);
     border: 1px solid var(--border);
+    background: var(--mer-light);
   }
-  .map-container iframe {
+  @media (max-width: 700px) { .map-container { height: 360px; } }
+  .mapbox-map {
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    border: 0;
+    inset: 0;
+    width: 100%;
+    height: 100%;
   }
+  .leaflet-container {
+    font-family: 'DM Sans', sans-serif;
+    background: #F7F4EE;
+  }
+  .leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.18);
+    padding: 2px 4px;
+  }
+  .leaflet-popup-content {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.45;
+    margin: 14px 16px 12px;
+    min-width: 180px;
+  }
+  .leaflet-popup-content .pop-kicker {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--terre);
+    display: block;
+    margin-bottom: 4px;
+  }
+  .leaflet-popup-content .pop-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--deep);
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .leaflet-popup-content .pop-link {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--mer);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+  }
+  .leaflet-popup-content .pop-link:hover { color: var(--accent); }
+  .leaflet-container a.leaflet-popup-close-button {
+    color: var(--muted);
+    font-size: 20px;
+    padding: 6px 8px 0 0;
+  }
+  .leaflet-div-icon.mb-marker {
+    background: transparent;
+    border: none;
+  }
+  .mb-marker {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .mb-marker:hover { transform: scale(1.18); }
+  .mb-marker.hotel { background: var(--deep); }
+  .mb-marker.resto { background: var(--terre); }
+  .mb-marker.plage { background: var(--mer); }
+  .mb-marker.sight { background: var(--accent); }
+  .map-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: -12px 0 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+  .map-legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .map-legend i {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    display: inline-block;
+  }
+  .map-legend i.hotel { background: var(--deep); }
+  .map-legend i.resto { background: var(--terre); }
+  .map-legend i.plage { background: var(--mer); }
+  .map-legend i.sight { background: var(--accent); }
   .map-label {
     font-size: 10px;
     font-weight: 500;
@@ -1239,7 +1332,13 @@
       <!-- CARTE -->
       <span class="map-label">Carte — Chania et environs</span>
       <div class="map-container">
-        <iframe src="https://maps.google.com/maps?q=Chania+Old+Town+Crete+Greece&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mapbox-map" id="map-chania"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"></i>Hébergement</span>
+        <span><i class="resto"></i>Table</span>
+        <span><i class="plage"></i>Plage</span>
+        <span><i class="sight"></i>À voir</span>
       </div>
 
       <!-- HÉBERGEMENTS -->
@@ -1460,7 +1559,13 @@
       <!-- CARTE -->
       <span class="map-label">Carte — Loutro et côte sud</span>
       <div class="map-container">
-        <iframe src="https://maps.google.com/maps?q=Loutro+Sfakia+Crete+Greece&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mapbox-map" id="map-loutro"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"></i>Hébergement</span>
+        <span><i class="resto"></i>Table</span>
+        <span><i class="plage"></i>Plage</span>
+        <span><i class="sight"></i>À voir</span>
       </div>
 
       <!-- ACCÈS -->
@@ -1674,7 +1779,13 @@
       <!-- CARTE -->
       <span class="map-label">Carte — Sitia et est crétois</span>
       <div class="map-container">
-        <iframe src="https://maps.google.com/maps?q=Sitia+Crete+Greece&t=&z=11&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="mapbox-map" id="map-sitia"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"></i>Hébergement</span>
+        <span><i class="resto"></i>Table</span>
+        <span><i class="plage"></i>Plage</span>
+        <span><i class="sight"></i>À voir</span>
       </div>
 
       <!-- HÉBERGEMENTS -->
@@ -1884,9 +1995,16 @@
         <img src="https://images.unsplash.com/photo-1717251881858-b06e4656f913?w=600&q=80" alt="Moules et vin — dîner crétois" loading="lazy">
       </div>
 
-      <!-- Google Maps embed -->
+      <!-- CARTE -->
+      <span class="map-label">Carte — Rethymno et côte sud</span>
       <div class="map-container">
-        <iframe src="https://maps.google.com/maps?q=Rethymno+Old+Town+Crete+Greece&z=14&output=embed" allowfullscreen loading="lazy" title="Carte de Rethymno"></iframe>
+        <div class="mapbox-map" id="map-rethymno"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"></i>Hébergement</span>
+        <span><i class="resto"></i>Table</span>
+        <span><i class="plage"></i>Plage</span>
+        <span><i class="sight"></i>À voir</span>
       </div>
 
       <!-- HÉBERGEMENTS -->
@@ -2248,6 +2366,128 @@
   <button class="lightbox-close" aria-label="Fermer">&times;</button>
   <img src="" alt="">
 </div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(function() {
+  if (!window.L) return;
+
+  var MAPS = {
+    'map-chania': {
+      center: [35.45, 24.00], zoom: 9,
+      markers: [
+        { type:'hotel', name:'Halepa Hotel', lng:24.0350, lat:35.5180, link:'https://www.google.com/maps/search/Halepa+Hotel+Chania+Crete' },
+        { type:'hotel', name:'Ionas Boutique Hotel', lng:24.0175, lat:35.5163, link:'https://www.google.com/maps/search/Ionas+Boutique+Hotel+Chania' },
+        { type:'resto', name:'Tamam', lng:24.0180, lat:35.5163, link:'https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania' },
+        { type:'resto', name:'Thalassino Ageri', lng:24.0285, lat:35.5240, link:'https://www.google.com/maps/search/Thalassino+Ageri+Tabakaria+Chania' },
+        { type:'sight', name:'Splantzia (vieille ville)', lng:24.0210, lat:35.5175, link:'https://www.google.com/maps/search/Splantzia+Square+Chania+Crete' },
+        { type:'plage', name:'Falassarna', lng:23.5783, lat:35.5033, link:'https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete' },
+        { type:'plage', name:'Elafonisi', lng:23.5400, lat:35.2717, link:'https://www.google.com/maps/search/Elafonisi+Beach+Crete' },
+        { type:'plage', name:'Balos', lng:23.5850, lat:35.5983, link:'https://www.google.com/maps/search/Balos+Lagoon+Crete' },
+        { type:'plage', name:'Seitan Limania', lng:24.1633, lat:35.5942, link:'https://www.google.com/maps/search/Seitan+Limania+Chania+Crete' }
+      ]
+    },
+    'map-loutro': {
+      center: [35.195, 24.090], zoom: 12,
+      markers: [
+        { type:'hotel', name:'Hotel Porto Loutro', lng:24.0782, lat:35.1983, link:'https://www.google.com/maps/search/Hotel+Porto+Loutro+Crete' },
+        { type:'resto', name:'Notos', lng:24.0785, lat:35.1981, link:'https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete' },
+        { type:'plage', name:'Glyka Nera (Sweet Water)', lng:24.0950, lat:35.1967, link:'https://www.google.com/maps/search/Glyka+Nera+Beach+Loutro+Crete' },
+        { type:'plage', name:'Marmara', lng:24.0483, lat:35.2033, link:'https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete' },
+        { type:'sight', name:'Phoenix / Finix', lng:24.0700, lat:35.1998, link:'https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete' },
+        { type:'sight', name:'Chora Sfakion (embarquement)', lng:24.1383, lat:35.2017, link:'https://www.google.com/maps/search/Chora+Sfakion+Crete' }
+      ]
+    },
+    'map-sitia': {
+      center: [35.18, 26.10], zoom: 9,
+      markers: [
+        { type:'hotel', name:'Livikoview Xerokambos', lng:26.2883, lat:35.0750, link:'https://www.google.com/maps/search/Livikoview+Xerokambos+Crete' },
+        { type:'sight', name:'Sitia (vieille ville)', lng:26.1033, lat:35.2083, link:'https://www.google.com/maps/search/Sitia+Crete' },
+        { type:'plage', name:'Vai (palmeraie)', lng:26.2667, lat:35.2583, link:'https://www.google.com/maps/search/Vai+Beach+Crete' },
+        { type:'plage', name:'Xerokambos', lng:26.2833, lat:35.0683, link:'https://www.google.com/maps/search/Xerokambos+Crete' },
+        { type:'sight', name:'Kato Zakros (palais minoen)', lng:26.2650, lat:35.0967, link:'https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete' },
+        { type:'sight', name:'Monastère de Toplou', lng:26.2333, lat:35.2283, link:'https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete' },
+        { type:'sight', name:'Spinalonga', lng:25.7400, lat:35.2950, link:'https://www.google.com/maps/search/Spinalonga+Island+Elounda+Crete' }
+      ]
+    },
+    'map-rethymno': {
+      center: [35.28, 24.50], zoom: 10,
+      markers: [
+        { type:'sight', name:'Rethymno (vieille ville)', lng:24.4733, lat:35.3667, link:'https://maps.google.com/maps?q=Rethymno+Old+Town+Crete' },
+        { type:'sight', name:'Fortezza', lng:24.4717, lat:35.3700, link:'https://maps.google.com/maps?q=Fortezza+Rethymno' },
+        { type:'resto', name:'Avli', lng:24.4745, lat:35.3680, link:'https://maps.google.com/maps?q=Avli+restaurant+Rethymno' },
+        { type:'plage', name:'Preveli', lng:24.4750, lat:35.1533, link:'https://maps.google.com/maps?q=Preveli+Beach+Crete' },
+        { type:'plage', name:'Plakias', lng:24.3933, lat:35.1867, link:'https://maps.google.com/maps?q=Plakias+Beach+Crete' },
+        { type:'plage', name:'Korakas', lng:24.3670, lat:35.1830, link:'https://maps.google.com/maps?q=Korakas+Beach+Plakias' },
+        { type:'sight', name:'Monastère d\'Arkadi', lng:24.6267, lat:35.3100, link:'https://maps.google.com/maps?q=Arkadi+Monastery+Crete' }
+      ]
+    }
+  };
+
+  var TYPE_LABELS = { hotel:'Hébergement', resto:'Table', plage:'Plage', sight:'À voir' };
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function(c) {
+      return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c];
+    });
+  }
+
+  function buildMap(id, cfg) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var map = L.map(id, {
+      center: cfg.center,
+      zoom: cfg.zoom,
+      scrollWheelZoom: false,
+      zoomControl: true,
+      attributionControl: true
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    cfg.markers.forEach(function(m) {
+      var icon = L.divIcon({
+        className: 'mb-marker ' + m.type,
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        popupAnchor: [0, -10],
+        html: ''
+      });
+      var popupHtml =
+        '<span class="pop-kicker">' + escapeHtml(TYPE_LABELS[m.type]) + '</span>' +
+        '<span class="pop-title">' + escapeHtml(m.name) + '</span>' +
+        '<a class="pop-link" href="' + encodeURI(m.link) + '" target="_blank" rel="noopener">Ouvrir dans Maps →</a>';
+      L.marker([m.lat, m.lng], { icon: icon, title: m.name, alt: m.name })
+        .bindPopup(popupHtml, { closeButton: true, maxWidth: 260 })
+        .addTo(map);
+    });
+  }
+
+  if ('IntersectionObserver' in window) {
+    var mapObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var id = entry.target.id;
+          if (MAPS[id]) {
+            buildMap(id, MAPS[id]);
+            mapObserver.unobserve(entry.target);
+          }
+        }
+      });
+    }, { rootMargin: '300px 0px' });
+    Object.keys(MAPS).forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) mapObserver.observe(el);
+    });
+  } else {
+    Object.keys(MAPS).forEach(function(id) { buildMap(id, MAPS[id]); });
+  }
+})();
+</script>
 
 <script>
 (function() {
