@@ -275,6 +275,149 @@
     color: var(--deep);
     font-weight: 600;
   }
+  .curatorial > p:first-of-type::first-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 68px;
+    font-weight: 400;
+    float: left;
+    line-height: 0.85;
+    padding: 6px 10px 0 0;
+    color: var(--terre);
+  }
+
+  /* CHAPTER COVERS — full-bleed section openers */
+  .chapter-cover {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 78vh;
+    min-height: 520px;
+    max-height: 780px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+  }
+  .chapter-cover img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+  }
+  .chapter-cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(26,42,58,0.1) 0%, rgba(26,42,58,0.2) 45%, rgba(26,42,58,0.82) 100%);
+    z-index: 1;
+  }
+  .chapter-cover-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px 72px;
+  }
+  .chapter-num {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    display: block;
+    margin-bottom: 18px;
+  }
+  .chapter-num::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background: rgba(255,255,255,0.6);
+    vertical-align: middle;
+    margin-right: 14px;
+  }
+  .chapter-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(56px, 10vw, 128px);
+    font-weight: 300;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin: 0 0 16px;
+    color: #fff;
+  }
+  .chapter-subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: clamp(18px, 2.4vw, 26px);
+    font-weight: 300;
+    max-width: 560px;
+    line-height: 1.45;
+    color: rgba(255,255,255,0.92);
+  }
+  @media (max-width: 700px) {
+    .chapter-cover { height: 72vh; min-height: 440px; }
+    .chapter-cover-inner { padding: 0 24px 48px; }
+    .chapter-num { font-size: 10px; letter-spacing: 0.24em; }
+    .chapter-num::before { width: 24px; margin-right: 10px; }
+  }
+
+  /* PULLQUOTE — art-directed lede */
+  .pullquote {
+    position: relative;
+    width: 100vw;
+    margin: 72px 0 56px calc(50% - 50vw);
+    padding: 48px 24px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: clamp(26px, 4vw, 42px);
+    line-height: 1.35;
+    color: var(--deep);
+    max-width: none;
+  }
+  .pullquote::before,
+  .pullquote::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--terre);
+    margin: 0 auto 28px;
+  }
+  .pullquote::after {
+    margin: 28px auto 0;
+  }
+  .pullquote p {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  @media (max-width: 700px) {
+    .pullquote { padding: 32px 24px; margin: 48px 0 40px calc(50% - 50vw); }
+  }
+
+  /* SECTION BACKGROUND ALTERNANCE */
+  .tab-section.bg-sand { background: var(--sand); }
+  .tab-section.bg-sand .section { border-bottom-color: rgba(0,0,0,0.06); }
+
+  /* SCROLL REVEAL */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s cubic-bezier(.2,.6,.2,1), transform 0.9s cubic-bezier(.2,.6,.2,1);
+    will-change: opacity, transform;
+  }
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
 
   /* SECTIONS — all visible, linear scroll */
   .tab-section {
@@ -594,13 +737,14 @@
 
   /* PHOTO GALLERIES */
   .photo-hero {
-    width: 100%;
-    height: 320px;
+    display: block;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: clamp(340px, 55vh, 560px);
     object-fit: cover;
-    border-radius: var(--radius);
-    margin-bottom: 32px;
-    box-shadow: var(--shadow-lg);
+    margin-bottom: 56px;
   }
+  .photo-caption { display: none; }
   .photo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -1049,16 +1193,21 @@
 
 <!-- CHANIA -->
 <div id="chania" class="tab-section">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1681280931205-a3c6ed0452d5?w=1800&q=85" alt="Port vénitien de Chania au coucher du soleil">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">01 / 04 &nbsp;·&nbsp; Base 1 &nbsp;·&nbsp; 5–12 septembre &nbsp;·&nbsp; 8 nuits</span>
+      <h2 class="chapter-title">Chania</h2>
+      <p class="chapter-subtitle">La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l'extrême ouest.</p>
+    </div>
+  </div>
   <div class="section">
     <div class="container">
-      <div class="section-header">
-        <span class="section-num">Base 1 · 5–12 septembre · 8 nuits</span>
-        <h2 class="section-title">Chania</h2>
-        <p class="section-intro">La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, marché couvert, et à une heure de voiture les plages sauvages de l'extrême ouest. On loge dans le quartier Splantzia ou Halepa — plus calme et 20% moins cher que le front de port.</p>
+      <div class="pullquote reveal">
+        <p>Huit nuits à Chania, c'est long exprès. C'est le sas du voyage — l'endroit où on laisse tomber le décalage horaire, où on apprend le rythme crétois avant de disparaître à Loutro.</p>
       </div>
 
-      <div class="curatorial">
-        <p class="lede">Huit nuits à Chania, c'est long exprès. C'est le sas du voyage — l'endroit où on laisse tomber le décalage horaire, où on apprend le rythme crétois avant de disparaître à Loutro.</p>
+      <div class="curatorial reveal">
         <p>La base est à Splantzia ou Halepa, jamais au front de port : c'est 20% moins cher, c'est là où les voisines sortent leur chaise à 18h, et c'est à dix minutes à pied de tout.</p>
 
         <h4>La table</h4>
@@ -1074,15 +1223,13 @@
         <p>Les <strong>loukoumades chez Ntourountous</strong>, Place 1866. Beignets au miel chauds, recette familiale, Travelers' Choice. C'est cinq euros et c'est la première bouchée qui dit : OK, on est en Crète. Le deuxième move, plus ambitieux : une journée avec <strong>Chania Wine Tours</strong> chez Manousakis ou Karavitakis, dégustation dans les vignes, tsikoudia en digestif.</p>
       </div>
 
-      <img class="photo-hero" src="https://images.unsplash.com/photo-1681280931205-a3c6ed0452d5?w=1200&q=80" alt="Port vénitien de Chania au coucher du soleil" loading="lazy">
-      <div class="photo-grid">
+      <div class="photo-grid reveal">
         <img src="https://images.unsplash.com/photo-1636634245640-e223f8fbe529?w=600&q=80" alt="Phare vénitien de Chania" loading="lazy">
         <img src="https://images.unsplash.com/photo-1627240821425-3e148ca739b1?w=600&q=80" alt="Elafonisi vue aérienne" loading="lazy" class="photo-wide">
         <img src="https://images.unsplash.com/photo-1604179562800-b60b88b8cb26?w=600&q=80" alt="Plage de Falassarna" loading="lazy">
         <img src="https://images.unsplash.com/photo-1611697522020-f44d4e818698?w=600&q=80" alt="Balos Lagoon" loading="lazy">
         <img src="https://images.unsplash.com/photo-1768322264423-4b0adf0cf31b?w=600&q=80" alt="Poisson grillé et pieuvre — cuisine crétoise" loading="lazy">
       </div>
-      <p class="photo-caption">Chania, Elafonisi, Falassarna, Balos — et la cuisine locale</p>
 
       <!-- CARTE -->
       <span class="map-label">Carte — Chania et environs</span>
@@ -2138,6 +2285,21 @@
       jumpTo(navBtns[idx].getAttribute('data-tab'));
     });
   });
+
+  // Scroll reveal for .reveal elements
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.05 });
+    document.querySelectorAll('.reveal').forEach(function(el) { revealObserver.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el) { el.classList.add('in-view'); });
+  }
 
   // IntersectionObserver — update active state + URL hash as user scrolls
   var scrollSyncEnabled = true;
