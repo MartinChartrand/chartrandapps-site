@@ -868,6 +868,25 @@
     font-size: 0.75em;
     opacity: 0.5;
   }
+  /* Inline place link — narrative/curatorial text */
+  .place-link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5px solid rgba(196, 113, 74, 0.38);
+    padding-bottom: 1px;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+  }
+  .place-link:hover {
+    color: var(--terre);
+    border-bottom-color: var(--terre);
+    background-color: rgba(196, 113, 74, 0.08);
+  }
+  .place-link:focus-visible {
+    outline: 2px solid var(--terre);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
   .link-row {
     display: flex;
     flex-wrap: wrap;
@@ -1309,16 +1328,16 @@
         <p>La base est à Splantzia ou Halepa, jamais au front de port : c'est 20% moins cher, c'est là où les voisines sortent leur chaise à 18h, et c'est à dix minutes à pied de tout.</p>
 
         <h4>La table</h4>
-        <p>Quatre adresses, quatre registres. <strong>Tamam</strong> dans les anciens bains turcs du XVI<sup>e</sup> pour le végétarien qui ne ressemble à rien d'autre. <strong>Chrisostomos</strong> pour l'agneau ofto au four à bois (ouvert mer–dim seulement — à planifier). <strong>Thalassino Ageri</strong>, aux Tabakaria, là où les vagues touchent presque les tables : réservation longtemps d'avance, sinon porte fermée. Et <strong>Evgonia</strong>, Milonogianni 120, une taverne de quartier où Nektarios guide les choix selon l'arrivage du matin. Règle d'or : le premier rang de restos du port, on l'évite. Qualité divisée par deux, prix doublés.</p>
+        <p>Quatre adresses, quatre registres. <a class="place-link" href="https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania" target="_blank" rel="noopener">Tamam</a> dans les anciens bains turcs du XVI<sup>e</sup> pour le végétarien qui ne ressemble à rien d'autre. <a class="place-link" href="https://www.google.com/maps/search/Chrisostomos+Restaurant+Chania" target="_blank" rel="noopener">Chrisostomos</a> pour l'agneau ofto au four à bois (ouvert mer–dim seulement — à planifier). <a class="place-link" href="https://www.google.com/maps/search/Thalassino+Ageri+Tabakaria+Chania" target="_blank" rel="noopener">Thalassino Ageri</a>, aux Tabakaria, là où les vagues touchent presque les tables : réservation longtemps d'avance, sinon porte fermée. Et <a class="place-link" href="https://www.google.com/maps/search/Evgonia+Milonogianni+Chania" target="_blank" rel="noopener">Evgonia</a>, Milonogianni 120, une taverne de quartier où Nektarios guide les choix selon l'arrivage du matin. Règle d'or : le premier rang de restos du port, on l'évite. Qualité divisée par deux, prix doublés.</p>
 
         <h4>Les plages</h4>
-        <p>L'ouest est sauvage. <strong>Falassarna</strong> face au soleil couchant, section nord vide, bar Orange Blue sur la colline pour le dernier verre. <strong>Elafonisi</strong> pour le sable rose et l'eau peu profonde où on flotte sans effort — y aller tôt. <strong>Balos</strong> par le bateau depuis Kissamos (15 €), pas par la route de montagne. <strong>Seitan Limania</strong>, crique secrète entre les rochers. L'eau commence à 24°C début septembre et monte tout le mois.</p>
+        <p>L'ouest est sauvage. <a class="place-link" href="https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete" target="_blank" rel="noopener">Falassarna</a> face au soleil couchant, section nord vide, bar Orange Blue sur la colline pour le dernier verre. <a class="place-link" href="https://www.google.com/maps/search/Elafonisi+Beach+Crete" target="_blank" rel="noopener">Elafonisi</a> pour le sable rose et l'eau peu profonde où on flotte sans effort — y aller tôt. <a class="place-link" href="https://www.google.com/maps/search/Balos+Lagoon+Crete" target="_blank" rel="noopener">Balos</a> par le bateau depuis Kissamos (15 €), pas par la route de montagne. <a class="place-link" href="https://www.google.com/maps/search/Seitan+Limania+Chania+Crete" target="_blank" rel="noopener">Seitan Limania</a>, crique secrète entre les rochers. L'eau commence à 24°C début septembre et monte tout le mois.</p>
 
         <h4>Pendant la sieste</h4>
-        <p>Le quartier Splantzia — pas le front de port, les ruelles derrière, avec les ateliers de couteliers rue Maxaradika et les cours intérieures cachées. Ou la colline du <strong>Profiti Ilia</strong> au coucher du soleil : c'est le spot des locaux, jamais du phare. Ou juste marcher dix minutes jusqu'à <strong>Nea Chora</strong>, la plage locale, et faire longueur.</p>
+        <p>Le quartier <a class="place-link" href="https://www.google.com/maps/search/Splantzia+Square+Chania+Crete" target="_blank" rel="noopener">Splantzia</a> — pas le front de port, les ruelles derrière, avec les ateliers de couteliers rue Maxaradika et les cours intérieures cachées. Ou la colline du <a class="place-link" href="https://www.google.com/maps/search/Prophet+Elijah+Hill+Chania+Crete" target="_blank" rel="noopener">Profiti Ilia</a> au coucher du soleil : c'est le spot des locaux, jamais du phare. Ou juste marcher dix minutes jusqu'à <a class="place-link" href="https://www.google.com/maps/search/Nea+Chora+Beach+Chania" target="_blank" rel="noopener">Nea Chora</a>, la plage locale, et faire longueur.</p>
 
         <h4>Le killer foodie move</h4>
-        <p>Les <strong>loukoumades chez Ntourountous</strong>, Place 1866. Beignets au miel chauds, recette familiale, Travelers' Choice. C'est cinq euros et c'est la première bouchée qui dit : OK, on est en Crète. Le deuxième move, plus ambitieux : une journée avec <strong>Chania Wine Tours</strong> chez Manousakis ou Karavitakis, dégustation dans les vignes, tsikoudia en digestif.</p>
+        <p>Les <a class="place-link" href="https://www.google.com/maps/search/Ntourountous+bakery+Place+1866+Chania" target="_blank" rel="noopener">loukoumades chez Ntourountous</a>, Place 1866. Beignets au miel chauds, recette familiale, Travelers' Choice. C'est cinq euros et c'est la première bouchée qui dit : OK, on est en Crète. Le deuxième move, plus ambitieux : une journée avec <a class="place-link" href="https://www.google.com/maps/search/Manousakis+Winery+Chania+Crete" target="_blank" rel="noopener">Manousakis</a> ou <a class="place-link" href="https://www.google.com/maps/search/Karavitakis+Winery+Crete" target="_blank" rel="noopener">Karavitakis</a>, dégustation dans les vignes, tsikoudia en digestif.</p>
       </div>
 
       <div class="photo-grid reveal">
