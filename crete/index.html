@@ -1,0 +1,2666 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crète — Septembre 2027 · Itinéraire de voyage</title>
+<meta name="description" content="Itinéraire complet d'un mois en Crète : Chania, Loutro, Sitia, Rethymno. Hébergement, plages, restaurants, budget détaillé pour septembre 2027.">
+<meta property="og:title" content="Crète — Septembre 2027">
+<meta property="og:description" content="Un mois dans le sud de l'île. Quatre bases, mouvement minimal. Itinéraire complet pour deux.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chartrandapps.ca/crete-septembre">
+<meta property="og:locale" content="fr_CA">
+<link rel="canonical" href="https://chartrandapps.ca/crete-septembre">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏝️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root {
+    --terre: #C4714A;
+    --sand: #F2E8D9;
+    --deep: #1A2A3A;
+    --mer: #2E6B8A;
+    --mer-light: #E8F4F8;
+    --text: #2A2318;
+    --muted: #6B6058;
+    --border: rgba(42,35,24,0.10);
+    --accent: #A8522E;
+    --bg: #FDFAF6;
+    --white: #FFFFFF;
+    --shadow-sm: 0 1px 3px rgba(42,35,24,0.06);
+    --shadow-md: 0 4px 16px rgba(42,35,24,0.08);
+    --shadow-lg: 0 8px 32px rgba(42,35,24,0.10);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* SELECTION */
+  ::selection { background: rgba(196,113,74,0.2); }
+
+  /* HERO */
+  .hero {
+    background: var(--deep);
+    color: white;
+    padding: 100px 40px 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 60% 30%, rgba(46,107,138,0.4) 0%, transparent 55%),
+      radial-gradient(ellipse at 20% 80%, rgba(196,113,74,0.3) 0%, transparent 45%),
+      radial-gradient(ellipse at 80% 70%, rgba(168,82,46,0.15) 0%, transparent 40%);
+    animation: heroShimmer 12s ease-in-out infinite alternate;
+  }
+  @keyframes heroShimmer {
+    0% { opacity: 0.85; }
+    100% { opacity: 1; }
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.5;
+  }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    animation: heroFadeIn 1s ease-out;
+  }
+  @keyframes heroFadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(56px, 9vw, 96px);
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 0.95;
+    margin-bottom: 10px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: rgba(255,255,255,0.65);
+  }
+  .hero-sub {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 44px;
+  }
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  .hero-stat { text-align: center; }
+  .hero-stat-val {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    color: white;
+  }
+  .hero-stat-lbl {
+    font-size: 10px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .hero-sep { color: rgba(255,255,255,0.15); font-size: 20px; align-self: center; }
+
+  /* NAV */
+  .nav {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: box-shadow var(--transition);
+  }
+  .nav.scrolled { box-shadow: var(--shadow-md); }
+  .nav-inner {
+    display: flex;
+    overflow-x: auto;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
+    gap: 0;
+    scrollbar-width: none;
+    position: relative;
+  }
+  .nav-inner::-webkit-scrollbar { display: none; }
+  .nav-btn {
+    padding: 16px 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--muted);
+    cursor: pointer;
+    border: none;
+    background: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: all var(--transition);
+    position: relative;
+  }
+  .nav-btn:focus-visible {
+    outline: 2px solid var(--terre);
+    outline-offset: -2px;
+    border-radius: 4px;
+  }
+  .nav-btn.active {
+    color: var(--text);
+    font-weight: 500;
+    border-bottom-color: var(--terre);
+  }
+  .nav-btn:hover:not(.active) {
+    color: var(--text);
+    border-bottom-color: rgba(196,113,74,0.3);
+  }
+
+  /* MOBILE NAV FADE EDGES */
+  @media (max-width: 700px) {
+    .nav-inner::after {
+      content: '';
+      position: sticky;
+      right: 0;
+      top: 0;
+      flex-shrink: 0;
+      width: 40px;
+      height: 100%;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.95));
+      pointer-events: none;
+    }
+  }
+
+  /* LAYOUT */
+  .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+  .section { padding: 64px 0; border-bottom: 1px solid var(--border); }
+  .section:last-child { border-bottom: none; }
+
+  .section-header { margin-bottom: 44px; }
+  .section-num {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--terre);
+    display: block;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(32px, 5vw, 40px);
+    font-weight: 300;
+    line-height: 1.15;
+    color: var(--text);
+  }
+  .section-intro {
+    font-size: 15px;
+    color: var(--muted);
+    max-width: 620px;
+    margin-top: 14px;
+    line-height: 1.75;
+  }
+  .curatorial {
+    max-width: 680px;
+    margin: 32px 0 8px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+  .curatorial p {
+    margin: 0 0 18px;
+  }
+  .curatorial p.lede {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--deep);
+    margin-bottom: 24px;
+  }
+  .curatorial h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--terre);
+    margin: 26px 0 10px;
+  }
+  .curatorial strong {
+    color: var(--deep);
+    font-weight: 600;
+  }
+  .curatorial > p:first-of-type::first-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 68px;
+    font-weight: 400;
+    float: left;
+    line-height: 0.85;
+    padding: 6px 10px 0 0;
+    color: var(--terre);
+  }
+
+  /* CHAPTER COVERS — full-bleed section openers */
+  .chapter-cover {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 78vh;
+    min-height: 520px;
+    max-height: 780px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+  }
+  .chapter-cover img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.78) saturate(1.05);
+  }
+  .chapter-cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 35%, rgba(0,0,0,0.82) 100%),
+      linear-gradient(to right, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.15) 55%, transparent 100%);
+    z-index: 1;
+  }
+  .chapter-cover-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px 72px;
+  }
+  .chapter-num {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    display: block;
+    margin-bottom: 18px;
+  }
+  .chapter-num::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background: rgba(255,255,255,0.6);
+    vertical-align: middle;
+    margin-right: 14px;
+  }
+  .chapter-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(56px, 10vw, 128px);
+    font-weight: 300;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin: 0 0 20px;
+    color: #fff;
+    text-shadow: 0 2px 24px rgba(0,0,0,0.5);
+  }
+  .chapter-subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: clamp(18px, 2.4vw, 26px);
+    font-weight: 300;
+    max-width: 560px;
+    line-height: 1.45;
+    color: rgba(255,255,255,0.95);
+    text-shadow: 0 1px 16px rgba(0,0,0,0.55);
+  }
+  @media (max-width: 700px) {
+    .chapter-cover { height: 72vh; min-height: 440px; }
+    .chapter-cover-inner { padding: 0 24px 48px; }
+    .chapter-num { font-size: 10px; letter-spacing: 0.24em; }
+    .chapter-num::before { width: 24px; margin-right: 10px; }
+  }
+
+  /* PULLQUOTE — art-directed lede */
+  .pullquote {
+    position: relative;
+    width: 100vw;
+    margin: 72px 0 56px calc(50% - 50vw);
+    padding: 48px 24px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: clamp(26px, 4vw, 42px);
+    line-height: 1.35;
+    color: var(--deep);
+    max-width: none;
+  }
+  .pullquote::before,
+  .pullquote::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--terre);
+    margin: 0 auto 28px;
+  }
+  .pullquote::after {
+    margin: 28px auto 0;
+  }
+  .pullquote p {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  @media (max-width: 700px) {
+    .pullquote { padding: 32px 24px; margin: 48px 0 40px calc(50% - 50vw); }
+  }
+
+  /* SECTION BACKGROUND ALTERNANCE */
+  .tab-section.bg-sand { background: var(--sand); }
+  .tab-section.bg-sand .section { border-bottom-color: rgba(0,0,0,0.06); }
+
+  /* SCROLL REVEAL */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s cubic-bezier(.2,.6,.2,1), transform 0.9s cubic-bezier(.2,.6,.2,1);
+    will-change: opacity, transform;
+  }
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+
+  /* SECTIONS — all visible, linear scroll */
+  .tab-section {
+    display: block;
+    scroll-margin-top: 72px;
+  }
+  @media (max-width: 700px) {
+    .tab-section { scroll-margin-top: 58px; }
+  }
+
+  /* TIMELINE */
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+  .tl-item {
+    display: grid;
+    grid-template-columns: 100px 1px 1fr;
+    gap: 0 28px;
+    position: relative;
+  }
+  .tl-date {
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 32px;
+  }
+  .tl-date-main {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+  .tl-date-sub {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .tl-line-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--terre);
+    flex-shrink: 0;
+    margin-top: 7px;
+    box-shadow: 0 0 0 4px rgba(196,113,74,0.15);
+    transition: transform var(--transition), box-shadow var(--transition);
+  }
+  .tl-item:hover .tl-dot {
+    transform: scale(1.3);
+    box-shadow: 0 0 0 6px rgba(196,113,74,0.2);
+  }
+  .tl-line {
+    width: 1px;
+    flex: 1;
+    background: linear-gradient(to bottom, var(--terre), var(--border));
+    margin-top: 6px;
+  }
+  .tl-item:last-child .tl-line { display: none; }
+  .tl-content { padding-bottom: 40px; }
+
+  /* BASE CARDS */
+  .base-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 6px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+  .base-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+  .base-card-header {
+    padding: 22px 24px 18px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .base-card-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .base-card-region {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+  .base-badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: var(--sand);
+    color: var(--accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .base-body { padding: 20px 24px 24px; }
+  .base-body p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 640px) { .cols2 { grid-template-columns: 1fr; } }
+
+  .info-block { margin-bottom: 20px; }
+  .info-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 10px;
+    display: block;
+  }
+  .info-body { font-size: 14px; color: var(--text); line-height: 1.7; }
+  .info-body strong { font-weight: 500; }
+
+  .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .tag {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: var(--mer-light);
+    color: var(--mer);
+    font-weight: 400;
+  }
+  .tag.amber { background: #FEF3E2; color: #8B5516; }
+  .tag.green { background: #EAF5E9; color: #256B2F; }
+
+  .note-box {
+    margin-top: 20px;
+    padding: 16px 20px;
+    background: var(--sand);
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.7;
+    border-left: 3px solid var(--terre);
+  }
+  .note-box strong { color: var(--text); font-weight: 500; }
+
+  /* BUDGET */
+  .budget-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .stat-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+  .stat-card:hover {
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+  .stat-card-val {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px;
+    font-weight: 300;
+    color: var(--text);
+    display: block;
+    line-height: 1.1;
+  }
+  .stat-card-lbl { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+  .budget-table { width: 100%; border-collapse: collapse; }
+  .budget-table tr { border-bottom: 1px solid var(--border); transition: background var(--transition); }
+  .budget-table tr:hover { background: rgba(242,232,217,0.3); }
+  .budget-table tr:last-child { border-bottom: none; }
+  .budget-table td { padding: 14px 0; font-size: 14px; }
+  .budget-table td:last-child { text-align: right; font-weight: 500; white-space: nowrap; padding-left: 16px; }
+  .budget-cat { color: var(--muted); font-size: 12px; display: block; margin-top: 2px; }
+  .budget-total td { font-size: 16px; font-weight: 500; padding-top: 18px; }
+  .budget-total td:first-child { font-family: 'Cormorant Garamond', serif; font-size: 20px; }
+
+  .budget-wrap {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* PRATIQUE */
+  .pratique-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .pratique-grid { grid-template-columns: 1fr; } }
+  .prat-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+  .prat-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+  .prat-card-title { font-weight: 500; font-size: 14px; margin-bottom: 10px; }
+  .prat-card-body { font-size: 13px; color: var(--muted); line-height: 1.75; }
+  .prat-card-body strong { color: var(--text); font-weight: 500; }
+
+  /* FOOTER */
+  footer {
+    background: var(--deep);
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+    padding: 40px 32px;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 1.8;
+  }
+  footer strong { color: rgba(255,255,255,0.7); }
+  footer a { color: rgba(255,255,255,0.5); text-decoration: none; transition: color var(--transition); }
+  footer a:hover { color: rgba(255,255,255,0.8); }
+
+  /* INTRO BLOCKS */
+  .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px; }
+  @media (max-width: 640px) { .intro-grid { grid-template-columns: 1fr; } }
+  .intro-block {
+    padding: 22px 24px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--white);
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+  .intro-block:hover {
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+  .intro-block-title { font-weight: 500; font-size: 14px; margin-bottom: 10px; color: var(--text); }
+  .intro-block-body { font-size: 13px; color: var(--muted); line-height: 1.75; }
+
+  .divider { height: 1px; background: var(--border); margin: 28px 0; }
+  hr.section-divider { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
+
+  /* BACK TO TOP */
+  .back-top {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--deep);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px);
+    transition: all var(--transition);
+    box-shadow: var(--shadow-lg);
+    z-index: 90;
+  }
+  .back-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .back-top:hover { background: var(--terre); transform: translateY(-2px); }
+  .back-top:focus-visible { outline: 2px solid var(--terre); outline-offset: 3px; }
+
+  /* RESPONSIVE TIMELINE */
+  @media (max-width: 600px) {
+    .hero { padding: 72px 24px 60px; }
+    .hero-meta { gap: 20px; }
+    .tl-item { grid-template-columns: 70px 1px 1fr; gap: 0 16px; }
+    .tl-date-main { font-size: 18px; }
+    .base-card-header { flex-direction: column; gap: 8px; }
+    .budget-wrap { padding: 20px 18px; }
+    .container { padding: 0 16px; }
+    .section { padding: 48px 0; }
+    .nav-btn { padding: 14px 16px; font-size: 12px; }
+  }
+
+  /* PRINT */
+  @media print {
+    .nav, .back-top { display: none !important; }
+    .tab-section { display: block !important; opacity: 1 !important; transform: none !important; }
+    .hero { background: #333 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .section { page-break-inside: avoid; }
+    .base-card, .prat-card, .stat-card, .intro-block { box-shadow: none !important; border: 1px solid #ccc !important; }
+  }
+
+  /* SKIP LINK */
+  .skip-link {
+    position: absolute;
+    top: -100px;
+    left: 16px;
+    background: var(--deep);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    z-index: 200;
+    font-size: 14px;
+    transition: top 0.2s;
+  }
+  .skip-link:focus { top: 16px; }
+
+  /* PHOTO GALLERIES */
+  .photo-hero {
+    display: block;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: clamp(340px, 55vh, 560px);
+    object-fit: cover;
+    margin-bottom: 56px;
+  }
+  .photo-caption { display: none; }
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 32px 0;
+  }
+  .photo-grid.two-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .photo-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    transition: transform var(--transition), box-shadow var(--transition);
+    cursor: pointer;
+  }
+  .photo-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-lg);
+  }
+  .photo-grid .photo-wide {
+    grid-column: span 2;
+    height: 280px;
+  }
+  .photo-grid .photo-tall {
+    grid-row: span 2;
+    height: 100%;
+    min-height: 452px;
+  }
+  .photo-caption {
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  .food-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin: 12px 0;
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* Hero background image */
+  .hero {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(26,42,58,0.7), rgba(26,42,58,0.85)), url('https://images.unsplash.com/photo-1682233908046-08ffcbf56ea7?w=1400&q=80');
+  }
+
+  /* Fullscreen lightbox */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+    animation: tabFadeIn 0.3s ease-out;
+  }
+  .lightbox.active { display: flex; }
+  .lightbox img {
+    max-width: 92vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 16px 64px rgba(0,0,0,0.4);
+  }
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    color: white;
+    font-size: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+  .lightbox-close:hover { opacity: 1; }
+
+  @media (max-width: 640px) {
+    .photo-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .photo-grid img { height: 160px; }
+    .photo-grid .photo-wide { grid-column: span 2; height: 200px; }
+    .photo-grid .photo-tall { grid-row: span 1; min-height: 160px; }
+    .photo-hero { height: 220px; }
+  }
+  @media (max-width: 400px) {
+    .photo-grid { grid-template-columns: 1fr; }
+    .photo-grid .photo-wide { grid-column: span 1; }
+  }
+
+  /* EXTERNAL LINKS */
+  .ext-link {
+    color: var(--mer);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(46,107,138,0.3);
+    transition: color var(--transition), border-color var(--transition);
+    font-weight: 400;
+  }
+  .ext-link:hover {
+    color: var(--terre);
+    border-bottom-color: var(--terre);
+  }
+  .ext-link::after {
+    content: ' ↗';
+    font-size: 0.75em;
+    opacity: 0.5;
+  }
+  /* Inline place link — narrative/curatorial text */
+  .place-link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5px solid rgba(196, 113, 74, 0.38);
+    padding-bottom: 1px;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+  }
+  .place-link:hover {
+    color: var(--terre);
+    border-bottom-color: var(--terre);
+    background-color: rgba(196, 113, 74, 0.08);
+  }
+  .place-link:focus-visible {
+    outline: 2px solid var(--terre);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  .link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .link-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--mer-light);
+    color: var(--mer);
+    text-decoration: none;
+    transition: all var(--transition);
+    font-weight: 400;
+  }
+  .link-pill:hover { background: var(--mer); color: white; }
+  .link-pill.booking { background: #EBF5FB; color: #003580; }
+  .link-pill.booking:hover { background: #003580; color: white; }
+  .link-pill.trip { background: #F0FAF0; color: #00AA6C; }
+  .link-pill.trip:hover { background: #00AA6C; color: white; }
+
+  /* LEAFLET MAP */
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin: 28px 0;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
+    background: var(--mer-light);
+  }
+  @media (max-width: 700px) { .map-container { height: 360px; } }
+  .mapbox-map {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .leaflet-container {
+    font-family: 'DM Sans', sans-serif;
+    background: #F7F4EE;
+  }
+  .leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.18);
+    padding: 2px 4px;
+  }
+  .leaflet-popup-content {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.45;
+    margin: 14px 16px 12px;
+    min-width: 180px;
+  }
+  .leaflet-popup-content .pop-kicker {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--terre);
+    display: block;
+    margin-bottom: 4px;
+  }
+  .leaflet-popup-content .pop-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--deep);
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .leaflet-popup-content .pop-link {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--mer);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+  }
+  .leaflet-popup-content .pop-link:hover { color: var(--accent); }
+  .leaflet-container a.leaflet-popup-close-button {
+    color: var(--muted);
+    font-size: 20px;
+    padding: 6px 8px 0 0;
+  }
+  .leaflet-div-icon.mb-marker {
+    background: transparent;
+    border: none;
+  }
+  .mb-marker {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.35);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  .mb-marker:hover { transform: scale(1.18); }
+  .mb-marker.hotel { background: var(--deep); }
+  .mb-marker.resto { background: var(--terre); }
+  .mb-marker.plage { background: var(--mer); }
+  .mb-marker.sight { background: var(--accent); }
+  .map-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: -12px 0 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+  .map-legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .map-legend i {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    display: inline-block;
+  }
+  .map-legend i.hotel { background: var(--deep); }
+  .map-legend i.resto { background: var(--terre); }
+  .map-legend i.plage { background: var(--mer); }
+  .map-legend i.sight { background: var(--accent); }
+  .map-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  /* ACCOMMODATION TIERS */
+  .accom-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  @media (max-width: 800px) { .accom-grid { grid-template-columns: 1fr; } }
+  .accom-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    transition: box-shadow var(--transition), transform var(--transition);
+    position: relative;
+  }
+  .accom-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+  .accom-tier {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .accom-tier.budget { background: #EAF5E9; color: #256B2F; }
+  .accom-tier.mid { background: var(--mer-light); color: var(--mer); }
+  .accom-tier.gem { background: #FEF3E2; color: #8B5516; }
+  .accom-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  .accom-price { font-size: 13px; color: var(--terre); font-weight: 500; margin-bottom: 8px; }
+  .accom-desc { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+  /* FOODIE BLOCK */
+  .foodie-block {
+    background: linear-gradient(135deg, #FEF9F2 0%, #FDF5EC 100%);
+    border: 1px solid rgba(196,113,74,0.15);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin: 24px 0;
+  }
+  .foodie-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+  .foodie-item { margin-bottom: 16px; }
+  .foodie-item:last-child { margin-bottom: 0; }
+  .foodie-item-name { font-weight: 500; font-size: 14px; color: var(--text); }
+  .foodie-item-desc { font-size: 13px; color: var(--muted); line-height: 1.65; margin-top: 2px; }
+
+  /* HIDDEN GEMS / PEPITES */
+  .gem-block {
+    background: linear-gradient(135deg, #F5F0FF 0%, #EDE8FA 100%);
+    border: 1px solid rgba(120,80,200,0.12);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin: 24px 0;
+  }
+  .gem-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+  .gem-item { margin-bottom: 14px; }
+  .gem-item:last-child { margin-bottom: 0; }
+  .gem-item-name { font-weight: 500; font-size: 14px; color: var(--text); }
+  .gem-item-desc { font-size: 13px; color: var(--muted); line-height: 1.65; margin-top: 2px; }
+
+  /* PHOTOS HÉBERGEMENTS */
+  .accom-img {
+    width: calc(100% + 40px);
+    height: 140px;
+    object-fit: cover;
+    border-radius: var(--radius) var(--radius) 0 0;
+    margin: -20px -20px 14px -20px;
+    display: block;
+  }
+
+  /* PHOTOS FOODIE & GEMS */
+  .foodie-item-img, .gem-item-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin-top: 8px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* PHOTO INLINE RESTO */
+  .resto-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin: 10px 0;
+    box-shadow: var(--shadow-sm);
+  }
+
+  @media (max-width: 600px) {
+    .accom-img { height: 120px; }
+    .foodie-item-img, .gem-item-img { height: 120px; }
+    .resto-img { height: 110px; }
+  }
+</style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Aller au contenu</a>
+
+<!-- HERO -->
+<header class="hero" role="banner" style="background-image: linear-gradient(to bottom, rgba(26,42,58,0.65), rgba(26,42,58,0.82)), url('https://images.unsplash.com/photo-1682233908046-08ffcbf56ea7?w=1400&q=80');">
+  <div class="hero-inner">
+    <p class="hero-label">Itinéraire · Voyage en duo</p>
+    <h1>Crète<br><em>septembre</em></h1>
+    <p class="hero-sub">Un mois dans le sud de l'île</p>
+    <div class="hero-meta" aria-label="Résumé du voyage">
+      <div class="hero-stat">
+        <span class="hero-stat-val">5 sept.</span>
+        <span class="hero-stat-lbl">Arrivée Chania</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">30</span>
+        <span class="hero-stat-lbl">Nuits</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">5 oct.</span>
+        <span class="hero-stat-lbl">Départ Héraklion</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">2</span>
+        <span class="hero-stat-lbl">Personnes</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="nav" aria-label="Sections de l'itinéraire" id="main-nav">
+  <div class="nav-inner">
+    <button class="nav-btn active" aria-current="true" data-tab="vue">Vue d'ensemble</button>
+    <button class="nav-btn" data-tab="chania">Chania</button>
+    <button class="nav-btn" data-tab="loutro">Loutro</button>
+    <button class="nav-btn" data-tab="sitia">Sitia</button>
+    <button class="nav-btn" data-tab="rethymno">Rethymno</button>
+    <button class="nav-btn" data-tab="budget">Budget</button>
+    <button class="nav-btn" data-tab="pratique">Pratique</button>
+  </div>
+</nav>
+
+<main id="main-content">
+
+<!-- VUE D'ENSEMBLE -->
+<div id="vue" class="tab-section">
+  <div class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">Logique du voyage</span>
+        <h2 class="section-title">Quatre bases,<br>mouvement minimal</h2>
+        <p class="section-intro">Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire suit la géographie ouest → sud → est → centre, de l'arrivée à Chania jusqu'au départ depuis Héraklion.</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <div class="tl-date-main">5–12<br>sept.</div>
+            <div class="tl-date-sub">8 nuits</div>
+          </div>
+          <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="base-card">
+              <div class="base-card-header">
+                <div>
+                  <div class="base-card-title">Chania — l'ouest</div>
+                  <div class="base-card-region">Vieux port vénitien · Quartier Splantzia · Côte sauvage</div>
+                </div>
+                <span class="base-badge">Base 1</span>
+              </div>
+              <div class="base-body">
+                <p>Arrivée, décompression, orientation. La plus belle vieille ville de Crète comme point de chute. Journées à la mer — Falassarna et Elafonisi sont à 1h de voiture — soirées dans les ruelles. L'eau commence à ~24°C en début septembre.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <div class="tl-date-main">13–18<br>sept.</div>
+            <div class="tl-date-sub">6 nuits</div>
+          </div>
+          <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="base-card">
+              <div class="base-card-header">
+                <div>
+                  <div class="base-card-title">Loutro — le cœur du voyage</div>
+                  <div class="base-card-region">Côte sud · Accessible uniquement en bateau ou à pied · Mer de Libye</div>
+                </div>
+                <span class="base-badge">Base 2</span>
+              </div>
+              <div class="base-body">
+                <p>Village sans route, sans voiture. Maisons blanches sur une baie en demi-lune face à la Libye. Voiture garée à Chora Sfakion, ferry de 20 minutes. La pièce maîtresse du voyage — pour la baignade, l'isolement, l'eau turquoise, les criques accessibles à pied ou en bateau-taxi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <div class="tl-date-main">19–27<br>sept.</div>
+            <div class="tl-date-sub">9 nuits</div>
+          </div>
+          <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="base-card">
+              <div class="base-card-header">
+                <div>
+                  <div class="base-card-title">Sitia — l'est authentique</div>
+                  <div class="base-card-region">Crète orientale · Vignobles · Zéro tourisme de masse</div>
+                </div>
+                <span class="base-badge">Base 3</span>
+              </div>
+              <div class="base-body">
+                <p>La vraie Crète, celle que les tours opérateurs n'ont pas encore trouvée. Les Grecs y mangent encore dans les tavernas du port. Criques isolées à Xerokampos, palmeraie de Vaï, palais minoen de Kato Zakros, vin local Liatiko. L'eau est à son maximum thermique — 27–28°C.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <div class="tl-date-main">28 sept–<br>5 oct.</div>
+            <div class="tl-date-sub">7 nuits</div>
+          </div>
+          <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="base-card">
+              <div class="base-card-header">
+                <div>
+                  <div class="base-card-title">Rethymno — le retour en douceur</div>
+                  <div class="base-card-region">Centre-ouest · Vieille ville vénitienne · Plakias à 45 min</div>
+                </div>
+                <span class="base-badge">Base 4</span>
+              </div>
+              <div class="base-body">
+                <p>Avant-dernière étape avant le vol depuis Héraklion. Belle vieille ville, rythme posé, accès facile à la côte sud (Plakias, plage de Korakas). Fin de voyage plus tranquille — le temps de décompresser avant de rentrer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="intro-grid" style="margin-top:0">
+        <div class="intro-block">
+          <div class="intro-block-title">Pourquoi septembre</div>
+          <div class="intro-block-body">Eau à 26–28°C — le maximum thermique annuel. Foules divisées par trois après le 15 août. Les Crétois reprennent leur île. Lumière d'automne dorée, idéale pour la photo. Tarifs 30–40% inférieurs à juillet–août.</div>
+        </div>
+        <div class="intro-block">
+          <div class="intro-block-title">Logistique de base</div>
+          <div class="intro-block-body">Vol aller Montréal → Chania (CHQ), retour Héraklion (HER) → Montréal. Voiture louée à Chania pour toute la durée, sauf pendant Loutro (6 nuits) où elle reste garée à Chora Sfakion. Budget total estimé : <strong>~11 400 $ CAD</strong> pour deux.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CHANIA -->
+<div id="chania" class="tab-section">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1681280931205-a3c6ed0452d5?w=1800&q=85" alt="Port vénitien de Chania au coucher du soleil">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">01 / 04 &nbsp;·&nbsp; Base 1 &nbsp;·&nbsp; 5–12 septembre &nbsp;·&nbsp; 8 nuits</span>
+      <h2 class="chapter-title">Chania</h2>
+      <p class="chapter-subtitle">La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l'extrême ouest.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="pullquote reveal">
+        <p>Huit nuits à Chania, c'est long exprès. C'est le sas du voyage — l'endroit où on laisse tomber le décalage horaire, où on apprend le rythme crétois avant de disparaître à Loutro.</p>
+      </div>
+
+      <div class="curatorial reveal">
+        <p>La base est à Splantzia ou Halepa, jamais au front de port : c'est 20% moins cher, c'est là où les voisines sortent leur chaise à 18h, et c'est à dix minutes à pied de tout.</p>
+
+        <h4>La table</h4>
+        <p>Trois adresses, trois registres. <a class="place-link" href="https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania" target="_blank" rel="noopener">Tamam</a> dans les anciens bains turcs du XVI<sup>e</sup> pour le végétarien qui ne ressemble à rien d'autre. <a class="place-link" href="https://www.google.com/maps/search/Chrisostomos+Restaurant+Chania" target="_blank" rel="noopener">Chrisostomos</a> pour l'agneau ofto au four à bois (ouvert mer–dim seulement — à planifier). Et <a class="place-link" href="https://www.google.com/maps/search/Evgonia+Milonogianni+Chania" target="_blank" rel="noopener">Evgonia</a>, Milonogianni 120, une taverne de quartier où Nektarios guide les choix selon l'arrivage du matin. Règle d'or : le premier rang de restos du port, on l'évite. Qualité divisée par deux, prix doublés.</p>
+
+        <h4>Les plages</h4>
+        <p>L'ouest est sauvage. <a class="place-link" href="https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete" target="_blank" rel="noopener">Falassarna</a> face au soleil couchant, section nord vide, bar Orange Blue sur la colline pour le dernier verre. <a class="place-link" href="https://www.google.com/maps/search/Elafonisi+Beach+Crete" target="_blank" rel="noopener">Elafonisi</a> pour le sable rose et l'eau peu profonde où on flotte sans effort — y aller tôt. <a class="place-link" href="https://www.google.com/maps/search/Balos+Lagoon+Crete" target="_blank" rel="noopener">Balos</a> par le bateau depuis Kissamos (15 €), pas par la route de montagne. <a class="place-link" href="https://www.google.com/maps/search/Seitan+Limania+Chania+Crete" target="_blank" rel="noopener">Seitan Limania</a>, crique secrète entre les rochers. L'eau commence à 24°C début septembre et monte tout le mois.</p>
+
+        <h4>Pendant la sieste</h4>
+        <p>Le quartier <a class="place-link" href="https://www.google.com/maps/search/Splantzia+Square+Chania+Crete" target="_blank" rel="noopener">Splantzia</a> — pas le front de port, les ruelles derrière, avec les ateliers de couteliers rue Maxaradika et les cours intérieures cachées. Ou la colline du <a class="place-link" href="https://www.google.com/maps/search/Prophet+Elijah+Hill+Chania+Crete" target="_blank" rel="noopener">Profiti Ilia</a> au coucher du soleil : c'est le spot des locaux, jamais du phare. Ou juste marcher dix minutes jusqu'à <a class="place-link" href="https://www.google.com/maps/search/Nea+Chora+Beach+Chania" target="_blank" rel="noopener">Nea Chora</a>, la plage locale, et faire longueur.</p>
+
+        <h4>Le killer foodie move</h4>
+        <p>Les <a class="place-link" href="https://www.google.com/maps/search/Ntourountous+bakery+Place+1866+Chania" target="_blank" rel="noopener">loukoumades chez Ntourountous</a>, Place 1866. Beignets au miel chauds, recette familiale, Travelers' Choice. C'est cinq euros et c'est la première bouchée qui dit : OK, on est en Crète. Le deuxième move, plus ambitieux : une journée avec <a class="place-link" href="https://www.google.com/maps/search/Manousakis+Winery+Chania+Crete" target="_blank" rel="noopener">Manousakis</a> ou <a class="place-link" href="https://www.google.com/maps/search/Karavitakis+Winery+Crete" target="_blank" rel="noopener">Karavitakis</a>, dégustation dans les vignes, tsikoudia en digestif.</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <img src="https://images.unsplash.com/photo-1636634245640-e223f8fbe529?w=600&q=80" alt="Phare vénitien de Chania" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1627240821425-3e148ca739b1?w=600&q=80" alt="Elafonisi vue aérienne" loading="lazy" class="photo-wide">
+        <img src="https://images.unsplash.com/photo-1604179562800-b60b88b8cb26?w=600&q=80" alt="Plage de Falassarna" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1611697522020-f44d4e818698?w=600&q=80" alt="Balos Lagoon" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1768322264423-4b0adf0cf31b?w=600&q=80" alt="Poisson grillé et pieuvre — cuisine crétoise" loading="lazy">
+      </div>
+
+      <!-- CARTE -->
+      <span class="map-label">Carte — Chania et environs</span>
+      <div class="map-container">
+        <div class="mapbox-map" id="map-chania"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"></i>Hébergement</span>
+        <span><i class="resto"></i>Table</span>
+        <span><i class="plage"></i>Plage</span>
+        <span><i class="sight"></i>À voir</span>
+      </div>
+
+      <!-- HÉBERGEMENTS -->
+      <span class="info-label">Où dormir — par budget</span>
+      <div class="accom-grid">
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1612365228448-4ad44e105dc5?w=600&q=80" alt="Chambre d'hôtel avec fenêtre lumineuse" loading="lazy">
+          <span class="accom-tier budget">Budget</span>
+          <div class="accom-name">Halepa Hotel</div>
+          <div class="accom-price">~50–65 €/nuit</div>
+          <div class="accom-desc">Quartier Halepa, ambiance locale et calme. Loin de la foule du port, à quinze minutes à pied de la vieille ville.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/gr/halepahotel.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.google.com/maps/search/Halepa+Hotel+Chania+Crete" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1694434029818-0f0dd57939b1?w=600&q=80" alt="Balcon avec vue sur cour vénitienne" loading="lazy">
+          <span class="accom-tier mid">Mid-range</span>
+          <div class="accom-name">Ionas Boutique Hotel</div>
+          <div class="accom-price">~80–115 €/nuit</div>
+          <div class="accom-desc">9 chambres dans un bâtiment vénitien-ottoman restauré. Terrasse sur le toit, petit-déjeuner inclus. Note 9.3/10.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/gr/ionas.en-gb.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.ionashotel.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Ionas+Boutique+Hotel+Chania" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1603504027221-7c97b2f2d09d?w=600&q=80" alt="Intérieur vénitien restauré aux murs blancs" loading="lazy">
+          <span class="accom-tier gem">Pépite</span>
+          <div class="accom-name">Harismari Cozy Hotel</div>
+          <div class="accom-price">~95–130 €/nuit</div>
+          <div class="accom-desc">Bâtiment vénitien de 1400, 7 chambres uniques avec meubles anciens et pierres d'origine. Note 9.8/10 — un musée vivant.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/gr/harismari-cozy.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.harismari.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Harismari+Cozy+Hotel+Chania" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols2">
+        <div>
+          <div class="info-block">
+            <span class="info-label">Où manger</span>
+            <div class="info-body">
+              <strong>Tamam</strong> — L'incontournable. Anciens bains turcs du XVI<sup>e</sup>, ruelle Zambelíou. Cuisine crétoise contemporaine, végétarien remarquable. <strong>Réserver.</strong>
+              <div class="link-row">
+                <a href="https://www.tamamrestaurant.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g189415-d1104362-Reviews-Tamam_Restaurant-Chania_Town_Chania_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+                <a href="https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1580751150184-e12c5beb8588?w=600&q=80" alt="Table garnie de plats crétois — mezze et légumes" loading="lazy"><br>
+              <strong>Chrisostomos</strong> — 13 fois primé. Four à bois, agneau ofto, pain maison. Ouvert mer–dim seulement.
+              <div class="link-row">
+                <a href="https://chrisostomos.gr/en/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g189415-d1645781-Reviews-Chrisostomos-Chania_Town_Chania_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1692106914421-e04e1066bd62?w=600&q=80" alt="Agneau rôti sur planche en bois — spécialité au four" loading="lazy"><br>
+              <strong>Evgonia</strong> — Taverna de quartier, Milonogianni 120. Menu selon l'arrivage. Agneau, lapin, poisson frais, yogourt maison. Le proprio Nektarios guide les choix.
+              <div class="link-row">
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g189415-d6206686-Reviews-Evgonia-Chania_Town_Chania_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+                <a href="https://www.google.com/maps/search/Evgonia+Milonogianni+Chania" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <em>Règle d'or :</em> éviter le premier rang de restos sur le port — qualité divisée par deux, prix doublés.
+              <img class="food-img" src="https://images.unsplash.com/photo-1758972572427-fc3d4193bbd2?w=600&q=80" alt="Fruits de mer grillés aux herbes — spécialité crétoise" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="info-block">
+            <span class="info-label">Les plages</span>
+            <div class="info-body">
+              <strong>Falassarna</strong> (1h ouest) — Longue plage sauvage face au soleil couchant. Section nord isolée. Bar Orange Blue en haut de la colline pour le sunset.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete" target="_blank" class="link-pill">Maps</a>
+                <a href="https://www.tripadvisor.com/Attraction_Review-g1191160-d3567063-Reviews-Falassarna_Beach-Falassarna_Chania_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+              </div><br>
+              <strong>Elafonisi</strong> (1h15 sud-ouest) — Sable rose, eau turquoise peu profonde. Y aller tôt en septembre.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Elafonisi+Beach+Crete" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Balos</strong> (1h nord-ouest) — Bateau depuis Kissamos (~15 €/pers.) plutôt que la route de montagne. Lagune spectaculaire.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Balos+Lagoon+Crete" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Seitan Limania</strong> — Crique secrète avec eau tropicale entre les rochers. Peu de gens connaissent.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Seitan+Limania+Chania+Crete" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">À faire dans la ville</span>
+            <div class="info-body">
+              <a href="https://www.google.com/maps/search/Municipal+Market+Agora+Chania+Crete" target="_blank" class="ext-link">Marché couvert (Agora)</a> — fromages, huile d'olive, charcuteries, miel. Ouvert lun–sam 8h–13h30. Quartier <strong>Splantzia</strong> — place à l'olivier, artisans couteliers rue Maxaradika. <a href="https://www.google.com/maps/search/Lighthouse+Chania+Crete" target="_blank" class="ext-link">Phare vénitien</a> au coucher du soleil.
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Température de l'eau</span>
+            <div class="tag-list">
+              <span class="tag">~24°C début septembre</span>
+              <span class="tag amber">Côte nord plus agitée</span>
+              <span class="tag green">Côte sud calme</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOODIE -->
+      <div class="foodie-block">
+        <div class="foodie-title">Incontournables foodie — Chania</div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Loukoumades chez Ntourountous</div>
+          <div class="foodie-item-desc">Beignets au miel chauds, recette familiale. Place 1866, au cœur de la ville. Travelers' Choice TripAdvisor. <a href="https://www.google.com/maps/search/Ntourountous+bakery+Chania" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1567306226416-28f0efdc88ce?w=600&q=80" alt="Loukoumades dorés arrosés de miel" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Sfakianopita au marché</div>
+          <div class="foodie-item-desc">Crêpe fine fourrée à la myzithra, arrosée de miel de thym. La vraie version Sfakiote — on va en manger encore plus à Loutro.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1748274240982-6b99b423ee93?w=600&q=80" alt="Fromage et olives — mezze crétois" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Pieuvre grillée (xtapodi sti schara)</div>
+          <div class="foodie-item-desc">Essayer chez Chrisostomos ou Evgonia. Grillée à la perfection, huile d'olive crétoise, citron. Aussi essayer l'oursin en salade.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1764397514715-37a966071228?w=600&q=80" alt="Poulpe grillé aux herbes et feta" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Dégustation raki et vin</div>
+          <div class="foodie-item-desc">Tour privé des vignobles avec <a href="https://www.chaniawinetours.com/" target="_blank" class="ext-link">Chania Wine Tours</a> — visites chez Manousakis ou Karavitakis. Le tsikoudia (raki crétois) est offert comme digestif partout.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1667226701528-722a4f098707?w=600&q=80" alt="Vin et panier dans les vignes" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Cours de cuisine crétoise</div>
+          <div class="foodie-item-desc"><a href="https://www.chaniagastronomy.com/" target="_blank" class="ext-link">Chania Gastronomy</a> — petits groupes (max 10), approche slow travel. Apprendre le dakos, les dolmadakia, les kalitsounia.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1638612833646-34eecc16f3f1?w=600&q=80" alt="Préparation de plats crétois traditionnels" loading="lazy">
+        </div>
+      </div>
+
+      <!-- HIDDEN GEMS -->
+      <div class="gem-block">
+        <div class="gem-title">Pépites locales — Chania</div>
+        <div class="gem-item">
+          <div class="gem-item-name">Quartier Splantzia (le vrai)</div>
+          <div class="gem-item-desc">Pas le front de port — les ruelles derrière. Bougainvilliers, ateliers de couteliers traditionnels (rue Maxaradika), cafés cachés dans des cours intérieures. Les vieilles dames assises sur le pas de leur porte. <a href="https://www.google.com/maps/search/Splantzia+Square+Chania+Crete" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1634372307576-18e2a25e825b?w=600&q=80" alt="Ruelle pavée bordée de fruits et fleurs — quartier traditionnel" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Colline du Prophète Élie (Profiti Ilia)</div>
+          <div class="gem-item-desc">Le spot sunset des locaux. Vue panoramique sur Chania, la baie de Souda et la mer Égée. Mieux que le phare pour les photos. <a href="https://www.google.com/maps/search/Prophet+Elijah+Hill+Chania+Crete" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1766393305879-96093c91c0ca?w=600&q=80" alt="Table dressée au coucher du soleil face à la mer" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Plage de Nea Chora</div>
+          <div class="gem-item-desc">À 10 min à pied du centre. Sable fin, eau cristalline, pas de touristes. Sections pour le snorkeling. La plage locale par excellence. <a href="https://www.google.com/maps/search/Nea+Chora+Beach+Chania" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1589052958432-21951b2f0982?w=600&q=80" alt="Montagnes et mer turquoise — crique crétoise" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Port vénitien à 5h30 du matin</div>
+          <div class="gem-item-desc">Le phare égyptien, les façades colorées, les bateaux de pêche — sans un seul touriste. La meilleure photo de Chania se prend à l'aube.</div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1772331161410-7a4e7ce1a2aa?w=600&q=80" alt="Dîner illuminé en bord de mer le soir" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LOUTRO -->
+<div id="loutro" class="tab-section bg-sand">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1673594214953-21b34424467a?w=1800&q=85" alt="Vue panoramique de Loutro — baie en demi-lune">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">02 / 04 &nbsp;·&nbsp; Base 2 &nbsp;·&nbsp; 13–18 septembre &nbsp;·&nbsp; 6 nuits</span>
+      <h2 class="chapter-title">Loutro</h2>
+      <p class="chapter-subtitle">Village sans route, accessible uniquement en bateau. Maisons blanches en demi-lune, montagnes à pic, mer de Libye.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="pullquote reveal">
+        <p>Six nuits à Loutro, c'est la pièce maîtresse du voyage. Pas de route, pas de voiture, pas d'issue rapide — et c'est exactement ce qu'on cherche.</p>
+      </div>
+
+      <div class="curatorial reveal">
+        <p>On laisse l'auto à <a class="place-link" href="https://www.google.com/maps/search/Chora+Sfakion+Crete" target="_blank" rel="noopener">Chora Sfakion</a> (~3 €/jour), on prend le ferry ANENDYK de 20 minutes (8–15 €, premier à 9h30, dernier à 18h45), et on disparaît. Village en croissant de maisons blanches face à la mer de Libye, montagnes à pic derrière. Pas d'ATM — on sort le cash avant d'embarquer.</p>
+
+        <h4>L'eau</h4>
+        <p>La mer de Libye est la plus calme de l'île. 26–27°C mi-septembre, quasi aucune vague. C'est la baignade longue — celle où on flotte sur le dos pendant une heure sans effort. <a class="place-link" href="https://www.google.com/maps/search/Glyka+Nera+Sweetwater+Beach+Loutro+Crete" target="_blank" rel="noopener">Glyka Nera</a> (Sweetwater Beach) à une heure de marche ou 20 minutes en bateau-taxi (~5 €) : des sources d'eau douce jaillissent sous les galets et créent des zones chaudes contre la mer salée. <a class="place-link" href="https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete" target="_blank" rel="noopener">Marmara Beach</a> à l'ouest pour ses grottes de marbre et la taverna Dialiskari avec son pain au feu de bois. Et la baie de Loutro elle-même se vide après 18h30, quand les bateaux de la journée repartent.</p>
+
+        <h4>La table</h4>
+        <p>Cinq adresses dans un village qu'on traverse en sept minutes. <a class="place-link" href="https://www.google.com/maps/search/Stratis+Taverna+Loutro+Crete" target="_blank" rel="noopener">Stratis Taverna</a> pour les paidakia et le yogourt du troupeau familial. <a class="place-link" href="https://www.google.com/maps/search/Ilios+Taverna+Loutro+Crete" target="_blank" rel="noopener">Ilios</a>, famille aux commandes depuis 1979. <a class="place-link" href="https://www.google.com/maps/search/Blue+House+Loutro+Crete" target="_blank" rel="noopener">Blue House</a>, n°1 TripAdvisor du village. <a class="place-link" href="https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete" target="_blank" rel="noopener">Notos Restaurant &amp; Rooms</a>, mezedopoleion tenu par la famille Androulakakis — ils logent aussi (60–85 €). Et la pépite : <a class="place-link" href="https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete" target="_blank" rel="noopener">Old Phoenix</a>, à 15 minutes de marche sur le sentier E4 jusqu'à la baie de Finix (ancien port d'Anopolis), cuisine au feu de bois dans un cadre impossible à dupliquer ailleurs.</p>
+
+        <h4>Le logement</h4>
+        <p><a class="place-link" href="https://www.google.com/maps/search/Hotel+Anna+Loutro+Crete" target="_blank" rel="noopener">Hotel Anna</a> (35–50 €) pour la version budget sans compromis. <a class="place-link" href="https://www.google.com/maps/search/Hotel+Porto+Loutro+Crete" target="_blank" rel="noopener">Porto Loutro</a> (82–100 €), 18 chambres à 5 mètres de la mer, référence du village. Ou <a class="place-link" href="https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete" target="_blank" rel="noopener">Notos</a> chez les Androulakakis si on veut dormir là où on mange.</p>
+
+        <h4>Pendant la sieste</h4>
+        <p>Le sentier E4 vers la baie de Finix — 15 minutes aller, un apéritif en solo à <a class="place-link" href="https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete" target="_blank" rel="noopener">Old Phoenix</a>, retour avant le coucher du soleil. Ou juste marcher jusqu'à <a class="place-link" href="https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete" target="_blank" rel="noopener">Marmara</a> et revenir quand la baie s'est vidée.</p>
+
+        <h4>Le killer foodie move</h4>
+        <p>La <strong>sfakianopita</strong> — crêpe mince au myzithra frais, raki, miel de thym. C'est la spécialité de la région de Sfakia, candidate au patrimoine UNESCO. Une fois qu'on y a goûté, on en commande chaque jour jusqu'à la fin du séjour.</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <img src="https://images.unsplash.com/photo-1620992363972-c960f373f79f?w=600&q=80" alt="Maisons blanches de Loutro face à la mer" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1764140254410-f8462f93b51e?w=600&q=80" alt="Village côtier niché au bord des montagnes" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1751060867787-3d28ea3d6e22?w=600&q=80" alt="Loutro entre montagne et mer" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1747002723821-38872177dfe3?w=600&q=80" alt="Taverna en bord de mer — chaises bleues" loading="lazy" class="photo-wide">
+        <img src="https://images.unsplash.com/photo-1737176301309-34954bc4fb12?w=600&q=80" alt="Vue sur la plage depuis la colline" loading="lazy">
+      </div>
+
+      <!-- CARTE -->
+      <span class="map-label">Carte — Loutro et côte sud</span>
+      <div class="map-container">
+        <div class="mapbox-map" id="map-loutro"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"></i>Hébergement</span>
+        <span><i class="resto"></i>Table</span>
+        <span><i class="plage"></i>Plage</span>
+        <span><i class="sight"></i>À voir</span>
+      </div>
+
+      <!-- ACCÈS -->
+      <div class="info-block">
+        <span class="info-label">Comment y accéder</span>
+        <div class="info-body">
+          Conduire jusqu'à <a href="https://www.google.com/maps/search/Chora+Sfakion+Crete" target="_blank" class="ext-link">Chora Sfakion</a>, 1h30 depuis Chania via Vrisses. Parking payant face au port (~3 €/jour). Ferry <strong>ANENDYK</strong> — premier départ 9h30, dernier 18h45, traversée ~20 min, ~8–15 €/pers.
+          <div class="link-row">
+            <a href="https://www.anendyk.gr/" target="_blank" class="link-pill">Horaires ANENDYK</a>
+            <a href="https://taxiboatsfakia.gr/index.php?l=en" target="_blank" class="link-pill">Bateau-taxi privé</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- HÉBERGEMENTS -->
+      <span class="info-label">Où dormir — par budget</span>
+      <div class="accom-grid">
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1719821756477-dcb0b6ed0dc9?w=600&q=80" alt="Terrasse avec parasol et vue mer" loading="lazy">
+          <span class="accom-tier budget">Budget</span>
+          <div class="accom-name">Hotel Anna</div>
+          <div class="accom-price">~35–50 €/nuit</div>
+          <div class="accom-desc">Front de mer, simple et propre. Restaurant sur place. Le meilleur rapport qualité-prix du village.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/gr/anna-loutron.en-gb.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.google.com/maps/search/Hotel+Anna+Loutro+Crete" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1693098243367-93320637839e?w=600&q=80" alt="Balcon avec table donnant sur la mer" loading="lazy">
+          <span class="accom-tier mid">Mid-range</span>
+          <div class="accom-name">Porto Loutro</div>
+          <div class="accom-price">~82–100 €/nuit</div>
+          <div class="accom-desc">18 chambres, directement sur la plage, 5m de la mer turquoise. Terrasse face à la baie. Réserver tôt.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/gr/porto-loutro-onthebeach.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.hotelportoloutro.com/" target="_blank" class="link-pill">Site officiel</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1758561087076-e647b2e2485a?w=600&q=80" alt="Restaurant avec vue sur l'océan" loading="lazy">
+          <span class="accom-tier gem">Pépite</span>
+          <div class="accom-name">Notos Restaurant & Rooms</div>
+          <div class="accom-price">~60–85 €/nuit</div>
+          <div class="accom-desc">Famille Androulakakis. Mezedopoleion (petites assiettes) stylé + chambres au-dessus. Le foodie move — dormir là où on mange le mieux.</div>
+          <div class="link-row">
+            <a href="https://www.tripadvisor.com/Restaurant_Review-g1187644-d3518986-Reviews-Notos_Restaurant_Rooms-Loutro_Chania_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+            <a href="https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols2">
+        <div>
+          <div class="info-block">
+            <span class="info-label">Où manger</span>
+            <div class="info-body">
+              <strong>Stratis Taverna</strong> — Cuisine familiale, agneau grillé (paidakia), tartes maison, yogourt du troupeau familial. Le meilleur rapport saveur/prix.
+              <div class="link-row">
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g1187644-d3566876-Reviews-Stratis-Loutro_Chania_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+                <a href="https://www.google.com/maps/search/Stratis+Taverna+Loutro+Crete" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1676471977139-315014bed47e?w=600&q=80" alt="Côtelettes d'agneau grillées sur assiette" loading="lazy"><br>
+              <strong>Ilios</strong> — Famille depuis 1979. Fruits de mer frais, vue sur la baie.
+              <div class="link-row">
+                <a href="https://iliosloutro.gr/en/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g1187644-d3518985-Reviews-Ilios_Hotel_Restaurant-Loutro_Chania_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1768322264423-4b0adf0cf31b?w=600&q=80" alt="Poisson grillé et pieuvre avec légumes" loading="lazy"><br>
+              <strong>Blue House</strong> — Menu varié, #1 du village sur TripAdvisor. Front de mer.
+              <div class="link-row">
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g1187644-d3478256-Reviews-Blue_House_Restaurant-Loutro_Chania_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+              </div><br>
+              <strong>Old Phoenix</strong> (baie de Finix) — 15 min à pied par le sentier E4. Taverna familiale dans une baie quasi déserte. Pain pétri à la main, cuisine au feu de bois. L'un des meilleurs repas du voyage.
+              <div class="link-row">
+                <a href="https://www.old-phoenix.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="food-img" src="https://images.unsplash.com/photo-1773701626594-a601beb3297d?w=600&q=80" alt="Plat de fruits de mer frais en taverna" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="info-block">
+            <span class="info-label">Les criques pour nager</span>
+            <div class="info-body">
+              <strong>Glyka Nera (Sweetwater Beach)</strong> — 1h de marche OU 20 min en bateau (~5 €). Sources d'eau douce sous la plage — zones tièdes étonnantes. Eau limpide, falaises blanches. Parfait pour l'intimité.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Glyka+Nera+Beach+Loutro+Crete" target="_blank" class="link-pill">Maps</a>
+                <a href="https://www.alltrails.com/trail/greece/crete/glyka-nera-beach-timios-stavros-chapel-loutro" target="_blank" class="link-pill">AllTrails</a>
+              </div><br>
+              <strong>Marmara Beach</strong> — Par bateau. Grottes de marbre, eau turquoise. Taverna <em>Dialiskari</em> sur place (pain maison, réserver).
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Baie de Loutro</strong> — Après 18h30, quand le dernier ferry repart, la baie est à vous. Eau calme, peu profonde, cristalline.
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">La réalité de Loutro</span>
+            <div class="info-body">
+              Bateaux de jour = groupes de 9h à 18h30. Après, c'est une autre atmosphère. Loutro révèle sa magie au coucher du soleil et le matin tôt. Six nuits c'est la bonne durée.
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Température de l'eau</span>
+            <div class="tag-list">
+              <span class="tag">~26–27°C mi-septembre</span>
+              <span class="tag green">Mer de Libye — très calme</span>
+              <span class="tag amber">Sources froides à Glyka Nera</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOODIE -->
+      <div class="foodie-block">
+        <div class="foodie-title">Incontournables foodie — Loutro & Sfakia</div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Sfakianopita — LE plat de la région</div>
+          <div class="foodie-item-desc">Crêpe fine pétrie au raki, fourrée à la myzithra fraîche, dorée à la poêle, arrosée de miel de thym et graines de sésame. Commander partout — c'est le terroir local. En lice pour l'UNESCO.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1767514579388-278d63566fd7?w=600&q=80" alt="Plat gratiné aux herbes — cuisine crétoise" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Paidakia chez Stratis</div>
+          <div class="foodie-item-desc">Côtelettes d'agneau grillées, yogourt du troupeau familial. Simple, parfait. Accompagner de salade crétoise et de vin de la maison.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1553621044-bcfa686676dc?w=600&q=80" alt="Viande grillée à côté de haricots verts" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Déjeuner à la taverna Dialiskari (Marmara Beach)</div>
+          <div class="foodie-item-desc">Accessible uniquement par bateau. Pain pétri main, légumes du jardin, poisson grillé. Manger pieds dans le sable avec vue sur les grottes de marbre.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1759369983522-b12cd771fe01?w=600&q=80" alt="Table dressée dans un café en bord de mer" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Raki maison (tsikoudia)</div>
+          <div class="foodie-item-desc">Offert comme digestif après chaque repas. Distillé en novembre dans les villages — un rituel communautaire crétois. Demander la version au miel (rakomelo) pour finir la soirée.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1573126617899-41f1dffb196c?w=600&q=80" alt="Verre de raki sur table de taverna" loading="lazy">
+        </div>
+      </div>
+
+      <!-- HIDDEN GEMS -->
+      <div class="gem-block">
+        <div class="gem-title">Pépites locales — Loutro</div>
+        <div class="gem-item">
+          <div class="gem-item-name">Sentier E4 vers Glyka Nera au lever du soleil</div>
+          <div class="gem-item-desc">Partir à 6h30, longer la côte, arriver seul sur la plage aux sources d'eau douce. Se baigner dans une eau où personne n'est encore allé ce jour-là. <a href="https://www.alltrails.com/trail/greece/crete/glyka-nera-beach-timios-stavros-chapel-loutro" target="_blank" class="ext-link">Voir le sentier</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1627240821221-10c90724a9e1?w=600&q=80" alt="Rivage rocheux avec herbe verte et mer turquoise" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Old Phoenix, baie de Finix</div>
+          <div class="gem-item-desc">Site archéologique de l'ancien port d'Anopolis. Taverna isolée dans une baie sauvage, accès par sentier ou bateau. Déjeuner face à la Libye avec personne d'autre. <a href="https://www.old-phoenix.com/" target="_blank" class="ext-link">old-phoenix.com</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1575237579976-4d4219f1860f?w=600&q=80" alt="Eau cristalline dans une crique isolée" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">La promenade du soir, 19h–20h</div>
+          <div class="gem-item-desc">Quand le dernier ferry est parti. Les chats sortent, les lumières s'allument sur la baie, les propriétaires des tavernas s'assoient avec un raki. Le vrai Loutro ne commence qu'à cette heure-là.</div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1664547654523-24e8a9121988?w=600&q=80" alt="Terrasse de café avec vue sur l'océan au crépuscule" loading="lazy">
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>Logistique :</strong> Bagages au minimum — un sac à dos. Le reste dans la voiture à <a href="https://www.google.com/maps/search/Chora+Sfakion+parking+Crete" target="_blank" class="ext-link">Chora Sfakion</a>. Pas de distributeur à Loutro — cash uniquement (retirer à Sfakion).
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SITIA -->
+<div id="sitia" class="tab-section">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1741618487089-c7a11f4e89d0?w=1800&q=85" alt="Port de Sitia — côte rocheuse et plage">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">03 / 04 &nbsp;·&nbsp; Base 3 &nbsp;·&nbsp; 19–27 septembre &nbsp;·&nbsp; 9 nuits</span>
+      <h2 class="chapter-title">Sitia</h2>
+      <p class="chapter-subtitle">L'est authentique. Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port. Eau à son maximum thermique : 27–28°C.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="pullquote reveal">
+        <p>Neuf nuits à Sitia, c'est le pari du voyage. Personne y va. C'est précisément pour ça.</p>
+      </div>
+
+      <div class="curatorial reveal">
+        <p>La Crète orientale, c'est la Crète qui mange encore dans ses propres tavernas, qui parle à ses propres voisins, qui ne s'est jamais déguisée pour personne. L'eau est à 27–28°C — le maximum thermique annuel — et elle reste calme parce que personne n'est là pour la brasser.</p>
+
+        <h4>Le logement</h4>
+        <p><a class="place-link" href="https://www.google.com/maps/search/Nereids+Apartments+Sitia+Crete" target="_blank" rel="noopener">Nereids Apartments</a> (45–58 €) avec cuisine à 30 mètres de la plage si on veut cuisiner les légumes du marché. <a class="place-link" href="https://www.google.com/maps/search/Elysee+Hotel+Sitia+Crete" target="_blank" rel="noopener">Elysee Hotel</a> (65–85 €) sur la promenade du port pour voir les pêcheurs rentrer à 6h. Ou <a class="place-link" href="https://www.google.com/maps/search/Livikoview+Xerokambos+Crete" target="_blank" rel="noopener">Livikoview Xerokambos</a> (75–95 €), à 48 km au sud, si on veut disparaître complètement quelques nuits — cet endroit-là, c'est une pépite qu'on se cache à soi-même.</p>
+
+        <h4>La table</h4>
+        <p>Quatre adresses, toutes familiales. <a class="place-link" href="https://www.google.com/maps/search/Zorbas+Tavern+Sitia+Crete" target="_blank" rel="noopener">Zorbas Tavern</a> : le proprio pêche lui-même le matin, sa femme cuisine le midi, l'addition finit à ~40 € pour deux. <a class="place-link" href="https://www.google.com/maps/search/Inodion+Restaurant+Sitia+Crete" target="_blank" rel="noopener">Inodion</a> (famille Garefalakis depuis 2005) pour le dakos au four à bois arrosé de l'huile PDO Sitia — l'huile dont les nutritionnistes parlent quand ils parlent du régime crétois qui fait maigrir les gens. <a class="place-link" href="https://www.google.com/maps/search/Tzivaeri+Tavern+Sitia+Crete" target="_blank" rel="noopener">Tzivaeri</a> (famille Psarakis) : plateau de poisson à 22 € pour deux, impossible à égaler ailleurs. <a class="place-link" href="https://www.google.com/maps/search/The+Balcony+Restaurant+Sitia+Crete" target="_blank" rel="noopener">The Balcony</a> avec la chef Tonya Karandinou, certifiée CONCRED, quand on veut sortir du registre taverna.</p>
+
+        <h4>Les plages</h4>
+        <p><a class="place-link" href="https://www.google.com/maps/search/Xerokambos+Crete" target="_blank" rel="noopener">Xerokampos</a> à une heure au sud : <a class="place-link" href="https://www.google.com/maps/search/Mazzida+Ammos+Xerokambos+Crete" target="_blank" rel="noopener">Mazzida Ammos</a> pour le sable blanc, puis <a class="place-link" href="https://www.google.com/maps/search/Argilos+Beach+Xerokambos+Crete" target="_blank" rel="noopener">Argilos Beach</a> juste à côté où l'argile grise se ramasse sur la berge et sert de spa naturel. <a class="place-link" href="https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete" target="_blank" rel="noopener">Kato Zakros</a> au bout de la Gorge des morts, avec un palais minoen derrière la plage — baignade archéologique. Et la palmeraie de <a class="place-link" href="https://www.google.com/maps/search/Vai+Beach+Crete" target="_blank" rel="noopener">Vaï</a> avec sa plage cachée <a class="place-link" href="https://www.google.com/maps/search/Psili+Ammos+Vai+Crete" target="_blank" rel="noopener">Psili Ammos</a> derrière le promontoire, où 90% des touristes ne mettent jamais les pieds.</p>
+
+        <h4>Pendant la sieste</h4>
+        <p><a class="place-link" href="https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete" target="_blank" rel="noopener">Toplou Monastery</a> (XV<sup>e</sup> siècle) — dégustation gratuite de leur huile et de leur vin Liatiko, cinq siècles de viticulture monastique. On y va seule, c'est vingt minutes de marche silencieuse dans la cour, et on ressort avec une bouteille.</p>
+
+        <h4>Le killer foodie move</h4>
+        <p>Commander une carafe de <strong>Liatiko</strong> — le cépage autochtone rouge crétois, quasi introuvable hors de l'île — avec le dakos d'<a class="place-link" href="https://www.google.com/maps/search/Inodion+Restaurant+Sitia+Crete" target="_blank" rel="noopener">Inodion</a>. C'est le repas qui justifie la journée de route depuis Loutro (~3h30 via Plakias et Frangokastello).</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <img src="https://images.unsplash.com/photo-1741617621351-9e15b51e5cb4?w=600&q=80" alt="Baignade près des bâtiments historiques de Sitia" loading="lazy" class="photo-wide">
+        <img src="https://images.unsplash.com/photo-1572256729029-2554f8839c6b?w=600&q=80" alt="Ruelles blanches de l'est crétois" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1637649983971-597acff319a5?w=600&q=80" alt="Spinalonga — île-forteresse" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1577909927624-46239c787f4e?w=600&q=80" alt="Bateaux devant Spinalonga" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1517580314428-09d986e8f63a?w=600&q=80" alt="Pieuvres séchant au soleil — tradition crétoise" loading="lazy">
+      </div>
+
+      <!-- CARTE -->
+      <span class="map-label">Carte — Sitia et est crétois</span>
+      <div class="map-container">
+        <div class="mapbox-map" id="map-sitia"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"></i>Hébergement</span>
+        <span><i class="resto"></i>Table</span>
+        <span><i class="plage"></i>Plage</span>
+        <span><i class="sight"></i>À voir</span>
+      </div>
+
+      <!-- HÉBERGEMENTS -->
+      <span class="info-label">Où dormir — par budget</span>
+      <div class="accom-grid">
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1630410304931-d90e1fe3f918?w=600&q=80" alt="Murs blancs et plantes vertes — studio méditerranéen" loading="lazy">
+          <span class="accom-tier budget">Budget</span>
+          <div class="accom-name">Nereids Apartments</div>
+          <div class="accom-price">~45–58 €/nuit</div>
+          <div class="accom-desc">30m de la plage, studios avec cuisine, jardin. Note 9/10. Idéal pour cuisiner avec les produits du marché local.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/gr/nereides-apartments-siteaa.en-gb.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://nereids.gr/" target="_blank" class="link-pill">Site officiel</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1604145195376-e2c8195adf29?w=600&q=80" alt="Terrasse et mobilier extérieur face à la mer" loading="lazy">
+          <span class="accom-tier mid">Mid-range</span>
+          <div class="accom-name">Elysee Hotel</div>
+          <div class="accom-price">~65–85 €/nuit</div>
+          <div class="accom-desc">Promenade du port, balcons face à la mer de Crète. Près de la forteresse vénitienne. Propre, bien situé.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/gr/elysee.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.elysee-hotel.gr/" target="_blank" class="link-pill">Site officiel</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1606141331552-a39fb3230fc3?w=600&q=80" alt="Table en bois et chaises — ambiance rustique méditerranéenne" loading="lazy">
+          <span class="accom-tier gem">Pépite</span>
+          <div class="accom-name">Livikoview — Xerokambos</div>
+          <div class="accom-price">~75–95 €/nuit</div>
+          <div class="accom-desc">48 km au sud, au milieu de nulle part. Hébergement + restaurant de cuisine crétoise moderne. Plages désertes à 5 min. Le vrai bout du monde.</div>
+          <div class="link-row">
+            <a href="https://livikoview.gr/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Livikoview+Xerokambos+Crete" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols2">
+        <div>
+          <div class="info-block">
+            <span class="info-label">Où manger</span>
+            <div class="info-body">
+              <strong>Zorbas Tavern</strong> — Le patron pêche, sa femme cuisine. Légumes du jardin, rougets frais, feuilles de vigne maison. Repas complet pour deux : ~40 €. Les gens font 2h de route pour y manger.
+              <div class="link-row">
+                <a href="https://zorbas-seaside-restaurant.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g2543839-d3386981-Reviews-Zorba_s_Tavern-Sitia_Lasithi_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1764397514707-48308ede7f04?w=600&q=80" alt="Poulpe grillé avec légumes et vin rosé" loading="lazy"><br>
+              <strong>Inodion</strong> — Famille Garefalakis depuis 2005. Dakos au four à bois, huile PDO de Sitia. Ruelle derrière le port.
+              <div class="link-row">
+                <a href="https://www.inodion.gr/en" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g2543839-d5598188-Reviews-Inodion-Sitia_Lasithi_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1640702296640-20dfeee862ad?w=600&q=80" alt="Tomates et légumes tranchés — ingrédients frais crétois" loading="lazy"><br>
+              <strong>Tzivaeri</strong> — Coin du port, famille Psarakis. Plateau de poisson pour deux à 22 €, pain maison, huile et vin bio. Note 4.5/5.
+              <div class="link-row">
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g2543839-d12637480-Reviews-Tzivaeri-Sitia_Lasithi_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+              </div><br>
+              <strong>The Balcony</strong> — Chef Tonya Karandinou, fusion crétoise-internationale. Certifié CONCRED (Académie grecque du goût).
+              <img class="food-img" src="https://images.unsplash.com/photo-1606735584785-1848fdcaea57?w=600&q=80" alt="Salade crétoise fraîche — tomates, concombre, feta" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="info-block">
+            <span class="info-label">Les criques et plages</span>
+            <div class="info-body">
+              <strong>Xerokampos</strong> — 1h au sud. Chapelet de criques désertes. Mazzida Ammos (sable blanc tropical) et <strong>Argilos Beach</strong> — plage d'argile naturelle : spa gratuit en pleine nature.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Xerokambos+Crete" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Kato Zakros</strong> — Gorge des Morts (tombes minoennes dans les grottes), palais minoen à 200m de l'eau. Taverna du village pour le lunch.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Vaï</strong> — Palmeraie naturelle unique en Europe. En septembre : beaucoup moins de monde. Astuce : passer par-dessus le promontoire vers <strong>Psili Ammos</strong> — plage secrète, zéro monde.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Vai+Beach+Crete" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">À ne pas manquer</span>
+            <div class="info-body">
+              <strong>Spinalonga</strong> (depuis Elounda, 1h) — Forteresse vénitienne, léproserie historique. Bateau ~12 € + entrée 20 €.
+              <div class="link-row">
+                <a href="https://www.spinalongatours.gr/" target="_blank" class="link-pill">Réserver bateau</a>
+                <a href="https://www.google.com/maps/search/Spinalonga+Island+Elounda+Crete" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Monastère de Toplou</strong> — XV<sup>e</sup> siècle. Dégustation gratuite d'huile d'olive bio + vin (5 siècles de tradition viticole).
+              <div class="link-row">
+                <a href="https://toplouoliveoil.com/" target="_blank" class="link-pill">Boutique</a>
+                <a href="https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Température de l'eau</span>
+            <div class="tag-list">
+              <span class="tag">~27–28°C — maximum annuel</span>
+              <span class="tag green">Criques calmes, eau transparente</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOODIE -->
+      <div class="foodie-block">
+        <div class="foodie-title">Incontournables foodie — Sitia</div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Huile d'olive PDO de Sitia</div>
+          <div class="foodie-item-desc">Appellation protégée, variété Koroneiki unique. Dégustation gratuite à l'<a href="https://www.google.com/maps/search/Ecomuseum+Municipality+Sitia+Crete" target="_blank" class="ext-link">Écomusée de Sitia</a>. Acheter directement aux producteurs — incomparable avec ce qu'on trouve en supermarché.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1773217890253-78fb48cc5c79?w=600&q=80" alt="Huile d'olive versée — close-up doré" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Vin Liatiko au Monastère de Toplou</div>
+          <div class="foodie-item-desc">Cépage rouge autochtone, sec et charpenté. Dégustation sur place au <a href="https://toplouoliveoil.com/" target="_blank" class="ext-link">monastère</a>. 5 siècles de viticulture, vin bio certifié. Ramener quelques bouteilles.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1667226701528-722a4f098707?w=600&q=80" alt="Vin et panier dans les vignes" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Plateau de poisson chez Tzivaeri</div>
+          <div class="foodie-item-desc">22 € pour deux. Poisson du matin, pain du four, huile et vin de la famille Psarakis. Le genre de repas qu'on ne trouve plus nulle part en zone touristique.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1764397514789-079231e88f31?w=600&q=80" alt="Assiette de poisson et poulpe grillés avec légumes" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Pieuvre séchée au soleil</div>
+          <div class="foodie-item-desc">Tradition en déclin mais encore visible sur le port de Sitia. Demander la xtapodi krasata (pieuvre au vin rouge) chez Fegaropsaro — la version cuttlefish aussi.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1764397514746-e58523d0eaff?w=600&q=80" alt="Poulpe grillé avec salade et vin sur la table" loading="lazy">
+        </div>
+      </div>
+
+      <!-- HIDDEN GEMS -->
+      <div class="gem-block">
+        <div class="gem-title">Pépites locales — Sitia</div>
+        <div class="gem-item">
+          <div class="gem-item-name">Argilos Beach, Xerokambos — spa naturel</div>
+          <div class="gem-item-desc">Plage d'argile pliocène. Les baigneurs se couvrent d'argile naturelle — un spa en plein air gratuit. Surréaliste. <a href="https://www.google.com/maps/search/Argilos+Beach+Xerokambos+Crete" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1577986396799-e4739339575d?w=600&q=80" alt="Eaux turquoise et côte rocheuse" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Psili Ammos — la plage cachée derrière Vaï</div>
+          <div class="gem-item-desc">Sentier par-dessus le promontoire depuis le parking de Vaï. Plage déserte sans aucune installation. Apporter eau et nourriture. Le contraste avec Vaï est saisissant.</div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1572006169383-3588cb15361f?w=600&q=80" alt="Palmiers au bord d'un plan d'eau cristalline" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Gorge de Zakros (Gorge des Morts)</div>
+          <div class="gem-item-desc">Formations rocheuses spectaculaires, tombes minoennes dans les grottes. Débouche directement sur la plage et le palais minoen. Le combo archéologie-baignade parfait. <a href="https://www.google.com/maps/search/Zakros+Gorge+Dead+Crete" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1764116698347-6a89f62a908c?w=600&q=80" alt="Rivière à travers une gorge verdoyante" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Palekastro — le village d'à côté</div>
+          <div class="gem-item-desc">1 300 habitants, aucun tourisme de masse. Musée folklorique passionné, accès aux sites archéologiques, porte d'entrée vers Vaï sans les bus. Authenticité totale.</div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1519310948589-40d899de4d50?w=600&q=80" alt="Tables et chaises en bois devant un bâtiment en pierre" loading="lazy">
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>Trajet depuis Loutro :</strong> Reprendre la voiture à Chora Sfakion. Rouler vers l'est via Plakias (arrêt facultatif à Frangokastello). Sitia : ~3h30, compter une demi-journée avec déjeuner en route.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RETHYMNO -->
+<div id="rethymno" class="tab-section bg-sand">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1625231432020-208fbfe585ed?w=1800&q=85" alt="Port de Rethymno — bateaux et architecture vénitienne">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">04 / 04 &nbsp;·&nbsp; Base 4 &nbsp;·&nbsp; 28 septembre–5 octobre &nbsp;·&nbsp; 7 nuits</span>
+      <h2 class="chapter-title">Rethymno</h2>
+      <p class="chapter-subtitle">La deuxième plus belle vieille ville de Crète. Vénitienne, compacte, plus détendue que Chania. Plakias à 45 minutes.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="pullquote reveal">
+        <p>Sept nuits à Rethymno, c'est le sas de sortie. Après Loutro et Sitia, on n'a plus le goût de découvrir à toute vitesse.</p>
+      </div>
+
+      <div class="curatorial reveal">
+        <p>On veut une belle vieille ville, une adresse le soir, une plage à 45 minutes, et le vol retour facile depuis Héraklion (82 km, 1h15 d'autoroute). Rethymno coche toutes les cases, et c'est plus posé que Chania.</p>
+
+        <h4>Le logement</h4>
+        <p><a class="place-link" href="https://www.google.com/maps/search/Atelier+Vieux+Port+Rethymno" target="_blank" rel="noopener">Atelier Vieux Port</a> (55–70 €) avec rooftop, pour la version économique qui ne sacrifie rien. <a class="place-link" href="https://www.google.com/maps/search/Pepi+Boutique+Hotel+Rethymno" target="_blank" rel="noopener">Pepi Boutique Hotel</a> (85–103 €) dans un bâtiment vénitien avec piscine intérieure et petit-déjeuner crétois — l'équilibre parfait. Ou <a class="place-link" href="https://www.google.com/maps/search/Rimondi+Boutique+Hotel+Rethymno" target="_blank" rel="noopener">Rimondi Boutique Hotel</a> (110–180 €), un ancien manoir vénitien avec piscine dans la cour intérieure, suites aux pierres apparentes. L'adresse où on splurge pour la dernière semaine : on l'a mérité.</p>
+
+        <h4>La table</h4>
+        <p><a class="place-link" href="https://www.google.com/maps/search/Avli+restaurant+Rethymno" target="_blank" rel="noopener">Avli</a>, dans une cour intérieure vénitienne, pour <em>le dîner de fin de voyage</em>. Agneau braisé, chèvre au vin, fruits de mer, TripAdvisor 4.5. C'est le repas qu'on planifie à l'avance comme un événement. <a class="place-link" href="https://www.google.com/maps/search/Prima+Plora+Rethymno" target="_blank" rel="noopener">Prima Plora</a> en terrasse sous la Fortezza, poisson ultra-frais au coucher du soleil. <a class="place-link" href="https://www.google.com/maps/search/Zefyros+Fish+Taverna+Rethymno" target="_blank" rel="noopener">Zefyros Fish Taverna</a> directement sur le vieux port pour le poulpe au vinaigre à prix honnête. Et pour sortir complètement de la ville : <a class="place-link" href="https://www.google.com/maps/search/Taverna+Alekos+Armenoi+Rethymno" target="_blank" rel="noopener">Taverna Alekos</a> au village d'Armenoi à quinze minutes, chèvre rôtie, vin en carafe, produits de la ferme — l'authenticité absolue.</p>
+
+        <h4>Les plages</h4>
+        <p>Pas à Rethymno même — au sud. <a class="place-link" href="https://www.google.com/maps/search/Preveli+Beach+Crete" target="_blank" rel="noopener">Preveli</a> (35 min) : palmeraie à l'embouchure d'une gorge, rivière qui se jette dans la mer turquoise, escalier de 15 minutes pour descendre. <a class="place-link" href="https://www.google.com/maps/search/Plakias+Beach+Crete" target="_blank" rel="noopener">Plakias</a> (45 min) : station balnéaire tranquille, et le vrai trésor c'est <a class="place-link" href="https://www.google.com/maps/search/Korakas+Beach+Plakias+Crete" target="_blank" rel="noopener">Korakas</a>, 20 minutes de sentier côtier à pied depuis Plakias — crique isolée, eau cristalline, quasi vide en octobre. <a class="place-link" href="https://www.google.com/maps/search/Damnoni+Beach+Crete" target="_blank" rel="noopener">Damnoni</a> juste à côté : trois petites criques successives.</p>
+
+        <h4>Pendant la sieste</h4>
+        <p>Monter à la <a class="place-link" href="https://www.google.com/maps/search/Fortezza+Rethymno+Crete" target="_blank" rel="noopener">Fortezza</a> vers 18h30. Lumière dorée sur les pierres vénitiennes, mer en arrière-plan, quasi personne à cette heure-là. Ou le <a class="place-link" href="https://www.google.com/maps/search/Koumoundourou+Street+Rethymno" target="_blank" rel="noopener">marché du mercredi</a> rue Koumoundourou tôt le matin — fromages frais, miel de thym, herbes séchées. Ou une dégustation chez <a class="place-link" href="https://www.google.com/maps/search/Sella+Vineria+Rethymno" target="_blank" rel="noopener">Sella Vineria</a> ou <a class="place-link" href="https://www.google.com/maps/search/Rewine+Rethymno" target="_blank" rel="noopener">Rewine</a> dans la vieille ville : cépages autochtones Vidiano, Kotsifali, Mandilari, qui n'existent nulle part ailleurs.</p>
+
+        <h4>Le killer foodie move</h4>
+        <p><a class="place-link" href="https://www.google.com/maps/search/Androniki+Cretan+House+Rethymno" target="_blank" rel="noopener">Androniki's Cretan House</a> dans un village des collines — marché le matin, cuisine l'après-midi, festin le soir. Une journée complète, les mains dans la pâte à kalitsounia. C'est l'expérience qu'on ramène en mémoire musculaire, pas juste en photos. Deuxième option : les <strong>kalitsounia</strong> chez <a class="place-link" href="https://www.google.com/maps/search/Ntourountous+bakery+Rethymno" target="_blank" rel="noopener">Ntourountous</a> ou <a class="place-link" href="https://www.google.com/maps/search/Hatziparshos+bakery+Rethymno" target="_blank" rel="noopener">Hatziparshos</a>, deux boulangeries traditionnelles — chaussons à la mizithra et miel, la vraie version.</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <img src="https://images.unsplash.com/photo-1719328264273-5546f7924872?w=600&q=80" alt="Phare de Rethymno" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1562267699-ecc4b90e44da?w=600&q=80" alt="Baignade à Plakias" loading="lazy" class="photo-wide">
+        <img src="https://images.unsplash.com/photo-1625939618055-2014e8c4334f?w=600&q=80" alt="Architecture vénitienne de Rethymno" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1719917484287-b984aed711c1?w=600&q=80" alt="Table sous les arbres en bord de mer" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1717251881858-b06e4656f913?w=600&q=80" alt="Moules et vin — dîner crétois" loading="lazy">
+      </div>
+
+      <!-- CARTE -->
+      <span class="map-label">Carte — Rethymno et côte sud</span>
+      <div class="map-container">
+        <div class="mapbox-map" id="map-rethymno"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"></i>Hébergement</span>
+        <span><i class="resto"></i>Table</span>
+        <span><i class="plage"></i>Plage</span>
+        <span><i class="sight"></i>À voir</span>
+      </div>
+
+      <!-- HÉBERGEMENTS -->
+      <div class="info-block">
+        <span class="info-label">Où dormir</span>
+        <div class="info-body">
+          <div class="accom-grid">
+            <div class="info-block" style="margin:0">
+              <img class="accom-img" src="https://images.unsplash.com/photo-1661091106717-05b9403bbeaa?w=600&q=80" alt="Bâtiment blanc méditerranéen" loading="lazy" style="width:calc(100% + 32px);margin:-16px -16px 12px -16px">
+              <span class="accom-tier budget">$ Budget</span>
+              <strong>Atelier Vieux Port</strong><br>
+              Studio dans la vieille ville, à deux pas du port vénitien. Déco minimaliste, cuisine équipée, terrasse sur les toits. ~55–70 €/nuit.<br>
+              <div style="margin-top:8px">
+                <a href="https://www.booking.com/searchresults.html?ss=Rethymno+Old+Town" target="_blank" class="link-pill booking">Booking.com</a>
+                <a href="https://maps.google.com/maps?q=Rethymno+Old+Town+apartments" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+            </div>
+            <div class="info-block" style="margin:0">
+              <img class="accom-img" src="https://images.unsplash.com/photo-1578864426752-f1b2900fb1f3?w=600&q=80" alt="Piscine bleue et blanche — hôtel boutique" loading="lazy" style="width:calc(100% + 32px);margin:-16px -16px 12px -16px">
+              <span class="accom-tier mid">$$ Milieu de gamme</span>
+              <strong>Pepi Boutique Hotel</strong><br>
+              Hôtel de caractère dans un bâtiment vénitien restauré. Piscine intérieure, petit-déj crétois copieux. ~85–103 €/nuit.<br>
+              <div style="margin-top:8px">
+                <a href="https://www.booking.com/hotel/gr/pepi-boutique.html" target="_blank" class="link-pill booking">Booking.com</a>
+                <a href="https://maps.google.com/maps?q=Pepi+Boutique+Hotel+Rethymno" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+            </div>
+            <div class="info-block" style="margin:0">
+              <img class="accom-img" src="https://images.unsplash.com/photo-1695552866433-994a7750d4f8?w=600&q=80" alt="Vue à travers une arche en pierre — manoir vénitien" loading="lazy" style="width:calc(100% + 32px);margin:-16px -16px 12px -16px">
+              <span class="accom-tier gem">✦ Pépite</span>
+              <strong>Rimondi Boutique Hotel</strong><br>
+              Ancien manoir vénitien converti, suites avec pierres apparentes, piscine dans la cour intérieure. L'adresse la plus élégante de la vieille ville. ~110–180 €/nuit.<br>
+              <div style="margin-top:8px">
+                <a href="https://www.booking.com/hotel/gr/rimondi-boutique.html" target="_blank" class="link-pill booking">Booking.com</a>
+                <a href="https://www.rimondiboutiquehotel.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://maps.google.com/maps?q=Rimondi+Boutique+Hotel+Rethymno" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols2">
+        <div>
+          <!-- OÙ MANGER -->
+          <div class="info-block">
+            <span class="info-label">Où manger</span>
+            <div class="info-body">
+              <strong>Avli</strong> — Cour intérieure vénitienne somptueuse. La meilleure table de Rethymno — agneau braisé, chèvre au vin, fruits de mer. Dîner de fin de voyage obligatoire.
+              <div style="margin-top:6px">
+                <a href="https://www.avli.gr/" target="_blank" class="link-pill">avli.gr</a>
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g189539-d1059066-Reviews-Avli-Rethymnon_Rethymnon_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor 4.5</a>
+                <a href="https://maps.google.com/maps?q=Avli+restaurant+Rethymno" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1581347964096-25fad8a08dab?w=600&q=80" alt="Agneau braisé et spécialités crétoises" loading="lazy"><br>
+              <strong>Prima Plora</strong> — En terrasse face à la mer, sous la Fortezza. Cuisine crétoise créative, poisson ultra-frais, ambiance décontractée. Coucher de soleil spectaculaire.
+              <div style="margin-top:6px">
+                <a href="https://www.primaplora.gr/" target="_blank" class="link-pill">primaplora.gr</a>
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g189539-d2165948-Reviews-Prima_Plora-Rethymnon_Rethymnon_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor 4.6</a>
+                <a href="https://maps.google.com/maps?q=Prima+Plora+Rethymno" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1766547325390-44833aa5675b?w=600&q=80" alt="Terrasse en bord de mer au coucher du soleil" loading="lazy"><br>
+              <strong>Zefyros Fish Taverna</strong> — Directement sur le vieux port. Poisson grillé, poulpe au vinaigre, mezze de la mer. Portions généreuses, prix honnêtes.
+              <div style="margin-top:6px">
+                <a href="https://www.tripadvisor.com/Restaurant_Review-g189539-d3578553-Reviews-Zefyros_Fish_Tavern-Rethymnon_Rethymnon_Prefecture_Crete.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+                <a href="https://maps.google.com/maps?q=Zefyros+Fish+Taverna+Rethymno" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1760888938853-f3f92bd210b8?w=600&q=80" alt="Poisson grillé au port vénitien" loading="lazy"><br>
+              <strong>Taverna Alekos</strong> (village d'Armenoi, 15 min) — Taverna de campagne dans les collines. Chèvre rôtie, produits de la ferme, vin en carafe. L'authenticité absolue hors des circuits.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Taverna+Alekos+Armenoi+Rethymno" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1734987052573-0fbe611842ae?w=600&q=80" alt="Chèvre rôtie à la taverna de campagne" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <!-- PLAGES -->
+          <div class="info-block">
+            <span class="info-label">Les plages depuis Rethymno</span>
+            <div class="info-body">
+              <strong>Preveli Beach</strong> (35 min sud) — Palmeraie à l'embouchure d'une gorge, rivière qui se jette dans la mer turquoise. L'une des plus belles plages de Crète. Descente par escalier (15 min).
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Preveli+Beach+Crete" target="_blank" class="link-pill">Google Maps</a>
+              </div><br>
+              <strong>Plakias</strong> (45 min sud) — Station balnéaire tranquille. Plusieurs plages dans la baie. La <strong>plage de Korakas</strong>, 20 min à pied par le sentier côtier, est une crique isolée avec eau cristalline.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Plakias+Beach+Crete" target="_blank" class="link-pill">Google Maps</a>
+                <a href="https://maps.google.com/maps?q=Korakas+Beach+Plakias+Crete" target="_blank" class="link-pill">Korakas ↗</a>
+              </div><br>
+              <strong>Damnoni</strong> (à côté de Plakias) — Trois petites criques successives, eau cristalline, peu fréquentées en octobre.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Damnoni+Beach+Crete" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- À VOIR -->
+          <div class="info-block">
+            <span class="info-label">À voir</span>
+            <div class="info-body">
+              <strong>Fortezza de Rethymno</strong> — Citadelle vénitienne dominant la ville. Vue panoramique sur la mer et les toits. Coucher de soleil mémorable depuis les remparts.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Fortezza+Rethymno+Crete" target="_blank" class="link-pill">Google Maps</a>
+              </div><br>
+              <strong>Monastère d'Arkadi</strong> (30 min) — Site historique majeur de la résistance crétoise contre les Ottomans. Architecture Renaissance, campagne spectaculaire.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Arkadi+Monastery+Crete" target="_blank" class="link-pill">Google Maps</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- DÉPART -->
+          <div class="info-block">
+            <span class="info-label">Départ</span>
+            <div class="info-body">
+              Héraklion est à 82 km / ~1h15 de Rethymno par l'autoroute E75. Aéroport N. Kazantzakis (HER). Rendre la voiture à l'aéroport.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps/dir/Rethymno+Crete/Heraklion+Airport+Nikos+Kazantzakis" target="_blank" class="link-pill">Itinéraire Google Maps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOODIE BLOCK -->
+      <div class="foodie-block">
+        <span class="info-label" style="color:#8B5516">🍷 Incontournables foodie — Rethymno</span>
+        <div class="info-body" style="margin-top:12px">
+          <strong>Marché du mercredi</strong> — Rue Koumoundourou, marché paysan hebdomadaire. Fromages frais, miel de thym, herbes séchées, fruits de saison. Y aller tôt le matin pour la meilleure sélection.
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1775343963054-11247c9d4d30?w=600&q=80" alt="Artichauts frais et poivrons colorés au marché" loading="lazy"><br>
+          <strong>Kalitsounia</strong> — Chaussons crétois fourrés au fromage mizithra et herbes sauvages, version sucrée au miel. Essayer chez <strong>Ntourountous</strong> ou <strong>Hatziparshos</strong>, deux boulangeries traditionnelles de la vieille ville.
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1733252211052-91a95b0291f8?w=600&q=80" alt="Pâtisserie dorée au miel — kalitsounia crétois" loading="lazy"><br>
+          <strong>Vin crétois</strong> — La région de Rethymno produit d'excellents crus. <strong>Sella Vineria</strong> et <strong>Rewine</strong> dans la vieille ville offrent des dégustations de cépages autochtones — Vidiano, Kotsifali, Mandilari.
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1648228891576-09bf0ba4aa96?w=600&q=80" alt="Bouteille et verre de vin crétois" loading="lazy"><br>
+          <strong>Cooking class</strong> — <strong>Androniki's Cretan House</strong> propose des cours de cuisine crétoise traditionnelle dans un village des collines. Marché le matin, cuisine l'après-midi, festin le soir. Réserver à l'avance.
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1507048331197-7d4ac70811cf?w=600&q=80" alt="Préparation de légumes frais en cours de cuisine" loading="lazy"><br>
+          <strong>Raki & mezze</strong> — En fin de soirée, les tavernes offrent le raki maison avec mezze gratuit (fruits, gâteaux). C'est la tradition crétoise du <em>tsikoudia</em> — ne jamais refuser, c'est l'hospitalité incarnée.
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1746203170430-e8a7c11d5539?w=600&q=80" alt="Table garnie de mezze et raki crétois" loading="lazy">
+        </div>
+      </div>
+
+      <!-- HIDDEN GEMS BLOCK -->
+      <div class="gem-block">
+        <span class="info-label" style="color:#6B47B8">✦ Pépites locales — Rethymno</span>
+        <div class="info-body" style="margin-top:12px">
+          <strong>Preveli + monastère</strong> — Combiner la plage de Preveli avec la visite du monastère de Preveli en hauteur. Vue sur la palmeraie depuis le monastère, puis descente à la plage. Journée complète inoubliable.
+          <div style="margin-top:6px">
+            <a href="https://maps.google.com/maps?q=Preveli+Monastery+Crete" target="_blank" class="link-pill">Monastère ↗</a>
+          </div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1661285462650-78ad06b5c316?w=600&q=80" alt="Monastère de Preveli surplombant la palmeraie" loading="lazy"><br>
+          <strong>Minaret + clocher</strong> — Dans la vieille ville, un minaret ottoman et un clocher vénitien se dressent côte à côte — symbole parfait de la Crète multiculturelle. Chercher la Neratze Mosque reconvertie en conservatoire.
+          <div style="margin-top:6px">
+            <a href="https://maps.google.com/maps?q=Neratze+Mosque+Rethymno" target="_blank" class="link-pill">Google Maps</a>
+          </div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1629290439638-bca633156414?w=600&q=80" alt="Architecture ottomane et vénitienne dans la vieille ville" loading="lazy"><br>
+          <strong>Fortezza au coucher du soleil</strong> — Monter à la Fortezza vers 18h30 en octobre. La lumière dorée sur les pierres vénitiennes avec la mer en arrière-plan — moment magique, presque personne à cette heure.
+          <div style="margin-top:6px">
+            <a href="https://maps.google.com/maps?q=Fortezza+Rethymno" target="_blank" class="link-pill">Google Maps</a>
+          </div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1775649133969-62428745962a?w=600&q=80" alt="Rayons de soleil sur la ville côtière de Rethymno" loading="lazy"><br>
+          <strong>Plage de Korakas au matin</strong> — Y aller à 8h avant les randonneurs. Crique totalement déserte, eau calme, lumière parfaite. Le sentier côtier depuis Plakias longe des falaises spectaculaires.
+          <div style="margin-top:6px">
+            <a href="https://maps.google.com/maps?q=Korakas+Beach+Plakias" target="_blank" class="link-pill">Google Maps</a>
+          </div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1629369382900-1e534cdf14cd?w=600&q=80" alt="Crique isolée aux eaux turquoise — Korakas" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BUDGET -->
+<div id="budget" class="tab-section">
+  <div class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">Finances</span>
+        <h2 class="section-title">Budget estimé</h2>
+        <p class="section-intro">En dollars canadiens, taux de référence 1 € ≈ 1,50 $ CAD. Estimations réalistes pour deux personnes, niveau confort intermédiaire — bon hébergement, tavernas locales tous les soirs, vin au repas.</p>
+      </div>
+
+      <div class="budget-grid">
+        <div class="stat-card">
+          <span class="stat-card-val">~11 400 $</span>
+          <div class="stat-card-lbl">Total pour 2 personnes, 30 jours</div>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card-val">~5 700 $</span>
+          <div class="stat-card-lbl">Par personne, tout inclus</div>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card-val">~320 $</span>
+          <div class="stat-card-lbl">Par jour sur place, pour 2</div>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card-val">1 € ≈ 1,50 $</span>
+          <div class="stat-card-lbl">Taux de référence CAD</div>
+        </div>
+      </div>
+
+      <div class="budget-wrap">
+        <table class="budget-table">
+          <tr>
+            <td>
+              <strong>Vols aller-retour (2 pers.)</strong>
+              <span class="budget-cat">YOW ou YUL → CHQ (Chania), retour HER (Héraklion) → YUL · via hub européen, sans transit USA</span>
+            </td>
+            <td>~2 000 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Hébergement (30 nuits)</strong>
+              <span class="budget-cat">Chania 8n (~80€) · Loutro 6n (~100€, hôtel) · Sitia 9n (~65€) · Rethymno 7n (~70€)</span>
+            </td>
+            <td>~3 350 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Location de voiture (24 jours)</strong>
+              <span class="budget-cat">Petite voiture ~30€/jour tout inclus · Voiture garée à Chora Sfakion pendant Loutro (6 nuits)</span>
+            </td>
+            <td>~1 080 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Essence</strong>
+              <span class="budget-cat">~500 km de conduite au total, diesel ~1,80€/litre</span>
+            </td>
+            <td>~150 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Ferries et bateaux-taxis · Loutro</strong>
+              <span class="budget-cat">Ferry ANENDYK Chora Sfakion ↔ Loutro · Bateaux-taxis vers Glyka Nera et Marmara</span>
+            </td>
+            <td>~300 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Parking Chora Sfakion (6 nuits)</strong>
+              <span class="budget-cat">Parking du port, ~6€/nuit</span>
+            </td>
+            <td>~55 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Nourriture et boissons</strong>
+              <span class="budget-cat">Épicerie matin/midi · Taverna le soir pour 2 avec vin : ~45–55€ · ~75€/jour en moyenne</span>
+            </td>
+            <td>~3 375 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Activités, sites, excursions</strong>
+              <span class="budget-cat">Bateau Balos, Spinalonga · Sites archéologiques · Marchés, produits locaux · Imprévus</span>
+            </td>
+            <td>~700 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Assurance voyage</strong>
+              <span class="budget-cat">2 personnes, couverture médicale complète, 30 jours</span>
+            </td>
+            <td>~350 $</td>
+          </tr>
+          <tr class="budget-total">
+            <td>Total estimé</td>
+            <td>~11 360 $</td>
+          </tr>
+        </table>
+
+        <div class="divider"></div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.7">
+          <strong style="color:var(--text)">Budget serré :</strong> ~9 500 $ (Airbnb moins central, plus de repas cuisinés, voiture moins récente) ·
+          <strong style="color:var(--text)">Budget confort+ :</strong> ~13 500 $ (boutique hôtels, restaurant gastronomique 2–3 fois) ·
+          Le poste le plus négociable reste l'hébergement — pour un séjour d'un mois, contacter directement les propriétaires Booking.com et demander une réduction de 15–25%.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PRATIQUE -->
+<div id="pratique" class="tab-section">
+  <div class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">Infos pratiques</span>
+        <h2 class="section-title">Ce qu'il faut savoir</h2>
+      </div>
+
+      <div class="pratique-grid">
+        <div class="prat-card">
+          <div class="prat-card-title">Vols — stratégie</div>
+          <div class="prat-card-body">
+            Vol aller <strong>Montréal ou Ottawa → Chania (CHQ)</strong> via hub européen (Paris CDG, Francfort, Amsterdam). Retour <strong>Héraklion (HER) → Montréal</strong>. Cette combinaison aller-retour asymétrique évite tout backtracking et coûte souvent le même prix. <strong>Aucun transit par les États-Unis.</strong> Réserver 4–5 mois à l'avance pour septembre — tarifs estimés à 900–1 100 $ CAD/pers. aller-retour.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Location de voiture</div>
+          <div class="prat-card-body">
+            Louer à l'aéroport de Chania au départ, rendre à Héraklion à la fin. <strong>Assurance complète indispensable</strong> sur les routes de montagne crétoises. Petite voiture suffisante. Sociétés locales (Rental Center Crete) souvent moins chères que les internationales. Réserver en avance pour septembre — le mois se négocie en un forfait mensuel.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Argent et paiement</div>
+          <div class="prat-card-body">
+            Les tavernas authentiques et les petits logements préfèrent souvent le cash. Retirer des euros à l'arrivée. À Loutro, <strong>aucun distributeur sur place</strong> — le plus proche est à Chora Sfakion. Prévoir assez de cash pour les 6 nuits. Les restos de port acceptent tous les cartes.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Téléphonie</div>
+          <div class="prat-card-body">
+            Roaming canadien en Grèce (UE) : vérifier le forfait avant de partir. Alternative : acheter une SIM locale Cosmote ou Vodafone à l'aéroport (~15 € pour 10 Go). À Loutro, le réseau est limité — prévoir les cartes téléchargées hors ligne (Maps.me, OsmAnd) avant de partir.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Gastronomie — s'orienter</div>
+          <div class="prat-card-body">
+            <strong>Chercher les tavernas à l'intérieur des ruelles</strong>, pas sur le front de mer des ports touristiques. Demander la carafe de vin local — souvent du vin de production artisanale non embouteillé, excellent et 3–4 € la carafe. Le raki (tsikoudia) est offert en fin de repas dans les vrais endroits. Les poissons et fruits de mer à la braise, la chèvre rôtie, l'agneau au four — c'est là que la cuisine crétoise est supérieure.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Diète sur place</div>
+          <div class="prat-card-body">
+            La Crète est idéale pour une approche paleo/carnivore : poisson grillé du jour, pieuvre, agneau, côtelettes de chèvre, salades crétoises, légumes de saison. Très peu de féculents dans les vrais menus. Les marchés locaux (laodhiki) en septembre débordent de tomates, figues, raisins et concombres de la dernière saison estivale.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Météo et eau en septembre</div>
+          <div class="prat-card-body">
+            Températures : 26–30°C le jour, 18–22°C la nuit. Soleil quasi garanti. Eau mer du Nord (côte nord) : ~24–26°C. Mer de Libye (côte sud, Loutro, Sitia est) : <strong>26–28°C</strong> — le maximum thermique annuel. Légère brise en fin d'après-midi sur la côte nord (meltemi estompé). Côte sud protégée — eau calme.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Hébergement — réserver tôt</div>
+          <div class="prat-card-body">
+            <strong>Loutro en priorité</strong> — peu de chambres, très demandées, les propriétaires remplissent souvent sur réservation directe. Écrire par email 5–6 mois à l'avance. Pour les autres bases, Booking.com en cherchant "appartement avec cuisine", puis contacter le propriétaire directement pour négocier le tarif mensuel (−15 à −25%).
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  Itinéraire préparé avec amour · Crète, septembre–octobre 2027<br>
+  <a href="https://chartrandapps.ca">chartrandapps.ca</a>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-top" id="backTop" aria-label="Retour en haut" title="Retour en haut">&#8593;</button>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Fermer">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(function() {
+  if (!window.L) return;
+
+  var MAPS = {
+    'map-chania': {
+      center: [35.45, 24.00], zoom: 9,
+      markers: [
+        { type:'hotel', name:'Halepa Hotel', lng:24.0350, lat:35.5180, link:'https://www.google.com/maps/search/Halepa+Hotel+Chania+Crete' },
+        { type:'hotel', name:'Ionas Boutique Hotel', lng:24.0175, lat:35.5163, link:'https://www.google.com/maps/search/Ionas+Boutique+Hotel+Chania' },
+        { type:'resto', name:'Tamam', lng:24.0180, lat:35.5163, link:'https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania' },
+        { type:'sight', name:'Splantzia (vieille ville)', lng:24.0210, lat:35.5175, link:'https://www.google.com/maps/search/Splantzia+Square+Chania+Crete' },
+        { type:'plage', name:'Falassarna', lng:23.5783, lat:35.5033, link:'https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete' },
+        { type:'plage', name:'Elafonisi', lng:23.5400, lat:35.2717, link:'https://www.google.com/maps/search/Elafonisi+Beach+Crete' },
+        { type:'plage', name:'Balos', lng:23.5850, lat:35.5983, link:'https://www.google.com/maps/search/Balos+Lagoon+Crete' },
+        { type:'plage', name:'Seitan Limania', lng:24.1633, lat:35.5942, link:'https://www.google.com/maps/search/Seitan+Limania+Chania+Crete' }
+      ]
+    },
+    'map-loutro': {
+      center: [35.195, 24.090], zoom: 12,
+      markers: [
+        { type:'hotel', name:'Hotel Porto Loutro', lng:24.0782, lat:35.1983, link:'https://www.google.com/maps/search/Hotel+Porto+Loutro+Crete' },
+        { type:'resto', name:'Notos', lng:24.0785, lat:35.1981, link:'https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete' },
+        { type:'plage', name:'Glyka Nera (Sweet Water)', lng:24.0950, lat:35.1967, link:'https://www.google.com/maps/search/Glyka+Nera+Beach+Loutro+Crete' },
+        { type:'plage', name:'Marmara', lng:24.0483, lat:35.2033, link:'https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete' },
+        { type:'sight', name:'Phoenix / Finix', lng:24.0700, lat:35.1998, link:'https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete' },
+        { type:'sight', name:'Chora Sfakion (embarquement)', lng:24.1383, lat:35.2017, link:'https://www.google.com/maps/search/Chora+Sfakion+Crete' }
+      ]
+    },
+    'map-sitia': {
+      center: [35.18, 26.10], zoom: 9,
+      markers: [
+        { type:'hotel', name:'Livikoview Xerokambos', lng:26.2883, lat:35.0750, link:'https://www.google.com/maps/search/Livikoview+Xerokambos+Crete' },
+        { type:'sight', name:'Sitia (vieille ville)', lng:26.1033, lat:35.2083, link:'https://www.google.com/maps/search/Sitia+Crete' },
+        { type:'plage', name:'Vai (palmeraie)', lng:26.2667, lat:35.2583, link:'https://www.google.com/maps/search/Vai+Beach+Crete' },
+        { type:'plage', name:'Xerokambos', lng:26.2833, lat:35.0683, link:'https://www.google.com/maps/search/Xerokambos+Crete' },
+        { type:'sight', name:'Kato Zakros (palais minoen)', lng:26.2650, lat:35.0967, link:'https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete' },
+        { type:'sight', name:'Monastère de Toplou', lng:26.2333, lat:35.2283, link:'https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete' },
+        { type:'sight', name:'Spinalonga', lng:25.7400, lat:35.2950, link:'https://www.google.com/maps/search/Spinalonga+Island+Elounda+Crete' }
+      ]
+    },
+    'map-rethymno': {
+      center: [35.28, 24.50], zoom: 10,
+      markers: [
+        { type:'sight', name:'Rethymno (vieille ville)', lng:24.4733, lat:35.3667, link:'https://maps.google.com/maps?q=Rethymno+Old+Town+Crete' },
+        { type:'sight', name:'Fortezza', lng:24.4717, lat:35.3700, link:'https://maps.google.com/maps?q=Fortezza+Rethymno' },
+        { type:'resto', name:'Avli', lng:24.4745, lat:35.3680, link:'https://maps.google.com/maps?q=Avli+restaurant+Rethymno' },
+        { type:'plage', name:'Preveli', lng:24.4750, lat:35.1533, link:'https://maps.google.com/maps?q=Preveli+Beach+Crete' },
+        { type:'plage', name:'Plakias', lng:24.3933, lat:35.1867, link:'https://maps.google.com/maps?q=Plakias+Beach+Crete' },
+        { type:'plage', name:'Korakas', lng:24.3670, lat:35.1830, link:'https://maps.google.com/maps?q=Korakas+Beach+Plakias' },
+        { type:'sight', name:'Monastère d\'Arkadi', lng:24.6267, lat:35.3100, link:'https://maps.google.com/maps?q=Arkadi+Monastery+Crete' }
+      ]
+    }
+  };
+
+  var TYPE_LABELS = { hotel:'Hébergement', resto:'Table', plage:'Plage', sight:'À voir' };
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function(c) {
+      return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c];
+    });
+  }
+
+  function buildMap(id, cfg) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var map = L.map(id, {
+      scrollWheelZoom: false,
+      zoomControl: true,
+      attributionControl: true
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    var latLngs = [];
+    cfg.markers.forEach(function(m) {
+      var icon = L.divIcon({
+        className: 'mb-marker ' + m.type,
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+        popupAnchor: [0, -10],
+        html: ''
+      });
+      var popupHtml =
+        '<span class="pop-kicker">' + escapeHtml(TYPE_LABELS[m.type]) + '</span>' +
+        '<span class="pop-title">' + escapeHtml(m.name) + '</span>' +
+        '<a class="pop-link" href="' + encodeURI(m.link) + '" target="_blank" rel="noopener">Ouvrir dans Maps →</a>';
+      L.marker([m.lat, m.lng], { icon: icon, title: m.name, alt: m.name })
+        .bindPopup(popupHtml, { closeButton: true, maxWidth: 260 })
+        .addTo(map);
+      latLngs.push([m.lat, m.lng]);
+    });
+
+    if (latLngs.length) {
+      map.fitBounds(L.latLngBounds(latLngs), {
+        padding: [44, 44],
+        maxZoom: cfg.maxZoom || 12
+      });
+    } else {
+      map.setView(cfg.center, cfg.zoom);
+    }
+  }
+
+  if ('IntersectionObserver' in window) {
+    var mapObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var id = entry.target.id;
+          if (MAPS[id]) {
+            buildMap(id, MAPS[id]);
+            mapObserver.unobserve(entry.target);
+          }
+        }
+      });
+    }, { rootMargin: '300px 0px' });
+    Object.keys(MAPS).forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) mapObserver.observe(el);
+    });
+  } else {
+    Object.keys(MAPS).forEach(function(id) { buildMap(id, MAPS[id]); });
+  }
+})();
+</script>
+
+<script>
+(function() {
+  'use strict';
+
+  // Jump navigation (replaces tab show/hide — all sections render in linear scroll)
+  const navBtns = document.querySelectorAll('.nav-btn');
+  const sections = document.querySelectorAll('.tab-section');
+  const nav = document.querySelector('.nav');
+
+  function setActive(id) {
+    navBtns.forEach(function(b) {
+      var isActive = b.getAttribute('data-tab') === id;
+      b.classList.toggle('active', isActive);
+      if (isActive) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+    });
+    // Center active button on mobile
+    if (window.innerWidth < 700) {
+      var active = document.querySelector('.nav-btn.active');
+      if (active) active.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
+  }
+
+  function jumpTo(id) {
+    var target = document.getElementById(id);
+    if (!target) return;
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (history.replaceState) history.replaceState(null, '', '#' + id);
+    setActive(id);
+  }
+
+  // Click handlers → jump to section
+  navBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      jumpTo(this.getAttribute('data-tab'));
+    });
+  });
+
+  // Keyboard nav (arrow keys jump between sections)
+  navBtns.forEach(function(btn, i) {
+    btn.addEventListener('keydown', function(e) {
+      var idx = i;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); idx = (i + 1) % navBtns.length; }
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); idx = (i - 1 + navBtns.length) % navBtns.length; }
+      else if (e.key === 'Home') { e.preventDefault(); idx = 0; }
+      else if (e.key === 'End') { e.preventDefault(); idx = navBtns.length - 1; }
+      else return;
+      navBtns[idx].focus();
+      jumpTo(navBtns[idx].getAttribute('data-tab'));
+    });
+  });
+
+  // Scroll reveal for .reveal elements
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.05 });
+    document.querySelectorAll('.reveal').forEach(function(el) { revealObserver.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el) { el.classList.add('in-view'); });
+  }
+
+  // IntersectionObserver — update active state + URL hash as user scrolls
+  var scrollSyncEnabled = true;
+  if ('IntersectionObserver' in window) {
+    var currentId = null;
+    var observer = new IntersectionObserver(function(entries) {
+      if (!scrollSyncEnabled) return;
+      // Pick the entry closest to the top of the viewport
+      var visible = entries.filter(function(e) { return e.isIntersecting; });
+      if (!visible.length) return;
+      visible.sort(function(a, b) { return a.boundingClientRect.top - b.boundingClientRect.top; });
+      var id = visible[0].target.id;
+      if (id && id !== currentId) {
+        currentId = id;
+        navBtns.forEach(function(b) {
+          var isActive = b.getAttribute('data-tab') === id;
+          b.classList.toggle('active', isActive);
+          if (isActive) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+        });
+        if (history.replaceState) history.replaceState(null, '', '#' + id);
+      }
+    }, { rootMargin: '-80px 0px -60% 0px', threshold: 0 });
+    sections.forEach(function(s) { observer.observe(s); });
+  }
+
+  // Handle URL hash on load (direct link / bookmark)
+  function handleHash() {
+    var hash = window.location.hash.replace('#', '');
+    if (hash && document.getElementById(hash)) {
+      // Let the browser scroll natively via scroll-margin-top
+      setActive(hash);
+    }
+  }
+  if (window.location.hash) {
+    // Defer so scroll-margin applies and images start loading
+    setTimeout(handleHash, 50);
+  }
+  window.addEventListener('hashchange', handleHash);
+
+  // Nav scroll shadow
+  var lastScroll = 0;
+  window.addEventListener('scroll', function() {
+    var st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > 50) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+
+    // Back to top button
+    var backTop = document.getElementById('backTop');
+    if (st > 600) {
+      backTop.classList.add('visible');
+    } else {
+      backTop.classList.remove('visible');
+    }
+    lastScroll = st;
+  }, { passive: true });
+
+  // Back to top
+  document.getElementById('backTop').addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Lightbox
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = lightbox.querySelector('img');
+  document.addEventListener('click', function(e) {
+    if (e.target.matches('.photo-grid img, .photo-hero')) {
+      lightbox.classList.add('active');
+      lightboxImg.src = e.target.src.replace(/w=\d+/, 'w=1600');
+      lightboxImg.alt = e.target.alt;
+      document.body.style.overflow = 'hidden';
+    }
+  });
+  lightbox.addEventListener('click', function() {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+})();
+</script>
+</body>
+</html>
