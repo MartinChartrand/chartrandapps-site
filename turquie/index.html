@@ -1,0 +1,2748 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turquie — Septembre–Octobre 2027 · Itinéraire solo</title>
+<meta name="description" content="Un mois solo en Turquie : Istanbul, Cappadoce, Kaş, Fethiye. Hébergement, tables, activités et budget détaillé pour septembre–octobre 2027.">
+<meta property="og:title" content="Turquie — Septembre–Octobre 2027">
+<meta property="og:description" content="Istanbul, Cappadoce, côte Lycienne. Quatre bases, mouvement minimal. Itinéraire solo d'un mois.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chartrandapps.ca/turquie">
+<meta property="og:locale" content="fr_CA">
+<link rel="canonical" href="https://chartrandapps.ca/turquie">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🕌</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<style>
+  :root {
+    --terre: #C65A3C;
+    --sand: #F5E9D4;
+    --deep: #142637;
+    --mer: #1E6F8A;
+    --mer-light: #E3F0F4;
+    --text: #1F1A14;
+    --muted: #6B5F54;
+    --border: rgba(31,26,20,0.10);
+    --accent: #A84728;
+    --gold: #C9A370;
+    --bg: #FCF8F1;
+    --white: #FFFFFF;
+    --shadow-sm: 0 1px 3px rgba(31,26,20,0.06);
+    --shadow-md: 0 4px 16px rgba(31,26,20,0.08);
+    --shadow-lg: 0 8px 32px rgba(31,26,20,0.10);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+  }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 15px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* SELECTION */
+  ::selection { background: rgba(198,90,60,0.2); }
+
+  /* HERO */
+  .hero {
+    background: var(--deep);
+    color: white;
+    padding: 100px 40px 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 60% 30%, rgba(30,111,138,0.4) 0%, transparent 55%),
+      radial-gradient(ellipse at 20% 80%, rgba(198,90,60,0.3) 0%, transparent 45%),
+      radial-gradient(ellipse at 80% 70%, rgba(168,71,40,0.15) 0%, transparent 40%);
+    animation: heroShimmer 12s ease-in-out infinite alternate;
+  }
+  @keyframes heroShimmer {
+    0% { opacity: 0.85; }
+    100% { opacity: 1; }
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    opacity: 0.5;
+  }
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    animation: heroFadeIn 1s ease-out;
+  }
+  @keyframes heroFadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .hero-label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(56px, 9vw, 96px);
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 0.95;
+    margin-bottom: 10px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: rgba(255,255,255,0.65);
+  }
+  .hero-sub {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 21px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 44px;
+  }
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+  .hero-stat { text-align: center; }
+  .hero-stat-val {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    color: white;
+  }
+  .hero-stat-lbl {
+    font-size: 10px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .hero-sep { color: rgba(255,255,255,0.15); font-size: 20px; align-self: center; }
+
+  /* NAV */
+  .nav {
+    background: rgba(255,255,255,0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: box-shadow var(--transition);
+  }
+  .nav.scrolled { box-shadow: var(--shadow-md); }
+  .nav-inner {
+    display: flex;
+    overflow-x: auto;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 24px;
+    gap: 0;
+    scrollbar-width: none;
+    position: relative;
+  }
+  .nav-inner::-webkit-scrollbar { display: none; }
+  .nav-btn {
+    padding: 16px 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--muted);
+    cursor: pointer;
+    border: none;
+    background: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: all var(--transition);
+    position: relative;
+  }
+  .nav-btn:focus-visible {
+    outline: 2px solid var(--terre);
+    outline-offset: -2px;
+    border-radius: 4px;
+  }
+  .nav-btn.active {
+    color: var(--text);
+    font-weight: 500;
+    border-bottom-color: var(--terre);
+  }
+  .nav-btn:hover:not(.active) {
+    color: var(--text);
+    border-bottom-color: rgba(198,90,60,0.3);
+  }
+
+  /* MOBILE NAV FADE EDGES */
+  @media (max-width: 700px) {
+    .nav-inner::after {
+      content: '';
+      position: sticky;
+      right: 0;
+      top: 0;
+      flex-shrink: 0;
+      width: 40px;
+      height: 100%;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.95));
+      pointer-events: none;
+    }
+  }
+
+  /* LAYOUT */
+  .container { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+
+  .section { padding: 64px 0; border-bottom: 1px solid var(--border); }
+  .section:last-child { border-bottom: none; }
+
+  .section-header { margin-bottom: 44px; }
+  .section-num {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--terre);
+    display: block;
+    margin-bottom: 10px;
+  }
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(32px, 5vw, 40px);
+    font-weight: 300;
+    line-height: 1.15;
+    color: var(--text);
+  }
+  .section-intro {
+    font-size: 15px;
+    color: var(--muted);
+    max-width: 620px;
+    margin-top: 14px;
+    line-height: 1.75;
+  }
+  .curatorial {
+    max-width: 680px;
+    margin: 32px 0 8px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: var(--text);
+  }
+  .curatorial p {
+    margin: 0 0 18px;
+  }
+  .curatorial p.lede {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--deep);
+    margin-bottom: 24px;
+  }
+  .curatorial h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--terre);
+    margin: 26px 0 10px;
+  }
+  .curatorial strong {
+    color: var(--deep);
+    font-weight: 600;
+  }
+  .curatorial > p:first-of-type::first-letter {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 68px;
+    font-weight: 400;
+    float: left;
+    line-height: 0.85;
+    padding: 6px 10px 0 0;
+    color: var(--terre);
+  }
+
+  /* CHAPTER COVERS — full-bleed section openers */
+  .chapter-cover {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 78vh;
+    min-height: 520px;
+    max-height: 780px;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    color: #fff;
+  }
+  .chapter-cover img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.78) saturate(1.05);
+  }
+  .chapter-cover::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.35) 35%, rgba(0,0,0,0.82) 100%),
+      linear-gradient(to right, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.15) 55%, transparent 100%);
+    z-index: 1;
+  }
+  .chapter-cover-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 24px 72px;
+  }
+  .chapter-num {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    display: block;
+    margin-bottom: 18px;
+  }
+  .chapter-num::before {
+    content: '';
+    display: inline-block;
+    width: 40px;
+    height: 1px;
+    background: rgba(255,255,255,0.6);
+    vertical-align: middle;
+    margin-right: 14px;
+  }
+  .chapter-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(56px, 10vw, 128px);
+    font-weight: 300;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    margin: 0 0 20px;
+    color: #fff;
+    text-shadow: 0 2px 24px rgba(0,0,0,0.5);
+  }
+  .chapter-subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: clamp(18px, 2.4vw, 26px);
+    font-weight: 300;
+    max-width: 560px;
+    line-height: 1.45;
+    color: rgba(255,255,255,0.95);
+    text-shadow: 0 1px 16px rgba(0,0,0,0.55);
+  }
+  @media (max-width: 700px) {
+    .chapter-cover { height: 72vh; min-height: 440px; }
+    .chapter-cover-inner { padding: 0 24px 48px; }
+    .chapter-num { font-size: 10px; letter-spacing: 0.24em; }
+    .chapter-num::before { width: 24px; margin-right: 10px; }
+  }
+
+  /* PULLQUOTE — art-directed lede */
+  .pullquote {
+    position: relative;
+    width: 100vw;
+    margin: 72px 0 56px calc(50% - 50vw);
+    padding: 48px 24px;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: clamp(26px, 4vw, 42px);
+    line-height: 1.35;
+    color: var(--deep);
+    max-width: none;
+  }
+  .pullquote::before,
+  .pullquote::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--terre);
+    margin: 0 auto 28px;
+  }
+  .pullquote::after {
+    margin: 28px auto 0;
+  }
+  .pullquote p {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  @media (max-width: 700px) {
+    .pullquote { padding: 32px 24px; margin: 48px 0 40px calc(50% - 50vw); }
+  }
+
+  /* SECTION BACKGROUND ALTERNANCE */
+  .tab-section.bg-sand { background: var(--sand); }
+  .tab-section.bg-sand .section { border-bottom-color: rgba(0,0,0,0.06); }
+
+  /* SCROLL REVEAL */
+  .reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.9s cubic-bezier(.2,.6,.2,1), transform 0.9s cubic-bezier(.2,.6,.2,1);
+    will-change: opacity, transform;
+  }
+  .reveal.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .reveal { opacity: 1; transform: none; transition: none; }
+  }
+
+  /* SECTIONS — all visible, linear scroll */
+  .tab-section {
+    display: block;
+    scroll-margin-top: 72px;
+  }
+  @media (max-width: 700px) {
+    .tab-section { scroll-margin-top: 58px; }
+  }
+
+  /* TIMELINE */
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+  .tl-item {
+    display: grid;
+    grid-template-columns: 100px 1px 1fr;
+    gap: 0 28px;
+    position: relative;
+  }
+  .tl-date {
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 32px;
+  }
+  .tl-date-main {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+  .tl-date-sub {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .tl-line-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .tl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--terre);
+    flex-shrink: 0;
+    margin-top: 7px;
+    box-shadow: 0 0 0 4px rgba(198,90,60,0.15);
+    transition: transform var(--transition), box-shadow var(--transition);
+  }
+  .tl-item:hover .tl-dot {
+    transform: scale(1.3);
+    box-shadow: 0 0 0 6px rgba(198,90,60,0.2);
+  }
+  .tl-line {
+    width: 1px;
+    flex: 1;
+    background: linear-gradient(to bottom, var(--terre), var(--border));
+    margin-top: 6px;
+  }
+  .tl-item:last-child .tl-line { display: none; }
+  .tl-content { padding-bottom: 40px; }
+
+  /* BASE CARDS */
+  .base-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 6px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+  .base-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+  .base-card-header {
+    padding: 22px 24px 18px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .base-card-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .base-card-region {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+  .base-badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: var(--sand);
+    color: var(--accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .base-body { padding: 20px 24px 24px; }
+  .base-body p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  .cols2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  @media (max-width: 640px) { .cols2 { grid-template-columns: 1fr; } }
+
+  .info-block { margin-bottom: 20px; }
+  .info-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 10px;
+    display: block;
+  }
+  .info-body { font-size: 14px; color: var(--text); line-height: 1.7; }
+  .info-body strong { font-weight: 500; }
+
+  .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .tag {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: var(--mer-light);
+    color: var(--mer);
+    font-weight: 400;
+  }
+  .tag.amber { background: #FEF3E2; color: #8B5516; }
+  .tag.green { background: #EAF5E9; color: #256B2F; }
+
+  .note-box {
+    margin-top: 20px;
+    padding: 16px 20px;
+    background: var(--sand);
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.7;
+    border-left: 3px solid var(--terre);
+  }
+  .note-box strong { color: var(--text); font-weight: 500; }
+
+  /* BUDGET */
+  .budget-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  .stat-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+  .stat-card:hover {
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+  .stat-card-val {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px;
+    font-weight: 300;
+    color: var(--text);
+    display: block;
+    line-height: 1.1;
+  }
+  .stat-card-lbl { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+  .budget-table { width: 100%; border-collapse: collapse; }
+  .budget-table tr { border-bottom: 1px solid var(--border); transition: background var(--transition); }
+  .budget-table tr:hover { background: rgba(242,232,217,0.3); }
+  .budget-table tr:last-child { border-bottom: none; }
+  .budget-table td { padding: 14px 0; font-size: 14px; }
+  .budget-table td:last-child { text-align: right; font-weight: 500; white-space: nowrap; padding-left: 16px; }
+  .budget-cat { color: var(--muted); font-size: 12px; display: block; margin-top: 2px; }
+  .budget-total td { font-size: 16px; font-weight: 500; padding-top: 18px; }
+  .budget-total td:first-child { font-family: 'Cormorant Garamond', serif; font-size: 20px; }
+
+  .budget-wrap {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* PRATIQUE */
+  .pratique-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .pratique-grid { grid-template-columns: 1fr; } }
+  .prat-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+  .prat-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+  .prat-card-title { font-weight: 500; font-size: 14px; margin-bottom: 10px; }
+  .prat-card-body { font-size: 13px; color: var(--muted); line-height: 1.75; }
+  .prat-card-body strong { color: var(--text); font-weight: 500; }
+
+  /* FOOTER */
+  footer {
+    background: var(--deep);
+    color: rgba(255,255,255,0.4);
+    text-align: center;
+    padding: 40px 32px;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    line-height: 1.8;
+  }
+  footer strong { color: rgba(255,255,255,0.7); }
+  footer a { color: rgba(255,255,255,0.5); text-decoration: none; transition: color var(--transition); }
+  footer a:hover { color: rgba(255,255,255,0.8); }
+
+  /* INTRO BLOCKS */
+  .intro-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 24px; }
+  @media (max-width: 640px) { .intro-grid { grid-template-columns: 1fr; } }
+  .intro-block {
+    padding: 22px 24px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--white);
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+  .intro-block:hover {
+    box-shadow: var(--shadow-sm);
+    transform: translateY(-1px);
+  }
+  .intro-block-title { font-weight: 500; font-size: 14px; margin-bottom: 10px; color: var(--text); }
+  .intro-block-body { font-size: 13px; color: var(--muted); line-height: 1.75; }
+
+  .divider { height: 1px; background: var(--border); margin: 28px 0; }
+  hr.section-divider { border: none; border-top: 1px solid var(--border); margin: 36px 0; }
+
+  /* BACK TO TOP */
+  .back-top {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--deep);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(12px);
+    transition: all var(--transition);
+    box-shadow: var(--shadow-lg);
+    z-index: 90;
+  }
+  .back-top.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  .back-top:hover { background: var(--terre); transform: translateY(-2px); }
+  .back-top:focus-visible { outline: 2px solid var(--terre); outline-offset: 3px; }
+
+  /* RESPONSIVE TIMELINE */
+  @media (max-width: 600px) {
+    .hero { padding: 72px 24px 60px; }
+    .hero-meta { gap: 20px; }
+    .tl-item { grid-template-columns: 70px 1px 1fr; gap: 0 16px; }
+    .tl-date-main { font-size: 18px; }
+    .base-card-header { flex-direction: column; gap: 8px; }
+    .budget-wrap { padding: 20px 18px; }
+    .container { padding: 0 16px; }
+    .section { padding: 48px 0; }
+    .nav-btn { padding: 14px 16px; font-size: 12px; }
+  }
+
+  /* PRINT */
+  @media print {
+    .nav, .back-top { display: none !important; }
+    .tab-section { display: block !important; opacity: 1 !important; transform: none !important; }
+    .hero { background: #333 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .section { page-break-inside: avoid; }
+    .base-card, .prat-card, .stat-card, .intro-block { box-shadow: none !important; border: 1px solid #ccc !important; }
+  }
+
+  /* SKIP LINK */
+  .skip-link {
+    position: absolute;
+    top: -100px;
+    left: 16px;
+    background: var(--deep);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    z-index: 200;
+    font-size: 14px;
+    transition: top 0.2s;
+  }
+  .skip-link:focus { top: 16px; }
+
+  /* PHOTO GALLERIES */
+  .photo-hero {
+    display: block;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: clamp(340px, 55vh, 560px);
+    object-fit: cover;
+    margin-bottom: 56px;
+  }
+  .photo-caption { display: none; }
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 32px 0;
+  }
+  .photo-grid.two-col {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .photo-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    transition: transform var(--transition), box-shadow var(--transition);
+    cursor: pointer;
+  }
+  .photo-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-lg);
+  }
+  .photo-grid .photo-wide {
+    grid-column: span 2;
+    height: 280px;
+  }
+  .photo-grid .photo-tall {
+    grid-row: span 2;
+    height: 100%;
+    min-height: 452px;
+  }
+  .photo-caption {
+    font-size: 11px;
+    color: var(--muted);
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 24px;
+    font-style: italic;
+  }
+  .food-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin: 12px 0;
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* Hero background image */
+  .hero {
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to bottom, rgba(20,38,55,0.7), rgba(20,38,55,0.85)), url('https://images.unsplash.com/photo-1682233908046-08ffcbf56ea7?w=1400&q=80');
+  }
+
+  /* Fullscreen lightbox */
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.92);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+    animation: tabFadeIn 0.3s ease-out;
+  }
+  .lightbox.active { display: flex; }
+  .lightbox img {
+    max-width: 92vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 16px 64px rgba(0,0,0,0.4);
+  }
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    color: white;
+    font-size: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+  }
+  .lightbox-close:hover { opacity: 1; }
+
+  @media (max-width: 640px) {
+    .photo-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .photo-grid img { height: 160px; }
+    .photo-grid .photo-wide { grid-column: span 2; height: 200px; }
+    .photo-grid .photo-tall { grid-row: span 1; min-height: 160px; }
+    .photo-hero { height: 220px; }
+  }
+  @media (max-width: 400px) {
+    .photo-grid { grid-template-columns: 1fr; }
+    .photo-grid .photo-wide { grid-column: span 1; }
+  }
+
+  /* EXTERNAL LINKS */
+  .ext-link {
+    color: var(--mer);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(30,111,138,0.3);
+    transition: color var(--transition), border-color var(--transition);
+    font-weight: 400;
+  }
+  .ext-link:hover {
+    color: var(--terre);
+    border-bottom-color: var(--terre);
+  }
+  .ext-link::after {
+    content: ' ↗';
+    font-size: 0.75em;
+    opacity: 0.5;
+  }
+  /* Inline place link — narrative/curatorial text */
+  .place-link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5px solid rgba(196, 113, 74, 0.38);
+    padding-bottom: 1px;
+    transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+  }
+  .place-link:hover {
+    color: var(--terre);
+    border-bottom-color: var(--terre);
+    background-color: rgba(196, 113, 74, 0.08);
+  }
+  .place-link:focus-visible {
+    outline: 2px solid var(--terre);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  .link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  .link-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--mer-light);
+    color: var(--mer);
+    text-decoration: none;
+    transition: all var(--transition);
+    font-weight: 400;
+  }
+  .link-pill:hover { background: var(--mer); color: white; }
+  .link-pill.booking { background: #EBF5FB; color: #003580; }
+  .link-pill.booking:hover { background: #003580; color: white; }
+  .link-pill.trip { background: #F0FAF0; color: #00AA6C; }
+  .link-pill.trip:hover { background: #00AA6C; color: white; }
+
+  /* LEAFLET MAP */
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 460px;
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin: 28px 0;
+    box-shadow: var(--shadow-md);
+    border: 1px solid var(--border);
+    background: var(--mer-light);
+  }
+  @media (max-width: 700px) { .map-container { height: 360px; } }
+  .mapbox-map {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .leaflet-container {
+    font-family: 'DM Sans', sans-serif;
+    background: #F7F4EE;
+  }
+  .leaflet-popup-content-wrapper {
+    border-radius: 8px;
+    box-shadow: 0 8px 28px rgba(0,0,0,0.18);
+    padding: 2px 4px;
+  }
+  .leaflet-popup-content {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    line-height: 1.45;
+    margin: 14px 16px 12px;
+    min-width: 180px;
+  }
+  .leaflet-popup-content .pop-kicker {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--terre);
+    display: block;
+    margin-bottom: 4px;
+  }
+  .leaflet-popup-content .pop-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--deep);
+    line-height: 1.2;
+    margin-bottom: 8px;
+    display: block;
+  }
+  .leaflet-popup-content .pop-link {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: var(--mer);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+  }
+  .leaflet-popup-content .pop-link:hover { color: var(--accent); }
+  .leaflet-container a.leaflet-popup-close-button {
+    color: var(--muted);
+    font-size: 20px;
+    padding: 6px 8px 0 0;
+  }
+  .leaflet-div-icon.mb-marker {
+    background: transparent;
+    border: none;
+  }
+  .mb-marker {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.38);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mb-marker svg { width: 15px; height: 15px; fill: #fff; }
+  .mb-marker:hover { transform: scale(1.18); }
+  .mb-marker.hotel { background: var(--deep); }
+  .mb-marker.resto { background: var(--terre); }
+  .mb-marker.plage { background: var(--mer); }
+  .mb-marker.sight { background: var(--accent); }
+  .map-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: -12px 0 24px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+  .map-legend span { display: inline-flex; align-items: center; gap: 7px; }
+  .map-legend i {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+  }
+  .map-legend i svg { width: 10px; height: 10px; fill: #fff; }
+  .map-legend i.hotel { background: var(--deep); }
+  .map-legend i.resto { background: var(--terre); }
+  .map-legend i.plage { background: var(--mer); }
+  .map-legend i.sight { background: var(--accent); }
+  .map-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  /* ACCOMMODATION TIERS */
+  .accom-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; margin-bottom: 24px; }
+  @media (max-width: 800px) { .accom-grid { grid-template-columns: 1fr; } }
+  .accom-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    transition: box-shadow var(--transition), transform var(--transition);
+    position: relative;
+  }
+  .accom-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+  .accom-tier {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .accom-tier.budget { background: #EAF5E9; color: #256B2F; }
+  .accom-tier.mid { background: var(--mer-light); color: var(--mer); }
+  .accom-tier.gem { background: #FEF3E2; color: #8B5516; }
+  .accom-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+  .accom-price { font-size: 13px; color: var(--terre); font-weight: 500; margin-bottom: 8px; }
+  .accom-desc { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+  /* FOODIE BLOCK */
+  .foodie-block {
+    background: linear-gradient(135deg, #FEF9F2 0%, #FDF5EC 100%);
+    border: 1px solid rgba(198,90,60,0.15);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin: 24px 0;
+  }
+  .foodie-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+  .foodie-item { margin-bottom: 16px; }
+  .foodie-item:last-child { margin-bottom: 0; }
+  .foodie-item-name { font-weight: 500; font-size: 14px; color: var(--text); }
+  .foodie-item-desc { font-size: 13px; color: var(--muted); line-height: 1.65; margin-top: 2px; }
+
+  /* HIDDEN GEMS / PEPITES */
+  .gem-block {
+    background: linear-gradient(135deg, #F5F0FF 0%, #EDE8FA 100%);
+    border: 1px solid rgba(120,80,200,0.12);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin: 24px 0;
+  }
+  .gem-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+  .gem-item { margin-bottom: 14px; }
+  .gem-item:last-child { margin-bottom: 0; }
+  .gem-item-name { font-weight: 500; font-size: 14px; color: var(--text); }
+  .gem-item-desc { font-size: 13px; color: var(--muted); line-height: 1.65; margin-top: 2px; }
+
+  /* PHOTOS HÉBERGEMENTS */
+  .accom-img {
+    width: calc(100% + 40px);
+    height: 140px;
+    object-fit: cover;
+    border-radius: var(--radius) var(--radius) 0 0;
+    margin: -20px -20px 14px -20px;
+    display: block;
+  }
+
+  /* PHOTOS FOODIE & GEMS */
+  .foodie-item-img, .gem-item-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin-top: 8px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  /* PHOTO INLINE RESTO */
+  .resto-img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin: 10px 0;
+    box-shadow: var(--shadow-sm);
+  }
+
+  @media (max-width: 600px) {
+    .accom-img { height: 120px; }
+    .foodie-item-img, .gem-item-img { height: 120px; }
+    .resto-img { height: 110px; }
+  }
+</style>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Aller au contenu</a>
+
+<!-- HERO -->
+<header class="hero" role="banner" style="background-image: linear-gradient(to bottom, rgba(20,38,55,0.65), rgba(20,38,55,0.82)), url('https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1400&q=80');">
+  <div class="hero-inner">
+    <p class="hero-label">Itinéraire · Voyage solo</p>
+    <h1>Turquie<br><em>sept–oct</em></h1>
+    <p class="hero-sub">Un mois, quatre bases, mouvement minimal</p>
+    <div class="hero-meta" aria-label="Résumé du voyage">
+      <div class="hero-stat">
+        <span class="hero-stat-val">5 sept.</span>
+        <span class="hero-stat-lbl">Arrivée Istanbul</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">30</span>
+        <span class="hero-stat-lbl">Nuits</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">5 oct.</span>
+        <span class="hero-stat-lbl">Départ Dalaman</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">1</span>
+        <span class="hero-stat-lbl">Voyageur</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- NAV -->
+<nav class="nav" aria-label="Sections de l'itinéraire" id="main-nav">
+  <div class="nav-inner">
+    <button class="nav-btn active" aria-current="true" data-tab="vue">Vue d'ensemble</button>
+    <button class="nav-btn" data-tab="istanbul">Istanbul</button>
+    <button class="nav-btn" data-tab="cappadoce">Cappadoce</button>
+    <button class="nav-btn" data-tab="kas">Kaş</button>
+    <button class="nav-btn" data-tab="fethiye">Fethiye</button>
+    <button class="nav-btn" data-tab="budget">Budget</button>
+    <button class="nav-btn" data-tab="pratique">Pratique</button>
+  </div>
+</nav>
+
+<main id="main-content">
+
+<!-- VUE D'ENSEMBLE -->
+<div id="vue" class="tab-section">
+  <div class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">Logique du voyage</span>
+        <h2 class="section-title">Quatre bases,<br>mouvement minimal</h2>
+        <p class="section-intro">Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire descend en diagonale — urbain, intérieur lunaire, côte Lycienne intime, décompression finale — de l'arrivée à Istanbul jusqu'au vol retour depuis Dalaman.</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <div class="tl-date-main">5–11<br>sept.</div>
+            <div class="tl-date-sub">7 nuits</div>
+          </div>
+          <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="base-card">
+              <div class="base-card-header">
+                <div>
+                  <div class="base-card-title">Istanbul — le choc initial</div>
+                  <div class="base-card-region">Karaköy · Galata · Balat · Kadıköy rive asiatique</div>
+                </div>
+                <span class="base-badge">Base 1</span>
+              </div>
+              <div class="base-body">
+                <p>Arrivée, décalage horaire, premier simit à 6h du matin. Base à Karaköy, loin de Sultanahmet — c'est là que les Stambouliotes vivent. Ferries publics sur le Bosphore, marché aux poissons de Kadıköy, Balat à l'aube pour la photo, Süleymaniye au coucher. Sept jours pour apprivoiser une ville de seize millions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <div class="tl-date-main">12–16<br>sept.</div>
+            <div class="tl-date-sub">5 nuits</div>
+          </div>
+          <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="base-card">
+              <div class="base-card-header">
+                <div>
+                  <div class="base-card-title">Cappadoce — le paysage lunaire</div>
+                  <div class="base-card-region">Ürgüp · Vallées rouges et roses · Vignobles d'Anatolie centrale</div>
+                </div>
+                <span class="base-badge">Base 2</span>
+              </div>
+              <div class="base-body">
+                <p>Vol Istanbul → Kayseri, une heure de shuttle jusqu'à Ürgüp. Base volontairement hors de Göreme — plus local, restos pour adultes, vignobles à dix minutes. Montgolfière au lever du soleil une fois, randonnée Rose Valley → Red Valley au coucher, testi kebab dans une maison de 475 ans, dégustation de vins cappadociens sur tuf volcanique. Cinq nuits, ça suffit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <div class="tl-date-main">17–24<br>sept.</div>
+            <div class="tl-date-sub">8 nuits</div>
+          </div>
+          <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="base-card">
+              <div class="base-card-header">
+                <div>
+                  <div class="base-card-title">Kaş — le cœur du voyage</div>
+                  <div class="base-card-region">Côte Lycienne · Petite ville sans resorts · Eau à 25°C</div>
+                </div>
+                <span class="base-badge">Base 3</span>
+              </div>
+              <div class="base-body">
+                <p>Vol Kayseri → Antalya, quatre heures de bus sur la D400 panoramique. Kaş c'est le Loutro turc : petite ville blanche descendant vers un port, un amphithéâtre lycien en plein centre, l'île grecque de Kastellorizo à deux kilomètres en face. Plongée sur un des meilleurs spots de Méditerranée, Kekova et ses ruines englouties, Patara et sa plage antique de dix-huit kilomètres, Xanthos-Letoon à l'aube. Huit nuits pour s'installer vraiment.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-date">
+            <div class="tl-date-main">25 sept–<br>4 oct.</div>
+            <div class="tl-date-sub">10 nuits</div>
+          </div>
+          <div class="tl-line-wrap"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-content">
+            <div class="base-card">
+              <div class="base-card-header">
+                <div>
+                  <div class="base-card-title">Fethiye &amp; Kayaköy — le slow finish</div>
+                  <div class="base-card-region">Paspatur old town · Village fantôme de Kayaköy · Falaises de Faralya</div>
+                </div>
+                <span class="base-badge">Base 4</span>
+              </div>
+              <div class="base-body">
+                <p>Bus côtier depuis Kaş, trois heures à travers les pins. Split en trois : quatre nuits à Fethiye Paspatur pour le bazaar, le marché du mardi et le fish market où tu achètes ton poisson avant qu'on te le grille ; trois nuits à Kayaköy, village gréco-turc abandonné en 1923, pour shooter 500 maisons en ruine à l'aube ; trois nuits à Faralya sur la falaise au-dessus de Butterfly Valley. Départ Dalaman matin, 45 minutes de taxi.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="intro-grid" style="margin-top:0">
+        <div class="intro-block">
+          <div class="intro-block-title">Pourquoi septembre–octobre</div>
+          <div class="intro-block-body">Eau Méditerranée à 24–26°C en septembre, encore 20–23°C fin octobre. Les foules d'été tombent après le 15 septembre, les prix aussi. Lumière d'automne dorée, ciel clair pour les montgolfières cappadociennes (85% de jours volants), fin de saison des moustiques. Le pays se vide, le voyageur solo devient invisible.</div>
+        </div>
+        <div class="intro-block">
+          <div class="intro-block-title">Logistique de base</div>
+          <div class="intro-block-body">Vol aller Montréal → Istanbul via hub européen (pas de transit US). Vols domestiques Turkish/Pegasus entre les bases. Retour Dalaman → Montréal. Pas de voiture de location — tout se fait en bus, dolmuş, ferry et scooter ponctuel. Budget total estimé : <strong>~5 500 $ CAD</strong> solo, trente nuits.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ISTANBUL -->
+<div id="istanbul" class="tab-section">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=1800&q=85" alt="Pont sur le Bosphore au coucher du soleil, silhouettes de mosquées">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">01 / 04 &nbsp;·&nbsp; Base 1 &nbsp;·&nbsp; 5–11 septembre &nbsp;·&nbsp; 7 nuits</span>
+      <h2 class="chapter-title">Istanbul</h2>
+      <p class="chapter-subtitle">Seize millions d'habitants sur deux continents. Base à Karaköy — la vraie ville est à Kadıköy, à Balat, sur le ferry de 17h40 quand la skyline s'allume.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="pullquote reveal">
+        <p>Sept nuits à Istanbul, c'est court. Mais c'est assez pour comprendre que la vraie ville n'est pas à Sultanahmet — elle est sur l'autre rive, dans les ruelles de Balat, et dans le ferry public qui traverse le Bosphore au prix d'un tramway.</p>
+      </div>
+
+      <div class="curatorial reveal">
+        <p>La base est à Karaköy ou Galata, jamais à Sultanahmet : c'est vivant 24 heures sur 24, c'est dix minutes à pied de Beyoğlu, c'est sept minutes en ferry jusqu'à Kadıköy. Sultanahmet c'est beau vingt minutes à l'aube, mais y dormir c'est dormir dans un parc à thème qui ferme à 19h.</p>
+
+        <h4>La table</h4>
+        <p>Quatre adresses, quatre registres. <a class="place-link" href="https://www.google.com/maps/search/Ciya+Sofrasi+Kadikoy+Istanbul" target="_blank" rel="noopener">Çiya Sofrası</a> à Kadıköy pour l'anthropologie culinaire — Musa Dağdeviren a passé trente ans à exhumer des recettes paysannes d'Anatolie en voie d'extinction. <a class="place-link" href="https://www.google.com/maps/search/Asmali+Cavit+Asmalimescit+Istanbul" target="_blank" rel="noopener">Asmalı Cavit</a> pour le meyhane traditionnel — mezze sur plateau roulant, rakı, photos noir et blanc aux murs, pas un touriste par erreur. <a class="place-link" href="https://www.google.com/maps/search/Furreyya+Galata+Balikcisi+Istanbul" target="_blank" rel="noopener">Furreyya Galata Balıkçısı</a> pour le hamsi dürüm au comptoir de six tabourets. Et <a class="place-link" href="https://www.google.com/maps/search/Neolokal+SALT+Galata+Istanbul" target="_blank" rel="noopener">Neolokal</a> une fois dans le séjour, pour le menu Heritage et la vue sur la Corne d'Or au coucher.</p>
+
+        <h4>Les incontournables</h4>
+        <p>À l'aube seulement, sinon c'est peine perdue. <a class="place-link" href="https://www.google.com/maps/search/Hagia+Sophia+Istanbul" target="_blank" rel="noopener">Sainte-Sophie</a> à 7h30, lumière rasante côté Gülhane, avant l'ouverture. La <a class="place-link" href="https://www.google.com/maps/search/Suleymaniye+Mosque+Istanbul" target="_blank" rel="noopener">Süleymaniye</a> en fin de journée — terrasse arrière, Corne d'Or, meilleur sunset que la Bleue sans la moitié de la foule. Le <a class="place-link" href="https://www.google.com/maps/search/Grand+Bazaar+Istanbul" target="_blank" rel="noopener">Grand Bazar</a> à 9h30 pile à l'ouverture, les artisans qui remontent les rideaux. Puis le vrai geste : le <a class="place-link" href="https://www.google.com/maps/search/Sehir+Hatlari+Bogaz+Ferry+Eminonu" target="_blank" rel="noopener">ferry public Bosphore</a> jusqu'à Anadolu Kavağı, même trajet que les tours à 40 euros pour le prix d'un tramway.</p>
+
+        <h4>Pendant la sieste</h4>
+        <p>Le quartier <a class="place-link" href="https://www.google.com/maps/search/Balat+Istanbul" target="_blank" rel="noopener">Balat-Fener</a> entre 9h et 11h, rue Kiremit Caddesi et Merdivenli Yokuşu, maisons colorées, église bulgare en fer forgé, café chez Forno Balat. Ou la <a class="place-link" href="https://www.google.com/maps/search/Buyuk+Valide+Han+Istanbul" target="_blank" rel="noopener">terrasse du Büyük Valide Han</a> — ancien caravansérail de 1651, monter jusqu'au toit (la famille qui y habite demande deux euros), vue à 360° sur les sept collines. Ou un ferry vers <a class="place-link" href="https://www.google.com/maps/search/Kuzguncuk+Istanbul" target="_blank" rel="noopener">Kuzguncuk</a>, rive asiatique, synagogue-église-mosquée sur 400 mètres, maisons ottomanes en bois.</p>
+
+        <h4>Le killer foodie move</h4>
+        <p>Un boza au <a class="place-link" href="https://www.google.com/maps/search/Vefa+Bozacisi+Istanbul" target="_blank" rel="noopener">Vefa Bozacısı</a>, boutique d'origine depuis 1876, verre en zinc d'époque, millet fermenté et leblebi. C'est cinq euros et c'est l'un des rares endroits de la ville qui n'a pas changé en 150 ans. Le deuxième move, plus charnu : un <a class="place-link" href="https://www.google.com/maps/search/Sampiyon+Kokorec+Beyoglu+Istanbul" target="_blank" rel="noopener">kokoreç chez Şampiyon</a> à Beyoğlu, post-rakı, 2h du matin, intestins d'agneau grillés hachés dans du pain — la référence depuis 1977.</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <img src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=600&q=80" alt="Ruelle colorée de Balat, Istanbul" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1527838832700-5059252407fa?w=600&q=80" alt="Mosquée Süleymaniye vue du Bosphore" loading="lazy" class="photo-wide">
+        <img src="https://images.unsplash.com/photo-1589561253898-768105ca91a8?w=600&q=80" alt="Simit et thé turc au petit-déjeuner" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=600&q=80" alt="Bosphore au crépuscule depuis un ferry" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?w=600&q=80" alt="Mezze et rakı dans un meyhane stambouliote" loading="lazy">
+      </div>
+
+      <!-- CARTE -->
+      <span class="map-label">Carte — Istanbul et ses deux rives</span>
+      <div class="map-container">
+        <div class="mapbox-map" id="map-istanbul"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"><svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg></i>Hébergement</span>
+        <span><i class="resto"><svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg></i>Table</span>
+        <span><i class="plage"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg></i>Plage</span>
+        <span><i class="sight"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg></i>À voir</span>
+      </div>
+
+      <!-- HÉBERGEMENTS -->
+      <span class="info-label">Où dormir — par budget</span>
+      <div class="accom-grid">
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1612365228448-4ad44e105dc5?w=600&q=80" alt="Chambre d'hôtel boutique avec fenêtre sur ruelle" loading="lazy">
+          <span class="accom-tier budget">Budget</span>
+          <div class="accom-name">Marmara Guesthouse</div>
+          <div class="accom-price">~40–55 €/nuit</div>
+          <div class="accom-desc">Pension familiale tenue par la famille Başaran depuis plus de vingt ans. 15 chambres, terrasse rooftop avec vue directe sur Sainte-Sophie et la mer de Marmara, petit-déjeuner turc maison.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/marmara-guesthouse.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.google.com/maps/search/Marmara+Guesthouse+Sultanahmet+Istanbul" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1694434029818-0f0dd57939b1?w=600&q=80" alt="Suite boutique au design industriel-ottoman" loading="lazy">
+          <span class="accom-tier mid">Mid-range</span>
+          <div class="accom-name">Karaköy Rooms</div>
+          <div class="accom-price">~90–130 €/nuit</div>
+          <div class="accom-desc">Neuf suites au-dessus du mythique bistro Karaköy Lokantası. Plafonds hauts d'époque, design industriel-ottoman, quartier vivant 24/7 — le sweet spot absolu pour un solo qui veut marcher partout.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/karakoy-rooms.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.karakoyrooms.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Karakoy+Rooms+Istanbul" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1603504027221-7c97b2f2d09d?w=600&q=80" alt="Chambre en marbre de Marmara avec vue Corne d'Or" loading="lazy">
+          <span class="accom-tier gem">Pépite</span>
+          <div class="accom-name">Georges Hotel Galata</div>
+          <div class="accom-price">~180–240 €/nuit</div>
+          <div class="accom-desc">Vingt chambres dans une maison de 1850 restaurée, deux minutes de la tour de Galata. Rooftop bar panoramique sur la Corne d'Or et Süleymaniye — coucher de soleil légendaire. Salle de bain en marbre Marmara.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/georges-galata.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.georges.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Georges+Hotel+Galata+Istanbul" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols2">
+        <div>
+          <div class="info-block">
+            <span class="info-label">Où manger</span>
+            <div class="info-body">
+              <strong>Çiya Sofrası</strong> — Le must absolu. Kadıköy, cinq minutes du ferry. Musa Dağdeviren, trente ans d'ethnographie culinaire anatolienne. Carte tournante, mezze au poids. Goûter le <em>kebab topik</em> et le <em>perde pilavı</em>. 15–25 €/pers.
+              <div class="link-row">
+                <a href="https://www.ciya.com.tr/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.tripadvisor.com/Restaurant_Review-Ciya_Sofrasi-Istanbul.html" target="_blank" class="link-pill trip">TripAdvisor</a>
+                <a href="https://www.google.com/maps/search/Ciya+Sofrasi+Kadikoy+Istanbul" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?w=600&q=80" alt="Plateau de mezze anatoliens — Çiya" loading="lazy"><br>
+              <strong>Asmalı Cavit</strong> — Meyhane traditionnel, ruelle Asmalımescit, Beyoğlu. Arnavut ciğeri, lakerda, şakşuka, rakı au poisson grillé. Réservation obligatoire. 30–45 €/pers avec rakı.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Asmali+Cavit+Asmalimescit+Istanbul" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1567789884554-0b844b597180?w=600&q=80" alt="Mezze, rakı et grillades dans un meyhane" loading="lazy"><br>
+              <strong>Furreyya Galata Balıkçısı</strong> — Comptoir de six tabourets, rue Serdar-ı Ekrem, Galata. Pêche du jour au tableau, hamsi dürüm et balık ekmek gourmet. L'alternative au sandwich sous le pont. 8–12 €/pers.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Furreyya+Galata+Balikcisi+Istanbul" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=600&q=80" alt="Sandwich au poisson grillé — street food istanbuliote" loading="lazy"><br>
+              <strong>Neolokal</strong> — Une fois dans le séjour. Dans le SALT Galata (ancienne banque impériale ottomane), chef Maksut Aşkar, menu Heritage, 80 producteurs identifiés par région. Service du soir pour la vue Corne d'Or. 70–95 €/pers.
+              <div class="link-row">
+                <a href="https://neolokal.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.google.com/maps/search/Neolokal+SALT+Galata+Istanbul" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <em>Règle d'or :</em> jamais un resto de Sultanahmet avec rabatteur à la porte. Menu en six langues avec photos = fuir.
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="info-block">
+            <span class="info-label">Les incontournables</span>
+            <div class="info-body">
+              <strong>Sainte-Sophie</strong> — Arriver 7h30, lumière rasante côté parc Gülhane avant l'ouverture. Étage supérieur ~25 €, rez-de-chaussée gratuit hors prières.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Hagia+Sophia+Istanbul" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Süleymaniye</strong> — Fin de journée. Terrasse arrière surplombant la Corne d'Or — meilleur sunset spot de la ville, beaucoup moins fréquenté que la Bleue. Gratuit, respecter les horaires de prière.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Suleymaniye+Mosque+Istanbul" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Grand Bazar + Hammam Çemberlitaş</strong> — Hammam de 1584 signé Sinan, encore populaire auprès des Stambouliotes. 40–60 € service complet kese + savonnage. Grand Bazar juste à côté, arriver 9h30 à l'ouverture.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Cemberlitas+Hamami+Istanbul" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Ferry public Bosphore</strong> — Şehir Hatları depuis Eminönü, départ 10h30, remonte jusqu'à Anadolu Kavağı (mer Noire), arrêt 2h pour manger du poisson frais, retour fin d'après-midi. ~3–4 € avec Istanbulkart — même trajet que les tours à 40 €.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Sehir+Hatlari+Bogaz+Ferry+Eminonu" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Rives et marchés</span>
+            <div class="info-body">
+              <a href="https://www.google.com/maps/search/Balat+Fener+Istanbul" target="_blank" class="ext-link">Balat-Fener</a> à pied, matin 9h–11h. <a href="https://www.google.com/maps/search/Balik+Pazari+Kadikoy+Istanbul" target="_blank" class="ext-link">Marché aux poissons de Kadıköy</a>, mardi matin pour la livraison. <a href="https://www.google.com/maps/search/Kuzguncuk+Istanbul" target="_blank" class="ext-link">Kuzguncuk</a> rive asiatique pour les maisons ottomanes en bois colorées.
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Le quartier pour dormir</span>
+            <div class="tag-list">
+              <span class="tag">Karaköy / Galata</span>
+              <span class="tag green">Vivant 24/7</span>
+              <span class="tag amber">Éviter Sultanahmet</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOODIE -->
+      <div class="foodie-block">
+        <div class="foodie-title">Incontournables foodie — Istanbul</div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Menemen + simit au petit-déjeuner</div>
+          <div class="foodie-item-desc">Œufs brouillés aux tomates, poivrons verts et souvent sucuk, à la poêle, pain frais. Le petit-déj stambouliote par excellence. Accompagner d'un simit acheté 3–5 TL à une charrette de rue.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1589561253898-768105ca91a8?w=600&q=80" alt="Simit et thé turc au petit-déjeuner" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Boza chez Vefa Bozacısı (1876)</div>
+          <div class="foodie-item-desc">Boisson fermentée au millet, épaisse, servie avec cannelle et leblebi (pois chiches torréfiés). La boutique d'origine n'a pas changé en 150 ans — verre en zinc d'époque, trois tables. <a href="https://www.google.com/maps/search/Vefa+Bozacisi+Istanbul" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1619451334792-150fd785ee74?w=600&q=80" alt="Boisson turque traditionnelle" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Kokoreç chez Şampiyon (depuis 1977)</div>
+          <div class="foodie-item-desc">Intestins d'agneau grillés enroulés sur broche, hachés avec tomate-piment-origan, servis en sandwich. Plat street post-rakı iconique. Une fois par séjour, Beyoğlu, vers minuit. <a href="https://www.google.com/maps/search/Sampiyon+Kokorec+Beyoglu+Istanbul" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1625398407796-82650a8c135f?w=600&q=80" alt="Street food stambouliote grillé" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Midye dolma + balık ekmek</div>
+          <div class="foodie-item-desc">Moules farcies au riz épicé citronné, vendues à l'unité par les vendeurs ambulants de Beyoğlu — acheter seulement chez un vendeur avec file d'attente. Balık ekmek (sandwich maquereau grillé) chez Furreyya plutôt que sous le pont de Galata.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=600&q=80" alt="Sandwich poisson grillé — street food" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Künefe et salep</div>
+          <div class="foodie-item-desc">Künefe — fromage fondu entre cheveux d'ange croustillants, sirop, pistache. Version Antakya chez <a href="https://www.google.com/maps/search/Hafiz+Mustafa+Istanbul" target="_blank" class="ext-link">Hafız Mustafa</a>. Salep — boisson chaude à la racine d'orchidée, cannelle par-dessus, réconfort d'automne au bord du Bosphore.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=80" alt="Dessert turc au sirop et pistache" loading="lazy">
+        </div>
+      </div>
+
+      <!-- HIDDEN GEMS -->
+      <div class="gem-block">
+        <div class="gem-title">Pépites locales — Istanbul</div>
+        <div class="gem-item">
+          <div class="gem-item-name">Aslıhan Pasajı (bouquinistes)</div>
+          <div class="gem-item-desc">Passage couvert derrière le Galatasaray Lisesi, 30+ bouquinistes, livres ottomans, affiches de cinéma vintage turc, vieux disques vinyles. Entre 13h et 18h, parfait pour un jour de pluie. <a href="https://www.google.com/maps/search/Aslihan+Pasaji+Beyoglu+Istanbul" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1474932430478-367dbb6832c1?w=600&q=80" alt="Passage couvert de bouquinistes" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Terrasse du Büyük Valide Han (1651)</div>
+          <div class="gem-item-desc">Ancien caravansérail près du Grand Bazar. Monter les escaliers jusqu'au toit — la famille qui habite là-haut demande 2–3 €. Vue panoramique à 360° sur les sept collines. Spot des photographes turcs connus, zéro touriste de passage. <a href="https://www.google.com/maps/search/Buyuk+Valide+Han+Istanbul" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1527838832700-5059252407fa?w=600&q=80" alt="Vue panoramique sur les toits d'Istanbul" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Kuzguncuk — rive asiatique</div>
+          <div class="gem-item-desc">Village multiconfessionnel — synagogue, église et mosquée sur 400 mètres — maisons ottomanes en bois colorées, zéro bus touristique. Ferry Beşiktaş-Üsküdar puis quinze minutes à pied le long du Bosphore. <a href="https://www.google.com/maps/search/Kuzguncuk+Istanbul" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1541432901042-2d8bd64b4a9b?w=600&q=80" alt="Maisons ottomanes en bois colorées" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Sali Pazarı de Kadıköy (mardi)</div>
+          <div class="gem-item-desc">Marché hebdomadaire populaire, trois rues, tissus-épices-fruits-légumes, sans filtre touristique. Commencer au marché aux poissons puis remonter la rue Kuşdili Caddesi. Photo street pure — lumière, vendeurs, rythme. <a href="https://www.google.com/maps/search/Sali+Pazari+Kadikoy+Istanbul" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&q=80" alt="Marché populaire et étals colorés" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CAPPADOCE -->
+<div id="cappadoce" class="tab-section bg-sand">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=1800&q=85" alt="Cheminées de fées de Cappadoce à l'aube, montgolfières">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">02 / 04 &nbsp;·&nbsp; Base 2 &nbsp;·&nbsp; 12–16 septembre &nbsp;·&nbsp; 5 nuits</span>
+      <h2 class="chapter-title">Cappadoce</h2>
+      <p class="chapter-subtitle">Paysage lunaire, cave hotels dans le tuf, vignobles à mille deux cents mètres. Base à Ürgüp plutôt que Göreme — plus local, restos d'adultes, vignes à dix minutes.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="pullquote reveal">
+        <p>Cinq nuits en Cappadoce, c'est assez. L'endroit est spectaculaire, unique au monde, mais court — une fois qu'on a vu le soleil se lever sur les cheminées depuis une nacelle, marché trois vallées et bu le vin volcanique d'Ürgüp, le voyage doit continuer.</p>
+      </div>
+
+      <div class="curatorial reveal">
+        <p>Vol direct Istanbul-Kayseri, une heure dix de shuttle jusqu'à Ürgüp. Base volontairement hors de Göreme : Göreme c'est le hub montgolfière, mais c'est aussi Disneyland l'automne — bruyant, backpackers, prix tirés. <a class="place-link" href="https://www.google.com/maps/search/Urgup+Cappadocia+Turkey" target="_blank" rel="noopener">Ürgüp</a> te donne le même accès à tout, plus le calme, plus les vignobles, plus les vrais restos.</p>
+
+        <h4>Le point de bascule du voyage</h4>
+        <p>Une seule montgolfière, un seul lever de soleil — mais payer le bon opérateur. <a class="place-link" href="https://www.google.com/maps/search/Royal+Balloon+Cappadocia" target="_blank" rel="noopener">Royal Balloon</a>, <a class="place-link" href="https://www.google.com/maps/search/Butterfly+Balloons+Cappadocia" target="_blank" rel="noopener">Butterfly Balloons</a> ou <a class="place-link" href="https://www.google.com/maps/search/Kapadokya+Balloons+Goreme" target="_blank" rel="noopener">Kapadokya Balloons</a>, jamais un discount. Réserver trois mois avant. Premier créneau obligatoire (le second est annulé 70% du temps pour vents). Septembre-octobre, 85% de jours volants. C'est cher (280 €), c'est ton cul à six cents mètres dans une nacelle — pas le poste à couper.</p>
+
+        <h4>La table</h4>
+        <p>Quatre adresses. <a class="place-link" href="https://www.google.com/maps/search/Ziggy+Cafe+Urgup+Cappadocia" target="_blank" rel="noopener">Ziggy Cafe</a> à Ürgüp pour le plateau de 21 mezze et la carte de vins cappadociens. <a class="place-link" href="https://www.google.com/maps/search/Dibek+Restaurant+Goreme" target="_blank" rel="noopener">Dibek</a>, maison de 475 ans au cœur de Göreme, testi kebab qu'on commande quatre heures à l'avance et qu'on mange assis par terre sur des coussins. <a class="place-link" href="https://www.google.com/maps/search/Seten+Restaurant+Goreme" target="_blank" rel="noopener">Seten</a> pour la terrasse au coucher du soleil sur les cheminées. Et <a class="place-link" href="https://www.google.com/maps/search/Muti+Restaurant+Urgup" target="_blank" rel="noopener">Muti</a> à Ürgüp pour comprendre vraiment les vins d'Anatolie centrale — Emir, Narince, Öküzgözü — avec le sommelier Emre qui fait des verticales sur demande.</p>
+
+        <h4>Les vallées</h4>
+        <p>Pas en groupe organisé. Le combo Rose Valley → Red Valley se fait à pied depuis <a class="place-link" href="https://www.google.com/maps/search/Cavusin+village+Cappadocia" target="_blank" rel="noopener">Çavuşin</a> — trois à quatre heures, départ 15h, sunset sur les tufs rouges vers 18h45. Frescoes byzantines dans les chapelles rupestres (Haçlı Kilise, Kolonlu Kilise). Le <a class="place-link" href="https://www.google.com/maps/search/Goreme+Open+Air+Museum" target="_blank" rel="noopener">Göreme Open-Air Museum</a> à 8h pile à l'ouverture, Karanlık Kilise en supplément (obligatoire — c'est le fleuron). Et la vallée dont personne ne parle : <a class="place-link" href="https://www.google.com/maps/search/Soganli+Valley+Cappadocia" target="_blank" rel="noopener">Soğanlı</a>, une heure trente au sud d'Ürgüp, jumelle de Göreme avec 5% des visiteurs.</p>
+
+        <h4>Pendant la sieste</h4>
+        <p>Les vignobles <a class="place-link" href="https://www.google.com/maps/search/Turasan+Winery+Urgup" target="_blank" rel="noopener">Turasan</a> (1943, cave troglodyte) et <a class="place-link" href="https://www.google.com/maps/search/Kocabag+Winery+Urgup" target="_blank" rel="noopener">Kocabağ</a> — dix minutes à pied l'un de l'autre, dégustation quatre vins 15–25 €, cépages indigènes sur tuf volcanique. Ou le village grec abandonné de <a class="place-link" href="https://www.google.com/maps/search/Mustafapasa+Cappadocia" target="_blank" rel="noopener">Mustafapaşa</a> (ex-Sinasos) six kilomètres au sud, café <strong>Old Greek House</strong> dans une maison de notable grec de 1892 — patine incroyable, patron au backgammon.</p>
+
+        <h4>Le killer foodie move</h4>
+        <p>Le <strong>testi kebab</strong> — agneau mijoté six heures dans un pot d'argile scellé à la pâte, cuit au four à bois, cassé à table d'un coup de marteau. À commander quatre heures avant chez Dibek. Le deuxième move : un <strong>atelier Firca Seramik</strong> à Avanos, Nuri Türkmen sur sa roue à pied (il en reste trois en Turquie). Pas de showroom, pas de tour opérateur — juste des mains, de la terre rouge de Kızılırmak, de la lumière de fenêtre. Pour un photographe N&amp;B, c'est de l'or.</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <img src="https://images.unsplash.com/photo-1549888834-3ec93abae044?w=600&q=80" alt="Montgolfières au-dessus de la Cappadoce au lever du soleil" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=600&q=80" alt="Cheminées de fées et tuf volcanique" loading="lazy" class="photo-wide">
+        <img src="https://images.unsplash.com/photo-1605130284535-11dd9eedc58a?w=600&q=80" alt="Intérieur d'un cave hotel taillé dans le tuf" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=600&q=80" alt="Vallée cappadocienne au coucher du soleil" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1513735492246-483525079686?w=600&q=80" alt="Testi kebab et vin rouge d'Anatolie" loading="lazy">
+      </div>
+
+      <!-- CARTE -->
+      <span class="map-label">Carte — Cappadoce, Ürgüp et Göreme</span>
+      <div class="map-container">
+        <div class="mapbox-map" id="map-cappadoce"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"><svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg></i>Hébergement</span>
+        <span><i class="resto"><svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg></i>Table</span>
+        <span><i class="plage"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg></i>Plage</span>
+        <span><i class="sight"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg></i>À voir</span>
+      </div>
+
+      <!-- ACCÈS -->
+      <div class="info-block">
+        <span class="info-label">Comment y accéder</span>
+        <div class="info-body">
+          Vol <strong>Istanbul (IST ou SAW) → Kayseri (ASR)</strong> — 1h15, 12-15 vols/jour (Turkish Airlines, Pegasus, AJet), 40–90 €. Shuttle ASR → Ürgüp : 75 km, 1h, ~15 € (<a href="https://www.heliostransfer.com/" target="_blank" class="ext-link">Helios Transfer</a> ou Cappadocia Transport) ou taxi privé ~50 €. Option moins pratique : vol direct Nevşehir NAV (40 km d'Ürgüp) mais 3-4 vols/jour seulement.
+          <div class="link-row">
+            <a href="https://www.turkishairlines.com/" target="_blank" class="link-pill">Turkish Airlines</a>
+            <a href="https://www.flypgs.com/" target="_blank" class="link-pill">Pegasus</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- HÉBERGEMENTS -->
+      <span class="info-label">Où dormir — par budget</span>
+      <div class="accom-grid">
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1719821756477-dcb0b6ed0dc9?w=600&q=80" alt="Chambre taillée dans le tuf avec arches en pierre" loading="lazy">
+          <span class="accom-tier budget">Budget</span>
+          <div class="accom-name">Hanımağa Konağı Cave Hotel</div>
+          <div class="accom-price">~55–75 €/nuit</div>
+          <div class="accom-desc">Maison ottomane restaurée dans la vieille ville d'Ürgüp (quartier Esbelli). Chambres creusées dans le tuf avec arches en pierre. Le proprio Mehmet est un ancien guide — source d'or pour les coins hors circuit.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/hanimaga-konagi.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.hanimagacavehotel.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Hanimaga+Cave+Hotel+Urgup+Cappadocia" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1693098243367-93320637839e?w=600&q=80" alt="Terrasse d'un cave hotel avec vue sur les montgolfières" loading="lazy">
+          <span class="accom-tier mid">Mid-range</span>
+          <div class="accom-name">Kayakapi Premium Caves</div>
+          <div class="accom-price">~160–200 €/nuit</div>
+          <div class="accom-desc">Projet de conservation UNESCO — 45 suites taillées dans un village abandonné depuis 50 ans. Terrasse plein est : les montgolfières passent littéralement au-dessus de ta tête à l'aube.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/kayakapi-premium-caves.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.kayakapi.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Kayakapi+Premium+Caves+Urgup" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1758561087076-e647b2e2485a?w=600&q=80" alt="Piscine infinie d'un Relais & Châteaux en Cappadoce" loading="lazy">
+          <span class="accom-tier gem">Pépite</span>
+          <div class="accom-name">Museum Hotel (Relais & Châteaux)</div>
+          <div class="accom-price">~380–480 €/nuit</div>
+          <div class="accom-desc">Premier R&amp;C de Turquie, perché sur la falaise d'Uçhisar face à Göreme. Collection d'antiquités anatoliennes (certaines > 2000 ans), piscine infinie à 1300 m. Le resto Lil'a sert l'un des meilleurs testi kebab de la région.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/museum.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.museumhotel.com.tr/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Museum+Hotel+Uchisar+Cappadocia" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols2">
+        <div>
+          <div class="info-block">
+            <span class="info-label">Où manger</span>
+            <div class="info-body">
+              <strong>Ziggy Cafe</strong> — Ürgüp centre. Plateau de 21 mezze + testi kebab, rooftop vue falaises d'Ürgüp, carte de vins cappadociens étoffée (Kocabağ, Turasan, Kavaklıdere). Le proprio Nuray fait le tour des tables. 25–35 €/pers avec un verre.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Ziggy+Cafe+Urgup+Cappadocia" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?w=600&q=80" alt="Plateau de mezze turcs" loading="lazy"><br>
+              <strong>Dibek</strong> — Göreme, Hakkı Paşa Meydanı. Maison de 475 ans, tu manges assis par terre sur des coussins, service lent (c'est le point). Testi kebab à commander 4h à l'avance, soupe ezogelin. 20–30 €/pers.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Dibek+Restaurant+Goreme" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1513735492246-483525079686?w=600&q=80" alt="Testi kebab dans pot d'argile" loading="lazy"><br>
+              <strong>Seten Restaurant</strong> — Göreme. Salle principale sous voûte en tuf, cuisine anatolienne sérieuse (pas un restaurant-spectacle). Manti au yaourt à l'ail. Terrasse côté coucher de soleil sur les cheminées à 19h15. 30–45 €/pers.
+              <div class="link-row">
+                <a href="https://www.setenrestaurant.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.google.com/maps/search/Seten+Restaurant+Goreme" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Muti Restaurant</strong> — Ürgüp. Cave voûtée, carte concentrée sur les cépages indigènes d'Anatolie centrale (Emir, Narince, Öküzgözü, Boğazkere). Sommelier Emre fait des verticales sur demande. 40–55 €/pers avec dégustation.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Muti+Restaurant+Urgup" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="food-img" src="https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?w=600&q=80" alt="Verres de vin rouge turc et fromage" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="info-block">
+            <span class="info-label">Les vallées et expériences</span>
+            <div class="info-body">
+              <strong>Vol montgolfière au lever du soleil</strong> — 1h-1h15 de vol. Opérateurs sérieux : Royal Balloon (primé, safety-first), Butterfly Balloons (boutique anglophone), Kapadokya Balloons (doyen 1991). 220–280 € standard 16 pax, 320–420 € comfort 8 pax. Réserver 3-4 mois avant.
+              <div class="link-row">
+                <a href="https://www.royalballoon.com/" target="_blank" class="link-pill">Royal Balloon</a>
+                <a href="https://www.butterflyballoons.com/" target="_blank" class="link-pill">Butterfly</a>
+              </div><br>
+              <strong>Rose Valley → Red Valley trek</strong> — 3-4h depuis Çavuşin, gratuit. Frescoes byzantines cachées (Haçlı Kilise, Kolonlu Kilise). Départ 15h, sunset sur les tufs rouges.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Rose+Valley+Cappadocia" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Göreme Open-Air Museum (UNESCO)</strong> — ~20 € + 6 € Karanlık Kilise (obligatoire, frescoes 11<sup>e</sup> s. en parfait état). Ouverture 8h, arriver tôt avant les bus.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Goreme+Open+Air+Museum" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Vignobles Turasan + Kocabağ</strong> — dégustation 4 vins 15–25 € chacun. 10 min à pied l'un de l'autre à Ürgüp. Emir sur schiste volcanique, Öküzgözü tannique.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Turasan+Winery+Urgup" target="_blank" class="link-pill">Turasan</a>
+                <a href="https://www.google.com/maps/search/Kocabag+Winery+Urgup" target="_blank" class="link-pill">Kocabağ</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Conditions météo</span>
+            <div class="tag-list">
+              <span class="tag">8–12°C à l'aube</span>
+              <span class="tag green">85% jours volants sept-oct</span>
+              <span class="tag amber">Premier créneau seulement</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOODIE -->
+      <div class="foodie-block">
+        <div class="foodie-title">Incontournables foodie — Cappadoce</div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Testi kebab — LE plat cappadocien</div>
+          <div class="foodie-item-desc">Agneau ou bœuf mijoté 4 à 6 heures avec tomates, oignons, ail, poivrons, dans un pot d'argile scellé à la pâte, cuit au four à bois. Le serveur casse le pot à table d'un coup de marteau. À commander 4h à l'avance chez Dibek.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1513735492246-483525079686?w=600&q=80" alt="Testi kebab dans son pot d'argile" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Mantı — les raviolis turcs</div>
+          <div class="foodie-item-desc">Version anatolienne centrale plus épicée qu'à Istanbul. Minuscules raviolis (idéalement 40 par cuillère) farcis à l'agneau haché, servis avec yaourt à l'ail, beurre fondu, sumac, paprika doux.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=600&q=80" alt="Assiette de mantı au yaourt" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Vins d'Anatolie centrale</div>
+          <div class="foodie-item-desc">Terroir volcanique unique à 1000–1200 m, cépages indigènes : Emir (blanc minéral, type riesling sec alsacien), Narince (blanc rond, miel-poire), Öküzgözü (rouge fruit rouge tendu), Boğazkere (rouge tannique, vieillissement).</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1586861635167-e5223aadc9fe?w=600&q=80" alt="Dégustation de vins turcs" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Dutlu pekmez et kaymak</div>
+          <div class="foodie-item-desc">Mélasse de mûres noires réduite lentement, sans sucre ajouté, étalée sur le pain au petit-déj avec kaymak (crème de bufflonne) et tahin. Tradition des villages d'Ürgüp — acheter aux grand-mères en bord de route, pas dans les boutiques touristiques.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=80" alt="Petit-déjeuner turc traditionnel" loading="lazy">
+        </div>
+      </div>
+
+      <!-- HIDDEN GEMS -->
+      <div class="gem-block">
+        <div class="gem-title">Pépites locales — Cappadoce</div>
+        <div class="gem-item">
+          <div class="gem-item-name">Soğanlı Valley — la jumelle vide</div>
+          <div class="gem-item-desc">Une heure trente au sud d'Ürgüp. Vallée jumelle de Göreme mais avec 5% des visiteurs. Une dizaine d'églises rupestres byzantines (Yılanlı Kilise, Karabaş Kilise), frescoes moins restaurées mais plus vraies. Village de tisseuses de poupées en bas. Zéro montgolfière, zéro bus — juste toi, le vent et les chèvres. <a href="https://www.google.com/maps/search/Soganli+Valley+Cappadocia" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=600&q=80" alt="Vallée cappadocienne au tuf volcanique" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Panorama de Kızılçukur</div>
+          <div class="gem-item-desc">Red Valley viewpoint nord, accessible par piste carrossable depuis Ortahisar. Le spot coucher de soleil que les guides n'indiquent pas — quatre personnes max, même en saison. Vue plongeante dans la lumière orange. <a href="https://www.google.com/maps/search/Kizilcukur+viewpoint+Cappadocia" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1641128324972-af3212f0f6bd?w=600&q=80" alt="Cheminées de fées au coucher du soleil" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Atelier Firca Seramik (Avanos)</div>
+          <div class="gem-item-desc">Nuri Türkmen, 5<sup>e</sup> génération, roue à pied (kick wheel) traditionnelle — il en reste trois en Turquie. Pas de showroom, pas de tour opérateurs. Tu arrives, il travaille, tu peux shooter une heure sans rien acheter. Des mains, de la terre rouge, de la lumière de fenêtre. <a href="https://www.google.com/maps/search/Firca+Seramik+Avanos" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&q=80" alt="Potier à la roue, atelier traditionnel" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Mustafapaşa (ex-Sinasos)</div>
+          <div class="gem-item-desc">Six kilomètres au sud d'Ürgüp. Ancienne ville grecque abandonnée en 1924 lors de l'échange de populations. Maisons de pierre ouvragées, églises désaffectées, ruelles vides. Café <strong>Old Greek House</strong> dans une maison de notable grec de 1892 — patine incroyable, patron au backgammon avec les vieux du village. <a href="https://www.google.com/maps/search/Mustafapasa+Cappadocia" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1502786129293-79981df4e689?w=600&q=80" alt="Village de pierre ottoman" loading="lazy">
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>Logistique :</strong> Voiture de location 30–40 €/jour à ASR/NAV, recommandée pour Soğanlı/Mustafapaşa/Derinkuyu. Fuir les tours organisés 18 pax (Green/Red Tour) — 20 min par site, arrêt boutique tapis. Ignorer "invitation au thé" dans les boutiques de tapis (scam classique).
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- KAŞ -->
+<div id="kas" class="tab-section">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1800&q=85" alt="Port de Kaş, côte Lycienne, île grecque de Kastellorizo en face">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">03 / 04 &nbsp;·&nbsp; Base 3 &nbsp;·&nbsp; 17–24 septembre &nbsp;·&nbsp; 8 nuits</span>
+      <h2 class="chapter-title">Kaş</h2>
+      <p class="chapter-subtitle">Petite ville blanche sur la côte Lycienne, amphithéâtre antique en plein centre, pas de resorts all-inclusive. Le Loutro turc — perle côtière intime. Eau à 25°C.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="pullquote reveal">
+        <p>Huit nuits à Kaş, c'est long exprès. C'est la pièce maîtresse de la côte Lycienne — une ville où on s'installe, où on apprivoise le rythme, où on devient le vieux qui commande toujours la même daurade chez Bi Lokma.</p>
+      </div>
+
+      <div class="curatorial reveal">
+        <p>Vol Kayseri → Antalya, puis quatre heures de bus sur la D400 panoramique — assis côté droit pour la mer. Kaş descend vers un port en demi-cercle, avec un amphithéâtre lycien en plein centre-ville et l'île grecque de <strong>Kastellorizo</strong> à deux kilomètres en face qu'on peut regarder depuis la terrasse du petit-déjeuner. Saison sept-oct : eau à 25°C, air à 28°C, foules divisées par trois.</p>
+
+        <h4>L'eau</h4>
+        <p>C'est un des meilleurs spots de plongée de Méditerranée. Visibilité trente mètres et plus, sites comme Canyon, Flying Fish Reef, Double Cave — <a class="place-link" href="https://www.google.com/maps/search/Dragoman+Dive+Center+Kas" target="_blank" rel="noopener">Dragoman Diving</a> pour 65–80 € la double plongée, ou 45 € le snorkeling guidé si tu restes en surface. La plage mythique, c'est <a class="place-link" href="https://www.google.com/maps/search/Kaputas+Beach+Turkey" target="_blank" rel="noopener">Kaputaş</a> — crique blanche entre falaises, 190 marches à descendre depuis la route, y aller 7h30 pour avoir l'ombre et la lumière rasante sur l'escalier. Et l'expédition de la semaine : <a class="place-link" href="https://www.google.com/maps/search/Kekova+Simena+sunken+city+Turkey" target="_blank" rel="noopener">Kekova et Simena</a>, ruines Lyciennes englouties, bateau depuis le port — choisir un opérateur avec snorkeling au-dessus des ruines et montée au château de Simena, pas un boat sound-system.</p>
+
+        <h4>La table</h4>
+        <p>Quatre adresses. <a class="place-link" href="https://www.google.com/maps/search/Bi+Lokma+Kas+Turkey" target="_blank" rel="noopener">Bi Lokma</a>, Küçük Çakıl, tables sur la jetée, daurade royale grillée au sel, salade roquette-grenade, 25–35 € avec un verre de rakı. Y aller à 19h pour la lumière dorée sur les filets qui sèchent. <a class="place-link" href="https://www.google.com/maps/search/Mercan+Restaurant+Kas+harbor" target="_blank" rel="noopener">Mercan Restaurant</a>, institution familiale depuis 1956, nappes blanches, vieux serveurs en veste — le plus ancien du port, loup de mer en croûte de sel. <a class="place-link" href="https://www.google.com/maps/search/Ikbal+Meyhane+Kas" target="_blank" rel="noopener">İkbal Meyhane</a> pour le meyhane authentique — plateau de quinze mezze, pieuvre grillée, rakı, musique turque live le jeudi, ambiance qui monte après 21h. Et le petit-déj paysan : <a class="place-link" href="https://www.google.com/maps/search/Bezirgan+village+koy+kahvaltisi" target="_blank" rel="noopener">Köyüm Gözleme Evi</a> au village Bezirgan (vingt-cinq minutes au nord, altitude 850 m), vingt composantes sur tapis — fromages de chèvre frais, miel de sapin, gözleme aux herbes sauvages. Arrive 9h, repars midi.</p>
+
+        <h4>Les ruines</h4>
+        <p>La côte Lycienne, c'est un musée archéologique à ciel ouvert. <a class="place-link" href="https://www.google.com/maps/search/Patara+ancient+site+Turkey" target="_blank" rel="noopener">Patara</a> à quarante-cinq minutes en dolmuş — amphithéâtre, bouleuterion, arc de Modestus, plus dix-huit kilomètres de plage antique derrière. <a class="place-link" href="https://www.google.com/maps/search/Myra+Demre+rock+tombs" target="_blank" rel="noopener">Myra</a> (Demre, 1h10) pour la nécropole rupestre taillée dans la falaise — tombes plein sud, lumière directe dès 10h, contraste brutal en noir et blanc. Et le combo UNESCO : <a class="place-link" href="https://www.google.com/maps/search/Xanthos+Letoon+Lycian+Turkey" target="_blank" rel="noopener">Xanthos + Letoon</a> — pilier inscrit, théâtre, trois temples immergés dans l'eau stagnante en miroir parfait le matin tôt.</p>
+
+        <h4>Pendant la sieste</h4>
+        <p>Le marché du vendredi — <a class="place-link" href="https://www.google.com/maps/search/Cuma+Pazari+Kas+Friday+market" target="_blank" rel="noopener">Cuma Pazarı</a>, terrain derrière le stade, 7h-14h. Femmes Yörük en costume traditionnel, fromages de chèvre, olives, herbes sauvages, figues fraîches. Ou un scooter loué 15 €/jour pour la péninsule Çukurbağ au coucher du soleil. Ou le sentier Lycien jusqu'à <a class="place-link" href="https://www.google.com/maps/search/Limanagzi+Kas" target="_blank" rel="noopener">Limanağzı</a> — 1h30 de marche, trois tavernes locales (İnci, Bahçe, Korsan) sur plateformes bois, poulpe grillé à l'ombre des pins, retour en water taxi (8 €).</p>
+
+        <h4>Le killer foodie move</h4>
+        <p>Un <strong>nar suyu</strong> — jus de grenade pressé minute à un street stand, 2-3 € le verre, couleur rubis, pleine saison sept-oct. Le meilleur jus de grenade de ta vie. Le deuxième move : demander <strong>Kaptan Mustafa</strong> au bout de la jetée Est pour un petit bateau local vers la <strong>Mavi Mağara</strong> (Grotte Bleue) — équivalent turc de la Grotta Azzurra de Capri, bleu électrique quand le soleil tape, 25 € pour trois heures avec un pêcheur. Pas un tour organisé.</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600&q=80" alt="Port de Kaş et façades blanches" loading="lazy" class="photo-wide">
+        <img src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=600&q=80" alt="Plage de Kaputaş vue d'en haut" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?w=600&q=80" alt="Ruines de Kekova englouties" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=600&q=80" alt="Bateau traditionnel sur la côte Lycienne" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1524293568345-75d62c3664f7?w=600&q=80" alt="Ruines Lyciennes au coucher du soleil" loading="lazy">
+      </div>
+
+      <!-- CARTE -->
+      <span class="map-label">Carte — Kaş et côte Lycienne</span>
+      <div class="map-container">
+        <div class="mapbox-map" id="map-kas"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"><svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg></i>Hébergement</span>
+        <span><i class="resto"><svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg></i>Table</span>
+        <span><i class="plage"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg></i>Plage</span>
+        <span><i class="sight"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg></i>À voir</span>
+      </div>
+
+      <!-- HÉBERGEMENTS -->
+      <span class="info-label">Où dormir — par budget</span>
+      <div class="accom-grid">
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1630410304931-d90e1fe3f918?w=600&q=80" alt="Terrasse de pension avec vue mer" loading="lazy">
+          <span class="accom-tier budget">Budget</span>
+          <div class="accom-name">Hideaway Hotel Kaş</div>
+          <div class="accom-price">~55–70 €/nuit</div>
+          <div class="accom-desc">Rue résidentielle calme, 5 min à pied du port et de l'amphithéâtre Lycien. Pension familiale tenue par Ahmet — terrasse sur le toit vue mer, petit-déjeuner turc généreux (olives, fromage de chèvre, miel du village).</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/hideaway-kas.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.hotelhideaway.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Hideaway+Hotel+Kas" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1604145195376-e2c8195adf29?w=600&q=80" alt="Piscine sur toit avec vue sur île grecque" loading="lazy">
+          <span class="accom-tier mid">Mid-range</span>
+          <div class="accom-name">Gardenia Hotel Kaş</div>
+          <div class="accom-price">~110–140 €/nuit</div>
+          <div class="accom-desc">Centre Kaş, 50 mètres du front de mer, vue sur la baie Meis. Boutique 16 chambres, design minéral blanc-bleu, piscine sur le toit face à Kastellorizo. Clientèle 40+ européenne, ambiance adulte.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/gardenia-kas.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.gardeniahotel-kas.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Gardenia+Hotel+Kas" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+        <div class="accom-card">
+          <img class="accom-img" src="https://images.unsplash.com/photo-1606141331552-a39fb3230fc3?w=600&q=80" alt="Piscine infinity sur falaise au-dessus de l'eau turquoise" loading="lazy">
+          <span class="accom-tier gem">Pépite</span>
+          <div class="accom-name">Hotel Nur Beach</div>
+          <div class="accom-price">~220–290 €/nuit</div>
+          <div class="accom-desc">Péninsule Çukurbağ, côté sud, accès direct plateforme baignade. 20 chambres accrochées à la falaise, piscine infinity, échelle en inox qui plonge dans 20 mètres d'eau turquoise. Design turc contemporain, salle à manger ouverte.</div>
+          <div class="link-row">
+            <a href="https://www.booking.com/hotel/tr/nur-beach.html" target="_blank" class="link-pill booking">Booking</a>
+            <a href="https://www.nurbeachhotel.com/" target="_blank" class="link-pill">Site officiel</a>
+            <a href="https://www.google.com/maps/search/Nur+Beach+Hotel+Kas" target="_blank" class="link-pill">Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols2">
+        <div>
+          <div class="info-block">
+            <span class="info-label">Où manger</span>
+            <div class="info-body">
+              <strong>Bi Lokma</strong> — Küçük Çakıl, front de mer Est. Tables sur la jetée, le poisson arrive du bateau le matin. Daurade royale grillée au sel, salade roquette-grenade, rakı. 25–35 €/pers. Y aller 19h pour la lumière dorée sur les filets.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Bi+Lokma+Kas+Turkey" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1764397514707-48308ede7f04?w=600&q=80" alt="Poisson grillé et salade méditerranéenne" loading="lazy"><br>
+              <strong>Mercan Restaurant</strong> — Port côté ouest. Institution familiale depuis 1956, nappes blanches, vieux serveurs en veste. Meze chaud, loup de mer en croûte de sel. 40–55 €/pers. Le plus ancien du port.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Mercan+Restaurant+Kas+harbor" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1640702296640-20dfeee862ad?w=600&q=80" alt="Plateau de poisson entier sur lit de sel" loading="lazy"><br>
+              <strong>İkbal Meyhane</strong> — Vieille ville, ruelle derrière le bazar. Meyhane authentique, tables basses, musique turque live le jeudi. Plateau de 15 mezze (haydari, patlıcan, lakerda, şakşuka), pieuvre grillée. 20–30 €/pers avec carafe de rakı.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Ikbal+Meyhane+Kas" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Köyüm Gözleme Evi (Bezirgan)</strong> — Village à 25 min au nord (altitude 850 m). Petit-déj paysan sur tapis, 20 composantes : fromages de chèvre frais, beurre baratté, miel de sapin, confitures maison, menemen, gözleme aux herbes sauvages. 12–18 €/pers.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Bezirgan+village+koy+kahvaltisi" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="info-block">
+            <span class="info-label">Les plages et sites</span>
+            <div class="info-body">
+              <strong>Kaputaş Beach</strong> — 20 min en dolmuş vers Kalkan, 3 €. Crique blanche entre falaises, 190 marches à descendre. Arriver 7h30 pour ombre + eau plate, repartir 11h avant les bus.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Kaputas+Beach+Turkey" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Kekova + Simena</strong> — Bateau depuis le port de Kaş, 35–50 € partagé (6-8 pax) ou 200-350 € privé. Ruines Lyciennes sous l'eau, château de Simena, snorkeling au-dessus des ruines. Départ 9h30, retour 17h.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Kekova+boat+tour+Kas" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Patara</strong> — Dolmuş 45 min, 4 €. 8 € entrée (inclut la plage antique de 18 km). Ruines (amphithéâtre, bouleuterion, arc de Modestus) à 8h, plage 11h.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Patara+ancient+site+Turkey" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Myra (Demre)</strong> — Dolmuş 1h10, 5 €. Entrée 10 €. Tombes rupestres plein sud, lumière directe dès 10h, contraste brutal en N&amp;B. Combine avec l'église Saint-Nicolas à 3 km.
+              <div class="link-row">
+                <a href="https://www.google.com/maps/search/Myra+Demre+rock+tombs" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Plongée &amp; rando</span>
+            <div class="info-body">
+              <strong>Dragoman Diving</strong> — Kaş = top 3 Méditerranée. 2-tank dive 65-80 €, snorkeling guidé 45 €. Eau 25-26°C sept-oct, visibilité 30 m+.
+              <div class="link-row">
+                <a href="https://www.dragoman-turkey.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://www.google.com/maps/search/Dragoman+Dive+Center+Kas" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Lycian Way → Limanağzı</strong> — 2h aller, 8-10 km A/R, sentier balisé rouge-blanc. Baignade + déjeuner taverne İnci, retour water taxi 8 €.
+            </div>
+          </div>
+          <div class="info-block">
+            <span class="info-label">Température de l'eau</span>
+            <div class="tag-list">
+              <span class="tag">24–26°C mi-septembre</span>
+              <span class="tag green">Visibilité plongée 30 m+</span>
+              <span class="tag amber">Sept = meilleur mois</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOODIE -->
+      <div class="foodie-block">
+        <div class="foodie-title">Incontournables foodie — Kaş &amp; côte Lycienne</div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Meze d'Antalya</div>
+          <div class="foodie-item-desc">Haydari (yogourt-ail-menthe), piyaz (haricots blancs-tahini-sumac — spécifique à Antalya), sigara böreği, ezme. Le plateau de référence à commander chez İkbal Meyhane, avec rakı et une soirée qui dure.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1541544741938-0af808871cc0?w=600&q=80" alt="Plateau de mezze turcs colorés" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Çiğ köfte au bazar</div>
+          <div class="foodie-item-desc">Boulettes crues de boulgour, piment, tomate, épices (jadis faites au bœuf cru, aujourd'hui végétariennes par loi). Roulées dans une feuille de laitue avec citron et grenade. Street stand Çiğköfteci Ali Usta dans la rue du bazar, 2-4 €.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1625398407796-82650a8c135f?w=600&q=80" alt="Boulettes de boulgour épicées en wrap laitue" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Nar suyu — jus de grenade</div>
+          <div class="foodie-item-desc">Pressé minute au street stand, 2-3 € le verre, couleur rubis. Septembre-octobre = pleine saison. Le meilleur jus de grenade de ta vie. À boire tous les matins jusqu'au départ.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1546173159-315724a31696?w=600&q=80" alt="Jus de grenade frais rouge rubis" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Balık ekmek sur le port</div>
+          <div class="foodie-item-desc">Sandwich sardine ou maquereau grillé, oignons-sumac-citron, pain frais. Vendeurs sur le port de Kaş à midi, 4-6 €. Version locale moins touristique qu'à Istanbul, tout aussi bonne.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=600&q=80" alt="Sandwich au poisson grillé — street food turc" loading="lazy">
+        </div>
+      </div>
+
+      <!-- HIDDEN GEMS -->
+      <div class="gem-block">
+        <div class="gem-title">Pépites locales — Kaş</div>
+        <div class="gem-item">
+          <div class="gem-item-name">Marché du vendredi (Cuma Pazarı)</div>
+          <div class="gem-item-desc">Terrain derrière le stade, vendredi 7h-14h. Marché fermier des villages environnants, femmes Yörük en costume traditionnel, fromages de chèvre, olives, herbes sauvages, figues fraîches. Terrain de jeu pour street photographe — arriver 8h pour la lumière. <a href="https://www.google.com/maps/search/Cuma+Pazari+Kas+Friday+market" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&q=80" alt="Marché fermier et étals colorés" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Limanağzı — crique accessible bateau/sentier</div>
+          <div class="gem-item-desc">Trois petites tavernes locales (İnci, Bahçe, Korsan), plateformes bois, eau turquoise. Accessible uniquement en water taxi (8 €) ou par le sentier Lycien (1h30). Poulpe grillé + Efron à l'ombre des pins. <a href="https://www.google.com/maps/search/Limanagzi+Kas" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1575237579976-4d4219f1860f?w=600&q=80" alt="Crique turquoise avec pontons de bois" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Mavi Mağara — la Grotte Bleue locale</div>
+          <div class="gem-item-desc">Équivalent turc de la Grotta Azzurra de Capri. Petit bateau local du port (pas les gros tours) — demander <strong>Kaptan Mustafa</strong> au bout de la jetée Est, 25 € pour 3h avec un pêcheur. Accessible uniquement par la mer, effet bleu électrique quand le soleil tape.</div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?w=600&q=80" alt="Grotte marine aux reflets bleus" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Sentier du mont Felenk</div>
+          <div class="gem-item-desc">Randonnée 1h depuis la péninsule Çukurbağ, sommet à 497 m, vue à 360° sur Kaş, Kastellorizo (Grèce) et la côte. Zéro touriste. Partir à 6h pour le sunrise, redescendre pour petit-déj. <a href="https://www.google.com/maps/search/Felenk+Tepesi+Kas" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1502786129293-79981df4e689?w=600&q=80" alt="Vue panoramique sur la mer au lever du soleil" loading="lazy">
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>Trajet depuis la Cappadoce :</strong> Vol Kayseri ASR → Antalya AYT (1h20, 55-80 €) + bus Antalya→Kaş (Batı Antalya Tur ou Kamil Koç, 3h45, 12-15 €, départs toutes les 1-2h). Total 6-7h porte-à-porte. La route D400 longe la côte Lycienne — s'asseoir côté droit pour la vue mer.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FETHIYE -->
+<div id="fethiye" class="tab-section bg-sand">
+  <div class="chapter-cover">
+    <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=1800&q=85" alt="Ölüdeniz blue lagoon vue aérienne, côte turque">
+    <div class="chapter-cover-inner">
+      <span class="chapter-num">04 / 04 &nbsp;·&nbsp; Base 4 &nbsp;·&nbsp; 25 septembre–4 octobre &nbsp;·&nbsp; 10 nuits</span>
+      <h2 class="chapter-title">Fethiye &amp; Kayaköy</h2>
+      <p class="chapter-subtitle">Le slow finish du voyage. Split en trois — Paspatur old town, village fantôme gréco-turc de Kayaköy, falaise de Faralya au-dessus de Butterfly Valley. Départ Dalaman à 45 minutes.</p>
+    </div>
+  </div>
+  <div class="section">
+    <div class="container">
+      <div class="pullquote reveal">
+        <p>Dix nuits en finale, c'est la décompression. Après Istanbul, la Cappadoce et Kaş, on n'a plus envie de découvrir à toute vitesse. On veut un bazar à l'aube, un village abandonné sur une colline, et le bruit de la mer quelque part en fond sonore.</p>
+      </div>
+
+      <div class="curatorial reveal">
+        <p>Trois bases, pas une. <strong>Paspatur</strong> (vieille Fethiye) pour le bazar, le marché géant du mardi et le fish market où tu achètes ton poisson avant qu'un resto adjacent te le grille. <strong>Kayaköy</strong> pour le village grec abandonné en 1923, 500 maisons en ruine parfaites pour le noir et blanc à l'aube. <strong>Faralya</strong> sur la falaise au-dessus de Butterfly Valley, si on veut la vue spectaculaire. On évite <strong>Ölüdeniz bourg</strong> — c'est Blackpool-sur-Méditerranée.</p>
+
+        <h4>La table</h4>
+        <p>Quatre adresses, quatre logiques. <a class="place-link" href="https://www.google.com/maps/search/Fethiye+Fish+Market+Balik+Pazari" target="_blank" rel="noopener">Fethiye Fish Market</a> : tu achètes ton poisson (levrek, çupra, kalkan) aux poissonniers au centre, un des huit restos autour le grille pour toi contre 4-6 € de service (mezze, salade, pain inclus). Choisir <strong>Mavi</strong>, <strong>Cem</strong> ou <strong>Rafet</strong> — les plus constants. <a class="place-link" href="https://www.google.com/maps/search/Cin+Bal+Kayakoy" target="_blank" rel="noopener">Cin Bal</a> à Kayaköy, institution depuis les 70s : ambiance populaire turque, mangal à la table (braises + viande + grille, tu cuis toi-même), cour sous les arbres, zéro British tour. <a class="place-link" href="https://www.google.com/maps/search/Reis+Restaurant+Paspatur+Fethiye" target="_blank" rel="noopener">Reis</a> à Paspatur pour le meyhane classique — mezze froids, rakı, poulpe grillé, musique turque certains soirs. Et <a class="place-link" href="https://www.google.com/maps/search/Levissi+Garden+Kayakoy" target="_blank" rel="noopener">Levissi Garden</a> sur la route Kayaköy-Ölüdeniz : resto-jardin avec potager, agneau au four sous les grenadiers — très photogénique fin de journée, apporte le 35mm.</p>
+
+        <h4>Les sites</h4>
+        <p><a class="place-link" href="https://www.google.com/maps/search/Kayakoy+Ghost+Village" target="_blank" rel="noopener">Kayaköy</a> — 500 maisons et deux églises abandonnées depuis l'échange de populations gréco-turc de 1923. Lumière de dingue au lever du soleil (6h30 en septembre) et une heure avant le coucher. C'est LE spot N&amp;B du voyage, prévois trois heures. <a class="place-link" href="https://www.google.com/maps/search/Butterfly+Valley+Turkey" target="_blank" rel="noopener">Butterfly Valley</a>, canyon fermé par des falaises de 350 m, accessible uniquement par bateau depuis Ölüdeniz ou par descente technique avec câbles depuis Faralya — plage de galets, cascade au fond, eau à 24-25°C. Le <a class="place-link" href="https://www.google.com/maps/search/Oludeniz+Blue+Lagoon" target="_blank" rel="noopener">Blue Lagoon d'Ölüdeniz</a> : pas la plage (bondée) mais la vue depuis le téléphérique du Babadağ (1969 m) — plateforme sommitale, launch point paragliding, 150 tandems par jour. <a class="place-link" href="https://www.google.com/maps/search/Saklikent+Gorge+Turkey" target="_blank" rel="noopener">Saklıkent Gorge</a> (50 km est) pour la marche dans l'eau glacée entre falaises de 300 m. Et la gulet day trip des 12 îles depuis Fethiye harbour — 18-30 € avec déjeuner, choisir un bateau 30-40 pax pas 80+.</p>
+
+        <h4>Pendant la sieste</h4>
+        <p>Le <a class="place-link" href="https://www.google.com/maps/search/Fethiye+Salı+Pazarı+Tuesday+market" target="_blank" rel="noopener">marché du mardi</a> — Salı Pazarı, quartier Yeni Cami, un des plus gros du sud-ouest turc. Producteurs des villages avec olives, fromages, miel, épices, textiles. Ouvre 8h, pic photo 9h-11h. Planifier le séjour Fethiye autour d'un mardi. Ou le <a class="place-link" href="https://www.google.com/maps/search/Afkule+Monastery+Kayakoy" target="_blank" rel="noopener">monastère d'Afkule</a> — byzantin en ruine perché sur falaise au-dessus de Kayaköy, 1h30 de rando via le Lycian Way, vue sur Gemiler Island. Zéro panneau.</p>
+
+        <h4>Le killer foodie move</h4>
+        <p>Un pot de <strong>tahin pekmez</strong> chez un tahinci artisanal au bazar Paspatur (pas en supermarché) — purée de sésame + mélasse de raisin, mangée au petit-déj sur pain frais. Spécialité emblématique de Fethiye, 6-9 € le pot, à ramener à la maison. Le deuxième move, plus ambitieux : descendre le Lycian Way de Faralya à Butterfly Valley au lever du soleil — 45 minutes de descente raide avec câbles fixes, baignade dans le canyon avant l'arrivée des bateaux à 11h, retour water taxi. Cette photo-là, personne l'a.</p>
+      </div>
+
+      <div class="photo-grid reveal">
+        <img src="https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=600&q=80" alt="Lagon bleu d'Ölüdeniz vue aérienne" loading="lazy" class="photo-wide">
+        <img src="https://images.unsplash.com/photo-1566024287286-457247b70310?w=600&q=80" alt="Ruines du village gréco-turc de Kayaköy" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?w=600&q=80" alt="Gulet traditionnel sur la côte turque" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1513326738677-b964603b136d?w=600&q=80" alt="Paragliding au-dessus du Babadağ" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=600&q=80" alt="Fish market de Fethiye — poisson grillé" loading="lazy">
+      </div>
+
+      <!-- CARTE -->
+      <span class="map-label">Carte — Fethiye, Kayaköy et côte turquoise</span>
+      <div class="map-container">
+        <div class="mapbox-map" id="map-fethiye"></div>
+      </div>
+      <div class="map-legend" aria-hidden="true">
+        <span><i class="hotel"><svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg></i>Hébergement</span>
+        <span><i class="resto"><svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg></i>Table</span>
+        <span><i class="plage"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg></i>Plage</span>
+        <span><i class="sight"><svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg></i>À voir</span>
+      </div>
+
+      <!-- HÉBERGEMENTS -->
+      <div class="info-block">
+        <span class="info-label">Où dormir</span>
+        <div class="info-body">
+          <div class="accom-grid">
+            <div class="info-block" style="margin:0">
+              <img class="accom-img" src="https://images.unsplash.com/photo-1661091106717-05b9403bbeaa?w=600&q=80" alt="Pension familiale avec jardin méditerranéen" loading="lazy" style="width:calc(100% + 32px);margin:-16px -16px 12px -16px">
+              <span class="accom-tier budget">$ Budget</span>
+              <strong>Villa Rhapsody — Kayaköy</strong><br>
+              Pension tenue par une famille anglo-turque depuis 20+ ans, piscine, vue sur les ruines du village grec. Base parfaite pour shooter le ghost village à l'aube avant les bus. ~50–65 €/nuit B&amp;B.<br>
+              <div style="margin-top:8px">
+                <a href="https://www.booking.com/hotel/tr/villa-rhapsody-kayakoy.html" target="_blank" class="link-pill booking">Booking</a>
+                <a href="https://www.villarhapsody.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://maps.google.com/maps?q=Villa+Rhapsody+Kayakoy" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+            <div class="info-block" style="margin:0">
+              <img class="accom-img" src="https://images.unsplash.com/photo-1578864426752-f1b2900fb1f3?w=600&q=80" alt="Bungalows en pierre au milieu des oliviers" loading="lazy" style="width:calc(100% + 32px);margin:-16px -16px 12px -16px">
+              <span class="accom-tier mid">$$ Milieu de gamme</span>
+              <strong>Yonca Lodge — Kayaköy</strong><br>
+              Bungalows en pierre au milieu des oliviers, entre village et Gemiler bay. Piscine, resto sur place qui fait du mezze maison. Silence total la nuit. ~110–140 €/nuit B&amp;B.<br>
+              <div style="margin-top:8px">
+                <a href="https://www.booking.com/hotel/tr/yonca-lodge.html" target="_blank" class="link-pill booking">Booking</a>
+                <a href="https://maps.google.com/maps?q=Yonca+Lodge+Kayakoy" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+            <div class="info-block" style="margin:0">
+              <img class="accom-img" src="https://images.unsplash.com/photo-1695552866433-994a7750d4f8?w=600&q=80" alt="Terrasse d'hôtel falaise au-dessus de la mer" loading="lazy" style="width:calc(100% + 32px);margin:-16px -16px 12px -16px">
+              <span class="accom-tier gem">✦ Pépite</span>
+              <strong>Hideaway Hotel — Faralya</strong><br>
+              Adults-only, 12 chambres taillées dans la falaise, terrasse suspendue 350 m au-dessus de la mer avec vue directe sur Butterfly Valley. Demi-pension mérite son prix — le chef fait des mezze qu'on mange face au coucher de soleil. ~280–380 €/nuit.<br>
+              <div style="margin-top:8px">
+                <a href="https://www.booking.com/hotel/tr/hideaway-faralya.html" target="_blank" class="link-pill booking">Booking</a>
+                <a href="https://www.hideaway-hotel.com/" target="_blank" class="link-pill">Site officiel</a>
+                <a href="https://maps.google.com/maps?q=Hideaway+Hotel+Faralya" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cols2">
+        <div>
+          <!-- OÙ MANGER -->
+          <div class="info-block">
+            <span class="info-label">Où manger</span>
+            <div class="info-body">
+              <strong>Fethiye Fish Market (Mavi / Cem / Rafet)</strong> — Balık Pazarı, Paspatur. Concept unique : tu achètes ton poisson (levrek, çupra, kalkan) aux poissonniers au centre, un des huit restos autour le grille pour toi contre 4-6 € de service (mezze, salade, pain). Total 12-22 € selon poisson.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Fethiye+Fish+Market+Balik+Pazari" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=600&q=80" alt="Fish market de Fethiye — poisson grillé" loading="lazy"><br>
+              <strong>Cin Bal — Kayaköy</strong> — Institution depuis les 70s, au pied du site archéologique. Concept : ils apportent viande marinée + braises + grille, tu fais cuire toi-même pendant que les mezze arrivent. Kuzu tandır (agneau au four de terre). Cour sous les arbres, zéro British tour. 12-20 €/pers.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Cin+Bal+Kayakoy" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80" alt="BBQ turc sur mangal à la table" loading="lazy"><br>
+              <strong>Reis Restaurant — Paspatur</strong> — Ruelles piétonnes derrière le fish market. Meyhane classique, tables dehors sous les vignes, mezze froids (haydari, acılı ezme, muhammara, fava), poulpe grillé, calamars. Musique turque live certains soirs. 15-25 €/pers avec rakı.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Reis+Restaurant+Paspatur+Fethiye" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1567789884554-0b844b597180?w=600&q=80" alt="Meyhane turc avec tables sous la vigne" loading="lazy"><br>
+              <strong>Levissi Garden — route Kayaköy / Faralya</strong> — Resto-jardin avec potager qui fournit la cuisine. Tables sous les grenadiers et figuiers, mezze saisonniers, agneau au four, poisson à la braise. Très photogénique fin de journée. 18-30 €/pers.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Levissi+Garden+Kayakoy" target="_blank" class="link-pill">Maps</a>
+              </div>
+              <img class="resto-img" src="https://images.unsplash.com/photo-1734987052573-0fbe611842ae?w=600&q=80" alt="Jardin méditerranéen avec tables en bois" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <!-- SITES -->
+          <div class="info-block">
+            <span class="info-label">Les sites et expériences</span>
+            <div class="info-body">
+              <strong>Kayaköy Ghost Village</strong> — Entrée officielle village bas, ~3 € entrée. 500 maisons et deux églises abandonnées depuis 1923. Lumière de dingue au lever (6h30 sept, 7h oct) et une heure avant le coucher. 3h minimum.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Kayakoy+Ghost+Village" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Butterfly Valley</strong> — Accessible par bateau shuttle depuis Ölüdeniz (12-18 € round-trip) ou descente technique Lycian Way de Faralya. Canyon falaises 350 m, plage galets, cascade. Premier bateau 11h avant foule 13h.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Butterfly+Valley+Turkey" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Gulet day trip 12 îles</strong> — Fethiye harbour, 18-30 € avec déjeuner à bord. 6-7 îles (Yassıca, Tersane, Kızıl, Hamam, Göcek, Domuz), baignades criques, BBQ pont. Choisir bateau 30-40 pax pas 80+.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Fethiye+harbor+gulet" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Saklıkent Gorge</strong> — 50 km est, 2 € entrée + dolmuş. Canyon 18 km, marche dans l'eau glacée (15°C), falaises 300 m. 2 km faisables sans équipement. Combiner avec ruines de Tlos sur le retour.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Saklikent+Gorge+Turkey" target="_blank" class="link-pill">Maps</a>
+              </div><br>
+              <strong>Paragliding Babadağ (1969 m)</strong> — Top 3 mondial avec Interlaken et Pokhara. Décollage au sommet, atterrissage direct plage Ölüdeniz, vol 30-40 min. 135-180 € tandem + GoPro.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps?q=Babadag+paragliding+Oludeniz" target="_blank" class="link-pill">Maps</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- DÉPART -->
+          <div class="info-block">
+            <span class="info-label">Départ vers Dalaman (DLM)</span>
+            <div class="info-body">
+              Taxi direct Fethiye/Kayaköy → DLM : 45-55 min, 45-65 €. Réserver la veille via l'hôtel. Havaş shuttle bus : 4-5 départs/jour depuis Fethiye otogar, 60 min, 10-15 €. Vol matin tôt → nuit pré-vol à Dalaman town = moins stress.
+              <div style="margin-top:6px">
+                <a href="https://maps.google.com/maps/dir/Fethiye/Dalaman+Airport+DLM" target="_blank" class="link-pill">Itinéraire</a>
+                <a href="https://www.havas.net/en" target="_blank" class="link-pill">Havaş shuttle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOODIE BLOCK -->
+      <div class="foodie-block">
+        <div class="foodie-title">Incontournables foodie — Fethiye</div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Tahin pekmez — LA spécialité de Fethiye</div>
+          <div class="foodie-item-desc">Purée de sésame + mélasse de raisin, mangée au petit-déj sur pain frais. Acheter chez un tahinci artisanal du bazar Paspatur (pas en supermarché), 6-9 € le pot. À ramener à la maison.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=600&q=80" alt="Petit-déjeuner turc avec pekmez et fromage" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Seafood grillé au fish market</div>
+          <div class="foodie-item-desc">Levrek (bar), çupra (dorade), kalkan (turbot) choisis vivants, grillés à la braise, servis avec roka (roquette), citron, huile d'olive locale. Concept unique en Turquie — le cercle de poissonniers encadré par huit restos qui cuisinent.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=600&q=80" alt="Poisson grillé entier au fish market" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Mantı séchés à rapporter</div>
+          <div class="foodie-item-desc">Raviolis turcs miniatures en sachets séchés, vendus par les femmes du bazar Paspatur. Se cuisinent en 5 min à la maison avec yaourt à l'ail, beurre fondu, paprika et sumac. Le meilleur souvenir gastronomique du voyage.</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=600&q=80" alt="Mantı turcs aux yaourts et beurre" loading="lazy">
+        </div>
+        <div class="foodie-item">
+          <div class="foodie-item-name">Çiğ köfte au bazar</div>
+          <div class="foodie-item-desc">Boulettes de boulgour, piment, tomate, épices (version végé par loi). Enveloppées dans feuille de laitue avec citron et grenade. Street food au bazar Paspatur, 60-120 TRY (2-4 €).</div>
+          <img class="foodie-item-img" src="https://images.unsplash.com/photo-1625398407796-82650a8c135f?w=600&q=80" alt="Boulettes épicées en wrap laitue" loading="lazy">
+        </div>
+      </div>
+
+      <!-- HIDDEN GEMS BLOCK -->
+      <div class="gem-block">
+        <div class="gem-title">Pépites locales — Fethiye &amp; Kayaköy</div>
+        <div class="gem-item">
+          <div class="gem-item-name">Kabak Bay (Kabak Koyu)</div>
+          <div class="gem-item-desc">25 km sud de Faralya. Crique sauvage accessible par piste en terre ou rando Lycian Way. 2-3 camps en bambou / bungalows wellness, plage de galets, zéro hôtel résidentiel. Le vrai hors des foules — prévois 1 journée ou nuit hors route. <a href="https://maps.google.com/maps?q=Kabak+Bay+Turkey" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1661285462650-78ad06b5c316?w=600&q=80" alt="Crique sauvage aux eaux turquoise" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Fethiye Tuesday Market (Salı Pazarı)</div>
+          <div class="gem-item-desc">Marché géant hebdomadaire, un des plus gros du sud-ouest turc. Producteurs des villages : olives, fromages, miel, épices, textiles. Ouvre 8h, pic photo 9h-11h. Quartier Yeni Cami. Planifier le séjour Fethiye sur un mardi. <a href="https://maps.google.com/maps?q=Fethiye+Tuesday+Market" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?w=600&q=80" alt="Marché turc géant et étals colorés" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Afkule Monastery viewpoint</div>
+          <div class="gem-item-desc">Monastère byzantin en ruine perché sur falaise au-dessus de Kayaköy. 1h30 de rando depuis Kayaköy via sentier Lycian Way. Vue sur Gemiler Island (Saint-Nicolas) et côte sauvage. Zéro panneau — le gardien local pourra t'indiquer le départ. <a href="https://maps.google.com/maps?q=Afkule+Monastery+Kayakoy" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1629290439638-bca633156414?w=600&q=80" alt="Monastère byzantin en ruine sur falaise" loading="lazy">
+        </div>
+        <div class="gem-item">
+          <div class="gem-item-name">Lycian Way Faralya → Butterfly Valley descente</div>
+          <div class="gem-item-desc">45 min de descente raide 350 m avec câbles et cordes fixes — technique mais pas dangereux avec chaussures correctes. Baignade dans le canyon avant l'arrivée des bateaux à 11h, retour water taxi ~6 €. Départ 7h30 de Faralya. Cette photo, personne ne l'a. <a href="https://maps.google.com/maps?q=Butterfly+Valley+hike+Faralya" target="_blank" class="ext-link">Localiser</a></div>
+          <img class="gem-item-img" src="https://images.unsplash.com/photo-1502786129293-79981df4e689?w=600&q=80" alt="Descente vers un canyon turquoise" loading="lazy">
+        </div>
+      </div>
+
+      <div class="note-box">
+        <strong>Ventilation recommandée — 10 nuits :</strong> N1-N4 Fethiye Paspatur (mardi inclus pour le marché), N5-N7 Kayaköy (aube ghost village, Cin Bal, Afkule), N8-N10 Faralya falaise (Butterfly, Lycian Way, demi-pension Hideaway). Dernière journée light : café bazar, derniers achats tahin pekmez + épices, transfert Dalaman sans rush.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- BUDGET -->
+<div id="budget" class="tab-section">
+  <div class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">Finances</span>
+        <h2 class="section-title">Budget estimé</h2>
+        <p class="section-intro">En dollars canadiens, taux de référence 1 € ≈ 1,50 $ CAD. Estimations réalistes pour un voyageur solo, niveau confort intermédiaire — mix budget et mid-range sur l'hébergement, tables locales tous les soirs, une montgolfière, une plongée. La Turquie est nettement moins chère que la Grèce, compenser partiellement par les vols intérieurs.</p>
+      </div>
+
+      <div class="budget-grid">
+        <div class="stat-card">
+          <span class="stat-card-val">~5 900 $</span>
+          <div class="stat-card-lbl">Total solo, 30 jours, tout inclus</div>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card-val">~150 $</span>
+          <div class="stat-card-lbl">Par jour sur place</div>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card-val">~1 400 $</span>
+          <div class="stat-card-lbl">Vols transatlantiques solo</div>
+        </div>
+        <div class="stat-card">
+          <span class="stat-card-val">1 € ≈ 1,50 $</span>
+          <div class="stat-card-lbl">Taux de référence CAD</div>
+        </div>
+      </div>
+
+      <div class="budget-wrap">
+        <table class="budget-table">
+          <tr>
+            <td>
+              <strong>Vols transatlantiques (solo)</strong>
+              <span class="budget-cat">YUL → IST via hub européen (AMS/FRA/CDG) · Retour DLM → YUL via hub · Sans transit USA · Turkish Airlines offre YUL-IST direct 9h30 (alternative)</span>
+            </td>
+            <td>~1 400 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Vols domestiques + bus inter-bases</strong>
+              <span class="budget-cat">IST → Kayseri (~60 €) · Kayseri → Antalya (~70 €) · Bus Antalya-Kaş (~15 €) · Bus Kaş-Fethiye (~10 €) · Shuttle Fethiye-Dalaman (~15 €)</span>
+            </td>
+            <td>~260 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Hébergement — 30 nuits solo</strong>
+              <span class="budget-cat">Istanbul 7n (~80 €) · Cappadoce 5n cave hotel (~100 €) · Kaş 8n (~70 €) · Fethiye/Kayaköy/Faralya 10n mix (~80 € moy.)</span>
+            </td>
+            <td>~3 450 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Transport local (dolmuş, ferries, Istanbulkart)</strong>
+              <span class="budget-cat">Istanbulkart ferries + métro · Dolmuş Kaş-Kalkan-Patara-Demre · Scooter de location à Kaş 3-4 jours</span>
+            </td>
+            <td>~220 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Nourriture et boissons</strong>
+              <span class="budget-cat">Petit-déj hôtel inclus souvent · Lunch léger street food (5-10 €) · Dîner taverne avec rakı (20-35 €) · ~30 €/jour moyenne</span>
+            </td>
+            <td>~1 350 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Activités phares</strong>
+              <span class="budget-cat">Montgolfière Cappadoce (280 €) · Plongée Kaş 2-tank (80 €) · Kekova bateau (50 €) · Gulet 12 îles Fethiye (30 €) · Paragliding Babadağ (150 €) · Hammam Istanbul (50 €)</span>
+            </td>
+            <td>~960 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Sites et musées</strong>
+              <span class="budget-cat">Sainte-Sophie, Topkapı · Göreme Open-Air Museum · Patara, Myra, Xanthos-Letoon · Kayaköy ghost village</span>
+            </td>
+            <td>~120 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Assurance voyage solo</strong>
+              <span class="budget-cat">Couverture médicale complète, 30 jours, annulation incluse</span>
+            </td>
+            <td>~200 $</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Divers (souvenirs, imprévus, eSIM)</strong>
+              <span class="budget-cat">Tahin pekmez, épices, tapis kilim si coup de cœur · eSIM Turkcell (~15 €) · Pourboires</span>
+            </td>
+            <td>~250 $</td>
+          </tr>
+          <tr class="budget-total">
+            <td>Total estimé</td>
+            <td>~5 900 $</td>
+          </tr>
+        </table>
+
+        <div class="divider"></div>
+        <p style="font-size:13px;color:var(--muted);line-height:1.7">
+          <strong style="color:var(--text)">Budget serré :</strong> ~4 600 $ (pensions/hostels, skip montgolfière ou plongée, moins de restos mid-range) ·
+          <strong style="color:var(--text)">Budget confort+ :</strong> ~8 500 $ (cave hotel Museum Hotel, Nur Beach Kaş, Hideaway Faralya, montgolfière comfort, plongée quotidienne) ·
+          Le levier le plus puissant reste les <strong>vols transatlantiques</strong> — surveiller les sales YUL-IST Turkish Airlines (souvent 950-1200 $ CAD aller-retour, directs). Pour l'hébergement, négocier les tarifs mensuels directement par email avec les pensions — possible de sauver 20-25%.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PRATIQUE -->
+<div id="pratique" class="tab-section">
+  <div class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">Infos pratiques</span>
+        <h2 class="section-title">Ce qu'il faut savoir</h2>
+      </div>
+
+      <div class="pratique-grid">
+        <div class="prat-card">
+          <div class="prat-card-title">Vols — stratégie open-jaw</div>
+          <div class="prat-card-body">
+            Aller <strong>YUL → Istanbul (IST)</strong> via hub européen (Amsterdam, Francfort, Paris CDG). Retour <strong>Dalaman (DLM) → YUL</strong> via hub. Cette combinaison asymétrique évite tout backtracking et coûte souvent le même prix qu'un aller-retour simple. <strong>Turkish Airlines offre YUL → IST direct 9h30</strong> — alternative sans correspondance. Aucun transit par les États-Unis. Réserver 4-5 mois avant pour septembre — tarifs estimés 900-1 100 $ CAD aller-retour.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Vols domestiques inter-bases</div>
+          <div class="prat-card-body">
+            Pas de voiture de location — les bases sont reliées par vols courts + bus. <strong>Istanbul → Kayseri</strong> (Cappadoce) 1h15, 12-15 vols/jour (Turkish, Pegasus, AJet), 40-90 €. <strong>Kayseri → Antalya</strong> 1h20, 55-80 €, puis bus 3h45 jusqu'à Kaş (Batı Antalya Tur ou Kamil Koç, 12-15 €, départs toutes les 1-2h). <strong>Kaş → Fethiye</strong> en bus direct 2h30-3h sur la D400 panoramique.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Visa et entrée</div>
+          <div class="prat-card-body">
+            Canadiens : visa électronique <strong>e-Visa</strong> (60 $ USD, valide 90 jours sur 180) à obtenir en ligne sur evisa.gov.tr avant le départ — 10 minutes, e-mail immédiat. Passeport valide 6 mois après la date de retour. Pas de vaccins obligatoires. Déclarer les devises si > 10 000 $ à l'entrée.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Argent et paiement</div>
+          <div class="prat-card-body">
+            Devise locale : <strong>livre turque (TRY)</strong>. Inflation forte — retirer par petits montants (300-500 TRY à la fois). Distributeurs <strong>Ziraat Bankası</strong>, <strong>Yapı Kredi</strong> ou <strong>Garanti BBVA</strong> — pas les bureaux de change touristiques (taux pourri). Cartes acceptées dans les hôtels et bons restos, cash pour street food, dolmuş, bazaars, pensions familiales. Retirer l'équivalent de 60-100 € à l'arrivée.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Téléphonie — eSIM</div>
+          <div class="prat-card-body">
+            <strong>eSIM Turkcell, Vodafone TR ou Airalo</strong> acheté avant le départ (15-25 € pour 10-20 Go sur 30 jours) — activation dès l'atterrissage, pas de scan de passeport obligatoire (vs SIM physique). Alternative : SIM physique locale à IST aéroport mais registration mandatoire depuis 2023 (~30 min, passeport). Couverture 4G excellente partout sauf vallées reculées de Cappadoce. Cartes hors ligne : <strong>OsmAnd</strong> ou Google Maps offline.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Hébergement — quartiers à privilégier</div>
+          <div class="prat-card-body">
+            Istanbul : <strong>Karaköy / Galata / Cihangir</strong>, jamais Sultanahmet (mort après 19h, 100% touriste le jour). Cappadoce : <strong>Ürgüp</strong> plutôt que Göreme (plus local, restos adultes, vignobles à 10 min). Kaş : centre-ville ou péninsule Çukurbağ selon budget. Fethiye : <strong>split Paspatur + Kayaköy + Faralya</strong>, éviter Ölüdeniz bourg. Réserver sept 3-4 mois avant (haute saison, foules encore présentes jusqu'au 15 sept).
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Gastronomie — les règles</div>
+          <div class="prat-card-body">
+            <strong>Jamais un resto avec menu en 6 langues et rabatteur à la porte</strong> — multiplicateur de prix par 3, qualité divisée par 2. Viser les meyhanes (bars à mezze), fish markets (Fethiye, Kadıköy), lokantas (cuisine quotidienne), sofras (anatolien traditionnel). <strong>Rakı</strong> (anis) comme vin du pays — toujours au poisson ou mezze. Thé <strong>çay</strong> offert partout en fin de repas, ne jamais refuser. Pour vins : cépages indigènes (Emir, Öküzgözü, Boğazkere) supérieurs aux imports.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Météo sept-oct 2027</div>
+          <div class="prat-card-body">
+            <strong>Istanbul</strong> : 24-28°C jour, 16-19°C nuit, ciel clair. <strong>Cappadoce</strong> : 22-28°C jour, 8-12°C à l'aube (pull pour la montgolfière), 85% jours volants. <strong>Kaş / Fethiye</strong> : 26-30°C jour, 20-23°C nuit, eau 24-26°C sept, 20-23°C fin oct. Pluie quasi nulle septembre, revient progressivement mi-octobre (1-2 journées sur 10). Les foules chutent nettement après le 15 septembre — le voyageur solo devient invisible.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Les arnaques à éviter</div>
+          <div class="prat-card-body">
+            <strong>Istanbul</strong> : shoe shiner qui laisse tomber sa brosse (puis demande 30 € pour cirer), taxi sans compteur (exiger taximetre ou BiTaksi/Uber app), bar scam à Istiklal (jamais suivre un inconnu sympa dans un bar). <strong>Partout</strong> : "invitation au thé" dans les boutiques de tapis (90 min de démo, pression, tapis à 2000-8000 €). <strong>Bureaux de change</strong> touristiques aux taux pourris — toujours ATM bancaire. <strong>Tours montgolfière discount</strong> en Cappadoce (safety record douteux) — payer les 280 € et prendre Royal, Butterfly ou Kapadokya Balloons.
+          </div>
+        </div>
+        <div class="prat-card">
+          <div class="prat-card-title">Sécurité solo</div>
+          <div class="prat-card-body">
+            La Turquie est globalement sûre pour un voyageur solo — criminalité très basse, culture qui protège les étrangers. <strong>Éviter les frontières sud-est</strong> (Syrie, Iran) et <strong>le sud-est kurde rural</strong> — pas d'impact sur cet itinéraire qui reste ouest-centre-côte. Éviter les manifestations (surtout à Istanbul). Istanbul de nuit : Karaköy/Galata/Beyoğlu safe jusqu'à 2h du matin. Photographier militaires ou installations gouvernementales = interdit.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer>
+  Itinéraire préparé avec amour · Turquie, septembre–octobre 2027<br>
+  <a href="https://chartrandapps.ca">chartrandapps.ca</a>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-top" id="backTop" aria-label="Retour en haut" title="Retour en haut">&#8593;</button>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" aria-label="Fermer">&times;</button>
+  <img src="" alt="">
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+(function() {
+  if (!window.L) return;
+
+  var MAPS = {
+    'map-istanbul': {
+      center: [41.02, 28.98], zoom: 11,
+      markers: [
+        { type:'hotel', name:'Marmara Guesthouse', lat:41.0056, lng:28.9758, link:'https://www.google.com/maps/search/Marmara+Guesthouse+Sultanahmet+Istanbul' },
+        { type:'hotel', name:'Karaköy Rooms', lat:41.0258, lng:28.9747, link:'https://www.google.com/maps/search/Karakoy+Rooms+Istanbul' },
+        { type:'hotel', name:'Georges Hotel Galata', lat:41.0265, lng:28.9742, link:'https://www.google.com/maps/search/Georges+Hotel+Galata+Istanbul' },
+        { type:'resto', name:'Çiya Sofrası', lat:40.9904, lng:29.0275, link:'https://www.google.com/maps/search/Ciya+Sofrasi+Kadikoy+Istanbul' },
+        { type:'resto', name:'Asmalı Cavit', lat:41.0308, lng:28.9756, link:'https://www.google.com/maps/search/Asmali+Cavit+Asmalimescit+Istanbul' },
+        { type:'resto', name:'Furreyya Galata Balıkçısı', lat:41.0259, lng:28.9735, link:'https://www.google.com/maps/search/Furreyya+Galata+Balikcisi+Istanbul' },
+        { type:'resto', name:'Neolokal (SALT Galata)', lat:41.0255, lng:28.9735, link:'https://www.google.com/maps/search/Neolokal+SALT+Galata+Istanbul' },
+        { type:'resto', name:'Vefa Bozacısı (1876)', lat:41.0158, lng:28.9547, link:'https://www.google.com/maps/search/Vefa+Bozacisi+Istanbul' },
+        { type:'resto', name:'Şampiyon Kokoreç', lat:41.0355, lng:28.9769, link:'https://www.google.com/maps/search/Sampiyon+Kokorec+Beyoglu+Istanbul' },
+        { type:'sight', name:'Sainte-Sophie (Ayasofya)', lat:41.0086, lng:28.9802, link:'https://www.google.com/maps/search/Hagia+Sophia+Istanbul' },
+        { type:'sight', name:'Mosquée Süleymaniye', lat:41.0161, lng:28.9639, link:'https://www.google.com/maps/search/Suleymaniye+Mosque+Istanbul' },
+        { type:'sight', name:'Hammam Çemberlitaş (Grand Bazar)', lat:41.0093, lng:28.9717, link:'https://www.google.com/maps/search/Cemberlitas+Hamami+Istanbul' },
+        { type:'sight', name:'Büyük Valide Han (terrasse)', lat:41.0113, lng:28.9710, link:'https://www.google.com/maps/search/Buyuk+Valide+Han+Istanbul' },
+        { type:'sight', name:'Balat-Fener (quartier)', lat:41.0297, lng:28.9487, link:'https://www.google.com/maps/search/Balat+Istanbul' },
+        { type:'sight', name:'Marché poissons Kadıköy', lat:40.9900, lng:29.0280, link:'https://www.google.com/maps/search/Balik+Pazari+Kadikoy+Istanbul' },
+        { type:'sight', name:'Ferry Bosphore (Eminönü)', lat:41.0178, lng:28.9737, link:'https://www.google.com/maps/search/Sehir+Hatlari+Bogaz+Ferry+Eminonu' },
+        { type:'sight', name:'Kuzguncuk (rive asiatique)', lat:41.0410, lng:29.0325, link:'https://www.google.com/maps/search/Kuzguncuk+Istanbul' },
+        { type:'sight', name:'Aslıhan Pasajı (bouquinistes)', lat:41.0336, lng:28.9775, link:'https://www.google.com/maps/search/Aslihan+Pasaji+Beyoglu+Istanbul' }
+      ]
+    },
+    'map-cappadoce': {
+      center: [38.63, 34.87], zoom: 11,
+      markers: [
+        { type:'hotel', name:'Hanımağa Konağı Cave Hotel', lat:38.6322, lng:34.9128, link:'https://www.google.com/maps/search/Hanimaga+Cave+Hotel+Urgup+Cappadocia' },
+        { type:'hotel', name:'Kayakapi Premium Caves', lat:38.6362, lng:34.9184, link:'https://www.google.com/maps/search/Kayakapi+Premium+Caves+Urgup' },
+        { type:'hotel', name:'Museum Hotel (Uçhisar)', lat:38.6301, lng:34.8059, link:'https://www.google.com/maps/search/Museum+Hotel+Uchisar+Cappadocia' },
+        { type:'resto', name:'Ziggy Cafe (Ürgüp)', lat:38.6313, lng:34.9127, link:'https://www.google.com/maps/search/Ziggy+Cafe+Urgup+Cappadocia' },
+        { type:'resto', name:'Dibek (Göreme, 475 ans)', lat:38.6425, lng:34.8284, link:'https://www.google.com/maps/search/Dibek+Restaurant+Goreme' },
+        { type:'resto', name:'Seten Restaurant (Göreme)', lat:38.6434, lng:34.8282, link:'https://www.google.com/maps/search/Seten+Restaurant+Goreme' },
+        { type:'resto', name:'Muti Restaurant (Ürgüp)', lat:38.6305, lng:34.9121, link:'https://www.google.com/maps/search/Muti+Restaurant+Urgup' },
+        { type:'resto', name:'Café Fat Boys (Ürgüp)', lat:38.6316, lng:34.9125, link:'https://www.google.com/maps/search/Fat+Boys+Cafe+Urgup' },
+        { type:'sight', name:'Champ montgolfières Göreme', lat:38.6489, lng:34.8196, link:'https://www.google.com/maps/search/Goreme+balloon+launch+field' },
+        { type:'sight', name:'Göreme Open-Air Museum', lat:38.6433, lng:34.8432, link:'https://www.google.com/maps/search/Goreme+Open+Air+Museum' },
+        { type:'sight', name:'Rose Valley (départ Çavuşin)', lat:38.6647, lng:34.8422, link:'https://www.google.com/maps/search/Rose+Valley+Cappadocia' },
+        { type:'sight', name:'Kızılçukur viewpoint (Red Valley)', lat:38.6608, lng:34.8542, link:'https://www.google.com/maps/search/Kizilcukur+viewpoint+Cappadocia' },
+        { type:'sight', name:'Firca Seramik (Avanos)', lat:38.7205, lng:34.8491, link:'https://www.google.com/maps/search/Firca+Seramik+Avanos' },
+        { type:'sight', name:'Derinkuyu (cité souterraine)', lat:38.3744, lng:34.7347, link:'https://www.google.com/maps/search/Derinkuyu+underground+city' },
+        { type:'sight', name:'Turasan Winery (1943)', lat:38.6339, lng:34.9069, link:'https://www.google.com/maps/search/Turasan+Winery+Urgup' },
+        { type:'sight', name:'Kocabağ Winery', lat:38.6288, lng:34.9001, link:'https://www.google.com/maps/search/Kocabag+Winery+Urgup' },
+        { type:'sight', name:'Soğanlı Valley (jumelle vide)', lat:38.3722, lng:34.8656, link:'https://www.google.com/maps/search/Soganli+Valley+Cappadocia' },
+        { type:'sight', name:'Mustafapaşa (ex-Sinasos)', lat:38.5772, lng:34.9333, link:'https://www.google.com/maps/search/Mustafapasa+Cappadocia' }
+      ]
+    },
+    'map-kas': {
+      center: [36.22, 29.65], zoom: 10,
+      markers: [
+        { type:'hotel', name:'Hideaway Hotel Kaş', lat:36.1986, lng:29.6384, link:'https://www.google.com/maps/search/Hideaway+Hotel+Kas' },
+        { type:'hotel', name:'Gardenia Hotel Kaş', lat:36.1978, lng:29.6408, link:'https://www.google.com/maps/search/Gardenia+Hotel+Kas' },
+        { type:'hotel', name:'Hotel Nur Beach (Çukurbağ)', lat:36.2012, lng:29.6145, link:'https://www.google.com/maps/search/Nur+Beach+Hotel+Kas' },
+        { type:'resto', name:'Bi Lokma (Küçük Çakıl)', lat:36.1974, lng:29.6425, link:'https://www.google.com/maps/search/Bi+Lokma+Kas+Turkey' },
+        { type:'resto', name:'Mercan Restaurant (1956)', lat:36.1982, lng:29.6395, link:'https://www.google.com/maps/search/Mercan+Restaurant+Kas+harbor' },
+        { type:'resto', name:'İkbal Meyhane', lat:36.1995, lng:29.6402, link:'https://www.google.com/maps/search/Ikbal+Meyhane+Kas' },
+        { type:'resto', name:'Köyüm Gözleme Evi (Bezirgan)', lat:36.3345, lng:29.7012, link:'https://www.google.com/maps/search/Bezirgan+village+koy+kahvaltisi' },
+        { type:'plage', name:'Kaputaş Beach', lat:36.2053, lng:29.5197, link:'https://www.google.com/maps/search/Kaputas+Beach+Turkey' },
+        { type:'plage', name:'Limanağzı (crique)', lat:36.1940, lng:29.6605, link:'https://www.google.com/maps/search/Limanagzi+Kas' },
+        { type:'plage', name:'Mavi Mağara (Grotte Bleue)', lat:36.1725, lng:29.6380, link:'https://www.google.com/maps/search/Mavi+Magara+Blue+Cave+Kas' },
+        { type:'sight', name:'Dragoman Diving', lat:36.1985, lng:29.6398, link:'https://www.google.com/maps/search/Dragoman+Dive+Center+Kas' },
+        { type:'sight', name:'Kekova + Simena (cité engloutie)', lat:36.1833, lng:29.8667, link:'https://www.google.com/maps/search/Kekova+Simena+sunken+city+Turkey' },
+        { type:'sight', name:'Patara (ruines + plage antique)', lat:36.2683, lng:29.3172, link:'https://www.google.com/maps/search/Patara+ancient+site+Turkey' },
+        { type:'sight', name:'Myra (Demre, tombes rupestres)', lat:36.2597, lng:29.9850, link:'https://www.google.com/maps/search/Myra+Demre+rock+tombs' },
+        { type:'sight', name:'Xanthos (UNESCO)', lat:36.3550, lng:29.3178, link:'https://www.google.com/maps/search/Xanthos+Lycian+Turkey' },
+        { type:'sight', name:'Letoon (UNESCO)', lat:36.3283, lng:29.2925, link:'https://www.google.com/maps/search/Letoon+Lycian+Turkey' },
+        { type:'sight', name:'Marché vendredi Cuma Pazarı', lat:36.2002, lng:29.6342, link:'https://www.google.com/maps/search/Cuma+Pazari+Kas+Friday+market' },
+        { type:'sight', name:'Mont Felenk (sunrise)', lat:36.2078, lng:29.6298, link:'https://www.google.com/maps/search/Felenk+Tepesi+Kas' }
+      ]
+    },
+    'map-fethiye': {
+      center: [36.58, 29.10], zoom: 11,
+      markers: [
+        { type:'hotel', name:'Villa Rhapsody (Kayaköy)', lat:36.5744, lng:29.0911, link:'https://www.google.com/maps/search/Villa+Rhapsody+Kayakoy' },
+        { type:'hotel', name:'Yonca Lodge (Kayaköy)', lat:36.5755, lng:29.0885, link:'https://www.google.com/maps/search/Yonca+Lodge+Kayakoy' },
+        { type:'hotel', name:'Hideaway Hotel (Faralya)', lat:36.5280, lng:29.1260, link:'https://www.google.com/maps/search/Hideaway+Hotel+Faralya' },
+        { type:'resto', name:'Fethiye Fish Market (Mavi/Cem/Rafet)', lat:36.6230, lng:29.1178, link:'https://www.google.com/maps/search/Fethiye+Fish+Market+Balik+Pazari' },
+        { type:'resto', name:'Cin Bal (Kayaköy)', lat:36.5735, lng:29.0917, link:'https://www.google.com/maps/search/Cin+Bal+Kayakoy' },
+        { type:'resto', name:'Reis Restaurant (Paspatur)', lat:36.6240, lng:29.1165, link:'https://www.google.com/maps/search/Reis+Restaurant+Paspatur+Fethiye' },
+        { type:'resto', name:'Levissi Garden', lat:36.5695, lng:29.1020, link:'https://www.google.com/maps/search/Levissi+Garden+Kayakoy' },
+        { type:'sight', name:'Kayaköy Ghost Village', lat:36.5735, lng:29.0897, link:'https://www.google.com/maps/search/Kayakoy+Ghost+Village' },
+        { type:'plage', name:'Butterfly Valley', lat:36.5470, lng:29.1280, link:'https://www.google.com/maps/search/Butterfly+Valley+Turkey' },
+        { type:'plage', name:'Ölüdeniz Blue Lagoon', lat:36.5500, lng:29.1244, link:'https://www.google.com/maps/search/Oludeniz+Blue+Lagoon' },
+        { type:'plage', name:'Kabak Bay (sauvage)', lat:36.4970, lng:29.1050, link:'https://www.google.com/maps/search/Kabak+Bay+Turkey' },
+        { type:'sight', name:'Fethiye Marina (gulet 12 îles)', lat:36.6220, lng:29.1090, link:'https://www.google.com/maps/search/Fethiye+harbor+gulet' },
+        { type:'sight', name:'Babadağ (paragliding 1969m)', lat:36.5515, lng:29.1470, link:'https://www.google.com/maps/search/Babadag+paragliding+Oludeniz' },
+        { type:'sight', name:'Saklıkent Gorge', lat:36.4906, lng:29.3722, link:'https://www.google.com/maps/search/Saklikent+Gorge+Turkey' },
+        { type:'sight', name:'Lycian Way Faralya (descente)', lat:36.5275, lng:29.1255, link:'https://www.google.com/maps/search/Lycian+Way+Faralya+Butterfly' },
+        { type:'sight', name:'Afkule Monastery (viewpoint)', lat:36.5780, lng:29.0850, link:'https://www.google.com/maps/search/Afkule+Monastery+Kayakoy' },
+        { type:'sight', name:'Fethiye Tuesday Market', lat:36.6280, lng:29.1150, link:'https://www.google.com/maps/search/Fethiye+Tuesday+Market' },
+        { type:'sight', name:'Aéroport Dalaman (DLM)', lat:36.7131, lng:28.7925, link:'https://www.google.com/maps/search/Dalaman+Airport+DLM' }
+      ]
+    }
+  };
+
+  var TYPE_LABELS = { hotel:'Hébergement', resto:'Table', plage:'Plage', sight:'À voir' };
+
+  var GLYPHS = {
+    hotel: '<svg viewBox="0 0 24 24"><path d="M3 7a1 1 0 0 1 2 0v3h6V8a2 2 0 0 1 2-2h5a3 3 0 0 1 3 3v8a1 1 0 0 1-2 0v-2H5v2a1 1 0 0 1-2 0V7zm2 7h14V9a1 1 0 0 0-1-1h-5v2H5v4z"/></svg>',
+    resto: '<svg viewBox="0 0 24 24"><path d="M7 2a1 1 0 0 1 1 1v6h1V3a1 1 0 0 1 2 0v6h1V3a1 1 0 0 1 2 0v7a3 3 0 0 1-2 2.83V21a1 1 0 0 1-2 0v-8.17A3 3 0 0 1 7 10V3a1 1 0 0 1 0-1zm10 0a3 3 0 0 0-3 3v6a3 3 0 0 0 2 2.83V21a1 1 0 0 0 2 0V3a1 1 0 0 0-1-1z"/></svg>',
+    plage: '<svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-10 9h9V3.05A10 10 0 0 0 12 2zm1 1.05V11h9a10 10 0 0 0-9-7.95zM11 12v8a1 1 0 0 0 2 0v-8h-2z"/></svg>',
+    sight: '<svg viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.3 6.8.8-5.1 4.7 1.4 6.7L12 17.6l-6 3.4 1.4-6.7L2.3 9.6l6.8-.8L12 2.5z"/></svg>'
+  };
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function(c) {
+      return { '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c];
+    });
+  }
+
+  function buildMap(id, cfg) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    var map = L.map(id, {
+      scrollWheelZoom: false,
+      zoomControl: true,
+      attributionControl: true
+    });
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+      subdomains: 'abcd',
+      maxZoom: 19
+    }).addTo(map);
+
+    var latLngs = [];
+    cfg.markers.forEach(function(m) {
+      var icon = L.divIcon({
+        className: 'mb-marker ' + m.type,
+        iconSize: [30, 30],
+        iconAnchor: [15, 15],
+        popupAnchor: [0, -14],
+        html: GLYPHS[m.type] || ''
+      });
+      var popupHtml =
+        '<span class="pop-kicker">' + escapeHtml(TYPE_LABELS[m.type]) + '</span>' +
+        '<span class="pop-title">' + escapeHtml(m.name) + '</span>' +
+        '<a class="pop-link" href="' + encodeURI(m.link) + '" target="_blank" rel="noopener">Ouvrir dans Maps →</a>';
+      L.marker([m.lat, m.lng], { icon: icon, title: m.name, alt: m.name })
+        .bindPopup(popupHtml, { closeButton: true, maxWidth: 260 })
+        .addTo(map);
+      latLngs.push([m.lat, m.lng]);
+    });
+
+    if (latLngs.length) {
+      map.fitBounds(L.latLngBounds(latLngs), {
+        padding: [44, 44],
+        maxZoom: cfg.maxZoom || 12
+      });
+    } else {
+      map.setView(cfg.center, cfg.zoom);
+    }
+  }
+
+  if ('IntersectionObserver' in window) {
+    var mapObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          var id = entry.target.id;
+          if (MAPS[id]) {
+            buildMap(id, MAPS[id]);
+            mapObserver.unobserve(entry.target);
+          }
+        }
+      });
+    }, { rootMargin: '300px 0px' });
+    Object.keys(MAPS).forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) mapObserver.observe(el);
+    });
+  } else {
+    Object.keys(MAPS).forEach(function(id) { buildMap(id, MAPS[id]); });
+  }
+})();
+</script>
+
+<script>
+(function() {
+  'use strict';
+
+  // Jump navigation (replaces tab show/hide — all sections render in linear scroll)
+  const navBtns = document.querySelectorAll('.nav-btn');
+  const sections = document.querySelectorAll('.tab-section');
+  const nav = document.querySelector('.nav');
+
+  function setActive(id) {
+    navBtns.forEach(function(b) {
+      var isActive = b.getAttribute('data-tab') === id;
+      b.classList.toggle('active', isActive);
+      if (isActive) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+    });
+    // Center active button on mobile
+    if (window.innerWidth < 700) {
+      var active = document.querySelector('.nav-btn.active');
+      if (active) active.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
+  }
+
+  function jumpTo(id) {
+    var target = document.getElementById(id);
+    if (!target) return;
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (history.replaceState) history.replaceState(null, '', '#' + id);
+    setActive(id);
+  }
+
+  // Click handlers → jump to section
+  navBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      jumpTo(this.getAttribute('data-tab'));
+    });
+  });
+
+  // Keyboard nav (arrow keys jump between sections)
+  navBtns.forEach(function(btn, i) {
+    btn.addEventListener('keydown', function(e) {
+      var idx = i;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') { e.preventDefault(); idx = (i + 1) % navBtns.length; }
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') { e.preventDefault(); idx = (i - 1 + navBtns.length) % navBtns.length; }
+      else if (e.key === 'Home') { e.preventDefault(); idx = 0; }
+      else if (e.key === 'End') { e.preventDefault(); idx = navBtns.length - 1; }
+      else return;
+      navBtns[idx].focus();
+      jumpTo(navBtns[idx].getAttribute('data-tab'));
+    });
+  });
+
+  // Scroll reveal for .reveal elements
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    var revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { rootMargin: '0px 0px -10% 0px', threshold: 0.05 });
+    document.querySelectorAll('.reveal').forEach(function(el) { revealObserver.observe(el); });
+  } else {
+    document.querySelectorAll('.reveal').forEach(function(el) { el.classList.add('in-view'); });
+  }
+
+  // IntersectionObserver — update active state + URL hash as user scrolls
+  var scrollSyncEnabled = true;
+  if ('IntersectionObserver' in window) {
+    var currentId = null;
+    var observer = new IntersectionObserver(function(entries) {
+      if (!scrollSyncEnabled) return;
+      // Pick the entry closest to the top of the viewport
+      var visible = entries.filter(function(e) { return e.isIntersecting; });
+      if (!visible.length) return;
+      visible.sort(function(a, b) { return a.boundingClientRect.top - b.boundingClientRect.top; });
+      var id = visible[0].target.id;
+      if (id && id !== currentId) {
+        currentId = id;
+        navBtns.forEach(function(b) {
+          var isActive = b.getAttribute('data-tab') === id;
+          b.classList.toggle('active', isActive);
+          if (isActive) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+        });
+        if (history.replaceState) history.replaceState(null, '', '#' + id);
+      }
+    }, { rootMargin: '-80px 0px -60% 0px', threshold: 0 });
+    sections.forEach(function(s) { observer.observe(s); });
+  }
+
+  // Handle URL hash on load (direct link / bookmark)
+  function handleHash() {
+    var hash = window.location.hash.replace('#', '');
+    if (hash && document.getElementById(hash)) {
+      // Let the browser scroll natively via scroll-margin-top
+      setActive(hash);
+    }
+  }
+  if (window.location.hash) {
+    // Defer so scroll-margin applies and images start loading
+    setTimeout(handleHash, 50);
+  }
+  window.addEventListener('hashchange', handleHash);
+
+  // Nav scroll shadow
+  var lastScroll = 0;
+  window.addEventListener('scroll', function() {
+    var st = window.pageYOffset || document.documentElement.scrollTop;
+    if (st > 50) {
+      nav.classList.add('scrolled');
+    } else {
+      nav.classList.remove('scrolled');
+    }
+
+    // Back to top button
+    var backTop = document.getElementById('backTop');
+    if (st > 600) {
+      backTop.classList.add('visible');
+    } else {
+      backTop.classList.remove('visible');
+    }
+    lastScroll = st;
+  }, { passive: true });
+
+  // Back to top
+  document.getElementById('backTop').addEventListener('click', function() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Lightbox
+  var lightbox = document.getElementById('lightbox');
+  var lightboxImg = lightbox.querySelector('img');
+  document.addEventListener('click', function(e) {
+    if (e.target.matches('.photo-grid img, .photo-hero')) {
+      lightbox.classList.add('active');
+      lightboxImg.src = e.target.src.replace(/w=\d+/, 'w=1600');
+      lightboxImg.alt = e.target.alt;
+      document.body.style.overflow = 'hidden';
+    }
+  });
+  lightbox.addEventListener('click', function() {
+    lightbox.classList.remove('active');
+    document.body.style.overflow = '';
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+})();
+</script>
+</body>
+</html>
