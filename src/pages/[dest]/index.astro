@@ -1,0 +1,21 @@
+---
+// Route destination — placeholder buildable.
+// getStaticPaths vide : /crete/ et /turquie/ ne sont PAS servis tant que la migration
+// (tickets 100/110) n'a pas peuplé les collections. dist/ ne publie donc aucun contenu bidon.
+export function getStaticPaths() {
+  return [];
+}
+
+const { dest } = Astro.params;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>{dest}</title>
+  </head>
+  <body>
+    <main>{dest}</main>
+  </body>
+</html>

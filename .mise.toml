@@ -1,0 +1,5 @@
+# Toolchain épinglé (ARCHITECTURE.md §2, décision verrouillée #5).
+# Node 22 LTS + npm épinglés : le lockfile cross-platform rote quand npm change de version.
+[tools]
+node = "22"
+npm = "11"
