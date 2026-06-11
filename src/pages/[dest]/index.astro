@@ -1,21 +1,309 @@
 ---
-// Route destination — placeholder buildable.
-// getStaticPaths vide : /crete/ et /turquie/ ne sont PAS servis tant que la migration
-// (tickets 100/110) n'a pas peuplé les collections. dist/ ne publie donc aucun contenu bidon.
-export function getStaticPaths() {
-  return [];
+// Route destination — ARCHITECTURE §4
+// getStaticPaths → une page par destination dans les collections
+import { getCollection } from 'astro:content';
+import DestinationLayout from '../../layouts/Destination.astro';
+import Hero from '../../components/Hero.astro';
+import Nav from '../../components/Nav.astro';
+import Timeline from '../../components/Timeline.astro';
+import ChapterCover from '../../components/ChapterCover.astro';
+import Pullquote from '../../components/Pullquote.astro';
+import Curatorial from '../../components/Curatorial.astro';
+import InfoColumns from '../../components/InfoColumns.astro';
+import PhotoGrid from '../../components/PhotoGrid.astro';
+import Lightbox from '../../components/Lightbox.astro';
+import AccomGrid from '../../components/AccomGrid.astro';
+import FoodieBlock from '../../components/FoodieBlock.astro';
+import GemBlock from '../../components/GemBlock.astro';
+import MapSectionPlaceholder from '../../components/MapSectionPlaceholder.astro';
+import BudgetSection from '../../components/BudgetSection.astro';
+import PratiqueGrid from '../../components/PratiqueGrid.astro';
+
+export async function getStaticPaths() {
+  const destinations = await getCollection('destinations');
+  return destinations.map((entry) => ({ params: { dest: entry.data.slug } }));
 }
 
 const { dest } = Astro.params;
+
+// Charger toutes les collections
+const [allDestinations, allBases, allPois, allDishes, allGems, allBudget, allPratique, allImages] =
+  await Promise.all([
+    getCollection('destinations'),
+    getCollection('bases'),
+    getCollection('pois'),
+    getCollection('dishes'),
+    getCollection('gems'),
+    getCollection('budget'),
+    getCollection('pratique'),
+    getCollection('images'),
+  ]);
+
+const destination = allDestinations.find((d) => d.data.slug === dest);
+if (!destination) throw new Error(`Destination introuvable : ${dest}`);
+
+// Filtrer par destination.
+// Pour les bases (glob loader), Astro utilise data.slug comme ID quand présent.
+// On filtre par filePath qui contient "/${dest}/" (plus fiable que le slug).
+// Pour les arrays (destScopedArray), l'ID est "<dest>/<item.id>".
+const bases = allBases
+  .filter((b) => {
+    const fp = (b as any).filePath as string | undefined;
+    return fp ? fp.includes(`/${dest}/`) : b.id.startsWith(`${dest}/`);
+  })
+  .sort((a, b) => a.data.order - b.data.order);
+
+const pois = allPois
+  .filter((p) => p.id.startsWith(`${dest}/`))
+  .map((p) => p.data);
+
+// dishes / gems — entités éditoriales sans `base` (schema §3.4 : pas de champ base)
+// Affichées après le tour des bases, une fois par destination
+const dishes = allDishes
+  .filter((d) => d.id.startsWith(`${dest}/`))
+  .map((d) => d.data);
+
+const gems = allGems
+  .filter((g) => g.id.startsWith(`${dest}/`))
+  .map((g) => g.data);
+
+const imageManifest = allImages
+  .filter((i) => i.id.startsWith(`${dest}/`))
+  .map((i) => i.data);
+
+const budgetEntry = allBudget.find((b) => b.id.startsWith(`${dest}/`));
+const pratiqueEntry = allPratique.find((p) => p.id.startsWith(`${dest}/`));
+
+const d = destination.data;
+
+const totalNights =
+  d.departure && d.arrival
+    ? Math.round(
+        (new Date(d.departure.date).getTime() - new Date(d.arrival.date).getTime()) / 86400000
+      )
+    : 30;
 ---
 
-<!doctype html>
-<html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <title>{dest}</title>
-  </head>
-  <body>
-    <main>{dest}</main>
-  </body>
-</html>
+<DestinationLayout
+  title={`${d.heroTitle.main} — ${d.heroTitle.em} · Itinéraire`}
+  favicon={d.theme.favicon}
+  palette={d.theme.palette}
+  description={d.subtitle}
+  canonicalUrl={`https://chartrandapps.ca/${dest}/`}
+>
+  <Hero
+    heroTitle={d.heroTitle}
+    heroSub={d.heroSub}
+    hero={d.hero}
+    travelers={d.travelers}
+    arrival={d.arrival}
+    departure={d.departure}
+    season={d.season}
+  />
+
+  <Nav bases={bases.map((b) => ({ slug: b.data.slug, title: b.data.title }))} dest={dest} />
+
+  <main id="main-content">
+
+    <!-- VUE D'ENSEMBLE -->
+    <div id="vue" class="tab-section">
+      <div class="section">
+        <div class="container">
+          <div class="section-header reveal">
+            <span class="section-num">Logique du voyage</span>
+            <h2 class="section-title">{d.overviewIntro}</h2>
+          </div>
+          <Timeline bases={bases.map((b) => b.data)} />
+        </div>
+      </div>
+    </div>
+
+    <!-- BASES — une section par base (ordre préservé) -->
+    {bases.map((base) => {
+      const bd = base.data;
+      // POIs de cette base (pois.json utilise base: "<slug>")
+      const basePois = pois.filter((p) => p.base === bd.slug);
+
+      return (
+        <div id={bd.slug} class="tab-section">
+          <ChapterCover
+            title={bd.title}
+            subtitle={bd.subtitle}
+            kicker={bd.kicker}
+            order={bd.order}
+          />
+
+          <Pullquote text={bd.pullquote} />
+
+          <div class="section">
+            <div class="container">
+
+              {/* Curatorial — prose Markdown avec [[poi:]] résolus */}
+              <Curatorial
+                body={base.body ?? ''}
+                pois={basePois}
+              />
+
+              {/* tagBlock — absent si null/undefined → pas de markup vide */}
+              {bd.tagBlock && (
+                <div class="tag-block reveal">
+                  <span class="map-label">{bd.tagBlock.label}</span>
+                  <div class="tag-list">
+                    {bd.tagBlock.tags.map((tag) => (
+                      <span class:list={['tag', tag.tone && tag.tone]}>{tag.text}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* access — optionnel (Loutro, Cappadoce...) */}
+              {bd.access && (
+                <div class="note-box reveal">
+                  <strong>Comment y accéder</strong>
+                  <p>{bd.access.body}</p>
+                  {bd.access.links && bd.access.links.length > 0 && (
+                    <div class="link-row" style="margin-top: 8px;">
+                      {bd.access.links.map((l) => (
+                        <a class="link-pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* notes */}
+              {bd.notes && bd.notes.map((note) => (
+                <div class="note-box reveal">
+                  <strong>{note.kind}</strong>
+                  <p>{note.body}</p>
+                </div>
+              ))}
+
+              {/* InfoColumns — composition ordonnée, ordre PRÉSERVÉ */}
+              <InfoColumns infoBlocks={bd.infoBlocks} pois={basePois} />
+
+              {/* PhotoGrid (images du manifest associées à cette base) */}
+              <PhotoGrid
+                slots={imageManifest
+                  .filter((img) => img.slot.includes(bd.slug) || img.slot === bd.cover)
+                  .map((img) => img.slot)}
+                imageManifest={imageManifest}
+                dest={dest}
+              />
+
+              {/* AccomGrid — POIs avec role sleep, triés par tier */}
+              <AccomGrid pois={basePois} imageManifest={imageManifest} dest={dest} />
+
+              {/* MapSection placeholder (ticket 40) */}
+              <MapSectionPlaceholder baseSlug={bd.slug} />
+
+            </div>
+          </div>
+        </div>
+      );
+    })}
+
+    <!-- FoodieBlock — entités éditoriales (dishes.json, §3.4 : pas de champ base) -->
+    {dishes.length > 0 && (
+      <div class="tab-section">
+        <div class="section">
+          <div class="container">
+            <FoodieBlock dishes={dishes as any[]} imageManifest={imageManifest} dest={dest} />
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- GemBlock — entités éditoriales (gems.json, §3.4 : pas de champ base) -->
+    {gems.length > 0 && (
+      <div class="tab-section">
+        <div class="section">
+          <div class="container">
+            <GemBlock gems={gems as any[]} imageManifest={imageManifest} dest={dest} />
+          </div>
+        </div>
+      </div>
+    )}
+
+    <!-- BudgetSection -->
+    {budgetEntry && (
+      <BudgetSection
+        budget={budgetEntry.data}
+        totalNights={totalNights}
+        travelers={d.travelers.count}
+      />
+    )}
+
+    <!-- PratiqueGrid -->
+    {pratiqueEntry && (
+      <PratiqueGrid pratique={pratiqueEntry.data} />
+    )}
+
+  </main>
+
+  <Lightbox />
+
+</DestinationLayout>
+
+<style>
+  .tag-block { margin: 24px 0; }
+
+  .map-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 6px;
+    display: block;
+  }
+
+  .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+
+  .tag {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: var(--mer-light);
+    color: var(--mer);
+    font-weight: 400;
+  }
+
+  .tag.amber { background: #FEF3E2; color: #8B5516; }
+  .tag.green { background: #EAF5E9; color: #256B2F; }
+
+  .note-box {
+    margin-top: 20px;
+    padding: 16px 20px;
+    background: var(--sand);
+    border-radius: var(--radius-sm);
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.7;
+    border-left: 3px solid var(--terre);
+  }
+
+  .note-box strong { color: var(--text); font-weight: 500; }
+
+  .link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .link-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--mer-light);
+    color: var(--mer);
+    text-decoration: none;
+    transition: all var(--transition);
+    font-weight: 400;
+  }
+
+  .link-pill:hover { background: var(--mer); color: white; }
+</style>

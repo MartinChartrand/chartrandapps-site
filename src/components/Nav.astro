@@ -1,0 +1,130 @@
+---
+// Nav.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (nav.nav)
+interface Base { slug: string; title: string; }
+
+interface Props {
+  bases: Base[];
+}
+
+const { bases } = Astro.props;
+---
+
+<nav class="nav" aria-label="Sections de l'itinéraire" id="main-nav">
+  <div class="nav-inner">
+    <button class="nav-btn active" aria-current="true" data-tab="vue">Vue d'ensemble</button>
+    {bases.map((b) => (
+      <button class="nav-btn" data-tab={b.slug}>{b.title}</button>
+    ))}
+    <button class="nav-btn" data-tab="budget">Budget</button>
+    <button class="nav-btn" data-tab="pratique">Pratique</button>
+  </div>
+</nav>
+
+<script>
+  const nav = document.getElementById('main-nav');
+  if (nav) {
+    const btns = nav.querySelectorAll<HTMLButtonElement>('.nav-btn');
+    const sections = document.querySelectorAll<HTMLElement>('.tab-section');
+
+    // Scroll actif : IntersectionObserver
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            btns.forEach((btn) => {
+              const active = btn.dataset.tab === id;
+              btn.classList.toggle('active', active);
+              btn.setAttribute('aria-current', active ? 'true' : 'false');
+            });
+          }
+        }
+      },
+      { rootMargin: '-40% 0px -55% 0px' }
+    );
+
+    sections.forEach((s) => observer.observe(s));
+
+    // Clic → scroll
+    btns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const target = document.getElementById(btn.dataset.tab ?? '');
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  }
+</script>
+
+<style>
+  .nav {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    transition: box-shadow var(--transition);
+  }
+
+  .nav.scrolled { box-shadow: var(--shadow-md); }
+
+  .nav-inner {
+    display: flex;
+    overflow-x: auto;
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 24px;
+    gap: 0;
+    scrollbar-width: none;
+  }
+
+  .nav-inner::-webkit-scrollbar { display: none; }
+
+  .nav-btn {
+    padding: 16px 20px;
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--muted);
+    cursor: pointer;
+    border: none;
+    background: none;
+    white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: all var(--transition);
+  }
+
+  .nav-btn:focus-visible {
+    outline: 2px solid var(--terre);
+    outline-offset: -2px;
+    border-radius: 4px;
+  }
+
+  .nav-btn.active {
+    color: var(--text);
+    font-weight: 500;
+    border-bottom-color: var(--terre);
+  }
+
+  .nav-btn:hover:not(.active) {
+    color: var(--text);
+    border-bottom-color: color-mix(in oklch, var(--terre) 30%, transparent);
+  }
+
+  @media (max-width: 700px) {
+    .nav-inner::after {
+      content: '';
+      position: sticky;
+      right: 0;
+      top: 0;
+      flex-shrink: 0;
+      width: 40px;
+      height: 100%;
+      background: linear-gradient(to right, transparent, rgba(255,255,255,0.95));
+      pointer-events: none;
+    }
+    .nav-btn { padding: 14px 16px; font-size: 12px; }
+  }
+</style>

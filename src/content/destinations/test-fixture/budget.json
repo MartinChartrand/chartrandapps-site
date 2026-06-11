@@ -1,0 +1,13 @@
+{
+  "statCards": [
+    { "computed": "total", "label": "Total" },
+    { "computed": "perPerson", "label": "Par personne" }
+  ],
+  "lines": [
+    { "label": "Hébergement", "amount": 600 },
+    { "label": "Transport", "amount": 400 },
+    { "label": "Repas", "amount": 300 }
+  ],
+  "scenarios": [],
+  "advice": "Budget serré mais réaliste pour ce test."
+}

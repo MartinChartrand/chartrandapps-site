@@ -1,0 +1,14 @@
+{
+  "slug": "test-fixture",
+  "heroTitle": { "main": "Test", "em": "fixture" },
+  "heroSub": "Mini destination de test automatisé",
+  "subtitle": "Destination minimale pour les tests built-html",
+  "season": "Juillet 2027",
+  "travelers": { "count": 2, "label": "Voyage en duo" },
+  "arrival": { "date": "2027-07-01", "airport": "TST", "city": "Testville" },
+  "departure": { "date": "2027-07-04", "airport": "TST", "city": "Testville" },
+  "theme": { "favicon": "🧪", "palette": "crete" },
+  "hero": { "image": "testville-cover", "label": "Test · Voyage en duo" },
+  "overviewIntro": "Trois bases, mouvement minimal.",
+  "intro": { "whySeason": "Juillet pour le test.", "logistics": "Aucune logistique." }
+}

@@ -1,0 +1,16 @@
+/* Thème Crète — ARCHITECTURE §4 : une destination = données + ~40 lignes CSS */
+/* Variables extraites du HTML v1 (scripts/migrate/fixtures/crete/index.html:22-47) */
+
+[data-theme="crete"] {
+  --terre: #C4714A;
+  --sand: #F2E8D9;
+  --deep: #1A2A3A;
+  --mer: #2E6B8A;
+  --mer-light: #E8F4F8;
+  --text: #2A2318;
+  --muted: #6B6058;
+  --border: rgba(42, 35, 24, 0.10);
+  --accent: #A8522E;
+  --bg: #FDFAF6;
+  --white: #FFFFFF;
+}

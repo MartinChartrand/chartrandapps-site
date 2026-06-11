@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "label": "Généralités",
+      "items": [
+        { "label": "Monnaie", "body": "Euro (EUR). Distributeurs partout." },
+        { "label": "Langue", "body": "Testois. L'anglais est compris." }
+      ]
+    }
+  ]
+}

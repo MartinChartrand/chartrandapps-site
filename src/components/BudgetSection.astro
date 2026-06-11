@@ -1,0 +1,169 @@
+---
+// BudgetSection.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.budget-grid + .budget-table)
+// Totaux CALCULÉS de la somme des lignes — JAMAIS saisis manuellement (bug vécu 11360 vs 11400)
+interface StatCard {
+  value?: string;
+  computed?: 'total' | 'perPerson' | 'perDay';
+  label: string;
+}
+
+interface BudgetLine {
+  label: string;
+  amount?: number;
+  [key: string]: unknown;
+}
+
+interface Budget {
+  statCards: StatCard[];
+  lines: BudgetLine[];
+  scenarios?: Array<{ name: string; total: number; desc: string; }>;
+  advice?: string;
+}
+
+interface Props {
+  budget: Budget;
+  totalNights?: number;
+  travelers?: number;
+}
+
+const { budget, totalNights = 30, travelers = 2 } = Astro.props;
+
+// Calculer le total à partir des lignes
+const calculatedTotal = budget.lines.reduce((sum, line) => sum + (line.amount ?? 0), 0);
+
+function resolveCard(card: StatCard): string {
+  if (card.value) return card.value;
+  switch (card.computed) {
+    case 'total': return `${calculatedTotal.toLocaleString('fr-CA')} $`;
+    case 'perPerson': return `${Math.round(calculatedTotal / travelers).toLocaleString('fr-CA')} $`;
+    case 'perDay': return `${Math.round(calculatedTotal / totalNights).toLocaleString('fr-CA')} $`;
+    default: return '';
+  }
+}
+
+function fmtAmount(amount?: number): string {
+  if (!amount && amount !== 0) return '–';
+  return `${amount.toLocaleString('fr-CA')} $`;
+}
+---
+
+<div id="budget" class="tab-section">
+  <div class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-num">Planification financière</span>
+        <h2 class="section-title">Budget</h2>
+      </div>
+
+      {budget.statCards.length > 0 && (
+        <div class="budget-grid">
+          {budget.statCards.map((card) => (
+            <div class="stat-card">
+              <span class="stat-card-val">{resolveCard(card)}</span>
+              <div class="stat-card-lbl">{card.label}</div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div class="budget-wrap">
+        <table class="budget-table" aria-label="Détail du budget">
+          <tbody>
+            {budget.lines.map((line) => (
+              <tr>
+                <td>{line.label}</td>
+                <td>{fmtAmount(line.amount)}</td>
+              </tr>
+            ))}
+            <tr class="budget-total">
+              <td>Total</td>
+              <td>{calculatedTotal.toLocaleString('fr-CA')} $</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      {budget.advice && (
+        <p class="budget-advice">{budget.advice}</p>
+      )}
+    </div>
+  </div>
+</div>
+
+<style>
+  .budget-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+
+  .stat-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+
+  .stat-card:hover { box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+
+  .stat-card-val {
+    font-family: var(--font-serif);
+    font-size: 34px;
+    font-weight: 300;
+    color: var(--text);
+    display: block;
+    line-height: 1.1;
+  }
+
+  .stat-card-lbl { font-size: 12px; color: var(--muted); margin-top: 6px; }
+
+  .budget-wrap {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px 32px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .budget-table { width: 100%; border-collapse: collapse; }
+
+  .budget-table tr {
+    border-bottom: 1px solid var(--border);
+    transition: background var(--transition);
+  }
+
+  .budget-table tr:hover { background: color-mix(in oklch, var(--sand) 30%, transparent); }
+
+  .budget-table tr:last-child { border-bottom: none; }
+
+  .budget-table td { padding: 14px 0; font-size: 14px; }
+
+  .budget-table td:last-child {
+    text-align: right;
+    font-weight: 500;
+    white-space: nowrap;
+    padding-left: 16px;
+  }
+
+  .budget-total td { font-size: 16px; font-weight: 500; padding-top: 18px; }
+
+  .budget-total td:first-child {
+    font-family: var(--font-serif);
+    font-size: 20px;
+  }
+
+  .budget-advice {
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 24px;
+    line-height: 1.7;
+    font-style: italic;
+  }
+
+  @media (max-width: 600px) {
+    .budget-wrap { padding: 20px 18px; }
+  }
+</style>

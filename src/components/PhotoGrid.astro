@@ -1,0 +1,114 @@
+---
+// PhotoGrid.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.photo-grid)
+// import.meta.glob LITTÉRAL (Vite ne supporte pas les patterns dynamiques)
+// Le lookup se fait depuis le manifest images.json
+
+interface ImageEntry {
+  slot: string;
+  file: string;
+  alt: string;
+  layout: 'wide' | 'tall' | null;
+}
+
+interface Props {
+  slots: string[];
+  imageManifest: ImageEntry[];
+  dest: string;
+}
+
+const { slots, imageManifest, dest } = Astro.props;
+
+// Glob littéral — résolu par Vite au build
+// Retourne un map { '/src/assets/...': { default: ImageMetadata } }
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{jpg,jpeg,png,webp}',
+  { eager: true }
+);
+
+// Construire la liste des images à afficher
+const images = slots
+  .map((slot) => {
+    const entry = imageManifest.find((img) => img.slot === slot);
+    if (!entry) return null;
+    // Chercher le fichier dans le glob
+    const key = `/src/assets/destinations/${dest}/${entry.file}`;
+    const mod = allImages[key];
+    return mod ? { ...entry, src: mod.default } : null;
+  })
+  .filter(Boolean) as Array<ImageEntry & { src: ImageMetadata }>;
+---
+
+{images.length > 0 && (
+  <div class="photo-grid">
+    {images.map((img) => (
+      <img
+        src={img.src.src}
+        alt={img.alt}
+        loading="lazy"
+        class:list={[
+          img.layout === 'wide' && 'photo-wide',
+          img.layout === 'tall' && 'photo-tall',
+        ]}
+        data-lightbox-src={img.src.src}
+        data-lightbox-alt={img.alt}
+      />
+    ))}
+  </div>
+)}
+
+<script>
+  document.querySelectorAll<HTMLImageElement>('.photo-grid img').forEach((img) => {
+    img.addEventListener('click', () => {
+      document.dispatchEvent(new CustomEvent('lightbox:open', {
+        detail: { src: img.dataset.lightboxSrc, alt: img.dataset.lightboxAlt },
+      }));
+    });
+  });
+</script>
+
+<style>
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 32px 0;
+  }
+
+  .photo-grid img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    transition: transform var(--transition), box-shadow var(--transition);
+    cursor: pointer;
+  }
+
+  .photo-grid img:hover {
+    transform: scale(1.03);
+    box-shadow: var(--shadow-lg);
+  }
+
+  .photo-grid .photo-wide {
+    grid-column: span 2;
+    height: 280px;
+  }
+
+  .photo-grid .photo-tall {
+    grid-row: span 2;
+    height: 100%;
+    min-height: 452px;
+  }
+
+  @media (max-width: 640px) {
+    .photo-grid { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .photo-grid img { height: 160px; }
+    .photo-grid .photo-wide { grid-column: span 2; height: 200px; }
+    .photo-grid .photo-tall { grid-row: span 1; min-height: 160px; }
+  }
+
+  @media (max-width: 400px) {
+    .photo-grid { grid-template-columns: 1fr; }
+    .photo-grid .photo-wide { grid-column: span 1; }
+  }
+</style>

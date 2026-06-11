@@ -1,0 +1,105 @@
+---
+// GemBlock.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.gem-block)
+// Ne rend rien si gems est vide
+interface Gem {
+  id: string;
+  title: string;
+  body: string;
+  image: string;
+  links?: Array<{ label: string; url: string; }>;
+}
+
+interface ImageEntry { slot: string; file: string; alt: string; }
+
+interface Props {
+  gems: Gem[];
+  imageManifest: ImageEntry[];
+  dest: string;
+  title?: string;
+}
+
+const { gems, imageManifest, dest, title = 'Pépites & découvertes' } = Astro.props;
+
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{jpg,jpeg,png,webp}',
+  { eager: true }
+);
+
+function getImgSrc(slot: string): string | null {
+  const entry = imageManifest.find((img) => img.slot === slot);
+  if (!entry) return null;
+  const key = `/src/assets/destinations/${dest}/${entry.file}`;
+  return allImages[key]?.default?.src ?? null;
+}
+
+function getImgAlt(slot: string): string {
+  return imageManifest.find((img) => img.slot === slot)?.alt ?? '';
+}
+---
+
+{gems.length > 0 && (
+  <div class="gem-block">
+    <div class="gem-title">{title}</div>
+    {gems.map((gem) => {
+      const imgSrc = getImgSrc(gem.image);
+      return (
+        <div class="gem-item">
+          <div class="gem-item-name">{gem.title}</div>
+          <div class="gem-item-desc">{gem.body}</div>
+          {imgSrc && (
+            <img
+              class="gem-item-img"
+              src={imgSrc}
+              alt={getImgAlt(gem.image)}
+              loading="lazy"
+            />
+          )}
+        </div>
+      );
+    })}
+  </div>
+)}
+
+<style>
+  .gem-block {
+    background: linear-gradient(135deg, #F5F0FF 0%, #EDE8FA 100%);
+    border: 1px solid rgba(120, 80, 200, 0.12);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin: 24px 0;
+  }
+
+  .gem-title {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 16px;
+  }
+
+  .gem-item { margin-bottom: 14px; }
+  .gem-item:last-child { margin-bottom: 0; }
+
+  .gem-item-name { font-weight: 500; font-size: 14px; color: var(--text); }
+
+  .gem-item-desc {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.65;
+    margin-top: 2px;
+  }
+
+  .gem-item-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+    margin-top: 8px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  @media (max-width: 600px) {
+    .gem-item-img { height: 120px; }
+  }
+</style>

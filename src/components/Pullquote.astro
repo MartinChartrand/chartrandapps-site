@@ -1,0 +1,56 @@
+---
+// Pullquote.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.pullquote)
+// Render nothing si text vide/null
+interface Props {
+  text?: string | null;
+}
+
+const { text } = Astro.props;
+---
+
+{text && (
+  <blockquote class="pullquote">
+    <p>{text}</p>
+  </blockquote>
+)}
+
+<style>
+  .pullquote {
+    position: relative;
+    width: 100vw;
+    margin: 72px 0 56px calc(50% - 50vw);
+    padding: 48px 24px;
+    text-align: center;
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 300;
+    font-size: clamp(26px, 4vw, 42px);
+    line-height: 1.35;
+    color: var(--deep);
+    max-width: none;
+  }
+
+  .pullquote::before,
+  .pullquote::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 1px;
+    background: var(--terre);
+    margin: 0 auto 28px;
+  }
+
+  .pullquote::after {
+    margin: 28px auto 0;
+  }
+
+  .pullquote p {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 700px) {
+    .pullquote { padding: 32px 24px; margin: 48px 0 40px calc(50% - 50vw); }
+  }
+</style>

@@ -1,0 +1,98 @@
+---
+// Lightbox.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.lightbox)
+// Singleton — un seul par page, contrôlé par PhotoGrid via événements custom
+---
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo agrandie">
+  <button class="lightbox-close" id="lightbox-close" aria-label="Fermer">×</button>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<script>
+  const lb = document.getElementById('lightbox') as HTMLDivElement | null;
+  const lbImg = document.getElementById('lightbox-img') as HTMLImageElement | null;
+  const lbClose = document.getElementById('lightbox-close') as HTMLButtonElement | null;
+
+  function openLightbox(src: string, alt: string) {
+    if (!lb || !lbImg) return;
+    lbImg.src = src;
+    lbImg.alt = alt;
+    lb.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    lbClose?.focus();
+  }
+
+  function closeLightbox() {
+    if (!lb) return;
+    lb.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  lb?.addEventListener('click', (e) => {
+    if (e.target === lb) closeLightbox();
+  });
+
+  lbClose?.addEventListener('click', closeLightbox);
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && lb?.classList.contains('active')) closeLightbox();
+  });
+
+  // Écouter les ouvertures depuis PhotoGrid
+  document.addEventListener('lightbox:open', ((e: CustomEvent) => {
+    openLightbox(e.detail.src, e.detail.alt);
+  }) as EventListener);
+</script>
+
+<style>
+  .lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.92);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+    animation: lbFadeIn 0.3s ease-out;
+  }
+
+  @keyframes lbFadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
+  .lightbox.active { display: flex; }
+
+  .lightbox img {
+    max-width: 92vw;
+    max-height: 90vh;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 16px 64px rgba(0, 0, 0, 0.4);
+    cursor: default;
+  }
+
+  .lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    color: white;
+    font-size: 32px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+    line-height: 1;
+  }
+
+  .lightbox-close:hover { opacity: 1; }
+
+  .lightbox-close:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
+    border-radius: 4px;
+  }
+</style>

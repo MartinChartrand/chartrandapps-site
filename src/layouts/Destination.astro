@@ -1,0 +1,83 @@
+---
+// Destination.astro — layout principal pour les pages itinéraire
+// ARCHITECTURE §4 — identité magazine + thème par destination
+interface Props {
+  title: string;
+  favicon: string;
+  palette: string;
+  description?: string;
+  canonicalUrl?: string;
+}
+
+const { title, favicon, palette, description, canonicalUrl } = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr" data-theme={palette}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+    <link
+      rel="icon"
+      href={`data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>${favicon}</text></svg>`}
+    />
+
+    <!-- Google Fonts — Cormorant Garamond + DM Sans (identité magazine §4) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Leaflet CSS — sera utilisé par MapSection (ticket 40) -->
+    <link
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      rel="stylesheet"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Aller au contenu</a>
+    <slot />
+    <button class="back-top" id="back-top" aria-label="Retour en haut">↑</button>
+  </body>
+</html>
+
+<script>
+  // Scroll reveal
+  const observer = new IntersectionObserver(
+    (entries) => entries.forEach((e) => e.target.classList.toggle('in-view', e.isIntersecting)),
+    { rootMargin: '0px 0px -80px 0px' }
+  );
+  document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+  // Nav scrolled shadow
+  const nav = document.querySelector('.nav');
+  if (nav) {
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
+  }
+
+  // Back to top
+  const btn = document.getElementById('back-top');
+  if (btn) {
+    window.addEventListener('scroll', () => {
+      btn.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+    btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  }
+</script>
+
+<style is:global>
+  /* tokens.css + thèmes — importés via Astro (bundlés par Vite) */
+  @import '../styles/tokens.css';
+  @import '../styles/themes/crete.css';
+  @import '../styles/themes/turquie.css';
+</style>

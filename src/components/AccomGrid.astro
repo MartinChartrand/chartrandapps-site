@@ -1,0 +1,183 @@
+---
+// AccomGrid.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.accom-grid)
+// Filtre : roles contenant "sleep", groupé par tier (budget → mid → gem)
+interface Link { label: string; url: string; }
+
+interface Poi {
+  id: string;
+  name: string;
+  tier: 'budget' | 'mid' | 'gem' | null;
+  roles: string[];
+  blurb: string;
+  price: { range: string; currency: string; };
+  links?: { booking?: string | null; };
+  extraLinks?: Link[];
+  image: string;
+}
+
+interface ImageEntry { slot: string; file: string; alt: string; }
+
+interface Props {
+  pois: Poi[];
+  imageManifest: ImageEntry[];
+  dest: string;
+}
+
+const { pois, imageManifest, dest } = Astro.props;
+
+const TIER_ORDER: Array<'budget' | 'mid' | 'gem'> = ['budget', 'mid', 'gem'];
+
+const sleepPois = pois
+  .filter((p) => p.roles.includes('sleep'))
+  .sort((a, b) => {
+    const ai = TIER_ORDER.indexOf(a.tier as 'budget' | 'mid' | 'gem');
+    const bi = TIER_ORDER.indexOf(b.tier as 'budget' | 'mid' | 'gem');
+    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+  });
+
+const allImages = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{jpg,jpeg,png,webp}',
+  { eager: true }
+);
+
+function getImgSrc(slot: string): string | null {
+  const entry = imageManifest.find((img) => img.slot === slot);
+  if (!entry) return null;
+  const key = `/src/assets/destinations/${dest}/${entry.file}`;
+  const mod = allImages[key];
+  return mod?.default?.src ?? null;
+}
+
+function getImgAlt(slot: string): string {
+  return imageManifest.find((img) => img.slot === slot)?.alt ?? '';
+}
+---
+
+{sleepPois.length > 0 && (
+  <div class="accom-grid">
+    {sleepPois.map((poi) => {
+      const imgSrc = getImgSrc(poi.image);
+      const imgAlt = getImgAlt(poi.image);
+      return (
+        <div class="accom-card" id={`poi-${poi.id}`}>
+          {imgSrc && (
+            <img class="accom-img" src={imgSrc} alt={imgAlt} loading="lazy" />
+          )}
+          {poi.tier && (
+            <span class:list={['accom-tier', poi.tier]}>{poi.tier}</span>
+          )}
+          <div class="accom-name">{poi.name}</div>
+          <div class="accom-price">{poi.price.range} {poi.price.currency}</div>
+          <div class="accom-desc">{poi.blurb}</div>
+          {(poi.links?.booking || (poi.extraLinks && poi.extraLinks.length > 0)) && (
+            <div class="link-row">
+              {poi.links?.booking && (
+                <a class="link-pill booking" href={poi.links.booking} target="_blank" rel="noopener">
+                  Booking
+                </a>
+              )}
+              {poi.extraLinks?.map((l) => (
+                <a
+                  class:list={[
+                    'link-pill',
+                    l.label.toLowerCase().includes('booking') && 'booking',
+                    l.label.toLowerCase().includes('trip') && 'trip',
+                  ]}
+                  href={l.url}
+                  target="_blank"
+                  rel="noopener"
+                >
+                  {l.label}
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
+      );
+    })}
+  </div>
+)}
+
+<style>
+  .accom-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .accom-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    transition: box-shadow var(--transition), transform var(--transition);
+    position: relative;
+  }
+
+  .accom-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+
+  .accom-img {
+    width: calc(100% + 40px);
+    height: 140px;
+    object-fit: cover;
+    border-radius: var(--radius) var(--radius) 0 0;
+    margin: -20px -20px 14px -20px;
+    display: block;
+  }
+
+  .accom-tier {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .accom-tier.budget { background: #EAF5E9; color: #256B2F; }
+  .accom-tier.mid { background: var(--mer-light); color: var(--mer); }
+  .accom-tier.gem { background: #FEF3E2; color: #8B5516; }
+
+  .accom-name {
+    font-family: var(--font-serif);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 4px;
+  }
+
+  .accom-price { font-size: 13px; color: var(--terre); font-weight: 500; margin-bottom: 8px; }
+  .accom-desc { font-size: 13px; color: var(--muted); line-height: 1.65; }
+
+  .link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .link-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--mer-light);
+    color: var(--mer);
+    text-decoration: none;
+    transition: all var(--transition);
+    font-weight: 400;
+  }
+
+  .link-pill:hover { background: var(--mer); color: white; }
+  .link-pill.booking { background: #EBF5FB; color: #003580; }
+  .link-pill.booking:hover { background: #003580; color: white; }
+  .link-pill.trip { background: #F0FAF0; color: #00AA6C; }
+  .link-pill.trip:hover { background: #00AA6C; color: white; }
+
+  @media (max-width: 800px) { .accom-grid { grid-template-columns: 1fr; } }
+</style>

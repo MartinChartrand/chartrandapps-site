@@ -1,0 +1,181 @@
+/* tokens.css — ARCHITECTURE §4 : identité magazine partagée */
+/* Polices chargées depuis layouts/Destination.astro (Google Fonts) */
+
+:root {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+
+  /* Layout */
+  --max-w: 960px;
+  --radius: 12px;
+  --radius-sm: 8px;
+
+  /* Motion */
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Shadows */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.10);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: color-mix(in oklch, var(--terre, #C4714A) 20%, transparent);
+}
+
+/* Layout utilitaire */
+.container {
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.section {
+  padding: 64px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section-header {
+  margin-bottom: 44px;
+}
+
+.section-num {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--terre);
+  display: block;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-family: var(--font-serif);
+  font-size: clamp(32px, 5vw, 40px);
+  font-weight: 300;
+  line-height: 1.15;
+  color: var(--text);
+}
+
+.section-intro {
+  font-size: 15px;
+  color: var(--muted);
+  max-width: 620px;
+  margin-top: 14px;
+  line-height: 1.75;
+}
+
+/* Scroll reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s cubic-bezier(.2, .6, .2, 1), transform 0.9s cubic-bezier(.2, .6, .2, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Tab sections */
+.tab-section {
+  display: block;
+  scroll-margin-top: 72px;
+}
+
+.tab-section.bg-sand {
+  background: var(--sand);
+}
+
+@media (max-width: 700px) {
+  .tab-section { scroll-margin-top: 58px; }
+}
+
+/* Divider */
+.divider { height: 1px; background: var(--border); margin: 28px 0; }
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  background: var(--deep);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  z-index: 200;
+  font-size: 14px;
+  transition: top 0.2s;
+}
+
+.skip-link:focus { top: 16px; }
+
+/* Back to top */
+.back-top {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--deep);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: all var(--transition);
+  box-shadow: var(--shadow-lg);
+  z-index: 90;
+}
+
+.back-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+.back-top:hover { background: var(--terre); transform: translateY(-2px); }
+.back-top:focus-visible { outline: 2px solid var(--terre); outline-offset: 3px; }
+
+@media print {
+  .nav, .back-top { display: none !important; }
+  .tab-section { display: block !important; opacity: 1 !important; transform: none !important; }
+  .hero { background: #333 !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .section { page-break-inside: avoid; }
+}
+
+@media (max-width: 600px) {
+  .container { padding: 0 16px; }
+  .section { padding: 48px 0; }
+}

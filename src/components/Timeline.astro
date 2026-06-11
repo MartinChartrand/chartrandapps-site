@@ -1,0 +1,174 @@
+---
+// Timeline.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.timeline)
+interface Base {
+  slug: string;
+  title: string;
+  kicker?: string;
+  nights: number;
+  dates: string;
+  focus: string;
+  summary: string;
+  order: number;
+}
+
+interface Props {
+  bases: Base[];
+}
+
+const { bases } = Astro.props;
+const sorted = [...bases].sort((a, b) => a.order - b.order);
+---
+
+<div class="timeline">
+  {sorted.map((base, i) => (
+    <div class="tl-item">
+      <div class="tl-date">
+        <div class="tl-date-main">{base.dates}</div>
+        <div class="tl-date-sub">{base.nights} nuits</div>
+      </div>
+      <div class="tl-line-wrap">
+        <div class="tl-dot"></div>
+        {i < sorted.length - 1 && <div class="tl-line"></div>}
+      </div>
+      <div class="tl-content">
+        <div class="base-card">
+          <div class="base-card-header">
+            <div>
+              <div class="base-card-title">
+                {base.title}{base.kicker ? ` — ${base.kicker}` : ''}
+              </div>
+              <div class="base-card-region">{base.focus}</div>
+            </div>
+            <span class="base-badge">Base {i + 1}</span>
+          </div>
+          <div class="base-body">
+            <p>{base.summary}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
+
+<style>
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+
+  .tl-item {
+    display: grid;
+    grid-template-columns: 100px 1px 1fr;
+    gap: 0 28px;
+    position: relative;
+  }
+
+  .tl-date {
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 32px;
+  }
+
+  .tl-date-main {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.1;
+  }
+
+  .tl-date-sub {
+    font-size: 11px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .tl-line-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--terre);
+    flex-shrink: 0;
+    margin-top: 7px;
+    box-shadow: 0 0 0 4px color-mix(in oklch, var(--terre) 15%, transparent);
+    transition: transform var(--transition), box-shadow var(--transition);
+  }
+
+  .tl-item:hover .tl-dot {
+    transform: scale(1.3);
+    box-shadow: 0 0 0 6px color-mix(in oklch, var(--terre) 20%, transparent);
+  }
+
+  .tl-line {
+    width: 1px;
+    flex: 1;
+    background: linear-gradient(to bottom, var(--terre), var(--border));
+    margin-top: 6px;
+  }
+
+  .tl-content { padding-bottom: 40px; }
+
+  .base-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 6px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+
+  .base-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+
+  .base-card-header {
+    padding: 22px 24px 18px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .base-card-title {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .base-card-region {
+    font-size: 12px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  .base-badge {
+    font-size: 11px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: var(--sand);
+    color: var(--accent);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .base-body { padding: 20px 24px 24px; }
+
+  .base-body p {
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.7;
+  }
+
+  @media (max-width: 600px) {
+    .tl-item { grid-template-columns: 70px 1px 1fr; gap: 0 16px; }
+    .tl-date-main { font-size: 18px; }
+    .base-card-header { flex-direction: column; gap: 8px; }
+  }
+</style>

@@ -1,0 +1,176 @@
+---
+// InfoColumns.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.cols2 .info-block)
+// Composition éditoriale ORDONNÉE — pas de filtre par kind, ordre préservé
+interface Tag { text: string; tone?: 'amber' | 'green'; }
+interface Link { label: string; url: string; }
+
+interface InfoBlock {
+  label: string;
+  type: 'poi-list' | 'prose' | 'tags';
+  items?: string[];
+  body?: string;
+  tags?: Tag[];
+  footer?: string;
+}
+
+interface Poi {
+  id: string;
+  name: string;
+  blurb: string;
+  signature?: string;
+  links?: { official?: string | null; booking?: string | null; tripadvisor?: string | null; maps?: string | null; };
+  extraLinks?: Link[];
+}
+
+interface Props {
+  infoBlocks: InfoBlock[];
+  pois: Poi[];
+}
+
+const { infoBlocks, pois } = Astro.props;
+
+if (!infoBlocks || infoBlocks.length === 0) {
+  // Pas de markup vide
+}
+
+const poiMap = new Map(pois.map((p) => [p.id, p]));
+---
+
+{infoBlocks && infoBlocks.length > 0 && (
+  <div class="cols2">
+    {infoBlocks.map((block) => (
+      <div class="info-block">
+        <span class="info-label">{block.label}</span>
+        {block.type === 'poi-list' && block.items && (
+          <div class="info-body">
+            {block.items.map((id) => {
+              const poi = poiMap.get(id);
+              return poi ? (
+                <div class="poi-list-item" id={`poi-${poi.id}`}>
+                  <strong class="poi-list-name">{poi.name}</strong>
+                  {poi.signature && <span class="poi-list-sig"> — {poi.signature}</span>}
+                  <p class="poi-list-blurb">{poi.blurb}</p>
+                  {poi.extraLinks && poi.extraLinks.length > 0 && (
+                    <div class="link-row">
+                      {poi.extraLinks.map((l) => (
+                        <a
+                          class:list={[
+                            'link-pill',
+                            l.label.toLowerCase().includes('booking') && 'booking',
+                            l.label.toLowerCase().includes('trip') && 'trip',
+                          ]}
+                          href={l.url}
+                          target="_blank"
+                          rel="noopener"
+                        >
+                          {l.label}
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ) : null;
+            })}
+            {block.footer && <p class="info-footer">{block.footer}</p>}
+          </div>
+        )}
+        {block.type === 'prose' && block.body && (
+          <div class="info-body">{block.body}</div>
+        )}
+        {block.type === 'tags' && block.tags && (
+          <div class="tag-list">
+            {block.tags.map((tag) => (
+              <span class:list={['tag', tag.tone && tag.tone]}>{tag.text}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    ))}
+  </div>
+)}
+
+<style>
+  .cols2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+
+  .info-block { margin-bottom: 20px; }
+
+  .info-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 10px;
+    display: block;
+  }
+
+  .info-body {
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.7;
+  }
+
+  .info-body strong { font-weight: 500; }
+
+  .poi-list-item { margin-bottom: 12px; }
+  .poi-list-name { font-weight: 500; color: var(--deep); }
+  .poi-list-sig { color: var(--muted); font-size: 13px; }
+  .poi-list-blurb { font-size: 13px; color: var(--muted); margin-top: 2px; line-height: 1.6; }
+
+  .info-footer {
+    font-size: 12px;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 10px;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+  }
+
+  .tag-list { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+
+  .tag {
+    font-size: 12px;
+    padding: 4px 12px;
+    border-radius: 6px;
+    background: var(--mer-light);
+    color: var(--mer);
+    font-weight: 400;
+  }
+
+  .tag.amber { background: #FEF3E2; color: #8B5516; }
+  .tag.green { background: #EAF5E9; color: #256B2F; }
+
+  .link-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .link-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--mer-light);
+    color: var(--mer);
+    text-decoration: none;
+    transition: all var(--transition);
+    font-weight: 400;
+  }
+
+  .link-pill:hover { background: var(--mer); color: white; }
+  .link-pill.booking { background: #EBF5FB; color: #003580; }
+  .link-pill.booking:hover { background: #003580; color: white; }
+  .link-pill.trip { background: #F0FAF0; color: #00AA6C; }
+  .link-pill.trip:hover { background: #00AA6C; color: white; }
+
+  @media (max-width: 640px) { .cols2 { grid-template-columns: 1fr; } }
+</style>

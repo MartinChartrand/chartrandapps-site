@@ -1,0 +1,187 @@
+---
+// Hero.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (header.hero)
+interface HeroTitle { main: string; em: string; }
+interface Travelers { count: number; label: string; }
+interface Arrival { date: string; airport: string; city: string; }
+interface Departure { date: string; airport: string; city: string; }
+interface HeroImage { image: string; label: string; }
+
+interface Props {
+  heroTitle: HeroTitle;
+  heroSub: string;
+  hero: HeroImage;
+  travelers: Travelers;
+  arrival: Arrival;
+  departure: Departure;
+  season: string;
+  imageUrl?: string;
+}
+
+const { heroTitle, heroSub, hero, travelers, arrival, departure, imageUrl } = Astro.props;
+
+// Calculer le nombre de nuits entre arrivée et départ
+function calcNights(a: string, d: string): number {
+  const diff = new Date(d).getTime() - new Date(a).getTime();
+  return Math.round(diff / 86400000);
+}
+
+const nights = calcNights(arrival.date, departure.date);
+
+// Format date court : "5 sept."
+function fmtDate(iso: string): string {
+  const d = new Date(iso);
+  const months = ['janv.','févr.','mars','avr.','mai','juin','juill.','août','sept.','oct.','nov.','déc.'];
+  return `${d.getUTCDate()} ${months[d.getUTCMonth()]}`;
+}
+---
+
+<header
+  class="hero"
+  role="banner"
+  style={imageUrl
+    ? `background-image: linear-gradient(to bottom, rgba(26,42,58,0.65), rgba(26,42,58,0.82)), url('${imageUrl}');`
+    : undefined}
+>
+  <div class="hero-inner">
+    <p class="hero-label">{hero.label}</p>
+    <h1>{heroTitle.main}<br /><em>{heroTitle.em}</em></h1>
+    <p class="hero-sub">{heroSub}</p>
+    <div class="hero-meta" aria-label="Résumé du voyage">
+      <div class="hero-stat">
+        <span class="hero-stat-val">{fmtDate(arrival.date)}</span>
+        <span class="hero-stat-lbl">Arrivée {arrival.city}</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">{nights}</span>
+        <span class="hero-stat-lbl">Nuits</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">{fmtDate(departure.date)}</span>
+        <span class="hero-stat-lbl">Départ {departure.city}</span>
+      </div>
+      <div class="hero-sep" aria-hidden="true">—</div>
+      <div class="hero-stat">
+        <span class="hero-stat-val">{travelers.count}</span>
+        <span class="hero-stat-lbl">{travelers.label}</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<style>
+  .hero {
+    background: var(--deep);
+    color: white;
+    padding: 100px 40px 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 60% 30%, rgba(46,107,138,0.4) 0%, transparent 55%),
+      radial-gradient(ellipse at 20% 80%, rgba(196,113,74,0.3) 0%, transparent 45%),
+      radial-gradient(ellipse at 80% 70%, rgba(168,82,46,0.15) 0%, transparent 40%);
+    animation: heroShimmer 12s ease-in-out infinite alternate;
+  }
+
+  @keyframes heroShimmer {
+    0% { opacity: 0.85; }
+    100% { opacity: 1; }
+  }
+
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    animation: heroFadeIn 1s ease-out;
+  }
+
+  @keyframes heroFadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .hero-label {
+    font-family: var(--font-sans);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+    margin-bottom: 24px;
+  }
+
+  .hero h1 {
+    font-family: var(--font-serif);
+    font-size: clamp(56px, 9vw, 96px);
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 0.95;
+    margin-bottom: 10px;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: rgba(255,255,255,0.65);
+  }
+
+  .hero-sub {
+    font-family: var(--font-serif);
+    font-size: 21px;
+    font-weight: 300;
+    font-style: italic;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 44px;
+  }
+
+  .hero-meta {
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex-wrap: wrap;
+  }
+
+  .hero-stat { text-align: center; }
+
+  .hero-stat-val {
+    font-family: var(--font-serif);
+    font-size: 30px;
+    font-weight: 300;
+    display: block;
+    color: white;
+  }
+
+  .hero-stat-lbl {
+    font-size: 10px;
+    color: rgba(255,255,255,0.4);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .hero-sep {
+    color: rgba(255,255,255,0.15);
+    font-size: 20px;
+    align-self: center;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .hero::before { animation: none; }
+    .hero-inner { animation: none; }
+  }
+
+  @media (max-width: 600px) {
+    .hero { padding: 72px 24px 60px; }
+    .hero-meta { gap: 20px; }
+  }
+</style>

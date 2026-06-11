@@ -1,0 +1,17 @@
+---
+// MapSectionPlaceholder.astro — ARCHITECTURE §4
+// MapSection est HORS SCOPE (ticket 40) — slot/placeholder dans le gabarit de base
+interface Props {
+  baseSlug: string;
+}
+
+const { baseSlug } = Astro.props;
+---
+
+<!-- MapSection: ticket 40 — placeholder pour base "{baseSlug}" -->
+<div class="map-placeholder" data-base={baseSlug} aria-hidden="true"></div>
+
+<style>
+  /* Placeholder invisible — aucun rendu utilisateur */
+  .map-placeholder { display: none; }
+</style>

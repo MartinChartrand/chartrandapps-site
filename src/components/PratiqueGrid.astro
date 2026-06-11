@@ -1,0 +1,76 @@
+---
+// PratiqueGrid.astro — ARCHITECTURE §4
+// Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.pratique-grid)
+interface PratiqueItem {
+  label: string;
+  body: string;
+  [key: string]: unknown;
+}
+
+interface PratiqueGroup {
+  label: string;
+  items: PratiqueItem[];
+}
+
+interface Pratique {
+  groups: PratiqueGroup[];
+}
+
+interface Props {
+  pratique: Pratique;
+}
+
+const { pratique } = Astro.props;
+const allItems = pratique.groups.flatMap((g) => g.items);
+---
+
+{allItems.length > 0 && (
+  <div id="pratique" class="tab-section">
+    <div class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-num">Informations pratiques</span>
+          <h2 class="section-title">Pratique</h2>
+        </div>
+        <div class="pratique-grid">
+          {allItems.map((item) => (
+            <div class="prat-card">
+              <div class="prat-card-title">{item.label}</div>
+              <div class="prat-card-body">{item.body}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+)}
+
+<style>
+  .pratique-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .prat-card {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+
+  .prat-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+
+  .prat-card-title { font-weight: 500; font-size: 14px; margin-bottom: 10px; }
+
+  .prat-card-body {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.75;
+  }
+
+  .prat-card-body strong { color: var(--text); font-weight: 500; }
+
+  @media (max-width: 640px) { .pratique-grid { grid-template-columns: 1fr; } }
+</style>

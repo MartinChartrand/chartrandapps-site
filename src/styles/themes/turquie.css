@@ -1,0 +1,17 @@
+/* Thème Turquie — ARCHITECTURE §4 */
+/* Palette inspirée du v1 Turquie — variables additionnelles permises (--gold turc) */
+
+[data-theme="turquie"] {
+  --terre: #8B4513;
+  --sand: #F5EDD6;
+  --deep: #1A1520;
+  --mer: #1B6B8C;
+  --mer-light: #E5F3F8;
+  --text: #1C1C2E;
+  --muted: #64607A;
+  --border: rgba(28, 28, 46, 0.10);
+  --accent: #C4711E;
+  --bg: #FDFBF7;
+  --white: #FFFFFF;
+  --gold: #C9962A;
+}

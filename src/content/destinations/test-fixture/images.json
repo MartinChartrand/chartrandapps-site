@@ -1,0 +1,57 @@
+[
+  {
+    "id": "testville-cover",
+    "slot": "testville-cover",
+    "file": "testville-cover.jpg",
+    "alt": "Vue aérienne de Testville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": { "source": "unsplash", "photoId": "test1", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "sha256": "testville-cover-sha",
+    "visionChecked": "2026-06-11"
+  },
+  {
+    "id": "auberge-test-img",
+    "slot": "auberge-test-img",
+    "file": "auberge-test-img.jpg",
+    "alt": "Chambre de l'Auberge du Test",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": { "source": "unsplash", "photoId": "test2", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "sha256": "auberge-test-img-sha",
+    "visionChecked": "2026-06-11"
+  },
+  {
+    "id": "resto-test-img",
+    "slot": "resto-test-img",
+    "file": "resto-test-img.jpg",
+    "alt": "Salle du Resto du Test",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": { "source": "unsplash", "photoId": "test3", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "sha256": "resto-test-img-sha",
+    "visionChecked": "2026-06-11"
+  },
+  {
+    "id": "sight-test-img",
+    "slot": "sight-test-img",
+    "file": "sight-test-img.jpg",
+    "alt": "Panorama depuis Testville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": { "source": "unsplash", "photoId": "test4", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "sha256": "sight-test-img-sha",
+    "visionChecked": "2026-06-11"
+  },
+  {
+    "id": "plat-test-img",
+    "slot": "plat-test-img",
+    "file": "plat-test-img.jpg",
+    "alt": "Le plat emblématique du test",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": { "source": "unsplash", "photoId": "test5", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "sha256": "plat-test-img-sha",
+    "visionChecked": "2026-06-11"
+  }
+]
