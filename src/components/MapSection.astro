@@ -1,0 +1,142 @@
+---
+// MapSection.astro — ARCHITECTURE §4 (FR-4)
+// Vanilla: IntersectionObserver + import('leaflet') dynamique, markers depuis POIs onMap:true.
+
+interface PoiCoords {
+  lat: number;
+  lng: number;
+}
+
+interface PoiData {
+  id: string;
+  name: string;
+  mapType: string;
+  coords: PoiCoords;
+  onMap: boolean;
+}
+
+interface Props {
+  pois: PoiData[];
+  baseSlug: string;
+}
+
+const { pois, baseSlug } = Astro.props;
+
+// Filtrer les POIs à afficher sur la carte — onMap:true uniquement
+const mapPois = pois.filter((p) => p.onMap);
+
+// Sérialiser uniquement les champs utiles (surface minimale dans le HTML)
+const serialized = mapPois.map((p) => ({
+  id: p.id,
+  name: p.name,
+  mapType: p.mapType,
+  coords: { lat: p.coords.lat, lng: p.coords.lng },
+}));
+---
+
+{mapPois.length > 0 && (
+  <div class="map-section reveal" data-map-container data-base={baseSlug}>
+    <script type="application/json" id={`map-data-${baseSlug}`} set:html={JSON.stringify(serialized)} />
+    <div class="map-loading" aria-hidden="true">Chargement de la carte…</div>
+  </div>
+)}
+
+<script>
+  (function () {
+    const GLYPHS: Record<string, string> = {
+      hotel: '🏨',
+      resto: '🍽️',
+      plage: '🏖️',
+      sight: '🏛️',
+    };
+
+    function initMap(container: HTMLElement) {
+      const base = container.dataset.base;
+      if (!base) return;
+      const dataEl = document.getElementById('map-data-' + base);
+      if (!dataEl) return;
+
+      let pois: Array<{ id: string; name: string; mapType: string; coords: { lat: number; lng: number } }>;
+      try {
+        pois = JSON.parse(dataEl.textContent ?? '[]');
+      } catch {
+        return;
+      }
+      if (!pois.length) return;
+
+      // Centre = centroïde des markers
+      const avgLat = pois.reduce((s, p) => s + p.coords.lat, 0) / pois.length;
+      const avgLng = pois.reduce((s, p) => s + p.coords.lng, 0) / pois.length;
+
+      import('leaflet').then(({ default: L }) => {
+        // Retirer le message de chargement
+        const loading = container.querySelector('.map-loading');
+        if (loading) loading.remove();
+
+        const map = L.map(container, { zoomControl: true }).setView([avgLat, avgLng], 13);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+          attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          maxZoom: 19,
+        }).addTo(map);
+
+        pois.forEach((poi) => {
+          const glyph = GLYPHS[poi.mapType] ?? '📍';
+          const icon = L.divIcon({
+            html: `<span class="map-glyph" aria-label="${poi.mapType}">${glyph}</span>`,
+            className: '',
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+          });
+          L.marker([poi.coords.lat, poi.coords.lng], { icon })
+            .bindPopup(`<strong>${poi.name}</strong>`)
+            .addTo(map);
+        });
+      });
+    }
+
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          obs.unobserve(entry.target);
+          initMap(entry.target as HTMLElement);
+        });
+      },
+      { rootMargin: '200px' }
+    );
+
+    document.querySelectorAll<HTMLElement>('[data-map-container]').forEach((el) => obs.observe(el));
+  })();
+</script>
+
+<style>
+  @import 'leaflet/dist/leaflet.css';
+
+  .map-section {
+    margin: 32px 0;
+    border-radius: var(--radius-sm, 8px);
+    overflow: hidden;
+    height: 380px;
+    background: var(--sand, #f5f0e8);
+    position: relative;
+  }
+
+  .map-loading {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    color: var(--muted, #888);
+    pointer-events: none;
+  }
+
+  :global(.map-glyph) {
+    font-size: 22px;
+    line-height: 1;
+    display: block;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+  }
+</style>

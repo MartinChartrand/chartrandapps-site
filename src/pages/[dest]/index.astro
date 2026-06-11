@@ -15,7 +15,7 @@ import Lightbox from '../../components/Lightbox.astro';
 import AccomGrid from '../../components/AccomGrid.astro';
 import FoodieBlock from '../../components/FoodieBlock.astro';
 import GemBlock from '../../components/GemBlock.astro';
-import MapSectionPlaceholder from '../../components/MapSectionPlaceholder.astro';
+import MapSection from '../../components/MapSection.astro';
 import BudgetSection from '../../components/BudgetSection.astro';
 import PratiqueGrid from '../../components/PratiqueGrid.astro';
 
@@ -194,8 +194,8 @@ const totalNights =
               {/* AccomGrid — POIs avec role sleep, triés par tier */}
               <AccomGrid pois={basePois} imageManifest={imageManifest} dest={dest} />
 
-              {/* MapSection placeholder (ticket 40) */}
-              <MapSectionPlaceholder baseSlug={bd.slug} />
+              {/* MapSection vanilla Leaflet (FR-4) */}
+              <MapSection pois={basePois} baseSlug={bd.slug} />
 
             </div>
           </div>

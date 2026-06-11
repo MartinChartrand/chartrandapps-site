@@ -108,3 +108,38 @@ test('T7: extraLinks → classe .link-pill présente dans le HTML', () => {
   assert.ok(pillCount > 0, 'Aucun .link-pill trouvé dans le HTML (extraLinks non rendus)');
   assert.ok(html.includes('AllTrails Test'), 'Le label AllTrails Test absent du HTML');
 });
+
+// T8. package.json sans framework UI (react/svelte/vue/preact) — ARCHITECTURE §4 + ticket FR-4
+test('T8: package.json sans framework UI (react/svelte/vue/preact)', () => {
+  const pkg = JSON.parse(readFileSync(join(ROOT, 'package.json'), 'utf-8'));
+  const allDeps = { ...pkg.dependencies, ...pkg.devDependencies };
+  const forbidden = [
+    'react', 'svelte', 'vue', 'preact',
+    '@astrojs/react', '@astrojs/svelte', '@astrojs/vue', '@astrojs/preact',
+  ];
+  for (const dep of forbidden) {
+    assert.ok(!allDeps[dep], `Framework UI interdit trouvé dans package.json: ${dep}`);
+  }
+});
+
+// T9. MapSection : données markers sérialisées dans le HTML builté contiennent nom+coords d'un POI onMap
+test('T9: markers sérialisés contiennent nom+coords d\'un POI onMap de la fixture', () => {
+  // POI témoin : auberge-test (onMap:true, lat:48.85, lng:2.35, name:"Auberge du Test")
+  // Les données sont sérialisées dans <script type="application/json" id="map-data-testville">
+  assert.ok(
+    html.includes('map-data-testville'),
+    'Balise map-data-testville absente du HTML (MapSection non intégré)'
+  );
+  assert.ok(
+    html.includes('Auberge du Test'),
+    'Nom POI onMap "Auberge du Test" absent des données markers'
+  );
+  assert.ok(
+    html.includes('48.85'),
+    'Latitude 48.85 du POI onMap absente des données markers'
+  );
+  assert.ok(
+    html.includes('2.35'),
+    'Longitude 2.35 du POI onMap absente des données markers'
+  );
+});
