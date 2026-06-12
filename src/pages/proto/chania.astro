@@ -693,13 +693,15 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
           iconAnchor: [16, 16],
         });
         const marker = L.marker([m.coords.lat, m.coords.lng], { icon }).addTo(map);
+        // Tooltip permanente JAMAIS fermée côté Leaflet (bug connu : une tooltip
+        // permanent fermée se rouvre après un zoom — vécu sur iPhone, les 15 d'un
+        // coup). On la laisse « ouverte » et on contrôle la visibilité en CSS.
         marker.bindTooltip(m.name, {
           permanent: true,
           direction: 'top',
           offset: [0, -16],
-          className: 'map-tip',
+          className: 'map-tip tip-hidden',
         });
-        marker.closeTooltip();
         markerById.set(m.id, marker);
         coordsById.set(m.id, [m.coords.lat, m.coords.lng]);
       });
@@ -712,8 +714,8 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
           marker.setOpacity(hasFocus && !active ? 0.35 : 1);
           const el2 = marker.getElement();
           if (el2) el2.classList.toggle('is-active', active);
-          if (active) marker.openTooltip();
-          else marker.closeTooltip();
+          const tipEl = marker.getTooltip()?.getElement();
+          if (tipEl) tipEl.classList.toggle('tip-hidden', !active);
         });
       }
 
@@ -1243,6 +1245,7 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     padding: 4px 10px;
   }
   :global(.map-tip::before) { display: none; }
+  :global(.map-tip.tip-hidden) { display: none; }
 
   @media (max-width: 640px) {
     /* Compaction mobile : la carte de texte doit laisser le haut de l'écran à la
