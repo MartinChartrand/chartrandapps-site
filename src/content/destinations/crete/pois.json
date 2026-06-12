@@ -1,0 +1,2256 @@
+[
+  {
+    "id": "halepa-hotel",
+    "base": "chania",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Halepa Hotel",
+    "blurb": "",
+    "signature": "",
+    "image": "halepa-hotel-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5179,
+      "lng": 24.0362,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Halepa+Hotel+Chania+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "ionas-boutique-hotel",
+    "base": "chania",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Ionas Boutique Hotel",
+    "blurb": "",
+    "signature": "",
+    "image": "ionas-boutique-hotel-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5163,
+      "lng": 24.015,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ionas+Boutique+Hotel+Chania"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "tamam",
+    "base": "chania",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Tamam",
+    "blurb": "",
+    "signature": "",
+    "image": "tamam-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5165,
+      "lng": 24.0163,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "chrisostomos",
+    "base": "chania",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Chrisostomos",
+    "blurb": "",
+    "signature": "",
+    "image": "chrisostomos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5162,
+      "lng": 24.0245,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Chrisostomos+Restaurant+Chania"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "evgonia",
+    "base": "chania",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Evgonia",
+    "blurb": "",
+    "signature": "",
+    "image": "evgonia-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5147,
+      "lng": 24.0185,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Evgonia+Milonogianni+Chania"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "ntourountous-loukoumades",
+    "base": "chania",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Ntourountous (loukoumades)",
+    "blurb": "",
+    "signature": "",
+    "image": "ntourountous-loukoumades-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.514,
+      "lng": 24.0185,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ntourountous+bakery+Place+1866+Chania"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "splantzia-vieille-ville",
+    "base": "chania",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Splantzia (vieille ville)",
+    "blurb": "",
+    "signature": "",
+    "image": "splantzia-vieille-ville-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5167,
+      "lng": 24.0225,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Splantzia+Square+Chania+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "profiti-ilia-tombeaux-venizelos",
+    "base": "chania",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Profiti Ilia (Tombeaux Venizelos)",
+    "blurb": "",
+    "signature": "",
+    "image": "profiti-ilia-tombeaux-venizelos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5185,
+      "lng": 24.0355,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tafoi+Venizelou+Chania"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "manousakis-winery",
+    "base": "chania",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Manousakis Winery",
+    "blurb": "",
+    "signature": "",
+    "image": "manousakis-winery-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.4495,
+      "lng": 23.8876,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Manousakis+Winery+Chania+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "karavitakis-winery",
+    "base": "chania",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Karavitakis Winery",
+    "blurb": "",
+    "signature": "",
+    "image": "karavitakis-winery-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.502,
+      "lng": 23.791,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Karavitakis+Winery+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "nea-chora",
+    "base": "chania",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Nea Chora",
+    "blurb": "",
+    "signature": "",
+    "image": "nea-chora-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5143,
+      "lng": 24.0071,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Nea+Chora+Beach+Chania"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "falassarna",
+    "base": "chania",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Falassarna",
+    "blurb": "",
+    "signature": "",
+    "image": "falassarna-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5037,
+      "lng": 23.5772,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "elafonisi",
+    "base": "chania",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Elafonisi",
+    "blurb": "",
+    "signature": "",
+    "image": "elafonisi-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2715,
+      "lng": 23.5418,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Elafonisi+Beach+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "balos",
+    "base": "chania",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Balos",
+    "blurb": "",
+    "signature": "",
+    "image": "balos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5865,
+      "lng": 23.5987,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Balos+Lagoon+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "seitan-limania",
+    "base": "chania",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Seitan Limania",
+    "blurb": "",
+    "signature": "",
+    "image": "seitan-limania-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.5519,
+      "lng": 24.1934,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Seitan+Limania+Chania+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "hotel-porto-loutro",
+    "base": "loutro",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Hotel Porto Loutro",
+    "blurb": "",
+    "signature": "",
+    "image": "hotel-porto-loutro-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1992,
+      "lng": 24.0783,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel+Porto+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "hotel-anna",
+    "base": "loutro",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Hotel Anna",
+    "blurb": "",
+    "signature": "",
+    "image": "hotel-anna-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1989,
+      "lng": 24.078,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel+Anna+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "blue-house",
+    "base": "loutro",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Blue House",
+    "blurb": "",
+    "signature": "",
+    "image": "blue-house-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.199,
+      "lng": 24.0788,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Blue+House+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "notos-restaurant-rooms",
+    "base": "loutro",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "sleep",
+      "eat"
+    ],
+    "name": "Notos Restaurant & Rooms",
+    "blurb": "",
+    "signature": "",
+    "image": "notos-restaurant-rooms-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1991,
+      "lng": 24.0785,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "stratis-taverna",
+    "base": "loutro",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Stratis Taverna",
+    "blurb": "",
+    "signature": "",
+    "image": "stratis-taverna-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1988,
+      "lng": 24.0782,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Stratis+Taverna+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "ilios-taverna",
+    "base": "loutro",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Ilios Taverna",
+    "blurb": "",
+    "signature": "",
+    "image": "ilios-taverna-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1992,
+      "lng": 24.079,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ilios+Taverna+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "old-phoenix-finix-cove",
+    "base": "loutro",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Old Phoenix (Finix cove)",
+    "blurb": "",
+    "signature": "",
+    "image": "old-phoenix-finix-cove-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2005,
+      "lng": 24.07,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "glyka-nera-sweet-water",
+    "base": "loutro",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Glyka Nera (Sweet Water)",
+    "blurb": "",
+    "signature": "",
+    "image": "glyka-nera-sweet-water-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2016,
+      "lng": 24.107,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Glyka+Nera+Sweetwater+Beach+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "marmara-beach",
+    "base": "loutro",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Marmara Beach",
+    "blurb": "",
+    "signature": "",
+    "image": "marmara-beach-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1967,
+      "lng": 24.0582,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "chora-sfakion-embarquement",
+    "base": "loutro",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Chora Sfakion (embarquement)",
+    "blurb": "",
+    "signature": "",
+    "image": "chora-sfakion-embarquement-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2013,
+      "lng": 24.1361,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Chora+Sfakion+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "nereids-apartments",
+    "base": "sitia",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Nereids Apartments",
+    "blurb": "",
+    "signature": "",
+    "image": "nereids-apartments-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2064,
+      "lng": 26.1055,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Nereids+Apartments+Sitia+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "elysee-hotel",
+    "base": "sitia",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Elysee Hotel",
+    "blurb": "",
+    "signature": "",
+    "image": "elysee-hotel-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2062,
+      "lng": 26.1077,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Elysee+Hotel+Sitia+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "livikoview-xerokambos",
+    "base": "sitia",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Livikoview Xerokambos",
+    "blurb": "",
+    "signature": "",
+    "image": "livikoview-xerokambos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.0445,
+      "lng": 26.2275,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Livikoview+Xerokambos+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "zorbas-tavern",
+    "base": "sitia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Zorbas Tavern",
+    "blurb": "",
+    "signature": "",
+    "image": "zorbas-tavern-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2064,
+      "lng": 26.1062,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Zorbas+Tavern+Sitia+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "inodion",
+    "base": "sitia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Inodion",
+    "blurb": "",
+    "signature": "",
+    "image": "inodion-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2064,
+      "lng": 26.1068,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Inodion+Restaurant+Sitia+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "tzivaeri",
+    "base": "sitia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Tzivaeri",
+    "blurb": "",
+    "signature": "",
+    "image": "tzivaeri-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2064,
+      "lng": 26.1073,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tzivaeri+Tavern+Sitia+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "mazzida-ammos-xerokambos",
+    "base": "sitia",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Mazzida Ammos (Xerokambos)",
+    "blurb": "",
+    "signature": "",
+    "image": "mazzida-ammos-xerokambos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.0438,
+      "lng": 26.227,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mazzida+Ammos+Xerokambos+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "sitia-vieille-ville",
+    "base": "sitia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Sitia (vieille ville)",
+    "blurb": "",
+    "signature": "",
+    "image": "sitia-vieille-ville-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2066,
+      "lng": 26.105,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sitia+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "vai-palmeraie",
+    "base": "sitia",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Vaï (palmeraie)",
+    "blurb": "",
+    "signature": "",
+    "image": "vai-palmeraie-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2546,
+      "lng": 26.2649,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vai+Beach+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "psili-ammos",
+    "base": "sitia",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Psili Ammos",
+    "blurb": "",
+    "signature": "",
+    "image": "psili-ammos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2514,
+      "lng": 26.2672,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Psili+Ammos+Vai+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "xerokambos",
+    "base": "sitia",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Xerokambos",
+    "blurb": "",
+    "signature": "",
+    "image": "xerokambos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.0442,
+      "lng": 26.2267,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Xerokambos+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "argilos-beach",
+    "base": "sitia",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Argilos Beach",
+    "blurb": "",
+    "signature": "",
+    "image": "argilos-beach-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.042,
+      "lng": 26.226,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Argilos+Beach+Xerokambos+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kato-zakros-palais-minoen",
+    "base": "sitia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Kato Zakros (palais minoen)",
+    "blurb": "",
+    "signature": "",
+    "image": "kato-zakros-palais-minoen-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.0975,
+      "lng": 26.2628,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "monastere-de-toplou",
+    "base": "sitia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Monastère de Toplou",
+    "blurb": "",
+    "signature": "",
+    "image": "monastere-de-toplou-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2216,
+      "lng": 26.2161,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "spinalonga",
+    "base": "sitia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Spinalonga",
+    "blurb": "",
+    "signature": "",
+    "image": "spinalonga-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.2978,
+      "lng": 25.738,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Spinalonga+Island+Elounda+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "atelier-vieux-port",
+    "base": "rethymno",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Atelier Vieux Port",
+    "blurb": "",
+    "signature": "",
+    "image": "atelier-vieux-port-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3695,
+      "lng": 24.4775,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Atelier+Vieux+Port+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "pepi-boutique-hotel",
+    "base": "rethymno",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Pepi Boutique Hotel",
+    "blurb": "",
+    "signature": "",
+    "image": "pepi-boutique-hotel-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.369,
+      "lng": 24.474,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Pepi+Boutique+Hotel+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "rimondi-boutique-hotel",
+    "base": "rethymno",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Rimondi Boutique Hotel",
+    "blurb": "",
+    "signature": "",
+    "image": "rimondi-boutique-hotel-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.37,
+      "lng": 24.4747,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Rimondi+Boutique+Hotel+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "avli",
+    "base": "rethymno",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Avli",
+    "blurb": "",
+    "signature": "",
+    "image": "avli-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3696,
+      "lng": 24.4735,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Avli+restaurant+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "prima-plora",
+    "base": "rethymno",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Prima Plora",
+    "blurb": "",
+    "signature": "",
+    "image": "prima-plora-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3683,
+      "lng": 24.481,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Prima+Plora+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "zefyros-fish-taverna",
+    "base": "rethymno",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Zefyros Fish Taverna",
+    "blurb": "",
+    "signature": "",
+    "image": "zefyros-fish-taverna-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3697,
+      "lng": 24.478,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Zefyros+Fish+Taverna+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "taverna-alekos-armenoi",
+    "base": "rethymno",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Taverna Alekos (Armenoi)",
+    "blurb": "",
+    "signature": "",
+    "image": "taverna-alekos-armenoi-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3176,
+      "lng": 24.4629,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Taverna+Alekos+Armenoi+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "sella-vineria",
+    "base": "rethymno",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Sella Vineria",
+    "blurb": "",
+    "signature": "",
+    "image": "sella-vineria-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3692,
+      "lng": 24.4725,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sella+Vineria+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "rewine",
+    "base": "rethymno",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Rewine",
+    "blurb": "",
+    "signature": "",
+    "image": "rewine-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3694,
+      "lng": 24.474,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Rewine+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "chrysoulas-cooking-class-pigi",
+    "base": "rethymno",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Chrysoula's Cooking Class (Pigi)",
+    "blurb": "",
+    "signature": "",
+    "image": "chrysoulas-cooking-class-pigi-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3489,
+      "lng": 24.4893,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Chrysoula+cooking+class+Pigi+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "yiorgos-hatziparaskos-phyllo-baklava",
+    "base": "rethymno",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Yiorgos Hatziparaskos (phyllo & baklava)",
+    "blurb": "",
+    "signature": "",
+    "image": "yiorgos-hatziparaskos-phyllo-baklava-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.369,
+      "lng": 24.475,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Yiorgos+Hatziparaskos+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "rethymno-vieille-ville",
+    "base": "rethymno",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Rethymno (vieille ville)",
+    "blurb": "",
+    "signature": "",
+    "image": "rethymno-vieille-ville-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3676,
+      "lng": 24.4736,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://maps.google.com/maps?q=Rethymno+Old+Town+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "fortezza",
+    "base": "rethymno",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Fortezza",
+    "blurb": "",
+    "signature": "",
+    "image": "fortezza-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3721,
+      "lng": 24.4709,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://maps.google.com/maps?q=Fortezza+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "marche-du-mercredi-koumoundourou",
+    "base": "rethymno",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Marché du mercredi (Koumoundourou)",
+    "blurb": "",
+    "signature": "",
+    "image": "marche-du-mercredi-koumoundourou-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3688,
+      "lng": 24.4732,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Koumoundourou+Street+Rethymno"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "monastere-darkadi",
+    "base": "rethymno",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Monastère d'Arkadi",
+    "blurb": "",
+    "signature": "",
+    "image": "monastere-darkadi-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.3099,
+      "lng": 24.6294,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://maps.google.com/maps?q=Arkadi+Monastery+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "preveli",
+    "base": "rethymno",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Preveli",
+    "blurb": "",
+    "signature": "",
+    "image": "preveli-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1525,
+      "lng": 24.4738,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://maps.google.com/maps?q=Preveli+Beach+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "plakias",
+    "base": "rethymno",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Plakias",
+    "blurb": "",
+    "signature": "",
+    "image": "plakias-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1914,
+      "lng": 24.3966,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://maps.google.com/maps?q=Plakias+Beach+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "damnoni",
+    "base": "rethymno",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Damnoni",
+    "blurb": "",
+    "signature": "",
+    "image": "damnoni-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1775,
+      "lng": 24.4154,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Damnoni+Beach+Crete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "korakas",
+    "base": "rethymno",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Korakas",
+    "blurb": "",
+    "signature": "",
+    "image": "korakas-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 35.1872,
+      "lng": 24.3152,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://maps.google.com/maps?q=Korakas+Beach+Plakias"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  }
+]

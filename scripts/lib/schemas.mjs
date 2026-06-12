@@ -150,7 +150,7 @@ export const budgetSchema = z.object({
     )
     .default([]),
   lines: z.array(z.object({ label: z.string() }).passthrough()).default([]),
-  scenarios: z.array(z.object({ name: z.string(), total: z.number(), desc: z.string() })).default([]),
+  scenarios: z.array(z.object({ name: z.string(), total: z.union([z.number(), z.string()]).optional(), desc: z.string() }).passthrough()).default([]),
   advice: z.string().optional(),
 });
 

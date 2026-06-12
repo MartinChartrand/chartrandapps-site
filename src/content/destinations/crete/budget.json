@@ -1,0 +1,81 @@
+{
+  "statCards": [
+    {
+      "value": "~11 400 $",
+      "label": "Total pour 2 personnes, 30 jours"
+    },
+    {
+      "value": "~5 700 $",
+      "label": "Par personne, tout inclus"
+    },
+    {
+      "value": "~320 $",
+      "label": "Par jour sur place, pour 2"
+    },
+    {
+      "value": "1 € ≈ 1,50 $",
+      "label": "Taux de référence CAD"
+    }
+  ],
+  "lines": [
+    {
+      "label": "Vols aller-retour (2 pers.)",
+      "category": "YOW ou YUL → CHQ (Chania), retour HER (Héraklion) → YUL · via hub européen, sans transit USA",
+      "amount": "~2 000 $"
+    },
+    {
+      "label": "Hébergement (30 nuits)",
+      "category": "Chania 8n (~80€) · Loutro 6n (~100€, hôtel) · Sitia 9n (~65€) · Rethymno 7n (~70€)",
+      "amount": "~3 350 $"
+    },
+    {
+      "label": "Location de voiture (24 jours)",
+      "category": "Petite voiture ~30€/jour tout inclus · Voiture garée à Chora Sfakion pendant Loutro (6 nuits)",
+      "amount": "~1 080 $"
+    },
+    {
+      "label": "Essence",
+      "category": "~500 km de conduite au total, diesel ~1,80€/litre",
+      "amount": "~150 $"
+    },
+    {
+      "label": "Ferries et bateaux-taxis · Loutro",
+      "category": "Ferry ANENDYK Chora Sfakion ↔ Loutro · Bateaux-taxis vers Glyka Nera et Marmara",
+      "amount": "~300 $"
+    },
+    {
+      "label": "Parking Chora Sfakion (6 nuits)",
+      "category": "Parking du port, ~6€/nuit",
+      "amount": "~55 $"
+    },
+    {
+      "label": "Nourriture et boissons",
+      "category": "Épicerie matin/midi · Taverna le soir pour 2 avec vin : ~45–55€ · ~75€/jour en moyenne",
+      "amount": "~3 375 $"
+    },
+    {
+      "label": "Activités, sites, excursions",
+      "category": "Bateau Balos, Spinalonga · Sites archéologiques · Marchés, produits locaux · Imprévus",
+      "amount": "~700 $"
+    },
+    {
+      "label": "Assurance voyage",
+      "category": "2 personnes, couverture médicale complète, 30 jours",
+      "amount": "~350 $"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Budget serré",
+      "total": "",
+      "desc": "~9 500 $ (Airbnb moins central, plus de repas cuisinés, voiture moins récente)"
+    },
+    {
+      "name": "Budget confort+",
+      "total": "",
+      "desc": "~13 500 $ (boutique hôtels, restaurant gastronomique 2–3 fois)"
+    }
+  ],
+  "advice": "Budget serré : ~9 500 $ (Airbnb moins central, plus de repas cuisinés, voiture moins récente) · Budget confort+ : ~13 500 $ (boutique hôtels, restaurant gastronomique 2–3 fois) · Le poste le plus négociable reste l'hébergement — pour un séjour d'un mois, contacter directement les propriétaires Booking.com et demander une réduction de 15–25%.",
+  "total": "~11 360 $"
+}

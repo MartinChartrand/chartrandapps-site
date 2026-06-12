@@ -1,0 +1,37 @@
+{
+  "slug": "crete",
+  "heroTitle": {
+    "main": "Crète",
+    "em": "septembre 2027"
+  },
+  "heroSub": "Un mois dans le sud de l'île",
+  "subtitle": "Un mois dans le sud de l'île",
+  "season": "Septembre 2027",
+  "travelers": {
+    "count": 2,
+    "label": "Voyage en duo"
+  },
+  "arrival": {
+    "date": "",
+    "airport": "",
+    "city": ""
+  },
+  "departure": {
+    "date": "",
+    "airport": "",
+    "city": ""
+  },
+  "theme": {
+    "favicon": "🏝️",
+    "palette": "crete"
+  },
+  "hero": {
+    "image": "hero",
+    "label": "Itinéraire · Voyage en duo"
+  },
+  "overviewIntro": "Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire suit la géographie ouest → sud → est → centre, de l'arrivée à Chania jusqu'au départ depuis Héraklion.",
+  "intro": {
+    "whySeason": "Eau à 26–28°C — le maximum thermique annuel. Foules divisées par trois après le 15 août. Les Crétois reprennent leur île. Lumière d'automne dorée, idéale pour la photo. Tarifs 30–40% inférieurs à juillet–août.",
+    "logistics": "Vol aller Montréal → Chania (CHQ), retour Héraklion (HER) → Montréal. Voiture louée à Chania pour toute la durée, sauf pendant Loutro (6 nuits) où elle reste garée à Chora Sfakion. Budget total estimé : ~11 400 $ CAD pour deux."
+  }
+}
