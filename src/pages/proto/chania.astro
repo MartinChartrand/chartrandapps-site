@@ -634,14 +634,8 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     if (el.tagName === 'BUTTON') el.addEventListener('click', () => setMode(el.dataset.mode!));
   });
 
-  // Hauteur réelle de la topbar (varie sur iPhone si le titre wrap) → la mini-carte
-  // du carnet se colle exactement dessous, sans fente où le texte serait visible.
-  const topbar = document.querySelector<HTMLElement>('.topbar');
-  function syncTopbarHeight() {
-    if (topbar) document.documentElement.style.setProperty('--topbar-h', `${topbar.offsetHeight}px`);
-  }
-  syncTopbarHeight();
-  window.addEventListener('resize', syncTopbarHeight, { passive: true });
+  // (La hauteur de la topbar est FIXE en CSS — la mesure JS au chargement attrapait
+  // le wrap temporaire des fontes fallback → carte 70px trop basse, vu sur iPhone.)
   // Usage répété : on rouvre dans le dernier mode utilisé (le hash explicite gagne).
   let storedMode: string | null = null;
   try {
@@ -800,6 +794,7 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
       if (!el || proto.dataset.view !== 'carnet') return;
       carnetReady = true;
       const { map, focusTargets, coordsById } = buildMap(el);
+      setTimeout(() => map.invalidateSize(), 400); // conteneur fixed + iOS : recale les tuiles
       const rowObs = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -847,7 +842,9 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     align-items: center;
     justify-content: space-between;
     gap: 12px;
-    padding: 10px 16px;
+    height: 46px; /* hauteur FIXE : le titre tronque (ellipsis), rien ne wrappe —
+                     la carte du carnet se positionne en CSS pur, zéro mesure JS */
+    padding: 0 16px;
     max-width: 1100px;
     margin: 0 auto;
   }
@@ -1140,10 +1137,11 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     /* iOS Safari + sticky + viewport dynamique = carte qui flotte (vu sur iPhone).
        FIXED : la carte est soudée sous la bande Épisode/Carnet, la liste passe
        dessous sans jamais transparaître. */
+    /* topbar = 46px inner + 2px rail = 48px, FIXE (voir .topbar-inner) */
     .carnet-container { display: block; padding-top: 0; }
     .carnet-aside {
       position: fixed;
-      top: var(--topbar-h, 49px);
+      top: 48px;
       left: 0;
       right: 0;
       z-index: 50;
@@ -1160,7 +1158,7 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
       border-top: none;
     }
     .carnet-main {
-      padding-top: calc(var(--topbar-h, 49px) + 164px);
+      padding-top: 212px; /* 48 topbar + 150 carte + 14 respiration */
     }
   }
   .carnet-head { margin-bottom: 28px; }
