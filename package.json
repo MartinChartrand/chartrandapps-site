@@ -7,7 +7,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "test": "node --test --test-concurrency=1 'scripts/test/**/*.test.mjs'"
+    "test": "node --test --test-concurrency=1 'scripts/test/**/*.test.mjs'",
+    "validate:geo": "node scripts/validate-geo.mjs",
+    "make:landmask": "node scripts/geo/make-landmask.mjs"
   },
   "dependencies": {
     "astro": "^6.0.0",

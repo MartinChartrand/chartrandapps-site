@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [23.50, 35.10],
+            [24.80, 35.10],
+            [25.30, 34.95],
+            [26.40, 34.90],
+            [26.40, 35.65],
+            [25.30, 35.70],
+            [24.80, 35.70],
+            [23.50, 35.65],
+            [23.50, 35.10]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Crete",
+        "note": "Polygone simplifie — suffisant pour la validation des coords POIs. Genere manuellement depuis la bbox de l ile."
+      }
+    }
+  ]
+}

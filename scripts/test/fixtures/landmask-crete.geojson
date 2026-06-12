@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [23.5, 35.4],
+            [24.5, 35.4],
+            [24.5, 35.7],
+            [23.5, 35.7],
+            [23.5, 35.4]
+          ]
+        ]
+      },
+      "properties": { "name": "Chania area (test fixture)" }
+    }
+  ]
+}
