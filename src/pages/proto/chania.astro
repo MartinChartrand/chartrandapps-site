@@ -481,9 +481,16 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
             <span class="ep-kicker">Carnet — {bd.title} · {bd.dates}</span>
             <p class="carnet-sub">{bd.focus}</p>
             <div class="pill-row">
-              <a class="pill pill-kml" href="/proto/chania.kml" download="chania.kml">⤓ Exporter les {pois.filter((p) => p.onMap).length} lieux (KML → Google My Maps)</a>
+              <a class="pill pill-kml" href="/proto/chania.kml" download="chania.kml">⤓ Exporter les {pois.filter((p) => p.onMap).length} lieux (KML)</a>
             </div>
-            <p class="carnet-kml-hint">Importer une fois dans <a href="https://mymaps.google.com" target="_blank" rel="noopener">Google My Maps</a> : tous les lieux du chapitre deviennent des pins dans ton app Google Maps, offline inclus.</p>
+            <p class="carnet-kml-hint">
+              <strong>Étape ordi, une seule fois :</strong> télécharge le fichier sur ton ordinateur,
+              importe-le dans <a href="https://mymaps.google.com" target="_blank" rel="noopener">mymaps.google.com</a>
+              (Créer une carte → Importer). La carte apparaît ensuite dans l’app Google Maps de ton
+              téléphone — Enregistrés → Cartes — offline inclus. Le fichier ne s’ouvre pas directement
+              sur iPhone (Google n’a plus d’app My Maps). Sur le terrain, les pills « Maps » de chaque
+              lieu font la job en un tap.
+            </p>
           </header>
 
           {carnetGroups.map((g) => (
