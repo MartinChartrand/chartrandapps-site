@@ -5,9 +5,9 @@ title: Rethymno
 kicker: le retour en douceur
 nights: 7
 dates: 28 septembre–5 octobre
-focus: La deuxième plus belle vieille ville de Crète. Vénitienne, compacte, plus détendue que Chania. Plakias à 45 minutes.
+focus: Centre-ouest · Vieille ville vénitienne · Plakias à 45 min
 subtitle: La deuxième plus belle vieille ville de Crète. Vénitienne, compacte, plus détendue que Chania. Plakias à 45 minutes.
-summary: ''
+summary: Avant-dernière étape avant le vol depuis Héraklion. Belle vieille ville, rythme posé, accès facile à la côte sud (Plakias, plage de Korakas). Fin de voyage plus tranquille — le temps de décompresser avant de rentrer.
 pullquote: 'Sept nuits à Rethymno, c''est le sas de sortie. Après Loutro et Sitia, on n''a plus le goût de découvrir à toute vitesse.'
 cover: rethymno-cover
 infoBlocks:
@@ -16,6 +16,8 @@ infoBlocks:
     type: poi-list
     items:
       - atelier-vieux-port
+      - pepi-boutique-hotel
+      - rimondi-boutique-hotel
   -
     label: Où manger
     type: poi-list
@@ -35,12 +37,13 @@ infoBlocks:
     label: À voir
     type: poi-list
     items:
-      - fortezza
+      - rethymno-vieille-ville
       - monastere-darkadi
   -
     label: Départ
     type: prose
     body: 'Héraklion est à 82 km / ~1h15 de Rethymno par l''autoroute E75. Aéroport N. Kazantzakis (HER). Rendre la voiture à l''aéroport. Itinéraire Google Maps'
+mapLabel: Carte — Rethymno et côte sud
 ---
 
 On veut une belle vieille ville, une adresse le soir, une plage à 45 minutes, et le vol retour facile depuis Héraklion (82 km, 1h15 d'autoroute). Rethymno coche toutes les cases, et c'est plus posé que Chania.

@@ -160,10 +160,14 @@ function parseDestination(html, slug) {
 
   const heroSub = between(html, /class="hero-sub"[^>]*>/, /<\//)?.replace(/<[^>]+>/g, '').trim() || '';
 
-  // section-intro = overviewIntro
+  // PHASE 2 : kicker + titre + intro de la vue d'ensemble (trois éléments distincts en v1)
+  // .section-num (« Logique du voyage ») · h2.section-title (« Quatre bases, mouvement minimal ») · p.section-intro
+  const overviewKicker = between(html, /class="section-num"[^>]*>/, /<\/span>/)?.replace(/<[^>]+>/g, '').trim() || '';
+  const overviewTitleRaw = between(html, /class="section-title"[^>]*>/, /<\/h2>/) || '';
+  const overviewTitle = stripTags(overviewTitleRaw.replace(/<br\s*\/?>/gi, ' '));
   const overviewIntro = between(html, /class="section-intro"[^>]*>/, /<\/p>/)?.replace(/<[^>]+>/g, '').trim() || '';
 
-  // intro blocks (pourquoi + logistique)
+  // intro blocks (pourquoi + logistique) — AVEC titres (.intro-block-title)
   const introBlocks = [];
   const introBlockRx = /class="intro-block"[^>]*>[\s\S]*?class="intro-block-title"[^>]*>(.*?)<\/div>[\s\S]*?class="intro-block-body"[^>]*>([\s\S]*?)<\/div>/g;
   let ibm;
@@ -173,6 +177,10 @@ function parseDestination(html, slug) {
       body: stripTags(ibm[2])
     });
   }
+
+  // PHASE 2 : footer v1 (première ligne avant <br>)
+  const footerM = html.match(/<footer>\s*([\s\S]*?)<br/);
+  const footerNote = footerM ? stripTags(footerM[1]) : '';
 
   // Favicon
   const faviconMatch = html.match(/viewBox='0 0 100 100'><text y='\.9em'[^>]*>(.*?)<\/text>/);
@@ -272,8 +280,12 @@ function parseDestination(html, slug) {
   const arrivalDate = arrivalStat ? parseHeroDate(arrivalStat.val, yearFromTitle) : '';
   const departureDate = departureStat ? parseHeroDate(departureStat.val, yearFromTitle) : '';
 
+  // PHASE 2 : season depuis le <title> v1 (« Septembre–Octobre 2027 » ≠ « Septembre 2027 »)
+  if (rawTitleEm) season = rawTitleEm;
+
   return {
     slug,
+    pageTitle: title ? title.trim() : '',
     heroTitle: { main: titleParsed, em: titleEm },
     heroSub,
     subtitle: heroSub || overviewIntro.substring(0, 120),
@@ -283,11 +295,14 @@ function parseDestination(html, slug) {
     departure: { date: departureDate, airport: departureAirport, city: departureCity },
     theme: { favicon, palette },
     hero: { image: 'hero', label: heroLabel },
+    overviewKicker,
+    overviewTitle,
     overviewIntro,
     intro: {
-      whySeason: introBlocks[0]?.body || '',
-      logistics: introBlocks[1]?.body || ''
-    }
+      whySeason: { title: introBlocks[0]?.label || '', body: introBlocks[0]?.body || '' },
+      logistics: { title: introBlocks[1]?.label || '', body: introBlocks[1]?.body || '' }
+    },
+    footerNote
   };
 }
 
@@ -307,12 +322,305 @@ function parseChapters(html) {
   return chapters;
 }
 
+// ── Matching POI base-scoped (PHASE 2) ────────────────────────────────────────
+// Les noms v1 dérivent entre les surfaces : « Museum Hotel (Relais & Châteaux) »
+// (accom-card) vs « Museum Hotel (Uçhisar) » (MAPS). Le matching global par
+// sous-chaîne croisait les bases (« Hideaway Hotel » Kaş ↔ Faralya) — on scope
+// à la base et on ajoute un fallback par recouvrement de tokens.
+
+function normalizeForMatch(s) {
+  return s.toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]/g, '');
+}
+
+/** Retire les parenthèses (généralement un qualificatif de lieu) */
+function stripParens(s) {
+  return s.replace(/\([^)]*\)/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+const GENERIC_TOKENS = new Set([
+  'hotel', 'hotels', 'otel', 'beach', 'plage', 'taverna', 'restaurant',
+  'boutique', 'guesthouse', 'rooms', 'suites', 'cave', 'caves', 'premium', 'cozy'
+]);
+
+function nameTokens(s) {
+  return stripParens(s)
+    .toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .split(/[^a-z0-9]+/)
+    .filter(t => t.length >= 3 && !GENERIC_TOKENS.has(t));
+}
+
+/** Trouve un POI dans la liste (scopée base) — exact → sous-chaîne → tokens */
+function matchPoiInBase(name, basePois) {
+  const norm = normalizeForMatch(name);
+  if (!norm) return null;
+  for (const p of basePois) if (normalizeForMatch(p.name) === norm) return p;
+  const normStripped = normalizeForMatch(stripParens(name));
+  for (const p of basePois) {
+    const pn = normalizeForMatch(p.name);
+    const pnStripped = normalizeForMatch(stripParens(p.name));
+    if (pnStripped && normStripped && pnStripped === normStripped) return p;
+    if (norm.length >= 6 && (pn.includes(norm) || norm.includes(pn))) return p;
+    if (normStripped.length >= 6 && (pnStripped.includes(normStripped) || normStripped.includes(pnStripped))) return p;
+  }
+  const tokens = new Set(nameTokens(name));
+  if (tokens.size === 0) return null;
+  for (const p of basePois) {
+    const ptokens = nameTokens(p.name);
+    if (ptokens.length === 0) continue;
+    const common = ptokens.filter(t => tokens.has(t)).length;
+    // ≥2 tokens communs, OU 1 seul mais l'un des deux noms n'a qu'un token significatif
+    // (« Museum Hotel » ↔ « Museum Hotel (Uçhisar) ») — évite le faux positif
+    // « Baie de Loutro » ↔ « Hotel Porto Loutro » (1 commun sur 2/2).
+    if (common >= 2) return p;
+    if (common === 1 && Math.min(tokens.size, ptokens.length) === 1) return p;
+  }
+  return null;
+}
+
+/** Timeline de la vue d'ensemble : title/kicker/region/summary par base (ordre v1) */
+function parseTimelineCards(html) {
+  const cards = [];
+  const rx = /class="base-card"[\s\S]*?class="base-card-title"[^>]*>([\s\S]*?)<\/div>\s*<div class="base-card-region"[^>]*>([\s\S]*?)<\/div>[\s\S]*?class="base-body"[^>]*>\s*<p>([\s\S]*?)<\/p>/g;
+  let m;
+  while ((m = rx.exec(html)) !== null) {
+    const titleRaw = stripTags(m[1]);
+    const [title, kicker] = titleRaw.split('—').map(s => s.trim());
+    cards.push({
+      title: title || titleRaw,
+      kicker: kicker || '',
+      region: stripTags(m[2]),
+      summary: stripTags(m[3])
+    });
+  }
+  return cards;
+}
+
+/**
+ * Hébergements d'un chapitre — deux markups v1 :
+ *  A. .accom-card (accom-tier / accom-name / accom-price / accom-desc)
+ *  B. dérive Rethymno : .info-block avec .accom-tier + <strong>Nom</strong><br>desc (prix dans le desc)
+ * Enrichit les POIs matchés (blurb/price/tier) ; les cartes sans POI deviennent accomExtras.
+ */
+function processAccoms(content, basePois, photoSlotByPhotoId) {
+  const items = [];
+  const extras = [];
+  const TIER = { budget: 'budget', mid: 'mid', gem: 'gem' };
+
+  function slotFor(imgUrl) {
+    if (!imgUrl) return '';
+    const idM = imgUrl.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
+    return (idM && photoSlotByPhotoId.get(idM[1])) || '';
+  }
+
+  // Pattern A
+  const aRx = /class="accom-card"[^>]*>([\s\S]*?)<\/div>\s*\n?\s*<\/div>/g;
+  let am;
+  while ((am = aRx.exec(content)) !== null) {
+    const block = am[1];
+    const imgM = block.match(/class="accom-img"[^>]+src="([^"]+)"/);
+    const tierM = block.match(/class="accom-tier ([^"]+)"/);
+    const nameM = block.match(/class="accom-name"[^>]*>([\s\S]*?)<\/div>/);
+    const priceM = block.match(/class="accom-price"[^>]*>([\s\S]*?)<\/div>/);
+    const descM = block.match(/class="accom-desc"[^>]*>([\s\S]*?)<\/div>/);
+    if (!nameM) continue;
+    const name = stripTags(nameM[1]);
+    const tier = tierM ? (TIER[tierM[1].trim().toLowerCase()] || null) : null;
+    const price = priceM ? stripTags(priceM[1]) : '';
+    const blurb = descM ? stripTags(descM[1]) : '';
+    const poi = matchPoiInBase(name, basePois);
+    if (poi) {
+      if (blurb) poi.blurb = blurb;
+      if (price) poi.price.range = price;
+      if (tier) poi.tier = tier;
+      items.push(poi.id);
+    } else {
+      extras.push({ name, tier, price, blurb, image: slotFor(imgM ? imgM[1] : ''), links: [] });
+    }
+  }
+
+  // Pattern B (dérive Rethymno)
+  const bRx = /(?:<img class="accom-img"[^>]+src="([^"]+)"[^>]*>\s*)?<span class="accom-tier ([^"]+)"[^>]*>[^<]*<\/span>\s*<strong>([^<]+)<\/strong><br>\s*([^<]+)/g;
+  let bm;
+  while ((bm = bRx.exec(content)) !== null) {
+    const name = bm[3].trim();
+    const tier = TIER[bm[2].trim().toLowerCase()] || null;
+    let blurb = decodeEntities(bm[4]).replace(/\s+/g, ' ').trim();
+    let price = '';
+    const priceM = blurb.match(/(~?[\d][\d\s.,–-]*\s*€\/nuit)\.?\s*$/);
+    if (priceM) {
+      price = priceM[1].trim();
+      blurb = blurb.slice(0, priceM.index).replace(/\s+$/, '');
+    }
+    const poi = matchPoiInBase(name, basePois);
+    if (poi) {
+      if (blurb && !poi.blurb) poi.blurb = blurb;
+      if (price && !poi.price.range) poi.price.range = price;
+      if (tier && !poi.tier) poi.tier = tier;
+      if (!items.includes(poi.id)) items.push(poi.id);
+    } else {
+      extras.push({ name, tier, price, blurb, image: slotFor(bm[1] || ''), links: [] });
+    }
+  }
+
+  return { items, extras };
+}
+
+/**
+ * Info-blocks d'un chapitre — décision par bloc :
+ *  - tous les <strong> matchent des POIs de la base → poi-list (+ footer <em>X :</em>)
+ *  - sinon → prose avec TOUT le texte (les <strong> non-POI portaient du contenu perdu en v2 phase 1)
+ * Enrichit les blurbs des POIs listés.
+ */
+function processInfoBlocks(content, basePois) {
+  const blocks = [];
+  const rx = /class="info-block"[^>]*>[\s\S]*?class="info-label"[^>]*>(.*?)<\/span>[\s\S]*?class="info-body"[^>]*>([\s\S]*?)<\/div>\s*\n?\s*<\/div>/g;
+  let m;
+  while ((m = rx.exec(content)) !== null) {
+    const label = stripTags(m[1]);
+    if (label.toLowerCase().includes('accéder')) continue; // bloc access
+    if (label.toLowerCase().includes('température')) continue; // tagBlock
+    let bodyHtml = m[2];
+    if (/accom-tier|accom-card/.test(bodyHtml)) continue; // hébergements (processAccoms)
+
+    // footer = <em>Label :</em> texte (après le dernier item) — les <em> inline restent dans les blurbs
+    let footer = '';
+    const footM = bodyHtml.match(/<em>([^<]*:)\s*<\/em>([^<]*)/);
+    if (footM) {
+      footer = `${stripTags(footM[1])} ${decodeEntities(footM[2]).replace(/\s+/g, ' ').trim()}`.trim();
+      bodyHtml = bodyHtml.slice(0, footM.index) + bodyHtml.slice(footM.index + footM[0].length);
+    }
+
+    // strongs en TÊTE d'item (début de body, après <br>, </div> ou <img …>) = noms ;
+    // les <strong> inline (« Réserver. ») font partie du texte de l'item
+    const strongs = [];
+    const strongRx = /<strong>([^<]+)<\/strong>/g;
+    let sm;
+    while ((sm = strongRx.exec(bodyHtml)) !== null) {
+      const before = bodyHtml.slice(0, sm.index).replace(/\s+$/, '');
+      const leading = before === '' || /(<br\s*\/?>|<\/div>|<img[^>]*>)$/.test(before);
+      strongs.push({ index: sm.index, name: stripTags(sm[1]), leading });
+    }
+    const leads = strongs.filter(s => s.leading);
+    const matched = leads.map(s => matchPoiInBase(s.name, basePois));
+
+    if (leads.length > 0 && matched.every(Boolean)) {
+      // poi-list + enrichissement des blurbs (chunk = du nom jusqu'au prochain item)
+      for (let li = 0; li < leads.length; li++) {
+        const poi = matched[li];
+        const start = bodyHtml.indexOf('</strong>', leads[li].index) + '</strong>'.length;
+        const end = li + 1 < leads.length ? leads[li + 1].index : bodyHtml.length;
+        const chunk = bodyHtml.slice(start, end)
+          .replace(/<div class="link-row">[\s\S]*?<\/div>/g, ' ')
+          .replace(/<img[^>]+>/g, ' ');
+        const text = stripTags(chunk).replace(/^[—–-]\s*/, '').trim();
+        if (text && text.length >= 5 && !poi.blurb) poi.blurb = text;
+      }
+      const items = [...new Set(matched.map(p => p.id))];
+      blocks.push({ label, type: 'poi-list', items, ...(footer ? { footer } : {}) });
+    } else {
+      const blockBody = stripTags(
+        bodyHtml.replace(/<div class="link-row">[\s\S]*?<\/div>/g, '').replace(/<img[^>]+>/g, '')
+      ).trim();
+      const full = footer ? `${blockBody} ${footer}`.trim() : blockBody;
+      if (full) blocks.push({ label, type: 'prose', body: full });
+    }
+  }
+  return blocks;
+}
+
+/** Note-boxes d'un chapitre (logistique, transitions) */
+function parseNotes(content) {
+  const notes = [];
+  const rx = /class="note-box"[^>]*>\s*<strong>([\s\S]*?)<\/strong>([\s\S]*?)<\/div>/g;
+  let m;
+  while ((m = rx.exec(content)) !== null) {
+    const kind = stripTags(m[1]).replace(/\s*:\s*$/, '');
+    const body = stripTags(m[2]);
+    if (body) notes.push({ kind, body });
+  }
+  return notes;
+}
+
+/** Blocs éditoriaux foodie/gem d'un chapitre (§3.4) */
+function parseEditorialBlocks(content, kind, photoSlotByPhotoId, usedIds) {
+  const out = [];
+
+  function slotOf(imgUrl) {
+    if (!imgUrl) return '';
+    const idM = imgUrl.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
+    return (idM && photoSlotByPhotoId.get(idM[1])) || '';
+  }
+
+  function pushItem(group, title, descHtml, imgUrl) {
+    const body = stripTags(descHtml.replace(/<img[^>]+>/g, ' ')).replace(/^[—–-]\s*/, '').trim();
+    const links = [];
+    const linkRx = /<a[^>]+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g;
+    let lm;
+    while ((lm = linkRx.exec(descHtml)) !== null) {
+      links.push({ label: stripTags(lm[2]), url: lm[1] });
+    }
+    let id = toSlug(title);
+    let attempt = id, n = 2;
+    while (usedIds.has(attempt)) attempt = `${id}-${n++}`;
+    id = attempt;
+    usedIds.add(id);
+    out.push({ id, group, title, body, ...(links.length > 0 ? { links } : {}), image: slotOf(imgUrl) });
+  }
+
+  // Markup standard : .foodie-item / .gem-item
+  const titleM = content.match(new RegExp(`class="${kind}-title"[^>]*>([\\s\\S]*?)<\\/div>`));
+  const group = titleM ? stripTags(titleM[1]) : '';
+  const itemRx = new RegExp(
+    `class="${kind}-item">\\s*<div class="${kind}-item-name"[^>]*>([\\s\\S]*?)<\\/div>\\s*<div class="${kind}-item-desc"[^>]*>([\\s\\S]*?)<\\/div>\\s*(?:<img[^>]+src="([^"]+)")?`,
+    'g'
+  );
+  let m;
+  while ((m = itemRx.exec(content)) !== null) {
+    pushItem(group, stripTags(m[1]), m[2], m[3] || '');
+  }
+  if (out.length > 0) return out;
+
+  // Dérive Rethymno : .foodie-block / .gem-block avec un seul .info-body
+  // (<strong>Nom</strong> — desc <img class="…-item-img">…) — pas de .foodie-item
+  const blockStartM = content.match(new RegExp(`class="${kind}-block"[^>]*>`));
+  if (!blockStartM) return out;
+  let block = content.slice(blockStartM.index + blockStartM[0].length);
+  const endM = block.match(/class="(?:foodie|gem)-block"[^>]*>|id="budget"/);
+  if (endM) block = block.slice(0, endM.index);
+
+  const driftTitleM = block.match(/class="info-label"[^>]*>([\s\S]*?)<\/span>/);
+  const driftGroup = driftTitleM ? stripTags(driftTitleM[1]) : '';
+  const bodyM = block.match(/class="info-body"[^>]*>([\s\S]*?)$/);
+  if (!bodyM) return out;
+  const body = bodyM[1];
+
+  // strongs en tête d'item (début, après <br>, </div> ou <img …>)
+  const leads = [];
+  const strongRx = /<strong>([^<]+)<\/strong>/g;
+  let sm;
+  while ((sm = strongRx.exec(body)) !== null) {
+    const before = body.slice(0, sm.index).replace(/\s+$/, '');
+    if (before === '' || /(<br\s*\/?>|<\/div>|<img[^>]*>)$/.test(before)) {
+      leads.push({ index: sm.index, name: stripTags(sm[1]), end: sm.index + sm[0].length });
+    }
+  }
+  for (let i = 0; i < leads.length; i++) {
+    const chunk = body.slice(leads[i].end, i + 1 < leads.length ? leads[i + 1].index : body.length);
+    const imgM = chunk.match(/<img[^>]+src="([^"]+)"/);
+    pushItem(driftGroup, leads[i].name, chunk, imgM ? imgM[1] : '');
+  }
+  return out;
+}
+
 /** Parse un chapitre en objet base */
-function parseBase(chapterId, content, order, poiNameToId, kickerMap) {
+function parseBase(chapterId, content, order, poiNameToId, kickerMap, ctx = {}) {
   // title
   const titleM = content.match(/class="chapter-title"[^>]*>(.*?)<\/h2>/s);
   const title = titleM ? stripTags(titleM[1]) : chapterId;
   const slug = chapterId;
+  const card = ctx.timelineCard || null;
 
   // chapter-num → dates, nights
   const numM = content.match(/class="chapter-num"[^>]*>(.*?)<\/span>/s);
@@ -338,14 +646,14 @@ function parseBase(chapterId, content, order, poiNameToId, kickerMap) {
   if (kickerMap && kickerMap[title]) {
     kicker = kickerMap[title];
   }
+  if (card && card.kicker) kicker = card.kicker;
 
-  // focus = base-card-region
-  const focusM = content.match(/class="(?:base-card-region|chapter-subtitle)"[^>]*>(.*?)</s);
-  const focus = focusM ? stripTags(focusM[1]) : subtitle;
-
-  // summary = base-body p
-  const summaryM = content.match(/class="base-body"[^>]*>[\s\S]*?<p>(.*?)<\/p>/s);
-  const summary = summaryM ? stripTags(summaryM[1]) : '';
+  // PHASE 2 — mapping corrigé :
+  // v1 .base-card-region (timeline, vue d'ensemble) → focus
+  // v1 .base-body p (résumé timeline)               → summary
+  // chapter-subtitle                                → subtitle (inchangé)
+  const focus = (card && card.region) || subtitle;
+  const summary = (card && card.summary) || '';
 
   // pullquote
   const pqM = content.match(/class="pullquote[^"]*"[^>]*>[\s\S]*?<p>([\s\S]*?)<\/p>/s);
@@ -397,57 +705,21 @@ function parseBase(chapterId, content, order, poiNameToId, kickerMap) {
     tagBlock = { label: stripTags(tagBlockM[1]), tags };
   }
 
-  // infoBlocks — accom-grid (hébergements)
+  // PHASE 2 — infoBlocks : hébergements (processAccoms) + info-blocks (processInfoBlocks),
+  // tous deux scopés base et calculés dans main() (enrichissement des POIs en place)
   const infoBlocks = [];
-  const accomItems = [];
-  const accomRx = /class="accom-card"[^>]*>([\s\S]*?)<\/div>\s*\n?\s*<\/div>/g;
-  let am;
-  while ((am = accomRx.exec(content)) !== null) {
-    const accomHtml = am[1];
-    const tierM = accomHtml.match(/class="accom-tier ([^"]+)"[^>]*>(.*?)<\/span>/s);
-    const nameM = accomHtml.match(/class="accom-name"[^>]*>(.*?)<\/div>/s);
-    const priceM = accomHtml.match(/class="accom-price"[^>]*>(.*?)<\/div>/s);
-    const descM = accomHtml.match(/class="accom-desc"[^>]*>(.*?)<\/div>/s);
-    if (nameM) {
-      const name = stripTags(nameM[1]);
-      accomItems.push(toSlug(name));
-    }
+  const accom = ctx.accom || { items: [], extras: [] };
+  if (accom.items.length > 0) {
+    infoBlocks.push({ label: 'Où dormir', type: 'poi-list', items: accom.items });
   }
-  if (accomItems.length > 0) {
-    infoBlocks.push({
-      label: 'Où dormir',
-      type: 'poi-list',
-      items: accomItems
-    });
-  }
+  infoBlocks.push(...(ctx.infoBlocks || []));
 
-  // infoBlocks — info-block sections (où manger, plages, etc.)
-  const infoBlockRx = /class="info-block"[^>]*>[\s\S]*?class="info-label"[^>]*>(.*?)<\/span>[\s\S]*?class="info-body"[^>]*>([\s\S]*?)<\/div>\s*\n?\s*<\/div>/g;
-  let ibm;
-  while ((ibm = infoBlockRx.exec(content)) !== null) {
-    const label = stripTags(ibm[1]);
-    if (label.toLowerCase().includes('accéder')) continue; // skip access
-    if (label.toLowerCase().includes('température')) continue; // skip tagBlock
-    const bodyHtml = ibm[2];
+  // map-label v1 (« Carte — Chania et environs »)
+  const mapLabelM = content.match(/class="map-label"[^>]*>([\s\S]*?)<\/span>/);
+  const mapLabel = mapLabelM ? stripTags(mapLabelM[1]) : '';
 
-    // Extraire les POI items (strong = nom de lieu)
-    const items = [];
-    const strongRx = /<strong>([^<]+)<\/strong>/g;
-    let srm;
-    while ((srm = strongRx.exec(bodyHtml)) !== null) {
-      const name = stripTags(srm[1]);
-      const id = findPoiIdByName(name, poiNameToId);
-      if (id) items.push(id);
-    }
-
-    const blockBody = stripTags(bodyHtml.replace(/<div class="link-row">[\s\S]*?<\/div>/g, '').replace(/<img[^>]+>/g, '')).trim();
-
-    if (items.length > 0) {
-      infoBlocks.push({ label, type: 'poi-list', items });
-    } else if (blockBody) {
-      infoBlocks.push({ label, type: 'prose', body: blockBody });
-    }
-  }
+  // note-boxes (logistique, transitions)
+  const notes = parseNotes(content);
 
   return {
     order,
@@ -462,8 +734,11 @@ function parseBase(chapterId, content, order, poiNameToId, kickerMap) {
     pullquote,
     cover: coverSlot,
     ...(access ? { access } : {}),
+    ...(notes.length > 0 ? { notes } : {}),
     ...(tagBlock ? { tagBlock } : {}),
     ...(infoBlocks.length > 0 ? { infoBlocks } : {}),
+    ...(mapLabel ? { mapLabel } : {}),
+    ...(accom.extras.length > 0 ? { accomExtras: accom.extras } : {}),
     body: bodyMd
   };
 }
@@ -472,6 +747,12 @@ function parseBase(chapterId, content, order, poiNameToId, kickerMap) {
 function parseBudget(html) {
   const budgetSection = between(html, /id="budget"/, /id="pratique"/);
   if (!budgetSection) return null;
+
+  // PHASE 2 : en-tête de section v1 (« Finances » / « Budget estimé » / intro taux de change)
+  const kicker = between(budgetSection, /class="section-num"[^>]*>/, /<\/span>/)?.replace(/<[^>]+>/g, '').trim() || '';
+  const titleRaw = between(budgetSection, /class="section-title"[^>]*>/, /<\/h2>/) || '';
+  const title = stripTags(titleRaw.replace(/<br\s*\/?>/gi, ' '));
+  const intro = between(budgetSection, /class="section-intro"[^>]*>/, /<\/p>/)?.replace(/<[^>]+>/g, '').trim() || '';
 
   const statCards = [];
   const statCardRx = /class="stat-card"[^>]*>[\s\S]*?class="stat-card-val"[^>]*>(.*?)<\/span>[\s\S]*?class="stat-card-lbl"[^>]*>(.*?)<\/div>/g;
@@ -518,7 +799,7 @@ function parseBudget(html) {
     scenarios.push({ name: 'Budget confort+', total: totalM ? totalM[1].trim() : '', desc });
   }
 
-  return { statCards, lines, scenarios, advice, total };
+  return { kicker, title, intro, statCards, lines, scenarios, advice, total };
 }
 
 /** Parse la section pratique */
@@ -753,84 +1034,16 @@ async function main() {
     }
   }
 
-  // FIX 1f: Enrichissement blurb/price/tier des POIs depuis les accom-cards et info-body
-  function normalizeForMatch(s) {
-    return s.toLowerCase()
-      .normalize('NFD').replace(/[̀-ͯ]/g, '')
-      .replace(/[^a-z0-9]/g, '');
-  }
+  // ── 2. Images (AVANT les bases : map photoId → slot pour accoms + dishes/gems)
+  const images = parseImages(html, slug);
+  const photoSlotByPhotoId = new Map(images.map(img => [img.credit.photoId, img.slot]));
 
-  const poiByNorm = new Map();
-  pois.forEach((p, i) => {
-    poiByNorm.set(normalizeForMatch(p.name), i);
-  });
-
-  function findPoiIndexByNorm(name) {
-    const norm = normalizeForMatch(name);
-    if (poiByNorm.has(norm)) return poiByNorm.get(norm);
-    // Sous-chaîne bidirectionnelle
-    for (const [k, i] of poiByNorm) {
-      if (norm.includes(k) || k.includes(norm)) return i;
-    }
-    return -1;
-  }
-
-  // 1. Depuis les accom-cards
-  const accomCardRx = /class="accom-card"[^>]*>([\s\S]*?)<\/div>\s*\n?\s*<\/div>/g;
-  let acm;
-  while ((acm = accomCardRx.exec(html)) !== null) {
-    const block = acm[1];
-    const tierM2 = block.match(/class="accom-tier ([^"]+)"[^>]*>(.*?)<\/span>/s);
-    const nameM2 = block.match(/class="accom-name"[^>]*>(.*?)<\/div>/s);
-    const priceM2 = block.match(/class="accom-price"[^>]*>(.*?)<\/div>/s);
-    const descM2 = block.match(/class="accom-desc"[^>]*>(.*?)<\/div>/s);
-    if (!nameM2) continue;
-    const name2 = stripTags(nameM2[1]);
-    const pidx = findPoiIndexByNorm(name2);
-    if (pidx === -1) {
-      process.stderr.write(`  [WARN] accom-card sans POI match: "${name2}"\n`);
-      continue;
-    }
-    const tierClass = tierM2 ? tierM2[1].trim().toLowerCase() : '';
-    const tier = tierClass === 'budget' ? 'budget' : tierClass === 'mid' ? 'mid' : tierClass.includes('p') ? 'gem' : null;
-    if (descM2) pois[pidx].blurb = stripTags(descM2[1]).trim();
-    if (priceM2) pois[pidx].price.range = stripTags(priceM2[1]).trim();
-    if (tier) pois[pidx].tier = tier;
-  }
-
-  // 2. Depuis les info-body (strong + texte)
-  const infoBodyRx = /class="info-body"[^>]*>([\s\S]*?)<\/div>\s*\n?\s*<\/div>/g;
-  let ibm2;
-  while ((ibm2 = infoBodyRx.exec(html)) !== null) {
-    const body = ibm2[1];
-    const strongRx2 = /<strong>([^<]+)<\/strong>\s*[—–-]?\s*([\s\S]*?)(?=<strong>|<div class="link-row">|<img|<\/div>|$)/g;
-    let sm;
-    while ((sm = strongRx2.exec(body)) !== null) {
-      const name3 = sm[1].trim();
-      const textRaw = sm[2];
-      const text = stripTags(textRaw.split('<div')[0]).trim();
-      if (!text || text.length < 5) continue;
-      const pidx = findPoiIndexByNorm(name3);
-      if (pidx === -1) {
-        process.stderr.write(`  [WARN] info-body strong sans POI match: "${name3}"\n`);
-        continue;
-      }
-      // Ne pas écraser un blurb déjà rempli depuis accom-card
-      if (!pois[pidx].blurb) {
-        pois[pidx].blurb = text;
-      }
-    }
-  }
-
-  writeFileSync(join(outdir, 'pois.json'), JSON.stringify(pois, null, 2));
-  process.stdout.write(`  pois.json — ${pois.length} POIs\n`);
-
-  // ── 2. Parse destination.json ──────────────────────────────────────────────
+  // ── 3. Parse destination.json ──────────────────────────────────────────────
   const destination = parseDestination(html, slug);
   writeFileSync(join(outdir, 'destination.json'), JSON.stringify(destination, null, 2));
   process.stdout.write(`  destination.json — ${destination.slug}\n`);
 
-  // ── 3. Parse chapters → bases/*.md ────────────────────────────────────────
+  // ── 4. Parse chapters → bases/*.md + dishes/gems ───────────────────────────
   const chapters = parseChapters(html);
 
   if (chapters.length === 0) {
@@ -846,9 +1059,30 @@ async function main() {
     kickerMap[km[1].trim()] = km[2].trim();
   }
 
+  // PHASE 2 : cartes de la timeline (focus = .base-card-region, summary = .base-body p)
+  const timelineCards = parseTimelineCards(html);
+
+  const dishes = [];
+  const gems = [];
+  const dishIds = new Set();
+  const gemIds = new Set();
+
   for (let i = 0; i < chapters.length; i++) {
     const { id, content } = chapters[i];
-    const base = parseBase(id, content, i + 1, poiNameToId, kickerMap);
+
+    // Scope base : matching + enrichissement des POIs de CETTE base seulement
+    const basePois = pois.filter(p => p.base === id);
+    const accom = processAccoms(content, basePois, photoSlotByPhotoId);
+    const infoBlocks = processInfoBlocks(content, basePois);
+    for (const extra of accom.extras) {
+      process.stderr.write(`  [INFO] hébergement hors MAPS → accomExtras: "${extra.name}" (${id})\n`);
+    }
+
+    const base = parseBase(id, content, i + 1, poiNameToId, kickerMap, {
+      timelineCard: timelineCards[i] || null,
+      accom,
+      infoBlocks
+    });
 
     const nn = String(i + 1).padStart(2, '0');
     const filename = `${nn}-${base.slug}.md`;
@@ -862,29 +1096,36 @@ async function main() {
 
     writeFileSync(join(outdir, 'bases', filename), mdContent);
     process.stdout.write(`  bases/${filename} — ${base.title} (${base.nights}n)\n`);
+
+    // PHASE 2 : blocs éditoriaux foodie/gem du chapitre (§3.4)
+    dishes.push(...parseEditorialBlocks(content, 'foodie', photoSlotByPhotoId, dishIds));
+    gems.push(...parseEditorialBlocks(content, 'gem', photoSlotByPhotoId, gemIds));
   }
 
-  // ── 4. Budget ──────────────────────────────────────────────────────────────
+  // pois.json écrit APRÈS la boucle (enrichi en place par processAccoms/processInfoBlocks)
+  writeFileSync(join(outdir, 'pois.json'), JSON.stringify(pois, null, 2));
+  process.stdout.write(`  pois.json — ${pois.length} POIs\n`);
+
+  // ── 5. Budget ──────────────────────────────────────────────────────────────
   const budget = parseBudget(html);
   writeFileSync(join(outdir, 'budget.json'), JSON.stringify(budget, null, 2));
   process.stdout.write(`  budget.json — ${budget?.lines?.length || 0} lignes\n`);
 
-  // ── 5. Pratique ────────────────────────────────────────────────────────────
+  // ── 6. Pratique ────────────────────────────────────────────────────────────
   const pratiqueItems = parsePratique(html);
   // Le schéma attend {groups: [{label, items:[]}]} — on groupe tout dans "Info pratique"
   const pratique = { groups: [{ label: 'Info pratique', items: pratiqueItems }] };
   writeFileSync(join(outdir, 'pratique.json'), JSON.stringify(pratique, null, 2));
   process.stdout.write(`  pratique.json — ${pratiqueItems.length} items\n`);
 
-  // ── 6. Images ──────────────────────────────────────────────────────────────
-  const images = parseImages(html, slug);
+  // ── 7. Images ──────────────────────────────────────────────────────────────
   writeFileSync(join(outdir, 'images.json'), JSON.stringify(images, null, 2));
   process.stdout.write(`  images.json — ${images.length} images\n`);
 
-  // ── 7. Dishes + Gems (vides — contenu éditorial) ──────────────────────────
-  writeFileSync(join(outdir, 'dishes.json'), JSON.stringify([], null, 2));
-  writeFileSync(join(outdir, 'gems.json'), JSON.stringify([], null, 2));
-  process.stdout.write(`  dishes.json + gems.json — vides (remplir manuellement)\n`);
+  // ── 8. Dishes + Gems (PHASE 2 : extraits des .foodie-block / .gem-block v1)
+  writeFileSync(join(outdir, 'dishes.json'), JSON.stringify(dishes, null, 2));
+  writeFileSync(join(outdir, 'gems.json'), JSON.stringify(gems, null, 2));
+  process.stdout.write(`  dishes.json — ${dishes.length} · gems.json — ${gems.length}\n`);
 
   process.stdout.write(`\nExtraction terminée → ${outdir}\n`);
 }
@@ -937,4 +1178,7 @@ if (isMain) {
   });
 }
 
-export { parseMAPS, parseDestination, parseChapters, parseBase, parseBudget, parsePratique, parseImages, toSlug };
+export {
+  parseMAPS, parseDestination, parseChapters, parseBase, parseBudget, parsePratique, parseImages, toSlug,
+  parseTimelineCards, processAccoms, processInfoBlocks, parseNotes, parseEditorialBlocks, matchPoiInBase
+};

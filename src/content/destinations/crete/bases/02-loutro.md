@@ -5,9 +5,9 @@ title: Loutro
 kicker: le cœur du voyage
 nights: 6
 dates: 13–18 septembre
-focus: Village sans route, accessible uniquement en bateau. Maisons blanches en demi-lune, montagnes à pic, mer de Libye.
+focus: Côte sud · Accessible uniquement en bateau ou à pied · Mer de Libye
 subtitle: Village sans route, accessible uniquement en bateau. Maisons blanches en demi-lune, montagnes à pic, mer de Libye.
-summary: ''
+summary: 'Village sans route, sans voiture. Maisons blanches sur une baie en demi-lune face à la Libye. Voiture garée à Chora Sfakion, ferry de 20 minutes. La pièce maîtresse du voyage — pour la baignade, l''isolement, l''eau turquoise, les criques accessibles à pied ou en bateau-taxi.'
 pullquote: 'Six nuits à Loutro, c''est la pièce maîtresse du voyage. Pas de route, pas de voiture, pas d''issue rapide — et c''est exactement ce qu''on cherche.'
 cover: loutro-cover
 access:
@@ -19,6 +19,10 @@ access:
     -
       label: Bateau-taxi privé
       url: 'https://taxiboatsfakia.gr/index.php?l=en'
+notes:
+  -
+    kind: Logistique
+    body: Bagages au minimum — un sac à dos. Le reste dans la voiture à Chora Sfakion. Pas de distributeur à Loutro — cash uniquement (retirer à Sfakion).
 tagBlock:
   label: 'Température de l''eau'
   tags:
@@ -36,7 +40,7 @@ infoBlocks:
     type: poi-list
     items:
       - hotel-anna
-      - porto-loutro
+      - hotel-porto-loutro
       - notos-restaurant-rooms
   -
     label: Où manger
@@ -48,14 +52,13 @@ infoBlocks:
       - old-phoenix-finix-cove
   -
     label: Les criques pour nager
-    type: poi-list
-    items:
-      - glyka-nera-sweet-water
-      - marmara-beach
+    type: prose
+    body: 'Glyka Nera (Sweetwater Beach) — 1h de marche OU 20 min en bateau (~5 €). Sources d''eau douce sous la plage — zones tièdes étonnantes. Eau limpide, falaises blanches. Parfait pour l''intimité. Marmara Beach — Par bateau. Grottes de marbre, eau turquoise. Taverna Dialiskari sur place (pain maison, réserver). Baie de Loutro — Après 18h30, quand le dernier ferry repart, la baie est à vous. Eau calme, peu profonde, cristalline.'
   -
     label: La réalité de Loutro
     type: prose
     body: 'Bateaux de jour = groupes de 9h à 18h30. Après, c''est une autre atmosphère. Loutro révèle sa magie au coucher du soleil et le matin tôt. Six nuits c''est la bonne durée.'
+mapLabel: Carte — Loutro et côte sud
 ---
 
 On laisse l'auto à [[poi:chora-sfakion-embarquement]] (~3 €/jour), on prend le ferry ANENDYK de 20 minutes (8–15 €, premier à 9h30, dernier à 18h45), et on disparaît. Village en croissant de maisons blanches face à la mer de Libye, montagnes à pic derrière. Pas d'ATM — on sort le cash avant d'embarquer.

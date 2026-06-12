@@ -5,9 +5,9 @@ title: Chania
 kicker: 'l''ouest'
 nights: 8
 dates: 5–12 septembre
-focus: 'La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l''extrême ouest.'
+focus: Vieux port vénitien · Quartier Splantzia · Côte sauvage
 subtitle: 'La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l''extrême ouest.'
-summary: ''
+summary: 'Arrivée, décompression, orientation. La plus belle vieille ville de Crète comme point de chute. Journées à la mer — Falassarna et Elafonisi sont à 1h de voiture — soirées dans les ruelles. L''eau commence à ~24°C en début septembre.'
 pullquote: 'Huit nuits à Chania, c''est long exprès. C''est le sas du voyage — l''endroit où on laisse tomber le décalage horaire, où on apprend le rythme crétois avant de disparaître à Loutro.'
 cover: chania-cover
 tagBlock:
@@ -28,7 +28,6 @@ infoBlocks:
     items:
       - halepa-hotel
       - ionas-boutique-hotel
-      - harismari-cozy-hotel
   -
     label: Où manger
     type: poi-list
@@ -36,6 +35,7 @@ infoBlocks:
       - tamam
       - chrisostomos
       - evgonia
+    footer: 'Règle d''or : éviter le premier rang de restos sur le port — qualité divisée par deux, prix doublés.'
   -
     label: Les plages
     type: poi-list
@@ -46,9 +46,17 @@ infoBlocks:
       - seitan-limania
   -
     label: À faire dans la ville
-    type: poi-list
-    items:
-      - splantzia-vieille-ville
+    type: prose
+    body: 'Marché couvert (Agora) — fromages, huile d''olive, charcuteries, miel. Ouvert lun–sam 8h–13h30. Quartier Splantzia — place à l''olivier, artisans couteliers rue Maxaradika. Phare vénitien au coucher du soleil.'
+mapLabel: Carte — Chania et environs
+accomExtras:
+  -
+    name: Harismari Cozy Hotel
+    tier: gem
+    price: ~95–130 €/nuit
+    blurb: 'Bâtiment vénitien de 1400, 7 chambres uniques avec meubles anciens et pierres d''origine. Note 9.8/10 — un musée vivant.'
+    image: photo-9
+    links: []
 ---
 
 La base est à Splantzia ou Halepa, jamais au front de port : c'est 20% moins cher, c'est là où les voisines sortent leur chaise à 18h, et c'est à dix minutes à pied de tout.

@@ -5,11 +5,15 @@ title: Sitia
 kicker: 'l''est authentique'
 nights: 9
 dates: 19–27 septembre
-focus: 'L''est authentique. Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port. Eau à son maximum thermique : 27–28°C.'
+focus: Crète orientale · Vignobles · Zéro tourisme de masse
 subtitle: 'L''est authentique. Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port. Eau à son maximum thermique : 27–28°C.'
-summary: ''
+summary: 'La vraie Crète, celle que les tours opérateurs n''ont pas encore trouvée. Les Grecs y mangent encore dans les tavernas du port. Criques isolées à Xerokampos, palmeraie de Vaï, palais minoen de Kato Zakros, vin local Liatiko. L''eau est à son maximum thermique — 27–28°C.'
 pullquote: 'Neuf nuits à Sitia, c''est le pari du voyage. Personne y va. C''est précisément pour ça.'
 cover: sitia-cover
+notes:
+  -
+    kind: Trajet depuis Loutro
+    body: 'Reprendre la voiture à Chora Sfakion. Rouler vers l''est via Plakias (arrêt facultatif à Frangokastello). Sitia : ~3h30, compter une demi-journée avec déjeuner en route.'
 tagBlock:
   label: 'Température de l''eau'
   tags:
@@ -35,18 +39,15 @@ infoBlocks:
       - tzivaeri
   -
     label: Les criques et plages
-    type: poi-list
-    items:
-      - argilos-beach
-      - kato-zakros-palais-minoen
-      - vai-palmeraie
-      - psili-ammos
+    type: prose
+    body: 'Xerokampos — 1h au sud. Chapelet de criques désertes. Mazzida Ammos (sable blanc tropical) et Argilos Beach — plage d''argile naturelle : spa gratuit en pleine nature. Kato Zakros — Gorge des Morts (tombes minoennes dans les grottes), palais minoen à 200m de l''eau. Taverna du village pour le lunch. Vaï — Palmeraie naturelle unique en Europe. En septembre : beaucoup moins de monde. Astuce : passer par-dessus le promontoire vers Psili Ammos — plage secrète, zéro monde. Maps'
   -
     label: À ne pas manquer
     type: poi-list
     items:
       - spinalonga
       - monastere-de-toplou
+mapLabel: Carte — Sitia et est crétois
 ---
 
 La Crète orientale, c'est la Crète qui mange encore dans ses propres tavernas, qui parle à ses propres voisins, qui ne s'est jamais déguisée pour personne. L'eau est à 27–28°C — le maximum thermique annuel — et elle reste calme parce que personne n'est là pour la brasser.

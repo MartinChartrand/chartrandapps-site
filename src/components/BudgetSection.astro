@@ -10,11 +10,15 @@ interface StatCard {
 
 interface BudgetLine {
   label: string;
-  amount?: number;
+  category?: string; // .budget-cat v1 — détail sous le label
+  amount?: number | string; // extraction v1 = string (« ~2 000 $ »)
   [key: string]: unknown;
 }
 
 interface Budget {
+  kicker?: string; // .section-num v1 (« Finances »)
+  title?: string;  // h2.section-title v1 (« Budget estimé »)
+  intro?: string;  // p.section-intro v1 (taux de référence, niveau de confort)
   statCards: StatCard[];
   lines: BudgetLine[];
   scenarios?: Array<{ name: string; total: number; desc: string; }>;
@@ -29,8 +33,19 @@ interface Props {
 
 const { budget, totalNights = 30, travelers = 2 } = Astro.props;
 
-// Calculer le total à partir des lignes
-const calculatedTotal = budget.lines.reduce((sum, line) => sum + (line.amount ?? 0), 0);
+// Calculer le total à partir des lignes — les montants v1 sont des strings (« ~2 000 $ »)
+function numericAmount(amount?: number | string): number {
+  if (typeof amount === 'number') return amount;
+  if (typeof amount === 'string') {
+    const digits = amount.replace(/[^0-9]/g, '');
+    return digits ? parseInt(digits, 10) : 0;
+  }
+  return 0;
+}
+
+const calculatedTotal = budget.lines.reduce((sum, line) => sum + numericAmount(line.amount), 0);
+const approx = budget.lines.some((l) => typeof l.amount === 'string' && l.amount.includes('~'));
+const fmtTotal = `${approx ? '~' : ''}${calculatedTotal.toLocaleString('fr-CA')} $`;
 
 function resolveCard(card: StatCard): string {
   if (card.value) return card.value;
@@ -42,7 +57,8 @@ function resolveCard(card: StatCard): string {
   }
 }
 
-function fmtAmount(amount?: number): string {
+function fmtAmount(amount?: number | string): string {
+  if (typeof amount === 'string') return amount; // déjà formaté en v1
   if (!amount && amount !== 0) return '–';
   return `${amount.toLocaleString('fr-CA')} $`;
 }
@@ -52,8 +68,9 @@ function fmtAmount(amount?: number): string {
   <div class="section">
     <div class="container">
       <div class="section-header">
-        <span class="section-num">Planification financière</span>
-        <h2 class="section-title">Budget</h2>
+        <span class="section-num">{budget.kicker || 'Planification financière'}</span>
+        <h2 class="section-title">{budget.title || 'Budget'}</h2>
+        {budget.intro && <p class="section-intro">{budget.intro}</p>}
       </div>
 
       {budget.statCards.length > 0 && (
@@ -72,13 +89,16 @@ function fmtAmount(amount?: number): string {
           <tbody>
             {budget.lines.map((line) => (
               <tr>
-                <td>{line.label}</td>
+                <td>
+                  <strong>{line.label}</strong>
+                  {line.category && <span class="budget-cat">{line.category}</span>}
+                </td>
                 <td>{fmtAmount(line.amount)}</td>
               </tr>
             ))}
             <tr class="budget-total">
-              <td>Total</td>
-              <td>{calculatedTotal.toLocaleString('fr-CA')} $</td>
+              <td>Total estimé</td>
+              <td>{fmtTotal}</td>
             </tr>
           </tbody>
         </table>
@@ -140,6 +160,15 @@ function fmtAmount(amount?: number): string {
   .budget-table tr:last-child { border-bottom: none; }
 
   .budget-table td { padding: 14px 0; font-size: 14px; }
+
+  .budget-table td strong { font-weight: 500; }
+
+  .budget-cat {
+    color: var(--muted);
+    font-size: 12px;
+    display: block;
+    margin-top: 2px;
+  }
 
   .budget-table td:last-child {
     text-align: right;

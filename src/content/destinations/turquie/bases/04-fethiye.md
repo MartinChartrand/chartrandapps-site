@@ -2,20 +2,26 @@
 order: 4
 slug: fethiye
 title: Fethiye & Kayaköy
-kicker: fethiye & kayaköy
+kicker: le slow finish
 nights: 10
 dates: 25 septembre–4 octobre
-focus: Le slow finish du voyage. Split en trois — Paspatur old town, village fantôme gréco-turc de Kayaköy, falaise de Faralya au-dessus de Butterfly Valley. Départ Dalaman à 45 minutes.
+focus: Paspatur old town · Village fantôme de Kayaköy · Falaises de Faralya
 subtitle: Le slow finish du voyage. Split en trois — Paspatur old town, village fantôme gréco-turc de Kayaköy, falaise de Faralya au-dessus de Butterfly Valley. Départ Dalaman à 45 minutes.
-summary: ''
+summary: 'Bus côtier depuis Kaş, trois heures à travers les pins. Split en trois : quatre nuits à Fethiye Paspatur pour le bazaar, le marché du mardi et le fish market où tu achètes ton poisson avant qu''on te le grille ; trois nuits à Kayaköy, village gréco-turc abandonné en 1923, pour shooter 500 maisons en ruine à l''aube ; trois nuits à Faralya sur la falaise au-dessus de Butterfly Valley. Départ Dalaman matin, 45 minutes de taxi.'
 pullquote: 'Dix nuits en finale, c''est la décompression. Après Istanbul, la Cappadoce et Kaş, on n''a plus envie de découvrir à toute vitesse. On veut un bazar à l''aube, un village abandonné sur une colline, et le bruit de la mer quelque part en fond sonore.'
 cover: fethiye-cover
+notes:
+  -
+    kind: Ventilation recommandée — 10 nuits
+    body: 'N1-N4 Fethiye Paspatur (mardi inclus pour le marché), N5-N7 Kayaköy (aube ghost village, Cin Bal, Afkule), N8-N10 Faralya falaise (Butterfly, Lycian Way, demi-pension Hideaway). Dernière journée light : café bazar, derniers achats tahin pekmez + épices, transfert Dalaman sans rush.'
 infoBlocks:
   -
     label: Où dormir
     type: poi-list
     items:
       - villa-rhapsody-kayakoy
+      - yonca-lodge-kayakoy
+      - hideaway-hotel-faralya
   -
     label: Où manger
     type: poi-list
@@ -26,15 +32,13 @@ infoBlocks:
       - levissi-garden
   -
     label: Les sites et expériences
-    type: poi-list
-    items:
-      - kayakoy-ghost-village
-      - butterfly-valley
-      - saklkent-gorge
+    type: prose
+    body: 'Kayaköy Ghost Village — Entrée officielle village bas, ~3 € entrée. 500 maisons et deux églises abandonnées depuis 1923. Lumière de dingue au lever (6h30 sept, 7h oct) et une heure avant le coucher. 3h minimum. Maps Butterfly Valley — Accessible par bateau shuttle depuis Ölüdeniz (12-18 € round-trip) ou descente technique Lycian Way de Faralya. Canyon falaises 350 m, plage galets, cascade. Premier bateau 11h avant foule 13h. Maps Gulet day trip 12 îles — Fethiye harbour, 18-30 € avec déjeuner à bord. 6-7 îles (Yassıca, Tersane, Kızıl, Hamam, Göcek, Domuz), baignades criques, BBQ pont. Choisir bateau 30-40 pax pas 80+. Maps Saklıkent Gorge — 50 km est, 2 € entrée + dolmuş. Canyon 18 km, marche dans l''eau glacée (15°C), falaises 300 m. 2 km faisables sans équipement. Combiner avec ruines de Tlos sur le retour. Maps Paragliding Babadağ (1969 m) — Top 3 mondial avec Interlaken et Pokhara. Décollage au sommet, atterrissage direct plage Ölüdeniz, vol 30-40 min. 135-180 € tandem + GoPro. Maps'
   -
     label: Départ vers Dalaman (DLM)
     type: prose
     body: 'Taxi direct Fethiye/Kayaköy → DLM : 45-55 min, 45-65 €. Réserver la veille via l''hôtel. Havaş shuttle bus : 4-5 départs/jour depuis Fethiye otogar, 60 min, 10-15 €. Vol matin tôt → nuit pré-vol à Dalaman town = moins stress. Itinéraire Havaş shuttle'
+mapLabel: Carte — Fethiye, Kayaköy et côte turquoise
 ---
 
 Trois bases, pas une. **Paspatur** (vieille Fethiye) pour le bazar, le marché géant du mardi et le fish market où tu achètes ton poisson avant qu'un resto adjacent te le grille. **Kayaköy** pour le village grec abandonné en 1923, 500 maisons en ruine parfaites pour le noir et blanc à l'aube. **Faralya** sur la falaise au-dessus de Butterfly Valley, si on veut la vue spectaculaire. On évite **Ölüdeniz bourg** — c'est Blackpool-sur-Méditerranée.

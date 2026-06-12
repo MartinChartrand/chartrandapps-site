@@ -1,5 +1,6 @@
 {
   "slug": "crete",
+  "pageTitle": "Crète — Septembre 2027 · Itinéraire de voyage",
   "heroTitle": {
     "main": "Crète",
     "em": "septembre"
@@ -29,9 +30,18 @@
     "image": "hero",
     "label": "Itinéraire · Voyage en duo"
   },
+  "overviewKicker": "Logique du voyage",
+  "overviewTitle": "Quatre bases, mouvement minimal",
   "overviewIntro": "Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire suit la géographie ouest → sud → est → centre, de l'arrivée à Chania jusqu'au départ depuis Héraklion.",
   "intro": {
-    "whySeason": "Eau à 26–28°C — le maximum thermique annuel. Foules divisées par trois après le 15 août. Les Crétois reprennent leur île. Lumière d'automne dorée, idéale pour la photo. Tarifs 30–40% inférieurs à juillet–août.",
-    "logistics": "Vol aller Montréal → Chania (CHQ), retour Héraklion (HER) → Montréal. Voiture louée à Chania pour toute la durée, sauf pendant Loutro (6 nuits) où elle reste garée à Chora Sfakion. Budget total estimé : ~11 400 $ CAD pour deux."
-  }
+    "whySeason": {
+      "title": "Pourquoi septembre",
+      "body": "Eau à 26–28°C — le maximum thermique annuel. Foules divisées par trois après le 15 août. Les Crétois reprennent leur île. Lumière d'automne dorée, idéale pour la photo. Tarifs 30–40% inférieurs à juillet–août."
+    },
+    "logistics": {
+      "title": "Logistique de base",
+      "body": "Vol aller Montréal → Chania (CHQ), retour Héraklion (HER) → Montréal. Voiture louée à Chania pour toute la durée, sauf pendant Loutro (6 nuits) où elle reste garée à Chora Sfakion. Budget total estimé : ~11 400 $ CAD pour deux."
+    }
+  },
+  "footerNote": "Itinéraire préparé avec amour · Crète, septembre–octobre 2027"
 }

@@ -85,7 +85,7 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "gem",
     "name": "Georges Hotel Galata",
     "blurb": "Vingt chambres dans une maison de 1850 restaurée, deux minutes de la tour de Galata. Rooftop bar panoramique sur la Corne d'Or et Süleymaniye — coucher de soleil légendaire. Salle de bain en marbre Marmara.",
     "signature": "",
@@ -429,7 +429,7 @@
       "see"
     ],
     "name": "Hammam Çemberlitaş (Grand Bazar)",
-    "blurb": "",
+    "blurb": "Hammam de 1584 signé Sinan, encore populaire auprès des Stambouliotes. 40–60 € service complet kese + savonnage. Grand Bazar juste à côté, arriver 9h30 à l'ouverture.",
     "signature": "",
     "image": "hammam-cemberlitas-grand-bazar-img",
     "price": {
@@ -581,7 +581,7 @@
       "see"
     ],
     "name": "Ferry Bosphore (Eminönü)",
-    "blurb": "",
+    "blurb": "Şehir Hatları depuis Eminönü, départ 10h30, remonte jusqu'à Anadolu Kavağı (mer Noire), arrêt 2h pour manger du poisson frais, retour fin d'après-midi. ~3–4 € avec Istanbulkart — même trajet que les tours à 40 €. Maps",
     "signature": "",
     "image": "ferry-bosphore-eminonu-img",
     "price": {
@@ -772,13 +772,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "gem",
     "name": "Museum Hotel (Uçhisar)",
-    "blurb": "",
+    "blurb": "Premier R&C de Turquie, perché sur la falaise d'Uçhisar face à Göreme. Collection d'antiquités anatoliennes (certaines > 2000 ans), piscine infinie à 1300 m. Le resto Lil'a sert l'un des meilleurs testi kebab de la région.",
     "signature": "",
     "image": "museum-hotel-uchisar-img",
     "price": {
-      "range": "",
+      "range": "~380–480 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1040,7 +1040,7 @@
       "see"
     ],
     "name": "Göreme Open-Air Museum",
-    "blurb": "~20 € + 6 € Karanlık Kilise (obligatoire, frescoes 11e s. en parfait état). Ouverture 8h, arriver tôt avant les bus.",
+    "blurb": "",
     "signature": "",
     "image": "goreme-open-air-museum-img",
     "price": {
@@ -1459,7 +1459,7 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "gem",
     "name": "Hotel Nur Beach (Çukurbağ)",
     "blurb": "Péninsule Çukurbağ, côté sud, accès direct plateforme baignade. 20 chambres accrochées à la falaise, piscine infinity, échelle en inox qui plonge dans 20 mètres d'eau turquoise. Design turc contemporain, salle à manger ouverte.",
     "signature": "",
@@ -1613,7 +1613,7 @@
       "eat"
     ],
     "name": "Köyüm Gözleme Evi (Bezirgan)",
-    "blurb": "Village à 25 min au nord (altitude 850 m). Petit-déj paysan sur tapis, 20 composantes : fromages de chèvre frais, beurre baratté, miel de sapin, confitures maison, menemen, gözleme aux herbes sauvages. 12–18 €/pers.",
+    "blurb": "Village à 25 min au nord (altitude 850 m). Petit-déj paysan sur tapis, 20 composantes : fromages de chèvre frais, beurre baratté, miel de sapin, confitures maison, menemen, gözleme aux herbes sauvages. 12–18 €/pers. Maps",
     "signature": "",
     "image": "koyum-gozleme-evi-bezirgan-img",
     "price": {
@@ -1689,7 +1689,7 @@
       "do"
     ],
     "name": "Limanağzı (crique)",
-    "blurb": "",
+    "blurb": "2h aller, 8-10 km A/R, sentier balisé rouge-blanc. Baignade + déjeuner taverne İnci, retour water taxi 8 €.",
     "signature": "",
     "image": "limanagz-crique-img",
     "price": {
@@ -1879,7 +1879,7 @@
       "see"
     ],
     "name": "Myra (Demre, tombes rupestres)",
-    "blurb": "Dolmuş 1h10, 5 €. Entrée 10 €. Tombes rupestres plein sud, lumière directe dès 10h, contraste brutal en N&B. Combine avec l'église Saint-Nicolas à 3 km.",
+    "blurb": "Dolmuş 1h10, 5 €. Entrée 10 €. Tombes rupestres plein sud, lumière directe dès 10h, contraste brutal en N&B. Combine avec l'église Saint-Nicolas à 3 km. Maps",
     "signature": "",
     "image": "myra-demre-tombes-rupestres-img",
     "price": {
@@ -2068,7 +2068,7 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "budget",
     "name": "Villa Rhapsody (Kayaköy)",
     "blurb": "Pension tenue par une famille anglo-turque depuis 20+ ans, piscine, vue sur les ruines du village grec. Base parfaite pour shooter le ghost village à l'aube avant les bus. ~50–65 €/nuit B&B.",
     "signature": "",
@@ -2107,9 +2107,9 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "mid",
     "name": "Yonca Lodge (Kayaköy)",
-    "blurb": "",
+    "blurb": "Bungalows en pierre au milieu des oliviers, entre village et Gemiler bay. Piscine, resto sur place qui fait du mezze maison. Silence total la nuit. ~110–140 €/nuit B&B.",
     "signature": "",
     "image": "yonca-lodge-kayakoy-img",
     "price": {
@@ -2146,13 +2146,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "gem",
     "name": "Hideaway Hotel (Faralya)",
-    "blurb": "",
+    "blurb": "Adults-only, 12 chambres taillées dans la falaise, terrasse suspendue 350 m au-dessus de la mer avec vue directe sur Butterfly Valley. Demi-pension mérite son prix — le chef fait des mezze qu'on mange face au coucher de soleil.",
     "signature": "",
     "image": "hideaway-hotel-faralya-img",
     "price": {
-      "range": "",
+      "range": "~280–380 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2186,7 +2186,7 @@
       "eat"
     ],
     "name": "Fethiye Fish Market (Mavi/Cem/Rafet)",
-    "blurb": "Balık Pazarı, Paspatur. Concept unique : tu achètes ton poisson (levrek, çupra, kalkan) aux poissonniers au centre, un des huit restos autour le grille pour toi contre 4-6 € de service (mezze, salade, pain). Total 12-22 € selon poisson.",
+    "blurb": "Balık Pazarı, Paspatur. Concept unique : tu achètes ton poisson (levrek, çupra, kalkan) aux poissonniers au centre, un des huit restos autour le grille pour toi contre 4-6 € de service (mezze, salade, pain). Total 12-22 € selon poisson. Maps",
     "signature": "",
     "image": "fethiye-fish-market-mavicemrafet-img",
     "price": {
@@ -2224,7 +2224,7 @@
       "eat"
     ],
     "name": "Cin Bal (Kayaköy)",
-    "blurb": "Institution depuis les 70s, au pied du site archéologique. Concept : ils apportent viande marinée + braises + grille, tu fais cuire toi-même pendant que les mezze arrivent. Kuzu tandır (agneau au four de terre). Cour sous les arbres, zéro British tour. 12-20 €/pers.",
+    "blurb": "Institution depuis les 70s, au pied du site archéologique. Concept : ils apportent viande marinée + braises + grille, tu fais cuire toi-même pendant que les mezze arrivent. Kuzu tandır (agneau au four de terre). Cour sous les arbres, zéro British tour. 12-20 €/pers. Maps",
     "signature": "",
     "image": "cin-bal-kayakoy-img",
     "price": {
@@ -2262,7 +2262,7 @@
       "eat"
     ],
     "name": "Reis Restaurant (Paspatur)",
-    "blurb": "Ruelles piétonnes derrière le fish market. Meyhane classique, tables dehors sous les vignes, mezze froids (haydari, acılı ezme, muhammara, fava), poulpe grillé, calamars. Musique turque live certains soirs. 15-25 €/pers avec rakı.",
+    "blurb": "Ruelles piétonnes derrière le fish market. Meyhane classique, tables dehors sous les vignes, mezze froids (haydari, acılı ezme, muhammara, fava), poulpe grillé, calamars. Musique turque live certains soirs. 15-25 €/pers avec rakı. Maps",
     "signature": "",
     "image": "reis-restaurant-paspatur-img",
     "price": {
@@ -2300,7 +2300,7 @@
       "eat"
     ],
     "name": "Levissi Garden",
-    "blurb": "Resto-jardin avec potager qui fournit la cuisine. Tables sous les grenadiers et figuiers, mezze saisonniers, agneau au four, poisson à la braise. Très photogénique fin de journée. 18-30 €/pers.",
+    "blurb": "Resto-jardin avec potager qui fournit la cuisine. Tables sous les grenadiers et figuiers, mezze saisonniers, agneau au four, poisson à la braise. Très photogénique fin de journée. 18-30 €/pers. Maps",
     "signature": "",
     "image": "levissi-garden-img",
     "price": {
@@ -2338,7 +2338,7 @@
       "see"
     ],
     "name": "Kayaköy Ghost Village",
-    "blurb": "Entrée officielle village bas, ~3 € entrée. 500 maisons et deux églises abandonnées depuis 1923. Lumière de dingue au lever (6h30 sept, 7h oct) et une heure avant le coucher. 3h minimum.",
+    "blurb": "",
     "signature": "",
     "image": "kayakoy-ghost-village-img",
     "price": {
@@ -2376,7 +2376,7 @@
       "do"
     ],
     "name": "Butterfly Valley",
-    "blurb": "Accessible par bateau shuttle depuis Ölüdeniz (12-18 € round-trip) ou descente technique Lycian Way de Faralya. Canyon falaises 350 m, plage galets, cascade. Premier bateau 11h avant foule 13h.",
+    "blurb": "",
     "signature": "",
     "image": "butterfly-valley-img",
     "price": {
@@ -2566,7 +2566,7 @@
       "see"
     ],
     "name": "Saklıkent Gorge",
-    "blurb": "50 km est, 2 € entrée + dolmuş. Canyon 18 km, marche dans l'eau glacée (15°C), falaises 300 m. 2 km faisables sans équipement. Combiner avec ruines de Tlos sur le retour.",
+    "blurb": "",
     "signature": "",
     "image": "saklkent-gorge-img",
     "price": {

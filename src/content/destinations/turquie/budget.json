@@ -1,4 +1,7 @@
 {
+  "kicker": "Finances",
+  "title": "Budget estimé",
+  "intro": "En dollars canadiens, taux de référence 1 € ≈ 1,50 $ CAD. Estimations réalistes pour un voyageur solo, niveau confort intermédiaire — mix budget et mid-range sur l'hébergement, tables locales tous les soirs, une montgolfière, une plongée. La Turquie est nettement moins chère que la Grèce, compenser partiellement par les vols intérieurs.",
   "statCards": [
     {
       "value": "~5 900 $",

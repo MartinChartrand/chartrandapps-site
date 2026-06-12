@@ -5,11 +5,15 @@ title: Kaş
 kicker: le cœur du voyage
 nights: 8
 dates: 17–24 septembre
-focus: Petite ville blanche sur la côte Lycienne, amphithéâtre antique en plein centre, pas de resorts all-inclusive. Le Loutro turc — perle côtière intime. Eau à 25°C.
+focus: Côte Lycienne · Petite ville sans resorts · Eau à 25°C
 subtitle: Petite ville blanche sur la côte Lycienne, amphithéâtre antique en plein centre, pas de resorts all-inclusive. Le Loutro turc — perle côtière intime. Eau à 25°C.
-summary: ''
+summary: 'Vol Kayseri → Antalya, quatre heures de bus sur la D400 panoramique. Kaş c''est le Loutro turc : petite ville blanche descendant vers un port, un amphithéâtre lycien en plein centre, l''île grecque de Kastellorizo à deux kilomètres en face. Plongée sur un des meilleurs spots de Méditerranée, Kekova et ses ruines englouties, Patara et sa plage antique de dix-huit kilomètres, Xanthos-Letoon à l''aube. Huit nuits pour s''installer vraiment.'
 pullquote: 'Huit nuits à Kaş, c''est long exprès. C''est la pièce maîtresse de la côte Lycienne — une ville où on s''installe, où on apprivoise le rythme, où on devient le vieux qui commande toujours la même daurade chez Bi Lokma.'
 cover: kas-cover
+notes:
+  -
+    kind: Trajet depuis la Cappadoce
+    body: 'Vol Kayseri ASR → Antalya AYT (1h20, 55-80 €) + bus Antalya→Kaş (Batı Antalya Tur ou Kamil Koç, 3h45, 12-15 €, départs toutes les 1-2h). Total 6-7h porte-à-porte. La route D400 longe la côte Lycienne — s''asseoir côté droit pour la vue mer.'
 tagBlock:
   label: 'Température de l''eau'
   tags:
@@ -28,7 +32,7 @@ infoBlocks:
     items:
       - hideaway-hotel-kas
       - gardenia-hotel-kas
-      - hotel-nur-beach
+      - hotel-nur-beach-cukurbag
   -
     label: Où manger
     type: poi-list
@@ -50,7 +54,8 @@ infoBlocks:
     type: poi-list
     items:
       - dragoman-diving
-      - lycian-way-faralya-descente
+      - limanagz-crique
+mapLabel: Carte — Kaş et côte Lycienne
 ---
 
 Vol Kayseri → Antalya, puis quatre heures de bus sur la D400 panoramique — assis côté droit pour la mer. Kaş descend vers un port en demi-cercle, avec un amphithéâtre lycien en plein centre-ville et l'île grecque de **Kastellorizo** à deux kilomètres en face qu'on peut regarder depuis la terrasse du petit-déjeuner. Saison sept-oct : eau à 25°C, air à 28°C, foules divisées par trois.

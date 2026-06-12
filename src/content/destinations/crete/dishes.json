@@ -1,1 +1,158 @@
-[]
+[
+  {
+    "id": "loukoumades-chez-ntourountous",
+    "group": "Incontournables foodie — Chania",
+    "title": "Loukoumades chez Ntourountous",
+    "body": "Beignets au miel chauds, recette familiale. Place 1866, au cœur de la ville. Travelers' Choice TripAdvisor. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Ntourountous+bakery+Chania"
+      }
+    ],
+    "image": "photo-13"
+  },
+  {
+    "id": "sfakianopita-au-marche",
+    "group": "Incontournables foodie — Chania",
+    "title": "Sfakianopita au marché",
+    "body": "Crêpe fine fourrée à la myzithra, arrosée de miel de thym. La vraie version Sfakiote — on va en manger encore plus à Loutro.",
+    "image": "photo-14"
+  },
+  {
+    "id": "pieuvre-grillee-xtapodi-sti-schara",
+    "group": "Incontournables foodie — Chania",
+    "title": "Pieuvre grillée (xtapodi sti schara)",
+    "body": "Essayer chez Chrisostomos ou Evgonia. Grillée à la perfection, huile d'olive crétoise, citron. Aussi essayer l'oursin en salade.",
+    "image": "photo-15"
+  },
+  {
+    "id": "degustation-raki-et-vin",
+    "group": "Incontournables foodie — Chania",
+    "title": "Dégustation raki et vin",
+    "body": "Tour privé des vignobles avec Chania Wine Tours — visites chez Manousakis ou Karavitakis. Le tsikoudia (raki crétois) est offert comme digestif partout.",
+    "links": [
+      {
+        "label": "Chania Wine Tours",
+        "url": "https://www.chaniawinetours.com/"
+      }
+    ],
+    "image": "photo-16"
+  },
+  {
+    "id": "cours-de-cuisine-cretoise",
+    "group": "Incontournables foodie — Chania",
+    "title": "Cours de cuisine crétoise",
+    "body": "Chania Gastronomy — petits groupes (max 10), approche slow travel. Apprendre le dakos, les dolmadakia, les kalitsounia.",
+    "links": [
+      {
+        "label": "Chania Gastronomy",
+        "url": "https://www.chaniagastronomy.com/"
+      }
+    ],
+    "image": "photo-17"
+  },
+  {
+    "id": "sfakianopita-le-plat-de-la-region",
+    "group": "Incontournables foodie — Loutro & Sfakia",
+    "title": "Sfakianopita — LE plat de la région",
+    "body": "Crêpe fine pétrie au raki, fourrée à la myzithra fraîche, dorée à la poêle, arrosée de miel de thym et graines de sésame. Commander partout — c'est le terroir local. En lice pour l'UNESCO.",
+    "image": "photo-33"
+  },
+  {
+    "id": "paidakia-chez-stratis",
+    "group": "Incontournables foodie — Loutro & Sfakia",
+    "title": "Paidakia chez Stratis",
+    "body": "Côtelettes d'agneau grillées, yogourt du troupeau familial. Simple, parfait. Accompagner de salade crétoise et de vin de la maison.",
+    "image": "photo-34"
+  },
+  {
+    "id": "dejeuner-a-la-taverna-dialiskari-marmara-beach",
+    "group": "Incontournables foodie — Loutro & Sfakia",
+    "title": "Déjeuner à la taverna Dialiskari (Marmara Beach)",
+    "body": "Accessible uniquement par bateau. Pain pétri main, légumes du jardin, poisson grillé. Manger pieds dans le sable avec vue sur les grottes de marbre.",
+    "image": "photo-35"
+  },
+  {
+    "id": "raki-maison-tsikoudia",
+    "group": "Incontournables foodie — Loutro & Sfakia",
+    "title": "Raki maison (tsikoudia)",
+    "body": "Offert comme digestif après chaque repas. Distillé en novembre dans les villages — un rituel communautaire crétois. Demander la version au miel (rakomelo) pour finir la soirée.",
+    "image": "photo-36"
+  },
+  {
+    "id": "huile-dolive-pdo-de-sitia",
+    "group": "Incontournables foodie — Sitia",
+    "title": "Huile d'olive PDO de Sitia",
+    "body": "Appellation protégée, variété Koroneiki unique. Dégustation gratuite à l'Écomusée de Sitia. Acheter directement aux producteurs — incomparable avec ce qu'on trouve en supermarché.",
+    "links": [
+      {
+        "label": "Écomusée de Sitia",
+        "url": "https://www.google.com/maps/search/Ecomuseum+Municipality+Sitia+Crete"
+      }
+    ],
+    "image": "photo-51"
+  },
+  {
+    "id": "vin-liatiko-au-monastere-de-toplou",
+    "group": "Incontournables foodie — Sitia",
+    "title": "Vin Liatiko au Monastère de Toplou",
+    "body": "Cépage rouge autochtone, sec et charpenté. Dégustation sur place au monastère. 5 siècles de viticulture, vin bio certifié. Ramener quelques bouteilles.",
+    "links": [
+      {
+        "label": "monastère",
+        "url": "https://toplouoliveoil.com/"
+      }
+    ],
+    "image": "photo-16"
+  },
+  {
+    "id": "plateau-de-poisson-chez-tzivaeri",
+    "group": "Incontournables foodie — Sitia",
+    "title": "Plateau de poisson chez Tzivaeri",
+    "body": "22 € pour deux. Poisson du matin, pain du four, huile et vin de la famille Psarakis. Le genre de repas qu'on ne trouve plus nulle part en zone touristique.",
+    "image": "photo-52"
+  },
+  {
+    "id": "pieuvre-sechee-au-soleil",
+    "group": "Incontournables foodie — Sitia",
+    "title": "Pieuvre séchée au soleil",
+    "body": "Tradition en déclin mais encore visible sur le port de Sitia. Demander la xtapodi krasata (pieuvre au vin rouge) chez Fegaropsaro — la version cuttlefish aussi.",
+    "image": "photo-53"
+  },
+  {
+    "id": "marche-du-mercredi",
+    "group": "🍷 Incontournables foodie — Rethymno",
+    "title": "Marché du mercredi",
+    "body": "Rue Koumoundourou, marché paysan hebdomadaire. Fromages frais, miel de thym, herbes séchées, fruits de saison. Y aller tôt le matin pour la meilleure sélection.",
+    "image": "photo-71"
+  },
+  {
+    "id": "kalitsounia",
+    "group": "🍷 Incontournables foodie — Rethymno",
+    "title": "Kalitsounia",
+    "body": "Chaussons crétois fourrés au fromage mizithra et herbes sauvages, version sucrée au miel. Essayer chez Yiorgos Hatziparaskos, atelier familial depuis 1960 dans la vieille ville qui tire la pâte phyllo à la main sous les yeux des clients.",
+    "image": "photo-72"
+  },
+  {
+    "id": "vin-cretois",
+    "group": "🍷 Incontournables foodie — Rethymno",
+    "title": "Vin crétois",
+    "body": "La région de Rethymno produit d'excellents crus. Sella Vineria et Rewine dans la vieille ville offrent des dégustations de cépages autochtones — Vidiano, Kotsifali, Mandilari.",
+    "image": "photo-73"
+  },
+  {
+    "id": "cooking-class",
+    "group": "🍷 Incontournables foodie — Rethymno",
+    "title": "Cooking class",
+    "body": "Chrysoula à Pigi, village à 10 minutes de Rethymno, propose des cours de cuisine crétoise traditionnelle dans sa maison. Légumes de la ferme familiale, four à bois, ~3h30 en petit groupe. Réserver à l'avance.",
+    "image": "photo-74"
+  },
+  {
+    "id": "raki-mezze",
+    "group": "🍷 Incontournables foodie — Rethymno",
+    "title": "Raki & mezze",
+    "body": "En fin de soirée, les tavernes offrent le raki maison avec mezze gratuit (fruits, gâteaux). C'est la tradition crétoise du tsikoudia — ne jamais refuser, c'est l'hospitalité incarnée. <div",
+    "image": "photo-75"
+  }
+]

@@ -82,14 +82,24 @@ const totalNights =
         (new Date(d.departure.date).getTime() - new Date(d.arrival.date).getTime()) / 86400000
       )
     : 30;
+
+// Groupes éditoriaux (dish.group / gem.group = titre du bloc v1, un bloc rendu par groupe)
+function groupsOf(items: Array<{ group?: string }>): Array<string | undefined> {
+  const seen: Array<string | undefined> = [];
+  for (const it of items) if (!seen.includes(it.group)) seen.push(it.group);
+  return seen;
+}
+const dishGroups = groupsOf(dishes);
+const gemGroups = groupsOf(gems);
 ---
 
 <DestinationLayout
-  title={`${d.heroTitle.main} — ${d.heroTitle.em} · Itinéraire`}
+  title={d.pageTitle || `${d.heroTitle.main} — ${d.heroTitle.em} · Itinéraire`}
   favicon={d.theme.favicon}
   palette={d.theme.palette}
   description={d.subtitle}
   canonicalUrl={`https://chartrandapps.ca/${dest}/`}
+  footerNote={d.footerNote}
 >
   <Hero
     heroTitle={d.heroTitle}
@@ -105,15 +115,28 @@ const totalNights =
 
   <main id="main-content">
 
-    <!-- VUE D'ENSEMBLE -->
+    <!-- VUE D'ENSEMBLE — trois éléments v1 : .section-num + h2.section-title + p.section-intro -->
     <div id="vue" class="tab-section">
       <div class="section">
         <div class="container">
           <div class="section-header reveal">
-            <span class="section-num">Logique du voyage</span>
-            <h2 class="section-title">{d.overviewIntro}</h2>
+            <span class="section-num">{d.overviewKicker}</span>
+            <h2 class="section-title">{d.overviewTitle}</h2>
+            <p class="section-intro">{d.overviewIntro}</p>
           </div>
           <Timeline bases={bases.map((b) => b.data)} />
+
+          <!-- intro-grid v1 : « Pourquoi septembre » / « Logistique de base » -->
+          <div class="intro-grid">
+            <div class="intro-block">
+              <div class="intro-block-title">{d.intro.whySeason.title}</div>
+              <div class="intro-block-body">{d.intro.whySeason.body}</div>
+            </div>
+            <div class="intro-block">
+              <div class="intro-block-title">{d.intro.logistics.title}</div>
+              <div class="intro-block-body">{d.intro.logistics.body}</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -131,6 +154,9 @@ const totalNights =
             subtitle={bd.subtitle}
             kicker={bd.kicker}
             order={bd.order}
+            totalBases={bases.length}
+            dates={bd.dates}
+            nights={bd.nights}
           />
 
           <Pullquote text={bd.pullquote} />
@@ -191,11 +217,11 @@ const totalNights =
                 dest={dest}
               />
 
-              {/* AccomGrid — POIs avec role sleep, triés par tier */}
-              <AccomGrid pois={basePois} imageManifest={imageManifest} dest={dest} />
+              {/* AccomGrid — POIs avec role sleep, triés par tier + cartes v1 hors MAPS (accomExtras) */}
+              <AccomGrid pois={basePois} extras={bd.accomExtras} imageManifest={imageManifest} dest={dest} />
 
               {/* MapSection vanilla Leaflet (FR-4) */}
-              <MapSection pois={basePois} baseSlug={bd.slug} />
+              <MapSection pois={basePois} baseSlug={bd.slug} label={bd.mapLabel} />
 
             </div>
           </div>
@@ -203,23 +229,37 @@ const totalNights =
       );
     })}
 
-    <!-- FoodieBlock — entités éditoriales (dishes.json, §3.4 : pas de champ base) -->
+    <!-- FoodieBlock — entités éditoriales (dishes.json, §3.4) — un bloc par groupe v1 -->
     {dishes.length > 0 && (
       <div class="tab-section">
         <div class="section">
           <div class="container">
-            <FoodieBlock dishes={dishes as any[]} imageManifest={imageManifest} dest={dest} />
+            {dishGroups.map((g) => (
+              <FoodieBlock
+                dishes={dishes.filter((di) => di.group === g) as any[]}
+                title={g}
+                imageManifest={imageManifest}
+                dest={dest}
+              />
+            ))}
           </div>
         </div>
       </div>
     )}
 
-    <!-- GemBlock — entités éditoriales (gems.json, §3.4 : pas de champ base) -->
+    <!-- GemBlock — entités éditoriales (gems.json, §3.4) — un bloc par groupe v1 -->
     {gems.length > 0 && (
       <div class="tab-section">
         <div class="section">
           <div class="container">
-            <GemBlock gems={gems as any[]} imageManifest={imageManifest} dest={dest} />
+            {gemGroups.map((g) => (
+              <GemBlock
+                gems={gems.filter((ge) => ge.group === g) as any[]}
+                title={g}
+                imageManifest={imageManifest}
+                dest={dest}
+              />
+            ))}
           </div>
         </div>
       </div>
@@ -246,6 +286,35 @@ const totalNights =
 </DestinationLayout>
 
 <style>
+  /* intro-grid v1 (vue d'ensemble) */
+  .intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  .intro-block {
+    background: var(--white);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    transition: box-shadow var(--transition), transform var(--transition);
+  }
+
+  .intro-block:hover { box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+
+  .intro-block-title {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--text);
+  }
+
+  .intro-block-body { font-size: 13px; color: var(--muted); line-height: 1.75; }
+
+  @media (max-width: 640px) { .intro-grid { grid-template-columns: 1fr; } }
+
   .tag-block { margin: 24px 0; }
 
   .map-label {

@@ -1,4 +1,7 @@
 {
+  "kicker": "Finances",
+  "title": "Budget estimé",
+  "intro": "En dollars canadiens, taux de référence 1 € ≈ 1,50 $ CAD. Estimations réalistes pour deux personnes, niveau confort intermédiaire — bon hébergement, tavernas locales tous les soirs, vin au repas.",
   "statCards": [
     {
       "value": "~11 400 $",

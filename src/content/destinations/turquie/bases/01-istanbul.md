@@ -5,9 +5,9 @@ title: Istanbul
 kicker: le choc initial
 nights: 7
 dates: 5–11 septembre
-focus: 'Seize millions d''habitants sur deux continents. Base à Karaköy — la vraie ville est à Kadıköy, à Balat, sur le ferry de 17h40 quand la skyline s''allume.'
+focus: Karaköy · Galata · Balat · Kadıköy rive asiatique
 subtitle: 'Seize millions d''habitants sur deux continents. Base à Karaköy — la vraie ville est à Kadıköy, à Balat, sur le ferry de 17h40 quand la skyline s''allume.'
-summary: ''
+summary: 'Arrivée, décalage horaire, premier simit à 6h du matin. Base à Karaköy, loin de Sultanahmet — c''est là que les Stambouliotes vivent. Ferries publics sur le Bosphore, marché aux poissons de Kadıköy, Balat à l''aube pour la photo, Süleymaniye au coucher. Sept jours pour apprivoiser une ville de seize millions.'
 pullquote: 'Sept nuits à Istanbul, c''est court. Mais c''est assez pour comprendre que la vraie ville n''est pas à Sultanahmet — elle est sur l''autre rive, dans les ruelles de Balat, et dans le ferry public qui traverse le Bosphore au prix d''un tramway.'
 cover: istanbul-cover
 infoBlocks:
@@ -26,16 +26,20 @@ infoBlocks:
       - asmal-cavit
       - furreyya-galata-balkcs
       - neolokal-salt-galata
+    footer: 'Règle d''or : jamais un resto de Sultanahmet avec rabatteur à la porte. Menu en six langues avec photos = fuir.'
   -
     label: Les incontournables
     type: poi-list
     items:
       - sainte-sophie-ayasofya
+      - mosquee-suleymaniye
+      - hammam-cemberlitas-grand-bazar
       - ferry-bosphore-eminonu
   -
     label: Rives et marchés
     type: prose
     body: Balat-Fener à pied, matin 9h–11h. Marché aux poissons de Kadıköy, mardi matin pour la livraison. Kuzguncuk rive asiatique pour les maisons ottomanes en bois colorées.
+mapLabel: Carte — Istanbul et ses deux rives
 ---
 
 La base est à Karaköy ou Galata, jamais à Sultanahmet : c'est vivant 24 heures sur 24, c'est dix minutes à pied de Beyoğlu, c'est sept minutes en ferry jusqu'à Kadıköy. Sultanahmet c'est beau vingt minutes à l'aube, mais y dormir c'est dormir dans un parc à thème qui ferme à 19h.

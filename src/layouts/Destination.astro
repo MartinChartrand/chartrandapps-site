@@ -7,9 +7,10 @@ interface Props {
   palette: string;
   description?: string;
   canonicalUrl?: string;
+  footerNote?: string; // v1 : « Itinéraire préparé avec amour · Crète, septembre–octobre 2027 »
 }
 
-const { title, favicon, palette, description, canonicalUrl } = Astro.props;
+const { title, favicon, palette, description, canonicalUrl, footerNote } = Astro.props;
 ---
 
 <!doctype html>
@@ -37,6 +38,12 @@ const { title, favicon, palette, description, canonicalUrl } = Astro.props;
   <body>
     <a href="#main-content" class="skip-link">Aller au contenu</a>
     <slot />
+    {footerNote && (
+      <footer class="site-footer">
+        {footerNote}<br />
+        <a href="https://chartrandapps.ca">chartrandapps.ca</a>
+      </footer>
+    )}
     <button class="back-top" id="back-top" aria-label="Retour en haut">↑</button>
   </body>
 </html>
@@ -72,4 +79,19 @@ const { title, favicon, palette, description, canonicalUrl } = Astro.props;
   @import '../styles/tokens.css';
   @import '../styles/themes/crete.css';
   @import '../styles/themes/turquie.css';
+
+  /* Footer v1 */
+  .site-footer {
+    background: var(--deep);
+    color: rgba(255, 255, 255, 0.55);
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.9;
+    padding: 36px 24px;
+  }
+  .site-footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+  }
+  .site-footer a:hover { color: rgba(255, 255, 255, 0.8); }
 </style>

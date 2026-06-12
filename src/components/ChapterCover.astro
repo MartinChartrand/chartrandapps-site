@@ -6,10 +6,24 @@ interface Props {
   subtitle: string;
   kicker?: string;
   order: number;
+  totalBases?: number;
+  dates?: string;
+  nights?: number;
   imageUrl?: string;
 }
 
-const { title, subtitle, kicker, order, imageUrl } = Astro.props;
+const { title, subtitle, kicker, order, totalBases, dates, nights, imageUrl } = Astro.props;
+
+// chapter-num v1 : « 01 / 04 · Base 1 · 5–12 septembre · 8 nuits »
+const pad = (n: number) => String(n).padStart(2, '0');
+const chapterNum = [
+  totalBases ? `${pad(order)} / ${pad(totalBases)}` : pad(order),
+  `Base ${order}`,
+  dates,
+  nights ? `${nights} nuits` : undefined,
+]
+  .filter(Boolean)
+  .join(' · ');
 ---
 
 <div
@@ -20,7 +34,7 @@ const { title, subtitle, kicker, order, imageUrl } = Astro.props;
 >
   {imageUrl && <img src={imageUrl} alt="" role="presentation" loading="lazy" />}
   <div class="chapter-cover-inner">
-    <span class="chapter-num">{order}{kicker ? ` · ${kicker}` : ''}</span>
+    <span class="chapter-num">{chapterNum}</span>
     <h2 class="chapter-title">{title}</h2>
     <p class="chapter-subtitle">{subtitle}</p>
   </div>

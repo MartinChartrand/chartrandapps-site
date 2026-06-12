@@ -15,8 +15,12 @@ const tagSchema = z.object({ text: z.string(), tone: z.enum(['amber', 'green']).
 const ISO_DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'date ISO YYYY-MM-DD requise');
 
 // §3.1 destination.json
+// intro : blocs titrés (.intro-block v1 — titre + corps, ex. « Pourquoi septembre » / « Logistique de base »)
+const introBlockV1 = z.object({ title: z.string().default(''), body: z.string() });
+
 export const destinationSchema = z.object({
   slug: z.string(),
+  pageTitle: z.string().default(''), // <title> v1 verbatim (« Crète — Septembre 2027 · Itinéraire de voyage »)
   heroTitle: z.object({ main: z.string(), em: z.string() }),
   heroSub: z.string(),
   subtitle: z.string(),
@@ -31,8 +35,11 @@ export const destinationSchema = z.object({
   }),
   theme: z.object({ favicon: z.string(), palette: z.string() }),
   hero: z.object({ image: z.string(), label: z.string() }),
-  overviewIntro: z.string(),
-  intro: z.object({ whySeason: z.string(), logistics: z.string() }),
+  overviewKicker: z.string().default(''), // .section-num v1 (« Logique du voyage »)
+  overviewTitle: z.string().default(''),  // h2.section-title v1 (« Quatre bases, mouvement minimal »)
+  overviewIntro: z.string(),              // p.section-intro v1
+  intro: z.object({ whySeason: introBlockV1, logistics: introBlockV1 }),
+  footerNote: z.string().default(''),     // footer v1 (« Itinéraire préparé avec amour · … »)
 });
 
 // §3.2 infoBlocks — composition éditoriale ORDONNÉE (pas un filtre par kind)
@@ -71,6 +78,21 @@ export const baseSchema = z.object({
   notes: z.array(z.object({ kind: z.string(), body: z.string() })).optional(),
   tagBlock: z.object({ label: z.string(), tags: z.array(tagSchema) }).optional(),
   infoBlocks: z.array(infoBlockSchema).default([]),
+  mapLabel: z.string().optional(), // .map-label v1 (« Carte — Chania et environs »)
+  // Hébergements v1 hors MAPS (pas de coords, pas de POI) — cartes accom non géolocalisées.
+  // Rendus par AccomGrid après les POIs sleep. N'ajoute PAS de POI (comptes figés).
+  accomExtras: z
+    .array(
+      z.object({
+        name: z.string(),
+        tier: z.enum(TIERS).nullable().default(null),
+        price: z.string().default(''),
+        blurb: z.string(),
+        image: z.string().default(''),
+        links: z.array(linkSchema).default([]),
+      })
+    )
+    .optional(),
 });
 
 // §3.3 pois.json — la donnée vérifiable (le cœur)
@@ -126,6 +148,7 @@ export const poiSchema = z
 // §3.4 dishes.json / gems.json — entités éditoriales (PAS des POIs)
 const editorialSchema = z.object({
   id: z.string(),
+  group: z.string().optional(), // titre du bloc v1 (« Incontournables foodie — Chania ») — un bloc rendu par groupe
   title: z.string(),
   body: z.string(),
   poiRef: z.string().optional(), // rattache au POI vérifiable quand l'item EST un business
@@ -137,6 +160,9 @@ export const gemSchema = editorialSchema;
 
 // §3.5 budget.json — totaux calculés des lignes
 export const budgetSchema = z.object({
+  kicker: z.string().optional(), // .section-num v1 (« Finances »)
+  title: z.string().optional(),  // h2.section-title v1 (« Budget estimé »)
+  intro: z.string().optional(),  // p.section-intro v1 (taux de référence, niveau de confort…)
   statCards: z
     .array(
       z

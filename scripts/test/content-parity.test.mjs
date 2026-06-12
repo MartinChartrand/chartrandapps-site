@@ -22,9 +22,11 @@ function visibleText(html) {
 }
 
 const DESTINATIONS = ['crete', 'turquie'];
-// Ratio actuel ~0.69 — le seuil 0.65 capture les régressions majeures.
-// Objectif final 0.90 requiert que le rendu Astro expose tout le texte narratif des bases.
-const MIN_RATIO = 0.65;
+// Phase 2 (récupération summary/focus/overview/intro-grid/dishes/gems/notes/budget-cat) :
+// ratios mesurés crete 1.030 · turquie 1.054 — zéro segment v1 (>40 chars) absent du dist.
+// Le léger dépassement de 1.0 vient du rendu v2 qui duplique volontairement les blurbs des
+// POIs sleep (AccomGrid + poi-list « Où dormir », testé par built-html T4).
+const MIN_RATIO = 0.90;
 
 for (const dest of DESTINATIONS) {
   test(`parité texte visible ≥ 0.90 — ${dest}`, (t) => {

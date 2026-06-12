@@ -1,1 +1,204 @@
-[]
+[
+  {
+    "id": "aslhan-pasaj-bouquinistes",
+    "group": "Pépites locales — Istanbul",
+    "title": "Aslıhan Pasajı (bouquinistes)",
+    "body": "Passage couvert derrière le Galatasaray Lisesi, 30+ bouquinistes, livres ottomans, affiches de cinéma vintage turc, vieux disques vinyles. Entre 13h et 18h, parfait pour un jour de pluie. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Aslihan+Pasaji+Beyoglu+Istanbul"
+      }
+    ],
+    "image": "photo-13"
+  },
+  {
+    "id": "terrasse-du-buyuk-valide-han-1651",
+    "group": "Pépites locales — Istanbul",
+    "title": "Terrasse du Büyük Valide Han (1651)",
+    "body": "Ancien caravansérail près du Grand Bazar. Monter les escaliers jusqu'au toit — la famille qui habite là-haut demande 2–3 €. Vue panoramique à 360° sur les sept collines. Spot des photographes turcs connus, zéro touriste de passage. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Buyuk+Valide+Han+Istanbul"
+      }
+    ],
+    "image": "hero"
+  },
+  {
+    "id": "kuzguncuk-rive-asiatique",
+    "group": "Pépites locales — Istanbul",
+    "title": "Kuzguncuk — rive asiatique",
+    "body": "Village multiconfessionnel — synagogue, église et mosquée sur 400 mètres — maisons ottomanes en bois colorées, zéro bus touristique. Ferry Beşiktaş-Üsküdar puis quinze minutes à pied le long du Bosphore. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Kuzguncuk+Istanbul"
+      }
+    ],
+    "image": "photo-2"
+  },
+  {
+    "id": "sali-pazar-de-kadkoy-mardi",
+    "group": "Pépites locales — Istanbul",
+    "title": "Sali Pazarı de Kadıköy (mardi)",
+    "body": "Marché hebdomadaire populaire, trois rues, tissus-épices-fruits-légumes, sans filtre touristique. Commencer au marché aux poissons puis remonter la rue Kuşdili Caddesi. Photo street pure — lumière, vendeurs, rythme. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Sali+Pazari+Kadikoy+Istanbul"
+      }
+    ],
+    "image": "photo-14"
+  },
+  {
+    "id": "soganl-valley-la-jumelle-vide",
+    "group": "Pépites locales — Cappadoce",
+    "title": "Soğanlı Valley — la jumelle vide",
+    "body": "Une heure trente au sud d'Ürgüp. Vallée jumelle de Göreme mais avec 5% des visiteurs. Une dizaine d'églises rupestres byzantines (Yılanlı Kilise, Karabaş Kilise), frescoes moins restaurées mais plus vraies. Village de tisseuses de poupées en bas. Zéro montgolfière, zéro bus — juste toi, le vent et les chèvres. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Soganli+Valley+Cappadocia"
+      }
+    ],
+    "image": "photo-18"
+  },
+  {
+    "id": "panorama-de-kzlcukur",
+    "group": "Pépites locales — Cappadoce",
+    "title": "Panorama de Kızılçukur",
+    "body": "Red Valley viewpoint nord, accessible par piste carrossable depuis Ortahisar. Le spot coucher de soleil que les guides n'indiquent pas — quatre personnes max, même en saison. Vue plongeante dans la lumière orange. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Kizilcukur+viewpoint+Cappadocia"
+      }
+    ],
+    "image": "photo-15"
+  },
+  {
+    "id": "atelier-firca-seramik-avanos",
+    "group": "Pépites locales — Cappadoce",
+    "title": "Atelier Firca Seramik (Avanos)",
+    "body": "Nuri Türkmen, 5e génération, roue à pied (kick wheel) traditionnelle — il en reste trois en Turquie. Pas de showroom, pas de tour opérateurs. Tu arrives, il travaille, tu peux shooter une heure sans rien acheter. Des mains, de la terre rouge, de la lumière de fenêtre. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Firca+Seramik+Avanos"
+      }
+    ],
+    "image": "photo-14"
+  },
+  {
+    "id": "mustafapasa-ex-sinasos",
+    "group": "Pépites locales — Cappadoce",
+    "title": "Mustafapaşa (ex-Sinasos)",
+    "body": "Six kilomètres au sud d'Ürgüp. Ancienne ville grecque abandonnée en 1924 lors de l'échange de populations. Maisons de pierre ouvragées, églises désaffectées, ruelles vides. Café Old Greek House dans une maison de notable grec de 1892 — patine incroyable, patron au backgammon avec les vieux du village. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Mustafapasa+Cappadocia"
+      }
+    ],
+    "image": "photo-25"
+  },
+  {
+    "id": "marche-du-vendredi-cuma-pazar",
+    "group": "Pépites locales — Kaş",
+    "title": "Marché du vendredi (Cuma Pazarı)",
+    "body": "Terrain derrière le stade, vendredi 7h-14h. Marché fermier des villages environnants, femmes Yörük en costume traditionnel, fromages de chèvre, olives, herbes sauvages, figues fraîches. Terrain de jeu pour street photographe — arriver 8h pour la lumière. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Cuma+Pazari+Kas+Friday+market"
+      }
+    ],
+    "image": "photo-14"
+  },
+  {
+    "id": "limanagz-crique-accessible-bateausentier",
+    "group": "Pépites locales — Kaş",
+    "title": "Limanağzı — crique accessible bateau/sentier",
+    "body": "Trois petites tavernes locales (İnci, Bahçe, Korsan), plateformes bois, eau turquoise. Accessible uniquement en water taxi (8 €) ou par le sentier Lycien (1h30). Poulpe grillé + Efron à l'ombre des pins. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Limanagzi+Kas"
+      }
+    ],
+    "image": "photo-37"
+  },
+  {
+    "id": "mavi-magara-la-grotte-bleue-locale",
+    "group": "Pépites locales — Kaş",
+    "title": "Mavi Mağara — la Grotte Bleue locale",
+    "body": "Équivalent turc de la Grotta Azzurra de Capri. Petit bateau local du port (pas les gros tours) — demander Kaptan Mustafa au bout de la jetée Est, 25 € pour 3h avec un pêcheur. Accessible uniquement par la mer, effet bleu électrique quand le soleil tape.",
+    "image": "photo-28"
+  },
+  {
+    "id": "sentier-du-mont-felenk",
+    "group": "Pépites locales — Kaş",
+    "title": "Sentier du mont Felenk",
+    "body": "Randonnée 1h depuis la péninsule Çukurbağ, sommet à 497 m, vue à 360° sur Kaş, Kastellorizo (Grèce) et la côte. Zéro touriste. Partir à 6h pour le sunrise, redescendre pour petit-déj. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Felenk+Tepesi+Kas"
+      }
+    ],
+    "image": "photo-25"
+  },
+  {
+    "id": "kabak-bay-kabak-koyu",
+    "group": "Pépites locales — Fethiye & Kayaköy",
+    "title": "Kabak Bay (Kabak Koyu)",
+    "body": "25 km sud de Faralya. Crique sauvage accessible par piste en terre ou rando Lycian Way. 2-3 camps en bambou / bungalows wellness, plage de galets, zéro hôtel résidentiel. Le vrai hors des foules — prévois 1 journée ou nuit hors route. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://maps.google.com/maps?q=Kabak+Bay+Turkey"
+      }
+    ],
+    "image": "photo-47"
+  },
+  {
+    "id": "fethiye-tuesday-market-sal-pazar",
+    "group": "Pépites locales — Fethiye & Kayaköy",
+    "title": "Fethiye Tuesday Market (Salı Pazarı)",
+    "body": "Marché géant hebdomadaire, un des plus gros du sud-ouest turc. Producteurs des villages : olives, fromages, miel, épices, textiles. Ouvre 8h, pic photo 9h-11h. Quartier Yeni Cami. Planifier le séjour Fethiye sur un mardi. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://maps.google.com/maps?q=Fethiye+Tuesday+Market"
+      }
+    ],
+    "image": "photo-14"
+  },
+  {
+    "id": "afkule-monastery-viewpoint",
+    "group": "Pépites locales — Fethiye & Kayaköy",
+    "title": "Afkule Monastery viewpoint",
+    "body": "Monastère byzantin en ruine perché sur falaise au-dessus de Kayaköy. 1h30 de rando depuis Kayaköy via sentier Lycian Way. Vue sur Gemiler Island (Saint-Nicolas) et côte sauvage. Zéro panneau — le gardien local pourra t'indiquer le départ. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://maps.google.com/maps?q=Afkule+Monastery+Kayakoy"
+      }
+    ],
+    "image": "photo-48"
+  },
+  {
+    "id": "lycian-way-faralya-butterfly-valley-descente",
+    "group": "Pépites locales — Fethiye & Kayaköy",
+    "title": "Lycian Way Faralya → Butterfly Valley descente",
+    "body": "45 min de descente raide 350 m avec câbles et cordes fixes — technique mais pas dangereux avec chaussures correctes. Baignade dans le canyon avant l'arrivée des bateaux à 11h, retour water taxi ~6 €. Départ 7h30 de Faralya. Cette photo, personne ne l'a. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://maps.google.com/maps?q=Butterfly+Valley+hike+Faralya"
+      }
+    ],
+    "image": "photo-25"
+  }
+]

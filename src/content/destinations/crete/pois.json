@@ -86,7 +86,7 @@
       "eat"
     ],
     "name": "Tamam",
-    "blurb": "L'incontournable. Anciens bains turcs du XVIe, ruelle Zambelíou. Cuisine crétoise contemporaine, végétarien remarquable.",
+    "blurb": "L'incontournable. Anciens bains turcs du XVIe, ruelle Zambelíou. Cuisine crétoise contemporaine, végétarien remarquable. Réserver.",
     "signature": "",
     "image": "tamam-img",
     "price": {
@@ -238,7 +238,7 @@
       "see"
     ],
     "name": "Splantzia (vieille ville)",
-    "blurb": "place à l'olivier, artisans couteliers rue Maxaradika. Phare vénitien au coucher du soleil.",
+    "blurb": "",
     "signature": "",
     "image": "splantzia-vieille-ville-img",
     "price": {
@@ -542,7 +542,7 @@
       "do"
     ],
     "name": "Seitan Limania",
-    "blurb": "Crique secrète avec eau tropicale entre les rochers. Peu de gens connaissent.",
+    "blurb": "Crique secrète avec eau tropicale entre les rochers. Peu de gens connaissent. Maps",
     "signature": "",
     "image": "seitan-limania-img",
     "price": {
@@ -724,7 +724,8 @@
       "lastChecked": "2026-06-12",
       "method": "migration-v1"
     },
-    "onMap": true
+    "onMap": true,
+    "tier": "gem"
   },
   {
     "id": "stratis-taverna",
@@ -849,7 +850,7 @@
       "do"
     ],
     "name": "Glyka Nera (Sweet Water)",
-    "blurb": "1h de marche OU 20 min en bateau (~5 €). Sources d'eau douce sous la plage — zones tièdes étonnantes. Eau limpide, falaises blanches. Parfait pour l'intimité.",
+    "blurb": "",
     "signature": "",
     "image": "glyka-nera-sweet-water-img",
     "price": {
@@ -887,7 +888,7 @@
       "do"
     ],
     "name": "Marmara Beach",
-    "blurb": "Par bateau. Grottes de marbre, eau turquoise. Taverna Dialiskari sur place (pain maison, réserver).",
+    "blurb": "",
     "signature": "",
     "image": "marmara-beach-img",
     "price": {
@@ -1040,7 +1041,7 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "gem",
     "name": "Livikoview Xerokambos",
     "blurb": "48 km au sud, au milieu de nulle part. Hébergement + restaurant de cuisine crétoise moderne. Plages désertes à 5 min. Le vrai bout du monde.",
     "signature": "",
@@ -1156,7 +1157,7 @@
       "eat"
     ],
     "name": "Tzivaeri",
-    "blurb": "Coin du port, famille Psarakis. Plateau de poisson pour deux à 22 €, pain maison, huile et vin bio. Note 4.5/5.",
+    "blurb": "Coin du port, famille Psarakis. Plateau de poisson pour deux à 22 €, pain maison, huile et vin bio. Note 4.5/5. TripAdvisor",
     "signature": "",
     "image": "tzivaeri-img",
     "price": {
@@ -1270,7 +1271,7 @@
       "do"
     ],
     "name": "Vaï (palmeraie)",
-    "blurb": "Palmeraie naturelle unique en Europe. En septembre : beaucoup moins de monde. Astuce : passer par-dessus le promontoire vers",
+    "blurb": "",
     "signature": "",
     "image": "vai-palmeraie-img",
     "price": {
@@ -1308,7 +1309,7 @@
       "do"
     ],
     "name": "Psili Ammos",
-    "blurb": "plage secrète, zéro monde.",
+    "blurb": "",
     "signature": "",
     "image": "psili-ammos-img",
     "price": {
@@ -1384,7 +1385,7 @@
       "do"
     ],
     "name": "Argilos Beach",
-    "blurb": "plage d'argile naturelle : spa gratuit en pleine nature.",
+    "blurb": "",
     "signature": "",
     "image": "argilos-beach-img",
     "price": {
@@ -1422,7 +1423,7 @@
       "see"
     ],
     "name": "Kato Zakros (palais minoen)",
-    "blurb": "Gorge des Morts (tombes minoennes dans les grottes), palais minoen à 200m de l'eau. Taverna du village pour le lunch.",
+    "blurb": "",
     "signature": "",
     "image": "kato-zakros-palais-minoen-img",
     "price": {
@@ -1460,7 +1461,7 @@
       "see"
     ],
     "name": "Monastère de Toplou",
-    "blurb": "XVe siècle. Dégustation gratuite d'huile d'olive bio + vin (5 siècles de tradition viticole).",
+    "blurb": "XVe siècle. Dégustation gratuite d'huile d'olive bio + vin (5 siècles de tradition viticole). Boutique Maps",
     "signature": "",
     "image": "monastere-de-toplou-img",
     "price": {
@@ -1535,13 +1536,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "budget",
     "name": "Atelier Vieux Port",
-    "blurb": "Studio dans la vieille ville, à deux pas du port vénitien. Déco minimaliste, cuisine équipée, terrasse sur les toits. ~55–70 €/nuit.",
+    "blurb": "Studio dans la vieille ville, à deux pas du port vénitien. Déco minimaliste, cuisine équipée, terrasse sur les toits.",
     "signature": "",
     "image": "atelier-vieux-port-img",
     "price": {
-      "range": "",
+      "range": "~55–70 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1574,13 +1575,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "mid",
     "name": "Pepi Boutique Hotel",
-    "blurb": "",
+    "blurb": "Hôtel de caractère dans un bâtiment vénitien restauré. Piscine intérieure, petit-déj crétois copieux.",
     "signature": "",
     "image": "pepi-boutique-hotel-img",
     "price": {
-      "range": "",
+      "range": "~85–103 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1613,13 +1614,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "gem",
     "name": "Rimondi Boutique Hotel",
-    "blurb": "",
+    "blurb": "Ancien manoir vénitien converti, suites avec pierres apparentes, piscine dans la cour intérieure. L'adresse la plus élégante de la vieille ville.",
     "signature": "",
     "image": "rimondi-boutique-hotel-img",
     "price": {
-      "range": "",
+      "range": "~110–180 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1653,7 +1654,7 @@
       "eat"
     ],
     "name": "Avli",
-    "blurb": "Cour intérieure vénitienne somptueuse. La meilleure table de Rethymno — agneau braisé, chèvre au vin, fruits de mer. Dîner de fin de voyage obligatoire.",
+    "blurb": "Cour intérieure vénitienne somptueuse. La meilleure table de Rethymno — agneau braisé, chèvre au vin, fruits de mer. Dîner de fin de voyage obligatoire. avli.gr TripAdvisor 4.5 Google Maps",
     "signature": "",
     "image": "avli-img",
     "price": {
@@ -1691,7 +1692,7 @@
       "eat"
     ],
     "name": "Prima Plora",
-    "blurb": "En terrasse face à la mer, sous la Fortezza. Cuisine crétoise créative, poisson ultra-frais, ambiance décontractée. Coucher de soleil spectaculaire.",
+    "blurb": "En terrasse face à la mer, sous la Fortezza. Cuisine crétoise créative, poisson ultra-frais, ambiance décontractée. Coucher de soleil spectaculaire. primaplora.gr TripAdvisor 4.6 Google Maps",
     "signature": "",
     "image": "prima-plora-img",
     "price": {
@@ -1729,7 +1730,7 @@
       "eat"
     ],
     "name": "Zefyros Fish Taverna",
-    "blurb": "Directement sur le vieux port. Poisson grillé, poulpe au vinaigre, mezze de la mer. Portions généreuses, prix honnêtes.",
+    "blurb": "Directement sur le vieux port. Poisson grillé, poulpe au vinaigre, mezze de la mer. Portions généreuses, prix honnêtes. TripAdvisor Google Maps",
     "signature": "",
     "image": "zefyros-fish-taverna-img",
     "price": {
@@ -1767,7 +1768,7 @@
       "eat"
     ],
     "name": "Taverna Alekos (Armenoi)",
-    "blurb": "(village d'Armenoi, 15 min) — Taverna de campagne dans les collines. Chèvre rôtie, produits de la ferme, vin en carafe. L'authenticité absolue hors des circuits.",
+    "blurb": "(village d'Armenoi, 15 min) — Taverna de campagne dans les collines. Chèvre rôtie, produits de la ferme, vin en carafe. L'authenticité absolue hors des circuits. Google Maps",
     "signature": "",
     "image": "taverna-alekos-armenoi-img",
     "price": {
@@ -1843,7 +1844,7 @@
       "eat"
     ],
     "name": "Rewine",
-    "blurb": "dans la vieille ville offrent des dégustations de cépages autochtones — Vidiano, Kotsifali, Mandilari.",
+    "blurb": "",
     "signature": "",
     "image": "rewine-img",
     "price": {
@@ -1919,7 +1920,7 @@
       "eat"
     ],
     "name": "Yiorgos Hatziparaskos (phyllo & baklava)",
-    "blurb": ", atelier familial depuis 1960 dans la vieille ville qui tire la pâte phyllo à la main sous les yeux des clients.",
+    "blurb": "",
     "signature": "",
     "image": "yiorgos-hatziparaskos-phyllo-baklava-img",
     "price": {
@@ -1957,7 +1958,7 @@
       "see"
     ],
     "name": "Rethymno (vieille ville)",
-    "blurb": "",
+    "blurb": "Citadelle vénitienne dominant la ville. Vue panoramique sur la mer et les toits. Coucher de soleil mémorable depuis les remparts. Google Maps",
     "signature": "",
     "image": "rethymno-vieille-ville-img",
     "price": {
@@ -1995,7 +1996,7 @@
       "see"
     ],
     "name": "Fortezza",
-    "blurb": "Citadelle vénitienne dominant la ville. Vue panoramique sur la mer et les toits. Coucher de soleil mémorable depuis les remparts.",
+    "blurb": "",
     "signature": "",
     "image": "fortezza-img",
     "price": {
@@ -2033,7 +2034,7 @@
       "see"
     ],
     "name": "Marché du mercredi (Koumoundourou)",
-    "blurb": "Rue Koumoundourou, marché paysan hebdomadaire. Fromages frais, miel de thym, herbes séchées, fruits de saison. Y aller tôt le matin pour la meilleure sélection.",
+    "blurb": "",
     "signature": "",
     "image": "marche-du-mercredi-koumoundourou-img",
     "price": {
@@ -2071,7 +2072,7 @@
       "see"
     ],
     "name": "Monastère d'Arkadi",
-    "blurb": "(30 min) — Site historique majeur de la résistance crétoise contre les Ottomans. Architecture Renaissance, campagne spectaculaire.",
+    "blurb": "(30 min) — Site historique majeur de la résistance crétoise contre les Ottomans. Architecture Renaissance, campagne spectaculaire. Google Maps",
     "signature": "",
     "image": "monastere-darkadi-img",
     "price": {
@@ -2109,7 +2110,7 @@
       "do"
     ],
     "name": "Preveli",
-    "blurb": "(35 min sud) — Palmeraie à l'embouchure d'une gorge, rivière qui se jette dans la mer turquoise. L'une des plus belles plages de Crète. Descente par escalier (15 min).",
+    "blurb": "(35 min sud) — Palmeraie à l'embouchure d'une gorge, rivière qui se jette dans la mer turquoise. L'une des plus belles plages de Crète. Descente par escalier (15 min). Google Maps",
     "signature": "",
     "image": "preveli-img",
     "price": {
@@ -2147,7 +2148,7 @@
       "do"
     ],
     "name": "Plakias",
-    "blurb": "(45 min sud) — Station balnéaire tranquille. Plusieurs plages dans la baie. La",
+    "blurb": "(45 min sud) — Station balnéaire tranquille. Plusieurs plages dans la baie. La plage de Korakas, 20 min à pied par le sentier côtier, est une crique isolée avec eau cristalline. Google Maps Korakas ↗",
     "signature": "",
     "image": "plakias-img",
     "price": {
@@ -2185,7 +2186,7 @@
       "do"
     ],
     "name": "Damnoni",
-    "blurb": "(à côté de Plakias) — Trois petites criques successives, eau cristalline, peu fréquentées en octobre.",
+    "blurb": "(à côté de Plakias) — Trois petites criques successives, eau cristalline, peu fréquentées en octobre. Google Maps",
     "signature": "",
     "image": "damnoni-img",
     "price": {
@@ -2223,7 +2224,7 @@
       "do"
     ],
     "name": "Korakas",
-    "blurb": ", 20 min à pied par le sentier côtier, est une crique isolée avec eau cristalline.",
+    "blurb": "",
     "signature": "",
     "image": "korakas-img",
     "price": {

@@ -1,1 +1,173 @@
-[]
+[
+  {
+    "id": "quartier-splantzia-le-vrai",
+    "group": "Pépites locales — Chania",
+    "title": "Quartier Splantzia (le vrai)",
+    "body": "Pas le front de port — les ruelles derrière. Bougainvilliers, ateliers de couteliers traditionnels (rue Maxaradika), cafés cachés dans des cours intérieures. Les vieilles dames assises sur le pas de leur porte. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Splantzia+Square+Chania+Crete"
+      }
+    ],
+    "image": "photo-18"
+  },
+  {
+    "id": "colline-du-prophete-elie-profiti-ilia",
+    "group": "Pépites locales — Chania",
+    "title": "Colline du Prophète Élie (Profiti Ilia)",
+    "body": "Le spot sunset des locaux. Vue panoramique sur Chania, la baie de Souda et la mer Égée. Mieux que le phare pour les photos. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Prophet+Elijah+Hill+Chania+Crete"
+      }
+    ],
+    "image": "photo-19"
+  },
+  {
+    "id": "plage-de-nea-chora",
+    "group": "Pépites locales — Chania",
+    "title": "Plage de Nea Chora",
+    "body": "À 10 min à pied du centre. Sable fin, eau cristalline, pas de touristes. Sections pour le snorkeling. La plage locale par excellence. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Nea+Chora+Beach+Chania"
+      }
+    ],
+    "image": "photo-20"
+  },
+  {
+    "id": "port-venitien-a-5h30-du-matin",
+    "group": "Pépites locales — Chania",
+    "title": "Port vénitien à 5h30 du matin",
+    "body": "Le phare égyptien, les façades colorées, les bateaux de pêche — sans un seul touriste. La meilleure photo de Chania se prend à l'aube.",
+    "image": "photo-21"
+  },
+  {
+    "id": "sentier-e4-vers-glyka-nera-au-lever-du-soleil",
+    "group": "Pépites locales — Loutro",
+    "title": "Sentier E4 vers Glyka Nera au lever du soleil",
+    "body": "Partir à 6h30, longer la côte, arriver seul sur la plage aux sources d'eau douce. Se baigner dans une eau où personne n'est encore allé ce jour-là. Voir le sentier",
+    "links": [
+      {
+        "label": "Voir le sentier",
+        "url": "https://www.alltrails.com/trail/greece/crete/glyka-nera-beach-timios-stavros-chapel-loutro"
+      }
+    ],
+    "image": "photo-37"
+  },
+  {
+    "id": "old-phoenix-baie-de-finix",
+    "group": "Pépites locales — Loutro",
+    "title": "Old Phoenix, baie de Finix",
+    "body": "Site archéologique de l'ancien port d'Anopolis. Taverna isolée dans une baie sauvage, accès par sentier ou bateau. Déjeuner face à la Libye avec personne d'autre. old-phoenix.com",
+    "links": [
+      {
+        "label": "old-phoenix.com",
+        "url": "https://www.old-phoenix.com/"
+      }
+    ],
+    "image": "photo-38"
+  },
+  {
+    "id": "la-promenade-du-soir-19h20h",
+    "group": "Pépites locales — Loutro",
+    "title": "La promenade du soir, 19h–20h",
+    "body": "Quand le dernier ferry est parti. Les chats sortent, les lumières s'allument sur la baie, les propriétaires des tavernas s'assoient avec un raki. Le vrai Loutro ne commence qu'à cette heure-là.",
+    "image": "photo-39"
+  },
+  {
+    "id": "argilos-beach-xerokambos-spa-naturel",
+    "group": "Pépites locales — Sitia",
+    "title": "Argilos Beach, Xerokambos — spa naturel",
+    "body": "Plage d'argile pliocène. Les baigneurs se couvrent d'argile naturelle — un spa en plein air gratuit. Surréaliste. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Argilos+Beach+Xerokambos+Crete"
+      }
+    ],
+    "image": "photo-54"
+  },
+  {
+    "id": "psili-ammos-la-plage-cachee-derriere-vai",
+    "group": "Pépites locales — Sitia",
+    "title": "Psili Ammos — la plage cachée derrière Vaï",
+    "body": "Sentier par-dessus le promontoire depuis le parking de Vaï. Plage déserte sans aucune installation. Apporter eau et nourriture. Le contraste avec Vaï est saisissant.",
+    "image": "photo-55"
+  },
+  {
+    "id": "gorge-de-zakros-gorge-des-morts",
+    "group": "Pépites locales — Sitia",
+    "title": "Gorge de Zakros (Gorge des Morts)",
+    "body": "Formations rocheuses spectaculaires, tombes minoennes dans les grottes. Débouche directement sur la plage et le palais minoen. Le combo archéologie-baignade parfait. Localiser",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Zakros+Gorge+Dead+Crete"
+      }
+    ],
+    "image": "photo-56"
+  },
+  {
+    "id": "palekastro-le-village-da-cote",
+    "group": "Pépites locales — Sitia",
+    "title": "Palekastro — le village d'à côté",
+    "body": "1 300 habitants, aucun tourisme de masse. Musée folklorique passionné, accès aux sites archéologiques, porte d'entrée vers Vaï sans les bus. Authenticité totale.",
+    "image": "photo-57"
+  },
+  {
+    "id": "preveli-monastere",
+    "group": "✦ Pépites locales — Rethymno",
+    "title": "Preveli + monastère",
+    "body": "Combiner la plage de Preveli avec la visite du monastère de Preveli en hauteur. Vue sur la palmeraie depuis le monastère, puis descente à la plage. Journée complète inoubliable. Monastère ↗",
+    "links": [
+      {
+        "label": "Monastère ↗",
+        "url": "https://maps.google.com/maps?q=Preveli+Monastery+Crete"
+      }
+    ],
+    "image": "photo-76"
+  },
+  {
+    "id": "minaret-clocher",
+    "group": "✦ Pépites locales — Rethymno",
+    "title": "Minaret + clocher",
+    "body": "Dans la vieille ville, un minaret ottoman et un clocher vénitien se dressent côte à côte — symbole parfait de la Crète multiculturelle. Chercher la Neratze Mosque reconvertie en conservatoire. Google Maps",
+    "links": [
+      {
+        "label": "Google Maps",
+        "url": "https://maps.google.com/maps?q=Neratze+Mosque+Rethymno"
+      }
+    ],
+    "image": "photo-77"
+  },
+  {
+    "id": "fortezza-au-coucher-du-soleil",
+    "group": "✦ Pépites locales — Rethymno",
+    "title": "Fortezza au coucher du soleil",
+    "body": "Monter à la Fortezza vers 18h30 en octobre. La lumière dorée sur les pierres vénitiennes avec la mer en arrière-plan — moment magique, presque personne à cette heure. Google Maps",
+    "links": [
+      {
+        "label": "Google Maps",
+        "url": "https://maps.google.com/maps?q=Fortezza+Rethymno"
+      }
+    ],
+    "image": "photo-78"
+  },
+  {
+    "id": "plage-de-korakas-au-matin",
+    "group": "✦ Pépites locales — Rethymno",
+    "title": "Plage de Korakas au matin",
+    "body": "Y aller à 8h avant les randonneurs. Crique totalement déserte, eau calme, lumière parfaite. Le sentier côtier depuis Plakias longe des falaises spectaculaires. Google Maps",
+    "links": [
+      {
+        "label": "Google Maps",
+        "url": "https://maps.google.com/maps?q=Korakas+Beach+Plakias"
+      }
+    ],
+    "image": "photo-79"
+  }
+]

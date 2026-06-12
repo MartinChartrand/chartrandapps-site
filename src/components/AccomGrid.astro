@@ -18,23 +18,73 @@ interface Poi {
 
 interface ImageEntry { slot: string; file: string; alt: string; }
 
+// Hébergement v1 hors MAPS (base.accomExtras §3.2) — carte accom sans POI ni coords
+interface AccomExtra {
+  name: string;
+  tier: 'budget' | 'mid' | 'gem' | null;
+  price: string;
+  blurb: string;
+  image: string;
+  links?: Link[];
+}
+
 interface Props {
   pois: Poi[];
+  extras?: AccomExtra[];
   imageManifest: ImageEntry[];
   dest: string;
 }
 
-const { pois, imageManifest, dest } = Astro.props;
+const { pois, extras = [], imageManifest, dest } = Astro.props;
 
 const TIER_ORDER: Array<'budget' | 'mid' | 'gem'> = ['budget', 'mid', 'gem'];
 
-const sleepPois = pois
-  .filter((p) => p.roles.includes('sleep'))
-  .sort((a, b) => {
-    const ai = TIER_ORDER.indexOf(a.tier as 'budget' | 'mid' | 'gem');
-    const bi = TIER_ORDER.indexOf(b.tier as 'budget' | 'mid' | 'gem');
-    return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
-  });
+function tierRank(tier: string | null): number {
+  const i = TIER_ORDER.indexOf(tier as 'budget' | 'mid' | 'gem');
+  return i === -1 ? 99 : i;
+}
+
+// POIs sleep + extras fusionnés, triés par tier (budget → mid → gem)
+type Card = {
+  id?: string;
+  name: string;
+  tier: 'budget' | 'mid' | 'gem' | null;
+  priceText: string;
+  blurb: string;
+  image: string;
+  booking?: string | null;
+  pills: Link[];
+};
+
+function priceText(range: string, currency?: string): string {
+  if (!range) return '';
+  // « ~95–130 €/nuit » contient déjà sa devise — ne pas suffixer « EUR »
+  return /[€$]/.test(range) ? range : `${range} ${currency ?? ''}`.trim();
+}
+
+const cards: Card[] = [
+  ...pois
+    .filter((p) => p.roles.includes('sleep'))
+    .map((p) => ({
+      id: p.id,
+      name: p.name,
+      tier: p.tier,
+      priceText: priceText(p.price.range, p.price.currency),
+      blurb: p.blurb,
+      image: p.image,
+      booking: p.links?.booking,
+      pills: p.extraLinks ?? [],
+    })),
+  ...extras.map((e) => ({
+    name: e.name,
+    tier: e.tier,
+    priceText: priceText(e.price),
+    blurb: e.blurb,
+    image: e.image,
+    booking: null,
+    pills: e.links ?? [],
+  })),
+].sort((a, b) => tierRank(a.tier) - tierRank(b.tier));
 
 const allImages = import.meta.glob<{ default: ImageMetadata }>(
   '/src/assets/**/*.{jpg,jpeg,png,webp}',
@@ -54,30 +104,30 @@ function getImgAlt(slot: string): string {
 }
 ---
 
-{sleepPois.length > 0 && (
+{cards.length > 0 && (
   <div class="accom-grid">
-    {sleepPois.map((poi) => {
-      const imgSrc = getImgSrc(poi.image);
-      const imgAlt = getImgAlt(poi.image);
+    {cards.map((card) => {
+      const imgSrc = getImgSrc(card.image);
+      const imgAlt = getImgAlt(card.image);
       return (
-        <div class="accom-card" id={`poi-${poi.id}`}>
+        <div class="accom-card" id={card.id ? `poi-${card.id}` : undefined}>
           {imgSrc && (
             <img class="accom-img" src={imgSrc} alt={imgAlt} loading="lazy" />
           )}
-          {poi.tier && (
-            <span class:list={['accom-tier', poi.tier]}>{poi.tier}</span>
+          {card.tier && (
+            <span class:list={['accom-tier', card.tier]}>{card.tier}</span>
           )}
-          <div class="accom-name">{poi.name}</div>
-          <div class="accom-price">{poi.price.range} {poi.price.currency}</div>
-          <div class="accom-desc">{poi.blurb}</div>
-          {(poi.links?.booking || (poi.extraLinks && poi.extraLinks.length > 0)) && (
+          <div class="accom-name">{card.name}</div>
+          {card.priceText && <div class="accom-price">{card.priceText}</div>}
+          <div class="accom-desc">{card.blurb}</div>
+          {(card.booking || card.pills.length > 0) && (
             <div class="link-row">
-              {poi.links?.booking && (
-                <a class="link-pill booking" href={poi.links.booking} target="_blank" rel="noopener">
+              {card.booking && (
+                <a class="link-pill booking" href={card.booking} target="_blank" rel="noopener">
                   Booking
                 </a>
               )}
-              {poi.extraLinks?.map((l) => (
+              {card.pills.map((l) => (
                 <a
                   class:list={[
                     'link-pill',

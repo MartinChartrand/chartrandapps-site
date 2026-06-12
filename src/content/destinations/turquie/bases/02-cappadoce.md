@@ -5,9 +5,9 @@ title: Cappadoce
 kicker: le paysage lunaire
 nights: 5
 dates: 12–16 septembre
-focus: 'Paysage lunaire, cave hotels dans le tuf, vignobles à mille deux cents mètres. Base à Ürgüp plutôt que Göreme — plus local, restos d''adultes, vignes à dix minutes.'
+focus: 'Ürgüp · Vallées rouges et roses · Vignobles d''Anatolie centrale'
 subtitle: 'Paysage lunaire, cave hotels dans le tuf, vignobles à mille deux cents mètres. Base à Ürgüp plutôt que Göreme — plus local, restos d''adultes, vignes à dix minutes.'
-summary: ''
+summary: 'Vol Istanbul → Kayseri, une heure de shuttle jusqu''à Ürgüp. Base volontairement hors de Göreme — plus local, restos pour adultes, vignobles à dix minutes. Montgolfière au lever du soleil une fois, randonnée Rose Valley → Red Valley au coucher, testi kebab dans une maison de 475 ans, dégustation de vins cappadociens sur tuf volcanique. Cinq nuits, ça suffit.'
 pullquote: 'Cinq nuits en Cappadoce, c''est assez. L''endroit est spectaculaire, unique au monde, mais court — une fois qu''on a vu le soleil se lever sur les cheminées depuis une nacelle, marché trois vallées et bu le vin volcanique d''Ürgüp, le voyage doit continuer.'
 cover: cappadoce-cover
 access:
@@ -19,6 +19,10 @@ access:
     -
       label: Pegasus
       url: 'https://www.flypgs.com/'
+notes:
+  -
+    kind: Logistique
+    body: 'Voiture de location 30–40 €/jour à ASR/NAV, recommandée pour Soğanlı/Mustafapaşa/Derinkuyu. Fuir les tours organisés 18 pax (Green/Red Tour) — 20 min par site, arrêt boutique tapis. Ignorer "invitation au thé" dans les boutiques de tapis (scam classique).'
 infoBlocks:
   -
     label: Où dormir
@@ -26,7 +30,7 @@ infoBlocks:
     items:
       - hanmaga-konag-cave-hotel
       - kayakapi-premium-caves
-      - museum-hotel-relais-chateaux
+      - museum-hotel-uchisar
   -
     label: Où manger
     type: poi-list
@@ -37,10 +41,9 @@ infoBlocks:
       - muti-restaurant-urgup
   -
     label: Les vallées et expériences
-    type: poi-list
-    items:
-      - rose-valley-depart-cavusin
-      - goreme-open-air-museum
+    type: prose
+    body: 'Vol montgolfière au lever du soleil — 1h-1h15 de vol. Opérateurs sérieux : Royal Balloon (primé, safety-first), Butterfly Balloons (boutique anglophone), Kapadokya Balloons (doyen 1991). 220–280 € standard 16 pax, 320–420 € comfort 8 pax. Réserver 3-4 mois avant. Rose Valley → Red Valley trek — 3-4h depuis Çavuşin, gratuit. Frescoes byzantines cachées (Haçlı Kilise, Kolonlu Kilise). Départ 15h, sunset sur les tufs rouges. Göreme Open-Air Museum (UNESCO) — ~20 € + 6 € Karanlık Kilise (obligatoire, frescoes 11e s. en parfait état). Ouverture 8h, arriver tôt avant les bus. Vignobles Turasan + Kocabağ — dégustation 4 vins 15–25 € chacun. 10 min à pied l''un de l''autre à Ürgüp. Emir sur schiste volcanique, Öküzgözü tannique. Turasan Kocabağ'
+mapLabel: Carte — Cappadoce, Ürgüp et Göreme
 ---
 
 Vol direct Istanbul-Kayseri, une heure dix de shuttle jusqu'à Ürgüp. Base volontairement hors de Göreme : Göreme c'est le hub montgolfière, mais c'est aussi Disneyland l'automne — bruyant, backpackers, prix tirés. [Ürgüp](https://www.google.com/maps/search/Urgup+Cappadocia+Turkey) te donne le même accès à tout, plus le calme, plus les vignobles, plus les vrais restos.

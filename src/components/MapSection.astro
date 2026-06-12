@@ -18,9 +18,10 @@ interface PoiData {
 interface Props {
   pois: PoiData[];
   baseSlug: string;
+  label?: string; // .map-label v1 (« Carte — Chania et environs »)
 }
 
-const { pois, baseSlug } = Astro.props;
+const { pois, baseSlug, label } = Astro.props;
 
 // Filtrer les POIs à afficher sur la carte — onMap:true uniquement
 const mapPois = pois.filter((p) => p.onMap);
@@ -35,9 +36,12 @@ const serialized = mapPois.map((p) => ({
 ---
 
 {mapPois.length > 0 && (
-  <div class="map-section reveal" data-map-container data-base={baseSlug}>
-    <script type="application/json" id={`map-data-${baseSlug}`} set:html={JSON.stringify(serialized)} />
-    <div class="map-loading" aria-hidden="true">Chargement de la carte…</div>
+  <div class="map-wrap">
+    {label && <span class="map-label">{label}</span>}
+    <div class="map-section reveal" data-map-container data-base={baseSlug}>
+      <script type="application/json" id={`map-data-${baseSlug}`} set:html={JSON.stringify(serialized)} />
+      <div class="map-loading" aria-hidden="true">Chargement de la carte…</div>
+    </div>
   </div>
 )}
 
@@ -112,6 +116,20 @@ const serialized = mapPois.map((p) => ({
 
 <style>
   @import 'leaflet/dist/leaflet.css';
+
+  .map-wrap { margin: 32px 0; }
+
+  .map-label {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 8px;
+    display: block;
+  }
+
+  .map-wrap .map-section { margin: 0; }
 
   .map-section {
     margin: 32px 0;
