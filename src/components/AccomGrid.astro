@@ -11,9 +11,9 @@ interface Poi {
   roles: string[];
   blurb: string;
   price: { range: string; currency: string; };
-  links?: { booking?: string | null; };
+  links?: { official?: string | null; booking?: string | null; tripadvisor?: string | null; maps?: string | null; };
   extraLinks?: Link[];
-  image: string;
+  image: string | null;
 }
 
 interface ImageEntry { slot: string; file: string; alt: string; }
@@ -72,8 +72,15 @@ const cards: Card[] = [
       priceText: priceText(p.price.range, p.price.currency),
       blurb: p.blurb,
       image: p.image,
-      booking: p.links?.booking,
-      pills: p.extraLinks ?? [],
+      booking: null, // rendu via pills (liens canoniques) — évite le doublon
+      // critère du skill : toute recommandation a ses liens cliquables (v1 : Booking/TripAdvisor/Maps/officiel)
+      pills: [
+        p.links?.official ? { label: 'Site officiel', url: p.links.official } : null,
+        p.links?.booking ? { label: 'Booking', url: p.links.booking } : null,
+        p.links?.tripadvisor ? { label: 'TripAdvisor', url: p.links.tripadvisor } : null,
+        p.links?.maps ? { label: 'Maps', url: p.links.maps } : null,
+        ...(p.extraLinks ?? []),
+      ].filter(Boolean) as Link[],
     })),
   ...extras.map((e) => ({
     name: e.name,

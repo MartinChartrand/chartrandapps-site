@@ -54,6 +54,16 @@ infoBlocks:
     label: Les criques pour nager
     type: prose
     body: 'Glyka Nera (Sweetwater Beach) — 1h de marche OU 20 min en bateau (~5 €). Sources d''eau douce sous la plage — zones tièdes étonnantes. Eau limpide, falaises blanches. Parfait pour l''intimité. Marmara Beach — Par bateau. Grottes de marbre, eau turquoise. Taverna Dialiskari sur place (pain maison, réserver). Baie de Loutro — Après 18h30, quand le dernier ferry repart, la baie est à vous. Eau calme, peu profonde, cristalline.'
+    links:
+      -
+        label: Maps
+        url: 'https://www.google.com/maps/search/Glyka+Nera+Beach+Loutro+Crete'
+      -
+        label: AllTrails
+        url: 'https://www.alltrails.com/trail/greece/crete/glyka-nera-beach-timios-stavros-chapel-loutro'
+      -
+        label: Maps
+        url: 'https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete'
   -
     label: La réalité de Loutro
     type: prose

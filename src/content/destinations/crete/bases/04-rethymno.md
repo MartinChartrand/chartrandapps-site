@@ -43,6 +43,10 @@ infoBlocks:
     label: Départ
     type: prose
     body: 'Héraklion est à 82 km / ~1h15 de Rethymno par l''autoroute E75. Aéroport N. Kazantzakis (HER). Rendre la voiture à l''aéroport. Itinéraire Google Maps'
+    links:
+      -
+        label: Itinéraire Google Maps
+        url: 'https://maps.google.com/maps/dir/Rethymno+Crete/Heraklion+Airport+Nikos+Kazantzakis'
 mapLabel: Carte — Rethymno et côte sud
 ---
 

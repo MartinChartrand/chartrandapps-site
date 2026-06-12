@@ -39,6 +39,16 @@ infoBlocks:
     label: Rives et marchés
     type: prose
     body: Balat-Fener à pied, matin 9h–11h. Marché aux poissons de Kadıköy, mardi matin pour la livraison. Kuzguncuk rive asiatique pour les maisons ottomanes en bois colorées.
+    links:
+      -
+        label: Balat-Fener
+        url: 'https://www.google.com/maps/search/Balat+Fener+Istanbul'
+      -
+        label: Marché aux poissons de Kadıköy
+        url: 'https://www.google.com/maps/search/Balik+Pazari+Kadikoy+Istanbul'
+      -
+        label: Kuzguncuk
+        url: 'https://www.google.com/maps/search/Kuzguncuk+Istanbul'
 mapLabel: Carte — Istanbul et ses deux rives
 ---
 

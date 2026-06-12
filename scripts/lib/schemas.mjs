@@ -51,6 +51,7 @@ export const infoBlockSchema = z
     body: z.string().optional(),
     tags: z.array(tagSchema).optional(),
     footer: z.string().optional(),
+    links: z.array(linkSchema).default([]), // liens v1 du bloc (link-rows + <a> inline) — critère : toute reco a un lien cliquable
   })
   .superRefine((b, ctx) => {
     if (b.type === 'poi-list' && (!b.items || b.items.length === 0))

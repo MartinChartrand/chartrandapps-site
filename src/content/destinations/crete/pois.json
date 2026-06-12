@@ -25,7 +25,7 @@
     },
     "links": {
       "official": null,
-      "booking": null,
+      "booking": "https://www.booking.com/hotel/gr/halepahotel.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Halepa+Hotel+Chania+Crete"
     },
@@ -63,8 +63,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.ionashotel.com/",
+      "booking": "https://www.booking.com/hotel/gr/ionas.en-gb.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Ionas+Boutique+Hotel+Chania"
     },
@@ -101,9 +101,9 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://www.tamamrestaurant.com/",
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g189415-d1104362-Reviews-Tamam_Restaurant-Chania_Town_Chania_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Tamam+Restaurant+Zampeliou+Chania"
     },
     "extraLinks": [],
@@ -139,9 +139,9 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://chrisostomos.gr/en/",
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g189415-d1645781-Reviews-Chrisostomos-Chania_Town_Chania_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Chrisostomos+Restaurant+Chania"
     },
     "extraLinks": [],
@@ -179,7 +179,7 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g189415-d6206686-Reviews-Evgonia-Chania_Town_Chania_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Evgonia+Milonogianni+Chania"
     },
     "extraLinks": [],
@@ -445,7 +445,7 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1191160-d3567063-Reviews-Falassarna_Beach-Falassarna_Chania_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Falassarna+Beach+Kissamos+Crete"
     },
     "extraLinks": [],
@@ -596,8 +596,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.hotelportoloutro.com/",
+      "booking": "https://www.booking.com/hotel/gr/porto-loutro-onthebeach.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Hotel+Porto+Loutro+Crete"
     },
@@ -636,7 +636,7 @@
     },
     "links": {
       "official": null,
-      "booking": null,
+      "booking": "https://www.booking.com/hotel/gr/anna-loutron.en-gb.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Hotel+Anna+Loutro+Crete"
     },
@@ -676,7 +676,7 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g1187644-d3478256-Reviews-Blue_House_Restaurant-Loutro_Chania_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Blue+House+Loutro+Crete"
     },
     "extraLinks": [],
@@ -714,7 +714,7 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g1187644-d3518986-Reviews-Notos_Restaurant_Rooms-Loutro_Chania_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Notos+Restaurant+Loutro+Crete"
     },
     "extraLinks": [],
@@ -753,7 +753,7 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g1187644-d3566876-Reviews-Stratis-Loutro_Chania_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Stratis+Taverna+Loutro+Crete"
     },
     "extraLinks": [],
@@ -789,9 +789,9 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://iliosloutro.gr/en/",
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g1187644-d3518985-Reviews-Ilios_Hotel_Restaurant-Loutro_Chania_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Ilios+Taverna+Loutro+Crete"
     },
     "extraLinks": [],
@@ -827,7 +827,7 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://www.old-phoenix.com/",
       "booking": null,
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Old+Phoenix+Finix+Loutro+Crete"
@@ -980,8 +980,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://nereids.gr/",
+      "booking": "https://www.booking.com/hotel/gr/nereides-apartments-siteaa.en-gb.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Nereids+Apartments+Sitia+Crete"
     },
@@ -1019,8 +1019,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.elysee-hotel.gr/",
+      "booking": "https://www.booking.com/hotel/gr/elysee.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Elysee+Hotel+Sitia+Crete"
     },
@@ -1058,7 +1058,7 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://livikoview.gr/",
       "booking": null,
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Livikoview+Xerokambos+Crete"
@@ -1096,9 +1096,9 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://zorbas-seaside-restaurant.com/",
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g2543839-d3386981-Reviews-Zorba_s_Tavern-Sitia_Lasithi_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Zorbas+Tavern+Sitia+Crete"
     },
     "extraLinks": [],
@@ -1134,9 +1134,9 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://www.inodion.gr/en",
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.co.uk/Restaurant_Review-g2543839-d5598188-Reviews-Inodion-Sitia_Lasithi_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Inodion+Restaurant+Sitia+Crete"
     },
     "extraLinks": [],
@@ -1174,7 +1174,7 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g2543839-d12637480-Reviews-Tzivaeri-Sitia_Lasithi_Prefecture_Crete.html",
       "maps": "https://www.google.com/maps/search/Tzivaeri+Tavern+Sitia+Crete"
     },
     "extraLinks": [],
@@ -1481,7 +1481,12 @@
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete"
     },
-    "extraLinks": [],
+    "extraLinks": [
+      {
+        "label": "Boutique",
+        "url": "https://toplouoliveoil.com/"
+      }
+    ],
     "seasonal": false,
     "status": {
       "open": true,
@@ -1519,7 +1524,12 @@
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Spinalonga+Island+Elounda+Crete"
     },
-    "extraLinks": [],
+    "extraLinks": [
+      {
+        "label": "Réserver bateau",
+        "url": "https://www.spinalongatours.gr/"
+      }
+    ],
     "seasonal": false,
     "status": {
       "open": true,
@@ -1671,10 +1681,15 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Avli+restaurant+Rethymno"
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g189539-d1059066-Reviews-Avli-Rethymnon_Rethymnon_Prefecture_Crete.html",
+      "maps": "https://maps.google.com/maps?q=Avli+restaurant+Rethymno"
     },
-    "extraLinks": [],
+    "extraLinks": [
+      {
+        "label": "avli.gr",
+        "url": "https://www.avli.gr/"
+      }
+    ],
     "seasonal": false,
     "status": {
       "open": true,
@@ -1709,10 +1724,15 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Prima+Plora+Rethymno"
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g189539-d2165948-Reviews-Prima_Plora-Rethymnon_Rethymnon_Prefecture_Crete.html",
+      "maps": "https://maps.google.com/maps?q=Prima+Plora+Rethymno"
     },
-    "extraLinks": [],
+    "extraLinks": [
+      {
+        "label": "primaplora.gr",
+        "url": "https://www.primaplora.gr/"
+      }
+    ],
     "seasonal": false,
     "status": {
       "open": true,
@@ -1747,8 +1767,8 @@
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Zefyros+Fish+Taverna+Rethymno"
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g189539-d3578553-Reviews-Zefyros_Fish_Tavern-Rethymnon_Rethymnon_Prefecture_Crete.html",
+      "maps": "https://maps.google.com/maps?q=Zefyros+Fish+Taverna+Rethymno"
     },
     "extraLinks": [],
     "seasonal": false,
@@ -1786,7 +1806,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Taverna+Alekos+Armenoi+Rethymno"
+      "maps": "https://maps.google.com/maps?q=Taverna+Alekos+Armenoi+Rethymno"
     },
     "extraLinks": [],
     "seasonal": false,
@@ -1976,7 +1996,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://maps.google.com/maps?q=Rethymno+Old+Town+Crete"
+      "maps": "https://maps.google.com/maps?q=Fortezza+Rethymno+Crete"
     },
     "extraLinks": [],
     "seasonal": false,
@@ -2166,7 +2186,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://maps.google.com/maps?q=Plakias+Beach+Crete"
+      "maps": "https://maps.google.com/maps?q=Korakas+Beach+Plakias+Crete"
     },
     "extraLinks": [],
     "seasonal": false,
@@ -2204,7 +2224,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Damnoni+Beach+Crete"
+      "maps": "https://maps.google.com/maps?q=Damnoni+Beach+Crete"
     },
     "extraLinks": [],
     "seasonal": false,

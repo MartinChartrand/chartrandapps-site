@@ -48,6 +48,13 @@ infoBlocks:
     label: À faire dans la ville
     type: prose
     body: 'Marché couvert (Agora) — fromages, huile d''olive, charcuteries, miel. Ouvert lun–sam 8h–13h30. Quartier Splantzia — place à l''olivier, artisans couteliers rue Maxaradika. Phare vénitien au coucher du soleil.'
+    links:
+      -
+        label: Marché couvert (Agora)
+        url: 'https://www.google.com/maps/search/Municipal+Market+Agora+Chania+Crete'
+      -
+        label: Phare vénitien
+        url: 'https://www.google.com/maps/search/Lighthouse+Chania+Crete'
 mapLabel: Carte — Chania et environs
 accomExtras:
   -
@@ -56,7 +63,16 @@ accomExtras:
     price: ~95–130 €/nuit
     blurb: 'Bâtiment vénitien de 1400, 7 chambres uniques avec meubles anciens et pierres d''origine. Note 9.8/10 — un musée vivant.'
     image: accom-3
-    links: []
+    links:
+      -
+        label: Booking
+        url: 'https://www.booking.com/hotel/gr/harismari-cozy.html'
+      -
+        label: Site officiel
+        url: 'https://www.harismari.com/'
+      -
+        label: Maps
+        url: 'https://www.google.com/maps/search/Harismari+Cozy+Hotel+Chania'
 ---
 
 La base est à Splantzia ou Halepa, jamais au front de port : c'est 20% moins cher, c'est là où les voisines sortent leur chaise à 18h, et c'est à dix minutes à pied de tout.

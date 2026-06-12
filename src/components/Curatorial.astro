@@ -5,7 +5,7 @@
 // Rendu markdown minimal (p, h4, strong, em, lien) sans dépendance externe
 import { replacePoiRefs } from '../../scripts/lib/refs.mjs';
 
-interface Poi { id: string; name: string; }
+interface Poi { id: string; name: string; links?: { maps?: string | null } }
 
 interface Props {
   body: string;
@@ -14,13 +14,18 @@ interface Props {
 
 const { body, pois } = Astro.props;
 
-// Map id → nom pour la résolution des liens
-const poiMap = new Map(pois.map((p) => [p.id, p.name]));
+// Map id → POI pour la résolution des liens
+const poiMap = new Map(pois.map((p) => [p.id, p]));
 
-// 1. Résoudre les refs [[poi:id]] → <a class="place-link">
+// 1. Résoudre les refs [[poi:id]] → <a class="place-link"> vers Google Maps (comportement v1).
+// Critère du skill : toute recommandation a un lien cliquable. Fallback = ancre interne.
 const withLinks = replacePoiRefs(body, (id: string) => {
-  const name = poiMap.get(id) ?? id;
-  return `<a class="place-link" href="#poi-${id}">${name}</a>`;
+  const poi = poiMap.get(id);
+  const name = poi?.name ?? id;
+  const maps = poi?.links?.maps;
+  return maps
+    ? `<a class="place-link" href="${maps}" target="_blank" rel="noopener">${name}</a>`
+    : `<a class="place-link" href="#poi-${id}">${name}</a>`;
 });
 
 // 2. Micro-parser markdown → HTML

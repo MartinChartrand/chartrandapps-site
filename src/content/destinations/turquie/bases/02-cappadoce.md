@@ -43,6 +43,25 @@ infoBlocks:
     label: Les vallées et expériences
     type: prose
     body: 'Vol montgolfière au lever du soleil — 1h-1h15 de vol. Opérateurs sérieux : Royal Balloon (primé, safety-first), Butterfly Balloons (boutique anglophone), Kapadokya Balloons (doyen 1991). 220–280 € standard 16 pax, 320–420 € comfort 8 pax. Réserver 3-4 mois avant. Rose Valley → Red Valley trek — 3-4h depuis Çavuşin, gratuit. Frescoes byzantines cachées (Haçlı Kilise, Kolonlu Kilise). Départ 15h, sunset sur les tufs rouges. Göreme Open-Air Museum (UNESCO) — ~20 € + 6 € Karanlık Kilise (obligatoire, frescoes 11e s. en parfait état). Ouverture 8h, arriver tôt avant les bus. Vignobles Turasan + Kocabağ — dégustation 4 vins 15–25 € chacun. 10 min à pied l''un de l''autre à Ürgüp. Emir sur schiste volcanique, Öküzgözü tannique. Turasan Kocabağ'
+    links:
+      -
+        label: Royal Balloon
+        url: 'https://www.royalballoon.com/'
+      -
+        label: Butterfly
+        url: 'https://www.butterflyballoons.com/'
+      -
+        label: Maps
+        url: 'https://www.google.com/maps/search/Rose+Valley+Cappadocia'
+      -
+        label: Maps
+        url: 'https://www.google.com/maps/search/Goreme+Open+Air+Museum'
+      -
+        label: Turasan
+        url: 'https://www.google.com/maps/search/Turasan+Winery+Urgup'
+      -
+        label: Kocabağ
+        url: 'https://www.google.com/maps/search/Kocabag+Winery+Urgup'
 mapLabel: Carte — Cappadoce, Ürgüp et Göreme
 ---
 

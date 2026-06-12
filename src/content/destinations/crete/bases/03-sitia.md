@@ -41,6 +41,16 @@ infoBlocks:
     label: Les criques et plages
     type: prose
     body: 'Xerokampos — 1h au sud. Chapelet de criques désertes. Mazzida Ammos (sable blanc tropical) et Argilos Beach — plage d''argile naturelle : spa gratuit en pleine nature. Kato Zakros — Gorge des Morts (tombes minoennes dans les grottes), palais minoen à 200m de l''eau. Taverna du village pour le lunch. Vaï — Palmeraie naturelle unique en Europe. En septembre : beaucoup moins de monde. Astuce : passer par-dessus le promontoire vers Psili Ammos — plage secrète, zéro monde. Maps'
+    links:
+      -
+        label: Maps
+        url: 'https://www.google.com/maps/search/Xerokambos+Crete'
+      -
+        label: Maps
+        url: 'https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete'
+      -
+        label: Maps
+        url: 'https://www.google.com/maps/search/Vai+Beach+Crete'
   -
     label: À ne pas manquer
     type: poi-list

@@ -430,14 +430,16 @@ function processAccoms(content, basePois, photoSlotByPhotoId) {
     const price = priceM ? stripTags(priceM[1]) : '';
     const blurb = descM ? stripTags(descM[1]) : '';
     const poi = matchPoiInBase(name, basePois);
+    const cardLinks = harvestLinks(block);
     if (poi) {
       if (blurb) poi.blurb = blurb;
       if (price) poi.price.range = price;
       if (tier) poi.tier = tier;
       if (imgM) poi.image = slotFor(imgM[1]) || null;
+      for (const l of cardLinks) assignLinkToPoi(poi, l);
       items.push(poi.id);
     } else {
-      extras.push({ name, tier, price, blurb, image: slotFor(imgM ? imgM[1] : ''), links: [] });
+      extras.push({ name, tier, price, blurb, image: slotFor(imgM ? imgM[1] : ''), links: cardLinks });
     }
   }
 
@@ -509,11 +511,14 @@ function processInfoBlocks(content, basePois) {
 
     if (leads.length > 0 && matched.every(Boolean)) {
       // poi-list + enrichissement des blurbs (chunk = du nom jusqu'au prochain item)
+      // Les liens v1 du chunk (link-rows + <a> inline) sont assignés au POI de l'item.
       for (let li = 0; li < leads.length; li++) {
         const poi = matched[li];
         const start = bodyHtml.indexOf('</strong>', leads[li].index) + '</strong>'.length;
         const end = li + 1 < leads.length ? leads[li + 1].index : bodyHtml.length;
-        const chunk = bodyHtml.slice(start, end)
+        const rawChunk = bodyHtml.slice(start, end);
+        for (const l of harvestLinks(rawChunk)) assignLinkToPoi(poi, l);
+        const chunk = rawChunk
           .replace(/<div class="link-row">[\s\S]*?<\/div>/g, ' ')
           .replace(/<img[^>]+>/g, ' ');
         const text = stripTags(chunk).replace(/^[—–-]\s*/, '').trim();
@@ -522,11 +527,12 @@ function processInfoBlocks(content, basePois) {
       const items = [...new Set(matched.map(p => p.id))];
       blocks.push({ label, type: 'poi-list', items, ...(footer ? { footer } : {}) });
     } else {
+      const blockLinks = harvestLinks(bodyHtml);
       const blockBody = stripTags(
         bodyHtml.replace(/<div class="link-row">[\s\S]*?<\/div>/g, '').replace(/<img[^>]+>/g, '')
       ).trim();
       const full = footer ? `${blockBody} ${footer}`.trim() : blockBody;
-      if (full) blocks.push({ label, type: 'prose', body: full });
+      if (full) blocks.push({ label, type: 'prose', body: full, ...(blockLinks.length > 0 ? { links: blockLinks } : {}) });
     }
   }
   return blocks;
@@ -829,6 +835,41 @@ function parsePratique(html) {
   }
 
   return items;
+}
+
+/** Récolte tous les <a href="http…"> d'un fragment HTML — attributs dans n'importe quel ordre. */
+function harvestLinks(fragment) {
+  const out = [];
+  const rx = /<a\b[^>]*>([\s\S]*?)<\/a>/g;
+  let m;
+  while ((m = rx.exec(fragment)) !== null) {
+    const hrefM = m[0].match(/\bhref="(https?:\/\/[^"]+)"/);
+    const label = stripTags(m[1]).trim();
+    if (hrefM && label) out.push({ label, url: hrefM[1] });
+  }
+  return out;
+}
+
+/**
+ * Classe un lien v1 dans les champs canoniques du POI (booking/tripadvisor/maps/official),
+ * sinon dans extraLinks. Critère du skill : toute recommandation a un lien cliquable —
+ * le lien Maps EXACT du v1 remplace la recherche générée.
+ */
+function assignLinkToPoi(poi, link) {
+  const u = link.url.toLowerCase();
+  const l = link.label.toLowerCase();
+  if ((u.includes('booking.com') || l === 'booking' || l === 'booking.com') && !poi.links.booking) {
+    poi.links.booking = link.url;
+  } else if ((u.includes('tripadvisor') || l.startsWith('tripadvisor')) && !poi.links.tripadvisor) {
+    poi.links.tripadvisor = link.url;
+  } else if (u.includes('google.') && u.includes('maps')) {
+    poi.links.maps = link.url;
+  } else if ((l.includes('officiel') || l.includes('official')) && !poi.links.official) {
+    poi.links.official = link.url;
+  } else {
+    poi.extraLinks = poi.extraLinks || [];
+    if (!poi.extraLinks.some((e) => e.url === link.url)) poi.extraLinks.push(link);
+  }
 }
 
 /** Choisit le slot d'un photoId parmi ses usages, en préférant certains rôles. */

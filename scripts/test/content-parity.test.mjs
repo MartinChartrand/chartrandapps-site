@@ -97,3 +97,30 @@ for (const dest of DESTINATIONS) {
     );
   });
 }
+
+// Parité LIENS — critère fondateur du skill : toute recommandation est accompagnée d'un
+// lien cliquable. L'extraction initiale perdait les link-rows (accom/info-blocks) et les
+// <a> inline de la prose (crete : 159 liens v1 → 8 rendus). On compte les <a href="http…">
+// du dist vs la fixture v1.
+const MIN_LINK_RATIO = 0.95;
+
+for (const dest of DESTINATIONS) {
+  test(`parité liens cliquables ≥ ${MIN_LINK_RATIO} — ${dest}`, (t) => {
+    const builtPath = join(DIST, dest, 'index.html');
+    if (!existsSync(builtPath)) {
+      t.skip(`dist/${dest}/index.html absent — destination non buildée`);
+      return;
+    }
+    const built = readFileSync(builtPath, 'utf-8');
+    const fixture = readFileSync(join(FIXTURES, dest, 'index.html'), 'utf-8');
+
+    const countLinks = (html) => (html.match(/<a\b[^>]*href="https?:\/\//g) || []).length;
+    const builtCount = countLinks(built);
+    const fixtureCount = countLinks(fixture);
+    const ratio = builtCount / fixtureCount;
+    assert.ok(
+      ratio >= MIN_LINK_RATIO,
+      `Liens cliquables ${dest}: ${builtCount} vs ${fixtureCount} dans la fixture v1 (ratio ${ratio.toFixed(3)} < ${MIN_LINK_RATIO})`
+    );
+  });
+}

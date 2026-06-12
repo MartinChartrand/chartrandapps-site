@@ -37,11 +37,25 @@ après réparation des trois problèmes refusés lors de l'inspection du 2026-06
 
 ¹ 86 > 82 : des POIs hébergement partagent leur photo entre AccomGrid et poi-list — réutilisation v1 rendue sur deux surfaces.
 
+## Liens cliquables (critère du skill — ajout post-inspection)
+
+L'extraction perdait aussi les liens : link-rows des cartes d'hébergement et des info-blocks
+effacés, `<a>` inline strippés, place-links de prose réduits à des ancres internes mortes.
+Réparé : récolte ordre-libre des `<a>` → champs canoniques POI (booking/tripadvisor/maps/officiel)
++ extraLinks + `links` sur les blocs prose ; chaque nom de recommandation est un place-link
+Google Maps ; pills complètes sur les cartes d'hébergement.
+
+| Liens cliquables externes | v1 | v2 avant | v2 après |
+|---|---|---|---|
+| crete | 159 | 8 | **166** |
+| turquie | 153 | 14 | **155** |
+
 ## Garde-fous ajoutés
 
+- Test `parité liens cliquables ≥ 0.95` (compte les `<a href="http…">` du dist vs fixture v1).
 - Test `parité images rendues ≥ 0.95` (compte les `<img>` du dist vs fixture v1 + hero + covers) — la parité TEXTE seule ne voyait rien de tout ça.
 - Warnings au build sur tout slot référencé non résolu (fini les `.filter(Boolean)` silencieux).
-- 92/92 tests, `validate:fast` vert.
+- 94/94 tests, `validate:fast` vert.
 
 ## Reste à faire (checkpoint Martin requis)
 

@@ -25,7 +25,7 @@
     },
     "links": {
       "official": null,
-      "booking": null,
+      "booking": "https://www.booking.com/hotel/tr/marmara-guesthouse.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Marmara+Guesthouse+Sultanahmet+Istanbul"
     },
@@ -63,8 +63,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.karakoyrooms.com/",
+      "booking": "https://www.booking.com/hotel/tr/karakoy-rooms.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Karakoy+Rooms+Istanbul"
     },
@@ -102,8 +102,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.georges.com/",
+      "booking": "https://www.booking.com/hotel/tr/georges-galata.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Georges+Hotel+Galata+Istanbul"
     },
@@ -140,9 +140,9 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://www.ciya.com.tr/",
       "booking": null,
-      "tripadvisor": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-Ciya_Sofrasi-Istanbul.html",
       "maps": "https://www.google.com/maps/search/Ciya+Sofrasi+Kadikoy+Istanbul"
     },
     "extraLinks": [],
@@ -254,7 +254,7 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://neolokal.com/",
       "booking": null,
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Neolokal+SALT+Galata+Istanbul"
@@ -711,8 +711,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.hanimagacavehotel.com/",
+      "booking": "https://www.booking.com/hotel/tr/hanimaga-konagi.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Hanimaga+Cave+Hotel+Urgup+Cappadocia"
     },
@@ -750,8 +750,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.kayakapi.com/",
+      "booking": "https://www.booking.com/hotel/tr/kayakapi-premium-caves.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Kayakapi+Premium+Caves+Urgup"
     },
@@ -789,8 +789,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.museumhotel.com.tr/",
+      "booking": "https://www.booking.com/hotel/tr/museum.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Museum+Hotel+Uchisar+Cappadocia"
     },
@@ -903,7 +903,7 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://www.setenrestaurant.com/",
       "booking": null,
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Seten+Restaurant+Goreme"
@@ -1398,8 +1398,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.hotelhideaway.com/",
+      "booking": "https://www.booking.com/hotel/tr/hideaway-kas.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Hideaway+Hotel+Kas"
     },
@@ -1437,8 +1437,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.gardeniahotel-kas.com/",
+      "booking": "https://www.booking.com/hotel/tr/gardenia-kas.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Gardenia+Hotel+Kas"
     },
@@ -1476,8 +1476,8 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
-      "booking": null,
+      "official": "https://www.nurbeachhotel.com/",
+      "booking": "https://www.booking.com/hotel/tr/nur-beach.html",
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Nur+Beach+Hotel+Kas"
     },
@@ -1780,7 +1780,7 @@
       "verifiedOn": "2026-06-12"
     },
     "links": {
-      "official": null,
+      "official": "https://www.dragoman-turkey.com/",
       "booking": null,
       "tripadvisor": null,
       "maps": "https://www.google.com/maps/search/Dragoman+Dive+Center+Kas"
@@ -1821,7 +1821,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Kekova+Simena+sunken+city+Turkey"
+      "maps": "https://www.google.com/maps/search/Kekova+boat+tour+Kas"
     },
     "extraLinks": [],
     "seasonal": false,
@@ -2204,7 +2204,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Fethiye+Fish+Market+Balik+Pazari"
+      "maps": "https://maps.google.com/maps?q=Fethiye+Fish+Market+Balik+Pazari"
     },
     "extraLinks": [],
     "seasonal": false,
@@ -2242,7 +2242,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Cin+Bal+Kayakoy"
+      "maps": "https://maps.google.com/maps?q=Cin+Bal+Kayakoy"
     },
     "extraLinks": [],
     "seasonal": false,
@@ -2280,7 +2280,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Reis+Restaurant+Paspatur+Fethiye"
+      "maps": "https://maps.google.com/maps?q=Reis+Restaurant+Paspatur+Fethiye"
     },
     "extraLinks": [],
     "seasonal": false,
@@ -2318,7 +2318,7 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Levissi+Garden+Kayakoy"
+      "maps": "https://maps.google.com/maps?q=Levissi+Garden+Kayakoy"
     },
     "extraLinks": [],
     "seasonal": false,

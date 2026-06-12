@@ -12,6 +12,7 @@ interface InfoBlock {
   body?: string;
   tags?: Tag[];
   footer?: string;
+  links?: Link[];
 }
 
 interface Poi {
@@ -35,6 +36,16 @@ if (!infoBlocks || infoBlocks.length === 0) {
 }
 
 const poiMap = new Map(pois.map((p) => [p.id, p]));
+
+// Pills canoniques d'un POI (le lien Maps vit sur le NOM, pas en pill — v1-like)
+function pillsOf(poi: Poi): Link[] {
+  return [
+    poi.links?.official ? { label: 'Site officiel', url: poi.links.official } : null,
+    poi.links?.booking ? { label: 'Booking', url: poi.links.booking } : null,
+    poi.links?.tripadvisor ? { label: 'TripAdvisor', url: poi.links.tripadvisor } : null,
+    ...(poi.extraLinks ?? []),
+  ].filter(Boolean) as Link[];
+}
 ---
 
 {infoBlocks && infoBlocks.length > 0 && (
@@ -46,14 +57,20 @@ const poiMap = new Map(pois.map((p) => [p.id, p]));
           <div class="info-body">
             {block.items.map((id) => {
               const poi = poiMap.get(id);
-              return poi ? (
+              if (!poi) return null;
+              const pills = pillsOf(poi);
+              return (
                 <div class="poi-list-item" id={`poi-${poi.id}`}>
-                  <strong class="poi-list-name">{poi.name}</strong>
+                  {poi.links?.maps ? (
+                    <a class="poi-list-name place-link" href={poi.links.maps} target="_blank" rel="noopener">{poi.name}</a>
+                  ) : (
+                    <strong class="poi-list-name">{poi.name}</strong>
+                  )}
                   {poi.signature && <span class="poi-list-sig"> — {poi.signature}</span>}
                   <p class="poi-list-blurb">{poi.blurb}</p>
-                  {poi.extraLinks && poi.extraLinks.length > 0 && (
+                  {pills.length > 0 && (
                     <div class="link-row">
-                      {poi.extraLinks.map((l) => (
+                      {pills.map((l) => (
                         <a
                           class:list={[
                             'link-pill',
@@ -70,13 +87,22 @@ const poiMap = new Map(pois.map((p) => [p.id, p]));
                     </div>
                   )}
                 </div>
-              ) : null;
+              );
             })}
             {block.footer && <p class="info-footer">{block.footer}</p>}
           </div>
         )}
         {block.type === 'prose' && block.body && (
-          <div class="info-body">{block.body}</div>
+          <div class="info-body">
+            {block.body}
+            {block.links && block.links.length > 0 && (
+              <div class="link-row">
+                {block.links.map((l) => (
+                  <a class="link-pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                ))}
+              </div>
+            )}
+          </div>
         )}
         {block.type === 'tags' && block.tags && (
           <div class="tag-list">
@@ -119,6 +145,14 @@ const poiMap = new Map(pois.map((p) => [p.id, p]));
 
   .poi-list-item { margin-bottom: 12px; }
   .poi-list-name { font-weight: 500; color: var(--deep); }
+
+  a.poi-list-name {
+    text-decoration: none;
+    border-bottom: 1.5px solid color-mix(in oklch, var(--terre) 38%, transparent);
+    padding-bottom: 1px;
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+  a.poi-list-name:hover { color: var(--terre); border-bottom-color: var(--terre); }
   .poi-list-sig { color: var(--muted); font-size: 13px; }
   .poi-list-blurb { font-size: 13px; color: var(--muted); margin-top: 2px; line-height: 1.6; }
 

@@ -34,10 +34,33 @@ infoBlocks:
     label: Les sites et expériences
     type: prose
     body: 'Kayaköy Ghost Village — Entrée officielle village bas, ~3 € entrée. 500 maisons et deux églises abandonnées depuis 1923. Lumière de dingue au lever (6h30 sept, 7h oct) et une heure avant le coucher. 3h minimum. Maps Butterfly Valley — Accessible par bateau shuttle depuis Ölüdeniz (12-18 € round-trip) ou descente technique Lycian Way de Faralya. Canyon falaises 350 m, plage galets, cascade. Premier bateau 11h avant foule 13h. Maps Gulet day trip 12 îles — Fethiye harbour, 18-30 € avec déjeuner à bord. 6-7 îles (Yassıca, Tersane, Kızıl, Hamam, Göcek, Domuz), baignades criques, BBQ pont. Choisir bateau 30-40 pax pas 80+. Maps Saklıkent Gorge — 50 km est, 2 € entrée + dolmuş. Canyon 18 km, marche dans l''eau glacée (15°C), falaises 300 m. 2 km faisables sans équipement. Combiner avec ruines de Tlos sur le retour. Maps Paragliding Babadağ (1969 m) — Top 3 mondial avec Interlaken et Pokhara. Décollage au sommet, atterrissage direct plage Ölüdeniz, vol 30-40 min. 135-180 € tandem + GoPro. Maps'
+    links:
+      -
+        label: Maps
+        url: 'https://maps.google.com/maps?q=Kayakoy+Ghost+Village'
+      -
+        label: Maps
+        url: 'https://maps.google.com/maps?q=Butterfly+Valley+Turkey'
+      -
+        label: Maps
+        url: 'https://maps.google.com/maps?q=Fethiye+harbor+gulet'
+      -
+        label: Maps
+        url: 'https://maps.google.com/maps?q=Saklikent+Gorge+Turkey'
+      -
+        label: Maps
+        url: 'https://maps.google.com/maps?q=Babadag+paragliding+Oludeniz'
   -
     label: Départ vers Dalaman (DLM)
     type: prose
     body: 'Taxi direct Fethiye/Kayaköy → DLM : 45-55 min, 45-65 €. Réserver la veille via l''hôtel. Havaş shuttle bus : 4-5 départs/jour depuis Fethiye otogar, 60 min, 10-15 €. Vol matin tôt → nuit pré-vol à Dalaman town = moins stress. Itinéraire Havaş shuttle'
+    links:
+      -
+        label: Itinéraire
+        url: 'https://maps.google.com/maps/dir/Fethiye/Dalaman+Airport+DLM'
+      -
+        label: Havaş shuttle
+        url: 'https://www.havas.net/en'
 mapLabel: Carte — Fethiye, Kayaköy et côte turquoise
 ---
 
