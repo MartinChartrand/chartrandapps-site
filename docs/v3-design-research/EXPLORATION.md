@@ -91,6 +91,38 @@ Pour la bouffe, Martin suit un panel de créateurs : **Mark Wiens**, **Lila (cur
 
 ---
 
+### Le carnet de bouche (exigences de Martin, session prototype 2026-06-12)
+
+Quatre exigences posées en direct pendant l'itération du prototype Chania — à intégrer au skill v3 :
+
+1. **La recherche must-eat/must-drink est une passe dédiée, par destination ET par région.** Produits
+   frais saisonniers (fruits, légumes, poissons), plats signatures, fromages, **vins immanquables,
+   bières, alcools locaux** (raki/tsikoudia…), oursins, agneau, pieuvre — « c'est le genre de recherche
+   que je fais à la mitaine quand je voyage ». Le skill doit remplacer cette recherche manuelle :
+   ça vaut un agent de recherche à elle seule pour chaque lieu documenté.
+2. **Chaque plat porte un narratif, pas une fiche.** Modèle Bourdain : la bouffe a une histoire —
+   « ça se mange avec les yeux, la tête, et les papilles gustatives ». Le `body` actuel des dishes
+   (1-2 phrases pratiques) est insuffisant ; il faut un champ `story` (qui le fait, d'où ça vient,
+   pourquoi ici).
+3. **Chaque point d'intérêt a une histoire à raconter** — généralisation du principe 6
+   (Atlas Obscura) à TOUS les POI, pas seulement les vedettes des scènes.
+4. **Chaque plat/boisson = une photo alléchante** : « ça met 1 000 000 fois plus de valeur » qu'une
+   description. Implication directe pour la stratégie images (§5 d'ARCHITECTURE) : sourcing photo
+   PAR PLAT, et un vision-check qui marche pour vrai (le manifest crete avait des alts décalés sur
+   toute la ligne — faux vert découvert au prototype, voir reports/proto-chania-2026-06-12/).
+5. **L'hébergement qui ressort du lot doit être identifié** — hôtel, maison d'hôte, Airbnb, B&B :
+   si un endroit sort de l'ordinaire (le Harismari et ses 7 chambres dans un bâtiment de 1400,
+   « un musée vivant »), il mérite la même recherche dédiée et la même histoire que les plats.
+   Pas juste « où dormir » par tier de prix : LE lieu qui fait partie du voyage.
+
+**Convergence avec le graphe de créateurs** : les créateurs bouffe (Wiens, Lila, Sonny, Mickey
+Scotch + locaux découverts) SONT la source naturelle des must-eats — leurs vidéos identifient à la
+fois le plat, l'histoire et l'adresse. Schéma cible des dishes v3 :
+`{ story, type: plat|vin|bière|alcool|produit, region, image (alléchante, vision-checkée),
+poiRefs[], sources: [{créateur, URL, date}], links[] }`.
+
+---
+
 ## 2. Diagnostic du v2 (confrontation)
 
 Capture de référence : `reports/parite-2026-06-12/v2-crete.png`. Le constat est mécanique :

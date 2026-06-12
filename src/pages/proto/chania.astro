@@ -1,0 +1,1203 @@
+---
+// PROTOTYPE v3 — « mode épisode » — UN chapitre : Chania.
+// Route isolée (/proto/chania/), ne touche pas au rendu v2 (/crete/).
+// Docs : docs/v3-design-research/HANDOFF-prototype-chania.md + EXPLORATION.md
+// Critère #5 : tout le texte ci-dessous vient du contenu existant (bases/01-chania.md,
+// pois.json, dishes.json, gems.json) — composition nouvelle, contenu intouché.
+import { getCollection } from 'astro:content';
+import DestinationLayout from '../../layouts/Destination.astro';
+
+// CSS Leaflet : frontmatter = bundle global. JAMAIS en @import dans <style>
+// (Astro scope les sélecteurs → tuiles empilées dans un coin — leçon v2, MapSection.astro).
+import 'leaflet/dist/leaflet.css';
+
+const dest = 'crete';
+const baseSlug = 'chania';
+
+const [allBases, allPois, allDishes, allGems, allImages] = await Promise.all([
+  getCollection('bases'),
+  getCollection('pois'),
+  getCollection('dishes'),
+  getCollection('gems'),
+  getCollection('images'),
+]);
+
+const baseEntry = allBases.find((b) => {
+  const fp = (b as any).filePath as string | undefined;
+  const inDest = fp ? fp.includes(`/${dest}/`) : b.id.startsWith(`${dest}/`);
+  return inDest && b.data.slug === baseSlug;
+});
+if (!baseEntry) throw new Error(`Base introuvable : ${dest}/${baseSlug}`);
+const bd = baseEntry.data;
+
+const pois = allPois
+  .filter((p) => p.id.startsWith(`${dest}/`))
+  .map((p) => p.data)
+  .filter((p) => p.base === baseSlug);
+
+const dishes = allDishes
+  .filter((d) => d.id.startsWith(`${dest}/`))
+  .map((d) => d.data)
+  .filter((d) => (d.group ?? '').includes('Chania'));
+
+const gems = allGems
+  .filter((g) => g.id.startsWith(`${dest}/`))
+  .map((g) => g.data)
+  .filter((g) => (g.group ?? '').includes('Chania'));
+
+const imageManifest = allImages
+  .filter((i) => i.id.startsWith(`${dest}/`))
+  .map((i) => i.data);
+
+const pageAssets = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{jpg,jpeg,png,webp}',
+  { eager: true }
+);
+function resolveSlot(slot: string | null | undefined): string | undefined {
+  if (!slot) return undefined;
+  const entry = imageManifest.find((i) => i.slot === slot);
+  if (!entry) {
+    console.warn(`[proto] ${dest}: slot "${slot}" absent du manifest images.json`);
+    return undefined;
+  }
+  const mod = pageAssets[`/src/assets/destinations/${dest}/${entry.file}`];
+  if (!mod) {
+    console.warn(`[proto] ${dest}: fichier "${entry.file}" introuvable (slot "${slot}")`);
+    return undefined;
+  }
+  return mod.default.src;
+}
+const poi = (id: string) => {
+  const p = pois.find((x) => x.id === id);
+  if (!p) throw new Error(`[proto] POI introuvable : ${id}`);
+  return p;
+};
+
+// Pills de liens d'un POI — toute reco = lien cliquable (critère CI).
+type Pill = { label: string; url: string };
+function poiPills(p: (typeof pois)[number]): Pill[] {
+  const pills: Pill[] = [];
+  if (p.links.maps) pills.push({ label: 'Maps', url: p.links.maps });
+  if (p.links.official) pills.push({ label: 'Site officiel', url: p.links.official });
+  if (p.links.booking) pills.push({ label: 'Booking', url: p.links.booking });
+  if (p.links.tripadvisor) pills.push({ label: 'TripAdvisor', url: p.links.tripadvisor });
+  for (const l of p.extraLinks ?? []) pills.push({ label: l.label, url: l.url });
+  return pills;
+}
+
+// ——— Composition de l'épisode (jugement éditorial du prototype) ———
+// Test Bourdain (EXPLORATION §1) : qui est derrière ? pourquoi ça compte ? on commande quoi ?
+// Réponse complète → scène. Sinon → carnet.
+
+const ntour = poi('ntourountous-loukoumades');
+const tamam = poi('tamam');
+const evgonia = poi('evgonia');
+
+// Photos de scène ET vignettes choisies sur les PIXELS réels, pas sur les alts du
+// manifest — le manifest chania a des alts décalés (photo-13 = feta/olives, pas
+// loukoumades ; photo-12 = pommes, pas fruits de mer). Bug de contenu v2 à corriger
+// séparément. `alt` explicite ici = description honnête de l'image réelle (additif).
+// Rythme resserré (feedback Martin) : 3 beats par scène — titre+intro, reco+liens, jalon.
+// `via` = provenance créateur ({ label, url }) — le hook « Sonny en a fait un épisode ».
+// Câblé mais VIDE : la règle de convergence interdit d'affirmer une couverture sans
+// vérification du contenu vidéo. Sera alimenté par le pipeline de sourcing v3
+// (Wiens a couvert Chania en 2017 — premier candidat à vérifier par transcript).
+const scenes = [
+  {
+    id: 'scene-ntourountous',
+    num: 1,
+    kicker: 'Place 1866',
+    title: 'La première bouchée',
+    image: 'foodie-5',
+    alt: 'Ruelle pavée au crépuscule, étal de fruits devant une épicerie',
+    intro: 'Des loukoumades — beignets au miel chauds, recette familiale. Place 1866, au cœur de la ville.',
+    reco: 'On commande quoi : les loukoumades, point. Travelers’ Choice, mais c’est la file de locaux qui dit vrai.',
+    quote: 'C’est cinq euros et c’est la première bouchée qui dit : OK, on est en Crète.',
+    via: null,
+    pills: poiPills(ntour),
+  },
+  {
+    id: 'scene-tamam',
+    num: 2,
+    kicker: 'Ruelle Zambelíou',
+    title: 'Souper dans un hammam du XVIᵉ',
+    image: 'foodie-1',
+    alt: 'Fromage frais et olives de Kalamata — table végétarienne',
+    intro: 'Tamam, l’incontournable. Des anciens bains turcs du XVIᵉ siècle devenus une table crétoise contemporaine.',
+    reco: 'On commande quoi : le végétarien, remarquable — il ne ressemble à rien d’autre en ville. Réserver.',
+    quote: null,
+    via: null,
+    pills: poiPills(tamam),
+  },
+  {
+    id: 'scene-evgonia',
+    num: 3,
+    kicker: 'Milonogianni 120',
+    title: 'Nektarios décide',
+    image: 'photo-4',
+    alt: 'Poisson entier et pieuvre grillés — plateau de taverne',
+    intro: 'Evgonia, une taverne de quartier, loin du front de port. Pas de carte vedette : le menu, c’est l’arrivage du matin.',
+    reco: 'Agneau, lapin, poisson frais, yogourt maison. Le proprio Nektarios guide les choix — laisse-le faire.',
+    quote: 'Règle d’or : le premier rang de restos du port, on l’évite. Qualité divisée par deux, prix doublés.',
+    via: null,
+    pills: poiPills(evgonia),
+  },
+];
+
+// Beats du cold open carte-scène (pattern NBC — EXPLORATION §1).
+// data-fly = "lat,lng,zoom" · data-bounds = liste d'ids de POI à cadrer.
+const splantzia = poi('splantzia-vieille-ville');
+const neaChora = poi('nea-chora');
+const seitan = poi('seitan-limania');
+const falassarna = poi('falassarna');
+const elafonisi = poi('elafonisi');
+const balos = poi('balos');
+
+// `targets` = POI mis en évidence pendant le beat (halo + nom affiché, les autres
+// markers s'estompent) — feedback Martin : « je sais pas trop où regarder ».
+// `thumb` = vignette dans la carte de texte (slot vérifié aux pixels réels).
+const mapBeats = [
+  {
+    kicker: 'La base',
+    body: 'À Splantzia ou Halepa, jamais au front de port : c’est 20 % moins cher, c’est là où les voisines sortent leur chaise à 18 h, et c’est à dix minutes à pied de tout.',
+    fly: `${splantzia.coords.lat},${splantzia.coords.lng},15`,
+    targets: ['splantzia-vieille-ville', 'halepa-hotel'],
+    thumb: 'photo-9',
+    thumbAlt: 'Maisons colorées d’un port grec, à travers la végétation',
+    pills: [
+      { label: 'Splantzia · Maps', url: splantzia.links.maps! },
+      { label: 'Halepa · Maps', url: poi('halepa-hotel').links.maps! },
+    ],
+  },
+  {
+    kicker: 'La plage locale',
+    body: 'Marcher dix minutes jusqu’à Nea Chora et faire des longueurs. Sable fin, eau cristalline, pas de touristes.',
+    fly: `${neaChora.coords.lat},${neaChora.coords.lng},15`,
+    targets: ['nea-chora'],
+    thumb: 'photo-1',
+    thumbAlt: 'Plage de sable et eau turquoise, vue aérienne',
+    pills: poiPills(neaChora),
+  },
+  {
+    kicker: 'L’ouest sauvage',
+    body: 'Falassarna face au soleil couchant. Elafonisi pour le sable rose et l’eau peu profonde — y aller tôt. Balos par le bateau depuis Kissamos, pas par la route de montagne.',
+    bounds: [falassarna, elafonisi, balos]
+      .map((p) => `${p.coords.lat},${p.coords.lng}`)
+      .join(';'),
+    targets: ['falassarna', 'elafonisi', 'balos'],
+    thumb: 'photo-3',
+    thumbAlt: 'Lagune de Balos, vue aérienne',
+    pills: [
+      { label: 'Falassarna', url: falassarna.links.maps! },
+      { label: 'Elafonisi', url: elafonisi.links.maps! },
+      { label: 'Balos', url: balos.links.maps! },
+    ],
+  },
+  {
+    kicker: 'La crique secrète',
+    body: 'Seitan Limania — eau tropicale entre les rochers. Peu de gens connaissent. L’eau commence à 24 °C début septembre et monte tout le mois.',
+    fly: `${seitan.coords.lat},${seitan.coords.lng},14`,
+    targets: ['seitan-limania'],
+    thumb: 'photo-7',
+    thumbAlt: 'Côte montagneuse et criques, vue aérienne',
+    pills: poiPills(seitan),
+  },
+];
+
+// ——— Le montage (feedback Martin : « browser le carnet dans l'épisode ») ———
+// Un beat par GROUPE, pas par adresse — le trailer du carnet, pas son inventaire.
+// La voix reste Bourdain : ce que la caméra a pas eu le temps de filmer.
+const chrisostomos = poi('chrisostomos');
+const halepa = poi('halepa-hotel');
+const ionas = poi('ionas-boutique-hotel');
+const manousakis = poi('manousakis-winery');
+const karavitakis = poi('karavitakis-winery');
+const profitiIlia = poi('profiti-ilia-tombeaux-venizelos');
+const harismari = (bd.accomExtras ?? [])[0];
+
+const montageBeats = [
+  {
+    kicker: 'La table qu’on a pas filmée',
+    body: 'Chrisostomos — 13 fois primé. Four à bois, agneau ofto, pain maison. Ouvert mer–dim seulement : ça se planifie.',
+    fly: `${chrisostomos.coords.lat},${chrisostomos.coords.lng},16`,
+    targets: ['chrisostomos'],
+    thumb: 'resto-1',
+    thumbAlt: 'Côtelettes d’agneau grillées sur planche de bois',
+    pills: poiPills(chrisostomos),
+  },
+  {
+    kicker: 'Où on dort',
+    body: 'Neuf chambres dans un vénitien-ottoman restauré chez Ionas, le calme local à Halepa — ou le Harismari, bâtiment de 1400, un musée vivant. Jamais au front de port.',
+    bounds: [halepa, ionas].map((p) => `${p.coords.lat},${p.coords.lng}`).join(';'),
+    targets: ['halepa-hotel', 'ionas-boutique-hotel'],
+    thumb: 'photo-5',
+    thumbAlt: 'Chambre blanche lumineuse, fenêtre ouverte',
+    pills: [
+      { label: 'Ionas · Maps', url: ionas.links.maps! },
+      { label: 'Halepa · Maps', url: halepa.links.maps! },
+      ...(harismari?.links?.length ? [{ label: 'Harismari · Booking', url: harismari.links[0].url }] : []),
+    ],
+  },
+  {
+    kicker: 'Le vin',
+    body: 'Une journée dans les vignes — dégustation chez Manousakis ou Karavitakis, tsikoudia en digestif. Tour privé possible avec Chania Wine Tours.',
+    bounds: [manousakis, karavitakis].map((p) => `${p.coords.lat},${p.coords.lng}`).join(';'),
+    targets: ['manousakis-winery', 'karavitakis-winery'],
+    thumb: 'foodie-3',
+    thumbAlt: 'Panier de bouteilles de vin dans les vignes',
+    pills: [
+      { label: 'Manousakis · Maps', url: manousakis.links.maps! },
+      { label: 'Karavitakis · Maps', url: karavitakis.links.maps! },
+      { label: 'Chania Wine Tours', url: 'https://www.chaniawinetours.com/' },
+    ],
+  },
+  {
+    kicker: 'Le sunset des locaux',
+    body: 'La colline du Prophète Élie — vue sur Chania, la baie de Souda et la mer Égée. Mieux que le phare pour les photos, et jamais la foule.',
+    fly: `${profitiIlia.coords.lat},${profitiIlia.coords.lng},15`,
+    targets: ['profiti-ilia-tombeaux-venizelos'],
+    thumb: 'photo-8',
+    thumbAlt: 'Terrasses illuminées sur les rochers, le soir',
+    pills: poiPills(profitiIlia),
+  },
+];
+
+// Markers de la carte (mêmes données que MapSection v2)
+const mapMarkers = pois
+  .filter((p) => p.onMap)
+  .map((p) => ({ id: p.id, name: p.name, mapType: p.mapType, coords: p.coords }));
+
+// Vue d'ouverture : cadre tous les POI du chapitre
+const allCoords = mapMarkers.map((m) => `${m.coords.lat},${m.coords.lng}`).join(';');
+
+// ——— Carnet (mode terrain — liste dense, liens directs) ———
+// Les collections Astro sortent en ordre alphabétique d'id ; l'ordre éditorial
+// vient des poi-lists d'infoBlocks (Tamam d'abord — « l'incontournable »).
+const infoOrder: string[] = (bd.infoBlocks ?? []).flatMap((b: any) =>
+  b.type === 'poi-list' ? b.items : []
+);
+const rank = (id: string) => {
+  const i = infoOrder.indexOf(id);
+  return i === -1 ? Number.MAX_SAFE_INTEGER : i;
+};
+const byKind = (kinds: string[]) =>
+  pois.filter((p) => kinds.includes(p.kind)).sort((a, b) => rank(a.id) - rank(b.id));
+const carnetGroups = [
+  { label: 'Où dormir', items: byKind(['hotel']) },
+  { label: 'Où manger', items: byKind(['resto']) },
+  { label: 'Les plages', items: byKind(['plage']) },
+  { label: 'À voir', items: byKind(['sight']) },
+];
+
+// « À faire dans la ville » — bloc prose du chapitre, avec ses liens (Agora, phare)
+const proseBlocks = (bd.infoBlocks ?? []).filter((b: any) => b.type === 'prose');
+
+// Vignettes des rangées du carnet (feedback Martin : « une photo alléchante,
+// ça met 1 000 000 fois plus de valeur »). Pixel-vérifiées, override proto —
+// les POI restos ont image:null au contenu et le slot accom-3 du Harismari
+// pointe sur un festin de souvlakis (décalage manifest, voir README du rapport).
+const carnetThumbs: Record<string, { slot: string; alt: string }> = {
+  tamam: { slot: 'foodie-1', alt: 'Fromage frais et olives — table végétarienne' },
+  chrisostomos: { slot: 'resto-1', alt: 'Côtelettes d’agneau grillées' },
+  evgonia: { slot: 'resto-2', alt: 'Crevettes grillées, plateau de taverne' },
+  'ntourountous-loukoumades': { slot: 'foodie-5', alt: 'Place 1866 au crépuscule' },
+};
+// Les alts du manifest sont décalés (faux vert vision-check) — on n'en hérite pas :
+// l'alt des vignettes = le nom de l'item, exact depuis le remap pixel-vérifié.
+function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
+  const o = carnetThumbs[p.id];
+  if (o) return { src: resolveSlot(o.slot), alt: o.alt };
+  if (p.image) return { src: resolveSlot(p.image), alt: p.name };
+  return { src: undefined, alt: '' };
+}
+---
+
+<DestinationLayout
+  title={`${bd.title} — épisode · prototype v3`}
+  favicon="🏝️"
+  palette="crete"
+  description={bd.subtitle}
+>
+  <div id="proto" data-view="episode">
+
+    <!-- Barre fixe : progression + sous-nav par intention (Épisode / Carnet) -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <span class="topbar-title">
+          <span class="topbar-dest">Crète</span>
+          <span class="topbar-sep">·</span>
+          Ch. {bd.order}/4 — {bd.title}
+        </span>
+        <nav class="mode-toggle" aria-label="Mode de consultation">
+          <button type="button" class="mode-btn" data-mode="episode" aria-pressed="true">Épisode</button>
+          <button type="button" class="mode-btn" data-mode="carnet" aria-pressed="false">Carnet</button>
+        </nav>
+      </div>
+      <div class="progress-rail"><div class="progress-fill" id="progress-fill"></div></div>
+    </header>
+
+    <main id="main-content">
+
+      <!-- ============ MODE ÉPISODE ============ -->
+      <div class="view-episode">
+
+        <!-- COLD OPEN — la carte est la scène -->
+        <section class="scrolly scrolly-map" aria-label="Cold open — la carte">
+          <div class="scrolly-sticky">
+            <div id="scene-map" class="scene-map" data-markers={JSON.stringify(mapMarkers)} data-open-bounds={allCoords}></div>
+            <div class="map-scrim" aria-hidden="true"></div>
+          </div>
+          <div class="beats">
+
+            <div class="beat beat-title">
+              <div class="beat-card beat-card-title reveal">
+                <span class="ep-kicker">Chapitre {bd.order} de 4 · {bd.nights} nuits · {bd.dates}</span>
+                <h1 class="ep-title">{bd.title}</h1>
+                <p class="ep-sub">{bd.subtitle}</p>
+                <span class="scroll-hint" aria-hidden="true">↓</span>
+              </div>
+            </div>
+
+            {mapBeats.map((b) => (
+              <div class="beat" data-fly={b.fly} data-bounds={b.bounds} data-targets={b.targets.join(',')}>
+                <div class="beat-card reveal">
+                  {b.thumb && (
+                    <img class="beat-thumb" src={resolveSlot(b.thumb)} alt={b.thumbAlt} loading="lazy" decoding="async" />
+                  )}
+                  <span class="beat-kicker">{b.kicker}</span>
+                  <p class="beat-body">{b.body}</p>
+                  {b.pills.length > 0 && (
+                    <div class="pill-row">
+                      {b.pills.map((l) => (
+                        <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
+
+          </div>
+        </section>
+
+        <!-- JALON — pull-quote du chapitre -->
+        <section class="jalon">
+          <blockquote class="jalon-quote reveal">{bd.pullquote}</blockquote>
+        </section>
+
+        <!-- SCÈNES — storybook : la photo est la scène, les beats avancent par-dessus -->
+        {scenes.map((s) => (
+          <section class="scrolly scrolly-scene" id={s.id} aria-label={`Scène ${s.num} — ${s.title}`}>
+            <div class="scrolly-sticky">
+              <img class="scene-photo" src={resolveSlot(s.image)} alt={s.alt} loading="lazy" decoding="async" />
+              <div class="scene-scrim" aria-hidden="true"></div>
+            </div>
+            <div class="beats beats-scene">
+              <div class="beat">
+                <div class="beat-card reveal">
+                  <span class="beat-kicker">Scène {s.num}/{scenes.length} · {s.kicker}</span>
+                  <h2 class="scene-title">{s.title}</h2>
+                  <p class="beat-body">{s.intro}</p>
+                </div>
+              </div>
+              <div class="beat">
+                <div class="beat-card reveal">
+                  <p class="beat-body">{s.reco}</p>
+                  {s.via && (
+                    <a class="scene-via" href={(s.via as any).url} target="_blank" rel="noopener">📺 {(s.via as any).label}</a>
+                  )}
+                  <div class="pill-row">
+                    {s.pills.map((l) => (
+                      <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+              {s.quote && (
+                <div class="beat">
+                  <blockquote class="beat-quote reveal">{s.quote}</blockquote>
+                </div>
+              )}
+            </div>
+          </section>
+        ))}
+
+        <!-- LE MONTAGE — le trailer du carnet : un beat par groupe, jamais par adresse -->
+        <section class="scrolly scrolly-map" aria-label="Le montage — le reste du chapitre">
+          <div class="scrolly-sticky">
+            <div class="scene-map" data-markers={JSON.stringify(mapMarkers)} data-open-bounds={allCoords}></div>
+            <div class="map-scrim" aria-hidden="true"></div>
+          </div>
+          <div class="beats">
+            <div class="beat beat-title">
+              <div class="beat-card beat-card-title reveal">
+                <span class="ep-kicker">Le montage</span>
+                <h2 class="montage-title">Ce que la caméra a pas eu le temps de filmer</h2>
+              </div>
+            </div>
+            {montageBeats.map((b) => (
+              <div class="beat" data-fly={b.fly} data-bounds={b.bounds} data-targets={b.targets.join(',')}>
+                <div class="beat-card reveal">
+                  {b.thumb && (
+                    <img class="beat-thumb" src={resolveSlot(b.thumb)} alt={b.thumbAlt} loading="lazy" decoding="async" />
+                  )}
+                  <span class="beat-kicker">{b.kicker}</span>
+                  <p class="beat-body">{b.body}</p>
+                  <div class="pill-row">
+                    {b.pills.map((l) => (
+                      <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <!-- OUTRO — la densité vit dans le carnet -->
+        <section class="outro">
+          <div class="outro-inner reveal">
+            <span class="ep-kicker">Le reste de Chania</span>
+            <p class="outro-body">
+              Le marché couvert, les plats à pister, les pépites qu’aucune carte peut montrer —
+              le port à 5 h 30, la promenade du soir. Les {pois.length} lieux du chapitre,
+              tous avec leurs liens, vivent dans le carnet.
+            </p>
+            <button type="button" class="outro-btn" data-mode="carnet">Ouvrir le carnet</button>
+            <a class="outro-next" href="/crete/#loutro">Chapitre suivant — Loutro →</a>
+          </div>
+        </section>
+
+      </div>
+
+      <!-- ============ MODE CARNET (terrain : dense, liens directs) ============ -->
+      <div class="view-carnet" id="carnet">
+        <div class="carnet-container">
+          <aside class="carnet-aside" aria-label="Mini-carte du carnet">
+            <div id="carnet-map" class="carnet-map" data-markers={JSON.stringify(mapMarkers)} data-open-bounds={allCoords}></div>
+          </aside>
+          <div class="carnet-main">
+          <header class="carnet-head">
+            <span class="ep-kicker">Carnet — {bd.title} · {bd.dates}</span>
+            <p class="carnet-sub">{bd.focus}</p>
+            <div class="pill-row">
+              <a class="pill pill-kml" href="/proto/chania.kml" download="chania.kml">⤓ Exporter les {pois.filter((p) => p.onMap).length} lieux (KML → Google My Maps)</a>
+            </div>
+            <p class="carnet-kml-hint">Importer une fois dans <a href="https://mymaps.google.com" target="_blank" rel="noopener">Google My Maps</a> : tous les lieux du chapitre deviennent des pins dans ton app Google Maps, offline inclus.</p>
+          </header>
+
+          {carnetGroups.map((g) => (
+            <section class="carnet-group">
+              <h2 class="carnet-group-title">{g.label}</h2>
+              <ul class="carnet-list">
+                {g.items.map((p) => {
+                  const t = poiThumb(p);
+                  return (
+                  <li class="carnet-row" id={`carnet-${p.id}`} data-poi={p.onMap ? p.id : undefined}>
+                    {t.src && <img class="carnet-thumb" src={t.src} alt={t.alt} loading="lazy" decoding="async" />}
+                    <div class="carnet-row-content">
+                      <div class="carnet-row-main">
+                        <span class="carnet-name">{p.name}</span>
+                        {p.price?.range && <span class="carnet-price">{p.price.range}</span>}
+                        {p.blurb && <p class="carnet-blurb">{p.blurb}</p>}
+                      </div>
+                      <div class="pill-row">
+                        {poiPills(p).map((l) => (
+                          <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                        ))}
+                      </div>
+                    </div>
+                  </li>
+                  );
+                })}
+                {g.label === 'Où dormir' && (bd.accomExtras ?? []).map((e: any) => (
+                  <li class="carnet-row">
+                    {/* override proto : le slot accom-3 du contenu = festin de souvlakis (manifest décalé) */}
+                    <img class="carnet-thumb" src={resolveSlot('photo-5')} alt={e.name} loading="lazy" decoding="async" />
+                    <div class="carnet-row-content">
+                      <div class="carnet-row-main">
+                        <span class="carnet-name">{e.name}</span>
+                        {e.price && <span class="carnet-price">{e.price}</span>}
+                        {e.blurb && <p class="carnet-blurb">{e.blurb}</p>}
+                      </div>
+                      <div class="pill-row">
+                        {(e.links ?? []).map((l: any) => (
+                          <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                        ))}
+                      </div>
+                    </div>
+                  </li>
+                ))}
+              </ul>
+              {g.label === 'Où manger' && (
+                <p class="carnet-footer">Règle d’or : éviter le premier rang de restos sur le port — qualité divisée par deux, prix doublés.</p>
+              )}
+            </section>
+          ))}
+
+          {proseBlocks.map((b: any) => (
+            <section class="carnet-group">
+              <h2 class="carnet-group-title">{b.label}</h2>
+              <p class="carnet-blurb">{b.body}</p>
+              {(b.links ?? []).length > 0 && (
+                <div class="pill-row">
+                  {b.links.map((l: any) => (
+                    <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                  ))}
+                </div>
+              )}
+            </section>
+          ))}
+
+          <section class="carnet-group">
+            <h2 class="carnet-group-title">Incontournables foodie</h2>
+            <ul class="carnet-list">
+              {dishes.map((d) => (
+                <li class="carnet-row">
+                  {d.image && <img class="carnet-thumb carnet-thumb-food" src={resolveSlot(d.image)} alt={d.title} loading="lazy" decoding="async" />}
+                  <div class="carnet-row-content">
+                    <div class="carnet-row-main">
+                      <span class="carnet-name">{d.title}</span>
+                      {d.body && <p class="carnet-blurb">{d.body}</p>}
+                    </div>
+                    {(d.links ?? []).length > 0 && (
+                      <div class="pill-row">
+                        {(d.links ?? []).map((l: any) => (
+                          <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <section class="carnet-group">
+            <h2 class="carnet-group-title">Pépites locales</h2>
+            <ul class="carnet-list">
+              {gems.map((g) => (
+                <li class="carnet-row">
+                  {g.image && <img class="carnet-thumb" src={resolveSlot(g.image)} alt={g.title} loading="lazy" decoding="async" />}
+                  <div class="carnet-row-content">
+                    <div class="carnet-row-main">
+                      <span class="carnet-name">{g.title}</span>
+                      {g.body && <p class="carnet-blurb">{g.body}</p>}
+                    </div>
+                    {(g.links ?? []).length > 0 && (
+                      <div class="pill-row">
+                        {(g.links ?? []).map((l: any) => (
+                          <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </section>
+
+          <div class="carnet-tail">
+            <button type="button" class="outro-btn" data-mode="episode">← Revenir à l’épisode</button>
+          </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</DestinationLayout>
+
+<script>
+  // ——— Toggle Épisode / Carnet (sous-nav par intention) ———
+  const proto = document.getElementById('proto')!;
+  function setMode(mode: string) {
+    proto.dataset.view = mode;
+    document.querySelectorAll<HTMLButtonElement>('.mode-btn').forEach((b) => {
+      b.setAttribute('aria-pressed', String(b.dataset.mode === mode));
+    });
+    window.scrollTo({ top: 0, behavior: 'auto' });
+    if (history.replaceState) history.replaceState(null, '', mode === 'carnet' ? '#carnet' : '#');
+    try {
+      localStorage.setItem('proto-chania-mode', mode);
+    } catch {}
+    document.dispatchEvent(new CustomEvent('proto:modechange', { detail: mode }));
+  }
+  document.querySelectorAll<HTMLElement>('[data-mode]').forEach((el) => {
+    if (el.tagName === 'BUTTON') el.addEventListener('click', () => setMode(el.dataset.mode!));
+  });
+  // Usage répété : on rouvre dans le dernier mode utilisé (le hash explicite gagne).
+  let storedMode: string | null = null;
+  try {
+    storedMode = localStorage.getItem('proto-chania-mode');
+  } catch {}
+  if (location.hash === '#carnet' || storedMode === 'carnet') setMode('carnet');
+
+  // ——— Barre de progression (A Trail Tale, version sobre) ———
+  const fill = document.getElementById('progress-fill');
+  if (fill) {
+    const onScroll = () => {
+      const h = document.documentElement;
+      const max = h.scrollHeight - h.clientHeight;
+      fill.style.width = max > 0 ? `${(h.scrollTop / max) * 100}%` : '0%';
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  }
+
+  // ——— Cartes Leaflet : cold open + montage (scrolly) et mini-carte du carnet ———
+  const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const parseBounds = (s: string) =>
+    s.split(';').map((pair) => pair.split(',').map(Number) as [number, number]);
+
+  import('leaflet').then(({ default: L }) => {
+    const GLYPHS: Record<string, string> = { hotel: '🏨', resto: '🍽️', plage: '🏖️', sight: '🏛️' };
+
+    type MarkerData = { id: string; name: string; mapType: string; coords: { lat: number; lng: number } };
+
+    // Carte non interactive : décor piloté par le scroll, pas un widget.
+    function buildMap(el: HTMLElement) {
+      const markers: MarkerData[] = JSON.parse(el.dataset.markers ?? '[]');
+      const map = L.map(el, {
+        zoomControl: false,
+        dragging: false,
+        scrollWheelZoom: false,
+        doubleClickZoom: false,
+        boxZoom: false,
+        keyboard: false,
+        touchZoom: false,
+        attributionControl: true,
+      });
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+        maxZoom: 19,
+      }).addTo(map);
+
+      const markerById = new Map<string, ReturnType<typeof L.marker>>();
+      const coordsById = new Map<string, [number, number]>();
+      markers.forEach((m) => {
+        const glyph = GLYPHS[m.mapType] ?? '📍';
+        const icon = L.divIcon({
+          html: `<span class="map-glyph" aria-label="${m.mapType}">${glyph}</span>`,
+          className: 'map-marker',
+          iconSize: [32, 32],
+          iconAnchor: [16, 16],
+        });
+        const marker = L.marker([m.coords.lat, m.coords.lng], { icon }).addTo(map);
+        marker.bindTooltip(m.name, {
+          permanent: true,
+          direction: 'top',
+          offset: [0, -16],
+          className: 'map-tip',
+        });
+        marker.closeTooltip();
+        markerById.set(m.id, marker);
+        coordsById.set(m.id, [m.coords.lat, m.coords.lng]);
+      });
+
+      // Focus par beat/rangée : halo + nom sur les cibles, les autres estompés
+      function focusTargets(ids: string[]) {
+        const hasFocus = ids.length > 0;
+        markerById.forEach((marker, id) => {
+          const active = ids.includes(id);
+          marker.setOpacity(hasFocus && !active ? 0.35 : 1);
+          const el2 = marker.getElement();
+          if (el2) el2.classList.toggle('is-active', active);
+          if (active) marker.openTooltip();
+          else marker.closeTooltip();
+        });
+      }
+
+      const openBounds = parseBounds(el.dataset.openBounds ?? '');
+      const fitOpen = () => map.fitBounds(L.latLngBounds(openBounds), { padding: [40, 40] });
+      fitOpen();
+      new ResizeObserver(() => map.invalidateSize()).observe(el);
+      if (document.readyState !== 'complete') {
+        window.addEventListener('load', () => { map.invalidateSize(); fitOpen(); }, { once: true });
+      }
+      return { map, focusTargets, coordsById, fitOpen, openBounds };
+    }
+
+    // — Sections scrollytellées (cold open + montage), chacune sa carte et ses beats.
+    // Activation quand la CARTE DE TEXTE entre dans la bande centrale — pas le
+    // conteneur .beat (90svh) : en scroll rapide la caméra volait vers le beat
+    // suivant pendant que le texte affiché était encore le précédent (vérifié pinchtab).
+    document.querySelectorAll<HTMLElement>('.scrolly-map').forEach((section) => {
+      const mapEl = section.querySelector<HTMLElement>('.scene-map');
+      if (!mapEl) return;
+      const { map, focusTargets, fitOpen, openBounds } = buildMap(mapEl);
+      const flyOpts = { duration: reduced ? 0 : 1.6 };
+      const beatObs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const el = (entry.target as HTMLElement).closest<HTMLElement>('.beat')!;
+            focusTargets((el.dataset.targets ?? '').split(',').filter(Boolean));
+            if (el.dataset.fly) {
+              const [lat, lng, zoom] = el.dataset.fly.split(',').map(Number);
+              reduced ? map.setView([lat, lng], zoom) : map.flyTo([lat, lng], zoom, flyOpts);
+            } else if (el.dataset.bounds) {
+              const b = L.latLngBounds(parseBounds(el.dataset.bounds));
+              reduced ? map.fitBounds(b, { padding: [60, 60] }) : map.flyToBounds(b, { padding: [60, 60], ...flyOpts });
+            } else {
+              reduced ? fitOpen() : map.flyToBounds(L.latLngBounds(openBounds), { padding: [40, 40], ...flyOpts });
+            }
+          });
+        },
+        { rootMargin: '-35% 0px -35% 0px' }
+      );
+      section
+        .querySelectorAll<HTMLElement>('.beat')
+        .forEach((b) => beatObs.observe(b.querySelector('.beat-card, .beat-quote') ?? b));
+    });
+
+    // — Mini-carte du carnet : suit le scroll de la liste (browse spatial rapide).
+    // Init paresseuse : Leaflet dans un conteneur display:none mesure 0×0.
+    let carnetReady = false;
+    function initCarnetMap() {
+      if (carnetReady) return;
+      const el = document.getElementById('carnet-map');
+      if (!el || el.offsetParent === null) return; // toujours caché
+      carnetReady = true;
+      const { map, focusTargets, coordsById } = buildMap(el);
+      const rowObs = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const id = (entry.target as HTMLElement).dataset.poi!;
+            focusTargets([id]);
+            const c = coordsById.get(id);
+            if (c) map.setView(c, Math.max(map.getZoom(), 12), { animate: !reduced });
+          });
+        },
+        { rootMargin: '-30% 0px -55% 0px' }
+      );
+      document.querySelectorAll<HTMLElement>('[data-poi]').forEach((r) => rowObs.observe(r));
+    }
+    document.addEventListener('proto:modechange', (e) => {
+      if ((e as CustomEvent).detail === 'carnet') initCarnetMap();
+    });
+    initCarnetMap(); // si la page s'ouvre déjà en mode carnet (hash ou mémoire)
+  });
+</script>
+
+<style>
+  /* ——— Vues ——— */
+  #proto[data-view='episode'] .view-carnet { display: none; }
+  #proto[data-view='carnet'] .view-episode { display: none; }
+
+  /* ——— Barre fixe ——— */
+  .topbar {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: color-mix(in oklch, var(--deep) 88%, transparent);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+  }
+  .topbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .topbar-title {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .topbar-dest { color: var(--terre); }
+  .topbar-sep { opacity: 0.4; margin: 0 4px; }
+  .mode-toggle {
+    display: flex;
+    gap: 0;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .mode-btn {
+    appearance: none;
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: var(--font-sans);
+    font-size: 12px;
+    padding: 6px 16px;
+    cursor: pointer;
+    min-height: 32px;
+  }
+  .mode-btn[aria-pressed='true'] {
+    background: var(--terre);
+    color: white;
+  }
+  .progress-rail { height: 2px; background: rgba(255, 255, 255, 0.12); }
+  .progress-fill { height: 100%; width: 0; background: var(--terre); }
+
+  /* ——— Scrollytelling (carte + scènes) ——— */
+  .scrolly { position: relative; }
+  .scrolly-sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    height: 100svh;
+    overflow: hidden;
+  }
+  .beats {
+    position: relative;
+    z-index: 2;
+    margin-top: -100vh;
+    margin-top: -100svh;
+    pointer-events: none; /* le scroll passe ; ré-activé sur les cartes */
+  }
+  .beat {
+    min-height: 90vh;
+    min-height: 90svh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 16px 12vh;
+  }
+  .beat-title {
+    min-height: 100vh;
+    min-height: 100svh;
+    align-items: center;
+    justify-content: center;
+  }
+  .beat-card {
+    pointer-events: auto;
+    max-width: 420px;
+    background: color-mix(in oklch, var(--deep) 92%, transparent);
+    color: rgba(255, 255, 255, 0.92);
+    border-radius: var(--radius);
+    padding: 20px 22px;
+    box-shadow: var(--shadow-lg);
+  }
+  .beat-card-title {
+    max-width: 560px;
+    text-align: center;
+    background: color-mix(in oklch, var(--deep) 78%, transparent);
+    padding: 36px 32px;
+  }
+  .ep-kicker {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 10px;
+  }
+  .ep-title {
+    font-family: var(--font-serif);
+    font-size: clamp(48px, 9vw, 84px);
+    font-weight: 300;
+    line-height: 1;
+    color: white;
+  }
+  .ep-sub {
+    margin-top: 14px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  .scroll-hint {
+    display: block;
+    margin-top: 18px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.6);
+    animation: hint 2s ease-in-out infinite;
+  }
+  @keyframes hint { 50% { transform: translateY(6px); } }
+  @media (prefers-reduced-motion: reduce) { .scroll-hint { animation: none; } }
+
+  .beat-thumb {
+    display: block;
+    width: calc(100% + 44px);
+    margin: -20px -22px 14px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: var(--radius) var(--radius) 0 0;
+  }
+  .beat-kicker {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 8px;
+  }
+  .beat-body { font-size: 15px; line-height: 1.7; }
+  .scene-title {
+    font-family: var(--font-serif);
+    font-size: clamp(30px, 5vw, 42px);
+    font-weight: 300;
+    line-height: 1.1;
+    color: white;
+  }
+  .montage-title {
+    font-family: var(--font-serif);
+    font-size: clamp(26px, 4.5vw, 38px);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.2;
+    color: white;
+  }
+  .scene-via {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 12px;
+    color: var(--terre);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--terre);
+  }
+  .scene-via:hover { color: white; border-color: white; }
+  .beat-quote {
+    pointer-events: auto;
+    max-width: 520px;
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 4vw, 30px);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.4;
+    color: white;
+    text-shadow: 0 2px 16px rgba(0, 0, 0, 0.6);
+    border-left: 3px solid var(--terre);
+    padding-left: 18px;
+  }
+
+  /* Carte-scène */
+  .scene-map { position: absolute; inset: 0; background: var(--sand); }
+  .map-scrim {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background: linear-gradient(to bottom, rgba(26, 42, 58, 0.35), transparent 30%, transparent 75%, rgba(26, 42, 58, 0.35));
+    z-index: 500; /* au-dessus des tuiles Leaflet (400), sous les beats */
+  }
+
+  /* Scènes storybook */
+  .scene-photo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .scene-scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(26, 42, 58, 0.45), rgba(26, 42, 58, 0.1) 40%, rgba(26, 42, 58, 0.55));
+  }
+
+  /* Pills — toute reco = lien cliquable */
+  .pill-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    min-height: 34px;
+    font-size: 12px;
+    padding: 5px 14px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: white;
+    text-decoration: none;
+    transition: background var(--transition);
+  }
+  .pill:hover { background: var(--terre); border-color: var(--terre); }
+
+  /* ——— Jalon ——— */
+  .jalon {
+    background: var(--deep);
+    padding: 18vh 24px;
+    display: flex;
+    justify-content: center;
+  }
+  .jalon-quote {
+    max-width: 680px;
+    font-family: var(--font-serif);
+    font-size: clamp(24px, 4.5vw, 36px);
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.45;
+    color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+  }
+
+  /* ——— Outro ——— */
+  .outro {
+    background: var(--deep);
+    padding: 16vh 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .outro-inner { max-width: 520px; }
+  .outro-body { color: rgba(255, 255, 255, 0.85); font-size: 15px; line-height: 1.75; }
+  .outro-btn {
+    appearance: none;
+    border: none;
+    margin-top: 24px;
+    background: var(--terre);
+    color: white;
+    font-family: var(--font-sans);
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 28px;
+    border-radius: 24px;
+    cursor: pointer;
+    min-height: 44px;
+  }
+  .outro-btn:hover { background: var(--accent); }
+  .outro-next {
+    display: block;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    text-decoration: none;
+  }
+  .outro-next:hover { color: white; }
+
+  /* ——— Carnet (terrain : clair, dense, gros tap targets) ——— */
+  .view-carnet { background: var(--bg); min-height: 100vh; }
+  .carnet-container {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 76px 16px 64px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 340px;
+    gap: 32px;
+  }
+  .carnet-main { order: 1; min-width: 0; }
+  .carnet-aside { order: 2; }
+  .carnet-map {
+    position: sticky;
+    top: 64px;
+    height: min(72vh, 560px);
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--sand);
+    border: 1px solid var(--border);
+  }
+  @media (max-width: 900px) {
+    .carnet-container { display: block; }
+    .carnet-aside {
+      position: sticky;
+      top: 47px; /* sous la topbar */
+      z-index: 5;
+      margin: 0 -16px 16px;
+    }
+    .carnet-map {
+      position: static;
+      height: 160px;
+      border-radius: 0;
+      border-left: none;
+      border-right: none;
+    }
+  }
+  .carnet-head { margin-bottom: 28px; }
+  .carnet-sub { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .carnet-kml-hint { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .carnet-kml-hint a { color: var(--mer); }
+  .view-carnet .pill-kml { background: var(--deep); color: white; }
+  .view-carnet .pill-kml:hover { background: var(--terre); }
+  .carnet-group { margin-bottom: 34px; }
+  .carnet-group-title {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--text);
+    margin-bottom: 12px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+  }
+  .carnet-list { list-style: none; }
+  .carnet-row {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--border);
+  }
+  .carnet-row:last-child { border-bottom: none; }
+  .carnet-row-content { flex: 1; min-width: 0; }
+  .carnet-thumb {
+    flex-shrink: 0;
+    width: 86px;
+    height: 86px;
+    object-fit: cover;
+    border-radius: var(--radius-sm);
+  }
+  .carnet-thumb-food { width: 104px; height: 104px; }
+  @media (max-width: 600px) {
+    .carnet-thumb { width: 72px; height: 72px; }
+    .carnet-thumb-food { width: 88px; height: 88px; }
+  }
+  .carnet-name { font-weight: 500; font-size: 15px; color: var(--text); }
+  .carnet-price { font-size: 12px; color: var(--terre); margin-left: 8px; }
+  .carnet-blurb { font-size: 13px; color: var(--muted); line-height: 1.65; margin-top: 4px; }
+  .carnet-footer { font-size: 12px; color: var(--muted); font-style: italic; margin-top: 10px; }
+  .carnet-tail { text-align: center; margin-top: 16px; }
+  .view-carnet .pill {
+    background: var(--mer-light);
+    border-color: transparent;
+    color: var(--mer);
+  }
+  .view-carnet .pill:hover { background: var(--mer); color: white; }
+  .view-carnet .outro-btn { background: var(--deep); }
+
+  /* Rythme resserré des scènes storybook (la carte garde 90svh pour le flyTo) */
+  .beats-scene .beat {
+    min-height: 72vh;
+    min-height: 72svh;
+  }
+
+  /* Markers Leaflet — créés au runtime → :global obligatoire */
+  :global(.map-glyph) {
+    font-size: 22px;
+    line-height: 1;
+    display: block;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transform-origin: center bottom;
+  }
+  :global(.map-marker.is-active) { z-index: 1000 !important; }
+  :global(.map-marker.is-active .map-glyph) {
+    transform: scale(1.45);
+    animation: marker-pulse 1.8s ease-in-out infinite;
+  }
+  @keyframes marker-pulse {
+    50% { transform: scale(1.7); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    :global(.map-marker.is-active .map-glyph) { animation: none; }
+  }
+  :global(.map-tip) {
+    font-family: var(--font-sans);
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--deep);
+    background: white;
+    border: none;
+    border-radius: 6px;
+    box-shadow: var(--shadow-md);
+    padding: 4px 10px;
+  }
+  :global(.map-tip::before) { display: none; }
+
+  @media (max-width: 640px) {
+    .beat { padding: 0 12px 10vh; }
+    .beat-card { max-width: 100%; padding: 16px 18px; }
+    .topbar-title { font-size: 10px; }
+  }
+</style>

@@ -10,21 +10,37 @@
         "url": "https://www.google.com/maps/search/Ntourountous+bakery+Chania"
       }
     ],
-    "image": "foodie-1"
+    "image": "foodie-5"
   },
   {
     "id": "sfakianopita-au-marche",
     "group": "Incontournables foodie — Chania",
     "title": "Sfakianopita au marché",
     "body": "Crêpe fine fourrée à la myzithra, arrosée de miel de thym. La vraie version Sfakiote — on va en manger encore plus à Loutro.",
-    "image": "foodie-2"
+    "image": "foodie-4",
+    "links": [
+      {
+        "label": "Marché couvert (Agora)",
+        "url": "https://www.google.com/maps/search/Municipal+Market+Agora+Chania+Crete"
+      }
+    ]
   },
   {
     "id": "pieuvre-grillee-xtapodi-sti-schara",
     "group": "Incontournables foodie — Chania",
     "title": "Pieuvre grillée (xtapodi sti schara)",
     "body": "Essayer chez Chrisostomos ou Evgonia. Grillée à la perfection, huile d'olive crétoise, citron. Aussi essayer l'oursin en salade.",
-    "image": "foodie-3"
+    "image": "foodie-2",
+    "links": [
+      {
+        "label": "Chrisostomos · Maps",
+        "url": "https://www.google.com/maps/search/Chrisostomos+Restaurant+Chania"
+      },
+      {
+        "label": "Evgonia · Maps",
+        "url": "https://www.google.com/maps/search/Evgonia+Milonogianni+Chania"
+      }
+    ]
   },
   {
     "id": "degustation-raki-et-vin",
@@ -37,7 +53,7 @@
         "url": "https://www.chaniawinetours.com/"
       }
     ],
-    "image": "foodie-4"
+    "image": "foodie-3"
   },
   {
     "id": "cours-de-cuisine-cretoise",
@@ -50,7 +66,7 @@
         "url": "https://www.chaniagastronomy.com/"
       }
     ],
-    "image": "foodie-5"
+    "image": "foodie-1"
   },
   {
     "id": "sfakianopita-le-plat-de-la-region",

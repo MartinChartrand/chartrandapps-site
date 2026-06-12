@@ -36,14 +36,20 @@
         "url": "https://www.google.com/maps/search/Nea+Chora+Beach+Chania"
       }
     ],
-    "image": "photo-8"
+    "image": "photo-1"
   },
   {
     "id": "port-venitien-a-5h30-du-matin",
     "group": "Pépites locales — Chania",
     "title": "Port vénitien à 5h30 du matin",
     "body": "Le phare égyptien, les façades colorées, les bateaux de pêche — sans un seul touriste. La meilleure photo de Chania se prend à l'aube.",
-    "image": "photo-9"
+    "image": "photo-9",
+    "links": [
+      {
+        "label": "Vieux port vénitien · Maps",
+        "url": "https://www.google.com/maps/search/Old+Venetian+Harbour+Chania"
+      }
+    ]
   },
   {
     "id": "sentier-e4-vers-glyka-nera-au-lever-du-soleil",
