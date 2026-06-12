@@ -1,0 +1,37 @@
+{
+  "slug": "turquie",
+  "heroTitle": {
+    "main": "Turquie",
+    "em": "septembre–octobre 2027"
+  },
+  "heroSub": "Un mois, quatre bases, mouvement minimal",
+  "subtitle": "Un mois, quatre bases, mouvement minimal",
+  "season": "Septembre 2027",
+  "travelers": {
+    "count": 2,
+    "label": "Voyage en duo"
+  },
+  "arrival": {
+    "date": "",
+    "airport": "",
+    "city": ""
+  },
+  "departure": {
+    "date": "",
+    "airport": "",
+    "city": ""
+  },
+  "theme": {
+    "favicon": "🕌",
+    "palette": "turquie"
+  },
+  "hero": {
+    "image": "hero",
+    "label": "Itinéraire · Voyage en duo"
+  },
+  "overviewIntro": "Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire descend en diagonale — urbain, intérieur lunaire, côte Lycienne intime, décompression finale — de l'arrivée à Istanbul jusqu'au vol retour depuis Dalaman.",
+  "intro": {
+    "whySeason": "Eau Méditerranée à 24–26°C en septembre, encore 20–23°C fin octobre. Les foules d'été tombent après le 15 septembre, les prix aussi. Lumière d'automne dorée, ciel clair pour les montgolfières cappadociennes (85% de jours volants), fin de saison des moustiques. Le pays se vide, le voyageur solo devient invisible.",
+    "logistics": "Vol aller Montréal → Istanbul via hub européen (pas de transit US). Vols domestiques Turkish/Pegasus entre les bases. Retour Dalaman → Montréal. Pas de voiture de location — tout se fait en bus, dolmuş, ferry et scooter ponctuel. Budget total estimé : ~5 500 $ CAD solo, trente nuits."
+  }
+}

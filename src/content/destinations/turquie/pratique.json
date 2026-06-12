@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "label": "Info pratique",
+      "items": [
+        {
+          "label": "Vols — stratégie open-jaw",
+          "body": "Aller YUL → Istanbul (IST) via hub européen (Amsterdam, Francfort, Paris CDG). Retour Dalaman (DLM) → YUL via hub. Cette combinaison asymétrique évite tout backtracking et coûte souvent le même prix qu'un aller-retour simple. Turkish Airlines offre YUL → IST direct 9h30 — alternative sans correspondance. Aucun transit par les États-Unis. Réserver 4-5 mois avant pour septembre — tarifs estimés 900-1 100 $ CAD aller-retour."
+        },
+        {
+          "label": "Vols domestiques inter-bases",
+          "body": "Pas de voiture de location — les bases sont reliées par vols courts + bus. Istanbul → Kayseri (Cappadoce) 1h15, 12-15 vols/jour (Turkish, Pegasus, AJet), 40-90 €. Kayseri → Antalya 1h20, 55-80 €, puis bus 3h45 jusqu'à Kaş (Batı Antalya Tur ou Kamil Koç, 12-15 €, départs toutes les 1-2h). Kaş → Fethiye en bus direct 2h30-3h sur la D400 panoramique."
+        },
+        {
+          "label": "Visa et entrée",
+          "body": "Canadiens : visa électronique e-Visa (60 $ USD, valide 90 jours sur 180) à obtenir en ligne sur evisa.gov.tr avant le départ — 10 minutes, e-mail immédiat. Passeport valide 6 mois après la date de retour. Pas de vaccins obligatoires. Déclarer les devises si > 10 000 $ à l'entrée."
+        },
+        {
+          "label": "Argent et paiement",
+          "body": "Devise locale : livre turque (TRY). Inflation forte — retirer par petits montants (300-500 TRY à la fois). Distributeurs Ziraat Bankası, Yapı Kredi ou Garanti BBVA — pas les bureaux de change touristiques (taux pourri). Cartes acceptées dans les hôtels et bons restos, cash pour street food, dolmuş, bazaars, pensions familiales. Retirer l'équivalent de 60-100 € à l'arrivée."
+        },
+        {
+          "label": "Téléphonie — eSIM",
+          "body": "eSIM Turkcell, Vodafone TR ou Airalo acheté avant le départ (15-25 € pour 10-20 Go sur 30 jours) — activation dès l'atterrissage, pas de scan de passeport obligatoire (vs SIM physique). Alternative : SIM physique locale à IST aéroport mais registration mandatoire depuis 2023 (~30 min, passeport). Couverture 4G excellente partout sauf vallées reculées de Cappadoce. Cartes hors ligne : OsmAnd ou Google Maps offline."
+        },
+        {
+          "label": "Hébergement — quartiers à privilégier",
+          "body": "Istanbul : Karaköy / Galata / Cihangir, jamais Sultanahmet (mort après 19h, 100% touriste le jour). Cappadoce : Ürgüp plutôt que Göreme (plus local, restos adultes, vignobles à 10 min). Kaş : centre-ville ou péninsule Çukurbağ selon budget. Fethiye : split Paspatur + Kayaköy + Faralya, éviter Ölüdeniz bourg. Réserver sept 3-4 mois avant (haute saison, foules encore présentes jusqu'au 15 sept)."
+        },
+        {
+          "label": "Gastronomie — les règles",
+          "body": "Jamais un resto avec menu en 6 langues et rabatteur à la porte — multiplicateur de prix par 3, qualité divisée par 2. Viser les meyhanes (bars à mezze), fish markets (Fethiye, Kadıköy), lokantas (cuisine quotidienne), sofras (anatolien traditionnel). Rakı (anis) comme vin du pays — toujours au poisson ou mezze. Thé çay offert partout en fin de repas, ne jamais refuser. Pour vins : cépages indigènes (Emir, Öküzgözü, Boğazkere) supérieurs aux imports."
+        },
+        {
+          "label": "Météo sept-oct 2027",
+          "body": "Istanbul : 24-28°C jour, 16-19°C nuit, ciel clair. Cappadoce : 22-28°C jour, 8-12°C à l'aube (pull pour la montgolfière), 85% jours volants. Kaş / Fethiye : 26-30°C jour, 20-23°C nuit, eau 24-26°C sept, 20-23°C fin oct. Pluie quasi nulle septembre, revient progressivement mi-octobre (1-2 journées sur 10). Les foules chutent nettement après le 15 septembre — le voyageur solo devient invisible."
+        },
+        {
+          "label": "Les arnaques à éviter",
+          "body": "Istanbul : shoe shiner qui laisse tomber sa brosse (puis demande 30 € pour cirer), taxi sans compteur (exiger taximetre ou BiTaksi/Uber app), bar scam à Istiklal (jamais suivre un inconnu sympa dans un bar). Partout : \"invitation au thé\" dans les boutiques de tapis (90 min de démo, pression, tapis à 2000-8000 €). Bureaux de change touristiques aux taux pourris — toujours ATM bancaire. Tours montgolfière discount en Cappadoce (safety record douteux) — payer les 280 € et prendre Royal, Butterfly ou Kapadokya Balloons."
+        },
+        {
+          "label": "Sécurité solo",
+          "body": "La Turquie est globalement sûre pour un voyageur solo — criminalité très basse, culture qui protège les étrangers. Éviter les frontières sud-est (Syrie, Iran) et le sud-est kurde rural — pas d'impact sur cet itinéraire qui reste ouest-centre-côte. Éviter les manifestations (surtout à Istanbul). Istanbul de nuit : Karaköy/Galata/Beyoğlu safe jusqu'à 2h du matin. Photographier militaires ou installations gouvernementales = interdit."
+        }
+      ]
+    }
+  ]
+}

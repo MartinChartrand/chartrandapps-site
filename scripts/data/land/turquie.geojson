@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "note": "Bounding-box placeholder Turquie — remplacer par landmask OSM réel via make-landmask.mjs + ogr2ogr",
+        "source": "manual-bbox",
+        "bbox": "26-45E 36-43N"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [26.0, 36.0],
+            [45.0, 36.0],
+            [45.0, 43.0],
+            [26.0, 43.0],
+            [26.0, 36.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

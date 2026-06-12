@@ -1,0 +1,2750 @@
+[
+  {
+    "id": "marmara-guesthouse",
+    "base": "istanbul",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Marmara Guesthouse",
+    "blurb": "",
+    "signature": "",
+    "image": "marmara-guesthouse-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0056,
+      "lng": 28.9758,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Marmara+Guesthouse+Sultanahmet+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "karakoy-rooms",
+    "base": "istanbul",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Karaköy Rooms",
+    "blurb": "",
+    "signature": "",
+    "image": "karakoy-rooms-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0258,
+      "lng": 28.9747,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Karakoy+Rooms+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "georges-hotel-galata",
+    "base": "istanbul",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Georges Hotel Galata",
+    "blurb": "",
+    "signature": "",
+    "image": "georges-hotel-galata-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0265,
+      "lng": 28.9742,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Georges+Hotel+Galata+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "ciya-sofras",
+    "base": "istanbul",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Çiya Sofrası",
+    "blurb": "",
+    "signature": "",
+    "image": "ciya-sofras-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 40.9904,
+      "lng": 29.0275,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ciya+Sofrasi+Kadikoy+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "asmal-cavit",
+    "base": "istanbul",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Asmalı Cavit",
+    "blurb": "",
+    "signature": "",
+    "image": "asmal-cavit-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0308,
+      "lng": 28.9756,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Asmali+Cavit+Asmalimescit+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "furreyya-galata-balkcs",
+    "base": "istanbul",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Furreyya Galata Balıkçısı",
+    "blurb": "",
+    "signature": "",
+    "image": "furreyya-galata-balkcs-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0259,
+      "lng": 28.9735,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Furreyya+Galata+Balikcisi+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "neolokal-salt-galata",
+    "base": "istanbul",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Neolokal (SALT Galata)",
+    "blurb": "",
+    "signature": "",
+    "image": "neolokal-salt-galata-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0255,
+      "lng": 28.9735,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Neolokal+SALT+Galata+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "vefa-bozacs-1876",
+    "base": "istanbul",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Vefa Bozacısı (1876)",
+    "blurb": "",
+    "signature": "",
+    "image": "vefa-bozacs-1876-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0158,
+      "lng": 28.9547,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vefa+Bozacisi+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "sampiyon-kokorec",
+    "base": "istanbul",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Şampiyon Kokoreç",
+    "blurb": "",
+    "signature": "",
+    "image": "sampiyon-kokorec-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0355,
+      "lng": 28.9769,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sampiyon+Kokorec+Beyoglu+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "sainte-sophie-ayasofya",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Sainte-Sophie (Ayasofya)",
+    "blurb": "",
+    "signature": "",
+    "image": "sainte-sophie-ayasofya-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0086,
+      "lng": 28.9802,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hagia+Sophia+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "mosquee-suleymaniye",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Mosquée Süleymaniye",
+    "blurb": "",
+    "signature": "",
+    "image": "mosquee-suleymaniye-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0161,
+      "lng": 28.9639,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Suleymaniye+Mosque+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "hammam-cemberlitas-grand-bazar",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Hammam Çemberlitaş (Grand Bazar)",
+    "blurb": "",
+    "signature": "",
+    "image": "hammam-cemberlitas-grand-bazar-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0093,
+      "lng": 28.9717,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Cemberlitas+Hamami+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "buyuk-valide-han-terrasse",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Büyük Valide Han (terrasse)",
+    "blurb": "",
+    "signature": "",
+    "image": "buyuk-valide-han-terrasse-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0113,
+      "lng": 28.971,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Buyuk+Valide+Han+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "balat-fener-quartier",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Balat-Fener (quartier)",
+    "blurb": "",
+    "signature": "",
+    "image": "balat-fener-quartier-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0297,
+      "lng": 28.9487,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Balat+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "marche-poissons-kadkoy",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Marché poissons Kadıköy",
+    "blurb": "",
+    "signature": "",
+    "image": "marche-poissons-kadkoy-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 40.99,
+      "lng": 29.028,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Balik+Pazari+Kadikoy+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "ferry-bosphore-eminonu",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Ferry Bosphore (Eminönü)",
+    "blurb": "",
+    "signature": "",
+    "image": "ferry-bosphore-eminonu-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0178,
+      "lng": 28.9737,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sehir+Hatlari+Bogaz+Ferry+Eminonu"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kuzguncuk-rive-asiatique",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Kuzguncuk (rive asiatique)",
+    "blurb": "",
+    "signature": "",
+    "image": "kuzguncuk-rive-asiatique-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.041,
+      "lng": 29.0325,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kuzguncuk+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "aslhan-pasaj-bouquinistes",
+    "base": "istanbul",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Aslıhan Pasajı (bouquinistes)",
+    "blurb": "",
+    "signature": "",
+    "image": "aslhan-pasaj-bouquinistes-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 41.0336,
+      "lng": 28.9775,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Aslihan+Pasaji+Beyoglu+Istanbul"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "hanmaga-konag-cave-hotel",
+    "base": "cappadoce",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Hanımağa Konağı Cave Hotel",
+    "blurb": "",
+    "signature": "",
+    "image": "hanmaga-konag-cave-hotel-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6322,
+      "lng": 34.9128,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hanimaga+Cave+Hotel+Urgup+Cappadocia"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kayakapi-premium-caves",
+    "base": "cappadoce",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Kayakapi Premium Caves",
+    "blurb": "",
+    "signature": "",
+    "image": "kayakapi-premium-caves-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6362,
+      "lng": 34.9184,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kayakapi+Premium+Caves+Urgup"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "museum-hotel-uchisar",
+    "base": "cappadoce",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Museum Hotel (Uçhisar)",
+    "blurb": "",
+    "signature": "",
+    "image": "museum-hotel-uchisar-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6301,
+      "lng": 34.8059,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Museum+Hotel+Uchisar+Cappadocia"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "ziggy-cafe-urgup",
+    "base": "cappadoce",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Ziggy Cafe (Ürgüp)",
+    "blurb": "",
+    "signature": "",
+    "image": "ziggy-cafe-urgup-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6313,
+      "lng": 34.9127,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ziggy+Cafe+Urgup+Cappadocia"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "dibek-goreme-475-ans",
+    "base": "cappadoce",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Dibek (Göreme, 475 ans)",
+    "blurb": "",
+    "signature": "",
+    "image": "dibek-goreme-475-ans-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6425,
+      "lng": 34.8284,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dibek+Restaurant+Goreme"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "seten-restaurant-goreme",
+    "base": "cappadoce",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Seten Restaurant (Göreme)",
+    "blurb": "",
+    "signature": "",
+    "image": "seten-restaurant-goreme-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6434,
+      "lng": 34.8282,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Seten+Restaurant+Goreme"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "muti-restaurant-urgup",
+    "base": "cappadoce",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Muti Restaurant (Ürgüp)",
+    "blurb": "",
+    "signature": "",
+    "image": "muti-restaurant-urgup-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6305,
+      "lng": 34.9121,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Muti+Restaurant+Urgup"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "cafe-fat-boys-urgup",
+    "base": "cappadoce",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Café Fat Boys (Ürgüp)",
+    "blurb": "",
+    "signature": "",
+    "image": "cafe-fat-boys-urgup-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6316,
+      "lng": 34.9125,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Fat+Boys+Cafe+Urgup"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "champ-montgolfieres-goreme",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Champ montgolfières Göreme",
+    "blurb": "",
+    "signature": "",
+    "image": "champ-montgolfieres-goreme-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6489,
+      "lng": 34.8196,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Goreme+balloon+launch+field"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "goreme-open-air-museum",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Göreme Open-Air Museum",
+    "blurb": "",
+    "signature": "",
+    "image": "goreme-open-air-museum-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6433,
+      "lng": 34.8432,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Goreme+Open+Air+Museum"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "rose-valley-depart-cavusin",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Rose Valley (départ Çavuşin)",
+    "blurb": "",
+    "signature": "",
+    "image": "rose-valley-depart-cavusin-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6647,
+      "lng": 34.8422,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Rose+Valley+Cappadocia"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kzlcukur-viewpoint-red-valley",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Kızılçukur viewpoint (Red Valley)",
+    "blurb": "",
+    "signature": "",
+    "image": "kzlcukur-viewpoint-red-valley-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6608,
+      "lng": 34.8542,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kizilcukur+viewpoint+Cappadocia"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "firca-seramik-avanos",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Firca Seramik (Avanos)",
+    "blurb": "",
+    "signature": "",
+    "image": "firca-seramik-avanos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.7205,
+      "lng": 34.8491,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Firca+Seramik+Avanos"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "derinkuyu-cite-souterraine",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Derinkuyu (cité souterraine)",
+    "blurb": "",
+    "signature": "",
+    "image": "derinkuyu-cite-souterraine-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.3744,
+      "lng": 34.7347,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Derinkuyu+underground+city"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "turasan-winery-1943",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Turasan Winery (1943)",
+    "blurb": "",
+    "signature": "",
+    "image": "turasan-winery-1943-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6339,
+      "lng": 34.9069,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Turasan+Winery+Urgup"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kocabag-winery",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Kocabağ Winery",
+    "blurb": "",
+    "signature": "",
+    "image": "kocabag-winery-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.6288,
+      "lng": 34.9001,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kocabag+Winery+Urgup"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "soganl-valley-jumelle-vide",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Soğanlı Valley (jumelle vide)",
+    "blurb": "",
+    "signature": "",
+    "image": "soganl-valley-jumelle-vide-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.3722,
+      "lng": 34.8656,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Soganli+Valley+Cappadocia"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "mustafapasa-ex-sinasos",
+    "base": "cappadoce",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Mustafapaşa (ex-Sinasos)",
+    "blurb": "",
+    "signature": "",
+    "image": "mustafapasa-ex-sinasos-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 38.5772,
+      "lng": 34.9333,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mustafapasa+Cappadocia"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "hideaway-hotel-kas",
+    "base": "kas",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Hideaway Hotel Kaş",
+    "blurb": "",
+    "signature": "",
+    "image": "hideaway-hotel-kas-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.1986,
+      "lng": 29.6384,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hideaway+Hotel+Kas"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "gardenia-hotel-kas",
+    "base": "kas",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Gardenia Hotel Kaş",
+    "blurb": "",
+    "signature": "",
+    "image": "gardenia-hotel-kas-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.1978,
+      "lng": 29.6408,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Gardenia+Hotel+Kas"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "hotel-nur-beach-cukurbag",
+    "base": "kas",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Hotel Nur Beach (Çukurbağ)",
+    "blurb": "",
+    "signature": "",
+    "image": "hotel-nur-beach-cukurbag-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.2012,
+      "lng": 29.6145,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Nur+Beach+Hotel+Kas"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "bi-lokma-kucuk-cakl",
+    "base": "kas",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Bi Lokma (Küçük Çakıl)",
+    "blurb": "",
+    "signature": "",
+    "image": "bi-lokma-kucuk-cakl-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.1974,
+      "lng": 29.6425,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bi+Lokma+Kas+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "mercan-restaurant-1956",
+    "base": "kas",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Mercan Restaurant (1956)",
+    "blurb": "",
+    "signature": "",
+    "image": "mercan-restaurant-1956-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.1982,
+      "lng": 29.6395,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mercan+Restaurant+Kas+harbor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "ikbal-meyhane",
+    "base": "kas",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "İkbal Meyhane",
+    "blurb": "",
+    "signature": "",
+    "image": "ikbal-meyhane-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.1995,
+      "lng": 29.6402,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ikbal+Meyhane+Kas"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "koyum-gozleme-evi-bezirgan",
+    "base": "kas",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Köyüm Gözleme Evi (Bezirgan)",
+    "blurb": "",
+    "signature": "",
+    "image": "koyum-gozleme-evi-bezirgan-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.3345,
+      "lng": 29.7012,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bezirgan+village+koy+kahvaltisi"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kaputas-beach",
+    "base": "kas",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Kaputaş Beach",
+    "blurb": "",
+    "signature": "",
+    "image": "kaputas-beach-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.2053,
+      "lng": 29.5197,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kaputas+Beach+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "limanagz-crique",
+    "base": "kas",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Limanağzı (crique)",
+    "blurb": "",
+    "signature": "",
+    "image": "limanagz-crique-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.194,
+      "lng": 29.6605,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Limanagzi+Kas"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "mavi-magara-grotte-bleue",
+    "base": "kas",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Mavi Mağara (Grotte Bleue)",
+    "blurb": "",
+    "signature": "",
+    "image": "mavi-magara-grotte-bleue-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.1725,
+      "lng": 29.638,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mavi+Magara+Blue+Cave+Kas"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "dragoman-diving",
+    "base": "kas",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Dragoman Diving",
+    "blurb": "",
+    "signature": "",
+    "image": "dragoman-diving-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.1985,
+      "lng": 29.6398,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dragoman+Dive+Center+Kas"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kekova-simena-cite-engloutie",
+    "base": "kas",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Kekova + Simena (cité engloutie)",
+    "blurb": "",
+    "signature": "",
+    "image": "kekova-simena-cite-engloutie-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.1833,
+      "lng": 29.8667,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kekova+Simena+sunken+city+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "patara-ruines-plage-antique",
+    "base": "kas",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Patara (ruines + plage antique)",
+    "blurb": "",
+    "signature": "",
+    "image": "patara-ruines-plage-antique-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.2683,
+      "lng": 29.3172,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Patara+ancient+site+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "myra-demre-tombes-rupestres",
+    "base": "kas",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Myra (Demre, tombes rupestres)",
+    "blurb": "",
+    "signature": "",
+    "image": "myra-demre-tombes-rupestres-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.2597,
+      "lng": 29.985,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Myra+Demre+rock+tombs"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "xanthos-unesco",
+    "base": "kas",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Xanthos (UNESCO)",
+    "blurb": "",
+    "signature": "",
+    "image": "xanthos-unesco-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.355,
+      "lng": 29.3178,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Xanthos+Lycian+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "letoon-unesco",
+    "base": "kas",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Letoon (UNESCO)",
+    "blurb": "",
+    "signature": "",
+    "image": "letoon-unesco-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.3283,
+      "lng": 29.2925,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Letoon+Lycian+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "marche-vendredi-cuma-pazar",
+    "base": "kas",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Marché vendredi Cuma Pazarı",
+    "blurb": "",
+    "signature": "",
+    "image": "marche-vendredi-cuma-pazar-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.2002,
+      "lng": 29.6342,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Cuma+Pazari+Kas+Friday+market"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "mont-felenk-sunrise",
+    "base": "kas",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Mont Felenk (sunrise)",
+    "blurb": "",
+    "signature": "",
+    "image": "mont-felenk-sunrise-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.2078,
+      "lng": 29.6298,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Felenk+Tepesi+Kas"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "villa-rhapsody-kayakoy",
+    "base": "fethiye",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Villa Rhapsody (Kayaköy)",
+    "blurb": "",
+    "signature": "",
+    "image": "villa-rhapsody-kayakoy-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.5744,
+      "lng": 29.0911,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Villa+Rhapsody+Kayakoy"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "yonca-lodge-kayakoy",
+    "base": "fethiye",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Yonca Lodge (Kayaköy)",
+    "blurb": "",
+    "signature": "",
+    "image": "yonca-lodge-kayakoy-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.5755,
+      "lng": 29.0885,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Yonca+Lodge+Kayakoy"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "hideaway-hotel-faralya",
+    "base": "fethiye",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Hideaway Hotel (Faralya)",
+    "blurb": "",
+    "signature": "",
+    "image": "hideaway-hotel-faralya-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.528,
+      "lng": 29.126,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hideaway+Hotel+Faralya"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "fethiye-fish-market-mavicemrafet",
+    "base": "fethiye",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Fethiye Fish Market (Mavi/Cem/Rafet)",
+    "blurb": "",
+    "signature": "",
+    "image": "fethiye-fish-market-mavicemrafet-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.623,
+      "lng": 29.1178,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Fethiye+Fish+Market+Balik+Pazari"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "cin-bal-kayakoy",
+    "base": "fethiye",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Cin Bal (Kayaköy)",
+    "blurb": "",
+    "signature": "",
+    "image": "cin-bal-kayakoy-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.5735,
+      "lng": 29.0917,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Cin+Bal+Kayakoy"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "reis-restaurant-paspatur",
+    "base": "fethiye",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Reis Restaurant (Paspatur)",
+    "blurb": "",
+    "signature": "",
+    "image": "reis-restaurant-paspatur-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.624,
+      "lng": 29.1165,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Reis+Restaurant+Paspatur+Fethiye"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "levissi-garden",
+    "base": "fethiye",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "name": "Levissi Garden",
+    "blurb": "",
+    "signature": "",
+    "image": "levissi-garden-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.5695,
+      "lng": 29.102,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Levissi+Garden+Kayakoy"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kayakoy-ghost-village",
+    "base": "fethiye",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Kayaköy Ghost Village",
+    "blurb": "",
+    "signature": "",
+    "image": "kayakoy-ghost-village-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.5735,
+      "lng": 29.0897,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kayakoy+Ghost+Village"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "butterfly-valley",
+    "base": "fethiye",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Butterfly Valley",
+    "blurb": "",
+    "signature": "",
+    "image": "butterfly-valley-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.547,
+      "lng": 29.128,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Butterfly+Valley+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "oludeniz-blue-lagoon",
+    "base": "fethiye",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Ölüdeniz Blue Lagoon",
+    "blurb": "",
+    "signature": "",
+    "image": "oludeniz-blue-lagoon-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.55,
+      "lng": 29.1244,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Oludeniz+Blue+Lagoon"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "kabak-bay-sauvage",
+    "base": "fethiye",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "name": "Kabak Bay (sauvage)",
+    "blurb": "",
+    "signature": "",
+    "image": "kabak-bay-sauvage-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.497,
+      "lng": 29.105,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kabak+Bay+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "fethiye-marina-gulet-12-iles",
+    "base": "fethiye",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Fethiye Marina (gulet 12 îles)",
+    "blurb": "",
+    "signature": "",
+    "image": "fethiye-marina-gulet-12-iles-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.622,
+      "lng": 29.109,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Fethiye+harbor+gulet"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "babadag-paragliding-1969m",
+    "base": "fethiye",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Babadağ (paragliding 1969m)",
+    "blurb": "",
+    "signature": "",
+    "image": "babadag-paragliding-1969m-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.5515,
+      "lng": 29.147,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Babadag+paragliding+Oludeniz"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "saklkent-gorge",
+    "base": "fethiye",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Saklıkent Gorge",
+    "blurb": "",
+    "signature": "",
+    "image": "saklkent-gorge-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.4906,
+      "lng": 29.3722,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Saklikent+Gorge+Turkey"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "lycian-way-faralya-descente",
+    "base": "fethiye",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Lycian Way Faralya (descente)",
+    "blurb": "",
+    "signature": "",
+    "image": "lycian-way-faralya-descente-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.5275,
+      "lng": 29.1255,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Lycian+Way+Faralya+Butterfly"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "afkule-monastery-viewpoint",
+    "base": "fethiye",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Afkule Monastery (viewpoint)",
+    "blurb": "",
+    "signature": "",
+    "image": "afkule-monastery-viewpoint-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.578,
+      "lng": 29.085,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Afkule+Monastery+Kayakoy"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "fethiye-tuesday-market",
+    "base": "fethiye",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Fethiye Tuesday Market",
+    "blurb": "",
+    "signature": "",
+    "image": "fethiye-tuesday-market-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.628,
+      "lng": 29.115,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Fethiye+Tuesday+Market"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  },
+  {
+    "id": "aeroport-dalaman-dlm",
+    "base": "fethiye",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "name": "Aéroport Dalaman (DLM)",
+    "blurb": "",
+    "signature": "",
+    "image": "aeroport-dalaman-dlm-img",
+    "price": {
+      "range": "",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.7131,
+      "lng": 28.7925,
+      "source": "maps-v1",
+      "verifiedOn": "2026-06-12"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dalaman+Airport+DLM"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-12",
+      "method": "migration-v1"
+    },
+    "onMap": true
+  }
+]

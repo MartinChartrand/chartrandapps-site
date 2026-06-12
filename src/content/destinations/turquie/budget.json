@@ -1,0 +1,81 @@
+{
+  "statCards": [
+    {
+      "value": "~5 900 $",
+      "label": "Total solo, 30 jours, tout inclus"
+    },
+    {
+      "value": "~150 $",
+      "label": "Par jour sur place"
+    },
+    {
+      "value": "~1 400 $",
+      "label": "Vols transatlantiques solo"
+    },
+    {
+      "value": "1 € ≈ 1,50 $",
+      "label": "Taux de référence CAD"
+    }
+  ],
+  "lines": [
+    {
+      "label": "Vols transatlantiques (solo)",
+      "category": "YUL → IST via hub européen (AMS/FRA/CDG) · Retour DLM → YUL via hub · Sans transit USA · Turkish Airlines offre YUL-IST direct 9h30 (alternative)",
+      "amount": "~1 400 $"
+    },
+    {
+      "label": "Vols domestiques + bus inter-bases",
+      "category": "IST → Kayseri (~60 €) · Kayseri → Antalya (~70 €) · Bus Antalya-Kaş (~15 €) · Bus Kaş-Fethiye (~10 €) · Shuttle Fethiye-Dalaman (~15 €)",
+      "amount": "~260 $"
+    },
+    {
+      "label": "Hébergement — 30 nuits solo",
+      "category": "Istanbul 7n (~80 €) · Cappadoce 5n cave hotel (~100 €) · Kaş 8n (~70 €) · Fethiye/Kayaköy/Faralya 10n mix (~80 € moy.)",
+      "amount": "~3 450 $"
+    },
+    {
+      "label": "Transport local (dolmuş, ferries, Istanbulkart)",
+      "category": "Istanbulkart ferries + métro · Dolmuş Kaş-Kalkan-Patara-Demre · Scooter de location à Kaş 3-4 jours",
+      "amount": "~220 $"
+    },
+    {
+      "label": "Nourriture et boissons",
+      "category": "Petit-déj hôtel inclus souvent · Lunch léger street food (5-10 €) · Dîner taverne avec rakı (20-35 €) · ~30 €/jour moyenne",
+      "amount": "~1 350 $"
+    },
+    {
+      "label": "Activités phares",
+      "category": "Montgolfière Cappadoce (280 €) · Plongée Kaş 2-tank (80 €) · Kekova bateau (50 €) · Gulet 12 îles Fethiye (30 €) · Paragliding Babadağ (150 €) · Hammam Istanbul (50 €)",
+      "amount": "~960 $"
+    },
+    {
+      "label": "Sites et musées",
+      "category": "Sainte-Sophie, Topkapı · Göreme Open-Air Museum · Patara, Myra, Xanthos-Letoon · Kayaköy ghost village",
+      "amount": "~120 $"
+    },
+    {
+      "label": "Assurance voyage solo",
+      "category": "Couverture médicale complète, 30 jours, annulation incluse",
+      "amount": "~200 $"
+    },
+    {
+      "label": "Divers (souvenirs, imprévus, eSIM)",
+      "category": "Tahin pekmez, épices, tapis kilim si coup de cœur · eSIM Turkcell (~15 €) · Pourboires",
+      "amount": "~250 $"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Budget serré",
+      "total": "",
+      "desc": "~4 600 $ (pensions/hostels, skip montgolfière ou plongée, moins de restos mid-range)"
+    },
+    {
+      "name": "Budget confort+",
+      "total": "",
+      "desc": "~8 500 $ (cave hotel Museum Hotel, Nur Beach Kaş, Hideaway Faralya, montgolfière comfort, plongée quotidienne)"
+    }
+  ],
+  "advice": "Budget serré : ~4 600 $ (pensions/hostels, skip montgolfière ou plongée, moins de restos mid-range) · Budget confort+ : ~8 500 $ (cave hotel Museum Hotel, Nur Beach Kaş, Hideaway Faralya, montgolfière comfort, plongée quotidienne) · Le levier le plus puissant reste les vols transatlantiques — surveiller les sales YUL-IST Turkish Airlines (souvent 950-1200 $ CAD aller-retour, directs). Pour l'hébergement, négocier les tarifs mensuels directement par email avec les pensions — possible de sauver 20-25%.",
+  "total": "~5 900 $"
+}

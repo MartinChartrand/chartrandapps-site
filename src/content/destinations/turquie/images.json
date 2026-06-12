@@ -1,0 +1,786 @@
+[
+  {
+    "id": "photo-0",
+    "slot": "photo-0",
+    "file": "photo-0.jpg",
+    "alt": "Pont sur le Bosphore au coucher du soleil, silhouettes de mosquées",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1524231757912-21f4fe3a7200",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "98a02b2985f4fa184fb658f6b559a7591c6a1f21058ccb4cbb193e087b0b4d9b",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-1",
+    "slot": "photo-1",
+    "file": "photo-1.jpg",
+    "alt": "Ruelle colorée de Balat, Istanbul",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1541432901042-2d8bd64b4a9b",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "0ebd266f5db5f572b6e689c25c1ec25a4f80a399b747ad4028d87c918d9c7988",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-2",
+    "slot": "photo-2",
+    "file": "photo-2.jpg",
+    "alt": "Mosquée Süleymaniye vue du Bosphore",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1527838832700-5059252407fa",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d2f4fe3efc6e637761c5ddc484b5d96c78ca44cc4b26f7160680d33500236de7",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-3",
+    "slot": "photo-3",
+    "file": "photo-3.jpg",
+    "alt": "Simit et thé turc au petit-déjeuner",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1535567465397-7523840f2ae9",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d36e8dfbdce499a4f3ae357ffae433d4053db7036d3754dc94c2923929afc472",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-4",
+    "slot": "photo-4",
+    "file": "photo-4.jpg",
+    "alt": "Mezze et rakı dans un meyhane stambouliote",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1632158930341-46604b637a0f",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "5fdeaaa56f1409c30122b09952feb05504a7501471b7b4be0c71249f53799e76",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-5",
+    "slot": "photo-5",
+    "file": "photo-5.jpg",
+    "alt": "Chambre d'hôtel boutique avec fenêtre sur ruelle",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1612365228448-4ad44e105dc5",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "3a0ffc686b88df52094ee9511c411158c97f0dc0d720d2d6a574af026f9cef0c",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-6",
+    "slot": "photo-6",
+    "file": "photo-6.jpg",
+    "alt": "Suite boutique au design industriel-ottoman",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1694434029818-0f0dd57939b1",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "452dcaf5b296f56e0fd658d334bae3b01f9988443c495c26b46191cf692421c2",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-7",
+    "slot": "photo-7",
+    "file": "photo-7.jpg",
+    "alt": "Chambre en marbre de Marmara avec vue Corne d'Or",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1603504027221-7c97b2f2d09d",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d4d917a44fc12699b7ec5d822bdcddd709f489d9d85dc41546f5627646b1f5c2",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-8",
+    "slot": "photo-8",
+    "file": "photo-8.jpg",
+    "alt": "Plateau de mezze anatoliens — Çiya",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1622588653715-49647583b064",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "58f636d14d967b72fbb52cf097da0a5f51a5f0687e3b205c1378796bf6004836",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-9",
+    "slot": "photo-9",
+    "file": "photo-9.jpg",
+    "alt": "Sandwich au poisson grillé — street food istanbuliote",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1557912407-a832492b7ef5",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "56287df1537faa9ef28ea81fc5eb05215697c9a1492076e234336c83ca0ba114",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-10",
+    "slot": "photo-10",
+    "file": "photo-10.jpg",
+    "alt": "Boisson fermentée turque dans bol crémeux",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1573810655264-8d1e50f1592d",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "fa09de84cb8abd4eefeb9b58c214c584fd232840e5847531b265727d83cea442",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-11",
+    "slot": "photo-11",
+    "file": "photo-11.jpg",
+    "alt": "Street food stambouliote grillé",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1599487488170-d11ec9c172f0",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9af02d68a673ec94b4b29b6beb8f96e21bdcb9632d59e9a008440bc299414066",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-12",
+    "slot": "photo-12",
+    "file": "photo-12.jpg",
+    "alt": "Dessert turc au sirop et pistache",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1527578054032-8d8f044e013d",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d013189ad3e5b70d881ec40c8223ae980dc5c1a1ecf1bae4c23eb3aec2481627",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-13",
+    "slot": "photo-13",
+    "file": "photo-13.jpg",
+    "alt": "Passage couvert de bouquinistes",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1474932430478-367dbb6832c1",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "2323ca92590242a1e83675b8a040e62a8df3947d627013c22f4f024fab1ec742",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-14",
+    "slot": "photo-14",
+    "file": "photo-14.jpg",
+    "alt": "Marché populaire et étals colorés",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1488459716781-31db52582fe9",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "f83247bab98e2aca8dc6fb5af081ff960f9f87a9e97772ff51f48a3440b78a5a",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-15",
+    "slot": "photo-15",
+    "file": "photo-15.jpg",
+    "alt": "Cheminées de fées de Cappadoce à l'aube, montgolfières",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1641128324972-af3212f0f6bd",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9a24bb0af9af4d8653ca4913c4c9fc89ce9c0f5c4dc235fa85fb06c318accbe9",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-16",
+    "slot": "photo-16",
+    "file": "photo-16.jpg",
+    "alt": "Montgolfières au-dessus de la Cappadoce au lever du soleil",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1568751302450-3d84e00f2348",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "aeeb1ff940724e7ad67ce8e94f267dd1e48d38306cfcc8224da5d4e8c73444f5",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-17",
+    "slot": "photo-17",
+    "file": "photo-17.jpg",
+    "alt": "Intérieur d'un cave hotel taillé dans le tuf",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1669111957528-6d4e78328692",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "3ded23191014edd763a2a4d0757980df6df99b510c3a3d3e26c98e288ae817e1",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-18",
+    "slot": "photo-18",
+    "file": "photo-18.jpg",
+    "alt": "Vallée cappadocienne au coucher du soleil",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1542833278-f4deb3180291",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "dac3041bb251f0f4fcdf9cd90b3d47ff618ec6447f0a2cb89fc8108eaadd87f3",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-19",
+    "slot": "photo-19",
+    "file": "photo-19.jpg",
+    "alt": "Testi kebab et vin rouge d'Anatolie",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1684863926585-a50c68aa6082",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "5f6c88c9dc595a946fae82d0f01242623555cb6012ec775f126588e533add869",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-20",
+    "slot": "photo-20",
+    "file": "photo-20.jpg",
+    "alt": "Chambre taillée dans le tuf avec arches en pierre",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1719821756477-dcb0b6ed0dc9",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "57c3134cb6881d50c32cfe91889305d7afbf833b39d7f565e4a2cb0d22edc1af",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-21",
+    "slot": "photo-21",
+    "file": "photo-21.jpg",
+    "alt": "Terrasse d'un cave hotel avec vue sur les montgolfières",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1693098243367-93320637839e",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "2b50701ce38f678eb89aa4cf727dd6937b09ef60fcce33765ee3c9037f5f0b37",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-22",
+    "slot": "photo-22",
+    "file": "photo-22.jpg",
+    "alt": "Piscine infinie d'un Relais & Châteaux en Cappadoce",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1758561087076-e647b2e2485a",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "4b8252c4176045f981c9af96d99e7ec754bf1f3daa4f44e049da9714f627d2ef",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-23",
+    "slot": "photo-23",
+    "file": "photo-23.jpg",
+    "alt": "Pots d'argile rustiques empilés — testi kebab",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1468531390554-9f62f9767a87",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "f1fbfb8d221e374021daf100194b70943b527d8b5eb4aeb1ece1c4928eef975a",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-24",
+    "slot": "photo-24",
+    "file": "photo-24.jpg",
+    "alt": "Assiette de mantı au yaourt",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1740797936422-c424adccf97f",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "189d1861636fbd61d76844bf3d09f6d96cf19a434499f7909feeb5f7836c0977",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-25",
+    "slot": "photo-25",
+    "file": "photo-25.jpg",
+    "alt": "Village de pierre ottoman",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1756572798425-401c88442dee",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d47f5e0b9bf7b1644a610d8458241fde9b65ccb8ae7883415fc97cba8cb26271",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-26",
+    "slot": "photo-26",
+    "file": "photo-26.jpg",
+    "alt": "Port de Kaş, côte Lycienne, île grecque de Kastellorizo en face",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1506929562872-bb421503ef21",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7043975eb2f2db03f48f0ac755470dda3ec540b0a1dccb6657d2f3233969166d",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-27",
+    "slot": "photo-27",
+    "file": "photo-27.jpg",
+    "alt": "Plage de Kaputaş vue d'en haut",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1519046904884-53103b34b206",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "cbef3b9c7438f9706e1184e642de417000b2e65710c02349988a64148f9af554",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-28",
+    "slot": "photo-28",
+    "file": "photo-28.jpg",
+    "alt": "Ruines de Kekova englouties",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1604999565976-8913ad2ddb7c",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "b5ed162f8379a2b1061bdf0dddc56a8a7b1108ad632136535afa7fa3c8e5c859",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-29",
+    "slot": "photo-29",
+    "file": "photo-29.jpg",
+    "alt": "Bateau traditionnel sur la côte Lycienne",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1558642452-9d2a7deb7f62",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "ce91dd6b202e565311b79acdabb090e8048b5eba6ee8909dd315a58804640188",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-30",
+    "slot": "photo-30",
+    "file": "photo-30.jpg",
+    "alt": "Ruines Lyciennes au coucher du soleil",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1524293568345-75d62c3664f7",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "73a8a2f7a8239955b03c1214a08b90dffea4c41dcf303cb51f09a8e721b726f6",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-31",
+    "slot": "photo-31",
+    "file": "photo-31.jpg",
+    "alt": "Terrasse de pension avec vue mer",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1630410304931-d90e1fe3f918",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "660d5f54e91f858c86d39ffd9d6e0dcc629dd36d8fec16521eeb334fad53b2d4",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-32",
+    "slot": "photo-32",
+    "file": "photo-32.jpg",
+    "alt": "Piscine sur toit avec vue sur île grecque",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1604145195376-e2c8195adf29",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9e9e050c2f9d90b84e21e5601ac977263ed5c8fce7bdd02b7786f9ba56e62b4d",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-33",
+    "slot": "photo-33",
+    "file": "photo-33.jpg",
+    "alt": "Piscine infinity sur falaise au-dessus de l'eau turquoise",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1606141331552-a39fb3230fc3",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d66b7477fe5c34dc84a3fcc22cfae76b3b6cc25d37557f53aeea23f6d3ad8b7e",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-34",
+    "slot": "photo-34",
+    "file": "photo-34.jpg",
+    "alt": "Poisson grillé et salade méditerranéenne",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1764397514707-48308ede7f04",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7951d8b9d2accee45db9c12ccd5d1201fab9e6f5399b3981a25aafe608e3c22d",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-35",
+    "slot": "photo-35",
+    "file": "photo-35.jpg",
+    "alt": "Plateau de poisson entier sur lit de sel",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1640702296640-20dfeee862ad",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "8be658fd42e2e8647ca1c48cdf6a5a3d20a09dfbca52e32c83b7ae5227f120ef",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-36",
+    "slot": "photo-36",
+    "file": "photo-36.jpg",
+    "alt": "Grenade rouge rubis ouverte — nar suyu",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1574709755254-fcd942d09d5a",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "b7c5b2d18c1cac7f61d63a337b5a80625714c90e2b4e082492bdff15a33d8d98",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-37",
+    "slot": "photo-37",
+    "file": "photo-37.jpg",
+    "alt": "Crique turquoise avec pontons de bois",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1575237579976-4d4219f1860f",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9661526e047f3242e22fc6d24e22028a120138363a3c0ad539add836274684f7",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-38",
+    "slot": "photo-38",
+    "file": "photo-38.jpg",
+    "alt": "Ölüdeniz blue lagoon vue aérienne, côte turque",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1596394516093-501ba68a0ba6",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "539fdf8e5718ef8c18c9c49ac148853b5ec184b6e26f1c50cb3221d0268f07c3",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-39",
+    "slot": "photo-39",
+    "file": "photo-39.jpg",
+    "alt": "Ruines du village gréco-turc de Kayaköy",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1432879897648-f9d45b2ec678",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "2c10152d16ba987d351c0377c590cee067a32179b7c8801e7b77e9b72cfce856",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-40",
+    "slot": "photo-40",
+    "file": "photo-40.jpg",
+    "alt": "Gulet traditionnel sur la côte turque",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1756639165220-fc6079680741",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "4aec2d33bb376f9f32052e3ac0c070fdec218665fd54e712d7618593a0f5ad00",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-41",
+    "slot": "photo-41",
+    "file": "photo-41.jpg",
+    "alt": "Pension familiale avec jardin méditerranéen",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1661091106717-05b9403bbeaa",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "8cd42d16e4c8cc7c19da750c5d41e846b4c5fc1593ba19120aee431ac532d0a2",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-42",
+    "slot": "photo-42",
+    "file": "photo-42.jpg",
+    "alt": "Bungalows en pierre au milieu des oliviers",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1578864426752-f1b2900fb1f3",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "5568b8b2442c9f7b6f72db4d775b528f3ebee58c4e920b1fd6cf2072621ae362",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-43",
+    "slot": "photo-43",
+    "file": "photo-43.jpg",
+    "alt": "Terrasse d'hôtel falaise au-dessus de la mer",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1695552866433-994a7750d4f8",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "f47bfb636a7d686f1891ad42776f5df675b981d924fa0cc4e185ca80def6abde",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-44",
+    "slot": "photo-44",
+    "file": "photo-44.jpg",
+    "alt": "BBQ turc sur mangal à la table",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1708388066811-906f2f678a84",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "8b5494e22d40078aa8c44d2b10ed8077bc724ba81d1f2d8953452c106d50f478",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-45",
+    "slot": "photo-45",
+    "file": "photo-45.jpg",
+    "alt": "Jardin méditerranéen avec tables en bois",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1734987052573-0fbe611842ae",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "6337e9eccf53408370fb8a617202b2fb4ce79ef5757d13b6589a65874477a391",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-46",
+    "slot": "photo-46",
+    "file": "photo-46.jpg",
+    "alt": "Mantı turcs servis en soupe au yaourt",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1649240396825-78da8d27d142",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "8a3db15c27433610f45f7a29dae52ddade318db617c1355723d8d21bd0579f34",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-47",
+    "slot": "photo-47",
+    "file": "photo-47.jpg",
+    "alt": "Crique sauvage aux eaux turquoise",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1661285462650-78ad06b5c316",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d6869a14bc47c64565e8627822f612e309841df8ceb24cd7036140920584e131",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-48",
+    "slot": "photo-48",
+    "file": "photo-48.jpg",
+    "alt": "Monastère byzantin en ruine sur falaise",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1629290439638-bca633156414",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7ea0c7cbc273f0bd1d93711f4f809a0b0d8e74a4d72f8ded0eefdfa50d3caac0",
+    "visionChecked": "migration-v1"
+  }
+]
