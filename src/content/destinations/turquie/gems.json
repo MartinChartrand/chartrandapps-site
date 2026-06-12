@@ -10,7 +10,7 @@
         "url": "https://www.google.com/maps/search/Aslihan+Pasaji+Beyoglu+Istanbul"
       }
     ],
-    "image": "photo-13"
+    "image": "photo-6"
   },
   {
     "id": "terrasse-du-buyuk-valide-han-1651",
@@ -36,7 +36,7 @@
         "url": "https://www.google.com/maps/search/Kuzguncuk+Istanbul"
       }
     ],
-    "image": "photo-2"
+    "image": "photo-1"
   },
   {
     "id": "sali-pazar-de-kadkoy-mardi",
@@ -49,7 +49,7 @@
         "url": "https://www.google.com/maps/search/Sali+Pazari+Kadikoy+Istanbul"
       }
     ],
-    "image": "photo-14"
+    "image": "photo-9"
   },
   {
     "id": "soganl-valley-la-jumelle-vide",
@@ -62,7 +62,7 @@
         "url": "https://www.google.com/maps/search/Soganli+Valley+Cappadocia"
       }
     ],
-    "image": "photo-18"
+    "image": "photo-13"
   },
   {
     "id": "panorama-de-kzlcukur",
@@ -75,7 +75,7 @@
         "url": "https://www.google.com/maps/search/Kizilcukur+viewpoint+Cappadocia"
       }
     ],
-    "image": "photo-15"
+    "image": "cappadoce-cover"
   },
   {
     "id": "atelier-firca-seramik-avanos",
@@ -88,7 +88,7 @@
         "url": "https://www.google.com/maps/search/Firca+Seramik+Avanos"
       }
     ],
-    "image": "photo-14"
+    "image": "photo-9"
   },
   {
     "id": "mustafapasa-ex-sinasos",
@@ -101,7 +101,7 @@
         "url": "https://www.google.com/maps/search/Mustafapasa+Cappadocia"
       }
     ],
-    "image": "photo-25"
+    "image": "photo-18"
   },
   {
     "id": "marche-du-vendredi-cuma-pazar",
@@ -114,7 +114,7 @@
         "url": "https://www.google.com/maps/search/Cuma+Pazari+Kas+Friday+market"
       }
     ],
-    "image": "photo-14"
+    "image": "photo-9"
   },
   {
     "id": "limanagz-crique-accessible-bateausentier",
@@ -127,14 +127,14 @@
         "url": "https://www.google.com/maps/search/Limanagzi+Kas"
       }
     ],
-    "image": "photo-37"
+    "image": "photo-25"
   },
   {
     "id": "mavi-magara-la-grotte-bleue-locale",
     "group": "Pépites locales — Kaş",
     "title": "Mavi Mağara — la Grotte Bleue locale",
     "body": "Équivalent turc de la Grotta Azzurra de Capri. Petit bateau local du port (pas les gros tours) — demander Kaptan Mustafa au bout de la jetée Est, 25 € pour 3h avec un pêcheur. Accessible uniquement par la mer, effet bleu électrique quand le soleil tape.",
-    "image": "photo-28"
+    "image": "photo-21"
   },
   {
     "id": "sentier-du-mont-felenk",
@@ -147,7 +147,7 @@
         "url": "https://www.google.com/maps/search/Felenk+Tepesi+Kas"
       }
     ],
-    "image": "photo-25"
+    "image": "photo-18"
   },
   {
     "id": "kabak-bay-kabak-koyu",
@@ -160,7 +160,7 @@
         "url": "https://maps.google.com/maps?q=Kabak+Bay+Turkey"
       }
     ],
-    "image": "photo-47"
+    "image": "photo-33"
   },
   {
     "id": "fethiye-tuesday-market-sal-pazar",
@@ -173,7 +173,7 @@
         "url": "https://maps.google.com/maps?q=Fethiye+Tuesday+Market"
       }
     ],
-    "image": "photo-14"
+    "image": "photo-9"
   },
   {
     "id": "afkule-monastery-viewpoint",
@@ -186,7 +186,7 @@
         "url": "https://maps.google.com/maps?q=Afkule+Monastery+Kayakoy"
       }
     ],
-    "image": "photo-48"
+    "image": "photo-35"
   },
   {
     "id": "lycian-way-faralya-butterfly-valley-descente",
@@ -199,6 +199,6 @@
         "url": "https://maps.google.com/maps?q=Butterfly+Valley+hike+Faralya"
       }
     ],
-    "image": "photo-25"
+    "image": "photo-18"
   }
 ]

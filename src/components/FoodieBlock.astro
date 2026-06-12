@@ -27,10 +27,16 @@ const allImages = import.meta.glob<{ default: ImageMetadata }>(
 );
 
 function getImgSrc(slot: string): string | null {
+  if (!slot) return null;
   const entry = imageManifest.find((img) => img.slot === slot);
-  if (!entry) return null;
+  if (!entry) {
+    console.warn(`[images] ${dest}: FoodieBlock — slot "${slot}" absent du manifest images.json`);
+    return null;
+  }
   const key = `/src/assets/destinations/${dest}/${entry.file}`;
-  return allImages[key]?.default?.src ?? null;
+  const src = allImages[key]?.default?.src ?? null;
+  if (!src) console.warn(`[images] ${dest}: FoodieBlock — fichier "${entry.file}" introuvable (slot "${slot}")`);
+  return src;
 }
 
 function getImgAlt(slot: string): string {

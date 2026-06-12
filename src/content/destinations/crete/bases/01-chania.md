@@ -55,7 +55,7 @@ accomExtras:
     tier: gem
     price: ~95–130 €/nuit
     blurb: 'Bâtiment vénitien de 1400, 7 chambres uniques avec meubles anciens et pierres d''origine. Note 9.8/10 — un musée vivant.'
-    image: photo-9
+    image: accom-3
     links: []
 ---
 

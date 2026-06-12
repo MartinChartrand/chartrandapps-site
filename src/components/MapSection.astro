@@ -2,6 +2,12 @@
 // MapSection.astro — ARCHITECTURE §4 (FR-4)
 // Vanilla: IntersectionObserver + import('leaflet') dynamique, markers depuis POIs onMap:true.
 
+// CSS Leaflet importé ici (frontmatter = bundle GLOBAL, non scopé).
+// JAMAIS via @import dans le <style> du composant : Astro scope alors les sélecteurs
+// ([data-astro-cid-…]) et les panes/tuiles créés par Leaflet au runtime ne matchent plus
+// → position:absolute jamais appliqué → tuiles empilées dans un coin de la carte.
+import 'leaflet/dist/leaflet.css';
+
 interface PoiCoords {
   lat: number;
   lng: number;
@@ -38,7 +44,7 @@ const serialized = mapPois.map((p) => ({
 {mapPois.length > 0 && (
   <div class="map-wrap">
     {label && <span class="map-label">{label}</span>}
-    <div class="map-section reveal" data-map-container data-base={baseSlug}>
+    <div id={`map-${baseSlug}`} class="map-section reveal" data-map-container data-base={baseSlug}>
       <script type="application/json" id={`map-data-${baseSlug}`} set:html={JSON.stringify(serialized)} />
       <div class="map-loading" aria-hidden="true">Chargement de la carte…</div>
     </div>
@@ -96,6 +102,22 @@ const serialized = mapPois.map((p) => ({
             .bindPopup(`<strong>${poi.name}</strong>`)
             .addTo(map);
         });
+
+        // Leaflet fige sa grille de tuiles à l'init — mais le layout bouge encore
+        // (transition .reveal, images lazy au-dessus) : on recale quand la taille
+        // réelle du conteneur change et une fois la page complètement chargée,
+        // sinon les tuiles ne couvrent qu'un coin du conteneur.
+        const recalc = () => {
+          map.invalidateSize();
+          map.setView([avgLat, avgLng], 13);
+        };
+        new ResizeObserver(() => map.invalidateSize()).observe(container);
+        container.addEventListener('transitionend', () => map.invalidateSize(), { once: true });
+        if (document.readyState !== 'complete') {
+          window.addEventListener('load', recalc, { once: true });
+        } else {
+          requestAnimationFrame(recalc);
+        }
       });
     }
 
@@ -115,8 +137,6 @@ const serialized = mapPois.map((p) => ({
 </script>
 
 <style>
-  @import 'leaflet/dist/leaflet.css';
-
   .map-wrap { margin: 32px 0; }
 
   .map-label {

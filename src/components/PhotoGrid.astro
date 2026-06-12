@@ -26,15 +26,21 @@ const allImages = import.meta.glob<{ default: ImageMetadata }>(
   { eager: true }
 );
 
-// Construire la liste des images à afficher
+// Construire la liste des images à afficher — slot non résolu = warning build, pas de silence
 const images = slots
   .map((slot) => {
     const entry = imageManifest.find((img) => img.slot === slot);
-    if (!entry) return null;
-    // Chercher le fichier dans le glob
+    if (!entry) {
+      console.warn(`[images] ${dest}: PhotoGrid — slot "${slot}" absent du manifest images.json`);
+      return null;
+    }
     const key = `/src/assets/destinations/${dest}/${entry.file}`;
     const mod = allImages[key];
-    return mod ? { ...entry, src: mod.default } : null;
+    if (!mod) {
+      console.warn(`[images] ${dest}: PhotoGrid — fichier "${entry.file}" introuvable dans src/assets (slot "${slot}")`);
+      return null;
+    }
+    return { ...entry, src: mod.default };
   })
   .filter(Boolean) as Array<ImageEntry & { src: ImageMetadata }>;
 ---

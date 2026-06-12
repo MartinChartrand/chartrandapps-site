@@ -411,7 +411,7 @@ function processAccoms(content, basePois, photoSlotByPhotoId) {
   function slotFor(imgUrl) {
     if (!imgUrl) return '';
     const idM = imgUrl.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
-    return (idM && photoSlotByPhotoId.get(idM[1])) || '';
+    return (idM && pickSlot(photoSlotByPhotoId.get(idM[1]), ['accom'])) || '';
   }
 
   // Pattern A
@@ -434,6 +434,7 @@ function processAccoms(content, basePois, photoSlotByPhotoId) {
       if (blurb) poi.blurb = blurb;
       if (price) poi.price.range = price;
       if (tier) poi.tier = tier;
+      if (imgM) poi.image = slotFor(imgM[1]) || null;
       items.push(poi.id);
     } else {
       extras.push({ name, tier, price, blurb, image: slotFor(imgM ? imgM[1] : ''), links: [] });
@@ -458,6 +459,7 @@ function processAccoms(content, basePois, photoSlotByPhotoId) {
       if (blurb && !poi.blurb) poi.blurb = blurb;
       if (price && !poi.price.range) poi.price.range = price;
       if (tier && !poi.tier) poi.tier = tier;
+      if (bm[1] && !poi.image) poi.image = slotFor(bm[1]) || null;
       if (!items.includes(poi.id)) items.push(poi.id);
     } else {
       extras.push({ name, tier, price, blurb, image: slotFor(bm[1] || ''), links: [] });
@@ -550,7 +552,7 @@ function parseEditorialBlocks(content, kind, photoSlotByPhotoId, usedIds) {
   function slotOf(imgUrl) {
     if (!imgUrl) return '';
     const idM = imgUrl.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
-    return (idM && photoSlotByPhotoId.get(idM[1])) || '';
+    return (idM && pickSlot(photoSlotByPhotoId.get(idM[1]), ['foodie', 'food', 'resto'])) || '';
   }
 
   function pushItem(group, title, descHtml, imgUrl) {
@@ -829,96 +831,129 @@ function parsePratique(html) {
   return items;
 }
 
-/** Extrait toutes les images Unsplash */
-function parseImages(html, slug) {
-  const images = [];
-  const seen = new Set();
-  let idx = 0;
+/** Choisit le slot d'un photoId parmi ses usages, en préférant certains rôles. */
+function pickSlot(usages, preferredRoles = []) {
+  if (!usages || usages.length === 0) return '';
+  for (const r of preferredRoles) {
+    const hit = usages.find((u) => u.role === r);
+    if (hit) return hit.slot;
+  }
+  return usages[0].slot;
+}
 
-  // FIX 1e: Extraire l'image hero depuis le style background-image du <header class="hero">
-  // Pattern: style="...url('https://images.unsplash.com/photo-XXXX?...')"
-  const heroHeaderRx = /class="hero"[^>]*style="[^"]*url\('(https:\/\/images\.unsplash\.com\/[^']+)'\)/;
-  const heroHeaderM = html.match(heroHeaderRx);
-  if (heroHeaderM) {
-    const url = heroHeaderM[1];
-    const photoIdM = url.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
-    const photoId = photoIdM ? photoIdM[1] : 'hero-unknown';
-    if (!seen.has(photoId)) {
-      seen.add(photoId);
-      images.push({
-        id: 'hero',
-        slot: 'hero',
-        file: 'hero.jpg',
-        alt: `Vue emblématique — ${slug}`,
-        layout: null,
-        claims: 'atmosphere',
-        credit: {
-          source: 'unsplash',
-          photoId,
-          photographer: '',
-          license: 'unsplash-standard'
-        },
-        _url: url
-      });
-      idx++;
-    }
+/**
+ * Extrait toutes les images Unsplash — une entrée par USAGE (slot).
+ * Le même photoId peut apparaître dans plusieurs slots (réutilisation v1, fréquente en Turquie :
+ * 82 <img> pour 50 photoIds uniques) : les usages partagent file/sha256 — dédup au niveau
+ * FICHIER, pas au niveau slot. L'ancienne dédup par photoId perdait les usages réutilisés.
+ * `prevByPhotoId` (manifest existant) réutilise les fichiers déjà téléchargés — zéro réseau.
+ * Chaque usage est associé à son chapitre (`base`) par position dans le HTML, et typé (`role`).
+ */
+function parseImages(html, slug, prevByPhotoId = new Map()) {
+  const images = [];
+  const fileByPhotoId = new Map(); // photoId → {file, sha256?, visionChecked?} — le 1er usage fixe le fichier
+
+  // Parser les attributs indépendamment de leur ordre dans le tag
+  // (l'ancienne regex séquentielle src→alt→class ratait class= : [^>]* greedy l'avalait toujours)
+  function attr(tag, name) {
+    const m = tag.match(new RegExp(`\\b${name}="([^"]*)"`));
+    return m ? m[1] : '';
   }
 
-  const imgRx = /<img[^>]+src="(https:\/\/images\.unsplash\.com\/[^"]+)"[^>]*alt="([^"]*)"[^>]*(class="([^"]*)")?[^>]*>/g;
-  let m;
-  while ((m = imgRx.exec(html)) !== null) {
-    const url = m[1];
-    const alt = m[2];
-    const cls = m[4] || '';
-
-    // Extraire le photo ID depuis l'URL
-    const photoIdM = url.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
-    const photoId = photoIdM ? photoIdM[1] : `img-${idx}`;
-
-    if (seen.has(photoId)) continue;
-    seen.add(photoId);
-
-    // Générer un slot basé sur la classe
-    let slotBase;
-    if (cls.includes('accom-img')) slotBase = 'accom';
-    else if (cls.includes('resto-img')) slotBase = 'resto';
-    else if (cls.includes('foodie-item-img')) slotBase = 'foodie';
-    else if (cls.includes('food-img')) slotBase = 'food';
-    else slotBase = 'photo';
-
-    const slot = `${slotBase}-${idx}`;
-    const layout = cls.includes('photo-wide') ? 'wide' : null;
-
-    images.push({
+  function entry({ slot, base, role, alt, layout, photoId, url }) {
+    let f = fileByPhotoId.get(photoId);
+    if (!f) {
+      const prev = prevByPhotoId.get(photoId);
+      f = prev
+        ? { file: prev.file, sha256: prev.sha256, visionChecked: prev.visionChecked }
+        : { file: `${slot}.jpg` };
+      fileByPhotoId.set(photoId, f);
+    }
+    return {
       id: slot,
       slot,
-      file: `${slot}.jpg`,
+      base,
+      role,
+      file: f.file,
       alt,
       layout,
       claims: 'atmosphere',
-      credit: {
-        source: 'unsplash',
-        photoId,
-        photographer: '',
-        license: 'unsplash-standard'
-      },
-      _url: url  // kept for fetch-images.mjs, removed from final if needed
-    });
-
-    idx++;
+      credit: { source: 'unsplash', photoId, photographer: '', license: 'unsplash-standard' },
+      ...(f.sha256 ? { sha256: f.sha256 } : { _url: url }), // _url consommé par fetch-images.mjs
+      ...(f.visionChecked ? { visionChecked: f.visionChecked } : {}),
+    };
   }
 
-  // Nommer correctement : cover de chapitre
-  const coverRx = /class="chapter-cover"[\s\S]*?<img\s[^>]*src="(https:\/\/images\.unsplash\.com\/[^"]+)"[^>]*alt="([^"]*)"/g;
-  let cm;
-  idx = 1;
-  // Reset pour faire les covers
-  const coverMap = {};
-  while ((cm = coverRx.exec(html)) !== null) {
-    const url = cm[1];
+  // Hero — background-image du <header class="hero">
+  const heroHeaderM = html.match(/class="hero"[^>]*style="[^"]*url\('(https:\/\/images\.unsplash\.com\/[^']+)'\)/);
+  if (heroHeaderM) {
+    const url = heroHeaderM[1];
     const photoIdM = url.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
-    const photoId = photoIdM ? photoIdM[1] : null;
-    if (photoId) coverMap[photoId] = idx++;
+    images.push(entry({
+      slot: 'hero', base: null, role: 'hero',
+      alt: `Vue emblématique — ${slug}`, layout: null,
+      photoId: photoIdM ? photoIdM[1] : 'hero-unknown', url,
+    }));
+  }
+
+  // Bornes des chapitres (mêmes frontières que parseChapters) → association usage → base
+  const chapterRanges = [];
+  const chapterRx = /<div\s+id="([^"]+)"\s+class="tab-section[^"]*">([\s\S]*?)(?=<div\s+id="[^"]+"\s+class="tab-section[^"]*">|<\/main>)/g;
+  let cr;
+  while ((cr = chapterRx.exec(html)) !== null) {
+    if (!cr[2].includes('chapter-title')) continue;
+    chapterRanges.push({ id: cr[1], start: cr.index, end: cr.index + cr[0].length });
+  }
+  const baseAt = (i) => chapterRanges.find((r) => i >= r.start && i < r.end)?.id ?? null;
+
+  // L'<img> qui suit immédiatement l'ouverture d'un .chapter-cover = cover du chapitre
+  const coverImgIdx = new Set();
+  const coverOpenRx = /class="chapter-cover"[^>]*>/g;
+  let co;
+  while ((co = coverOpenRx.exec(html)) !== null) {
+    const j = html.indexOf('<img', co.index);
+    if (j !== -1 && j - co.index < 600) coverImgIdx.add(j);
+  }
+
+  const counters = { photo: 0, accom: 0, resto: 0, foodie: 0, food: 0 };
+  const usedSlots = new Set(['hero']);
+  const tagRx = /<img\b[^>]*>/g;
+  let m;
+  while ((m = tagRx.exec(html)) !== null) {
+    const tag = m[0];
+    const url = attr(tag, 'src');
+    if (!url.startsWith('https://images.unsplash.com/')) continue;
+    const alt = attr(tag, 'alt');
+    const cls = attr(tag, 'class');
+    const photoIdM = url.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
+    const photoId = photoIdM ? photoIdM[1] : `img-${m.index}`;
+    const base = baseAt(m.index);
+
+    let role;
+    if (coverImgIdx.has(m.index)) role = 'cover';
+    else if (cls.includes('accom-img')) role = 'accom';
+    else if (cls.includes('resto-img')) role = 'resto';
+    else if (cls.includes('foodie-item-img')) role = 'foodie';
+    else if (cls.includes('food-img')) role = 'food';
+    else role = 'photo';
+
+    let slot;
+    if (role === 'cover' && base) {
+      slot = `${base}-cover`;
+    } else {
+      const key = role === 'cover' ? 'photo' : role;
+      slot = `${key}-${++counters[key]}`;
+    }
+    let unique = slot;
+    let n = 2;
+    while (usedSlots.has(unique)) unique = `${slot}-${n++}`;
+    usedSlots.add(unique);
+
+    images.push(entry({
+      slot: unique, base, role, alt,
+      layout: cls.includes('photo-wide') ? 'wide' : cls.includes('photo-tall') ? 'tall' : null,
+      photoId, url,
+    }));
   }
 
   return images;
@@ -1003,7 +1038,8 @@ async function main() {
         name: marker.name,
         blurb: '',
         signature: '',
-        image: `${id}-img`,
+        image: null, // rempli par processAccoms si la carte v1 avait une image
+
         price: { range: '', currency: 'EUR', asOf: '2026-06' },
         coords: {
           lat: marker.lat,
@@ -1034,9 +1070,32 @@ async function main() {
     }
   }
 
-  // ── 2. Images (AVANT les bases : map photoId → slot pour accoms + dishes/gems)
-  const images = parseImages(html, slug);
-  const photoSlotByPhotoId = new Map(images.map(img => [img.credit.photoId, img.slot]));
+  // ── 2. Images (AVANT les bases : map photoId → usages pour accoms + dishes/gems)
+  // Manifest existant (si présent) : réutilise file/sha256/visionChecked par photoId — zéro re-téléchargement
+  const prevManifestPath = join(outdir, 'images.json');
+  const prevByPhotoId = new Map();
+  if (existsSync(prevManifestPath)) {
+    try {
+      for (const img of JSON.parse(readFileSync(prevManifestPath, 'utf8'))) {
+        if (img.credit?.photoId && img.sha256 && !prevByPhotoId.has(img.credit.photoId)) {
+          prevByPhotoId.set(img.credit.photoId, {
+            file: img.file,
+            sha256: img.sha256,
+            visionChecked: img.visionChecked,
+          });
+        }
+      }
+    } catch {
+      // manifest illisible → on repart à neuf, fetch-images re-téléchargera
+    }
+  }
+  const images = parseImages(html, slug, prevByPhotoId);
+  const photoSlotByPhotoId = new Map();
+  for (const img of images) {
+    const arr = photoSlotByPhotoId.get(img.credit.photoId) || [];
+    arr.push({ slot: img.slot, role: img.role });
+    photoSlotByPhotoId.set(img.credit.photoId, arr);
+  }
 
   // ── 3. Parse destination.json ──────────────────────────────────────────────
   const destination = parseDestination(html, slug);

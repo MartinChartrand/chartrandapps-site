@@ -6,7 +6,12 @@
     "alt": "Vue aérienne de Testville",
     "layout": null,
     "claims": "atmosphere",
-    "credit": { "source": "unsplash", "photoId": "test1", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "credit": {
+      "source": "unsplash",
+      "photoId": "test1",
+      "photographer": "Test Photographer",
+      "license": "unsplash-standard"
+    },
     "sha256": "testville-cover-sha",
     "visionChecked": "2026-06-11"
   },
@@ -14,10 +19,15 @@
     "id": "auberge-test-img",
     "slot": "auberge-test-img",
     "file": "auberge-test-img.jpg",
-    "alt": "Chambre de l'Auberge du Test",
+    "alt": "Chambre d’hébergement — fixture de test",
     "layout": null,
     "claims": "atmosphere",
-    "credit": { "source": "unsplash", "photoId": "test2", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "credit": {
+      "source": "unsplash",
+      "photoId": "test2",
+      "photographer": "Test Photographer",
+      "license": "unsplash-standard"
+    },
     "sha256": "auberge-test-img-sha",
     "visionChecked": "2026-06-11"
   },
@@ -28,7 +38,12 @@
     "alt": "Salle du Resto du Test",
     "layout": null,
     "claims": "atmosphere",
-    "credit": { "source": "unsplash", "photoId": "test3", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "credit": {
+      "source": "unsplash",
+      "photoId": "test3",
+      "photographer": "Test Photographer",
+      "license": "unsplash-standard"
+    },
     "sha256": "resto-test-img-sha",
     "visionChecked": "2026-06-11"
   },
@@ -39,7 +54,12 @@
     "alt": "Panorama depuis Testville",
     "layout": null,
     "claims": "atmosphere",
-    "credit": { "source": "unsplash", "photoId": "test4", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "credit": {
+      "source": "unsplash",
+      "photoId": "test4",
+      "photographer": "Test Photographer",
+      "license": "unsplash-standard"
+    },
     "sha256": "sight-test-img-sha",
     "visionChecked": "2026-06-11"
   },
@@ -50,7 +70,12 @@
     "alt": "Le plat emblématique du test",
     "layout": null,
     "claims": "atmosphere",
-    "credit": { "source": "unsplash", "photoId": "test5", "photographer": "Test Photographer", "license": "unsplash-standard" },
+    "credit": {
+      "source": "unsplash",
+      "photoId": "test5",
+      "photographer": "Test Photographer",
+      "license": "unsplash-standard"
+    },
     "sha256": "plat-test-img-sha",
     "visionChecked": "2026-06-11"
   }

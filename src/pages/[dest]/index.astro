@@ -76,15 +76,27 @@ const pratiqueEntry = allPratique.find((p) => p.id.startsWith(`${dest}/`));
 
 const d = destination.data;
 
-// Image de fond du hero — résolution du slot via le manifest (même pattern que PhotoGrid)
-const heroAssets = import.meta.glob<{ default: ImageMetadata }>(
+// Résolution slot → URL d'asset buildée (hero + covers de chapitre).
+// Échec = warning au build, pas de silence : un slot référencé qui ne résout pas est un bug de contenu.
+const pageAssets = import.meta.glob<{ default: ImageMetadata }>(
   '/src/assets/**/*.{jpg,jpeg,png,webp}',
   { eager: true }
 );
-const heroEntry = imageManifest.find((i) => i.slot === d.hero.image);
-const heroImageUrl = heroEntry
-  ? heroAssets[`/src/assets/destinations/${dest}/${heroEntry.file}`]?.default.src
-  : undefined;
+function resolveSlot(slot: string | null | undefined): string | undefined {
+  if (!slot) return undefined;
+  const entry = imageManifest.find((i) => i.slot === slot);
+  if (!entry) {
+    console.warn(`[images] ${dest}: slot "${slot}" absent du manifest images.json`);
+    return undefined;
+  }
+  const mod = pageAssets[`/src/assets/destinations/${dest}/${entry.file}`];
+  if (!mod) {
+    console.warn(`[images] ${dest}: fichier "${entry.file}" introuvable dans src/assets (slot "${slot}")`);
+    return undefined;
+  }
+  return mod.default.src;
+}
+const heroImageUrl = resolveSlot(d.hero.image);
 
 const totalNights =
   d.departure && d.arrival
@@ -168,6 +180,7 @@ const gemGroups = groupsOf(gems);
             totalBases={bases.length}
             dates={bd.dates}
             nights={bd.nights}
+            imageUrl={resolveSlot(bd.cover)}
           />
 
           <Pullquote text={bd.pullquote} />
@@ -219,10 +232,10 @@ const gemGroups = groupsOf(gems);
               {/* InfoColumns — composition ordonnée, ordre PRÉSERVÉ */}
               <InfoColumns infoBlocks={bd.infoBlocks} pois={basePois} />
 
-              {/* PhotoGrid (images du manifest associées à cette base) */}
+              {/* PhotoGrid — photos de grille de CETTE base (champ base du manifest ; cover/accom/food rendus ailleurs) */}
               <PhotoGrid
                 slots={imageManifest
-                  .filter((img) => img.slot.includes(bd.slug) || img.slot === bd.cover)
+                  .filter((img) => img.base === bd.slug && img.role === 'photo')
                   .map((img) => img.slot)}
                 imageManifest={imageManifest}
                 dest={dest}

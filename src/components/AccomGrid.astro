@@ -91,11 +91,16 @@ const allImages = import.meta.glob<{ default: ImageMetadata }>(
   { eager: true }
 );
 
-function getImgSrc(slot: string): string | null {
+function getImgSrc(slot: string | null): string | null {
+  if (!slot) return null; // POI sans image v1 — légitime
   const entry = imageManifest.find((img) => img.slot === slot);
-  if (!entry) return null;
+  if (!entry) {
+    console.warn(`[images] ${dest}: AccomGrid — slot "${slot}" absent du manifest images.json`);
+    return null;
+  }
   const key = `/src/assets/destinations/${dest}/${entry.file}`;
   const mod = allImages[key];
+  if (!mod) console.warn(`[images] ${dest}: AccomGrid — fichier "${entry.file}" introuvable (slot "${slot}")`);
   return mod?.default?.src ?? null;
 }
 

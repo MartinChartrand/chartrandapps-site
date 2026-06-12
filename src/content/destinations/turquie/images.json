@@ -2,6 +2,8 @@
   {
     "id": "hero",
     "slot": "hero",
+    "base": null,
+    "role": "hero",
     "file": "hero.jpg",
     "alt": "Vue emblématique — turquie",
     "layout": null,
@@ -16,8 +18,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-1",
-    "slot": "photo-1",
+    "id": "istanbul-cover",
+    "slot": "istanbul-cover",
+    "base": "istanbul",
+    "role": "cover",
     "file": "photo-1.jpg",
     "alt": "Pont sur le Bosphore au coucher du soleil, silhouettes de mosquées",
     "layout": null,
@@ -32,8 +36,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-2",
-    "slot": "photo-2",
+    "id": "photo-1",
+    "slot": "photo-1",
+    "base": "istanbul",
+    "role": "photo",
     "file": "photo-2.jpg",
     "alt": "Ruelle colorée de Balat, Istanbul",
     "layout": null,
@@ -48,8 +54,28 @@
     "visionChecked": "migration-v1"
   },
   {
+    "id": "photo-2",
+    "slot": "photo-2",
+    "base": "istanbul",
+    "role": "photo",
+    "file": "hero.jpg",
+    "alt": "Mosquée Süleymaniye vue du Bosphore",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1527838832700-5059252407fa",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "155074db9d155820a35428686cff521a4dfa72c494c915842bff742c5590915f",
+    "visionChecked": "migration-v1"
+  },
+  {
     "id": "photo-3",
     "slot": "photo-3",
+    "base": "istanbul",
+    "role": "photo",
     "file": "photo-3.jpg",
     "alt": "Simit et thé turc au petit-déjeuner",
     "layout": null,
@@ -66,6 +92,26 @@
   {
     "id": "photo-4",
     "slot": "photo-4",
+    "base": "istanbul",
+    "role": "photo",
+    "file": "photo-1.jpg",
+    "alt": "Bosphore au crépuscule depuis un ferry",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1524231757912-21f4fe3a7200",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "98a02b2985f4fa184fb658f6b559a7591c6a1f21058ccb4cbb193e087b0b4d9b",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-5",
+    "slot": "photo-5",
+    "base": "istanbul",
+    "role": "photo",
     "file": "photo-4.jpg",
     "alt": "Mezze et rakı dans un meyhane stambouliote",
     "layout": null,
@@ -80,8 +126,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-5",
-    "slot": "photo-5",
+    "id": "accom-1",
+    "slot": "accom-1",
+    "base": "istanbul",
+    "role": "accom",
     "file": "photo-5.jpg",
     "alt": "Chambre d'hôtel boutique avec fenêtre sur ruelle",
     "layout": null,
@@ -96,8 +144,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-6",
-    "slot": "photo-6",
+    "id": "accom-2",
+    "slot": "accom-2",
+    "base": "istanbul",
+    "role": "accom",
     "file": "photo-6.jpg",
     "alt": "Suite boutique au design industriel-ottoman",
     "layout": null,
@@ -112,8 +162,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-7",
-    "slot": "photo-7",
+    "id": "accom-3",
+    "slot": "accom-3",
+    "base": "istanbul",
+    "role": "accom",
     "file": "photo-7.jpg",
     "alt": "Chambre en marbre de Marmara avec vue Corne d'Or",
     "layout": null,
@@ -128,8 +180,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-8",
-    "slot": "photo-8",
+    "id": "resto-1",
+    "slot": "resto-1",
+    "base": "istanbul",
+    "role": "resto",
     "file": "photo-8.jpg",
     "alt": "Plateau de mezze anatoliens — Çiya",
     "layout": null,
@@ -144,8 +198,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-9",
-    "slot": "photo-9",
+    "id": "resto-2",
+    "slot": "resto-2",
+    "base": "istanbul",
+    "role": "resto",
+    "file": "photo-4.jpg",
+    "alt": "Mezze, rakı et grillades dans un meyhane",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1632158930341-46604b637a0f",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "5fdeaaa56f1409c30122b09952feb05504a7501471b7b4be0c71249f53799e76",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "resto-3",
+    "slot": "resto-3",
+    "base": "istanbul",
+    "role": "resto",
     "file": "photo-9.jpg",
     "alt": "Sandwich au poisson grillé — street food istanbuliote",
     "layout": null,
@@ -160,8 +234,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-10",
-    "slot": "photo-10",
+    "id": "foodie-1",
+    "slot": "foodie-1",
+    "base": "istanbul",
+    "role": "foodie",
+    "file": "photo-3.jpg",
+    "alt": "Simit et thé turc au petit-déjeuner",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1535567465397-7523840f2ae9",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d36e8dfbdce499a4f3ae357ffae433d4053db7036d3754dc94c2923929afc472",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "foodie-2",
+    "slot": "foodie-2",
+    "base": "istanbul",
+    "role": "foodie",
     "file": "photo-10.jpg",
     "alt": "Boisson fermentée turque dans bol crémeux",
     "layout": null,
@@ -176,8 +270,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-11",
-    "slot": "photo-11",
+    "id": "foodie-3",
+    "slot": "foodie-3",
+    "base": "istanbul",
+    "role": "foodie",
     "file": "photo-11.jpg",
     "alt": "Street food stambouliote grillé",
     "layout": null,
@@ -192,8 +288,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-12",
-    "slot": "photo-12",
+    "id": "foodie-4",
+    "slot": "foodie-4",
+    "base": "istanbul",
+    "role": "foodie",
+    "file": "photo-9.jpg",
+    "alt": "Sandwich poisson grillé — street food",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1557912407-a832492b7ef5",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "56287df1537faa9ef28ea81fc5eb05215697c9a1492076e234336c83ca0ba114",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "foodie-5",
+    "slot": "foodie-5",
+    "base": "istanbul",
+    "role": "foodie",
     "file": "photo-12.jpg",
     "alt": "Dessert turc au sirop et pistache",
     "layout": null,
@@ -208,8 +324,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-13",
-    "slot": "photo-13",
+    "id": "photo-6",
+    "slot": "photo-6",
+    "base": "istanbul",
+    "role": "photo",
     "file": "photo-13.jpg",
     "alt": "Passage couvert de bouquinistes",
     "layout": null,
@@ -224,8 +342,46 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-14",
-    "slot": "photo-14",
+    "id": "photo-7",
+    "slot": "photo-7",
+    "base": "istanbul",
+    "role": "photo",
+    "file": "hero.jpg",
+    "alt": "Vue panoramique sur les toits d'Istanbul",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1527838832700-5059252407fa",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "155074db9d155820a35428686cff521a4dfa72c494c915842bff742c5590915f",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-8",
+    "slot": "photo-8",
+    "base": "istanbul",
+    "role": "photo",
+    "file": "photo-2.jpg",
+    "alt": "Maisons ottomanes en bois colorées",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1541432901042-2d8bd64b4a9b",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "0ebd266f5db5f572b6e689c25c1ec25a4f80a399b747ad4028d87c918d9c7988",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-9",
+    "slot": "photo-9",
+    "base": "istanbul",
+    "role": "photo",
     "file": "photo-14.jpg",
     "alt": "Marché populaire et étals colorés",
     "layout": null,
@@ -240,8 +396,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-15",
-    "slot": "photo-15",
+    "id": "cappadoce-cover",
+    "slot": "cappadoce-cover",
+    "base": "cappadoce",
+    "role": "cover",
     "file": "photo-15.jpg",
     "alt": "Cheminées de fées de Cappadoce à l'aube, montgolfières",
     "layout": null,
@@ -256,8 +414,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-16",
-    "slot": "photo-16",
+    "id": "photo-10",
+    "slot": "photo-10",
+    "base": "cappadoce",
+    "role": "photo",
     "file": "photo-16.jpg",
     "alt": "Montgolfières au-dessus de la Cappadoce au lever du soleil",
     "layout": null,
@@ -272,8 +432,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-17",
-    "slot": "photo-17",
+    "id": "photo-11",
+    "slot": "photo-11",
+    "base": "cappadoce",
+    "role": "photo",
+    "file": "photo-15.jpg",
+    "alt": "Cheminées de fées et tuf volcanique",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1641128324972-af3212f0f6bd",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9a24bb0af9af4d8653ca4913c4c9fc89ce9c0f5c4dc235fa85fb06c318accbe9",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-12",
+    "slot": "photo-12",
+    "base": "cappadoce",
+    "role": "photo",
     "file": "photo-17.jpg",
     "alt": "Intérieur d'un cave hotel taillé dans le tuf",
     "layout": null,
@@ -288,8 +468,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-18",
-    "slot": "photo-18",
+    "id": "photo-13",
+    "slot": "photo-13",
+    "base": "cappadoce",
+    "role": "photo",
     "file": "photo-18.jpg",
     "alt": "Vallée cappadocienne au coucher du soleil",
     "layout": null,
@@ -304,8 +486,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-19",
-    "slot": "photo-19",
+    "id": "photo-14",
+    "slot": "photo-14",
+    "base": "cappadoce",
+    "role": "photo",
     "file": "photo-19.jpg",
     "alt": "Testi kebab et vin rouge d'Anatolie",
     "layout": null,
@@ -320,8 +504,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-20",
-    "slot": "photo-20",
+    "id": "accom-4",
+    "slot": "accom-4",
+    "base": "cappadoce",
+    "role": "accom",
     "file": "photo-20.jpg",
     "alt": "Chambre taillée dans le tuf avec arches en pierre",
     "layout": null,
@@ -336,8 +522,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-21",
-    "slot": "photo-21",
+    "id": "accom-5",
+    "slot": "accom-5",
+    "base": "cappadoce",
+    "role": "accom",
     "file": "photo-21.jpg",
     "alt": "Terrasse d'un cave hotel avec vue sur les montgolfières",
     "layout": null,
@@ -352,8 +540,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-22",
-    "slot": "photo-22",
+    "id": "accom-6",
+    "slot": "accom-6",
+    "base": "cappadoce",
+    "role": "accom",
     "file": "photo-22.jpg",
     "alt": "Piscine infinie d'un Relais & Châteaux en Cappadoce",
     "layout": null,
@@ -368,8 +558,64 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-23",
-    "slot": "photo-23",
+    "id": "resto-4",
+    "slot": "resto-4",
+    "base": "cappadoce",
+    "role": "resto",
+    "file": "photo-8.jpg",
+    "alt": "Plateau de mezze turcs",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1622588653715-49647583b064",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "58f636d14d967b72fbb52cf097da0a5f51a5f0687e3b205c1378796bf6004836",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "resto-5",
+    "slot": "resto-5",
+    "base": "cappadoce",
+    "role": "resto",
+    "file": "photo-19.jpg",
+    "alt": "Testi kebab dans pot d'argile",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1684863926585-a50c68aa6082",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "5f6c88c9dc595a946fae82d0f01242623555cb6012ec775f126588e533add869",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "food-1",
+    "slot": "food-1",
+    "base": "cappadoce",
+    "role": "food",
+    "file": "photo-8.jpg",
+    "alt": "Verres de vin rouge turc et fromage",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1622588653715-49647583b064",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "58f636d14d967b72fbb52cf097da0a5f51a5f0687e3b205c1378796bf6004836",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "foodie-6",
+    "slot": "foodie-6",
+    "base": "cappadoce",
+    "role": "foodie",
     "file": "photo-23.jpg",
     "alt": "Pots d'argile rustiques empilés — testi kebab",
     "layout": null,
@@ -384,8 +630,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-24",
-    "slot": "photo-24",
+    "id": "foodie-7",
+    "slot": "foodie-7",
+    "base": "cappadoce",
+    "role": "foodie",
     "file": "photo-24.jpg",
     "alt": "Assiette de mantı au yaourt",
     "layout": null,
@@ -400,8 +648,100 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-25",
-    "slot": "photo-25",
+    "id": "foodie-8",
+    "slot": "foodie-8",
+    "base": "cappadoce",
+    "role": "foodie",
+    "file": "photo-8.jpg",
+    "alt": "Dégustation de vins turcs",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1622588653715-49647583b064",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "58f636d14d967b72fbb52cf097da0a5f51a5f0687e3b205c1378796bf6004836",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "foodie-9",
+    "slot": "foodie-9",
+    "base": "cappadoce",
+    "role": "foodie",
+    "file": "photo-12.jpg",
+    "alt": "Petit-déjeuner turc traditionnel",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1527578054032-8d8f044e013d",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d013189ad3e5b70d881ec40c8223ae980dc5c1a1ecf1bae4c23eb3aec2481627",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-15",
+    "slot": "photo-15",
+    "base": "cappadoce",
+    "role": "photo",
+    "file": "photo-18.jpg",
+    "alt": "Vallée cappadocienne au tuf volcanique",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1542833278-f4deb3180291",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "dac3041bb251f0f4fcdf9cd90b3d47ff618ec6447f0a2cb89fc8108eaadd87f3",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-16",
+    "slot": "photo-16",
+    "base": "cappadoce",
+    "role": "photo",
+    "file": "photo-15.jpg",
+    "alt": "Cheminées de fées au coucher du soleil",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1641128324972-af3212f0f6bd",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9a24bb0af9af4d8653ca4913c4c9fc89ce9c0f5c4dc235fa85fb06c318accbe9",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-17",
+    "slot": "photo-17",
+    "base": "cappadoce",
+    "role": "photo",
+    "file": "photo-14.jpg",
+    "alt": "Potier à la roue, atelier traditionnel",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1488459716781-31db52582fe9",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "f83247bab98e2aca8dc6fb5af081ff960f9f87a9e97772ff51f48a3440b78a5a",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-18",
+    "slot": "photo-18",
+    "base": "cappadoce",
+    "role": "photo",
     "file": "photo-25.jpg",
     "alt": "Village de pierre ottoman",
     "layout": null,
@@ -416,8 +756,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-26",
-    "slot": "photo-26",
+    "id": "kas-cover",
+    "slot": "kas-cover",
+    "base": "kas",
+    "role": "cover",
     "file": "photo-26.jpg",
     "alt": "Port de Kaş, côte Lycienne, île grecque de Kastellorizo en face",
     "layout": null,
@@ -432,8 +774,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-27",
-    "slot": "photo-27",
+    "id": "photo-19",
+    "slot": "photo-19",
+    "base": "kas",
+    "role": "photo",
+    "file": "photo-26.jpg",
+    "alt": "Port de Kaş et façades blanches",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1506929562872-bb421503ef21",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7043975eb2f2db03f48f0ac755470dda3ec540b0a1dccb6657d2f3233969166d",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-20",
+    "slot": "photo-20",
+    "base": "kas",
+    "role": "photo",
     "file": "photo-27.jpg",
     "alt": "Plage de Kaputaş vue d'en haut",
     "layout": null,
@@ -448,8 +810,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-28",
-    "slot": "photo-28",
+    "id": "photo-21",
+    "slot": "photo-21",
+    "base": "kas",
+    "role": "photo",
     "file": "photo-28.jpg",
     "alt": "Ruines de Kekova englouties",
     "layout": null,
@@ -464,8 +828,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-29",
-    "slot": "photo-29",
+    "id": "photo-22",
+    "slot": "photo-22",
+    "base": "kas",
+    "role": "photo",
     "file": "photo-29.jpg",
     "alt": "Bateau traditionnel sur la côte Lycienne",
     "layout": null,
@@ -480,8 +846,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-30",
-    "slot": "photo-30",
+    "id": "photo-23",
+    "slot": "photo-23",
+    "base": "kas",
+    "role": "photo",
     "file": "photo-30.jpg",
     "alt": "Ruines Lyciennes au coucher du soleil",
     "layout": null,
@@ -496,8 +864,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-31",
-    "slot": "photo-31",
+    "id": "accom-7",
+    "slot": "accom-7",
+    "base": "kas",
+    "role": "accom",
     "file": "photo-31.jpg",
     "alt": "Terrasse de pension avec vue mer",
     "layout": null,
@@ -512,8 +882,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-32",
-    "slot": "photo-32",
+    "id": "accom-8",
+    "slot": "accom-8",
+    "base": "kas",
+    "role": "accom",
     "file": "photo-32.jpg",
     "alt": "Piscine sur toit avec vue sur île grecque",
     "layout": null,
@@ -528,8 +900,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-33",
-    "slot": "photo-33",
+    "id": "accom-9",
+    "slot": "accom-9",
+    "base": "kas",
+    "role": "accom",
     "file": "photo-33.jpg",
     "alt": "Piscine infinity sur falaise au-dessus de l'eau turquoise",
     "layout": null,
@@ -544,8 +918,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-34",
-    "slot": "photo-34",
+    "id": "resto-6",
+    "slot": "resto-6",
+    "base": "kas",
+    "role": "resto",
     "file": "photo-34.jpg",
     "alt": "Poisson grillé et salade méditerranéenne",
     "layout": null,
@@ -560,8 +936,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-35",
-    "slot": "photo-35",
+    "id": "resto-7",
+    "slot": "resto-7",
+    "base": "kas",
+    "role": "resto",
     "file": "photo-35.jpg",
     "alt": "Plateau de poisson entier sur lit de sel",
     "layout": null,
@@ -576,8 +954,46 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-36",
-    "slot": "photo-36",
+    "id": "foodie-10",
+    "slot": "foodie-10",
+    "base": "kas",
+    "role": "foodie",
+    "file": "photo-8.jpg",
+    "alt": "Plateau de mezze turcs colorés",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1622588653715-49647583b064",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "58f636d14d967b72fbb52cf097da0a5f51a5f0687e3b205c1378796bf6004836",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "foodie-11",
+    "slot": "foodie-11",
+    "base": "kas",
+    "role": "foodie",
+    "file": "photo-11.jpg",
+    "alt": "Boulettes de boulgour épicées en wrap laitue",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1599487488170-d11ec9c172f0",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9af02d68a673ec94b4b29b6beb8f96e21bdcb9632d59e9a008440bc299414066",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "foodie-12",
+    "slot": "foodie-12",
+    "base": "kas",
+    "role": "foodie",
     "file": "photo-36.jpg",
     "alt": "Grenade rouge rubis ouverte — nar suyu",
     "layout": null,
@@ -592,8 +1008,46 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-37",
-    "slot": "photo-37",
+    "id": "foodie-13",
+    "slot": "foodie-13",
+    "base": "kas",
+    "role": "foodie",
+    "file": "photo-9.jpg",
+    "alt": "Sandwich au poisson grillé — street food turc",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1557912407-a832492b7ef5",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "56287df1537faa9ef28ea81fc5eb05215697c9a1492076e234336c83ca0ba114",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-24",
+    "slot": "photo-24",
+    "base": "kas",
+    "role": "photo",
+    "file": "photo-14.jpg",
+    "alt": "Marché fermier et étals colorés",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1488459716781-31db52582fe9",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "f83247bab98e2aca8dc6fb5af081ff960f9f87a9e97772ff51f48a3440b78a5a",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-25",
+    "slot": "photo-25",
+    "base": "kas",
+    "role": "photo",
     "file": "photo-37.jpg",
     "alt": "Crique turquoise avec pontons de bois",
     "layout": null,
@@ -608,8 +1062,46 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-38",
-    "slot": "photo-38",
+    "id": "photo-26",
+    "slot": "photo-26",
+    "base": "kas",
+    "role": "photo",
+    "file": "photo-28.jpg",
+    "alt": "Grotte marine aux reflets bleus",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1604999565976-8913ad2ddb7c",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "b5ed162f8379a2b1061bdf0dddc56a8a7b1108ad632136535afa7fa3c8e5c859",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-27",
+    "slot": "photo-27",
+    "base": "kas",
+    "role": "photo",
+    "file": "photo-25.jpg",
+    "alt": "Vue panoramique sur la mer au lever du soleil",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1756572798425-401c88442dee",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d47f5e0b9bf7b1644a610d8458241fde9b65ccb8ae7883415fc97cba8cb26271",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "fethiye-cover",
+    "slot": "fethiye-cover",
+    "base": "fethiye",
+    "role": "cover",
     "file": "photo-38.jpg",
     "alt": "Ölüdeniz blue lagoon vue aérienne, côte turque",
     "layout": null,
@@ -624,8 +1116,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-39",
-    "slot": "photo-39",
+    "id": "photo-28",
+    "slot": "photo-28",
+    "base": "fethiye",
+    "role": "photo",
+    "file": "photo-38.jpg",
+    "alt": "Lagon bleu d'Ölüdeniz vue aérienne",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1596394516093-501ba68a0ba6",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "539fdf8e5718ef8c18c9c49ac148853b5ec184b6e26f1c50cb3221d0268f07c3",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-29",
+    "slot": "photo-29",
+    "base": "fethiye",
+    "role": "photo",
     "file": "photo-39.jpg",
     "alt": "Ruines du village gréco-turc de Kayaköy",
     "layout": null,
@@ -640,8 +1152,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-40",
-    "slot": "photo-40",
+    "id": "photo-30",
+    "slot": "photo-30",
+    "base": "fethiye",
+    "role": "photo",
     "file": "photo-40.jpg",
     "alt": "Gulet traditionnel sur la côte turque",
     "layout": null,
@@ -656,8 +1170,46 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-41",
-    "slot": "photo-41",
+    "id": "photo-31",
+    "slot": "photo-31",
+    "base": "fethiye",
+    "role": "photo",
+    "file": "photo-40.jpg",
+    "alt": "Paragliding au-dessus du Babadağ",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1756639165220-fc6079680741",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "4aec2d33bb376f9f32052e3ac0c070fdec218665fd54e712d7618593a0f5ad00",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-32",
+    "slot": "photo-32",
+    "base": "fethiye",
+    "role": "photo",
+    "file": "photo-9.jpg",
+    "alt": "Fish market de Fethiye — poisson grillé",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1557912407-a832492b7ef5",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "56287df1537faa9ef28ea81fc5eb05215697c9a1492076e234336c83ca0ba114",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "accom-10",
+    "slot": "accom-10",
+    "base": "fethiye",
+    "role": "accom",
     "file": "photo-41.jpg",
     "alt": "Pension familiale avec jardin méditerranéen",
     "layout": null,
@@ -672,8 +1224,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-42",
-    "slot": "photo-42",
+    "id": "accom-11",
+    "slot": "accom-11",
+    "base": "fethiye",
+    "role": "accom",
     "file": "photo-42.jpg",
     "alt": "Bungalows en pierre au milieu des oliviers",
     "layout": null,
@@ -688,8 +1242,10 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-43",
-    "slot": "photo-43",
+    "id": "accom-12",
+    "slot": "accom-12",
+    "base": "fethiye",
+    "role": "accom",
     "file": "photo-43.jpg",
     "alt": "Terrasse d'hôtel falaise au-dessus de la mer",
     "layout": null,
@@ -704,8 +1260,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-44",
-    "slot": "photo-44",
+    "id": "resto-8",
+    "slot": "resto-8",
+    "base": "fethiye",
+    "role": "resto",
+    "file": "photo-9.jpg",
+    "alt": "Fish market de Fethiye — poisson grillé",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1557912407-a832492b7ef5",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "56287df1537faa9ef28ea81fc5eb05215697c9a1492076e234336c83ca0ba114",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "resto-9",
+    "slot": "resto-9",
+    "base": "fethiye",
+    "role": "resto",
     "file": "photo-44.jpg",
     "alt": "BBQ turc sur mangal à la table",
     "layout": null,
@@ -720,8 +1296,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-45",
-    "slot": "photo-45",
+    "id": "resto-10",
+    "slot": "resto-10",
+    "base": "fethiye",
+    "role": "resto",
+    "file": "photo-4.jpg",
+    "alt": "Meyhane turc avec tables sous la vigne",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1632158930341-46604b637a0f",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "5fdeaaa56f1409c30122b09952feb05504a7501471b7b4be0c71249f53799e76",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "resto-11",
+    "slot": "resto-11",
+    "base": "fethiye",
+    "role": "resto",
     "file": "photo-45.jpg",
     "alt": "Jardin méditerranéen avec tables en bois",
     "layout": null,
@@ -736,8 +1332,46 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-46",
-    "slot": "photo-46",
+    "id": "foodie-14",
+    "slot": "foodie-14",
+    "base": "fethiye",
+    "role": "foodie",
+    "file": "photo-12.jpg",
+    "alt": "Petit-déjeuner turc avec pekmez et fromage",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1527578054032-8d8f044e013d",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d013189ad3e5b70d881ec40c8223ae980dc5c1a1ecf1bae4c23eb3aec2481627",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "foodie-15",
+    "slot": "foodie-15",
+    "base": "fethiye",
+    "role": "foodie",
+    "file": "photo-9.jpg",
+    "alt": "Poisson grillé entier au fish market",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1557912407-a832492b7ef5",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "56287df1537faa9ef28ea81fc5eb05215697c9a1492076e234336c83ca0ba114",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "foodie-16",
+    "slot": "foodie-16",
+    "base": "fethiye",
+    "role": "foodie",
     "file": "photo-46.jpg",
     "alt": "Mantı turcs servis en soupe au yaourt",
     "layout": null,
@@ -752,8 +1386,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-47",
-    "slot": "photo-47",
+    "id": "foodie-17",
+    "slot": "foodie-17",
+    "base": "fethiye",
+    "role": "foodie",
+    "file": "photo-11.jpg",
+    "alt": "Boulettes épicées en wrap laitue",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1599487488170-d11ec9c172f0",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9af02d68a673ec94b4b29b6beb8f96e21bdcb9632d59e9a008440bc299414066",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-33",
+    "slot": "photo-33",
+    "base": "fethiye",
+    "role": "photo",
     "file": "photo-47.jpg",
     "alt": "Crique sauvage aux eaux turquoise",
     "layout": null,
@@ -768,8 +1422,28 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-48",
-    "slot": "photo-48",
+    "id": "photo-34",
+    "slot": "photo-34",
+    "base": "fethiye",
+    "role": "photo",
+    "file": "photo-14.jpg",
+    "alt": "Marché turc géant et étals colorés",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1488459716781-31db52582fe9",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "f83247bab98e2aca8dc6fb5af081ff960f9f87a9e97772ff51f48a3440b78a5a",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-35",
+    "slot": "photo-35",
+    "base": "fethiye",
+    "role": "photo",
     "file": "photo-48.jpg",
     "alt": "Monastère byzantin en ruine sur falaise",
     "layout": null,
@@ -781,6 +1455,24 @@
       "license": "unsplash-standard"
     },
     "sha256": "7ea0c7cbc273f0bd1d93711f4f809a0b0d8e74a4d72f8ded0eefdfa50d3caac0",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-36",
+    "slot": "photo-36",
+    "base": "fethiye",
+    "role": "photo",
+    "file": "photo-25.jpg",
+    "alt": "Descente vers un canyon turquoise",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1756572798425-401c88442dee",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d47f5e0b9bf7b1644a610d8458241fde9b65ccb8ae7883415fc97cba8cb26271",
     "visionChecked": "migration-v1"
   }
 ]

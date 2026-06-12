@@ -10,7 +10,7 @@
         "url": "https://www.google.com/maps/search/Splantzia+Square+Chania+Crete"
       }
     ],
-    "image": "photo-18"
+    "image": "photo-6"
   },
   {
     "id": "colline-du-prophete-elie-profiti-ilia",
@@ -23,7 +23,7 @@
         "url": "https://www.google.com/maps/search/Prophet+Elijah+Hill+Chania+Crete"
       }
     ],
-    "image": "photo-19"
+    "image": "photo-7"
   },
   {
     "id": "plage-de-nea-chora",
@@ -36,14 +36,14 @@
         "url": "https://www.google.com/maps/search/Nea+Chora+Beach+Chania"
       }
     ],
-    "image": "photo-20"
+    "image": "photo-8"
   },
   {
     "id": "port-venitien-a-5h30-du-matin",
     "group": "Pépites locales — Chania",
     "title": "Port vénitien à 5h30 du matin",
     "body": "Le phare égyptien, les façades colorées, les bateaux de pêche — sans un seul touriste. La meilleure photo de Chania se prend à l'aube.",
-    "image": "photo-21"
+    "image": "photo-9"
   },
   {
     "id": "sentier-e4-vers-glyka-nera-au-lever-du-soleil",
@@ -56,7 +56,7 @@
         "url": "https://www.alltrails.com/trail/greece/crete/glyka-nera-beach-timios-stavros-chapel-loutro"
       }
     ],
-    "image": "photo-37"
+    "image": "photo-15"
   },
   {
     "id": "old-phoenix-baie-de-finix",
@@ -69,14 +69,14 @@
         "url": "https://www.old-phoenix.com/"
       }
     ],
-    "image": "photo-38"
+    "image": "photo-16"
   },
   {
     "id": "la-promenade-du-soir-19h20h",
     "group": "Pépites locales — Loutro",
     "title": "La promenade du soir, 19h–20h",
     "body": "Quand le dernier ferry est parti. Les chats sortent, les lumières s'allument sur la baie, les propriétaires des tavernas s'assoient avec un raki. Le vrai Loutro ne commence qu'à cette heure-là.",
-    "image": "photo-39"
+    "image": "photo-17"
   },
   {
     "id": "argilos-beach-xerokambos-spa-naturel",
@@ -89,14 +89,14 @@
         "url": "https://www.google.com/maps/search/Argilos+Beach+Xerokambos+Crete"
       }
     ],
-    "image": "photo-54"
+    "image": "photo-23"
   },
   {
     "id": "psili-ammos-la-plage-cachee-derriere-vai",
     "group": "Pépites locales — Sitia",
     "title": "Psili Ammos — la plage cachée derrière Vaï",
     "body": "Sentier par-dessus le promontoire depuis le parking de Vaï. Plage déserte sans aucune installation. Apporter eau et nourriture. Le contraste avec Vaï est saisissant.",
-    "image": "photo-55"
+    "image": "photo-24"
   },
   {
     "id": "gorge-de-zakros-gorge-des-morts",
@@ -109,14 +109,14 @@
         "url": "https://www.google.com/maps/search/Zakros+Gorge+Dead+Crete"
       }
     ],
-    "image": "photo-56"
+    "image": "photo-25"
   },
   {
     "id": "palekastro-le-village-da-cote",
     "group": "Pépites locales — Sitia",
     "title": "Palekastro — le village d'à côté",
     "body": "1 300 habitants, aucun tourisme de masse. Musée folklorique passionné, accès aux sites archéologiques, porte d'entrée vers Vaï sans les bus. Authenticité totale.",
-    "image": "photo-57"
+    "image": "photo-26"
   },
   {
     "id": "preveli-monastere",
@@ -129,7 +129,7 @@
         "url": "https://maps.google.com/maps?q=Preveli+Monastery+Crete"
       }
     ],
-    "image": "photo-76"
+    "image": "photo-32"
   },
   {
     "id": "minaret-clocher",
@@ -142,7 +142,7 @@
         "url": "https://maps.google.com/maps?q=Neratze+Mosque+Rethymno"
       }
     ],
-    "image": "photo-77"
+    "image": "photo-33"
   },
   {
     "id": "fortezza-au-coucher-du-soleil",
@@ -155,7 +155,7 @@
         "url": "https://maps.google.com/maps?q=Fortezza+Rethymno"
       }
     ],
-    "image": "photo-78"
+    "image": "photo-34"
   },
   {
     "id": "plage-de-korakas-au-matin",
@@ -168,6 +168,6 @@
         "url": "https://maps.google.com/maps?q=Korakas+Beach+Plakias"
       }
     ],
-    "image": "photo-79"
+    "image": "photo-35"
   }
 ]

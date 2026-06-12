@@ -124,7 +124,7 @@ export const poiSchema = z
     name: z.string(),
     blurb: z.string(),
     signature: z.string().optional(),
-    image: z.string(),
+    image: z.string().nullable(), // slot du manifest images, ou null si le v1 n'avait pas d'image pour ce POI
     price: priceSchema,
     coords: coordsSchema.optional(),
     links: z
@@ -183,8 +183,13 @@ export const budgetSchema = z.object({
 });
 
 // §3.6 images.json — manifest ; sha256 = unicité GLOBALE par contenu
+// Une entrée par USAGE (slot) — plusieurs slots peuvent partager le même file/sha256
+// (réutilisation v1, allowlistée dans image-reuse.allow.json).
+export const IMAGE_ROLES = ['hero', 'cover', 'photo', 'accom', 'resto', 'foodie', 'food'];
 export const imageSchema = z.object({
   slot: z.string(),
+  base: z.string().nullable().default(null), // slug du chapitre v1 qui contient cet usage (null = hero/hors-chapitre)
+  role: z.enum(IMAGE_ROLES).default('photo'),
   file: z.string(),
   alt: z.string(),
   layout: z.enum(['wide', 'tall']).nullable().default(null),

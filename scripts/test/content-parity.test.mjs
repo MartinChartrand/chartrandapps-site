@@ -52,3 +52,48 @@ for (const dest of DESTINATIONS) {
     );
   });
 }
+
+// Parité IMAGES — leçon du checkpoint 2026-06-12 : la parité texte ne voit pas les <img>.
+// La dédup par photoId de l'ancien extract perdait les usages réutilisés (turquie : 82 <img>
+// v1 pour 50 photoIds uniques → 49 entrées manifest → 34 rendues). On compte donc les
+// <img> RENDUES dans le dist vs la fixture v1, plus le hero et les covers de chapitre
+// (rendus en background-image, invisibles au compte des <img>).
+const MIN_IMG_RATIO = 0.95;
+
+for (const dest of DESTINATIONS) {
+  test(`parité images rendues ≥ ${MIN_IMG_RATIO} — ${dest}`, (t) => {
+    const builtPath = join(DIST, dest, 'index.html');
+    if (!existsSync(builtPath)) {
+      t.skip(`dist/${dest}/index.html absent — destination non buildée`);
+      return;
+    }
+    const built = readFileSync(builtPath, 'utf-8');
+    const fixture = readFileSync(join(FIXTURES, dest, 'index.html'), 'utf-8');
+
+    // v1 contient des <img src=""> morts — on ne compte que les images avec une vraie source
+    const countImgs = (html) => (html.match(/<img\b[^>]*src="[^"]/g) || []).length;
+    const builtCount = countImgs(built);
+    const fixtureCount = countImgs(fixture);
+    const ratio = builtCount / fixtureCount;
+    assert.ok(
+      ratio >= MIN_IMG_RATIO,
+      `Images rendues ${dest}: ${builtCount} vs ${fixtureCount} dans la fixture v1 (ratio ${ratio.toFixed(3)} < ${MIN_IMG_RATIO})`
+    );
+
+    // hero : background-image résolu (le bug « slot jamais câblé » rendait un hero sans image)
+    assert.match(
+      built,
+      /class="hero"[^>]*style="background-image:[^"]*url\(/,
+      `Hero ${dest}: pas de background-image résolu`
+    );
+
+    // chaque chapter-cover doit avoir son image de fond (slot <base>-cover résolu)
+    const fixtureCovers = (fixture.match(/class="chapter-cover"/g) || []).length;
+    const builtCovers = (built.match(/<div class="chapter-cover"[^>]*style="background-image[^"]*url\(/g) || []).length;
+    assert.equal(
+      builtCovers,
+      fixtureCovers,
+      `Covers ${dest}: ${builtCovers} avec image rendues vs ${fixtureCovers} dans la fixture v1`
+    );
+  });
+}
