@@ -1,5 +1,7 @@
 # Toolchain épinglé (ARCHITECTURE.md §2, décision verrouillée #5).
-# Node 22 LTS + npm épinglés : le lockfile cross-platform rote quand npm change de version.
+# Node 22 LTS + npm épinglés en versions EXACTES : le lockfile cross-platform rote quand npm
+# change de version (bug optionalDependencies natives). npm 11.10.1 = version qui a généré le
+# package-lock.json commité — la garder fige le lockfile.
 [tools]
-node = "22"
-npm = "11"
+node = "22.13.0"
+npm = "11.10.1"
