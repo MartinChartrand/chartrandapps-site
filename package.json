@@ -9,6 +9,11 @@
     "preview": "astro preview",
     "test": "node --test --test-concurrency=1 'scripts/test/**/*.test.mjs'",
     "validate:geo": "node scripts/validate-geo.mjs",
+    "validate:images": "node scripts/validate-images.mjs",
+    "validate:links": "node scripts/validate-links.mjs",
+    "lint:orphans": "node scripts/lint-orphans.mjs",
+    "validate:fast": "astro build && node scripts/validate-geo.mjs && node scripts/validate-images.mjs && node scripts/lint-orphans.mjs",
+    "validate:full": "npm run validate:fast && node scripts/validate-links.mjs && node scripts/validate-geo.mjs --network",
     "make:landmask": "node scripts/geo/make-landmask.mjs"
   },
   "dependencies": {
