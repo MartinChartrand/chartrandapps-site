@@ -626,6 +626,15 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
   document.querySelectorAll<HTMLElement>('[data-mode]').forEach((el) => {
     if (el.tagName === 'BUTTON') el.addEventListener('click', () => setMode(el.dataset.mode!));
   });
+
+  // Hauteur réelle de la topbar (varie sur iPhone si le titre wrap) → la mini-carte
+  // du carnet se colle exactement dessous, sans fente où le texte serait visible.
+  const topbar = document.querySelector<HTMLElement>('.topbar');
+  function syncTopbarHeight() {
+    if (topbar) document.documentElement.style.setProperty('--topbar-h', `${topbar.offsetHeight}px`);
+  }
+  syncTopbarHeight();
+  window.addEventListener('resize', syncTopbarHeight, { passive: true });
   // Usage répété : on rouvre dans le dernier mode utilisé (le hash explicite gagne).
   let storedMode: string | null = null;
   try {
@@ -722,11 +731,33 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     // Activation quand la CARTE DE TEXTE entre dans la bande centrale — pas le
     // conteneur .beat (90svh) : en scroll rapide la caméra volait vers le beat
     // suivant pendant que le texte affiché était encore le précédent (vérifié pinchtab).
+    // Mobile : la carte de texte occupe le bas de l'écran — on décale la cible du
+    // flyTo vers le bas pour que le marker + son étiquette atterrissent dans le
+    // HAUT visible, au-dessus de la carte (feedback iPhone : « les cartes cachent
+    // le fan out »). Bounds : padding bas asymétrique, même raison.
+    const mobile = window.matchMedia('(max-width: 640px)').matches;
+
     document.querySelectorAll<HTMLElement>('.scrolly-map').forEach((section) => {
       const mapEl = section.querySelector<HTMLElement>('.scene-map');
       if (!mapEl) return;
       const { map, focusTargets, fitOpen, openBounds } = buildMap(mapEl);
       const flyOpts = { duration: reduced ? 0 : 1.6 };
+
+      function flyPoint(lat: number, lng: number, zoom: number) {
+        let center: any = [lat, lng];
+        if (mobile) {
+          const px = map.project([lat, lng], zoom).add([0, map.getSize().y * 0.18] as any);
+          center = map.unproject(px, zoom);
+        }
+        reduced ? map.setView(center, zoom) : map.flyTo(center, zoom, flyOpts);
+      }
+      function flyBounds(b: ReturnType<typeof L.latLngBounds>, base: number) {
+        const pad = mobile
+          ? { paddingTopLeft: [30, 70] as any, paddingBottomRight: [30, Math.round(map.getSize().y * 0.38)] as any }
+          : { padding: [base, base] as any };
+        reduced ? map.fitBounds(b, pad) : map.flyToBounds(b, { ...pad, ...flyOpts });
+      }
+
       const beatObs = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -735,12 +766,11 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
             focusTargets((el.dataset.targets ?? '').split(',').filter(Boolean));
             if (el.dataset.fly) {
               const [lat, lng, zoom] = el.dataset.fly.split(',').map(Number);
-              reduced ? map.setView([lat, lng], zoom) : map.flyTo([lat, lng], zoom, flyOpts);
+              flyPoint(lat, lng, zoom);
             } else if (el.dataset.bounds) {
-              const b = L.latLngBounds(parseBounds(el.dataset.bounds));
-              reduced ? map.fitBounds(b, { padding: [60, 60] }) : map.flyToBounds(b, { padding: [60, 60], ...flyOpts });
+              flyBounds(L.latLngBounds(parseBounds(el.dataset.bounds)), 60);
             } else {
-              reduced ? fitOpen() : map.flyToBounds(L.latLngBounds(openBounds), { padding: [40, 40], ...flyOpts });
+              flyBounds(L.latLngBounds(openBounds), 40);
             }
           });
         },
@@ -794,6 +824,13 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     background: color-mix(in oklch, var(--deep) 88%, transparent);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+  }
+  /* En carnet, la barre devient opaque : rien ne doit transparaître sous les
+     éléments fixes (feedback iPhone). L'épisode garde le verre fumé. */
+  #proto[data-view='carnet'] .topbar {
+    background: var(--deep);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
   .topbar-inner {
     display: flex;
@@ -1093,9 +1130,12 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     .carnet-container { display: block; }
     .carnet-aside {
       position: sticky;
-      top: 47px; /* sous la topbar */
+      top: var(--topbar-h, 49px); /* hauteur réelle mesurée — pas de fente */
       z-index: 5;
       margin: 0 -16px 16px;
+      background: var(--bg); /* bandeau opaque : le texte qui scrolle dessous est invisible */
+      padding-bottom: 6px;
+      box-shadow: 0 8px 14px -10px rgba(26, 42, 58, 0.35);
     }
     .carnet-map {
       position: static;
@@ -1196,8 +1236,20 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
   :global(.map-tip::before) { display: none; }
 
   @media (max-width: 640px) {
-    .beat { padding: 0 12px 10vh; }
-    .beat-card { max-width: 100%; padding: 16px 18px; }
+    /* Compaction mobile : la carte de texte doit laisser le haut de l'écran à la
+       carte Leaflet (feedback iPhone — elle masquait le fan-out). */
+    .beat { padding: 0 12px 5vh; }
+    .beat-card { max-width: 100%; padding: 12px 14px; }
+    .beat-body { font-size: 13.5px; line-height: 1.55; }
+    .beat-kicker { margin-bottom: 5px; }
+    .beat-thumb {
+      width: calc(100% + 28px);
+      margin: -12px -14px 10px;
+      height: 84px;
+    }
+    .pill-row { margin-top: 8px; gap: 6px; }
+    .pill { min-height: 30px; font-size: 11px; padding: 4px 11px; }
+    .beat-card-title { padding: 24px 20px; }
     .topbar-title { font-size: 10px; }
   }
 </style>
