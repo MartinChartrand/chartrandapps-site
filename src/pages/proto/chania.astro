@@ -787,7 +787,8 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     function initCarnetMap() {
       if (carnetReady) return;
       const el = document.getElementById('carnet-map');
-      if (!el || el.offsetParent === null) return; // toujours caché
+      // offsetParent est null pour un élément fixed → on teste le MODE, pas le layout
+      if (!el || proto.dataset.view !== 'carnet') return;
       carnetReady = true;
       const { map, focusTargets, coordsById } = buildMap(el);
       const rowObs = new IntersectionObserver(
@@ -1127,22 +1128,30 @@ function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
     border: 1px solid var(--border);
   }
   @media (max-width: 900px) {
-    .carnet-container { display: block; }
+    /* iOS Safari + sticky + viewport dynamique = carte qui flotte (vu sur iPhone).
+       FIXED : la carte est soudée sous la bande Épisode/Carnet, la liste passe
+       dessous sans jamais transparaître. */
+    .carnet-container { display: block; padding-top: 0; }
     .carnet-aside {
-      position: sticky;
-      top: var(--topbar-h, 49px); /* hauteur réelle mesurée — pas de fente */
-      z-index: 5;
-      margin: 0 -16px 16px;
-      background: var(--bg); /* bandeau opaque : le texte qui scrolle dessous est invisible */
-      padding-bottom: 6px;
-      box-shadow: 0 8px 14px -10px rgba(26, 42, 58, 0.35);
+      position: fixed;
+      top: var(--topbar-h, 49px);
+      left: 0;
+      right: 0;
+      z-index: 50;
+      margin: 0;
+      background: var(--bg);
+      box-shadow: 0 8px 14px -10px rgba(26, 42, 58, 0.45);
     }
     .carnet-map {
       position: static;
-      height: 160px;
+      height: 150px;
       border-radius: 0;
       border-left: none;
       border-right: none;
+      border-top: none;
+    }
+    .carnet-main {
+      padding-top: calc(var(--topbar-h, 49px) + 164px);
     }
   }
   .carnet-head { margin-bottom: 28px; }
