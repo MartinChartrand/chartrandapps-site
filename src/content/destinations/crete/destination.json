@@ -2,7 +2,7 @@
   "slug": "crete",
   "heroTitle": {
     "main": "Crète",
-    "em": "septembre 2027"
+    "em": "septembre"
   },
   "heroSub": "Un mois dans le sud de l'île",
   "subtitle": "Un mois dans le sud de l'île",
@@ -12,14 +12,14 @@
     "label": "Voyage en duo"
   },
   "arrival": {
-    "date": "",
-    "airport": "",
-    "city": ""
+    "date": "2027-09-05",
+    "airport": "CHQ",
+    "city": "Chania"
   },
   "departure": {
-    "date": "",
-    "airport": "",
-    "city": ""
+    "date": "2027-10-05",
+    "airport": "HER",
+    "city": "Héraklion"
   },
   "theme": {
     "favicon": "🏝️",

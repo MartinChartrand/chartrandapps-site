@@ -7,11 +7,11 @@ nights: 8
 dates: 17–24 septembre
 focus: Petite ville blanche sur la côte Lycienne, amphithéâtre antique en plein centre, pas de resorts all-inclusive. Le Loutro turc — perle côtière intime. Eau à 25°C.
 subtitle: Petite ville blanche sur la côte Lycienne, amphithéâtre antique en plein centre, pas de resorts all-inclusive. Le Loutro turc — perle côtière intime. Eau à 25°C.
-summary: ""
-pullquote: Huit nuits à Kaş, c'est long exprès. C'est la pièce maîtresse de la côte Lycienne — une ville où on s'installe, où on apprivoise le rythme, où on devient le vieux qui commande toujours la même daurade chez Bi Lokma.
+summary: ''
+pullquote: 'Huit nuits à Kaş, c''est long exprès. C''est la pièce maîtresse de la côte Lycienne — une ville où on s''installe, où on apprivoise le rythme, où on devient le vieux qui commande toujours la même daurade chez Bi Lokma.'
 cover: kas-cover
 tagBlock:
-  label: Température de l'eau
+  label: 'Température de l''eau'
   tags:
     -
       text: 24–26°C mi-septembre

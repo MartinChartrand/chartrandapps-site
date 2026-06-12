@@ -5,10 +5,10 @@ title: Cappadoce
 kicker: le paysage lunaire
 nights: 5
 dates: 12–16 septembre
-focus: Paysage lunaire, cave hotels dans le tuf, vignobles à mille deux cents mètres. Base à Ürgüp plutôt que Göreme — plus local, restos d'adultes, vignes à dix minutes.
-subtitle: Paysage lunaire, cave hotels dans le tuf, vignobles à mille deux cents mètres. Base à Ürgüp plutôt que Göreme — plus local, restos d'adultes, vignes à dix minutes.
-summary: ""
-pullquote: Cinq nuits en Cappadoce, c'est assez. L'endroit est spectaculaire, unique au monde, mais court — une fois qu'on a vu le soleil se lever sur les cheminées depuis une nacelle, marché trois vallées et bu le vin volcanique d'Ürgüp, le voyage doit continuer.
+focus: 'Paysage lunaire, cave hotels dans le tuf, vignobles à mille deux cents mètres. Base à Ürgüp plutôt que Göreme — plus local, restos d''adultes, vignes à dix minutes.'
+subtitle: 'Paysage lunaire, cave hotels dans le tuf, vignobles à mille deux cents mètres. Base à Ürgüp plutôt que Göreme — plus local, restos d''adultes, vignes à dix minutes.'
+summary: ''
+pullquote: 'Cinq nuits en Cappadoce, c''est assez. L''endroit est spectaculaire, unique au monde, mais court — une fois qu''on a vu le soleil se lever sur les cheminées depuis une nacelle, marché trois vallées et bu le vin volcanique d''Ürgüp, le voyage doit continuer.'
 cover: cappadoce-cover
 access:
   body: 'Vol Istanbul (IST ou SAW) → Kayseri (ASR) — 1h15, 12-15 vols/jour (Turkish Airlines, Pegasus, AJet), 40–90 €. Shuttle ASR → Ürgüp : 75 km, 1h, ~15 € (Helios Transfer ou Cappadocia Transport) ou taxi privé ~50 €. Option moins pratique : vol direct Nevşehir NAV (40 km d''Ürgüp) mais 3-4 vols/jour seulement. Turkish Airlines Pegasus'

@@ -246,7 +246,9 @@ test('EXT-12: pratique.json Crète — au moins 5 items', () => {
   try {
     runExtract(CRETE_HTML, dir);
     const pratique = JSON.parse(readFileSync(join(dir, 'pratique.json'), 'utf8'));
-    assert.ok(pratique.length >= 5, `Expected ≥5 pratique items, got ${pratique.length}`);
+    // pratique est maintenant {groups: [{label, items:[]}]} pour conformité au schéma
+    const itemCount = Array.isArray(pratique) ? pratique.length : (pratique.groups?.[0]?.items?.length ?? 0);
+    assert.ok(itemCount >= 5, `Expected ≥5 pratique items, got ${itemCount}`);
   } finally {
     cleanup();
   }

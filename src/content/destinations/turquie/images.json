@@ -1,8 +1,24 @@
 [
   {
-    "id": "photo-0",
-    "slot": "photo-0",
-    "file": "photo-0.jpg",
+    "id": "hero",
+    "slot": "hero",
+    "file": "hero.jpg",
+    "alt": "Vue emblématique — turquie",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1527838832700-5059252407fa",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "155074db9d155820a35428686cff521a4dfa72c494c915842bff742c5590915f",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-1",
+    "slot": "photo-1",
+    "file": "photo-1.jpg",
     "alt": "Pont sur le Bosphore au coucher du soleil, silhouettes de mosquées",
     "layout": null,
     "claims": "atmosphere",
@@ -16,9 +32,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-1",
-    "slot": "photo-1",
-    "file": "photo-1.jpg",
+    "id": "photo-2",
+    "slot": "photo-2",
+    "file": "photo-2.jpg",
     "alt": "Ruelle colorée de Balat, Istanbul",
     "layout": null,
     "claims": "atmosphere",
@@ -29,22 +45,6 @@
       "license": "unsplash-standard"
     },
     "sha256": "0ebd266f5db5f572b6e689c25c1ec25a4f80a399b747ad4028d87c918d9c7988",
-    "visionChecked": "migration-v1"
-  },
-  {
-    "id": "photo-2",
-    "slot": "photo-2",
-    "file": "photo-2.jpg",
-    "alt": "Mosquée Süleymaniye vue du Bosphore",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1527838832700-5059252407fa",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "d2f4fe3efc6e637761c5ddc484b5d96c78ca44cc4b26f7160680d33500236de7",
     "visionChecked": "migration-v1"
   },
   {

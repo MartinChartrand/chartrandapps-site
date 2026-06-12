@@ -1,8 +1,24 @@
 [
   {
-    "id": "photo-0",
-    "slot": "photo-0",
-    "file": "photo-0.jpg",
+    "id": "hero",
+    "slot": "hero",
+    "file": "hero.jpg",
+    "alt": "Vue emblématique — crete",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1682233908046-08ffcbf56ea7",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d8be5cdf876205d324ff92e789ce71c14031a2370fe0fbe8f8d06ea45adf7b48",
+    "visionChecked": "migration-v1"
+  },
+  {
+    "id": "photo-1",
+    "slot": "photo-1",
+    "file": "photo-1.jpg",
     "alt": "Port vénitien de Chania au coucher du soleil",
     "layout": null,
     "claims": "atmosphere",
@@ -16,9 +32,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-1",
-    "slot": "photo-1",
-    "file": "photo-1.jpg",
+    "id": "photo-2",
+    "slot": "photo-2",
+    "file": "photo-2.jpg",
     "alt": "Phare vénitien de Chania",
     "layout": null,
     "claims": "atmosphere",
@@ -32,9 +48,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-2",
-    "slot": "photo-2",
-    "file": "photo-2.jpg",
+    "id": "photo-3",
+    "slot": "photo-3",
+    "file": "photo-3.jpg",
     "alt": "Elafonisi vue aérienne",
     "layout": null,
     "claims": "atmosphere",
@@ -48,9 +64,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-3",
-    "slot": "photo-3",
-    "file": "photo-3.jpg",
+    "id": "photo-4",
+    "slot": "photo-4",
+    "file": "photo-4.jpg",
     "alt": "Plage de Falassarna",
     "layout": null,
     "claims": "atmosphere",
@@ -64,9 +80,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-4",
-    "slot": "photo-4",
-    "file": "photo-4.jpg",
+    "id": "photo-5",
+    "slot": "photo-5",
+    "file": "photo-5.jpg",
     "alt": "Balos Lagoon",
     "layout": null,
     "claims": "atmosphere",
@@ -80,9 +96,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-5",
-    "slot": "photo-5",
-    "file": "photo-5.jpg",
+    "id": "photo-6",
+    "slot": "photo-6",
+    "file": "photo-6.jpg",
     "alt": "Poisson grillé et pieuvre — cuisine crétoise",
     "layout": null,
     "claims": "atmosphere",
@@ -96,9 +112,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-6",
-    "slot": "photo-6",
-    "file": "photo-6.jpg",
+    "id": "photo-7",
+    "slot": "photo-7",
+    "file": "photo-7.jpg",
     "alt": "Chambre d'hôtel avec fenêtre lumineuse",
     "layout": null,
     "claims": "atmosphere",
@@ -112,9 +128,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-7",
-    "slot": "photo-7",
-    "file": "photo-7.jpg",
+    "id": "photo-8",
+    "slot": "photo-8",
+    "file": "photo-8.jpg",
     "alt": "Balcon avec vue sur cour vénitienne",
     "layout": null,
     "claims": "atmosphere",
@@ -128,9 +144,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-8",
-    "slot": "photo-8",
-    "file": "photo-8.jpg",
+    "id": "photo-9",
+    "slot": "photo-9",
+    "file": "photo-9.jpg",
     "alt": "Intérieur vénitien restauré aux murs blancs",
     "layout": null,
     "claims": "atmosphere",
@@ -144,9 +160,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-9",
-    "slot": "photo-9",
-    "file": "photo-9.jpg",
+    "id": "photo-10",
+    "slot": "photo-10",
+    "file": "photo-10.jpg",
     "alt": "Table garnie de plats crétois — mezze et légumes",
     "layout": null,
     "claims": "atmosphere",
@@ -160,9 +176,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-10",
-    "slot": "photo-10",
-    "file": "photo-10.jpg",
+    "id": "photo-11",
+    "slot": "photo-11",
+    "file": "photo-11.jpg",
     "alt": "Agneau rôti sur planche en bois — spécialité au four",
     "layout": null,
     "claims": "atmosphere",
@@ -176,9 +192,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-11",
-    "slot": "photo-11",
-    "file": "photo-11.jpg",
+    "id": "photo-12",
+    "slot": "photo-12",
+    "file": "photo-12.jpg",
     "alt": "Fruits de mer grillés aux herbes — spécialité crétoise",
     "layout": null,
     "claims": "atmosphere",
@@ -192,9 +208,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-12",
-    "slot": "photo-12",
-    "file": "photo-12.jpg",
+    "id": "photo-13",
+    "slot": "photo-13",
+    "file": "photo-13.jpg",
     "alt": "Loukoumades dorés arrosés de miel",
     "layout": null,
     "claims": "atmosphere",
@@ -208,9 +224,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-13",
-    "slot": "photo-13",
-    "file": "photo-13.jpg",
+    "id": "photo-14",
+    "slot": "photo-14",
+    "file": "photo-14.jpg",
     "alt": "Fromage et olives — mezze crétois",
     "layout": null,
     "claims": "atmosphere",
@@ -224,9 +240,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-14",
-    "slot": "photo-14",
-    "file": "photo-14.jpg",
+    "id": "photo-15",
+    "slot": "photo-15",
+    "file": "photo-15.jpg",
     "alt": "Poulpe grillé aux herbes et feta",
     "layout": null,
     "claims": "atmosphere",
@@ -240,9 +256,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-15",
-    "slot": "photo-15",
-    "file": "photo-15.jpg",
+    "id": "photo-16",
+    "slot": "photo-16",
+    "file": "photo-16.jpg",
     "alt": "Vin et panier dans les vignes",
     "layout": null,
     "claims": "atmosphere",
@@ -256,9 +272,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-16",
-    "slot": "photo-16",
-    "file": "photo-16.jpg",
+    "id": "photo-17",
+    "slot": "photo-17",
+    "file": "photo-17.jpg",
     "alt": "Préparation de plats crétois traditionnels",
     "layout": null,
     "claims": "atmosphere",
@@ -272,9 +288,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-17",
-    "slot": "photo-17",
-    "file": "photo-17.jpg",
+    "id": "photo-18",
+    "slot": "photo-18",
+    "file": "photo-18.jpg",
     "alt": "Ruelle pavée bordée de fruits et fleurs — quartier traditionnel",
     "layout": null,
     "claims": "atmosphere",
@@ -288,9 +304,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-18",
-    "slot": "photo-18",
-    "file": "photo-18.jpg",
+    "id": "photo-19",
+    "slot": "photo-19",
+    "file": "photo-19.jpg",
     "alt": "Table dressée au coucher du soleil face à la mer",
     "layout": null,
     "claims": "atmosphere",
@@ -304,9 +320,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-19",
-    "slot": "photo-19",
-    "file": "photo-19.jpg",
+    "id": "photo-20",
+    "slot": "photo-20",
+    "file": "photo-20.jpg",
     "alt": "Montagnes et mer turquoise — crique crétoise",
     "layout": null,
     "claims": "atmosphere",
@@ -320,9 +336,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-20",
-    "slot": "photo-20",
-    "file": "photo-20.jpg",
+    "id": "photo-21",
+    "slot": "photo-21",
+    "file": "photo-21.jpg",
     "alt": "Dîner illuminé en bord de mer le soir",
     "layout": null,
     "claims": "atmosphere",
@@ -336,9 +352,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-21",
-    "slot": "photo-21",
-    "file": "photo-21.jpg",
+    "id": "photo-22",
+    "slot": "photo-22",
+    "file": "photo-22.jpg",
     "alt": "Vue panoramique de Loutro — baie en demi-lune",
     "layout": null,
     "claims": "atmosphere",
@@ -352,9 +368,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-22",
-    "slot": "photo-22",
-    "file": "photo-22.jpg",
+    "id": "photo-23",
+    "slot": "photo-23",
+    "file": "photo-23.jpg",
     "alt": "Maisons blanches de Loutro face à la mer",
     "layout": null,
     "claims": "atmosphere",
@@ -368,9 +384,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-23",
-    "slot": "photo-23",
-    "file": "photo-23.jpg",
+    "id": "photo-24",
+    "slot": "photo-24",
+    "file": "photo-24.jpg",
     "alt": "Village côtier niché au bord des montagnes",
     "layout": null,
     "claims": "atmosphere",
@@ -384,9 +400,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-24",
-    "slot": "photo-24",
-    "file": "photo-24.jpg",
+    "id": "photo-25",
+    "slot": "photo-25",
+    "file": "photo-25.jpg",
     "alt": "Loutro entre montagne et mer",
     "layout": null,
     "claims": "atmosphere",
@@ -400,9 +416,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-25",
-    "slot": "photo-25",
-    "file": "photo-25.jpg",
+    "id": "photo-26",
+    "slot": "photo-26",
+    "file": "photo-26.jpg",
     "alt": "Taverna en bord de mer — chaises bleues",
     "layout": null,
     "claims": "atmosphere",
@@ -416,9 +432,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-26",
-    "slot": "photo-26",
-    "file": "photo-26.jpg",
+    "id": "photo-27",
+    "slot": "photo-27",
+    "file": "photo-27.jpg",
     "alt": "Vue sur la plage depuis la colline",
     "layout": null,
     "claims": "atmosphere",
@@ -432,9 +448,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-27",
-    "slot": "photo-27",
-    "file": "photo-27.jpg",
+    "id": "photo-28",
+    "slot": "photo-28",
+    "file": "photo-28.jpg",
     "alt": "Terrasse avec parasol et vue mer",
     "layout": null,
     "claims": "atmosphere",
@@ -448,9 +464,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-28",
-    "slot": "photo-28",
-    "file": "photo-28.jpg",
+    "id": "photo-29",
+    "slot": "photo-29",
+    "file": "photo-29.jpg",
     "alt": "Balcon avec table donnant sur la mer",
     "layout": null,
     "claims": "atmosphere",
@@ -464,9 +480,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-29",
-    "slot": "photo-29",
-    "file": "photo-29.jpg",
+    "id": "photo-30",
+    "slot": "photo-30",
+    "file": "photo-30.jpg",
     "alt": "Restaurant avec vue sur l'océan",
     "layout": null,
     "claims": "atmosphere",
@@ -480,9 +496,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-30",
-    "slot": "photo-30",
-    "file": "photo-30.jpg",
+    "id": "photo-31",
+    "slot": "photo-31",
+    "file": "photo-31.jpg",
     "alt": "Côtelettes d'agneau grillées sur assiette",
     "layout": null,
     "claims": "atmosphere",
@@ -496,9 +512,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-31",
-    "slot": "photo-31",
-    "file": "photo-31.jpg",
+    "id": "photo-32",
+    "slot": "photo-32",
+    "file": "photo-32.jpg",
     "alt": "Plat de fruits de mer frais en taverna",
     "layout": null,
     "claims": "atmosphere",
@@ -512,9 +528,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-32",
-    "slot": "photo-32",
-    "file": "photo-32.jpg",
+    "id": "photo-33",
+    "slot": "photo-33",
+    "file": "photo-33.jpg",
     "alt": "Plat gratiné aux herbes — cuisine crétoise",
     "layout": null,
     "claims": "atmosphere",
@@ -528,9 +544,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-33",
-    "slot": "photo-33",
-    "file": "photo-33.jpg",
+    "id": "photo-34",
+    "slot": "photo-34",
+    "file": "photo-34.jpg",
     "alt": "Viande grillée à côté de haricots verts",
     "layout": null,
     "claims": "atmosphere",
@@ -544,9 +560,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-34",
-    "slot": "photo-34",
-    "file": "photo-34.jpg",
+    "id": "photo-35",
+    "slot": "photo-35",
+    "file": "photo-35.jpg",
     "alt": "Table dressée dans un café en bord de mer",
     "layout": null,
     "claims": "atmosphere",
@@ -560,9 +576,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-35",
-    "slot": "photo-35",
-    "file": "photo-35.jpg",
+    "id": "photo-36",
+    "slot": "photo-36",
+    "file": "photo-36.jpg",
     "alt": "Verre de raki sur table de taverna",
     "layout": null,
     "claims": "atmosphere",
@@ -576,9 +592,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-36",
-    "slot": "photo-36",
-    "file": "photo-36.jpg",
+    "id": "photo-37",
+    "slot": "photo-37",
+    "file": "photo-37.jpg",
     "alt": "Rivage rocheux avec herbe verte et mer turquoise",
     "layout": null,
     "claims": "atmosphere",
@@ -592,9 +608,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-37",
-    "slot": "photo-37",
-    "file": "photo-37.jpg",
+    "id": "photo-38",
+    "slot": "photo-38",
+    "file": "photo-38.jpg",
     "alt": "Eau cristalline dans une crique isolée",
     "layout": null,
     "claims": "atmosphere",
@@ -608,9 +624,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-38",
-    "slot": "photo-38",
-    "file": "photo-38.jpg",
+    "id": "photo-39",
+    "slot": "photo-39",
+    "file": "photo-39.jpg",
     "alt": "Terrasse de café avec vue sur l'océan au crépuscule",
     "layout": null,
     "claims": "atmosphere",
@@ -624,9 +640,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-39",
-    "slot": "photo-39",
-    "file": "photo-39.jpg",
+    "id": "photo-40",
+    "slot": "photo-40",
+    "file": "photo-40.jpg",
     "alt": "Port de Sitia — côte rocheuse et plage",
     "layout": null,
     "claims": "atmosphere",
@@ -640,9 +656,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-40",
-    "slot": "photo-40",
-    "file": "photo-40.jpg",
+    "id": "photo-41",
+    "slot": "photo-41",
+    "file": "photo-41.jpg",
     "alt": "Baignade près des bâtiments historiques de Sitia",
     "layout": null,
     "claims": "atmosphere",
@@ -656,9 +672,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-41",
-    "slot": "photo-41",
-    "file": "photo-41.jpg",
+    "id": "photo-42",
+    "slot": "photo-42",
+    "file": "photo-42.jpg",
     "alt": "Ruelles blanches de l'est crétois",
     "layout": null,
     "claims": "atmosphere",
@@ -672,9 +688,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-42",
-    "slot": "photo-42",
-    "file": "photo-42.jpg",
+    "id": "photo-43",
+    "slot": "photo-43",
+    "file": "photo-43.jpg",
     "alt": "Spinalonga — île-forteresse",
     "layout": null,
     "claims": "atmosphere",
@@ -688,9 +704,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-43",
-    "slot": "photo-43",
-    "file": "photo-43.jpg",
+    "id": "photo-44",
+    "slot": "photo-44",
+    "file": "photo-44.jpg",
     "alt": "Bateaux devant Spinalonga",
     "layout": null,
     "claims": "atmosphere",
@@ -704,9 +720,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-44",
-    "slot": "photo-44",
-    "file": "photo-44.jpg",
+    "id": "photo-45",
+    "slot": "photo-45",
+    "file": "photo-45.jpg",
     "alt": "Pieuvres séchant au soleil — tradition crétoise",
     "layout": null,
     "claims": "atmosphere",
@@ -720,9 +736,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-45",
-    "slot": "photo-45",
-    "file": "photo-45.jpg",
+    "id": "photo-46",
+    "slot": "photo-46",
+    "file": "photo-46.jpg",
     "alt": "Murs blancs et plantes vertes — studio méditerranéen",
     "layout": null,
     "claims": "atmosphere",
@@ -736,9 +752,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-46",
-    "slot": "photo-46",
-    "file": "photo-46.jpg",
+    "id": "photo-47",
+    "slot": "photo-47",
+    "file": "photo-47.jpg",
     "alt": "Terrasse et mobilier extérieur face à la mer",
     "layout": null,
     "claims": "atmosphere",
@@ -752,9 +768,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-47",
-    "slot": "photo-47",
-    "file": "photo-47.jpg",
+    "id": "photo-48",
+    "slot": "photo-48",
+    "file": "photo-48.jpg",
     "alt": "Table en bois et chaises — ambiance rustique méditerranéenne",
     "layout": null,
     "claims": "atmosphere",
@@ -768,9 +784,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-48",
-    "slot": "photo-48",
-    "file": "photo-48.jpg",
+    "id": "photo-49",
+    "slot": "photo-49",
+    "file": "photo-49.jpg",
     "alt": "Poulpe grillé avec légumes et vin rosé",
     "layout": null,
     "claims": "atmosphere",
@@ -784,9 +800,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-49",
-    "slot": "photo-49",
-    "file": "photo-49.jpg",
+    "id": "photo-50",
+    "slot": "photo-50",
+    "file": "photo-50.jpg",
     "alt": "Tomates et légumes tranchés — ingrédients frais crétois",
     "layout": null,
     "claims": "atmosphere",
@@ -800,9 +816,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-50",
-    "slot": "photo-50",
-    "file": "photo-50.jpg",
+    "id": "photo-51",
+    "slot": "photo-51",
+    "file": "photo-51.jpg",
     "alt": "Huile d'olive versée — close-up doré",
     "layout": null,
     "claims": "atmosphere",
@@ -816,9 +832,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-51",
-    "slot": "photo-51",
-    "file": "photo-51.jpg",
+    "id": "photo-52",
+    "slot": "photo-52",
+    "file": "photo-52.jpg",
     "alt": "Assiette de poisson et poulpe grillés avec légumes",
     "layout": null,
     "claims": "atmosphere",
@@ -832,9 +848,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-52",
-    "slot": "photo-52",
-    "file": "photo-52.jpg",
+    "id": "photo-53",
+    "slot": "photo-53",
+    "file": "photo-53.jpg",
     "alt": "Poulpe grillé avec salade et vin sur la table",
     "layout": null,
     "claims": "atmosphere",
@@ -848,9 +864,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-53",
-    "slot": "photo-53",
-    "file": "photo-53.jpg",
+    "id": "photo-54",
+    "slot": "photo-54",
+    "file": "photo-54.jpg",
     "alt": "Eaux turquoise et côte rocheuse",
     "layout": null,
     "claims": "atmosphere",
@@ -864,9 +880,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-54",
-    "slot": "photo-54",
-    "file": "photo-54.jpg",
+    "id": "photo-55",
+    "slot": "photo-55",
+    "file": "photo-55.jpg",
     "alt": "Palmiers au bord d'un plan d'eau cristalline",
     "layout": null,
     "claims": "atmosphere",
@@ -880,9 +896,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-55",
-    "slot": "photo-55",
-    "file": "photo-55.jpg",
+    "id": "photo-56",
+    "slot": "photo-56",
+    "file": "photo-56.jpg",
     "alt": "Rivière à travers une gorge verdoyante",
     "layout": null,
     "claims": "atmosphere",
@@ -896,9 +912,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-56",
-    "slot": "photo-56",
-    "file": "photo-56.jpg",
+    "id": "photo-57",
+    "slot": "photo-57",
+    "file": "photo-57.jpg",
     "alt": "Tables et chaises en bois devant un bâtiment en pierre",
     "layout": null,
     "claims": "atmosphere",
@@ -912,9 +928,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-57",
-    "slot": "photo-57",
-    "file": "photo-57.jpg",
+    "id": "photo-58",
+    "slot": "photo-58",
+    "file": "photo-58.jpg",
     "alt": "Port de Rethymno — bateaux et architecture vénitienne",
     "layout": null,
     "claims": "atmosphere",
@@ -928,9 +944,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-58",
-    "slot": "photo-58",
-    "file": "photo-58.jpg",
+    "id": "photo-59",
+    "slot": "photo-59",
+    "file": "photo-59.jpg",
     "alt": "Phare de Rethymno",
     "layout": null,
     "claims": "atmosphere",
@@ -944,9 +960,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-59",
-    "slot": "photo-59",
-    "file": "photo-59.jpg",
+    "id": "photo-60",
+    "slot": "photo-60",
+    "file": "photo-60.jpg",
     "alt": "Baignade à Plakias",
     "layout": null,
     "claims": "atmosphere",
@@ -960,9 +976,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-60",
-    "slot": "photo-60",
-    "file": "photo-60.jpg",
+    "id": "photo-61",
+    "slot": "photo-61",
+    "file": "photo-61.jpg",
     "alt": "Architecture vénitienne de Rethymno",
     "layout": null,
     "claims": "atmosphere",
@@ -976,9 +992,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-61",
-    "slot": "photo-61",
-    "file": "photo-61.jpg",
+    "id": "photo-62",
+    "slot": "photo-62",
+    "file": "photo-62.jpg",
     "alt": "Table sous les arbres en bord de mer",
     "layout": null,
     "claims": "atmosphere",
@@ -992,9 +1008,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-62",
-    "slot": "photo-62",
-    "file": "photo-62.jpg",
+    "id": "photo-63",
+    "slot": "photo-63",
+    "file": "photo-63.jpg",
     "alt": "Moules et vin — dîner crétois",
     "layout": null,
     "claims": "atmosphere",
@@ -1008,9 +1024,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-63",
-    "slot": "photo-63",
-    "file": "photo-63.jpg",
+    "id": "photo-64",
+    "slot": "photo-64",
+    "file": "photo-64.jpg",
     "alt": "Bâtiment blanc méditerranéen",
     "layout": null,
     "claims": "atmosphere",
@@ -1024,9 +1040,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-64",
-    "slot": "photo-64",
-    "file": "photo-64.jpg",
+    "id": "photo-65",
+    "slot": "photo-65",
+    "file": "photo-65.jpg",
     "alt": "Piscine bleue et blanche — hôtel boutique",
     "layout": null,
     "claims": "atmosphere",
@@ -1040,9 +1056,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-65",
-    "slot": "photo-65",
-    "file": "photo-65.jpg",
+    "id": "photo-66",
+    "slot": "photo-66",
+    "file": "photo-66.jpg",
     "alt": "Vue à travers une arche en pierre — manoir vénitien",
     "layout": null,
     "claims": "atmosphere",
@@ -1056,9 +1072,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-66",
-    "slot": "photo-66",
-    "file": "photo-66.jpg",
+    "id": "photo-67",
+    "slot": "photo-67",
+    "file": "photo-67.jpg",
     "alt": "Agneau braisé et spécialités crétoises",
     "layout": null,
     "claims": "atmosphere",
@@ -1072,9 +1088,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-67",
-    "slot": "photo-67",
-    "file": "photo-67.jpg",
+    "id": "photo-68",
+    "slot": "photo-68",
+    "file": "photo-68.jpg",
     "alt": "Terrasse en bord de mer au coucher du soleil",
     "layout": null,
     "claims": "atmosphere",
@@ -1088,9 +1104,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-68",
-    "slot": "photo-68",
-    "file": "photo-68.jpg",
+    "id": "photo-69",
+    "slot": "photo-69",
+    "file": "photo-69.jpg",
     "alt": "Poisson grillé au port vénitien",
     "layout": null,
     "claims": "atmosphere",
@@ -1104,9 +1120,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-69",
-    "slot": "photo-69",
-    "file": "photo-69.jpg",
+    "id": "photo-70",
+    "slot": "photo-70",
+    "file": "photo-70.jpg",
     "alt": "Chèvre rôtie à la taverna de campagne",
     "layout": null,
     "claims": "atmosphere",
@@ -1120,9 +1136,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-70",
-    "slot": "photo-70",
-    "file": "photo-70.jpg",
+    "id": "photo-71",
+    "slot": "photo-71",
+    "file": "photo-71.jpg",
     "alt": "Artichauts frais et poivrons colorés au marché",
     "layout": null,
     "claims": "atmosphere",
@@ -1136,9 +1152,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-71",
-    "slot": "photo-71",
-    "file": "photo-71.jpg",
+    "id": "photo-72",
+    "slot": "photo-72",
+    "file": "photo-72.jpg",
     "alt": "Pâtisserie dorée au miel — kalitsounia crétois",
     "layout": null,
     "claims": "atmosphere",
@@ -1152,9 +1168,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-72",
-    "slot": "photo-72",
-    "file": "photo-72.jpg",
+    "id": "photo-73",
+    "slot": "photo-73",
+    "file": "photo-73.jpg",
     "alt": "Bouteille et verre de vin crétois",
     "layout": null,
     "claims": "atmosphere",
@@ -1168,9 +1184,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-73",
-    "slot": "photo-73",
-    "file": "photo-73.jpg",
+    "id": "photo-74",
+    "slot": "photo-74",
+    "file": "photo-74.jpg",
     "alt": "Préparation de légumes frais en cours de cuisine",
     "layout": null,
     "claims": "atmosphere",
@@ -1184,9 +1200,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-74",
-    "slot": "photo-74",
-    "file": "photo-74.jpg",
+    "id": "photo-75",
+    "slot": "photo-75",
+    "file": "photo-75.jpg",
     "alt": "Table garnie de mezze et raki crétois",
     "layout": null,
     "claims": "atmosphere",
@@ -1200,9 +1216,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-75",
-    "slot": "photo-75",
-    "file": "photo-75.jpg",
+    "id": "photo-76",
+    "slot": "photo-76",
+    "file": "photo-76.jpg",
     "alt": "Monastère de Preveli surplombant la palmeraie",
     "layout": null,
     "claims": "atmosphere",
@@ -1216,9 +1232,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-76",
-    "slot": "photo-76",
-    "file": "photo-76.jpg",
+    "id": "photo-77",
+    "slot": "photo-77",
+    "file": "photo-77.jpg",
     "alt": "Architecture ottomane et vénitienne dans la vieille ville",
     "layout": null,
     "claims": "atmosphere",
@@ -1232,9 +1248,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-77",
-    "slot": "photo-77",
-    "file": "photo-77.jpg",
+    "id": "photo-78",
+    "slot": "photo-78",
+    "file": "photo-78.jpg",
     "alt": "Rayons de soleil sur la ville côtière de Rethymno",
     "layout": null,
     "claims": "atmosphere",
@@ -1248,9 +1264,9 @@
     "visionChecked": "migration-v1"
   },
   {
-    "id": "photo-78",
-    "slot": "photo-78",
-    "file": "photo-78.jpg",
+    "id": "photo-79",
+    "slot": "photo-79",
+    "file": "photo-79.jpg",
     "alt": "Crique isolée aux eaux turquoise — Korakas",
     "layout": null,
     "claims": "atmosphere",

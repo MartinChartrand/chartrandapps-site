@@ -143,3 +143,17 @@ test('T9: markers sérialisés contiennent nom+coords d\'un POI onMap de la fixt
     'Longitude 2.35 du POI onMap absente des données markers'
   );
 });
+
+// T10. Pas de NaN ni >undefined dans le HTML builté
+test('T10: pas de "NaN" ni ">undefined" dans le HTML', () => {
+  assert.ok(!html.includes('NaN'), 'Le HTML contient "NaN"');
+  assert.ok(!html.includes('>undefined'), 'Le HTML contient ">undefined"');
+});
+
+// T11. header.hero présent dans le HTML (background-image conditionnel à imageUrl)
+test('T11: header avec class="hero" présent dans le HTML', () => {
+  assert.ok(
+    html.includes('class="hero"'),
+    'header.hero absent du HTML (composant Hero non rendu)'
+  );
+});

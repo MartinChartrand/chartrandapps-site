@@ -2,16 +2,16 @@
 order: 3
 slug: sitia
 title: Sitia
-kicker: l'est authentique
+kicker: 'l''est authentique'
 nights: 9
 dates: 19–27 septembre
 focus: 'L''est authentique. Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port. Eau à son maximum thermique : 27–28°C.'
 subtitle: 'L''est authentique. Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port. Eau à son maximum thermique : 27–28°C.'
-summary: ""
-pullquote: Neuf nuits à Sitia, c'est le pari du voyage. Personne y va. C'est précisément pour ça.
+summary: ''
+pullquote: 'Neuf nuits à Sitia, c''est le pari du voyage. Personne y va. C''est précisément pour ça.'
 cover: sitia-cover
 tagBlock:
-  label: Température de l'eau
+  label: 'Température de l''eau'
   tags:
     -
       text: ~27–28°C — maximum annuel

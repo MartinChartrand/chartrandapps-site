@@ -5,10 +5,10 @@ title: Istanbul
 kicker: le choc initial
 nights: 7
 dates: 5–11 septembre
-focus: Seize millions d'habitants sur deux continents. Base à Karaköy — la vraie ville est à Kadıköy, à Balat, sur le ferry de 17h40 quand la skyline s'allume.
-subtitle: Seize millions d'habitants sur deux continents. Base à Karaköy — la vraie ville est à Kadıköy, à Balat, sur le ferry de 17h40 quand la skyline s'allume.
-summary: ""
-pullquote: Sept nuits à Istanbul, c'est court. Mais c'est assez pour comprendre que la vraie ville n'est pas à Sultanahmet — elle est sur l'autre rive, dans les ruelles de Balat, et dans le ferry public qui traverse le Bosphore au prix d'un tramway.
+focus: 'Seize millions d''habitants sur deux continents. Base à Karaköy — la vraie ville est à Kadıköy, à Balat, sur le ferry de 17h40 quand la skyline s''allume.'
+subtitle: 'Seize millions d''habitants sur deux continents. Base à Karaköy — la vraie ville est à Kadıköy, à Balat, sur le ferry de 17h40 quand la skyline s''allume.'
+summary: ''
+pullquote: 'Sept nuits à Istanbul, c''est court. Mais c''est assez pour comprendre que la vraie ville n''est pas à Sultanahmet — elle est sur l''autre rive, dans les ruelles de Balat, et dans le ferry public qui traverse le Bosphore au prix d''un tramway.'
 cover: istanbul-cover
 infoBlocks:
   -

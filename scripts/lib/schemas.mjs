@@ -12,6 +12,8 @@ export const TIERS = ['budget', 'mid', 'gem'];
 const linkSchema = z.object({ label: z.string(), url: z.string() });
 const tagSchema = z.object({ text: z.string(), tone: z.enum(['amber', 'green']).optional() });
 
+const ISO_DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'date ISO YYYY-MM-DD requise');
+
 // §3.1 destination.json
 export const destinationSchema = z.object({
   slug: z.string(),
@@ -20,11 +22,11 @@ export const destinationSchema = z.object({
   subtitle: z.string(),
   season: z.string(),
   travelers: z.object({ count: z.number().int(), label: z.string() }),
-  arrival: z.object({ date: z.string(), airport: z.string(), city: z.string() }),
+  arrival: z.object({ date: ISO_DATE, airport: z.string().min(1), city: z.string().min(1) }),
   departure: z.object({
-    date: z.string(),
-    airport: z.string(),
-    city: z.string(),
+    date: ISO_DATE,
+    airport: z.string().min(1),
+    city: z.string().min(1),
     transfer: z.object({ body: z.string(), links: z.array(linkSchema).default([]) }).optional(),
   }),
   theme: z.object({ favicon: z.string(), palette: z.string() }),

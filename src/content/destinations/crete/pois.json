@@ -7,13 +7,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "budget",
     "name": "Halepa Hotel",
-    "blurb": "",
+    "blurb": "Quartier Halepa, ambiance locale et calme. Loin de la foule du port, à quinze minutes à pied de la vieille ville.",
     "signature": "",
     "image": "halepa-hotel-img",
     "price": {
-      "range": "",
+      "range": "~50–65 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -46,13 +46,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "mid",
     "name": "Ionas Boutique Hotel",
-    "blurb": "",
+    "blurb": "9 chambres dans un bâtiment vénitien-ottoman restauré. Terrasse sur le toit, petit-déjeuner inclus. Note 9.3/10.",
     "signature": "",
     "image": "ionas-boutique-hotel-img",
     "price": {
-      "range": "",
+      "range": "~80–115 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -86,7 +86,7 @@
       "eat"
     ],
     "name": "Tamam",
-    "blurb": "",
+    "blurb": "L'incontournable. Anciens bains turcs du XVIe, ruelle Zambelíou. Cuisine crétoise contemporaine, végétarien remarquable.",
     "signature": "",
     "image": "tamam-img",
     "price": {
@@ -124,7 +124,7 @@
       "eat"
     ],
     "name": "Chrisostomos",
-    "blurb": "",
+    "blurb": "13 fois primé. Four à bois, agneau ofto, pain maison. Ouvert mer–dim seulement.",
     "signature": "",
     "image": "chrisostomos-img",
     "price": {
@@ -162,7 +162,7 @@
       "eat"
     ],
     "name": "Evgonia",
-    "blurb": "",
+    "blurb": "Taverna de quartier, Milonogianni 120. Menu selon l'arrivage. Agneau, lapin, poisson frais, yogourt maison. Le proprio Nektarios guide les choix.",
     "signature": "",
     "image": "evgonia-img",
     "price": {
@@ -238,7 +238,7 @@
       "see"
     ],
     "name": "Splantzia (vieille ville)",
-    "blurb": "",
+    "blurb": "place à l'olivier, artisans couteliers rue Maxaradika. Phare vénitien au coucher du soleil.",
     "signature": "",
     "image": "splantzia-vieille-ville-img",
     "price": {
@@ -428,7 +428,7 @@
       "do"
     ],
     "name": "Falassarna",
-    "blurb": "",
+    "blurb": "(1h ouest) — Longue plage sauvage face au soleil couchant. Section nord isolée. Bar Orange Blue en haut de la colline pour le sunset.",
     "signature": "",
     "image": "falassarna-img",
     "price": {
@@ -466,7 +466,7 @@
       "do"
     ],
     "name": "Elafonisi",
-    "blurb": "",
+    "blurb": "(1h15 sud-ouest) — Sable rose, eau turquoise peu profonde. Y aller tôt en septembre.",
     "signature": "",
     "image": "elafonisi-img",
     "price": {
@@ -504,7 +504,7 @@
       "do"
     ],
     "name": "Balos",
-    "blurb": "",
+    "blurb": "(1h nord-ouest) — Bateau depuis Kissamos (~15 €/pers.) plutôt que la route de montagne. Lagune spectaculaire.",
     "signature": "",
     "image": "balos-img",
     "price": {
@@ -542,7 +542,7 @@
       "do"
     ],
     "name": "Seitan Limania",
-    "blurb": "",
+    "blurb": "Crique secrète avec eau tropicale entre les rochers. Peu de gens connaissent.",
     "signature": "",
     "image": "seitan-limania-img",
     "price": {
@@ -579,13 +579,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "mid",
     "name": "Hotel Porto Loutro",
-    "blurb": "",
+    "blurb": "18 chambres, directement sur la plage, 5m de la mer turquoise. Terrasse face à la baie. Réserver tôt.",
     "signature": "",
     "image": "hotel-porto-loutro-img",
     "price": {
-      "range": "",
+      "range": "~82–100 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -618,13 +618,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "budget",
     "name": "Hotel Anna",
-    "blurb": "",
+    "blurb": "Front de mer, simple et propre. Restaurant sur place. Le meilleur rapport qualité-prix du village.",
     "signature": "",
     "image": "hotel-anna-img",
     "price": {
-      "range": "",
+      "range": "~35–50 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -659,7 +659,7 @@
     ],
     "tier": null,
     "name": "Blue House",
-    "blurb": "",
+    "blurb": "Menu varié, #1 du village sur TripAdvisor. Front de mer.",
     "signature": "",
     "image": "blue-house-img",
     "price": {
@@ -694,15 +694,14 @@
     "kind": "resto",
     "mapType": "resto",
     "roles": [
-      "sleep",
       "eat"
     ],
     "name": "Notos Restaurant & Rooms",
-    "blurb": "",
+    "blurb": "Famille Androulakakis. Mezedopoleion (petites assiettes) stylé + chambres au-dessus. Le foodie move — dormir là où on mange le mieux.",
     "signature": "",
     "image": "notos-restaurant-rooms-img",
     "price": {
-      "range": "",
+      "range": "~60–85 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -736,7 +735,7 @@
       "eat"
     ],
     "name": "Stratis Taverna",
-    "blurb": "",
+    "blurb": "Cuisine familiale, agneau grillé (paidakia), tartes maison, yogourt du troupeau familial. Le meilleur rapport saveur/prix.",
     "signature": "",
     "image": "stratis-taverna-img",
     "price": {
@@ -774,7 +773,7 @@
       "eat"
     ],
     "name": "Ilios Taverna",
-    "blurb": "",
+    "blurb": "Famille depuis 1979. Fruits de mer frais, vue sur la baie.",
     "signature": "",
     "image": "ilios-taverna-img",
     "price": {
@@ -812,7 +811,7 @@
       "eat"
     ],
     "name": "Old Phoenix (Finix cove)",
-    "blurb": "",
+    "blurb": "(baie de Finix) — 15 min à pied par le sentier E4. Taverna familiale dans une baie quasi déserte. Pain pétri à la main, cuisine au feu de bois. L'un des meilleurs repas du voyage.",
     "signature": "",
     "image": "old-phoenix-finix-cove-img",
     "price": {
@@ -850,7 +849,7 @@
       "do"
     ],
     "name": "Glyka Nera (Sweet Water)",
-    "blurb": "",
+    "blurb": "1h de marche OU 20 min en bateau (~5 €). Sources d'eau douce sous la plage — zones tièdes étonnantes. Eau limpide, falaises blanches. Parfait pour l'intimité.",
     "signature": "",
     "image": "glyka-nera-sweet-water-img",
     "price": {
@@ -888,7 +887,7 @@
       "do"
     ],
     "name": "Marmara Beach",
-    "blurb": "",
+    "blurb": "Par bateau. Grottes de marbre, eau turquoise. Taverna Dialiskari sur place (pain maison, réserver).",
     "signature": "",
     "image": "marmara-beach-img",
     "price": {
@@ -963,13 +962,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "budget",
     "name": "Nereids Apartments",
-    "blurb": "",
+    "blurb": "30m de la plage, studios avec cuisine, jardin. Note 9/10. Idéal pour cuisiner avec les produits du marché local.",
     "signature": "",
     "image": "nereids-apartments-img",
     "price": {
-      "range": "",
+      "range": "~45–58 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1002,13 +1001,13 @@
     "roles": [
       "sleep"
     ],
-    "tier": null,
+    "tier": "mid",
     "name": "Elysee Hotel",
-    "blurb": "",
+    "blurb": "Promenade du port, balcons face à la mer de Crète. Près de la forteresse vénitienne. Propre, bien situé.",
     "signature": "",
     "image": "elysee-hotel-img",
     "price": {
-      "range": "",
+      "range": "~65–85 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1043,11 +1042,11 @@
     ],
     "tier": null,
     "name": "Livikoview Xerokambos",
-    "blurb": "",
+    "blurb": "48 km au sud, au milieu de nulle part. Hébergement + restaurant de cuisine crétoise moderne. Plages désertes à 5 min. Le vrai bout du monde.",
     "signature": "",
     "image": "livikoview-xerokambos-img",
     "price": {
-      "range": "",
+      "range": "~75–95 €/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1081,7 +1080,7 @@
       "eat"
     ],
     "name": "Zorbas Tavern",
-    "blurb": "",
+    "blurb": "Le patron pêche, sa femme cuisine. Légumes du jardin, rougets frais, feuilles de vigne maison. Repas complet pour deux : ~40 €. Les gens font 2h de route pour y manger.",
     "signature": "",
     "image": "zorbas-tavern-img",
     "price": {
@@ -1119,7 +1118,7 @@
       "eat"
     ],
     "name": "Inodion",
-    "blurb": "",
+    "blurb": "Famille Garefalakis depuis 2005. Dakos au four à bois, huile PDO de Sitia. Ruelle derrière le port.",
     "signature": "",
     "image": "inodion-img",
     "price": {
@@ -1157,7 +1156,7 @@
       "eat"
     ],
     "name": "Tzivaeri",
-    "blurb": "",
+    "blurb": "Coin du port, famille Psarakis. Plateau de poisson pour deux à 22 €, pain maison, huile et vin bio. Note 4.5/5.",
     "signature": "",
     "image": "tzivaeri-img",
     "price": {
@@ -1271,7 +1270,7 @@
       "do"
     ],
     "name": "Vaï (palmeraie)",
-    "blurb": "",
+    "blurb": "Palmeraie naturelle unique en Europe. En septembre : beaucoup moins de monde. Astuce : passer par-dessus le promontoire vers",
     "signature": "",
     "image": "vai-palmeraie-img",
     "price": {
@@ -1309,7 +1308,7 @@
       "do"
     ],
     "name": "Psili Ammos",
-    "blurb": "",
+    "blurb": "plage secrète, zéro monde.",
     "signature": "",
     "image": "psili-ammos-img",
     "price": {
@@ -1385,7 +1384,7 @@
       "do"
     ],
     "name": "Argilos Beach",
-    "blurb": "",
+    "blurb": "plage d'argile naturelle : spa gratuit en pleine nature.",
     "signature": "",
     "image": "argilos-beach-img",
     "price": {
@@ -1423,7 +1422,7 @@
       "see"
     ],
     "name": "Kato Zakros (palais minoen)",
-    "blurb": "",
+    "blurb": "Gorge des Morts (tombes minoennes dans les grottes), palais minoen à 200m de l'eau. Taverna du village pour le lunch.",
     "signature": "",
     "image": "kato-zakros-palais-minoen-img",
     "price": {
@@ -1461,7 +1460,7 @@
       "see"
     ],
     "name": "Monastère de Toplou",
-    "blurb": "",
+    "blurb": "XVe siècle. Dégustation gratuite d'huile d'olive bio + vin (5 siècles de tradition viticole).",
     "signature": "",
     "image": "monastere-de-toplou-img",
     "price": {
@@ -1499,7 +1498,7 @@
       "see"
     ],
     "name": "Spinalonga",
-    "blurb": "",
+    "blurb": "(depuis Elounda, 1h) — Forteresse vénitienne, léproserie historique. Bateau ~12 € + entrée 20 €.",
     "signature": "",
     "image": "spinalonga-img",
     "price": {
@@ -1538,7 +1537,7 @@
     ],
     "tier": null,
     "name": "Atelier Vieux Port",
-    "blurb": "",
+    "blurb": "Studio dans la vieille ville, à deux pas du port vénitien. Déco minimaliste, cuisine équipée, terrasse sur les toits. ~55–70 €/nuit.",
     "signature": "",
     "image": "atelier-vieux-port-img",
     "price": {
@@ -1654,7 +1653,7 @@
       "eat"
     ],
     "name": "Avli",
-    "blurb": "",
+    "blurb": "Cour intérieure vénitienne somptueuse. La meilleure table de Rethymno — agneau braisé, chèvre au vin, fruits de mer. Dîner de fin de voyage obligatoire.",
     "signature": "",
     "image": "avli-img",
     "price": {
@@ -1692,7 +1691,7 @@
       "eat"
     ],
     "name": "Prima Plora",
-    "blurb": "",
+    "blurb": "En terrasse face à la mer, sous la Fortezza. Cuisine crétoise créative, poisson ultra-frais, ambiance décontractée. Coucher de soleil spectaculaire.",
     "signature": "",
     "image": "prima-plora-img",
     "price": {
@@ -1730,7 +1729,7 @@
       "eat"
     ],
     "name": "Zefyros Fish Taverna",
-    "blurb": "",
+    "blurb": "Directement sur le vieux port. Poisson grillé, poulpe au vinaigre, mezze de la mer. Portions généreuses, prix honnêtes.",
     "signature": "",
     "image": "zefyros-fish-taverna-img",
     "price": {
@@ -1768,7 +1767,7 @@
       "eat"
     ],
     "name": "Taverna Alekos (Armenoi)",
-    "blurb": "",
+    "blurb": "(village d'Armenoi, 15 min) — Taverna de campagne dans les collines. Chèvre rôtie, produits de la ferme, vin en carafe. L'authenticité absolue hors des circuits.",
     "signature": "",
     "image": "taverna-alekos-armenoi-img",
     "price": {
@@ -1844,7 +1843,7 @@
       "eat"
     ],
     "name": "Rewine",
-    "blurb": "",
+    "blurb": "dans la vieille ville offrent des dégustations de cépages autochtones — Vidiano, Kotsifali, Mandilari.",
     "signature": "",
     "image": "rewine-img",
     "price": {
@@ -1920,7 +1919,7 @@
       "eat"
     ],
     "name": "Yiorgos Hatziparaskos (phyllo & baklava)",
-    "blurb": "",
+    "blurb": ", atelier familial depuis 1960 dans la vieille ville qui tire la pâte phyllo à la main sous les yeux des clients.",
     "signature": "",
     "image": "yiorgos-hatziparaskos-phyllo-baklava-img",
     "price": {
@@ -1996,7 +1995,7 @@
       "see"
     ],
     "name": "Fortezza",
-    "blurb": "",
+    "blurb": "Citadelle vénitienne dominant la ville. Vue panoramique sur la mer et les toits. Coucher de soleil mémorable depuis les remparts.",
     "signature": "",
     "image": "fortezza-img",
     "price": {
@@ -2034,7 +2033,7 @@
       "see"
     ],
     "name": "Marché du mercredi (Koumoundourou)",
-    "blurb": "",
+    "blurb": "Rue Koumoundourou, marché paysan hebdomadaire. Fromages frais, miel de thym, herbes séchées, fruits de saison. Y aller tôt le matin pour la meilleure sélection.",
     "signature": "",
     "image": "marche-du-mercredi-koumoundourou-img",
     "price": {
@@ -2072,7 +2071,7 @@
       "see"
     ],
     "name": "Monastère d'Arkadi",
-    "blurb": "",
+    "blurb": "(30 min) — Site historique majeur de la résistance crétoise contre les Ottomans. Architecture Renaissance, campagne spectaculaire.",
     "signature": "",
     "image": "monastere-darkadi-img",
     "price": {
@@ -2110,7 +2109,7 @@
       "do"
     ],
     "name": "Preveli",
-    "blurb": "",
+    "blurb": "(35 min sud) — Palmeraie à l'embouchure d'une gorge, rivière qui se jette dans la mer turquoise. L'une des plus belles plages de Crète. Descente par escalier (15 min).",
     "signature": "",
     "image": "preveli-img",
     "price": {
@@ -2148,7 +2147,7 @@
       "do"
     ],
     "name": "Plakias",
-    "blurb": "",
+    "blurb": "(45 min sud) — Station balnéaire tranquille. Plusieurs plages dans la baie. La",
     "signature": "",
     "image": "plakias-img",
     "price": {
@@ -2186,7 +2185,7 @@
       "do"
     ],
     "name": "Damnoni",
-    "blurb": "",
+    "blurb": "(à côté de Plakias) — Trois petites criques successives, eau cristalline, peu fréquentées en octobre.",
     "signature": "",
     "image": "damnoni-img",
     "price": {
@@ -2224,7 +2223,7 @@
       "do"
     ],
     "name": "Korakas",
-    "blurb": "",
+    "blurb": ", 20 min à pied par le sentier côtier, est une crique isolée avec eau cristalline.",
     "signature": "",
     "image": "korakas-img",
     "price": {

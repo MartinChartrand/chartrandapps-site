@@ -154,7 +154,9 @@ function parseDestination(html, slug) {
   const title = between(html, /<title>/, /<\/title>/);
   // "Crète — Septembre 2027 · Itinéraire de voyage" → heroTitle
   const titleParsed = title ? title.split('—')[0].trim() : slug;
-  const titleEm = title ? (title.split('—')[1] || '').split('·')[0].trim() : '';
+  // FIX 1a: strip l'année du titleEm ("Septembre 2027" → "septembre", "Septembre–Octobre 2027" → "septembre–octobre")
+  const rawTitleEm = title ? (title.split('—')[1] || '').split('·')[0].trim() : '';
+  const titleEm = rawTitleEm.replace(/\s*\d{4}.*$/, '').trim().toLowerCase();
 
   const heroSub = between(html, /class="hero-sub"[^>]*>/, /<\//)?.replace(/<[^>]+>/g, '').trim() || '';
 
@@ -197,17 +199,90 @@ function parseDestination(html, slug) {
   // palette slug = same as dest slug
   const palette = slug;
 
+  // FIX 1b: Parser hero.label depuis .hero-label
+  const heroLabelM = html.match(/class="hero-label"[^>]*>(.*?)<\/p>/s);
+  const heroLabel = heroLabelM ? stripTags(heroLabelM[1]).trim() : 'Itinéraire';
+
+  // FIX 1c+1d: Parser hero-stats pour travelers + dates
+  const heroStats = [];
+  const heroStatRx = /class="hero-stat"[^>]*>[\s\S]*?class="hero-stat-val"[^>]*>(.*?)<\/span>[\s\S]*?class="hero-stat-lbl"[^>]*>(.*?)<\/span>/g;
+  let hsm;
+  while ((hsm = heroStatRx.exec(html)) !== null) {
+    heroStats.push({ val: stripTags(hsm[1]).trim(), lbl: stripTags(hsm[2]).trim() });
+  }
+
+  // Travelers (stat dont lbl contient "Personne" ou "Voyageur")
+  const personStat = heroStats.find(s => /personn|voyageur/i.test(s.lbl));
+  const travelersCount = personStat ? (parseInt(personStat.val) || 2) : 2;
+  const travelersLabel = personStat
+    ? (travelersCount === 1 ? 'Voyageur solo' : 'Voyage en duo')
+    : 'Voyage en duo';
+
+  // Dates arrivée/départ
+  const arrivalStat = heroStats.find(s => /arriv/i.test(s.lbl));
+  const departureStat = heroStats.find(s => /d[eé]part/i.test(s.lbl));
+
+  // Année depuis le title
+  const yearFromTitle = title ? (title.match(/(\d{4})/) || [])[1] || '2027' : '2027';
+
+  // Mapper mois FR abrégés → numéro
+  const MOIS_FR = {
+    'jan': '01', 'janv': '01', 'fev': '02', 'fevr': '02', 'fév': '02', 'févr': '02',
+    'mar': '03', 'mars': '03', 'avr': '04', 'mai': '05', 'juin': '06',
+    'juil': '07', 'aou': '08', 'août': '08',
+    'sep': '09', 'sept': '09', 'oct': '10', 'nov': '11',
+    'dec': '12', 'déc': '12'
+  };
+
+  function parseHeroDate(val, year) {
+    // "5 sept." → "2027-09-05"
+    const m = val.match(/(\d+)\s+([a-zéûà]+)/i);
+    if (!m) return '';
+    const day = m[1].padStart(2, '0');
+    const rawMonth = m[2].toLowerCase().replace(/\.$/, '');
+    // Essayer 4 chars d'abord, puis 3
+    const monthNum = MOIS_FR[rawMonth.substring(0, 4)] || MOIS_FR[rawMonth.substring(0, 3)] || '';
+    if (!monthNum) return '';
+    return `${year}-${monthNum}-${day}`;
+  }
+
+  function extractCityFromLbl(lbl, keywordPattern) {
+    return lbl.replace(new RegExp(keywordPattern, 'i'), '').trim();
+  }
+
+  // Extraire codes IATA depuis le texte HTML ("Chania (CHQ)" → {chania: 'CHQ'})
+  const iataFromText = {};
+  const iataPairRx = /([A-ZÀ-Ûa-zà-û][a-zà-û]+(?:\s+[A-ZÀ-Ûa-zà-û][a-zà-û]+)?)\s*\(([A-Z]{3})\)/g;
+  let ipm;
+  while ((ipm = iataPairRx.exec(html)) !== null) {
+    iataFromText[ipm[1].toLowerCase()] = ipm[2];
+  }
+
+  // Dictionnaire statique fallback
+  const CITY_TO_IATA = {
+    'chania': 'CHQ', 'héraklion': 'HER', 'heraklion': 'HER', 'iraklio': 'HER',
+    'istanbul': 'IST', 'dalaman': 'DLM', 'antalya': 'AYT',
+    'kayseri': 'ASR', 'ankara': 'ANK', 'izmir': 'ADB'
+  };
+
+  const arrivalCity = arrivalStat ? extractCityFromLbl(arrivalStat.lbl, 'arriv[ée]e?') : '';
+  const departureCity = departureStat ? extractCityFromLbl(departureStat.lbl, 'd[eé]part') : '';
+  const arrivalAirport = iataFromText[arrivalCity.toLowerCase()] || CITY_TO_IATA[arrivalCity.toLowerCase()] || '';
+  const departureAirport = iataFromText[departureCity.toLowerCase()] || CITY_TO_IATA[departureCity.toLowerCase()] || '';
+  const arrivalDate = arrivalStat ? parseHeroDate(arrivalStat.val, yearFromTitle) : '';
+  const departureDate = departureStat ? parseHeroDate(departureStat.val, yearFromTitle) : '';
+
   return {
     slug,
-    heroTitle: { main: titleParsed, em: titleEm.toLowerCase() },
+    heroTitle: { main: titleParsed, em: titleEm },
     heroSub,
     subtitle: heroSub || overviewIntro.substring(0, 120),
     season,
-    travelers: { count: 2, label: 'Voyage en duo' },
-    arrival: { date: '', airport: '', city: '' },
-    departure: { date: '', airport: '', city: '' },
+    travelers: { count: travelersCount, label: travelersLabel },
+    arrival: { date: arrivalDate, airport: arrivalAirport, city: arrivalCity },
+    departure: { date: departureDate, airport: departureAirport, city: departureCity },
     theme: { favicon, palette },
-    hero: { image: 'hero', label: 'Itinéraire · Voyage en duo' },
+    hero: { image: 'hero', label: heroLabel },
     overviewIntro,
     intro: {
       whySeason: introBlocks[0]?.body || '',
@@ -428,12 +503,20 @@ function parseBudget(html) {
   const adviceM = budgetSection.match(/<\/table>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/);
   const advice = adviceM ? stripTags(adviceM[1]).trim() : '';
 
-  // Scenarios from advice
+  // FIX 1g: Scenarios from advice — extraire le total depuis le début du desc
   const scenarios = [];
   const serreM = advice.match(/Budget serré\s*:\s*([^·]*)/i);
   const confortM = advice.match(/Budget confort\+\s*:\s*([^·]*)/i);
-  if (serreM) scenarios.push({ name: 'Budget serré', total: '', desc: serreM[1].trim() });
-  if (confortM) scenarios.push({ name: 'Budget confort+', total: '', desc: confortM[1].trim() });
+  if (serreM) {
+    const desc = serreM[1].trim();
+    const totalM = desc.match(/^(~[\d\s,]+\$(?:\s*CAD)?)/);
+    scenarios.push({ name: 'Budget serré', total: totalM ? totalM[1].trim() : '', desc });
+  }
+  if (confortM) {
+    const desc = confortM[1].trim();
+    const totalM = desc.match(/^(~[\d\s,]+\$(?:\s*CAD)?)/);
+    scenarios.push({ name: 'Budget confort+', total: totalM ? totalM[1].trim() : '', desc });
+  }
 
   return { statCards, lines, scenarios, advice, total };
 }
@@ -469,9 +552,39 @@ function parsePratique(html) {
 function parseImages(html, slug) {
   const images = [];
   const seen = new Set();
+  let idx = 0;
+
+  // FIX 1e: Extraire l'image hero depuis le style background-image du <header class="hero">
+  // Pattern: style="...url('https://images.unsplash.com/photo-XXXX?...')"
+  const heroHeaderRx = /class="hero"[^>]*style="[^"]*url\('(https:\/\/images\.unsplash\.com\/[^']+)'\)/;
+  const heroHeaderM = html.match(heroHeaderRx);
+  if (heroHeaderM) {
+    const url = heroHeaderM[1];
+    const photoIdM = url.match(/\/photo-([a-zA-Z0-9_-]+)\?/);
+    const photoId = photoIdM ? photoIdM[1] : 'hero-unknown';
+    if (!seen.has(photoId)) {
+      seen.add(photoId);
+      images.push({
+        id: 'hero',
+        slot: 'hero',
+        file: 'hero.jpg',
+        alt: `Vue emblématique — ${slug}`,
+        layout: null,
+        claims: 'atmosphere',
+        credit: {
+          source: 'unsplash',
+          photoId,
+          photographer: '',
+          license: 'unsplash-standard'
+        },
+        _url: url
+      });
+      idx++;
+    }
+  }
+
   const imgRx = /<img[^>]+src="(https:\/\/images\.unsplash\.com\/[^"]+)"[^>]*alt="([^"]*)"[^>]*(class="([^"]*)")?[^>]*>/g;
   let m;
-  let idx = 0;
   while ((m = imgRx.exec(html)) !== null) {
     const url = m[1];
     const alt = m[2];
@@ -572,10 +685,10 @@ async function main() {
   const KIND_ROLES = {
     hotel: { kind: 'hotel', mapType: 'hotel', roles: ['sleep'] },
     resto: { kind: 'resto', mapType: 'resto', roles: ['eat'] },
-    plage: { kind: 'plage', mapType: 'plage', roles: ['swim'] },
-    sight: { kind: 'sight', mapType: 'sight', roles: ['visit'] },
-    winery: { kind: 'winery', mapType: 'sight', roles: ['visit'] },
-    activity: { kind: 'activity', mapType: 'sight', roles: ['visit'] }
+    plage: { kind: 'plage', mapType: 'plage', roles: ['do'] },
+    sight: { kind: 'sight', mapType: 'sight', roles: ['see'] },
+    winery: { kind: 'winery', mapType: 'sight', roles: ['do'] },
+    activity: { kind: 'activity', mapType: 'sight', roles: ['do'] }
   };
 
   // Construire les POIs depuis MAPS
@@ -640,6 +753,75 @@ async function main() {
     }
   }
 
+  // FIX 1f: Enrichissement blurb/price/tier des POIs depuis les accom-cards et info-body
+  function normalizeForMatch(s) {
+    return s.toLowerCase()
+      .normalize('NFD').replace(/[̀-ͯ]/g, '')
+      .replace(/[^a-z0-9]/g, '');
+  }
+
+  const poiByNorm = new Map();
+  pois.forEach((p, i) => {
+    poiByNorm.set(normalizeForMatch(p.name), i);
+  });
+
+  function findPoiIndexByNorm(name) {
+    const norm = normalizeForMatch(name);
+    if (poiByNorm.has(norm)) return poiByNorm.get(norm);
+    // Sous-chaîne bidirectionnelle
+    for (const [k, i] of poiByNorm) {
+      if (norm.includes(k) || k.includes(norm)) return i;
+    }
+    return -1;
+  }
+
+  // 1. Depuis les accom-cards
+  const accomCardRx = /class="accom-card"[^>]*>([\s\S]*?)<\/div>\s*\n?\s*<\/div>/g;
+  let acm;
+  while ((acm = accomCardRx.exec(html)) !== null) {
+    const block = acm[1];
+    const tierM2 = block.match(/class="accom-tier ([^"]+)"[^>]*>(.*?)<\/span>/s);
+    const nameM2 = block.match(/class="accom-name"[^>]*>(.*?)<\/div>/s);
+    const priceM2 = block.match(/class="accom-price"[^>]*>(.*?)<\/div>/s);
+    const descM2 = block.match(/class="accom-desc"[^>]*>(.*?)<\/div>/s);
+    if (!nameM2) continue;
+    const name2 = stripTags(nameM2[1]);
+    const pidx = findPoiIndexByNorm(name2);
+    if (pidx === -1) {
+      process.stderr.write(`  [WARN] accom-card sans POI match: "${name2}"\n`);
+      continue;
+    }
+    const tierClass = tierM2 ? tierM2[1].trim().toLowerCase() : '';
+    const tier = tierClass === 'budget' ? 'budget' : tierClass === 'mid' ? 'mid' : tierClass.includes('p') ? 'gem' : null;
+    if (descM2) pois[pidx].blurb = stripTags(descM2[1]).trim();
+    if (priceM2) pois[pidx].price.range = stripTags(priceM2[1]).trim();
+    if (tier) pois[pidx].tier = tier;
+  }
+
+  // 2. Depuis les info-body (strong + texte)
+  const infoBodyRx = /class="info-body"[^>]*>([\s\S]*?)<\/div>\s*\n?\s*<\/div>/g;
+  let ibm2;
+  while ((ibm2 = infoBodyRx.exec(html)) !== null) {
+    const body = ibm2[1];
+    const strongRx2 = /<strong>([^<]+)<\/strong>\s*[—–-]?\s*([\s\S]*?)(?=<strong>|<div class="link-row">|<img|<\/div>|$)/g;
+    let sm;
+    while ((sm = strongRx2.exec(body)) !== null) {
+      const name3 = sm[1].trim();
+      const textRaw = sm[2];
+      const text = stripTags(textRaw.split('<div')[0]).trim();
+      if (!text || text.length < 5) continue;
+      const pidx = findPoiIndexByNorm(name3);
+      if (pidx === -1) {
+        process.stderr.write(`  [WARN] info-body strong sans POI match: "${name3}"\n`);
+        continue;
+      }
+      // Ne pas écraser un blurb déjà rempli depuis accom-card
+      if (!pois[pidx].blurb) {
+        pois[pidx].blurb = text;
+      }
+    }
+  }
+
   writeFileSync(join(outdir, 'pois.json'), JSON.stringify(pois, null, 2));
   process.stdout.write(`  pois.json — ${pois.length} POIs\n`);
 
@@ -688,9 +870,11 @@ async function main() {
   process.stdout.write(`  budget.json — ${budget?.lines?.length || 0} lignes\n`);
 
   // ── 5. Pratique ────────────────────────────────────────────────────────────
-  const pratique = parsePratique(html);
+  const pratiqueItems = parsePratique(html);
+  // Le schéma attend {groups: [{label, items:[]}]} — on groupe tout dans "Info pratique"
+  const pratique = { groups: [{ label: 'Info pratique', items: pratiqueItems }] };
   writeFileSync(join(outdir, 'pratique.json'), JSON.stringify(pratique, null, 2));
-  process.stdout.write(`  pratique.json — ${pratique.length} items\n`);
+  process.stdout.write(`  pratique.json — ${pratiqueItems.length} items\n`);
 
   // ── 6. Images ──────────────────────────────────────────────────────────────
   const images = parseImages(html, slug);
@@ -712,8 +896,8 @@ function buildFrontmatter(obj, indent = '') {
     if (v === null || v === undefined) {
       out += `${indent}${k}: null\n`;
     } else if (typeof v === 'string') {
-      // Quote si contient des caractères spéciaux
-      if (v.includes('\n') || v.includes('"') || v.includes(':') || v.includes('#') || v.includes('[') || v.includes(']') || v.includes('{') || v.includes('}')) {
+      // Quote si vide ou contient des caractères spéciaux
+      if (v === '' || v.includes('\n') || v.includes('"') || v.includes(':') || v.includes('#') || v.includes('[') || v.includes(']') || v.includes('{') || v.includes('}') || v.includes("'")) {
         const escaped = v.replace(/'/g, "''");
         out += `${indent}${k}: '${escaped}'\n`;
       } else {

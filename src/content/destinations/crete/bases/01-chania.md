@@ -2,16 +2,16 @@
 order: 1
 slug: chania
 title: Chania
-kicker: l'ouest
+kicker: 'l''ouest'
 nights: 8
 dates: 5–12 septembre
-focus: La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l'extrême ouest.
-subtitle: La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l'extrême ouest.
-summary: ""
-pullquote: Huit nuits à Chania, c'est long exprès. C'est le sas du voyage — l'endroit où on laisse tomber le décalage horaire, où on apprend le rythme crétois avant de disparaître à Loutro.
+focus: 'La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l''extrême ouest.'
+subtitle: 'La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l''extrême ouest.'
+summary: ''
+pullquote: 'Huit nuits à Chania, c''est long exprès. C''est le sas du voyage — l''endroit où on laisse tomber le décalage horaire, où on apprend le rythme crétois avant de disparaître à Loutro.'
 cover: chania-cover
 tagBlock:
-  label: Température de l'eau
+  label: 'Température de l''eau'
   tags:
     -
       text: ~24°C début septembre

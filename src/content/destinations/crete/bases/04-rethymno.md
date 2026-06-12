@@ -7,8 +7,8 @@ nights: 7
 dates: 28 septembre–5 octobre
 focus: La deuxième plus belle vieille ville de Crète. Vénitienne, compacte, plus détendue que Chania. Plakias à 45 minutes.
 subtitle: La deuxième plus belle vieille ville de Crète. Vénitienne, compacte, plus détendue que Chania. Plakias à 45 minutes.
-summary: ""
-pullquote: Sept nuits à Rethymno, c'est le sas de sortie. Après Loutro et Sitia, on n'a plus le goût de découvrir à toute vitesse.
+summary: ''
+pullquote: 'Sept nuits à Rethymno, c''est le sas de sortie. Après Loutro et Sitia, on n''a plus le goût de découvrir à toute vitesse.'
 cover: rethymno-cover
 infoBlocks:
   -
@@ -40,7 +40,7 @@ infoBlocks:
   -
     label: Départ
     type: prose
-    body: Héraklion est à 82 km / ~1h15 de Rethymno par l'autoroute E75. Aéroport N. Kazantzakis (HER). Rendre la voiture à l'aéroport. Itinéraire Google Maps
+    body: 'Héraklion est à 82 km / ~1h15 de Rethymno par l''autoroute E75. Aéroport N. Kazantzakis (HER). Rendre la voiture à l''aéroport. Itinéraire Google Maps'
 ---
 
 On veut une belle vieille ville, une adresse le soir, une plage à 45 minutes, et le vol retour facile depuis Héraklion (82 km, 1h15 d'autoroute). Rethymno coche toutes les cases, et c'est plus posé que Chania.

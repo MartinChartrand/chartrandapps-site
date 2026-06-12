@@ -7,8 +7,8 @@ nights: 10
 dates: 25 septembre–4 octobre
 focus: Le slow finish du voyage. Split en trois — Paspatur old town, village fantôme gréco-turc de Kayaköy, falaise de Faralya au-dessus de Butterfly Valley. Départ Dalaman à 45 minutes.
 subtitle: Le slow finish du voyage. Split en trois — Paspatur old town, village fantôme gréco-turc de Kayaköy, falaise de Faralya au-dessus de Butterfly Valley. Départ Dalaman à 45 minutes.
-summary: ""
-pullquote: Dix nuits en finale, c'est la décompression. Après Istanbul, la Cappadoce et Kaş, on n'a plus envie de découvrir à toute vitesse. On veut un bazar à l'aube, un village abandonné sur une colline, et le bruit de la mer quelque part en fond sonore.
+summary: ''
+pullquote: 'Dix nuits en finale, c''est la décompression. Après Istanbul, la Cappadoce et Kaş, on n''a plus envie de découvrir à toute vitesse. On veut un bazar à l''aube, un village abandonné sur une colline, et le bruit de la mer quelque part en fond sonore.'
 cover: fethiye-cover
 infoBlocks:
   -

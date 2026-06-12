@@ -2,24 +2,24 @@
   "slug": "turquie",
   "heroTitle": {
     "main": "Turquie",
-    "em": "septembre–octobre 2027"
+    "em": "septembre–octobre"
   },
   "heroSub": "Un mois, quatre bases, mouvement minimal",
   "subtitle": "Un mois, quatre bases, mouvement minimal",
   "season": "Septembre 2027",
   "travelers": {
-    "count": 2,
-    "label": "Voyage en duo"
+    "count": 1,
+    "label": "Voyageur solo"
   },
   "arrival": {
-    "date": "",
-    "airport": "",
-    "city": ""
+    "date": "2027-09-05",
+    "airport": "IST",
+    "city": "Istanbul"
   },
   "departure": {
-    "date": "",
-    "airport": "",
-    "city": ""
+    "date": "2027-10-05",
+    "airport": "DLM",
+    "city": "Dalaman"
   },
   "theme": {
     "favicon": "🕌",
@@ -27,7 +27,7 @@
   },
   "hero": {
     "image": "hero",
-    "label": "Itinéraire · Voyage en duo"
+    "label": "Itinéraire · Voyage solo"
   },
   "overviewIntro": "Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire descend en diagonale — urbain, intérieur lunaire, côte Lycienne intime, décompression finale — de l'arrivée à Istanbul jusqu'au vol retour depuis Dalaman.",
   "intro": {

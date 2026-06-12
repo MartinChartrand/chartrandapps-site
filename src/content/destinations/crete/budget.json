@@ -67,12 +67,12 @@
   "scenarios": [
     {
       "name": "Budget serré",
-      "total": "",
+      "total": "~9 500 $",
       "desc": "~9 500 $ (Airbnb moins central, plus de repas cuisinés, voiture moins récente)"
     },
     {
       "name": "Budget confort+",
-      "total": "",
+      "total": "~13 500 $",
       "desc": "~13 500 $ (boutique hôtels, restaurant gastronomique 2–3 fois)"
     }
   ],
