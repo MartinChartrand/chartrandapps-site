@@ -76,6 +76,16 @@ const pratiqueEntry = allPratique.find((p) => p.id.startsWith(`${dest}/`));
 
 const d = destination.data;
 
+// Image de fond du hero — résolution du slot via le manifest (même pattern que PhotoGrid)
+const heroAssets = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{jpg,jpeg,png,webp}',
+  { eager: true }
+);
+const heroEntry = imageManifest.find((i) => i.slot === d.hero.image);
+const heroImageUrl = heroEntry
+  ? heroAssets[`/src/assets/destinations/${dest}/${heroEntry.file}`]?.default.src
+  : undefined;
+
 const totalNights =
   d.departure && d.arrival
     ? Math.round(
@@ -109,6 +119,7 @@ const gemGroups = groupsOf(gems);
     arrival={d.arrival}
     departure={d.departure}
     season={d.season}
+    imageUrl={heroImageUrl}
   />
 
   <Nav bases={bases.map((b) => ({ slug: b.data.slug, title: b.data.title }))} dest={dest} />
