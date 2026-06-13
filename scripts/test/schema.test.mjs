@@ -2,7 +2,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 
-import { poiSchema, imageSchema, infoBlockSchema } from '../lib/schemas.mjs';
+import { poiSchema, imageSchema, infoBlockSchema, dishSchema, gemSchema, sourceSchema } from '../lib/schemas.mjs';
 import { validateDataset } from '../lib/dataset.mjs';
 import { hasProblems } from '../lib/report.mjs';
 import { resolvePoiRefs } from '../lib/refs.mjs';
@@ -68,6 +68,47 @@ test('image valide passe / image sans sha256 échoue', () => {
 test('infoBlock poi-list sans items échoue', () => {
   assert.equal(infoBlockSchema.safeParse({ label: 'x', type: 'poi-list' }).success, false);
   assert.equal(infoBlockSchema.safeParse({ label: 'x', type: 'poi-list', items: ['tamam'] }).success, true);
+});
+
+// --- §v3 : provenance & carnet de bouche (ADR-1/2/3 — champs ADDITIFS, doivent rester rétrocompatibles) ---
+const dishV2 = { id: 'a', title: 'b', body: 'c', image: 'd' }; // entrée v2 nue (zéro champ v3)
+
+test('v3 — dish v2 nu (aucun champ provenance) passe : additif = rétrocompatible', () => {
+  assert.equal(dishSchema.safeParse(dishV2).success, true);
+  assert.equal(gemSchema.safeParse(dishV2).success, true);
+});
+
+test('v3 — dish avec provenance + carnet complet passe', () => {
+  const dishV3 = {
+    ...dishV2,
+    type: 'plat',
+    region: 'Chania',
+    story: 'La file de locaux à 1866.',
+    sources: [{ creator: 'Mark Wiens', url: 'https://youtube.com/watch?v=abc', date: '2017-05-01' }],
+    verifiedAt: '2026-06-13',
+    stale: false,
+    singleSourceTrusted: false,
+    approvedBy: 'human',
+  };
+  assert.equal(dishSchema.safeParse(dishV3).success, true);
+});
+
+test('v3 — POI accepte les champs provenance', () => {
+  assert.equal(poiSchema.safeParse({ ...validPoi, story: 'x', verifiedAt: '2026-06-13', approvedBy: 'human' }).success, true);
+});
+
+test('v3 — type hors enum (plat|vin|bière|alcool|produit) échoue', () => {
+  assert.equal(dishSchema.safeParse({ ...dishV2, type: 'dessert' }).success, false);
+});
+
+test('v3 — approvedBy ≠ "human" échoue (pas de publication auto)', () => {
+  assert.equal(dishSchema.safeParse({ ...dishV2, approvedBy: 'auto' }).success, false);
+});
+
+test('v3 — source date non-ISO échoue ; verifiedAt non-ISO échoue', () => {
+  assert.equal(sourceSchema.safeParse({ creator: 'x', url: 'y', date: 'hier' }).success, false);
+  assert.equal(sourceSchema.safeParse({ creator: 'x', url: 'y', date: '2017-05-01' }).success, true);
+  assert.equal(dishSchema.safeParse({ ...dishV2, verifiedAt: 'hier' }).success, false);
 });
 
 // --- Cross-entrée : validateDataset ---

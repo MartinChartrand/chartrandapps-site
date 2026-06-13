@@ -8,11 +8,33 @@ export const POI_KINDS = ['hotel', 'resto', 'plage', 'sight', 'activity', 'winer
 export const MAP_TYPES = ['hotel', 'resto', 'plage', 'sight']; // 4 glyphes carte — découplé de kind
 export const POI_ROLES = ['sleep', 'eat', 'see', 'do', 'drink'];
 export const TIERS = ['budget', 'mid', 'gem'];
+// §v3 — carnet de bouche : type d'item gustatif (ADR-2, docs/v3-design-research/v3-generalisation-decisions.md)
+export const DISH_TYPES = ['plat', 'vin', 'bière', 'alcool', 'produit'];
 
 const linkSchema = z.object({ label: z.string(), url: z.string() });
 const tagSchema = z.object({ text: z.string(), tone: z.enum(['amber', 'green']).optional() });
 
 const ISO_DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'date ISO YYYY-MM-DD requise');
+
+// §v3 — provenance & carnet de bouche (champs ADDITIFS, tous optionnels — ADR-1/2/3).
+// La règle de convergence ≥2 sources (et singleSourceTrusted) vit dans le skill + un validateur CI,
+// JAMAIS ici : une superRefine qui l'exige casserait le contenu v2 existant (zéro source).
+// `stale` est ÉCRIT par le pipeline/script de revalidation, JAMAIS dérivé en Zod — un schéma qui
+// dépend de Date.now() rend le build non-déterministe (vert aujourd'hui, rouge dans 25 mois).
+export const sourceSchema = z.object({
+  creator: z.string(),
+  url: z.string(),   // contenu PRIMAIRE du créateur (sa vidéo/son post), jamais un agrégateur tiers (ADR-4)
+  date: ISO_DATE,    // date de la visite documentée / publication de la source
+});
+const provenanceFields = {
+  story: z.string().optional(),                // narratif riche (ADR-5) ; vide => non affiché (décision rendu)
+  sources: z.array(sourceSchema).optional(),
+  verifiedAt: ISO_DATE.optional(),             // dernière validation humaine, distincte de source.date
+  stale: z.boolean().optional(),               // écrit par la revalidation, jamais calculé au build
+  singleSourceTrusted: z.boolean().optional(), // 1 créateur d'autorité vérifiée (destinations peu couvertes)
+  approvedBy: z.enum(['human']).optional(),    // ADR-3 : pas de publication auto
+  region: z.string().optional(),               // sous-région pour la recherche must-eat dédiée
+};
 
 // §3.1 destination.json
 // intro : blocs titrés (.intro-block v1 — titre + corps, ex. « Pourquoi septembre » / « Logistique de base »)
@@ -140,6 +162,7 @@ export const poiSchema = z
     seasonal: z.boolean().default(false),
     status: statusSchema,
     onMap: z.boolean().default(false),
+    ...provenanceFields, // §v3 additifs (story/sources/verifiedAt/stale/singleSourceTrusted/approvedBy/region)
   })
   .superRefine((p, ctx) => {
     if (p.onMap && !p.coords)
@@ -155,8 +178,10 @@ const editorialSchema = z.object({
   poiRef: z.string().optional(), // rattache au POI vérifiable quand l'item EST un business
   links: z.array(linkSchema).optional(),
   image: z.string(),
+  ...provenanceFields, // §v3 additifs — provenance & carnet de bouche
 });
-export const dishSchema = editorialSchema;
+// dishes = items du carnet de bouche → portent `type` (plat|vin|bière|alcool|produit) ; gems = éditorial non-gustatif.
+export const dishSchema = editorialSchema.extend({ type: z.enum(DISH_TYPES).optional() });
 export const gemSchema = editorialSchema;
 
 // §3.5 budget.json — totaux calculés des lignes
