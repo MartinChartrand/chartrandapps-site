@@ -151,7 +151,15 @@
       "lastChecked": "2026-06-12",
       "method": "migration-v1"
     },
-    "onMap": true
+    "onMap": true,
+    "region": "Chania",
+    "story": "Chrisostomos Orfanoudakis a jamais mis les pieds dans une école de cuisine — il a appris en regardant, pis il s'entête à faire les affaires comme du monde. L'agneau pis la chèvre, il monte les chercher à Sfakia, dans les montagnes. Le pain pis l'ofto — la viande cuite lentement — c'est au feu de bois, pas de raccourci. Commande la sfakiani pita au miel, pis les escargots si t'es game. C'est pas un piège à touristes du vieux port : c'est la place où un gars cuisine ce qu'il se ferait à lui-même.",
+    "sources": [
+      { "creator": "Helen Iatrou (National Geographic)", "url": "https://www.nationalgeographic.com/travel/article/a-food-guide-to-chania-crete", "date": "2026-05-03" },
+      { "creator": "Lori Ann Griffith (Diary of a Gen-X Traveler)", "url": "https://thegenxtravels.com/2023/09/29/revisiting-old-town-chania-crete-greece-2023/", "date": "2023-09-29" }
+    ],
+    "verifiedAt": "2026-06-13",
+    "approvedBy": "human"
   },
   {
     "id": "evgonia",

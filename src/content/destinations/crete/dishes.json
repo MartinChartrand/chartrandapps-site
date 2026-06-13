@@ -1,13 +1,15 @@
 [
   {
-    "id": "loukoumades-chez-ntourountous",
+    "id": "loukoumades-chez-kronos",
     "group": "Incontournables foodie — Chania",
-    "title": "Loukoumades chez Ntourountous",
-    "body": "Beignets au miel chauds, recette familiale. Place 1866, au cœur de la ville. Travelers' Choice TripAdvisor. Localiser",
+    "title": "Loukoumades chez Kronos",
+    "body": "Beignets au miel chauds, faits minute. Le vrai spot loukoumades de Chania, c'est Kronos, rue Mousouron — un duo mère-fille, une dizaine de boules pour quelques euros.",
+    "type": "plat",
+    "region": "Chania",
     "links": [
       {
-        "label": "Localiser",
-        "url": "https://www.google.com/maps/search/Ntourountous+bakery+Chania"
+        "label": "Kronos · Maps",
+        "url": "https://www.google.com/maps/search/Kronos+loukoumades+Mousouron+Chania"
       }
     ],
     "image": "foodie-5"
@@ -29,16 +31,14 @@
     "id": "pieuvre-grillee-xtapodi-sti-schara",
     "group": "Incontournables foodie — Chania",
     "title": "Pieuvre grillée (xtapodi sti schara)",
-    "body": "Essayer chez Chrisostomos ou Evgonia. Grillée à la perfection, huile d'olive crétoise, citron. Aussi essayer l'oursin en salade.",
+    "body": "Grillée à la braise, huile d'olive crétoise, citron. La référence à Chania, c'est To Maridaki sur le vieux port — pieuvre tendre, purée de fava, câpres.",
+    "type": "plat",
+    "region": "Chania",
     "image": "foodie-2",
     "links": [
       {
-        "label": "Chrisostomos · Maps",
-        "url": "https://www.google.com/maps/search/Chrisostomos+Restaurant+Chania"
-      },
-      {
-        "label": "Evgonia · Maps",
-        "url": "https://www.google.com/maps/search/Evgonia+Milonogianni+Chania"
+        "label": "To Maridaki · Maps",
+        "url": "https://www.google.com/maps/search/To+Maridaki+taverna+old+port+Chania"
       }
     ]
   },
@@ -93,7 +93,16 @@
     "id": "raki-maison-tsikoudia",
     "group": "Incontournables foodie — Loutro & Sfakia",
     "title": "Raki maison (tsikoudia)",
-    "body": "Offert comme digestif après chaque repas. Distillé en novembre dans les villages — un rituel communautaire crétois. Demander la version au miel (rakomelo) pour finir la soirée.",
+    "type": "alcool",
+    "region": "Chania",
+    "body": "Offert comme digestif après chaque repas — un rituel communautaire crétois. Demander la version au miel (rakomelo) pour finir la soirée.",
+    "story": "Les Crétois t'arrêteront tout de suite si tu dis « raki » : ici c'est la tsikoudia. À Akrotiri, Christos Mylonakis la distille dans le kazani de cuivre de son grand-père, daté 1932, 130 litres, au feu de bois, trois heures de patience. La saison va d'octobre à la mi-décembre, pis les rakokazana — les distillations — sont des fêtes de village. Les premières gouttes, le protoraki, on les jette pas mais on les boit pas non plus. Ce qu'on te sert après le repas, c'est ça : un alcool clair, sec, fait par quelqu'un qui a un nom.",
+    "sources": [
+      { "creator": "zarpanews.gr (média local Chania)", "url": "https://www.zarpanews.gr/chania-etsi-vgainei-i-kritiki-tsikoydia-to-kazani-i-apostaxi-kai-i-sosti-onomasia-video-photos/", "date": "2021-11-29" }
+    ],
+    "singleSourceTrusted": true,
+    "verifiedAt": "2026-06-13",
+    "approvedBy": "human",
     "image": "foodie-9"
   },
   {
