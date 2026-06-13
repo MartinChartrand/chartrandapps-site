@@ -274,30 +274,6 @@
     }
   },
   {
-    "id": "mercado-triana",
-    "slot": "mercado-triana",
-    "base": null,
-    "role": "photo",
-    "file": "mercado-triana.jpg",
-    "alt": "Le Mercado de Triana, marché couvert de Séville",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "wikimedia",
-      "photoId": "Mercado de Triana.jpg",
-      "photographer": "CarlosVdeHabsburgo",
-      "license": "CC BY-SA 4.0"
-    },
-    "visionChecked": "2026-06-13",
-    "sha256": "c3f2d74bb5f1cc9f5450269cc02f2a2ec3354a40b588a537e44e2efb44be53af",
-    "visionCheckedSemantic": {
-      "sha256": "c3f2d74bb5f1cc9f5450269cc02f2a2ec3354a40b588a537e44e2efb44be53af",
-      "alt": "Le Mercado de Triana, marché couvert de Séville",
-      "verdict": "match",
-      "checkedAt": "2026-06-13"
-    }
-  },
-  {
     "id": "ceramica-triana",
     "slot": "ceramica-triana",
     "base": null,
@@ -366,6 +342,270 @@
       "sha256": "e8c6cb48266bfc5d1e22951fc4e6bfc4d4e6bc7dd11f53ab70485dd4b79b0e4a",
       "alt": "Concrétions souterraines de la Gruta de las Maravillas, Aracena",
       "verdict": "unverifiable",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "triana-pureza",
+    "slot": "triana-pureza",
+    "base": null,
+    "role": "photo",
+    "file": "triana-pureza.jpg",
+    "alt": "La Calle Pureza dans le quartier de Triana, à Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Sevilla - Triana, Calle Pureza 08.jpg",
+      "photographer": "Zarateman",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "3847100c894fc4d52895710299206498a82911fcb6abd3d6fadd6fb92d5e62eb",
+    "visionCheckedSemantic": {
+      "sha256": "3847100c894fc4d52895710299206498a82911fcb6abd3d6fadd6fb92d5e62eb",
+      "alt": "La Calle Pureza dans le quartier de Triana, à Séville",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "casa-triana-betis",
+    "slot": "casa-triana-betis",
+    "base": null,
+    "role": "photo",
+    "file": "casa-triana-betis.jpg",
+    "alt": "Les maisons colorées de la Calle Betis le long du Guadalquivir, à Triana",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Triana calle Betis 2019An001.jpg",
+      "photographer": "Anual",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "f7529130a3d1eedcbb67a447ae629120b8499b24690ffa9675fa7afd5da57f5a",
+    "visionCheckedSemantic": {
+      "sha256": "f7529130a3d1eedcbb67a447ae629120b8499b24690ffa9675fa7afd5da57f5a",
+      "alt": "Les maisons colorées de la Calle Betis le long du Guadalquivir, à Triana",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "triana-patio",
+    "slot": "triana-patio",
+    "base": null,
+    "role": "photo",
+    "file": "triana-patio.jpg",
+    "alt": "Patio andalou à arcades et azulejos d'une maison sévillane",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Casa de Pilatos - patio.jpg",
+      "photographer": "o_andras",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "12630b73ed889081ed8fe76639e02a0276ddfe85259cf88a73bff94ce8bbb0e5",
+    "visionCheckedSemantic": {
+      "sha256": "12630b73ed889081ed8fe76639e02a0276ddfe85259cf88a73bff94ce8bbb0e5",
+      "alt": "Patio andalou à arcades et azulejos d'une maison sévillane",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "azotea-morcilla",
+    "slot": "azotea-morcilla",
+    "base": null,
+    "role": "photo",
+    "file": "azotea-morcilla.jpg",
+    "alt": "Tapa de morcilla (boudin) servie dans un bar espagnol",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Tapa con morcilla-2009.jpg",
+      "photographer": "Tamorlan",
+      "license": "CC BY 3.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "a2571594838016a46647062c45060c197204a4e07a88902084cb862c46b7d7ea",
+    "visionCheckedSemantic": {
+      "sha256": "a2571594838016a46647062c45060c197204a4e07a88902084cb862c46b7d7ea",
+      "alt": "Tapa de morcilla (boudin) servie dans un bar espagnol",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "las-bellotas-carrillada",
+    "slot": "las-bellotas-carrillada",
+    "base": null,
+    "role": "photo",
+    "file": "las-bellotas-carrillada.jpg",
+    "alt": "Carrillada ibérique (joue de porc) braisée, plat servi à Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Carrillada Ibérica Sevilla.jpg",
+      "photographer": "LWY",
+      "license": "CC BY 2.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "22a8b9ec00be8fdfd7bc508fe8bc97a19f692c1d5e1283b751fbcde88f8da1ea",
+    "visionCheckedSemantic": {
+      "sha256": "22a8b9ec00be8fdfd7bc508fe8bc97a19f692c1d5e1283b751fbcde88f8da1ea",
+      "alt": "Carrillada ibérique (joue de porc) braisée, plat servi à Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "cinco-jotas",
+    "slot": "cinco-jotas",
+    "base": null,
+    "role": "photo",
+    "file": "cinco-jotas.jpg",
+    "alt": "La bodega Cinco Jotas à Jabugo, dans la sierra de Huelva",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Jabugo - 001 (30081598714).jpg",
+      "photographer": "Luis Rogelio HM",
+      "license": "CC BY-SA 2.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "818ffc22ee3d12030dd0644e89bd7c6ba5ae89c97cd7557cc6bb07ba05168842",
+    "visionCheckedSemantic": {
+      "sha256": "818ffc22ee3d12030dd0644e89bd7c6ba5ae89c97cd7557cc6bb07ba05168842",
+      "alt": "La bodega Cinco Jotas à Jabugo, dans la sierra de Huelva",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "museo-jamon",
+    "slot": "museo-jamon",
+    "base": null,
+    "role": "photo",
+    "file": "museo-jamon.jpg",
+    "alt": "Le Museo del Jamón d'Aracena, dédié au cochon ibérique",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Museu do Presunto, Aracena, Espanha (39643546925).jpg",
+      "photographer": "Rubem Porto Jr",
+      "license": "Public domain"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "3f39a26f25df298b0a2f2b3a309b03a3a0b23945d0ac75d338e4a440f603bf1a",
+    "visionCheckedSemantic": {
+      "sha256": "3f39a26f25df298b0a2f2b3a309b03a3a0b23945d0ac75d338e4a440f603bf1a",
+      "alt": "Le Museo del Jamón d'Aracena, dédié au cochon ibérique",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "alameda-colonnes",
+    "slot": "alameda-colonnes",
+    "base": null,
+    "role": "photo",
+    "file": "alameda-colonnes.jpg",
+    "alt": "Les deux colonnes romaines de l'Alameda de Hércules, surmontées des statues d'Hercule et de Jules César, à Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Columnas Hércules Julio César.jpg",
+      "photographer": "CarlosVdeHabsburgo",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "852cd07e4973a05e9b57f86920de2465e420104b1dcf0d6beb1d2dff66a579be",
+    "visionCheckedSemantic": {
+      "sha256": "852cd07e4973a05e9b57f86920de2465e420104b1dcf0d6beb1d2dff66a579be",
+      "alt": "Les deux colonnes romaines de l'Alameda de Hércules, surmontées des statues d'Hercule et de Jules César, à Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "sobretablas-plat",
+    "slot": "sobretablas-plat",
+    "base": null,
+    "role": "photo",
+    "file": "sobretablas-plat.jpg",
+    "alt": "Assiette dressée d'un menu dégustation gastronomique",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1759277513303-585be8222377",
+      "photographer": "Madeline Liu",
+      "license": "unsplash-standard"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "c575335b5e0f506c3a10901f7cc074db6d881ce0fa88e8773656c124c7e916c9",
+    "visionCheckedSemantic": {
+      "sha256": "c575335b5e0f506c3a10901f7cc074db6d881ce0fa88e8773656c124c7e916c9",
+      "alt": "Assiette dressée d'un menu dégustation gastronomique",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "mercado-triana",
+    "slot": "mercado-triana",
+    "base": null,
+    "role": "photo",
+    "file": "mercado-triana.jpg",
+    "alt": "Étals et galeries du Mercado de Triana, Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Mercado de Triana.jpg",
+      "photographer": "CarlosVdeHabsburgo",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "c3f2d74bb5f1cc9f5450269cc02f2a2ec3354a40b588a537e44e2efb44be53af",
+    "visionCheckedSemantic": {
+      "sha256": "c3f2d74bb5f1cc9f5450269cc02f2a2ec3354a40b588a537e44e2efb44be53af",
+      "alt": "Étals et galeries du Mercado de Triana, Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "golondrinas-bar",
+    "slot": "golondrinas-bar",
+    "base": null,
+    "role": "photo",
+    "file": "golondrinas-bar.jpg",
+    "alt": "Comptoir et tabourets dun bar à tapas espagnol de quartier",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1512805147242-c3e79caf64bf",
+      "photographer": "Austin Gardner",
+      "license": "unsplash-standard"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "f370ab07ba98557d68816d89c1a79c41dcbd4045bb0ba30257557b59d999d978",
+    "visionCheckedSemantic": {
+      "sha256": "f370ab07ba98557d68816d89c1a79c41dcbd4045bb0ba30257557b59d999d978",
+      "alt": "Comptoir et tabourets dun bar à tapas espagnol de quartier",
+      "verdict": "match",
       "checkedAt": "2026-06-13"
     }
   }

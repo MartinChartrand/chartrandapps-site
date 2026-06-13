@@ -11,7 +11,7 @@
     "name": "Triana Pureza (appartement)",
     "blurb": "Appart 1 chambre sur Calle Pureza, cuisine équipée — parfait pour cuisiner ce que tu rapportes du Mercado de Triana. Noté 8.8, en plein cœur du quartier.",
     "signature": "",
-    "image": null,
+    "image": "triana-pureza",
     "price": {
       "range": "~70–95 €/nuit (est. 2027)",
       "currency": "EUR",
@@ -49,7 +49,7 @@
     "name": "Casa de Triana Luxury Suites (by Casa del Poeta)",
     "blurb": "Calle Betis 68, maison du XIXe, 7 suites avec cuisine et terrasses donnant sur le Guadalquivir et la vieille ville en face. Le coucher de soleil que tu cherches, depuis ta chambre.",
     "signature": "",
-    "image": null,
+    "image": "casa-triana-betis",
     "price": {
       "range": "~130–185 €/nuit (est. 2027)",
       "currency": "EUR",
@@ -87,7 +87,7 @@
     "name": "Hotel Boutique Triana House",
     "blurb": "7 chambres signées Amaro Sánchez de Moya, chacune un clin d'œil à une province andalouse. Ouvert en 2022, patio flamboyant, terrasse sur le toit, à 2 pas de l'église Santa Ana.",
     "signature": "",
-    "image": null,
+    "image": "triana-patio",
     "price": {
       "range": "~180–270 €/nuit (est. 2027)",
       "currency": "EUR",
@@ -125,7 +125,7 @@
     "name": "Bar Las Golondrinas",
     "blurb": "Institution de Triana depuis 1962, carrelée du sol au plafond. Tu dis juste « dame una » et on t'apporte LE plat de la maison sans poser de question.",
     "signature": "Puntas de solomillo (pointes de filet de porc grillées sur lit de patates) — le classique que les habitués commandent sans le nommer",
-    "image": null,
+    "image": "golondrinas-bar",
     "price": {
       "range": "tapas ~3–4 € / ración ~9–14 € (est. 2027)",
       "currency": "EUR",
@@ -163,7 +163,7 @@
     "name": "Casa Cuesta",
     "blurb": "Calle Castilla, fondée en 1880, près du Mercado et du pont. Murs de céramique, guisos (ragoûts), fruits de mer — l'histoire de Triana dans une assiette, pas un menu en 5 langues.",
     "signature": "Rabo de toro (queue de taureau braisée) et guisos traditionnels — table d'institution, pas un bar à tapas express",
-    "image": null,
+    "image": "rabo-toro",
     "price": {
       "range": "tapas ~3–4,50 € / plats ~12–18 € (est. 2027)",
       "currency": "EUR",
@@ -201,7 +201,7 @@
     "name": "La Azotea (Jesús del Gran Poder)",
     "blurb": "Tapas créatives qui ont brassé la scène sévillane — la succursale Gran Poder est côté Alameda, fréquentée par les locaux. Plusieurs adresses existent, attention à laquelle tu réserves.",
     "signature": "Morcilla aux oignons caramélisés couronnée d'un œuf de caille ; ventrèche de thon et seiche panée à la mayo d'oloroso",
-    "image": null,
+    "image": "azotea-morcilla",
     "price": {
       "range": "plats ~9–16 € (est. 2027)",
       "currency": "EUR",
@@ -239,7 +239,7 @@
     "name": "Sobretablas",
     "blurb": "Le repas-événement du séjour. Camila Ferraro (1re femme Cocinero Revelación 2020, ex-El Celler de Can Roca) + sommelier Robert Tetas. Bib Gourmand. NOTE : c'est à El Porvenir, PAS à Triana — ~15 min en char ou taxi.",
     "signature": "Menu dégustation andalou de saison (option « Sobretablas Deluxe » avec accord vins) — produit local, technique de haute cuisine",
-    "image": null,
+    "image": "sobretablas-plat",
     "price": {
       "range": "menu dégustation ~55–80 €/pers (est. 2027, à confirmer)",
       "currency": "EUR",
@@ -454,7 +454,7 @@
     "name": "Alameda de Hércules",
     "blurb": "Promenade bohème au nord du centre, colonnes romaines aux extrémités. Vie de quartier réelle, terrasses où les Sévillans traînent le soir. Alternative de base à Triana.",
     "signature": "",
-    "image": null,
+    "image": "alameda-colonnes",
     "price": {
       "range": "gratuit",
       "currency": "EUR",
@@ -624,7 +624,7 @@
     "name": "Bodega Cinco Jotas (Jabugo)",
     "blurb": "Le « temple » du 100% ibérique bellota, en activité depuis 1879. Visite des caves de séchage + dégustation. Plus institutionnel/marketé qu'Eíriz — fais les deux pour le contraste artisan vs maison historique.",
     "signature": "Jamón 5J 100% ibérico de bellota ; charcuterie caña de lomo / presa accordée à l'oloroso",
-    "image": null,
+    "image": "cinco-jotas",
     "price": {
       "range": "visite de base ~28 €/pers (60 min) ; dégustation étendue ~46 €/pers (80 min) — asOf 2026, re-valider 2027",
       "currency": "EUR",
@@ -674,7 +674,7 @@
     "name": "Restaurante Las Bellotas (Jabugo)",
     "blurb": "La table du midi à Jabugo après les visites. Gastronomie de la Sierra, ~4,5/5 sur 750+ avis Google. Avenida de los Trabajadores.",
     "signature": "Presa ibérica grillée et carrillada ibérica (joue de porc braisée) ; croquetas de jamón de bellota",
-    "image": null,
+    "image": "las-bellotas-carrillada",
     "price": {
       "range": "raciones ~10–20 € (est. 2027)",
       "currency": "EUR",
@@ -752,7 +752,7 @@
     "name": "Centro de Interpretación del Cerdo Ibérico / Museo del Jamón (Aracena)",
     "blurb": "Le pourquoi derrière la dégustation : dehesa, montanera, races, séchage. Visite guidée ou audioguide incluse. À faire AVANT les producteurs pour comprendre ce que tu goûtes.",
     "signature": "",
-    "image": null,
+    "image": "museo-jamon",
     "price": {
       "range": "adulte ~3,50 € / 65+ ~3 € (asOf 2026 — re-valider 2027)",
       "currency": "EUR",
