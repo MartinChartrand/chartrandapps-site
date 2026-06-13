@@ -78,6 +78,7 @@ Mémoires Claude clés : `modele-voyage-container-episodes`, `definition-produit
 
 ## Démarrage suggéré (prochaine session)
 
+0. **Lire `docs/CONTRAT-MACHINE-A-SAUCISSE.md` EN PREMIER** (le contrat d'opération : 4 lois, gate `npm run audit`). Né du diagnostic des raccourcis pris cette session — c'est la barre, pas une suggestion.
 1. Lire ce doc + `modele-voyage-container-decisions.md` (les 7 ADRs) + mémoire `modele-voyage-container-episodes`.
 2. `cd ~/Developer/chartrandapps-site && git checkout feat/andalousie-seville-dogfood && npm test && npm run validate:fast` (139 verts, fast vert attendus).
 3. Attaquer **ADR-7** : extraire les helpers de `proto/chania.astro` + `proto/seville.astro` dans un module
