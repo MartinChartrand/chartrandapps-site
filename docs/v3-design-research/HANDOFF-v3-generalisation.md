@@ -10,10 +10,21 @@ même dossier), `EXPLORATION.md` (§ Le carnet de bouche), mémoire Claude `visi
   besoin de travailler le storytelling, mais on est dans la bonne direction » — direction validée,
   **polish = chantier ouvert distinct, PAS un bloqueur** ; critère 3 (perf iPhone) « good en général ».
   Martin verrouille la spec v3. La séquence GO est ENCLENCHÉE.
-- **5 commits poussés ce jour**, CI verte à chaque coup, build vert, 103/103 tests :
-  `199cfa1` (fix CI Node 24), `e676c60` (décisions /persona-debate + personas.md),
-  `72a2c00` (étape 1 schéma), `b08e3cb` (étape 2 KML), `d82c149` (étape 3 composants).
-- **Étapes 1-5 sur 6 FAITES.** Reste 6 (+ 2 bouts de RENDU reportés, voir bas).
+- **12 commits poussés ce jour** (matin: `199cfa1` fix CI Node 24, `e676c60` ADRs, `72a2c00` étape 1
+  schéma, `b08e3cb` étape 2 KML, `d82c149` étape 3 composants ; après-midi: `cc101dd` étape 4 vision,
+  `d019cf9` étape 5A provenance, `430260c` doc, `4cde1d9`+`e99ae46`+`37bf33d` carnet Chania,
+  `8ee16f4` schéma date-source). CI verte, build vert, **136/136 tests**.
+- **Étapes 1-5 sur 6 FAITES. #6 EN COURS** (premier vrai contenu v3 livré, voir section dédiée).
+- **VERDICT PRÊT-POUR-TEST (le plus important pour la prochaine session)** — Martin veut tester le
+  framework sur une NOUVELLE destination. Réponse honnête, deux moitiés à niveaux différents :
+  - **Moitié 1 — machine à véracité = PRÊTE.** Schéma v3 + garde provenance + filet vision + sourcing
+    graphe-créateurs + pinchtab. Une nouvelle destination est le test IDÉAL (terrain vierge, pas de
+    béquille legacy). **GO pour tester que le contenu sort vrai/sourcé.**
+  - **Moitié 2 — rendu épisode v3 = PAS prête pour du neuf.** Le scrollytelling Bourdain vit
+    UNIQUEMENT dans `src/pages/proto/chania.astro` (`EpisodeLayout`). La route réelle
+    `src/pages/[dest]/index.astro` utilise encore TOUS les composants v2 (« long scroll plate »).
+    Une nouvelle destination sortirait **véridique mais en look v2**, pas en épisode. Tester le FEEL
+    exige d'abord de généraliser `EpisodeLayout` du proto vers `[dest]` (le chunk de rendu reporté).
 - **CADRAGE (confirmé 2026-06-13)** : le but n'est PAS de réparer crete/turquie — c'est de bâtir le
   **framework répétable** qui crache des sites Bourdain-esques *véridiques by construction* pour
   n'importe quelle destination. Crete/turquie = cobayes qui prouvent que le filet mord. La dette
@@ -79,6 +90,42 @@ Dre Léa(intégrité) / Architecte — dans `personas.md` (racine repo, réutili
   composition éditoriale + résolution d'images seulement (~150 l. de frontmatter/chapitre).
   +2 tests de garde (`episode-css-global.test.mjs`).
 
+## Étape 6 EN COURS — Carnet de bouche, premier vrai contenu v3 (cette session)
+
+Le test grandeur nature. La boucle ADR-3 (pipeline propose des candidats → Martin approuve au gate →
+on écrit) a tourné sur le chapitre **Chania**. Ce que ça a donné :
+
+- **Le framework a refusé de mentir 5 fois** : 3 fiches live factuellement FAUSSES démasquées par le
+  test de convergence humain (que ni les gardes ni un check sha-only attrapent) + 2 photos menteuses
+  pognées par le filet vision. Corrigées : `loukoumades` Ntourountous→Kronos (Ntourountous = brunch),
+  `marche-du-mercredi` était mal étiqueté (le Koumoundourou est Rethymno, pas Chania), `pieuvre`
+  Chrisostomos/Evgonia→To Maridaki.
+- **3 récits Bourdain shippés avec provenance vérifiée** (voix québécoise approuvée par Martin) :
+  `chrisostomos` (POI, 2 sources indépendantes NatGeo + Gen-X Traveler), `raki-maison-tsikoudia`
+  (singleSourceTrusted zarpanews), `sfakianopita-le-plat-de-la-region` (singleSourceTrusted ERT).
+  `validate-provenance crete` = 3 OK / 0 probleme.
+- **Pinchtab perce le mur YouTube** (`8ee16f4` débloque ça). L'agent web ne peut PAS extraire
+  YouTube/TikTok/Insta (footer seulement) → les créateurs-caméra restaient non vérifiables. Mais le
+  browser pinchtab (mode dashboard ; `eval` 404 mais `navigate`+`snapshot`+`screenshot` OK) lit la
+  page : titre, chaîne, *Verified*, vues, description. J'ai qualifié ERT (TV publique grecque) + Paxxi
+  (chaîne crétoise) pour la sfakianopita — VU Paxxi pétrir la pâte sur caméra. **C'est comme ça qu'on
+  fait le track créateur-caméra : pinchtab pour visionner.** Limite : YouTube affiche des dates
+  RELATIVES (« il y a X ans ») ; la date exacte se résout via un snippet Google (l'agent l'a fait pour
+  ERT = 2023-06-22) ou reste introuvable (Paxxi → hors `sources[]`, jamais de date inventée).
+- **Schéma date-source assoupli (`8ee16f4`)** : `SOURCE_DATE = /^\d{4}-\d{2}(-\d{2})?$/` sur
+  `sourceSchema.date` seulement (précision mois OK pour les vidéos). Les dates de VOYAGE + `verifiedAt`
+  gardent `ISO_DATE` strict (jour requis).
+- **TROU PHOTO ouvert (gros)** : le filet vision a confirmé que le manifeste images crete est
+  *scrambled* (les alts décalés) — `foodie-6` montre de l'agneau, `foodie-9` une plage. J'ai retiré les
+  2 photos menteuses des items shippés (`image:""` → `getImgSrc` retourne null, `dataset.mjs` court-
+  circuite sur image vide ; « placeholder honnête > stock », Sophie). **Les 3 items du carnet ont donc
+  un récit vérifié mais AUCUNE photo.** La passe photo est le prochain chunk : sourcer de vraies images
+  (`scripts/migrate/fetch-images.mjs` : ajouter slots avec `_url`, il télécharge + sha256) → vision-check
+  → sceau. Niche crétois incertain en stock Unsplash — mérite sa propre session.
+- **Items tenus DEHORS honnêtement** (le filet filtre) : `bougatsa-iordanis` + marché Laiki Minoos
+  (récits écrits, besoin de photo) ; `degustation-raki-et-vin` (date Chamberlin incomplète + Neather
+  hosted) ; `tamam`/`evgonia`/`paidakia-stratis` (1 source ou agrégateurs).
+
 ## Méthode de vérification réutilisable (étape 3)
 
 **Golden master** : HTML buildé du proto AVANT refactor → normalisé (strip `data-astro-cid`,
@@ -99,26 +146,52 @@ identiques). Jeter un œil à `/proto/chania/` post-deploy pour confirmer flyTo/
 - **`stale` en Zod = bombe à retardement** (build qui pourrit dans le temps) — même classe que le
   Node 24 désamorcé ce jour. Toute dérivation temporelle vit dans le script de revalidation.
 
-## Prochaine session — étape 6 + RENDU reporté (#1-5 FAITES)
+## PROCHAINE SESSION — Test sur une NOUVELLE destination (décision Martin, 2026-06-13)
 
-6. **Pipeline carnet sur la Crète** (ADR-2 contenu) : maintenant que LES DEUX filets existent
-   (#4 vision + #5 provenance). Première vraie passe de contenu v3 — c'est ici que les gardes mordent
-   pour de bon. Suivre la Phase 1b du skill `/voyage-new` v3.
-- **RENDU reporté (code de composants, HORS skill par ADR-7)** — dû mais sorti du périmètre étape 5 :
-  (a) génération/édition du scrollytelling d'épisode (frontmatter scenes/mapBeats/montageBeats — gabarit
-  `EpisodeLayout.astro` + `components/episode/*` existe) ; (b) affichage des `sources[]` + badge
-  `singleSourceTrusted` + avertissement `stale` dans l'UI épisode (« sources visibles » de Marco/ADR-5).
+Martin veut dogfooder le framework sur une **nouvelle idée de voyage** (destination à choisir avec lui
+en Phase 0 du skill). Deux chemins selon ce qu'on teste — relire le VERDICT PRÊT-POUR-TEST en haut :
 
-**Dette legacy (PAS le focus — framework d'abord)** : alts manifest crete décalés (le test #4 du
-2026-06-13 en a confirmé ≥4 sur 5 images échantillon) + 11 dishes/3 gems sans liens dans
-Loutro/Sitia/Rethymno. Chantier éditorial distinct : rouler `vision:images crete` sort la liste, puis
-remplacer l'image ou réécrire l'alt par mismatch. **Polish storytelling Bourdain** = chantier ouvert distinct.
+### Chemin A — Tester la VÉRACITÉ (prêt, recommandé en premier)
+Le vrai stress test : le framework crache-t-il du contenu vrai/sourcé sur terrain vierge (sans la
+béquille du legacy) ? **Scoper à UN chapitre** (pattern éprouvé proto-Chania-d'abord), pas un build
+4-bases complet.
+1. `/voyage-new` Phase 0 (cadrage : destination, voyageur, dates, 1 base focus) — checkpoint Martin.
+2. Phase 1b carnet : lancer un agent de recherche graphe-créateurs + sources (réutiliser le prompt qui
+   a marché pour Chania — voir l'agent de la session 2026-06-13). Ramener des CANDIDATS.
+3. Gate Martin : il approuve → `approvedBy:human`. Les INSUFFISANT restent dehors.
+4. Écrire les récits (sa voix), `vision:images` sur les vraies photos, `validate:provenance` +
+   `validate:fast` verts.
+**Ce que ça VA exposer (et c'est le but)** : le trou photo (sourcing niche en stock), peut-être des
+gaps du skill. Bibittes = signal, pas échec.
 
-## Démarrage suggéré
+### Chemin B — Tester le FEEL épisode (BLOQUÉ tant que le rendu n'est pas généralisé)
+Pour qu'une nouvelle destination RESSEMBLE à un épisode Parts Unknown (pas au long-scroll v2), il faut
+d'abord **généraliser le rendu épisode** : porter `src/pages/proto/chania.astro` (qui utilise
+`EpisodeLayout` + `components/episode/*`) vers la route réelle `src/pages/[dest]/index.astro` (ou une
+route `[dest]/[base]` épisode). Aujourd'hui `[dest]/index.astro` = 100% composants v2. C'est LE chunk
+de rendu reporté. À faire avant (ou pendant) si Martin veut juger le feel sur du neuf.
 
-1. Lire ce doc + `v3-generalisation-decisions.md` (les 7 ADRs) + `EXPLORATION.md` (§ carnet de bouche)
-   + mémoire `bareme-temoin-images.md` (le filet #4 vit au niveau image).
-2. `cd ~/Developer/chartrandapps-site && npm test && npm run validate:fast` (136 verts attendus, fast vert).
-3. Attaquer l'étape 6 (pipeline carnet sur la Crète) via le skill `/voyage-new` v3 (Phase 1b). Les deux
-   filets (#4 vision, #5 provenance) mordront sur ce premier vrai contenu v3 — c'est le test grandeur
-   nature du framework. Mémoires : `vision-skill-voyage-v3.md`, `bareme-temoin-images.md`.
+### Chunks de rendu reportés (HORS skill par ADR-7) — à planifier
+1. **Généraliser l'épisode** proto → `[dest]` (ci-dessus). Gating pour le feel.
+2. **Afficher la provenance dans l'UI** : `sources[]` + badge `singleSourceTrusted` + avertissement
+   `stale` (« sources visibles » de Marco/ADR-5). Les données existent, le rendu non.
+
+### Trou photo (le plus concret du #6)
+Manifeste crete scrambled (alts décalés, confirmé par le filet). Passe dédiée : sourcer de vraies
+photos (Unsplash via pinchtab → `fetch-images.mjs` → `vision:images` → sceau). Concerne les 3 items
+shippés (chrisostomos/raki/sfakianopita = sans photo) + bougatsa/marché. **PAS le focus legacy** mais
+nécessaire pour que le carnet ait ses « photos alléchantes » (exigence #4 du carnet).
+
+### Dette legacy (PAS le focus — framework d'abord)
+Alts manifest crete + 11 dishes/3 gems sans liens (Loutro/Sitia/Rethymno). `vision:images crete`
+complet sort la liste (mais le rouler scelle les mismatch → validate:fast rouge sur le legacy : à faire
+seulement quand on attaque vraiment la purge). **Polish storytelling Bourdain** = chantier distinct.
+
+## Démarrage suggéré (prochaine session)
+
+1. Lire ce doc (surtout le VERDICT PRÊT-POUR-TEST + la section #6) + `v3-generalisation-decisions.md`
+   (7 ADRs) + mémoires `bareme-temoin-images.md` (filet niveau image) + `vision-skill-voyage-v3.md`.
+2. `cd ~/Developer/chartrandapps-site && npm test && npm run validate:fast` (136 verts, fast vert attendus).
+3. Décider avec Martin : **Chemin A** (test véracité sur 1 chapitre d'une nouvelle destination — prêt)
+   ou **généraliser le rendu épisode d'abord** (Chemin B) pour aussi juger le feel. Le skill à suivre :
+   `~/.claude/skills/voyage-new/SKILL.md` (v3). Pinchtab dispo pour le track créateur-caméra.
