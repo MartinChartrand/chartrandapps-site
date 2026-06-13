@@ -1,7 +1,7 @@
 ---
 // PROTOTYPE v3 — « mode épisode » — UN chapitre : SÉVILLE (Andalousie).
 // Route isolée (/proto/seville/), ne touche pas au rendu v2 (/andalousie/).
-// Gabarit : proto/chania.astro + EpisodeLayout + components/episode/*.
+// CLONE FIDÈLE de proto/chania.astro — même structure/mécanique, SEULE l'info change.
 // CETTE page = composition éditoriale du chapitre (grammaire Bourdain, cf.
 // docs/v3-design-research/storyboard-bourdain-andalousie.md) + résolution d'images.
 // Cold open = LA CONTRADICTION (joie sévillane / château de l'Inquisition).
@@ -18,10 +18,11 @@ import { getCollection } from 'astro:content';
 const dest = 'andalousie';
 const baseSlug = 'seville';
 
-const [allBases, allPois, allDishes, allImages] = await Promise.all([
+const [allBases, allPois, allDishes, allGems, allImages] = await Promise.all([
   getCollection('bases'),
   getCollection('pois'),
   getCollection('dishes'),
+  getCollection('gems'),
   getCollection('images'),
 ]);
 
@@ -38,9 +39,15 @@ const pois = allPois
   .map((p) => p.data)
   .filter((p) => p.base === baseSlug);
 
+// NB : les dishes andalousie ne sont PAS groupés par `group` (chapitre unique) — ils
+// portent `region`. On prend donc tout le carnet de la destination (pas de filtre group).
 const dishes = allDishes.filter((d) => d.id.startsWith(`${dest}/`)).map((d) => d.data);
 
-const imageManifest = allImages.filter((i) => i.id.startsWith(`${dest}/`)).map((i) => i.data);
+const gems = allGems.filter((g) => g.id.startsWith(`${dest}/`)).map((g) => g.data);
+
+const imageManifest = allImages
+  .filter((i) => i.id.startsWith(`${dest}/`))
+  .map((i) => i.data);
 
 const pageAssets = import.meta.glob<{ default: ImageMetadata }>(
   '/src/assets/**/*.{jpg,jpeg,png,webp}',
@@ -49,8 +56,16 @@ const pageAssets = import.meta.glob<{ default: ImageMetadata }>(
 function resolveSlot(slot: string | null | undefined): string | undefined {
   if (!slot) return undefined;
   const entry = imageManifest.find((i) => i.slot === slot);
-  if (!entry) return undefined;
-  return pageAssets[`/src/assets/destinations/${dest}/${entry.file}`]?.default?.src;
+  if (!entry) {
+    console.warn(`[proto] ${dest}: slot "${slot}" absent du manifest images.json`);
+    return undefined;
+  }
+  const mod = pageAssets[`/src/assets/destinations/${dest}/${entry.file}`];
+  if (!mod) {
+    console.warn(`[proto] ${dest}: fichier "${entry.file}" introuvable (slot "${slot}")`);
+    return undefined;
+  }
+  return mod.default.src;
 }
 const poi = (id: string) => {
   const p = pois.find((x) => x.id === id);
@@ -58,6 +73,7 @@ const poi = (id: string) => {
   return p;
 };
 
+// Pills de liens d'un POI — toute reco = lien cliquable (critère CI).
 type Pill = { label: string; url: string };
 function poiPills(p: (typeof pois)[number]): Pill[] {
   const pills: Pill[] = [];
@@ -69,12 +85,13 @@ function poiPills(p: (typeof pois)[number]): Pill[] {
   return pills;
 }
 
-// ——— Composition de l'épisode (grammaire Bourdain) ———
+// ——— Composition de l'épisode (jugement éditorial — grammaire Bourdain) ———
+// Test Bourdain : qui est derrière ? pourquoi ça compte ? on commande quoi ?
+// Réponse complète → scène. Sinon → carnet.
 const rinconcillo = poi('el-rinconcillo');
 const eiriz = poi('jamones-eiriz');
 const giralda = poi('catedral-giralda');
 
-// Les SCÈNES = les POIs wow promus (un visage chacun). Phase 2-3-4 de l'arc.
 const scenes = [
   {
     id: 'scene-rinconcillo',
@@ -126,7 +143,7 @@ const scenes = [
   },
 ];
 
-// COLD OPEN — beats d'orientation carte. Le 1er beat porte LA CONTRADICTION.
+// Beats du cold open carte-scène. Le 1er beat porte LA CONTRADICTION.
 const mercado = poi('mercado-de-triana');
 const betis = poi('calle-betis-puente');
 const alcazar = poi('real-alcazar');
@@ -161,10 +178,12 @@ const mapBeats = [
   },
 ];
 
-// LE MONTAGE — le trailer du carnet (un beat par groupe, pas par adresse).
+// ——— Le montage (un beat par GROUPE — le trailer du carnet, pas son inventaire) ———
 const golondrinas = poi('las-golondrinas');
 const casaCuesta = poi('casa-cuesta');
 const sobretablas = poi('sobretablas');
+const museoJamon = poi('museo-del-jamon-aracena');
+const cincoJotas = poi('cinco-jotas-bodega');
 
 const montageBeats = [
   {
@@ -181,6 +200,18 @@ const montageBeats = [
     ],
   },
   {
+    kicker: 'Le pèlerinage jamón',
+    body: 'Une journée de char vers la Sierra de Aracena. Commence au Musée du jamón pour comprendre la dehesa, puis Cinco Jotas à Jabugo — plus gros, plus marketé qu’Eiriz, mais la cave vaut le coup. Le contraste artisan vs machine, dans la même journée.',
+    bounds: [museoJamon, cincoJotas].map((p) => `${p.coords.lat},${p.coords.lng}`).join(';'),
+    targets: ['museo-del-jamon-aracena', 'cinco-jotas-bodega'],
+    thumb: 'dehesa-eiriz',
+    thumbAlt: 'Cochons ibériques pata negra dans la dehesa',
+    pills: [
+      { label: 'Musée du jamón · Maps', url: museoJamon.links.maps! },
+      { label: 'Cinco Jotas', url: cincoJotas.links.official! },
+    ],
+  },
+  {
     kicker: 'Le rituel (boire comme un local)',
     body: 'Le fino bien frais, la manzanilla saline, le vermut de grifo à la pression le dimanche midi (la hora del vermut), le tinto de verano l’après-midi. Pas de sangria — ça, c’est pour les autobus.',
     fly: `${betis.coords.lat},${betis.coords.lng},15`,
@@ -191,15 +222,48 @@ const montageBeats = [
   },
 ];
 
-// ——— Markers + transformation vers les shapes des composants ———
+// Markers de la carte (mêmes données que MapSection v2)
 const mapMarkers = pois
   .filter((p) => p.onMap)
   .map((p) => ({ id: p.id, name: p.name, mapType: p.mapType, coords: p.coords }));
+
+// Vue d'ouverture : cadre tous les POI du chapitre
 const allCoords = mapMarkers.map((m) => `${m.coords.lat},${m.coords.lng}`).join(';');
 
-const toBeat = (b: any) => ({
-  fly: b.fly as string | undefined,
-  bounds: b.bounds as string | undefined,
+// ——— Carnet (mode terrain — liste dense, liens directs) ———
+const infoOrder: string[] = (bd.infoBlocks ?? []).flatMap((b: any) =>
+  b.type === 'poi-list' ? b.items : []
+);
+const rank = (id: string) => {
+  const i = infoOrder.indexOf(id);
+  return i === -1 ? Number.MAX_SAFE_INTEGER : i;
+};
+const byKind = (kinds: string[]) =>
+  pois.filter((p) => kinds.includes(p.kind)).sort((a, b) => rank(a.id) - rank(b.id));
+// Andalousie : pas de plages, mais des `activity` (marché, producteurs) → fondus dans « À voir & faire ».
+const carnetGroups = [
+  { label: 'Où dormir', items: byKind(['hotel']) },
+  { label: 'Où manger', items: byKind(['resto']) },
+  { label: 'À voir & faire', items: byKind(['sight', 'activity']) },
+];
+
+// Blocs prose du chapitre (les infoBlocks andalousie sont tous poi-list → vide, mais on garde le mécanisme)
+const proseBlocks = (bd.infoBlocks ?? []).filter((b: any) => b.type === 'prose');
+
+// Vignettes des rangées du carnet — andalousie a des sceaux vision CORRECTS (pas de manifest décalé
+// comme crete) → on lit p.image directement, pas d'override pixel-vérifié nécessaire.
+const carnetThumbs: Record<string, { slot: string; alt: string }> = {};
+function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
+  const o = carnetThumbs[p.id];
+  if (o) return { src: resolveSlot(o.slot), alt: o.alt };
+  if (p.image) return { src: resolveSlot(p.image), alt: p.name };
+  return { src: undefined, alt: '' };
+}
+
+// ——— Transformation vers les shapes des composants (résolution d'images ici) ———
+const toBeat = (b: (typeof mapBeats)[number]) => ({
+  fly: (b as any).fly as string | undefined,
+  bounds: (b as any).bounds as string | undefined,
   targets: b.targets,
   thumbSrc: resolveSlot(b.thumb),
   thumbAlt: b.thumbAlt,
@@ -224,34 +288,14 @@ const sceneData = scenes.map((s) => ({
   pills: s.pills,
 }));
 
-// ——— Carnet (mode terrain — l'outil de départ, première classe) ———
-const infoOrder: string[] = (bd.infoBlocks ?? []).flatMap((b: any) =>
-  b.type === 'poi-list' ? b.items : []
-);
-const rank = (id: string) => {
-  const i = infoOrder.indexOf(id);
-  return i === -1 ? Number.MAX_SAFE_INTEGER : i;
-};
-const byKind = (kinds: string[]) =>
-  pois.filter((p) => kinds.includes(p.kind)).sort((a, b) => rank(a.id) - rank(b.id));
-
-const carnetGroups = [
-  { label: 'Où dormir', items: byKind(['hotel']) },
-  { label: 'Où manger', items: byKind(['resto']) },
-  { label: 'À voir & faire', items: byKind(['sight', 'activity']) },
-];
-
-function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
-  if (p.image) return { src: resolveSlot(p.image), alt: p.name };
-  return { src: undefined, alt: '' };
-}
-
-type Pill2 = Pill;
+// Carnet : structure unifiée (listes + prose) pour CarnetSection.
 const kmlCount = pois.filter((p) => p.onMap).length;
-const carnetListGroups = carnetGroups.map((g) => ({
-  type: 'list' as const,
-  title: g.label,
-  rows: g.items.map((p) => {
+type CarnetRow = {
+  id?: string; dataPoi?: string; thumbSrc?: string; thumbAlt?: string; thumbFood?: boolean;
+  name: string; price?: string; blurb?: string; pills: Pill[]; forcePillRow?: boolean;
+};
+const carnetListGroups = carnetGroups.map((g) => {
+  const rows: CarnetRow[] = g.items.map((p) => {
     const t = poiThumb(p);
     return {
       id: `carnet-${p.id}`,
@@ -264,13 +308,36 @@ const carnetListGroups = carnetGroups.map((g) => ({
       pills: poiPills(p),
       forcePillRow: true,
     };
-  }),
-  footer:
-    g.label === 'Où manger'
-      ? 'Règle d’or : éviter le premier rang de terrasses de Calle Betis avec menus en 5 langues.'
-      : undefined,
+  });
+  if (g.label === 'Où dormir') {
+    for (const e of (bd.accomExtras ?? []) as any[]) {
+      rows.push({
+        thumbSrc: e.image ? resolveSlot(e.image) : undefined,
+        thumbAlt: e.name,
+        name: e.name,
+        price: e.price || undefined,
+        blurb: e.blurb,
+        pills: (e.links ?? []) as Pill[],
+        forcePillRow: true,
+      });
+    }
+  }
+  return {
+    type: 'list' as const,
+    title: g.label,
+    rows,
+    footer:
+      g.label === 'Où manger'
+        ? 'Règle d’or : éviter le premier rang de terrasses de Calle Betis avec menus en 5 langues.'
+        : undefined,
+  };
+});
+const proseGroups = proseBlocks.map((b: any) => ({
+  type: 'prose' as const,
+  title: b.label as string,
+  body: b.body as string,
+  pills: (b.links ?? []) as Pill[],
 }));
-
 const dishesGroup = {
   type: 'list' as const,
   title: 'Le carnet de bouche',
@@ -280,12 +347,24 @@ const dishesGroup = {
     thumbFood: true,
     name: d.title,
     blurb: d.body,
-    pills: (d.links ?? []) as Pill2[],
-    forcePillRow: true,
-  })),
+    pills: (d.links ?? []) as Pill[],
+  })) as CarnetRow[],
 };
-
-const carnetAllGroups = [...carnetListGroups, dishesGroup];
+const gemsGroup = {
+  type: 'list' as const,
+  title: 'Pépites locales',
+  rows: gems.map((g) => ({
+    thumbSrc: g.image ? resolveSlot(g.image) : undefined,
+    thumbAlt: g.title,
+    name: g.title,
+    blurb: g.body,
+    pills: (g.links ?? []) as Pill[],
+  })) as CarnetRow[],
+};
+// Filtre les groupes-liste VIDES (ex: gems absents en Andalousie) — pas de heading orphelin.
+const carnetAllGroups = [...carnetListGroups, ...proseGroups, dishesGroup, gemsGroup].filter(
+  (g) => g.type === 'prose' || g.rows.length > 0
+);
 ---
 
 <EpisodeLayout
@@ -342,9 +421,9 @@ const carnetAllGroups = [...carnetListGroups, dishesGroup];
       <div class="outro-inner reveal">
         <span class="ep-kicker">Le reste de Séville</span>
         <p class="outro-body">
-          Le Mercado de Triana, les ateliers de céramique, le pèlerinage jamón vers Jabugo, les {pois.length}
-          lieux du chapitre avec leurs liens — pis le budget qui s’accumule. Tout ça vit dans le carnet :
-          c’est l’outil, l’épisode c’est l’apéro.
+          Le Mercado de Triana, les ateliers de céramique, le pèlerinage jamón vers Jabugo —
+          les {pois.length} lieux du chapitre, tous avec leurs liens, pis le budget qui s’accumule,
+          vivent dans le carnet. L’épisode c’est l’apéro ; le carnet, c’est l’outil.
         </p>
         <button type="button" class="outro-btn" data-mode="carnet">Ouvrir le carnet</button>
         <a class="outro-next" href="/andalousie/#seville">Voir la version v2 →</a>
