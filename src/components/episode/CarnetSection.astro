@@ -1,0 +1,107 @@
+---
+// CarnetSection — le mode terrain (ADR-3/5) : liste dense en ordre éditorial, vignettes,
+// pills (toute reco = lien cliquable), mini-carte qui suit le scroll (script dans EpisodeLayout),
+// export KML par chapitre. Purement présentationnel : la page pré-calcule `groups` (résolution
+// d'images comprise) — y compris la fusion des accomExtras dans « Où dormir » et les dishes/gems.
+interface Pill { label: string; url: string }
+interface Row {
+  id?: string;          // 'carnet-<poiId>' pour les POI cartographiés
+  dataPoi?: string;     // id du POI si onMap (la mini-carte suit le scroll dessus)
+  thumbSrc?: string;
+  thumbAlt?: string;
+  thumbFood?: boolean;  // vignette agrandie (.carnet-thumb-food) pour les plats
+  name: string;
+  price?: string;
+  blurb?: string;
+  pills: Pill[];
+  forcePillRow?: boolean; // POI/hébergements : <div class="pill-row"> rendu même si vide
+}
+type Group =
+  | { type: 'list'; title: string; rows: Row[]; footer?: string }
+  | { type: 'prose'; title: string; body: string; pills: Pill[] };
+interface Props {
+  title: string;
+  dates: string;
+  focus: string;
+  kmlHref: string;
+  kmlDownload: string;
+  kmlCount: number;
+  markers: unknown[];
+  openBounds: string;
+  groups: Group[];
+}
+const { title, dates, focus, kmlHref, kmlDownload, kmlCount, markers, openBounds, groups } = Astro.props;
+---
+
+<div class="view-carnet" id="carnet">
+  <div class="carnet-container">
+    <aside class="carnet-aside" aria-label="Mini-carte du carnet">
+      <div id="carnet-map" class="carnet-map" data-markers={JSON.stringify(markers)} data-open-bounds={openBounds}></div>
+    </aside>
+    <div class="carnet-main">
+      <header class="carnet-head">
+        <span class="ep-kicker">Carnet — {title} · {dates}</span>
+        <p class="carnet-sub">{focus}</p>
+        <div class="pill-row">
+          <a class="pill pill-kml" href={kmlHref} download={kmlDownload}>⤓ Exporter les {kmlCount} lieux (KML)</a>
+        </div>
+        <p class="carnet-kml-hint">
+          <strong>Étape ordi, une seule fois :</strong> télécharge le fichier sur ton ordinateur,
+          importe-le dans <a href="https://mymaps.google.com" target="_blank" rel="noopener">mymaps.google.com</a>
+          (Créer une carte → Importer). La carte apparaît ensuite dans l’app Google Maps de ton
+          téléphone — Enregistrés → Cartes — offline inclus. Le fichier ne s’ouvre pas directement
+          sur iPhone (Google n’a plus d’app My Maps). Sur le terrain, les pills « Maps » de chaque
+          lieu font la job en un tap.
+        </p>
+      </header>
+
+      {groups.map((g) => (
+        g.type === 'list' ? (
+          <section class="carnet-group">
+            <h2 class="carnet-group-title">{g.title}</h2>
+            <ul class="carnet-list">
+              {g.rows.map((r) => (
+                <li class="carnet-row" id={r.id} data-poi={r.dataPoi}>
+                  {r.thumbSrc && (
+                    <img class={r.thumbFood ? 'carnet-thumb carnet-thumb-food' : 'carnet-thumb'} src={r.thumbSrc} alt={r.thumbAlt} loading="lazy" decoding="async" />
+                  )}
+                  <div class="carnet-row-content">
+                    <div class="carnet-row-main">
+                      <span class="carnet-name">{r.name}</span>
+                      {r.price && <span class="carnet-price">{r.price}</span>}
+                      {r.blurb && <p class="carnet-blurb">{r.blurb}</p>}
+                    </div>
+                    {(r.forcePillRow || r.pills.length > 0) && (
+                      <div class="pill-row">
+                        {r.pills.map((l) => (
+                          <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                </li>
+              ))}
+            </ul>
+            {g.footer && <p class="carnet-footer">{g.footer}</p>}
+          </section>
+        ) : (
+          <section class="carnet-group">
+            <h2 class="carnet-group-title">{g.title}</h2>
+            <p class="carnet-blurb">{g.body}</p>
+            {g.pills.length > 0 && (
+              <div class="pill-row">
+                {g.pills.map((l) => (
+                  <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+                ))}
+              </div>
+            )}
+          </section>
+        )
+      ))}
+
+      <div class="carnet-tail">
+        <button type="button" class="outro-btn" data-mode="episode">← Revenir à l’épisode</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+---
+// SceneSection — les scènes storybook (test Bourdain, EXPLORATION §1) : photo pleine page
+// sticky, 3 beats par scène (intro · reco+liens · jalon optionnel). Rythme resserré (Martin).
+// `via` = provenance créateur ({label,url}) — le hook « X en a fait un épisode », souvent null
+// (règle de convergence : jamais de provenance non vérifiée). Images résolues par la page.
+interface Scene {
+  id: string;
+  num: number;
+  kicker: string;
+  title: string;
+  imageSrc?: string;
+  alt: string;
+  intro: string;
+  reco: string;
+  via: { label: string; url: string } | null;
+  quote: string | null;
+  pills: { label: string; url: string }[];
+}
+interface Props {
+  scenes: Scene[];
+}
+const { scenes } = Astro.props;
+const total = scenes.length;
+---
+
+{scenes.map((s) => (
+  <section class="scrolly scrolly-scene" id={s.id} aria-label={`Scène ${s.num} — ${s.title}`}>
+    <div class="scrolly-sticky">
+      <img class="scene-photo" src={s.imageSrc} alt={s.alt} loading="lazy" decoding="async" />
+      <div class="scene-scrim" aria-hidden="true"></div>
+    </div>
+    <div class="beats beats-scene">
+      <div class="beat">
+        <div class="beat-card reveal">
+          <span class="beat-kicker">Scène {s.num}/{total} · {s.kicker}</span>
+          <h2 class="scene-title">{s.title}</h2>
+          <p class="beat-body">{s.intro}</p>
+        </div>
+      </div>
+      <div class="beat">
+        <div class="beat-card reveal">
+          <p class="beat-body">{s.reco}</p>
+          {s.via && (
+            <a class="scene-via" href={s.via.url} target="_blank" rel="noopener">📺 {s.via.label}</a>
+          )}
+          <div class="pill-row">
+            {s.pills.map((l) => (
+              <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+            ))}
+          </div>
+        </div>
+      </div>
+      {s.quote && (
+        <div class="beat">
+          <blockquote class="beat-quote reveal">{s.quote}</blockquote>
+        </div>
+      )}
+    </div>
+  </section>
+))}

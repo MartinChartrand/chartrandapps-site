@@ -1,0 +1,53 @@
+---
+// ScrollyMapSection — une carte-scène pilotée au scroll (pattern NBC, EXPLORATION §1).
+// Utilisée 2× par chapitre : le cold open ET le montage. Le beat de titre (h1 du cold open
+// vs h2 du montage) est fourni par la page via le <slot/> par défaut.
+// Le script du flyTo vit dans EpisodeLayout (observe .scrolly-map / .beat-card / data-*).
+// Images déjà résolues en src par la page (resolveSlot) — ce composant est présentationnel.
+interface Beat {
+  fly?: string;        // "lat,lng,zoom"
+  bounds?: string;     // "lat,lng;lat,lng" — cadre plusieurs POI
+  targets: string[];   // ids des POI mis en évidence (halo + nom)
+  thumbSrc?: string;
+  thumbAlt?: string;
+  kicker: string;
+  body: string;
+  pills: { label: string; url: string }[];
+}
+interface Props {
+  ariaLabel: string;
+  markers: unknown[];
+  openBounds: string;
+  mapId?: string;      // 'scene-map' sur le cold open ; absent sur le montage
+  beats: Beat[];
+}
+const { ariaLabel, markers, openBounds, mapId, beats } = Astro.props;
+---
+
+<section class="scrolly scrolly-map" aria-label={ariaLabel}>
+  <div class="scrolly-sticky">
+    <div id={mapId} class="scene-map" data-markers={JSON.stringify(markers)} data-open-bounds={openBounds}></div>
+    <div class="map-scrim" aria-hidden="true"></div>
+  </div>
+  <div class="beats">
+    <slot />
+    {beats.map((b) => (
+      <div class="beat" data-fly={b.fly} data-bounds={b.bounds} data-targets={b.targets.join(',')}>
+        <div class="beat-card reveal">
+          {b.thumbSrc && (
+            <img class="beat-thumb" src={b.thumbSrc} alt={b.thumbAlt} loading="lazy" decoding="async" />
+          )}
+          <span class="beat-kicker">{b.kicker}</span>
+          <p class="beat-body">{b.body}</p>
+          {b.pills.length > 0 && (
+            <div class="pill-row">
+              {b.pills.map((l) => (
+                <a class="pill" href={l.url} target="_blank" rel="noopener">{l.label}</a>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
