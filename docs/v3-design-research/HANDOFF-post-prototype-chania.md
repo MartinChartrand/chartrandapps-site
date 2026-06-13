@@ -1,3 +1,6 @@
+> ⚠️ **DÉPASSÉ (2026-06-13)** — verdict dogfood = GO, généralisation enclenchée (étapes 1-3/6 livrées).
+> Voir `HANDOFF-v3-generalisation.md` (même dossier). Ce doc est conservé pour l'historique.
+
 # HANDOFF — Post-prototype Chania v3 (session du 2026-06-12, après-midi)
 
 **Écrit en fin de session. Autoportant : si la mémoire de l'agent persiste pas, tout est ici +
