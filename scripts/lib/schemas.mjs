@@ -15,6 +15,11 @@ const linkSchema = z.object({ label: z.string(), url: z.string() });
 const tagSchema = z.object({ text: z.string(), tone: z.enum(['amber', 'green']).optional() });
 
 const ISO_DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'date ISO YYYY-MM-DD requise');
+// Date de SOURCE : précision mois acceptée (YYYY-MM ou YYYY-MM-DD). Les dates exactes des vidéos
+// YouTube sont publiquement masquées (date relative « il y a X ans ») ; le jour exact n'est pas
+// vérifiable sans la Data API. L'année/mois suffit pour ce à quoi la date sert : le test d'indépendance
+// temporelle (ADR-2 — séjours disjoints) et la revalidation. Les dates de VOYAGE gardent ISO_DATE strict.
+const SOURCE_DATE = z.string().regex(/^\d{4}-\d{2}(-\d{2})?$/, 'date de source YYYY-MM ou YYYY-MM-DD requise');
 
 // §v3 — provenance & carnet de bouche (champs ADDITIFS, tous optionnels — ADR-1/2/3).
 // La règle de convergence ≥2 sources (et singleSourceTrusted) vit dans le skill + un validateur CI,
@@ -23,8 +28,8 @@ const ISO_DATE = z.string().regex(/^\d{4}-\d{2}-\d{2}$/, 'date ISO YYYY-MM-DD re
 // dépend de Date.now() rend le build non-déterministe (vert aujourd'hui, rouge dans 25 mois).
 export const sourceSchema = z.object({
   creator: z.string(),
-  url: z.string(),   // contenu PRIMAIRE du créateur (sa vidéo/son post), jamais un agrégateur tiers (ADR-4)
-  date: ISO_DATE,    // date de la visite documentée / publication de la source
+  url: z.string(),       // contenu PRIMAIRE du créateur (sa vidéo/son post), jamais un agrégateur tiers (ADR-4)
+  date: SOURCE_DATE,     // publication / visite documentée — précision mois acceptée (vidéos YouTube)
 });
 const provenanceFields = {
   story: z.string().optional(),                // narratif riche (ADR-5) ; vide => non affiché (décision rendu)

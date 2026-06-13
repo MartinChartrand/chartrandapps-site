@@ -105,10 +105,15 @@ test('v3 — approvedBy ≠ "human" échoue (pas de publication auto)', () => {
   assert.equal(dishSchema.safeParse({ ...dishV2, approvedBy: 'auto' }).success, false);
 });
 
-test('v3 — source date non-ISO échoue ; verifiedAt non-ISO échoue', () => {
+test('v3 — source date : YYYY-MM-DD et YYYY-MM OK, année seule / garbage KO ; verifiedAt strict', () => {
   assert.equal(sourceSchema.safeParse({ creator: 'x', url: 'y', date: 'hier' }).success, false);
   assert.equal(sourceSchema.safeParse({ creator: 'x', url: 'y', date: '2017-05-01' }).success, true);
+  // ADR-2 / track vidéo : précision mois acceptée (dates exactes YouTube masquées)
+  assert.equal(sourceSchema.safeParse({ creator: 'x', url: 'y', date: '2021-09' }).success, true);
+  assert.equal(sourceSchema.safeParse({ creator: 'x', url: 'y', date: '2021' }).success, false); // année seule insuffisante
+  // verifiedAt = date de validation humaine → reste ISO strict (on a toujours le jour)
   assert.equal(dishSchema.safeParse({ ...dishV2, verifiedAt: 'hier' }).success, false);
+  assert.equal(dishSchema.safeParse({ ...dishV2, verifiedAt: '2026-06' }).success, false);
 });
 
 // --- ADR-5 : vision-check sémantique sur l'IMAGE (sceau écrit par vision-images.mjs, test ami-témoin) ---
