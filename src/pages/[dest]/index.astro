@@ -98,6 +98,13 @@ function resolveSlot(slot: string | null | undefined): string | undefined {
 }
 const heroImageUrl = resolveSlot(d.hero.image);
 
+// Crédit/attribution d'un slot (auteur + licence) — pour Hero et ChapterCover (images de fond).
+function resolveCredit(slot: string | null | undefined) {
+  if (!slot) return undefined;
+  return imageManifest.find((i) => i.slot === slot)?.credit;
+}
+const heroCredit = resolveCredit(d.hero.image);
+
 const totalNights =
   d.departure && d.arrival
     ? Math.round(
@@ -132,6 +139,7 @@ const gemGroups = groupsOf(gems);
     departure={d.departure}
     season={d.season}
     imageUrl={heroImageUrl}
+    credit={heroCredit}
   />
 
   <Nav bases={bases.map((b) => ({ slug: b.data.slug, title: b.data.title }))} dest={dest} />
@@ -181,6 +189,7 @@ const gemGroups = groupsOf(gems);
             dates={bd.dates}
             nights={bd.nights}
             imageUrl={resolveSlot(bd.cover)}
+            credit={resolveCredit(bd.cover)}
           />
 
           <Pullquote text={bd.pullquote} />

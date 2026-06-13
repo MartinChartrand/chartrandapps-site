@@ -1,0 +1,96 @@
+---
+// ImageCredit.astro — attribution légale des images.
+// CC-BY / CC-BY-SA EXIGENT l'affichage de l'auteur + la licence (et un lien vers celle-ci).
+// CC0 / domaine public ne l'exigent pas, mais on crédite quand même par courtoisie si un auteur est connu.
+// Ne rend RIEN si aucun auteur connu et aucune licence CC (ex: Unsplash sans nom).
+interface Credit {
+  source?: string;
+  photographer?: string;
+  license?: string;
+  photoId?: string;
+}
+interface Props { credit?: Credit | null; overlay?: boolean; }
+
+const { credit, overlay = false } = Astro.props;
+
+const LICENSE_URLS: Record<string, string> = {
+  'CC0': 'https://creativecommons.org/publicdomain/zero/1.0/',
+  'CC BY 2.0': 'https://creativecommons.org/licenses/by/2.0/',
+  'CC BY 3.0': 'https://creativecommons.org/licenses/by/3.0/',
+  'CC BY 4.0': 'https://creativecommons.org/licenses/by/4.0/',
+  'CC BY-SA 2.0': 'https://creativecommons.org/licenses/by-sa/2.0/',
+  'CC BY-SA 2.5': 'https://creativecommons.org/licenses/by-sa/2.5/',
+  'CC BY-SA 3.0': 'https://creativecommons.org/licenses/by-sa/3.0/',
+  'CC BY-SA 4.0': 'https://creativecommons.org/licenses/by-sa/4.0/',
+};
+
+const photographer = (credit?.photographer ?? '').trim();
+const license = (credit?.license ?? '').trim();
+const source = credit?.source ?? '';
+
+// Lien vers la source primaire (obligation morale + traçabilité) : page de fichier Commons pour Wikimedia.
+const sourceUrl =
+  source === 'wikimedia' && credit?.photoId
+    ? `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(credit.photoId.replace(/ /g, '_'))}`
+    : undefined;
+const sourceLabel = source === 'wikimedia' ? 'Wikimedia Commons' : source === 'unsplash' ? 'Unsplash' : source;
+const authorLabel = photographer || sourceLabel;
+
+// Une vraie licence à citer (CC* ou domaine public) — vs un label de plateforme ("unsplash-standard").
+const isCcOrPd = license.startsWith('CC') || license === 'Public domain';
+const licenseUrl = LICENSE_URLS[license];
+// Source sans licence CC (ex: Unsplash) → on tague la plateforme au lieu d'afficher "unsplash-standard".
+const showSourceTag = !isCcOrPd && sourceLabel.length > 0;
+// Affiche le crédit dès qu'on a un auteur OU une licence CC/PD explicite.
+const show = photographer.length > 0 || isCcOrPd;
+---
+{show && (
+  <p class:list={['img-credit', overlay && 'img-credit-overlay']}>
+    Photo&nbsp;:{' '}
+    {sourceUrl ? (
+      <a href={sourceUrl} target="_blank" rel="noopener noreferrer">{authorLabel}</a>
+    ) : (
+      <span>{authorLabel}</span>
+    )}
+    {isCcOrPd && (
+      <>
+        {' · '}
+        {licenseUrl ? (
+          <a href={licenseUrl} target="_blank" rel="noopener noreferrer">{license}</a>
+        ) : (
+          <span>{license}</span>
+        )}
+      </>
+    )}
+    {showSourceTag && <span>{' · '}{sourceLabel}</span>}
+  </p>
+)}
+
+<style>
+  .img-credit {
+    font-size: 11px;
+    line-height: 1.4;
+    color: var(--muted);
+    margin: 4px 0 0;
+    opacity: 0.85;
+  }
+  .img-credit a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .img-credit a:hover { color: var(--accent); }
+
+  /* Variante overlay : posée en bas-droite d'une image de fond sombre (hero, chapter-cover). */
+  .img-credit-overlay {
+    position: absolute;
+    right: 10px;
+    bottom: 8px;
+    margin: 0;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.72);
+    opacity: 1;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  .img-credit-overlay a { color: rgba(255, 255, 255, 0.92); }
+</style>

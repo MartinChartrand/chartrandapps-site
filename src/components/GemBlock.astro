@@ -2,6 +2,8 @@
 // GemBlock.astro — ARCHITECTURE §4
 // Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.gem-block)
 // Ne rend rien si gems est vide
+import ImageCredit from './ImageCredit.astro';
+
 interface Gem {
   id: string;
   title: string;
@@ -10,7 +12,8 @@ interface Gem {
   links?: Array<{ label: string; url: string; }>;
 }
 
-interface ImageEntry { slot: string; file: string; alt: string; }
+interface ImageCreditData { source?: string; photographer?: string; license?: string; photoId?: string; }
+interface ImageEntry { slot: string; file: string; alt: string; credit?: ImageCreditData; }
 
 interface Props {
   gems: Gem[];
@@ -42,6 +45,10 @@ function getImgSrc(slot: string): string | null {
 function getImgAlt(slot: string): string {
   return imageManifest.find((img) => img.slot === slot)?.alt ?? '';
 }
+
+function getImgCredit(slot: string): ImageCreditData | undefined {
+  return imageManifest.find((img) => img.slot === slot)?.credit;
+}
 ---
 
 {gems.length > 0 && (
@@ -54,12 +61,15 @@ function getImgAlt(slot: string): string {
           <div class="gem-item-name">{gem.title}</div>
           <div class="gem-item-desc">{gem.body}</div>
           {imgSrc && (
-            <img
-              class="gem-item-img"
-              src={imgSrc}
-              alt={getImgAlt(gem.image)}
-              loading="lazy"
-            />
+            <>
+              <img
+                class="gem-item-img"
+                src={imgSrc}
+                alt={getImgAlt(gem.image)}
+                loading="lazy"
+              />
+              <ImageCredit credit={getImgCredit(gem.image)} />
+            </>
           )}
         </div>
       );

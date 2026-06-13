@@ -177,3 +177,24 @@ test('T12: KML chapitre généré pour la fixture (nom des collections + 3 place
   assert.ok(/<coordinates>[-\d.]+,[-\d.]+,0<\/coordinates>/.test(kml), 'coordonnées KML malformées');
   assert.ok(!kml.includes('undefined') && !kml.includes('NaN'), 'KML contient undefined/NaN');
 });
+
+test('T13: attribution image CC — auteur + licence liée au deed + lien source Commons (plat-test-img = Wikimedia CC BY-SA 4.0)', () => {
+  assert.ok(html.includes('class="img-credit'), 'aucun crédit d\'image rendu (.img-credit absent)');
+  assert.ok(html.includes('Témoin Fixture'), 'auteur de la photo CC non crédité');
+  assert.ok(html.includes('CC BY-SA 4.0'), 'nom de licence CC non affiché');
+  assert.ok(
+    html.includes('https://creativecommons.org/licenses/by-sa/4.0/'),
+    'licence CC non liée à son deed creativecommons.org'
+  );
+  assert.ok(
+    html.includes('commons.wikimedia.org/wiki/File:Plat_Test_Fixture.jpg'),
+    'source primaire (page de fichier Commons) non liée'
+  );
+});
+
+test('T14: attribution Unsplash — tague la plateforme, jamais le label brut "unsplash-standard"', () => {
+  // testville-cover (hero, source unsplash) crédite l'auteur + « Unsplash »
+  assert.ok(html.includes('Test Photographer'), 'photographe Unsplash non crédité');
+  assert.ok(html.includes('Unsplash'), 'plateforme Unsplash non taguée');
+  assert.ok(!html.includes('unsplash-standard'), 'le label technique "unsplash-standard" ne doit pas fuiter dans l\'UI');
+});

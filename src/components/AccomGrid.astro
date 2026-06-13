@@ -2,6 +2,8 @@
 // AccomGrid.astro — ARCHITECTURE §4
 // Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.accom-grid)
 // Filtre : roles contenant "sleep", groupé par tier (budget → mid → gem)
+import ImageCredit from './ImageCredit.astro';
+
 interface Link { label: string; url: string; }
 
 interface Poi {
@@ -16,7 +18,8 @@ interface Poi {
   image: string | null;
 }
 
-interface ImageEntry { slot: string; file: string; alt: string; }
+interface ImageCreditData { source?: string; photographer?: string; license?: string; photoId?: string; }
+interface ImageEntry { slot: string; file: string; alt: string; credit?: ImageCreditData; }
 
 // Hébergement v1 hors MAPS (base.accomExtras §3.2) — carte accom sans POI ni coords
 interface AccomExtra {
@@ -114,6 +117,11 @@ function getImgSrc(slot: string | null): string | null {
 function getImgAlt(slot: string): string {
   return imageManifest.find((img) => img.slot === slot)?.alt ?? '';
 }
+
+function getImgCredit(slot: string | null): ImageCreditData | undefined {
+  if (!slot) return undefined;
+  return imageManifest.find((img) => img.slot === slot)?.credit;
+}
 ---
 
 {cards.length > 0 && (
@@ -124,7 +132,10 @@ function getImgAlt(slot: string): string {
       return (
         <div class="accom-card" id={card.id ? `poi-${card.id}` : undefined}>
           {imgSrc && (
-            <img class="accom-img" src={imgSrc} alt={imgAlt} loading="lazy" />
+            <>
+              <img class="accom-img" src={imgSrc} alt={imgAlt} loading="lazy" />
+              <ImageCredit credit={getImgCredit(card.image)} />
+            </>
           )}
           {card.tier && (
             <span class:list={['accom-tier', card.tier]}>{card.tier}</span>

@@ -1,6 +1,9 @@
 ---
 // Hero.astro — ARCHITECTURE §4
 // Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (header.hero)
+import ImageCredit from './ImageCredit.astro';
+
+interface ImageCreditData { source?: string; photographer?: string; license?: string; photoId?: string; }
 interface HeroTitle { main: string; em: string; }
 interface Travelers { count: number; label: string; }
 interface Arrival { date: string; airport: string; city: string; }
@@ -16,9 +19,10 @@ interface Props {
   departure: Departure;
   season: string;
   imageUrl?: string;
+  credit?: ImageCreditData;
 }
 
-const { heroTitle, heroSub, hero, travelers, arrival, departure, imageUrl } = Astro.props;
+const { heroTitle, heroSub, hero, travelers, arrival, departure, imageUrl, credit } = Astro.props;
 
 // Calculer le nombre de nuits entre arrivée et départ
 function calcNights(a: string, d: string): number {
@@ -69,6 +73,7 @@ function fmtDate(iso: string): string {
       </div>
     </div>
   </div>
+  {imageUrl && <ImageCredit credit={credit} overlay />}
 </header>
 
 <style>
