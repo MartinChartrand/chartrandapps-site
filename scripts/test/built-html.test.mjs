@@ -157,3 +157,23 @@ test('T11: header avec class="hero" présent dans le HTML', () => {
     'header.hero absent du HTML (composant Hero non rendu)'
   );
 });
+
+// T12. KML par chapitre généralisé (src/pages/[dest]/[base].kml.ts — ADR-6)
+// La fixture a 1 chapitre (testville) avec 3 POI onMap → 1 fichier KML, 3 placemarks, nom tiré des collections.
+test('T12: KML chapitre généré pour la fixture (nom des collections + 3 placemarks onMap)', () => {
+  const kml = readFileSync(join(DIST, FIXTURE_DEST, 'testville.kml'), 'utf-8');
+  // Nom du Document = "<titre chapitre> — <heroTitle.main destination> (chartrandapps.ca)"
+  assert.ok(
+    kml.includes('<name>Testville — Test (chartrandapps.ca)</name>'),
+    'nom du Document KML non tiré des collections (base.title + dest.heroTitle.main)'
+  );
+  // Un placemark par POI onMap (3), pas plus (les POI off-map sont exclus)
+  const placemarks = (kml.match(/<Placemark>/g) ?? []).length;
+  assert.equal(placemarks, 3, `attendu 3 placemarks (POI onMap), trouvé ${placemarks}`);
+  for (const name of ['Auberge du Test', 'Resto du Test', 'Panorama Test']) {
+    assert.ok(kml.includes(`<name>${name}</name>`), `placemark manquant : ${name}`);
+  }
+  // Coordonnées présentes (lng,lat,0) — pas de undefined/NaN
+  assert.ok(/<coordinates>[-\d.]+,[-\d.]+,0<\/coordinates>/.test(kml), 'coordonnées KML malformées');
+  assert.ok(!kml.includes('undefined') && !kml.includes('NaN'), 'KML contient undefined/NaN');
+});
