@@ -2,3 +2,9 @@
 node_modules/
 dist/
 .astro/
+
+# Recherche brute des agents voyage (non versionnée)
+src/content/destinations/*/.research/
+
+# Rapports vision générés (éphémères ; les rapports curés vivent en sous-dossiers)
+reports/*.json

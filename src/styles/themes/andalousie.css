@@ -1,0 +1,18 @@
+/* Thème Andalousie — ARCHITECTURE §4 : une destination = données + ~40 lignes CSS */
+/* Signature visuelle sévillane : albero (sable ocre des arènes), azulejo cobalt de Triana, */
+/* brique mudéjare terre cuite, chaux chaude des villages blancs. */
+
+[data-theme="andalousie"] {
+  --terre: #C45A38;       /* brique mudéjare / terre cuite de Triana */
+  --sand: #F4E9D6;        /* chaux chaude andalouse */
+  --deep: #2A2118;        /* brun sombre — hero + titres (terre de la dehesa) */
+  --mer: #1F6E8C;         /* azulejo cobalt — bleu signature de Triana */
+  --mer-light: #EAF1F4;   /* tint pâle azulejo */
+  --text: #2A2118;
+  --muted: #6B5D4A;
+  --border: rgba(42, 33, 24, 0.10);
+  --accent: #A8522E;      /* terre cuite foncée — hover, underlines */
+  --bg: #FAF3E6;          /* crème chaude */
+  --white: #FFFFFF;
+  --gold: #E0A52E;        /* albero — jaune-ocre sévillan, 3e couleur signature */
+}

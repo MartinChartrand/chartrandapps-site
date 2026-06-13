@@ -1,0 +1,170 @@
+[
+  {
+    "id": "sev-salmorejo",
+    "type": "plat",
+    "region": "seville",
+    "title": "Salmorejo cordobés",
+    "body": "La version sévillane du gazpacho, mais épaisse comme une crème — pain, tomate, ail, huile d'olive. On le couronne d'œuf dur haché et de dés de jamón. Plus crémeux et opaque que le gazpacho, c'est le réflexe de l'apéro andalou.",
+    "image": "salmorejo"
+  },
+  {
+    "id": "sev-espinacas-garbanzos",
+    "type": "plat",
+    "region": "seville",
+    "title": "Espinacas con garbanzos",
+    "body": "Épinards et pois chiches mijotés au cumin et à l'ail, un héritage direct du passé morisque de la ville. Plat de carême devenu icône de tapa, réconfortant et terreux.",
+    "image": "espinacas"
+  },
+  {
+    "id": "sev-pescaito-frito",
+    "type": "plat",
+    "region": "seville",
+    "title": "Pescaíto frito / pavías de bacalao",
+    "body": "Petits poissons et morue enrobés de farine et frits dans l'huile d'olive — boquerones, calamars, beignets de morue (pavías). L'Andalousie a inventé la friture légère bien avant le fish'n'chips.",
+    "image": ""
+  },
+  {
+    "id": "sev-montaditos",
+    "type": "plat",
+    "region": "seville",
+    "title": "Montaditos",
+    "body": "Petits pains garnis, version sévillane du sandwich-tapa : pringá, lomo, chistorra. Conçus pour être avalés debout au comptoir entre deux verres.",
+    "image": ""
+  },
+  {
+    "id": "sev-cola-de-toro",
+    "type": "plat",
+    "region": "seville",
+    "title": "Cola de toro / rabo de toro",
+    "body": "Queue de taureau braisée des heures au vin jusqu'à se détacher de l'os. Plat de tradition taurine, sauce profonde et collante. Le plat d'hiver qu'on mange quand même au printemps.",
+    "image": "rabo-toro"
+  },
+  {
+    "id": "sev-pringa",
+    "type": "plat",
+    "region": "seville",
+    "title": "Pringá",
+    "body": "Effiloché de viandes du cocido (porc, lard, chorizo, morcilla) écrasé sur du pain. Le recyclage génial du pot-au-feu dominical, servi en montadito.",
+    "image": ""
+  },
+  {
+    "id": "sev-solomillo-whisky",
+    "type": "plat",
+    "region": "seville",
+    "title": "Solomillo al whisky",
+    "body": "Filet de porc en médaillons, sauce ail-whisky-citron. Tapa de bar par excellence, né dans les tavernes du centre. Pas raffiné, juste irrésistible avec du pain.",
+    "image": ""
+  },
+  {
+    "id": "sev-carrillada",
+    "type": "plat",
+    "region": "seville",
+    "title": "Carrillada ibérica",
+    "body": "Joue de porc ibérique braisée au vin jusqu'au fondant. Coupe humble de la dehesa qui révèle pourquoi le porc d'ici est roi.",
+    "image": ""
+  },
+  {
+    "id": "sev-atun-almadraba",
+    "type": "produit",
+    "region": "seville",
+    "title": "Atún rojo de almadraba (saison mai)",
+    "body": "Le thon rouge sauvage pêché à l'almadraba (filets fixes) sur la côte de Cadix d'avril à juin — mai est LE mois. Sur les cartes sévillanes en tartare, tataki ou à la plancha. Produit ultra-saisonnier qui tombe pile pour fin mai.",
+    "image": ""
+  },
+  {
+    "id": "sev-huerta-mayo",
+    "type": "produit",
+    "region": "seville",
+    "title": "Huerta de mai",
+    "body": "Fin mai : fèves (habas), petits pois, asperges, premières tomates et poivrons, nísperos et cerises. Les boquerones et sardines sont à leur meilleur. Le marché de Triana est l'endroit pour voir ça.",
+    "image": ""
+  },
+  {
+    "id": "sev-fino-manzanilla",
+    "type": "vin",
+    "region": "seville",
+    "title": "Fino & Manzanilla de Jerez/Sanlúcar",
+    "body": "Vins de voile, secs, pâles, servis frais — le fino (Jerez) plus amande, la manzanilla (Sanlúcar) plus saline. Le roi de l'apéro andalou, à deux pas de Séville.",
+    "image": "fino"
+  },
+  {
+    "id": "sev-vino-naranja",
+    "type": "vin",
+    "region": "seville",
+    "title": "Vino de naranja",
+    "body": "Vin doux macéré avec l'écorce d'orange amère de Séville, sur base de fino ou manzanilla. Citrus et solera — le digestif local par excellence.",
+    "image": ""
+  },
+  {
+    "id": "sev-vermut",
+    "type": "alcool",
+    "region": "seville",
+    "title": "Vermut de grifo",
+    "body": "Le vermouth à la pression, rituel du dimanche midi (la hora del vermut). Servi sur glace avec une olive et un zeste d'orange.",
+    "image": ""
+  },
+  {
+    "id": "sev-cruzcampo",
+    "type": "bière",
+    "region": "seville",
+    "title": "Cruzcampo",
+    "body": "La bière de Séville, née ici en 1904. Servie quasi gelée dans un verre fin pour garder le froid. La caña des bars sans prétention — celle des grands-parents sévillans.",
+    "image": ""
+  },
+  {
+    "id": "sev-tinto-verano",
+    "type": "alcool",
+    "region": "seville",
+    "title": "Tinto de verano",
+    "body": "Vin rouge + gaseosa sur glace. L'alternative locale et désaltérante à la sangria touristique — ce que les Sévillans boivent vraiment l'été.",
+    "image": ""
+  },
+  {
+    "id": "jab-jamon-bellota",
+    "type": "produit",
+    "region": "jabugo-aracena",
+    "title": "Jamón ibérico de bellota DOP Jabugo",
+    "body": "Le sommet : porc 100% ibérique nourri de glands en montanera, curé minimum 600-730 jours dans les secaderos d'altitude de la Sierra. Le climat de Jabugo fait le reste. Le pèlerinage gras de tout épicurien.",
+    "image": "jamon-bellota"
+  },
+  {
+    "id": "jab-pata-negra",
+    "type": "produit",
+    "region": "jabugo-aracena",
+    "title": "Cerdo ibérico / pata negra (presa, secreto, pluma)",
+    "body": "Au-delà du jamón : les coupes fraîches du cochon noir grillées — secreto, presa, pluma. Le persillage fond sur la langue. Roi incontesté de la cuisine d'Aracena.",
+    "image": ""
+  },
+  {
+    "id": "jab-chacinas",
+    "type": "plat",
+    "region": "jabugo-aracena",
+    "title": "Chacinas ibéricas (chorizo, salchichón, lomo de caña)",
+    "body": "Les charcuteries séchées du même cochon : chorizo au pimentón, salchichón, lomo de caña. La dégustation complète d'un secadero passe par là, pas juste le jamón.",
+    "image": ""
+  },
+  {
+    "id": "jab-gurumelo",
+    "type": "produit",
+    "region": "jabugo-aracena",
+    "title": "Gurumelo (Amanita ponderosa)",
+    "body": "Champignon recherché qui pousse de janvier à mai dans la Sierra — fin mai en attrape la queue de saison. Servi poêlé à l'ail ou avec des œufs. Le trésor printanier du sous-bois de chênes.",
+    "image": ""
+  },
+  {
+    "id": "jab-setas",
+    "type": "produit",
+    "region": "jabugo-aracena",
+    "title": "Setas de la sierra (tanas, tentullos, trompetas)",
+    "body": "La forêt de chênes-lièges donne des champignons mijotés en cazuela ou en sauce pour accompagner le porc. La cuisine de cueillette de la dehesa.",
+    "image": ""
+  },
+  {
+    "id": "jab-vino-condado",
+    "type": "vin",
+    "region": "jabugo-aracena",
+    "title": "Vinos del Condado de Huelva",
+    "body": "La DO voisine d'Aracena : blancs jeunes et vinos generosos (condado pálido/viejo) qui tiennent tête au jamón gras. Le pairing local plutôt que d'importer du Jerez.",
+    "image": ""
+  }
+]

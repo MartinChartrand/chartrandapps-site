@@ -1,0 +1,47 @@
+{
+  "slug": "andalousie",
+  "pageTitle": "Andalousie — Mai–Juin 2027 · Itinéraire de voyage",
+  "heroTitle": {
+    "main": "Andalousie",
+    "em": "en profondeur"
+  },
+  "heroSub": "Un mois à se prendre racine, du four sévillan à la brise de l'Axarquía",
+  "subtitle": "Un mois à se prendre racine, du four sévillan à la brise de l'Axarquía",
+  "season": "Mai–Juin 2027",
+  "travelers": {
+    "count": 2,
+    "label": "Voyage en duo"
+  },
+  "arrival": {
+    "date": "2027-05-24",
+    "airport": "SVQ",
+    "city": "Séville"
+  },
+  "departure": {
+    "date": "2027-06-20",
+    "airport": "AGP",
+    "city": "Málaga"
+  },
+  "theme": {
+    "favicon": "🍖",
+    "palette": "andalousie"
+  },
+  "hero": {
+    "image": "hero",
+    "label": "Itinéraire · Voyage en duo"
+  },
+  "overviewKicker": "Logique du voyage",
+  "overviewTitle": "Cinq bases, l'intérieur d'abord, la côte ensuite",
+  "overviewIntro": "La chaleur dicte la route. On fait l'intérieur tôt (Séville, la sierra — frais fin mai) puis on finit sur la côte (Axarquía — la brise de mer mi-juin). Vol open-jaw : arrivée Séville, départ Málaga, char pour tout le mois.",
+  "intro": {
+    "whySeason": {
+      "title": "Pourquoi fin mai – juin",
+      "body": "Fin mai : l'intérieur (Séville, Jabugo) reste doux, 28–32°C, parfait pour marcher la dehesa. Fin juin : Séville tape 38–40°C, c'est pour ça qu'on inverse l'arc et qu'on finit sur la côte. Bonus : être dans l'Axarquía pile pour la fête de San Antonio à Frigiliana (~13–14 juin)."
+    },
+    "logistics": {
+      "title": "Logistique de base",
+      "body": "Vol open-jaw : Montréal → Séville (SVQ), retour Málaga (AGP) → Montréal, contrainte no-transit-US respectée (router via Lisbonne, Madrid ou direct). Char loué à l'aéroport de Séville, retour à Málaga (one-way intra-Espagne). Dates exactes à fixer autour de la fête de Frigiliana."
+    }
+  },
+  "footerNote": "Itinéraire préparé avec amour · Andalousie, mai–juin 2027"
+}

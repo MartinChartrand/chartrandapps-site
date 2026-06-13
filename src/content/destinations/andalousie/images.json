@@ -1,0 +1,252 @@
+[
+  {
+    "id": "hero",
+    "slot": "hero",
+    "base": null,
+    "role": "hero",
+    "file": "hero.jpg",
+    "alt": "Séville au crépuscule, les toits de la vieille ville",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1509840841025-9088ba78a826",
+      "photographer": "Henrique Ferreira",
+      "license": "unsplash-standard"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "91313a30a5fc14f150ed0a9b00e385c533ddb4b9f23de94e3ca5c6feb76ca69a",
+    "visionCheckedSemantic": {
+      "sha256": "91313a30a5fc14f150ed0a9b00e385c533ddb4b9f23de94e3ca5c6feb76ca69a",
+      "alt": "Séville au crépuscule, les toits de la vieille ville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "seville-cover",
+    "slot": "seville-cover",
+    "base": "seville",
+    "role": "cover",
+    "file": "seville-cover.jpg",
+    "alt": "Maisons colorées du quartier de Triana, Séville",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1636060939267-d791f7afd454",
+      "photographer": "Lothar Boris Piltz",
+      "license": "unsplash-standard"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "090e33c5ed81d777bb26b37fd659fd688f17462eb6d7fef8d7a7f777b0c933d4",
+    "visionCheckedSemantic": {
+      "sha256": "090e33c5ed81d777bb26b37fd659fd688f17462eb6d7fef8d7a7f777b0c933d4",
+      "alt": "Maisons colorées du quartier de Triana, Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "jamon-bellota",
+    "slot": "jamon-bellota",
+    "base": null,
+    "role": "photo",
+    "file": "jamon-bellota.jpg",
+    "alt": "Jamón ibérico de bellota, tranché",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Jamon iberico de bellota (cinco jotas).jpg",
+      "photographer": "Cantabrucu",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "d8b5ab5bf85f12e16893fcc951dc3703649b2be76193fedb9dc6f9a82fb37572",
+    "visionCheckedSemantic": {
+      "sha256": "d8b5ab5bf85f12e16893fcc951dc3703649b2be76193fedb9dc6f9a82fb37572",
+      "alt": "Jamón ibérico de bellota, tranché",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "salmorejo",
+    "slot": "salmorejo",
+    "base": null,
+    "role": "photo",
+    "file": "salmorejo.jpg",
+    "alt": "Salmorejo cordobés, crème froide de tomate",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Salmorejo cordouan.JPG",
+      "photographer": "P.Lechien",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "9b6e033374401d1fdffc97dfd05e3e2d9ebcc360a0b4174d500e0dea2cf8a07d",
+    "visionCheckedSemantic": {
+      "sha256": "9b6e033374401d1fdffc97dfd05e3e2d9ebcc360a0b4174d500e0dea2cf8a07d",
+      "alt": "Salmorejo cordobés, crème froide de tomate",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "el-rinconcillo",
+    "slot": "el-rinconcillo",
+    "base": null,
+    "role": "photo",
+    "file": "el-rinconcillo.jpg",
+    "alt": "El Rinconcillo, taverne historique de Séville (1670)",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Restaurante El Rinconcillo, Sevilla SP.jpg",
+      "photographer": "Stefano Vigorelli",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "c2617f3d28f47f58f8dd03034b1e1c8712168da9d7bf0b7af5816be8ae688362",
+    "visionCheckedSemantic": {
+      "sha256": "c2617f3d28f47f58f8dd03034b1e1c8712168da9d7bf0b7af5816be8ae688362",
+      "alt": "El Rinconcillo, taverne historique de Séville (1670)",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "giralda",
+    "slot": "giralda",
+    "base": null,
+    "role": "photo",
+    "file": "giralda.jpg",
+    "alt": "La Giralda et la cathédrale de Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Sevilla. La Giralda LCCN2017660786.jpg",
+      "photographer": "Photoglob Co., publisher",
+      "license": "Public domain"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "87f0e90b8b4b333bf13e53ca56ddfbf327fd45b781e5b0eb59baa29d5afe1096",
+    "visionCheckedSemantic": {
+      "sha256": "87f0e90b8b4b333bf13e53ca56ddfbf327fd45b781e5b0eb59baa29d5afe1096",
+      "alt": "La Giralda et la cathédrale de Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "espinacas",
+    "slot": "espinacas",
+    "base": null,
+    "role": "photo",
+    "file": "espinacas.jpg",
+    "alt": "Espinacas con garbanzos, tapa sévillane",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "GarbanzosConEspinacas.jpg",
+      "photographer": "Tubamirum at French Wikipedia",
+      "license": "Public domain"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "bd62234905121984c15a75260c19718868adf281f374f34a6246c074f90de399",
+    "visionCheckedSemantic": {
+      "sha256": "bd62234905121984c15a75260c19718868adf281f374f34a6246c074f90de399",
+      "alt": "Espinacas con garbanzos, tapa sévillane",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "fino",
+    "slot": "fino",
+    "base": null,
+    "role": "photo",
+    "file": "fino.jpg",
+    "alt": "Verre de fino, vin de Jerez",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Tapas \"Manteca\"-Cádiz.JPG",
+      "photographer": "Tamorlan",
+      "license": "CC BY 3.0"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "af476d0a2917d0b71b3f4016af0f21fd239cc9ecabfe6be965e746e316c29ed9",
+    "visionCheckedSemantic": {
+      "sha256": "af476d0a2917d0b71b3f4016af0f21fd239cc9ecabfe6be965e746e316c29ed9",
+      "alt": "Verre de fino, vin de Jerez",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "rabo-toro",
+    "slot": "rabo-toro",
+    "base": null,
+    "role": "photo",
+    "file": "rabo-toro.jpg",
+    "alt": "Rabo de toro braisé",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Cola de toro.jpg",
+      "photographer": "El Pantera",
+      "license": "CC BY-SA 3.0"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "148c873807ad518e628aae120241c5e2c1b4eff1909758de261c937ca4560803",
+    "visionCheckedSemantic": {
+      "sha256": "148c873807ad518e628aae120241c5e2c1b4eff1909758de261c937ca4560803",
+      "alt": "Rabo de toro braisé",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "dehesa-eiriz",
+    "slot": "dehesa-eiriz",
+    "base": null,
+    "role": "photo",
+    "file": "dehesa-eiriz.jpg",
+    "alt": "Cochons ibériques pata negra dans la dehesa",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Cerdo Ibérico - Higuera de la Sierra.jpg",
+      "photographer": "José Losada",
+      "license": "CC BY 2.0"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "44fda6233567efff66bbbf6b9a35c3c88f3daca3d131b50235236d23ffabf346",
+    "visionCheckedSemantic": {
+      "sha256": "44fda6233567efff66bbbf6b9a35c3c88f3daca3d131b50235236d23ffabf346",
+      "alt": "Cochons ibériques pata negra dans la dehesa",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  }
+]
