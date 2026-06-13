@@ -228,6 +228,20 @@ export const imageSchema = z.object({
   }),
   sha256: z.string(),
   visionChecked: z.string(), // invalidé si sha256 OU alt change
+  // ADR-5 — vision-check SÉMANTIQUE (test de l'ami-témoin) : ÉCRIT par scripts/vision-images.mjs
+  // (réseau, claude vision). Le fichier image dépeint-il bien ce que son `alt` (= le claim) affirme ?
+  // N'importe qui qui connaît le lieu/plat juge l'image contre sa mémoire — aucune image ne doit trahir
+  // son claim. Auto-invalidant : la garde offline (validate-images.mjs §4, dans validate:fast) compare
+  // sha256+alt au sceau ; image ou alt qui change → périmé → rouge → re-check. `mismatch` persisté reste
+  // rouge en CI jusqu'à correction ; absent = jamais vérifié = inverifiable (jaune). Corrige les alts décalés.
+  visionCheckedSemantic: z
+    .object({
+      sha256: z.string(),                                    // sha256 au moment du check
+      alt: z.string(),                                       // alt (claim) vérifié au moment du check
+      verdict: z.enum(['match', 'mismatch', 'unverifiable']),
+      checkedAt: ISO_DATE,
+    })
+    .optional(),
 });
 
 // pratique : §3 ne spécifie PAS de forme exacte (cf. recherche). Schéma minimal non-inventif,

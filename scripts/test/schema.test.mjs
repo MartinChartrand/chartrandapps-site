@@ -111,6 +111,41 @@ test('v3 — source date non-ISO échoue ; verifiedAt non-ISO échoue', () => {
   assert.equal(dishSchema.safeParse({ ...dishV2, verifiedAt: 'hier' }).success, false);
 });
 
+// --- ADR-5 : vision-check sémantique sur l'IMAGE (sceau écrit par vision-images.mjs, test ami-témoin) ---
+const imgBase = {
+  slot: 's',
+  file: 's.jpg',
+  alt: 'a',
+  layout: null,
+  claims: 'atmosphere',
+  credit: { source: 'unsplash', photoId: 'x', photographer: 'y', license: 'unsplash-standard' },
+  sha256: 'deadbeef',
+  visionChecked: '2026-06-11',
+};
+
+test('ADR-5 — image avec visionCheckedSemantic complet passe (3 verdicts acceptés)', () => {
+  for (const v of ['match', 'mismatch', 'unverifiable']) {
+    const vc = { sha256: 'deadbeef', alt: 'a', verdict: v, checkedAt: '2026-06-13' };
+    assert.equal(imageSchema.safeParse({ ...imgBase, visionCheckedSemantic: vc }).success, true, v);
+  }
+});
+
+test('ADR-5 — visionCheckedSemantic reste optionnel (image nue passe)', () => {
+  assert.equal(imageSchema.safeParse(imgBase).success, true);
+});
+
+test('ADR-5 — verdict hors enum échoue ; sans checkedAt échoue ; checkedAt non-ISO échoue', () => {
+  assert.equal(imageSchema.safeParse({ ...imgBase, visionCheckedSemantic: { sha256: 'a', alt: 'b', verdict: 'oui', checkedAt: '2026-06-13' } }).success, false);
+  assert.equal(imageSchema.safeParse({ ...imgBase, visionCheckedSemantic: { sha256: 'a', alt: 'b', verdict: 'match' } }).success, false);
+  assert.equal(imageSchema.safeParse({ ...imgBase, visionCheckedSemantic: { sha256: 'a', alt: 'b', verdict: 'match', checkedAt: 'hier' } }).success, false);
+});
+
+test('ADR-5 — le sceau ne vit PAS sur poi/dish (champ inconnu ignoré, pas un claim d\'entité)', () => {
+  // provenanceFields ne porte plus visionCheckedSemantic — il appartient à l'image. Le schéma entité
+  // reste strict sur ses champs connus mais zod ignore les inconnus par défaut → dish nu passe.
+  assert.equal(dishSchema.safeParse(dishV2).success, true);
+});
+
 // --- Cross-entrée : validateDataset ---
 test('dataset Crète valide → aucun problème', () => {
   assert.equal(hasProblems(validateDataset(creteValid)), false);
