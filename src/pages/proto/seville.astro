@@ -1,0 +1,367 @@
+---
+// PROTOTYPE v3 — « mode épisode » — UN chapitre : SÉVILLE (Andalousie).
+// Route isolée (/proto/seville/), ne touche pas au rendu v2 (/andalousie/).
+// Gabarit : proto/chania.astro + EpisodeLayout + components/episode/*.
+// CETTE page = composition éditoriale du chapitre (grammaire Bourdain, cf.
+// docs/v3-design-research/storyboard-bourdain-andalousie.md) + résolution d'images.
+// Cold open = LA CONTRADICTION (joie sévillane / château de l'Inquisition).
+// Beat de friction (Phase 4) = le jamón comme test religieux — voix de Martin.
+//   ⚠ À SOURCER avant tout passage en [dest] : la consommation publique de porc comme
+//   preuve de « limpieza de sangre » sous l'Inquisition est de l'histoire standard
+//   (conversos/morisques), mais doit porter une source avant de quitter le proto.
+import EpisodeLayout from '../../layouts/EpisodeLayout.astro';
+import ScrollyMapSection from '../../components/episode/ScrollyMapSection.astro';
+import SceneSection from '../../components/episode/SceneSection.astro';
+import CarnetSection from '../../components/episode/CarnetSection.astro';
+import { getCollection } from 'astro:content';
+
+const dest = 'andalousie';
+const baseSlug = 'seville';
+
+const [allBases, allPois, allDishes, allImages] = await Promise.all([
+  getCollection('bases'),
+  getCollection('pois'),
+  getCollection('dishes'),
+  getCollection('images'),
+]);
+
+const baseEntry = allBases.find((b) => {
+  const fp = (b as any).filePath as string | undefined;
+  const inDest = fp ? fp.includes(`/${dest}/`) : b.id.startsWith(`${dest}/`);
+  return inDest && b.data.slug === baseSlug;
+});
+if (!baseEntry) throw new Error(`Base introuvable : ${dest}/${baseSlug}`);
+const bd = baseEntry.data;
+
+const pois = allPois
+  .filter((p) => p.id.startsWith(`${dest}/`))
+  .map((p) => p.data)
+  .filter((p) => p.base === baseSlug);
+
+const dishes = allDishes.filter((d) => d.id.startsWith(`${dest}/`)).map((d) => d.data);
+
+const imageManifest = allImages.filter((i) => i.id.startsWith(`${dest}/`)).map((i) => i.data);
+
+const pageAssets = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/**/*.{jpg,jpeg,png,webp}',
+  { eager: true }
+);
+function resolveSlot(slot: string | null | undefined): string | undefined {
+  if (!slot) return undefined;
+  const entry = imageManifest.find((i) => i.slot === slot);
+  if (!entry) return undefined;
+  return pageAssets[`/src/assets/destinations/${dest}/${entry.file}`]?.default?.src;
+}
+const poi = (id: string) => {
+  const p = pois.find((x) => x.id === id);
+  if (!p) throw new Error(`[proto] POI introuvable : ${id}`);
+  return p;
+};
+
+type Pill = { label: string; url: string };
+function poiPills(p: (typeof pois)[number]): Pill[] {
+  const pills: Pill[] = [];
+  if (p.links.maps) pills.push({ label: 'Maps', url: p.links.maps });
+  if (p.links.official) pills.push({ label: 'Site officiel', url: p.links.official });
+  if (p.links.booking) pills.push({ label: 'Booking', url: p.links.booking });
+  if (p.links.tripadvisor) pills.push({ label: 'TripAdvisor', url: p.links.tripadvisor });
+  for (const l of p.extraLinks ?? []) pills.push({ label: l.label, url: l.url });
+  return pills;
+}
+
+// ——— Composition de l'épisode (grammaire Bourdain) ———
+const rinconcillo = poi('el-rinconcillo');
+const eiriz = poi('jamones-eiriz');
+const giralda = poi('catedral-giralda');
+
+// Les SCÈNES = les POIs wow promus (un visage chacun). Phase 2-3-4 de l'arc.
+const scenes = [
+  {
+    id: 'scene-rinconcillo',
+    num: 1,
+    kicker: 'Calle Gerona · le QUOI',
+    title: 'Le plus vieux bar d’Espagne',
+    image: 'el-rinconcillo',
+    alt: 'Taverne historique El Rinconcillo, Séville',
+    intro:
+      'El Rinconcillo, ouvert en 1670. Comptoir de bois, jambons au plafond, et l’addition encore marquée à la craie pendant que tu manges. Sept générations qui n’ont jamais jugé bon de moderniser la place.',
+    reco:
+      'On commande quoi : les espinacas con garbanzos — épinards-pois chiches au cumin. Une recette arabe de 500 ans. Pis tu réalises que les Arabes qui l’ont inventée se sont fait expulser.',
+    quote:
+      'C’est pas un décor pour Instagram. Ça marche de même depuis 350 ans, à des gens qui savent pas — ou qui veulent pas savoir — d’où ça vient.',
+    via: null,
+    pills: poiPills(rinconcillo),
+  },
+  {
+    id: 'scene-eiriz',
+    num: 2,
+    kicker: 'Corteconcepción · l’INCONFORT',
+    title: 'Le jamón, c’est pas juste du cochon',
+    image: 'dehesa-eiriz',
+    alt: 'Cochons ibériques pata negra dans la dehesa',
+    intro:
+      'Eiriz, une famille à Corteconcepción depuis 1818 — sept générations dans le même secadero. Tu montes dans la Sierra de Aracena, ça sent le chêne pis le porc qui sèche.',
+    reco:
+      'Le filet de bellota tranché à la main, fin mai, c’est le jamón qui mûrit dans les bodegas naturelles — pas les cochons qui broutent les glands, ça c’est l’automne. Honnêtement, c’est ça la vraie affaire.',
+    quote:
+      'Sous l’Inquisition, manger du porc en public, c’était la preuve que t’étais pas un Juif ou un Musulman caché. Le plat le plus aimé d’Espagne est né comme un test de loyauté. Tu mords dans une tranche, t’avales cinq siècles de « prouve que t’es des nôtres ».',
+    via: null,
+    pills: poiPills(eiriz),
+  },
+  {
+    id: 'scene-giralda',
+    num: 3,
+    kicker: 'Centre · le POURQUOI',
+    title: 'La tour qui ne sait pas ce qu’elle est',
+    image: 'giralda',
+    alt: 'La Giralda et la cathédrale de Séville',
+    intro:
+      'La Giralda, c’est un minaret. Un vrai, du XIIᵉ, bâti quand Séville était musulmane. Quand les chrétiens ont repris la ville, ils ont pas démoli la tour — ils ont juste vissé un clocher chrétien par-dessus.',
+    reco:
+      'À voir une fois, tôt à l’ouverture (l’Alcázar fonctionne par fenêtres de 30 minutes). Mais regarde la tour comme il faut : huit siècles de « à qui appartient cette ville » empilés dans une seule structure.',
+    quote:
+      'Tout ce qui est beau ici a coûté quelque chose à quelqu’un. C’est ça, l’Andalousie : la convivencia pis la Reconquista dans le même cadre.',
+    via: null,
+    pills: poiPills(giralda),
+  },
+];
+
+// COLD OPEN — beats d'orientation carte. Le 1er beat porte LA CONTRADICTION.
+const mercado = poi('mercado-de-triana');
+const betis = poi('calle-betis-puente');
+const alcazar = poi('real-alcazar');
+
+const mapBeats = [
+  {
+    kicker: 'Le paradoxe',
+    body: 'Séville, fin mai. La ville la plus heureuse d’Espagne — flamenco, orangers, la lumière qui rebondit sur la chaux. Pis le marché où tu achètes ton poisson est bâti sur le château où l’Inquisition jugeait les hérétiques. Bienvenue.',
+    fly: `${mercado.coords.lat},${mercado.coords.lng},15`,
+    targets: ['mercado-de-triana'],
+    thumb: 'seville-cover',
+    thumbAlt: 'Maisons colorées du quartier de Triana, Séville',
+    pills: poiPills(mercado),
+  },
+  {
+    kicker: 'La base',
+    body: 'À Triana, côté Calle Betis ou Pureza — jamais Santa Cruz. Le quartier qui vit pour vrai : ateliers de céramique, marché couvert, pis le Guadalquivir entre toi et la vieille ville. Le soir, la lumière dorée tape sur la Giralda en face. Tu prends ton verre depuis ta rive, pas la leur.',
+    fly: `${betis.coords.lat},${betis.coords.lng},15`,
+    targets: ['calle-betis-puente'],
+    thumb: 'seville-cover',
+    thumbAlt: 'Le quartier de Triana au bord du Guadalquivir, Séville',
+    pills: poiPills(betis),
+  },
+  {
+    kicker: 'La ville monumentale, vite faite',
+    body: 'L’Alcázar pis la cathédrale : une matinée, à l’ouverture, billets réservés d’avance. Tu décrisses avant que les groupes débarquent. Le reste du temps, c’est la rue, le marché, pis une journée de char vers les chênes de Jabugo.',
+    fly: `${alcazar.coords.lat},${alcazar.coords.lng},15`,
+    targets: ['real-alcazar', 'catedral-giralda'],
+    thumb: 'giralda',
+    thumbAlt: 'La Giralda et la cathédrale de Séville',
+    pills: poiPills(alcazar),
+  },
+];
+
+// LE MONTAGE — le trailer du carnet (un beat par groupe, pas par adresse).
+const golondrinas = poi('las-golondrinas');
+const casaCuesta = poi('casa-cuesta');
+const sobretablas = poi('sobretablas');
+
+const montageBeats = [
+  {
+    kicker: 'La table qu’on a pas filmée',
+    body: 'Trois registres. Las Golondrinas pour la tapa de quartier — tu dis « dame una » et on t’apporte les puntas de solomillo, point. Casa Cuesta pour un vrai rabo de toro dans une maison de 1880. Pis Sobretablas, le repas-événement (Camila Ferraro, Bib Gourmand) — à El Porvenir, prévois le taxi.',
+    bounds: [golondrinas, casaCuesta, sobretablas].map((p) => `${p.coords.lat},${p.coords.lng}`).join(';'),
+    targets: ['las-golondrinas', 'casa-cuesta', 'sobretablas'],
+    thumb: 'rabo-toro',
+    thumbAlt: 'Rabo de toro braisé',
+    pills: [
+      { label: 'Las Golondrinas · Maps', url: golondrinas.links.maps! },
+      { label: 'Casa Cuesta', url: casaCuesta.links.official! },
+      { label: 'Sobretablas', url: sobretablas.links.official! },
+    ],
+  },
+  {
+    kicker: 'Le rituel (boire comme un local)',
+    body: 'Le fino bien frais, la manzanilla saline, le vermut de grifo à la pression le dimanche midi (la hora del vermut), le tinto de verano l’après-midi. Pas de sangria — ça, c’est pour les autobus.',
+    fly: `${betis.coords.lat},${betis.coords.lng},15`,
+    targets: ['calle-betis-puente'],
+    thumb: 'fino',
+    thumbAlt: 'Verre de fino, vin de Jerez',
+    pills: [{ label: 'Le carnet de bouche', url: '#carnet' }],
+  },
+];
+
+// ——— Markers + transformation vers les shapes des composants ———
+const mapMarkers = pois
+  .filter((p) => p.onMap)
+  .map((p) => ({ id: p.id, name: p.name, mapType: p.mapType, coords: p.coords }));
+const allCoords = mapMarkers.map((m) => `${m.coords.lat},${m.coords.lng}`).join(';');
+
+const toBeat = (b: any) => ({
+  fly: b.fly as string | undefined,
+  bounds: b.bounds as string | undefined,
+  targets: b.targets,
+  thumbSrc: resolveSlot(b.thumb),
+  thumbAlt: b.thumbAlt,
+  kicker: b.kicker,
+  body: b.body,
+  pills: b.pills,
+});
+const coldOpenBeats = mapBeats.map(toBeat);
+const montageComponentBeats = montageBeats.map(toBeat);
+
+const sceneData = scenes.map((s) => ({
+  id: s.id,
+  num: s.num,
+  kicker: s.kicker,
+  title: s.title,
+  imageSrc: resolveSlot(s.image),
+  alt: s.alt,
+  intro: s.intro,
+  reco: s.reco,
+  via: s.via,
+  quote: s.quote,
+  pills: s.pills,
+}));
+
+// ——— Carnet (mode terrain — l'outil de départ, première classe) ———
+const infoOrder: string[] = (bd.infoBlocks ?? []).flatMap((b: any) =>
+  b.type === 'poi-list' ? b.items : []
+);
+const rank = (id: string) => {
+  const i = infoOrder.indexOf(id);
+  return i === -1 ? Number.MAX_SAFE_INTEGER : i;
+};
+const byKind = (kinds: string[]) =>
+  pois.filter((p) => kinds.includes(p.kind)).sort((a, b) => rank(a.id) - rank(b.id));
+
+const carnetGroups = [
+  { label: 'Où dormir', items: byKind(['hotel']) },
+  { label: 'Où manger', items: byKind(['resto']) },
+  { label: 'À voir & faire', items: byKind(['sight', 'activity']) },
+];
+
+function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
+  if (p.image) return { src: resolveSlot(p.image), alt: p.name };
+  return { src: undefined, alt: '' };
+}
+
+type Pill2 = Pill;
+const kmlCount = pois.filter((p) => p.onMap).length;
+const carnetListGroups = carnetGroups.map((g) => ({
+  type: 'list' as const,
+  title: g.label,
+  rows: g.items.map((p) => {
+    const t = poiThumb(p);
+    return {
+      id: `carnet-${p.id}`,
+      dataPoi: p.onMap ? p.id : undefined,
+      thumbSrc: t.src,
+      thumbAlt: t.alt,
+      name: p.name,
+      price: p.price?.range,
+      blurb: p.blurb,
+      pills: poiPills(p),
+      forcePillRow: true,
+    };
+  }),
+  footer:
+    g.label === 'Où manger'
+      ? 'Règle d’or : éviter le premier rang de terrasses de Calle Betis avec menus en 5 langues.'
+      : undefined,
+}));
+
+const dishesGroup = {
+  type: 'list' as const,
+  title: 'Le carnet de bouche',
+  rows: dishes.map((d) => ({
+    thumbSrc: d.image ? resolveSlot(d.image) : undefined,
+    thumbAlt: d.title,
+    thumbFood: true,
+    name: d.title,
+    blurb: d.body,
+    pills: (d.links ?? []) as Pill2[],
+    forcePillRow: true,
+  })),
+};
+
+const carnetAllGroups = [...carnetListGroups, dishesGroup];
+---
+
+<EpisodeLayout
+  title={`${bd.title} — épisode · prototype v3`}
+  favicon="🍖"
+  palette="andalousie"
+  description={bd.subtitle}
+  destLabel="Andalousie"
+  chapterNum={bd.order}
+  chapterTotal={5}
+  chapterTitle={bd.title}
+  storageKey="proto-seville-mode"
+>
+  <div class="view-episode">
+
+    <ScrollyMapSection
+      ariaLabel="Cold open — la carte"
+      markers={mapMarkers}
+      openBounds={allCoords}
+      mapId="scene-map"
+      beats={coldOpenBeats}
+    >
+      <div class="beat beat-title">
+        <div class="beat-card beat-card-title reveal">
+          <span class="ep-kicker">Chapitre {bd.order} de 5 · {bd.nights} nuits · {bd.dates}</span>
+          <h1 class="ep-title">{bd.title}</h1>
+          <p class="ep-sub">{bd.subtitle}</p>
+          <span class="scroll-hint" aria-hidden="true">↓</span>
+        </div>
+      </div>
+    </ScrollyMapSection>
+
+    <section class="jalon">
+      <blockquote class="jalon-quote reveal">{bd.pullquote}</blockquote>
+    </section>
+
+    <SceneSection scenes={sceneData} />
+
+    <ScrollyMapSection
+      ariaLabel="Le montage — le reste du chapitre"
+      markers={mapMarkers}
+      openBounds={allCoords}
+      beats={montageComponentBeats}
+    >
+      <div class="beat beat-title">
+        <div class="beat-card beat-card-title reveal">
+          <span class="ep-kicker">Le montage</span>
+          <h2 class="montage-title">Ce que la caméra a pas eu le temps de filmer</h2>
+        </div>
+      </div>
+    </ScrollyMapSection>
+
+    <section class="outro">
+      <div class="outro-inner reveal">
+        <span class="ep-kicker">Le reste de Séville</span>
+        <p class="outro-body">
+          Le Mercado de Triana, les ateliers de céramique, le pèlerinage jamón vers Jabugo, les {pois.length}
+          lieux du chapitre avec leurs liens — pis le budget qui s’accumule. Tout ça vit dans le carnet :
+          c’est l’outil, l’épisode c’est l’apéro.
+        </p>
+        <button type="button" class="outro-btn" data-mode="carnet">Ouvrir le carnet</button>
+        <a class="outro-next" href="/andalousie/#seville">Voir la version v2 →</a>
+      </div>
+    </section>
+
+  </div>
+
+  <CarnetSection
+    title={bd.title}
+    dates={bd.dates}
+    focus={bd.focus}
+    kmlHref="/andalousie/seville.kml"
+    kmlDownload="seville.kml"
+    kmlCount={kmlCount}
+    markers={mapMarkers}
+    openBounds={allCoords}
+    groups={carnetAllGroups}
+  />
+</EpisodeLayout>

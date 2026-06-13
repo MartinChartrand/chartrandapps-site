@@ -198,3 +198,17 @@ test('T14: attribution Unsplash — tague la plateforme, jamais le label brut "u
   assert.ok(html.includes('Unsplash'), 'plateforme Unsplash non taguée');
   assert.ok(!html.includes('unsplash-standard'), 'le label technique "unsplash-standard" ne doit pas fuiter dans l\'UI');
 });
+
+test('T15: chaque thème de styles/themes/*.css est @import-é dans Destination.astro (sinon data-theme non stylé → scrims transparents)', async () => {
+  const { readdirSync } = await import('node:fs');
+  const themesDir = join(ROOT, 'src/styles/themes');
+  const dest = readFileSync(join(ROOT, 'src/layouts/Destination.astro'), 'utf-8');
+  const themes = readdirSync(themesDir).filter((f) => f.endsWith('.css'));
+  assert.ok(themes.length > 0, 'aucun fichier de thème trouvé');
+  for (const t of themes) {
+    assert.ok(
+      dest.includes(`themes/${t}`),
+      `thème "${t}" jamais importé dans Destination.astro — son [data-theme] n'aura aucune variable (scrims transparents, palette morte)`
+    );
+  }
+});
