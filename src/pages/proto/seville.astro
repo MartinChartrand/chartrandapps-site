@@ -9,81 +9,21 @@
 //   ⚠ À SOURCER avant tout passage en [dest] : la consommation publique de porc comme
 //   preuve de « limpieza de sangre » sous l'Inquisition est de l'histoire standard
 //   (conversos/morisques), mais doit porter une source avant de quitter le proto.
+// ADR-7 : l'infra (chargement, resolveSlot, poiPills, byKind, toBeat, carnetRow…) vit
+// dans ../../lib/episode ; cette page ne garde que l'éditorial.
 import EpisodeLayout from '../../layouts/EpisodeLayout.astro';
 import ScrollyMapSection from '../../components/episode/ScrollyMapSection.astro';
 import SceneSection from '../../components/episode/SceneSection.astro';
 import CarnetSection from '../../components/episode/CarnetSection.astro';
-import { getCollection } from 'astro:content';
+import { createEpisode, type Pill, type CarnetRow } from '../../lib/episode';
 
-const dest = 'andalousie';
-const baseSlug = 'seville';
-
-const [allBases, allPois, allDishes, allGems, allImages] = await Promise.all([
-  getCollection('bases'),
-  getCollection('pois'),
-  getCollection('dishes'),
-  getCollection('gems'),
-  getCollection('images'),
-]);
-
-const baseEntry = allBases.find((b) => {
-  const fp = (b as any).filePath as string | undefined;
-  const inDest = fp ? fp.includes(`/${dest}/`) : b.id.startsWith(`${dest}/`);
-  return inDest && b.data.slug === baseSlug;
-});
-if (!baseEntry) throw new Error(`Base introuvable : ${dest}/${baseSlug}`);
-const bd = baseEntry.data;
-
-const pois = allPois
-  .filter((p) => p.id.startsWith(`${dest}/`))
-  .map((p) => p.data)
-  .filter((p) => p.base === baseSlug);
-
-// NB : les dishes andalousie ne sont PAS groupés par `group` (chapitre unique) — ils
-// portent `region`. On prend donc tout le carnet de la destination (pas de filtre group).
-const dishes = allDishes.filter((d) => d.id.startsWith(`${dest}/`)).map((d) => d.data);
-
-const gems = allGems.filter((g) => g.id.startsWith(`${dest}/`)).map((g) => g.data);
-
-const imageManifest = allImages
-  .filter((i) => i.id.startsWith(`${dest}/`))
-  .map((i) => i.data);
-
-const pageAssets = import.meta.glob<{ default: ImageMetadata }>(
-  '/src/assets/**/*.{jpg,jpeg,png,webp}',
-  { eager: true }
-);
-function resolveSlot(slot: string | null | undefined): string | undefined {
-  if (!slot) return undefined;
-  const entry = imageManifest.find((i) => i.slot === slot);
-  if (!entry) {
-    console.warn(`[proto] ${dest}: slot "${slot}" absent du manifest images.json`);
-    return undefined;
-  }
-  const mod = pageAssets[`/src/assets/destinations/${dest}/${entry.file}`];
-  if (!mod) {
-    console.warn(`[proto] ${dest}: fichier "${entry.file}" introuvable (slot "${slot}")`);
-    return undefined;
-  }
-  return mod.default.src;
-}
-const poi = (id: string) => {
-  const p = pois.find((x) => x.id === id);
-  if (!p) throw new Error(`[proto] POI introuvable : ${id}`);
-  return p;
-};
-
-// Pills de liens d'un POI — toute reco = lien cliquable (critère CI).
-type Pill = { label: string; url: string };
-function poiPills(p: (typeof pois)[number]): Pill[] {
-  const pills: Pill[] = [];
-  if (p.links.maps) pills.push({ label: 'Maps', url: p.links.maps });
-  if (p.links.official) pills.push({ label: 'Site officiel', url: p.links.official });
-  if (p.links.booking) pills.push({ label: 'Booking', url: p.links.booking });
-  if (p.links.tripadvisor) pills.push({ label: 'TripAdvisor', url: p.links.tripadvisor });
-  for (const l of p.extraLinks ?? []) pills.push({ label: l.label, url: l.url });
-  return pills;
-}
+// andalousie a des sceaux vision CORRECTS (pas de manifest décalé comme crete)
+// → poiThumb lit p.image directement, aucun override pixel-vérifié nécessaire.
+const {
+  bd, pois, dishes, gems,
+  resolveSlot, poi, poiPills, toBeat, carnetRow,
+  mapMarkers, allCoords, kmlCount, byKind, proseBlocks,
+} = await createEpisode('andalousie', 'seville');
 
 // ——— Composition de l'épisode (jugement éditorial — grammaire Bourdain) ———
 // Test Bourdain : qui est derrière ? pourquoi ça compte ? on commande quoi ?
@@ -232,24 +172,7 @@ const montageBeats = [
   },
 ];
 
-// Markers de la carte (mêmes données que MapSection v2)
-const mapMarkers = pois
-  .filter((p) => p.onMap)
-  .map((p) => ({ id: p.id, name: p.name, mapType: p.mapType, coords: p.coords }));
-
-// Vue d'ouverture : cadre tous les POI du chapitre
-const allCoords = mapMarkers.map((m) => `${m.coords.lat},${m.coords.lng}`).join(';');
-
 // ——— Carnet (mode terrain — liste dense, liens directs) ———
-const infoOrder: string[] = (bd.infoBlocks ?? []).flatMap((b: any) =>
-  b.type === 'poi-list' ? b.items : []
-);
-const rank = (id: string) => {
-  const i = infoOrder.indexOf(id);
-  return i === -1 ? Number.MAX_SAFE_INTEGER : i;
-};
-const byKind = (kinds: string[]) =>
-  pois.filter((p) => kinds.includes(p.kind)).sort((a, b) => rank(a.id) - rank(b.id));
 // Andalousie : pas de plages, mais des `activity` (marché, producteurs) → fondus dans « À voir & faire ».
 const carnetGroups = [
   { label: 'Où dormir', items: byKind(['hotel']) },
@@ -257,30 +180,7 @@ const carnetGroups = [
   { label: 'À voir & faire', items: byKind(['sight', 'activity']) },
 ];
 
-// Blocs prose du chapitre (les infoBlocks andalousie sont tous poi-list → vide, mais on garde le mécanisme)
-const proseBlocks = (bd.infoBlocks ?? []).filter((b: any) => b.type === 'prose');
-
-// Vignettes des rangées du carnet — andalousie a des sceaux vision CORRECTS (pas de manifest décalé
-// comme crete) → on lit p.image directement, pas d'override pixel-vérifié nécessaire.
-const carnetThumbs: Record<string, { slot: string; alt: string }> = {};
-function poiThumb(p: (typeof pois)[number]): { src?: string; alt: string } {
-  const o = carnetThumbs[p.id];
-  if (o) return { src: resolveSlot(o.slot), alt: o.alt };
-  if (p.image) return { src: resolveSlot(p.image), alt: p.name };
-  return { src: undefined, alt: '' };
-}
-
 // ——— Transformation vers les shapes des composants (résolution d'images ici) ———
-const toBeat = (b: (typeof mapBeats)[number]) => ({
-  fly: (b as any).fly as string | undefined,
-  bounds: (b as any).bounds as string | undefined,
-  targets: b.targets,
-  thumbSrc: resolveSlot(b.thumb),
-  thumbAlt: b.thumbAlt,
-  kicker: b.kicker,
-  body: b.body,
-  pills: b.pills,
-});
 const coldOpenBeats = mapBeats.map(toBeat);
 const montageComponentBeats = montageBeats.map(toBeat);
 
@@ -299,26 +199,8 @@ const sceneData = scenes.map((s) => ({
 }));
 
 // Carnet : structure unifiée (listes + prose) pour CarnetSection.
-const kmlCount = pois.filter((p) => p.onMap).length;
-type CarnetRow = {
-  id?: string; dataPoi?: string; thumbSrc?: string; thumbAlt?: string; thumbFood?: boolean;
-  name: string; price?: string; blurb?: string; pills: Pill[]; forcePillRow?: boolean;
-};
 const carnetListGroups = carnetGroups.map((g) => {
-  const rows: CarnetRow[] = g.items.map((p) => {
-    const t = poiThumb(p);
-    return {
-      id: `carnet-${p.id}`,
-      dataPoi: p.onMap ? p.id : undefined,
-      thumbSrc: t.src,
-      thumbAlt: t.alt,
-      name: p.name,
-      price: p.price?.range,
-      blurb: p.blurb,
-      pills: poiPills(p),
-      forcePillRow: true,
-    };
-  });
+  const rows: CarnetRow[] = g.items.map(carnetRow);
   if (g.label === 'Où dormir') {
     for (const e of (bd.accomExtras ?? []) as any[]) {
       rows.push({
