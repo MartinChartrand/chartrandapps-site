@@ -72,7 +72,16 @@
     "id": "sfakianopita-le-plat-de-la-region",
     "group": "Incontournables foodie — Loutro & Sfakia",
     "title": "Sfakianopita — LE plat de la région",
-    "body": "Crêpe fine pétrie au raki, fourrée à la myzithra fraîche, dorée à la poêle, arrosée de miel de thym et graines de sésame. Commander partout — c'est le terroir local. En lice pour l'UNESCO.",
+    "type": "plat",
+    "region": "Sfakia",
+    "body": "Crêpe fine pétrie au raki, fourrée à la myzithra fraîche, dorée à la poêle, arrosée de miel de thym et graines de sésame. Commander partout — c'est le terroir local.",
+    "story": "La sfakianopita, c'est ni un dessert ni un kalitsouni frit. La pâte est pétrie au raki, étirée à la main fine comme du papier, fourrée à la xynomyzithra fraîche — le fromage suret des bergers — pis dorée à la poêle sans gras. Au bout, un filet de miel de thym pis du sésame. Tu la manges chaude, debout, un raki glacé à côté. C'est le déjeuner des montagnes de Sfakia descendu en ville.",
+    "sources": [
+      { "creator": "Nektaria Kokkinaki (ERT — TV publique grecque)", "url": "https://www.youtube.com/watch?v=1EnA0Y38E8A", "date": "2023-06-22" }
+    ],
+    "singleSourceTrusted": true,
+    "verifiedAt": "2026-06-13",
+    "approvedBy": "human",
     "image": "foodie-6"
   },
   {
