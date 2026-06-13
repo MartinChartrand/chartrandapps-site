@@ -248,5 +248,125 @@
       "verdict": "match",
       "checkedAt": "2026-06-13"
     }
+  },
+  {
+    "id": "alcazar",
+    "slot": "alcazar",
+    "base": null,
+    "role": "photo",
+    "file": "alcazar.jpg",
+    "alt": "Les jardins du Real Alcázar de Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "JardinLasDamas Alcazar Seville.jpg",
+      "photographer": "Martinvl",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "8a4534910818f8938a34926ed6cc58905c0db37bb7c1b457e710fa19a9391ad0",
+    "visionCheckedSemantic": {
+      "sha256": "8a4534910818f8938a34926ed6cc58905c0db37bb7c1b457e710fa19a9391ad0",
+      "alt": "Les jardins du Real Alcázar de Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "mercado-triana",
+    "slot": "mercado-triana",
+    "base": null,
+    "role": "photo",
+    "file": "mercado-triana.jpg",
+    "alt": "Le Mercado de Triana, marché couvert de Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Mercado de Triana.jpg",
+      "photographer": "CarlosVdeHabsburgo",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "c3f2d74bb5f1cc9f5450269cc02f2a2ec3354a40b588a537e44e2efb44be53af",
+    "visionCheckedSemantic": {
+      "sha256": "c3f2d74bb5f1cc9f5450269cc02f2a2ec3354a40b588a537e44e2efb44be53af",
+      "alt": "Le Mercado de Triana, marché couvert de Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "ceramica-triana",
+    "slot": "ceramica-triana",
+    "base": null,
+    "role": "photo",
+    "file": "ceramica-triana.jpg",
+    "alt": "Azulejos de céramique de Triana, Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Sevilla - Triana - Azulejos 12.jpg",
+      "photographer": "Zarateman",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "a371ed2da6cbb58ac0bc5c4a806b97cc7bf2ce81f53d95f50803a3c8ee4765bd",
+    "visionCheckedSemantic": {
+      "sha256": "a371ed2da6cbb58ac0bc5c4a806b97cc7bf2ce81f53d95f50803a3c8ee4765bd",
+      "alt": "Azulejos de céramique de Triana, Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "betis-triana",
+    "slot": "betis-triana",
+    "base": null,
+    "role": "photo",
+    "file": "betis-triana.jpg",
+    "alt": "Le Puente de Triana (Isabel II) sur le Guadalquivir, Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Puente de Triana, o de Isabel II, Sevilla - panoramio.jpg",
+      "photographer": "cesar.ruiz",
+      "license": "CC BY-SA 3.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "631bd79b9bccde69fa1ea2ae5b33c257d1c4f3e43df9a619e61e6eacc1cdd22e",
+    "visionCheckedSemantic": {
+      "sha256": "631bd79b9bccde69fa1ea2ae5b33c257d1c4f3e43df9a619e61e6eacc1cdd22e",
+      "alt": "Le Puente de Triana (Isabel II) sur le Guadalquivir, Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "gruta-maravillas",
+    "slot": "gruta-maravillas",
+    "base": null,
+    "role": "photo",
+    "file": "gruta-maravillas.jpg",
+    "alt": "Concrétions souterraines de la Gruta de las Maravillas, Aracena",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Gruta de las maravillas, Aracena, Huelva, 2017 02.jpg",
+      "photographer": "Benjamín Núñez González",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "e8c6cb48266bfc5d1e22951fc4e6bfc4d4e6bc7dd11f53ab70485dd4b79b0e4a",
+    "visionCheckedSemantic": {
+      "sha256": "e8c6cb48266bfc5d1e22951fc4e6bfc4d4e6bc7dd11f53ab70485dd4b79b0e4a",
+      "alt": "Concrétions souterraines de la Gruta de las Maravillas, Aracena",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-13"
+    }
   }
 ]

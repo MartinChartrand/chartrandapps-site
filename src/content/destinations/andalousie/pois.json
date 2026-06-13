@@ -338,7 +338,7 @@
     "name": "Mercado de Triana",
     "blurb": "Marché couvert sur les ruines du château de San Jorge (Inquisition), Plaza del Altozano. Étals de poisson, jamón, fromages + barres gastro pour grignoter sur place.",
     "signature": "",
-    "image": null,
+    "image": "mercado-triana",
     "price": {
       "range": "entrée libre",
       "currency": "EUR",
@@ -376,7 +376,7 @@
     "name": "Centro Cerámica Triana",
     "blurb": "Musée dans les anciens fours à céramique de Calle Antillano Campos. Raconte le métier qui a fait Triana. Boutiques-ateliers actifs tout autour sur Calle Alfarería et Antillano Campos.",
     "signature": "",
-    "image": null,
+    "image": "ceramica-triana",
     "price": {
       "range": "~2–3 € (à confirmer 2027)",
       "currency": "EUR",
@@ -415,7 +415,7 @@
     "name": "Calle Betis & Puente de Triana au coucher",
     "blurb": "La berge de Triana face à la vieille ville. Lumière dorée sur la Torre del Oro et la Giralda au coucher. Évite le premier rang de terrasses touristiques — recule d'une rue.",
     "signature": "",
-    "image": null,
+    "image": "betis-triana",
     "price": {
       "range": "gratuit",
       "currency": "EUR",
@@ -492,7 +492,7 @@
     "name": "Real Alcázar de Sevilla",
     "blurb": "Palais mudéjar, jardins, salles royales encore en usage. Billet horodaté par fenêtre de 30 min — réserve en ligne d'avance, premier créneau du matin pour la lumière et le calme.",
     "signature": "",
-    "image": null,
+    "image": "alcazar",
     "price": {
       "range": "général ~15,50 € (asOf 2026 — re-valider 2027) ; réduit ~8 € ; gratuit 18h–18h30 sur résa",
       "currency": "EUR",
@@ -713,7 +713,7 @@
     "name": "Gruta de las Maravillas (Aracena)",
     "blurb": "Grotte spectaculaire sous le château d'Aracena, lacs souterrains et concrétions. Visite guidée ~45 min, max 1000 pers/jour, groupes formés à la billetterie. Photo : interdiction probable du trépied, vérifie.",
     "signature": "",
-    "image": null,
+    "image": "gruta-maravillas",
     "price": {
       "range": "adulte ~15 € / enfant 6–12 ~11 € (asOf 2026 — re-valider 2027)",
       "currency": "EUR",

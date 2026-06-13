@@ -144,37 +144,47 @@ const scenes = [
 ];
 
 // Beats du cold open carte-scène. Le 1er beat porte LA CONTRADICTION.
+// Comme Chania (base → proche → far west) : on BALAIE le territoire pour le mouvement —
+// Triana (serré) → le centre monumental (de l'autre bord du fleuve) → le GROS vol vers la
+// Sierra de Jabugo (la journée char). La carte voyage, elle reste pas plantée sur le centre.
 const mercado = poi('mercado-de-triana');
 const betis = poi('calle-betis-puente');
 const alcazar = poi('real-alcazar');
+const eirizCO = poi('jamones-eiriz');
+const cincoJotasCO = poi('cinco-jotas-bodega');
+const grutaCO = poi('gruta-de-las-maravillas');
 
 const mapBeats = [
   {
     kicker: 'Le paradoxe',
     body: 'Séville, fin mai. La ville la plus heureuse d’Espagne — flamenco, orangers, la lumière qui rebondit sur la chaux. Pis le marché où tu achètes ton poisson est bâti sur le château où l’Inquisition jugeait les hérétiques. Bienvenue.',
-    fly: `${mercado.coords.lat},${mercado.coords.lng},15`,
-    targets: ['mercado-de-triana'],
+    fly: `${mercado.coords.lat},${mercado.coords.lng},16`,
+    targets: ['mercado-de-triana', 'calle-betis-puente'],
     thumb: 'seville-cover',
     thumbAlt: 'Maisons colorées du quartier de Triana, Séville',
     pills: poiPills(mercado),
   },
   {
-    kicker: 'La base',
-    body: 'À Triana, côté Calle Betis ou Pureza — jamais Santa Cruz. Le quartier qui vit pour vrai : ateliers de céramique, marché couvert, pis le Guadalquivir entre toi et la vieille ville. Le soir, la lumière dorée tape sur la Giralda en face. Tu prends ton verre depuis ta rive, pas la leur.',
-    fly: `${betis.coords.lat},${betis.coords.lng},15`,
-    targets: ['calle-betis-puente'],
-    thumb: 'seville-cover',
-    thumbAlt: 'Le quartier de Triana au bord du Guadalquivir, Séville',
-    pills: poiPills(betis),
-  },
-  {
-    kicker: 'La ville monumentale, vite faite',
-    body: 'L’Alcázar pis la cathédrale : une matinée, à l’ouverture, billets réservés d’avance. Tu décrisses avant que les groupes débarquent. Le reste du temps, c’est la rue, le marché, pis une journée de char vers les chênes de Jabugo.',
+    kicker: 'L’autre rive — la ville monumentale',
+    body: 'Tu traverses le Guadalquivir. L’Alcázar pis la cathédrale : une matinée, à l’ouverture, billets réservés d’avance. Tu décrisses avant que les groupes débarquent — pis tu retournes à Triana, là où le quartier vit pour vrai.',
     fly: `${alcazar.coords.lat},${alcazar.coords.lng},15`,
     targets: ['real-alcazar', 'catedral-giralda'],
     thumb: 'giralda',
     thumbAlt: 'La Giralda et la cathédrale de Séville',
     pills: poiPills(alcazar),
+  },
+  {
+    kicker: 'Le grand large — la Sierra de Jabugo',
+    body: 'Là on sort de la ville. Une journée de char, une heure et demie vers le nord-ouest, dans la Sierra de Aracena : la dehesa d’Eiriz, les caves de Cinco Jotas, la grotte d’Aracena. C’est le pèlerinage gras — la vraie raison du voyage.',
+    bounds: [eirizCO, cincoJotasCO, grutaCO].map((p) => `${p.coords.lat},${p.coords.lng}`).join(';'),
+    targets: ['jamones-eiriz', 'cinco-jotas-bodega', 'gruta-de-las-maravillas'],
+    thumb: 'dehesa-eiriz',
+    thumbAlt: 'Cochons ibériques pata negra dans la dehesa',
+    pills: [
+      { label: 'Eiriz · Maps', url: eirizCO.links.maps! },
+      { label: 'Cinco Jotas', url: cincoJotasCO.links.official! },
+      { label: 'Gruta · Maps', url: grutaCO.links.maps! },
+    ],
   },
 ];
 
