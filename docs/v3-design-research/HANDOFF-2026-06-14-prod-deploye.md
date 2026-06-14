@@ -8,7 +8,7 @@ Mémoires clés : `andalousie-dogfood-seville`, `contrat-machine-a-saucisse`, `e
 
 ## STATUT — tout est EN PROD, branche `main` propre
 - Branche **`main`**, working tree **PROPRE**, synchro `origin/main`. **TOUT EST DÉPLOYÉ** (GitHub Pages via `.github/workflows/deploy.yml`, `on: push: main`).
-- LIVE et vérifié sur **chartrandapps.ca** : `/` (landing voyages), `/andalousie/` (container survol), `/andalousie/seville/`, `/andalousie/ronda/`, `/crete/`, `/turquie/`, `/vetready/`.
+- LIVE et vérifié sur **chartrandapps.ca** : `/` (landing voyages), `/andalousie/` (container survol, 3 tuiles live), `/andalousie/seville/`, `/andalousie/ronda/`, **`/andalousie/granada/` (ch.3 shippé 2026-06-14, merge `b95ff30`)**, `/crete/`, `/turquie/`, `/vetready/`.
 - **139→145 tests verts, `npm run audit` exit 0.** ~10 commits cette session (`aa10d5c` → `bd18457`).
 
 ## ⚠️ RÈGLE OPÉRATIONNELLE #1 — `main` AUTO-DÉPLOIE
@@ -32,11 +32,15 @@ Tout fan-out = **Workflow d'agents Sonnet** (`model: 'sonnet'` partout, sinon le
 6. **Vérif** : `npm run audit` (plancher) + **`npm run validate:full`** (liens réseau — A POGNÉ 3 liens morts Ronda que la CI laissait passer) + simulateur iOS (carte scrolly = quirk WebKit, fix race-condition `invalidateSize` dans EpisodeLayout) + Read les images.
 7. **Deploy** : merge branche→main→push, `gh run watch`, curl la prod.
 
-## PROCHAIN MORCEAU — Granada (chapitre 3), recherche FAITE
-- **Dossier prêt : `src/content/destinations/andalousie/.research/granada-dossier.md`** (46 items, 16 vérifiés, 0 réfuté).
-- **Tension en or** : 1492, chute du dernier royaume nasride — l'Alhambra conservée par les vainqueurs, la Capilla Real où Ferdinand & Isabelle se sont fait enterrer pile où ils ont fini la Reconquista. « Le dernier soupir du Maure » = légende du XVIᵉ (le fait : Boabdil rend les clés le 2 janvier 1492). La tapa GRATUITE = l'identité bouffe de Granada.
-- **Gems pratiques** : zone ZAC (char interdit dans l'Albaicín sans plaque enregistrée par l'hôtel), ZBE depuis oct. 2025 (vignette DGT), Alhambra à réserver des MOIS d'avance (créneau Nasrid horodaté).
-- **À faire** : suivre le pipeline ci-dessus, sur une branche `feat/granada`. 6 nuits (budget.json). Puis Axarquía/Casares (chapitres 4-5).
+## ✅ GRANADA (chapitre 3) — SHIPPÉ EN PROD (2026-06-14)
+- Bâti from-scratch sur `feat/granada` → merge `b95ff30` → deploy. 19 POIs / 7 plats / fiche `episodes/granada.json` / tuile « Le palais gardé » / 9 images CC. Arc 1492 : Boabdil (2 jan), Capilla Real (la boucle), le « dernier soupir » démonté comme invention de Guevara (1539). Rendu iOS confirmé.
+- **Mur traversé (Loi 1)** : `granada-dossier.md` était TRONQUÉ sur disque (gitignored, pas de backup) → reconstitué par fan-out Sonnet. Leçon : un dossier `.research/` « prêt » peut être incomplet — vérifier les 8 sections.
+- **Coords** : géocodées par Nominatim SEARCH (display_name vérifié), pas Photon. ⚠️ `validate:fast` géocode `crete` par défaut, jamais andalousie → vérifier à la main + `validate-geo.mjs andalousie`.
+- **Tortilla del Sacromonte = sans image** (Commons n'a qu'une tortilla générique mexicaine — Loi 3, pas de stock menteur).
+
+## PROCHAIN MORCEAU
+1. **Passe de registre globale** sur les 3 chapitres (Séville+Ronda+Granada) + container + landing (feedback Sophie, mémoire `registre-public-voix`). Granada déjà écrit en registre propre, mais « pis » à calibrer partout d'un coup.
+2. **Axarquía (ch.4)** : 7 nuits, San Antonio ~13-14 juin, recherche à faire. Puis Casares (étape). Cloner le pipeline Granada/Ronda sur une branche.
 
 ## AUTRE TÂCHE OUVERTE — passe de registre public (feedback Sophie)
 Le site est public → garder la chaleur familière de Martin (tu/te, ton Bourdain) mais **couper le joual cru + anglicismes-slang**. Détail + inventaire : mémoire `registre-public-voix`. Palier 1 (couper) : « décrisses »→« files », « manges le mur »→« rates ton créneau », « killer move »/« le vrai move »→« le vrai but/geste », « sans flafla »→« sans chichi », « pèlerinage gras »→« pèlerinage charcuterie ». Palier 2 (à calibrer Sophie+Martin) : « pis » / « char ». Scope : Andalousie surtout. Puis redeploy.
