@@ -58,9 +58,12 @@ export async function createEpisode(dest: string, baseSlug: string, opts: Episod
     .map((p) => p.data)
     .filter((p) => p.base === baseSlug);
 
-  // dishes/gems dest-scopés (la page applique tout filtre éditorial supplémentaire, ex: par `group`).
-  const dishes = allDishes.filter((d) => d.id.startsWith(`${dest}/`)).map((d) => d.data);
-  const gems = allGems.filter((g) => g.id.startsWith(`${dest}/`)).map((g) => g.data);
+  // dishes/gems dest-scopés PUIS scopés par base si le champ `base` est présent (multi-bases, ADR-2).
+  // Additif : un item sans `base` reste visible partout (rétrocompat v2/crete/turquie) ; avec `base`,
+  // il n'apparaît que dans le carnet de son chapitre (sinon Ronda polluerait le carnet de Séville).
+  const inBase = (x: { base?: string }) => !x.base || x.base === baseSlug;
+  const dishes = allDishes.filter((d) => d.id.startsWith(`${dest}/`)).map((d) => d.data).filter(inBase);
+  const gems = allGems.filter((g) => g.id.startsWith(`${dest}/`)).map((g) => g.data).filter(inBase);
 
   const imageManifest = allImages
     .filter((i) => i.id.startsWith(`${dest}/`))

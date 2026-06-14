@@ -2,6 +2,7 @@
   {
     "id": "sev-salmorejo",
     "type": "plat",
+    "base": "seville",
     "region": "seville",
     "title": "Salmorejo cordobés",
     "body": "D'origine cordobaise (pas un gazpacho : ni concombre ni poivron) — une crème froide tomate-pain, épaisse et veloutée, à l'ail et l'huile d'olive. On le couronne d'œuf dur haché et de dés de jamón. Omniprésent dans les bars sévillans, le réflexe de l'apéro andalou.",
@@ -27,6 +28,7 @@
   {
     "id": "sev-espinacas-garbanzos",
     "type": "plat",
+    "base": "seville",
     "region": "seville",
     "title": "Espinacas con garbanzos",
     "body": "Épinards et pois chiches mijotés au cumin et à l'ail, un héritage direct du passé morisque de la ville. Plat de carême devenu icône de tapa, réconfortant et terreux.",
@@ -35,6 +37,7 @@
   {
     "id": "sev-pescaito-frito",
     "type": "plat",
+    "base": "seville",
     "region": "seville",
     "title": "Pescaíto frito / pavías de bacalao",
     "body": "Petits poissons frits dans l'huile d'olive — boquerones, acedías, calamars, puntillitas. Les pavías de bacalao sont une affaire à part : lamelles de morue marinée en beignet, classique de Semana Santa. L'Andalousie a inventé la friture légère bien avant le fish'n'chips.",
@@ -60,6 +63,7 @@
   {
     "id": "sev-montaditos",
     "type": "plat",
+    "base": "seville",
     "region": "seville",
     "title": "Montaditos",
     "body": "Petits pains garnis, version sévillane du sandwich-tapa : pringá, lomo, carne mechada. Conçus pour être avalés debout au comptoir entre deux verres.",
@@ -80,6 +84,7 @@
   {
     "id": "sev-cola-de-toro",
     "type": "plat",
+    "base": "seville",
     "region": "seville",
     "title": "Cola de toro / rabo de toro",
     "body": "Queue de taureau braisée des heures au vin jusqu'à se détacher de l'os. Plat de tradition taurine, sauce profonde et collante. Le plat d'hiver qu'on mange quand même au printemps.",
@@ -100,6 +105,7 @@
   {
     "id": "sev-pringa",
     "type": "plat",
+    "base": "seville",
     "region": "seville",
     "title": "Pringá",
     "body": "Effiloché de viandes du cocido (porc, lard, chorizo, morcilla) écrasé sur du pain. Le recyclage génial du pot-au-feu dominical, servi en montadito.",
@@ -120,6 +126,7 @@
   {
     "id": "sev-solomillo-whisky",
     "type": "plat",
+    "base": "seville",
     "region": "seville",
     "title": "Solomillo al whisky",
     "body": "Filet de porc en médaillons, sauce ail-citron — malgré le nom, la recette d'origine (Cafetería Rioja, 1968) et la plupart des bars sévillans utilisent du brandy, pas du whisky. Tapa de bar par excellence. Pas raffiné, juste irrésistible avec du pain.",
@@ -145,6 +152,7 @@
   {
     "id": "sev-carrillada",
     "type": "plat",
+    "base": "seville",
     "region": "seville",
     "title": "Carrillada ibérica",
     "body": "Joue de porc ibérique braisée au vin jusqu'au fondant. Coupe humble de la dehesa qui révèle pourquoi le porc d'ici est roi.",
@@ -153,6 +161,7 @@
   {
     "id": "sev-atun-almadraba",
     "type": "produit",
+    "base": "seville",
     "region": "seville",
     "title": "Atún rojo de almadraba (saison mai)",
     "body": "Le thon rouge sauvage pêché à l'almadraba (filets fixes) sur la côte de Cadix d'avril à juin — mai est LE mois. Sur les cartes sévillanes en tartare, tataki ou à la plancha. Produit ultra-saisonnier qui tombe pile pour fin mai.",
@@ -178,6 +187,7 @@
   {
     "id": "sev-huerta-mayo",
     "type": "produit",
+    "base": "seville",
     "region": "seville",
     "title": "Huerta de mai",
     "body": "Fin mai : fèves (habas), petits pois, asperges, premières tomates et poivrons, nísperos et cerises. Les boquerones sont à leur pic (les sardines, elles, montent en puissance plutôt vers juillet-août). Le marché de Triana est l'endroit pour voir ça.",
@@ -198,6 +208,7 @@
   {
     "id": "sev-fino-manzanilla",
     "type": "vin",
+    "base": "seville",
     "region": "seville",
     "title": "Fino & Manzanilla de Jerez/Sanlúcar",
     "body": "Vins de voile, secs, pâles, servis frais — le fino (Jerez) plus amande, la manzanilla (Sanlúcar) plus saline. Le roi de l'apéro andalou, à deux pas de Séville.",
@@ -218,6 +229,7 @@
   {
     "id": "sev-vino-naranja",
     "type": "vin",
+    "base": "seville",
     "region": "seville",
     "title": "Vino de naranja",
     "body": "Vin doux macéré à l'écorce d'orange amère de Séville. La DO (Condado de Huelva) le fait sur base de blanc local ; les bodegas sévillanes, souvent sur base de fino/manzanilla. Citrus et solera — l'apéro local (parfois aussi en fin de repas).",
@@ -248,6 +260,7 @@
   {
     "id": "sev-vermut",
     "type": "alcool",
+    "base": "seville",
     "region": "seville",
     "title": "Vermut de grifo",
     "body": "Le vermouth à la pression, rituel du dimanche midi (la hora del vermut). Servi sur glace avec une olive et un zeste d'orange.",
@@ -268,6 +281,7 @@
   {
     "id": "sev-cruzcampo",
     "type": "bière",
+    "base": "seville",
     "region": "seville",
     "title": "Cruzcampo",
     "body": "La bière de Séville, née ici en 1904. Servie quasi gelée dans un verre fin pour garder le froid. La caña des bars sans prétention — celle des grands-parents sévillans.",
@@ -293,6 +307,7 @@
   {
     "id": "sev-tinto-verano",
     "type": "alcool",
+    "base": "seville",
     "region": "seville",
     "title": "Tinto de verano",
     "body": "Vin rouge + gaseosa sur glace. L'alternative locale et désaltérante à la sangria touristique — ce que les Sévillans boivent vraiment l'été.",
@@ -313,6 +328,7 @@
   {
     "id": "jab-jamon-bellota",
     "type": "produit",
+    "base": "seville",
     "region": "jabugo-aracena",
     "title": "Jamón ibérico de bellota DOP Jabugo",
     "body": "Le sommet : porc 100% ibérique nourri de glands en montanera, curé au minimum 24 mois (typiquement 36-48 pour les pièces de référence) dans les secaderos et bodegas d'altitude de la Sierra. Le climat de Jabugo fait le reste. Le pèlerinage gras de tout épicurien.",
@@ -343,6 +359,7 @@
   {
     "id": "jab-pata-negra",
     "type": "produit",
+    "base": "seville",
     "region": "jabugo-aracena",
     "title": "Cerdo ibérico / pata negra (presa, secreto, pluma)",
     "body": "Au-delà du jamón : les coupes fraîches du cochon noir grillées — secreto, presa, pluma. Le persillage fond sur la langue. Roi incontesté de la cuisine d'Aracena.",
@@ -368,6 +385,7 @@
   {
     "id": "jab-chacinas",
     "type": "plat",
+    "base": "seville",
     "region": "jabugo-aracena",
     "title": "Chacinas ibéricas (chorizo, salchichón, lomo de caña)",
     "body": "Les charcuteries séchées du même cochon : chorizo au pimentón, salchichón, lomo de caña. La dégustation complète d'un secadero passe par là, pas juste le jamón.",
@@ -388,6 +406,7 @@
   {
     "id": "jab-gurumelo",
     "type": "produit",
+    "base": "seville",
     "region": "jabugo-aracena",
     "title": "Gurumelo (Amanita ponderosa)",
     "body": "Champignon recherché qui pousse de janvier à avril dans la Sierra de Aracena (on en attrape la queue de saison début mai en altitude). Servi en revuelto à l'ail ou à la plancha. Le trésor printanier du sous-bois de chênes.",
@@ -418,6 +437,7 @@
   {
     "id": "jab-setas",
     "type": "produit",
+    "base": "seville",
     "region": "jabugo-aracena",
     "title": "Setas de la sierra (tanas, tentullos, trompetas)",
     "body": "La forêt de chênes donne tanas et tentullos (surtout à l'automne), à la plancha, en revuelto ou en guiso pour accompagner le porc. La cuisine de cueillette de la dehesa.",
@@ -448,6 +468,7 @@
   {
     "id": "jab-vino-condado",
     "type": "vin",
+    "base": "seville",
     "region": "jabugo-aracena",
     "title": "Vinos del Condado de Huelva",
     "body": "La DO voisine d'Aracena : blancs jeunes et vinos generosos (condado pálido/viejo) qui tiennent tête au jamón gras. Le pairing local plutôt que d'importer du Jerez.",
@@ -462,6 +483,151 @@
         "creator": "VinosDO.wine",
         "url": "https://vinosdo.wine/denominaciones/d-o-condado-de-huelva/",
         "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ron-rabo-toro",
+    "type": "plat",
+    "base": "ronda",
+    "region": "serrania-ronda",
+    "title": "Rabo de toro rondeño",
+    "body": "Queue de taureau braisée 6 heures et plus au vin rouge local (la vraie appellation : DO Ronda, sous-zone Sierras de Málaga), jusqu'à ce que la viande se détache de l'os. Servi avec des pommes de terre maison. Plat identitaire depuis que la Maestranza fait des corridas : la bête vaincue finissait dans les marmites du quartier. La cuisine de corrida, ici, c'est pas une métaphore — c'est un circuit économique qui précède le tourisme de deux siècles.",
+    "poiRef": "ronda-pedro-romero",
+    "image": "",
+    "sources": [
+      {
+        "creator": "Restaurante Pedro Romero (recette officielle)",
+        "url": "https://www.rpedroromero.com/cocina.php?receta=5",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Academia Gastronómica de Málaga",
+        "url": "https://academiagastronomica.com/platos/rabo-de-toro-a-la-rondena/",
+        "date": "2025-06"
+      }
+    ]
+  },
+  {
+    "id": "ron-serranito",
+    "type": "plat",
+    "base": "ronda",
+    "region": "serrania-ronda",
+    "title": "Serranito",
+    "body": "Le montadito andalou : filet de porc grillé, jambon serrano, piment vert frit et tomate sur pain croustillant. Son nom vient de la sierra — historiquement tout venait de la montagne. Dans presque tous les bars de Ronda, en petite version à ~1,20 € au comptoir.",
+    "poiRef": "ronda-lechuguita",
+    "image": "",
+    "sources": [
+      {
+        "creator": "MálagaTop",
+        "url": "https://www.malagatop.com/en/eat/where-to-eat-in-ronda/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wikipedia (Serranito)",
+        "url": "https://en.wikipedia.org/wiki/Serranito",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ron-queso-payoyo",
+    "type": "produit",
+    "base": "ronda",
+    "region": "serrania-ronda",
+    "title": "Queso Payoyo",
+    "body": "Fromage artisanal de chèvre payoya et de brebis grazalemeña, fait depuis 1997 à Villaluenga del Rosario (Sierra de Grazalema, ~45 km). 283 prix nationaux et internationaux — la chèvre broute thym, romarin et marjolaine sauvages, et ça se goûte. À Ronda, on l'achète à La Casa del Jamón (Calle Jerez 16) ou au Mercado de Abastos.",
+    "image": "",
+    "sources": [
+      {
+        "creator": "Queso Payoyo S.L. (site officiel)",
+        "url": "https://www.payoyo.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaBlog (productos típicos)",
+        "url": "https://rondablog.com/productos-tipicos-de-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ron-chacina-serrana",
+    "type": "produit",
+    "base": "ronda",
+    "region": "serrania-ronda",
+    "title": "Chacina serrana",
+    "body": "La charcuterie séchée à l'air froid de la sierra : chorizo, salchichón, lomo en manteca, morcilla, manteca colorá. Benaoján et Montejaque en sont les capitales depuis des siècles. Le cochon ibérique de montagne, fumé et patient.",
+    "image": "",
+    "sources": [
+      {
+        "creator": "RondaBlog (productos típicos)",
+        "url": "https://rondablog.com/productos-tipicos-de-ronda/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Embutidos Gamarro (Arriate, depuis 1898)",
+        "url": "https://www.embutidosgamarro.com/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ron-sopas-serrania",
+    "type": "plat",
+    "base": "ronda",
+    "region": "serrania-ronda",
+    "title": "Sopas & migas de la serranía",
+    "body": "La cuisine de l'arriero (muletier) : sopitas de chorizo (bouillon, chorizo frit, pain — presque rien), sopa de almendras, et les migas rondeñas — pain rassis frit à l'ail et au chorizo, servi avec radis et olives. Inventées quand on avait du pain sec, un bout de chorizo et un feu ; aujourd'hui sur les tables du dimanche.",
+    "image": "",
+    "sources": [
+      {
+        "creator": "Turismo de Ronda (recettes officielles)",
+        "url": "https://info.turismoderonda.es/vinos-y-gastronomia/sopas/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ron-yemas-tajo",
+    "type": "produit",
+    "base": "ronda",
+    "region": "serrania-ronda",
+    "title": "Yemas del Tajo",
+    "body": "La confiserie emblématique de Ronda depuis les années 1920 : jaunes d'œuf, sucre, eau et brandy, texture fondante. Las Campanas (fondée en 1849, Plaza del Socorro 3) en est la référence. Les sœurs carmélites et clarisses en vendent aussi via le torno des couvents — horaires irréguliers, demander à l'office de tourisme.",
+    "image": "",
+    "sources": [
+      {
+        "creator": "Guia Repsol (Las Campanas, visite in situ)",
+        "url": "https://www.guiarepsol.com/es/comer/en-el-mercado/yemas-ronda-las-campanas-malaga/",
+        "date": "2025-06"
+      },
+      {
+        "creator": "RondaBlog (dulces típicos)",
+        "url": "https://rondablog.com/dulces-tipicos-de-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ron-vino-serrania",
+    "type": "vin",
+    "base": "ronda",
+    "region": "serrania-ronda",
+    "title": "Vins D.O. Serranía de Ronda",
+    "body": "Sous-zone de la DOP Sierras de Málaga : ~300 ha de vignes à 700-900 m, une trentaine de bodegas. L'altitude donne des rouges avec du corps ET une fraîcheur rare en Andalousie (Tempranillo, Garnacha, Petit Verdot, et même du Lemberger — unique en Espagne, chez F. Schatz). Personne ne pense à Ronda pour le vin : c'est exactement pour ça qu'il faut le boire ici avant que le monde le découvre.",
+    "poiRef": "ronda-descalzos-viejos",
+    "image": "",
+    "sources": [
+      {
+        "creator": "Ruta del Vino Ronda y Málaga (officiel)",
+        "url": "https://www.rutavinorondamalaga.com/como-son/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Winetourism (Serranía de Ronda appellation)",
+        "url": "https://www.winetourism.com/wine-appellation/serrania-de-ronda/",
+        "date": "2025-06"
       }
     ]
   }

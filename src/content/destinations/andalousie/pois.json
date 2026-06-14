@@ -1008,5 +1008,695 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "ronda-montelirio",
+    "base": "ronda",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Hotel Montelirio",
+    "blurb": "Palais du XVIIe accroché au bord du Tajo, dans la vieille ville. 15 chambres, piscine suspendue au-dessus du gouffre. Les Junior Suites « Valley View » ouvrent direct sur le pont, la rivière et le canyon. Bourdain aurait dormi là, pas au Parador.",
+    "signature": "Junior Suite Valley View — volets ouverts sur le Puente Nuevo et le Tajo d'un coup",
+    "image": null,
+    "price": {
+      "range": "~120–290 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73975,
+      "lng": -5.1657,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.hotelmontelirio.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel%20Montelirio%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hotel Montelirio (site officiel)",
+        "url": "https://www.hotelmontelirio.com/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/hotel-montelirio/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-alavera-banos",
+    "base": "ronda",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Hotel Alavera de los Baños",
+    "blurb": "Onze chambres collées contre les bains arabes du XIIIe, dans le Barrio San Francisco médiéval. Design mauresque, jardin, piscine face aux remparts. Le seul de la liste avec parking public gratuit à deux pas — sur 5 nuits en char, c'est l'argument décisif.",
+    "image": null,
+    "price": {
+      "range": "~75–130 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://alaveradelosbanos.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": null
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": false,
+    "sources": [
+      {
+        "creator": "Alavera de los Baños (site officiel)",
+        "url": "https://alaveradelosbanos.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/hotel-alavera-de-los-banos-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-parador",
+    "base": "ronda",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Parador de Ronda",
+    "blurb": "L'ancienne mairie de 1761 plantée sur le bord du précipice, côté El Mercadillo (pas besoin de traverser le Puente Nuevo en char — évite la zone restreinte). La terrasse panoramique au-dessus du Tajo = la vue la plus spectaculaire de Ronda. Le move honnête : un fino au coucher du soleil même si tu dors ailleurs.",
+    "image": null,
+    "price": {
+      "range": "~150–250 €/nuit selon saison (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74103,
+      "lng": -5.16646,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://paradores.es/en/parador-de-ronda",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Parador%20de%20Ronda%20Plaza%20Espa%C3%B1a%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Paradores (site officiel)",
+        "url": "https://paradores.es/en/parador-de-ronda",
+        "date": "2026-06"
+      },
+      {
+        "creator": "SpainOnFoot",
+        "url": "https://www.spainonfoot.com/where-to-stay-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-san-gabriel",
+    "base": "ronda",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Hotel San Gabriel",
+    "blurb": "Maison-manoir du XVIIIe dans la vieille ville, tenue en famille. Petit salon de cinéma avec fauteuils récupérés d'un vieux théâtre, bibliothèque, patio. L'antithèse de l'hôtel de chaîne — du caractère, pas une vue vendue au prix fort.",
+    "image": null,
+    "price": {
+      "range": "~80–130 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73861,
+      "lng": -5.16564,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.hotelsangabriel.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel%20San%20Gabriel%20Marqu%C3%A9s%20Moctezuma%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hotel San Gabriel (site officiel)",
+        "url": "https://www.hotelsangabriel.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "The Next Crossing",
+        "url": "https://thenextcrossing.com/parador-de-ronda-and-soho-boutique-palacio-san-gabriel",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-bardal",
+    "base": "ronda",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Bardal",
+    "blurb": "Le projet gastronomique de Benito Gómez, 2 étoiles Michelin maintenues depuis 2019 (revalidées nov. 2025). Cuisine ancrée dans la Serranía — queso payoyo, charcuterie ibérique, légumes de montagne — réinterprétée au scalpel. Très peu de couverts, réservation difficile. On commande ici sobre, en semaine.",
+    "signature": "Menu dégustation autour des produits de la Serranía",
+    "image": null,
+    "price": {
+      "range": "menu dégustation ~195–230 €/pers (à confirmer à la réservation, 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74172,
+      "lng": -5.1666,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.restaurantebardal.com/reserva",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Restaurante%20Bardal%20Jos%C3%A9%20Aparicio%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Restaurante Bardal (site officiel)",
+        "url": "https://www.restaurantebardal.com/restaurante-ronda-estrella-michelin",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Diario Ronda (revalidation 2 étoiles 2025)",
+        "url": "https://www.diarioronda.es/2025/11/26/cultura-y-sociedad/benito-gomez-logra-revalidar-las-dos-estrellas-michelin-para-el-restaurante-bardal",
+        "date": "2025-11"
+      }
+    ]
+  },
+  {
+    "id": "ronda-tragata",
+    "base": "ronda",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Tragatá",
+    "blurb": "Le gastrobar de Benito Gómez — et la maison-mère, ouverte en 2006, dix ans AVANT Bardal. Pas le chef étoilé qui « descend » faire des tapas : c'est ici qu'il a bâti son piédestal. Pastrami ibérique en brioche, rabo de toro à la purée, croquetas de jamón. ~35 €/pers, le génie sans l'addition gastronomique.",
+    "signature": "Pastrami ibérique Dehesa de los Monteros en brioche, coleslaw et pickles",
+    "image": null,
+    "price": {
+      "range": "~35 €/pers (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74149,
+      "lng": -5.16599,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.tragata.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tragata%20Calle%20Nueva%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Tragatá (site officiel)",
+        "url": "https://www.tragata.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guia Repsol (ruta tapas Benito Gómez)",
+        "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-tapas-ronda-benito-gomez-bardal/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-lechuguita",
+    "base": "ronda",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": "budget",
+    "name": "El Lechuguita",
+    "blurb": "Le bar de tapas que Benito Gómez lui-même nomme comme son spot préféré en ville — la donnée la plus précieuse qui soit : le chef 2 étoiles qui te dit « pour les tapas, je vais là ». Tapas à 1,20 € pièce, menu papier, 30 lignes : bollito de pringá, chorizo de Ronda, serranito. Décor inchangé depuis des décennies.",
+    "signature": "Le bollito de pringá et le serranito — à 1,20 € la tapa, on coche le menu papier",
+    "image": null,
+    "price": {
+      "range": "tapas ~1,20 € pièce · ~10–15 €/pers (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74145,
+      "lng": -5.16466,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://ellechuguita.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/El%20Lechuguita%20Virgen%20de%20los%20Remedios%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "El Lechuguita (site officiel)",
+        "url": "https://ellechuguita.com/index.php/contacto/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guia Repsol (ruta tapas Benito Gómez)",
+        "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-tapas-ronda-benito-gomez-bardal/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-pedro-romero",
+    "base": "ronda",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Restaurante Pedro Romero",
+    "blurb": "Institution de 1974, face aux arènes. Oui c'est touristique — ET les familles de Ronda y mangent le rabo depuis 50 ans. Survivre un demi-siècle devant une attraction sans devenir un attrape-nigaud, ça force le respect. Viens au déjeuner local (14h) pour voir le vrai mix.",
+    "signature": "Rabo de toro Pedro Romero, mijoté lentement au vin rouge local (recette publiée depuis des décennies)",
+    "image": null,
+    "price": {
+      "range": "~20–30 €/pers (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74277,
+      "lng": -5.16664,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.rpedroromero.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Restaurante%20Pedro%20Romero%20Virgen%20de%20la%20Paz%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Restaurante Pedro Romero (site officiel)",
+        "url": "https://www.rpedroromero.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guia Repsol",
+        "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-tapas-ronda-benito-gomez-bardal/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-puente-nuevo",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Puente Nuevo & El Tajo",
+    "blurb": "42 ans à construire (1751-1793), 120 m de vide creusés par la Guadalevín. La plupart repartent avec la photo sans savoir ce qui s'est passé ici (voir le carnet : le mythe Hemingway de la guerre civile, démonté). Le selfie est le réflexe touristique. Rester dix minutes avec le poids de l'endroit, c'est le vrai move.",
+    "image": null,
+    "price": {
+      "range": "traversée gratuite · Centro de Interpretación 2,50 € (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74072,
+      "lng": -5.16588,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://rondatoday.com/puente-nuevo-and-el-tajo-gorge/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Puente%20Nuevo%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/puente-nuevo-and-el-tajo-gorge/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Andalucia.org (Junta de Andalucía)",
+        "url": "https://www.andalucia.org/en/ronda-cultural-tourism-puente-nuevo-interpretation-centre",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-plaza-toros",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Plaza de Toros — Real Maestranza",
+    "blurb": "Achevée en 1785, tout en pierre — 136 colonnes de grès, 66 m de diamètre. C'est ici que trois générations Romero ont codifié la corrida moderne (Pedro Romero : 5 600 taureaux en 28 ans, jamais blessé). Pas juste un joli bâtiment du XVIIIe : l'endroit où une forme d'art brutale et codifiée est née. Engage-toi avec la complexité au lieu de juste shooter de l'extérieur.",
+    "signature": "L'arène de pierre + le musée taurin ; à l'entrée, le monument à Orson Welles",
+    "image": null,
+    "price": {
+      "range": "9 € · 10,50 € avec audioguide (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74236,
+      "lng": -5.16709,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.rmcr.org/en/visit-bullring-and-museum/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Plaza%20de%20Toros%20Real%20Maestranza%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Real Maestranza de Caballería de Ronda (officiel)",
+        "url": "https://www.rmcr.org/en/visit-bullring-and-museum/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/plaza-de-toros-bullring/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-banos-arabes",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Baños Árabes",
+    "blurb": "Un des hammams les mieux conservés de la péninsule — l'original, pas une reconstruction. Chambres froide, tiède, chaude ; les étoiles percées dans la voûte filtrent encore la lumière d'origine. À Grenade et Séville, les bains arabes sont des reproductions pour touristes. Ici c'est le vrai bâtiment, 700 ans debout, dans un quartier que les day-trippers n'atteignent pas.",
+    "image": null,
+    "price": {
+      "range": "4,50 € (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73894,
+      "lng": -5.16275,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-banos-arabes-ronda",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ba%C3%B1os%20%C3%81rabes%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Junta de Andalucía (Enclaves Culturales, officiel)",
+        "url": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-banos-arabes-ronda",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/los-banos-arabes-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-casa-rey-moro",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Casa del Rey Moro — jardins & mine d’eau",
+    "blurb": "La maison est fermée (rénovation), mais on n'y vient pas pour elle. La mine d'eau nasride du XIVe : 231 marches taillées dans la roche, 60 m jusqu'au fond du Tajo. Et les jardins en terrasses redessinés en 1912 par Forestier (le même que les jardins María Luisa de Séville). Le nom est à moitié romancé — la mine, elle, est bien réelle.",
+    "signature": "Descendre les 231 marches de la mine nasride jusqu'à la Guadalevín",
+    "image": null,
+    "price": {
+      "range": "jardins + mine 10 € (2026)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73984,
+      "lng": -5.1643,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://rondatoday.com/casa-del-rey-moro-ronda/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Casa%20del%20Rey%20Moro%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/casa-del-rey-moro-ronda/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Nomads Travel Guide",
+        "url": "https://www.nomads-travel-guide.com/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-mondragon",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Palacio de Mondragón",
+    "blurb": "Palais nasride reconverti en musée municipal, cœur du parcours hors-cars de la vieille ville. Patios, stucs et vue sur la serranía. Le circuit honnête : Mondragón → Santa María la Mayor (église sur mosquée sur temple romain) → le vieux pont arabe quasi désert. Le Bono Turístico à 12 € le couvre si tu fais trois sites.",
+    "image": null,
+    "price": {
+      "range": "3 € · Bono Turístico 12 € pour 3+ sites (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73758,
+      "lng": -5.16679,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://rondatoday.com/el-palacio-de-mondragon-ronda/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Palacio%20de%20Mondrag%C3%B3n%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo de Ronda (officiel)",
+        "url": "https://turismoderonda.es/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/el-palacio-de-mondragon-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-descalzos-viejos",
+    "base": "ronda",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "drink",
+      "do"
+    ],
+    "tier": null,
+    "name": "Bodega Descalzos Viejos",
+    "blurb": "Un ancien couvent de Trinitaires déchaussés fondé en 1505, reconverti en bodega en 2000, à dix minutes du centre. On fait du vin de la Serranía de Ronda là où des moines priaient — fresques d'origine encore aux murs. Visite + dégustation sur réservation. Le terroir oublié d'Andalousie, dans un décor que personne n'attend.",
+    "signature": "Dégustation des rouges de la Serranía dans l'ancienne église du couvent",
+    "image": null,
+    "price": {
+      "range": "visite + dégustation sur réservation (prix à confirmer)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74954,
+      "lng": -5.17872,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://descalzosviejos.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bodega%20Descalzos%20Viejos%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Bodega Descalzos Viejos (site officiel)",
+        "url": "https://descalzosviejos.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Decanter (vins de Ronda)",
+        "url": "https://www.decanter.com/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]

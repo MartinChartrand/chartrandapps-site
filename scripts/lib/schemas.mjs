@@ -297,6 +297,8 @@ export const poiSchema = z
 const editorialSchema = z.object({
   id: z.string(),
   group: z.string().optional(), // titre du bloc v1 (« Incontournables foodie — Chania ») — un bloc rendu par groupe
+  base: z.string().optional(),  // §v3 ADR-2 — scope le carnet de bouche par épisode (multi-bases). Additif :
+                                // absent = visible partout (rétrocompat v2/crete/turquie) ; présent = ce chapitre seulement.
   title: z.string(),
   body: z.string(),
   poiRef: z.string().optional(), // rattache au POI vérifiable quand l'item EST un business
