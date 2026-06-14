@@ -183,7 +183,14 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Azahar Sevilla Tapas (Las Golondrinas, puntas de solomillo)",
+        "url": "https://azahar-sevilla.com/sevilletapas/las-golondrinas/",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "casa-cuesta",
@@ -341,7 +348,14 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Bon Viveur (Sobretablas — perte du Bib Gourmand, guide 2026)",
+        "url": "https://bonviveur.com/es/noticias/restaurantes-bib-gourmand-guia-michelin",
+        "date": "2025-11"
+      }
+    ]
   },
   {
     "id": "el-rinconcillo",
@@ -717,7 +731,19 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Wikipédia (La Giralda — datation, clocher 1558-1568)",
+        "url": "https://fr.wikipedia.org/wiki/La_Giralda",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Medieval Histories (convivencia ; Almohades = rupture)",
+        "url": "https://www.medieval.eu/medieval-convivencia/",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "jamones-eiriz",
@@ -928,7 +954,14 @@
       "method": "web-research"
     },
     "onMap": true,
-    "region": "jabugo-aracena"
+    "region": "jabugo-aracena",
+    "sources": [
+      {
+        "creator": "Andalucia.com (Gruta de las Maravillas)",
+        "url": "https://www.andalucia.com/province/huelva/aracena/gruta-de-las-maravillas.htm",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "museo-del-jamon-aracena",
@@ -967,6 +1000,13 @@
       "method": "web-research"
     },
     "onMap": true,
-    "region": "jabugo-aracena"
+    "region": "jabugo-aracena",
+    "sources": [
+      {
+        "creator": "Turismo Sierra de Aracena (Museo del Jamón — dehesa)",
+        "url": "https://turismosierradearacena.com/museo-del-jamon-de-aracena/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
