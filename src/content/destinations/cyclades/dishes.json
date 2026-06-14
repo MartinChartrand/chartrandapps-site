@@ -1,0 +1,71 @@
+[
+  {
+    "id": "syr-loukoumi",
+    "type": "produit",
+    "base": "syros",
+    "region": "syros",
+    "title": "Loukoumi & halvadopita — le sucre de l'exil",
+    "body": "La vraie spécialité de Syros n'est pas née ici : elle est arrivée dans les bagages des réfugiés de Chios, après les massacres ottomans de 1822. Le loukoumi se fait encore à la main au chaudron de cuivre, parfumé à la rose ou au mastic de Chios ; la halvadopita, c'est un nougat dense au miel et aux amandes, pris entre deux fines gaufrettes. Les deux sont inscrits au patrimoine immatériel grec depuis 2019. Commander la version rose ou mastic — les variantes aux fruits sont récentes et moins intéressantes.",
+    "poiRef": "syros-loukoumi",
+    "image": "syros-loukoumi",
+    "links": [
+      { "label": "Greek Gastronomy Guide — loukoumi de Syros", "url": "https://www.greekgastronomyguide.gr/en/item/loukoumi-syros/" }
+    ],
+    "sources": [
+      { "creator": "Omilo — loukoumi et halvadopita de Syros", "url": "https://omilo.com/the-famous-loukoumi-and-halvadopita-of-syros-island/", "date": "2026-06" },
+      { "creator": "Greek Gastronomy Guide (GNTO)", "url": "https://www.greekgastronomyguide.gr/en/item/loukoumi-syros/", "date": "2026-06" },
+      { "creator": "WIPO — indication géographique loukoumi de Syros", "url": "https://www.wipo.int/ipadvantage/fr/details.jsp?id=4742", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syr-san-michali",
+    "type": "produit",
+    "base": "syros",
+    "region": "syros",
+    "title": "San Michali — le fromage le plus cher de Grèce",
+    "body": "Fromage à pâte dure au lait de vache, fabriqué seulement dans le village de San Michalis, au nord aride de Syros. Les vaches broutent les herbes sauvages de l'Apano Meria ; quatre à huit mois d'affinage en font quelque chose de singulier — les Grecs l'appellent « le parmesan grec ». AOP depuis 1996, et le fromage grec AOP le plus cher au kilo. Quasi introuvable hors des Cyclades : exactement le genre de produit qui justifie le détour. À prendre en table de fromages, avec des noix et du miel.",
+    "image": "syros-san-michali",
+    "links": [
+      { "label": "Tyrosyra — producteur de San Michali", "url": "https://www.tyrosyra.com/san-mixali?lang=en" }
+    ],
+    "sources": [
+      { "creator": "Tyrosyra (producteur direct, San Michalis, Syros)", "url": "https://www.tyrosyra.com/san-mixali?lang=en", "date": "2026-06" },
+      { "creator": "Greek Boston — San Michali cheese", "url": "https://www.greekboston.com/cheese/san-michali-cheese/", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syr-louza",
+    "type": "produit",
+    "base": "syros",
+    "region": "syros",
+    "title": "Louza de Syros",
+    "body": "La charcuterie de l'île : une longe de porc salée, marinée dix jours dans le vin rouge avec cannelle, piment de la Jamaïque, girofle et poivre, puis séchée six à huit semaines. Ce sont les vents froids de l'hiver syriote qui font le travail — le terroir, encore. La famille Roussounelos la fait depuis 1950, dans un atelier sur trois étages au cœur d'Ermoupoli. Plus épicée et plus longuement macérée que sa cousine de Mykonos ou de Tinos — un détail que les gens d'ici ne manquent pas de souligner. À déguster en fines tranches, froide, en entrée.",
+    "poiRef": "syros-roussounelos",
+    "image": "",
+    "links": [
+      { "label": "Greek Gastronomy Guide — louza Roussounelos (Syros)", "url": "https://www.greekgastronomyguide.gr/en/item/roussounelos-kreatagora-louza-syros/" },
+      { "label": "Greek Gastronomy Guide — la louza des Cyclades (variante de Syros)", "url": "https://www.greekgastronomyguide.gr/fr/item/louza-mykonos/" }
+    ],
+    "sources": [
+      { "creator": "Greek Gastronomy Guide — Roussounelos, louza de Syros", "url": "https://www.greekgastronomyguide.gr/en/item/roussounelos-kreatagora-louza-syros/", "date": "2026-06" },
+      { "creator": "Greek Gastronomy Guide — la louza des Cyclades (Syros : vin, poivre, piment de la Jamaïque, cannelle, girofle)", "url": "https://www.greekgastronomyguide.gr/fr/item/louza-mykonos/", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syr-pasturmadopita",
+    "type": "plat",
+    "base": "syros",
+    "region": "syros",
+    "title": "Pasturmadopita — la tourte d'Asie Mineure",
+    "body": "Dans la ville haute catholique d'Ano Syros, une tourte au fromage fondu et au pastrami grec (pastourma), héritée directement de la cuisine d'Asie Mineure — la même mémoire de migration que le loukoumi sur le port, mais en salé. À chercher dans une petite taverne de quartier comme Stin Ithaki tou Ai. (Adresse à confirmer sur place : Ano Syros se rejoint à pied depuis Ermoupoli, une montée d'une vingtaine de minutes, ou en taxi.)",
+    "poiRef": "syros-ithaki",
+    "image": "",
+    "links": [
+      { "label": "Tzatchickie — guide gastronomique d'Ermoupoli", "url": "https://tzatchickie.gr/the-ultimate-food-guide-to-ermoupoli-syros-where-to-eat-and-drink-in-the-islands-capital/" }
+    ],
+    "sources": [
+      { "creator": "Tzatchickie — food guide Ermoupoli", "url": "https://tzatchickie.gr/the-ultimate-food-guide-to-ermoupoli-syros-where-to-eat-and-drink-in-the-islands-capital/", "date": "2026-06" },
+      { "creator": "Wikipedia — Syros (héritage catholique/orthodoxe)", "url": "https://en.wikipedia.org/wiki/Syros", "date": "2026-06" }
+    ]
+  }
+]

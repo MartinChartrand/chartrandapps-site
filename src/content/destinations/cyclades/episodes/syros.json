@@ -1,0 +1,128 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée par la mer",
+      "body": "On entre dans l'archipel par sa capitale oubliée. Pas de dômes bleus ni de ruelles à touristes : Ermoupolis grimpe sur deux collines au-dessus du port, en maisons de marbre et de chaux. Au XIXe siècle, elle dépassait Le Pirée — premier port de Grèce, bâti par des réfugiés.",
+      "focusPoi": "syros-miaouli",
+      "zoom": 14,
+      "targets": ["syros-miaouli", "syros-vaporia", "syros-apollon"],
+      "thumb": "syros-cover",
+      "thumbAlt": "Ermoupoli vue du port : les maisons néoclassiques étagées sur les deux collines de Syros, Ano Syros à gauche, Vrontado et son église à dôme à droite",
+      "poiRef": "syros-miaouli",
+      "sources": [
+        { "creator": "Wikipedia — Ermoupoli", "url": "https://en.wikipedia.org/wiki/Ermoupoli", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le quartier des armateurs",
+      "body": "Au nord du port, Vaporia : les manoirs des armateurs plongeant à pic dans la mer, l'argent des bateaux à vapeur coulé en marbre. C'est là qu'on dort — et là que commence l'histoire d'une ville bâtie en une génération par des gens qui fuyaient la mort.",
+      "focusPoi": "syros-vaporia",
+      "zoom": 16,
+      "targets": ["syros-vaporia"],
+      "thumb": "syros-vaporia",
+      "thumbAlt": "Les manoirs néoclassiques du quartier Vaporia d'Ermoupoli, bâtis à pic au-dessus de la mer Égée, sous un ciel d'orage",
+      "poiRef": "syros-vaporia",
+      "sources": [
+        { "creator": "Greeka — Vaporia de Syros", "url": "https://www.greeka.com/cyclades/syros/sightseeing/syros-vaporia/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-loukoumi",
+      "kicker": "Le loukoumi · le CŒUR",
+      "title": "Le sucre que les réfugiés ont apporté",
+      "image": "syros-loukoumi",
+      "alt": "Des cubes de loukoumi (loukoum), blanc et rose, généreusement saupoudrés de sucre glace, en gros plan",
+      "intro": "En 1822, les Ottomans massacrent l'île de Chios. Les survivants — confiseurs, marchands, armateurs — fuient vers Syros, restée neutre parce que catholique et alliée de la France. Ils apportent leur savoir-faire, et avec lui le loukoumi : le loukoum parfumé au mastic de leur île perdue, fait main au chaudron de cuivre. En 2019, les loukoumia de Syros entrent au patrimoine immatériel grec. Ce n'est pas une spécialité touristique inventée — c'est une mémoire d'exil sublimée en sucre.",
+      "reco": "Entre dans une des vieilles confiseries du port — Leivadaras (1923), Sykoutris (1928) — et commande la version à la rose ou au mastic, pas les variantes aux fruits, plus récentes. C'est la première bouchée du voyage, et déjà une porte : tout ce qu'on mangera dans cet archipel est, d'une façon ou d'une autre, une réponse à une contrainte. Ici, la réponse est venue par bateau.",
+      "quote": "On ouvre un mois dans les Cyclades par un bonbon que des réfugiés ont apporté dans leurs bagages. La première chose qu'on goûte, c'est déjà une histoire de survie.",
+      "via": null,
+      "poiRef": "syros-loukoumi",
+      "sources": [
+        { "creator": "Omilo — loukoumi et halvadopita de Syros", "url": "https://omilo.com/the-famous-loukoumi-and-halvadopita-of-syros-island/", "date": "2026-06" },
+        { "creator": "Greek Gastronomy Guide (GNTO)", "url": "https://www.greekgastronomyguide.gr/en/item/loukoumi-syros/", "date": "2026-06" },
+        { "creator": "WIPO — indication géographique loukoumi de Syros", "url": "https://www.wipo.int/ipadvantage/fr/details.jsp?id=4742", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-ermoupolis",
+      "kicker": "Ermoupolis · le QUOI",
+      "title": "L'opéra avant l'hôpital",
+      "image": "syros-apollon",
+      "alt": "La façade néoclassique en marbre du théâtre Apollon d'Ermoupoli — « ΘΕΑΤΡΟΝ ΑΠΟΛΛΩΝ » gravé au fronton, trois grandes portes rouges en arc",
+      "intro": "Ces réfugiés n'ont pas seulement survécu : ils ont bâti le premier port de Grèce. Dans les années 1850, Ermoupolis dépassait Athènes — coton d'Égypte, peaux du Levant, chantiers navals. Et quand la bourgeoisie marchande a voulu prouver qu'elle était civilisée à l'européenne, elle a voté, à l'unanimité, la construction d'un opéra. Le théâtre Apollon, une « Piccola Scala » de 350 places, inauguré en 1864 avec un Verdi. Pas une école, pas un hôpital : un opéra.",
+      "reco": "Regarde le programme avant d'arriver (apollontheater.gr) — si tu peux voir une représentation dans cette salle, fais-le. Sinon, la place Miaouli et son hôtel de ville de marbre signé Ziller, le soir, quand la ville déambule sous les arcades. Et pour comprendre d'où venait tout cet argent, le Musée industriel, en bas vers les chantiers Neorion.",
+      "quote": "Une ville de réfugiés qui, à peine debout, se paie un opéra italien. Tu veux comprendre les Cyclades? Commence par cette ambition-là, démesurée, posée sur un rocher.",
+      "via": null,
+      "poiRef": "syros-apollon",
+      "sources": [
+        { "creator": "Théâtre Apollon (site officiel)", "url": "https://apollontheater.gr/en/", "date": "2026-06" },
+        { "creator": "Wikipedia — Ermoupoli", "url": "https://en.wikipedia.org/wiki/Ermoupoli", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-ano-syros",
+      "kicker": "Ano Syros · les deux collines",
+      "title": "L'île du Pape dans la mer orthodoxe",
+      "image": "syros-ano-syros",
+      "alt": "La cathédrale catholique San Giorgio au sommet d'Ano Syros, dominant les maisons blanchies à la chaux de la cité médiévale",
+      "intro": "Au-dessus de la ville basse, une autre colline, plus vieille : Ano Syros, fondée par les Vénitiens vers 1200, catholique, surnommée « L'isola del Papa ». C'est elle qui explique tout. En 1821, pendant la guerre d'indépendance, les Ottomans ménagent les catholiques, alliés de la France ; Syros reste neutre. C'est pour ça qu'elle peut accueillir, sans représailles, les dizaines de milliers de réfugiés de Chios et de Psara. Le médiéval catholique a semé l'industriel orthodoxe. Aujourd'hui encore, c'est une des rares îles grecques où catholiques et orthodoxes fêtent Pâques le même jour.",
+      "reco": "Monte à pied par les ruelles étroites (une vingtaine de minutes, ou le bus), jusqu'à la cathédrale San Giorgio et son orgue, le plus vieux de Grèce. En haut, la vue plonge sur la ville basse et le port. Et dans une taverne de quartier comme Stin Ithaki tou Ai, cherche la pasturmadopita : la tourte au pastrami, encore une recette d'Asie Mineure, le pendant salé du loukoumi.",
+      "quote": "Deux collines, deux religions, pas de guerre civile — juste de l'économie. Syros prend ce que les autres rejettent, réfugiés compris, et en fait une capitale.",
+      "via": null,
+      "poiRef": "syros-ano-syros",
+      "sources": [
+        { "creator": "Greek News Agenda — cathédrale Saint-Georges & orgue", "url": "https://www.greeknewsagenda.gr/saint-george-cathedral-church-organ/", "date": "2026-06" },
+        { "creator": "Syros Key — dualité catholique/orthodoxe", "url": "https://syroskey.gr/the-duality-of-syros-catholic-charm-meets-orthodox-life/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-table",
+      "kicker": "La table de l'arrière-pays · le contre-pied",
+      "title": "Le goût du nord aride",
+      "image": "syros-san-michali",
+      "alt": "Un quartier de fromage San Michali de Syros, pâte mi-dure jaune pâle piquée de petites ouvertures, posé sur une planche de bois",
+      "intro": "On a vu la ville riche, le port, l'opéra. Mais la cuisine de Syros vient surtout de son contraire : le nord aride, l'Apano Meria, presque désert. C'est là que les vaches broutent les herbes sauvages et donnent un lait concentré qui, après quatre à huit mois d'affinage, devient le San Michali — un fromage à pâte dure que les Grecs appellent « le parmesan grec », AOP, le plus cher du pays. Et la louza, la longe de porc séchée aux vents froids de l'hiver : pas de chambre froide, juste le climat. Le terroir, ici, c'est la contrainte.",
+      "reco": "Prends le San Michali en table de fromages, avec des noix et du miel, et la louza directement à la boucherie Roussounelos, en ville depuis 1950. Le soir, le tsipouro et les mezedes sur le port chez Mirsini — plein de gens d'ici, le seul test qui ne ment pas. Puis prépare le ferry vers Sifnos : c'est le segment fragile du voyage, celui qu'on réserve en premier.",
+      "quote": "Le luxe d'Ermoupolis venait de la mer ; sa vraie cuisine vient du caillou aride du nord. C'est presque toujours comme ça dans les Cyclades — le meilleur sort de la plus mauvaise terre.",
+      "via": null,
+      "poiRef": "syros-roussounelos",
+      "sources": [
+        { "creator": "Tyrosyra — producteur de San Michali", "url": "https://www.tyrosyra.com/san-mixali?lang=en", "date": "2026-06" },
+        { "creator": "Greek Gastronomy Guide — Roussounelos, louza de Syros", "url": "https://www.greekgastronomyguide.gr/en/item/roussounelos-kreatagora-louza-syros/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de monter sur le ferry : le loukoumi à la rose pour la route, une part de San Michali sous vide pour plus tard, la louza en fines tranches. Tout ce qu'on mange ici a traversé la mer ou résisté au vent. Le carnet a les adresses, les liens, les prix.",
+      "boundsPois": ["syros-loukoumi", "syros-roussounelos", "syros-mirsini"],
+      "targets": ["syros-loukoumi"],
+      "thumb": "syros-loukoumi",
+      "thumbAlt": "Des cubes de loukoumi blanc et rose saupoudrés de sucre glace",
+      "pills": [
+        { "poiRef": "syros-roussounelos", "link": "maps", "label": "Roussounelos · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Greek Gastronomy Guide (GNTO)", "url": "https://www.greekgastronomyguide.gr/en/item/loukoumi-syros/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Vaporia, dans les manoirs d'armateurs au-dessus de la mer : l'Electra (10 chambres, charme discret) ou l'Aristide (9 suites, grand luxe). Réserver tôt — peu de chambres." },
+      { "label": "Où manger", "kinds": ["resto"], "footer": "Les mezedes et le tsipouro sur le port chez Mirsini, la louza à la boucherie Roussounelos, la pasturmadopita à Ano Syros (adresse à confirmer sur place)." },
+      { "label": "À voir & faire", "kinds": ["sight", "activity"], "footer": "Le loukoumi à la confiserie pour la porte d'entrée, le théâtre Apollon, la place Miaouli, Vaporia, la montée à Ano Syros, et le Musée industriel pour l'envers du décor." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le cercle commence",
+    "body": "Première île, première réponse : ici, la contrainte du rocher a été résolue par ceux qui sont arrivés par la mer. Les {count} lieux de Syros — où dormir, où manger, quoi voir — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochain ferry : Sifnos.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/cyclades/"
+  }
+}

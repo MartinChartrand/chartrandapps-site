@@ -1,0 +1,240 @@
+[
+  {
+    "id": "syros-electra",
+    "base": "syros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": ["sleep"],
+    "tier": "mid",
+    "name": "Electra Syros",
+    "blurb": "Un boutique-hôtel de dix chambres dans les anciens manoirs de Vaporia, juste au-dessus de la plage Asteria. Petit, discret, au cœur du quartier des armateurs — la mer en bas, la ville à pied.",
+    "signature": "Dix chambres dans un manoir de Vaporia, au-dessus de la plage Asteria",
+    "image": null,
+    "price": { "range": "~120–180 €/nuit (plus cher en haute saison)", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4471397, "lng": 24.9475787, "source": "OSM/Nominatim — reverse-geocodé Vaporia (rue Athinas)", "verifiedOn": "2026-06-14" },
+    "links": { "official": "https://syrosconcept.gr/", "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Electra+Syros+Vaporia+Ermoupoli" },
+    "seasonal": true,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage OSM vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Syros Concept (gestionnaire de l'Electra Syros)", "url": "https://syrosconcept.gr/", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-aristide",
+    "base": "syros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": ["sleep"],
+    "tier": "gem",
+    "name": "Aristide Hotel",
+    "blurb": "Neuf suites dans un manoir néoclassique de Vaporia, membre des Small Luxury Hotels of the World. Galerie d'art, jardin secret, bar en laiton, terrasse vue mer pour l'apéro au coucher du soleil. Le luxe d'occasion spéciale.",
+    "signature": "Manoir du XIXe, 9 suites, Small Luxury Hotels — terrasse vue mer",
+    "image": null,
+    "price": { "range": "grand luxe (SLH) · ~300 €+/nuit", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4477, "lng": 24.9472, "source": "OSM — interpolé rue Babagiotou, Vaporia (adresse SLH/Booking, confiance moyenne)", "verifiedOn": "2026-06-14" },
+    "links": { "official": "https://slh.com/hotels/aristide-hotel", "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Aristide+Hotel+Vaporia+Syros" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research (SLH) + géocodage OSM interpolé (confiance moyenne)" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Small Luxury Hotels of the World — Aristide Hotel", "url": "https://slh.com/hotels/aristide-hotel", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-mirsini",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": ["eat"],
+    "tier": "mid",
+    "name": "To Tsipouradiko tis Mirsinis",
+    "blurb": "Une taverne de mezedes sur le front de mer d'Ermoupoli, pleine de gens d'ici — le test qui ne ment pas. Petites assiettes à partager autour d'un verre de tsipouro, l'eau-de-vie maison. Pas de carte plastifiée, pas de photos de plats.",
+    "signature": "Mezedes et tsipouro sur le port, pleins de locaux",
+    "image": null,
+    "price": { "range": "~15–25 €/pers (mezedes + tsipouro)", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4417965, "lng": 24.9417532, "source": "Nominatim (Τσιπουράδικο της Μυρσίνης, display_name vérifié)", "verifiedOn": "2026-06-14" },
+    "links": { "official": null, "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Tsipouradiko+tis+Mirsinis+Ermoupoli" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage Nominatim vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Explore Syros Cyclades — restaurants", "url": "https://exploresyroscyclades.com/best-restaurants-in-syros-greece/", "date": "2026-06" },
+      { "creator": "Tzatchickie — food guide Ermoupoli", "url": "https://tzatchickie.gr/the-ultimate-food-guide-to-ermoupoli-syros-where-to-eat-and-drink-in-the-islands-capital/", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-ithaki",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": ["eat"],
+    "tier": "mid",
+    "name": "Stin Ithaki tou Ai",
+    "blurb": "Une petite taverne de cuisine traditionnelle où chercher la pasturmadopita — la tourte au pastrami grec, héritage d'Asie Mineure. (Adresse à confirmer sur place : le géocodage la place au centre d'Ermoupoli, mais on la dit dans la ville haute — vérifier en arrivant.)",
+    "signature": "La pasturmadopita, tourte au pastrami d'Asie Mineure",
+    "image": null,
+    "price": { "range": "~15–25 €/pers", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4442227, "lng": 24.9439367, "source": "Nominatim (Ιθάκη του Αή — centre Ermoupoli ; emplacement Ano Syros à confirmer sur place)", "verifiedOn": "2026-06-14" },
+    "links": { "official": null, "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Stin+Ithaki+tou+Ai+Syros" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research (jaune : adresse exacte non confirmée) + géocodage Nominatim" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Tzatchickie — food guide Ermoupoli", "url": "https://tzatchickie.gr/the-ultimate-food-guide-to-ermoupoli-syros-where-to-eat-and-drink-in-the-islands-capital/", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-roussounelos",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": ["eat"],
+    "tier": "mid",
+    "name": "Boucherie Roussounelos",
+    "blurb": "La charcuterie de la famille Roussounelos depuis 1950, au cœur d'Ermoupoli — c'est ici qu'on prend la louza, la longe de porc séchée aux vents de l'hiver. Un bâtiment sur trois étages : réfrigération en bas, vente au rez, atelier en haut.",
+    "signature": "La louza de Syros, à la source — famille Roussounelos depuis 1950",
+    "image": null,
+    "price": { "range": "charcuterie à emporter, au poids", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4341891, "lng": 24.9354007, "source": "Nominatim (Ρουσσουνέλος, 50 Ηρώων Πολυτεχνείου, display_name vérifié)", "verifiedOn": "2026-06-14" },
+    "links": { "official": null, "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Roussounelos+Iroon+Polytechniou+Ermoupoli" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage Nominatim vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Greek Gastronomy Guide — Roussounelos, louza de Syros", "url": "https://www.greekgastronomyguide.gr/en/item/roussounelos-kreatagora-louza-syros/", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-miaouli",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": ["see"],
+    "tier": null,
+    "name": "Place Miaouli & Hôtel de Ville",
+    "blurb": "Le cœur civique d'Ermoupoli : une grande place de marbre dominée par l'Hôtel de Ville néoclassique d'Ernst Ziller (1876–1898), la statue de l'amiral Miaoulis au centre. Le soir, tout le monde y déambule sous les arcades.",
+    "signature": "L'Hôtel de Ville de Ziller, le marbre fait pour impressionner l'Europe",
+    "image": "syros-miaouli",
+    "price": { "range": "accès libre", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4446928, "lng": 24.9429679, "source": "Nominatim (Πλατεία Μιαούλη, display_name vérifié)", "verifiedOn": "2026-06-14" },
+    "links": { "official": null, "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Miaouli+Square+Ermoupoli" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage Nominatim vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Wikipedia — Miaouli Square", "url": "https://en.wikipedia.org/wiki/Miaouli_Square", "date": "2026-06" },
+      { "creator": "Wikipedia — Ermoupoli", "url": "https://en.wikipedia.org/wiki/Ermoupoli", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-apollon",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": ["see", "do"],
+    "tier": "gem",
+    "name": "Théâtre Apollon",
+    "blurb": "La « Piccola Scala » des Cyclades : un opéra de 350 places bâti en 1862–1864, inauguré avec un Verdi. Quand la bourgeoisie marchande a voulu prouver qu'elle était civilisée à l'européenne, elle a construit ça — avant un hôpital. Toujours en activité.",
+    "signature": "Un opéra italien de 350 places, inauguré en 1864 avec Rigoletto",
+    "image": "syros-apollon",
+    "price": { "range": "visite ou spectacle selon le programme", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4456839, "lng": 24.9437206, "source": "Nominatim (Δημοτικό Θέατρο Απόλλων, display_name vérifié)", "verifiedOn": "2026-06-14" },
+    "links": { "official": "https://apollontheater.gr/en/", "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Apollon+Theatre+Ermoupoli" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage Nominatim vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Théâtre Apollon (site officiel)", "url": "https://apollontheater.gr/en/", "date": "2026-06" },
+      { "creator": "Wikipedia — Apollon Theater, Syros", "url": "https://en.wikipedia.org/wiki/Apollon_Theater,_Syros", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-vaporia",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": ["see"],
+    "tier": null,
+    "name": "Quartier Vaporia",
+    "blurb": "Les manoirs des armateurs du XIXe, plongeant à pic dans la mer. Le nom vient des vapori, les bateaux à vapeur qui ont fait la fortune d'Ermoupoli. L'argent maritime coulé en marbre et en fresque — et des escaliers publics qui descendent se baigner au pied des rochers.",
+    "signature": "Les manoirs d'armateurs suspendus au-dessus de l'Égée",
+    "image": "syros-vaporia",
+    "price": { "range": "accès libre", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4474349, "lng": 24.9475571, "source": "Nominatim (Βαπόρια, display_name vérifié)", "verifiedOn": "2026-06-14" },
+    "links": { "official": null, "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Vaporia+Ermoupoli+Syros" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage Nominatim vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Wikipedia — Ermoupoli", "url": "https://en.wikipedia.org/wiki/Ermoupoli", "date": "2026-06" },
+      { "creator": "Greeka — Vaporia de Syros", "url": "https://www.greeka.com/cyclades/syros/sightseeing/syros-vaporia/", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-ano-syros",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": ["see"],
+    "tier": "gem",
+    "name": "Ano Syros & cathédrale San Giorgio",
+    "blurb": "La cité médiévale fondée par les Vénitiens vers 1200, catholique, surnommée « L'isola del Papa ». Ruelles étroites anti-pirates, la cathédrale San Giorgio au sommet (et le plus vieil orgue de Grèce). C'est elle qui explique pourquoi Syros a pu accueillir les réfugiés de 1822.",
+    "signature": "La cité catholique vénitienne — l'orgue papal et la vue sur la ville basse",
+    "image": "syros-ano-syros",
+    "price": { "range": "accès libre (montée à pied ~20 min, ou bus)", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4510072, "lng": 24.9354305, "source": "Nominatim (Άγιος Γεώργιος / San Giorgio, sommet Ano Syros, display_name vérifié)", "verifiedOn": "2026-06-14" },
+    "links": { "official": null, "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Ano+Syros+San+Giorgio+Cathedral" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage Nominatim vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Greek News Agenda — cathédrale Saint-Georges & orgue", "url": "https://www.greeknewsagenda.gr/saint-george-cathedral-church-organ/", "date": "2026-06" },
+      { "creator": "Syros Key — dualité catholique/orthodoxe", "url": "https://syroskey.gr/the-duality-of-syros-catholic-charm-meets-orthodox-life/", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-musee-industriel",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": ["see", "do"],
+    "tier": null,
+    "name": "Musée Industriel d'Ermoupoli",
+    "blurb": "Quatre usines du XIXe reconverties en musée : tannerie, fonderie, tissage, fabrique de peinture. 300 objets qui racontent d'où venait l'argent — coton d'Égypte, peaux du Levant — et les chantiers Neorion à côté, « première industrie lourde des Balkans ».",
+    "signature": "Pourquoi les manoirs ont pu être bâtis : la couche industrielle",
+    "image": "syros-industriel",
+    "price": { "range": "~4 € · mar–sam 8h30–15h", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4377551, "lng": 24.9346651, "source": "Nominatim (Industrial Museum, Γ. Παπανδρέου, display_name vérifié)", "verifiedOn": "2026-06-14" },
+    "links": { "official": "https://industrialmuseum.gr/en/the-museum/", "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Industrial+Museum+Ermoupolis" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage Nominatim vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Musée Industriel d'Ermoupoli (site officiel)", "url": "https://industrialmuseum.gr/en/the-museum/", "date": "2026-06" },
+      { "creator": "Wikipedia — Neorion", "url": "https://en.wikipedia.org/wiki/Neorion", "date": "2026-06" }
+    ]
+  },
+  {
+    "id": "syros-loukoumi",
+    "base": "syros",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": ["do", "eat"],
+    "tier": "gem",
+    "name": "Loukoumi Leivadaras (confiserie)",
+    "blurb": "Une des confiseries historiques d'Ermoupoli, où le loukoumi se fait encore à la main au chaudron de cuivre. La porte d'entrée gustative du voyage : la première bouchée est déjà une mémoire de réfugiés. Commander la rose ou le mastic.",
+    "signature": "Le loukoumi de l'exil, fait main au chaudron — la porte d'entrée du voyage",
+    "image": "syros-loukoumi",
+    "price": { "range": "quelques € la boîte", "currency": "EUR", "asOf": "2026-06" },
+    "coords": { "lat": 37.4412028, "lng": 24.9410651, "source": "OSM (Λειβαδάρας, shop=confectionery, vérifié)", "verifiedOn": "2026-06-14" },
+    "links": { "official": null, "booking": null, "tripadvisor": null, "maps": "https://www.google.com/maps/search/Loukoumi+Leivadaras+Ermoupoli" },
+    "seasonal": false,
+    "status": { "open": true, "lastChecked": "2026-06-14", "method": "web-research + géocodage OSM vérifié" },
+    "onMap": true,
+    "sources": [
+      { "creator": "Omilo — loukoumi et halvadopita de Syros", "url": "https://omilo.com/the-famous-loukoumi-and-halvadopita-of-syros-island/", "date": "2026-06" },
+      { "creator": "Greek Gastronomy Guide (GNTO)", "url": "https://www.greekgastronomyguide.gr/en/item/loukoumi-syros/", "date": "2026-06" }
+    ]
+  }
+]

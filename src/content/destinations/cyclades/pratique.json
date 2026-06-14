@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "label": "Info pratique",
+      "items": [
+        {
+          "label": "Vols — passer par Athènes",
+          "body": "Vol aller-retour Montréal (YUL) → Athènes (ATH). Direct saisonnier l'été, sinon via une plaque européenne (Lisbonne, Rome, Francfort) — contrainte respectée : AUCUN transit par les États-Unis. Pas de vol inter-îles : on entre ET on sort par le ferry du Pirée, le port d'Athènes. Ça donne un coussin météo et garde le voyage au ras de l'eau. Réserver 4–5 mois d'avance pour juin — tarifs estimés ~1 500–1 700 $ CAD/pers."
+        },
+        {
+          "label": "Ferries — le nerf du voyage",
+          "body": "C'est le nerf du voyage. Tout se réserve sur Ferryhopper, Ferryscanner ou OpenSeas. Les horaires de la saison 2027 sortent tard : réserver dès qu'ils paraissent (~1 mois avant le départ). Deux segments sont fragiles et méritent qu'on cale le départ sur un jour de traversée confirmé — Syros→Sifnos (souvent indirect via Paros ou Serifos, 5–7 h) et Folegandros→Amorgos (ferry rapide saisonnier, ~2 h 35). Le reste (Pirée→Syros, Amorgos→Santorin, Santorin→Pirée) est solide et fréquent. Rapide (catamaran) = plus cher et plus sensible au vent ; conventionnel = plus lent mais plus stable."
+        },
+        {
+          "label": "Quand partir — la fenêtre Meltemi",
+          "body": "Fin mai – juin, c'est la bonne fenêtre. Le Meltemi — le vent du nord qui annule les catamarans rapides — frappe surtout de mi-juillet à mi-septembre ; en juin l'Égée est plus calme, le risque d'annulation bien plus bas. Mer baignable, chaleur encore raisonnable, foules sous le pic d'août. Caveat début de saison : les lignes rapides saisonnières démarrent vers mi-mai mais à fréquence réduite — d'où le choix de juin pour le plein horaire, surtout sur Folegandros→Amorgos."
+        },
+        {
+          "label": "Se déplacer sur les îles",
+          "body": "Pas besoin de louer une voiture pour tout le voyage — les ferries font le gros. Sur place : bus locaux (fréquents l'été), location d'ATV/scooter ou petite voiture pour un ou deux jours sur les plus grandes îles (Sifnos, Amorgos, Santorin), taxis rares et à réserver. À Athènes, le métro relie l'aéroport et le port du Pirée. Charger les cartes hors ligne avant les îles."
+        },
+        {
+          "label": "Argent et paiement",
+          "body": "Les petites tavernes et commerces de village préfèrent souvent le cash — retirer des euros dès l'arrivée à Athènes. Cartes acceptées dans les hôtels, les plus grandes tables et les sites. Prévoir du liquide pour les villages et les criques."
+        },
+        {
+          "label": "Téléphonie",
+          "body": "Roaming canadien dans l'UE (Grèce) : vérifier le forfait avant de partir. Alternative : eSIM ou SIM locale (Cosmote, Vodafone, Nova) à l'aéroport d'Athènes, ~15–20 € pour 10–20 Go. Charger les cartes hors ligne (Google Maps offline, OsmAnd) — utile sur les sentiers d'Amorgos et de Folegandros. Sur le terrain, les pills « Maps » de chaque lieu du carnet font la job en un tap."
+        },
+        {
+          "label": "Gastronomie — s'orienter",
+          "body": "La bouffe est la porte d'entrée, et chaque île a sa signature — on la creuse dans son propre chapitre. En gros : tavernes de quartier plutôt que fronts touristiques, poisson et mezze, vin et raki locaux, fromages de l'île. Le détail sourcé, île par île, arrive avec chaque épisode."
+        },
+        {
+          "label": "Réserver tôt — les incontournables",
+          "body": "Hébergements de Folegandros et Santorin d'abord (offre limitée, juin se remplit). Ferries dès la publication des horaires 2027. Vérifier les horaires du monastère Hozoviotissa (Amorgos) et des sites avant de caler les journées. Jalon T-1 mois : reconfirmer les jours de ferry réels avant de tout verrouiller."
+        }
+      ]
+    }
+  ]
+}

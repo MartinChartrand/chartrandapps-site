@@ -1,0 +1,18 @@
+/* Thème Cyclades — ARCHITECTURE §4 : une destination = données + ~40 lignes CSS */
+/* Signature visuelle égéenne : blanc chaulé des villages, cobalt des dômes et de la mer, */
+/* terre volcanique de Santorin, lumière dorée de l'Égée. */
+
+[data-theme="cyclades"] {
+  --terre: #C26A4C;       /* terre volcanique / argile des falaises de Santorin */
+  --sand: #F0ECE0;        /* blanc chaulé, chaud */
+  --deep: #16282F;        /* nuit égéenne — hero + titres (bleu-charbon volcanique) */
+  --mer: #1A6CA6;         /* cobalt des dômes — bleu signature de l'Égée */
+  --mer-light: #E7F0F5;   /* tint pâle cobalt */
+  --text: #18262E;
+  --muted: #5C6E77;
+  --border: rgba(22, 40, 47, 0.10);
+  --accent: #14547F;      /* bleu mer profond — hover, underlines */
+  --bg: #FAF7F0;          /* blanc crème délavé par le soleil */
+  --white: #FFFFFF;
+  --gold: #E0A33F;        /* lumière dorée de l'Égée, 3e couleur signature */
+}

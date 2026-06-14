@@ -1,0 +1,62 @@
+{
+  "kicker": "Finances",
+  "title": "Budget estimé",
+  "intro": "En dollars canadiens, taux de référence 1 € ≈ 1,50 $ CAD. Estimations réalistes pour deux personnes, ~30 jours (29 nuits), niveau confort intermédiaire — hébergement de caractère, tavernes et tables locales, vin au repas. Entrée et sortie par ferry du Pirée, vol aller-retour sur Athènes. Chiffres à reconfirmer au moment de réserver (juin, haute-ish saison).",
+  "statCards": [
+    { "value": "~15 200 $", "label": "Total pour 2 personnes, ~30 jours" },
+    { "value": "~7 600 $", "label": "Par personne, tout inclus" },
+    { "value": "~355 $", "label": "Par jour sur place, pour 2 (hébergement + bouffe + activités)" },
+    { "value": "1 € ≈ 1,50 $", "label": "Taux de référence CAD" }
+  ],
+  "lines": [
+    {
+      "label": "Vols transatlantiques (2 pers.)",
+      "category": "Montréal (YUL) → Athènes (ATH), aller-retour · direct saisonnier l'été ou via une plaque européenne (Lisbonne, Rome, Francfort), sans transit USA · le gros morceau",
+      "amount": "~3 200 $"
+    },
+    {
+      "label": "Hébergement (29 nuits)",
+      "category": "Maisons et studios de caractère · Athènes 4n · Syros 3n (~120€) · Sifnos 6n (~130€) · Folegandros 5n (~145€, offre limitée) · Amorgos 7n (~110€) · Santorin 4n (~250€, vue caldeira)",
+      "amount": "~6 150 $"
+    },
+    {
+      "label": "Ferries inter-îles (2 pers.)",
+      "category": "6 segments · Pirée → Syros → Sifnos → Folegandros → Amorgos → Santorin → Pirée · mix rapide/conventionnel · les deux segments fragiles (Syros→Sifnos, Folegandros→Amorgos) en rapide",
+      "amount": "~950 $"
+    },
+    {
+      "label": "Transport sur les îles",
+      "category": "Bus locaux, location ATV/scooter ou petite voiture quelques jours (Sifnos, Amorgos, Santorin), taxis rares, métro d'Athènes · pas de voiture louée pour tout le voyage",
+      "amount": "~750 $"
+    },
+    {
+      "label": "Nourriture et boissons",
+      "category": "Tavernes de quartier, poisson, mezze, vin et raki locaux · ~70€/jour pour 2 en moyenne · marchés le midi",
+      "amount": "~2 900 $"
+    },
+    {
+      "label": "Activités, sites, dégustations",
+      "category": "Akrotiri + dégustations Assyrtiko (Santorin) · monastère Hozoviotissa (Amorgos, don) · théâtre Apollon (Syros) · atelier de poterie (Sifnos) · bateau et criques",
+      "amount": "~900 $"
+    },
+    {
+      "label": "Assurance voyage",
+      "category": "2 personnes, couverture médicale complète, ~30 jours",
+      "amount": "~350 $"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Budget serré",
+      "total": "~12 500 $",
+      "desc": "~12 500 $ (studios moins centraux, plus de repas marché/cuisinés, Santorin sans vue caldeira, ferries conventionnels au lieu de rapides quand c'est possible, une seule dégustation de vin)"
+    },
+    {
+      "name": "Budget confort+",
+      "total": "~19 500 $",
+      "desc": "~19 500 $ (Santorin vue caldeira assumée, hôtels de charme partout, transferts en taxi/bateau privés, deux tables gastronomiques de plus, davantage de dégustations)"
+    }
+  ],
+  "advice": "Le poste le plus négociable, c'est l'hébergement — pour un mois, contacter directement les hôtes et demander 15–25 % pour un long séjour. Réserver tôt Folegandros et Santorin (offre limitée, juin se remplit vite). Côté ferries : caler les départs sur des jours de traversée confirmés et réserver dès que les horaires 2027 sortent (~1 mois avant) — surtout Syros→Sifnos (souvent indirect, 5–7 h) et Folegandros→Amorgos (rapide saisonnier). Santorin tire la facture vers le haut : c'est là qu'on choisit entre la vue caldeira et le portefeuille.",
+  "total": "~15 200 $"
+}
