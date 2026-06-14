@@ -1,0 +1,17 @@
+/* Thème « home » — le landing racine (chartrandapps.ca), lié à aucune destination. */
+/* Neutre, chaud, magazine : papier crème, ardoise sombre, accent terracotta + un teal. */
+
+[data-theme="home"] {
+  --terre: #B0552F;       /* accent terracotta — kickers, liens */
+  --sand: #F2ECE2;        /* papier chaud */
+  --deep: #20242A;        /* ardoise quasi-noire — hero + footer */
+  --mer: #2E6E7E;         /* teal sobre — CTA secondaire */
+  --mer-light: #EAF1F2;   /* tint pâle teal */
+  --text: #20242A;
+  --muted: #6B6258;
+  --border: rgba(32, 36, 42, 0.10);
+  --accent: #8F4427;      /* terracotta foncée — hover */
+  --bg: #FBF8F2;          /* blanc chaud */
+  --white: #FFFFFF;
+  --gold: #C9962A;        /* ocre — 3e couleur */
+}

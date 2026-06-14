@@ -1,0 +1,264 @@
+---
+// Landing racine chartrandapps.ca — les VOYAGES en vedette (carnets faits maison),
+// la section Apps iOS conservée dessous. Remplace l'ancien public/index.html (retiré
+// pour éviter la collision dist/index.html). Esthétique magazine (DestinationLayout +
+// thème « home »). Les cartes-voyages clonent la mécanique des tuiles du container survol.
+import DestinationLayout from '../layouts/Destination.astro';
+import { getCollection } from 'astro:content';
+
+const [allDest, allImages] = await Promise.all([
+  getCollection('destinations'),
+  getCollection('images'),
+]);
+
+const pageAssets = import.meta.glob<{ default: ImageMetadata }>(
+  '/src/assets/destinations/**/*.{jpg,jpeg,png,webp}',
+  { eager: true }
+);
+function heroUrl(slug: string, heroSlot: string): string | undefined {
+  const img = allImages.find((i) => i.id.startsWith(`${slug}/`) && i.data.slot === heroSlot);
+  if (!img) return undefined;
+  return pageAssets[`/src/assets/destinations/${slug}/${img.data.file}`]?.default.src;
+}
+
+// Ordre éditorial (le plus frais d'abord) ; test-fixture exclu (pas public).
+const ORDER = ['andalousie', 'crete', 'turquie'];
+const voyages = ORDER
+  .map((slug) => allDest.find((d) => d.data.slug === slug))
+  .filter((d): d is NonNullable<typeof d> => !!d)
+  .map((d) => ({
+    slug: d.data.slug,
+    title: d.data.heroTitle.main,
+    em: d.data.heroTitle.em,
+    season: d.data.season,
+    subtitle: d.data.subtitle,
+    heroUrl: heroUrl(d.data.slug, d.data.hero.image),
+    episodic: !!d.data.episodic,
+    href: `/${d.data.slug}/`,
+  }));
+
+const apps = [
+  { name: 'VetReady', glyph: '🐾', href: '/vetready/', blurb: 'Suivi des traitements antipuces, tiques et vermifuges de tes animaux — jamais une dose oubliée.' },
+];
+---
+
+<DestinationLayout
+  title="Chartrand Apps — carnets de voyage & apps iOS, Gatineau QC"
+  favicon="🧭"
+  palette="home"
+  description="Les carnets de voyage faits maison de Martin & Sophie — assez pour mettre l'eau à la bouche et partir équipé, sans tout pré-mâcher. Plus les apps iOS de Chartrand Apps."
+  canonicalUrl="https://chartrandapps.ca/"
+  footerNote="© 2026 Chartrand Apps · Gatineau, QC · support@chartrandapps.ca"
+>
+  <main id="main-content" class="home">
+
+    <header class="home-hero">
+      <span class="home-brand">Chartrand Apps</span>
+      <span class="home-kicker">Carnets de voyage</span>
+      <h1 class="home-title">On voyage en suivant<br />où on a envie de manger.</h1>
+      <p class="home-lede">Des guides faits maison, sourcés à fond — assez pour mettre l'eau à la bouche et partir équipé, sans tout pré-mâcher. La mèche est allumée ; le reste se découvre sur place.</p>
+      <a class="home-scroll" href="#voyages" aria-label="Voir les voyages">↓</a>
+    </header>
+
+    <section id="voyages" class="home-section" aria-label="Les voyages">
+      <div class="home-inner">
+        <div class="home-section-head reveal">
+          <span class="home-section-num">Les voyages</span>
+          <h2 class="home-section-title">Où on est allés (ou on s'en va)</h2>
+        </div>
+        <ul class="voyage-grid">
+          {voyages.map((v) => (
+            <li class="voyage reveal">
+              <a class="voyage-link" href={v.href}>
+                {v.heroUrl ? (
+                  <div class="voyage-media">
+                    <img src={v.heroUrl} alt={`${v.title} — ${v.em}`} loading="lazy" decoding="async" />
+                    {v.episodic && <span class="voyage-badge">Format épisode</span>}
+                  </div>
+                ) : (
+                  <div class="voyage-media voyage-media-empty" aria-hidden="true"><span>{v.title.charAt(0)}</span></div>
+                )}
+                <div class="voyage-body">
+                  <span class="voyage-season">{v.season}</span>
+                  <h3 class="voyage-title">{v.title} <em>{v.em}</em></h3>
+                  <p class="voyage-sub">{v.subtitle}</p>
+                  <span class="voyage-cta">Ouvrir le carnet →</span>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+    <section class="home-section home-apps" aria-label="Les apps">
+      <div class="home-inner">
+        <div class="home-section-head reveal">
+          <span class="home-section-num">Les apps</span>
+          <h2 class="home-section-title">Apps iOS, faites à Gatineau</h2>
+        </div>
+        <ul class="app-grid">
+          {apps.map((a) => (
+            <li class="app reveal">
+              <a class="app-link" href={a.href}>
+                <span class="app-glyph" aria-hidden="true">{a.glyph}</span>
+                <span class="app-text">
+                  <span class="app-name">{a.name}</span>
+                  <span class="app-blurb">{a.blurb}</span>
+                </span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</DestinationLayout>
+
+<style>
+  .home { background: var(--bg); }
+
+  /* ——— Hero ——— */
+  .home-hero {
+    position: relative;
+    background: var(--deep);
+    color: #fff;
+    min-height: 78vh;
+    min-height: 78svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 14vh 24px 12vh;
+  }
+  .home-brand {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 6vh;
+  }
+  .home-kicker {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+  .home-title {
+    font-family: var(--font-serif);
+    font-size: clamp(38px, 7vw, 76px);
+    font-weight: 300;
+    line-height: 1.04;
+    color: #fff;
+  }
+  .home-lede {
+    margin-top: 22px;
+    max-width: 600px;
+    font-size: clamp(15px, 2.1vw, 18px);
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.82);
+  }
+  .home-scroll {
+    margin-top: 34px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    width: 44px;
+    height: 44px;
+    display: inline-flex;
+    align-items: center;
+    animation: home-hint 2s ease-in-out infinite;
+  }
+  @keyframes home-hint { 50% { transform: translateY(7px); } }
+  @media (prefers-reduced-motion: reduce) { .home-scroll { animation: none; } }
+
+  /* ——— Sections ——— */
+  .home-inner { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+  .home-section { padding: 64px 0; }
+  .home-apps { border-top: 1px solid var(--border); }
+  .home-section-head { margin-bottom: 36px; }
+  .home-section-num {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 10px;
+  }
+  .home-section-title {
+    font-family: var(--font-serif);
+    font-size: clamp(28px, 5vw, 40px);
+    font-weight: 300;
+    line-height: 1.15;
+    color: var(--text);
+  }
+
+  /* ——— Cartes voyages (clone des tuiles survol) ——— */
+  .voyage-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr));
+    gap: 24px;
+  }
+  .voyage {
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--white);
+    border: 1px solid var(--border);
+    transition: transform var(--transition), box-shadow var(--transition);
+  }
+  .voyage:hover, .voyage:focus-within { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+  .voyage-link { display: flex; flex-direction: column; height: 100%; text-decoration: none; color: inherit; }
+  .voyage-link:focus-visible { outline: 2px solid var(--terre); outline-offset: -2px; }
+  .voyage-media { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: var(--sand); }
+  .voyage-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s var(--transition); }
+  .voyage:hover .voyage-media img { transform: scale(1.04); }
+  .voyage-media-empty { display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--sand), var(--mer-light)); }
+  .voyage-media-empty span { font-family: var(--font-serif); font-size: 72px; color: color-mix(in oklch, var(--deep) 18%, transparent); }
+  .voyage-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #fff;
+    background: color-mix(in oklch, var(--deep) 72%, transparent);
+    backdrop-filter: blur(4px);
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+  .voyage-body { display: flex; flex-direction: column; flex: 1; padding: 20px 22px 24px; }
+  .voyage-season {
+    font-size: 11px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--terre); margin-bottom: 9px;
+  }
+  .voyage-title { font-family: var(--font-serif); font-size: 26px; font-weight: 400; line-height: 1.1; color: var(--text); }
+  .voyage-title em { font-style: italic; color: var(--muted); font-size: 0.8em; }
+  .voyage-sub { margin-top: 10px; flex: 1; font-size: 14px; line-height: 1.65; color: var(--muted); }
+  .voyage-cta { margin-top: 18px; font-size: 13px; font-weight: 500; color: var(--mer); }
+
+  /* ——— Apps ——— */
+  .app-grid { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 18px; }
+  .app { border-radius: var(--radius); border: 1px solid var(--border); background: var(--white); transition: box-shadow var(--transition), transform var(--transition); }
+  .app:hover { box-shadow: var(--shadow-sm); transform: translateY(-1px); }
+  .app-link { display: flex; gap: 16px; align-items: center; padding: 18px 20px; text-decoration: none; color: inherit; }
+  .app-link:focus-visible { outline: 2px solid var(--terre); outline-offset: 2px; }
+  .app-glyph { font-size: 34px; line-height: 1; flex-shrink: 0; }
+  .app-text { display: flex; flex-direction: column; }
+  .app-name { font-weight: 500; font-size: 16px; color: var(--text); }
+  .app-blurb { font-size: 13px; line-height: 1.6; color: var(--muted); margin-top: 3px; }
+
+  @media (max-width: 600px) {
+    .home-hero { padding: 12vh 16px 10vh; }
+    .home-inner { padding: 0 16px; }
+    .home-section { padding: 48px 0; }
+  }
+</style>
