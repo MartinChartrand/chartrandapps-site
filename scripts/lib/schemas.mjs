@@ -45,6 +45,30 @@ const provenanceFields = {
 // intro : blocs titrés (.intro-block v1 — titre + corps, ex. « Pourquoi septembre » / « Logistique de base »)
 const introBlockV1 = z.object({ title: z.string().default(''), body: z.string() });
 
+// §v3 ADR-5 — tuile d'épisode du container. Le titre EST le hook (pas « Épisode 1 » générique).
+// `image` = slot scellé OU absent (un chapitre encore en recherche n'a pas d'image vérifiée →
+// tuile texte, JAMAIS de stock menteur — Loi 3 du contrat). La route dérive « live vs à venir »
+// de l'EXISTENCE d'un épisode à <dest>/episodes/<base> (source de vérité unique), pas d'un flag à la main.
+const containerTileSchema = z.object({
+  base: z.string(),               // slug de la base (clé de jointure vers la collection episodes)
+  kicker: z.string().default(''), // petit label factuel (« Chapitre 1 · 7 nuits »)
+  title: z.string(),              // titre accrocheur = le hook du chapitre
+  teaser: z.string().default(''), // une ligne — appétit (live) ou fait d'itinéraire (à venir)
+  image: z.string().optional(),   // slot scellé du manifest ; absent = pas d'image (à venir)
+});
+
+// §v3 ADR-5 — le bloc container complet (hook + tuiles). La grille factuelle n'est PAS ici :
+// elle est dérivée à la route des champs existants (arrival/departure/season/budget) — zéro duplication.
+const containerSchema = z.object({
+  hookKicker: z.string().default(''), // sur-titre (« Un mois · cinq bases »)
+  hookTitle: z.string(),              // le hook du voyage entier (voix de Martin)
+  hookBody: z.string(),               // la tension/le fil conducteur, grammaire Bourdain
+  hookImage: z.string(),              // slot scellé — fond du hook (plein cadre)
+  sources: z.array(sourceSchema).default([]), // red flag Léa : le hook porte ses sources
+  tilesIntro: z.string().default(''), // ligne d'intro au-dessus de la grille de tuiles
+  tiles: z.array(containerTileSchema).default([]),
+});
+
 export const destinationSchema = z.object({
   slug: z.string(),
   pageTitle: z.string().default(''), // <title> v1 verbatim (« Crète — Septembre 2027 · Itinéraire de voyage »)
@@ -75,6 +99,15 @@ export const destinationSchema = z.object({
   // la route prend le nombre de bases existantes. Permet d'annoncer un voyage à 5 étapes quand
   // une seule base est encore bâtie (Andalousie : 1 base, mais 5 chapitres planifiés).
   chapterTotal: z.number().int().optional(),
+  // §v3 ADR-5 — le CONTAINER (survol) : ce que /[dest]/ rend quand episodic=true.
+  // Décision 5 (modele-voyage-container-decisions.md) : NI vue factuelle plate NI top-5 highlights,
+  // mais (1) un HOOK narratif (la tension du voyage entier, voix de Martin, grammaire Bourdain),
+  // (2) une grille factuelle ultra-condensée (dérivée des champs existants : dates/nuits/aéroports/budget),
+  // (3) des TUILES d'épisodes (le hook réel de chaque chapitre, pas « Épisode 1/5 » générique).
+  // Composé À LA MAIN ici, JAMAIS auto-extrait (la magie pète sinon — Architecte). Red flag de Léa :
+  // un élément du container sans source vérifiable n'existe pas → `sources` requis sur le hook.
+  // Optionnel : crete/turquie (episodic=false) n'ont pas ce bloc → rendu v2 long-scroll intact.
+  container: containerSchema.optional(),
 });
 
 // §3.2 infoBlocks — composition éditoriale ORDONNÉE (pas un filtre par kind)

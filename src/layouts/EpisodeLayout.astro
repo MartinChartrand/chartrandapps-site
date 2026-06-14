@@ -21,12 +21,13 @@ interface Props {
   palette: string;
   description: string;
   destLabel: string;     // « Crète »
+  destHref?: string;     // ADR-5 — retour au container en 1 tap (Décision 6). Absent (protos) → span non-cliquable.
   chapterNum: number;    // 1
   chapterTotal: number;  // 4
   chapterTitle: string;  // « Chania »
   storageKey: string;    // clé localStorage du mode (par chapitre)
 }
-const { title, favicon, palette, description, destLabel, chapterNum, chapterTotal, chapterTitle, storageKey } =
+const { title, favicon, palette, description, destLabel, destHref, chapterNum, chapterTotal, chapterTitle, storageKey } =
   Astro.props;
 ---
 
@@ -36,14 +37,16 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
     <header class="topbar">
       <div class="topbar-inner">
         <span class="topbar-title">
-          <span class="topbar-dest">{destLabel}</span>
-          <span class="topbar-sep">·</span>
+          {destHref
+            ? <a class="topbar-dest topbar-dest-link" href={destHref} aria-label={`Retour au survol — ${destLabel}`}>{destLabel}</a>
+            : <span class="topbar-dest">{destLabel}</span>}
+          <span class="topbar-sep" aria-hidden="true">·</span>
           Ch. {chapterNum}/{chapterTotal} — {chapterTitle}
         </span>
-        <nav class="mode-toggle" aria-label="Mode de consultation">
+        <div class="mode-toggle" role="group" aria-label="Mode de consultation">
           <button type="button" class="mode-btn" data-mode="episode" aria-pressed="true">Épisode</button>
           <button type="button" class="mode-btn" data-mode="carnet" aria-pressed="false">Carnet</button>
-        </nav>
+        </div>
       </div>
       <div class="progress-rail"><div class="progress-fill" id="progress-fill"></div></div>
     </header>
@@ -310,6 +313,9 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
     text-overflow: ellipsis;
   }
   .topbar-dest { color: var(--terre); }
+  .topbar-dest-link { text-decoration: none; transition: color var(--transition); }
+  .topbar-dest-link:hover { color: #fff; }
+  .topbar-dest-link:focus-visible { outline: 2px solid var(--terre); outline-offset: 2px; border-radius: 3px; }
   .topbar-sep { opacity: 0.4; margin: 0 4px; }
   .mode-toggle {
     display: flex;
@@ -326,9 +332,12 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
     color: rgba(255, 255, 255, 0.75);
     font-family: var(--font-sans);
     font-size: 12px;
-    padding: 6px 16px;
+    padding: 0 16px;
     cursor: pointer;
-    min-height: 32px;
+    /* cible tactile iOS/WCAG 2.5.5 : 44px (tient dans la topbar de 46px). */
+    min-height: 44px;
+    display: flex;
+    align-items: center;
   }
   .mode-btn[aria-pressed='true'] {
     background: var(--terre);

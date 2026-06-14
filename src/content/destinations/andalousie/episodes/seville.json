@@ -160,7 +160,7 @@
   "outro": {
     "kicker": "Le reste de Séville",
     "body": "Le Mercado de Triana, les ateliers de céramique, le pèlerinage jamón vers Jabugo — les {count} lieux du chapitre, tous avec leurs liens, pis le budget qui s’accumule, vivent dans le carnet. L’épisode c’est l’apéro ; le carnet, c’est l’outil.",
-    "nextLabel": "Voir la version v2 →",
-    "nextHref": "/andalousie/#seville"
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/andalousie/"
   }
 }

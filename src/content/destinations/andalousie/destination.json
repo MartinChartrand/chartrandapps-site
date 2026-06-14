@@ -45,5 +45,53 @@
   },
   "footerNote": "Itinéraire préparé avec amour · Andalousie, mai–juin 2027",
   "episodic": true,
-  "chapterTotal": 5
+  "chapterTotal": 5,
+  "container": {
+    "hookKicker": "Quatre semaines · cinq bases · l'intérieur d'abord, la côte ensuite",
+    "hookTitle": "L'Andalousie te sourit. Demande-lui ce que ça a coûté.",
+    "hookBody": "Quatre semaines, du four sévillan à la brise de l'Axarquía. On suit la chaleur : l'intérieur tôt — Séville, les chênes de Jabugo — tant que c'est vivable, la côte pour finir. Mais sous l'arc géographique, il y en a un autre. C'est le coin le plus joyeux d'Espagne — flamenco, orangers, chaux blanche — bâti sur ce qu'il a expulsé : huit siècles d'Al-Andalus, pis la Reconquista qui a chassé Juifs et Musulmans. Ça commence à Séville, où le marché au poisson est posé sur le château de l'Inquisition, où les épinards aux pois chiches d'un vieux bar sont une recette arabe qui a survécu à ceux qui l'ont inventée. Les autres chapitres — Granada et son Alhambra en tête — creuseront la même question. Ici, chaque assiette est une porte. On entre par la faim.",
+    "hookImage": "hero",
+    "sources": [
+      { "creator": "Wikipedia (Castillo de San Jorge, Sevilla — Mercado de Triana bâti sur le château de l'Inquisition)", "url": "https://es.wikipedia.org/wiki/Castillo_de_San_Jorge_(Sevilla)", "date": "2026-06" },
+      { "creator": "Visita Sevilla (office de tourisme officiel — Castillo de San Jorge)", "url": "https://visitasevilla.es/en/castillo-de-san-jorge/", "date": "2026-06" },
+      { "creator": "Medieval Histories (convivencia, Al-Andalus & rupture almohade/Reconquista — portée régionale)", "url": "https://www.medieval.eu/medieval-convivencia/", "date": "2026-06" },
+      { "creator": "Spain Then and Now (conversos & moriscos — porc, Inquisition, expulsion des Juifs et Musulmans)", "url": "https://www.spainthenandnow.com/spanish-culture/conversos-and-moriscos-tyranny-of-food", "date": "2026-06" },
+      { "creator": "Devour Tours (espinacas con garbanzos — recette d'origine maure)", "url": "https://devourtours.com/blog/best-spinach-and-garbanzos-in-seville/", "date": "2026-06" },
+      { "creator": "El Rinconcillo (site officiel — vieux bar de Séville, fondé en 1670)", "url": "https://www.elrinconcillo.es/en/history/", "date": "2026-06" }
+    ],
+    "tilesIntro": "Cinq bases, cinq chapitres. Séville est écrit à fond ; les quatre autres sont en route.",
+    "tiles": [
+      {
+        "base": "seville",
+        "kicker": "Chapitre 1 · 7 nuits",
+        "title": "Le four sévillan",
+        "teaser": "Triana plutôt que Santa Cruz, le marché sur le château de l'Inquisition, pis une journée de char vers les cochons de Jabugo.",
+        "image": "seville-cover"
+      },
+      {
+        "base": "ronda",
+        "kicker": "Chapitre 2 · 5 nuits",
+        "title": "Ronda",
+        "teaser": "Cinq nuits, entre Séville et la côte. Chapitre à venir."
+      },
+      {
+        "base": "granada",
+        "kicker": "Chapitre 3 · 6 nuits",
+        "title": "Granada",
+        "teaser": "Six nuits — l'Alhambra (réserver dès l'ouverture des billets), la tapa offerte à chaque conso. Chapitre à venir."
+      },
+      {
+        "base": "axarquia",
+        "kicker": "Chapitre 4 · 7 nuits",
+        "title": "La brise de l'Axarquía",
+        "teaser": "Sept nuits sur la côte est de Málaga — Nerja, Frigiliana et la fête de San Antonio (~13–14 juin). Chapitre à venir."
+      },
+      {
+        "base": "casares",
+        "kicker": "Étape · arrêt-dîner",
+        "title": "Casares",
+        "teaser": "Un arrêt-dîner sur la route vers Málaga. Étape à venir."
+      }
+    ]
+  }
 }
