@@ -237,7 +237,7 @@
     ],
     "tier": "gem",
     "name": "Sobretablas",
-    "blurb": "Le repas-événement du séjour. Camila Ferraro (1re femme Cocinero Revelación 2020, ex-El Celler de Can Roca) + sommelier Robert Tetas. Bib Gourmand. NOTE : c'est à El Porvenir, PAS à Triana — ~15 min en char ou taxi.",
+    "blurb": "Le repas-événement du séjour. Camila Ferraro (1re femme Cocinero Revelación 2020, ex-El Celler de Can Roca) + sommelier Robert Tetas. Ex-Bib Gourmand Michelin (retiré du guide 2026). NOTE : c'est à El Porvenir, PAS à Triana — ~15 min en char ou taxi.",
     "signature": "Menu dégustation andalou de saison (option « Sobretablas Deluxe » avec accord vins) — produit local, technique de haute cuisine",
     "image": "sobretablas-plat",
     "price": {
@@ -595,7 +595,7 @@
     },
     "onMap": true,
     "region": "jabugo-aracena",
-    "story": "Oublie la grosse marque. Eiriz, c'est une famille à Corteconcepción qui fait du jamón depuis 1818 — sept générations dans le même secadero. Tu montes dans la Sierra de Aracena, ça sent le chêne pis le porc qui sèche, pis quelqu'un te coupe des tranches de bellota translucides en t'expliquant la montanera. Fin mai, tu verras pas les cochons manger les glands — ça, c'est l'automne — tu verras le jamón mûrir dans les bodegas naturelles. Pis honnêtement, c'est ça la vraie affaire.",
+    "story": "Oublie la grosse marque. Eiriz, c'est une famille à Corteconcepción qui fait du jamón depuis 1818 — cinquième génération dans le secadero naturel. Tu montes dans la Sierra de Aracena, ça sent le chêne pis le porc qui sèche, pis quelqu'un te coupe des tranches de bellota translucides en t'expliquant la montanera. Fin mai, tu verras pas les cochons manger les glands — ça, c'est l'automne — tu verras le jamón mûrir dans les bodegas naturelles. Pis honnêtement, c'est ça la vraie affaire.",
     "sources": [
       {
         "creator": "Canal Sur Turismo",

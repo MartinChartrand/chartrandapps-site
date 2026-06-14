@@ -63,7 +63,7 @@ Fin mai, il fait chaud — 28 à 32°C — mais c'est vivable, pas l'étuve de j
 
 #### La table
 
-Trois registres. [[poi:las-golondrinas]] pour la tapa de quartier sans flafla — tu dis « dame una » et on t'apporte les puntas de solomillo, point. [[poi:casa-cuesta]] pour t'asseoir devant un vrai rabo de toro dans une maison de 1880. [[poi:la-azotea-gran-poder]] côté Alameda quand t'as envie que quelqu'un ait réfléchi à l'assiette. Et si tu traverses vers le centre, [[poi:el-rinconcillo]] — le plus vieux bar de la ville, ouvert en 1670, addition à la craie sur le comptoir et les espinacas con garbanzos que les Sévillans commandent depuis des générations. Une fois dans le séjour, le repas qu'on planifie : [[poi:sobretablas]], Camila Ferraro, Bib Gourmand. Honnêtement c'est pas à Triana — c'est El Porvenir, faut un taxi — mais c'est le seul moment où on sort du registre tapas.
+Trois registres. [[poi:las-golondrinas]] pour la tapa de quartier sans flafla — tu dis « dame una » et on t'apporte les puntas de solomillo, point. [[poi:casa-cuesta]] pour t'asseoir devant un vrai rabo de toro dans une maison de 1880. [[poi:la-azotea-gran-poder]] côté Alameda quand t'as envie que quelqu'un ait réfléchi à l'assiette. Et si tu traverses vers le centre, [[poi:el-rinconcillo]] — le plus vieux bar de la ville, ouvert en 1670, addition à la craie sur le comptoir et les espinacas con garbanzos que les Sévillans commandent depuis des générations. Une fois dans le séjour, le repas qu'on planifie : [[poi:sobretablas]], Camila Ferraro, Cocinera Revelación 2020. Honnêtement c'est pas à Triana — c'est El Porvenir, faut un taxi — mais c'est le seul moment où on sort du registre tapas.
 
 #### La ville monumentale, vite faite
 
