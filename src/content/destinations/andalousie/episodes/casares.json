@@ -1,0 +1,110 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "La boucle",
+      "body": "Quatre chapitres ont raconté comment on a défait l'Andalousie : l'Inquisition, 1492, 1569, la guerre civile. On finit le mois ici, dans ce village blanc accroché à sa falaise — parce que c'est à Casares qu'est né l'homme qui a voulu lui rendre une âme. Blas Infante. La boucle se referme.",
+      "focusPoi": "casares-blas-infante",
+      "zoom": 15,
+      "targets": ["casares-blas-infante", "casares-castillo"],
+      "thumb": "casares-cover",
+      "thumbAlt": "Le village blanc de Casares dégringolant de sa falaise jusqu'au château",
+      "poiRef": "casares-blas-infante",
+      "sources": [
+        { "creator": "Fundación Blas Infante", "url": "https://fundacionblasinfante.org/blas-infante/", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le village suspendu",
+      "body": "Casares, c'est un des pueblos blancos les plus photographiés d'Andalousie : les maisons dévalent la roche jusqu'au château maure, et la vue va jusqu'à la mer. Une dernière carte postale — mais avec, en dessous, une histoire qui referme tout le voyage.",
+      "focusPoi": "casares-mirador",
+      "zoom": 16,
+      "targets": ["casares-mirador", "casares-castillo"],
+      "thumb": "casares-castillo",
+      "thumbAlt": "Le château maure et l'église en ruine au sommet du village blanc de Casares",
+      "poiRef": "casares-mirador",
+      "sources": [
+        { "creator": "Turismo Casares — Castillo de Casares", "url": "https://www.turismocasares.com/castillo-de-casares-siglo-xiii/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-blas-infante",
+      "kicker": "Casa Natal · le CŒUR",
+      "title": "L'homme qui a rêvé l'Andalousie",
+      "image": "casares-blas-infante",
+      "alt": "Portrait de Blas Infante, le père de la patrie andalouse, né à Casares en 1885",
+      "intro": "Blas Infante est né dans cette maison en 1885. Notaire, écrivain, fasciné par l'héritage d'Al-Andalus, il a donné à l'Andalousie son drapeau — le vert-blanc-vert — et son idée d'elle-même comme peuple. À l'Assemblée de Ronda, en 1918, on adopte ses symboles. En août 1936, les franquistes le fusillent sans procès sur une route près de Séville. Le Parlement andalou l'a reconnu « père de la patrie andalouse » en 1983.",
+      "reco": "Entre à la Casa Natal (rénovée et rouverte en 2025, gratuite) et prends le temps. Après quatre chapitres sur la destruction de l'Andalousie maure, voici l'envers : un homme qui, quatre siècles plus tard, a essayé de lui rendre une mémoire et une dignité — et l'a payé de sa vie, comme tant d'autres dont on a croisé l'ombre à Ronda.",
+      "quote": "On a passé un mois à comprendre comment une Andalousie a été effacée. On finit chez celui qui a voulu lui réapprendre son nom. C'est la bonne dernière page.",
+      "via": null,
+      "poiRef": "casares-blas-infante",
+      "sources": [
+        { "creator": "Parlamento de Andalucía — Blas Infante", "url": "https://www.parlamentodeandalucia.es/blasinfante", "date": "2026-06" },
+        { "creator": "Wikipedia (EN) — Blas Infante", "url": "https://en.wikipedia.org/wiki/Blas_Infante", "date": "2024-01" }
+      ]
+    },
+    {
+      "id": "scene-village",
+      "kicker": "Le Castillo · le QUOI",
+      "title": "Monter jusqu'à la pierre maure",
+      "image": "casares-castillo",
+      "alt": "Le château maure et l'ancienne église de l'Encarnación au sommet du village blanc de Casares",
+      "intro": "Au sommet du village, la forteresse maure et l'église en ruine de l'Encarnación, avec un petit cimetière accroché à la crête. Casares (peut-être de Hisn Qasari) tombe aux mains des Rois Catholiques en 1485, sept ans avant Grenade. On monte par les ruelles blanches ; en haut, la vallée déroule jusqu'à la Méditerranée, et le Rif marocain les jours clairs.",
+      "reco": "Fais la montée en fin d'après-midi, quand la chaleur tombe, et redescends par le Mirador de la Cruz pour le coucher de soleil — Casares de profil, les toits blancs en cascade. C'est la dernière belle lumière du mois. Un verre au Bar El Castillo en haut, et le cabrito payoyo à la braise chez Sarmiento pour le souper.",
+      "quote": "Sept ans avant Grenade, ce château-ci tombait déjà. On a remonté tout le fil de la conquête, de village blanc en village blanc, jusqu'à ce dernier promontoire au-dessus de la mer.",
+      "via": null,
+      "poiRef": "casares-castillo",
+      "sources": [
+        { "creator": "Turismo Casares — Castillo (origine médiévale)", "url": "https://www.turismocasares.com/castillo-de-casares-siglo-xiii/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-hedionda",
+      "kicker": "Baños de la Hedionda · le contre-pied",
+      "title": "Les bains de César (la légende)",
+      "image": "casares-hedionda",
+      "alt": "Les Baños de la Hedionda près de Casares — bains soufrés voûtés en pierre, d'origine romaine puis maure",
+      "intro": "En bas, vers la côte, des bains soufrés voûtés dans un ravin : romains à l'origine, remaniés sous les Maures, l'eau verte qui sent l'œuf pourri — hedionda veut dire « puante ». La légende raconte que Jules César s'y est baigné pour soigner une maladie de peau. Joli récit, mais aucune trace archéologique ne le confirme : c'est un mythe, comme tant d'autres qu'on a démontés ce mois-ci.",
+      "reco": "On peut s'y baigner — libre et gratuit hors saison, sur réservation l'été. Un dernier plongeon dans l'eau soufrée, le matin avant de descendre vers l'aéroport. Et si tu préfères la mer, les plages de Manilva sont à dix minutes, avec l'espeto de sardines pour le midi.",
+      "quote": "On a passé le mois à séparer les faits des légendes — le pont d'Hemingway, le dernier soupir du Maure. Un dernier mythe pour la route, mais on sait maintenant le reconnaître.",
+      "via": null,
+      "poiRef": "casares-hedionda",
+      "sources": [
+        { "creator": "Turismo Casares — Baños de la Hedionda", "url": "https://www.turismocasares.com/banios-hedionda-casares/", "date": "2026-06" },
+        { "creator": "Área Costa del Sol — la légende de César (mythe)", "url": "https://www.areacostadelsol.com/casares/leyenda-banos-curativos-julio-cesar-andalucia/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le dernier carnet de bouche",
+      "body": "Pour finir le mois : le cabrito payoyo à la braise chez Sarmiento — le chevreau de la chèvre payoya, race de la sierra sauvée de l'oubli — le queso payoyo affiné de la ferme Crestellina, et un dernier verre de moscatel de Manilva, la vigne presque les pieds dans la mer. Tout est dans le carnet.",
+      "boundsPois": ["casares-castillo", "casares-hedionda", "casares-crestellina"],
+      "targets": ["casares-crestellina"],
+      "thumb": "casares-cabrito",
+      "thumbAlt": "Cabrito payoyo rôti à la braise, le chevreau de la sierra andalouse",
+      "pills": [
+        { "poiRef": "casares-crestellina", "link": "maps", "label": "Sierra Crestellina · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Turismo Casares — gastronomie", "url": "https://www.turismocasares.com/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Dans le village (Hotel Rural Casares) ou le grand luxe à Finca Cortesin près de la mer. Deux nuits avant le vol depuis Málaga." },
+      { "label": "Où manger", "kinds": ["resto"], "footer": "Le cabrito payoyo à la braise chez Sarmiento (sur la route, fermé lun-mar), un verre au Bar El Castillo en haut." },
+      { "label": "À voir & faire", "kinds": ["sight", "activity"], "footer": "La maison de Blas Infante pour fermer la boucle, le château et le mirador, et les bains de la Hedionda en bas." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "La fin du voyage",
+    "body": "De la fin d'Al-Andalus à l'homme qui a voulu la faire renaître — le mois est bouclé. Les {count} lieux de Casares, et tout le voyage, vivent dans le carnet, avec leurs liens, leurs prix, pis le budget complet. L'épisode c'est l'apéro ; le carnet, c'est l'outil. Buen viaje.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/andalousie/"
+  }
+}

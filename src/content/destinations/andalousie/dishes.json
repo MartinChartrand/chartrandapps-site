@@ -1053,5 +1053,87 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "cas-cabrito-payoyo",
+    "type": "plat",
+    "base": "casares",
+    "region": "casares",
+    "title": "Cabrito payoyo à la braise",
+    "body": "Le chevreau de la chèvre payoya — une race autochtone de la sierra de Cádiz-Málaga, presque disparue puis sauvée — rôti lentement au feu de bois. La cuisine de berger de l'arrière-pays, élevée au rang d'asador. Chez Sarmiento, sur la route de Casares, c'est le plat à venir chercher.",
+    "poiRef": "casares-sarmiento",
+    "image": "casares-cabrito",
+    "links": [
+      {
+        "label": "Restaurante Sarmiento",
+        "url": "https://www.restaurantesarmiento.com/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "El Español / Cocinillas — l'asador de Casares",
+        "url": "https://www.elespanol.com/cocinillas/actualidad-gastronomica/20250617/",
+        "date": "2025-06"
+      },
+      {
+        "creator": "Turismo Casares — gastronomie",
+        "url": "https://www.turismocasares.com/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "cas-queso-payoyo",
+    "type": "produit",
+    "base": "casares",
+    "region": "casares",
+    "title": "Queso payoyo",
+    "body": "Le fromage de la même chèvre payoya — affiné, parfois au romarin ou au paprika, primé internationalement. À la ferme Crestellina, sur la route Manilva-Gaucín, on le fait et on le vend directement. Le goût de la sierra, à rapporter.",
+    "image": "",
+    "links": [
+      {
+        "label": "Quesos Crestellina",
+        "url": "https://crestellina.com/pages/nuestros-productos"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Crestellina (site officiel)",
+        "url": "https://crestellina.com/pages/nuestros-productos",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Turismo Casares — Crestellina",
+        "url": "https://www.turismocasares.com/empresa/crestellina/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "cas-moscatel-manilva",
+    "type": "vin",
+    "base": "casares",
+    "region": "casares",
+    "title": "Moscatel de Manilva",
+    "body": "Au pied de Casares, Manilva fait pousser le moscatel presque les pieds dans la mer — un vin doux doré, et le mosto jeune qu'on foule encore à la Fiesta de la Vendimia en septembre. Les Bodegas Manilva font visite et dégustation sur réservation. Le dernier verre du voyage.",
+    "image": "",
+    "links": [
+      {
+        "label": "Bodegas Manilva",
+        "url": "http://bodegasmanilva.com/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Sabor a Málaga — Bodegas Manilva",
+        "url": "https://www.saboramalaga.es/es/la-marca/empresas/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Agroturismo Málaga — Bodegas Manilva",
+        "url": "https://agroturismomalaga.com/productor/bodegas-manilva/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
