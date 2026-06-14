@@ -40,7 +40,8 @@ Tout fan-out = **Workflow d'agents Sonnet** (`model: 'sonnet'` partout, sinon le
 
 ## PROCHAIN MORCEAU
 1. ✅ **Passe de registre publique FAITE + déployée** (`4823241`) : slang coupé (move→astuce/geste/détour, flafla→chichi), « char »→« voiture » (×15), « pis » GARDÉ (×21, décision Martin). 0 terme résiduel en prod. Écrire les futurs chapitres directement dans ce registre.
-2. **Axarquía (ch.4)** = LE prochain morceau : 7 nuits, San Antonio ~13-14 juin, **recherche à faire** (pas de dossier encore). Cloner le pipeline Granada/Ronda sur une branche `feat/axarquia`. Puis Casares (étape-dîner).
+2. ✅ **Axarquía (ch.4) SHIPPÉ** (`6b191f2`) : Frigiliana & la côte, arc 1569 (Peñón, miel de caña, espeto). 18 POIs, 8 plats, 10 images CC, rendu iOS OK. San Antonio = Frigiliana 11-14 juin. Jaunes : Río Chíllar fermé, Parador Nerja fermé.
+3. **Casares (ch.5)** = LE prochain morceau : étape-dîner sur la route Axarquía→Málaga (AGP, départ 20 juin). Plus petit qu'un chapitre (un arrêt). Recherche à faire. Ensuite le voyage est complet. **Machine prouvée sur 4 chapitres from-scratch.**
 
 ## AUTRE TÂCHE OUVERTE — passe de registre public (feedback Sophie)
 Le site est public → garder la chaleur familière de Martin (tu/te, ton Bourdain) mais **couper le joual cru + anglicismes-slang**. Détail + inventaire : mémoire `registre-public-voix`. Palier 1 (couper) : « décrisses »→« files », « manges le mur »→« rates ton créneau », « killer move »/« le vrai move »→« le vrai but/geste », « sans flafla »→« sans chichi », « pèlerinage gras »→« pèlerinage charcuterie ». Palier 2 (à calibrer Sophie+Martin) : « pis » / « char ». Scope : Andalousie surtout. Puis redeploy.
