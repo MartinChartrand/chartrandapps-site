@@ -30,7 +30,7 @@
     },
     {
       "kicker": "Le grand large — la Sierra de Jabugo",
-      "body": "Là on sort de la ville. Une journée de char, une heure et demie vers le nord-ouest, dans la Sierra de Aracena : la dehesa d’Eiriz, les bodegas de Cinco Jotas, la grotte d’Aracena. C’est le pèlerinage gras — la vraie raison du voyage.",
+      "body": "Là on sort de la ville. Une journée en voiture, une heure et demie vers le nord-ouest, dans la Sierra de Aracena : la dehesa d’Eiriz, les bodegas de Cinco Jotas, la grotte d’Aracena. C’est le pèlerinage gras — la vraie raison du voyage.",
       "boundsPois": ["jamones-eiriz", "cinco-jotas-bodega", "gruta-de-las-maravillas"],
       "targets": ["jamones-eiriz", "cinco-jotas-bodega", "gruta-de-las-maravillas"],
       "thumb": "dehesa-eiriz",
@@ -119,7 +119,7 @@
     },
     {
       "kicker": "Le pèlerinage jamón",
-      "body": "Une journée de char vers la Sierra de Aracena. Commence au Musée du jamón pour comprendre la dehesa, puis Cinco Jotas à Jabugo — plus gros, plus marketé qu’Eiriz (c’est le groupe Osborne), mais la bodega vaut le coup. Le contraste artisan vs machine, dans la même journée.",
+      "body": "Une journée en voiture vers la Sierra de Aracena. Commence au Musée du jamón pour comprendre la dehesa, puis Cinco Jotas à Jabugo — plus gros, plus marketé qu’Eiriz (c’est le groupe Osborne), mais la bodega vaut le coup. Le contraste artisan vs machine, dans la même journée.",
       "boundsPois": ["museo-del-jamon-aracena", "cinco-jotas-bodega"],
       "targets": ["museo-del-jamon-aracena", "cinco-jotas-bodega"],
       "thumb": "dehesa-eiriz",

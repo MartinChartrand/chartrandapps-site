@@ -26,7 +26,7 @@ infoBlocks:
       - ronda-alavera-banos
       - ronda-parador
       - ronda-san-gabriel
-    footer: "Dormir EN La Ciudad (vieille ville), pas côté chaînes avec vue vendue au prix fort. Depuis août 2025, traverser le Puente Nuevo en char sans plaque enregistrée = 70 € d'amende automatique : préviens ton hôtel avant d'arriver."
+    footer: "Dormir EN La Ciudad (vieille ville), pas côté chaînes avec vue vendue au prix fort. Depuis août 2025, traverser le Puente Nuevo en voiture sans plaque enregistrée = 70 € d'amende automatique : préviens ton hôtel avant d'arriver."
   - label: "Où manger"
     type: poi-list
     items:
@@ -34,7 +34,7 @@ infoBlocks:
       - ronda-tragata
       - ronda-lechuguita
       - ronda-pedro-romero
-    footer: "Évite les restos à vue directe sur le Tajo (la vue vend le billet, la cuisine encaisse). Le move : suivre où mange Benito Gómez — Tragatá pour le comptoir, El Lechuguita pour la tapa à 1,20 €."
+    footer: "Évite les restos à vue directe sur le Tajo (la vue vend le billet, la cuisine encaisse). L'astuce : suivre où mange Benito Gómez — Tragatá pour le comptoir, El Lechuguita pour la tapa à 1,20 €."
   - label: "À voir & faire"
     type: poi-list
     items:
@@ -56,7 +56,7 @@ Ronda, tout le monde connaît la photo : le pont, le gouffre, la ville coupée e
 
 #### Le pont, et le mensonge qu'on raconte dessus
 
-Le [[poi:ronda-puente-nuevo]] a pris 42 ans à bâtir et a tué son premier architecte. Hemingway en a fait la scène où les Républicains précipitent les fascistes dans le ravin — *Pour qui sonne le glas*. C'est faux. Les exécutions ont eu lieu au cimetière ; le détail de la falaise vient de la propagande de Queipo de Llano, recyclée en fiction de génie, puis en attraction touristique. Zéro plaque sur le pont. Le selfie est le réflexe ; rester dix minutes avec le poids de l'endroit, c'est le vrai move.
+Le [[poi:ronda-puente-nuevo]] a pris 42 ans à bâtir et a tué son premier architecte. Hemingway en a fait la scène où les Républicains précipitent les fascistes dans le ravin — *Pour qui sonne le glas*. C'est faux. Les exécutions ont eu lieu au cimetière ; le détail de la falaise vient de la propagande de Queipo de Llano, recyclée en fiction de génie, puis en attraction touristique. Zéro plaque sur le pont. Le selfie est le réflexe ; rester dix minutes avec le poids de l'endroit, c'est le vrai geste.
 
 #### La corrida, à l'os
 
