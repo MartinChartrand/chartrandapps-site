@@ -1412,7 +1412,7 @@
     "tier": null,
     "name": "Puente Nuevo & El Tajo",
     "blurb": "42 ans à construire (1751-1793), 120 m de vide creusés par la Guadalevín. La plupart repartent avec la photo sans savoir ce qui s'est passé ici (voir le carnet : le mythe Hemingway de la guerre civile, démonté). Le selfie est le réflexe touristique. Rester dix minutes avec le poids de l'endroit, c'est le vrai move.",
-    "image": null,
+    "image": "ronda-puente-nuevo",
     "price": {
       "range": "traversée gratuite · Centro de Interpretación 2,50 € (2025)",
       "currency": "EUR",
@@ -1462,7 +1462,7 @@
     "name": "Plaza de Toros — Real Maestranza",
     "blurb": "Achevée en 1785, tout en pierre — 136 colonnes de grès, 66 m de diamètre. C'est ici que trois générations Romero ont codifié la corrida moderne (Pedro Romero : 5 600 taureaux en 28 ans, jamais blessé). Pas juste un joli bâtiment du XVIIIe : l'endroit où une forme d'art brutale et codifiée est née. Engage-toi avec la complexité au lieu de juste shooter de l'extérieur.",
     "signature": "L'arène de pierre + le musée taurin ; à l'entrée, le monument à Orson Welles",
-    "image": null,
+    "image": "ronda-plaza-toros",
     "price": {
       "range": "9 € · 10,50 € avec audioguide (2025)",
       "currency": "EUR",
@@ -1511,7 +1511,7 @@
     "tier": null,
     "name": "Baños Árabes",
     "blurb": "Un des hammams les mieux conservés de la péninsule — l'original, pas une reconstruction. Chambres froide, tiède, chaude ; les étoiles percées dans la voûte filtrent encore la lumière d'origine. À Grenade et Séville, les bains arabes sont des reproductions pour touristes. Ici c'est le vrai bâtiment, 700 ans debout, dans un quartier que les day-trippers n'atteignent pas.",
-    "image": null,
+    "image": "ronda-banos-arabes",
     "price": {
       "range": "4,50 € (2025)",
       "currency": "EUR",
@@ -1561,7 +1561,7 @@
     "name": "Casa del Rey Moro — jardins & mine d’eau",
     "blurb": "La maison est fermée (rénovation), mais on n'y vient pas pour elle. La mine d'eau nasride du XIVe : 231 marches taillées dans la roche, 60 m jusqu'au fond du Tajo. Et les jardins en terrasses redessinés en 1912 par Forestier (le même que les jardins María Luisa de Séville). Le nom est à moitié romancé — la mine, elle, est bien réelle.",
     "signature": "Descendre les 231 marches de la mine nasride jusqu'à la Guadalevín",
-    "image": null,
+    "image": "ronda-casa-rey-moro",
     "price": {
       "range": "jardins + mine 10 € (2026)",
       "currency": "EUR",
@@ -1610,7 +1610,7 @@
     "tier": null,
     "name": "Palacio de Mondragón",
     "blurb": "Palais nasride reconverti en musée municipal, cœur du parcours hors-cars de la vieille ville. Patios, stucs et vue sur la serranía. Le circuit honnête : Mondragón → Santa María la Mayor (église sur mosquée sur temple romain) → le vieux pont arabe quasi désert. Le Bono Turístico à 12 € le couvre si tu fais trois sites.",
-    "image": null,
+    "image": "ronda-mondragon",
     "price": {
       "range": "3 € · Bono Turístico 12 € pour 3+ sites (2025)",
       "currency": "EUR",
@@ -1661,7 +1661,7 @@
     "name": "Bodega Descalzos Viejos",
     "blurb": "Un ancien couvent de Trinitaires déchaussés fondé en 1505, reconverti en bodega en 2000, à dix minutes du centre. On fait du vin de la Serranía de Ronda là où des moines priaient — fresques d'origine encore aux murs. Visite + dégustation sur réservation. Le terroir oublié d'Andalousie, dans un décor que personne n'attend.",
     "signature": "Dégustation des rouges de la Serranía dans l'ancienne église du couvent",
-    "image": null,
+    "image": "ronda-vino-serrania",
     "price": {
       "range": "visite + dégustation sur réservation (prix à confirmer)",
       "currency": "EUR",

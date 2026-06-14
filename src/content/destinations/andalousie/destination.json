@@ -71,8 +71,9 @@
       {
         "base": "ronda",
         "kicker": "Chapitre 2 · 5 nuits",
-        "title": "Ronda",
-        "teaser": "Cinq nuits, entre Séville et la côte. Chapitre à venir."
+        "title": "Le pont sur le gouffre",
+        "teaser": "Cinq nuits sur la falaise — le pont qu'Hemingway a transformé en légende (et le vrai move : y descendre), le berceau de la corrida, pis un vin d'altitude que personne n'attend.",
+        "image": "ronda-cover"
       },
       {
         "base": "granada",

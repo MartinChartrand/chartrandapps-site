@@ -608,5 +608,245 @@
       "verdict": "match",
       "checkedAt": "2026-06-13"
     }
+  },
+  {
+    "id": "ronda-cover",
+    "slot": "ronda-cover",
+    "base": "ronda",
+    "role": "cover",
+    "file": "ronda-cover.jpg",
+    "alt": "Ronda au bord du Tajo : la falaise et le Puente Nuevo vus depuis l'autre versant du gouffre",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "Panorama_of_Ronda.jpg",
+      "photographer": "Tesla Delacroix",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "19f094a01a31d966b30c67352aeed9dd3a51736bb50dfe49f9074b7b4505d31e",
+    "visionCheckedSemantic": {
+      "sha256": "19f094a01a31d966b30c67352aeed9dd3a51736bb50dfe49f9074b7b4505d31e",
+      "alt": "Ronda au bord du Tajo : la falaise et le Puente Nuevo vus depuis l'autre versant du gouffre",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-puente-nuevo",
+    "slot": "ronda-puente-nuevo",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-puente-nuevo.jpg",
+    "alt": "Le Puente Nuevo enjambant le gouffre du Tajo à Ronda, vue panoramique de la vieille ville sur la falaise",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "View_of_Puente_Nuevo_bridge_in_Ronda_Spain.jpg",
+      "photographer": "Wolfgang Moroder",
+      "license": "CC BY-SA 3.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "0bce451903674c890eb3d6165aa2b96126c8fb25d59e6a0288878771cae0e374",
+    "visionCheckedSemantic": {
+      "sha256": "0bce451903674c890eb3d6165aa2b96126c8fb25d59e6a0288878771cae0e374",
+      "alt": "Le Puente Nuevo enjambant le gouffre du Tajo à Ronda, vue panoramique de la vieille ville sur la falaise",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-tajo-bas",
+    "slot": "ronda-tajo-bas",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-tajo-bas.jpg",
+    "alt": "Parois calcaires du Tajo de Ronda et l'eau verte de la Guadalevín, vues depuis le fond du gouffre",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "Guadalevín_River_in_Ronda._Spain_(18374633990).jpg",
+      "photographer": "Julia Kostecka",
+      "license": "CC BY 2.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "53321a1dbe760d11a1d7737387fc7fa66b3fa1bb0692bf69d0ed60a35a39d73d",
+    "visionCheckedSemantic": {
+      "sha256": "53321a1dbe760d11a1d7737387fc7fa66b3fa1bb0692bf69d0ed60a35a39d73d",
+      "alt": "Parois calcaires du Tajo de Ronda et l'eau verte de la Guadalevín, vues depuis le fond du gouffre",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-plaza-toros",
+    "slot": "ronda-plaza-toros",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-plaza-toros.jpg",
+    "alt": "Les arcades de pierre à deux niveaux et l'arène de sable de la Plaza de Toros de Ronda",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "Arkaden_der_Arena_Ronda.jpg",
+      "photographer": "Marco Almbauer",
+      "license": "CC0 / Domaine public"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "db70850d7ffa657b3f42b5c7a61f4ffeb7dd7bd2ff9dfbd0fb592b4e3643c20b",
+    "visionCheckedSemantic": {
+      "sha256": "db70850d7ffa657b3f42b5c7a61f4ffeb7dd7bd2ff9dfbd0fb592b4e3643c20b",
+      "alt": "Les arcades de pierre à deux niveaux et l'arène de sable de la Plaza de Toros de Ronda",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-banos-arabes",
+    "slot": "ronda-banos-arabes",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-banos-arabes.jpg",
+    "alt": "Salle voûtée des Baños Árabes de Ronda — arcs en fer à cheval et lucarnes en étoile percées dans la voûte",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "Baños_árabes_de_Ronda_(28960176504).jpg",
+      "photographer": "Ángel M. Felicísimo",
+      "license": "CC BY 2.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "6fa2b712995155e06ba83a338761cceccfa72770a284146dc9a566d788e3951e",
+    "visionCheckedSemantic": {
+      "sha256": "6fa2b712995155e06ba83a338761cceccfa72770a284146dc9a566d788e3951e",
+      "alt": "Salle voûtée des Baños Árabes de Ronda — arcs en fer à cheval et lucarnes en étoile percées dans la voûte",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-casa-rey-moro",
+    "slot": "ronda-casa-rey-moro",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-casa-rey-moro.jpg",
+    "alt": "Escalier taillé dans la roche de la mine d'eau de la Casa del Rey Moro, Ronda",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "S02_068_Ronda,_mina_de_Agua,_escalera.jpg",
+      "photographer": "Falk2",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "a7dd5cac49dce24c63408d0c2999d1c9ba8a52183135ff4d3a4c5bfe91b1f093",
+    "visionCheckedSemantic": {
+      "sha256": "a7dd5cac49dce24c63408d0c2999d1c9ba8a52183135ff4d3a4c5bfe91b1f093",
+      "alt": "Escalier taillé dans la roche de la mine d'eau de la Casa del Rey Moro, Ronda",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-mondragon",
+    "slot": "ronda-mondragon",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-mondragon.jpg",
+    "alt": "Patio mudéjar du Palacio de Mondragón à Ronda — arcs sur colonnes et oranger",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "Arcos_del_Patio_Mudéjar,_Palacio_de_Mondragón_(Ronda).jpg",
+      "photographer": "José Luis Filpo Cabana",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "2ba8c47857c289b7fd00c394019b9ab36d093de214452e545de4d27372d89f90",
+    "visionCheckedSemantic": {
+      "sha256": "2ba8c47857c289b7fd00c394019b9ab36d093de214452e545de4d27372d89f90",
+      "alt": "Patio mudéjar du Palacio de Mondragón à Ronda — arcs sur colonnes et oranger",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-vino-serrania",
+    "slot": "ronda-vino-serrania",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-vino-serrania.jpg",
+    "alt": "Vignes en altitude de la Serranía de Ronda, collines andalouses à l'arrière-plan",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "Finca_la_Sanguijuela_-_F._Schatz_-_Ronda_02.jpg",
+      "photographer": "Tyk",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "735147cd2feabcedddc02e84351c8d4def9960837fcdcdb3ac478efbb8afe2fd",
+    "visionCheckedSemantic": {
+      "sha256": "735147cd2feabcedddc02e84351c8d4def9960837fcdcdb3ac478efbb8afe2fd",
+      "alt": "Vignes en altitude de la Serranía de Ronda, collines andalouses à l'arrière-plan",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-rabo-toro",
+    "slot": "ronda-rabo-toro",
+    "base": "ronda",
+    "role": "food",
+    "file": "ronda-rabo-toro.jpg",
+    "alt": "Assiette de rabo de toro — queue de taureau braisée en sauce, servie avec des frites",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "Rabo_de_toro,_Córdoba,_2016.jpg",
+      "photographer": "Draceane",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "79d3e4463ca7e394f9cdbc3cfadab5f3c54aa1e3b610c571b1b71d0cbf699b39",
+    "visionCheckedSemantic": {
+      "sha256": "79d3e4463ca7e394f9cdbc3cfadab5f3c54aa1e3b610c571b1b71d0cbf699b39",
+      "alt": "Assiette de rabo de toro — queue de taureau braisée en sauce, servie avec des frites",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-queso-payoyo",
+    "slot": "ronda-queso-payoyo",
+    "base": "ronda",
+    "role": "food",
+    "file": "ronda-queso-payoyo.jpg",
+    "alt": "Quartier de fromage artisanal de la Sierra de Grazalema, terroir du queso payoyo",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "Wikimedia Commons",
+      "photoId": "Queso_grazalema.jpg",
+      "photographer": "Ardo Beltz",
+      "license": "CC BY-SA 3.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "6465a7477ff06c6646fbde3acf9447251e3460dc69759a670ed20357adf28831",
+    "visionCheckedSemantic": {
+      "sha256": "6465a7477ff06c6646fbde3acf9447251e3460dc69759a670ed20357adf28831",
+      "alt": "Quartier de fromage artisanal de la Sierra de Grazalema, terroir du queso payoyo",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
   }
 ]
