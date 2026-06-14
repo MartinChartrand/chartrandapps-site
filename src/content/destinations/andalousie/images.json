@@ -1304,5 +1304,125 @@
       "verdict": "match",
       "checkedAt": "2026-06-14"
     }
+  },
+  {
+    "id": "casares-cover",
+    "slot": "casares-cover",
+    "base": "casares",
+    "role": "cover",
+    "file": "casares-cover.jpg",
+    "alt": "Le village blanc de Casares sur son piton rocheux, le château et la tour de l'église au sommet, les collines andalouses derrière",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Casares_vista.jpg",
+      "photographer": "jaycross",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "36cfcb30c14b928b5995c1b85d15f3d7cd9da16f9c0a15b659f9e940fd307bf2",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "36cfcb30c14b928b5995c1b85d15f3d7cd9da16f9c0a15b659f9e940fd307bf2",
+      "alt": "Le village blanc de Casares sur son piton rocheux, le château et la tour de l'église au sommet, les collines andalouses derrière",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "casares-blas-infante",
+    "slot": "casares-blas-infante",
+    "base": "casares",
+    "role": "photo",
+    "file": "casares-blas-infante.jpg",
+    "alt": "Portrait photographique en noir et blanc de Blas Infante vers 1910, en costume et cravate — le père de la patrie andalouse, natif de Casares",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Blas_Infante_1910.jpg",
+      "photographer": "Auteur inconnu",
+      "license": "Domaine public"
+    },
+    "sha256": "bf0a70a284300553436a0ab7b9c415edd511e15d07b0509122d348ea4ab70cb9",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "bf0a70a284300553436a0ab7b9c415edd511e15d07b0509122d348ea4ab70cb9",
+      "alt": "Portrait photographique en noir et blanc de Blas Infante vers 1910, en costume et cravate — le père de la patrie andalouse, natif de Casares",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "casares-castillo",
+    "slot": "casares-castillo",
+    "base": "casares",
+    "role": "photo",
+    "file": "casares-castillo.jpg",
+    "alt": "L'Arco de la Villa, l'arche de pierre de l'enceinte du château maure de Casares, au bout d'une ruelle pavée blanchie à la chaux",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Arco_de_la_Villa_del_castillo_de_Casares.jpg",
+      "photographer": "ANAGSPC",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "3fa68035997d767ff48ce14d15c31d01b861041cdb4c68aac97f62b52df82f5c",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "3fa68035997d767ff48ce14d15c31d01b861041cdb4c68aac97f62b52df82f5c",
+      "alt": "L'Arco de la Villa, l'arche de pierre de l'enceinte du château maure de Casares, au bout d'une ruelle pavée blanchie à la chaux",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "casares-hedionda",
+    "slot": "casares-hedionda",
+    "base": "casares",
+    "role": "photo",
+    "file": "casares-hedionda.jpg",
+    "alt": "L'intérieur voûté des Baños de la Hedionda — arche de pierre et de brique au-dessus de l'eau turquoise soufrée",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Roman_sulphur_springs_(2874386597).jpg",
+      "photographer": "Alex Lomas",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "253406088af46e77d9c56c52a5441618ee1bb52988505aa855e5bd3d144d7ef0",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "253406088af46e77d9c56c52a5441618ee1bb52988505aa855e5bd3d144d7ef0",
+      "alt": "L'intérieur voûté des Baños de la Hedionda — arche de pierre et de brique au-dessus de l'eau turquoise soufrée",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "casares-cabrito",
+    "slot": "casares-cabrito",
+    "base": "casares",
+    "role": "food",
+    "file": "casares-cabrito.jpg",
+    "alt": "Une assiette de cabrito (chevreau) rôti avec des pommes de terre frites, des verres de vin rouge sur la table d'un restaurant",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Pierna_de_cabrito.jpeg",
+      "photographer": "Xemenendura",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "9fd1d55c37e4173688c3a6ffafe4dda7b689e812c74031eccbf8bd045c9b0ac4",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "9fd1d55c37e4173688c3a6ffafe4dda7b689e812c74031eccbf8bd045c9b0ac4",
+      "alt": "Une assiette de cabrito (chevreau) rôti avec des pommes de terre frites, des verres de vin rouge sur la table d'un restaurant",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
   }
 ]

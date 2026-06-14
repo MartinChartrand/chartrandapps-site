@@ -3544,5 +3544,450 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "casares-finca-cortesin",
+    "base": "casares",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep",
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Finca Cortesin",
+    "blurb": "Le grand luxe pour clore le mois : un resort-hacienda 5 étoiles entre Casares et la mer, golf, spa, et le Kabuki Raw — la table japonaise étoilée Michelin du chef Luis Olarra, qui marie la technique nippone aux produits andalous. Le splurge de la dernière nuit, si on veut finir en beauté.",
+    "signature": "Kabuki Raw, table japonaise étoilée — réservation aussi pour non-résidents",
+    "image": null,
+    "price": {
+      "range": "grand luxe (5★) · Kabuki Raw sur réservation",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.39646,
+      "lng": -5.22386,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.fincacortesin.com/",
+      "booking": null,
+      "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g1055348-d1085965-Reviews-Finca_Cortesin_Hotel_Golf_Spa-Casares_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+      "maps": "https://www.google.com/maps/search/Finca%20Cortesin%20Casares"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Guide Michelin — Kabuki Raw (Casares)",
+        "url": "https://guide.michelin.com/es/en/andalucia/casares/restaurant/kabuki-raw",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Finca Cortesin",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1055348-d1085965-Reviews-Finca_Cortesin_Hotel_Golf_Spa-Casares_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casares-hotel-rural",
+    "base": "casares",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Hotel Rural Casares",
+    "blurb": "L'option simple et juste, dans le village même : un petit hôtel rural sur la Calle Copera, vue sur les toits blancs et la vallée. Pour dormir au cœur du pueblo et se réveiller dans la carte postale, à pied du château et de la maison de Blas Infante.",
+    "signature": "Chambre vue sur les toits blancs, au cœur du pueblo",
+    "image": null,
+    "price": {
+      "range": "~50–110 €/nuit (plus cher en juin)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.4444,
+      "lng": -5.27106,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.hotelcasares.es/",
+      "booking": "https://www.booking.com/hotel/es/rural-casares.html",
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel%20Rural%20Casares"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hotel Rural Casares (site officiel)",
+        "url": "https://www.hotelcasares.es/habitaciones/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Hotel Rural Casares",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1055348-d1153654-Reviews-Hotel_Rural_Casares-Casares_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casares-sarmiento",
+    "base": "casares",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Sarmiento Brasa Andaluza",
+    "blurb": "Sur la route qui monte au village, un asador andalou recommandé par le Michelin : tout passe sur la braise, et la pièce maîtresse, c'est le cabrito payoyo — le chevreau de la chèvre payoya de la sierra, rôti au feu. Le repas-mémoire de l'étape. Fermé lundi et mardi, réserver.",
+    "signature": "Cabrito payoyo à la braise — le chevreau de la sierra au feu de bois",
+    "image": null,
+    "price": {
+      "range": "~40 €/pers (indicatif)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.restaurantesarmiento.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sarmiento%20Brasa%20Andaluza%20Casares%20Carretera"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · sur la Ctra. de Casares km 12,5 (hors carte) · fermé lun-mar"
+    },
+    "onMap": false,
+    "sources": [
+      {
+        "creator": "Sarmiento Brasa Andaluza (site officiel)",
+        "url": "https://www.restaurantesarmiento.com/contacto",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guide Michelin — Sarmiento Brasa Andaluza",
+        "url": "https://guide.michelin.com/us/en/andalucia/casares/restaurant/sarmiento-brasa-andaluza",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casares-el-castillo",
+    "base": "casares",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": "mid",
+    "name": "Bar El Castillo",
+    "blurb": "Le bar du village, tout en haut près du château, terrasse sur la vallée. Tapas et plats simples, l'adresse des Casareños loin du circuit du mirador. Pour un verre et une assiette honnête avec la vue, après la montée.",
+    "signature": "Tapas avec vue sur la vallée, sous le château",
+    "image": null,
+    "price": {
+      "range": "tapas et raciones ~3–12 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.44251,
+      "lng": -5.27379,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.turismocasares.com/empresa/bar-el-castillo/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bar%20El%20Castillo%20Casares"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé mer-jeu"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo Casares — Bar El Castillo",
+        "url": "https://www.turismocasares.com/empresa/bar-el-castillo/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Cylex España — Bar El Castillo",
+        "url": "https://www.cylex.es/casares-malaga-andalucia/bar-el-castillo--casares-14219091.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casares-blas-infante",
+    "base": "casares",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Casa Natal de Blas Infante",
+    "blurb": "La maison où est né Blas Infante en 1885 — le « père de la patrie andalouse », l'homme qui a donné à l'Andalousie son drapeau et son idée d'elle-même, fusillé par les franquistes en 1936. La maison-musée, rénovée et rouverte en 2025, raconte sa vie et l'andalucisme. Entrée gratuite. C'est ici que le voyage referme sa boucle.",
+    "image": "casares-blas-infante",
+    "price": {
+      "range": "gratuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.44555,
+      "lng": -5.27351,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.turismocasares.com/casanatal-blas-infante/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Casa%20Natal%20Blas%20Infante%20Casares"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo Casares — Casa Natal de Blas Infante",
+        "url": "https://www.turismocasares.com/casanatal-blas-infante/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Fundación Blas Infante",
+        "url": "https://fundacionblasinfante.org/blas-infante/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casares-castillo",
+    "base": "casares",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Castillo de Casares & Iglesia del Castillo",
+    "blurb": "La forteresse maure au sommet du village (origine médiévale, prise par les Catholiques en 1485), avec l'ancienne église de l'Encarnación et le cimetière accroché à la crête. On monte par les ruelles blanches ; en haut, toute la vallée jusqu'à la mer, et le Rif marocain les jours clairs.",
+    "image": "casares-castillo",
+    "price": {
+      "range": "ruines en accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.44322,
+      "lng": -5.2743,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.turismocasares.com/castillo-de-casares-siglo-xiii/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Castillo%20de%20Casares"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo Casares — Castillo (origine médiévale)",
+        "url": "https://www.turismocasares.com/castillo-de-casares-siglo-xiii/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Andalucía Rústica — Casares Castle",
+        "url": "https://andaluciarustica.com/en/casares-castle.htm",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casares-mirador",
+    "base": "casares",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Mirador de la Cruz",
+    "blurb": "Le belvédère de la photo : Casares vu de profil, les maisons blanches dégringolant de la falaise jusqu'au château, l'un des pueblos blancos les plus photographiés d'Andalousie. Gratuit, accès libre, et le meilleur au coucher de soleil — la dernière lumière du voyage sur les toits blancs.",
+    "image": null,
+    "price": {
+      "range": "gratuit · accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.44386,
+      "lng": -5.27095,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.turismocasares.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mirador%20de%20la%20Cruz%20Casares"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo Casares (officiel)",
+        "url": "https://www.turismocasares.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wander Somewhere — guide de Casares",
+        "url": "https://www.wandersomewhere.com/esp/things-to-do-casares/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casares-hedionda",
+    "base": "casares",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Baños de la Hedionda",
+    "blurb": "Des bains soufrés voûtés en pierre, dans un ravin près de la côte — d'origine romaine, remaniés sous les Maures, l'eau verte sent l'œuf pourri (hedionda = puante). La légende dit que Jules César s'y est soigné d'une maladie de peau (joli mythe, aucune preuve archéologique). On peut s'y baigner : libre et gratuit hors saison, sur réservation l'été.",
+    "signature": "Se baigner dans les bains soufrés voûtés (réserver l'été)",
+    "image": "casares-hedionda",
+    "price": {
+      "range": "gratuit hors saison · réservation Eventbrite l'été",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.39645,
+      "lng": -5.26149,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.turismocasares.com/banios-hedionda-casares/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Banos%20de%20la%20Hedionda%20Casares%20Manilva"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo Casares — Baños de la Hedionda",
+        "url": "https://www.turismocasares.com/banios-hedionda-casares/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Área Costa del Sol — la légende de César (mythe)",
+        "url": "https://www.areacostadelsol.com/casares/leyenda-banos-curativos-julio-cesar-andalucia/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casares-crestellina",
+    "base": "casares",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Sierra Crestellina",
+    "blurb": "La réserve naturelle au-dessus de Casares : une crête calcaire où plane une colonie de vautours fauves. Le sentier SL-1 (≈1,3 km) part de la route A-7150 et donne le village, la vallée et les rapaces en vol. Une dernière marche, tôt le matin avant la chaleur, avant de descendre vers l'aéroport.",
+    "signature": "Sentier SL-1 et les vautours fauves de la crête (partir tôt)",
+    "image": null,
+    "price": {
+      "range": "gratuit · sentier",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.46833,
+      "lng": -5.28252,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sierra%20Crestellina%20Casares"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Junta de Andalucía — Ventana del Visitante (Crestellina)",
+        "url": "https://www.juntadeandalucia.es/medioambiente/portal/web/ventanadelvisitante",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Turismo Casares — Sierra Crestellina",
+        "url": "https://www.turismocasares.com/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]

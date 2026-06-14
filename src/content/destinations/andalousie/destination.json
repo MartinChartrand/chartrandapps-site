@@ -115,9 +115,10 @@
       },
       {
         "base": "casares",
-        "kicker": "Étape · arrêt-dîner",
-        "title": "Casares",
-        "teaser": "Un arrêt-dîner sur la route vers Málaga. Étape à venir."
+        "kicker": "Étape finale · 2 nuits",
+        "title": "Le village du rêveur",
+        "teaser": "Deux nuits pour boucler le mois — le village natal de Blas Infante, qui a donné son drapeau à l'Andalousie pis l'a payé de sa vie, le château maure suspendu sur sa falaise, pis les bains soufrés où la légende fait passer César.",
+        "image": "casares-cover"
       }
     ]
   }
