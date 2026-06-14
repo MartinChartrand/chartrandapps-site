@@ -184,6 +184,16 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
       const mapEl = section.querySelector<HTMLElement>('.scene-map');
       if (!mapEl) return;
       const { map, focusTargets, fitOpen, openBounds } = buildMap(mapEl);
+      // iOS WebKit : le conteneur sticky + svh est souvent mal mesuré au build → la carte
+      // reste blanche (tuiles jamais chargées), et contrairement au desktop elle ne récupère
+      // pas via le ResizeObserver. On recale (invalidateSize + refit) sur quelques frames,
+      // tant que l'usager n'a pas scrollé (sinon on combat son flyTo). Même remède que la
+      // carte du carnet plus bas. Vérifié au simulateur iOS (iPhone 17 Pro Max).
+      let userMoved = false;
+      const recalcMap = () => { map.invalidateSize(); if (!userMoved) fitOpen(); };
+      requestAnimationFrame(recalcMap);
+      setTimeout(recalcMap, 200);
+      setTimeout(recalcMap, 600);
       const flyOpts = { duration: reduced ? 0 : 1.6 };
 
       function flyPoint(lat: number, lng: number, zoom: number) {
@@ -205,6 +215,7 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
         (entries) => {
           entries.forEach((entry) => {
             if (!entry.isIntersecting) return;
+            userMoved = true; // l'usager pilote la carte : le recalage iOS arrête de refit
             const el = (entry.target as HTMLElement).closest<HTMLElement>('.beat')!;
             focusTargets((el.dataset.targets ?? '').split(',').filter(Boolean));
             if (el.dataset.fly) {
