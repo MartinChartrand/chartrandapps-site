@@ -20,7 +20,7 @@ export type CarnetRow = {
 // fly XOR bounds selon le beat → les deux optionnels (cf. (b as any) de l'origine).
 export type RawBeat = {
   fly?: string; bounds?: string; targets: string[];
-  thumb: string; thumbAlt: string; kicker: string; body: string; pills: Pill[];
+  thumb?: string; thumbAlt?: string; kicker: string; body: string; pills: Pill[];
 };
 
 // Glob build-time des assets — chemin absolu depuis la racine projet, donc résout

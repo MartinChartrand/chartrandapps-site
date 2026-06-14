@@ -16,6 +16,7 @@ import {
   budgetSchema,
   pratiqueSchema,
   imageSchema,
+  episodeSchema,
 } from '../scripts/lib/schemas.mjs';
 
 const DEST_BASE = './src/content/destinations/';
@@ -69,6 +70,15 @@ const bases = defineCollection({
   schema: baseSchema,
 });
 
+// §v3 ADR-2 — un épisode scrollytelling par base : <dest>/episodes/<base>.json.
+// id glob = "<dest>/episodes/<base>" (ex. "andalousie/episodes/seville"). Données pures
+// (pas de corps markdown) → JSON, format naturel de la machine à saucisse. Répertoire
+// absent => collection vide, build vert (additif, comme l'état pré-migration des arrays).
+const episodes = defineCollection({
+  loader: glob({ pattern: '*/episodes/*.json', base: DEST_BASE }),
+  schema: episodeSchema,
+});
+
 const budget = defineCollection({
   loader: glob({ pattern: '*/budget.json', base: DEST_BASE }),
   schema: budgetSchema,
@@ -84,4 +94,4 @@ const dishes = defineCollection({ loader: destScopedArray('dishes.json'), schema
 const gems = defineCollection({ loader: destScopedArray('gems.json'), schema: gemSchema });
 const images = defineCollection({ loader: destScopedArray('images.json'), schema: imageSchema });
 
-export const collections = { destinations, bases, pois, dishes, gems, budget, pratique, images };
+export const collections = { destinations, bases, episodes, pois, dishes, gems, budget, pratique, images };
