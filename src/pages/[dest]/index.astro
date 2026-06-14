@@ -151,12 +151,21 @@ if (d.episodic && d.container) {
   ];
   const range = budgetRange(budgetEntry?.data);
   if (range) facts.push({ value: range, label: 'Budget · 2 pers. (CAD)' });
+  // Crédits photo (attribution légale CC) : image du hook + images de tuiles.
+  const survolSlots = new Set<string>();
+  if (c.hookImage) survolSlots.add(c.hookImage);
+  for (const t of c.tiles) if (t.image) survolSlots.add(t.image);
+  const imageCredits = [...survolSlots]
+    .map((slot) => imageManifest.find((i) => i.slot === slot))
+    .filter((i): i is NonNullable<typeof i> => !!i)
+    .map((i) => ({ alt: i.alt, credit: i.credit }));
   survol = {
     hookKicker: c.hookKicker,
     hookTitle: c.hookTitle,
     hookBody: c.hookBody,
     hookImageUrl: resolveSlot(c.hookImage),
     facts,
+    imageCredits,
     tilesIntro: c.tilesIntro,
     tiles: c.tiles.map((t) => {
       const live = episodeBases.has(t.base);
@@ -191,6 +200,7 @@ if (d.episodic && d.container) {
       facts={survol.facts}
       tilesIntro={survol.tilesIntro}
       tiles={survol.tiles}
+      imageCredits={survol.imageCredits}
     />
   </DestinationLayout>
 ) : (

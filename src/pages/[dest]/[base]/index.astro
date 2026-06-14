@@ -8,6 +8,7 @@ import EpisodeLayout from '../../../layouts/EpisodeLayout.astro';
 import ScrollyMapSection from '../../../components/episode/ScrollyMapSection.astro';
 import SceneSection from '../../../components/episode/SceneSection.astro';
 import CarnetSection from '../../../components/episode/CarnetSection.astro';
+import ImageCredits from '../../../components/ImageCredits.astro';
 import { getCollection } from 'astro:content';
 import { createEpisode, type Pill, type CarnetRow } from '../../../lib/episode';
 
@@ -44,7 +45,7 @@ const chapterTotal = d.chapterTotal ?? destBasesCount;
 
 // Helpers + données du chapitre (ADR-7) : carnet, résolution d'images, pills, beats.
 const {
-  bd, pois, dishes, gems,
+  bd, pois, dishes, gems, imageManifest,
   resolveSlot, poi, poiPills, toBeat, carnetRow,
   mapMarkers, allCoords, kmlCount, byKind, proseBlocks,
 } = await createEpisode(dest, base, { carnetThumbs: ep.carnetThumbs });
@@ -145,6 +146,21 @@ const carnetAllGroups = [...carnetListGroups, ...proseGroups, dishesGroup, gemsG
 );
 
 const outroBody = ep.outro.body.replace('{count}', String(pois.length));
+
+// ——— Crédits photo (attribution légale CC-BY/SA) — tous les slots RÉELLEMENT rendus ———
+const usedSlots = new Set<string>();
+for (const b of ep.coldOpen) if (b.thumb) usedSlots.add(b.thumb);
+for (const s of ep.scenes) if (s.image) usedSlots.add(s.image);
+for (const b of ep.montage) if (b.thumb) usedSlots.add(b.thumb);
+for (const p of pois) if (p.image) usedSlots.add(p.image);
+for (const d of dishes) if (d.image) usedSlots.add(d.image);
+for (const g of gems) if (g.image) usedSlots.add(g.image);
+for (const o of Object.values(ep.carnetThumbs ?? {})) usedSlots.add((o as any).slot);
+const imageCredits = [...usedSlots]
+  .map((slot) => imageManifest.find((i) => i.slot === slot))
+  .filter((i): i is NonNullable<typeof i> => !!i)
+  .map((i) => ({ alt: i.alt, credit: i.credit }))
+  .sort((a, b) => (a.alt ?? '').localeCompare(b.alt ?? ''));
 ---
 
 <EpisodeLayout
@@ -206,6 +222,8 @@ const outroBody = ep.outro.body.replace('{count}', String(pois.length));
         <a class="outro-next" href={ep.outro.nextHref}>{ep.outro.nextLabel}</a>
       </div>
     </section>
+
+    <ImageCredits items={imageCredits} tone="dark" />
 
   </div>
 

@@ -9,9 +9,9 @@ interface Credit {
   license?: string;
   photoId?: string;
 }
-interface Props { credit?: Credit | null; overlay?: boolean; }
+interface Props { credit?: Credit | null; overlay?: boolean; bare?: boolean; }
 
-const { credit, overlay = false } = Astro.props;
+const { credit, overlay = false, bare = false } = Astro.props;
 
 const LICENSE_URLS: Record<string, string> = {
   'CC0': 'https://creativecommons.org/publicdomain/zero/1.0/',
@@ -46,7 +46,7 @@ const show = photographer.length > 0 || isCcOrPd;
 ---
 {show && (
   <p class:list={['img-credit', overlay && 'img-credit-overlay']}>
-    Photo&nbsp;:{' '}
+    {!bare && <>Photo&nbsp;:{' '}</>}
     {sourceUrl ? (
       <a href={sourceUrl} target="_blank" rel="noopener noreferrer">{authorLabel}</a>
     ) : (

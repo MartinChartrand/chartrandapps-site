@@ -619,7 +619,7 @@
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "Panorama_of_Ronda.jpg",
       "photographer": "Tesla Delacroix",
       "license": "CC BY-SA 4.0"
@@ -643,7 +643,7 @@
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "View_of_Puente_Nuevo_bridge_in_Ronda_Spain.jpg",
       "photographer": "Wolfgang Moroder",
       "license": "CC BY-SA 3.0"
@@ -667,7 +667,7 @@
     "layout": "tall",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "Guadalevín_River_in_Ronda._Spain_(18374633990).jpg",
       "photographer": "Julia Kostecka",
       "license": "CC BY 2.0"
@@ -691,10 +691,10 @@
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "Arkaden_der_Arena_Ronda.jpg",
       "photographer": "Marco Almbauer",
-      "license": "CC0 / Domaine public"
+      "license": "CC0"
     },
     "visionChecked": "2026-06-14",
     "sha256": "db70850d7ffa657b3f42b5c7a61f4ffeb7dd7bd2ff9dfbd0fb592b4e3643c20b",
@@ -715,7 +715,7 @@
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "Baños_árabes_de_Ronda_(28960176504).jpg",
       "photographer": "Ángel M. Felicísimo",
       "license": "CC BY 2.0"
@@ -739,7 +739,7 @@
     "layout": "tall",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "S02_068_Ronda,_mina_de_Agua,_escalera.jpg",
       "photographer": "Falk2",
       "license": "CC BY-SA 4.0"
@@ -763,7 +763,7 @@
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "Arcos_del_Patio_Mudéjar,_Palacio_de_Mondragón_(Ronda).jpg",
       "photographer": "José Luis Filpo Cabana",
       "license": "CC BY-SA 4.0"
@@ -787,7 +787,7 @@
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "Finca_la_Sanguijuela_-_F._Schatz_-_Ronda_02.jpg",
       "photographer": "Tyk",
       "license": "CC BY-SA 4.0"
@@ -811,7 +811,7 @@
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "Rabo_de_toro,_Córdoba,_2016.jpg",
       "photographer": "Draceane",
       "license": "CC BY-SA 4.0"
@@ -835,7 +835,7 @@
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
-      "source": "Wikimedia Commons",
+      "source": "wikimedia",
       "photoId": "Queso_grazalema.jpg",
       "photographer": "Ardo Beltz",
       "license": "CC BY-SA 3.0"

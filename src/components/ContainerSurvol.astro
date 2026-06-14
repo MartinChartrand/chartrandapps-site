@@ -6,6 +6,7 @@
 // la route (où vivent resolveSlot + le manifest) ; ce composant ne reçoit que des données prêtes.
 // CSS scopé OK : ce composant rend son propre markup (aucun sous-composant), contrairement à
 // EpisodeLayout (is:global obligatoire car .beat-card etc. sont rendus par des sous-composants).
+import ImageCredits from './ImageCredits.astro';
 interface Fact {
   value: string;
   label: string;
@@ -19,6 +20,10 @@ interface Tile {
   initial: string;         // 1re lettre du titre, pour le placeholder
   live: boolean;
 }
+interface CreditItem {
+  alt?: string;
+  credit?: { source?: string; photographer?: string; license?: string; photoId?: string } | null;
+}
 interface Props {
   hookKicker: string;
   hookTitle: string;
@@ -27,8 +32,9 @@ interface Props {
   facts: Fact[];
   tilesIntro: string;
   tiles: Tile[];
+  imageCredits?: CreditItem[];
 }
-const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles } = Astro.props;
+const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles, imageCredits = [] } = Astro.props;
 ---
 
 <main id="main-content" class="survol">
@@ -86,6 +92,8 @@ const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles 
       })}
     </ul>
   </section>
+
+  <ImageCredits items={imageCredits} tone="light" />
 
 </main>
 
