@@ -1,5 +1,8 @@
 # HANDOFF — Séville fini à fond + machine à saucisse prouvée (session 2026-06-13/14)
 
+> **MISE À JOUR (session 2026-06-14, suite) — lire la mémoire `andalousie-dogfood-seville` pour le détail à jour.**
+> Depuis ce handoff : **ADR-5 (container survol) SHIPPÉ** (`de24dff`) ; **chapitre 2 Ronda bâti FROM-SCRATCH par la machine** (`91b2af9`+`613ee81` — recherche fan-out → data → 10 images CC scellées → fiche → tuile live, la machine SCALE) ; **`ImageCredit` câblé → deploy DÉBLOQUÉ** (`d13e1ea`, composant `ImageCredits.astro`, attribution TASL sur épisode+container+Séville). **Chapitre 3 Granada = recherche EN COURS.** Garde-fous hard-codés ajoutés (hooks `~/.claude/` : modèle sonnet obligatoire en fan-out + rappel Loi 1). Toujours sur `feat/andalousie-seville-dogfood`, **PAS mergé/déployé** (merge/deploy = outward-facing, demander Martin). Les sections ci-dessous restent valides comme fondation/contrat.
+
 **Autoportant. BÉTON.** Remplace `HANDOFF-v3-container-episodes.md` (dépassé). LE document de reprise.
 **À lire EN PREMIER à froid : `docs/CONTRAT-MACHINE-A-SAUCISSE.md`** (le contrat d'opération — 4 lois + gate).
 Spec archi verrouillée : `modele-voyage-container-decisions.md` (7 ADRs). Storyboard : `storyboard-bourdain-andalousie.md`.
