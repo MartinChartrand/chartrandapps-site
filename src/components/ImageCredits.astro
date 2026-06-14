@@ -1,0 +1,69 @@
+---
+// ImageCredits.astro — bloc consolidé d'attribution légale pour une page image-lourde
+// (épisode scrollytelling, container survol). Les licences CC-BY/CC-BY-SA EXIGENT l'auteur
+// + la licence visibles ; un bloc « Crédits photo » en fin de page est une attribution
+// raisonnable au médium (et n'encombre pas le scrollytelling). Réutilise ImageCredit (TASL).
+import ImageCredit from './ImageCredit.astro';
+interface Item {
+  alt?: string;
+  credit?: { source?: string; photographer?: string; license?: string; photoId?: string } | null;
+}
+interface Props {
+  items: Item[];
+  title?: string;
+  tone?: 'light' | 'dark';
+}
+const { items, title = 'Crédits photo', tone = 'light' } = Astro.props;
+// Ne garder que ceux qui ont un crédit réellement affichable (auteur, ou licence CC/PD).
+const shown = (items ?? []).filter((it) => {
+  const ph = (it.credit?.photographer ?? '').trim();
+  const lic = (it.credit?.license ?? '').trim();
+  return ph.length > 0 || lic.startsWith('CC') || lic === 'Public domain';
+});
+---
+{shown.length > 0 && (
+  <section class:list={['img-credits', `tone-${tone}`]} aria-label={title}>
+    <div class="img-credits-inner">
+      <h2 class="img-credits-title">{title}</h2>
+      <ul class="img-credits-list">
+        {shown.map((it) => (
+          <li class="img-credits-item">
+            {it.alt && <span class="img-credits-subject">{it.alt} — </span>}
+            <ImageCredit credit={it.credit} bare />
+          </li>
+        ))}
+      </ul>
+    </div>
+  </section>
+)}
+
+<style>
+  .img-credits-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 30px 16px 44px;
+  }
+  .img-credits-title {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    color: var(--muted);
+  }
+  .img-credits-list { list-style: none; display: grid; gap: 6px; }
+  .img-credits-item { font-size: 11px; line-height: 1.6; color: var(--muted); }
+  .img-credits-subject { opacity: 0.8; }
+  .img-credits-item :global(.img-credit) { display: inline; margin: 0; font-size: inherit; opacity: 1; }
+
+  /* Sombre : continue l'aile « épisode » après l'outro (fond --deep, texte clair). */
+  .tone-dark { background: var(--deep); }
+  .tone-dark .img-credits-title { color: rgba(255, 255, 255, 0.5); }
+  .tone-dark .img-credits-item,
+  .tone-dark .img-credits-subject { color: rgba(255, 255, 255, 0.5); }
+  .tone-dark .img-credits-item :global(.img-credit) { color: rgba(255, 255, 255, 0.55); }
+  .tone-dark .img-credits-item :global(.img-credit a) { color: rgba(255, 255, 255, 0.78); }
+
+  /* Clair : container survol (fond crème). */
+  .tone-light { background: var(--bg); border-top: 1px solid var(--border); }
+</style>

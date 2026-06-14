@@ -1,0 +1,156 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "Le paradoxe",
+      "body": "Ronda, c'est LA photo : le pont, le gouffre, la ville coupée en deux. Tout le monde la prend, presque personne sait ce qui s'est passé en dessous. On va y revenir — parce que la légende qu'on raconte sur ce pont est un mensonge.",
+      "focusPoi": "ronda-puente-nuevo",
+      "zoom": 16,
+      "targets": ["ronda-puente-nuevo"],
+      "thumb": "ronda-puente-nuevo",
+      "thumbAlt": "Le Puente Nuevo enjambant le gouffre du Tajo à Ronda",
+      "poiRef": "ronda-puente-nuevo",
+      "sources": [
+        { "creator": "RondaToday (Puente Nuevo & El Tajo)", "url": "https://rondatoday.com/puente-nuevo-and-el-tajo-gorge/", "date": "2026-06" },
+        { "creator": "Andalucia.org (Junta de Andalucía)", "url": "https://www.andalucia.org/en/ronda-cultural-tourism-puente-nuevo-interpretation-centre", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Les deux Ronda",
+      "body": "Entre 10h et 18h, les cars de Marbella débarquent et le pont devient un haut lieu d'Instagram. Avant et après, la ville redevient aux Rondeños. Avec cinq nuits dans la vieille ville — La Ciudad, le plateau des palais et des ruelles arabes — on a le luxe de vivre dans la deuxième.",
+      "focusPoi": "ronda-mondragon",
+      "zoom": 15,
+      "targets": ["ronda-mondragon", "ronda-banos-arabes"],
+      "thumb": "ronda-cover",
+      "thumbAlt": "Ronda au bord du Tajo, la falaise et le Puente Nuevo vus de l'autre versant",
+      "poiRef": "ronda-mondragon",
+      "sources": [
+        { "creator": "RondaToday (Palacio de Mondragón)", "url": "https://rondatoday.com/el-palacio-de-mondragon-ronda/", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le gouffre, par en-dedans",
+      "body": "Le vrai move, c'est pas de regarder le Tajo d'en haut — c'est d'y descendre. La mine d'eau nasride de la Casa del Rey Moro plonge 231 marches dans la roche jusqu'au fond, là où l'eau verte de la Guadalevín coule entre les parois. La ville d'en bas, c'est une autre affaire.",
+      "focusPoi": "ronda-casa-rey-moro",
+      "zoom": 16,
+      "targets": ["ronda-casa-rey-moro"],
+      "thumb": "ronda-tajo-bas",
+      "thumbAlt": "Parois du Tajo et eau verte de la Guadalevín, vues du fond du gouffre",
+      "poiRef": "ronda-casa-rey-moro",
+      "sources": [
+        { "creator": "RondaToday (Casa del Rey Moro)", "url": "https://rondatoday.com/rondas-water-mine-under-the-casa-del-rey-moro/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-puente",
+      "kicker": "El Tajo · l'INCONFORT",
+      "title": "Le pont, et le mensonge qu'on raconte dessus",
+      "image": "ronda-puente-nuevo",
+      "alt": "Le Puente Nuevo enjambant le gouffre du Tajo à Ronda, vue panoramique de la vieille ville sur la falaise",
+      "intro": "Le Puente Nuevo a pris 42 ans à bâtir (1751-1793) et a tué son premier architecte. 120 mètres de vide. Hemingway en a fait la scène la plus célèbre de la guerre civile espagnole : dans «Pour qui sonne le glas», les villageois précipitent les fascistes du haut de la falaise.",
+      "reco": "Sauf que c'est une fiction. Paul Preston, l'historien de référence de la guerre civile, est net : les victimes ont été fusillées au cimetière, pas jetées dans le ravin. Le mythe vient d'une émission de propagande du général Queipo de Llano (18 août 1936), recyclée par le génie d'Hemingway, puis transformée en attraction touristique. Aucune plaque sur le pont ne le dit.",
+      "quote": "Le selfie est le réflexe. Rester dix minutes avec le poids de ce que la ville a choisi d'oublier — ça, c'est le vrai move.",
+      "via": null,
+      "poiRef": "ronda-puente-nuevo",
+      "sources": [
+        { "creator": "Paul Preston, «The Spanish Holocaust» (via The Volunteer / ALBA)", "url": "https://albavolunteer.org/2011/09/paul-preston-on-the-spanish-holocaust/", "date": "2011-09" },
+        { "creator": "Wikipedia (Gonzalo Queipo de Llano — propagande radio 1936)", "url": "https://en.wikipedia.org/wiki/Gonzalo_Queipo_de_Llano", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-toros",
+      "kicker": "El Mercadillo · le POURQUOI",
+      "title": "L'arène où la corrida moderne est née",
+      "image": "ronda-plaza-toros",
+      "alt": "Les arcades de pierre à deux niveaux et l'arène de sable de la Plaza de Toros de Ronda",
+      "intro": "La Real Maestranza, achevée en 1785, tout en pierre — 136 colonnes, 66 mètres de diamètre. C'est ici que trois générations de la famille Romero ont codifié la corrida moderne. Pedro Romero a affronté 5 600 taureaux en 28 ans sans jamais être blessé.",
+      "reco": "Pas juste un joli bâtiment du XVIIIe : l'endroit où une forme d'art brutale et codifiée a été inventée. Et la boucle est littérale — la bête vaincue finissait dans les marmites du quartier, d'où le rabo de toro qu'on mange encore aujourd'hui. À l'entrée, le monument à Orson Welles, dont les cendres reposent dans un puits de ranch tout près.",
+      "quote": "Engage-toi avec la complexité de l'endroit au lieu de juste shooter une photo depuis l'extérieur. C'est inconfortable. C'est censé l'être.",
+      "via": null,
+      "poiRef": "ronda-plaza-toros",
+      "sources": [
+        { "creator": "Real Maestranza de Caballería de Ronda (officiel)", "url": "https://www.rmcr.org/en/visit-bullring-and-museum/", "date": "2026-06" },
+        { "creator": "RondaToday (Plaza de Toros)", "url": "https://rondatoday.com/plaza-de-toros-bullring/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-table",
+      "kicker": "La Ciudad · le QUOI",
+      "title": "Suivre le chef, pas les étoiles",
+      "image": "ronda-rabo-toro",
+      "alt": "Assiette de rabo de toro — queue de taureau braisée en sauce, servie avec des frites",
+      "intro": "Ronda a deux étoiles Michelin à Bardal (Benito Gómez). Mais le vrai tuyau, c'est où le chef mange quand il fait relâche : El Lechuguita, le bar à tapas à 1,20 € la pièce qu'il nomme lui-même comme son préféré en ville.",
+      "reco": "On commande quoi : le rabo de toro mijoté six heures, servi avec des patates — chez Pedro Romero qui le fait depuis 1974, ou en racion ailleurs. Pis le serranito au comptoir du Lechuguita. Entre les deux, Tragatá — la maison-mère de Benito Gómez, ouverte dix ans avant Bardal — pour le génie sans l'addition gastronomique.",
+      "quote": "La donnée la plus précieuse en voyage : le gars avec deux étoiles qui te dit «pour les tapas, moi je vais là».",
+      "via": null,
+      "poiRef": "ronda-lechuguita",
+      "sources": [
+        { "creator": "Guia Repsol (ruta tapas Benito Gómez)", "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-tapas-ronda-benito-gomez-bardal/", "date": "2026-06" },
+        { "creator": "Restaurante Pedro Romero (recette rabo de toro)", "url": "https://www.rpedroromero.com/cocina.php?receta=5", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-vino",
+      "kicker": "Partido de los Molinos · le contre-pied",
+      "title": "Le vin que personne n'attend, dans un couvent de 1505",
+      "image": "ronda-vino-serrania",
+      "alt": "Vignes en altitude de la Serranía de Ronda, collines andalouses à l'arrière-plan",
+      "intro": "Personne ne pense à Ronda pour le vin. C'est exactement pour ça qu'il faut y goûter. La Serranía de Ronda, c'est ~30 bodegas à 700-900 m d'altitude — assez haut pour donner des rouges avec du corps ET de la fraîcheur, rare en Andalousie.",
+      "reco": "Descalzos Viejos fait son vin dans un ancien couvent trinitaire de 1505, fresques d'origine encore aux murs, à dix minutes du centre. Visite + dégustation sur réservation, en semaine seulement (fermé le week-end). Le contre-pied parfait de la carte postale.",
+      "quote": "Boire un rouge d'altitude là où des moines priaient il y a cinq siècles — c'est le genre de détour qui justifie le voyage.",
+      "via": null,
+      "poiRef": "ronda-descalzos-viejos",
+      "sources": [
+        { "creator": "Bodega Descalzos Viejos (site officiel)", "url": "https://descalzosviejos.com/", "date": "2026-06" },
+        { "creator": "Ruta del Vino Ronda y Málaga (officiel)", "url": "https://www.rutavinorondamalaga.com/como-son/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le vieux quartier arabe",
+      "body": "Le circuit hors des cars : les Baños Árabes (le vrai hammam du XIIIe, pas une reconstruction comme à Grenade ou Séville), le patio mudéjar du Palacio de Mondragón, pis la descente vers le vieux pont arabe quasi désert. Bono Turístico à 12 € si tu fais trois sites.",
+      "boundsPois": ["ronda-banos-arabes", "ronda-mondragon", "ronda-casa-rey-moro"],
+      "targets": ["ronda-banos-arabes", "ronda-mondragon", "ronda-casa-rey-moro"],
+      "thumb": "ronda-banos-arabes",
+      "thumbAlt": "Salle voûtée des Baños Árabes de Ronda, arcs en fer à cheval et lucarnes en étoile",
+      "pills": [
+        { "poiRef": "ronda-banos-arabes", "link": "official", "label": "Baños Árabes" },
+        { "poiRef": "ronda-mondragon", "link": "official", "label": "Palacio de Mondragón" },
+        { "poiRef": "ronda-casa-rey-moro", "link": "maps", "label": "Casa del Rey Moro · Maps" }
+      ],
+      "sources": [
+        { "creator": "Junta de Andalucía (Baños Árabes, officiel)", "url": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-banos-arabes-ronda", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "La table de la sierra",
+      "body": "Au-delà du rabo : le queso payoyo de Grazalema (283 prix, la chèvre broute le thym sauvage), la chacina de montagne de Benaoján, les sopas et migas de l'arriero, et les yemas del Tajo chez Las Campanas depuis 1849. Tout est dans le carnet, avec les liens pis les prix.",
+      "focusPoi": "ronda-descalzos-viejos",
+      "zoom": 14,
+      "targets": ["ronda-descalzos-viejos"],
+      "thumb": "ronda-queso-payoyo",
+      "thumbAlt": "Quartier de fromage artisanal de la Sierra de Grazalema, terroir du queso payoyo",
+      "pills": [{ "label": "Le carnet de bouche", "url": "#carnet" }],
+      "sources": [
+        { "creator": "Queso Payoyo S.L. (officiel)", "url": "https://www.payoyo.com/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Dormir EN La Ciudad. Depuis août 2025, traverser le Puente Nuevo en char sans plaque enregistrée = 70 € d'amende : préviens ton hôtel avant d'arriver." },
+      { "label": "Où manger", "kinds": ["resto"], "footer": "Évite les restos à vue directe sur le Tajo. Le move : suivre où mange Benito Gómez." },
+      { "label": "À voir & faire", "kinds": ["sight", "activity"], "footer": "Bono Turístico à 12 € (office de tourisme, Plaza de España) pour trois sites ou plus." },
+      { "label": "Le vin de la Serranía", "kinds": ["winery"], "footer": "Toutes les bodegas se visitent sur réservation, en semaine." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le reste de Ronda",
+    "body": "Les baños arabes, la mine d'eau, le pèlerinage du vin dans la Serranía — les {count} lieux du chapitre, tous avec leurs liens, pis le budget qui s'accumule, vivent dans le carnet. L'épisode c'est l'apéro ; le carnet, c'est l'outil.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/andalousie/"
+  }
+}

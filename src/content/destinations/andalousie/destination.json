@@ -1,0 +1,98 @@
+{
+  "slug": "andalousie",
+  "pageTitle": "Andalousie — Mai–Juin 2027 · Itinéraire de voyage",
+  "heroTitle": {
+    "main": "Andalousie",
+    "em": "en profondeur"
+  },
+  "heroSub": "Un mois à se prendre racine, du four sévillan à la brise de l'Axarquía",
+  "subtitle": "Un mois à se prendre racine, du four sévillan à la brise de l'Axarquía",
+  "season": "Mai–Juin 2027",
+  "travelers": {
+    "count": 2,
+    "label": "Voyage en duo"
+  },
+  "arrival": {
+    "date": "2027-05-24",
+    "airport": "SVQ",
+    "city": "Séville"
+  },
+  "departure": {
+    "date": "2027-06-20",
+    "airport": "AGP",
+    "city": "Málaga"
+  },
+  "theme": {
+    "favicon": "🍖",
+    "palette": "andalousie"
+  },
+  "hero": {
+    "image": "hero",
+    "label": "Itinéraire · Voyage en duo"
+  },
+  "overviewKicker": "Logique du voyage",
+  "overviewTitle": "Cinq bases, l'intérieur d'abord, la côte ensuite",
+  "overviewIntro": "La chaleur dicte la route. On fait l'intérieur tôt (Séville, la sierra — frais fin mai) puis on finit sur la côte (Axarquía — la brise de mer mi-juin). Vol open-jaw : arrivée Séville, départ Málaga, char pour tout le mois.",
+  "intro": {
+    "whySeason": {
+      "title": "Pourquoi fin mai – juin",
+      "body": "Fin mai : l'intérieur (Séville, Jabugo) reste doux, 28–32°C, parfait pour marcher la dehesa. Fin juin : Séville tape 38–40°C, c'est pour ça qu'on inverse l'arc et qu'on finit sur la côte. Bonus : être dans l'Axarquía pile pour la fête de San Antonio à Frigiliana (~13–14 juin)."
+    },
+    "logistics": {
+      "title": "Logistique de base",
+      "body": "Vol open-jaw : Montréal → Séville (SVQ), retour Málaga (AGP) → Montréal, contrainte no-transit-US respectée (router via Lisbonne, Madrid ou direct). Char loué à l'aéroport de Séville, retour à Málaga (one-way intra-Espagne). Dates exactes à fixer autour de la fête de Frigiliana."
+    }
+  },
+  "footerNote": "Itinéraire préparé avec amour · Andalousie, mai–juin 2027",
+  "episodic": true,
+  "chapterTotal": 5,
+  "container": {
+    "hookKicker": "Quatre semaines · cinq bases · l'intérieur d'abord, la côte ensuite",
+    "hookTitle": "L'Andalousie te sourit. Demande-lui ce que ça a coûté.",
+    "hookBody": "Quatre semaines, du four sévillan à la brise de l'Axarquía. On suit la chaleur : l'intérieur tôt — Séville, les chênes de Jabugo — tant que c'est vivable, la côte pour finir. Mais sous l'arc géographique, il y en a un autre. C'est le coin le plus joyeux d'Espagne — flamenco, orangers, chaux blanche — bâti sur ce qu'il a expulsé : huit siècles d'Al-Andalus, pis la Reconquista qui a chassé Juifs et Musulmans. Ça commence à Séville, où le marché au poisson est posé sur le château de l'Inquisition, où les épinards aux pois chiches d'un vieux bar sont une recette arabe qui a survécu à ceux qui l'ont inventée. Les autres chapitres — Granada et son Alhambra en tête — creuseront la même question. Ici, chaque assiette est une porte. On entre par la faim.",
+    "hookImage": "hero",
+    "sources": [
+      { "creator": "Wikipedia (Castillo de San Jorge, Sevilla — Mercado de Triana bâti sur le château de l'Inquisition)", "url": "https://es.wikipedia.org/wiki/Castillo_de_San_Jorge_(Sevilla)", "date": "2026-06" },
+      { "creator": "Visita Sevilla (office de tourisme officiel — Castillo de San Jorge)", "url": "https://visitasevilla.es/en/castillo-de-san-jorge/", "date": "2026-06" },
+      { "creator": "Medieval Histories (convivencia, Al-Andalus & rupture almohade/Reconquista — portée régionale)", "url": "https://www.medieval.eu/medieval-convivencia/", "date": "2026-06" },
+      { "creator": "Spain Then and Now (conversos & moriscos — porc, Inquisition, expulsion des Juifs et Musulmans)", "url": "https://www.spainthenandnow.com/spanish-culture/conversos-and-moriscos-tyranny-of-food", "date": "2026-06" },
+      { "creator": "Devour Tours (espinacas con garbanzos — recette d'origine maure)", "url": "https://devourtours.com/blog/best-spinach-and-garbanzos-in-seville/", "date": "2026-06" },
+      { "creator": "El Rinconcillo (site officiel — vieux bar de Séville, fondé en 1670)", "url": "https://www.elrinconcillo.es/en/history/", "date": "2026-06" }
+    ],
+    "tilesIntro": "Cinq bases, cinq chapitres. Séville est écrit à fond ; les quatre autres sont en route.",
+    "tiles": [
+      {
+        "base": "seville",
+        "kicker": "Chapitre 1 · 7 nuits",
+        "title": "Le four sévillan",
+        "teaser": "Triana plutôt que Santa Cruz, le marché sur le château de l'Inquisition, pis une journée de char vers les cochons de Jabugo.",
+        "image": "seville-cover"
+      },
+      {
+        "base": "ronda",
+        "kicker": "Chapitre 2 · 5 nuits",
+        "title": "Le pont sur le gouffre",
+        "teaser": "Cinq nuits sur la falaise — le pont qu'Hemingway a transformé en légende (et le vrai move : y descendre), le berceau de la corrida, pis un vin d'altitude que personne n'attend.",
+        "image": "ronda-cover"
+      },
+      {
+        "base": "granada",
+        "kicker": "Chapitre 3 · 6 nuits",
+        "title": "Granada",
+        "teaser": "Six nuits — l'Alhambra (réserver dès l'ouverture des billets), la tapa offerte à chaque conso. Chapitre à venir."
+      },
+      {
+        "base": "axarquia",
+        "kicker": "Chapitre 4 · 7 nuits",
+        "title": "La brise de l'Axarquía",
+        "teaser": "Sept nuits sur la côte est de Málaga — Nerja, Frigiliana et la fête de San Antonio (~13–14 juin). Chapitre à venir."
+      },
+      {
+        "base": "casares",
+        "kicker": "Étape · arrêt-dîner",
+        "title": "Casares",
+        "teaser": "Un arrêt-dîner sur la route vers Málaga. Étape à venir."
+      }
+    ]
+  }
+}

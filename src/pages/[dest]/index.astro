@@ -18,6 +18,7 @@ import GemBlock from '../../components/GemBlock.astro';
 import MapSection from '../../components/MapSection.astro';
 import BudgetSection from '../../components/BudgetSection.astro';
 import PratiqueGrid from '../../components/PratiqueGrid.astro';
+import ContainerSurvol from '../../components/ContainerSurvol.astro';
 
 export async function getStaticPaths() {
   const destinations = await getCollection('destinations');
@@ -98,6 +99,13 @@ function resolveSlot(slot: string | null | undefined): string | undefined {
 }
 const heroImageUrl = resolveSlot(d.hero.image);
 
+// Crédit/attribution d'un slot (auteur + licence) — pour Hero et ChapterCover (images de fond).
+function resolveCredit(slot: string | null | undefined) {
+  if (!slot) return undefined;
+  return imageManifest.find((i) => i.slot === slot)?.credit;
+}
+const heroCredit = resolveCredit(d.hero.image);
+
 const totalNights =
   d.departure && d.arrival
     ? Math.round(
@@ -113,8 +121,89 @@ function groupsOf(items: Array<{ group?: string }>): Array<string | undefined> {
 }
 const dishGroups = groupsOf(dishes);
 const gemGroups = groupsOf(gems);
+
+// ——— ADR-5 : le CONTAINER « survol » (rendu si episodic=true) ———
+// Fourchette budget pour la grille factuelle : 1er → dernier scénario (serré → confort+),
+// chiffres nettoyés pour une fourchette condensée. Repli sur le total si pas de scénarios.
+function budgetRange(b: any): string {
+  const nums = (b?.scenarios ?? [])
+    .map((s: any) => String(s.total ?? '').replace(/[^\d\s]/g, '').trim())
+    .filter(Boolean);
+  if (nums.length >= 2) return `${nums[0]} – ${nums[nums.length - 1]} $`;
+  return b?.total ? String(b.total) : '';
+}
+
+let survol: any = null;
+if (d.episodic && d.container) {
+  // « live » = un épisode existe vraiment à <dest>/episodes/<base> (source de vérité unique).
+  // Un chapitre annoncé sans épisode → tuile « à venir », jamais de lien mort.
+  const allEpisodes = await getCollection('episodes');
+  const episodeBases = new Set(
+    allEpisodes
+      .filter((e) => e.id.startsWith(`${dest}/episodes/`))
+      .map((e) => e.id.split('/')[2])
+  );
+  const c = d.container;
+  const facts: Array<{ value: string; label: string }> = [
+    { value: d.season, label: 'Saison' },
+    { value: `~${totalNights} jours`, label: 'Durée du séjour' },
+    { value: `${d.arrival.airport} → ${d.departure.airport}`, label: 'Vol open-jaw' },
+  ];
+  const range = budgetRange(budgetEntry?.data);
+  if (range) facts.push({ value: range, label: 'Budget · 2 pers. (CAD)' });
+  // Crédits photo (attribution légale CC) : image du hook + images de tuiles.
+  const survolSlots = new Set<string>();
+  if (c.hookImage) survolSlots.add(c.hookImage);
+  for (const t of c.tiles) if (t.image) survolSlots.add(t.image);
+  const imageCredits = [...survolSlots]
+    .map((slot) => imageManifest.find((i) => i.slot === slot))
+    .filter((i): i is NonNullable<typeof i> => !!i)
+    .map((i) => ({ alt: i.alt, credit: i.credit }));
+  survol = {
+    hookKicker: c.hookKicker,
+    hookTitle: c.hookTitle,
+    hookBody: c.hookBody,
+    hookImageUrl: resolveSlot(c.hookImage),
+    facts,
+    imageCredits,
+    tilesIntro: c.tilesIntro,
+    tiles: c.tiles.map((t) => {
+      const live = episodeBases.has(t.base);
+      return {
+        href: live ? `/${dest}/${t.base}/` : null,
+        kicker: t.kicker,
+        title: t.title,
+        teaser: t.teaser,
+        imageUrl: t.image ? resolveSlot(t.image) : null,
+        initial: (t.title || '·').trim().charAt(0).toUpperCase(),
+        live,
+      };
+    }),
+  };
+}
 ---
 
+{survol ? (
+  <DestinationLayout
+    title={d.pageTitle || `${d.heroTitle.main} — ${d.heroTitle.em} · Itinéraire`}
+    favicon={d.theme.favicon}
+    palette={d.theme.palette}
+    description={d.subtitle}
+    canonicalUrl={`https://chartrandapps.ca/${dest}/`}
+    footerNote={d.footerNote}
+  >
+    <ContainerSurvol
+      hookKicker={survol.hookKicker}
+      hookTitle={survol.hookTitle}
+      hookBody={survol.hookBody}
+      hookImageUrl={survol.hookImageUrl}
+      facts={survol.facts}
+      tilesIntro={survol.tilesIntro}
+      tiles={survol.tiles}
+      imageCredits={survol.imageCredits}
+    />
+  </DestinationLayout>
+) : (
 <DestinationLayout
   title={d.pageTitle || `${d.heroTitle.main} — ${d.heroTitle.em} · Itinéraire`}
   favicon={d.theme.favicon}
@@ -132,6 +221,7 @@ const gemGroups = groupsOf(gems);
     departure={d.departure}
     season={d.season}
     imageUrl={heroImageUrl}
+    credit={heroCredit}
   />
 
   <Nav bases={bases.map((b) => ({ slug: b.data.slug, title: b.data.title }))} dest={dest} />
@@ -181,6 +271,7 @@ const gemGroups = groupsOf(gems);
             dates={bd.dates}
             nights={bd.nights}
             imageUrl={resolveSlot(bd.cover)}
+            credit={resolveCredit(bd.cover)}
           />
 
           <Pullquote text={bd.pullquote} />
@@ -308,6 +399,7 @@ const gemGroups = groupsOf(gems);
   <Lightbox />
 
 </DestinationLayout>
+)}
 
 <style>
   /* intro-grid v1 (vue d'ensemble) */

@@ -45,6 +45,30 @@ const provenanceFields = {
 // intro : blocs titrés (.intro-block v1 — titre + corps, ex. « Pourquoi septembre » / « Logistique de base »)
 const introBlockV1 = z.object({ title: z.string().default(''), body: z.string() });
 
+// §v3 ADR-5 — tuile d'épisode du container. Le titre EST le hook (pas « Épisode 1 » générique).
+// `image` = slot scellé OU absent (un chapitre encore en recherche n'a pas d'image vérifiée →
+// tuile texte, JAMAIS de stock menteur — Loi 3 du contrat). La route dérive « live vs à venir »
+// de l'EXISTENCE d'un épisode à <dest>/episodes/<base> (source de vérité unique), pas d'un flag à la main.
+const containerTileSchema = z.object({
+  base: z.string(),               // slug de la base (clé de jointure vers la collection episodes)
+  kicker: z.string().default(''), // petit label factuel (« Chapitre 1 · 7 nuits »)
+  title: z.string(),              // titre accrocheur = le hook du chapitre
+  teaser: z.string().default(''), // une ligne — appétit (live) ou fait d'itinéraire (à venir)
+  image: z.string().optional(),   // slot scellé du manifest ; absent = pas d'image (à venir)
+});
+
+// §v3 ADR-5 — le bloc container complet (hook + tuiles). La grille factuelle n'est PAS ici :
+// elle est dérivée à la route des champs existants (arrival/departure/season/budget) — zéro duplication.
+const containerSchema = z.object({
+  hookKicker: z.string().default(''), // sur-titre (« Un mois · cinq bases »)
+  hookTitle: z.string(),              // le hook du voyage entier (voix de Martin)
+  hookBody: z.string(),               // la tension/le fil conducteur, grammaire Bourdain
+  hookImage: z.string(),              // slot scellé — fond du hook (plein cadre)
+  sources: z.array(sourceSchema).default([]), // red flag Léa : le hook porte ses sources
+  tilesIntro: z.string().default(''), // ligne d'intro au-dessus de la grille de tuiles
+  tiles: z.array(containerTileSchema).default([]),
+});
+
 export const destinationSchema = z.object({
   slug: z.string(),
   pageTitle: z.string().default(''), // <title> v1 verbatim (« Crète — Septembre 2027 · Itinéraire de voyage »)
@@ -67,6 +91,23 @@ export const destinationSchema = z.object({
   overviewIntro: z.string(),              // p.section-intro v1
   intro: z.object({ whySeason: introBlockV1, logistics: introBlockV1 }),
   footerNote: z.string().default(''),     // footer v1 (« Itinéraire préparé avec amour · … »)
+  // §v3 ADR-2 — flag ADDITIF (default false) : cette destination utilise le modèle « épisode »
+  // (container + un scrollytelling par base). Gouverne le rendu container (ADR-5, à venir).
+  // crete/turquie en prod restent false → rendu v2 long-scroll intact. JAMAIS de scission globale.
+  episodic: z.boolean().default(false),
+  // Nombre de chapitres affiché dans la topbar épisode (« Ch. 1/5 »). Optionnel : si absent,
+  // la route prend le nombre de bases existantes. Permet d'annoncer un voyage à 5 étapes quand
+  // une seule base est encore bâtie (Andalousie : 1 base, mais 5 chapitres planifiés).
+  chapterTotal: z.number().int().optional(),
+  // §v3 ADR-5 — le CONTAINER (survol) : ce que /[dest]/ rend quand episodic=true.
+  // Décision 5 (modele-voyage-container-decisions.md) : NI vue factuelle plate NI top-5 highlights,
+  // mais (1) un HOOK narratif (la tension du voyage entier, voix de Martin, grammaire Bourdain),
+  // (2) une grille factuelle ultra-condensée (dérivée des champs existants : dates/nuits/aéroports/budget),
+  // (3) des TUILES d'épisodes (le hook réel de chaque chapitre, pas « Épisode 1/5 » générique).
+  // Composé À LA MAIN ici, JAMAIS auto-extrait (la magie pète sinon — Architecte). Red flag de Léa :
+  // un élément du container sans source vérifiable n'existe pas → `sources` requis sur le hook.
+  // Optionnel : crete/turquie (episodic=false) n'ont pas ce bloc → rendu v2 long-scroll intact.
+  container: containerSchema.optional(),
 });
 
 // §3.2 infoBlocks — composition éditoriale ORDONNÉE (pas un filtre par kind)
@@ -88,6 +129,84 @@ export const infoBlockSchema = z
     if (b.type === 'tags' && (!b.tags || b.tags.length === 0))
       ctx.addIssue({ code: z.ZodIssueCode.custom, message: 'infoBlock type "tags" requiert tags', path: ['tags'] });
   });
+
+// §v3 ADR-2 — le bloc ÉPISODE : la fiche que la machine à saucisse REMPLIT (pas un humain).
+// C'est la composition scrollytelling (cold open + scènes Bourdain + montage), OUTPUT de la
+// recherche sourcée. ADDITIF (optionnel) : une base sans `episode` rend uniquement en v2.
+// Le rendu (route [dest]/[base]/) résout pills/coords/images depuis les POIs vérifiés — la fiche
+// référence par `poiRef`/slot, elle ne duplique JAMAIS une URL ou une coordonnée.
+
+// Pill d'épisode : soit dérivée d'un POI (url = poi.links[link]), soit un lien littéral.
+const episodePillSchema = z.union([
+  z.object({ poiRef: z.string(), link: z.enum(['maps', 'official', 'booking', 'tripadvisor']).default('maps'), label: z.string() }),
+  linkSchema, // { label, url } — lien littéral (externe, ancre #carnet…)
+]);
+
+// Beat de carte (cold open / montage). fly via focusPoi+zoom XOR cadrage via boundsPois.
+// pills : soit auto depuis `poiRef` (poiPills complet), soit la liste explicite `pills`.
+const episodeBeatSchema = z
+  .object({
+    kicker: z.string(),
+    body: z.string(),
+    focusPoi: z.string().optional(),          // → data-fly = coords(focusPoi)+zoom
+    zoom: z.number().optional(),
+    boundsPois: z.array(z.string()).optional(), // → data-bounds = coords de chaque POI
+    targets: z.array(z.string()).default([]),   // POI mis en évidence (halo + nom)
+    thumb: z.string().optional(),               // slot vignette
+    thumbAlt: z.string().optional(),
+    poiRef: z.string().optional(),              // pills auto (poiPills) si `pills` absent
+    pills: z.array(episodePillSchema).optional(),
+    sources: z.array(sourceSchema).optional(),  // provenance du claim (la machine l'attache)
+  })
+  .superRefine((b, ctx) => {
+    if (b.focusPoi && b.boundsPois)
+      ctx.addIssue({ code: z.ZodIssueCode.custom, message: 'beat : focusPoi OU boundsPois, pas les deux', path: ['focusPoi'] });
+  });
+
+// Scène storybook (test Bourdain : qui ? pourquoi ? on commande quoi ?). pills auto depuis poiRef.
+const episodeSceneSchema = z.object({
+  id: z.string().optional(),     // ancre HTML (dérivée de l'index si absente)
+  kicker: z.string(),
+  title: z.string(),
+  image: z.string(),             // slot photo pleine page
+  alt: z.string(),               // = le claim (filet vision)
+  intro: z.string(),
+  reco: z.string(),
+  quote: z.string().nullable().default(null),
+  via: linkSchema.nullable().default(null), // provenance créateur affichée (« 📺 X en a fait un épisode »)
+  poiRef: z.string().optional(),            // pills auto (poiPills) si `pills` absent
+  pills: z.array(episodePillSchema).optional(),
+  sources: z.array(sourceSchema).optional(),
+});
+
+// Carnet (mode terrain) : groupes de POI par `kinds`, ordre + labels + footers éditoriaux.
+// Le groupe qui contient 'hotel' reçoit les accomExtras (hébergements hors-carte). Générique.
+const episodeCarnetSchema = z.object({
+  groups: z.array(z.object({
+    label: z.string(),
+    kinds: z.array(z.enum(POI_KINDS)),
+    footer: z.string().optional(),
+  })),
+  dishesTitle: z.string(),                                  // « Le carnet de bouche »
+  gemsTitle: z.string().default('Pépites locales'),
+});
+
+export const episodeSchema = z.object({
+  coldOpen: z.array(episodeBeatSchema).default([]),
+  scenes: z.array(episodeSceneSchema).default([]),
+  montage: z.array(episodeBeatSchema).default([]),
+  carnet: episodeCarnetSchema,
+  // Fermeture de l'épisode (voix de Martin — « l'épisode c'est l'apéro ; le carnet, c'est l'outil »).
+  // `body` peut contenir {count} → remplacé par le nombre de lieux du chapitre.
+  outro: z.object({
+    kicker: z.string(),
+    body: z.string(),
+    nextLabel: z.string(),
+    nextHref: z.string(),
+  }),
+  // Override de vignettes pixel-vérifiées (manifest décalé, ex. crète). Vide = lit p.image.
+  carnetThumbs: z.record(z.object({ slot: z.string(), alt: z.string() })).optional(),
+});
 
 // §3.2 bases/<nn>-<slug>.md — frontmatter du narratif
 export const baseSchema = z.object({
@@ -178,6 +297,8 @@ export const poiSchema = z
 const editorialSchema = z.object({
   id: z.string(),
   group: z.string().optional(), // titre du bloc v1 (« Incontournables foodie — Chania ») — un bloc rendu par groupe
+  base: z.string().optional(),  // §v3 ADR-2 — scope le carnet de bouche par épisode (multi-bases). Additif :
+                                // absent = visible partout (rétrocompat v2/crete/turquie) ; présent = ce chapitre seulement.
   title: z.string(),
   body: z.string(),
   poiRef: z.string().optional(), // rattache au POI vérifiable quand l'item EST un business

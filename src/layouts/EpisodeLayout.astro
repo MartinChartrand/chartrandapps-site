@@ -21,12 +21,13 @@ interface Props {
   palette: string;
   description: string;
   destLabel: string;     // « Crète »
+  destHref?: string;     // ADR-5 — retour au container en 1 tap (Décision 6). Absent (protos) → span non-cliquable.
   chapterNum: number;    // 1
   chapterTotal: number;  // 4
   chapterTitle: string;  // « Chania »
   storageKey: string;    // clé localStorage du mode (par chapitre)
 }
-const { title, favicon, palette, description, destLabel, chapterNum, chapterTotal, chapterTitle, storageKey } =
+const { title, favicon, palette, description, destLabel, destHref, chapterNum, chapterTotal, chapterTitle, storageKey } =
   Astro.props;
 ---
 
@@ -36,14 +37,16 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
     <header class="topbar">
       <div class="topbar-inner">
         <span class="topbar-title">
-          <span class="topbar-dest">{destLabel}</span>
-          <span class="topbar-sep">·</span>
+          {destHref
+            ? <a class="topbar-dest topbar-dest-link" href={destHref} aria-label={`Retour au survol — ${destLabel}`}>{destLabel}</a>
+            : <span class="topbar-dest">{destLabel}</span>}
+          <span class="topbar-sep" aria-hidden="true">·</span>
           Ch. {chapterNum}/{chapterTotal} — {chapterTitle}
         </span>
-        <nav class="mode-toggle" aria-label="Mode de consultation">
+        <div class="mode-toggle" role="group" aria-label="Mode de consultation">
           <button type="button" class="mode-btn" data-mode="episode" aria-pressed="true">Épisode</button>
           <button type="button" class="mode-btn" data-mode="carnet" aria-pressed="false">Carnet</button>
-        </nav>
+        </div>
       </div>
       <div class="progress-rail"><div class="progress-fill" id="progress-fill"></div></div>
     </header>
@@ -184,6 +187,16 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
       const mapEl = section.querySelector<HTMLElement>('.scene-map');
       if (!mapEl) return;
       const { map, focusTargets, fitOpen, openBounds } = buildMap(mapEl);
+      // iOS WebKit : le conteneur sticky + svh est souvent mal mesuré au build → la carte
+      // reste blanche (tuiles jamais chargées), et contrairement au desktop elle ne récupère
+      // pas via le ResizeObserver. On recale (invalidateSize + refit) sur quelques frames,
+      // tant que l'usager n'a pas scrollé (sinon on combat son flyTo). Même remède que la
+      // carte du carnet plus bas. Vérifié au simulateur iOS (iPhone 17 Pro Max).
+      let userMoved = false;
+      const recalcMap = () => { map.invalidateSize(); if (!userMoved) fitOpen(); };
+      requestAnimationFrame(recalcMap);
+      setTimeout(recalcMap, 200);
+      setTimeout(recalcMap, 600);
       const flyOpts = { duration: reduced ? 0 : 1.6 };
 
       function flyPoint(lat: number, lng: number, zoom: number) {
@@ -205,6 +218,7 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
         (entries) => {
           entries.forEach((entry) => {
             if (!entry.isIntersecting) return;
+            userMoved = true; // l'usager pilote la carte : le recalage iOS arrête de refit
             const el = (entry.target as HTMLElement).closest<HTMLElement>('.beat')!;
             focusTargets((el.dataset.targets ?? '').split(',').filter(Boolean));
             if (el.dataset.fly) {
@@ -299,6 +313,9 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
     text-overflow: ellipsis;
   }
   .topbar-dest { color: var(--terre); }
+  .topbar-dest-link { text-decoration: none; transition: color var(--transition); }
+  .topbar-dest-link:hover { color: #fff; }
+  .topbar-dest-link:focus-visible { outline: 2px solid var(--terre); outline-offset: 2px; border-radius: 3px; }
   .topbar-sep { opacity: 0.4; margin: 0 4px; }
   .mode-toggle {
     display: flex;
@@ -315,9 +332,12 @@ const { title, favicon, palette, description, destLabel, chapterNum, chapterTota
     color: rgba(255, 255, 255, 0.75);
     font-family: var(--font-sans);
     font-size: 12px;
-    padding: 6px 16px;
+    padding: 0 16px;
     cursor: pointer;
-    min-height: 32px;
+    /* cible tactile iOS/WCAG 2.5.5 : 44px (tient dans la topbar de 46px). */
+    min-height: 44px;
+    display: flex;
+    align-items: center;
   }
   .mode-btn[aria-pressed='true'] {
     background: var(--terre);

@@ -1,0 +1,62 @@
+{
+  "kicker": "Finances",
+  "title": "Budget estimé",
+  "intro": "En dollars canadiens, taux de référence 1 € ≈ 1,50 $ CAD. Estimations réalistes pour deux personnes, ~27 jours, niveau confort intermédiaire — hébergement boutique, tapas et tables locales, vin au repas. Vol open-jaw (arrivée Séville, départ Málaga).",
+  "statCards": [
+    { "value": "~15 100 $", "label": "Total pour 2 personnes, ~27 jours" },
+    { "value": "~7 550 $", "label": "Par personne, tout inclus" },
+    { "value": "~340 $", "label": "Par jour sur place, pour 2 (hébergement + bouffe + activités)" },
+    { "value": "1 € ≈ 1,50 $", "label": "Taux de référence CAD" }
+  ],
+  "lines": [
+    {
+      "label": "Vols transatlantiques open-jaw (2 pers.)",
+      "category": "YUL → Séville (SVQ), retour Málaga (AGP) → YUL · via Lisbonne, Madrid ou direct, sans transit USA · le gros morceau",
+      "amount": "~3 000 $"
+    },
+    {
+      "label": "Hébergement (~25 nuits)",
+      "category": "Boutique/apparts de caractère · Séville 7n (~140€) · Ronda 5n (~150€) · Granada 6n (~160€) · Axarquía/Nerja 7n (~140€) · Casares en arrêt-dîner",
+      "amount": "~5 100 $"
+    },
+    {
+      "label": "Location de voiture open-jaw (28 jours)",
+      "category": "Prise à l'aéroport de Séville, retour à Málaga (one-way intra-Espagne, drop modéré) · petite voiture ~32€/jour tout inclus",
+      "amount": "~2 300 $"
+    },
+    {
+      "label": "Essence + péages + parkings",
+      "category": "~1 200 km (sierra, Jabugo, inter-bases) · essence ~1,60€/L · parkings villages (Casares, Zahara, Frigiliana pentus) + ZBE Séville",
+      "amount": "~650 $"
+    },
+    {
+      "label": "Nourriture et boissons",
+      "category": "Épicerie matin/midi · tapas le soir pour 2 avec vin ~40–55€ · Granada quasi gratis (tapa offerte) · ~70€/jour en moyenne",
+      "amount": "~2 850 $"
+    },
+    {
+      "label": "Activités, sites, dégustations",
+      "category": "Alhambra (~20€/pers, réserver tôt) · Alcázar (~16€) · Gruta de las Maravillas (~15€) · dégustations jamón Eiriz / Cinco Jotas (~30–46€/pers) · marchés, imprévus",
+      "amount": "~900 $"
+    },
+    {
+      "label": "Assurance voyage",
+      "category": "2 personnes, couverture médicale complète, ~27 jours",
+      "amount": "~350 $"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Budget serré",
+      "total": "~12 500 $",
+      "desc": "~12 500 $ (apparts moins centraux, plus de repas cuisinés, char économique, une dégustation jamón au lieu de deux)"
+    },
+    {
+      "name": "Budget confort+",
+      "total": "~18 000 $",
+      "desc": "~18 000 $ (boutique-hôtels haut de gamme, Sobretablas + une table gastronomique de plus, transferts en taxi assumés)"
+    }
+  ],
+  "advice": "Le poste le plus négociable reste l'hébergement — pour un mois, contacter directement les propriétaires Booking.com et demander 15–25 % de réduction. Réserver l'Alhambra DÈS l'ouverture des billets (des mois d'avance, sold-out rapide) et les hébergements de Frigiliana tôt si on cale les dates sur la fête de San Antonio (~13–14 juin). Granada allège la facture bouffe : la tapa est gratuite avec chaque conso.",
+  "total": "~15 100 $"
+}

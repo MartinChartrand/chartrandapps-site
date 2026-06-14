@@ -1,0 +1,166 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "Le paradoxe",
+      "body": "Séville, fin mai. La ville la plus heureuse d’Espagne — flamenco, orangers, la lumière qui rebondit sur la chaux. Pis le marché où tu achètes ton poisson est bâti sur le château où l’Inquisition jugeait les hérétiques. Bienvenue.",
+      "focusPoi": "mercado-de-triana",
+      "zoom": 16,
+      "targets": ["mercado-de-triana", "calle-betis-puente"],
+      "thumb": "seville-cover",
+      "thumbAlt": "Maisons colorées du quartier de Triana, Séville",
+      "poiRef": "mercado-de-triana",
+      "sources": [
+        { "creator": "Wikipedia (Castillo de San Jorge, Sevilla)", "url": "https://es.wikipedia.org/wiki/Castillo_de_San_Jorge_(Sevilla)", "date": "2026-06" },
+        { "creator": "Visita Sevilla (office de tourisme officiel)", "url": "https://visitasevilla.es/en/castillo-de-san-jorge/", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "L’autre rive — la ville monumentale",
+      "body": "Tu traverses le Guadalquivir. L’Alcázar à l’ouverture (par créneaux de 30 min, réservés d’avance), la cathédrale quand elle ouvre à 11h. Tu décrisses avant que les groupes débarquent — pis tu retournes à Triana, là où le quartier vit pour vrai.",
+      "focusPoi": "real-alcazar",
+      "zoom": 15,
+      "targets": ["real-alcazar", "catedral-giralda"],
+      "thumb": "giralda",
+      "thumbAlt": "La Giralda et la cathédrale de Séville",
+      "poiRef": "real-alcazar",
+      "sources": [
+        { "creator": "Catedral de Sevilla (officiel — horaires)", "url": "https://www.catedraldesevilla.es/en/cultural-visit/schedules-and-rates/", "date": "2026-01" },
+        { "creator": "Seville Traveller (guide billets Alcázar)", "url": "https://www.seville-traveller.com/alcazar-seville-tickets/", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le grand large — la Sierra de Jabugo",
+      "body": "Là on sort de la ville. Une journée de char, une heure et demie vers le nord-ouest, dans la Sierra de Aracena : la dehesa d’Eiriz, les bodegas de Cinco Jotas, la grotte d’Aracena. C’est le pèlerinage gras — la vraie raison du voyage.",
+      "boundsPois": ["jamones-eiriz", "cinco-jotas-bodega", "gruta-de-las-maravillas"],
+      "targets": ["jamones-eiriz", "cinco-jotas-bodega", "gruta-de-las-maravillas"],
+      "thumb": "dehesa-eiriz",
+      "thumbAlt": "Cochons ibériques pata negra dans la dehesa",
+      "pills": [
+        { "poiRef": "jamones-eiriz", "link": "maps", "label": "Eiriz · Maps" },
+        { "poiRef": "cinco-jotas-bodega", "link": "official", "label": "Cinco Jotas" },
+        { "poiRef": "gruta-de-las-maravillas", "link": "maps", "label": "Gruta · Maps" }
+      ],
+      "sources": [
+        { "creator": "SoyEcoturista (Ruta del Jabugo — Jamones Eíriz)", "url": "https://soyecoturista.com/en/actividad/ruta-del-jabugo-en-jamones-eiriz", "date": "2026-06" },
+        { "creator": "Andalucia.com (Gruta de las Maravillas)", "url": "https://www.andalucia.com/province/huelva/aracena/gruta-de-las-maravillas.htm", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-rinconcillo",
+      "kicker": "Calle Gerona · le QUOI",
+      "title": "Le plus vieux bar de Séville",
+      "image": "el-rinconcillo",
+      "alt": "Taverne historique El Rinconcillo, Séville",
+      "intro": "El Rinconcillo, ouvert en 1670. Comptoir de bois, jambons au plafond, et l’addition encore marquée à la craie pendant que tu manges. Sept générations de la famille De Rueda qui n’ont jamais jugé bon de moderniser la place.",
+      "reco": "On commande quoi : les espinacas con garbanzos — épinards-pois chiches au cumin. Une recette arabe de 500 ans. Pis tu réalises que les Arabes qui l’ont inventée se sont fait expulser.",
+      "quote": "C’est pas un décor pour Instagram. Ça marche de même depuis 350 ans, à des gens qui savent pas — ou qui veulent pas savoir — d’où ça vient.",
+      "via": null,
+      "poiRef": "el-rinconcillo",
+      "sources": [
+        { "creator": "El Rinconcillo (site officiel — histoire)", "url": "https://www.elrinconcillo.es/en/history/", "date": "2026-06" },
+        { "creator": "Devour Tours (espinacas con garbanzos, origine maure)", "url": "https://devourtours.com/blog/best-spinach-and-garbanzos-in-seville/", "date": "2026-06" },
+        { "creator": "Infobae España (Las Escobas, 1386 — nuance « plus vieux »)", "url": "https://www.infobae.com/espana/2023/07/09/la-taberna-mas-antigua-de-espana-se-fundo-hace-637-anos-y-por-ella-pasaron-cervantes-y-lope-de-vega/", "date": "2023-07" }
+      ]
+    },
+    {
+      "id": "scene-eiriz",
+      "kicker": "Corteconcepción · l’INCONFORT",
+      "title": "Le jamón, c’est pas juste du cochon",
+      "image": "dehesa-eiriz",
+      "alt": "Cochons ibériques pata negra dans la dehesa",
+      "intro": "Eiriz, une famille à Corteconcepción depuis 1818 — cinquième génération dans le secadero naturel de la Sierra de Aracena. Tu montes là-haut, ça sent le chêne pis le porc qui sèche.",
+      "reco": "Le filet de bellota tranché à la main, fin mai, c’est le jamón qui mûrit dans les bodegas naturelles — pas les cochons qui broutent les glands, ça c’est l’automne. Honnêtement, c’est ça la vraie affaire.",
+      "quote": "Sous l’Inquisition, manger du porc en public, c’était la preuve que t’étais pas un Juif ou un Musulman caché. Le plat le plus aimé d’Espagne est né comme un test de loyauté. Tu mords dans une tranche, t’avales cinq siècles de « prouve que t’es des nôtres ».",
+      "via": null,
+      "poiRef": "jamones-eiriz",
+      "sources": [
+        { "creator": "Jamones Eíriz (site officiel — origines, 5e génération)", "url": "https://jamoneseiriz.com/origenes-de-eiriz/", "date": "2026-06" },
+        { "creator": "Viajamos Juntos (visite Eíriz, « quinta generación »)", "url": "https://www.viajamosjuntos.net/2019/03/27/jamon-iberico-jamones-eiriz-aracena/", "date": "2019-03" },
+        { "creator": "Spain Then and Now (porc & Inquisition ; Kamen, Gitlitz, Carr)", "url": "https://www.spainthenandnow.com/spanish-culture/conversos-and-moriscos-tyranny-of-food", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-giralda",
+      "kicker": "Centre · le POURQUOI",
+      "title": "La tour qui ne sait pas ce qu’elle est",
+      "image": "giralda",
+      "alt": "La Giralda et la cathédrale de Séville",
+      "intro": "La Giralda, c’est un minaret. Un vrai, du XIIᵉ, bâti par les Almohades quand Séville était musulmane. Quand les chrétiens ont repris la ville, ils ont pas démoli la tour — ils ont juste vissé un clocher chrétien par-dessus.",
+      "reco": "À voir une fois, tôt à l’ouverture (l’Alcázar fonctionne par créneaux de 30 minutes). Mais regarde la tour comme il faut : huit siècles de « à qui appartient cette ville » empilés dans une seule structure.",
+      "quote": "Tout ce qui est beau ici a coûté quelque chose à quelqu’un. Deux empires qui se détestaient — les Almohades, pis les chrétiens qui les ont chassés — se sont quand même passé la même tour pendant huit cents ans.",
+      "via": null,
+      "poiRef": "catedral-giralda",
+      "sources": [
+        { "creator": "Wikipédia (La Giralda — datation, clocher 1558-1568)", "url": "https://fr.wikipedia.org/wiki/La_Giralda", "date": "2026-06" },
+        { "creator": "Medieval Histories (convivencia ; Almohades = rupture)", "url": "https://www.medieval.eu/medieval-convivencia/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "La table qu’on a pas filmée",
+      "body": "Trois registres. Las Golondrinas pour la tapa de quartier — tu dis « dame una » et on t’apporte les puntas de solomillo, point. Casa Cuesta pour un vrai rabo de toro dans une maison de 1880. Pis Sobretablas, le repas-événement (Camila Ferraro, Cocinera Revelación 2020) — à El Porvenir, prévois le taxi.",
+      "boundsPois": ["las-golondrinas", "casa-cuesta", "sobretablas"],
+      "targets": ["las-golondrinas", "casa-cuesta", "sobretablas"],
+      "thumb": "rabo-toro",
+      "thumbAlt": "Rabo de toro braisé",
+      "pills": [
+        { "poiRef": "las-golondrinas", "link": "maps", "label": "Las Golondrinas · Maps" },
+        { "poiRef": "casa-cuesta", "link": "official", "label": "Casa Cuesta" },
+        { "poiRef": "sobretablas", "link": "official", "label": "Sobretablas" }
+      ],
+      "sources": [
+        { "creator": "Azahar Sevilla Tapas (Las Golondrinas, puntas de solomillo)", "url": "https://azahar-sevilla.com/sevilletapas/las-golondrinas/", "date": "2026-06" },
+        { "creator": "Infobae España (Casa Cuesta, 1880, rabo de toro)", "url": "https://www.infobae.com/espana/2024/05/30/uno-de-los-restaurantes-mas-antiguos-de-sevilla-tapas-y-guisos-tradicionales-para-viajar-en-el-tiempo-sin-moverse-de-triana/", "date": "2024-05" },
+        { "creator": "Bon Viveur (Sobretablas — perte du Bib Gourmand, guide 2026)", "url": "https://bonviveur.com/es/noticias/restaurantes-bib-gourmand-guia-michelin", "date": "2025-11" }
+      ]
+    },
+    {
+      "kicker": "Le pèlerinage jamón",
+      "body": "Une journée de char vers la Sierra de Aracena. Commence au Musée du jamón pour comprendre la dehesa, puis Cinco Jotas à Jabugo — plus gros, plus marketé qu’Eiriz (c’est le groupe Osborne), mais la bodega vaut le coup. Le contraste artisan vs machine, dans la même journée.",
+      "boundsPois": ["museo-del-jamon-aracena", "cinco-jotas-bodega"],
+      "targets": ["museo-del-jamon-aracena", "cinco-jotas-bodega"],
+      "thumb": "dehesa-eiriz",
+      "thumbAlt": "Cochons ibériques pata negra dans la dehesa",
+      "pills": [
+        { "poiRef": "museo-del-jamon-aracena", "link": "maps", "label": "Musée du jamón · Maps" },
+        { "poiRef": "cinco-jotas-bodega", "link": "official", "label": "Cinco Jotas" }
+      ],
+      "sources": [
+        { "creator": "Turismo Sierra de Aracena (Museo del Jamón — dehesa)", "url": "https://turismosierradearacena.com/museo-del-jamon-de-aracena/", "date": "2026-06" },
+        { "creator": "Cinco Jotas / Osborne (visite officielle des bodegas)", "url": "https://www.cincojotas.com/en/experiencies/visit-curing-cellars", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rituel (boire comme un local)",
+      "body": "Le fino bien frais, la manzanilla saline, le vermut de grifo à la pression le dimanche midi (la hora del vermut), le tinto de verano l’après-midi. Pas de sangria — ça, c’est pour les autobus.",
+      "focusPoi": "calle-betis-puente",
+      "zoom": 15,
+      "targets": ["calle-betis-puente"],
+      "thumb": "fino",
+      "thumbAlt": "Verre de fino, vin de Jerez",
+      "pills": [{ "label": "Le carnet de bouche", "url": "#carnet" }],
+      "sources": [
+        { "creator": "Sevilla Ways (« don’t order sangria in Sevilla »)", "url": "https://www.sevillawaystours.com/dont-order-sangria-in-sevilla/", "date": "2026-06" },
+        { "creator": "Consejo Regulador / Sherry Wines (service fino 5-7°C)", "url": "https://www.sherry.wine/enjoying-sherry/conservation-serving", "date": "2026-06" },
+        { "creator": "The Local ES (tinto de verano vs sangria)", "url": "https://www.thelocal.es/20190722/daily-dilemmas-sangra-or-tinto-de-verano-for-the-perfect-spanish-summer-drink/", "date": "2019-07" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"] },
+      { "label": "Où manger", "kinds": ["resto"], "footer": "Règle d’or : éviter le premier rang de terrasses de Calle Betis avec menus en 5 langues." },
+      { "label": "À voir & faire", "kinds": ["sight", "activity"] }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le reste de Séville",
+    "body": "Le Mercado de Triana, les ateliers de céramique, le pèlerinage jamón vers Jabugo — les {count} lieux du chapitre, tous avec leurs liens, pis le budget qui s’accumule, vivent dans le carnet. L’épisode c’est l’apéro ; le carnet, c’est l’outil.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/andalousie/"
+  }
+}

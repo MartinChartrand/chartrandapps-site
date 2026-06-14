@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "triana-pureza-apt",
+    "base": "seville",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Triana Pureza (appartement)",
+    "blurb": "Appart 1 chambre sur Calle Pureza, cuisine équipée — parfait pour cuisiner ce que tu rapportes du Mercado de Triana. Noté 8.8, en plein cœur du quartier.",
+    "signature": "",
+    "image": "triana-pureza",
+    "price": {
+      "range": "~70–95 €/nuit (est. 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3835,
+      "lng": -6.001,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": null,
+      "booking": "https://www.booking.com/hotel/es/triana-pureza.html",
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Triana+Pureza+Calle+Pureza+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true
+  },
+  {
+    "id": "casa-de-triana-suites",
+    "base": "seville",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Casa de Triana Luxury Suites (by Casa del Poeta)",
+    "blurb": "Calle Betis 68, maison du XVIIIe-XIXe, 7 unités avec cuisine ; certaines avec terrasse ou balcon face au Guadalquivir et à la vieille ville, d'autres sur cour. Le coucher de soleil que tu cherches — vérifie que ta chambre donne sur le fleuve.",
+    "signature": "",
+    "image": "casa-triana-betis",
+    "price": {
+      "range": "~130–185 €/nuit (est. 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3845,
+      "lng": -6.0005,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://casadetriana.es/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Casa+de+Triana+Luxury+Suites+Calle+Betis+68+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Casa de Triana (site officiel)",
+        "url": "https://casadetriana.es/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Casa del Poeta Triana Suite & Homes",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g187443-d19503458-Reviews-Casa_del_Poeta_Triana_Suite_Homes-Seville_Province_of_Seville_Andalucia.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "My Boutique Hotel",
+        "url": "https://www.myboutiquehotel.com/en/boutique-hotels-seville/casa-de-triana-luxury-suites-by-casa-del-poeta.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "triana-house-boutique",
+    "base": "seville",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Hotel Boutique Triana House",
+    "blurb": "7 chambres signées Amaro Sánchez de Moya, chacune un clin d'œil à une province andalouse. Ouvert en 2022, patio flamboyant, terrasse sur le toit, à 2 pas de l'église Santa Ana.",
+    "signature": "",
+    "image": "triana-patio",
+    "price": {
+      "range": "~180–270 €/nuit (est. 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.385,
+      "lng": -6.003,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://trianahouse.com/en/home/",
+      "booking": "https://www.booking.com/hotel/es/triana-house-boutique.html",
+      "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g187443-d24181809.html",
+      "maps": "https://www.google.com/maps/search/Hotel+Boutique+Triana+House+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Triana House (site officiel)",
+        "url": "https://trianahouse.com/en/hotel-boutique-triana-2/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Mr & Mrs Smith",
+        "url": "https://www.mrandmrssmith.com/luxury-hotels/triana-house-boutique-hotel",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Hotel Boutique Triana House",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g187443-d24181809-Reviews-Hotel_Boutique_Triana_House-Seville_Province_of_Seville_Andalucia.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "las-golondrinas",
+    "base": "seville",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bar Las Golondrinas",
+    "blurb": "Institution de Triana depuis 1962, carrelée du sol au plafond. Tu dis juste « dame una » et on t'apporte LE plat de la maison sans poser de question.",
+    "signature": "Puntas de solomillo (pointes de filet de porc grillées sur lit de patates) — le classique que les habitués commandent sans le nommer",
+    "image": "golondrinas-bar",
+    "price": {
+      "range": "tapas ~3–4 € / ración ~9–14 € (est. 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3838,
+      "lng": -6.0035,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bar+Las+Golondrinas+Antillano+Campos+Triana+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Azahar Sevilla Tapas (Las Golondrinas, puntas de solomillo)",
+        "url": "https://azahar-sevilla.com/sevilletapas/las-golondrinas/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "casa-cuesta",
+    "base": "seville",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Casa Cuesta",
+    "blurb": "Calle Castilla, fondée en 1880, près du Mercado et du pont. Murs de céramique, guisos (ragoûts), fruits de mer — l'histoire de Triana dans une assiette, pas un menu en 5 langues. Au comptoir plutôt qu'en terrasse (règle générale espagnole) ; des avis 2025-2026 signalent un glissement touristique (prix gonflés). Tester un verre + une tapa au bar avant de s'installer.",
+    "signature": "Rabo de toro (queue de taureau braisée) et guisos traditionnels — table d'institution, pas un bar à tapas express",
+    "image": "rabo-toro",
+    "price": {
+      "range": "tapas ~3–4,50 € / plats ~12–18 € (est. 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3858,
+      "lng": -6.004,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.casacuesta.net/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Casa+Cuesta+Calle+Castilla+Triana+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — avis visiteurs (plus récent : fév 2026)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d1196661-Reviews-CASA_CUESTA-Seville_Province_of_Seville_Andalucia.html",
+        "date": "2026-02"
+      },
+      {
+        "creator": "Infobae España — article historique Casa Cuesta",
+        "url": "https://www.infobae.com/espana/2024/05/30/uno-de-los-restaurantes-mas-antiguos-de-sevilla-tapas-y-guisos-tradicionales-para-viajar-en-el-tiempo-sin-moverse-de-triana/",
+        "date": "2024-05"
+      }
+    ]
+  },
+  {
+    "id": "la-azotea-gran-poder",
+    "base": "seville",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "La Azotea (Conde de Barajas)",
+    "blurb": "Tapas créatives qui ont brassé la scène sévillane depuis 2009. Conde de Barajas 13, centre-nord près de l'Alameda — quand t'as envie que quelqu'un ait réfléchi à l'assiette. (Plusieurs adresses : évite la succursale Mateos Gago, en zone touristique.)",
+    "signature": "Morcilla aux oignons caramélisés couronnée d'un œuf de caille ; ventrèche de thon et seiche panée à la mayo d'oloroso",
+    "image": "azotea-morcilla",
+    "price": {
+      "range": "plats ~9–16 € (est. 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3966,
+      "lng": -5.9952,
+      "source": "geocode-photon",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://vinosytapas.laazoteasevilla.com/en/",
+      "booking": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g187443-d1507197.html",
+      "maps": "https://www.google.com/maps/search/La+Azotea+Conde+de+Barajas+13+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Azahar Sevilla (Shawn Hennessey, local expat food writer)",
+        "url": "https://azahar-sevilla.com/sevilletapas/azotea-la-tienda/",
+        "date": "2025-12"
+      },
+      {
+        "creator": "Azahar Sevilla (Shawn Hennessey)",
+        "url": "https://azahar-sevilla.com/sevilletapas/marabunda/",
+        "date": "2022-07"
+      },
+      {
+        "creator": "Shawn Hennessey (Substack — Open Sunday & Monday in Sevilla)",
+        "url": "https://shawnhennessey.substack.com/p/open-sunday-and-monday-in-sevilla",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Come en Casa (blog gastro espagnol)",
+        "url": "https://www.comeencasa.net/2021/03/29/la-azotea-un-clasico-de-la-moderna-cocina-sevillana/",
+        "date": "2021-03"
+      },
+      {
+        "creator": "Renoir Spanish Guides",
+        "url": "https://www.renoirguides.com/single-post/2018/02/27/sevilla-la-azotea",
+        "date": "2018-02"
+      },
+      {
+        "creator": "Site officiel La Azotea Sevilla",
+        "url": "https://laazoteasevilla.com/en/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sobretablas",
+    "base": "seville",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Sobretablas",
+    "blurb": "Le repas-événement du séjour. Camila Ferraro (1re femme Cocinero Revelación 2020, ex-El Celler de Can Roca) + sommelier Robert Tetas. Ex-Bib Gourmand Michelin (retiré du guide 2026). NOTE : c'est à El Porvenir, PAS à Triana — ~15 min en char ou taxi.",
+    "signature": "Menu dégustation andalou de saison (option « Sobretablas Deluxe » avec accord vins) — produit local, technique de haute cuisine",
+    "image": "sobretablas-plat",
+    "price": {
+      "range": "menu dégustation ~55–80 €/pers (est. 2027, à confirmer)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.37,
+      "lng": -5.983,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://sobretablasrestaurante.com/en/",
+      "booking": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g187443-d15277554.html",
+      "maps": "https://www.google.com/maps/search/Sobretablas+Restaurante+Calle+Colombia+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Bon Viveur (Sobretablas — perte du Bib Gourmand, guide 2026)",
+        "url": "https://bonviveur.com/es/noticias/restaurantes-bib-gourmand-guia-michelin",
+        "date": "2025-11"
+      }
+    ]
+  },
+  {
+    "id": "el-rinconcillo",
+    "base": "seville",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": null,
+    "name": "El Rinconcillo",
+    "blurb": "Le plus vieux bar de Séville, Calle Gerona, ouvert en 1670. Comptoir de bois, jambons au plafond, addition à la craie. La tapa des Sévillans, pas des autobus.",
+    "signature": "Espinacas con garbanzos (épinards-pois chiches au cumin, recette morisque) — la tapa la plus demandée de la maison",
+    "image": "el-rinconcillo",
+    "price": {
+      "range": "tapas ~3–4 € / repas ~30–45 €/pers (est. 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3924,
+      "lng": -5.9897,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.elrinconcillo.es/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/El+Rinconcillo+Calle+Gerona+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "region": "seville",
+    "story": "Le plus vieux bar de Séville, ouvert en 1670, calle Gerona. Ils te marquent encore l'addition à la craie sur le comptoir en bois pendant que tu manges. Tu commandes les espinacas con garbanzos — épinards-pois chiches au cumin, une recette morisque de 500 ans — pis tu réalises que personne a jamais jugé bon de moderniser la place. C'est pas un décor pour Instagram, ça marche de même depuis 350 ans.",
+    "sources": [
+      {
+        "creator": "Cenando con Pablo",
+        "url": "https://www.youtube.com/watch?v=P6OnKH_qbSQ",
+        "date": "2023-05"
+      },
+      {
+        "creator": "Cosasdecome",
+        "url": "https://www.youtube.com/watch?v=8wQvXPWR6yY",
+        "date": "2020-07"
+      },
+      {
+        "creator": "bysherezade",
+        "url": "https://www.tiktok.com/@bysherezade/video/7436474212006628641",
+        "date": "2024-11"
+      }
+    ],
+    "verifiedAt": "2026-06-13",
+    "approvedBy": "human"
+  },
+  {
+    "id": "mercado-de-triana",
+    "base": "seville",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do",
+      "eat"
+    ],
+    "tier": null,
+    "name": "Mercado de Triana",
+    "blurb": "Marché couvert sur les ruines du château de San Jorge (Inquisition), Plaza del Altozano. Étals de poisson, jamón, fromages + barres gastro pour grignoter sur place. Note : le musée de l'Inquisition (Castillo de San Jorge) sous le marché n'a plus d'expo permanente ; en 2026, surtout un point d'info + expos temporaires intermittentes (vérifier : 955 47 02 55).",
+    "signature": "",
+    "image": "mercado-triana",
+    "price": {
+      "range": "entrée libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3839,
+      "lng": -6.0017,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mercado+de+Triana+Plaza+del+Altozano+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Ayuntamiento de Sevilla (communiqué officiel réouverture mars 2025)",
+        "url": "https://www.sevilla.org/actualidad/noticias/2025/el-castillo-de-san-jorge-reabre-como-el-gran-espacio-expositivo-del-arte-sacro-en-sevilla-con-el-impulso-del-gobierno-de-sanz",
+        "date": "2025-03"
+      },
+      {
+        "creator": "Visita Sevilla — portail officiel tourisme",
+        "url": "https://visitasevilla.es/en/castillo-de-san-jorge/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — avis visiteurs (plus récent : jan 2026)",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2038104-Reviews-Castillo_de_San_Jorge-Seville_Province_of_Seville_Andalucia.html",
+        "date": "2026-01"
+      },
+      {
+        "creator": "Visitar Sevilla (blog local)",
+        "url": "https://www.visitarsevilla.com/castillo-de-san-jorge/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "centro-ceramica-triana",
+    "base": "seville",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Centro Cerámica Triana",
+    "blurb": "Musée dans les anciens fours à céramique (C/ Callao 16, angle Antillano Campos). Raconte le métier qui a fait Triana. Quelques-uns des derniers ateliers du métier survivent autour sur Calle Alfarería — une tradition en déclin, pas un quartier de potiers en plein essor.",
+    "signature": "",
+    "image": "ceramica-triana",
+    "price": {
+      "range": "~2–3 € (à confirmer 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3835,
+      "lng": -6.0028,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.turismosevilla.org/en/what-see-and-do/heritage/museums-and-exhibitions/ceramics-centre-triana",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Centro+Ceramica+Triana+Antillano+Campos+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "ICAS Sevilla (Institut de la Culture et des Arts)",
+        "url": "https://icas.sevilla.org/espacios/centro-ceramica/informacion-general",
+        "date": "2026-06"
+      },
+      {
+        "creator": "El Diario Andalucía",
+        "url": "https://www.eldiario.es/andalucia/pasaporte/ceramica-triana-triana-centro-ceramica-triana-sevilla-alfareria-triana_1_1056586.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Es de Triana (blog local Triana)",
+        "url": "https://esdetriana.com/calle-alfareria/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "calle-betis-puente",
+    "base": "seville",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "drink"
+    ],
+    "tier": null,
+    "name": "Calle Betis & Puente de Triana au coucher",
+    "blurb": "La berge de Triana face à la vieille ville. Lumière dorée sur la Torre del Oro et la Giralda au coucher. Évite le premier rang de terrasses touristiques — recule d'une rue.",
+    "signature": "",
+    "image": "betis-triana",
+    "price": {
+      "range": "gratuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.385,
+      "lng": -6,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Calle+Betis+Puente+de+Triana+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Visita Sevilla",
+        "url": "https://visitasevilla.es/en/calle-betis/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Aromas de Sevilla (blog local)",
+        "url": "https://aromasdesevilla.com/calle-betis-triana/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Sevillaníssimo / bydays.com",
+        "url": "https://buendia.travel/es/guias/sevilla/calle-betis",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "alameda-de-hercules",
+    "base": "seville",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "drink"
+    ],
+    "tier": null,
+    "name": "Alameda de Hércules",
+    "blurb": "Promenade bohème au nord du centre : colonnes romaines à l'extrémité sud (statues d'Hercule et Jules César), lions du XVIIIe à l'autre bout. Vie de quartier réelle, terrasses où les Sévillans traînent le soir. Alternative de base à Triana.",
+    "signature": "",
+    "image": "alameda-colonnes",
+    "price": {
+      "range": "gratuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4,
+      "lng": -5.993,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Alameda+de+Hercules+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Ayuntamiento de Sevilla (site officiel)",
+        "url": "https://www.sevilla.org/servicios/medio-ambiente-parques-jardines/parques/paseos-arbolados/alameda-de-hercules",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Sevilla por metro cuadrado (blog local)",
+        "url": "https://sevillaxm2.com/las-columnas-de-la-alameda/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Tu guía de Sevilla",
+        "url": "https://tuguiadesevilla.com/alameda-de-hercules-de-sevilla-historia-y-curiosidades/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "real-alcazar",
+    "base": "seville",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Real Alcázar de Sevilla",
+    "blurb": "Palais mudéjar, jardins, salles royales encore en usage. Billet horodaté par fenêtre de 30 min — réserve en ligne d'avance, premier créneau du matin pour la lumière et le calme. Billet par créneau de 30 min, réservé d'avance ; passeport ORIGINAL physique exigé à l'entrée (pas de photo sur téléphone).",
+    "signature": "",
+    "image": "alcazar",
+    "price": {
+      "range": "général ~15,50 € (asOf 2026 — re-valider 2027) ; réduit ~8 € ; gratuit 18h–18h30 sur résa",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3829,
+      "lng": -5.9897,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.alcazarsevilla.org/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Real+Alcazar+de+Sevilla"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Real Alcázar de Sevilla (site tiers officiel)",
+        "url": "https://www.realalcazarsevilla.com/es/preguntas-frecuentes-real-alcazar-de-sevilla",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Alcázar de Sevilla — Infoticketing (FAQ billetterie officielle)",
+        "url": "https://alcazardesevilla.infoticketing.com/es/faqs",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "catedral-giralda",
+    "base": "seville",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Catedral de Sevilla & Giralda",
+    "blurb": "Plus grande cathédrale gothique au monde, tombeau de Colomb, montée à la Giralda par rampes (pas d'escalier). Une fois, tôt le matin à l'ouverture, puis tu décrisses.",
+    "signature": "",
+    "image": "giralda",
+    "price": {
+      "range": "~12–13 € (à re-valider 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.3859,
+      "lng": -5.9931,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.catedraldesevilla.es/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Catedral+de+Sevilla+Giralda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Wikipédia (La Giralda — datation, clocher 1558-1568)",
+        "url": "https://fr.wikipedia.org/wiki/La_Giralda",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Medieval Histories (convivencia ; Almohades = rupture)",
+        "url": "https://www.medieval.eu/medieval-convivencia/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "jamones-eiriz",
+    "base": "seville",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do",
+      "eat"
+    ],
+    "tier": null,
+    "name": "Jamones Eíriz — visite dehesa + secadero (Corteconcepción)",
+    "blurb": "Maison familiale liée à Corteconcepción depuis 1818. Visite guidée de la dehesa (cochons en liberté à 100 m), du secadero naturel, puis dégustation 50% cebo + 100% bellota DOP Jabugo avec vins du Condado. C'est LE pèlerinage.",
+    "signature": "Jamón 100% ibérico de bellota DOP Jabugo, séché à l'air atlantique",
+    "image": "dehesa-eiriz",
+    "price": {
+      "range": "visite + dégustation ~prix à confirmer (réservation obligatoire)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.901,
+      "lng": -6.579,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.corteconcepcion.com/municipio/empresas/carnicas/jamones-eiriz",
+      "booking": null,
+      "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g2558219-d3731481.html",
+      "maps": "https://www.google.com/maps/search/Jamones+Eiriz+Corteconcepcion+Huelva"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "region": "jabugo-aracena",
+    "story": "Oublie la grosse marque. Eiriz, c'est une famille à Corteconcepción qui fait du jamón depuis 1818 — cinquième génération dans le secadero naturel. Tu montes dans la Sierra de Aracena, ça sent le chêne pis le porc qui sèche, pis quelqu'un te coupe des tranches de bellota translucides en t'expliquant la montanera. Fin mai, tu verras pas les cochons manger les glands — ça, c'est l'automne — tu verras le jamón mûrir dans les bodegas naturelles. Pis honnêtement, c'est ça la vraie affaire.",
+    "sources": [
+      {
+        "creator": "Canal Sur Turismo",
+        "url": "https://www.youtube.com/watch?v=UVK7CzdhSXU",
+        "date": "2021-09"
+      },
+      {
+        "creator": "Agrosfera (TVE2)",
+        "url": "https://www.youtube.com/watch?v=-lYLOhXwlo8",
+        "date": "2021-06"
+      }
+    ],
+    "verifiedAt": "2026-06-13",
+    "approvedBy": "human"
+  },
+  {
+    "id": "cinco-jotas-bodega",
+    "base": "seville",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do",
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bodega Cinco Jotas (Jabugo)",
+    "blurb": "Le « temple » du 100% ibérique bellota, en activité depuis 1879. Visite des caves de séchage + dégustation. Plus institutionnel/marketé qu'Eíriz — fais les deux pour le contraste artisan vs maison historique.",
+    "signature": "Jamón 5J 100% ibérico de bellota ; charcuterie caña de lomo / presa accordée à l'oloroso",
+    "image": "cinco-jotas",
+    "price": {
+      "range": "visite de base ~28 €/pers (60 min) ; dégustation étendue ~46 €/pers (80 min) — asOf 2026, re-valider 2027",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.9098,
+      "lng": -6.732,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.cincojotas.com/en/experiencies/visit-curing-cellars",
+      "booking": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g1941014-d3320548.html",
+      "maps": "https://www.google.com/maps/search/Bodega+Cinco+Jotas+Jabugo"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "region": "jabugo-aracena",
+    "story": "5J, c'est LE nom — 130 ans, la machine bien huilée : master cutter, dégustation, marche dans la dehesa. C'est impeccable… pis c'est exactement pour ça que c'est plein de monde. Featuré partout = déjà une track touristique. Ça vaut la visite pour comprendre le sommet du sommet, mais sache que t'es dans la version polie. Le feeling brut, va le chercher chez Eíriz à côté.",
+    "sources": [
+      {
+        "creator": "Sommelier en Bicicleta",
+        "url": "https://www.youtube.com/watch?v=QknTahfMpqk",
+        "date": "2023-11"
+      }
+    ],
+    "verifiedAt": "2026-06-13",
+    "singleSourceTrusted": true,
+    "approvedBy": "human"
+  },
+  {
+    "id": "restaurante-las-bellotas",
+    "base": "seville",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Restaurante Las Bellotas (Jabugo)",
+    "blurb": "La table du midi à Jabugo après les visites. Gastronomie de la Sierra, ~4,5/5 sur 750+ avis Google. Avenida de los Trabajadores.",
+    "signature": "Presa ibérica grillée et carrillada ibérica (joue de porc braisée) ; croquetas de jamón de bellota",
+    "image": "las-bellotas-carrillada",
+    "price": {
+      "range": "raciones ~10–20 € (est. 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.91,
+      "lng": -6.73,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": null,
+      "booking": "https://www.thefork.es/restaurante/las-bellotas-r499809",
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g1941014-d12872333.html",
+      "maps": "https://www.google.com/maps/search/Restaurante+Las+Bellotas+Jabugo"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "region": "jabugo-aracena",
+    "sources": [
+      {
+        "creator": "elmontescafe.es — Directorio Café",
+        "url": "https://elmontescafe.es/restaurante-las-bellotas/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "rutaculinaria.com",
+        "url": "https://rutaculinaria.com/restaurante-en-jabugo-restaurante-las-bellotas-66834",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Restaurante Las Bellotas",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g1941014-d12872333-Reviews-Restaurante_Las_Bellotas-Jabugo_Sierra_de_Aracena_and_Picos_de_Aroche_Natural_P.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "escapadaviajera.com — Dónde comer buen jamón en Jabugo como un local",
+        "url": "https://escapadaviajera.com/donde-comer-buen-jamon-en-jabugo-como-un-local/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "huelva24.com — Los diez mejores bares y restaurantes Sierra de Aracena",
+        "url": "https://www.huelva24.com/gurme/huelva/diez-mejores-bares-restaurantes-comer-sierra-aracena-20241025180924-nth.html",
+        "date": "2024-10"
+      }
+    ]
+  },
+  {
+    "id": "gruta-de-las-maravillas",
+    "base": "seville",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Gruta de las Maravillas (Aracena)",
+    "blurb": "Grotte spectaculaire sous le château d'Aracena, lacs souterrains et concrétions. Visite guidée ~45 min, max 1000 pers/jour, groupes formés à la billetterie. Photo : interdiction probable du trépied, vérifie.",
+    "signature": "",
+    "image": "gruta-maravillas",
+    "price": {
+      "range": "adulte ~15 € / enfant 6–12 ~11 € (asOf 2026 — re-valider 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.8929,
+      "lng": -6.5642,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.aracena.es/es/municipio/gruta/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Gruta+de+las+Maravillas+Aracena"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "region": "jabugo-aracena",
+    "sources": [
+      {
+        "creator": "Andalucia.com (Gruta de las Maravillas)",
+        "url": "https://www.andalucia.com/province/huelva/aracena/gruta-de-las-maravillas.htm",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "museo-del-jamon-aracena",
+    "base": "seville",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Centro de Interpretación del Cerdo Ibérico / Museo del Jamón (Aracena)",
+    "blurb": "Le pourquoi derrière la dégustation : dehesa, montanera, races, séchage. Visite guidée ou audioguide incluse. À faire AVANT les producteurs pour comprendre ce que tu goûtes.",
+    "signature": "",
+    "image": "museo-jamon",
+    "price": {
+      "range": "adulte ~3,50 € / 65+ ~3 € (asOf 2026 — re-valider 2027)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.8917,
+      "lng": -6.5605,
+      "source": "research-approx",
+      "verifiedOn": "2026-06-13"
+    },
+    "links": {
+      "official": "https://www.aracena.es/es/municipio/museo/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Museo+del+Jamon+Aracena"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-13",
+      "method": "web-research"
+    },
+    "onMap": true,
+    "region": "jabugo-aracena",
+    "sources": [
+      {
+        "creator": "Turismo Sierra de Aracena (Museo del Jamón — dehesa)",
+        "url": "https://turismosierradearacena.com/museo-del-jamon-de-aracena/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-montelirio",
+    "base": "ronda",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Hotel Montelirio",
+    "blurb": "Palais du XVIIe accroché au bord du Tajo, dans la vieille ville. 15 chambres, piscine suspendue au-dessus du gouffre. Les Junior Suites « Valley View » ouvrent direct sur le pont, la rivière et le canyon. Bourdain aurait dormi là, pas au Parador.",
+    "signature": "Junior Suite Valley View — volets ouverts sur le Puente Nuevo et le Tajo d'un coup",
+    "image": null,
+    "price": {
+      "range": "~120–290 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73975,
+      "lng": -5.1657,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.hotelmontelirio.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel%20Montelirio%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hotel Montelirio (site officiel)",
+        "url": "https://www.hotelmontelirio.com/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/hotel-montelirio/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-alavera-banos",
+    "base": "ronda",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Hotel Alavera de los Baños",
+    "blurb": "Onze chambres collées contre les bains arabes du XIIIe, dans le Barrio San Francisco médiéval. Design mauresque, jardin, piscine face aux remparts. Le seul de la liste avec parking public gratuit à deux pas — sur 5 nuits en char, c'est l'argument décisif.",
+    "image": null,
+    "price": {
+      "range": "~75–130 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://alaveradelosbanos.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": null
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": false,
+    "sources": [
+      {
+        "creator": "Alavera de los Baños (site officiel)",
+        "url": "https://alaveradelosbanos.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/hotel-alavera-de-los-banos-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-parador",
+    "base": "ronda",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Parador de Ronda",
+    "blurb": "L'ancienne mairie de 1761 plantée sur le bord du précipice, côté El Mercadillo (pas besoin de traverser le Puente Nuevo en char — évite la zone restreinte). La terrasse panoramique au-dessus du Tajo = la vue la plus spectaculaire de Ronda. Le move honnête : un fino au coucher du soleil même si tu dors ailleurs.",
+    "image": null,
+    "price": {
+      "range": "~150–250 €/nuit selon saison (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74103,
+      "lng": -5.16646,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://paradores.es/en/parador-de-ronda",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Parador%20de%20Ronda%20Plaza%20Espa%C3%B1a%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Paradores (site officiel)",
+        "url": "https://paradores.es/en/parador-de-ronda",
+        "date": "2026-06"
+      },
+      {
+        "creator": "SpainOnFoot",
+        "url": "https://www.spainonfoot.com/where-to-stay-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-san-gabriel",
+    "base": "ronda",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Hotel San Gabriel",
+    "blurb": "Maison-manoir du XVIIIe dans la vieille ville, tenue en famille. Petit salon de cinéma avec fauteuils récupérés d'un vieux théâtre, bibliothèque, patio. L'antithèse de l'hôtel de chaîne — du caractère, pas une vue vendue au prix fort.",
+    "image": null,
+    "price": {
+      "range": "~80–130 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73861,
+      "lng": -5.16564,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.sangabriel.es/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel%20San%20Gabriel%20Marqu%C3%A9s%20Moctezuma%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hotel San Gabriel (site officiel)",
+        "url": "https://www.sangabriel.es/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "The Next Crossing",
+        "url": "https://thenextcrossing.com/parador-de-ronda-and-soho-boutique-palacio-san-gabriel",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-bardal",
+    "base": "ronda",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Bardal",
+    "blurb": "Le projet gastronomique de Benito Gómez, 2 étoiles Michelin maintenues depuis 2019 (revalidées nov. 2025). Cuisine ancrée dans la Serranía — queso payoyo, charcuterie ibérique, légumes de montagne — réinterprétée au scalpel. Très peu de couverts, réservation difficile. On commande ici sobre, en semaine.",
+    "signature": "Menu dégustation autour des produits de la Serranía",
+    "image": null,
+    "price": {
+      "range": "menu dégustation ~195–230 €/pers (à confirmer à la réservation, 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74172,
+      "lng": -5.1666,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.restaurantebardal.com/reserva",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Restaurante%20Bardal%20Jos%C3%A9%20Aparicio%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Restaurante Bardal (site officiel)",
+        "url": "https://www.restaurantebardal.com/restaurante-ronda-estrella-michelin",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Diario Ronda (revalidation 2 étoiles 2025)",
+        "url": "https://www.diarioronda.es/2025/11/26/cultura-y-sociedad/benito-gomez-logra-revalidar-las-dos-estrellas-michelin-para-el-restaurante-bardal",
+        "date": "2025-11"
+      }
+    ]
+  },
+  {
+    "id": "ronda-tragata",
+    "base": "ronda",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Tragatá",
+    "blurb": "Le gastrobar de Benito Gómez — et la maison-mère, ouverte en 2006, dix ans AVANT Bardal. Pas le chef étoilé qui « descend » faire des tapas : c'est ici qu'il a bâti son piédestal. Pastrami ibérique en brioche, rabo de toro à la purée, croquetas de jamón. ~35 €/pers, le génie sans l'addition gastronomique.",
+    "signature": "Pastrami ibérique Dehesa de los Monteros en brioche, coleslaw et pickles",
+    "image": null,
+    "price": {
+      "range": "~35 €/pers (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74149,
+      "lng": -5.16599,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.tragata.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tragata%20Calle%20Nueva%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Tragatá (site officiel)",
+        "url": "https://www.tragata.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guia Repsol (ruta tapas Benito Gómez)",
+        "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-tapas-ronda-benito-gomez-bardal/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-lechuguita",
+    "base": "ronda",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": "budget",
+    "name": "El Lechuguita",
+    "blurb": "Le bar de tapas que Benito Gómez lui-même nomme comme son spot préféré en ville — la donnée la plus précieuse qui soit : le chef 2 étoiles qui te dit « pour les tapas, je vais là ». Tapas à 1,20 € pièce, menu papier, 30 lignes : bollito de pringá, chorizo de Ronda, serranito. Décor inchangé depuis des décennies.",
+    "signature": "Le bollito de pringá et le serranito — à 1,20 € la tapa, on coche le menu papier",
+    "image": null,
+    "price": {
+      "range": "tapas ~1,20 € pièce · ~10–15 €/pers (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74145,
+      "lng": -5.16466,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://ellechuguita.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/El%20Lechuguita%20Virgen%20de%20los%20Remedios%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "El Lechuguita (site officiel)",
+        "url": "https://ellechuguita.com/index.php/contacto/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guia Repsol (ruta tapas Benito Gómez)",
+        "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-tapas-ronda-benito-gomez-bardal/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-pedro-romero",
+    "base": "ronda",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Restaurante Pedro Romero",
+    "blurb": "Institution de 1974, face aux arènes. Oui c'est touristique — ET les familles de Ronda y mangent le rabo depuis 50 ans. Survivre un demi-siècle devant une attraction sans devenir un attrape-nigaud, ça force le respect. Viens au déjeuner local (14h) pour voir le vrai mix.",
+    "signature": "Rabo de toro Pedro Romero, mijoté lentement au vin rouge local (recette publiée depuis des décennies)",
+    "image": null,
+    "price": {
+      "range": "~20–30 €/pers (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74277,
+      "lng": -5.16664,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.rpedroromero.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Restaurante%20Pedro%20Romero%20Virgen%20de%20la%20Paz%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Restaurante Pedro Romero (site officiel)",
+        "url": "https://www.rpedroromero.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guia Repsol",
+        "url": "https://www.guiarepsol.com/es/comer/de-tapeo/ruta-tapas-ronda-benito-gomez-bardal/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-puente-nuevo",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Puente Nuevo & El Tajo",
+    "blurb": "42 ans à construire (1751-1793), 120 m de vide creusés par la Guadalevín. La plupart repartent avec la photo sans savoir ce qui s'est passé ici (voir le carnet : le mythe Hemingway de la guerre civile, démonté). Le selfie est le réflexe touristique. Rester dix minutes avec le poids de l'endroit, c'est le vrai move.",
+    "image": "ronda-puente-nuevo",
+    "price": {
+      "range": "traversée gratuite · Centro de Interpretación 2,50 € (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74072,
+      "lng": -5.16588,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://rondatoday.com/puente-nuevo-and-el-tajo-gorge/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Puente%20Nuevo%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/puente-nuevo-and-el-tajo-gorge/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Andalucia.org (Junta de Andalucía)",
+        "url": "https://www.andalucia.org/en/ronda-cultural-tourism-puente-nuevo-interpretation-centre",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-plaza-toros",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Plaza de Toros — Real Maestranza",
+    "blurb": "Achevée en 1785, tout en pierre — 136 colonnes de grès, 66 m de diamètre. C'est ici que trois générations Romero ont codifié la corrida moderne (Pedro Romero : 5 600 taureaux en 28 ans, jamais blessé). Pas juste un joli bâtiment du XVIIIe : l'endroit où une forme d'art brutale et codifiée est née. Engage-toi avec la complexité au lieu de juste shooter de l'extérieur.",
+    "signature": "L'arène de pierre + le musée taurin ; à l'entrée, le monument à Orson Welles",
+    "image": "ronda-plaza-toros",
+    "price": {
+      "range": "9 € · 10,50 € avec audioguide (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74236,
+      "lng": -5.16709,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.rmcr.org/en/visit-bullring-and-museum/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Plaza%20de%20Toros%20Real%20Maestranza%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Real Maestranza de Caballería de Ronda (officiel)",
+        "url": "https://www.rmcr.org/en/visit-bullring-and-museum/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/plaza-de-toros-bullring/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-banos-arabes",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Baños Árabes",
+    "blurb": "Un des hammams les mieux conservés de la péninsule — l'original, pas une reconstruction. Chambres froide, tiède, chaude ; les étoiles percées dans la voûte filtrent encore la lumière d'origine. À Grenade et Séville, les bains arabes sont des reproductions pour touristes. Ici c'est le vrai bâtiment, 700 ans debout, dans un quartier que les day-trippers n'atteignent pas.",
+    "image": "ronda-banos-arabes",
+    "price": {
+      "range": "4,50 € (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73894,
+      "lng": -5.16275,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-banos-arabes-ronda",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ba%C3%B1os%20%C3%81rabes%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Junta de Andalucía (Enclaves Culturales, officiel)",
+        "url": "https://www.juntadeandalucia.es/cultura/enclaves/enclave-arqueologico-banos-arabes-ronda",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/los-banos-arabes-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-casa-rey-moro",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Casa del Rey Moro — jardins & mine d’eau",
+    "blurb": "La maison est fermée (rénovation), mais on n'y vient pas pour elle. La mine d'eau nasride du XIVe : 231 marches taillées dans la roche, 60 m jusqu'au fond du Tajo. Et les jardins en terrasses redessinés en 1912 par Forestier (le même que les jardins María Luisa de Séville). Le nom est à moitié romancé — la mine, elle, est bien réelle.",
+    "signature": "Descendre les 231 marches de la mine nasride jusqu'à la Guadalevín",
+    "image": "ronda-casa-rey-moro",
+    "price": {
+      "range": "jardins + mine 10 € (2026)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73984,
+      "lng": -5.1643,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://rondatoday.com/rondas-water-mine-under-the-casa-del-rey-moro/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Casa%20del%20Rey%20Moro%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/rondas-water-mine-under-the-casa-del-rey-moro/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Nomads Travel Guide",
+        "url": "https://www.nomads-travel-guide.com/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-mondragon",
+    "base": "ronda",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Palacio de Mondragón",
+    "blurb": "Palais nasride reconverti en musée municipal, cœur du parcours hors-cars de la vieille ville. Patios, stucs et vue sur la serranía. Le circuit honnête : Mondragón → Santa María la Mayor (église sur mosquée sur temple romain) → le vieux pont arabe quasi désert. Le Bono Turístico à 12 € le couvre si tu fais trois sites.",
+    "image": "ronda-mondragon",
+    "price": {
+      "range": "3 € · Bono Turístico 12 € pour 3+ sites (2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.73758,
+      "lng": -5.16679,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://rondatoday.com/el-palacio-de-mondragon-ronda/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Palacio%20de%20Mondrag%C3%B3n%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo de Ronda (officiel)",
+        "url": "https://turismoderonda.es/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RondaToday",
+        "url": "https://rondatoday.com/el-palacio-de-mondragon-ronda/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "ronda-descalzos-viejos",
+    "base": "ronda",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "drink",
+      "do"
+    ],
+    "tier": null,
+    "name": "Bodega Descalzos Viejos",
+    "blurb": "Un ancien couvent de Trinitaires déchaussés fondé en 1505, reconverti en bodega en 2000, à dix minutes du centre. On fait du vin de la Serranía de Ronda là où des moines priaient — fresques d'origine encore aux murs. Visite + dégustation sur réservation. Le terroir oublié d'Andalousie, dans un décor que personne n'attend.",
+    "signature": "Dégustation des rouges de la Serranía dans l'ancienne église du couvent",
+    "image": "ronda-vino-serrania",
+    "price": {
+      "range": "visite + dégustation sur réservation (prix à confirmer)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74954,
+      "lng": -5.17872,
+      "source": "photon-geocoding",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://descalzosviejos.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bodega%20Descalzos%20Viejos%20Ronda%20Ronda"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Bodega Descalzos Viejos (site officiel)",
+        "url": "https://descalzosviejos.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Decanter (vins de Ronda)",
+        "url": "https://www.decanter.com/",
+        "date": "2026-06"
+      }
+    ]
+  }
+]

@@ -71,10 +71,10 @@
     "layout": null,
     "claims": "atmosphere",
     "credit": {
-      "source": "unsplash",
-      "photoId": "test5",
-      "photographer": "Test Photographer",
-      "license": "unsplash-standard"
+      "source": "wikimedia",
+      "photoId": "Plat Test Fixture.jpg",
+      "photographer": "Témoin Fixture",
+      "license": "CC BY-SA 4.0"
     },
     "sha256": "plat-test-img-sha",
     "visionChecked": "2026-06-11"

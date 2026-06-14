@@ -1,0 +1,329 @@
+---
+// ContainerSurvol — le CONTAINER « survol » v3 (ADR-5, modele-voyage-container-decisions.md).
+// Rendu de /[dest]/ quand episodic=true : (1) un HOOK narratif (la tension du voyage entier,
+// voix de Martin), (2) une grille factuelle ultra-condensée, (3) des TUILES d'épisodes (le hook
+// réel de chaque chapitre, photo + titre accrocheur). La résolution des images/liens se fait dans
+// la route (où vivent resolveSlot + le manifest) ; ce composant ne reçoit que des données prêtes.
+// CSS scopé OK : ce composant rend son propre markup (aucun sous-composant), contrairement à
+// EpisodeLayout (is:global obligatoire car .beat-card etc. sont rendus par des sous-composants).
+import ImageCredits from './ImageCredits.astro';
+interface Fact {
+  value: string;
+  label: string;
+}
+interface Tile {
+  href: string | null; // null = chapitre à venir (pas d'épisode) → pas de lien mort
+  kicker: string;
+  title: string;
+  teaser: string;
+  imageUrl: string | null; // null = pas d'image scellée → placeholder typographique (zéro stock menteur)
+  initial: string;         // 1re lettre du titre, pour le placeholder
+  live: boolean;
+}
+interface CreditItem {
+  alt?: string;
+  credit?: { source?: string; photographer?: string; license?: string; photoId?: string } | null;
+}
+interface Props {
+  hookKicker: string;
+  hookTitle: string;
+  hookBody: string;
+  hookImageUrl?: string;
+  facts: Fact[];
+  tilesIntro: string;
+  tiles: Tile[];
+  imageCredits?: CreditItem[];
+}
+const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles, imageCredits = [] } = Astro.props;
+---
+
+<main id="main-content" class="survol">
+
+  <header class="survol-hero">
+    {hookImageUrl && (
+      <img class="survol-hero-img" src={hookImageUrl} alt="" aria-hidden="true" />
+    )}
+    <div class="survol-hero-scrim" aria-hidden="true"></div>
+    <div class="survol-hero-inner">
+      {hookKicker && <span class="survol-kicker">{hookKicker}</span>}
+      <h1 class="survol-title">{hookTitle}</h1>
+      <p class="survol-body">{hookBody}</p>
+      <span class="survol-scroll-hint" aria-hidden="true">↓</span>
+    </div>
+  </header>
+
+  <section class="survol-facts reveal" aria-label="Le voyage en bref">
+    {facts.map((f) => (
+      <div class="fact">
+        <span class="fact-value">{f.value}</span>
+        <span class="fact-label">{f.label}</span>
+      </div>
+    ))}
+  </section>
+
+  <section class="survol-chapters" aria-label="Les chapitres du voyage">
+    {tilesIntro && <p class="chapters-intro reveal">{tilesIntro}</p>}
+    <ul class="tile-grid">
+      {tiles.map((t) => {
+        const Tag = t.href ? 'a' : 'div';
+        return (
+          <li class:list={['tile', 'reveal', t.live ? 'tile-live' : 'tile-coming']}>
+            <Tag class="tile-link" {...(t.href ? { href: t.href } : {})}>
+              {t.imageUrl ? (
+                <div class="tile-media">
+                  {/* alt="" : l'image est contextuelle, le <h2> titre la nomme déjà dans le même lien
+                      (WCAG H2 — éviter l'annonce en double par les lecteurs d'écran). */}
+                  <img src={t.imageUrl} alt="" loading="lazy" />
+                </div>
+              ) : (
+                <div class="tile-media tile-media-empty" aria-hidden="true">
+                  <span>{t.initial}</span>
+                </div>
+              )}
+              <div class="tile-body">
+                {t.kicker && <span class="tile-kicker">{t.kicker}</span>}
+                <h2 class="tile-title">{t.title}</h2>
+                {t.teaser && <p class="tile-teaser">{t.teaser}</p>}
+                <span class="tile-cta">{t.live ? 'Ouvrir l’épisode →' : 'À venir'}</span>
+              </div>
+            </Tag>
+          </li>
+        );
+      })}
+    </ul>
+  </section>
+
+  <ImageCredits items={imageCredits} tone="light" />
+
+</main>
+
+<style>
+  .survol { background: var(--bg); }
+
+  /* ——— Hook (cold open du voyage entier) ——— */
+  .survol-hero {
+    position: relative;
+    min-height: 86vh;
+    min-height: 86svh;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background: var(--deep);
+  }
+  .survol-hero-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .survol-hero-scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to bottom,
+      rgba(42, 33, 24, 0.46),
+      rgba(42, 33, 24, 0.34) 30%,
+      rgba(42, 33, 24, 0.42) 55%,
+      rgba(42, 33, 24, 0.88)
+    );
+  }
+  .survol-hero-inner {
+    position: relative;
+    z-index: 2;
+    max-width: 760px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 24px 12vh;
+  }
+  .survol-kicker {
+    display: block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    /* fallback --terre : un thème épisodique sans --gold (ex. crete) ne tombe pas sur --text invisible */
+    color: var(--gold, var(--terre));
+    /* protège le contraste sur la partie claire de l'image (scrim léger en haut) — WCAG AA */
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
+    margin-bottom: 16px;
+  }
+  .survol-title {
+    font-family: var(--font-serif);
+    font-size: clamp(38px, 7.5vw, 76px);
+    font-weight: 300;
+    line-height: 1.03;
+    color: #fff;
+    text-shadow: 0 2px 24px rgba(0, 0, 0, 0.45);
+  }
+  .survol-body {
+    margin-top: 22px;
+    max-width: 620px;
+    font-size: clamp(15px, 2.1vw, 18px);
+    line-height: 1.75;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  .survol-scroll-hint {
+    display: block;
+    margin-top: 26px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    animation: survol-hint 2s ease-in-out infinite;
+  }
+  @keyframes survol-hint { 50% { transform: translateY(7px); } }
+  @media (prefers-reduced-motion: reduce) { .survol-scroll-hint { animation: none; } }
+
+  /* ——— Grille factuelle ultra-condensée ——— */
+  .survol-facts {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 24px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+  }
+  .fact {
+    text-align: center;
+    padding: 8px 14px;
+    border-right: 1px solid var(--border);
+  }
+  .fact:last-child { border-right: none; }
+  .fact-value {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: clamp(19px, 2.6vw, 26px);
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.2;
+  }
+  .fact-label {
+    display: block;
+    margin-top: 8px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+    line-height: 1.4;
+  }
+  @media (max-width: 640px) {
+    .survol-facts { grid-template-columns: 1fr 1fr; gap: 0; padding: 28px 16px; }
+    .fact { padding: 16px 12px; border-right: none; border-bottom: 1px solid var(--border); }
+    .fact:nth-child(odd) { border-right: 1px solid var(--border); }
+    .fact:nth-last-child(-n + 2) { border-bottom: none; }
+  }
+
+  /* ——— Chapitres (tuiles d'épisodes) ——— */
+  .survol-chapters {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 24px 84px;
+  }
+  .chapters-intro {
+    text-align: center;
+    max-width: 560px;
+    margin: 0 auto 40px;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .tile-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+    gap: 22px;
+  }
+  .tile {
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--white);
+    border: 1px solid var(--border);
+    transition: transform var(--transition), box-shadow var(--transition);
+  }
+  .tile-live:hover,
+  .tile-live:focus-within {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg);
+  }
+  .tile-link {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+  .tile-live .tile-link:focus-visible {
+    outline: 2px solid var(--terre);
+    outline-offset: -2px;
+  }
+  .tile-media {
+    aspect-ratio: 16 / 10;
+    overflow: hidden;
+    background: var(--sand);
+  }
+  .tile-media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s var(--transition);
+  }
+  .tile-live:hover .tile-media img { transform: scale(1.04); }
+  .tile-media-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--sand), var(--mer-light));
+  }
+  .tile-media-empty span {
+    font-family: var(--font-serif);
+    font-size: 72px;
+    font-weight: 300;
+    color: color-mix(in oklch, var(--deep) 18%, transparent);
+  }
+  .tile-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 18px 20px 22px;
+  }
+  .tile-kicker {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--terre);
+    margin-bottom: 9px;
+  }
+  .tile-title {
+    font-family: var(--font-serif);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.15;
+    color: var(--text);
+  }
+  .tile-teaser {
+    margin-top: 10px;
+    flex: 1;
+    font-size: 14px;
+    line-height: 1.65;
+    color: var(--muted);
+  }
+  .tile-cta {
+    margin-top: 18px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--mer);
+  }
+  /* « à venir » : non cliquable → pas de tap-highlight WebKit trompeur sur iOS, et un signal
+     visuel net (estompé) qui le distingue d'une tuile-épisode active au doigt. */
+  .tile-coming { background: var(--bg); opacity: 0.62; }
+  .tile-coming .tile-link { pointer-events: none; }
+  .tile-coming .tile-kicker { color: var(--muted); }
+  .tile-coming .tile-cta { color: var(--muted); }
+
+  @media (max-width: 600px) {
+    .survol-hero-inner { padding-bottom: 14vh; }
+    .survol-chapters { padding: 8px 16px 64px; }
+    .tile-grid { gap: 16px; }
+  }
+</style>

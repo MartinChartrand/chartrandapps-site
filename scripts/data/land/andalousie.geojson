@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.6,
+              35.9
+            ],
+            [
+              -1.4,
+              35.9
+            ],
+            [
+              -1.4,
+              38.8
+            ],
+            [
+              -7.6,
+              38.8
+            ],
+            [
+              -7.6,
+              35.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "andalousie",
+        "note": "Polygone bbox approximatif — remplacer par un landmask OSM précis si besoin."
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+---
+// Route ÉPISODE généralisée (ADR-2) — un scrollytelling par base à /[dest]/[base]/.
+// getStaticPaths sur la collection `episodes` : ne génère QUE les bases qui ont une fiche.
+// La page lit la fiche (OUTPUT de la machine à saucisse), résout coords/pills/images depuis
+// les POIs vérifiés (la fiche ne duplique jamais une URL/coordonnée), et rend via les mêmes
+// composants que le proto. La prod v2 (/[dest]/) n'est PAS touchée — route parallèle, additive.
+import EpisodeLayout from '../../../layouts/EpisodeLayout.astro';
+import ScrollyMapSection from '../../../components/episode/ScrollyMapSection.astro';
+import SceneSection from '../../../components/episode/SceneSection.astro';
+import CarnetSection from '../../../components/episode/CarnetSection.astro';
+import ImageCredits from '../../../components/ImageCredits.astro';
+import { getCollection } from 'astro:content';
+import { createEpisode, type Pill, type CarnetRow } from '../../../lib/episode';
+
+export async function getStaticPaths() {
+  const episodes = await getCollection('episodes');
+  return episodes.map((e) => {
+    const [dest, , base] = e.id.split('/'); // "<dest>/episodes/<base>"
+    return { params: { dest, base } };
+  });
+}
+
+const { dest, base } = Astro.params;
+
+const [allDestinations, allBases, allEpisodes] = await Promise.all([
+  getCollection('destinations'),
+  getCollection('bases'),
+  getCollection('episodes'),
+]);
+
+const destination = allDestinations.find((x) => x.data.slug === dest);
+if (!destination) throw new Error(`Destination introuvable : ${dest}`);
+const d = destination.data;
+
+const episodeEntry = allEpisodes.find((e) => e.id === `${dest}/episodes/${base}`);
+if (!episodeEntry) throw new Error(`Épisode introuvable : ${dest}/${base}`);
+const ep = episodeEntry.data;
+
+// chapterTotal : annoncé dans destination.json, sinon nombre de bases existantes.
+const destBasesCount = allBases.filter((b) => {
+  const fp = (b as any).filePath as string | undefined;
+  return fp ? fp.includes(`/${dest}/`) : b.id.startsWith(`${dest}/`);
+}).length;
+const chapterTotal = d.chapterTotal ?? destBasesCount;
+
+// Helpers + données du chapitre (ADR-7) : carnet, résolution d'images, pills, beats.
+const {
+  bd, pois, dishes, gems, imageManifest,
+  resolveSlot, poi, poiPills, toBeat, carnetRow,
+  mapMarkers, allCoords, kmlCount, byKind, proseBlocks,
+} = await createEpisode(dest, base, { carnetThumbs: ep.carnetThumbs });
+
+// ——— Résolution fiche → shapes des composants (coords/pills/images depuis les POIs) ———
+function resolvePill(p: any): Pill {
+  if ('url' in p) return { label: p.label, url: p.url };            // lien littéral
+  return { label: p.label, url: (poi(p.poiRef).links as any)[p.link] }; // dérivé du POI
+}
+function pillsOf(o: { pills?: any[]; poiRef?: string }): Pill[] {
+  if (o.pills) return o.pills.map(resolvePill);
+  if (o.poiRef) return poiPills(poi(o.poiRef));
+  return [];
+}
+const coordsStr = (id: string) => `${poi(id).coords!.lat},${poi(id).coords!.lng}`;
+function resolveBeat(b: any) {
+  return toBeat({
+    kicker: b.kicker,
+    body: b.body,
+    fly: b.focusPoi ? `${coordsStr(b.focusPoi)},${b.zoom}` : undefined,
+    bounds: b.boundsPois ? b.boundsPois.map(coordsStr).join(';') : undefined,
+    targets: b.targets,
+    thumb: b.thumb,
+    thumbAlt: b.thumbAlt,
+    pills: pillsOf(b),
+  });
+}
+function resolveScene(s: any, i: number) {
+  return {
+    id: s.id ?? `scene-${i + 1}`,
+    num: i + 1,
+    kicker: s.kicker,
+    title: s.title,
+    imageSrc: resolveSlot(s.image),
+    alt: s.alt,
+    intro: s.intro,
+    reco: s.reco,
+    via: s.via,
+    quote: s.quote,
+    pills: pillsOf(s),
+  };
+}
+
+const coldOpenBeats = ep.coldOpen.map(resolveBeat);
+const montageComponentBeats = ep.montage.map(resolveBeat);
+const sceneData = ep.scenes.map(resolveScene);
+
+// ——— Carnet (mode terrain) — groupes pilotés par la fiche, lieux/dishes/gems résolus ici ———
+const carnetListGroups = ep.carnet.groups.map((g) => {
+  const rows: CarnetRow[] = byKind(g.kinds).map(carnetRow);
+  if (g.kinds.includes('hotel')) {
+    for (const e of (bd.accomExtras ?? []) as any[]) {
+      rows.push({
+        thumbSrc: e.image ? resolveSlot(e.image) : undefined,
+        thumbAlt: e.name,
+        name: e.name,
+        price: e.price || undefined,
+        blurb: e.blurb,
+        pills: (e.links ?? []) as Pill[],
+        forcePillRow: true,
+      });
+    }
+  }
+  return { type: 'list' as const, title: g.label, rows, footer: g.footer };
+});
+const proseGroups = proseBlocks.map((b: any) => ({
+  type: 'prose' as const,
+  title: b.label as string,
+  body: b.body as string,
+  pills: (b.links ?? []) as Pill[],
+}));
+const dishesGroup = {
+  type: 'list' as const,
+  title: ep.carnet.dishesTitle,
+  rows: dishes.map((di) => ({
+    thumbSrc: di.image ? resolveSlot(di.image) : undefined,
+    thumbAlt: di.title,
+    thumbFood: true,
+    name: di.title,
+    blurb: di.body,
+    pills: (di.links ?? []) as Pill[],
+  })) as CarnetRow[],
+};
+const gemsGroup = {
+  type: 'list' as const,
+  title: ep.carnet.gemsTitle,
+  rows: gems.map((ge) => ({
+    thumbSrc: ge.image ? resolveSlot(ge.image) : undefined,
+    thumbAlt: ge.title,
+    name: ge.title,
+    blurb: ge.body,
+    pills: (ge.links ?? []) as Pill[],
+  })) as CarnetRow[],
+};
+// Filtre les groupes-liste VIDES (pas de heading orphelin).
+const carnetAllGroups = [...carnetListGroups, ...proseGroups, dishesGroup, gemsGroup].filter(
+  (g) => g.type === 'prose' || g.rows.length > 0
+);
+
+const outroBody = ep.outro.body.replace('{count}', String(pois.length));
+
+// ——— Crédits photo (attribution légale CC-BY/SA) — tous les slots RÉELLEMENT rendus ———
+const usedSlots = new Set<string>();
+for (const b of ep.coldOpen) if (b.thumb) usedSlots.add(b.thumb);
+for (const s of ep.scenes) if (s.image) usedSlots.add(s.image);
+for (const b of ep.montage) if (b.thumb) usedSlots.add(b.thumb);
+for (const p of pois) if (p.image) usedSlots.add(p.image);
+for (const d of dishes) if (d.image) usedSlots.add(d.image);
+for (const g of gems) if (g.image) usedSlots.add(g.image);
+for (const o of Object.values(ep.carnetThumbs ?? {})) usedSlots.add((o as any).slot);
+const imageCredits = [...usedSlots]
+  .map((slot) => imageManifest.find((i) => i.slot === slot))
+  .filter((i): i is NonNullable<typeof i> => !!i)
+  .map((i) => ({ alt: i.alt, credit: i.credit }))
+  .sort((a, b) => (a.alt ?? '').localeCompare(b.alt ?? ''));
+---
+
+<EpisodeLayout
+  title={`${bd.title} — ${d.heroTitle.main}`}
+  favicon={d.theme.favicon}
+  palette={d.theme.palette}
+  description={bd.subtitle}
+  destLabel={d.heroTitle.main}
+  destHref={`/${dest}/`}
+  chapterNum={bd.order}
+  chapterTotal={chapterTotal}
+  chapterTitle={bd.title}
+  storageKey={`${dest}-${base}-mode`}
+>
+  <div class="view-episode">
+
+    <ScrollyMapSection
+      ariaLabel="Cold open — la carte"
+      markers={mapMarkers}
+      openBounds={allCoords}
+      mapId="scene-map"
+      beats={coldOpenBeats}
+    >
+      <div class="beat beat-title">
+        <div class="beat-card beat-card-title reveal">
+          <span class="ep-kicker">Chapitre {bd.order} de {chapterTotal} · {bd.nights} nuits · {bd.dates}</span>
+          <h1 class="ep-title">{bd.title}</h1>
+          <p class="ep-sub">{bd.subtitle}</p>
+          <span class="scroll-hint" aria-hidden="true">↓</span>
+        </div>
+      </div>
+    </ScrollyMapSection>
+
+    <section class="jalon">
+      <blockquote class="jalon-quote reveal">{bd.pullquote}</blockquote>
+    </section>
+
+    <SceneSection scenes={sceneData} />
+
+    <ScrollyMapSection
+      ariaLabel="Le montage — le reste du chapitre"
+      markers={mapMarkers}
+      openBounds={allCoords}
+      beats={montageComponentBeats}
+    >
+      <div class="beat beat-title">
+        <div class="beat-card beat-card-title reveal">
+          <span class="ep-kicker">Le montage</span>
+          <h2 class="montage-title">Ce que la caméra a pas eu le temps de filmer</h2>
+        </div>
+      </div>
+    </ScrollyMapSection>
+
+    <section class="outro">
+      <div class="outro-inner reveal">
+        <span class="ep-kicker">{ep.outro.kicker}</span>
+        <p class="outro-body">{outroBody}</p>
+        <button type="button" class="outro-btn" data-mode="carnet">Ouvrir le carnet</button>
+        <a class="outro-next" href={ep.outro.nextHref}>{ep.outro.nextLabel}</a>
+      </div>
+    </section>
+
+    <ImageCredits items={imageCredits} tone="dark" />
+
+  </div>
+
+  <CarnetSection
+    title={bd.title}
+    dates={bd.dates}
+    focus={bd.focus}
+    kmlHref={`/${dest}/${base}.kml`}
+    kmlDownload={`${base}.kml`}
+    kmlCount={kmlCount}
+    markers={mapMarkers}
+    openBounds={allCoords}
+    groups={carnetAllGroups}
+  />
+</EpisodeLayout>

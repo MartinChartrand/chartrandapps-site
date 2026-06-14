@@ -1,0 +1,852 @@
+[
+  {
+    "id": "hero",
+    "slot": "hero",
+    "base": null,
+    "role": "hero",
+    "file": "hero.jpg",
+    "alt": "Séville au crépuscule, les toits de la vieille ville",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1509840841025-9088ba78a826",
+      "photographer": "Henrique Ferreira",
+      "license": "unsplash-standard"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "91313a30a5fc14f150ed0a9b00e385c533ddb4b9f23de94e3ca5c6feb76ca69a",
+    "visionCheckedSemantic": {
+      "sha256": "91313a30a5fc14f150ed0a9b00e385c533ddb4b9f23de94e3ca5c6feb76ca69a",
+      "alt": "Séville au crépuscule, les toits de la vieille ville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "seville-cover",
+    "slot": "seville-cover",
+    "base": "seville",
+    "role": "cover",
+    "file": "seville-cover.jpg",
+    "alt": "Maisons colorées du quartier de Triana, Séville",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1636060939267-d791f7afd454",
+      "photographer": "Lothar Boris Piltz",
+      "license": "unsplash-standard"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "090e33c5ed81d777bb26b37fd659fd688f17462eb6d7fef8d7a7f777b0c933d4",
+    "visionCheckedSemantic": {
+      "sha256": "090e33c5ed81d777bb26b37fd659fd688f17462eb6d7fef8d7a7f777b0c933d4",
+      "alt": "Maisons colorées du quartier de Triana, Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "jamon-bellota",
+    "slot": "jamon-bellota",
+    "base": null,
+    "role": "photo",
+    "file": "jamon-bellota.jpg",
+    "alt": "Jamón ibérico de bellota, tranché",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Jamon iberico de bellota (cinco jotas).jpg",
+      "photographer": "Cantabrucu",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "d8b5ab5bf85f12e16893fcc951dc3703649b2be76193fedb9dc6f9a82fb37572",
+    "visionCheckedSemantic": {
+      "sha256": "d8b5ab5bf85f12e16893fcc951dc3703649b2be76193fedb9dc6f9a82fb37572",
+      "alt": "Jamón ibérico de bellota, tranché",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "salmorejo",
+    "slot": "salmorejo",
+    "base": null,
+    "role": "photo",
+    "file": "salmorejo.jpg",
+    "alt": "Salmorejo cordobés, crème froide de tomate",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Salmorejo cordouan.JPG",
+      "photographer": "P.Lechien",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "9b6e033374401d1fdffc97dfd05e3e2d9ebcc360a0b4174d500e0dea2cf8a07d",
+    "visionCheckedSemantic": {
+      "sha256": "9b6e033374401d1fdffc97dfd05e3e2d9ebcc360a0b4174d500e0dea2cf8a07d",
+      "alt": "Salmorejo cordobés, crème froide de tomate",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "el-rinconcillo",
+    "slot": "el-rinconcillo",
+    "base": null,
+    "role": "photo",
+    "file": "el-rinconcillo.jpg",
+    "alt": "El Rinconcillo, taverne historique de Séville (1670)",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Restaurante El Rinconcillo, Sevilla SP.jpg",
+      "photographer": "Stefano Vigorelli",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "c2617f3d28f47f58f8dd03034b1e1c8712168da9d7bf0b7af5816be8ae688362",
+    "visionCheckedSemantic": {
+      "sha256": "c2617f3d28f47f58f8dd03034b1e1c8712168da9d7bf0b7af5816be8ae688362",
+      "alt": "El Rinconcillo, taverne historique de Séville (1670)",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "giralda",
+    "slot": "giralda",
+    "base": null,
+    "role": "photo",
+    "file": "giralda.jpg",
+    "alt": "La Giralda et la cathédrale de Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Sevilla. La Giralda LCCN2017660786.jpg",
+      "photographer": "Photoglob Co., publisher",
+      "license": "Public domain"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "87f0e90b8b4b333bf13e53ca56ddfbf327fd45b781e5b0eb59baa29d5afe1096",
+    "visionCheckedSemantic": {
+      "sha256": "87f0e90b8b4b333bf13e53ca56ddfbf327fd45b781e5b0eb59baa29d5afe1096",
+      "alt": "La Giralda et la cathédrale de Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "espinacas",
+    "slot": "espinacas",
+    "base": null,
+    "role": "photo",
+    "file": "espinacas.jpg",
+    "alt": "Espinacas con garbanzos, tapa sévillane",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "GarbanzosConEspinacas.jpg",
+      "photographer": "Tubamirum at French Wikipedia",
+      "license": "Public domain"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "bd62234905121984c15a75260c19718868adf281f374f34a6246c074f90de399",
+    "visionCheckedSemantic": {
+      "sha256": "bd62234905121984c15a75260c19718868adf281f374f34a6246c074f90de399",
+      "alt": "Espinacas con garbanzos, tapa sévillane",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "fino",
+    "slot": "fino",
+    "base": null,
+    "role": "photo",
+    "file": "fino.jpg",
+    "alt": "Verre de fino, vin de Jerez",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Tapas \"Manteca\"-Cádiz.JPG",
+      "photographer": "Tamorlan",
+      "license": "CC BY 3.0"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "af476d0a2917d0b71b3f4016af0f21fd239cc9ecabfe6be965e746e316c29ed9",
+    "visionCheckedSemantic": {
+      "sha256": "af476d0a2917d0b71b3f4016af0f21fd239cc9ecabfe6be965e746e316c29ed9",
+      "alt": "Verre de fino, vin de Jerez",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "rabo-toro",
+    "slot": "rabo-toro",
+    "base": null,
+    "role": "photo",
+    "file": "rabo-toro.jpg",
+    "alt": "Rabo de toro braisé",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Cola de toro.jpg",
+      "photographer": "El Pantera",
+      "license": "CC BY-SA 3.0"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "148c873807ad518e628aae120241c5e2c1b4eff1909758de261c937ca4560803",
+    "visionCheckedSemantic": {
+      "sha256": "148c873807ad518e628aae120241c5e2c1b4eff1909758de261c937ca4560803",
+      "alt": "Rabo de toro braisé",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "dehesa-eiriz",
+    "slot": "dehesa-eiriz",
+    "base": null,
+    "role": "photo",
+    "file": "dehesa-eiriz.jpg",
+    "alt": "Cochons ibériques pata negra dans la dehesa",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Cerdo Ibérico - Higuera de la Sierra.jpg",
+      "photographer": "José Losada",
+      "license": "CC BY 2.0"
+    },
+    "visionChecked": "2026-06-13",
+    "dead": true,
+    "deadStatus": 429,
+    "sha256": "44fda6233567efff66bbbf6b9a35c3c88f3daca3d131b50235236d23ffabf346",
+    "visionCheckedSemantic": {
+      "sha256": "44fda6233567efff66bbbf6b9a35c3c88f3daca3d131b50235236d23ffabf346",
+      "alt": "Cochons ibériques pata negra dans la dehesa",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "alcazar",
+    "slot": "alcazar",
+    "base": null,
+    "role": "photo",
+    "file": "alcazar.jpg",
+    "alt": "Les jardins du Real Alcázar de Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "JardinLasDamas Alcazar Seville.jpg",
+      "photographer": "Martinvl",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "8a4534910818f8938a34926ed6cc58905c0db37bb7c1b457e710fa19a9391ad0",
+    "visionCheckedSemantic": {
+      "sha256": "8a4534910818f8938a34926ed6cc58905c0db37bb7c1b457e710fa19a9391ad0",
+      "alt": "Les jardins du Real Alcázar de Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "ceramica-triana",
+    "slot": "ceramica-triana",
+    "base": null,
+    "role": "photo",
+    "file": "ceramica-triana.jpg",
+    "alt": "Azulejos de céramique de Triana, Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Sevilla - Triana - Azulejos 12.jpg",
+      "photographer": "Zarateman",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "a371ed2da6cbb58ac0bc5c4a806b97cc7bf2ce81f53d95f50803a3c8ee4765bd",
+    "visionCheckedSemantic": {
+      "sha256": "a371ed2da6cbb58ac0bc5c4a806b97cc7bf2ce81f53d95f50803a3c8ee4765bd",
+      "alt": "Azulejos de céramique de Triana, Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "betis-triana",
+    "slot": "betis-triana",
+    "base": null,
+    "role": "photo",
+    "file": "betis-triana.jpg",
+    "alt": "Le Puente de Triana (Isabel II) sur le Guadalquivir, Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Puente de Triana, o de Isabel II, Sevilla - panoramio.jpg",
+      "photographer": "cesar.ruiz",
+      "license": "CC BY-SA 3.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "631bd79b9bccde69fa1ea2ae5b33c257d1c4f3e43df9a619e61e6eacc1cdd22e",
+    "visionCheckedSemantic": {
+      "sha256": "631bd79b9bccde69fa1ea2ae5b33c257d1c4f3e43df9a619e61e6eacc1cdd22e",
+      "alt": "Le Puente de Triana (Isabel II) sur le Guadalquivir, Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "gruta-maravillas",
+    "slot": "gruta-maravillas",
+    "base": null,
+    "role": "photo",
+    "file": "gruta-maravillas.jpg",
+    "alt": "Concrétions souterraines de la Gruta de las Maravillas, Aracena",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Gruta de las maravillas, Aracena, Huelva, 2017 02.jpg",
+      "photographer": "Benjamín Núñez González",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "e8c6cb48266bfc5d1e22951fc4e6bfc4d4e6bc7dd11f53ab70485dd4b79b0e4a",
+    "visionCheckedSemantic": {
+      "sha256": "e8c6cb48266bfc5d1e22951fc4e6bfc4d4e6bc7dd11f53ab70485dd4b79b0e4a",
+      "alt": "Concrétions souterraines de la Gruta de las Maravillas, Aracena",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "triana-pureza",
+    "slot": "triana-pureza",
+    "base": null,
+    "role": "photo",
+    "file": "triana-pureza.jpg",
+    "alt": "La Calle Pureza dans le quartier de Triana, à Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Sevilla - Triana, Calle Pureza 08.jpg",
+      "photographer": "Zarateman",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "3847100c894fc4d52895710299206498a82911fcb6abd3d6fadd6fb92d5e62eb",
+    "visionCheckedSemantic": {
+      "sha256": "3847100c894fc4d52895710299206498a82911fcb6abd3d6fadd6fb92d5e62eb",
+      "alt": "La Calle Pureza dans le quartier de Triana, à Séville",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "casa-triana-betis",
+    "slot": "casa-triana-betis",
+    "base": null,
+    "role": "photo",
+    "file": "casa-triana-betis.jpg",
+    "alt": "Les maisons colorées de la Calle Betis le long du Guadalquivir, à Triana",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Triana calle Betis 2019An001.jpg",
+      "photographer": "Anual",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "f7529130a3d1eedcbb67a447ae629120b8499b24690ffa9675fa7afd5da57f5a",
+    "visionCheckedSemantic": {
+      "sha256": "f7529130a3d1eedcbb67a447ae629120b8499b24690ffa9675fa7afd5da57f5a",
+      "alt": "Les maisons colorées de la Calle Betis le long du Guadalquivir, à Triana",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "triana-patio",
+    "slot": "triana-patio",
+    "base": null,
+    "role": "photo",
+    "file": "triana-patio.jpg",
+    "alt": "Patio andalou à arcades et azulejos d'une maison sévillane",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Casa de Pilatos - patio.jpg",
+      "photographer": "o_andras",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "12630b73ed889081ed8fe76639e02a0276ddfe85259cf88a73bff94ce8bbb0e5",
+    "visionCheckedSemantic": {
+      "sha256": "12630b73ed889081ed8fe76639e02a0276ddfe85259cf88a73bff94ce8bbb0e5",
+      "alt": "Patio andalou à arcades et azulejos d'une maison sévillane",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "azotea-morcilla",
+    "slot": "azotea-morcilla",
+    "base": null,
+    "role": "photo",
+    "file": "azotea-morcilla.jpg",
+    "alt": "Tapa de morcilla (boudin) servie dans un bar espagnol",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Tapa con morcilla-2009.jpg",
+      "photographer": "Tamorlan",
+      "license": "CC BY 3.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "a2571594838016a46647062c45060c197204a4e07a88902084cb862c46b7d7ea",
+    "visionCheckedSemantic": {
+      "sha256": "a2571594838016a46647062c45060c197204a4e07a88902084cb862c46b7d7ea",
+      "alt": "Tapa de morcilla (boudin) servie dans un bar espagnol",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "las-bellotas-carrillada",
+    "slot": "las-bellotas-carrillada",
+    "base": null,
+    "role": "photo",
+    "file": "las-bellotas-carrillada.jpg",
+    "alt": "Carrillada ibérique (joue de porc) braisée, plat servi à Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Carrillada Ibérica Sevilla.jpg",
+      "photographer": "LWY",
+      "license": "CC BY 2.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "22a8b9ec00be8fdfd7bc508fe8bc97a19f692c1d5e1283b751fbcde88f8da1ea",
+    "visionCheckedSemantic": {
+      "sha256": "22a8b9ec00be8fdfd7bc508fe8bc97a19f692c1d5e1283b751fbcde88f8da1ea",
+      "alt": "Carrillada ibérique (joue de porc) braisée, plat servi à Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "cinco-jotas",
+    "slot": "cinco-jotas",
+    "base": null,
+    "role": "photo",
+    "file": "cinco-jotas.jpg",
+    "alt": "La bodega Cinco Jotas à Jabugo, dans la sierra de Huelva",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Jabugo - 001 (30081598714).jpg",
+      "photographer": "Luis Rogelio HM",
+      "license": "CC BY-SA 2.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "818ffc22ee3d12030dd0644e89bd7c6ba5ae89c97cd7557cc6bb07ba05168842",
+    "visionCheckedSemantic": {
+      "sha256": "818ffc22ee3d12030dd0644e89bd7c6ba5ae89c97cd7557cc6bb07ba05168842",
+      "alt": "La bodega Cinco Jotas à Jabugo, dans la sierra de Huelva",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "museo-jamon",
+    "slot": "museo-jamon",
+    "base": null,
+    "role": "photo",
+    "file": "museo-jamon.jpg",
+    "alt": "Le Museo del Jamón d'Aracena, dédié au cochon ibérique",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Museu do Presunto, Aracena, Espanha (39643546925).jpg",
+      "photographer": "Rubem Porto Jr",
+      "license": "Public domain"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "3f39a26f25df298b0a2f2b3a309b03a3a0b23945d0ac75d338e4a440f603bf1a",
+    "visionCheckedSemantic": {
+      "sha256": "3f39a26f25df298b0a2f2b3a309b03a3a0b23945d0ac75d338e4a440f603bf1a",
+      "alt": "Le Museo del Jamón d'Aracena, dédié au cochon ibérique",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "alameda-colonnes",
+    "slot": "alameda-colonnes",
+    "base": null,
+    "role": "photo",
+    "file": "alameda-colonnes.jpg",
+    "alt": "Les deux colonnes romaines de l'Alameda de Hércules, surmontées des statues d'Hercule et de Jules César, à Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Columnas Hércules Julio César.jpg",
+      "photographer": "CarlosVdeHabsburgo",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "852cd07e4973a05e9b57f86920de2465e420104b1dcf0d6beb1d2dff66a579be",
+    "visionCheckedSemantic": {
+      "sha256": "852cd07e4973a05e9b57f86920de2465e420104b1dcf0d6beb1d2dff66a579be",
+      "alt": "Les deux colonnes romaines de l'Alameda de Hércules, surmontées des statues d'Hercule et de Jules César, à Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "sobretablas-plat",
+    "slot": "sobretablas-plat",
+    "base": null,
+    "role": "photo",
+    "file": "sobretablas-plat.jpg",
+    "alt": "Assiette dressée d'un menu dégustation gastronomique",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1759277513303-585be8222377",
+      "photographer": "Madeline Liu",
+      "license": "unsplash-standard"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "c575335b5e0f506c3a10901f7cc074db6d881ce0fa88e8773656c124c7e916c9",
+    "visionCheckedSemantic": {
+      "sha256": "c575335b5e0f506c3a10901f7cc074db6d881ce0fa88e8773656c124c7e916c9",
+      "alt": "Assiette dressée d'un menu dégustation gastronomique",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "mercado-triana",
+    "slot": "mercado-triana",
+    "base": null,
+    "role": "photo",
+    "file": "mercado-triana.jpg",
+    "alt": "Étals et galeries du Mercado de Triana, Séville",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Mercado de Triana.jpg",
+      "photographer": "CarlosVdeHabsburgo",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "c3f2d74bb5f1cc9f5450269cc02f2a2ec3354a40b588a537e44e2efb44be53af",
+    "visionCheckedSemantic": {
+      "sha256": "c3f2d74bb5f1cc9f5450269cc02f2a2ec3354a40b588a537e44e2efb44be53af",
+      "alt": "Étals et galeries du Mercado de Triana, Séville",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "golondrinas-bar",
+    "slot": "golondrinas-bar",
+    "base": null,
+    "role": "photo",
+    "file": "golondrinas-bar.jpg",
+    "alt": "Comptoir et tabourets dun bar à tapas espagnol de quartier",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1512805147242-c3e79caf64bf",
+      "photographer": "Austin Gardner",
+      "license": "unsplash-standard"
+    },
+    "visionChecked": "2026-06-13",
+    "sha256": "f370ab07ba98557d68816d89c1a79c41dcbd4045bb0ba30257557b59d999d978",
+    "visionCheckedSemantic": {
+      "sha256": "f370ab07ba98557d68816d89c1a79c41dcbd4045bb0ba30257557b59d999d978",
+      "alt": "Comptoir et tabourets dun bar à tapas espagnol de quartier",
+      "verdict": "match",
+      "checkedAt": "2026-06-13"
+    }
+  },
+  {
+    "id": "ronda-cover",
+    "slot": "ronda-cover",
+    "base": "ronda",
+    "role": "cover",
+    "file": "ronda-cover.jpg",
+    "alt": "Ronda au bord du Tajo : la falaise et le Puente Nuevo vus depuis l'autre versant du gouffre",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Panorama_of_Ronda.jpg",
+      "photographer": "Tesla Delacroix",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "19f094a01a31d966b30c67352aeed9dd3a51736bb50dfe49f9074b7b4505d31e",
+    "visionCheckedSemantic": {
+      "sha256": "19f094a01a31d966b30c67352aeed9dd3a51736bb50dfe49f9074b7b4505d31e",
+      "alt": "Ronda au bord du Tajo : la falaise et le Puente Nuevo vus depuis l'autre versant du gouffre",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-puente-nuevo",
+    "slot": "ronda-puente-nuevo",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-puente-nuevo.jpg",
+    "alt": "Le Puente Nuevo enjambant le gouffre du Tajo à Ronda, vue panoramique de la vieille ville sur la falaise",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "View_of_Puente_Nuevo_bridge_in_Ronda_Spain.jpg",
+      "photographer": "Wolfgang Moroder",
+      "license": "CC BY-SA 3.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "0bce451903674c890eb3d6165aa2b96126c8fb25d59e6a0288878771cae0e374",
+    "visionCheckedSemantic": {
+      "sha256": "0bce451903674c890eb3d6165aa2b96126c8fb25d59e6a0288878771cae0e374",
+      "alt": "Le Puente Nuevo enjambant le gouffre du Tajo à Ronda, vue panoramique de la vieille ville sur la falaise",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-tajo-bas",
+    "slot": "ronda-tajo-bas",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-tajo-bas.jpg",
+    "alt": "Parois calcaires du Tajo de Ronda et l'eau verte de la Guadalevín, vues depuis le fond du gouffre",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Guadalevín_River_in_Ronda._Spain_(18374633990).jpg",
+      "photographer": "Julia Kostecka",
+      "license": "CC BY 2.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "53321a1dbe760d11a1d7737387fc7fa66b3fa1bb0692bf69d0ed60a35a39d73d",
+    "visionCheckedSemantic": {
+      "sha256": "53321a1dbe760d11a1d7737387fc7fa66b3fa1bb0692bf69d0ed60a35a39d73d",
+      "alt": "Parois calcaires du Tajo de Ronda et l'eau verte de la Guadalevín, vues depuis le fond du gouffre",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-plaza-toros",
+    "slot": "ronda-plaza-toros",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-plaza-toros.jpg",
+    "alt": "Les arcades de pierre à deux niveaux et l'arène de sable de la Plaza de Toros de Ronda",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Arkaden_der_Arena_Ronda.jpg",
+      "photographer": "Marco Almbauer",
+      "license": "CC0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "db70850d7ffa657b3f42b5c7a61f4ffeb7dd7bd2ff9dfbd0fb592b4e3643c20b",
+    "visionCheckedSemantic": {
+      "sha256": "db70850d7ffa657b3f42b5c7a61f4ffeb7dd7bd2ff9dfbd0fb592b4e3643c20b",
+      "alt": "Les arcades de pierre à deux niveaux et l'arène de sable de la Plaza de Toros de Ronda",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-banos-arabes",
+    "slot": "ronda-banos-arabes",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-banos-arabes.jpg",
+    "alt": "Salle voûtée des Baños Árabes de Ronda — arcs en fer à cheval et lucarnes en étoile percées dans la voûte",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Baños_árabes_de_Ronda_(28960176504).jpg",
+      "photographer": "Ángel M. Felicísimo",
+      "license": "CC BY 2.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "6fa2b712995155e06ba83a338761cceccfa72770a284146dc9a566d788e3951e",
+    "visionCheckedSemantic": {
+      "sha256": "6fa2b712995155e06ba83a338761cceccfa72770a284146dc9a566d788e3951e",
+      "alt": "Salle voûtée des Baños Árabes de Ronda — arcs en fer à cheval et lucarnes en étoile percées dans la voûte",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-casa-rey-moro",
+    "slot": "ronda-casa-rey-moro",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-casa-rey-moro.jpg",
+    "alt": "Escalier taillé dans la roche de la mine d'eau de la Casa del Rey Moro, Ronda",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "S02_068_Ronda,_mina_de_Agua,_escalera.jpg",
+      "photographer": "Falk2",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "a7dd5cac49dce24c63408d0c2999d1c9ba8a52183135ff4d3a4c5bfe91b1f093",
+    "visionCheckedSemantic": {
+      "sha256": "a7dd5cac49dce24c63408d0c2999d1c9ba8a52183135ff4d3a4c5bfe91b1f093",
+      "alt": "Escalier taillé dans la roche de la mine d'eau de la Casa del Rey Moro, Ronda",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-mondragon",
+    "slot": "ronda-mondragon",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-mondragon.jpg",
+    "alt": "Patio mudéjar du Palacio de Mondragón à Ronda — arcs sur colonnes et oranger",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Arcos_del_Patio_Mudéjar,_Palacio_de_Mondragón_(Ronda).jpg",
+      "photographer": "José Luis Filpo Cabana",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "2ba8c47857c289b7fd00c394019b9ab36d093de214452e545de4d27372d89f90",
+    "visionCheckedSemantic": {
+      "sha256": "2ba8c47857c289b7fd00c394019b9ab36d093de214452e545de4d27372d89f90",
+      "alt": "Patio mudéjar du Palacio de Mondragón à Ronda — arcs sur colonnes et oranger",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-vino-serrania",
+    "slot": "ronda-vino-serrania",
+    "base": "ronda",
+    "role": "photo",
+    "file": "ronda-vino-serrania.jpg",
+    "alt": "Vignes en altitude de la Serranía de Ronda, collines andalouses à l'arrière-plan",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Finca_la_Sanguijuela_-_F._Schatz_-_Ronda_02.jpg",
+      "photographer": "Tyk",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "735147cd2feabcedddc02e84351c8d4def9960837fcdcdb3ac478efbb8afe2fd",
+    "visionCheckedSemantic": {
+      "sha256": "735147cd2feabcedddc02e84351c8d4def9960837fcdcdb3ac478efbb8afe2fd",
+      "alt": "Vignes en altitude de la Serranía de Ronda, collines andalouses à l'arrière-plan",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-rabo-toro",
+    "slot": "ronda-rabo-toro",
+    "base": "ronda",
+    "role": "food",
+    "file": "ronda-rabo-toro.jpg",
+    "alt": "Assiette de rabo de toro — queue de taureau braisée en sauce, servie avec des frites",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Rabo_de_toro,_Córdoba,_2016.jpg",
+      "photographer": "Draceane",
+      "license": "CC BY-SA 4.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "79d3e4463ca7e394f9cdbc3cfadab5f3c54aa1e3b610c571b1b71d0cbf699b39",
+    "visionCheckedSemantic": {
+      "sha256": "79d3e4463ca7e394f9cdbc3cfadab5f3c54aa1e3b610c571b1b71d0cbf699b39",
+      "alt": "Assiette de rabo de toro — queue de taureau braisée en sauce, servie avec des frites",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "ronda-queso-payoyo",
+    "slot": "ronda-queso-payoyo",
+    "base": "ronda",
+    "role": "food",
+    "file": "ronda-queso-payoyo.jpg",
+    "alt": "Quartier de fromage artisanal de la Sierra de Grazalema, terroir du queso payoyo",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Queso_grazalema.jpg",
+      "photographer": "Ardo Beltz",
+      "license": "CC BY-SA 3.0"
+    },
+    "visionChecked": "2026-06-14",
+    "sha256": "6465a7477ff06c6646fbde3acf9447251e3460dc69759a670ed20357adf28831",
+    "visionCheckedSemantic": {
+      "sha256": "6465a7477ff06c6646fbde3acf9447251e3460dc69759a670ed20357adf28831",
+      "alt": "Quartier de fromage artisanal de la Sierra de Grazalema, terroir du queso payoyo",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  }
+]

@@ -1,6 +1,9 @@
 ---
 // ChapterCover.astro — ARCHITECTURE §4
 // Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.chapter-cover)
+import ImageCredit from './ImageCredit.astro';
+
+interface ImageCreditData { source?: string; photographer?: string; license?: string; photoId?: string; }
 interface Props {
   title: string;
   subtitle: string;
@@ -10,9 +13,10 @@ interface Props {
   dates?: string;
   nights?: number;
   imageUrl?: string;
+  credit?: ImageCreditData;
 }
 
-const { title, subtitle, kicker, order, totalBases, dates, nights, imageUrl } = Astro.props;
+const { title, subtitle, kicker, order, totalBases, dates, nights, imageUrl, credit } = Astro.props;
 
 // chapter-num v1 : « 01 / 04 · Base 1 · 5–12 septembre · 8 nuits »
 const pad = (n: number) => String(n).padStart(2, '0');
@@ -38,6 +42,7 @@ const chapterNum = [
     <h2 class="chapter-title">{title}</h2>
     <p class="chapter-subtitle">{subtitle}</p>
   </div>
+  {imageUrl && <ImageCredit credit={credit} overlay />}
 </div>
 
 <style>

@@ -2,6 +2,8 @@
 // FoodieBlock.astro — ARCHITECTURE §4
 // Contrepartie v1 : scripts/migrate/fixtures/crete/index.html (.foodie-block)
 // Ne rend rien si dishes est vide
+import ImageCredit from './ImageCredit.astro';
+
 interface Dish {
   id: string;
   title: string;
@@ -10,7 +12,8 @@ interface Dish {
   links?: Array<{ label: string; url: string; }>;
 }
 
-interface ImageEntry { slot: string; file: string; alt: string; }
+interface ImageCreditData { source?: string; photographer?: string; license?: string; photoId?: string; }
+interface ImageEntry { slot: string; file: string; alt: string; credit?: ImageCreditData; }
 
 interface Props {
   dishes: Dish[];
@@ -42,6 +45,10 @@ function getImgSrc(slot: string): string | null {
 function getImgAlt(slot: string): string {
   return imageManifest.find((img) => img.slot === slot)?.alt ?? '';
 }
+
+function getImgCredit(slot: string): ImageCreditData | undefined {
+  return imageManifest.find((img) => img.slot === slot)?.credit;
+}
 ---
 
 {dishes.length > 0 && (
@@ -54,12 +61,15 @@ function getImgAlt(slot: string): string {
           <div class="foodie-item-name">{dish.title}</div>
           <div class="foodie-item-desc">{dish.body}</div>
           {imgSrc && (
-            <img
-              class="foodie-item-img"
-              src={imgSrc}
-              alt={getImgAlt(dish.image)}
-              loading="lazy"
-            />
+            <>
+              <img
+                class="foodie-item-img"
+                src={imgSrc}
+                alt={getImgAlt(dish.image)}
+                loading="lazy"
+              />
+              <ImageCredit credit={getImgCredit(dish.image)} />
+            </>
           )}
         </div>
       );
