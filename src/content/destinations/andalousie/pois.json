@@ -47,7 +47,7 @@
     ],
     "tier": "mid",
     "name": "Casa de Triana Luxury Suites (by Casa del Poeta)",
-    "blurb": "Calle Betis 68, maison du XIXe, 7 suites avec cuisine et terrasses donnant sur le Guadalquivir et la vieille ville en face. Le coucher de soleil que tu cherches, depuis ta chambre.",
+    "blurb": "Calle Betis 68, maison du XVIIIe-XIXe, 7 unités avec cuisine ; certaines avec terrasse ou balcon face au Guadalquivir et à la vieille ville, d'autres sur cour. Le coucher de soleil que tu cherches — vérifie que ta chambre donne sur le fleuve.",
     "signature": "",
     "image": "casa-triana-betis",
     "price": {
@@ -73,7 +73,24 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Casa de Triana (site officiel)",
+        "url": "https://casadetriana.es/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Casa del Poeta Triana Suite & Homes",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g187443-d19503458-Reviews-Casa_del_Poeta_Triana_Suite_Homes-Seville_Province_of_Seville_Andalucia.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "My Boutique Hotel",
+        "url": "https://www.myboutiquehotel.com/en/boutique-hotels-seville/casa-de-triana-luxury-suites-by-casa-del-poeta.html",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "triana-house-boutique",
@@ -111,7 +128,24 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Triana House (site officiel)",
+        "url": "https://trianahouse.com/en/hotel-boutique-triana-2/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Mr & Mrs Smith",
+        "url": "https://www.mrandmrssmith.com/luxury-hotels/triana-house-boutique-hotel",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Hotel Boutique Triana House",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g187443-d24181809-Reviews-Hotel_Boutique_Triana_House-Seville_Province_of_Seville_Andalucia.html",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "las-golondrinas",
@@ -161,7 +195,7 @@
     ],
     "tier": null,
     "name": "Casa Cuesta",
-    "blurb": "Calle Castilla, fondée en 1880, près du Mercado et du pont. Murs de céramique, guisos (ragoûts), fruits de mer — l'histoire de Triana dans une assiette, pas un menu en 5 langues.",
+    "blurb": "Calle Castilla, fondée en 1880, près du Mercado et du pont. Murs de céramique, guisos (ragoûts), fruits de mer — l'histoire de Triana dans une assiette, pas un menu en 5 langues. Au comptoir plutôt qu'en terrasse (règle générale espagnole) ; des avis 2025-2026 signalent un glissement touristique (prix gonflés). Tester un verre + une tapa au bar avant de s'installer.",
     "signature": "Rabo de toro (queue de taureau braisée) et guisos traditionnels — table d'institution, pas un bar à tapas express",
     "image": "rabo-toro",
     "price": {
@@ -187,7 +221,19 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — avis visiteurs (plus récent : fév 2026)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g187443-d1196661-Reviews-CASA_CUESTA-Seville_Province_of_Seville_Andalucia.html",
+        "date": "2026-02"
+      },
+      {
+        "creator": "Infobae España — article historique Casa Cuesta",
+        "url": "https://www.infobae.com/espana/2024/05/30/uno-de-los-restaurantes-mas-antiguos-de-sevilla-tapas-y-guisos-tradicionales-para-viajar-en-el-tiempo-sin-moverse-de-triana/",
+        "date": "2024-05"
+      }
+    ]
   },
   {
     "id": "la-azotea-gran-poder",
@@ -199,7 +245,7 @@
     ],
     "tier": null,
     "name": "La Azotea (Jesús del Gran Poder)",
-    "blurb": "Tapas créatives qui ont brassé la scène sévillane — la succursale Gran Poder est côté Alameda, fréquentée par les locaux. Plusieurs adresses existent, attention à laquelle tu réserves.",
+    "blurb": "Tapas créatives qui ont brassé la scène sévillane depuis 2009. ⚠ L'ancienne adresse Jesús del Gran Poder est devenue Marabunda en 2022 ; la branche La Azotea locals-friendly est maintenant La Tienda de La Azotea, Conde de Barajas. Évite la succursale Mateos Gago (Santa Cruz, zone touristique).",
     "signature": "Morcilla aux oignons caramélisés couronnée d'un œuf de caille ; ventrèche de thon et seiche panée à la mayo d'oloroso",
     "image": "azotea-morcilla",
     "price": {
@@ -225,7 +271,39 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Azahar Sevilla (Shawn Hennessey, local expat food writer)",
+        "url": "https://azahar-sevilla.com/sevilletapas/azotea-la-tienda/",
+        "date": "2025-12"
+      },
+      {
+        "creator": "Azahar Sevilla (Shawn Hennessey)",
+        "url": "https://azahar-sevilla.com/sevilletapas/marabunda/",
+        "date": "2022-07"
+      },
+      {
+        "creator": "Shawn Hennessey (Substack — Open Sunday & Monday in Sevilla)",
+        "url": "https://shawnhennessey.substack.com/p/open-sunday-and-monday-in-sevilla",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Come en Casa (blog gastro espagnol)",
+        "url": "https://www.comeencasa.net/2021/03/29/la-azotea-un-clasico-de-la-moderna-cocina-sevillana/",
+        "date": "2021-03"
+      },
+      {
+        "creator": "Renoir Spanish Guides",
+        "url": "https://www.renoirguides.com/single-post/2018/02/27/sevilla-la-azotea",
+        "date": "2018-02"
+      },
+      {
+        "creator": "Site officiel La Azotea Sevilla",
+        "url": "https://laazoteasevilla.com/en/",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "sobretablas",
@@ -336,7 +414,7 @@
     ],
     "tier": null,
     "name": "Mercado de Triana",
-    "blurb": "Marché couvert sur les ruines du château de San Jorge (Inquisition), Plaza del Altozano. Étals de poisson, jamón, fromages + barres gastro pour grignoter sur place.",
+    "blurb": "Marché couvert sur les ruines du château de San Jorge (Inquisition), Plaza del Altozano. Étals de poisson, jamón, fromages + barres gastro pour grignoter sur place. Note : le musée de l'Inquisition (Castillo de San Jorge) sous le marché n'a plus d'expo permanente ; en 2026, surtout un point d'info + expos temporaires intermittentes (vérifier : 955 47 02 55).",
     "signature": "",
     "image": "mercado-triana",
     "price": {
@@ -362,7 +440,29 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Ayuntamiento de Sevilla (communiqué officiel réouverture mars 2025)",
+        "url": "https://www.sevilla.org/actualidad/noticias/2025/el-castillo-de-san-jorge-reabre-como-el-gran-espacio-expositivo-del-arte-sacro-en-sevilla-con-el-impulso-del-gobierno-de-sanz",
+        "date": "2025-03"
+      },
+      {
+        "creator": "Visita Sevilla — portail officiel tourisme",
+        "url": "https://visitasevilla.es/en/castillo-de-san-jorge/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — avis visiteurs (plus récent : jan 2026)",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g187443-d2038104-Reviews-Castillo_de_San_Jorge-Seville_Province_of_Seville_Andalucia.html",
+        "date": "2026-01"
+      },
+      {
+        "creator": "Visitar Sevilla (blog local)",
+        "url": "https://www.visitarsevilla.com/castillo-de-san-jorge/",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "centro-ceramica-triana",
@@ -374,7 +474,7 @@
     ],
     "tier": null,
     "name": "Centro Cerámica Triana",
-    "blurb": "Musée dans les anciens fours à céramique de Calle Antillano Campos. Raconte le métier qui a fait Triana. Boutiques-ateliers actifs tout autour sur Calle Alfarería et Antillano Campos.",
+    "blurb": "Musée dans les anciens fours à céramique (C/ Callao 16, angle Antillano Campos). Raconte le métier qui a fait Triana. Quelques-uns des derniers ateliers du métier survivent autour sur Calle Alfarería — une tradition en déclin, pas un quartier de potiers en plein essor.",
     "signature": "",
     "image": "ceramica-triana",
     "price": {
@@ -400,7 +500,24 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "ICAS Sevilla (Institut de la Culture et des Arts)",
+        "url": "https://icas.sevilla.org/espacios/centro-ceramica/informacion-general",
+        "date": "2026-06"
+      },
+      {
+        "creator": "El Diario Andalucía",
+        "url": "https://www.eldiario.es/andalucia/pasaporte/ceramica-triana-triana-centro-ceramica-triana-sevilla-alfareria-triana_1_1056586.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Es de Triana (blog local Triana)",
+        "url": "https://esdetriana.com/calle-alfareria/",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "calle-betis-puente",
@@ -423,7 +540,7 @@
     },
     "coords": {
       "lat": 37.385,
-      "lng": -6.0,
+      "lng": -6,
       "source": "research-approx",
       "verifiedOn": "2026-06-13"
     },
@@ -439,7 +556,24 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Visita Sevilla",
+        "url": "https://visitasevilla.es/en/calle-betis/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Aromas de Sevilla (blog local)",
+        "url": "https://aromasdesevilla.com/calle-betis-triana/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Sevillaníssimo / bydays.com",
+        "url": "https://buendia.travel/es/guias/sevilla/calle-betis",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "alameda-de-hercules",
@@ -452,7 +586,7 @@
     ],
     "tier": null,
     "name": "Alameda de Hércules",
-    "blurb": "Promenade bohème au nord du centre, colonnes romaines aux extrémités. Vie de quartier réelle, terrasses où les Sévillans traînent le soir. Alternative de base à Triana.",
+    "blurb": "Promenade bohème au nord du centre : colonnes romaines à l'extrémité sud (statues d'Hercule et Jules César), lions du XVIIIe à l'autre bout. Vie de quartier réelle, terrasses où les Sévillans traînent le soir. Alternative de base à Triana.",
     "signature": "",
     "image": "alameda-colonnes",
     "price": {
@@ -478,7 +612,24 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Ayuntamiento de Sevilla (site officiel)",
+        "url": "https://www.sevilla.org/servicios/medio-ambiente-parques-jardines/parques/paseos-arbolados/alameda-de-hercules",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Sevilla por metro cuadrado (blog local)",
+        "url": "https://sevillaxm2.com/las-columnas-de-la-alameda/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Tu guía de Sevilla",
+        "url": "https://tuguiadesevilla.com/alameda-de-hercules-de-sevilla-historia-y-curiosidades/",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "real-alcazar",
@@ -490,7 +641,7 @@
     ],
     "tier": null,
     "name": "Real Alcázar de Sevilla",
-    "blurb": "Palais mudéjar, jardins, salles royales encore en usage. Billet horodaté par fenêtre de 30 min — réserve en ligne d'avance, premier créneau du matin pour la lumière et le calme.",
+    "blurb": "Palais mudéjar, jardins, salles royales encore en usage. Billet horodaté par fenêtre de 30 min — réserve en ligne d'avance, premier créneau du matin pour la lumière et le calme. Billet par créneau de 30 min, réservé d'avance ; passeport ORIGINAL physique exigé à l'entrée (pas de photo sur téléphone).",
     "signature": "",
     "image": "alcazar",
     "price": {
@@ -516,7 +667,19 @@
       "lastChecked": "2026-06-13",
       "method": "web-research"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Real Alcázar de Sevilla (site tiers officiel)",
+        "url": "https://www.realalcazarsevilla.com/es/preguntas-frecuentes-real-alcazar-de-sevilla",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Alcázar de Sevilla — Infoticketing (FAQ billetterie officielle)",
+        "url": "https://alcazardesevilla.infoticketing.com/es/faqs",
+        "date": "2026-06"
+      }
+    ]
   },
   {
     "id": "catedral-giralda",
@@ -699,7 +862,34 @@
       "method": "web-research"
     },
     "onMap": true,
-    "region": "jabugo-aracena"
+    "region": "jabugo-aracena",
+    "sources": [
+      {
+        "creator": "elmontescafe.es — Directorio Café",
+        "url": "https://elmontescafe.es/restaurante-las-bellotas/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "rutaculinaria.com",
+        "url": "https://rutaculinaria.com/restaurante-en-jabugo-restaurante-las-bellotas-66834",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Restaurante Las Bellotas",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g1941014-d12872333-Reviews-Restaurante_Las_Bellotas-Jabugo_Sierra_de_Aracena_and_Picos_de_Aroche_Natural_P.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "escapadaviajera.com — Dónde comer buen jamón en Jabugo como un local",
+        "url": "https://escapadaviajera.com/donde-comer-buen-jamon-en-jabugo-como-un-local/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "huelva24.com — Los diez mejores bares y restaurantes Sierra de Aracena",
+        "url": "https://www.huelva24.com/gurme/huelva/diez-mejores-bares-restaurantes-comer-sierra-aracena-20241025180924-nth.html",
+        "date": "2024-10"
+      }
+    ]
   },
   {
     "id": "gruta-de-las-maravillas",
