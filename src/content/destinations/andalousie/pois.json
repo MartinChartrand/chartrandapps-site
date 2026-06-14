@@ -244,8 +244,8 @@
       "eat"
     ],
     "tier": null,
-    "name": "La Azotea (Jesús del Gran Poder)",
-    "blurb": "Tapas créatives qui ont brassé la scène sévillane depuis 2009. ⚠ L'ancienne adresse Jesús del Gran Poder est devenue Marabunda en 2022 ; la branche La Azotea locals-friendly est maintenant La Tienda de La Azotea, Conde de Barajas. Évite la succursale Mateos Gago (Santa Cruz, zone touristique).",
+    "name": "La Azotea (Conde de Barajas)",
+    "blurb": "Tapas créatives qui ont brassé la scène sévillane depuis 2009. Conde de Barajas 13, centre-nord près de l'Alameda — quand t'as envie que quelqu'un ait réfléchi à l'assiette. (Plusieurs adresses : évite la succursale Mateos Gago, en zone touristique.)",
     "signature": "Morcilla aux oignons caramélisés couronnée d'un œuf de caille ; ventrèche de thon et seiche panée à la mayo d'oloroso",
     "image": "azotea-morcilla",
     "price": {
@@ -254,16 +254,16 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 37.3955,
-      "lng": -5.9945,
-      "source": "research-approx",
+      "lat": 37.3966,
+      "lng": -5.9952,
+      "source": "geocode-photon",
       "verifiedOn": "2026-06-13"
     },
     "links": {
       "official": "https://vinosytapas.laazoteasevilla.com/en/",
       "booking": null,
       "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g187443-d1507197.html",
-      "maps": "https://www.google.com/maps/search/La+Azotea+Jesus+del+Gran+Poder+Sevilla"
+      "maps": "https://www.google.com/maps/search/La+Azotea+Conde+de+Barajas+13+Sevilla"
     },
     "seasonal": false,
     "status": {
