@@ -38,6 +38,9 @@ Tout fan-out = **Workflow d'agents Sonnet** (`model: 'sonnet'` partout, sinon le
 - **Gems pratiques** : zone ZAC (char interdit dans l'Albaicín sans plaque enregistrée par l'hôtel), ZBE depuis oct. 2025 (vignette DGT), Alhambra à réserver des MOIS d'avance (créneau Nasrid horodaté).
 - **À faire** : suivre le pipeline ci-dessus, sur une branche `feat/granada`. 6 nuits (budget.json). Puis Axarquía/Casares (chapitres 4-5).
 
+## AUTRE TÂCHE OUVERTE — passe de registre public (feedback Sophie)
+Le site est public → garder la chaleur familière de Martin (tu/te, ton Bourdain) mais **couper le joual cru + anglicismes-slang**. Détail + inventaire : mémoire `registre-public-voix`. Palier 1 (couper) : « décrisses »→« files », « manges le mur »→« rates ton créneau », « killer move »/« le vrai move »→« le vrai but/geste », « sans flafla »→« sans chichi », « pèlerinage gras »→« pèlerinage charcuterie ». Palier 2 (à calibrer Sophie+Martin) : « pis » / « char ». Scope : Andalousie surtout. Puis redeploy.
+
 ## Démarrage suggéré (à froid)
 1. Lire ce doc + `docs/CONTRAT-MACHINE-A-SAUCISSE.md` + mémoire `andalousie-dogfood-seville`.
 2. `git checkout main && git pull && npm run audit` (plancher vert attendu).
