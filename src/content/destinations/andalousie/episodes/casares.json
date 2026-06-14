@@ -20,7 +20,7 @@
       "zoom": 16,
       "targets": ["casares-mirador", "casares-castillo"],
       "thumb": "casares-castillo",
-      "thumbAlt": "Le château maure et l'église en ruine au sommet du village blanc de Casares",
+      "thumbAlt": "L'Arco de la Villa, l'arche de pierre du château maure de Casares, au bout d'une ruelle pavée blanchie à la chaux",
       "poiRef": "casares-mirador",
       "sources": [
         { "creator": "Turismo Casares — Castillo de Casares", "url": "https://www.turismocasares.com/castillo-de-casares-siglo-xiii/", "date": "2026-06" }
@@ -49,7 +49,7 @@
       "kicker": "Le Castillo · le QUOI",
       "title": "Monter jusqu'à la pierre maure",
       "image": "casares-castillo",
-      "alt": "Le château maure et l'ancienne église de l'Encarnación au sommet du village blanc de Casares",
+      "alt": "L'Arco de la Villa, l'arche de pierre de l'enceinte du château maure de Casares, au bout d'une ruelle pavée blanchie à la chaux",
       "intro": "Au sommet du village, la forteresse maure et l'église en ruine de l'Encarnación, avec un petit cimetière accroché à la crête. Casares (peut-être de Hisn Qasari) tombe aux mains des Rois Catholiques en 1485, sept ans avant Grenade. On monte par les ruelles blanches ; en haut, la vallée déroule jusqu'à la Méditerranée, et le Rif marocain les jours clairs.",
       "reco": "Fais la montée en fin d'après-midi, quand la chaleur tombe, et redescends par le Mirador de la Cruz pour le coucher de soleil — Casares de profil, les toits blancs en cascade. C'est la dernière belle lumière du mois. Un verre au Bar El Castillo en haut, et le cabrito payoyo à la braise chez Sarmiento pour le souper.",
       "quote": "Sept ans avant Grenade, ce château-ci tombait déjà. On a remonté tout le fil de la conquête, de village blanc en village blanc, jusqu'à ce dernier promontoire au-dessus de la mer.",
@@ -83,7 +83,7 @@
       "boundsPois": ["casares-castillo", "casares-hedionda", "casares-crestellina"],
       "targets": ["casares-crestellina"],
       "thumb": "casares-cabrito",
-      "thumbAlt": "Cabrito payoyo rôti à la braise, le chevreau de la sierra andalouse",
+      "thumbAlt": "Une assiette de cabrito (chevreau) rôti avec des pommes de terre, sur une table de restaurant",
       "pills": [
         { "poiRef": "casares-crestellina", "link": "maps", "label": "Sierra Crestellina · Maps" },
         { "label": "Le carnet de bouche", "url": "#carnet" }
