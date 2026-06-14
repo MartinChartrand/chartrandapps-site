@@ -39,8 +39,8 @@ Tout fan-out = **Workflow d'agents Sonnet** (`model: 'sonnet'` partout, sinon le
 - **Tortilla del Sacromonte = sans image** (Commons n'a qu'une tortilla générique mexicaine — Loi 3, pas de stock menteur).
 
 ## PROCHAIN MORCEAU
-1. **Passe de registre globale** sur les 3 chapitres (Séville+Ronda+Granada) + container + landing (feedback Sophie, mémoire `registre-public-voix`). Granada déjà écrit en registre propre, mais « pis » à calibrer partout d'un coup.
-2. **Axarquía (ch.4)** : 7 nuits, San Antonio ~13-14 juin, recherche à faire. Puis Casares (étape). Cloner le pipeline Granada/Ronda sur une branche.
+1. ✅ **Passe de registre publique FAITE + déployée** (`4823241`) : slang coupé (move→astuce/geste/détour, flafla→chichi), « char »→« voiture » (×15), « pis » GARDÉ (×21, décision Martin). 0 terme résiduel en prod. Écrire les futurs chapitres directement dans ce registre.
+2. **Axarquía (ch.4)** = LE prochain morceau : 7 nuits, San Antonio ~13-14 juin, **recherche à faire** (pas de dossier encore). Cloner le pipeline Granada/Ronda sur une branche `feat/axarquia`. Puis Casares (étape-dîner).
 
 ## AUTRE TÂCHE OUVERTE — passe de registre public (feedback Sophie)
 Le site est public → garder la chaleur familière de Martin (tu/te, ton Bourdain) mais **couper le joual cru + anglicismes-slang**. Détail + inventaire : mémoire `registre-public-voix`. Palier 1 (couper) : « décrisses »→« files », « manges le mur »→« rates ton créneau », « killer move »/« le vrai move »→« le vrai but/geste », « sans flafla »→« sans chichi », « pèlerinage gras »→« pèlerinage charcuterie ». Palier 2 (à calibrer Sophie+Martin) : « pis » / « char ». Scope : Andalousie surtout. Puis redeploy.
