@@ -1698,5 +1698,953 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "granada-alcubilla-caracol",
+    "base": "granada",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Carmen de la Alcubilla del Caracol",
+    "blurb": "Un carmen — la maison-jardin d'origine maure, murée sur la rue, ouverte en terrasses vers l'intérieur — accroché au Realejo, sous les bois de l'Alhambra. Sept chambres, jardin étagé, la colline en face. Le mot, le concept, le jardin : tout vient d'Al-Andalus, et c'est exactement le genre d'endroit où on veut dormir ici plutôt que dans une chaîne du centre.",
+    "signature": "Chambre avec terrasse sur le jardin et la colline de l'Alhambra en face",
+    "image": null,
+    "price": {
+      "range": "~190–290 €/nuit (est. 2025, haute saison à confirmer)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17491,
+      "lng": -3.59311,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.alcubilladelcaracol.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Carmen%20de%20la%20Alcubilla%20del%20Caracol%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Alcubilla del Caracol (site officiel)",
+        "url": "https://www.alcubilladelcaracol.com/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Alcubilla del Caracol — chambres",
+        "url": "https://www.alcubilladelcaracol.com/en/rooms/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-capitel-nazari",
+    "base": "granada",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Hotel Casa del Capitel Nazarí",
+    "blurb": "Une maison de 1503 dans l'Albaicín bas, à deux pas de la Plaza Nueva : onze ans après la chute de Granada, on bâtit déjà avec des colonnes toscanes des vainqueurs dans une ville encore maure. Chambre avec vue sur l'Alhambra. Pas de stationnement sur place — on se gare dans un parking agréé et l'hôtel rembourse le taxi.",
+    "signature": "Chambre avec vue directe sur l'Alhambra, dans une demeure de 1503",
+    "image": null,
+    "price": {
+      "range": "~70–160 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17789,
+      "lng": -3.59458,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.hotelcasacapitel.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel%20Casa%20del%20Capitel%20Nazari%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hotel Casa del Capitel Nazarí (site officiel)",
+        "url": "https://www.hotelcasacapitel.com/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Casa del Capitel Nazarí",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g187441-d296351-Reviews-Hotel_Casa_del_Capitel_Nazari-Granada_Province_of_Granada_Andalucia.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-santa-ines",
+    "base": "granada",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Palacio de Santa Inés",
+    "blurb": "Un palais de l'Albaicín à cinq minutes de la Plaza Nueva, avec un artesonado mudéjar de 1512 et des fresques d'élèves de Raphaël (1520) dans le même patio — l'art des vaincus et celui de la Renaissance italienne côte à côte. En 1512, après la Pragmatique de 1502, les artisans qui ont sculpté ce plafond étaient déjà des morisques convertis de force : la beauté est une survie. On ne tente pas d'y arriver en char — parking concerté, taxi remboursé.",
+    "signature": "Patio à l'artesonado mudéjar de 1512 et fresques de l'école de Raphaël",
+    "image": null,
+    "price": {
+      "range": "~90–190 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17828,
+      "lng": -3.5939,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.palaciosantaines.es/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Palacio%20de%20Santa%20Ines%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Palacio de Santa Inés (site officiel)",
+        "url": "https://www.palaciosantaines.es/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Oyster — fresques (attribution école de Raphaël)",
+        "url": "https://www.oyster.com/granada/hotels/palacio-de-santa-ines/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-carmen-realejo",
+    "base": "granada",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Carmen Real del Realejo",
+    "blurb": "Un carmen rénové dans le Realejo, l'ancien quartier juif de Granada avant 1492 — terrasse, petite piscine, la ville en contrebas. Bonne base si l'Albaicín affiche complet : même esprit jardin-mur, versant sud, plus de soleil l'après-midi.",
+    "signature": "Terrasse et piscine sur les toits du Realejo",
+    "image": null,
+    "price": {
+      "range": "~80–290 €/nuit (fourchette large 2025, juin à confirmer)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17369,
+      "lng": -3.59348,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": "https://www.booking.com/hotel/es/carmen-real-del-realejo.html",
+      "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g187441-d8744132-Reviews-Carmen_Real_Del_Realejo-Granada_Province_of_Granada_Andalucia.html",
+      "maps": "https://www.google.com/maps/search/Carmen%20Real%20del%20Realejo%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Carmen Real del Realejo",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g187441-d8744132-Reviews-Carmen_Real_Del_Realejo-Granada_Province_of_Granada_Andalucia.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Hotels.com — Carmen Real del Realejo",
+        "url": "https://www.hotels.com/ho689194368/carmen-real-del-realejo-granada-spain/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-los-diamantes",
+    "base": "granada",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": "gem",
+    "name": "Los Diamantes (Calle Navas)",
+    "blurb": "La Calle Navas est une rue à touristes — sauf au numéro 28. Los Diamantes, c'est du poisson frit, un comptoir bondé de Granadinos, et la tapa offerte qui monte d'un cran à chaque verre. Même le serveur de l'Albaicín qui descend le reste de la rue te dira d'aller là. L'exception qui prouve la règle.",
+    "signature": "Fritura de pescado au comptoir, tapa offerte qui grimpe à chaque tournée",
+    "image": null,
+    "price": {
+      "range": "~8–15 €/pers au comptoir (tapa offerte avec la conso)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17373,
+      "lng": -3.59837,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://losdiamantes.es/ubicaciones/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Los%20Diamantes%20Calle%20Navas%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé dim et lun"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Los Diamantes (site officiel)",
+        "url": "https://losdiamantes.es/ubicaciones/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Tapas en Granada — Los Diamantes",
+        "url": "https://tapasengranada.es/bar/los-diamantes/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-castaneda",
+    "base": "granada",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "drink",
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Bodegas Castañeda",
+    "blurb": "Une bodega de 1927 (pas 1953, malgré ce que recopient les guides), jambons au plafond, tonneaux derrière la barre. On y boit le calicasas — un cocktail maison à recette secrète, vins et alcools forts, beaucoup plus traître qu'un vin de table — avec la tapa offerte. Prix national de gastronomie 2024. Une valeur sûre du pacte de la tapa.",
+    "signature": "Calicasas (cocktail maison secret) et tapa offerte sous les jambons",
+    "image": null,
+    "price": {
+      "range": "~10–18 €/pers au comptoir",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17689,
+      "lng": -3.59695,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://bodegascastaneda.eatbu.com/?lang=en",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bodegas%20Castaneda%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Infobae — Bodegas Castañeda (près de 100 ans)",
+        "url": "https://www.infobae.com/espana/2024/11/21/la-premiada-bodega-en-el-bajo-albaicin-que-sirve-cocina-granadina-vinos-y-vermut-desde-hace-casi-100-anos/",
+        "date": "2024-11"
+      },
+      {
+        "creator": "Canal Sur — Prix National 2024",
+        "url": "https://www.canalsur.es/noticias/andalucia/granada/",
+        "date": "2024-11"
+      }
+    ]
+  },
+  {
+    "id": "granada-bar-avila",
+    "base": "granada",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": "mid",
+    "name": "Bar Ávila",
+    "blurb": "Le classique de quartier que les guides ratent et que chaque Granadino connaît (il est pourtant indexé Repsol Solete depuis 2021 — pas une découverte, une institution). La tapa qui compte : le jamón asado, cuit à la verticale, servi avec un alioli maison. Barra serrée, pas de réservation. Bar Ávila II sur Calle San Isidro 11 quand c'est plein.",
+    "signature": "Jamón asado (cuisson verticale) et alioli maison, à la barra",
+    "image": null,
+    "price": {
+      "range": "~8–14 €/pers au comptoir (tapa offerte)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17002,
+      "lng": -3.59909,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.guiarepsol.com/es/fichas/solete/bar-avila-326481/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bar%20Avila%20Calle%20Veronica%20de%20la%20Virgen%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé dimanche"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Guía Repsol — Bar Ávila (Solete)",
+        "url": "https://www.guiarepsol.com/es/fichas/solete/bar-avila-326481/",
+        "date": "2021-01"
+      },
+      {
+        "creator": "TripAdvisor — Bar Ávila",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g187441-d1631456-Reviews-Bar_Avila-Granada_Province_of_Granada_Andalucia.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-los-manueles",
+    "base": "granada",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Los Manueles (Reyes Católicos)",
+    "blurb": "Une institution de la cuisine granadine depuis 1917 — l'original (La Manigua) a fermé en 2005, et la bonne adresse aujourd'hui c'est Reyes Católicos 61, pas la succursale ouverte en 2021 près de la cathédrale. Carte de casquería assumée : c'est ici qu'on apprend la cuisine d'abats de Granada, plato del día à 8 € (lun–jeu), menu complet à 13,90 €.",
+    "signature": "Tortilla del Sacromonte et casquería, la salle de classe de la cuisine granadine",
+    "image": null,
+    "price": {
+      "range": "plato del día 8 € (lun–jeu) · menú complet 13,90 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17628,
+      "lng": -3.5969,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.losmanueles.es/mejores-restaurantes-de-granada-centro/reyes-catolicos/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Los%20Manueles%20Reyes%20Catolicos%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Los Manueles (site officiel — historia)",
+        "url": "https://www.losmanueles.es/historia/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Los Manueles — Reyes Católicos",
+        "url": "https://www.losmanueles.es/mejores-restaurantes-de-granada-centro/reyes-catolicos/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-chikito",
+    "base": "granada",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Chikito",
+    "blurb": "Sur la Plaza del Campillo, à l'emplacement de l'ancien Rinconcillo où le groupe de Lorca se réunissait. Deux plats de mémoire de Granada : les habas con jamón (fèves et jambon, l'œuf est compris) et la tortilla del Sacromonte. Resto plus posé que les barras du centre — bon pour s'asseoir et commander à la carte.",
+    "signature": "Habas con jamón a la granaína (œuf compris) et tortilla del Sacromonte",
+    "image": null,
+    "price": {
+      "range": "habas con jamón ~14,50 € · à la carte ~25–35 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17198,
+      "lng": -3.5978,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://restaurantechikito.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Restaurante%20Chikito%20Plaza%20del%20Campillo%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé mercredi"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Restaurante Chikito (historique officiel)",
+        "url": "https://restaurantechikito.com/en/history/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Restaurante Chikito (carte)",
+        "url": "https://restaurantechikito.com/menu/carta-restaurante-chikito/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-casa-juanillo",
+    "base": "granada",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Casa Juanillo",
+    "blurb": "Tout en haut du Camino del Sacromonte, terrasse face à l'Alhambra de l'autre côté du ravin. La tortilla del Sacromonte dans son quartier d'origine — abats d'agneau, la version vraie (cervelle + criadillas) si on la demande explicitement, certains servent une version allégée sans le dire. Fermé lundi et mardi : appeler avant de monter.",
+    "signature": "Tortilla del Sacromonte en terrasse, face à l'Alhambra",
+    "image": null,
+    "price": {
+      "range": "~20–30 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.18147,
+      "lng": -3.58053,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Casa%20Juanillo%20Camino%20del%20Sacromonte%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé lun et mar · site officiel HS (500) → lien Maps seulement"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Casa Juanillo (site officiel)",
+        "url": "https://casajuanillo.es/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "GranadaInfo — Casa Juanillo",
+        "url": "https://granadainfo.com/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-la-tana",
+    "base": "granada",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "drink",
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Taberna La Tana",
+    "blurb": "Une petite cave à vins près de la Plaza del Realejo, ~80 références au verre, la D.O. Granada en vedette : les rouges d'altitude de la Contraviesa-Alpujarras, cépage vigiriega presque inconnu hors région, vignes à 1 400 m. Pour goûter le vin que personne n'associe à Granada, sans monter dans la sierra. Fermé dimanche.",
+    "signature": "Vins D.O. Granada au verre — la Contraviesa-Alpujarras d'altitude",
+    "image": null,
+    "price": {
+      "range": "verre ~3–6 € · tapas d'accompagnement",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17275,
+      "lng": -3.59609,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.tabernalatana.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Taberna%20La%20Tana%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé dimanche"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Taberna La Tana (site officiel)",
+        "url": "https://www.tabernalatana.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Ruta de los Vinos de Granada — La Tana",
+        "url": "https://rutadelosvinosdegranada.com/restaurantes/taberna-la-tana/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-alhambra",
+    "base": "granada",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Alhambra & Generalife",
+    "blurb": "La raison de venir. Quatre ensembles : l'Alcazaba (la forteresse), les Palais nasrides (Comares et les Lions, le sommet de l'art andalou), le Generalife et ses jardins, et le palais Renaissance que Charles V a planté au milieu en 1527. Sur les murs, partout, l'inscription nasride « wa la ghaliba illa Allah » — nul vainqueur sinon Dieu — gravée dans un palais devenu chrétien en 1492. Réserver le créneau horodaté des Palais nasrides des semaines à l'avance.",
+    "signature": "Les Palais nasrides — créneau horodaté à réserver tôt",
+    "image": "granada-alhambra",
+    "price": {
+      "range": "billet général jour 22,27 € (Patronato 2026 — revalider, change en janvier)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17605,
+      "lng": -3.58811,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Alhambra%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Patronato de la Alhambra y Generalife — horaires et prix",
+        "url": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Billetterie officielle Alhambra",
+        "url": "https://tickets.alhambra-patronato.es/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-mirador-san-nicolas",
+    "base": "granada",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Mirador de San Nicolás",
+    "blurb": "La photo de Granada : l'Alhambra entière de profil, la Sierra Nevada enneigée derrière, au coucher du soleil. C'est gratuit, c'est l'esplanade d'une église de l'Albaicín haut, et c'est plein de monde au sunset — y monter à pied par les ruelles blanches fait partie du truc. Pour la même vue sans la foule : le Mirador de la Lona ou la Placeta de Carvajales, un peu plus bas.",
+    "image": "granada-cover",
+    "price": {
+      "range": "gratuit · accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.18104,
+      "lng": -3.59266,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://turismo.granada.org/en/mirador-san-nicolas-viewpoint",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mirador%20de%20San%20Nicolas%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo de Granada (officiel)",
+        "url": "https://turismo.granada.org/en/mirador-san-nicolas-viewpoint",
+        "date": "2026-06"
+      },
+      {
+        "creator": "AlhambraDeGranada.org — mirador San Nicolás",
+        "url": "https://www.alhambradegranada.org/en/info/viewpoints-of-granada/san-nicolas-viewpoint-granada.asp",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-albaicin",
+    "base": "granada",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "L'Albaicín",
+    "blurb": "Le vieux quartier maure, classé UNESCO : le tissu urbain nasride intact, ruelles blanches, carmens murés, l'aljibe (citerne) à chaque coin. On monte depuis la Plaza Nueva et on se perd — c'est la seule façon. Le minibus électrique C31 fait la boucle si les jambes lâchent.",
+    "image": "granada-albaicin",
+    "price": {
+      "range": "gratuit · quartier",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.18264,
+      "lng": -3.59332,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.alhambradegranada.org/en/info/albaicin-quarter.asp",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Albaicin%20Plaza%20Larga%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "AlhambraDeGranada.org — quartier Albaicín",
+        "url": "https://www.alhambradegranada.org/en/info/albaicin-quarter.asp",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Love Granada — Albaicín",
+        "url": "https://www.lovegranada.com/places/albaicin/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-carrera-darro",
+    "base": "granada",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Carrera del Darro & Paseo de los Tristes",
+    "blurb": "La rue qui longe le Darro au pied de l'Alhambra, ponts médiévaux et façades qui penchent — souvent citée parmi les plus belles d'Europe. À mi-chemin, El Bañuelo : des bains arabes du XIe siècle, parmi les plus anciens et les mieux conservés d'Espagne, restés debout là où ceux de Séville et d'ailleurs ont disparu. Elle débouche sur le Paseo de los Tristes, face à la falaise de l'Alhambra.",
+    "image": "granada-carrera-darro",
+    "price": {
+      "range": "rue gratuite · El Bañuelo ~5 € (billet Dawla)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17858,
+      "lng": -3.59199,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://turismo.granada.org/en/banuelo",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Carrera%20del%20Darro%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo de Granada — El Bañuelo",
+        "url": "https://turismo.granada.org/en/banuelo",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Love Granada — El Bañuelo",
+        "url": "https://www.lovegranada.com/monuments/banuelo/",
+        "date": "2025-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-sacromonte",
+    "base": "granada",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Sacromonte",
+    "blurb": "La colline gitane en face de l'Albaicín, les cuevas creusées dans la roche, le berceau de la zambra — le flamenco de Granada. Le Museo Cuevas del Sacromonte montre comment on vivait dans ces grottes (~6 €). C'est ici que les abats d'agneau sont devenus la tortilla del Sacromonte : la bouffe de la misère, montée en plat-signature.",
+    "image": "granada-sacromonte",
+    "price": {
+      "range": "quartier gratuit · Museo Cuevas ~6 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.18313,
+      "lng": -3.58432,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://sacromontegranada.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Museo%20Cuevas%20del%20Sacromonte%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Museo Cuevas del Sacromonte (officiel)",
+        "url": "https://sacromontegranada.com/en/",
+        "date": "2025-06"
+      },
+      {
+        "creator": "Museo Cuevas — horaires et tarifs",
+        "url": "https://sacromontegranada.com/en/horarios-tipos-visita/",
+        "date": "2025-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-capilla-real",
+    "base": "granada",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Capilla Real",
+    "blurb": "La boucle de 1492 qui se ferme : Ferdinand et Isabelle ont choisi de se faire enterrer ici, dans la ville qu'ils venaient de prendre. Leurs gisants de marbre (avec Jeanne la Folle et Philippe le Beau) au-dessus de la crypte, la grille, et la sacristie où dorment la couronne et le sceptre d'Isabelle. À 50 m, la cathédrale plantée sur l'ancienne grande mosquée. La possession faite pierre.",
+    "image": "granada-capilla-real",
+    "price": {
+      "range": "adulte ~6 € (billet sur place ou en ligne)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.1763,
+      "lng": -3.59857,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://capillarealgranada.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Capilla%20Real%20de%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Capilla Real de Granada (site officiel)",
+        "url": "https://capillarealgranada.com/en/the-temple/the-royal-mausoleums-and-the-crypt/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wikipedia — Royal Chapel of Granada",
+        "url": "https://en.wikipedia.org/wiki/Royal_Chapel_of_Granada",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "granada-catedral",
+    "base": "granada",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Catedral de Granada",
+    "blurb": "La cathédrale Renaissance commandée par Charles V, bâtie sur la grande mosquée nasride — la nef blanche, les piliers énormes, la Capilla Mayor circulaire. Le même geste que le palais dans l'Alhambra : poser la pierre chrétienne sur la pierre musulmane, sans la cacher. À côté, l'Alcaicería, ce qui reste du souk de la soie nasride, réduit à une ruelle de boutiques.",
+    "image": null,
+    "price": {
+      "range": "adulte ~6 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.17646,
+      "lng": -3.59921,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://catedraldegranada.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Catedral%20de%20Granada%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Catedral de Granada (site officiel)",
+        "url": "https://catedraldegranada.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Turismo de Granada — Catedral",
+        "url": "https://turismo.granada.org/en/catedral",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "granada-los-tarantos",
+    "base": "granada",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Zambra aux Cuevas Los Tarantos",
+    "blurb": "La zambra dans une grotte du Sacromonte, famille fondatrice depuis 1972, 10–12 artistes, ~1 h. Trois séances : 19 h, 21 h 15, 22 h 30. Pour éviter les cars de tourisme, viser 21 h 15 — le forfait transport panoramique est branché exclusivement sur le 22 h 30, qui ramasse les groupes. 28 € (spectacle + copa), réservation directe plutôt que par les OTAs.",
+    "signature": "Zambra dans la grotte — viser la séance de 21 h 15",
+    "image": null,
+    "price": {
+      "range": "28 € (spectacle + copa)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.18121,
+      "lng": -3.58819,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.mireservaonline.es/en/services/flamencozambracuevaslostarantos.aspx",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Cuevas%20Los%20Tarantos%20Sacromonte%20Granada"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Cuevas Los Tarantos (réservation officielle)",
+        "url": "https://www.mireservaonline.es/en/services/flamencozambracuevaslostarantos.aspx",
+        "date": "2026-06"
+      },
+      {
+        "creator": "FlamencoTickets — Los Tarantos",
+        "url": "https://flamencotickets.com/cuevas-los-tarantos-granada",
+        "date": "2025-06"
+      }
+    ]
   }
 ]

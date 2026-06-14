@@ -848,5 +848,221 @@
       "verdict": "match",
       "checkedAt": "2026-06-14"
     }
+  },
+  {
+    "id": "granada-cover",
+    "slot": "granada-cover",
+    "base": "granada",
+    "role": "cover",
+    "file": "granada-cover.jpg",
+    "alt": "L'Alhambra sur sa colline dans la lumière chaude du soir, la Sierra Nevada enneigée derrière, vue de loin au-dessus des arbres",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Granada_-_View_from_Mirador_de_San_Nicolás_-_02.jpg",
+      "photographer": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "e4ef1c8f52d6b455a994e77f1b6e30755ca6da5c7674061c07a9d4bb2a5c76ac",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "e4ef1c8f52d6b455a994e77f1b6e30755ca6da5c7674061c07a9d4bb2a5c76ac",
+      "alt": "L'Alhambra sur sa colline dans la lumière chaude du soir, la Sierra Nevada enneigée derrière, vue de loin au-dessus des arbres",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "granada-alhambra",
+    "slot": "granada-alhambra",
+    "base": "granada",
+    "role": "photo",
+    "file": "granada-alhambra.jpg",
+    "alt": "La fontaine des Lions dans le Patio de los Leones de l'Alhambra — douze lions de marbre soutenant la vasque, entourés des colonnes du palais nasride",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Fountain_patio_de_los_Leones_Alhambra_Granada_Spain.jpg",
+      "photographer": "Jebulon",
+      "license": "CC0"
+    },
+    "sha256": "001c15ea7e64e31dd337c8e8e5e98aa5c867923836fdf49a9b917cb7830698f5",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "001c15ea7e64e31dd337c8e8e5e98aa5c867923836fdf49a9b917cb7830698f5",
+      "alt": "La fontaine des Lions dans le Patio de los Leones de l'Alhambra — douze lions de marbre soutenant la vasque, entourés des colonnes du palais nasride",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "granada-albaicin",
+    "slot": "granada-albaicin",
+    "base": "granada",
+    "role": "photo",
+    "file": "granada-albaicin.jpg",
+    "alt": "Ruelle pavée et blanchie à la chaux de l'Albaicín à Granada, façade d'une tetería ornée de jarres fleuries bleues",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Albaicin-Granada_(1).jpg",
+      "photographer": "Alberto-g-rovi",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "be8a52532e4cae7d2f338dfab356963ff549947a30d4afc2885afbc8b3f93b13",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "be8a52532e4cae7d2f338dfab356963ff549947a30d4afc2885afbc8b3f93b13",
+      "alt": "Ruelle pavée et blanchie à la chaux de l'Albaicín à Granada, façade d'une tetería ornée de jarres fleuries bleues",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "granada-carrera-darro",
+    "slot": "granada-carrera-darro",
+    "base": "granada",
+    "role": "photo",
+    "file": "granada-carrera-darro.jpg",
+    "alt": "La Carrera del Darro à Granada le long de la rivière, maisons ocre et muret de pierre, promeneurs sur la chaussée pavée",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Carrera_del_Darro_Granada_Spain.jpg",
+      "photographer": "Jebulon",
+      "license": "CC0"
+    },
+    "sha256": "536f9d176fe81b4e0e0ac85e611a1105b9c4d17c436e3f72de8c4d79ddf51dea",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "536f9d176fe81b4e0e0ac85e611a1105b9c4d17c436e3f72de8c4d79ddf51dea",
+      "alt": "La Carrera del Darro à Granada le long de la rivière, maisons ocre et muret de pierre, promeneurs sur la chaussée pavée",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "granada-sacromonte",
+    "slot": "granada-sacromonte",
+    "base": "granada",
+    "role": "photo",
+    "file": "granada-sacromonte.jpg",
+    "alt": "Le Museo Cuevas del Sacromonte à Granada — maisons-grottes blanches creusées dans le flanc de la colline, sous la pinède",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Museo-cuevas_del_Sacromonte_(Granada),_vista_general,_julio_de_2017.jpg",
+      "photographer": "Eunostos",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "fc8087add0b759e5a42e47a88c7a1630dd6e543c45ca3098cb63f9e0b4258702",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "fc8087add0b759e5a42e47a88c7a1630dd6e543c45ca3098cb63f9e0b4258702",
+      "alt": "Le Museo Cuevas del Sacromonte à Granada — maisons-grottes blanches creusées dans le flanc de la colline, sous la pinède",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "granada-capilla-real",
+    "slot": "granada-capilla-real",
+    "base": "granada",
+    "role": "photo",
+    "file": "granada-capilla-real.jpg",
+    "alt": "Le portail nord gothique isabelline de la Capilla Real de Granada, pierre finement sculptée et portes de bois",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Capilla_Real_de_Granada._Portada_norte.jpg",
+      "photographer": "José Luis Filpo Cabana",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "ce3fe9d7014dc7858548b8acf9d57de452dc5cdd9ec4be2a911494d77bb917c3",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "ce3fe9d7014dc7858548b8acf9d57de452dc5cdd9ec4be2a911494d77bb917c3",
+      "alt": "Le portail nord gothique isabelline de la Capilla Real de Granada, pierre finement sculptée et portes de bois",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "granada-tapa",
+    "slot": "granada-tapa",
+    "base": "granada",
+    "role": "food",
+    "file": "granada-tapa.jpg",
+    "alt": "Un verre de bière et une bouteille de bière Alhambra accompagnés d'une petite assiette de tapa (pain et cornichons) sur un comptoir de bar, province de Granada",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Cerveza_y_tapa_-_Guadix.jpg",
+      "photographer": "Lee Kyung-joon",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "8eca428f93f4179791ba10c2f26529a240767c02d51757b4d21edc20f1a6a04f",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "8eca428f93f4179791ba10c2f26529a240767c02d51757b4d21edc20f1a6a04f",
+      "alt": "Un verre de bière et une bouteille de bière Alhambra accompagnés d'une petite assiette de tapa (pain et cornichons) sur un comptoir de bar, province de Granada",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "granada-habas-jamon",
+    "slot": "granada-habas-jamon",
+    "base": "granada",
+    "role": "food",
+    "file": "granada-habas-jamon.jpg",
+    "alt": "Bol en céramique de Granada rempli de habas (fèves) mijotées au jambon, avec une cuillère, posé sur une nappe blanche",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Habitas_con_Jamón-Granada.jpg",
+      "photographer": "Tamorlan",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "0a0e896b15331fffb54b43ec5c044ac7eb87233ad818f7ce2bf856dcaf8178fe",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "0a0e896b15331fffb54b43ec5c044ac7eb87233ad818f7ce2bf856dcaf8178fe",
+      "alt": "Bol en céramique de Granada rempli de habas (fèves) mijotées au jambon, avec une cuillère, posé sur une nappe blanche",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "granada-pionono",
+    "slot": "granada-pionono",
+    "base": "granada",
+    "role": "food",
+    "file": "granada-pionono.jpg",
+    "alt": "Un pionono de Santa Fe en gros plan dans sa caissette en papier — petite pâtisserie cylindrique au dessus caramélisé, avec une cuillère",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Granada_-_Pionono_(02).jpg",
+      "photographer": "GrandCelinien",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "c2327c4228c4e16aed49cc4ec2de2741794f734d01b175f658c8f1950297cb40",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "c2327c4228c4e16aed49cc4ec2de2741794f734d01b175f658c8f1950297cb40",
+      "alt": "Un pionono de Santa Fe en gros plan dans sa caissette en papier — petite pâtisserie cylindrique au dessus caramélisé, avec une cuillère",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
   }
 ]

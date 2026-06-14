@@ -1,0 +1,155 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "Le dernier royaume",
+      "body": "Le 2 janvier 1492, Boabdil rend les clés de l'Alhambra. Sept cent quatre-vingts ans d'Al-Andalus finissent ici, dans cette ville. Mais regarde bien le palais sur la colline : il est intact. On va y revenir — parce que Granada n'a pas été détruite. Elle a été gardée. Et ça change tout.",
+      "focusPoi": "granada-alhambra",
+      "zoom": 15,
+      "targets": ["granada-alhambra"],
+      "thumb": "granada-cover",
+      "thumbAlt": "L'Alhambra sur sa colline, la Sierra Nevada derrière, vue depuis l'Albaicín",
+      "poiRef": "granada-alhambra",
+      "sources": [
+        { "creator": "Wikipedia — Treaty of Granada (1491)", "url": "https://en.wikipedia.org/wiki/Treaty_of_Granada_(1491)", "date": "2024-01" },
+        { "creator": "Patronato de la Alhambra y Generalife", "url": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "La boucle de 1492",
+      "body": "À cinq cents mètres de là, dans la Capilla Real, Ferdinand et Isabelle se sont fait enterrer — pile dans la ville qu'ils venaient de prendre. À côté, leur cathédrale est posée sur la grande mosquée. Toute la ville est un geste : poser la pierre des vainqueurs sur celle des vaincus, sans la cacher.",
+      "focusPoi": "granada-capilla-real",
+      "zoom": 16,
+      "targets": ["granada-capilla-real", "granada-catedral"],
+      "thumb": "granada-capilla-real",
+      "thumbAlt": "La Capilla Real de Granada, où reposent Ferdinand et Isabelle",
+      "poiRef": "granada-capilla-real",
+      "sources": [
+        { "creator": "Capilla Real de Granada (officiel)", "url": "https://capillarealgranada.com/en/the-temple/the-royal-mausoleums-and-the-crypt/", "date": "2024-01" }
+      ]
+    },
+    {
+      "kicker": "Le pacte de la tapa",
+      "body": "Et puis il y a l'autre Granada, celle qui se boit. Ici, un verre commandé arrive avec une tapa offerte. Gratuite. Un pacte non écrit qui a survécu à un maire qui voulait le tuer en 2022. Trois verres, trois vraies tapas, dix euros. C'est l'identité de la ville autant que le palais.",
+      "focusPoi": "granada-los-diamantes",
+      "zoom": 17,
+      "targets": ["granada-los-diamantes", "granada-castaneda"],
+      "thumb": "granada-tapa",
+      "thumbAlt": "Une bière et une tapa sur le comptoir d'un bar, province de Granada",
+      "poiRef": "granada-los-diamantes",
+      "sources": [
+        { "creator": "The Objective — la tapa gratuite de Granada (2022)", "url": "https://theobjective.com/sociedad/2022-03-31/granada-tapas-gratuitas/", "date": "2022-03" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-alhambra",
+      "kicker": "L'Alhambra · le POURQUOI",
+      "title": "Le palais que les vainqueurs ont gardé",
+      "image": "granada-alhambra",
+      "alt": "La fontaine des Lions dans le Patio de los Leones de l'Alhambra — douze lions de marbre soutenant la vasque, au cœur du palais nasride",
+      "intro": "Les Rois Catholiques auraient pu raser l'Alhambra. Ils l'ont habitée. Mieux : Charles V a planté un palais Renaissance carré en plein milieu du palais nasride, en 1527, sans démolir le reste. Sur les murs des Palais nasrides, partout, la même phrase gravée dans le stuc : « wa la ghaliba illa Allah » — nul vainqueur sinon Dieu.",
+      "reco": "Réserve le créneau horodaté des Palais nasrides des semaines à l'avance (le prix change en janvier — revalide). Prends le temps de chercher l'inscription, de la lire, de te rappeler qu'elle est restée là, intacte, dans un palais devenu chrétien le jour de la défaite. La visite de nuit, en haute saison, donne les Palais presque vides.",
+      "quote": "Un conquérant qui rase efface. Un conquérant qui garde envoie un message : ceci est à moi maintenant, jusqu'à vos prières sur les murs.",
+      "via": null,
+      "poiRef": "granada-alhambra",
+      "sources": [
+        { "creator": "Patronato de la Alhambra y Generalife", "url": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices", "date": "2026-06" },
+        { "creator": "Wikipedia — Palace of Charles V", "url": "https://en.wikipedia.org/wiki/Palace_of_Charles_V", "date": "2024-01" }
+      ]
+    },
+    {
+      "id": "scene-1492",
+      "kicker": "La Capilla Real · l'INCONFORT",
+      "title": "Le « dernier soupir » est un mensonge de 1539",
+      "image": "granada-capilla-real",
+      "alt": "La Capilla Real de Granada, chapelle funéraire des Rois Catholiques",
+      "intro": "Tout le monde connaît la scène : Boabdil pleure en regardant Granada une dernière fois, et sa mère le fustige — « pleure comme une femme ce que tu n'as pas su défendre comme un homme ». C'est beau. C'est faux. La scène a été inventée par un évêque, Antonio de Guevara, en 1539 — quarante-sept ans après les faits. Le chroniqueur officiel contemporain, Pulgar, n'en dit rien.",
+      "reco": "À la Capilla Real, regarde les gisants de marbre et la crypte en dessous, puis traverse jusqu'à la cathédrale plantée sur la mosquée. C'est là, pas dans la légende romantique, qu'est l'histoire vraie : une prise de possession méthodique, datée, gravée dans la pierre. Le 2 janvier la ville tombe ; le 31 mars, depuis l'Alhambra, on signe l'expulsion des Juifs.",
+      "quote": "On a remplacé une conquête brutale et documentée par un poème sur un col de montagne. C'est plus confortable. C'est aussi un effacement.",
+      "via": null,
+      "poiRef": "granada-capilla-real",
+      "sources": [
+        { "creator": "El Independiente de Granada — le mythe inventé par Guevara (1539)", "url": "https://www.elindependientedegranada.es/cultura/ultimo-suspiro-moro-que-invento-obispo-guadix", "date": "2024-01" },
+        { "creator": "Wikipedia — Alhambra Decree", "url": "https://en.wikipedia.org/wiki/Alhambra_Decree", "date": "2024-01" }
+      ]
+    },
+    {
+      "id": "scene-tapa",
+      "kicker": "Calle Navas · le QUOI",
+      "title": "Un verre, une tapa, un acte politique",
+      "image": "granada-tapa",
+      "alt": "Une bière et une petite assiette de tapa (pain et cornichons) sur le comptoir d'un bar, province de Granada",
+      "intro": "La tapa offerte n'est pas une promo touristique : c'est un pacte. Tu commandes un verre, on t'apporte un vrai plat avec, gratuit. Dans les bons bars de quartier, la mise monte à chaque tournée — olives d'abord, puis quelque chose de sérieux. En 2022, un maire a voulu y mettre fin pour « professionnaliser » l'offre. La ville l'a refusé. La tapa a tenu.",
+      "reco": "Reste hors des axes touristiques autour de la cathédrale. Los Diamantes au 28 de la Calle Navas — l'exception d'une rue à pièges, plein de locaux, fritura de pescado. Bodegas Castañeda (1927) pour le calicasas, un cocktail maison traître. Bar Ávila pour le jamón asado. Si on te facture la tapa, tu sors : t'es au mauvais endroit.",
+      "quote": "Le vrai test d'un bar à Granada, c'est pas la carte. C'est ce qui arrive, sans que tu le demandes, en même temps que ton verre.",
+      "via": null,
+      "poiRef": "granada-los-diamantes",
+      "sources": [
+        { "creator": "The Objective — la tapa gratuite de Granada (2022)", "url": "https://theobjective.com/sociedad/2022-03-31/granada-tapas-gratuitas/", "date": "2022-03" },
+        { "creator": "Los Diamantes (site officiel)", "url": "https://losdiamantes.es/ubicaciones/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-sacromonte",
+      "kicker": "Le Sacromonte · le CŒUR",
+      "title": "La bouffe de la misère, montée en plat-signature",
+      "image": "granada-sacromonte",
+      "alt": "Les maisons-grottes blanches du Sacromonte sur le flanc de la colline",
+      "intro": "En face de l'Albaicín, la colline des cuevas — les maisons-grottes du Sacromonte, le quartier gitan, le berceau de la zambra. C'est ici qu'est née la tortilla del Sacromonte : une omelette aux abats d'agneau, cervelle et criadillas. Les gitanos vivaient dans la misère, les moines de l'abbaye juste à côté ; les abats, c'était ce qui restait à tout le monde. La bouffe de survie devenue plat-signature.",
+      "reco": "Mange-la chez Casa Juanillo, tout en haut du Camino del Sacromonte, terrasse face à l'Alhambra (fermé lun-mar, appelle avant). Demande la version vraie — cervelle et criadillas — sinon certains servent une variante allégée sans le dire. Le soir, la zambra dans une grotte aux Cuevas Los Tarantos : vise la séance de 21 h 15, pas celle des cars de tourisme.",
+      "quote": "Granada mange ce que les vainqueurs ne voulaient pas. Les abats, les fèves, le pain de campagne. La cuisine de ceux qui restaient.",
+      "via": null,
+      "poiRef": "granada-casa-juanillo",
+      "sources": [
+        { "creator": "Directo al Paladar — tortilla del Sacromonte", "url": "https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/receta-tortilla-sacromonte-tortilla-casqueria-insignia-gastronomia-granada", "date": "2026-06" },
+        { "creator": "Museo Cuevas del Sacromonte (officiel)", "url": "https://sacromontegranada.com/en/", "date": "2025-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "La ville maure d'en bas",
+      "body": "Le circuit à pied, sans l'Alhambra : monter l'Albaicín par ses ruelles blanches jusqu'au Mirador de San Nicolás pour la vue au coucher (la vraie photo de Granada), redescendre la Carrera del Darro le long de la rivière — El Bañuelo, des bains arabes du XIᵉ restés debout — et finir au Paseo de los Tristes, face à la falaise.",
+      "boundsPois": ["granada-albaicin", "granada-mirador-san-nicolas", "granada-carrera-darro"],
+      "targets": ["granada-albaicin", "granada-mirador-san-nicolas", "granada-carrera-darro"],
+      "thumb": "granada-albaicin",
+      "thumbAlt": "Ruelle blanche typique de l'Albaicín à Granada",
+      "pills": [
+        { "poiRef": "granada-mirador-san-nicolas", "link": "official", "label": "Mirador de San Nicolás" },
+        { "poiRef": "granada-carrera-darro", "link": "official", "label": "Carrera del Darro · El Bañuelo" },
+        { "poiRef": "granada-albaicin", "link": "maps", "label": "Albaicín · Maps" }
+      ],
+      "sources": [
+        { "creator": "Turismo de Granada — Mirador San Nicolás", "url": "https://turismo.granada.org/en/mirador-san-nicolas-viewpoint", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le reste du carnet de bouche",
+      "body": "Au-delà de la tortilla : les habas con jamón chez Chikito (l'œuf compris), le pionono de Casa Ysla depuis 1897, le pan d'Alfacar IGP qui structure chaque tapa, et le vin d'altitude D.O. Granada que personne n'attend, à goûter à La Tana. Tout est dans le carnet, avec les liens et les prix.",
+      "focusPoi": "granada-chikito",
+      "zoom": 15,
+      "targets": ["granada-chikito"],
+      "thumb": "granada-habas-jamon",
+      "thumbAlt": "Assiette de habas con jamón — fèves et jambon à la granadine",
+      "pills": [{ "label": "Le carnet de bouche", "url": "#carnet" }],
+      "sources": [
+        { "creator": "Restaurante Chikito (carte officielle)", "url": "https://restaurantechikito.com/menu/carta-restaurante-chikito/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Dormir dans l'Albaicín ou le Realejo, à pied de tout. ZBE active depuis octobre 2025 : sans vignette DGT, se garer directement dans un parking agréé — jamais suivre Waze dans l'Albaicín (amende +200 €)." },
+      { "label": "Où manger", "kinds": ["resto"], "footer": "La tapa offerte tient hors des axes touristiques. Un verre = une tapa. Si on te la facture, tu sors." },
+      { "label": "À voir & faire", "kinds": ["sight", "activity"], "footer": "L'Alhambra d'abord — créneau des Palais nasrides réservé des semaines à l'avance. Le reste se marche." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le reste de Granada",
+    "body": "L'Alhambra gardée, la boucle de 1492, le pacte de la tapa, la cuisine de la survie — les {count} lieux du chapitre, tous avec leurs liens, leurs prix, pis le budget qui s'accumule, vivent dans le carnet. L'épisode c'est l'apéro ; le carnet, c'est l'outil.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/andalousie/"
+  }
+}

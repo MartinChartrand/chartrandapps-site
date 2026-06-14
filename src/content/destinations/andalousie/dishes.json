@@ -630,5 +630,203 @@
         "date": "2025-06"
       }
     ]
+  },
+  {
+    "id": "gra-tortilla-sacromonte",
+    "type": "plat",
+    "base": "granada",
+    "region": "granada",
+    "title": "Tortilla del Sacromonte",
+    "body": "L'omelette aux abats d'agneau — cervelle et criadillas — née dans les caves et l'abbaye du Sacromonte. Les gitanos y vivaient dans la misère, les moines juste à côté ; les abats, c'était ce qui restait à tout le monde. La bouffe de survie montée en plat-signature de Granada. La version vraie (cervelle et criadillas ensemble) se fait rare : demande-la explicitement, certains servent une variante allégée sans le dire. Los Manueles la fait depuis 1917.",
+    "poiRef": "granada-casa-juanillo",
+    "image": "",
+    "links": [
+      {
+        "label": "Los Manueles",
+        "url": "https://www.losmanueles.es/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Directo al Paladar — tortilla del Sacromonte",
+        "url": "https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/receta-tortilla-sacromonte-tortilla-casqueria-insignia-gastronomia-granada",
+        "date": "2026-06"
+      },
+      {
+        "creator": "GastroAndalusí — tortilla del Sacromonte",
+        "url": "https://gastroandalusi.com/tortilla-del-sacromonte/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "gra-habas-jamon",
+    "type": "plat",
+    "base": "granada",
+    "region": "granada",
+    "title": "Habas con jamón a la granaína",
+    "body": "Des fèves et du jambon dans la même poêle — et c'est là toute l'histoire de Granada. Les fèves viennent des huertas nasrides de la Vega, la cuisine des vaincus ; le jamón est le marqueur de la victoire catholique d'après 1492, présent sur les tables chrétiennes précisément pour ce qu'il excluait. Mettre les deux ensemble, c'est la grammaire secrète de la ville. Chez Chikito, l'œuf est compris dans le plat.",
+    "poiRef": "granada-chikito",
+    "image": "granada-habas-jamon",
+    "links": [
+      {
+        "label": "Restaurante Chikito",
+        "url": "https://restaurantechikito.com/en/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Andalucía.org — Restaurante Chikito",
+        "url": "https://www.andalucia.org/listing/restaurante-chikito/5149102/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wikipedia ES — Habas con jamón",
+        "url": "https://es.wikipedia.org/wiki/Habas_con_jam%C3%B3n",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "gra-pionono",
+    "type": "produit",
+    "base": "granada",
+    "region": "granada",
+    "title": "Pionono de Santa Fe",
+    "body": "Deux bouchées : un cylindre de génoise imbibée de sirop, crème à la cannelle, calotte de crème brûlée. Créé en 1897 par Casa Ysla à Santa Fe — le camp militaire d'où est partie la prise de Granada — en hommage au pape Pie IX : le cylindre pour le corps, le papier blanc pour la soutane, la calotte pour le solideo. Alfonso XIII l'a fait fournisseur royal en 1916. Une quinzaine d'établissements dans Granada, le plus central Plaza Bib-Rambla 22.",
+    "image": "granada-pionono",
+    "links": [
+      {
+        "label": "Casa Ysla / pionono.com",
+        "url": "https://pionono.com/"
+      },
+      {
+        "label": "Casa Ysla — Plaza Bib-Rambla 22 (Maps)",
+        "url": "https://www.google.com/maps/search/Casa%20Ysla%20Plaza%20Bib-Rambla%20Granada"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Casa Ysla — pastelerías (officiel)",
+        "url": "https://pionono.com/pastelerias-casa-ysla/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Love for Granada — Pionono (Alfonso XIII)",
+        "url": "https://www.loveforgranada.com/en/pionono-eng/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "gra-olla-san-anton",
+    "type": "plat",
+    "base": "granada",
+    "region": "granada",
+    "title": "Olla de San Antón",
+    "body": "Le cocido d'hiver de Granada, servi strictement autour du 17 janvier, jour de San Antón — la matanza. Fèves sèches, haricots blancs, oreille, queue, pied, côtes, morcilla, fenouil : tout l'animal, rien de perdu. L'ironie est réelle — San Antón est le patron des animaux, représenté avec un cochon à ses pieds. Hors janvier, c'est une référence culturelle : quasi introuvable au printemps ou en été.",
+    "poiRef": "granada-los-manueles",
+    "image": "",
+    "links": [
+      {
+        "label": "Los Manueles",
+        "url": "https://www.losmanueles.es/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Los Manueles (site officiel)",
+        "url": "https://www.losmanueles.es/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "El Debate — Olla de San Antón",
+        "url": "https://www.eldebate.es/espana/andalucia/20250111/plato-tradicional-unico-granada-come-enero-honor-patron-animales_259712.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "gra-pan-alfacar",
+    "type": "produit",
+    "base": "granada",
+    "region": "granada",
+    "title": "Pan de Alfacar IGP",
+    "body": "Bollos, roscos, hogazas du village d'Alfacar, à huit kilomètres : farine, eau de source d'Alfacar, levain naturel, four à bois. La légèreté tient à la minéralité de l'eau. Réputation documentée depuis le XVIIe siècle, IGP reconnue par l'UE en 2013. C'est le fond invisible de chaque tapa — l'accompagnement qui structure tout le reste.",
+    "image": "",
+    "links": [
+      {
+        "label": "Ayuntamiento de Alfacar — Pan de Alfacar",
+        "url": "https://ayuntamientodealfacar.es/municipio/pan-de-alfacar/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Ministerio de Agricultura — pliego IGP Pan de Alfacar",
+        "url": "https://www.mapa.gob.es/dam/mapa/contenido/alimentacion/temas/calidad-agroalimentaria/2017-calidad-diferenciada/nuevo_denominaciones/pliegos-de-condiciones/pliego-condiciones-agroalimentarios/pan_alfacar_2022_08_18.pdf",
+        "date": "2022-08"
+      },
+      {
+        "creator": "Ayuntamiento de Alfacar (officiel)",
+        "url": "https://ayuntamientodealfacar.es/municipio/pan-de-alfacar/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "gra-vino-granada",
+    "type": "vin",
+    "base": "granada",
+    "region": "granada",
+    "title": "Vins D.O. Granada — Contraviesa-Alpujarras",
+    "body": "Le vin que personne n'associe à Granada : des rouges d'altitude, vignes jusqu'à 1 400 m sur sol d'ardoise, cépage autochtone vigiriega presque inconnu ailleurs. Ces vignobles existaient avant 1492, cultivés sous Al-Andalus, et n'ont commencé leur virage commercial que dans les années 1970. À goûter en ville à La Tana, ~80 vins au verre.",
+    "poiRef": "granada-la-tana",
+    "image": "",
+    "links": [
+      {
+        "label": "D.O.P. Vinos de Granada (officiel)",
+        "url": "https://www.dopvinosdegranada.es/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "D.O.P. Vinos de Granada — catalogue",
+        "url": "https://www.dopvinosdegranada.es/vinos",
+        "date": "2026-06"
+      },
+      {
+        "creator": "The Olive Press — vins Alpujarra/Contraviesa",
+        "url": "https://www.theolivepress.es/spain-news/2023/03/26/wine-country-the-alpujarra-and-contraviesa-of-spains-granada-have-produced-vino-for-2000-years-and-its-still-a-corking-success/",
+        "date": "2023-03"
+      }
+    ]
+  },
+  {
+    "id": "gra-vermut-calicasas",
+    "type": "alcool",
+    "base": "granada",
+    "region": "granada",
+    "title": "Calicasas & vermut de Castañeda",
+    "body": "Le rituel apéro de Granada à la Bodegas Castañeda (1927) : le vermut maison à la pression, et surtout le calicasas — un cocktail maison à recette secrète, mêlant vins et alcools forts, beaucoup plus traître qu'un simple vin de table. Un seul, avec la tapa offerte, et la barra sous les jambons fait le reste.",
+    "poiRef": "granada-castaneda",
+    "image": "",
+    "links": [
+      {
+        "label": "Bodegas Castañeda",
+        "url": "https://casacastaneda.es/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Infobae — Bodegas Castañeda (vermut, calicasas)",
+        "url": "https://www.infobae.com/espana/2024/11/21/la-premiada-bodega-en-el-bajo-albaicin-que-sirve-cocina-granadina-vinos-y-vermut-desde-hace-casi-100-anos/",
+        "date": "2024-11"
+      },
+      {
+        "creator": "Guía Repsol — Bodegas Castañeda",
+        "url": "https://www.guiarepsol.com/es/fichas/solete/bodegas-castaneda-326583/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
