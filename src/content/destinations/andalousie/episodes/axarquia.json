@@ -1,0 +1,154 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "La fin d'Al-Andalus",
+      "body": "Granada est tombée en 1492. Mais les Morisques sont restés — jusqu'à ce que, le 11 juin 1569, des milliers d'entre eux fassent leur dernier stand sur un rocher au-dessus de Frigiliana. Ils ont perdu. Ce fut le début de l'expulsion. La vraie fin d'Al-Andalus s'est jouée ici, sur cette colline blanche.",
+      "focusPoi": "axarquia-penon",
+      "zoom": 14,
+      "targets": ["axarquia-penon", "axarquia-frigiliana"],
+      "thumb": "axarquia-cover",
+      "thumbAlt": "Le village blanc de Frigiliana cascadant sur le flanc de la Sierra Almijara",
+      "poiRef": "axarquia-penon",
+      "sources": [
+        { "creator": "Wikipedia ES — Batalla del Peñón de Frigiliana", "url": "https://es.wikipedia.org/wiki/Batalla_del_Pe%C3%B1%C3%B3n_de_Frigiliana", "date": "2024-01" },
+        { "creator": "Turismo Frigiliana — La batalla del Peñón", "url": "https://www.turismofrigiliana.es/es/la-batalla-del-penon-de-frigiliana.html", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le sucre des vaincus",
+      "body": "Au cœur de Frigiliana, dans un palais du XVIe siècle, on presse encore la canne à sucre — la dernière fabrique de miel de caña d'Europe. La canne est arabe, la mélasse est noire et amère, et on la verse sur l'aubergine frite dans tous les restaurants du village. La cuisine se souvient de ce que l'Histoire a chassé.",
+      "focusPoi": "axarquia-ingenio",
+      "zoom": 16,
+      "targets": ["axarquia-ingenio"],
+      "thumb": "axarquia-miel-cana",
+      "thumbAlt": "De l'aubergine frite arrosée de miel de caña, la mélasse de canne de Frigiliana",
+      "poiRef": "axarquia-ingenio",
+      "sources": [
+        { "creator": "Diputación de Málaga — patrimoine industriel (Ingenio)", "url": "https://www.malaga.es/en/laprovincia/patrimonio/lis_cd-19666/nuestra-senora-del-carmen-our-lady-of-mount-carmel", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "La côte turquoise",
+      "body": "Et puis il y a l'autre Axarquía, celle qui se baigne. Les falaises de Maro et leur eau turquoise, les grottes de Nerja, les sardines grillées sur la plage au feu de bois. Le béton de la Costa del Sol s'est arrêté juste avant. Ici, la côte est restée sauvage — et la table, tropicale.",
+      "focusPoi": "axarquia-maro",
+      "zoom": 14,
+      "targets": ["axarquia-maro", "axarquia-cuevas-nerja"],
+      "thumb": "axarquia-maro",
+      "thumbAlt": "Les falaises et l'eau turquoise de la Playa de Maro, près de Nerja",
+      "poiRef": "axarquia-maro",
+      "sources": [
+        { "creator": "Andalucia.com — Paraje Natural Maro-Cerro Gordo", "url": "https://www.andalucia.com/environment/protect/maro-cerrogordo.htm", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-penon",
+      "kicker": "El Fuerte · l'INCONFORT",
+      "title": "Le dernier stand, sur le rocher",
+      "image": "axarquia-penon",
+      "alt": "Vue aérienne de Frigiliana accrochée au flanc de la Sierra Almijara — le village et les pentes au-dessus, où se dressait El Fuerte en 1569",
+      "intro": "Le 11 juin 1569, jour de San Bernabé, des milliers de Morisques — hommes, femmes, enfants — se réfugient sur El Fuerte, le rocher au-dessus de Frigiliana. En face, six mille soldats royaux. L'assaut dure des heures. Deux mille morts, des milliers de captifs vendus comme esclaves. C'est la fin de la rébellion, et le signal de l'expulsion qui videra l'Espagne de ses Morisques en 1609.",
+      "reco": "Monte à El Fuerte tôt le matin (en juin, la chaleur tombe dur) — il n'y a aucun monument là-haut, juste la roche et la vue. L'Histoire, elle, est en bas : suis les douze panneaux de céramique semés dans les ruelles du Barribarto, qui racontent la bataille station par station. C'est le seul village qui a choisi de raconter sa propre défaite sur ses murs.",
+      "quote": "On vient pour le plus beau village blanc d'Espagne. On reste pour ce qu'il a sous la chaux : le lieu exact où Al-Andalus a rendu son dernier souffle.",
+      "via": null,
+      "poiRef": "axarquia-penon",
+      "sources": [
+        { "creator": "Wikipedia ES — Batalla del Peñón de Frigiliana", "url": "https://es.wikipedia.org/wiki/Batalla_del_Pe%C3%B1%C3%B3n_de_Frigiliana", "date": "2024-01" },
+        { "creator": "Andalucía Rústica — panneaux de la rébellion morisque", "url": "https://andaluciarustica.com/en/frigiliana-mosaics-of-the-moriscos-rebellion.htm", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-miel",
+      "kicker": "El Ingenio · le QUOI",
+      "title": "Le sucre que les vaincus pressent encore",
+      "image": "axarquia-miel-cana",
+      "alt": "Morceaux d'aubergine frite nappés de miel de caña, la mélasse de canne sombre de Frigiliana, dans une assiette",
+      "intro": "La canne à sucre, ce sont les Arabes qui l'ont apportée sur cette côte. Cinq siècles après l'expulsion, Frigiliana abrite la dernière fabrique de miel de caña encore en activité en Europe — une mélasse noire, amère, pressée dans un palais du XVIe siècle. On la verse sur des lamelles d'aubergine frite : berenjenas con miel de caña, dans tous les restaurants du village.",
+      "reco": "Goûte les berenjenas con miel de caña dès le premier soir — au Mirador, ou n'importe où dans Frigiliana. Et passe à l'Ingenio acheter un pot : c'est le seul endroit en Europe où ce sucre-là se fait encore. L'ironie est entière — le produit des vaincus, toujours pressé sur le lieu exact de leur défaite.",
+      "quote": "Une cuisine raconte qui est passé par là. Ici, chaque cuillerée de cette mélasse est un fantôme qu'on a chassé mais qu'on n'a jamais pu remplacer.",
+      "via": null,
+      "poiRef": "axarquia-ingenio",
+      "sources": [
+        { "creator": "Rural Sierra Sol — seul producteur de miel de caña d'Europe", "url": "https://www.ruralsierrasol.es/frigiliana-el-unico-productor-de-miel-de-cana-en-europa/", "date": "2026-06" },
+        { "creator": "Ingenio / Miel de la Torre (officiel)", "url": "https://mieldelatorre.com/en/empresa/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-espeto",
+      "kicker": "Playa de Burriana · le POURQUOI",
+      "title": "Les sardines sur le feu, les pieds dans le sable",
+      "image": "axarquia-espeto",
+      "alt": "Un espeto de sardinas grillant sur une braise de bois au bord de la plage",
+      "intro": "Six sardines embrochées sur une canne, plantées en biais dans une barque remplie de sable, grillées au feu de bois d'olivier sur la plage. L'espeto, c'est le geste des pêcheurs de Málaga depuis le XIXe siècle, et il n'a pas changé. Chez Ayo, à Burriana, la paella se cuit aussi dehors au feu, et se ressert à volonté. Ayo, c'est un des gamins de Verano Azul devenu institution.",
+      "reco": "Va chez Ayo en fin d'après-midi, commande l'espeto et la paella, et reste pour le coucher de soleil. Les meilleures sardines, ce sont les mois sans « r » — juin est parfait, elles sont grasses. Mange avec les doigts, face à la mer. C'est la récompense, après la colline et les fantômes.",
+      "quote": "Après une matinée passée sur le rocher des vaincus, six sardines et un verre de moscatel, les pieds dans le sable. Le voyage, c'est aussi savoir refermer le livre d'Histoire pour dîner.",
+      "via": null,
+      "poiRef": "axarquia-ayo",
+      "sources": [
+        { "creator": "Visita Costa del Sol — histoire de l'espeto", "url": "https://blog.visitacostadelsol.com/es/la-historia-del-famoso-espeto-de-sardinas-de-la-costa-del-sol", "date": "2026-06" },
+        { "creator": "EsNerja — Chiringuito de Ayo", "url": "https://esnerja.com/restaurante/chiringuito-de-ayo/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-cuevas",
+      "kicker": "Cuevas de Nerja · le contre-pied",
+      "title": "Avant toutes les conquêtes, les peintres des cavernes",
+      "image": "axarquia-cuevas",
+      "alt": "L'intérieur des Cuevas de Nerja : grande salle de stalactites et l'immense colonne centrale",
+      "intro": "À dix minutes de Maro, sous la montagne, une cathédrale souterraine : des salles immenses, l'une des plus grandes colonnes de stalactites du monde, et des peintures rupestres parmi les plus anciennes connues. Découvertes en 1959 par cinq gamins qui chassaient les chauves-souris. Des humains ont peint ces parois il y a des dizaines de milliers d'années.",
+      "reco": "Réserve en ligne en haute saison, et descends. Après deux jours passés dans l'histoire des Morisques et des Rois Catholiques, ces grottes remettent les pendules à l'heure : la conquête de 1492, la défaite de 1569, c'était hier. Sous Frigiliana, le temps est beaucoup plus profond que ça.",
+      "quote": "On se bat pour des terres comme si elles nous appartenaient. Puis on descend dans une grotte où quelqu'un peignait déjà, trente mille ans avant le premier roi. Ça calme.",
+      "via": null,
+      "poiRef": "axarquia-cuevas-nerja",
+      "sources": [
+        { "creator": "Cueva de Nerja (site officiel)", "url": "https://cuevadenerja.es", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "La côte sauvage et les villages blancs",
+      "body": "Le circuit hors des cars : les falaises turquoise de Maro et leur cascade sur le sable, l'Acueducto del Águila planté dans son ravin, le Balcón de Europa au coucher, et les ruelles blanches de Frigiliana sans la foule du midi. À pied et en voiture, sur sept jours, on a le temps.",
+      "boundsPois": ["axarquia-maro", "axarquia-acueducto-aguila", "axarquia-frigiliana"],
+      "targets": ["axarquia-maro", "axarquia-acueducto-aguila", "axarquia-frigiliana"],
+      "thumb": "axarquia-acueducto",
+      "thumbAlt": "L'Acueducto del Águila, aqueduc à quatre niveaux d'arches entre Nerja et Maro",
+      "pills": [
+        { "poiRef": "axarquia-maro", "link": "official", "label": "Playa de Maro" },
+        { "poiRef": "axarquia-acueducto-aguila", "link": "maps", "label": "Acueducto del Águila · Maps" },
+        { "poiRef": "axarquia-balcon-europa", "link": "official", "label": "Balcón de Europa" }
+      ],
+      "sources": [
+        { "creator": "Andalucia.com — Eagle Aqueduct", "url": "https://www.andalucia.com/nerja/eagle-aqueduct.htm", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Au-delà de l'espeto et de la miel de caña : les pasas moscatel séchées au soleil, le vin de Cómpeta, les fruits tropicaux de la côte (mangue, avocat, chirimoya), le choto al ajillo de la montagne à Canillas, et l'ajoblanco glacé. Sans oublier El Acebuchal, le village ressuscité où l'on dîne au feu de bois. Tout est dans le carnet.",
+      "focusPoi": "axarquia-competa",
+      "zoom": 13,
+      "targets": ["axarquia-competa"],
+      "thumb": "axarquia-tropical",
+      "thumbAlt": "Des chirimoyas, le fruit subtropical à la peau verte écailleuse de l'Axarquía",
+      "pills": [{ "label": "Le carnet de bouche", "url": "#carnet" }],
+      "sources": [
+        { "creator": "Conseil Régulateur DOP Chirimoya", "url": "https://www.crchirimoya.com/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Nerja pour la côte, Frigiliana (La Posada Morisca) pour le village blanc. Le Parador de Nerja est fermé pour rénovation jusqu'en 2027 — ne pas le réserver." },
+      { "label": "Où manger", "kinds": ["resto"], "footer": "L'espeto sur la plage, les tapas des Nerjeños, la montagne au feu de bois à El Acebuchal, le chivo de la sierra à Canillas." },
+      { "label": "À voir & faire", "kinds": ["sight", "activity", "plage", "winery"], "footer": "Frigiliana et ses panneaux de 1569 d'abord, puis la côte (grottes, falaises de Maro) et la montagne. Río Chíllar fermé depuis 2023 — vérifier la réouverture avant d'y aller." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le reste de l'Axarquía",
+    "body": "Le dernier stand de 1569, le sucre des vaincus, la côte turquoise, les villages qui reviennent d'entre les morts — les {count} lieux du chapitre, tous avec leurs liens, leurs prix, pis le budget qui s'accumule, vivent dans le carnet. L'épisode c'est l'apéro ; le carnet, c'est l'outil.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/andalousie/"
+  }
+}

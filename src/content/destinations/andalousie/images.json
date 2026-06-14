@@ -1064,5 +1064,245 @@
       "verdict": "match",
       "checkedAt": "2026-06-14"
     }
+  },
+  {
+    "id": "axarquia-cover",
+    "slot": "axarquia-cover",
+    "base": "axarquia",
+    "role": "cover",
+    "file": "axarquia-cover.jpg",
+    "alt": "Le village blanc de Frigiliana étagé sur le flanc de la colline, la mer derrière et la Sierra Almijara — panorama du pueblo blanco de l'Axarquía",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "FrigilianaPano3.jpg",
+      "photographer": "Aqwis",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "24c2f0849b54e89b7df944f70da5ad51eacab22f530d600ac3d29e902b3c0c53",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "24c2f0849b54e89b7df944f70da5ad51eacab22f530d600ac3d29e902b3c0c53",
+      "alt": "Le village blanc de Frigiliana étagé sur le flanc de la colline, la mer derrière et la Sierra Almijara — panorama du pueblo blanco de l'Axarquía",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-frigiliana",
+    "slot": "axarquia-frigiliana",
+    "base": "axarquia",
+    "role": "photo",
+    "file": "axarquia-frigiliana.jpg",
+    "alt": "Ruelle étroite et blanchie à la chaux de Frigiliana (Calle Alta), plantes en pot et escaliers dans le quartier morisque",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Frigiliana, the lane \"Calle Alta\", image 2.jpg",
+      "photographer": "Dguendel",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "fe8e738012f388213bf6382f633e0fd6a4ffac5e6669b9b601d2ec9af12b6944",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "fe8e738012f388213bf6382f633e0fd6a4ffac5e6669b9b601d2ec9af12b6944",
+      "alt": "Ruelle étroite et blanchie à la chaux de Frigiliana (Calle Alta), plantes en pot et escaliers dans le quartier morisque",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-penon",
+    "slot": "axarquia-penon",
+    "base": "axarquia",
+    "role": "photo",
+    "file": "axarquia-penon.jpg",
+    "alt": "Vue aérienne de Frigiliana accrochée au flanc de la Sierra Almijara — le dédale de toits du village et les pentes au-dessus, où se dressait El Fuerte",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Frigiliana_20230910.jpg",
+      "photographer": "Jorge Saturno",
+      "license": "CC BY 4.0"
+    },
+    "sha256": "51f11937d7b4642616dfe4dfab79d8ddf0f5961ed9ead92de91ad4c806cc06f0",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "51f11937d7b4642616dfe4dfab79d8ddf0f5961ed9ead92de91ad4c806cc06f0",
+      "alt": "Vue aérienne de Frigiliana accrochée au flanc de la Sierra Almijara — le dédale de toits du village et les pentes au-dessus, où se dressait El Fuerte",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-ingenio",
+    "slot": "axarquia-ingenio",
+    "base": "axarquia",
+    "role": "photo",
+    "file": "axarquia-ingenio.jpg",
+    "alt": "La large façade de pierre de l'Ingenio (Palacio de los Condes) à Frigiliana, sous les maisons blanches du village, décorée pour la feria",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Ingenio_Frigiliana.jpg",
+      "photographer": "Miguel Frutos",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "bb5d80d0e7abe3d77ebdca71a2ee83b041125c1531a4701506068382041a02df",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "bb5d80d0e7abe3d77ebdca71a2ee83b041125c1531a4701506068382041a02df",
+      "alt": "La large façade de pierre de l'Ingenio (Palacio de los Condes) à Frigiliana, sous les maisons blanches du village, décorée pour la feria",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-cuevas",
+    "slot": "axarquia-cuevas",
+    "base": "axarquia",
+    "role": "photo",
+    "file": "axarquia-cuevas.jpg",
+    "alt": "L'intérieur des Cuevas de Nerja — grande salle de stalactites et colonnes calcaires, une formation centrale illuminée",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Cueva_de_Nerja_2020.jpg",
+      "photographer": "Fernando",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "90ed7bc4dc191f4c247b41c3e17b8662d8f018950530afbcc28f602e890bc759",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "90ed7bc4dc191f4c247b41c3e17b8662d8f018950530afbcc28f602e890bc759",
+      "alt": "L'intérieur des Cuevas de Nerja — grande salle de stalactites et colonnes calcaires, une formation centrale illuminée",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-maro",
+    "slot": "axarquia-maro",
+    "base": "axarquia",
+    "role": "photo",
+    "file": "axarquia-maro.jpg",
+    "alt": "Une crique aux eaux turquoise blottie sous les falaises de Maro-Cerro Gordo, près de Nerja",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "2010 06 035. Cala en Maro.jpg",
+      "photographer": "Por los caminos de Málaga",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "d84f040b6c3057020074395647eb259e20a2fcd1d195ca2f933aded8b7e0b190",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "d84f040b6c3057020074395647eb259e20a2fcd1d195ca2f933aded8b7e0b190",
+      "alt": "Une crique aux eaux turquoise blottie sous les falaises de Maro-Cerro Gordo, près de Nerja",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-acueducto",
+    "slot": "axarquia-acueducto",
+    "base": "axarquia",
+    "role": "photo",
+    "file": "axarquia-acueducto.jpg",
+    "alt": "L'Acueducto del Águila, aqueduc du XIXe siècle à quatre niveaux d'arches de brique enjambant un ravin verdoyant près de Nerja",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Acueducto_del_Aguila.jpg",
+      "photographer": "Fjose.munoz",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "7a3654397e19f8a5f57704bc5ec0edc039866757a4572232d0cd1bb260a9050b",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "7a3654397e19f8a5f57704bc5ec0edc039866757a4572232d0cd1bb260a9050b",
+      "alt": "L'Acueducto del Águila, aqueduc du XIXe siècle à quatre niveaux d'arches de brique enjambant un ravin verdoyant près de Nerja",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-espeto",
+    "slot": "axarquia-espeto",
+    "base": "axarquia",
+    "role": "food",
+    "file": "axarquia-espeto.jpg",
+    "alt": "Des espetos de sardines embrochées sur des cannes, grillant sur les braises de bois au bord de la plage",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Sardines_04_beach_Torre_del_Mar.JPG",
+      "photographer": "gildemax",
+      "license": "CC BY-SA 2.5"
+    },
+    "sha256": "3d7775065c245a3221b52de1f26a23511e2967dba06f7f0d5093ab4b6e29589a",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "3d7775065c245a3221b52de1f26a23511e2967dba06f7f0d5093ab4b6e29589a",
+      "alt": "Des espetos de sardines embrochées sur des cannes, grillant sur les braises de bois au bord de la plage",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-miel-cana",
+    "slot": "axarquia-miel-cana",
+    "base": "axarquia",
+    "role": "food",
+    "file": "axarquia-miel-cana.jpg",
+    "alt": "Berenjenas con miel de caña — morceaux d'aubergine frite nappés de mélasse de canne sombre et brillante, dans une assiette à liseré bleu",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Berenjenas con miel de caña La Gamba de ORO.jpg",
+      "photographer": "Lagambadeoro",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "7a1aa88d64a7a5cf23c2fa7e2e4bc16e0caca5df2f521cbef7c0b12e0b02af3c",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "7a1aa88d64a7a5cf23c2fa7e2e4bc16e0caca5df2f521cbef7c0b12e0b02af3c",
+      "alt": "Berenjenas con miel de caña — morceaux d'aubergine frite nappés de mélasse de canne sombre et brillante, dans une assiette à liseré bleu",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
+  },
+  {
+    "id": "axarquia-tropical",
+    "slot": "axarquia-tropical",
+    "base": "axarquia",
+    "role": "food",
+    "file": "axarquia-tropical.jpg",
+    "alt": "Des chirimoyas (anones) à la peau verte écailleuse dans un plat blanc — le fruit subtropical emblématique de l'Axarquía",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Cherimoya_fruit_hg.jpg",
+      "photographer": "Hannes Grobe",
+      "license": "CC BY-SA 2.5"
+    },
+    "sha256": "64b82159ce05594764de0ade68fb198b24b2f81cb5901dff7282a19481318e3d",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "64b82159ce05594764de0ade68fb198b24b2f81cb5901dff7282a19481318e3d",
+      "alt": "Des chirimoyas (anones) à la peau verte écailleuse dans un plat blanc — le fruit subtropical emblématique de l'Axarquía",
+      "verdict": "match",
+      "checkedAt": "2026-06-14"
+    }
   }
 ]

@@ -2646,5 +2646,903 @@
         "date": "2025-06"
       }
     ]
+  },
+  {
+    "id": "axarquia-carabeo",
+    "base": "axarquia",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Hotel Carabeo",
+    "blurb": "Un petit hôtel-boutique de sept chambres au-dessus des falaises de Nerja, jardin suspendu sur la mer, antiquités chinées. Le Restaurant 34 sur place. Le genre d'endroit intime à deux pas du Balcón de Europa mais hors du flux des cars.",
+    "signature": "Chambre vue mer au-dessus des falaises, le Restaurant 34 en bas",
+    "image": null,
+    "price": {
+      "range": "~120–230 €/nuit (est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74627,
+      "lng": -3.87434,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.hotelcarabeo.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel%20Carabeo%20Nerja"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hotel Carabeo (site officiel)",
+        "url": "https://www.hotelcarabeo.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Hotel Carabeo — Restaurant 34",
+        "url": "https://www.hotelcarabeo.com/boutique_hotels_nerja/hotel_carabeo.asp",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-plaza-cavana",
+    "base": "axarquia",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Hotel Plaza Cavana",
+    "blurb": "Un hôtel classique sur une place du centre piéton de Nerja, deux piscines, à cinq minutes du Balcón de Europa et des plages. Pratique comme base côte pour rayonner vers Frigiliana et les villages.",
+    "signature": "Base centrale à Nerja, piscines sur le toit",
+    "image": null,
+    "price": {
+      "range": "~145–305 €/nuit (haute saison juin)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74528,
+      "lng": -3.8776,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.hotelplazacavana.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel%20Plaza%20Cavana%20Nerja"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hotel Plaza Cavana (site officiel)",
+        "url": "https://www.hotelplazacavana.com/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Plaza Cavana",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g315917-d456663-Reviews-Hotel_Plaza_Cavana-Nerja_Costa_del_Sol_Province_of_Malaga_Andalucia.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-posada-morisca",
+    "base": "axarquia",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "La Posada Morisca",
+    "blurb": "Une posada de caractère sur la route de montagne au-dessus de Frigiliana, douze chambres, terrasses face à la mer et à la sierra, parking privé. Pour dormir côté village blanc plutôt que côté plage — et se réveiller dans le décor morisque.",
+    "signature": "Chambre-terrasse face à la sierra, dans les hauteurs de Frigiliana",
+    "image": null,
+    "price": {
+      "range": "~145–225 €/nuit (−15 % sur 7 nuits, est. 2025)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.79693,
+      "lng": -3.9091,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.laposadamorisca.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/La%20Posada%20Morisca%20Frigiliana"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "La Posada Morisca (site officiel)",
+        "url": "https://www.laposadamorisca.com/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Diputación de Málaga — établissement distingué",
+        "url": "https://www.malaga.es/en/laprovincia/establecimientos/lis_cd-950/hotel-la-posada-morisca-distinguished-establishments",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-ayo",
+    "base": "axarquia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Chiringuito de Ayo",
+    "blurb": "L'institution de la Playa de Burriana : paella géante cuite au feu de bois en plein air (et resservie à volonté), espetos de sardines embrochées sur la braise. Ayo, c'est un des gamins du film Verano Azul devenu légende locale. Pas de réservation, les pieds dans le sable.",
+    "signature": "Paella au feu de bois resservie à volonté + espeto de sardines",
+    "image": null,
+    "price": {
+      "range": "paella ~9,50 €/ration · espetos à la pièce",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.75121,
+      "lng": -3.86589,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://esnerja.com/restaurante/chiringuito-de-ayo/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Chiringuito%20Ayo%20Burriana%20Nerja"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "EsNerja — Chiringuito de Ayo",
+        "url": "https://esnerja.com/restaurante/chiringuito-de-ayo/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "El Español / Cocinillas — paella au feu de bois",
+        "url": "https://www.elespanol.com/cocinillas/actualidad-gastronomica/20250610/",
+        "date": "2025-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-pulguilla",
+    "base": "axarquia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": "mid",
+    "name": "Bar El Pulguilla",
+    "blurb": "Le bar à tapas et fruits de mer où mangent les Nerjeños, à deux pas du Balcón mais hors de la zone à menus en cinq langues. Boquerones, gambas, coquillages frais, terrasse animée. La tapa généreuse avec la conso.",
+    "signature": "Fruits de mer et boquerones, à la terrasse des locaux",
+    "image": null,
+    "price": {
+      "range": "tapas ~2,20 € · ración 8–14 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74661,
+      "lng": -3.87551,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.elpulguilla.com/en/ubicacion/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bar%20El%20Pulguilla%20Nerja"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé lundi"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "El Pulguilla (site officiel)",
+        "url": "https://www.elpulguilla.com/en/ubicacion/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Mapping Spain — tapas El Pulguilla",
+        "url": "https://mappingspain.com/tapas-at-el-pulguilla-nerja/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-sollun",
+    "base": "axarquia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Sollun",
+    "blurb": "La table créative de Nerja, mention au Guide Michelin : cuisine de marché et de produits subtropicaux du coin, travaillée au scalpel, dans une salle sobre de la Calle Pintada. Le repas qu'on planifie, loin des chiringuitos.",
+    "signature": "Menu dégustation autour des produits subtropicaux de la côte",
+    "image": null,
+    "price": {
+      "range": "~85 €/pers (à confirmer à la réservation)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74713,
+      "lng": -3.87623,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://sollunrestaurant.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sollun%20Restaurante%20Nerja"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé dim-lun"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Guide Michelin — Sollun (Nerja)",
+        "url": "https://guide.michelin.com/es/es/andalucia/nerja/restaurante/sollun",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Sollun (site officiel)",
+        "url": "https://sollunrestaurant.com/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-el-mirador",
+    "base": "axarquia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Restaurante El Mirador",
+    "blurb": "Petite table familiale de Frigiliana avec vue, dans le dédale blanc de la Calle Santo Cristo. Cuisine de village honnête — et les berenjenas con miel de caña, l'aubergine frite arrosée de la mélasse du coin. Fermé le mercredi et pendant la feria de juin.",
+    "signature": "Berenjenas con miel de caña, avec vue sur la vallée",
+    "image": null,
+    "price": {
+      "range": "~15–25 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.79234,
+      "lng": -3.89622,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g580274-d1003513-Reviews-Restaurante_El_Mirador-Frigiliana_Province_of_Malaga_Andalucia.html",
+      "maps": "https://www.google.com/maps/search/Restaurante%20El%20Mirador%20Frigiliana"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé mer + nov-déc + feria de juin"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — El Mirador Frigiliana (horaires 2026)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g580274-d1003513-Reviews-Restaurante_El_Mirador-Frigiliana_Province_of_Malaga_Andalucia.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Ayuntamiento de Frigiliana — restaurants",
+        "url": "https://frigiliana.es/places/restaurante-el-adarve/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-el-acebuchal",
+    "base": "axarquia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "El Acebuchal",
+    "blurb": "Le « village fantôme » : un hameau de la Sierra Almijara vidé de force après la guerre civile (suspecté d'aider les maquis), abandonné cinquante ans, puis reconstruit pierre par pierre par une famille à partir de 1998. Aujourd'hui un restaurant au bout d'une piste — cuisine de montagne au feu de bois, choto, gibier. La résurrection dans l'assiette.",
+    "signature": "Cuisine de montagne au feu de bois dans un village ressuscité",
+    "image": null,
+    "price": {
+      "range": "~60 € pour deux avec vin · réservation essentielle",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.81774,
+      "lng": -3.92486,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://elacebuchal.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/El%20Acebuchal%20restaurante%20Frigiliana"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · accès par piste, réserver"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "El Acebuchal (site officiel)",
+        "url": "https://elacebuchal.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Euro Weekly News — El Acebuchal",
+        "url": "https://euroweeklynews.com/2025/12/27/step-back-in-time-for-a-taste-of-the-real-axarquia-in-el-acebuchal/",
+        "date": "2025-12"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-la-sociedad",
+    "base": "axarquia",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "La Sociedad (Casa del Chivo)",
+    "blurb": "Dans la montagne à Canillas de Aceituno, la maison du chivo — le chevreau de lait, plat-signature de la sierra, élevé sur les pentes. Cuisine de terroir sans chichi, Solete du Guide Repsol. Le détour qui justifie la route inland.",
+    "signature": "Chivo (chevreau de lait) de la Sierra de Tejeda",
+    "image": null,
+    "price": {
+      "range": "~25–35 €/pers · réservation essentielle",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.87339,
+      "lng": -4.08272,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://restaurantelasociedad.es/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Restaurante%20La%20Sociedad%20Canillas%20de%20Aceituno"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · fermé lundi"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "La Sociedad — Casa del Chivo (officiel)",
+        "url": "https://restaurantelasociedad.es/historia-restaurante-la-sociedad-casa-chivo-de-canillas/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guía Repsol — La Sociedad",
+        "url": "https://www.guiarepsol.com/es/fichas/solete/la-sociedad-326860/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-frigiliana",
+    "base": "axarquia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Frigiliana & le Barribarto",
+    "blurb": "Le village blanc souvent élu plus beau d'Espagne — mais derrière la carte postale, le Barribarto est le quartier morisque le mieux conservé d'Andalousie. Douze panneaux de céramique semés dans les ruelles racontent la rébellion de 1569 et la fin des Morisques. On monte, on se perd, on lit les murs.",
+    "image": "axarquia-frigiliana",
+    "price": {
+      "range": "village gratuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.79295,
+      "lng": -3.89895,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.turismofrigiliana.es/en/the-barribarto.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Frigiliana%20Barribarto"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo Frigiliana — The Barribarto (officiel)",
+        "url": "https://www.turismofrigiliana.es/en/the-barribarto.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Andalucía Rústica — panneaux de la rébellion morisque",
+        "url": "https://andaluciarustica.com/en/frigiliana-mosaics-of-the-moriscos-rebellion.htm",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-penon",
+    "base": "axarquia",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "El Fuerte / Peñón de Frigiliana",
+    "blurb": "Le rocher au-dessus du village : le 11 juin 1569, jour de San Bernabé, des milliers de Morisques réfugiés sur El Fuerte y font leur dernier stand face à 6 000 soldats royaux. Ils perdent — c'est la fin de la rébellion, et le début de l'expulsion. La randonnée monte au sommet ; en bas, aucun monument, juste la roche et les panneaux de céramique.",
+    "signature": "Montée au dernier bastion morisque (partir tôt, chaleur)",
+    "image": "axarquia-penon",
+    "price": {
+      "range": "gratuit · sentier",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.81419,
+      "lng": -3.91415,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.turismofrigiliana.es/es/el-fuerte.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/El%20Fuerte%20Penon%20de%20Frigiliana"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turismo Frigiliana — El Fuerte (officiel)",
+        "url": "https://www.turismofrigiliana.es/es/el-fuerte.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wikipedia ES — Batalla del Peñón de Frigiliana",
+        "url": "https://es.wikipedia.org/wiki/Batalla_del_Pe%C3%B1%C3%B3n_de_Frigiliana",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-ingenio",
+    "base": "axarquia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Ingenio Nuestra Señora del Carmen",
+    "blurb": "Dans un palais du XVIe siècle au cœur de Frigiliana, la dernière fabrique de miel de caña d'Europe encore en activité. La canne à sucre, introduite par les Arabes, donne ici une mélasse noire qu'on verse sur l'aubergine frite. Le sucre des vaincus, toujours pressé là où ils ont perdu.",
+    "image": "axarquia-ingenio",
+    "price": {
+      "range": "boutique · visites guidées sur réservation",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.79127,
+      "lng": -3.89516,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://mieldelatorre.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ingenio%20Nuestra%20Senora%20del%20Carmen%20Frigiliana"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Miel de la Torre / Ingenio (officiel)",
+        "url": "https://mieldelatorre.com/en/empresa/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Diputación de Málaga — patrimoine industriel",
+        "url": "https://www.malaga.es/en/laprovincia/patrimonio/lis_cd-19666/nuestra-senora-del-carmen-our-lady-of-mount-carmel",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-cuevas-nerja",
+    "base": "axarquia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Cuevas de Nerja",
+    "blurb": "Une cathédrale souterraine : d'immenses salles de stalactites, l'une des plus grandes colonnes du monde, et des peintures rupestres parmi les plus anciennes connues. Découvertes par hasard en 1959 par des gamins qui chassaient les chauves-souris. Réserver en ligne en haute saison.",
+    "image": "axarquia-cuevas",
+    "price": {
+      "range": "adulte ~15 € (2026, à revalider)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.76175,
+      "lng": -3.84484,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://cuevadenerja.es",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Cuevas%20de%20Nerja"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Cueva de Nerja — prix 2026 (officiel)",
+        "url": "https://cuevadenerja.es/precio-entrada-cueva-de-nerja-en-2026/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Cueva de Nerja (site officiel)",
+        "url": "https://cuevadenerja.es",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-maro",
+    "base": "axarquia",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Acantilados de Maro & Playa de Maro",
+    "blurb": "Le paraje naturel des falaises de Maro-Cerro Gordo : eau turquoise, criques sous les falaises, la cascade qui tombe directement sur le sable à la Playa de Maro. La côte sauvage que le béton de la Costa del Sol n'a pas eue. Navette saisonnière depuis le village (accès voiture régulé l'été).",
+    "image": "axarquia-maro",
+    "price": {
+      "range": "plage gratuite · navette ~1,50 € l'été",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.75375,
+      "lng": -3.83396,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://esnerja.com/que-ver-y-hacer/acantilados-de-maro-cerro-gordo/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Playa%20de%20Maro%20Nerja"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Andalucia.com — Paraje Natural Maro-Cerro Gordo",
+        "url": "https://www.andalucia.com/environment/protect/maro-cerrogordo.htm",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Ayuntamiento de Nerja — navette Maro",
+        "url": "https://www.nerja.es/el-ayuntamiento-regula-el-acceso-de-vehiculos-a-las-playas-de-maro",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-acueducto-aguila",
+    "base": "axarquia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Acueducto del Águila",
+    "blurb": "Un aqueduc du XIXe siècle à quatre niveaux d'arches, planté dans un ravin entre Nerja et Maro, qui alimentait encore récemment une ancienne sucrerie de canne. Visible depuis la route vers les grottes — un arrêt-photo de cinq minutes qui raconte l'histoire du sucre de la côte.",
+    "image": "axarquia-acueducto",
+    "price": {
+      "range": "gratuit · vu de la route",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.75818,
+      "lng": -3.84993,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.andalucia.com/nerja/eagle-aqueduct.htm",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Acueducto%20del%20Aguila%20Maro"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Andalucia.com — Eagle Aqueduct",
+        "url": "https://www.andalucia.com/nerja/eagle-aqueduct.htm",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Diputación de Málaga — patrimoine hydraulique",
+        "url": "https://www.malaga.es/en/laprovincia/patrimonio/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-balcon-europa",
+    "base": "axarquia",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Balcón de Europa",
+    "blurb": "Le promontoire au bout du vieux Nerja, balustrade sur la Méditerranée entre deux plages. Le cœur touristique, oui — mais à l'aube ou au coucher, quand les terrasses se vident, c'est encore le belvédère que les Nerjeños se sont approprié depuis le XIXe siècle.",
+    "image": null,
+    "price": {
+      "range": "gratuit · accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.74427,
+      "lng": -3.8754,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.nerja-turismo.com/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Balcon%20de%20Europa%20Nerja"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Nerja Turismo (officiel)",
+        "url": "https://www.nerja-turismo.com/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Costa Tropical — Balcón de Europa",
+        "url": "https://www.costatropical.net/nerja/balcon-de-europa.php",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-rio-chillar",
+    "base": "axarquia",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Río Chíllar (Los Cahorros)",
+    "blurb": "La randonnée la plus célèbre de Nerja : on marche dans le lit de la rivière, pieds dans l'eau, entre les parois étroites des Cahorros. ATTENTION — l'accès est officiellement fermé depuis 2023 (sécurité), réouverture activée par la Junta en 2026 mais non garantie. Vérifier le statut sur nerja.es avant de partir : amende si encore fermé.",
+    "signature": "Marche aquatique dans les gorges — vérifier l'ouverture avant",
+    "image": null,
+    "price": {
+      "range": "gratuit quand ouvert · statut à vérifier",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.76166,
+      "lng": -3.87395,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.nerja.es/el-acceso-al-rio-chillar-permanece-cerrado/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Rio%20Chillar%20Nerja"
+    },
+    "seasonal": true,
+    "status": {
+      "open": false,
+      "lastChecked": "2026-06-14",
+      "method": "fermé depuis 2023 — réouverture BOJA activée mai 2026, à confirmer avant le voyage"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Ayuntamiento de Nerja — fermeture Río Chíllar",
+        "url": "https://www.nerja.es/el-acceso-al-rio-chillar-permanece-cerrado/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "El Español Málaga — réouverture activée (mai 2026)",
+        "url": "https://www.elespanol.com/malaga/nerja/20260515/giro-futuro-rio-chillar-junta-activa-reapertura-paraje-nerja/1003744247128_0.html",
+        "date": "2026-05"
+      }
+    ]
+  },
+  {
+    "id": "axarquia-competa",
+    "base": "axarquia",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "drink",
+      "do"
+    ],
+    "tier": null,
+    "name": "Cómpeta & Bodegas Almijara",
+    "blurb": "Le village du vin de l'Axarquía, accroché à la Sierra Almijara : le moscatel doux, la D.O. Sierras de Málaga, et les Bodegas Almijara qui font visiter cave et dégustation. C'est aussi le départ de l'ascension d'El Lucero — appelé le Cerro de los Moriscos, encore eux.",
+    "signature": "Dégustation de moscatel à la Bodega Almijara (sur réservation)",
+    "image": null,
+    "price": {
+      "range": "village gratuit · dégustation sur réservation",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.83284,
+      "lng": -3.97471,
+      "source": "nominatim-search (display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://www.bodegasalmijara.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Competa%20Bodegas%20Almijara"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + vérif adversariale + géocodage Nominatim vérifié · bodega fermée dim, sur réservation"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Bodegas Almijara (site officiel)",
+        "url": "https://www.bodegasalmijara.com/visitas/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "MAPA — D.O.P. Sierras de Málaga",
+        "url": "https://www.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/dop-igp/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]

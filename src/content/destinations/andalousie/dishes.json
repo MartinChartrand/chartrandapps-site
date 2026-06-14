@@ -828,5 +828,230 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "axa-espeto",
+    "type": "plat",
+    "base": "axarquia",
+    "region": "axarquia",
+    "title": "Espeto de sardinas",
+    "body": "Six sardines embrochées sur une canne de bambou, plantées en biais dans une barque remplie de sable, grillées au feu de bois d'olivier sur la plage. C'est LE rituel de la côte de Málaga, né chez les pêcheurs du Pedregalejo au XIXe siècle. On les mange avec les doigts, face à la mer. Les meilleures : les mois sans « r », quand la sardine est grasse — donc juin parfait.",
+    "poiRef": "axarquia-ayo",
+    "image": "axarquia-espeto",
+    "links": [
+      {
+        "label": "Chiringuito de Ayo (Burriana)",
+        "url": "https://esnerja.com/restaurante/chiringuito-de-ayo/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Visita Costa del Sol — histoire de l'espeto",
+        "url": "https://blog.visitacostadelsol.com/es/la-historia-del-famoso-espeto-de-sardinas-de-la-costa-del-sol",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Merendero Cobos — espetos de Nerja",
+        "url": "https://merenderocobos.com/index.php?id=espetos-de-sardinas-en-nerja",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axa-miel-cana",
+    "type": "produit",
+    "base": "axarquia",
+    "region": "axarquia",
+    "title": "Miel de caña de Frigiliana",
+    "body": "Une mélasse noire et amère tirée de la canne à sucre — pas du miel d'abeille. La canne a été introduite par les Arabes, et Frigiliana abrite la dernière fabrique de miel de caña encore en activité en Europe, dans un palais du XVIe siècle. On la verse sur les berenjenas fritas (aubergines frites). Le sucre des vaincus, toujours pressé là où ils ont fait leur dernier stand.",
+    "poiRef": "axarquia-ingenio",
+    "image": "axarquia-miel-cana",
+    "links": [
+      {
+        "label": "Ingenio Nuestra Señora del Carmen",
+        "url": "https://mieldelatorre.com/en/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Diputación de Málaga — patrimoine industriel (Ingenio)",
+        "url": "https://www.malaga.es/en/laprovincia/patrimonio/lis_cd-19666/nuestra-senora-del-carmen-our-lady-of-mount-carmel",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Rural Sierra Sol — seul producteur d'Europe",
+        "url": "https://www.ruralsierrasol.es/frigiliana-el-unico-productor-de-miel-de-cana-en-europa/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axa-pasas",
+    "type": "produit",
+    "base": "axarquia",
+    "region": "axarquia",
+    "title": "Pasas de Málaga DOP",
+    "body": "Les raisins moscatel séchés au soleil sur les « paseros », les terrasses inclinées des collines de l'Axarquía — une technique héritée d'Al-Andalus. Gros, charnus, sucre concentré. El Borge et Cómpeta en sont le cœur ; le Día de la Pasa s'y tient en septembre. Disponibles toute l'année dans les épiceries des villages.",
+    "image": "",
+    "links": [
+      {
+        "label": "Coopérative Ucopaxa (pasas & vins)",
+        "url": "https://ucopaxa.com/"
+      },
+      {
+        "label": "Sabor a Málaga — Pasas de Málaga",
+        "url": "https://www.saboramalaga.es/es/actualidad/blog/pasas-de-malaga-un-manjar-con-historia-y-tradicion-p49478"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Sabor a Málaga (portail officiel gastronomie)",
+        "url": "https://www.saboramalaga.es/es/actualidad/blog/pasas-de-malaga-un-manjar-con-historia-y-tradicion-p49478",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Ayuntamiento de Málaga — zone DOP Pasas",
+        "url": "https://www.malaga.es/delegacionterritorial/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axa-vino-moscatel",
+    "type": "vin",
+    "base": "axarquia",
+    "region": "axarquia",
+    "title": "Moscatel & vins de Cómpeta",
+    "body": "Le moscatel de l'Axarquía : un vin doux, doré, du même raisin que les pasas, sous la D.O. Málaga. Et les secs de montagne de la D.O. Sierras de Málaga. À goûter aux Bodegas Almijara de Cómpeta, sur réservation — la vigne accrochée aux pentes de la Sierra Almijara, là où la culture viticole a survécu à toutes les conquêtes.",
+    "poiRef": "axarquia-competa",
+    "image": "",
+    "links": [
+      {
+        "label": "Bodegas Almijara (Cómpeta)",
+        "url": "https://www.bodegasalmijara.com/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Bodegas Almijara (site officiel)",
+        "url": "https://www.bodegasalmijara.com/la-bodega/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "MAPA — D.O.P. Sierras de Málaga",
+        "url": "https://www.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/dop-igp/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axa-tropical",
+    "type": "produit",
+    "base": "axarquia",
+    "region": "axarquia",
+    "title": "Mangue, avocat, chirimoya",
+    "body": "Le microclimat subtropical de l'Axarquía fait de cette côte le verger tropical de l'Europe : mangues, avocats, et la chirimoya (anone) sous DOP, fruit crémeux à chair blanche presque introuvable ailleurs sur le continent. Aux marchés de Nerja (mardi) et Torrox (vendredi), directement des producteurs.",
+    "image": "axarquia-tropical",
+    "links": [
+      {
+        "label": "Conseil Régulateur DOP Chirimoya",
+        "url": "https://www.crchirimoya.com/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "BOE — DOP Chirimoya (texte officiel)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2002-24137",
+        "date": "2002-01"
+      },
+      {
+        "creator": "MAPA — DOP Chirimoya",
+        "url": "https://www.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/dop-igp/detalle/frutas/dop_chirimoya",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axa-choto",
+    "type": "plat",
+    "base": "axarquia",
+    "region": "axarquia",
+    "title": "Choto al ajillo",
+    "body": "Le chevreau de lait sauté à l'ail, plat-signature des villages de montagne de l'Axarquía — Canillas de Aceituno, Sedella, Cómpeta. Une cuisine de berger, l'animal élevé sur les pentes de la Sierra de Tejeda. À La Sociedad (Casa del Chivo) de Canillas, c'est la maison du genre.",
+    "poiRef": "axarquia-la-sociedad",
+    "image": "",
+    "links": [
+      {
+        "label": "La Sociedad — Casa del Chivo",
+        "url": "https://restaurantelasociedad.es/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Diputación de Málaga — choto al ajillo",
+        "url": "https://www.malaga.es/es/laprovincia/tradiciones/lis_cd-9448/choto-al-ajillo",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Guía Repsol — La Sociedad",
+        "url": "https://www.guiarepsol.com/es/fichas/solete/la-sociedad-326860/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axa-ajoblanco",
+    "type": "plat",
+    "base": "axarquia",
+    "region": "axarquia",
+    "title": "Ajoblanco",
+    "body": "La soupe froide d'amandes, ail, pain et huile d'olive — l'ancêtre andalou du gazpacho, d'avant la tomate, aux racines mauresques. Servie glacée avec des raisins ou du melon. Almáchar lui dédie une fête en septembre ; l'été, on en trouve sur presque toutes les cartes de la région.",
+    "image": "",
+    "links": [
+      {
+        "label": "Academia Gastronómica de Málaga — Ajoblanco",
+        "url": "https://academiagastronomica.com/platos/ajoblanco/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Academia Gastronómica de Málaga",
+        "url": "https://academiagastronomica.com/platos/ajoblanco/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Diputación de Málaga — Fiesta del Ajoblanco (Almáchar)",
+        "url": "https://www.malaga.es/es/laprovincia/tradiciones/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "axa-boquerones",
+    "type": "plat",
+    "base": "axarquia",
+    "region": "axarquia",
+    "title": "Boquerones",
+    "body": "Les anchois frais de la côte : en vinagre (marinés à l'ail et au persil) ou frits en éventail, croustillants. Avec l'espeto, c'est le duo des chiringuitos de plage. Chez El Pulguilla à Nerja, on les commande sans réfléchir.",
+    "poiRef": "axarquia-pulguilla",
+    "image": "",
+    "links": [
+      {
+        "label": "Málaga Gastronomy Guide — Boquerones",
+        "url": "https://malagagastronomyguide.com/en/boquerones-en-vinagre-2/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Málaga Gastronomy Guide — Boquerones en vinagre",
+        "url": "https://malagagastronomyguide.com/en/boquerones-en-vinagre-2/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "El Cocinero Casero — Boquerones",
+        "url": "https://elcocinerocasero.com/receta/boquerones-en-adobo/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
