@@ -322,7 +322,7 @@
     ],
     "tier": "gem",
     "name": "Sobretablas",
-    "blurb": "Le repas-événement du séjour. Camila Ferraro (1re femme Cocinero Revelación 2020, ex-El Celler de Can Roca) + sommelier Robert Tetas. Ex-Bib Gourmand Michelin (retiré du guide 2026). NOTE : c'est à El Porvenir, PAS à Triana — ~15 min en char ou taxi.",
+    "blurb": "Le repas-événement du séjour. Camila Ferraro (1re femme Cocinero Revelación 2020, ex-El Celler de Can Roca) + sommelier Robert Tetas. Ex-Bib Gourmand Michelin (retiré du guide 2026). NOTE : c'est à El Porvenir, PAS à Triana — ~15 min en voiture ou taxi.",
     "signature": "Menu dégustation andalou de saison (option « Sobretablas Deluxe » avec accord vins) — produit local, technique de haute cuisine",
     "image": "sobretablas-plat",
     "price": {
@@ -1069,7 +1069,7 @@
     ],
     "tier": "budget",
     "name": "Hotel Alavera de los Baños",
-    "blurb": "Onze chambres collées contre les bains arabes du XIIIe, dans le Barrio San Francisco médiéval. Design mauresque, jardin, piscine face aux remparts. Le seul de la liste avec parking public gratuit à deux pas — sur 5 nuits en char, c'est l'argument décisif.",
+    "blurb": "Onze chambres collées contre les bains arabes du XIIIe, dans le Barrio San Francisco médiéval. Design mauresque, jardin, piscine face aux remparts. Le seul de la liste avec parking public gratuit à deux pas — sur 5 nuits en voiture, c'est l'argument décisif.",
     "image": null,
     "price": {
       "range": "~75–130 €/nuit (est. 2025)",
@@ -1112,7 +1112,7 @@
     ],
     "tier": "gem",
     "name": "Parador de Ronda",
-    "blurb": "L'ancienne mairie de 1761 plantée sur le bord du précipice, côté El Mercadillo (pas besoin de traverser le Puente Nuevo en char — évite la zone restreinte). La terrasse panoramique au-dessus du Tajo = la vue la plus spectaculaire de Ronda. Le move honnête : un fino au coucher du soleil même si tu dors ailleurs.",
+    "blurb": "L'ancienne mairie de 1761 plantée sur le bord du précipice, côté El Mercadillo (pas besoin de traverser le Puente Nuevo en voiture — évite la zone restreinte). La terrasse panoramique au-dessus du Tajo = la vue la plus spectaculaire de Ronda. L'astuce honnête : un fino au coucher du soleil même si tu dors ailleurs.",
     "image": null,
     "price": {
       "range": "~150–250 €/nuit selon saison (est. 2025)",
@@ -1411,7 +1411,7 @@
     ],
     "tier": null,
     "name": "Puente Nuevo & El Tajo",
-    "blurb": "42 ans à construire (1751-1793), 120 m de vide creusés par la Guadalevín. La plupart repartent avec la photo sans savoir ce qui s'est passé ici (voir le carnet : le mythe Hemingway de la guerre civile, démonté). Le selfie est le réflexe touristique. Rester dix minutes avec le poids de l'endroit, c'est le vrai move.",
+    "blurb": "42 ans à construire (1751-1793), 120 m de vide creusés par la Guadalevín. La plupart repartent avec la photo sans savoir ce qui s'est passé ici (voir le carnet : le mythe Hemingway de la guerre civile, démonté). Le selfie est le réflexe touristique. Rester dix minutes avec le poids de l'endroit, c'est le vrai geste.",
     "image": "ronda-puente-nuevo",
     "price": {
       "range": "traversée gratuite · Centro de Interpretación 2,50 € (2025)",
@@ -1809,7 +1809,7 @@
     ],
     "tier": "gem",
     "name": "Palacio de Santa Inés",
-    "blurb": "Un palais de l'Albaicín à cinq minutes de la Plaza Nueva, avec un artesonado mudéjar de 1512 et des fresques d'élèves de Raphaël (1520) dans le même patio — l'art des vaincus et celui de la Renaissance italienne côte à côte. En 1512, après la Pragmatique de 1502, les artisans qui ont sculpté ce plafond étaient déjà des morisques convertis de force : la beauté est une survie. On ne tente pas d'y arriver en char — parking concerté, taxi remboursé.",
+    "blurb": "Un palais de l'Albaicín à cinq minutes de la Plaza Nueva, avec un artesonado mudéjar de 1512 et des fresques d'élèves de Raphaël (1520) dans le même patio — l'art des vaincus et celui de la Renaissance italienne côte à côte. En 1512, après la Pragmatique de 1502, les artisans qui ont sculpté ce plafond étaient déjà des morisques convertis de force : la beauté est une survie. On ne tente pas d'y arriver en voiture — parking concerté, taxi remboursé.",
     "signature": "Patio à l'artesonado mudéjar de 1512 et fresques de l'école de Raphaël",
     "image": null,
     "price": {

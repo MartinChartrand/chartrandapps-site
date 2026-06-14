@@ -32,7 +32,7 @@
   },
   "overviewKicker": "Logique du voyage",
   "overviewTitle": "Cinq bases, l'intérieur d'abord, la côte ensuite",
-  "overviewIntro": "La chaleur dicte la route. On fait l'intérieur tôt (Séville, la sierra — frais fin mai) puis on finit sur la côte (Axarquía — la brise de mer mi-juin). Vol open-jaw : arrivée Séville, départ Málaga, char pour tout le mois.",
+  "overviewIntro": "La chaleur dicte la route. On fait l'intérieur tôt (Séville, la sierra — frais fin mai) puis on finit sur la côte (Axarquía — la brise de mer mi-juin). Vol open-jaw : arrivée Séville, départ Málaga, voiture pour tout le mois.",
   "intro": {
     "whySeason": {
       "title": "Pourquoi fin mai – juin",
@@ -40,7 +40,7 @@
     },
     "logistics": {
       "title": "Logistique de base",
-      "body": "Vol open-jaw : Montréal → Séville (SVQ), retour Málaga (AGP) → Montréal, contrainte no-transit-US respectée (router via Lisbonne, Madrid ou direct). Char loué à l'aéroport de Séville, retour à Málaga (one-way intra-Espagne). Dates exactes à fixer autour de la fête de Frigiliana."
+      "body": "Vol open-jaw : Montréal → Séville (SVQ), retour Málaga (AGP) → Montréal, contrainte no-transit-US respectée (router via Lisbonne, Madrid ou direct). Voiture louée à l'aéroport de Séville, retour à Málaga (one-way intra-Espagne). Dates exactes à fixer autour de la fête de Frigiliana."
     }
   },
   "footerNote": "Itinéraire préparé avec amour · Andalousie, mai–juin 2027",
@@ -89,14 +89,14 @@
         "base": "seville",
         "kicker": "Chapitre 1 · 7 nuits",
         "title": "Le four sévillan",
-        "teaser": "Triana plutôt que Santa Cruz, le marché sur le château de l'Inquisition, pis une journée de char vers les cochons de Jabugo.",
+        "teaser": "Triana plutôt que Santa Cruz, le marché sur le château de l'Inquisition, pis une journée en voiture vers les cochons de Jabugo.",
         "image": "seville-cover"
       },
       {
         "base": "ronda",
         "kicker": "Chapitre 2 · 5 nuits",
         "title": "Le pont sur le gouffre",
-        "teaser": "Cinq nuits sur la falaise — le pont qu'Hemingway a transformé en légende (et le vrai move : y descendre), le berceau de la corrida, pis un vin d'altitude que personne n'attend.",
+        "teaser": "Cinq nuits sur la falaise — le pont qu'Hemingway a transformé en légende (et le vrai geste : y descendre), le berceau de la corrida, pis un vin d'altitude que personne n'attend.",
         "image": "ronda-cover"
       },
       {

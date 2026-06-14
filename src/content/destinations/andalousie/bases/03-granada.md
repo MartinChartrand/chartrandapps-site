@@ -16,7 +16,7 @@ tagBlock:
     - text: "~30–35 °C, sec — chaleur de plaine"
     - text: "Alhambra : réserver le créneau nasride des semaines à l'avance"
       tone: amber
-    - text: "ZBE active (oct. 2025) — char interdit au centre sans vignette, se garer en parking agréé dès l'arrivée"
+    - text: "ZBE active (oct. 2025) — voiture interdite au centre sans vignette, se garer en parking agréé dès l'arrivée"
       tone: amber
 infoBlocks:
   - label: "Où dormir"

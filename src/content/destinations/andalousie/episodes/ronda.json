@@ -29,7 +29,7 @@
     },
     {
       "kicker": "Le gouffre, par en-dedans",
-      "body": "Le vrai move, c'est pas de regarder le Tajo d'en haut — c'est d'y descendre. La mine d'eau nasride de la Casa del Rey Moro plonge 231 marches dans la roche jusqu'au fond, là où l'eau verte de la Guadalevín coule entre les parois. La ville d'en bas, c'est une autre affaire.",
+      "body": "Le vrai geste, c'est pas de regarder le Tajo d'en haut — c'est d'y descendre. La mine d'eau nasride de la Casa del Rey Moro plonge 231 marches dans la roche jusqu'au fond, là où l'eau verte de la Guadalevín coule entre les parois. La ville d'en bas, c'est une autre affaire.",
       "focusPoi": "ronda-casa-rey-moro",
       "zoom": 16,
       "targets": ["ronda-casa-rey-moro"],
@@ -50,7 +50,7 @@
       "alt": "Le Puente Nuevo enjambant le gouffre du Tajo à Ronda, vue panoramique de la vieille ville sur la falaise",
       "intro": "Le Puente Nuevo a pris 42 ans à bâtir (1751-1793) et a tué son premier architecte. 120 mètres de vide. Hemingway en a fait la scène la plus célèbre de la guerre civile espagnole : dans «Pour qui sonne le glas», les villageois précipitent les fascistes du haut de la falaise.",
       "reco": "Sauf que c'est une fiction. Paul Preston, l'historien de référence de la guerre civile, est net : les victimes ont été fusillées au cimetière, pas jetées dans le ravin. Le mythe vient d'une émission de propagande du général Queipo de Llano (18 août 1936), recyclée par le génie d'Hemingway, puis transformée en attraction touristique. Aucune plaque sur le pont ne le dit.",
-      "quote": "Le selfie est le réflexe. Rester dix minutes avec le poids de ce que la ville a choisi d'oublier — ça, c'est le vrai move.",
+      "quote": "Le selfie est le réflexe. Rester dix minutes avec le poids de ce que la ville a choisi d'oublier — ça, c'est le vrai geste.",
       "via": null,
       "poiRef": "ronda-puente-nuevo",
       "sources": [
@@ -140,8 +140,8 @@
   ],
   "carnet": {
     "groups": [
-      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Dormir EN La Ciudad. Depuis août 2025, traverser le Puente Nuevo en char sans plaque enregistrée = 70 € d'amende : préviens ton hôtel avant d'arriver." },
-      { "label": "Où manger", "kinds": ["resto"], "footer": "Évite les restos à vue directe sur le Tajo. Le move : suivre où mange Benito Gómez." },
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Dormir EN La Ciudad. Depuis août 2025, traverser le Puente Nuevo en voiture sans plaque enregistrée = 70 € d'amende : préviens ton hôtel avant d'arriver." },
+      { "label": "Où manger", "kinds": ["resto"], "footer": "Évite les restos à vue directe sur le Tajo. L'astuce : suivre où mange Benito Gómez." },
       { "label": "À voir & faire", "kinds": ["sight", "activity"], "footer": "Bono Turístico à 12 € (office de tourisme, Plaza de España) pour trois sites ou plus." },
       { "label": "Le vin de la Serranía", "kinds": ["winery"], "footer": "Toutes les bodegas se visitent sur réservation, en semaine." }
     ],
