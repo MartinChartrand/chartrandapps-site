@@ -1,0 +1,144 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée — l'île gourmande",
+      "body": "On débarque à Kamares, le petit port de l'ouest, et déjà l'argile est partout : Sifnos en façonne depuis quatre mille ans, des urnes antiques aux pots dans lesquels cuit le dîner du dimanche. C'est la capitale gastronomique des Cyclades, et ça se goûte avant même de comprendre pourquoi. On monte à Apollonia, au centre de l'île, et tout part de là.",
+      "focusPoi": "sifnos-apollonia",
+      "zoom": 13,
+      "targets": ["sifnos-apollonia", "sifnos-kastro"],
+      "thumb": "sifnos-village",
+      "thumbAlt": "Une ruelle pavée de marbre blanc avec un arbre vert et des escaliers blanchis à la chaux, dans un village de Sifnos",
+      "poiRef": "sifnos-apollonia",
+      "sources": [
+        { "creator": "National Geographic — Sifnos gourmet island", "url": "https://www.nationalgeographic.com/travel/article/exploring-flavours-sifnos-greeces-gourmet-island", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme de l'île",
+      "body": "Apollonia est minuscule : une rue piétonne de marbre, des bougainvilliers, des pâtisseries, et le hub des bus d'où tout rayonne. Le matin, un freddo sur la Steno ; puis on attrape le bus vers une crique au sud, ou vers une table les pieds dans le sable. La table, la mer, et l'argile qui relie les deux — c'est ça, Sifnos.",
+      "focusPoi": "sifnos-apokofto",
+      "zoom": 12,
+      "targets": ["sifnos-apokofto", "sifnos-vathi-plage"],
+      "thumb": "sifnos-chrysopigi",
+      "thumbAlt": "Le monastère blanc de Chrysopigi sur son rocher qui s'avance dans la mer bleue, à Sifnos",
+      "poiRef": "sifnos-apokofto",
+      "sources": [
+        { "creator": "Verina Hotels — Apollonia", "url": "https://verinahotelsifnos.com/apollonia-sifnos-the-beating-heart-of-a-greek-island-paradise/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-revithada",
+      "kicker": "La revithada · LE DIMANCHE",
+      "title": "Les pois chiches qui cuisent pendant la messe",
+      "image": "sifnos-revithada",
+      "alt": "Un plat creux de pois chiches mijotés (revithada), crémeux et dorés, avec une tige d'oignon vert posée sur le bord",
+      "intro": "Le plat-mémoire de Sifnos n'a l'air de rien : des pois chiches. Mais on les mijote six à huit heures dans un pot d'argile, le skepastaria, au four du boulanger, la nuit du samedi au dimanche. Sans une once de viande, ça donne un bouillon profond et doux, coiffé d'oignons caramélisés et noircis. Autrefois, on déposait le pot avant la messe et on repartait avec le déjeuner prêt — le même geste depuis des siècles, dans la même argile que les urnes cycladiques d'il y a quatre mille ans.",
+      "reco": "Ça se mange surtout le dimanche : Tsikali à Vathi, To Steki à Platis Gialos, ou la taverne d'Apokofto, sous le monastère. Commande aussi les revithokeftedes (boulettes de pois chiches frites) et la kaparosalata, la salade de câpres cueillies sur les falaises. Et pour comprendre le pot : un arrêt à l'atelier Apostolidis, sur la route de Kamares, où l'on façonne encore le skepastaria devant toi.",
+      "quote": "Une île qui a donné à la Grèce son plus grand cuisinier transforme une poignée de pois chiches en plat de fête. Toute la contrainte des Cyclades tient dans ce pot d'argile.",
+      "via": null,
+      "poiRef": "sifnos-tsikali",
+      "sources": [
+        { "creator": "Dan Almond — Sifnos Revithada", "url": "https://danalmond.substack.com/p/sifnos-revithada", "date": "2026-06" },
+        { "creator": "Gastronomy Tours — revithada de Sifnos", "url": "https://gastronomytours.com/encyclopedia/traditional-revithada-chickpea-stew-from-sifnos-by-george-grigoriadis/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-chrysopigi",
+      "kicker": "Apokofto · LE BAIN",
+      "title": "Le monastère qui flotte sur le bleu",
+      "image": "sifnos-chrysopigi",
+      "alt": "Le monastère blanc de Panagia Chrysopigi sur son îlot rocheux qui s'avance dans la mer Égée d'un bleu profond, à Sifnos — la chapelle et les bâtiments blancs reliés à la côte par une langue de rocher",
+      "intro": "Sur la côte sud-est, le sentier débouche sur Apokofto : une plage de sable bordée d'arbres, l'eau turquoise et émeraude, abritée du Meltemi. Et juste à côté, posé sur un rocher fendu qui s'avance dans la mer, le monastère blanc de Chrysopigi — l'image qui résume l'île. On nage dans une eau si claire qu'on voit le fond, on plonge des rochers de part et d'autre de la chapelle, et le monastère semble flotter sur le bleu.",
+      "reco": "Bus d'Apollonia vers Faros, puis dix minutes à pied. Pas de taverne directement sur Apokofto : on marche un quart d'heure jusqu'à Faros pour le poisson frais de To Limanaki, choisi à la sortie du bateau. Les jours de grand Meltemi, le sud reste calme — Platis Gialos, plus grande et plus organisée, prend le relais.",
+      "quote": "On cherche l'eau cristalline partout où on va. Ici, elle vient avec un monastère du XVIe siècle posé sur la mer, comme un mirage blanc.",
+      "via": null,
+      "poiRef": "sifnos-apokofto",
+      "sources": [
+        { "creator": "Greeka — Chrissopigi beach", "url": "https://www.greeka.com/cyclades/sifnos/beaches/chrissopigi/", "date": "2026-06" },
+        { "creator": "Cyclades Map — Apokofto", "url": "https://cycladesmap.gr/en/listings/sifnos/paralia-apokofto/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-vathi",
+      "kicker": "Vathi · LA TABLE DE LA MER",
+      "title": "Les pieds dans le sable, la ferme dans l'assiette",
+      "image": "sifnos-vathi",
+      "alt": "La plage de sable de la baie de Vathi à Sifnos : une eau calme et peu profonde où des gens se baignent, le village blanc et son église au pied de collines arides",
+      "intro": "Au sud-ouest, Vathi est la baie la plus tranquille de l'île : un amphithéâtre de collines qui enferme une eau calme et peu profonde, du sable doré, des tamaris. Un vrai village de pêcheurs, presque rien d'autre. On nage le matin, et le midi on s'installe à Tsikali, les pieds dans le sable, là où presque tout vient de la ferme du propriétaire.",
+      "reco": "À Tsikali (depuis 1983), prends le chevreau braisé à l'aneth et au vin de la maison, les revithokeftedes, et le fromage manoura — fort, piquant, affiné dans les lies de vin rouge. La baie reste baignable même par Meltemi : c'est l'amphithéâtre de collines qui la protège. Pour dormir sur place, quatre chambres sur la plage, à Aerides.",
+      "quote": "Une baie fermée par les collines, une taverne où le chevreau vient de la ferme d'en face, et le silence sauf les cigales. Le slow travel n'a pas besoin de plus.",
+      "via": null,
+      "poiRef": "sifnos-tsikali",
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — Tsikali", "url": "https://www.greekgastronomyguide.gr/fr/item/taverna-tsikali-vathy-sifnos/", "date": "2026-06" },
+        { "creator": "Greeka — Vathi beach", "url": "https://www.greeka.com/cyclades/sifnos/beaches/vathy/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-mastelo",
+      "kicker": "Kastro · L'AGNEAU AU POT",
+      "title": "L'agneau au feu de bois, dans la cité médiévale",
+      "image": "sifnos-mastelo",
+      "alt": "Un plat d'agneau cuit longuement, tendre et fondant, entouré de pommes de terre rôties dorées, sur une assiette blanche",
+      "intro": "L'autre plat du pot d'argile, c'est le mastelo : l'agneau braisé au vin rouge et à l'aneth, lentement, jusqu'à ce que la chair se détache de l'os. Plat de Pâques à l'origine, on le trouve toute la saison. À Kastro, le village médiéval suspendu au-dessus de la mer, Leonidas est le seul à le cuire encore au four à bois traditionnel, dans une cour ombragée avec l'Égée en contrebas.",
+      "reco": "Réserve, c'est petit. Avant ou après, perds-toi dans Kastro : des ruelles si étroites qu'elles passent en tunnel sous les maisons, l'église des Sept Martyrs accrochée à la falaise, et la descente à pied jusqu'à la petite crique de Seralia pour une dernière baignade. Le coucher de soleil depuis les remparts blancs vaut le détour.",
+      "quote": "Le même pot d'argile, le même four à bois, les mêmes gestes — sauf qu'ici c'est l'agneau, et la salle à manger est une forteresse au bord du vide.",
+      "via": null,
+      "poiRef": "sifnos-leonidas",
+      "sources": [
+        { "creator": "National Geographic — Sifnos gourmet island", "url": "https://www.nationalgeographic.com/travel/article/exploring-flavours-sifnos-greeces-gourmet-island", "date": "2026-06" },
+        { "creator": "sifnos.e-sifnos — Leonidas", "url": "https://sifnos.e-sifnos.com/diaf/sifnos-restaurants/leonidas-restaurant/leonidas.php", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-villages",
+      "kicker": "Apollonia & Artemonas · le sucre et la ruelle",
+      "title": "Le freddo, les amandes, le marbre blanc",
+      "image": "sifnos-kastro",
+      "alt": "Une ruelle blanchie à la chaux du village médiéval de Kastro, à Sifnos : des marches de pierre peintes en blanc, une porte avec des géraniums rouges en pot, sous un ciel bleu",
+      "intro": "Entre deux baignades, on flâne dans les villages blancs. À Apollonia, la rue Steno, pavée de marbre et débordante de bougainvilliers, s'étire entre les ateliers de céramique et les pâtisseries — quasi déserte le matin, animée d'un freddo l'après-midi, et le soir une promenade. À Artemonas, le plus élégant des villages, et à Kastro, le médiéval, les ruelles passent en tunnel sous les maisons et chaque fenêtre donne sur la mer.",
+      "reco": "Le sucre de l'île se cuit encore au feu de bois : les amygdalota, petites boules d'amandes à la fleur d'oranger qui fondent en bouche, chez Theodorou à Artemonas — la plus vieille pâtisserie de l'île — ou chez Gerontopoulos à Apollonia, derrière sa porte bleue. Repars avec un pot de miel de thym et des câpres de falaise : le terroir en bagage.",
+      "quote": "Une ruelle de marbre blanc, un café glacé, une boule d'amande qui fond sous le sucre glace. L'île gourmande ne fait pas que des plats de fête — elle fait aussi des après-midi parfaits.",
+      "via": null,
+      "poiRef": "sifnos-theodorou",
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — Zaxaroplasteio Theodorou", "url": "https://www.greekgastronomyguide.gr/en/item/zaxaroplasteio-theodorou-sifnos/", "date": "2026-06" },
+        { "creator": "Verina Hotels — Apollonia", "url": "https://verinahotelsifnos.com/apollonia-sifnos-the-beating-heart-of-a-greek-island-paradise/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant le prochain ferry : la revithada du dimanche, le mastelo de Kastro, les fromages affinés dans les lies de vin, le poisson de Faros, les amygdalota d'Artemonas, le miel de thym. Et les criques — Apokofto sous le monastère, Vathi la secrète, Platis Gialos les jours de vent. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": ["sifnos-tsikali", "sifnos-leonidas", "sifnos-apokofto", "sifnos-gerontopoulos"],
+      "targets": ["sifnos-apokofto"],
+      "thumb": "sifnos-revithada",
+      "thumbAlt": "Un plat de pois chiches mijotés (revithada), crémeux et dorés, avec une tige d'oignon vert",
+      "pills": [
+        { "poiRef": "sifnos-tsikali", "link": "maps", "label": "Tsikali · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — tavernes de Sifnos", "url": "https://www.greekgastronomyguide.gr/en/7-dialextes-apo-tis-kalyteres-tavernes-tis-sifnou/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Margarita Guesthouse à Apollonia pour l'accueil maison et le bus à la porte ; Gerofinikas pour la piscine vue Égée ; l'Hotel Artemon à Artemonas, avec sa taverne familiale dans la cour ; et Aerides, quatre chambres directement sur la plage de Vathi. Réserver tôt — partout, peu de chambres." },
+      { "label": "À table", "kinds": ["resto"], "footer": "La revithada et le mastelo du pot d'argile (Tsikali à Vathi, To Steki à Platis Gialos, Leonidas à Kastro). Le poisson de pêcheur (To Limanaki à Faros, Fyssas au bout du monde à Herronisos). Et le sucre : Gerontopoulos à Apollonia, Theodorou à Artemonas." },
+      { "label": "La mer & les criques", "kinds": ["plage"], "footer": "Apokofto, l'eau émeraude sous le monastère de Chrysopigi. Vathi, la baie secrète fermée par les collines. Platis Gialos, la grande plage les jours de Meltemi. Et les criques de Faros, toutes abritées du vent." },
+      { "label": "À voir & faire", "kinds": ["sight", "activity"], "footer": "Le monastère de Chrysopigi sur son rocher, le village médiéval de Kastro, la rue Steno d'Apollonia. Et l'atelier de poterie Apostolidis, pour tenir dans ses mains le pot d'argile qui fait la revithada." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le cercle continue",
+    "body": "Deuxième île, deuxième réponse : ici, la contrainte du rocher s'est mémorisée dans la matière — la même argile depuis quatre mille ans, des urnes au pot du dimanche. Les {count} lieux de Sifnos — où dormir, où manger, où se baigner — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochain ferry : Folegandros.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/cyclades/"
+  }
+}

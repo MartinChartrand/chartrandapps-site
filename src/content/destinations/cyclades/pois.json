@@ -1318,5 +1318,962 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "sifnos-apokofto",
+    "base": "sifnos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Apokofto & Chrysopigi",
+    "blurb": "La crique-héros de Sifnos : une plage de sable à l'eau turquoise-émeraude, abritée du Meltemi, sous le monastère blanc de Chrysopigi posé sur son rocher fendu qui s'avance dans la mer. Des arbres pour l'ombre, des rochers pour plonger. La taverne du coin sert la revithada les pieds presque dans l'eau.",
+    "signature": "L'eau émeraude sous le monastère qui flotte sur la mer",
+    "image": "sifnos-chrysopigi",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.936391,
+      "lng": 24.746398,
+      "source": "Nominatim (Μονή Χρυσοπηγής — plage d'Apokofto adjacente, vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Apokofto+Chrysopigi+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Chrissopigi beach",
+        "url": "https://www.greeka.com/cyclades/sifnos/beaches/chrissopigi/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Cyclades Map — Apokofto",
+        "url": "https://cycladesmap.gr/en/listings/sifnos/paralia-apokofto/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-vathi-plage",
+    "base": "sifnos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Plage de Vathi",
+    "blurb": "La baie la plus tranquille de l'île : un long ruban de sable doré au fond d'une crique entourée de collines, eau peu profonde et calme même quand le Meltemi souffle. Un vrai village de pêcheurs, des tamaris pour l'ombre, et des tavernes les pieds dans le sable.",
+    "signature": "La baie en fer à cheval, calme et secrète, tavernes dans le sable",
+    "image": "sifnos-vathi",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.933409,
+      "lng": 24.691034,
+      "source": "Nominatim (Βαθύ village, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vathi+Beach+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Vathi beach",
+        "url": "https://www.greeka.com/cyclades/sifnos/beaches/vathy/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Verina Hotels — Vathi bay",
+        "url": "https://verinahotelsifnos.com/vathi-sifnos-the-ultimate-picturesque-bay/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-platis-gialos",
+    "base": "sifnos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Platis Gialos",
+    "blurb": "La plus longue plage de sable de Sifnos, sur la côte sud : eau peu profonde et cristalline, sable doré, Pavillon Bleu, transats et tavernes. Bus direct depuis Apollonia. C'est ici qu'on migre les jours de grand Meltemi.",
+    "signature": "La grande plage de sable, l'option facile les jours de vent",
+    "image": null,
+    "price": {
+      "range": "accès libre (transats payants)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.93061,
+      "lng": 24.727723,
+      "source": "Nominatim (Platis Gialos beach, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Platis+Gialos+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Platys Gialos beach",
+        "url": "https://www.greeka.com/cyclades/sifnos/beaches/platys-gialos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "sifnos.gr — beaches",
+        "url": "https://sifnos.gr/en/beaches/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-faros",
+    "base": "sifnos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Faros & Fasolou",
+    "blurb": "Un village de pêcheurs avec trois petites criques de sable côte à côte (Faros, Glyfo, Fasolou), toutes abritées du Meltemi, tamaris pour l'ombre. L'ancien port de l'île — les poulpes sèchent encore sur les cordes, et la taverne du quai sert le poisson frais même en août.",
+    "signature": "Trois criques abritées et le poisson du quai",
+    "image": null,
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.943546,
+      "lng": 24.752238,
+      "source": "Nominatim (secteur Faros/Χρυσοπηγή, proche Το Λιμανάκι, vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Faros+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "sifnos.e-sifnos — Faros village",
+        "url": "https://sifnos.e-sifnos.com/explore-sifnos/villages/faros.php",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — To Limanaki Faros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/psarotaverna-limanaki-faros-sifnos/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-tsikali",
+    "base": "sifnos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Tsikali",
+    "blurb": "La taverne familiale de la plage de Vathi depuis 1983, les pieds dans le sable sous les tamaris. Presque tout vient de la ferme du propriétaire : le chevreau braisé à l'aneth et au vin de la maison, les boulettes de pois chiches, le fromage manoura. La table de locaux par excellence.",
+    "signature": "Chevreau à l'aneth et fromage maison, les pieds dans le sable de Vathi",
+    "image": null,
+    "price": {
+      "range": "~12–18 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.932924,
+      "lng": 24.687827,
+      "source": "Nominatim (Το Τσικάλι, Βαθύ — restaurant vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://tsikali.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tsikali+Vathi+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Tsikali",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/taverna-tsikali-vathy-sifnos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Tsikali (site officiel)",
+        "url": "https://tsikali.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Tsikali (535 avis)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g3343809-d6914775-Reviews-Tsikali-Vathi_Sifnos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-to-steki",
+    "base": "sifnos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "To Steki",
+    "blurb": "Une taverne de plage à Platis Gialos depuis 1990, sous les tamaris au bord de l'eau. La kaparosalata maison — câpres cueillies à la main sur les falaises, oignons caramélisés, un éclat de saveur à chaque bouchée — le mastelo dans son pot d'argile, le pain au feu de bois.",
+    "signature": "La salade de câpres maison et le mastelo, au bord de l'eau",
+    "image": null,
+    "price": {
+      "range": "~12–20 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.93061,
+      "lng": 24.727723,
+      "source": "interpolé plage de Platis Gialos (adresse exacte à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "http://www.stekisifnos.gr",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/To+Steki+Platis+Gialos+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Taverna Steki",
+        "url": "https://www.greekgastronomyguide.gr/en/item/taverna-steki-platys-gialos-sifnos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Sifnos Chronicler — Caper Salad",
+        "url": "https://thesifnoschronicler.wordpress.com/2016/10/29/sifnos-caper-salad/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-leonidas",
+    "base": "sifnos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Leonidas",
+    "blurb": "Dans la cour ombragée du village médiéval de Kastro, le seul endroit de l'île à cuire le mastelo au four à bois traditionnel : l'agneau pascal braisé au vin rouge et à l'aneth dans son pot d'argile, servi dans la vaisselle de poterie locale, avec la mer Égée en contrebas.",
+    "signature": "Le mastelo au four à bois dans la cour médiévale de Kastro",
+    "image": "sifnos-mastelo",
+    "price": {
+      "range": "~15–22 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.976,
+      "lng": 24.745,
+      "source": "interpolé village de Kastro (à l'entrée du village ; emplacement exact à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Leonidas+Kastro+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "National Geographic — Sifnos gourmet island",
+        "url": "https://www.nationalgeographic.com/travel/article/exploring-flavours-sifnos-greeces-gourmet-island",
+        "date": "2026-06"
+      },
+      {
+        "creator": "sifnos.e-sifnos — Leonidas",
+        "url": "https://sifnos.e-sifnos.com/diaf/sifnos-restaurants/leonidas-restaurant/leonidas.php",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-to-limanaki",
+    "base": "sifnos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "To Limanaki",
+    "blurb": "La psarotaverna de Faros, sur l'ancien port — le propriétaire-pêcheur sort chaque matin et garantit le poisson frais même en plein août. Rougets, poulpe, calmars, oursins selon la pêche, qu'on choisit en arrivant. Réputée la meilleure table de poisson de l'île.",
+    "signature": "Le poisson du jour, choisi à la sortie du bateau",
+    "image": null,
+    "price": {
+      "range": "poisson au poids",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.943546,
+      "lng": 24.752238,
+      "source": "Nominatim (Το Λιμανάκι, Φάρος — restaurant vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/To+Limanaki+Faros+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — To Limanaki",
+        "url": "https://www.greekgastronomyguide.gr/en/item/psarotaverna-limanaki-faros-sifnos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Seasoned Traveller — best restaurants Sifnos",
+        "url": "https://seasonedtraveller.com/best-of-lists/best-restaurants-sifnos",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-fyssas",
+    "base": "sifnos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Fish Tavern Fyssas — Herronisos",
+    "blurb": "Au bout du monde, à la pointe nord de l'île : un village de pêcheurs intact et sa taverne familiale depuis 1973. Les bateaux sont amarrés à deux mètres, le tsiros (poisson séché et salé maison) est introuvable ailleurs, le poulpe grille sur les braises. Voiture obligatoire — et ça vaut le détour.",
+    "signature": "La taverne de pêcheurs au bout de l'île, le tsiros maison",
+    "image": null,
+    "price": {
+      "range": "prix de pêcheurs",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.9985,
+      "lng": 24.673,
+      "source": "interpolé village de Cheronissos, pointe nord (route ~45 min ; emplacement à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Fish+Tavern+Fyssas+Cheronissos+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Wine Anorak — Fish Tavern Fyssas",
+        "url": "https://wineanorak.com/2025/10/22/sifnos-the-gastronomic-greek-island-2-cheronissos-the-journey-begins-with-lunch-at-fish-tavern-fyssas/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — Taverna Herronisos",
+        "url": "https://www.greekgastronomyguide.gr/en/item/taverna-xerronisos-sifnos/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-margarita",
+    "base": "sifnos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Margarita Guesthouse",
+    "blurb": "Sept chambres au cœur d'Apollonia, tenues par une hôtesse réputée pour apporter une gâterie maison avec le café chaque matin. Propre, intime, chaleureux, et la station de bus à deux pas pour rayonner vers les plages et les villages. Le douillet sans chichi.",
+    "signature": "Sept chambres, l'accueil maison, le bus à la porte",
+    "image": null,
+    "price": {
+      "range": "~110–150 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.975,
+      "lng": 24.722,
+      "source": "interpolé centre d'Apollonia (hub des bus ; adresse exacte à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.margaritaguesthouse.gr/",
+      "booking": "https://www.booking.com/hotel/gr/margarita-guesthouse.html",
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Margarita+Guesthouse+Apollonia+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Margarita Guesthouse (site officiel)",
+        "url": "https://www.margaritaguesthouse.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Margarita Guesthouse",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g2721146-d8705032-Reviews-Margarita_Guesthouse-Apollonia_Sifnos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-gerofinikas",
+    "base": "sifnos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Gerofinikas Boutique Hotel",
+    "blurb": "Un petit hôtel d'architecture cycladique aux abords d'Apollonia : piscine avec vue sur l'Égée, petit-déjeuner méditerranéen inclus, accueil soigné. Le genre d'endroit où on arrive crevé du ferry et on se sent déjà en vacances. À pied du centre, bus pour les plages.",
+    "signature": "Piscine vue Égée et petit-déjeuner inclus, à pied d'Apollonia",
+    "image": null,
+    "price": {
+      "range": "~210–280 €/nuit (haute saison)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.9745,
+      "lng": 24.7235,
+      "source": "interpolé périphérie d'Apollonia (~1 km du centre ; adresse exacte à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": "https://www.booking.com/hotel/gr/gerofinikas.en-gb.html",
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Gerofinikas+Boutique+Hotel+Apollonia+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Booking.com — Gerofinikas (9,7/10)",
+        "url": "https://www.booking.com/hotel/gr/gerofinikas.en-gb.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Gerofinikas Boutique Hotel",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g2721146-d3399704-Reviews-Gerofinikas_Boutique_Hotel-Apollonia_Sifnos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-artemon",
+    "base": "sifnos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Hotel Artemon",
+    "blurb": "Un hôtel familial dans Artemonas, le plus élégant et calme des villages de l'île, à dix minutes à pied d'Apollonia. Chambres impeccables, accueil chaleureux, et dans la cour une taverne familiale où mangent les gens du coin. L'arrêt de bus à cent mètres.",
+    "signature": "Hôtel familial à Artemonas, taverne sifnienne dans la cour",
+    "image": null,
+    "price": {
+      "range": "~100–150 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.97966,
+      "lng": 24.726735,
+      "source": "Nominatim (Hotel Artemon, Αρτεμών — vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hotel+Artemon+Artemonas+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Hotel Artemon",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g4942442-d253911-Reviews-Hotel_Artemon-Artemonas_Sifnos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Rooms in Sifnos — Artemonas",
+        "url": "https://www.roomsinsifnos.com/villages/artemonas",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-aerides",
+    "base": "sifnos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Aerides Boutique Rooms",
+    "blurb": "Quatre chambres seulement, directement sur la plage de la baie de Vathi — terrasse sous les oliviers et les citronniers, l'eau calme à quelques pas. Les hôtes accueillent avec leur huile d'olive maison et de la limonade. L'option bord de mer pour le slow travel pur.",
+    "signature": "Quatre chambres sur la plage de Vathi, l'huile d'olive maison",
+    "image": null,
+    "price": {
+      "range": "~90–110 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.933409,
+      "lng": 24.691034,
+      "source": "interpolé baie de Vathi (sur la plage ; emplacement exact à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": "https://www.booking.com/hotel/gr/aerides-boutique-rooms.html",
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Aerides+Boutique+Rooms+Vathi+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Aerides Boutique Rooms",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g3343809-d10170691-Reviews-Aerides_Boutique_Rooms-Vathi_Sifnos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Booking.com — Aerides Boutique Rooms",
+        "url": "https://www.booking.com/hotel/gr/aerides-boutique-rooms.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-gerontopoulos",
+    "base": "sifnos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": "mid",
+    "name": "Gerontopoulos",
+    "blurb": "La pâtisserie-café d'Apollonia depuis 1950, derrière une porte bleue dans la ruelle blanche : les amygdalota aux amandes et à l'eau de fleur d'oranger, le miel de thym et les câpres de l'île au comptoir. Café en terrasse d'un côté, boutique de l'autre — le sucre et le terroir en un arrêt.",
+    "signature": "Les amygdalota et le miel de thym, derrière la porte bleue",
+    "image": null,
+    "price": {
+      "range": "café ~3–5 € · sweets variable",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.974395,
+      "lng": 24.723989,
+      "source": "Nominatim (Γεροντόπουλος bakery, secteur Apollonia/Exampela — vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://gerontopoulossifnos.gr/en/about.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Gerontopoulos+Apollonia+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Gerontopoulos (site officiel)",
+        "url": "https://gerontopoulossifnos.gr/en/about.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Gerontopoulos",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g2721146-d2326834-Reviews-Gerontopoulos_Sweet_Shop-Apollonia_Sifnos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-theodorou",
+    "base": "sifnos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Pâtisserie Theodorou",
+    "blurb": "La plus vieille pâtisserie de l'île, à Artemonas, dans un bâtiment du XIXe : tout y cuit au feu de bois dans des chaudrons de cuivre. Les amygdalota fondent en bouche, parfumés à la fleur d'oranger ; le pasteli au miel et sésame se mange sur le pouce. Un souvenir comestible à rapporter.",
+    "signature": "Amygdalota et pasteli au feu de bois, à Artemonas",
+    "image": null,
+    "price": {
+      "range": "boîte de sweets ~8–15 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.98,
+      "lng": 24.727,
+      "source": "interpolé village d'Artemonas (à confirmer sur place)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Theodorou+Artemonas+Sifnos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Zaxaroplasteio Theodorou",
+        "url": "https://www.greekgastronomyguide.gr/en/item/zaxaroplasteio-theodorou-sifnos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "National Geographic — Sifnos gourmet island",
+        "url": "https://www.nationalgeographic.com/travel/article/exploring-flavours-sifnos-greeces-gourmet-island",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-apostolidis",
+    "base": "sifnos",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": "mid",
+    "name": "Poterie Apostolidis",
+    "blurb": "L'atelier de céramique sur la route entre le port de Kamares et Apollonia, troisième génération de potiers. On y voit tourner l'argile réfractaire de l'île — la même qui sert le skepastaria, le pot dans lequel la revithada cuit depuis des siècles. Le fil de quatre mille ans, vivant et palpable.",
+    "signature": "Le pot d'argile de la revithada, façonné devant toi",
+    "image": null,
+    "price": {
+      "range": "visite libre · pièces à l'achat",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.982,
+      "lng": 24.7,
+      "source": "interpolé route Kamares–Apollonia (Livadas ; emplacement exact à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.apostolidis-ceramics.gr/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Apostolidis+Ceramics+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Apostolidis Ceramics (site officiel)",
+        "url": "https://www.apostolidis-ceramics.gr/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Culture Trip — Sifnos ceramicists",
+        "url": "https://theculturetrip.com/europe/greece/articles/why-sifnos-is-a-haven-for-ceramicists",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-chrysopigi-monastere",
+    "base": "sifnos",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": "gem",
+    "name": "Monastère de Chrysopigi",
+    "blurb": "Le monastère blanc de 1523, patron protecteur de l'île, posé sur un rocher fendu qui s'avance dans la mer et relié à la côte par une passerelle de pierre. L'image qui résume Sifnos. On y monte en quelques minutes depuis la plage d'Apokofto, juste à côté.",
+    "signature": "Le monastère sur son rocher fendu, l'icône de Sifnos",
+    "image": null,
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.936391,
+      "lng": 24.746398,
+      "source": "Nominatim (Μονή Χρυσοπηγής — vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Chrysopigi+Monastery+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Chrissopigi Monastery",
+        "url": "https://www.greeka.com/cyclades/sifnos/sightseeing/monastery-chrissopigi/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-kastro",
+    "base": "sifnos",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Kastro — le village médiéval",
+    "blurb": "Le plus beau village de Sifnos : une cité médiévale habitée sans interruption, suspendue au-dessus de la mer. Des ruelles si étroites qu'elles passent en tunnel sous les maisons, des escaliers blanchis à la chaux, l'église des Sept Martyrs accrochée à la falaise. On y flâne au coucher du soleil.",
+    "signature": "Le labyrinthe médiéval au-dessus de la mer",
+    "image": "sifnos-kastro",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.976,
+      "lng": 24.745,
+      "source": "interpolé village de Kastro, côte est (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kastro+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Kastro Sifnos",
+        "url": "https://www.greeka.com/cyclades/sifnos/sightseeing/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Insights Greece — Sifnos 2026",
+        "url": "https://insightsgreece.com/best-places-to-eat-and-drink-in-sifnos-2026/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sifnos-apollonia",
+    "base": "sifnos",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Apollonia & la rue Steno",
+    "blurb": "La capitale de l'île et son cœur piéton : la rue Steno (« l'étroite »), pavée de marbre blanc et débordante de bougainvilliers, où s'alignent les ateliers de céramique, les pâtisseries et les cafés. Quasi déserte le matin, animée d'un freddo l'après-midi, elle devient une promenade le soir. Le hub des bus.",
+    "signature": "La rue piétonne de marbre, le freddo et le corso du soir",
+    "image": "sifnos-village",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.975,
+      "lng": 24.722,
+      "source": "interpolé centre d'Apollonia (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Apollonia+Steno+Sifnos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Verina Hotels — Apollonia",
+        "url": "https://verinahotelsifnos.com/apollonia-sifnos-the-beating-heart-of-a-greek-island-paradise/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "sifnos.e-sifnos — relaxing walk",
+        "url": "https://sifnos.e-sifnos.com/explore-sifnos/relaxing-walk.php",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
