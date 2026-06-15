@@ -49,7 +49,9 @@
         "url": "https://www.lescale-voyage.com/destinations/the-mustang-blu-ananda-chalardcharoens-iconic-hotel-in-bangkoks-chinatown",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "feung-nakorn-balcony",
@@ -193,7 +195,9 @@
         "url": "https://www.feastographyblog.com/blog/phed-mark-review",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tk-seafood-yaowarat",
@@ -245,7 +249,9 @@
         "url": "https://authenticfoodquest.com/chinatown-bangkok-food/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "thip-samai-pad-thai",
@@ -399,7 +405,9 @@
         "url": "https://therantingpanda.com/2023/01/09/food-review-jeh-o-chula-bangkok-how-to-skip-the-queue-at-the-popular-michelin-bib-gourmand-restaurant-for-its-tom-yum-noodles/",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "yaowarat-chinatown",
@@ -452,7 +460,9 @@
         "url": "https://littlebigreddot.com/yaowarat-after-dark-the-ultimate-top-5-street-food-spots-in-bangkoks-chinatown-2025/",
         "date": "2025-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "or-tor-kor-market",
@@ -504,7 +514,9 @@
         "url": "https://www.misstamchiak.com/or-tor-kor-market-one-of-the-best-market-in-bangkok/",
         "date": "2022-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "boat-noodle-alley-victory",
@@ -556,7 +568,9 @@
         "url": "https://www.springtomorrow.com/victory-monument-boat-noodles/",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "lumpini-park-matin",
@@ -789,7 +803,9 @@
         "date": "2025-07"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "casa-marta-hotel-iloilo",
@@ -887,7 +903,9 @@
         "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "aling-lucing-sisig-angeles",
@@ -939,7 +957,9 @@
         "url": "https://www.zoytotheworld.com/blog/angeles-city-food-trip-aling-lucing",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "decos-batchoy-la-paz",
@@ -991,7 +1011,9 @@
         "url": "https://www.zoytotheworld.com/blog/iloilo-city-food-trip-best-la-paz-batchoy",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tatoys-villa-arevalo",
@@ -1043,7 +1065,9 @@
         "url": "https://guidetothephilippines.ph/articles/what-to-experience/best-iloilo-restaurants",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "stanley-talabahan-molo",
@@ -1095,7 +1119,9 @@
         "url": "https://adventure.com/food-guide-iloilo-philippines/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "gigantes-norte-seafood-stalls",
@@ -1195,7 +1221,9 @@
         "date": "2024-03"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "cabugao-gamay-gigantes",
@@ -1244,7 +1272,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tangke-lagoon-gigantes",
@@ -1297,7 +1327,9 @@
         "url": "https://www.gigantesislandtour.com/2025/10/the-tangke-saltwater-lagoon-natures.html",
         "date": "2025-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "villa-arevalo-beachfront",
@@ -1585,7 +1617,9 @@
         "url": "https://scubaboard.com/community/threads/atlantis-dumaguete-review.629910/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "mikes-dauin-beach-resort",
@@ -1683,7 +1717,9 @@
         "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
         "date": "2022-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "erons-cansi-house",
@@ -1735,7 +1771,9 @@
         "url": "https://www.youtube.com/watch?v=jZdV_pmHKSI",
         "date": "2022-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "lab-as-seafood-dumaguete",
@@ -1977,7 +2015,9 @@
         "url": "https://en.wikipedia.org/wiki/The_Ruins_(mansion)",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "silay-heritage-zone",
@@ -2076,7 +2116,9 @@
         "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "dauin-marine-sanctuary",
@@ -2128,7 +2170,9 @@
         "url": "https://eazytraveler.net/2017/09/liquid-dive-resort-dumaguete-muck-diving/",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "rizal-boulevard-dumaguete",
@@ -2273,7 +2317,9 @@
         "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
         "date": "2025-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "salamangka-beach-siquijor",
@@ -2371,7 +2417,9 @@
         "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "lazi-beach-club",
@@ -2469,7 +2517,9 @@
         "url": "https://girlonazebra.com/siquijor-island-philippines/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "baha-bar-siquijor",
@@ -2521,7 +2571,9 @@
         "url": "https://www.edpuno.com/2017/01/restaurant-bar-in-siquijor-island-baha-bar.html",
         "date": "2017-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "twenty4-cafe-lazi",
@@ -2717,7 +2769,9 @@
         "url": "https://funfamtravelsph.com/discovering-the-magic-of-cambugahay-falls-rope-swings-bamboo-rafts-and-the-enchanting-fairy-walk/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "paliton-beach",
@@ -2874,7 +2928,9 @@
         "url": "https://iheartph.com/siquijor-balete-tree-fish-spa/",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tour-scooter-ile",
@@ -3345,7 +3401,9 @@
         "url": "https://www.tripadvisor.com/Attraction_Review-g1082590-d1073515-Reviews-Loboc_River_Cruise-Loboc_Bohol_Island_Bohol_Province_Visayas.html",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "cnt-lechon-cebu",
@@ -3397,7 +3455,9 @@
         "url": "https://www.2bearbear.com/cnt-lechon-the-best-lechon-in-cebu/",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "zubuchon-cebu",
@@ -3449,7 +3509,9 @@
         "url": "https://www.tripadvisor.com.ph/ShowUserReviews-g298460-d2338110-r131949559-Zubuchon-Cebu_City_Cebu_Island_Visayas.html",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "dumaluan-beach",
@@ -3501,7 +3563,9 @@
         "url": "https://www.ahandfulofsand.com/blog-philippines/dumaluan-beach",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "balicasag-island-snorkel",
@@ -3553,7 +3617,9 @@
         "url": "https://www.starfish.ch/dive/Bohol.html",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tarsier-sanctuary-corella",
@@ -3605,7 +3671,9 @@
         "url": "https://www.tripadvisor.com/ShowUserReviews-g3649283-d320849-r578441808-Philippine_Tarsier_and_Wildlife_Sanctuary-Corella_Bohol_Province_Visayas.html",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "chocolate-hills-carmen",

@@ -15,7 +15,9 @@
         "date": "2023-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "mae-varee-fruit-shop",
@@ -37,7 +39,9 @@
         "url": "https://muuhotels.com/bangkok/neighbourhoods/mae-varee-fruit-shop-mango-sticky-rice-at-thong-lo-bts/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "sarnies-charoenkrung",
@@ -59,7 +63,9 @@
         "url": "https://nextstopasia.com/riverside-cafes-in-bangkok-hidden-gems/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "guay-tiew-kua-gai-suanmali",
@@ -81,7 +87,9 @@
         "url": "https://www.streetsidebangkok.com/roasted-chicken-noodles-guay-tiew-kua-gai-at-suan-mali-is-a-true-treasure/",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "talad-rot-fai-train-market",
@@ -99,7 +107,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "coning-talabahan-molo",
@@ -117,7 +127,9 @@
         "date": "2023-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "bantigue-sandbar-gigantes",
@@ -139,7 +151,9 @@
         "url": "https://projectgora.com/gigantes-islands-travel-guide/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "panaderia-de-molo-iloilo",
@@ -161,7 +175,9 @@
         "url": "https://outoftownblog.com/best-ilonggo-dishes-to-enjoy-in-iloilo/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "ludy-pension-house-carles",
@@ -179,7 +195,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "valeria-street-food-strip",
@@ -197,7 +215,9 @@
         "date": "2023-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "dauin-muck-non-diver",
@@ -219,7 +239,9 @@
         "url": "https://divingescapades.com/is-dauin-philippines-worth-visiting/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "sinamak-local-condiment",
@@ -237,7 +259,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "bongbongs-pasalubong",
@@ -259,7 +283,9 @@
         "url": "https://phinmaproperties.com/blogs-articles/saludad/phinma-saludads-guide-to-chicken-inasal-in-manokan-country/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "phare-apo-island",
@@ -277,7 +303,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "dumaguete-university-cafes",
@@ -295,7 +323,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "marche-matin-siquijor-town",
@@ -317,7 +347,9 @@
         "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "capilay-spring-park",
@@ -335,7 +367,9 @@
         "date": "2025-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "lugnason-falls-cache",
@@ -357,7 +391,9 @@
         "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "coucher-soleil-paliton-cocktail",
@@ -379,7 +415,9 @@
         "url": "https://philippineshiddengems.com/siquijor-beaches/",
         "date": "2026-04"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "bucafe-treehouse-empanadas",
@@ -397,7 +435,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tagbilaran-market-dawn",
@@ -415,7 +455,9 @@
         "date": "2026-06"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "kalamay-jagna-town",
@@ -437,7 +479,9 @@
         "url": "https://richestph.com/a-gastronomic-journey-through-bohol-local-flavors-and-delicacies/",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tuba-bord-de-route",
@@ -459,7 +503,9 @@
         "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/tuba-coconout-wine/",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "bohol-bee-farm-falaise-breakfast",
@@ -481,7 +527,9 @@
         "url": "https://www.tripadvisor.com/Hotel_Review-g1220535-d636754-Reviews-Bohol_Bee_Farm-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "cebu-lechon-hunt",
@@ -503,6 +551,8 @@
         "url": "https://authenticfoodquest.com/cebu-lechon-bourdain/",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   }
 ]

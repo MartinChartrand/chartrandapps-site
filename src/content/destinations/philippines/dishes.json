@@ -21,7 +21,9 @@
         "url": "https://danielfooddiary.com/2025/02/17/phedmark/",
         "date": "2025-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "kuay-teow-reua-boat-noodles",
@@ -45,7 +47,9 @@
         "url": "https://seasonedtraveller.com/places/boat-noodle-alley-bangkok",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "mango-sticky-rice",
@@ -69,7 +73,9 @@
         "url": "https://muuhotels.com/bangkok/neighbourhoods/mae-varee-fruit-shop-mango-sticky-rice-at-thong-lo-bts/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "cha-yen-thai-iced-tea",
@@ -89,7 +95,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "singha-chang-leo-beer",
@@ -109,7 +117,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "khai-jiao-poo-jay-fai",
@@ -133,7 +143,9 @@
         "url": "https://thesmartlocal.co.th/jay-fai/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tom-yum-mama-jeh-o",
@@ -157,7 +169,9 @@
         "url": "https://chueonit.com/2025/01/29/jeh-o-chula/",
         "date": "2025-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "sisig-kapampangan",
@@ -181,7 +195,9 @@
         "url": "https://www.simpol.ph/sisig-history-begins-long-before-the-sizzle/",
         "date": "2023-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "la-paz-batchoy",
@@ -205,7 +221,9 @@
         "url": "https://jayexiomo.com/2024/07/12/dine-in-netongs-original-special-la-paz-batchoy/",
         "date": "2024-07"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "kinilaw-ilonggo",
@@ -229,7 +247,9 @@
         "url": "https://adventure.com/food-guide-iloilo-philippines/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "scallops-gigantes",
@@ -253,7 +273,9 @@
         "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "pancit-molo",
@@ -277,7 +299,9 @@
         "url": "https://visitiloilocity.com/food/pancit-molo/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "talaba-iloilo",
@@ -301,7 +325,9 @@
         "url": "https://iamtravelinglight.com/2012/09/24/ilioilos-oysters-a-delicious-and-cheap-love-affair/",
         "date": "2012-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tsokolate-batirol-iloilo",
@@ -321,7 +347,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "chicken-inasal",
@@ -345,7 +373,9 @@
         "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
         "date": "2022-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "cansi-bacolod",
@@ -369,7 +399,9 @@
         "url": "https://www.youtube.com/watch?v=jZdV_pmHKSI",
         "date": "2022-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "napoleones-bacolod",
@@ -393,7 +425,9 @@
         "url": "https://puredetour.com/post/the-ultimate-bacolod-sweets-guide/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "piaya-muscovado",
@@ -417,7 +451,9 @@
         "url": "https://puredetour.com/post/the-ultimate-bacolod-sweets-guide/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "fruits-de-mer-dumaguete",
@@ -441,7 +477,9 @@
         "url": "https://www.tsinoyfoodies.com/2024/06/lab-as-dumaguate.html",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "banka-breakfast-malatapay",
@@ -461,7 +499,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "kinilaw-frais",
@@ -485,7 +525,9 @@
         "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "sutukil-poisson",
@@ -509,7 +551,9 @@
         "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "lechon-vendredi-siquijor",
@@ -533,7 +577,9 @@
         "url": "https://www.edpuno.com/2017/01/restaurant-bar-in-siquijor-island-baha-bar.html",
         "date": "2017-01"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "bukayo-noix-coco",
@@ -553,7 +599,9 @@
         "date": "2026-02"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "torta-siquijor",
@@ -573,7 +621,9 @@
         "date": "2026-02"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "san-miguel-pale-pilsen",
@@ -593,7 +643,9 @@
         "date": "2024-01"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "fruit-wine-siquijor",
@@ -613,7 +665,9 @@
         "date": "2026-02"
       }
     ],
-    "singleSourceTrusted": true
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "lechon-cebu",
@@ -637,7 +691,9 @@
         "url": "https://authenticfoodquest.com/cebu-lechon-bourdain/",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "kinilaw-bohol",
@@ -661,7 +717,9 @@
         "url": "https://richestph.com/bohol-for-foodies-a-culinary-adventure-from-kinilaw-to-kalamay/",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "sinugba-seafood",
@@ -685,7 +743,9 @@
         "url": "https://www.smdiversbohol.com/a-food-lovers-guide-to-dining-in-bohol/",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "kalamay-jagna",
@@ -709,7 +769,9 @@
         "url": "https://www.pinoytourist.com/destinations-philippines/indulge-in-the-top-25-bohol-delicacies-a-gastronomic-tour-of-the-island",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "tuba-visayas",
@@ -733,7 +795,9 @@
         "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/tuba-coconout-wine/",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   },
   {
     "id": "garlic-butter-crab-bohol",
@@ -757,6 +821,8 @@
         "url": "https://wanderlog.com/list/geoCategory/262935/best-seafood-restaurants-in-bohol-province",
         "date": "2026-06"
       }
-    ]
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
   }
 ]
