@@ -46,6 +46,22 @@
       ]
     },
     {
+      "id": "scene-vie-ermoupoli",
+      "kicker": "Ermoupoli · LA PLACE",
+      "title": "Le freddo, le marbre, et le temps qui ralentit",
+      "image": "syros-place-miaouli",
+      "alt": "La terrasse d'un café sur la place Miaouli d'Ermoupoli : des gens attablés sous un parasol, une carafe d'eau en avant-plan, l'hôtel de ville néoclassique et la foule sur la place de marbre derrière, en lumière chaude de fin de journée",
+      "intro": "Avant de filer vers la mer, on prend le temps. Le matin, Ermoupoli s'éveille autour de la place Miaouli — une grande esplanade de marbre dominée par l'hôtel de ville néoclassique. On s'assoit à une terrasse, un freddo devant soi, et on regarde la ville vivre : les vieux qui jasent, les chaises de café qui se remplissent, les enfants qui traversent. C'est ça, le rythme de Syros — lent, vécu, pas mis en scène pour personne.",
+      "reco": "L'Ellinikon, sur la place, pour le freddo du matin — un espresso glacé monté en mousse, à siroter lentement. Le soir, la même place déambule sous les arcades. Syros est la capitale administrative des Cyclades, pas une île-décor : les gens d'ici y vivent leur vie, et c'est exactement ça qui la rend belle.",
+      "quote": "Pas de dômes bleus pour la photo — une place de marbre, un café glacé, une ville qui prend son temps. L'imaginaire grec, le vrai.",
+      "via": null,
+      "poiRef": "syros-ellinikon",
+      "sources": [
+        { "creator": "TripAdvisor — Ellinikon Café (222 avis)", "url": "https://www.tripadvisor.com/Restaurant_Review-g616163-d7059621-Reviews-Ellinikon_cafe-Hermoupolis_Syros_Cyclades_South_Aegean.html", "date": "2026-06" },
+        { "creator": "Wikipedia — Miaouli Square", "url": "https://en.wikipedia.org/wiki/Miaouli_Square", "date": "2026-06" }
+      ]
+    },
+    {
       "id": "scene-kini-taverna",
       "kicker": "Kini · LA TABLE DE LA MER",
       "title": "Le poulpe qui sèche sur la corde",
@@ -117,8 +133,8 @@
       "body": "Avant de monter sur le ferry : le poulpe de Kini, l'agneau du nord, le San Michali et les câpres de chez Prekas, le tsipouro de Vari. Et les criques — Delfini à pied, Grammata en bateau, Megas Gialos quand le vent se lève. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
       "boundsPois": ["syros-allou-yialou", "syros-plakostroto", "syros-delfini", "syros-prekas"],
       "targets": ["syros-allou-yialou"],
-      "thumb": "syros-poulpe",
-      "thumbAlt": "Une tentacule de poulpe grillée au charbon, avec oignon grillé, poivron rouge, demi-tomate et persil, arrosés d'huile d'olive",
+      "thumb": "syros-marche",
+      "thumbAlt": "L'étal coloré d'une épicerie de fruits et légumes d'Ermoupoli : cageots de tomates, poivrons, aubergines, oranges et légumes verts",
       "pills": [
         { "poiRef": "syros-allou-yialou", "link": "maps", "label": "Allou Yialou · Maps" },
         { "label": "Le carnet de bouche", "url": "#carnet" }

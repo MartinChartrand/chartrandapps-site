@@ -1024,7 +1024,7 @@
     "name": "Prekas — produits du terroir",
     "blurb": "La petite épicerie de terroir de la rue Chiou : les câpres sauvages cueillies à la main sur les falaises arides du nord, les tomates séchées au soleil, le critamo (fenouil de mer) et le San Michali au comptoir — tout produit sur l'île. On goûte avant d'acheter.",
     "signature": "Câpres sauvages, tomates séchées et San Michali, rue Chiou",
-    "image": null,
+    "image": "syros-marche",
     "price": {
       "range": "produits du terroir au poids",
       "currency": "EUR",

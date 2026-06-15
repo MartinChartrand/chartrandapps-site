@@ -334,5 +334,53 @@
       "verdict": "match",
       "checkedAt": "2026-06-15"
     }
+  },
+  {
+    "id": "syros-place-miaouli",
+    "slot": "syros-place-miaouli",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-place-miaouli.jpg",
+    "alt": "La terrasse d'un café sur la place Miaouli d'Ermoupoli : des gens attablés sous un parasol, une carafe d'eau en avant-plan, l'hôtel de ville néoclassique et la foule sur la place de marbre derrière, en lumière chaude de fin de journée",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "20221028 468 Syros.jpg",
+      "photographer": "Jean Housen",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "9a2fbd80b4db2f874907e5a1df32579993668b39a648973509e9cdb3d5700183",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "9a2fbd80b4db2f874907e5a1df32579993668b39a648973509e9cdb3d5700183",
+      "alt": "La terrasse d'un café sur la place Miaouli d'Ermoupoli : des gens attablés sous un parasol, une carafe d'eau en avant-plan, l'hôtel de ville néoclassique et la foule sur la place de marbre derrière, en lumière chaude de fin de journée",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-marche",
+    "slot": "syros-marche",
+    "base": "syros",
+    "role": "food",
+    "file": "syros-marche.jpg",
+    "alt": "L'étal d'une épicerie de fruits et légumes d'Ermoupoli (Οπωροπαντοπωλείο), des cageots débordant de tomates rouges, oranges, fraises, aubergines, poivrons et légumes verts, et deux personnes à l'intérieur de la boutique",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Syros, Ermoupoli market shop.jpg",
+      "photographer": "Iantomferry",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "142d0c532f602424520eedede0ed72593dc267296fc9298be1f40c534574947d",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "142d0c532f602424520eedede0ed72593dc267296fc9298be1f40c534574947d",
+      "alt": "L'étal d'une épicerie de fruits et légumes d'Ermoupoli (Οπωροπαντοπωλείο), des cageots débordant de tomates rouges, oranges, fraises, aubergines, poivrons et légumes verts, et deux personnes à l'intérieur de la boutique",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   }
 ]
