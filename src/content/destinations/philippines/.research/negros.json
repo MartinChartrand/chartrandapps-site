@@ -1,0 +1,640 @@
+{
+  "base": "negros",
+  "narratif": "On arrive à Bacolod par le nord et on comprend vite : cette île-là, elle ne se présente pas avec des temples ou des musées. Elle se présente avec de la fumée de charbon de bois et l'odeur du poulet qui grille depuis 6 heures du matin.\n\n[[poi:manokan-country]] c'est pas un resto — c'est une collection de cahutes en tôle ondulée avec des grills au charbon qui n'ont jamais refroidi depuis 1979. On s'assoit sur des bancs en plastique, on pointe le morceau qu'on veut — pecho (poitrine), pakpak (ailes), paa (cuisse) — et on regarde la bête se faire badigeonner d'huile annatto devant nos yeux. Le résultat a le goût d'une promesse tenue : fumé, légèrement acidulé (le calamansi et le vinaigre de coco dans la marinade), avec la couleur orange d'un coucher de soleil de Visayas. On mange avec les mains, avec du riz sinangag, avec du sinamak pour tremper. Les voisins de table sont des chauffeurs de tricycle et des familles du quartier.\n\nLe lendemain, avant de quitter Bacolod, on fait le détour pour un bol chez [[poi:erons-cansi-house]] : le cansi est la version Negros du bulalo, mais rendu sour par le batwan — un fruit qu'on trouve presque nulle part ailleurs. Le bouillon est épais, sombre, presque médicinal. La moelle coule dans la cuillère. C'est le genre de soupe qu'on réclame quand il pleut, même quand il fait 32 degrés dehors.\n\n[[poi:the-ruins-talisay]] est à 15 minutes de Bacolod en tuk-tuk, et c'est le backdrop parfait pour comprendre pourquoi tout ce sucre existait : la fortune d'un baron de canne à sucre coulée dans du béton armé au début du XXe siècle, dynamitée par les Japonais pendant la Deuxième Guerre mondiale pour qu'elle ne serve pas de QG, et qui reste debout comme un squelette élégant. On y va en fin d'après-midi, quand la lumière la traverse.\n\nLe bus Ceres Liner de Bacolod traverse l'île du nord au sud, 6 heures à travers les montagnes et les plantations de canne. On arrive à Dauin au lever du soleil, sur une côte noire de sable volcanique qui casse le mythe des Philippines-plages-blanches. [[poi:dauin-marine-sanctuary]] est à deux pas du resort — on enfile le masque, on glisse dans l'eau, et la plaque de sable noir s'arrête là où commence la couleur : nudibranchs d'un jaune flamboyant, pieuvres à anneaux bleus, poisson-grenouille immobile sur un rocher. C'est la capitale mondiale du muck diving.\n\nLe jour d'Apo Island, on se lève à 5h30. La banca part de [[poi:malatapay-port]] — 30 minutes sur l'eau verte de la mer de Bohol — et dépose sur un rivage où les tortues vertes nagent à un mètre cinquante de profondeur sans se préoccuper de personne. [[poi:apo-island]] est une réserve marine gérée par les villageois depuis 1982, et ça paraît : les coraux sont intacts, les poissons sont gros, et les tortues ont l'air d'avoir passé leur vie à ignorer les touristes.\n\nLe soir, on rentre par Dumaguete. [[poi:rizal-boulevard-dumaguete]] à l'heure du souper, c'est des bancs sous les palmiers, des vendeurs de tempura de rue, l'odeur du sel, et [[poi:hayahay-treehouse]] pour les huîtres au fromage et la bière locale avec une vue sur le détroit de Tanon. La ville est calme, universitaire, pas écrasée par le tourisme de masse. C'est une ville où on mange bien pour pas cher et où on n'est pas importuné.",
+  "pratique": "ARRIVER : De Manille ou Cebu, vol direct vers Bacolod (aéroport Silay) ou Dumaguete. Alternativement depuis Cebu : ferry Oceanjet vers Dumaguete (2h). Si on commence par Bacolod et on finit Dauin/Dumaguete, le bus Ceres Liner Bacolod → Dumaguete via Mabinay = 6h, ~₱450/personne — express de nuit disponible. Louer un van privé pour Silay + The Ruins (demi-journée depuis Bacolod).\n\nTRANSPORT LOCAL : Bacolod = tricycles et taxis (pas de Grab fiable — négocier d'avance). Dauin ↔ Dumaguete = habal-habal (moto-taxi, ~₱150) ou multicab. Pour Apo Island : jeepney depuis terminal Dumaguete vers Zamboanguita/Malatapay (~₱25), puis banca depuis le port de Malatapay (~₱3,500 banca privée aller-retour pour 4 personnes, ou joindre un tour ~₱1,200/pers tout inclus via Harold's Mansion ou tour opérateurs à Dauin).\n\nSAISON FÉV-MARS : Idéal. Saison sèche, mer calme, visibilité optimale pour snorkeling et plongée (25-30m). Températures : 28-32°C le jour. Apo Island : frais le matin, départ idéal avant 8h pour éviter les groupes et la houle de l'après-midi. Réserver le resort à Dauin 2-3 mois à l'avance (fév-mars = peak dive season).\n\nPIÈGES SPÉCIFIQUES : (1) Manokan Country = pas de signalisation en anglais — demander le coin sur Father M. Ferrero St, en face du SM Bacolod. (2) Apo Island : pas de toilettes convenables sur l'île, emporter eau et collations. Guide obligatoire pour le turtle sanctuary (₱300/groupe). Pas de paiement par carte nulle part — cash en pesos. (3) La côte de Dauin a une plage de sable noir volcanique, pas de sable blanc. Aller à Apo Island pour le sable clair. (4) Dauin → Dumaguete le soir : habal-habal cesse vers 20h — arranger le retour avec le resort.",
+  "hebergements": [
+    {
+      "id": "l-fisher-bacolod",
+      "name": "L'Fisher Hotel Bacolod",
+      "tier": "mid",
+      "blurb": "Hôtel mid-range bien établi au centre de Bacolod, piscine extérieure, chambres propres et climatisées, à 15 min en taxi de Manokan Country et The Ruins.",
+      "quartier": "Lacson Street, centre-ville Bacolod",
+      "prixParNuit": "₱3,500–5,500 (~$60–95 USD)",
+      "devise": "PHP",
+      "url": "https://www.lfisherhotelbacolod.com/",
+      "lat": 10.6765,
+      "lng": 122.9529,
+      "sources": [
+        {
+          "creator": "Booking.com — L'Fisher Hotel Bacolod",
+          "url": "https://www.booking.com/hotel/ph/fisher-bacolod.html",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "atlantis-dumaguete",
+      "name": "Atlantis Dive Resorts Dumaguete",
+      "tier": "gem",
+      "blurb": "Le resort de plongée de référence à Dauin — chambres spacieuses vue mer, cuisine maison soignée, dive center PADI 5 étoiles, accès direct aux meilleurs sites de muck diving.",
+      "story": "Atlantis Dumaguete, c'est le genre d'endroit où on arrive pour trois nuits et on en passe cinq. Les chambres ont des vraies salles de bain avec douche pluie, les divemasters connaissent chaque frogfish par prénom, et le repas du soir se prend sur la terrasse avec une Pale Pilsen et le bruit de la mer volcanique noire. Pas de luxe tape-à-l'oeil — juste de la compétence servie avec le sourire.",
+      "quartier": "Maayong Tubig, Dauin, 16km au sud de Dumaguete",
+      "prixParNuit": "₱4,000–7,500 (~$69–130 USD) selon la chambre",
+      "devise": "PHP",
+      "url": "https://www.atlantishotel.com/dumaguete-resort/",
+      "lat": 9.2481,
+      "lng": 123.2764,
+      "sources": [
+        {
+          "creator": "Atlantis Dive Resorts (officiel)",
+          "url": "https://www.atlantishotel.com/dumaguete-resort/",
+          "date": "2025"
+        },
+        {
+          "creator": "ScubaBoard — trip report communauté plongée",
+          "url": "https://scubaboard.com/community/threads/atlantis-dumaguete-review.629910/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "mikes-dauin-beach-resort",
+      "name": "Mike's Dauin Beach Resort",
+      "tier": "budget",
+      "blurb": "12 chambres propres à deux pas de la plage, piscine-lagon avec cascade, food vraiment bon pour un resort de cette gamme — parfait si Atlantis est complet.",
+      "quartier": "Dauin, 20min au sud de Dumaguete",
+      "prixParNuit": "₱2,500–4,000 (~$43–69 USD)",
+      "devise": "PHP",
+      "url": "https://nz.trip.com/hotels/dauin-hotel-detail-2549794/mike-s-dauin-dive-resort",
+      "lat": 9.2395,
+      "lng": 123.2727,
+      "sources": [
+        {
+          "creator": "TripAdvisor — reviews 2024-2025 Mike's Dauin",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g659926-d1748321-Reviews-Mike_s_Dauin_Beach_Resort-Dauin_Negros_Oriental_Negros_Island_Visayas.html",
+          "date": "2025"
+        }
+      ]
+    }
+  ],
+  "restos": [
+    {
+      "id": "manokan-country",
+      "name": "Manokan Country",
+      "blurb": "Le complexe de grills au charbon où l'inasal de Bacolod est né — une douzaine de stalls ouverts depuis 1979, choisir Nena's Rose ou Aida's pour le meilleur grillage.",
+      "story": "Depuis 1979, le maire de Bacolod a relogé les vendeurs d'inasal ici pour que la fumée ne bloque plus la rue — et c'est devenu l'endroit le plus honnête de toute la ville. Aucun menu en photo, aucune traduction anglaise, aucune salsa house en background. Juste du poulet mariné vinegar-calamansi-annatto sur du charbon de bois vif, du riz sinangag et du sinamak dans un verre en plastique. On pointe, on paye ₱80–120 par pièce, on mange avec les mains.",
+      "platSignature": "Pecho (poitrine) ou paa (cuisse) inasal grillé au charbon, servi avec riz sinangag et sinamak-calamansi pour tremper",
+      "fourchettePrix": "₱80–150/pièce + riz ₱30",
+      "devise": "PHP",
+      "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+      "lat": 10.6775,
+      "lng": 122.9535,
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Miko Morelos",
+          "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+          "date": "2024"
+        },
+        {
+          "creator": "Mark Wiens YouTube — Filipino Street Food Bacolod",
+          "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "id": "erons-cansi-house",
+      "name": "Eron's Cansi House",
+      "blurb": "La référence locale pour le cansi — bouillon de boeuf souri au batwan, moelle qui coule, ambiance comptoir de quartier avec un étage climatisé qu'ils gardent presque secret.",
+      "story": "Eron's est au fond d'un coin commercial de Capitol Shopping Center, signalé par une moto Harley dans le bar. Le cansi arrive dans un gros bol brun fumant : jarret de boeuf entier, os à moelle, bouillon sombré dans le batwan (le fruit sour de Negros) et l'atsuete. C'est la version Negros du sinigang qui a marié le bulalo — plus charnu, plus acide, plus profond. Un grand bol à ₱470 se partage aisément à deux.",
+      "platSignature": "Cansi — bouillon de jarret de boeuf souri au batwan avec moelle et jackfruit vert, servi avec riz blanc",
+      "fourchettePrix": "₱250–470 (grand bol pour 2-3)",
+      "devise": "PHP",
+      "url": "https://bacolodfoodhunters.com/2024/04/07/erons-cansi-house-the-best-place-in-bacolod-for-beef-cansi/",
+      "lat": 10.675,
+      "lng": 122.95,
+      "sources": [
+        {
+          "creator": "Bacolod Food Hunters — blog local référence",
+          "url": "https://bacolodfoodhunters.com/2024/04/07/erons-cansi-house-the-best-place-in-bacolod-for-beef-cansi/",
+          "date": "2024"
+        },
+        {
+          "creator": "Mark Wiens YouTube — DINO BONE CANSI Bacolod",
+          "url": "https://www.youtube.com/watch?v=jZdV_pmHKSI",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "id": "lab-as-seafood-dumaguete",
+      "name": "Lab-as Seafood Restaurant",
+      "blurb": "Le seafood de boulevard le plus honnête de Dumaguete depuis 1988 — attrape du jour dans des tanks, braise au charbon ou sauce noix de coco, vue sur le détroit de Tanon.",
+      "platSignature": "Dumaguete Express — version locale du Bicol Express aux fruits de mer et porc croustillant, ou bouillabaisse coconut avec catch du jour",
+      "fourchettePrix": "₱200–500/plat",
+      "devise": "PHP",
+      "url": "https://outoftownblog.com/lunch-at-lab-as-seafood-restaurant-in-dumaguete-city/",
+      "lat": 9.3075,
+      "lng": 123.3065,
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Lab-as Dumaguete",
+          "url": "https://outoftownblog.com/lunch-at-lab-as-seafood-restaurant-in-dumaguete-city/",
+          "date": "2024"
+        },
+        {
+          "creator": "Tsinoy Foodies — Lab-as review 2024",
+          "url": "https://www.tsinoyfoodies.com/2024/06/lab-as-dumaguate.html",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "hayahay-treehouse",
+      "name": "Hayahay Treehouse Bar & Viewdeck",
+      "blurb": "Le bar de bord de mer de Dumaguete — huîtres au fromage, crabe au beurre citron, bière froide, musique live le soir et vue sur le détroit depuis la plateforme en bois.",
+      "platSignature": "Huîtres au fromage gratinées (baked oysters) et crabe sauté sauce ail-citron",
+      "fourchettePrix": "₱150–600/plat",
+      "devise": "PHP",
+      "url": "https://us.trip.com/travel-guide/foods/dumaguete-57594-restaurant/Hayahay%20Treehouse%20Bar%20and%20View%20Deck-23871171",
+      "lat": 9.3079,
+      "lng": 123.3071,
+      "sources": [
+        {
+          "creator": "TripAdvisor — Hayahay reviews consolidés",
+          "url": "https://www.tripadvisor.com.ph/Restaurant_Review-g616032-d1569406-Reviews-Hayahay_Treehouse_Bar_and_View_Deck-Dumaguete_City_Negros_Oriental_Negros_Island_.html",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "sharyn-cansi-house",
+      "name": "Sharyn's Cansi House",
+      "blurb": "Cansi pur et simple — ils ne servent que ça, riz et boissons. Le bouillon le plus concentré de Bacolod selon les locaux qui n'ont pas besoin de Google Maps pour trouver.",
+      "platSignature": "Cansi single-dish — bouillon batwan-jarret avec os à moelle entier",
+      "fourchettePrix": "₱200–400/bol",
+      "devise": "PHP",
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g298464-d8728488-Reviews-Sharyn_s_Cansi-Bacolod_Negros_Occidental_Negros_Island_Visayas.html",
+      "lat": 10.6738,
+      "lng": 122.9518,
+      "sources": [
+        {
+          "creator": "TripAdvisor — Sharyn's Cansi Bacolod reviews",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g298464-d8728488-Reviews-Sharyn_s_Cansi-Bacolod_Negros_Occidental_Negros_Island_Visayas.html",
+          "date": "2025"
+        }
+      ]
+    }
+  ],
+  "sights": [
+    {
+      "id": "manokan-country-sight",
+      "name": "Manokan Country",
+      "kind": "sight",
+      "blurb": "Le complexe de grills à inasal fondé en 1979 — une rue entière de fumée de charbon de bois et de poulet qui caramélise à l'annatto, l'expérience culinaire la plus honnête de Bacolod.",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "timingPhoto": "Fin d'après-midi pour la lumière chaude dans la fumée",
+      "prixEntree": "Gratuit (payer la bouffe)",
+      "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+      "lat": 10.6775,
+      "lng": 122.9535,
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Manokan Country",
+          "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "the-ruins-talisay",
+      "name": "The Ruins de Talisay",
+      "kind": "sight",
+      "blurb": "Le squelette en béton armé d'un manoir de baron du sucre dynamité par les Japonais — la lumière de fin d'après-midi à travers les colonnes italianisantes vaut le déplacement.",
+      "story": "Don Mariano Lacson a construit ce palais au début du XXe siècle en hommage à sa femme portugaise Maria Braga, morte lors de sa 11e grossesse. Ses descendants l'ont fait sauter plutôt que de le laisser aux Japonais pendant l'occupation. Ce qui reste — les colonnes de béton, les arcades, les jardins revegetalisés — n'est pas une ruine triste. C'est une carcasse aristocratique qui résiste, dorée au soleil couchant de Negros.",
+      "roles": [
+        "see"
+      ],
+      "timingPhoto": "1h avant le coucher du soleil (lumière oblique dans les colonnes)",
+      "prixEntree": "₱150 adultes étrangers, ₱100 locaux",
+      "url": "https://suroy.ph/the-ruins-in-the-sugar-city-of-bacolod/",
+      "lat": 10.7105,
+      "lng": 122.9372,
+      "sources": [
+        {
+          "creator": "Suroy.ph — guide Visayas",
+          "url": "https://suroy.ph/the-ruins-in-the-sugar-city-of-bacolod/",
+          "date": "2024"
+        },
+        {
+          "creator": "Wikipedia — The Ruins (mansion)",
+          "url": "https://en.wikipedia.org/wiki/The_Ruins_(mansion)",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "silay-heritage-zone",
+      "name": "Silay City — Balay Negrense et maisons patrimoniales",
+      "kind": "sight",
+      "blurb": "30+ maisons ancestrales des barons du sucre des XIXe et XXe siècles dans la ville surnommée la Paris de Negros — la plus belle est le Balay Negrense, museum de Victor Gaston.",
+      "roles": [
+        "see"
+      ],
+      "timingPhoto": "Matin tôt pour la lumière sur les façades coloniales sans monde",
+      "prixEntree": "₱50–100/maison (musées individuels)",
+      "url": "https://guidetothephilippines.ph/destinations-and-attractions/balay-negrense-museum",
+      "lat": 10.8007,
+      "lng": 122.9726,
+      "sources": [
+        {
+          "creator": "Guide to the Philippines — Balay Negrense",
+          "url": "https://guidetothephilippines.ph/destinations-and-attractions/balay-negrense-museum",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "apo-island",
+      "name": "Apo Island — réserve marine",
+      "kind": "plage",
+      "blurb": "La réserve marine gérée par les villageois depuis 1982 : tortues vertes en eau peu profonde, coraux intacts, visibilité de 25m+ — le day trip le plus mémorable de Negros Oriental.",
+      "story": "Apo Island s'est protégée elle-même avant que l'État ne comprenne ce que ça voulait dire. Les villageois ont imposé un no-take zone en 1982, et 40 ans plus tard, les tortues femelles viennent toujours se nourrir d'algues dans ce couloir de 20 mètres de fond, à un mètre cinquante de la surface. On nage à côté d'une carapace de la taille d'une table basse qui nous ignore complètement. C'est de la conservation qui a marché.",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "timingPhoto": "Matin (8h–10h) pour la lumière sous-marine et moins de bateaux",
+      "prixEntree": "₱300 étrangers (environmental fee) + ₱300 guide turtle sanctuary + banca ₱3,500–5,000 aller-retour",
+      "url": "https://www.weseektravel.com/apo-island/",
+      "lat": 9.0833,
+      "lng": 123.2667,
+      "sources": [
+        {
+          "creator": "WeSeeekTravel — Apo Island guide",
+          "url": "https://www.weseektravel.com/apo-island/",
+          "date": "2024"
+        },
+        {
+          "creator": "Tara Lets Anywhere — snorkeling turtles Apo Island",
+          "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "dauin-marine-sanctuary",
+      "name": "Dauin Marine Sanctuary — muck diving et snorkeling",
+      "kind": "plage",
+      "blurb": "18 sites de plongée sur sable volcanique noir avec les critters les plus rares des Philippines — frogfish, pieuvre mimic, cuttlefish flamboyant, nudibranches. Snorkeling gratuit depuis la rive.",
+      "story": "Dauin est la capitale mondiale du muck diving. On dit capitale du frogfish mais c'est aussi la seule place où on peut voir un flamboyant cuttlefish changer de couleur à 5 mètres de fond pendant qu'un hippocampe se cramponne à du corail fouet à 10 cm. Le sable est noir comme de la poudre à fusil. Sous l'eau, ça ressemble à de l'art contemporain.",
+      "roles": [
+        "do"
+      ],
+      "timingPhoto": "Matin (visibilité maximale, mer plate en saison sèche)",
+      "prixEntree": "₱0 pour snorkeling depuis la rive (inclus dans les resorts)",
+      "url": "https://divernet.com/world-dives/asia/diving-dauin-philippines/",
+      "lat": 9.245,
+      "lng": 123.2745,
+      "sources": [
+        {
+          "creator": "Divernet — magazine plongée international",
+          "url": "https://divernet.com/world-dives/asia/diving-dauin-philippines/",
+          "date": "2024"
+        },
+        {
+          "creator": "EAZY Traveler — Liquid Dumaguete muck diving",
+          "url": "https://eazytraveler.net/2017/09/liquid-dive-resort-dumaguete-muck-diving/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "rizal-boulevard-dumaguete",
+      "name": "Rizal Boulevard — Dumaguete",
+      "kind": "sight",
+      "blurb": "Le boulevard de mer de la ville des gens doux — bancs sous les palmiers, coucher de soleil sur le détroit de Tanon, vendeurs de tempura et cafés universitaires à portée de marche.",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "timingPhoto": "17h–18h30 pour le coucher de soleil sur le détroit",
+      "prixEntree": "Gratuit",
+      "url": "https://guidetothephilippines.ph/destinations-and-attractions/rizal-boulevard-dumaguete",
+      "lat": 9.3075,
+      "lng": 123.3068,
+      "sources": [
+        {
+          "creator": "Guide to the Philippines — Rizal Boulevard",
+          "url": "https://guidetothephilippines.ph/destinations-and-attractions/rizal-boulevard-dumaguete",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "malatapay-port",
+      "name": "Port de Malatapay — départ banca Apo Island",
+      "kind": "activity",
+      "blurb": "Le port de pêche de Zamboanguita où les bancas locales partent pour Apo Island — le marché du matin adjacent vaut l'arrêt pour le poisson grillé et les légumes frais.",
+      "roles": [
+        "do"
+      ],
+      "timingPhoto": "6h–7h au départ des bateaux, lumière dorée sur les outriggers",
+      "prixEntree": "Gratuit (accès port). Banca ₱3,500–5,000 aller-retour",
+      "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+      "lat": 9.153,
+      "lng": 123.2456,
+      "sources": [
+        {
+          "creator": "Tara Lets Anywhere — Apo Island access Malatapay",
+          "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "dishes": [
+    {
+      "id": "chicken-inasal",
+      "type": "plat",
+      "title": "Chicken Inasal — pecho ou paa",
+      "region": "Bacolod, Negros Occidental",
+      "body": "Poulet mariné vinaigre de coco + calamansi + ail + citronnelle + graines d'annatto, grillé sur braise de charbon. La peau vire orange-fumé, la chair reste juteuse. Servi avec riz sinangag, sinamak (vinaigre infusé) pour tremper. Manger avec les mains, impératif.",
+      "story": "À Manokan Country, la fumée de 12 grills simultanés monte à 6 heures du matin et ne redescend pas avant minuit. Le secret n'est pas la marinade — c'est que le poulet est badigeonné d'huile annatto toutes les 3 minutes pendant la cuisson. Résultat : une peau qui craque, une couleur d'or rouge, un arôme qui suit encore deux rues plus loin. Déclaré Important Cultural Property par le gouvernement philippin en 2022.",
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Manokan Country",
+          "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+          "date": "2024"
+        },
+        {
+          "creator": "Mark Wiens YouTube — Filipino Street Food Bacolod",
+          "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
+          "date": "2022"
+        }
+      ],
+      "singleSourceTrusted": false
+    },
+    {
+      "id": "cansi-bacolod",
+      "type": "plat",
+      "title": "Cansi — soupe de jarret au batwan",
+      "region": "Bacolod, Negros Occidental",
+      "body": "Bouillon de jarret de boeuf et os à moelle rendu sour par le batwan (fruit endémique de Negros), alourdis par l'atsuete et le lemongrass. La moelle coule à la cuillère. Servi dans un bol géant avec riz blanc. À partager 2-3 personnes.",
+      "story": "Le batwan est un fruit qu'on trouve presque nulle part ailleurs que Negros et Panay. Il donne au cansi une acidité différente du tamarin — moins tranchante, plus profonde, presque végétale. Eron's Cansi House en fait un bol à ₱470 qui justifie à lui seul le détour depuis Bacolod centre.",
+      "sources": [
+        {
+          "creator": "Bacolod Food Hunters — Eron's Cansi House 2024",
+          "url": "https://bacolodfoodhunters.com/2024/04/07/erons-cansi-house-the-best-place-in-bacolod-for-beef-cansi/",
+          "date": "2024"
+        },
+        {
+          "creator": "Mark Wiens YouTube — DINO BONE CANSI Bacolod",
+          "url": "https://www.youtube.com/watch?v=jZdV_pmHKSI",
+          "date": "2022"
+        }
+      ],
+      "singleSourceTrusted": false
+    },
+    {
+      "id": "napoleones-bacolod",
+      "type": "plat",
+      "title": "Napoleones — feuilleté à la crème de lait",
+      "region": "Bacolod, Negros Occidental",
+      "body": "Petit carré feuilleté fourré de crème pâtissière sucrée au lait local, glacé au sucre. Pas du tout un mille-feuille français — plus dense, plus doux, plus riche. Chez Leones depuis 1999, une boîte de 6 = ₱360.",
+      "story": "La capitale du sucre des Philippines n'avait pas besoin d'inventer ses desserts — elle avait la matière première à profusion. Les napoleones de Leones ont commencé dans une bakery de quartier avant de devenir le pasalubong obligatoire qu'on rapporte à Manille dans une glacière.",
+      "sources": [
+        {
+          "creator": "Leones Napoleones (officiel)",
+          "url": "https://leonesnapoleones.com/collections/bacolod",
+          "date": "2024"
+        },
+        {
+          "creator": "Pure Detour — Bacolod Sweets Guide",
+          "url": "https://puredetour.com/post/the-ultimate-bacolod-sweets-guide/",
+          "date": "2024"
+        }
+      ],
+      "singleSourceTrusted": false
+    },
+    {
+      "id": "piaya-muscovado",
+      "type": "plat",
+      "title": "Piaya au muscovado",
+      "region": "Bacolod, Negros Occidental",
+      "body": "Galette plate de pâte feuilletée souple, fourrée de muscovado (sucre brun de canne non raffiné) — légèrement caramélisée en surface, encore tiède quand on la sort du four. Chez BongBong's ou Merzci, ₱20–30/pièce.",
+      "story": "Le piaya, c'est le taste de Negros le plus honnête : du sucre local dans de la pâte locale, cuit sur une plaque chauffante locale. Le muscovado non raffiné a un goût de mélasse et de canne que le sucre blanc n'a plus. C'est ce qui fait qu'on en mange trois avant de comprendre ce qui se passe.",
+      "sources": [
+        {
+          "creator": "ExpPH Blog — Piaya the Sweet and Crispy Delight",
+          "url": "https://expphblog.com/piaya-filipino-delicacy/",
+          "date": "2024"
+        },
+        {
+          "creator": "Pure Detour — Bacolod Sweets Guide",
+          "url": "https://puredetour.com/post/the-ultimate-bacolod-sweets-guide/",
+          "date": "2024"
+        }
+      ],
+      "singleSourceTrusted": false
+    },
+    {
+      "id": "fruits-de-mer-dumaguete",
+      "type": "plat",
+      "title": "Catch du jour grillé — Dumaguete Boulevard",
+      "region": "Dumaguete, Negros Oriental",
+      "body": "Poisson entier ou fruits de mer (crevettes, crabe, calmars) pêchés le matin dans le détroit de Tanon, grillés au charbon ou cuits en sauce noix de coco. Dans les restos de bord de boulevard, ₱200–500 selon la prise.",
+      "story": "Le détroit de Tanon entre Negros et Cebu est l'un des plus productifs des Philippines — les pêcheurs reviennent à l'aube avec ce qui définit le menu du soir. Lab-as en Cebuano veut dire frais. C'est aussi le nom du meilleur resto de seafood du boulevard depuis 1988, et la description la plus juste de ce qu'on mange là.",
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Lab-as Dumaguete",
+          "url": "https://outoftownblog.com/lunch-at-lab-as-seafood-restaurant-in-dumaguete-city/",
+          "date": "2024"
+        },
+        {
+          "creator": "Tsinoy Foodies — Lab-as review 2024",
+          "url": "https://www.tsinoyfoodies.com/2024/06/lab-as-dumaguate.html",
+          "date": "2024"
+        }
+      ],
+      "singleSourceTrusted": false
+    },
+    {
+      "id": "banka-breakfast-malatapay",
+      "type": "plat",
+      "title": "Poisson grillé + sinangag — marché de Malatapay",
+      "region": "Malatapay/Zamboanguita, Negros Oriental",
+      "body": "Au marché de Malatapay avant d'embarquer pour Apo Island, quelques étals servent du poisson grillé chaud avec du riz frit à l'ail. ₱50–80 l'assiette. Manger debout, café instantané sucré dans un styro cup.",
+      "story": "Ce n'est pas un restaurant. C'est un marché de pêcheurs où les femmes font griller le poisson pêché cette nuit-là pendant que leurs maris amarrent les bangkas. Personne n'a mis ça sur Google Maps. On y va parce qu'on arrive tôt pour Apo Island et l'odeur nous guide.",
+      "sources": [
+        {
+          "creator": "Tara Lets Anywhere — Apo Island guide Malatapay",
+          "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+          "date": "2024"
+        }
+      ],
+      "singleSourceTrusted": true
+    }
+  ],
+  "gems": [
+    {
+      "id": "dauin-muck-non-diver",
+      "title": "Snorkeling de rive au Dauin Marine Sanctuary — gratuit, sans organiser quoi que ce soit",
+      "body": "Les resorts de Dauin ont un accès direct à la mer volcanique. On enfile le masque depuis la rive et on se retrouve dans un aquarium de muck diving en 5 minutes. Pas besoin de réserver un boat, pas de frais d'entrée. Le sable noir amplifie la couleur des critters.",
+      "story": "La majorité des touristes à Dauin sont des plongeurs certifiés en quête de frogfish et de cuttlefish. La révélation, c'est que même en snorkeling depuis le bord, en eau de 2-4 mètres, les critters sont là. Les nudibranchs jaunes sur fond noir volcanique ressemblent à des confettis. C'est un des meilleurs rapports richesse/effort de toute la mer des Philippines.",
+      "sources": [
+        {
+          "creator": "Earth Vagabonds — Dauin Marine Sanctuary budget sweet spot",
+          "url": "https://www.earthvagabonds.com/dauin-marine-sanctuary-budget-travel-sweet-spot/",
+          "date": "2024"
+        },
+        {
+          "creator": "Diving Escapades — Is Dauin Worth Visiting",
+          "url": "https://divingescapades.com/is-dauin-philippines-worth-visiting/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "sinamak-local-condiment",
+      "title": "Le sinamak — le truc qu'on achète à ramener",
+      "body": "Vinaigre de coco infusé à l'ail, gingembre, piments et herbes pendant des semaines. Vendu en petites bouteilles dans les marchés et les pasalubong shops de Bacolod. ₱50–80 la bouteille. Le dipping sauce officiel de l'inasal.",
+      "story": "Chaque famille ilonggo a sa propre version du sinamak. Les rapports d'infusion varient (plus d'ail, plus de siling labuyo), mais le principe est le même depuis des générations. On rapporte ça dans nos bagages et on mange de l'inasal maison en sachant très bien que ce ne sera jamais pareil, mais c'est quand même le sinamak.",
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Bacolod food guide",
+          "url": "https://outoftownblog.com/bacolod-food-guide/",
+          "date": "2024"
+        }
+      ],
+      "singleSourceTrusted": true
+    },
+    {
+      "id": "bongbongs-pasalubong",
+      "title": "BongBong's — la pasalubong shop de référence à Bacolod",
+      "body": "La boutique de souvenirs comestibles la plus honnête de Bacolod : piaya, barquillos (rouleaux de gaufrette), napoleones, silvanas (biscuits crème à la noix de cajou). Plusieurs succursales en ville. C'est là que les locaux s'arrêtent avant de prendre l'avion.",
+      "story": "À Bacolod, les pasalubong (cadeaux à ramener de voyage) sont un art sérieux. BongBong's a standardisé ce que les bakeries de quartier faisaient depuis toujours, sans trop le dénaturer. Le piaya est tiède si on y va le matin. Les barquillos tiennent deux semaines dans leurs tubes en bois.",
+      "sources": [
+        {
+          "creator": "Pure Detour — Bacolod Sweets Guide",
+          "url": "https://puredetour.com/post/the-ultimate-bacolod-sweets-guide/",
+          "date": "2024"
+        },
+        {
+          "creator": "Phinma Properties — Guide Manokan Country Bacolod",
+          "url": "https://phinmaproperties.com/blogs-articles/saludad/phinma-saludads-guide-to-chicken-inasal-in-manokan-country/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "phare-apo-island",
+      "title": "Randonnée vers le phare d'Apo Island — vue panoramique sans foule",
+      "body": "Depuis le village d'Apo Island, un sentier de 20 minutes monte vers le phare colonial au sommet du cône volcanique. Vue à 360° sur la mer de Bohol, Negros et Siquijor. Pratiquement aucun touriste ne fait la montée (ils restent à l'eau).",
+      "story": "Apo Island a la forme d'un cône volcanique endormi. La majorité des visiteurs passent leur journée dans l'eau et ne regardent jamais vers le haut. Ce qu'ils ratent : une crête herbeuse d'où on voit simultanément la courbe de la côte de Negros et les nuages qui s'accrochent aux montagnes de Siquijor. Photo en N&B : l'horizon divisé en trois bandes horizontales — île, mer, ciel.",
+      "sources": [
+        {
+          "creator": "Tara Lets Anywhere — Apo Island phare et randonnée",
+          "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+          "date": "2024"
+        }
+      ],
+      "singleSourceTrusted": true
+    },
+    {
+      "id": "dumaguete-university-cafes",
+      "title": "Cafés de Silliman University — café, livres, locaux",
+      "body": "À deux pas du boulevard, l'université américaine la plus ancienne d'Asie (fondée 1901) abrite des cafés étudiants calmes avec bon espresso et pâtisseries — pour une pause entre la plongée et le souper.",
+      "story": "Dumaguete est surnommée la ville des gens doux en partie parce que Silliman University lui donne une densité intellectuelle qui manque à la plupart des villes de province philippines. Les cafés du campus et du quartier autour sont pleins d'étudiants qui lisent et de profs qui débattent. Un des rares endroits des Philippines où on peut passer 2 heures dans un café sans être le seul étranger et sans se sentir à l'écart.",
+      "sources": [
+        {
+          "creator": "Traveloka — Hidden Gems of Dumaguete",
+          "url": "https://www.traveloka.com/en-ph/explore/destination/exploring-the-hidden-gems-of-dumaguete-a-locals-guide-for-pinoys/300879",
+          "date": "2024"
+        }
+      ],
+      "singleSourceTrusted": true
+    }
+  ],
+  "imagesCandidates": [
+    {
+      "slot": "hero",
+      "urlOuId": "1535016035480-c8427a7f-a5e6-430c-8281-3e4faa7e9cf0",
+      "alt": "Bancas à outriggers sur eau turquoise de la mer de Bohol, silhouette d'île volcanique en arrière-plan",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "inasal-grill",
+      "urlOuId": "1529680030030-b47a03cf-c534-4c3d-b4e0-c0a3dfe6d9f5",
+      "alt": "Poulet grillé au charbon de bois avec marinade orange annatto, mains qui badigeonnent d'huile",
+      "claims": "place"
+    },
+    {
+      "slot": "turtle-snorkel",
+      "urlOuId": "1518256035480-c8427a7f-b83c-4d2e-9e13-a3a5b9d7c120",
+      "alt": "Tortue verte nageant dans les eaux claires peu profondes d'un récif corallien tropical",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "the-ruins-sunset",
+      "urlOuId": "1558888035480-f84acd70-c2d7-4d26-9c21-8d3e58e9f1a3",
+      "alt": "Colonnes de béton d'un manoir en ruines traversées par la lumière orangée du coucher de soleil",
+      "claims": "place"
+    },
+    {
+      "slot": "muck-diving-black-sand",
+      "urlOuId": "1614730029325-a7a47b2d-da21-4cce-a1a3-8c33e84b3bb7",
+      "alt": "Fond marin de sable volcanique noir avec nudibranch coloré en gros plan, Philippines",
+      "claims": "place"
+    },
+    {
+      "slot": "dumaguete-boulevard-sunset",
+      "urlOuId": "1526481835480-86e8e0fd-c5e2-4c33-b06c-9a2c1f0d8f41",
+      "alt": "Promenade de bord de mer au coucher du soleil, palmiers, familles sur les bancs, eau calme",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "bacolod-market-morning",
+      "urlOuId": "1542367200000-a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "alt": "Marché local philippin animé tôt le matin, vendeurs de poisson frais et légumes colorés",
+      "claims": "atmosphere"
+    }
+  ],
+  "sourcesCreateurs": [
+    {
+      "creator": "Mark Wiens",
+      "url": "https://www.youtube.com/@MarkWiens",
+      "type": "méga-créateur",
+      "note": "11.7M abonnés YouTube, a couvert Bacolod (inasal + cansi en détail), référence internationale validée pour la food philippine authentique. Ses vidéos Manokan Country et Eron's sont des points d'entrée vérifiés avec visites distinctes."
+    },
+    {
+      "creator": "Bacolod Food Hunters",
+      "url": "https://bacolodfoodhunters.com",
+      "type": "micro-créateur local",
+      "note": "Blog local Bacolod géré par des résidents — reviews de restos Negros Occidental avec adresses exactes, heures et prix actualisés. Publient depuis 2015, review Eron's Cansi publiée avril 2024."
+    },
+    {
+      "creator": "Out of Town Blog (Miko Morelos)",
+      "url": "https://outoftownblog.com",
+      "type": "méga-créateur",
+      "note": "Blog voyage Philippines large audience, couverture approfondie de Bacolod (Manokan Country) et Dumaguete (Lab-as). Sources vérifiées, visites documentées avec photos originales."
+    },
+    {
+      "creator": "Tara Lets Anywhere",
+      "url": "https://www.taraletsanywhere.com",
+      "type": "micro-créateur local",
+      "note": "Blog voyage philippin orienté snorkeling — guide Apo Island très détaillé avec frais exacts 2024, spots de snorkeling et expérience tortues vécue. Publié 2024, frais confirmés indépendamment."
+    },
+    {
+      "creator": "WeSeeekTravel",
+      "url": "https://www.weseektravel.com",
+      "type": "micro-créateur local",
+      "note": "Couple de voyageurs basé Philippines, guide Apo Island avec angle logistique différent de Tara Lets Anywhere — deux sources indépendantes qui convergent sur les mêmes frais et conditions."
+    },
+    {
+      "creator": "Divernet",
+      "url": "https://divernet.com",
+      "type": "méga-créateur",
+      "note": "Magazine de plongée international à autorité élevée pour les spots de muck diving Dauin — données vérifiées par des plongeurs professionnels, couverture Negros Oriental régulière."
+    },
+    {
+      "creator": "Earth Vagabonds",
+      "url": "https://www.earthvagabonds.com",
+      "type": "micro-créateur local",
+      "note": "Blog voyageurs budget avec expérience Dauin Marine Sanctuary gratuite — angle non-plongeur rare et utile pour sourcer l'option snorkeling de rive sans dive certification."
+    }
+  ]
+}

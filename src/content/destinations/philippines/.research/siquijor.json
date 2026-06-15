@@ -1,0 +1,700 @@
+{
+  "base": "siquijor",
+  "narratif": "On arrive à Siquijor par le premier ferry du matin depuis Dumaguete — quarante minutes sur une mer plate, et l'île apparaît comme une promesse verte qui flotte. Pas de gratte-ciel, pas d'aéroport international, pas de resort à 500 USD la nuit. Juste la route côtière qui fait le tour, les bougainvillées qui débordent sur l'asphalte, et une odeur de charbon de bois qui annonce déjà quelqu'un en train de griller quelque chose quelque part.\n\nLa séquence logique, c'est le scooter. [[poi:tour-scooter-ile]] À 300 pesos la journée, on prend l'anneau circumférentiel dans le sens des aiguilles d'une montre : on sort de San Juan, on longe la côte nord, et on s'arrête à [[poi:cambugahay-falls]] avant que les groupes arrivent. À 8h du matin, les bassins turquoise sont presque vides. Les cordes pendent au-dessus du premier niveau — on monte, on saute, l'eau est fraîche, les gens du coin rient et applaudissent. C'est la version philippine du bonheur simple.\n\nL'île a la réputation d'être mystique, d'abriter des guérisseurs, d'être hantée. On est passés devant le [[poi:vieux-balete]] avec ses racines aériennes qui tombent comme des rideaux : impressionnant, oui. Mais ce qui nous a retenus le plus longtemps, c'est le poisson grillé au charbon chez [[poi:dalahikan-grill-siquijor]] en fin d'après-midi, les pieds dans le sable, un lapu-lapu entier ouvert en deux sur la braise. Avec du riz, du vinaigre aux piments, et une San Miguel fraîche, ça coûte 200 pesos. Ça goûte comme si quelqu'un t'avait invité à souper.\n\n[[poi:paliton-beach]] tôt le matin — le sable blanc, l'eau qui vire du turquoise au bleu roi selon la profondeur, et presque personne. C'est pour ça qu'on est là. [[poi:salagdoong-beach]] plus loin sur la côte est, c'est pour les sauteux de falaise et les curieux : les plates-formes à 10 et 15 mètres attirent les téméraires locaux. On a regardé, on a admiré, on n'a pas regretté de ne pas avoir sauté.\n\nLa bouffe de Siquijor, c'est pas de la grande gastronomie sophistiquée. C'est du [[poi:kinilaw-frais]], des [[poi:sutukil-poisson]], du [[poi:bukayo-noix-coco]] en guise de dessert. Le marché public de Siquijor Town, tôt le matin, c'est là où les pêcheurs débarquent le lapu-lapu, les crevettes et les crabes du jour. On paie le poisson, on le porte chez une carinderia voisine, ils cuisent pour presque rien. C'est le restaurant sans menu le plus honnête du monde.",
+  "pratique": "ARRIVER : depuis Dumaguete (Negros Oriental) — ferry OceanJet ou Montenegro Lines, ~1h, départs toutes les 1-2h à partir de 7h20, tarif ₱310-400. Acheter les billets en ligne sur oceanjet.net ou Klook pour éviter les files au terminal. Depuis Cebu ou Bohol : ferries directs disponibles (4-5h et 2h respectivement). Le port principal est Siquijor Port (town).\n\nTRANSPORT LOCAL : scooter = LE moyen de locomotion. Location au port, ₱300-400/jour selon la saison. Négocier pour un modèle en bon état — vérifier les freins avant de rouler. Tricycles disponibles pour les trajets courts (~₱20-50). Pas d'Uber ni de Grab sur l'île.\n\nSAISON FÉV-MARS : c'est la haute saison sèche — temps idéal (soleil, mer calme, visibilité snorkeling excellente). Réserver l'hébergement 4-6 semaines à l'avance, surtout les weekends et semaine de Valentine (fév). Quelques touristes mais rien de comparable à Boracay. Février légèrement plus frais que mars (28-30°C). Les chutes Cambugahay ont plus de débit en mars qu'en pleine saison sèche.\n\nARGENT : peu de guichets ATM — en prendre à Dumaguete avant de traverser. Les restos et hébergements mid-range acceptent souvent les cartes, mais les carinderias et petits commerces = liquide seulement. Prévoir ₱3,000-5,000 en cash pour 3 nuits (activités + bouffe locale).\n\nPIÈGES : 1) Le tour de l'île en tricycle organisé coûte 5-8x le prix du scooter pour le même trajet, avec moins de flexibilité. 2) Salagdoong Beach génère des déchets les weekends — y aller en semaine de préférence, tôt le matin. 3) La réputation « île des sorcières » est vendue partout aux touristes — les potions et rituels proposés près du marché sont du folklore commercial, pas de la culture locale authentique. 4) Les restaurants face à la mer ferment tôt (18h-19h pour plusieurs) — planifier le souper avant 18h.",
+  "hebergements": [
+    {
+      "id": "coco-grove-siquijor",
+      "name": "Coco Grove Beach Resort",
+      "tier": "mid",
+      "blurb": "Resort établi sur Tubod Beach avec 3 restaurants, piscines et accès direct à un site de snorkeling — la valeur sûre pour qui veut du confort sans luxe absurde.",
+      "quartier": "Tubod, San Juan",
+      "prixParNuit": "₱3,500-6,500 (≈ $62-115 USD)",
+      "devise": "PHP",
+      "url": "https://www.cocogrovebeachresort.com/",
+      "lat": 9.1724,
+      "lng": 123.5005,
+      "story": "Le seul resort de l'île qui tient la promesse complète : plage devant, récif corallien à 100 mètres, restaurant qui sert autre chose que des chips. Les bâtiments couleur terracotta ne gagnent aucun prix d'architecture, mais les chambres sont propres, les lits sont bons, et le petit-déjeuner philippin (longanisa, riz, oeuf) arrive chaud. Le Sunset Resto sur le site vaut le détour pour un verre en fin de journée — le Chocolate Highway en dessert est leur signature kitsch qu'on pardonne facilement.",
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+          "date": "2024"
+        },
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "id": "salamangka-beach-siquijor",
+      "name": "Salamangka Beach & Dive Resort",
+      "tier": "mid",
+      "blurb": "Petit resort de plongée en bord de mer à San Juan — propre, calme, personnel attentionné, dive center compétent pour explorer sous l'eau.",
+      "quartier": "San Juan",
+      "prixParNuit": "₱2,800-4,500 (≈ $52-80 USD)",
+      "devise": "PHP",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g3175044-d3874181-Reviews-Salamangka_Beach_And_Dive_Resort-San_Juan_Siquijor_Island_Visayas.html",
+      "lat": 9.175,
+      "lng": 123.498,
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "runik-siquijor",
+      "name": "RUNIK Siquijor — Adults Only",
+      "tier": "gem",
+      "blurb": "Tentes glamping climatisées en bord de mer, piscine à débordement, restaurant méditerranéen — l'endroit le plus esthétique de l'île pour un couple qui veut du cachet.",
+      "quartier": "Tubod, San Juan",
+      "prixParNuit": "₱5,500-9,000 (≈ $98-160 USD)",
+      "devise": "PHP",
+      "url": "https://www.booking.com/hotel/ph/runik-glamping-siquijor.html",
+      "lat": 9.171,
+      "lng": 123.502,
+      "story": "RUNIK, c'est l'anomalie douce de Siquijor — une propriété adultes seulement qui ne cache pas son ambition esthétique. Les tentes ont l'air sorties d'un magazine de Bali : tissu ivoire, lit king sur plancher de bois, AC silencieux, entrée privée sur jardin tropical. La piscine à débordement donne directement sur la mer. Le restaurant sert de la pizza napolitaine, des sushis et du tzatziki — pas très philippin, mais exécuté proprement. C'est le genre d'endroit où on passe l'après-midi à lire au bord de l'eau en oubliant qu'il y a un monde dehors.",
+      "sources": [
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/runik-siquijor/",
+          "date": "2025-10"
+        },
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "lazi-beach-club",
+      "name": "Lazi Beach Club Resort",
+      "tier": "budget",
+      "blurb": "Bungalows de plage locaux sur la côte sud, piscine palmier, restaurant philippin honnête — option budget avec âme à l'écart de l'axe touristique de San Juan.",
+      "quartier": "Lazi",
+      "prixParNuit": "₱1,700-2,500 (≈ $30-45 USD)",
+      "devise": "PHP",
+      "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+      "lat": 9.088,
+      "lng": 123.596,
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "restos": [
+    {
+      "id": "dalahikan-grill-siquijor",
+      "name": "Dalahikan Grill Masters",
+      "blurb": "Tables monobloc sur le sable, braise qui crépite, lapu-lapu entier grillé à la commande — la cantine de plage la plus honnête de San Juan.",
+      "platSignature": "Lapu-lapu (mérou) grillé entier au charbon, servi avec riz et vinaigre aux piments — ₱150-250",
+      "fourchettePrix": "₱80-300 par personne",
+      "devise": "PHP",
+      "lat": 9.174,
+      "lng": 123.501,
+      "url": "https://www.tripadvisor.com.ph/Restaurant_Review-g3175044-d11769397-Reviews-Dalahikan_Grill_Masters-San_Juan_Siquijor_Island_Visayas.html",
+      "story": "Le principe est simple et imbattable : on choisit son poisson du jour dans la glacière, on dit comment on le veut (grillé, c'est le bon choix), et on s'assoit dehors sur le sable pendant que ça cuit sur la braise. Le Lapu-lapu — mérou des Visayas — arrive avec sa peau croustillante et sa chair blanche, accompagné de riz blanc et d'un bol de vinaigre aux piments rouges. La San Miguel Pale Pilsen coûte ₱45. Le coucher de soleil est compris dans le prix.",
+      "sources": [
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        },
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-island-philippines/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "baha-bar-siquijor",
+      "name": "Baha Ba'r",
+      "blurb": "Bar-resto en bois style nipa hut à Maite, buffet lechon + fruits de mer le vendredi soir avec musique live visayan — l'endroit où locaux et expats se retrouvent.",
+      "platSignature": "Buffet cochon de lait rôti + poisson grillé du jour + soupe + dessert, vendredi soir à partir de 18h30 — ₱380-450/personne",
+      "fourchettePrix": "₱200-600 par personne",
+      "devise": "PHP",
+      "lat": 9.1695,
+      "lng": 123.5045,
+      "url": "http://baha-bar.com/",
+      "story": "Le cochon est sur le feu dans le jardin depuis 16h — on le voit rôtir en passant en scooter. À 18h30, la salle se remplit de locaux, de quelques expats installés sur l'île, et de voyageurs qui ont eu le bon tuyau. Le buffet à ₱450 : lechon croustillant, poisson grillé de la pêche du jour, riz, soupe, dessert. Le musicien Nonoy « Embol » joue des ballades en visayan en arrière-fond. À réserver 24h à l'avance en haute saison — ils font ça une fois par semaine et la table se remplit vite.",
+      "sources": [
+        {
+          "creator": "Siquijor-island.com",
+          "url": "https://siquijor-island.com/friday-night-lechon/",
+          "date": "2024"
+        },
+        {
+          "creator": "Ed Puno — One-Armed Wanderer",
+          "url": "https://www.edpuno.com/2017/01/restaurant-bar-in-siquijor-island-baha-bar.html",
+          "date": "2017"
+        }
+      ]
+    },
+    {
+      "id": "twenty4-cafe-lazi",
+      "name": "Twenty4 Cafe",
+      "blurb": "Petit café local à Lazi, à deux pas des chutes Cambugahay — lechon kawali maison et sauce piment faite sur place, escale parfaite du tour de l'île.",
+      "platSignature": "Lechon kawali (porc frit croustillant) avec sauce piment maison — ₱180",
+      "fourchettePrix": "₱200-700 par personne",
+      "devise": "PHP",
+      "lat": 9.086,
+      "lng": 123.594,
+      "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+      "sources": [
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "bucafe-siquijor",
+      "name": "Bucafe",
+      "blurb": "Café perché sur une colline au-dessus de San Juan, style cabane dans les arbres, empanadas fromagées et vue sur la forêt et la mer.",
+      "platSignature": "Empanadas au fromage fondant (6 pièces pour ₱180) + café local de Siquijor — ₱120",
+      "fourchettePrix": "₱150-350 par personne",
+      "devise": "PHP",
+      "lat": 9.178,
+      "lng": 123.499,
+      "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+      "sources": [
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "fig-sunset-resto-siquijor",
+      "name": "FIG Sunset View Resort & Restaurant",
+      "blurb": "Restaurant ouvert aux non-résidents avec vue mer imprenable, calamar rôti et bangus frit en vedette — un des meilleurs rapports qualité/vue de San Juan.",
+      "platSignature": "Calamar rôti entier (pusit inihaw) avec sauce vinaigrée — ₱280, et bangus (milkfish) frit croustillant — ₱220",
+      "fourchettePrix": "₱300-700 par personne",
+      "devise": "PHP",
+      "lat": 9.1755,
+      "lng": 123.497,
+      "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+      "sources": [
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        },
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    }
+  ],
+  "sights": [
+    {
+      "id": "cambugahay-falls",
+      "name": "Chutes Cambugahay",
+      "kind": "activity",
+      "blurb": "Trois niveaux de bassins turquoise en pleine jungle, balançoires à corde, bambou pour flotter — la baignade la plus photogénique de Siquijor.",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "prixEntree": "₱10 entrée + ₱50 balançoire (illimitée)",
+      "timingPhoto": "Avant 9h — la lumière filtre entre les arbres et les bassins sont quasi vides",
+      "lat": 9.083,
+      "lng": 123.591,
+      "url": "https://www.kateandmikestravels.com/post/cambugahay-falls-siquijor",
+      "story": "Les locals appellent ça le « Tarzan Jump ». Deux balançoires à corde au-dessus du premier bassin : on monte sur la plate-forme en bois, on attrape la corde, et on lâche au-dessus de l'eau turquoise. Les jeunes du coin font ça depuis l'enfance — ils vous montrent comment tourner sur soi-même avant d'entrer dans l'eau. Le deuxième bassin plus en amont est plus calme, plus ombragé, parfait pour s'allonger sur un radeau de bambou que les locaux font glisser doucement vers vous.",
+      "sources": [
+        {
+          "creator": "Kate and Mike's Travels",
+          "url": "https://www.kateandmikestravels.com/post/cambugahay-falls-siquijor",
+          "date": "2024"
+        },
+        {
+          "creator": "FunFam Travels PH",
+          "url": "https://funfamtravelsph.com/discovering-the-magic-of-cambugahay-falls-rope-swings-bamboo-rafts-and-the-enchanting-fairy-walk/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "paliton-beach",
+      "name": "Paliton Beach",
+      "kind": "plage",
+      "blurb": "Bande de sable blanc avec eau turquoise calme et peu profonde, palmiers en bordure — la plage de carte postale qui justifie le détour.",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "prixEntree": "₱20 par personne",
+      "timingPhoto": "Tôt le matin (8h-10h) pour la lumière rasante sur l'eau bleue, ou 17h pour le coucher de soleil sur la mer de Bohol",
+      "lat": 9.182,
+      "lng": 123.478,
+      "url": "https://girlonazebra.com/siquijor-beaches/",
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-beaches/",
+          "date": "2024"
+        },
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-beaches/",
+          "date": "2026-04"
+        }
+      ]
+    },
+    {
+      "id": "salagdoong-beach",
+      "name": "Salagdoong Beach",
+      "kind": "plage",
+      "blurb": "Plage de sable blanc sur la côte est avec plateformes de saut de falaise à 10 et 15 mètres — pour regarder les locaux voler ou sauter soi-même.",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "prixEntree": "₱40 entrée + ₱40 parking scooter",
+      "timingPhoto": "7h-9h en semaine — propre et calme avant les groupes du weekend",
+      "lat": 9.164,
+      "lng": 123.638,
+      "url": "https://girlonazebra.com/siquijor-beaches/",
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-beaches/",
+          "date": "2024"
+        },
+        {
+          "creator": "The Always Wanderer (Sophia)",
+          "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "vieux-balete",
+      "name": "Vieux Balete de 400 ans et spa aux poissons",
+      "kind": "sight",
+      "blurb": "Banian séculaire de Lazi avec racines aériennes imposantes et bassin naturel où des doctor fish grignotent les peaux mortes des pieds — étrange et agréable.",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "prixEntree": "₱20 entrée + don libre pour le spa aux poissons",
+      "timingPhoto": "Matin — la lumière filtre entre les racines aériennes, effet dramatique garanti",
+      "lat": 9.074,
+      "lng": 123.606,
+      "url": "https://iheartph.com/siquijor-balete-tree-fish-spa/",
+      "story": "Le banian a 400 ans et ses racines aériennes tombent en rideaux depuis des branches impossiblement épaisses. Les gens du coin viennent y chercher de l'ombre depuis des générations. Le bassin naturel au pied de l'arbre accueille des doctor fish — ces petits poissons qui grignotent les cellules mortes des pieds plongés dans l'eau. L'effet est bizarre, légèrement chatouilleux, et franchement relaxant. La café Balete Bistro juste à côté sert du café local et des snacks pour prolonger la pause.",
+      "sources": [
+        {
+          "creator": "Tita S Travels",
+          "url": "https://titastravels.wordpress.com/2019/04/20/enchanting-400-year-old-balete-tree-and-fish-spa-siquijor/",
+          "date": "2019"
+        },
+        {
+          "creator": "iHeartPH",
+          "url": "https://iheartph.com/siquijor-balete-tree-fish-spa/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "tour-scooter-ile",
+      "name": "Tour de l'île en scooter",
+      "kind": "activity",
+      "blurb": "La route circumférentielle fait 72 km sur asphalte lisse — une journée complète à s'arrêter où l'envie vient, avec chutes, plages, couvent baroque et marchés locaux.",
+      "roles": [
+        "do"
+      ],
+      "prixEntree": "₱300-400 location scooter/jour",
+      "timingPhoto": "Partir à 7h pour finir avant la chaleur de 15h",
+      "lat": 9.12,
+      "lng": 123.58,
+      "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+      "sources": [
+        {
+          "creator": "The Always Wanderer (Sophia)",
+          "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+          "date": "2024"
+        },
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "id": "tubod-marine-sanctuary",
+      "name": "Tubod Marine Sanctuary",
+      "kind": "activity",
+      "blurb": "Site de snorkeling à 100 mètres du rivage à San Juan — récifs coralliens vivants, poissons-perroquets, visibilité jusqu'à 10 mètres par temps calme.",
+      "roles": [
+        "do"
+      ],
+      "prixEntree": "₱100 entrée sanctuaire",
+      "timingPhoto": "Matin (8h-11h) — lumière directe sur le récif, meilleures couleurs sous-marines",
+      "lat": 9.171,
+      "lng": 123.5015,
+      "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+      "sources": [
+        {
+          "creator": "The Always Wanderer (Sophia)",
+          "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "lazi-convent-eglise",
+      "name": "Couvent et église de Lazi",
+      "kind": "sight",
+      "blurb": "Le plus grand couvent des Philippines en pierre de corail (XVIIIe siècle) — une pause architecturale baroque sobre dans le circuit de l'île.",
+      "roles": [
+        "see"
+      ],
+      "prixEntree": "Entrée libre (don suggéré)",
+      "timingPhoto": "Matin avant 10h — lumière latérale sur la façade en pierre de corail ocre",
+      "lat": 9.0795,
+      "lng": 123.5955,
+      "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+      "sources": [
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    }
+  ],
+  "dishes": [
+    {
+      "id": "kinilaw-frais",
+      "type": "plat",
+      "title": "Kinilaw de thon ou vivaneau",
+      "region": "Visayas / Siquijor",
+      "body": "Poisson cru pêché le matin même, coupé en cubes et « cuit » dans du vinaigre de coco (sukang tuba) avec gingembre, oignons rouges, piment bird's eye et lait de coco. L'acidité est vive, le gingembre pique au fond de la gorge — manger avec du riz blanc et une bière froide. Commander au marché public de Siquijor Town ou dans les restos côtiers.",
+      "story": "Le kinilaw des Visayas, c'est pas le ceviche péruvien revisité à la mode. C'est un plat de pêcheurs : le poisson sort de l'eau à 5h du matin, il est dans l'assiette à 11h. Le vinaigre de coco local (pas de citron vert) lui donne une acidité plus ronde, moins agressive. Un plat qu'on commande en premier pour tester l'honnêteté d'un établissement.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+          "date": "2026-02"
+        },
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "sutukil-poisson",
+      "type": "plat",
+      "title": "Sutukil — Sugba, Tula, Kilaw",
+      "region": "Visayas centrale",
+      "body": "Formule à trois têtes : le même poisson préparé en trois façons simultanément — grillé (sugba), mijoté en bouillon léger (tula), et cru mariné (kilaw). Commander chez Dalahikan Grill ou chez les petits restos côtiers autour du port de Lazi. Idéal pour deux personnes partageant un poisson entier.",
+      "story": "Le sutukil, c'est la preuve que les Visayans ne font pas de compromis : au lieu de choisir comment manger leur poisson, ils l'ont mangé de toutes les façons en même temps. La version grillée a la peau carbonisée et la chair qui se détache à la fourchette. La version bouillie arrive dans un bouillon de tomates et citron vert. La version crue pique avec les piments. Trois textures, trois niveaux d'acidité, un seul poisson.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+          "date": "2026-02"
+        },
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "lechon-vendredi-siquijor",
+      "type": "plat",
+      "title": "Lechon rôti du vendredi soir au Baha Ba'r",
+      "region": "Siquijor",
+      "body": "Cochon de lait entier rôti à la broche sur feu de bois dans le jardin du Baha Ba'r — peau craquante, chair juteuse, servi avec le poisson du jour en buffet à ₱450/personne. Uniquement le vendredi à partir de 18h30. Réserver 24h à l'avance en haute saison.",
+      "story": "Il y a quelque chose d'intemporel dans l'image : le cochon sur la broche visible depuis la route, la fumée qui monte dans les frangipaniers, et à 18h30 les gens qui arrivent à pied ou en scooter depuis San Juan. Le Baha Ba'r fait ça une fois par semaine depuis des années — les expats de l'île ont leur table réservée depuis janvier.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Siquijor-island.com",
+          "url": "https://siquijor-island.com/friday-night-lechon/",
+          "date": "2024"
+        },
+        {
+          "creator": "Ed Puno — One-Armed Wanderer",
+          "url": "https://www.edpuno.com/2017/01/restaurant-bar-in-siquijor-island-baha-bar.html",
+          "date": "2017"
+        }
+      ]
+    },
+    {
+      "id": "bukayo-noix-coco",
+      "type": "produit",
+      "title": "Bukayo — caramel de coco séché",
+      "region": "Siquijor",
+      "body": "Lanières de noix de coco jeune caramélisées au sucre brun — texture entre le nougat et le pralin, goût de noix de coco rôtie. Vendu aux kiosques près du marché public et dans les boutiques autour du vieux Balete. Prix : ₱30-80 le sachet selon la taille.",
+      "story": "Le bukayo, c'est le souvenir comestible honnête de Siquijor : fait avec les noix de coco du coin, sans colorants ni conservateurs, par des familles qui perpétuent la recette depuis des générations. On en achète un sachet près du vieux Balete et on le grignote en scooter sur la route du retour vers San Juan.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "id": "torta-siquijor",
+      "type": "produit",
+      "title": "Torta de Siquijor — gâteau anis",
+      "region": "Siquijor",
+      "body": "Pâtisserie sucrée légèrement moelleuse parfumée à l'anis, typique des îles Visayas. Vendue à un kiosque près du Siquijor Integrated School dans Siquijor Town. Manger avec du café noir local — déjeuner parfait avant de monter en scooter.",
+      "story": "Le genre de gâteau qu'une grand-mère fait le matin et qu'elle vend devant l'école. Pas prétentieux, pas instagrammable. Juste sucré, parfumé à l'anis, et tellement local qu'il n'existe pas de chaîne de franchises qui le vende. On en achète deux, on repart sur la route.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "id": "san-miguel-pale-pilsen",
+      "type": "bière",
+      "title": "San Miguel Pale Pilsen froide",
+      "region": "Philippines",
+      "body": "Bière nationale philippine servie partout à ₱40-60 la bouteille froide — légère, légèrement amère, parfaite avec du poisson grillé sur la plage. C'est pas la plus complexe du monde, mais c'est LA bière de Siquijor.",
+      "story": "On peut débattre de la bière artisanale tant qu'on veut. Quand il fait 32 degrés sur la plage et que le poisson sort du grill, la San Miguel Pale Pilsen froide est la réponse correcte. Pas parce que c'est la meilleure — parce que c'est celle que le pêcheur d'à côté boit aussi.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "fruit-wine-siquijor",
+      "type": "alcool",
+      "title": "Vin de fruits local (duhat, guyabano)",
+      "region": "Siquijor",
+      "body": "Vins artisanaux produits localement à partir de fruits tropicaux : duhat (prune de Java), guyabano (corossol), mangue, ananas. Vendus dans les boutiques de souvenirs autour du marché et des sites touristiques. Bouteille ₱80-150. À déguster frais — plus proche d'un cidre fruité que d'un vin de raisin.",
+      "story": "Les guérisseurs traditionnels de Siquijor utilisaient les plantes locales pour soigner. Les vignerons artisanaux, eux, ont simplement décidé de fermenter les fruits qui poussent dans leur jardin. Le résultat est doux, légèrement pétillant parfois, et ça fait une bien meilleure histoire à raconter en rentrant qu'une bouteille achetée dans un duty-free.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+          "date": "2026-02"
+        }
+      ]
+    }
+  ],
+  "gems": [
+    {
+      "id": "marche-matin-siquijor-town",
+      "title": "Marché public de Siquijor Town — 5h-8h du matin",
+      "body": "Les pêcheurs débarquent lapu-lapu, crevettes, crabes et bonites au lever du soleil. On achète ce qu'on veut, on le porte chez une carinderia voisine qui cuisine pour ₱20-30 de frais de cuisson. Budget repas complet : ₱150.",
+      "story": "La version philippine du paluto — acheter le poisson soi-même et payer un cuisinier pour le faire. C'est le restaurant le plus honnête qui existe : pas de menu, pas de serveur en uniforme, juste la fraîcheur du poisson de ce matin et la chaleur du charbon de bois. Arriver avant 7h pour le meilleur choix.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+          "date": "2026-02"
+        },
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "capilay-spring-park",
+      "title": "Capilay Spring Park — piscine naturelle de San Juan",
+      "body": "Source naturelle aménagée en parc de baignade au cœur de San Juan — eau de source fraîche qui déborde dans un bassin entouré de végétation. Entrée ₱20. Les familles locales y viennent en fin d'après-midi. Calme, rafraîchissant, à 5 minutes à pied du centre.",
+      "story": "L'endroit que les guidebooks mentionnent en deux lignes et que les locaux fréquentent quotidiennement. Pas spectaculaire — juste une source fraîche dans un parc ombragé où des grands-mères surveillent des enfants qui nagent. C'est pour ça que c'est bon.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "id": "lugnason-falls-cache",
+      "title": "Chutes Lugnason — le trou d'eau caché de la côte sud",
+      "body": "Cascade dissimulée accessible après 15 minutes de marche dans la jungle depuis la route principale de la côte sud — piscine naturelle plus profonde et plus froide que Cambugahay, et presque toujours vide de touristes.",
+      "story": "Cambugahay reçoit les visites organisées. Lugnason reçoit les gens qui ont une carte et de la curiosité. Le chemin est boueux mais balisé, l'eau au fond est turquoise foncé et froide. En février-mars, on y arrive souvent seul. C'est la différence entre une attraction et une découverte.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        },
+        {
+          "creator": "The Always Wanderer (Sophia)",
+          "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "coucher-soleil-paliton-cocktail",
+      "title": "Coucher de soleil à Paliton avec noix de coco fraîche",
+      "body": "Paliton Beach face à la mer de Bohol — le soleil descend directement dans l'eau vers 18h. Des vendeurs locaux proposent des noix de coco fraîches (₱30) et des cocktails simples (₱80-120). Pas besoin d'un bar chic : s'asseoir dans le sable et regarder.",
+      "story": "Les couchers de soleil de Paliton sont de ceux qui arrivent doucement, sans effets dramatiques. La mer devient cuivrée, puis rose, puis grise. Les palmiers se découpent en noir. Et le vendeur de noix de coco qui était là depuis le matin remonte ses glacières et rentre chez lui.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-beaches/",
+          "date": "2024"
+        },
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-beaches/",
+          "date": "2026-04"
+        }
+      ]
+    },
+    {
+      "id": "bucafe-treehouse-empanadas",
+      "title": "Bucafe — empanadas dans les arbres au coucher de soleil",
+      "body": "Café perché sur une terrasse arborée au-dessus de San Juan. Empanadas fromagées (6 pour ₱180), café local ₱80, vue sur la forêt et la mer au loin. Ferme à 19h — arriver à 17h pour le golden hour.",
+      "story": "Le genre d'endroit qu'on trouve par accident — en suivant un panneau peint à la main sur la route de montagne. La terrasse est faite de bois récupéré, les empanadas sortent chaudes de la cuisine, et le café est de Siquijor même. Vue sur la mer optionnelle selon la brume.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "imagesCandidates": [
+    {
+      "slot": "hero",
+      "urlOuId": "photo-1506905925346-21bda4d32df4",
+      "alt": "Bassin turquoise des chutes Cambugahay avec corde suspendue au-dessus de l'eau, entouré de végétation tropicale dense",
+      "claims": "place"
+    },
+    {
+      "slot": "beach-paliton",
+      "urlOuId": "photo-1559494007-9f5847c49d94",
+      "alt": "Plage de sable blanc avec palmiers en bordure et eau turquoise claire peu profonde, personnes se baignant à distance",
+      "claims": "place"
+    },
+    {
+      "slot": "food-grilled-fish",
+      "urlOuId": "photo-1555126634-323283e090fa",
+      "alt": "Poisson entier grillé au charbon de bois sur braise, peau croustillante et légèrement carbonisée, servi sur plancher",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "scooter-road",
+      "urlOuId": "photo-1596838132731-3301c3fd4317",
+      "alt": "Route côtière tropicale bordée de végétation verdoyante avec vue sur la mer bleue au loin",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "balete-tree",
+      "urlOuId": "photo-1564352969906-8b7f46ba4b8c",
+      "alt": "Tronc massif d'un vieux banian avec racines aériennes qui tombent en rideaux, lumière filtrée par le feuillage",
+      "claims": "place"
+    },
+    {
+      "slot": "market-morning",
+      "urlOuId": "photo-1542838132-92c53300491e",
+      "alt": "Marché local au lever du soleil avec poissons frais alignés sur glace, vendeurs philippins au travail",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "cliff-salagdoong",
+      "urlOuId": "photo-1507525428034-b723cf961d3e",
+      "alt": "Vue plongeante depuis une plateforme rocheuse sur une eau turquoise cristalline",
+      "claims": "place"
+    },
+    {
+      "slot": "sunset-beer",
+      "urlOuId": "photo-1551807138-2b4bafc17d77",
+      "alt": "Table en bord de plage avec bière froide et restes d'un repas de fruits de mer, coucher de soleil orange sur la mer",
+      "claims": "atmosphere"
+    }
+  ],
+  "sourcesCreateurs": [
+    {
+      "creator": "Philippines Hidden Gems",
+      "url": "https://philippineshiddengems.com/",
+      "type": "micro-créateur local",
+      "note": "Blog philippin spécialisé sur les îles moins connues — articles détaillés sur Siquijor (resorts, plages, délices locaux) publiés en 2025-2026, avec listes locales vérifiées. Perspective insider."
+    },
+    {
+      "creator": "Girl on a Zebra (Oliver)",
+      "url": "https://girlonazebra.com/siquijor-island-philippines/",
+      "type": "méga-créateur",
+      "note": "Blog de voyage international (Oliver + Carae), couverture Siquijor détaillée 2024 : hébergements testés, plages classées, restos mangés. Candide sur les défauts (trash à Salagdoong le weekend)."
+    },
+    {
+      "creator": "PhilippineTravels.ph",
+      "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+      "type": "micro-créateur local",
+      "note": "Blog de voyage philippin avec expériences de première main à Siquijor — 9 restos testés personnellement avec plats précis et prix en PHP. Source directe, pas d'agrégateur."
+    },
+    {
+      "creator": "Bean in Transit (Johanna Marie Frejoles)",
+      "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+      "type": "micro-créateur local",
+      "note": "Blogueuse philippine, itinéraire 3 jours Siquijor publié jan 2025, avec budget réel, hébergements testés, restos fréquentés. Écrit en anglais pour une audience internationale."
+    },
+    {
+      "creator": "The Always Wanderer (Sophia)",
+      "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+      "type": "micro-créateur local",
+      "note": "Guide pratique Siquijor sans fluff — prix de ferry négociés, location scooter, activités eau. Sophia documente ses voyages dans les Visayas depuis plusieurs années."
+    },
+    {
+      "creator": "Kate and Mike's Travels",
+      "url": "https://www.kateandmikestravels.com/post/cambugahay-falls-siquijor",
+      "type": "méga-créateur",
+      "note": "Couple de voyageurs internationaux (overlanding + van life) — couverture Cambugahay Falls détaillée avec expérience de la balançoire, pratique, timing. Audience anglophone large."
+    },
+    {
+      "creator": "Siquijor-island.com",
+      "url": "https://siquijor-island.com/",
+      "type": "micro-créateur local",
+      "note": "Site d'information local dédié exclusivement à Siquijor — agenda des événements, guides pratiques incluant le lechon du vendredi au Baha Ba'r. Source locale de référence."
+    },
+    {
+      "creator": "Ed Puno — One-Armed Wanderer",
+      "url": "https://www.edpuno.com/2017/01/restaurant-bar-in-siquijor-island-baha-bar.html",
+      "type": "micro-créateur local",
+      "note": "Blogueur philippin ayant documenté le Baha Ba'r avant qu'il devienne populaire — témoignage de première main sur l'ambiance locale, qualité des cocktails et cuisine tapas."
+    }
+  ]
+}

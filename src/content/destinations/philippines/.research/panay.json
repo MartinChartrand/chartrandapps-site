@@ -1,0 +1,685 @@
+{
+  "base": "panay",
+  "narratif": "On commence pas à Iloilo. On commence à Angeles City, dans une carinderia sous des néons qui clignotent, avec une assiette de sisig qui chante sur la plaque de fonte. C'est la règle : avant de prendre le vol vers Panay, on mange. Aling Lucing, Glaciano Valdez Street — l'endroit exact où Lucia Cunanan a inventé le sisig en 1974 avec les têtes de cochon que les militaires américains de Clark Air Base jetaient aux ordures. Ce que Bourdain a appelé \"the greatest drunk food in the world.\" On n'arrive pas à Iloilo la tête vide.\n\nIloilo City, elle, te happe par le ventre avant de te parler d'histoire. Première UNESCO Creative City of Gastronomy des Philippines depuis octobre 2023, mais ça, c'est le titre officiel. Dans la vraie vie, ça veut dire que t'arrives au marché de La Paz à 7h du matin, tu t'assois dans la boucan de la salle étroite de Deco's — fondée en 1938, une dizaine d'années avant que son voisin Netong's ouvre — et tu reçois un bol de batchoy: miki épais, couenne croustillante, intestins de cochon, bouillon chargé de crevettes séchées, nappe de chicharon pilé. [[poi:la-paz-market]] Le genre de soupe que les Ilonggo mangent au déjeuner et au petit-déjeuner indifféremment.\n\nLe quartier de Molo, à quinze minutes de taxi, c'est l'autre monde. Les maisons coloniales, l'église baroque, et Coning's Talabahan sur pilotis au-dessus de l'eau — des huîtres fraîches ouvertes devant toi, calamansi, sauce noire, bière froide. À Villa Beach, dans le district d'Arevalo, Tatoy's et Breakthrough se font face depuis des décennies. [[poi:tatoys-arevalo]] Le kinilaw de poisson blanc de Tatoy's — vinaigre de noix de coco, gingembre, piment oiseau, lait de coco — c'est la version ilonggo du ceviche que t'oublies pas.\n\nLes Islas de Gigantes, c'est une autre affaire. Trois heures de bus jusqu'à Carles, puis un pump boat d'une heure depuis Bancal vers le nord. [[poi:bancal-port]] Là-bas, l'archipel de karst et d'eau jade. À Cabugao Gamay, la petite île en forme de champignon avec son banc de sable blanc, on comprend pourquoi les photos deviennent virales. Au Tangke Lagoon, la piscine naturelle enfermée dans des falaises de calcaire, l'eau est tellement transparente qu'on distingue le fond à six mètres. [[poi:tangke-lagoon]] Et les coquilles Saint-Jacques — les scallops de Gigantes Norte — à un peso pièce, cuites à la vapeur dans leur coquille sur le bord d'un bateau de bois. On en mange trente. Cinquante. On perd le compte.\n\nC'est ça, Panay. Une séquence parfaite : la graisse de Pampanga, la soupe de La Paz, les huîtres de Molo, les lagons de Gigantes. La mer et la table, dans l'ordre qui convient.",
+  "pratique": "ARRIVER : Vol depuis Manila (ou Clark/Angeles) vers Iloilo City (ILO). Cebu Pacific et Philippine Airlines assurent plusieurs vols quotidiens Manila-Iloilo, ~1h. Si on part de Luzon/Pampanga, Clark International Airport (CRK) est à 20 min d'Angeles City — vol direct CRK-ILO disponible via Cebu Pacific (vérifier disponibilité fév 2027). Sinon : bus depuis Angeles vers NLEX, puis vol depuis Manila NAIA.\n\nSTOPOVER PAMPANGA : Si on arrive depuis le Canada via Manila, prendre un taxi/Grab depuis NAIA vers Angeles City (1h30 selon trafic) ou prendre le P2P bus vers Clark. Manger, dormir si nécessaire, puis vol domestic le lendemain.\n\nDEPUIS ILOILO VERS GIGANTES : Bus/van depuis Tagbak Terminal (Iloilo) vers Carles — départ réguliers, ~3h, ₱200 par personne. Arriver à Bancal Port avant 9h AM pour le bateau public de 10h vers Gigantes Norte (Langub) — ₱100-120/personne, ~1h30 de traversée. Retour de Langub vers Bancal à 14h (bateau public quotidien). Private boat : ₱3500-6000 selon taille. Enregistrement à la Carles Tourism Office obligatoire — environmental fee ₱75/personne.\n\nTRANSPORT LOCAL ILOILO : Grab fonctionne bien. Taxis disponibles. Jeepneys pour La Paz Market (prendre direction La Paz depuis city center). Pour Miagao : jeepney direction sud depuis Mohon Terminal (Molo), ~40 min, ₱30.\n\nSAISON FÉV-MARS 2027 : Amihan (vent du nord-est sec) — conditions idéales. Moins fréquenté qu'avril-mai (vacances scolaires). Mer calme pour Gigantes. Températures 24-31°C. Rares averses. Idéal pour island hopping.\n\nPIÈGES : (1) Gigantes - l'électricité est coupée sur l'île de 6h à 18h dans certains hébergements — prévoir batterie externe. (2) Pré-commander les repas sur l'île 3-4h à l'avance. (3) Le marché de La Paz a rouvert en décembre 2024 après rénovation — confirmer que Deco's et Netong's sont bien de retour dans leur emplacement d'origine. (4) Pour Aling Lucing à Angeles, arriver avant 20h — ferme tôt. (5) Tibiao (kawa bath) est à 170 km d'Iloilo City / 3h de route — prévoir une journée complète si on intègre l'option.",
+  "hebergements": [
+    {
+      "id": "smallville-21-hotel-iloilo",
+      "name": "Smallville 21 Hotel",
+      "tier": "mid",
+      "quartier": "Mandurriao / Smallville Complex, Iloilo City",
+      "blurb": "Hôtel solide au cœur du quartier resto/bar de Smallville — tout à pied, propre, moderne, prix honnête.",
+      "prixParNuit": "₱2 800–3 500 (~CAD 65–80)",
+      "devise": "PHP",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g298466-d1933464-Reviews-Smallville_21_Hotel-Iloilo_City_Iloilo_Province_Panay_Island_Visayas.html",
+      "lat": 10.7128,
+      "lng": 122.5545,
+      "story": "L'hôtel qui répond à la question pratique : où dormir sans se compliquer la vie à Iloilo ? Smallville Complex, c'est le quartier qui mange, qui boit, qui se promène. On sort de la chambre et on est dans les restaurants. Piscine sur le toit, chambres propres, staff correct. Pas romantique, efficace.",
+      "sources": [
+        {
+          "creator": "Ilonggo Traveler",
+          "url": "https://ilonggotraveler.com/2025/07/06/iloilo-city-travel-guide-2025/",
+          "date": "2025-07"
+        }
+      ]
+    },
+    {
+      "id": "casa-marta-hotel-iloilo",
+      "name": "Casa Marta Hotel",
+      "tier": "gem",
+      "quartier": "Iloilo City Proper",
+      "blurb": "Maison de ville transformée en petit hôtel avec piscine intérieure et petit-déj philippin fait maison chaque matin.",
+      "prixParNuit": "₱3 200–4 000 (~CAD 75–95)",
+      "devise": "PHP",
+      "url": "https://www.tripadvisor.com/Hotel_Review-g298466-d27117506-Reviews-Casa_Marta_Hotel-Iloilo_City_Iloilo_Province_Panay_Island_Visayas.html",
+      "lat": 10.7003,
+      "lng": 122.5619,
+      "story": "Le genre de place qu'on ne trouve pas sur les grands sites avant qu'un blog en parle. Chambres spacieuses, piscine intérieure à quelques pas des portes, et chaque matin un Filipino breakfast servi frais. Le staff connaît la ville de l'intérieur — ce qui vaut plus qu'un concierge d'hôtel de chaîne.",
+      "sources": [
+        {
+          "creator": "TripAdvisor guests",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g298466-d27117506-Reviews-Casa_Marta_Hotel-Iloilo_City_Iloilo_Province_Panay_Island_Visayas.html",
+          "date": "2024-2025"
+        }
+      ]
+    },
+    {
+      "id": "arjan-beach-resort-gigantes",
+      "name": "Arjan Beach Resort",
+      "tier": "budget",
+      "quartier": "Gigantes Norte, Carles, Iloilo",
+      "blurb": "Resort face à la mer sur Gigantes Norte avec chambres AC et fan, couchers de soleil depuis la plage, scallops frais à 50 mètres.",
+      "prixParNuit": "₱800–1 500/chambre (~CAD 20–35) selon AC/fan",
+      "devise": "PHP",
+      "url": "https://www.tripadvisor.com.ph/Hotel_Review-g7365431-d7355407-Reviews-Arjan_Beach_Resort-Islas_de_Gigantes_Iloilo_Province_Panay_Island_Visayas.html",
+      "lat": 11.6062,
+      "lng": 123.1523,
+      "story": "Sur une île sans électricité 24h/24, sans ATM, sans signal stable, Arjan tient la route. 9 chambres (AC ou fan), une équipe qui organise les tours, assign un assistant au groupe pour toute la durée du séjour. Le coucher de soleil depuis la plage de l'hôtel justifie le déplacement à lui seul. Précommander les repas à l'avance — la cuisine ferme tôt.",
+      "sources": [
+        {
+          "creator": "Lakbay Pinas",
+          "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+          "date": "2024"
+        },
+        {
+          "creator": "A Wanderful Sole",
+          "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "restos": [
+    {
+      "id": "aling-lucing-sisig-angeles",
+      "name": "Aling Lucing Sisig",
+      "blurb": "L'adresse originelle du sisig, inventé ici en 1974 — pas de mayo, pas d'œuf, juste porc brûlé, oignons, calamansi sur plaque de fonte.",
+      "platSignature": "Sisig original : oreilles et joues de cochon hachées, oignons crus, vinaigre, piment, servi sizzling sur plaque de fonte",
+      "fourchettePrix": "₱180–250 (~CAD 4–6) par portion",
+      "devise": "PHP",
+      "url": "https://alinglucing.shop/",
+      "lat": 15.1462,
+      "lng": 120.591,
+      "story": "Lucia 'Aling Lucing' Cunanan a créé ce plat par accident en 1974 — une oreille de cochon brûlée qu'elle ne voulait pas gaspiller, hachée menu, mélangée avec des oignons, du calamansi et du piment. Les têtes de cochon venaient de la Clark Air Base américaine voisine. Bourdain a mangé ici et a dit que c'était la meilleure bouffe de brosse du monde. Le reste de la planète a suivi.",
+      "sources": [
+        {
+          "creator": "The Daily Phil",
+          "url": "https://thedailyphil.net/tasting-the-original-aling-lucings-sisig-in-angeles-pampanga/",
+          "date": "2024"
+        },
+        {
+          "creator": "Zoy to the World",
+          "url": "https://www.zoytotheworld.com/blog/angeles-city-food-trip-aling-lucing",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "decos-batchoy-la-paz",
+      "name": "Deco's Original La Paz Batchoy (depuis 1938)",
+      "blurb": "L'ancêtre — Federico 'Deco' Guillergan a inventé le batchoy ici même en 1938, dans ce marché, avec les restes du boucher.",
+      "platSignature": "Batchoy spécial : miki épais, intestins et foie de porc, moelle, guinamos (pâte de crevettes fermentées), chicharon pilé, bouillon profond",
+      "fourchettePrix": "₱80–120 (~CAD 2–3)",
+      "devise": "PHP",
+      "url": "https://wanderlog.com/place/details/4599582/decos-original-la-paz-batchoy-since-1938",
+      "lat": 10.7115,
+      "lng": 122.5632,
+      "story": "En 1938, Federico Guillergan Sr. était boucher au marché de La Paz. Il vendait du bouillon. Un client a demandé des nouilles. Le batchoy est né. Quatre-vingt-sept ans plus tard, le stall est toujours là, toujours dans le marché, toujours bondé à 7h du matin. L'ambiance cramped et la lumière fluorescente font partie de l'expérience.",
+      "sources": [
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2018/12/la-paz-batchoy-iloilo-netongs-teds-decos/",
+          "date": "2018"
+        },
+        {
+          "creator": "Zoy to the World",
+          "url": "https://www.zoytotheworld.com/blog/iloilo-city-food-trip-best-la-paz-batchoy",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "tatoys-villa-arevalo",
+      "name": "Tatoy's Manokan & Seafoods",
+      "blurb": "Sur la plage de Villa Arevalo, l'institution des locaux depuis les années 70 — kinilaw, talaba, poulet rôti natif brûlé juste comme il faut.",
+      "platSignature": "Kinilaw de poisson blanc : vinaigre de noix de coco tuba, gingembre, lait de coco, piment oiseau, servi froid dans la coquille",
+      "fourchettePrix": "₱400–900/personne (~CAD 10–22)",
+      "devise": "PHP",
+      "url": "https://www.iloilo.net.ph/tatoys-manokan-seafood-villa-arevalo/",
+      "lat": 10.6816,
+      "lng": 122.5108,
+      "story": "Tatoy était pêcheur avant d'être restaurateur. Il savait où les poissons se nourrissaient, quand les huîtres étaient grasses, comment ne pas gâcher la fraîcheur avec une sauce trop compliquée. Cinquante ans plus tard, la maison en bois sur la plage de Villa Arevalo tient encore. Le kinilaw de Tatoy's — ceviche au vinaigre de coco, gingembre, piment — c'est la version qui rend les autres pâles.",
+      "sources": [
+        {
+          "creator": "FEATR / Erwan Heussaff",
+          "url": "https://featrmedia.com/the-best-food-in-iloilo-with-erwan-heussaff-part-1/",
+          "date": "2023"
+        },
+        {
+          "creator": "Guide to the Philippines",
+          "url": "https://guidetothephilippines.ph/articles/what-to-experience/best-iloilo-restaurants",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "stanley-talabahan-molo",
+      "name": "Stanley Talabahan",
+      "blurb": "Cabane sur pilotis au-dessus de l'eau dans Molo — huîtres fraîches, bière, brise de mer, vue sur Guimaras.",
+      "platSignature": "Talaba (huîtres fraîches) servies crues avec calamansi et sauce à l'ail — à la douzaine pour moins de ₱100",
+      "fourchettePrix": "₱200–500/personne (~CAD 5–12)",
+      "devise": "PHP",
+      "url": "https://wanderlog.com/place/details/14071921/stanley-talabahan",
+      "lat": 10.6891,
+      "lng": 122.5072,
+      "story": "Pas de fenêtres, sol en planches, toit en tôle, et l'eau de Guimaras Strait qui clapote en dessous. Les huîtres coûtent presque rien et arrivent fraîches du matin. Ce genre de place-là ne se retrouve pas dans les guides de voyage — un Ilonggo te l'indique, et tu comprends pourquoi ils y reviennent depuis trente-cinq ans.",
+      "sources": [
+        {
+          "creator": "FEATR / Erwan Heussaff",
+          "url": "https://featrmedia.com/the-best-of-ilonggo-food-with-erwan-where-locals-eat/",
+          "date": "2023"
+        },
+        {
+          "creator": "Adventure.com / Sarah Gillespie",
+          "url": "https://adventure.com/food-guide-iloilo-philippines/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "gigantes-norte-seafood-stalls",
+      "name": "Comptoirs de scallops de Gigantes Norte (stalls de plage)",
+      "blurb": "Pas un restaurant — des vendeurs locaux sur la plage de Langub qui cuisent les Saint-Jacques à la vapeur devant toi pour 1 peso pièce.",
+      "platSignature": "Scallops à la vapeur dans leur coquille — 30 secondes de cuisson, wasay-wasay (palourde géante locale), kinilaw de poisson du matin même",
+      "fourchettePrix": "₱1/scallop, ₱200/kg (~CAD 5/kg)",
+      "devise": "PHP",
+      "url": "https://gigantesisland.com/",
+      "lat": 11.6124,
+      "lng": 123.1478,
+      "sources": [
+        {
+          "creator": "Lakbay Pinas",
+          "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+          "date": "2024"
+        },
+        {
+          "creator": "A Wanderful Sole",
+          "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "sights": [
+    {
+      "id": "la-paz-market-iloilo",
+      "name": "Marché de La Paz",
+      "kind": "sight",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "blurb": "Le berceau du batchoy depuis 1938 — marché public rouvert en décembre 2024 après rénovation, les stalls historiques toujours en place.",
+      "prixEntree": "Gratuit",
+      "timingPhoto": "7h–9h du matin, lumière chaude qui entre par les fenêtres des flancs",
+      "url": "https://firsttimetravels.com/batchoy-and-coffee-at-iloilos-la-paz-public-market/",
+      "lat": 10.7115,
+      "lng": 122.5632,
+      "story": "À 7h du matin, La Paz Market gronde de l'intérieur. Les cocottes fument, les cuillères raclent les bols, les Ilonggo commandent leur batchoy comme d'autres commandent un café. C'est ici que le plat a été inventé, ici qu'il se mange encore dans sa version la plus brute. Rouvert en décembre 2024 après une rénovation qui a préservé l'âme du lieu.",
+      "sources": [
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2024/03/netongs-original-la-paz-batchoy-iloilo-city/",
+          "date": "2024-03"
+        }
+      ]
+    },
+    {
+      "id": "cabugao-gamay-gigantes",
+      "name": "Île Cabugao Gamay",
+      "kind": "plage",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "blurb": "L'image de carte postale de Gigantes — banc de sable blanc, eau turquoise, rocher calcaire avec belvédère à 360°.",
+      "prixEntree": "₱50 (inclus dans la plupart des tours)",
+      "timingPhoto": "9h–11h, avant que les nuages s'accumulent et que les autres bateaux arrivent",
+      "url": "https://cabugaogamay.com/",
+      "lat": 11.5984,
+      "lng": 123.1298,
+      "story": "Cabugao Gamay n'est pas un secret. Mais même en sachant que c'est la plus photographiée des Gigantes, en débarquant du bateau sur ce banc de sable blanc encadré d'eau jade, on comprend pourquoi l'image tourne. La montée au belvédère — cinq minutes d'escalier taillé dans le calcaire — donne une vue à 360° sur l'archipel.",
+      "sources": [
+        {
+          "creator": "Lakbay Pinas",
+          "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "tangke-lagoon-gigantes",
+      "name": "Tangke Saltwater Lagoon",
+      "kind": "sight",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "blurb": "Piscine naturelle d'eau salée enfermée dans des falaises de calcaire — eau jade transparente jusqu'au fond, accessible à marée basse seulement.",
+      "prixEntree": "Inclus dans le tour d'island hopping",
+      "timingPhoto": "10h–12h, lumière zénithale qui illumine le fond de la piscine",
+      "url": "https://gigantesisland.com/tangke-saltwater-lagoon/",
+      "lat": 11.6078,
+      "lng": 123.1445,
+      "story": "Le 'tank' — c'est ce que tangke veut dire en tagalog. Une piscine naturelle de plusieurs centaines de mètres carrés, scellée par des parois de roche, remplie d'eau de mer par des fissures étroites dans la roche. La lumière qui filtre par les ouvertures dans les falaises crée une couleur qu'on ne peut pas reproduire en photo. Fermé en septembre (houle). En février, conditions parfaites.",
+      "sources": [
+        {
+          "creator": "Suroy.ph",
+          "url": "https://suroy.ph/gigantes-island/",
+          "date": "2024"
+        },
+        {
+          "creator": "Gigantes Island Tour",
+          "url": "https://www.gigantesislandtour.com/2025/10/the-tangke-saltwater-lagoon-natures.html",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "villa-arevalo-beachfront",
+      "name": "Villa Beach (Arevalo District)",
+      "kind": "sight",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "blurb": "Le bord de mer des Ilonggo — restaurants sur pilotis, couchers de soleil sur Guimaras, ambiance locale loin du tourist trap.",
+      "prixEntree": "Gratuit (restaurants à la discrétion)",
+      "timingPhoto": "17h30–18h30 pour le coucher de soleil sur Guimaras Island",
+      "url": "https://breakthroughiloilo.com/",
+      "lat": 10.682,
+      "lng": 122.5091,
+      "sources": [
+        {
+          "creator": "Our Awesome Planet",
+          "url": "https://awesome.blog/2017/10/breakthrough-vs-tatoys.html",
+          "date": "2017"
+        }
+      ]
+    },
+    {
+      "id": "miagao-church-iloilo",
+      "name": "Église baroque de Miagao (UNESCO)",
+      "kind": "sight",
+      "roles": [
+        "see"
+      ],
+      "blurb": "Église fortifiée du XVIIIe siècle classée UNESCO — façade baroque chargée de bas-reliefs, saint Christophe parmi les cocotiers.",
+      "prixEntree": "Gratuit (offrande suggérée)",
+      "timingPhoto": "8h–10h, lumière dorée sur la façade ouest",
+      "url": "https://suroy.ph/miagao-church-a-captivating-unesco-world-heritage-site/",
+      "lat": 10.6418,
+      "lng": 122.5875,
+      "sources": [
+        {
+          "creator": "Iloilo Travel Guide Day 3 / Ang Kaladkarin",
+          "url": "http://www.angkaladkarin.com/2024/09/iloilo-travel-guide-day-3-countryside.html",
+          "date": "2024-09"
+        }
+      ]
+    },
+    {
+      "id": "bancal-port-carles",
+      "name": "Port de Bancal (Carles)",
+      "kind": "activity",
+      "roles": [
+        "do"
+      ],
+      "blurb": "Point de départ vers les Gigantes — pump boats au matin, marché de poissons sur le quai, logistique à gérer la veille.",
+      "prixEntree": "₱75 environmental fee (Carles Tourism Office)",
+      "timingPhoto": "6h30–7h, bateaux qui chargent dans la brume matinale",
+      "url": "https://www.exploreiloilo.com/guide/gigantes-transport/",
+      "lat": 11.5448,
+      "lng": 123.1233,
+      "sources": [
+        {
+          "creator": "Ilonggo Traveler",
+          "url": "https://ilonggotraveler.com/2025/07/14/isla-gigantes-travel-guide/",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "tibiao-kawa-antique",
+      "name": "Kawa Hot Bath — Tibiao, Antique (optionnel)",
+      "kind": "activity",
+      "roles": [
+        "do"
+      ],
+      "blurb": "Le bain original dans une marmite géante chauffée au feu de bois, avec herbes et pétales — inventé ici dans les années 90, copié partout ailleurs.",
+      "prixEntree": "₱250/personne (~30 min)",
+      "timingPhoto": "En journée, lumière naturelle dans les jardins du resort",
+      "url": "https://www.taraletsanywhere.com/tibiao-antique/",
+      "lat": 11.2951,
+      "lng": 122.0271,
+      "sources": [
+        {
+          "creator": "Karla Around the World",
+          "url": "https://www.karlaroundtheworld.com/tibiao-antique-travel-guide/",
+          "date": "2024"
+        },
+        {
+          "creator": "Pinoy Travelogue / DJ Rivera",
+          "url": "https://www.pinoytravelogue.com/2024/09/waters-adventures-in-tibiao-antique.html",
+          "date": "2024-09"
+        }
+      ]
+    }
+  ],
+  "dishes": [
+    {
+      "id": "sisig-kapampangan",
+      "type": "plat",
+      "title": "Sisig kapampangan (original)",
+      "region": "Pampanga / Angeles City",
+      "body": "Oreilles et joues de porc grillées, hachées grossièrement, mélangées à des oignons crus, du calamansi local et du piment oiseau. Servi sur une plaque de fonte brûlante qui crépite à table. Sans mayo, sans œuf — la version originale d'Aling Lucing. Texture : croustillant à l'extérieur, gras et humide à l'intérieur.",
+      "story": "Inventé en 1974 par Lucia Cunanan à partir des têtes de cochon que les militaires américains de Clark Air Base jetaient. Accident culinaire transformé en plat national. Bourdain l'a mangé ici et l'a appelé 'the greatest drunk food in the world.' C'est le plat qui ouvre le voyage vers Panay.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "The Daily Phil",
+          "url": "https://thedailyphil.net/tasting-the-original-aling-lucings-sisig-in-angeles-pampanga/",
+          "date": "2024"
+        },
+        {
+          "creator": "Simpol.ph — Sisig History",
+          "url": "https://www.simpol.ph/sisig-history-begins-long-before-the-sizzle/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "la-paz-batchoy",
+      "type": "plat",
+      "title": "La Paz Batchoy",
+      "region": "Iloilo City — La Paz",
+      "body": "Bol de nouilles miki épaisses dans un bouillon de porc chargé de guinamos (pâte de crevettes fermentées). Garni d'intestins et foie de porc, de moelle osseuse et d'une neige de chicharon pilé. Prix 2024 : ₱80 (régulier) à ₱130 (méga). Illimité en caldo sur demande.",
+      "story": "Federico Guillergan Sr. était boucher au marché de La Paz en 1938. Il vendait du bouillon, un client a demandé des nouilles, le batchoy est né. La recette utilise le guinamos — pâte de crevettes fermentées — qui donne au bouillon sa profondeur umami unique. Aucun équivalent exact ailleurs aux Philippines.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2024/03/netongs-original-la-paz-batchoy-iloilo-city/",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Jay Exiomo",
+          "url": "https://jayexiomo.com/2024/07/12/dine-in-netongs-original-special-la-paz-batchoy/",
+          "date": "2024-07"
+        }
+      ]
+    },
+    {
+      "id": "kinilaw-ilonggo",
+      "type": "plat",
+      "title": "Kinilaw ilonggo (ceviche au vinaigre de coco)",
+      "region": "Iloilo City — Villa Arevalo",
+      "body": "Tranches de poisson blanc (managat, tanigue) marinées à cru dans du vinaigre tuba (vinaigre de sève de cocotier), gingembre frais, échalotes, piment oiseau et lait de coco. Servi froid. Texture : ferme à l'extérieur, fondant au centre. Distinct du ceviche sud-américain — moins acide, plus umami.",
+      "story": "Le kinilaw ilonggo est antérieur à la colonisation espagnole. La version de Tatoy's — avec vinaigre tuba de la région de Cabatuan et lait de coco de Guimaras — est considérée par Erwan Heussaff et plusieurs food writers comme la référence dans la ville. La mer est à 50 mètres du restaurant.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "FEATR / Erwan Heussaff",
+          "url": "https://featrmedia.com/the-best-food-in-iloilo-with-erwan-heussaff-part-1/",
+          "date": "2023"
+        },
+        {
+          "creator": "Adventure.com / Sarah Gillespie",
+          "url": "https://adventure.com/food-guide-iloilo-philippines/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "scallops-gigantes",
+      "type": "plat",
+      "title": "Scallops à la vapeur de Gigantes Norte",
+      "region": "Islas de Gigantes, Carles",
+      "body": "Coquilles Saint-Jacques locales (kapis) cuites à la vapeur dans leur coquille sur réchaud de bois, à même la plage ou le pont du bateau. Chair ferme, eau de mer naturellement salée, goût iodé sans excès. Prix : ₱1 pièce (~₱200/kg). Aussi disponibles grillées à l'ail, en adobo ou en ginataang scallops (lait de coco).",
+      "story": "Gigantes Norte est surnommée la 'Scallops Capital of the Philippines.' Les mollusques se reproduisent dans les eaux calmes et profondes autour de l'archipel. À ₱1 pièce, c'est l'absurdité joyeuse du voyage : on en commande cinquante, on perd le compte, on recommande. Le wasay-wasay — palourde géante locale — accompagne à mi-chemin entre l'huître et la clam.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Lakbay Pinas",
+          "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+          "date": "2024"
+        },
+        {
+          "creator": "A Wanderful Sole",
+          "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "pancit-molo",
+      "type": "plat",
+      "title": "Pancit Molo (soupe aux wontons ilonggo)",
+      "region": "Iloilo City — Molo",
+      "body": "Wontons maison farcis de porc haché assaisonné, servis dans un bouillon de poulet clair avec ail frit et oignons verts. Pâte épaisse distincte du wonton cantonais. Aucun féculent ou vermicelle — uniquement les dumplings. Prix : ₱80–120 selon la maison.",
+      "story": "Le pancit molo est né dans le quartier de Molo d'Iloilo, où vivaient les commerçants chinois au XIXe siècle. La version maison de la Panaderia de Molo — fondée dans les années 1800 par les sœurs Jason — est considérée comme la version la plus authentique restante. Kap Ising's offre une version contemporaine réputée également. Comfort food philippin dans toute sa simplicité.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Adventure.com / Sarah Gillespie",
+          "url": "https://adventure.com/food-guide-iloilo-philippines/",
+          "date": "2024"
+        },
+        {
+          "creator": "Visit Iloilo City",
+          "url": "https://visitiloilocity.com/food/pancit-molo/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "talaba-iloilo",
+      "type": "plat",
+      "title": "Talaba (huîtres fraîches) au calamansi",
+      "region": "Iloilo City — Molo / Villa Arevalo",
+      "body": "Huîtres locales servies crues à la douzaine, ouvertes à table, avec calamansi (citron vert philippin) et sauce soja-ail. Aussi disponibles grillées (sinuglaw) ou en tinola. Prix : ₱80–120 la douzaine chez Stanley Talabahan.",
+      "story": "Les huîtres d'Iloilo viennent des bancs de Guimaras Strait — la même bande d'eau qui sépare Panay de l'île de Guimaras. Stanley Talabahan sur pilotis dans Molo les sert depuis des décennies, dans une cabane à toit de tôle où les familles ilonggo passent les samedis après-midi à boire de la San Miguel et à ouvrir des huîtres. Le prix n'a presque pas bougé.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "FEATR / Erwan Heussaff",
+          "url": "https://featrmedia.com/the-best-of-ilonggo-food-with-erwan-where-locals-eat/",
+          "date": "2023"
+        },
+        {
+          "creator": "I Am Traveling Light",
+          "url": "https://iamtravelinglight.com/2012/09/24/ilioilos-oysters-a-delicious-and-cheap-love-affair/",
+          "date": "2012"
+        }
+      ]
+    },
+    {
+      "id": "tsokolate-batirol-iloilo",
+      "type": "produit",
+      "title": "Tsokolate de Batirol au cacao de Guimaras",
+      "region": "Iloilo City",
+      "body": "Chocolat chaud préparé à la main avec un fouet de bois (batirol) dans un pot en métal haut. Cacao provenant de Guimaras Island, fruité et légèrement acidulé — rien à voir avec le cacao sucré industriel. Texture : légèrement granuleuse, dense. Servi avec biscocho (toast beurré local).",
+      "story": "Le cacao de Guimaras est aux Philippines ce que le cacao de Oaxaca est au Mexique — un produit d'appellation de fait, pas encore de nom, reconnu par les chefs et les food travellers qui font l'effort de traverser vers l'île. Le tsokolate de batirol d'Iloilo, préparé à la main et sans ajout de sucre, est la version la plus directe de ce goût.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Adventure.com / Sarah Gillespie",
+          "url": "https://adventure.com/food-guide-iloilo-philippines/",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "gems": [
+    {
+      "id": "coning-talabahan-molo",
+      "title": "Coning's Talabahan — huîtres et poisson séché",
+      "body": "Stand spécialisé dans le district de Molo — huîtres fraîches du matin et lison (poisson séché local) vendus ensemble. Pas de tables, ou presque. Cash seulement.",
+      "story": "Erwan Heussaff y est allé avec des locals dans l'épisode Part 2 de FEATR Iloilo. C'est le genre de place qu'un tourist guide ne cite pas parce qu'il n'y a rien à photographier de propre — mais les Ilonggo y passent acheter leurs huîtres comme on va chez le poissonnier. La différence de fraîcheur avec les restaurants formels est réelle.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "FEATR / Erwan Heussaff",
+          "url": "https://featrmedia.com/the-best-of-ilonggo-food-with-erwan-where-locals-eat/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "bantigue-sandbar-gigantes",
+      "title": "Bantigue Sandbar — banc de sable mouvant",
+      "body": "Banc de sable blanc qui change de forme et de position selon les marées — parfois un trait fin de quelques mètres, parfois une île. Vendeurs de scallops qui arrivent en bateau directement.",
+      "story": "Bantigue est instable — reviens deux fois à Gigantes et tu trouves un sandbar différent. Les vendeurs locaux savent y amarrer leur pump boat même quand le sable est sous l'eau. On mange des scallops les pieds dans l'eau tiède. C'est aussi basique et aussi bien que ça peut l'être.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Lakbay Pinas",
+          "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+          "date": "2024"
+        },
+        {
+          "creator": "Project Gora",
+          "url": "https://projectgora.com/gigantes-islands-travel-guide/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "panaderia-de-molo-iloilo",
+      "title": "Panaderia de Molo — boulangerie des années 1800",
+      "body": "Boulangerie héritière du XIXe siècle dans le quartier de Molo — pancit molo authentique, biscocho et ensaymada locaux. L'un des rares établissements qui suit encore les recettes des sœurs Jason originales.",
+      "story": "Fondée par les sœurs Jason dans les années 1800 à Molo, la Panaderia est une des dernières lignes directes avec la tradition culinaire ilonggo pré-guerre. La salle est petite, les tables en bois, le pancit molo arrive chaud dans un bol de faïence. Pas de réservation, pas de carte de crédit — et pas de raison d'aller ailleurs pour les wontons.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Adventure.com / Sarah Gillespie",
+          "url": "https://adventure.com/food-guide-iloilo-philippines/",
+          "date": "2024"
+        },
+        {
+          "creator": "Out of Town Blog",
+          "url": "https://outoftownblog.com/best-ilonggo-dishes-to-enjoy-in-iloilo/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "ludy-pension-house-carles",
+      "title": "Ludy's Pension House — à 1 minute du port de Bancal",
+      "body": "Pension familiale à Bancal, Carles — 12 chambres AC, 1 min à pied du port de départ vers Gigantes. Idéal pour un départ 6h du matin sans stress logistique.",
+      "story": "Le trick de Gigantes que les vrais voyageurs font : dormir à Carles la veille au lieu de faire le trajet à la sauvette depuis Iloilo le matin. Ludy's Pension House est à une minute à pied du port de Bancal — réveille-toi à 5h30, mange, embarque à 6h. Pas de taxi, pas de bus 3h du matin. Prix : ₱600–900/nuit.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Gigantes Island Tour Guide",
+          "url": "https://gigantesisland.com/where-to-stay-hotels-resorts-and-budget-inns/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "valeria-street-food-strip",
+      "title": "Valeria Street Food Strip — abats grillés et inasal",
+      "body": "Rue entière de grills ouverts en soirée à Iloilo City — isaw (intestins de poulet), pork barbecue, chicken inasal sur braise. Ambiance de quartier, prix dérisoires, clientèle 100% locale.",
+      "story": "Ce n'est pas une adresse, c'est un quartier qui s'allume à la tombée du jour. Erwan Heussaff y est passé dans l'épisode Part 2 FEATR Iloilo. Les brochettes coûtent ₱15–25 pièce. On mange debout ou assis sur des tabourets en plastique. C'est le meilleur budget repas de la ville et l'endroit où on comprend comment mangent vraiment les Ilonggo à 20h un mardi.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "FEATR / Erwan Heussaff",
+          "url": "https://featrmedia.com/the-best-of-ilonggo-food-with-erwan-where-locals-eat/",
+          "date": "2023"
+        }
+      ]
+    }
+  ],
+  "imagesCandidates": [
+    {
+      "slot": "hero",
+      "urlOuId": "ybGD7vgRkb0",
+      "alt": "Pile de coquilles Saint-Jacques fraîches sur une table de bois dans un marché philippin",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "lagoon",
+      "urlOuId": "Tangke-saltwater-lagoon-gigantes",
+      "alt": "Lagon d'eau jade encerclé de falaises de calcaire sous soleil de midi, Islas de Gigantes",
+      "claims": "place"
+    },
+    {
+      "slot": "batchoy-bowl",
+      "urlOuId": "kxxgjDiNrJc",
+      "alt": "Bol de soupe aux nouilles avec garnitures de porc et chicharon dans un marché philippin",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "cabugao-gamay",
+      "urlOuId": "gJeo-4mMEkM",
+      "alt": "Île tropicale à banc de sable blanc et eau turquoise entourée de mer calme",
+      "claims": "place"
+    },
+    {
+      "slot": "sisig-sizzle",
+      "urlOuId": "9yFB58uN5bE",
+      "alt": "Assiette de viande hachée grillée sur plaque de fonte qui fume, style philippin",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "villa-beach-sunset",
+      "urlOuId": "YnJqJ-9C9jk",
+      "alt": "Coucher de soleil sur mer calme depuis un restaurant en bois sur pilotis, Philippines",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "pump-boat-gigantes",
+      "urlOuId": "Gj3OhB8VLmc",
+      "alt": "Pump boat en bois coloré sur mer turquoise entre des îles de karst tropical",
+      "claims": "place"
+    },
+    {
+      "slot": "market-morning",
+      "urlOuId": "Eux7k6oX8T8",
+      "alt": "Marché public philippin animé le matin, vendeurs et clients autour des étals de fruits et légumes",
+      "claims": "atmosphere"
+    }
+  ],
+  "sourcesCreateurs": [
+    {
+      "creator": "FEATR / Erwan Heussaff",
+      "url": "https://featrmedia.com/",
+      "type": "méga-créateur",
+      "note": "Filipin-français, 2 épisodes Iloilo (Part 1 + Part 2 'Where Locals Eat'). Guide par Chef Tibong Jardalez, food advocate patrimoine ilonggo. Visite tous les spots locaux non-touristiques — Coning's, Valeria Street, Kalan PH. Référence pour Iloilo food scene authentique."
+    },
+    {
+      "creator": "Lakbay Pinas",
+      "url": "https://lakbaypinas.com/",
+      "type": "méga-créateur",
+      "note": "Travel blog philippin avec guide Gigantes 2024 détaillé — transport, hébergement, budget breakdown, île hopping. Données vérifiables et régulièrement mises à jour."
+    },
+    {
+      "creator": "A Wanderful Sole",
+      "url": "https://www.awanderfulsole.com/",
+      "type": "micro-créateur local",
+      "note": "Blog de voyage philippin — guide Gigantes 2D1N avec détails pratiques sur bateaux, hébergements (Arjan, Jesa), prix repas et contacts téléphoniques des resorts. Données terrain, pas compilées."
+    },
+    {
+      "creator": "Ilonggo Traveler",
+      "url": "https://ilonggotraveler.com/",
+      "type": "micro-créateur local",
+      "note": "Blog hyperlocal d'Iloilo — guide ville 2025 + guide Gigantes 2025. Connaît la scène de l'intérieur, cite des établissements que les blogs nationaux ignorent. Langue locale, retours terrain."
+    },
+    {
+      "creator": "The Happy Trip",
+      "url": "https://thehappytrip.com/",
+      "type": "micro-créateur local",
+      "note": "Review Netong's mars 2024 + comparatif historique Deco's/Netong's/Ted's. Retour honnête sur la baisse de qualité de Netong's post-rénovation 2024. Données prix à jour."
+    },
+    {
+      "creator": "Adventure.com / Sarah Gillespie",
+      "url": "https://adventure.com/food-guide-iloilo-philippines/",
+      "type": "méga-créateur",
+      "note": "Travel writer primée, food guide Iloilo complet — tsokolate de batirol, pancit molo, kinilaw. Prose de qualité, contexte culturel solide. Référence pour la couche narrative."
+    },
+    {
+      "creator": "Suroy.ph",
+      "url": "https://suroy.ph/",
+      "type": "micro-créateur local",
+      "note": "Site de voyage basé Visayas — couverture Gigantes et Miagao Church avec détails locaux. Connaît les spots et les logistiques de terrain."
+    },
+    {
+      "creator": "Pinoy Travelogue / DJ Rivera",
+      "url": "https://www.pinoytravelogue.com/",
+      "type": "micro-créateur local",
+      "note": "Blog philippin — Netong's batchoy 2017 (historique) + Tibiao Antique sept 2024 (terrain). Photographies documentaires, ton factuel."
+    }
+  ]
+}
