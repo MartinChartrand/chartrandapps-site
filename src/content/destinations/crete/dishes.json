@@ -12,7 +12,7 @@
         "url": "https://www.google.com/maps/search/Kronos+loukoumades+Mousouron+Chania"
       }
     ],
-    "image": "foodie-5",
+    "image": "",
     "base": "chania"
   },
   {
@@ -20,7 +20,7 @@
     "group": "Incontournables foodie — Chania",
     "title": "Sfakianopita au marché",
     "body": "Crêpe fine fourrée à la myzithra, arrosée de miel de thym. La vraie version Sfakiote — on va en manger encore plus à Loutro.",
-    "image": "foodie-4",
+    "image": "",
     "links": [
       {
         "label": "Marché couvert (Agora)",
@@ -36,7 +36,7 @@
     "body": "Grillée à la braise, huile d'olive crétoise, citron. La référence à Chania, c'est To Maridaki sur le vieux port — pieuvre tendre, purée de fava, câpres.",
     "type": "plat",
     "region": "Chania",
-    "image": "foodie-2",
+    "image": "",
     "links": [
       {
         "label": "To Maridaki · Maps",
@@ -56,7 +56,7 @@
         "url": "https://www.chaniawinetours.com/"
       }
     ],
-    "image": "foodie-3",
+    "image": "",
     "base": "chania"
   },
   {
@@ -70,7 +70,7 @@
         "url": "https://www.chaniagastronomy.com/"
       }
     ],
-    "image": "foodie-1",
+    "image": "",
     "base": "chania"
   },
   {

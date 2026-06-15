@@ -50,7 +50,7 @@
     "name": "Ionas Boutique Hotel",
     "blurb": "9 chambres dans un bâtiment vénitien-ottoman restauré. Terrasse sur le toit, petit-déjeuner inclus. Note 9.3/10.",
     "signature": "",
-    "image": "accom-2",
+    "image": null,
     "price": {
       "range": "~80–115 €/nuit",
       "currency": "EUR",
