@@ -1,3 +1,17 @@
+# Style de voyage — ANGLE D'ATTAQUE OBLIGATOIRE (tous les voyages)
+
+**TOUS les voyages bâtis dans ce repo s'attaquent par CET angle — pas par l'histoire. C'est le style de voyage de Martin & Sophie (feedback 2026-06-14) :**
+
+- **La bouffe d'abord** — tavernas où mangent les LOCAUX, fruits de mer, agneau, salade grecque, tomates/légumes frais, raki/souma, incontournables culinaires
+- **Slow travel + relaxation** — ça flâne et donne envie ; jamais une course ni une leçon
+- **Eau à couper le souffle** — criques, plages, eau cristalline
+- **Logement confortable, propre, douillet** — PAS le grand luxe, PAS le rustique
+- **L'histoire/culture = backdrop, JAMAIS le lead**
+
+Le spine (le fil narratif) reste le **squelette** ; la chair, c'est la **table des locaux et la mer**. L'image qui hooke au 1er scroll = une crique ou une assiette, pas un musée. Vaut aussi pour **réviser les voyages existants** (Andalousie incluse). Détail : mémoire `contenu-sensoriel-bouffe-plages`.
+
+---
+
 <!-- gitnexus:start -->
 # GitNexus — Code Intelligence
 

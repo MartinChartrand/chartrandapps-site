@@ -17,6 +17,8 @@ Le 1er épisode (Syros) était trop **cours d'histoire** (opéra, musée industr
 - **MOINS d'histoire** — backdrop, jamais le lead
 - **Logement confortable, propre, douillet** — PAS le grand luxe, PAS le rustique : chaleureux et bien tenu
 
+**Portée — TOUS les voyages :** cet angle est gravé dans le `CLAUDE.md` du projet + le skill `voyage-new`, donc il s'applique à CHAQUE voyage futur (pas juste les Cyclades). **On devra probablement revoir l'Andalousie en prod sous ce même angle** (même style de voyage) — à planifier après les Cyclades.
+
 ## CE QUI EST BÂTI (Syros — squelette OK, contenu à rebalancer)
 Tout dans `src/content/destinations/cyclades/` :
 - **Fondation voyage** : `destination.json` (container + hook Délos approuvé + 5 tuiles), `budget.json` (~15 200 $/2/30j), `pratique.json` (ferries/Meltemi/logistique). Palette `src/styles/themes/cyclades.css` (+ import ajouté dans `src/layouts/Destination.astro`). Favicon ⛴️.
