@@ -2,8 +2,8 @@
 
 **Branche :** `voyage/philippines-visayas-2027` · **Commit courant :** `3c37ce1` · **Date :** 2026-06-15
 
-## ⚑ ÉTAT COURANT (2026-06-15, fin de session)
-**Site BÂTI EN FORMAT ÉPISODE (v3), committé sur la branche, PAS encore en prod.**
+## ⚑ ÉTAT COURANT (2026-06-15) — ✅ DÉPLOYÉ EN PROD
+**Site LIVE en format ÉPISODE (v3) : `chartrandapps.ca/philippines/` (merge `7a500bf`, auto-deploy OK, vérifié 200 + hook + tuiles + CAD).** Prix CAD posés partout (PHP/THB) + `approvedBy:human` ×92 (OK Martin) → `validate:fast` vert.
 - ✅ Conversion v2 long-scroll → **épisode** (clone Cyclades) : `episodic=true` + `container` (hook « le ferry, le feu et l'acide » + 5 tuiles) + **5 `episodes/<base>.json`** (cold open carte + scènes Bourdain + montage + carnet + outro). Bangkok authoré main ; Panay/Negros/Siquijor/Bohol fan-outés (Sonnet), sources injectées des données.
 - ✅ **30 images** CDN-vérifiées + **30/30 match vision**. 7 plats nichés sans image (Loi 3). Mémoire `sourcing-images-unsplash-grounded` (validateur CDN gratuit + grille `file://` pinchtab).
 - ✅ Provenance nettoyée, géo 77/77 (landmask étendu Pampanga), orphelins OK, build 24 pages.
