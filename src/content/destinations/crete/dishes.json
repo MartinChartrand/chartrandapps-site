@@ -12,7 +12,8 @@
         "url": "https://www.google.com/maps/search/Kronos+loukoumades+Mousouron+Chania"
       }
     ],
-    "image": "foodie-5"
+    "image": "foodie-5",
+    "base": "chania"
   },
   {
     "id": "sfakianopita-au-marche",
@@ -25,7 +26,8 @@
         "label": "Marché couvert (Agora)",
         "url": "https://www.google.com/maps/search/Municipal+Market+Agora+Chania+Crete"
       }
-    ]
+    ],
+    "base": "chania"
   },
   {
     "id": "pieuvre-grillee-xtapodi-sti-schara",
@@ -40,7 +42,8 @@
         "label": "To Maridaki · Maps",
         "url": "https://www.google.com/maps/search/To+Maridaki+taverna+old+port+Chania"
       }
-    ]
+    ],
+    "base": "chania"
   },
   {
     "id": "degustation-raki-et-vin",
@@ -53,7 +56,8 @@
         "url": "https://www.chaniawinetours.com/"
       }
     ],
-    "image": "foodie-3"
+    "image": "foodie-3",
+    "base": "chania"
   },
   {
     "id": "cours-de-cuisine-cretoise",
@@ -66,7 +70,8 @@
         "url": "https://www.chaniagastronomy.com/"
       }
     ],
-    "image": "foodie-1"
+    "image": "foodie-1",
+    "base": "chania"
   },
   {
     "id": "sfakianopita-le-plat-de-la-region",
@@ -77,26 +82,33 @@
     "body": "Crêpe fine pétrie au raki, fourrée à la myzithra fraîche, dorée à la poêle, arrosée de miel de thym et graines de sésame. Commander partout — c'est le terroir local.",
     "story": "La sfakianopita, c'est ni un dessert ni un kalitsouni frit. La pâte est pétrie au raki, étirée à la main fine comme du papier, fourrée à la xynomyzithra fraîche — le fromage suret des bergers — pis dorée à la poêle sans gras. Au bout, un filet de miel de thym pis du sésame. Tu la manges chaude, debout, un raki glacé à côté. C'est le déjeuner des montagnes de Sfakia descendu en ville.",
     "sources": [
-      { "creator": "Nektaria Kokkinaki (ERT — TV publique grecque)", "url": "https://www.youtube.com/watch?v=1EnA0Y38E8A", "date": "2023-06-22" }
+      {
+        "creator": "Nektaria Kokkinaki (ERT — TV publique grecque)",
+        "url": "https://www.youtube.com/watch?v=1EnA0Y38E8A",
+        "date": "2023-06-22"
+      }
     ],
     "singleSourceTrusted": true,
     "verifiedAt": "2026-06-13",
     "approvedBy": "human",
-    "image": ""
+    "image": "",
+    "base": "loutro"
   },
   {
     "id": "paidakia-chez-stratis",
     "group": "Incontournables foodie — Loutro & Sfakia",
     "title": "Paidakia chez Stratis",
     "body": "Côtelettes d'agneau grillées, yogourt du troupeau familial. Simple, parfait. Accompagner de salade crétoise et de vin de la maison.",
-    "image": "foodie-7"
+    "image": "foodie-7",
+    "base": "loutro"
   },
   {
     "id": "dejeuner-a-la-taverna-dialiskari-marmara-beach",
     "group": "Incontournables foodie — Loutro & Sfakia",
     "title": "Déjeuner à la taverna Dialiskari (Marmara Beach)",
     "body": "Accessible uniquement par bateau. Pain pétri main, légumes du jardin, poisson grillé. Manger pieds dans le sable avec vue sur les grottes de marbre.",
-    "image": "foodie-8"
+    "image": "foodie-8",
+    "base": "loutro"
   },
   {
     "id": "raki-maison-tsikoudia",
@@ -107,12 +119,17 @@
     "body": "Offert comme digestif après chaque repas — un rituel communautaire crétois. Demander la version au miel (rakomelo) pour finir la soirée.",
     "story": "Les Crétois t'arrêteront tout de suite si tu dis « raki » : ici c'est la tsikoudia. À Akrotiri, Christos Mylonakis la distille dans le kazani de cuivre de son grand-père, daté 1932, 130 litres, au feu de bois, trois heures de patience. La saison va d'octobre à la mi-décembre, pis les rakokazana — les distillations — sont des fêtes de village. Les premières gouttes, le protoraki, on les jette pas mais on les boit pas non plus. Ce qu'on te sert après le repas, c'est ça : un alcool clair, sec, fait par quelqu'un qui a un nom.",
     "sources": [
-      { "creator": "zarpanews.gr (média local Chania)", "url": "https://www.zarpanews.gr/chania-etsi-vgainei-i-kritiki-tsikoydia-to-kazani-i-apostaxi-kai-i-sosti-onomasia-video-photos/", "date": "2021-11-29" }
+      {
+        "creator": "zarpanews.gr (média local Chania)",
+        "url": "https://www.zarpanews.gr/chania-etsi-vgainei-i-kritiki-tsikoydia-to-kazani-i-apostaxi-kai-i-sosti-onomasia-video-photos/",
+        "date": "2021-11-29"
+      }
     ],
     "singleSourceTrusted": true,
     "verifiedAt": "2026-06-13",
     "approvedBy": "human",
-    "image": ""
+    "image": "",
+    "base": "loutro"
   },
   {
     "id": "huile-dolive-pdo-de-sitia",
@@ -125,7 +142,8 @@
         "url": "https://www.google.com/maps/search/Ecomuseum+Municipality+Sitia+Crete"
       }
     ],
-    "image": "foodie-10"
+    "image": "foodie-10",
+    "base": "sitia"
   },
   {
     "id": "vin-liatiko-au-monastere-de-toplou",
@@ -138,55 +156,63 @@
         "url": "https://toplouoliveoil.com/"
       }
     ],
-    "image": "foodie-4"
+    "image": "foodie-4",
+    "base": "sitia"
   },
   {
     "id": "plateau-de-poisson-chez-tzivaeri",
     "group": "Incontournables foodie — Sitia",
     "title": "Plateau de poisson chez Tzivaeri",
     "body": "22 € pour deux. Poisson du matin, pain du four, huile et vin de la famille Psarakis. Le genre de repas qu'on ne trouve plus nulle part en zone touristique.",
-    "image": "foodie-12"
+    "image": "foodie-12",
+    "base": "sitia"
   },
   {
     "id": "pieuvre-sechee-au-soleil",
     "group": "Incontournables foodie — Sitia",
     "title": "Pieuvre séchée au soleil",
     "body": "Tradition en déclin mais encore visible sur le port de Sitia. Demander la xtapodi krasata (pieuvre au vin rouge) chez Fegaropsaro — la version cuttlefish aussi.",
-    "image": "foodie-13"
+    "image": "foodie-13",
+    "base": "sitia"
   },
   {
     "id": "marche-du-mercredi",
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Marché du mercredi",
     "body": "Rue Koumoundourou, marché paysan hebdomadaire. Fromages frais, miel de thym, herbes séchées, fruits de saison. Y aller tôt le matin pour la meilleure sélection.",
-    "image": "foodie-14"
+    "image": "foodie-14",
+    "base": "rethymno"
   },
   {
     "id": "kalitsounia",
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Kalitsounia",
     "body": "Chaussons crétois fourrés au fromage mizithra et herbes sauvages, version sucrée au miel. Essayer chez Yiorgos Hatziparaskos, atelier familial depuis 1960 dans la vieille ville qui tire la pâte phyllo à la main sous les yeux des clients.",
-    "image": "foodie-15"
+    "image": "foodie-15",
+    "base": "rethymno"
   },
   {
     "id": "vin-cretois",
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Vin crétois",
     "body": "La région de Rethymno produit d'excellents crus. Sella Vineria et Rewine dans la vieille ville offrent des dégustations de cépages autochtones — Vidiano, Kotsifali, Mandilari.",
-    "image": "foodie-16"
+    "image": "foodie-16",
+    "base": "rethymno"
   },
   {
     "id": "cooking-class",
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Cooking class",
     "body": "Chrysoula à Pigi, village à 10 minutes de Rethymno, propose des cours de cuisine crétoise traditionnelle dans sa maison. Légumes de la ferme familiale, four à bois, ~3h30 en petit groupe. Réserver à l'avance.",
-    "image": "foodie-17"
+    "image": "foodie-17",
+    "base": "rethymno"
   },
   {
     "id": "raki-mezze",
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Raki & mezze",
     "body": "En fin de soirée, les tavernes offrent le raki maison avec mezze gratuit (fruits, gâteaux). C'est la tradition crétoise du tsikoudia — ne jamais refuser, c'est l'hospitalité incarnée. <div",
-    "image": "foodie-18"
+    "image": "foodie-18",
+    "base": "rethymno"
   }
 ]
