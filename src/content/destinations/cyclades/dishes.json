@@ -482,5 +482,166 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "fol-matsata",
+    "type": "plat",
+    "base": "folegandros",
+    "region": "folegandros",
+    "title": "Matsata — les pâtes roulées à la main",
+    "body": "Le plat-signature de Folegandros, introuvable ailleurs : une pâte de farine, d'eau et d'huile, étalée puis pliée trois ou quatre fois et coupée au couteau à la verticale, éparpillée pour qu'elle boucle, et cuite fraîche dans le bouillon d'un ragoût de lapin, de coq ou de chevreau en sauce rouge. Du fromage sec local râpé dessus. À manger à Ano Meria, chez Sinadisi ou chez Mimis — la table des gens du village.",
+    "poiRef": "fol-sinadisi",
+    "image": "fol-matsata",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — matsata de Folegandros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/matsata-folegandros/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — matsata Folegandros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/matsata-folegandros/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Travel.gr — Folegandros food",
+        "url": "https://www.travel.gr/en/food-and-drink-en/folegandros-a-feast-of-authentic-greek-island-life/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-kalasouna",
+    "type": "plat",
+    "base": "folegandros",
+    "region": "folegandros",
+    "title": "Kalasouna — la tourte au fromage de l'île",
+    "body": "La tourte signature de Folegandros : du fromage souroto frais et des oignons confits dans une croûte épaisse de pâte levée à l'huile d'olive — le samedi, jour de fournée. Le souroto, fondant et légèrement piquant, ne se fait que sur l'île. À prendre chaude le matin à la boulangerie de Chora, comme casse-croûte de slow morning.",
+    "poiRef": "fol-chora",
+    "image": "",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — fromages de Folegandros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/tyria-folegandros/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Folegandros Baker — kalasouna",
+        "url": "https://folegandrosbaker.gr/product/kalasouna-traditional-cheese-pie-with-onions/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — fromages Folegandros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/tyria-folegandros/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-fromages",
+    "type": "produit",
+    "base": "folegandros",
+    "region": "folegandros",
+    "title": "Souroto & skliro — les fromages de Folegandros",
+    "body": "La triade fromagère de l'île aride : le souroto (blanc, ferme, plus prononcé que la feta — le signature), le skliro (sec, râpé sur la matsata comme un parmesan cycladique) et le melichloro entre les deux. On les frit en petits saganaki croustillants dans les tavernes d'Ano Meria, ou on les rapporte des épiceries de Chora. Introuvables hors de l'île.",
+    "image": "",
+    "links": [
+      {
+        "label": "Greeka — produits locaux de Folegandros",
+        "url": "https://www.greeka.com/cyclades/folegandros/products/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greeka — Local Products of Folegandros",
+        "url": "https://www.greeka.com/cyclades/folegandros/products/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-poisson",
+    "type": "plat",
+    "base": "folegandros",
+    "region": "folegandros",
+    "title": "Le poisson d'Agali — skaros & poulpe",
+    "body": "Sur les criques de l'ouest, le poisson sort du bateau le matin : le skaros (le poisson-perroquet des Cyclades, qui revient d'Afrique au printemps et qu'on grille entier au citron et à l'huile d'olive), le poulpe bouilli à l'origan, les calmars. On le mange les pieds dans le sable à Agali (Psaromiligkas), ou à Agios Nikolaos — la taverne vient même te chercher en bateau, et sert le raki maison avec.",
+    "poiRef": "fol-agios-nik-taverna",
+    "image": "",
+    "links": [
+      {
+        "label": "Taverna Agios Nikolaos — site officiel",
+        "url": "https://www.agiosnikolaos-folegandros.gr/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Travel.gr — le skaros",
+        "url": "https://www.travel.gr/en/food-and-drink-en/scaros-sparisoma-cretense-aka-parrot-fish-the-epitome-of-greek-summer/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greeka — Psaromiligkas Agali",
+        "url": "https://www.greeka.com/cyclades/folegandros/eat-drink/restaurants/agali/psaromiligkas/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-mezedes",
+    "type": "plat",
+    "base": "folegandros",
+    "region": "folegandros",
+    "title": "Les mezedes de Chora — fava, chevreau, raki",
+    "body": "Le soir, sur une place ombragée de Chora, la cuisine du jour : la fava de Folegandros tiède et onctueuse avec un filet d'huile verte et des câpres, le chevreau au citron parfumé à l'origan, une salade grecque aux tomates charnues qui ont du goût sur ce terrain aride. Chez To Goupi, menu ultra-court écrit au crayon, l'addition sous quarante euros à deux, vin de la maison compris.",
+    "poiRef": "fol-to-goupi",
+    "image": "",
+    "links": [
+      {
+        "label": "Take Me To Greece — Chora de Folegandros",
+        "url": "https://takemetogreece.com/chora-folegandros/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "TripAdvisor — To Goupi",
+        "url": "https://www.tripadvisor.com/ShowUserReviews-g2183458-d2244018-r503426883-To_Goupi-Chora_Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Take Me To Greece — Chora",
+        "url": "https://takemetogreece.com/chora-folegandros/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-karpouzenia",
+    "type": "produit",
+    "base": "folegandros",
+    "region": "folegandros",
+    "title": "Karpouzenia — la tarte à la pastèque",
+    "body": "Le dessert paysan de l'île : de la pastèque compressée avec du miel de thym local et des graines de sésame grillées, cuite jusqu'à ce que les bords caramélisent et que le centre reste juteux. Plus dense et parfumé qu'on ne l'imagine — un dessert qui n'existe vraiment qu'ici (aussi appelé karpouzopita). À goûter en fin de repas à Ano Meria, ou à rapporter avec un pot de miel.",
+    "image": "fol-karpouzopita",
+    "links": [
+      {
+        "label": "Greeka — produits locaux de Folegandros",
+        "url": "https://www.greeka.com/cyclades/folegandros/products/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greeka — Local Products Folegandros",
+        "url": "https://www.greeka.com/cyclades/folegandros/products/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Find Us Lost — Folegandros guide",
+        "url": "https://finduslost.com/folegandros-greece-travel-guide/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]

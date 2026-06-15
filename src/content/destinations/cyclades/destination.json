@@ -69,7 +69,7 @@
         "date": "2026-06"
       }
     ],
-    "tilesIntro": "Syros et Sifnos sont écrits à fond ; les trois autres sont en route.",
+    "tilesIntro": "Syros, Sifnos et Folegandros sont écrits à fond ; les deux dernières sont en route.",
     "tiles": [
       {
         "base": "syros",
@@ -89,7 +89,8 @@
         "base": "folegandros",
         "kicker": "Chapitre 3 · 5 nuits",
         "title": "L'île-prison",
-        "teaser": "Les falaises, le Kastro vénitien dont les murs des maisons sont les remparts, la matsata roulée à la main depuis 1920. Quand tu ne peux pas partir, le village devient l'univers entier."
+        "teaser": "Les falaises, le Kastro vénitien dont les murs des maisons sont les remparts, la matsata roulée à la main depuis 1920. Quand tu ne peux pas partir, le village devient l'univers entier.",
+        "image": "fol-katergo"
       },
       {
         "base": "amorgos",

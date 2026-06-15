@@ -526,5 +526,173 @@
       "verdict": "match",
       "checkedAt": "2026-06-15"
     }
+  },
+  {
+    "id": "fol-katergo",
+    "slot": "fol-katergo",
+    "base": "folegandros",
+    "role": "photo",
+    "file": "fol-katergo.jpg",
+    "alt": "La crique de Katergo à Folegandros : une eau turquoise et limpide qui vient mourir sur une plage de sable clair, au pied d'une immense falaise de roche grise striée",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Katergo Beach.jpg",
+      "photographer": "Irini Papalexi",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "7b8b042ba1cb1e620787866c8da70530bd5bb4defe4edc976f5b4418da7b85b8",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "7b8b042ba1cb1e620787866c8da70530bd5bb4defe4edc976f5b4418da7b85b8",
+      "alt": "La crique de Katergo à Folegandros : une eau turquoise et limpide qui vient mourir sur une plage de sable clair, au pied d'une immense falaise de roche grise striée",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "fol-agali",
+    "slot": "fol-agali",
+    "base": "folegandros",
+    "role": "photo",
+    "file": "fol-agali.jpg",
+    "alt": "La baie d'Agali à Folegandros vue d'en haut : une anse d'eau turquoise, quelques maisons blanches éparpillées sur les pentes rocheuses et arides qui descendent vers la mer",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "View of Agali Beach.jpg",
+      "photographer": "Irini Papalexi",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "1ee9007a19a950e20ae4e0452e2f215b0360f21485531543e233a088178ca30f",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "1ee9007a19a950e20ae4e0452e2f215b0360f21485531543e233a088178ca30f",
+      "alt": "La baie d'Agali à Folegandros vue d'en haut : une anse d'eau turquoise, quelques maisons blanches éparpillées sur les pentes rocheuses et arides qui descendent vers la mer",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "fol-chora",
+    "slot": "fol-chora",
+    "base": "folegandros",
+    "role": "photo",
+    "file": "fol-chora.jpg",
+    "alt": "Le village de Chora de Folegandros au crépuscule : les maisons blanches groupées sur le flanc d'une colline aride, sous un ciel qui passe du bleu profond à l'orangé du couchant",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Chora, Folegandros at sunset.jpg",
+      "photographer": "Navin75",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "7e9f768faeb8ad77b733ac337d2d5ac0e0396692f19dc95f2ec8ced031397d86",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "7e9f768faeb8ad77b733ac337d2d5ac0e0396692f19dc95f2ec8ced031397d86",
+      "alt": "Le village de Chora de Folegandros au crépuscule : les maisons blanches groupées sur le flanc d'une colline aride, sous un ciel qui passe du bleu profond à l'orangé du couchant",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "fol-kastro",
+    "slot": "fol-kastro",
+    "base": "folegandros",
+    "role": "photo",
+    "file": "fol-kastro.jpg",
+    "alt": "Une femme accoudée à un muret blanchi au bord de la falaise de Chora à Folegandros, regardant la mer immense au crépuscule, une chapelle blanche perchée sur le roc à droite",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Balcony in folegandros castle - folegandros greek island.jpg",
+      "photographer": "Konalouisa",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "5b50fbb1406ba61389be2fc56d0fc0dee32156dedff2fe29ac6a5d468ac8695d",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "5b50fbb1406ba61389be2fc56d0fc0dee32156dedff2fe29ac6a5d468ac8695d",
+      "alt": "Une femme accoudée à un muret blanchi au bord de la falaise de Chora à Folegandros, regardant la mer immense au crépuscule, une chapelle blanche perchée sur le roc à droite",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "fol-matsata",
+    "slot": "fol-matsata",
+    "base": "folegandros",
+    "role": "food",
+    "file": "fol-matsata.jpg",
+    "alt": "Une assiette de poulet aux hilopites (petites pâtes carrées coupées à la main) dans une sauce crémeuse, avec des poivrons rouges, des oignons et une tomate autour, et des pâtes crues à côté",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Chicken with hilopites.JPG",
+      "photographer": "Badseed",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "9c104a0bfc43ab539298c96c296e3cafcb43938afb55168bde7559c0f50b9ce4",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "9c104a0bfc43ab539298c96c296e3cafcb43938afb55168bde7559c0f50b9ce4",
+      "alt": "Une assiette de poulet aux hilopites (petites pâtes carrées coupées à la main) dans une sauce crémeuse, avec des poivrons rouges, des oignons et une tomate autour, et des pâtes crues à côté",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "fol-village",
+    "slot": "fol-village",
+    "base": "folegandros",
+    "role": "photo",
+    "file": "fol-village.jpg",
+    "alt": "Une ruelle pavée de dalles claires dans le quartier médiéval du Kastro de Folegandros, bordée de maisons blanchies à la chaux aux balustrades bleues et de géraniums rouges, sous un ciel bleu",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Chora of Folegandros, Kastro, 153328.jpg",
+      "photographer": "Zde",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "6f84cbc2fea0f6364b0188005e5d191cbc17739aa332f271ddaa4d5d22a5b5f0",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "6f84cbc2fea0f6364b0188005e5d191cbc17739aa332f271ddaa4d5d22a5b5f0",
+      "alt": "Une ruelle pavée de dalles claires dans le quartier médiéval du Kastro de Folegandros, bordée de maisons blanchies à la chaux aux balustrades bleues et de géraniums rouges, sous un ciel bleu",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "fol-karpouzopita",
+    "slot": "fol-karpouzopita",
+    "base": "folegandros",
+    "role": "food",
+    "file": "fol-karpouzopita.jpg",
+    "alt": "Une part de karpouzopita (tarte à la pastèque) dorée et dense, parsemée de graines de sésame, sur une assiette",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Karpouzopita (watermelon pie).jpg",
+      "photographer": "Dianeira",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "9ac15d4df591e97da7dd2fe1e13e3726e8df63cc8336a630bc035655118f1c5c",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "9ac15d4df591e97da7dd2fe1e13e3726e8df63cc8336a630bc035655118f1c5c",
+      "alt": "Une part de karpouzopita (tarte à la pastèque) dorée et dense, parsemée de graines de sésame, sur une assiette",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   }
 ]
