@@ -1,0 +1,99 @@
+{
+  "kicker": "Finances",
+  "title": "Budget estimé",
+  "intro": "En dollars canadiens, pour deux, niveau mid-range confortable (guesthouses de caractère, tavernas locales). Bangkok inclus. Taux : 1 CAD ≈ 28 THB ≈ 41 PHP.",
+  "statCards": [
+    {
+      "value": "~9 965 $",
+      "label": "Total pour 2, ~26 jours"
+    },
+    {
+      "value": "~4 983 $",
+      "label": "Par personne, tout inclus"
+    },
+    {
+      "value": "~380 $",
+      "label": "Par jour sur place, pour 2"
+    },
+    {
+      "value": "1 CAD ≈ 41 PHP",
+      "label": "Taux de référence"
+    }
+  ],
+  "lines": [
+    {
+      "label": "Vols internationaux (open-jaw, 2 pers.)",
+      "category": "YUL → Bangkok / Cebu → YUL · escale obligée · réserver août 2026",
+      "amount": "~3 900 $"
+    },
+    {
+      "label": "Vol Bangkok → Manille (2 pers.)",
+      "category": "Cebu Pacific/AirAsia ou PAL · ~3h30",
+      "amount": "~410 $"
+    },
+    {
+      "label": "Vol domestique Manille → Iloilo (2 pers.)",
+      "category": "GO Easy bagage 20kg inclus",
+      "amount": "~180 $"
+    },
+    {
+      "label": "Hébergement Philippines (21 nuits)",
+      "category": "Guesthouses/resorts mid-range · Iloilo, Dauin, Siquijor, Panglao",
+      "amount": "~1 365 $"
+    },
+    {
+      "label": "Hébergement Bangkok (5 nuits)",
+      "category": "Hôtel mid-range, Thonglor/Chinatown",
+      "amount": "~450 $"
+    },
+    {
+      "label": "Bouffe Philippines",
+      "category": "Carinderias + fruits de mer + bons repas · pour 2",
+      "amount": "~1 050 $"
+    },
+    {
+      "label": "Bouffe Bangkok",
+      "category": "Bouffe de rue + bonnes tables · pour 2",
+      "amount": "~275 $"
+    },
+    {
+      "label": "Transport local Philippines",
+      "category": "Ferries Visayas/Bohol/Cebu, scooters, vans, bus",
+      "amount": "~750 $"
+    },
+    {
+      "label": "Transport local Bangkok",
+      "category": "BTS, Grab, taxis",
+      "amount": "~75 $"
+    },
+    {
+      "label": "Activités & entrées",
+      "category": "Apo Island, plongée, Cambugahay, Loboc, island hopping Gigantes",
+      "amount": "~750 $"
+    },
+    {
+      "label": "Assurance voyage (2 pers., ~55 ans)",
+      "category": "Médical + annulation, tout le voyage",
+      "amount": "~460 $"
+    },
+    {
+      "label": "Divers (eSIM, lessive, pourboires, tampon)",
+      "category": "eTravel + TDAC gratuits · pas d'extension visa",
+      "amount": "~300 $"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Budget serré",
+      "total": "~7 565 $",
+      "desc": "~7 565 $ (guesthouses simples, plus de bouffe de rue, vols réservés tôt)"
+    },
+    {
+      "name": "Budget confort+",
+      "total": "~12 365 $",
+      "desc": "~12 365 $ (resorts plongée, quelques très bonnes tables, vols flexibles)"
+    }
+  ],
+  "advice": "Le poste le plus négociable reste les vols (réserver dès août 2026) et l'hébergement (contacter les guesthouses en direct pour un tarif mensuel). Visa 30 jours largement suffisant — aucune extension à prévoir.",
+  "total": "~9 965 $"
+}

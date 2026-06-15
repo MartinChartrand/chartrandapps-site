@@ -1,0 +1,3808 @@
+[
+  {
+    "id": "mustang-blu-chinatown",
+    "base": "bangkok",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "The Mustang Blu",
+    "blurb": "Ancienne banque de 1890 reconvertie en 10 suites design au coeur du vieux Bangkok, à deux pas de Yaowarat.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "5 500–7 000 THB",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.themustangblu.com",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/The%20Mustang%20Blu%20Chinatown%20/%20Talat%20Noi"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7347,
+      "lng": 100.5118,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Ananda Chalardcharoen a transformé ce bâtiment colonial en quelque chose de rare : un hôtel de 10 chambres où chaque suite a sa propre personnalité — baignoire sur pied en plein milieu de la pièce, escalier en spirale spectaculaire, murs de brique brute. Dormir ici, c'est dormir dans la couture entre le Bangkok chinois d'il y a 150 ans et celui d'aujourd'hui. Tu sors à pied vers T&K Seafood en 5 minutes, et le matin tu as Talat Noi à portée de café.",
+    "sources": [
+      {
+        "creator": "TravelPhotoBloggers",
+        "url": "https://travelphotobloggers.com/thailand/mustang-blu-bangkok/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "L'Escale Voyage",
+        "url": "https://www.lescale-voyage.com/destinations/the-mustang-blu-ananda-chalardcharoens-iconic-hotel-in-bangkoks-chinatown",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "feung-nakorn-balcony",
+    "base": "bangkok",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Feung Nakorn Balcony Rooms & Cafe",
+    "blurb": "École rénovée des années 1920 avec jardin intérieur, à 10 minutes à pied de Wat Pho, calme et propre.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "1 800–2 800 THB",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.booking.com/hotel/th/feung-nakorn-balcony-rooms-and-cafe.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Feung%20Nakorn%20Balcony%20Rooms%20%26%20Cafe%20Rattanakosin%20/%20Vieille%20ville"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7499,
+      "lng": 100.4984,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Booking.com listing",
+        "url": "https://www.booking.com/hotel/th/feung-nakorn-balcony-rooms-and-cafe.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "muu-bangkok-thonglor",
+    "base": "bangkok",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "MUU Bangkok",
+    "blurb": "Boutique hôtel ancré dans le quartier le plus vivant de Bangkok, connecté au centre commercial Eight Thonglor, BTS à 15 min à pied.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "2 500–4 000 THB",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://muuhotels.com/bangkok/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/MUU%20Bangkok%20Thonglor%20%28Sukhumvit%20Soi%2055%29"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7294,
+      "lng": 100.5834,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "MUU (le mot thaï pour « communauté ») joue la carte du voisinage plutôt que de l'isolement de resort. Chambres épurées, literie sérieuse, et tu es à 2 minutes à pied de Mae Varee et des meilleures rues à pad krapow de Ekkamai. C'est le genre d'hôtel où tu rentres fatigué à minuit, les mains encore grasses de sticky rice, et tout ce que tu veux c'est une douche froide et un lit ferme.",
+    "sources": [
+      {
+        "creator": "MUU Hotels",
+        "url": "https://muuhotels.com/bangkok/boutique-hotel-bangkok/",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "phed-mark-ekkamai",
+    "base": "bangkok",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Phed Mark เผ็ดมาร์ค",
+    "blurb": "L'atelier pad krapow de Mark Wiens — une seule recette, faite obsessionnellement bien, en version brûlante.",
+    "signature": "Pad Krapow poulet ou boeuf niveau 5 (sur 10) avec oeuf frit croustillant — 80–120 THB",
+    "image": null,
+    "price": {
+      "range": "80–150 THB",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://phedmark.com",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Phed%20Mark%20%E0%B9%80%E0%B8%9C%E0%B9%87%E0%B8%94%E0%B8%A1%E0%B8%B2%E0%B8%A3%E0%B9%8C%E0%B8%84%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7232,
+      "lng": 100.5848,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Mark Wiens, le YouTubeur de Migrationology qui vit à Bangkok et qui connaît chaque ruelle de la ville, a co-fondé Phed Mark avec un champion Iron Chef et deux locaux. Le nom joue sur son nom de famille : «phed maak» veut dire «très épicé» en thaï. Ils font une chose — pad krapow — et ils la font avec une précision de chirurgien : viande de choix, basilic sacré, chili bird's eye, oeuf frit aux bords croustillants. Pas de légumes-remplissage, pas de sauce sucrée pour adoucir. C'est chaud, parfumé, et ça te colle au palais pendant une heure.",
+    "sources": [
+      {
+        "creator": "Daniel Food Diary",
+        "url": "https://danielfooddiary.com/2025/02/17/phedmark/",
+        "date": "2025-02"
+      },
+      {
+        "creator": "Feastography Blog",
+        "url": "https://www.feastographyblog.com/blog/phed-mark-review",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "tk-seafood-yaowarat",
+    "base": "bangkok",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "T&K Seafood",
+    "blurb": "Les chemises vertes de Phadung Dao — poissons et calamars grillés dans la fumée de Yaowarat jusqu'à 2h du mat.",
+    "signature": "Or Suan — omelette d'huitres croustillante aux bords grillés sur wok charbon — 120–180 THB",
+    "image": null,
+    "price": {
+      "range": "200–500 THB par personne",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.eatingthaifood.com/restaurants/t-k-seafood-restaurant-yaowarat-chinatown-bangkok-thailand/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/T%26K%20Seafood%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7402,
+      "lng": 100.5131,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Sur le coin de Yaowarat Road et Soi Phadung Dao, les gars en chemise verte de T&K vocifèrent les commandes depuis des décennies. C'est le chaos organisé du Chinatown de nuit : bar à fruits de mer à ciel ouvert, tables en plastique, vapeur de wok, bouteilles de Singha qui se multiplient. On y vient pour l'huitre en omelette croustillante (or suan), le bar citronné-ail au vapeur, et le calmar sauté au curry jaune. La qualité est réelle — les cuisines ouvrent à 16h30 et ne ferment pas avant 2h du matin.",
+    "sources": [
+      {
+        "creator": "Eating Thai Food (Mark Wiens)",
+        "url": "https://www.eatingthaifood.com/restaurants/t-k-seafood-restaurant-yaowarat-chinatown-bangkok-thailand/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Authentic Food Quest",
+        "url": "https://authenticfoodquest.com/chinatown-bangkok-food/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "thip-samai-pad-thai",
+    "base": "bangkok",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Thip Samai",
+    "blurb": "La pad thai de référence depuis 1966 — crevettes, oeuf enrobant les nouilles, fumée de wok charbon dans la vieille ville.",
+    "signature": "Pad Thai enveloppé dans une crêpe d'oeuf avec grosses crevettes — 120–200 THB",
+    "image": null,
+    "price": {
+      "range": "60–200 THB",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.eatingthaifood.com/pad-thai-thip-samai-restaurant-bangkok/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Thip%20Samai%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7522,
+      "lng": 100.5048,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Eating Thai Food (Mark Wiens)",
+        "url": "https://www.eatingthaifood.com/pad-thai-thip-samai-restaurant-bangkok/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Chasing a Plate",
+        "url": "https://chasingaplate.com/thip-samai-jay-fai/",
+        "date": "2022-01"
+      }
+    ]
+  },
+  {
+    "id": "ann-guay-tiew-kua-gai",
+    "base": "bangkok",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Ann Guay Tiew Kua Gai",
+    "blurb": "Michelin Bib Gourmand à 30 mètres de Chinatown — nouilles de riz sautées au wok charbon avec poulet et oeuf coulant, 50 ans de maison.",
+    "signature": "Kua Gai — nouilles plates de riz sautées au charbon avec poulet, oeuf coulant, graisses de wok — 60–80 THB",
+    "image": null,
+    "price": {
+      "range": "60–100 THB",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://danielfooddiary.com/2018/09/20/annguaytiewkuagai/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ann%20Guay%20Tiew%20Kua%20Gai%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7468,
+      "lng": 100.5168,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Daniel Food Diary",
+        "url": "https://danielfooddiary.com/2018/09/20/annguaytiewkuagai/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Streetside Bangkok",
+        "url": "https://www.streetsidebangkok.com/roasted-chicken-noodles-guay-tiew-kua-gai-at-suan-mali-is-a-true-treasure/",
+        "date": "2023-01"
+      }
+    ]
+  },
+  {
+    "id": "jeh-o-chula",
+    "base": "bangkok",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Jeh O Chula",
+    "blurb": "Le spot de souper des noctambules bangkokiens depuis 50 ans — tom yum instantané XXL à minuit, file monstre, mais légendaire.",
+    "signature": "MAMA OHO — tom yum XXL aux fruits de mer sur nouilles instantanées avec deux oeufs — 220–320 THB",
+    "image": null,
+    "price": {
+      "range": "120–400 THB",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://danielfooddiary.com/2016/09/21/jehochula/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Jeh%20O%20Chula%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7383,
+      "lng": 100.5228,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Les habitants du quartier Pathum Wan font la file depuis 1970 pour ce restaurant de nuit sans prétention qui sert des tom yum aux nouilles Mama dans des bols de la taille d'un baptistère. Ce n'est pas de la haute gastronomie — c'est de la nourriture d'âme à 2h du matin, celle que tu mange après une nuit dans les bars ou en rentrant d'un late shift. La recette n'a pas changé : bouillon tom yum crémeux, crevettes, calmar, boulettes de porc, deux oeufs entiers. Michelin Bib Gourmand. Arrive avant 22h ou prends un numéro et attends.",
+    "sources": [
+      {
+        "creator": "Daniel Food Diary",
+        "url": "https://danielfooddiary.com/2016/09/21/jehochula/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "The Ranting Panda",
+        "url": "https://therantingpanda.com/2023/01/09/food-review-jeh-o-chula-bangkok-how-to-skip-the-queue-at-the-popular-michelin-bib-gourmand-restaurant-for-its-tom-yum-noodles/",
+        "date": "2023-01"
+      }
+    ]
+  },
+  {
+    "id": "yaowarat-chinatown",
+    "base": "bangkok",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Yaowarat Road — Chinatown de nuit",
+    "blurb": "La rue principale de Chinatown s'éveille à 18h en un marché de rue fumant — omelettes d'huitres, calamars grillés, néons rouges.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Yaowarat%20Road%20%E2%80%94%20Chinatown%20de%20nuit%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7402,
+      "lng": 100.5131,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Yaowarat a l'air de toujours avoir existé ainsi : les enseignes dorées se croisent, les woks crachent du feu, les familles s'installent sur des tabourets bas depuis avant que tu sois né. En février, l'air du soir est doux et on mange dehors sans souffrir. L'heure idéale est 18h30 — la nourriture est à point, les foules n'ont pas encore explosé. Sortie MRT Wat Mangkon, 5 minutes de marche vers le chaos parfait.",
+    "sources": [
+      {
+        "creator": "Bangkok Days",
+        "url": "https://bangkokdays.com/yaowarat-delights-a-guide-to-bangkoks-best-chinatown-street-food-year/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Little Big Red Dot",
+        "url": "https://littlebigreddot.com/yaowarat-after-dark-the-ultimate-top-5-street-food-spots-in-bangkoks-chinatown-2025/",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "or-tor-kor-market",
+    "base": "bangkok",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Or Tor Kor Market (ตลาด อตก)",
+    "blurb": "Le marché de fruits et curry préféré des chefs locaux — durian kanyao, crevettes fluviales, et l'un des meilleurs khao gaeng de la ville.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://migrationology.com/or-tor-kor-market-bangkok-thailand/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Or%20Tor%20Kor%20Market%20%28%E0%B8%95%E0%B8%A5%E0%B8%B2%E0%B8%94%20%E0%B8%AD%E0%B8%95%E0%B8%81%29%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7996,
+      "lng": 100.5508,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Mark Wiens l'appelle l'un de ses marchés préférés sur terre — et il a raté beaucoup de marchés sur terre. Or Tor Kor, c'est le marché que les cuisiniers professionnels de Bangkok fréquentent le matin : fruits impeccables (la mangue Nam Dok Mai ici est une autre espèce que les mangues du supermarché), crabe vivant, crevettes fluvières géantes, et un food court au fond qui sert le meilleur riz curry de la zone nord de Bangkok pour 70 bahts.",
+    "sources": [
+      {
+        "creator": "Mark Wiens / Migrationology",
+        "url": "https://migrationology.com/or-tor-kor-market-bangkok-thailand/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Miss Tam Chiak",
+        "url": "https://www.misstamchiak.com/or-tor-kor-market-one-of-the-best-market-in-bangkok/",
+        "date": "2022-01"
+      }
+    ]
+  },
+  {
+    "id": "boat-noodle-alley-victory",
+    "base": "bangkok",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Allée aux Boat Noodles — Victory Monument",
+    "blurb": "Une vingtaine de comptoirs le long du canal de Khlong Samsen — petits bols à 12–15 bahts, bouillon noir au sang de porc, une institution locale.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.eatingthaifood.com/restaurants/restaurant-sud-yod-kuay-teow-reua-best-boat-noodles/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/All%C3%A9e%20aux%20Boat%20Noodles%20%E2%80%94%20Victory%20Monument%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7648,
+      "lng": 100.5384,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Les nouilles de bateaux ont été servies depuis des embarcations sur les canaux de Bangkok pendant des décennies. L'allée de Victory Monument est l'endroit où la tradition survit, intacte et sans décoration inutile. On s'assoit sur un tabouret, on commande 8–10 petits bols au boeuf ou au porc avec le bouillon sombre rehaussé à la sauce soja foncée et sang de porc (c'est ce qui donne la couleur et le umami), et on empile les bols vides en compétition silencieuse avec soi-même.",
+    "sources": [
+      {
+        "creator": "Eating Thai Food (Mark Wiens)",
+        "url": "https://www.eatingthaifood.com/restaurants/excellent-boat-noodles-bangkok/",
+        "date": "2022-01"
+      },
+      {
+        "creator": "Spring Tomorrow",
+        "url": "https://www.springtomorrow.com/victory-monument-boat-noodles/",
+        "date": "2023-01"
+      }
+    ]
+  },
+  {
+    "id": "lumpini-park-matin",
+    "base": "bangkok",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Lumpini Park — lever de soleil",
+    "blurb": "Le parc central de Bangkok entre 6h et 8h : Tai Chi, joggeurs locaux, silence relatif avant la fournaise urbaine.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Lumpini%20Park%20%E2%80%94%20lever%20de%20soleil%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7305,
+      "lng": 100.5417,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Thailand Magazine",
+        "url": "https://thailandmagazine.com/bangkok/see-do/lumpini-park/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "ruen-nuad-massage",
+    "base": "bangkok",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Ruen-Nuad Massage Studio",
+    "blurb": "Maison en bois de trois étages avec jardin, Sukhumvit 31 — massage thaïlandais traditionnel authentique à prix raisonnable, loin des centres de touristes.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "600–800 THB / heure",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Attraction_Review-g293916-d1549403-Reviews-Ruen_Nuad_Massage_Studio-Bangkok.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ruen-Nuad%20Massage%20Studio%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7291,
+      "lng": 100.5628,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "GoWabi",
+        "url": "https://www.gowabi.com/en/provider/ruen-nuad-massage-studio-sukhumvit-31",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "wat-pho-reclining",
+    "base": "bangkok",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Wat Pho — le Bouddha couché",
+    "blurb": "46 mètres de Bouddha couché en feuille d'or — le temple le plus vieux de Bangkok, promenade de 20 min à pied depuis le ferry.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "200 THB",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.watpho.com",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Wat%20Pho%20%E2%80%94%20le%20Bouddha%20couch%C3%A9%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7468,
+      "lng": 100.4927,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Bangkok Days",
+        "url": "https://bangkokdays.com/michelin-recommended-meals-in-bangkok/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "talad-noi-riverside-walk",
+    "base": "bangkok",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Talad Noi — balade riverside",
+    "blurb": "Ruelle historique sino-thaïe au bord du Chao Phraya, ateliers de mécanique, shrines, et cafés dans d'anciens entrepôts portuaires.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "THB",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Talad%20Noi%20%E2%80%94%20balade%20riverside%20bangkok"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 13.7368,
+      "lng": 100.5098,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "NextStopAsia",
+        "url": "https://nextstopasia.com/riverside-cafes-in-bangkok-hidden-gems/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "smallville-21-hotel-iloilo",
+    "base": "panay",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Smallville 21 Hotel",
+    "blurb": "Hôtel solide au cœur du quartier resto/bar de Smallville — tout à pied, propre, moderne, prix honnête.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱2 800–3 500 (~CAD 65–80)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Hotel_Review-g298466-d1933464-Reviews-Smallville_21_Hotel-Iloilo_City_Iloilo_Province_Panay_Island_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Smallville%2021%20Hotel%20Mandurriao%20/%20Smallville%20Complex%2C%20Iloilo%20City"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.7128,
+      "lng": 122.5545,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "L'hôtel qui répond à la question pratique : où dormir sans se compliquer la vie à Iloilo ? Smallville Complex, c'est le quartier qui mange, qui boit, qui se promène. On sort de la chambre et on est dans les restaurants. Piscine sur le toit, chambres propres, staff correct. Pas romantique, efficace.",
+    "sources": [
+      {
+        "creator": "Ilonggo Traveler",
+        "url": "https://ilonggotraveler.com/2025/07/06/iloilo-city-travel-guide-2025/",
+        "date": "2025-07"
+      }
+    ]
+  },
+  {
+    "id": "casa-marta-hotel-iloilo",
+    "base": "panay",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Casa Marta Hotel",
+    "blurb": "Maison de ville transformée en petit hôtel avec piscine intérieure et petit-déj philippin fait maison chaque matin.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱3 200–4 000 (~CAD 75–95)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Hotel_Review-g298466-d27117506-Reviews-Casa_Marta_Hotel-Iloilo_City_Iloilo_Province_Panay_Island_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Casa%20Marta%20Hotel%20Iloilo%20City%20Proper"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.7003,
+      "lng": 122.5619,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Le genre de place qu'on ne trouve pas sur les grands sites avant qu'un blog en parle. Chambres spacieuses, piscine intérieure à quelques pas des portes, et chaque matin un Filipino breakfast servi frais. Le staff connaît la ville de l'intérieur — ce qui vaut plus qu'un concierge d'hôtel de chaîne.",
+    "sources": [
+      {
+        "creator": "TripAdvisor guests",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g298466-d27117506-Reviews-Casa_Marta_Hotel-Iloilo_City_Iloilo_Province_Panay_Island_Visayas.html",
+        "date": "2024-20"
+      }
+    ]
+  },
+  {
+    "id": "arjan-beach-resort-gigantes",
+    "base": "panay",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Arjan Beach Resort",
+    "blurb": "Resort face à la mer sur Gigantes Norte avec chambres AC et fan, couchers de soleil depuis la plage, scallops frais à 50 mètres.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱800–1 500/chambre (~CAD 20–35) selon AC/fan",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com.ph/Hotel_Review-g7365431-d7355407-Reviews-Arjan_Beach_Resort-Islas_de_Gigantes_Iloilo_Province_Panay_Island_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Arjan%20Beach%20Resort%20Gigantes%20Norte%2C%20Carles%2C%20Iloilo"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 11.6062,
+      "lng": 123.1523,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Sur une île sans électricité 24h/24, sans ATM, sans signal stable, Arjan tient la route. 9 chambres (AC ou fan), une équipe qui organise les tours, assign un assistant au groupe pour toute la durée du séjour. Le coucher de soleil depuis la plage de l'hôtel justifie le déplacement à lui seul. Précommander les repas à l'avance — la cuisine ferme tôt.",
+    "sources": [
+      {
+        "creator": "Lakbay Pinas",
+        "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "A Wanderful Sole",
+        "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "aling-lucing-sisig-angeles",
+    "base": "panay",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Aling Lucing Sisig",
+    "blurb": "L'adresse originelle du sisig, inventé ici en 1974 — pas de mayo, pas d'œuf, juste porc brûlé, oignons, calamansi sur plaque de fonte.",
+    "signature": "Sisig original : oreilles et joues de cochon hachées, oignons crus, vinaigre, piment, servi sizzling sur plaque de fonte",
+    "image": null,
+    "price": {
+      "range": "₱180–250 (~CAD 4–6) par portion",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://alinglucing.shop/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Aling%20Lucing%20Sisig%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 15.1462,
+      "lng": 120.591,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Lucia 'Aling Lucing' Cunanan a créé ce plat par accident en 1974 — une oreille de cochon brûlée qu'elle ne voulait pas gaspiller, hachée menu, mélangée avec des oignons, du calamansi et du piment. Les têtes de cochon venaient de la Clark Air Base américaine voisine. Bourdain a mangé ici et a dit que c'était la meilleure bouffe de brosse du monde. Le reste de la planète a suivi.",
+    "sources": [
+      {
+        "creator": "The Daily Phil",
+        "url": "https://thedailyphil.net/tasting-the-original-aling-lucings-sisig-in-angeles-pampanga/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Zoy to the World",
+        "url": "https://www.zoytotheworld.com/blog/angeles-city-food-trip-aling-lucing",
+        "date": "2023-01"
+      }
+    ]
+  },
+  {
+    "id": "decos-batchoy-la-paz",
+    "base": "panay",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Deco's Original La Paz Batchoy (depuis 1938)",
+    "blurb": "L'ancêtre — Federico 'Deco' Guillergan a inventé le batchoy ici même en 1938, dans ce marché, avec les restes du boucher.",
+    "signature": "Batchoy spécial : miki épais, intestins et foie de porc, moelle, guinamos (pâte de crevettes fermentées), chicharon pilé, bouillon profond",
+    "image": null,
+    "price": {
+      "range": "₱80–120 (~CAD 2–3)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://wanderlog.com/place/details/4599582/decos-original-la-paz-batchoy-since-1938",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Deco%27s%20Original%20La%20Paz%20Batchoy%20%28depuis%201938%29%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.7115,
+      "lng": 122.5632,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "En 1938, Federico Guillergan Sr. était boucher au marché de La Paz. Il vendait du bouillon. Un client a demandé des nouilles. Le batchoy est né. Quatre-vingt-sept ans plus tard, le stall est toujours là, toujours dans le marché, toujours bondé à 7h du matin. L'ambiance cramped et la lumière fluorescente font partie de l'expérience.",
+    "sources": [
+      {
+        "creator": "The Happy Trip",
+        "url": "https://thehappytrip.com/2018/12/la-paz-batchoy-iloilo-netongs-teds-decos/",
+        "date": "2018-01"
+      },
+      {
+        "creator": "Zoy to the World",
+        "url": "https://www.zoytotheworld.com/blog/iloilo-city-food-trip-best-la-paz-batchoy",
+        "date": "2023-01"
+      }
+    ]
+  },
+  {
+    "id": "tatoys-villa-arevalo",
+    "base": "panay",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Tatoy's Manokan & Seafoods",
+    "blurb": "Sur la plage de Villa Arevalo, l'institution des locaux depuis les années 70 — kinilaw, talaba, poulet rôti natif brûlé juste comme il faut.",
+    "signature": "Kinilaw de poisson blanc : vinaigre de noix de coco tuba, gingembre, lait de coco, piment oiseau, servi froid dans la coquille",
+    "image": null,
+    "price": {
+      "range": "₱400–900/personne (~CAD 10–22)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.iloilo.net.ph/tatoys-manokan-seafood-villa-arevalo/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tatoy%27s%20Manokan%20%26%20Seafoods%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.6816,
+      "lng": 122.5108,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Tatoy était pêcheur avant d'être restaurateur. Il savait où les poissons se nourrissaient, quand les huîtres étaient grasses, comment ne pas gâcher la fraîcheur avec une sauce trop compliquée. Cinquante ans plus tard, la maison en bois sur la plage de Villa Arevalo tient encore. Le kinilaw de Tatoy's — ceviche au vinaigre de coco, gingembre, piment — c'est la version qui rend les autres pâles.",
+    "sources": [
+      {
+        "creator": "FEATR / Erwan Heussaff",
+        "url": "https://featrmedia.com/the-best-food-in-iloilo-with-erwan-heussaff-part-1/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Guide to the Philippines",
+        "url": "https://guidetothephilippines.ph/articles/what-to-experience/best-iloilo-restaurants",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "stanley-talabahan-molo",
+    "base": "panay",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Stanley Talabahan",
+    "blurb": "Cabane sur pilotis au-dessus de l'eau dans Molo — huîtres fraîches, bière, brise de mer, vue sur Guimaras.",
+    "signature": "Talaba (huîtres fraîches) servies crues avec calamansi et sauce à l'ail — à la douzaine pour moins de ₱100",
+    "image": null,
+    "price": {
+      "range": "₱200–500/personne (~CAD 5–12)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://wanderlog.com/place/details/14071921/stanley-talabahan",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Stanley%20Talabahan%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.6891,
+      "lng": 122.5072,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Pas de fenêtres, sol en planches, toit en tôle, et l'eau de Guimaras Strait qui clapote en dessous. Les huîtres coûtent presque rien et arrivent fraîches du matin. Ce genre de place-là ne se retrouve pas dans les guides de voyage — un Ilonggo te l'indique, et tu comprends pourquoi ils y reviennent depuis trente-cinq ans.",
+    "sources": [
+      {
+        "creator": "FEATR / Erwan Heussaff",
+        "url": "https://featrmedia.com/the-best-of-ilonggo-food-with-erwan-where-locals-eat/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Adventure.com / Sarah Gillespie",
+        "url": "https://adventure.com/food-guide-iloilo-philippines/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "gigantes-norte-seafood-stalls",
+    "base": "panay",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Comptoirs de scallops de Gigantes Norte (stalls de plage)",
+    "blurb": "Pas un restaurant — des vendeurs locaux sur la plage de Langub qui cuisent les Saint-Jacques à la vapeur devant toi pour 1 peso pièce.",
+    "signature": "Scallops à la vapeur dans leur coquille — 30 secondes de cuisson, wasay-wasay (palourde géante locale), kinilaw de poisson du matin même",
+    "image": null,
+    "price": {
+      "range": "₱1/scallop, ₱200/kg (~CAD 5/kg)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://gigantesisland.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Comptoirs%20de%20scallops%20de%20Gigantes%20Norte%20%28stalls%20de%20plage%29%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 11.6124,
+      "lng": 123.1478,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Lakbay Pinas",
+        "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "A Wanderful Sole",
+        "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "la-paz-market-iloilo",
+    "base": "panay",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Marché de La Paz",
+    "blurb": "Le berceau du batchoy depuis 1938 — marché public rouvert en décembre 2024 après rénovation, les stalls historiques toujours en place.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://firsttimetravels.com/batchoy-and-coffee-at-iloilos-la-paz-public-market/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/March%C3%A9%20de%20La%20Paz%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.7115,
+      "lng": 122.5632,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "À 7h du matin, La Paz Market gronde de l'intérieur. Les cocottes fument, les cuillères raclent les bols, les Ilonggo commandent leur batchoy comme d'autres commandent un café. C'est ici que le plat a été inventé, ici qu'il se mange encore dans sa version la plus brute. Rouvert en décembre 2024 après une rénovation qui a préservé l'âme du lieu.",
+    "sources": [
+      {
+        "creator": "The Happy Trip",
+        "url": "https://thehappytrip.com/2024/03/netongs-original-la-paz-batchoy-iloilo-city/",
+        "date": "2024-03"
+      }
+    ]
+  },
+  {
+    "id": "cabugao-gamay-gigantes",
+    "base": "panay",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Île Cabugao Gamay",
+    "blurb": "L'image de carte postale de Gigantes — banc de sable blanc, eau turquoise, rocher calcaire avec belvédère à 360°.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱50 (inclus dans la plupart des tours)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://cabugaogamay.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/%C3%8Ele%20Cabugao%20Gamay%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 11.5984,
+      "lng": 123.1298,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Cabugao Gamay n'est pas un secret. Mais même en sachant que c'est la plus photographiée des Gigantes, en débarquant du bateau sur ce banc de sable blanc encadré d'eau jade, on comprend pourquoi l'image tourne. La montée au belvédère — cinq minutes d'escalier taillé dans le calcaire — donne une vue à 360° sur l'archipel.",
+    "sources": [
+      {
+        "creator": "Lakbay Pinas",
+        "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "tangke-lagoon-gigantes",
+    "base": "panay",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Tangke Saltwater Lagoon",
+    "blurb": "Piscine naturelle d'eau salée enfermée dans des falaises de calcaire — eau jade transparente jusqu'au fond, accessible à marée basse seulement.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Inclus dans le tour d'island hopping",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://gigantesisland.com/tangke-saltwater-lagoon/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tangke%20Saltwater%20Lagoon%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 11.6078,
+      "lng": 123.1445,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Le 'tank' — c'est ce que tangke veut dire en tagalog. Une piscine naturelle de plusieurs centaines de mètres carrés, scellée par des parois de roche, remplie d'eau de mer par des fissures étroites dans la roche. La lumière qui filtre par les ouvertures dans les falaises crée une couleur qu'on ne peut pas reproduire en photo. Fermé en septembre (houle). En février, conditions parfaites.",
+    "sources": [
+      {
+        "creator": "Suroy.ph",
+        "url": "https://suroy.ph/gigantes-island/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Gigantes Island Tour",
+        "url": "https://www.gigantesislandtour.com/2025/10/the-tangke-saltwater-lagoon-natures.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "villa-arevalo-beachfront",
+    "base": "panay",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Villa Beach (Arevalo District)",
+    "blurb": "Le bord de mer des Ilonggo — restaurants sur pilotis, couchers de soleil sur Guimaras, ambiance locale loin du tourist trap.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit (restaurants à la discrétion)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://breakthroughiloilo.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Villa%20Beach%20%28Arevalo%20District%29%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.682,
+      "lng": 122.5091,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Our Awesome Planet",
+        "url": "https://awesome.blog/2017/10/breakthrough-vs-tatoys.html",
+        "date": "2017-01"
+      }
+    ]
+  },
+  {
+    "id": "miagao-church-iloilo",
+    "base": "panay",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Église baroque de Miagao (UNESCO)",
+    "blurb": "Église fortifiée du XVIIIe siècle classée UNESCO — façade baroque chargée de bas-reliefs, saint Christophe parmi les cocotiers.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit (offrande suggérée)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://suroy.ph/miagao-church-a-captivating-unesco-world-heritage-site/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/%C3%89glise%20baroque%20de%20Miagao%20%28UNESCO%29%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.6418,
+      "lng": 122.5875,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Iloilo Travel Guide Day 3 / Ang Kaladkarin",
+        "url": "http://www.angkaladkarin.com/2024/09/iloilo-travel-guide-day-3-countryside.html",
+        "date": "2024-09"
+      }
+    ]
+  },
+  {
+    "id": "bancal-port-carles",
+    "base": "panay",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Port de Bancal (Carles)",
+    "blurb": "Point de départ vers les Gigantes — pump boats au matin, marché de poissons sur le quai, logistique à gérer la veille.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱75 environmental fee (Carles Tourism Office)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.exploreiloilo.com/guide/gigantes-transport/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Port%20de%20Bancal%20%28Carles%29%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 11.5448,
+      "lng": 123.1233,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Ilonggo Traveler",
+        "url": "https://ilonggotraveler.com/2025/07/14/isla-gigantes-travel-guide/",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "tibiao-kawa-antique",
+    "base": "panay",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Kawa Hot Bath — Tibiao, Antique (optionnel)",
+    "blurb": "Le bain original dans une marmite géante chauffée au feu de bois, avec herbes et pétales — inventé ici dans les années 90, copié partout ailleurs.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱250/personne (~30 min)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.taraletsanywhere.com/tibiao-antique/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kawa%20Hot%20Bath%20%E2%80%94%20Tibiao%2C%20Antique%20%28optionnel%29%20panay"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 11.2951,
+      "lng": 122.0271,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Karla Around the World",
+        "url": "https://www.karlaroundtheworld.com/tibiao-antique-travel-guide/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Pinoy Travelogue / DJ Rivera",
+        "url": "https://www.pinoytravelogue.com/2024/09/waters-adventures-in-tibiao-antique.html",
+        "date": "2024-09"
+      }
+    ]
+  },
+  {
+    "id": "l-fisher-bacolod",
+    "base": "negros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "L'Fisher Hotel Bacolod",
+    "blurb": "Hôtel mid-range bien établi au centre de Bacolod, piscine extérieure, chambres propres et climatisées, à 15 min en taxi de Manokan Country et The Ruins.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱3,500–5,500 (~$60–95 USD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.lfisherhotelbacolod.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/L%27Fisher%20Hotel%20Bacolod%20Lacson%20Street%2C%20centre-ville%20Bacolod"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.6765,
+      "lng": 122.9529,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Booking.com — L'Fisher Hotel Bacolod",
+        "url": "https://www.booking.com/hotel/ph/fisher-bacolod.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "atlantis-dumaguete",
+    "base": "negros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Atlantis Dive Resorts Dumaguete",
+    "blurb": "Le resort de plongée de référence à Dauin — chambres spacieuses vue mer, cuisine maison soignée, dive center PADI 5 étoiles, accès direct aux meilleurs sites de muck diving.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱4,000–7,500 (~$69–130 USD) selon la chambre",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.atlantishotel.com/dumaguete-resort/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Atlantis%20Dive%20Resorts%20Dumaguete%20Maayong%20Tubig%2C%20Dauin%2C%2016km%20au%20sud%20de%20Dumaguete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.2481,
+      "lng": 123.2764,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Atlantis Dumaguete, c'est le genre d'endroit où on arrive pour trois nuits et on en passe cinq. Les chambres ont des vraies salles de bain avec douche pluie, les divemasters connaissent chaque frogfish par prénom, et le repas du soir se prend sur la terrasse avec une Pale Pilsen et le bruit de la mer volcanique noire. Pas de luxe tape-à-l'oeil — juste de la compétence servie avec le sourire.",
+    "sources": [
+      {
+        "creator": "Atlantis Dive Resorts (officiel)",
+        "url": "https://www.atlantishotel.com/dumaguete-resort/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "ScubaBoard — trip report communauté plongée",
+        "url": "https://scubaboard.com/community/threads/atlantis-dumaguete-review.629910/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "mikes-dauin-beach-resort",
+    "base": "negros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Mike's Dauin Beach Resort",
+    "blurb": "12 chambres propres à deux pas de la plage, piscine-lagon avec cascade, food vraiment bon pour un resort de cette gamme — parfait si Atlantis est complet.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱2,500–4,000 (~$43–69 USD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://nz.trip.com/hotels/dauin-hotel-detail-2549794/mike-s-dauin-dive-resort",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mike%27s%20Dauin%20Beach%20Resort%20Dauin%2C%2020min%20au%20sud%20de%20Dumaguete"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.2395,
+      "lng": 123.2727,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "TripAdvisor — reviews 2024-2025 Mike's Dauin",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g659926-d1748321-Reviews-Mike_s_Dauin_Beach_Resort-Dauin_Negros_Oriental_Negros_Island_Visayas.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "manokan-country",
+    "base": "negros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Manokan Country",
+    "blurb": "Le complexe de grills au charbon où l'inasal de Bacolod est né — une douzaine de stalls ouverts depuis 1979, choisir Nena's Rose ou Aida's pour le meilleur grillage.",
+    "signature": "Pecho (poitrine) ou paa (cuisse) inasal grillé au charbon, servi avec riz sinangag et sinamak-calamansi pour tremper",
+    "image": null,
+    "price": {
+      "range": "₱80–150/pièce + riz ₱30",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Manokan%20Country%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.6775,
+      "lng": 122.9535,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Depuis 1979, le maire de Bacolod a relogé les vendeurs d'inasal ici pour que la fumée ne bloque plus la rue — et c'est devenu l'endroit le plus honnête de toute la ville. Aucun menu en photo, aucune traduction anglaise, aucune salsa house en background. Juste du poulet mariné vinegar-calamansi-annatto sur du charbon de bois vif, du riz sinangag et du sinamak dans un verre en plastique. On pointe, on paye ₱80–120 par pièce, on mange avec les mains.",
+    "sources": [
+      {
+        "creator": "Out of Town Blog — Miko Morelos",
+        "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Mark Wiens YouTube — Filipino Street Food Bacolod",
+        "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
+        "date": "2022-01"
+      }
+    ]
+  },
+  {
+    "id": "erons-cansi-house",
+    "base": "negros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Eron's Cansi House",
+    "blurb": "La référence locale pour le cansi — bouillon de boeuf souri au batwan, moelle qui coule, ambiance comptoir de quartier avec un étage climatisé qu'ils gardent presque secret.",
+    "signature": "Cansi — bouillon de jarret de boeuf souri au batwan avec moelle et jackfruit vert, servi avec riz blanc",
+    "image": null,
+    "price": {
+      "range": "₱250–470 (grand bol pour 2-3)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://bacolodfoodhunters.com/2024/04/07/erons-cansi-house-the-best-place-in-bacolod-for-beef-cansi/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Eron%27s%20Cansi%20House%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.675,
+      "lng": 122.95,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Eron's est au fond d'un coin commercial de Capitol Shopping Center, signalé par une moto Harley dans le bar. Le cansi arrive dans un gros bol brun fumant : jarret de boeuf entier, os à moelle, bouillon sombré dans le batwan (le fruit sour de Negros) et l'atsuete. C'est la version Negros du sinigang qui a marié le bulalo — plus charnu, plus acide, plus profond. Un grand bol à ₱470 se partage aisément à deux.",
+    "sources": [
+      {
+        "creator": "Bacolod Food Hunters — blog local référence",
+        "url": "https://bacolodfoodhunters.com/2024/04/07/erons-cansi-house-the-best-place-in-bacolod-for-beef-cansi/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Mark Wiens YouTube — DINO BONE CANSI Bacolod",
+        "url": "https://www.youtube.com/watch?v=jZdV_pmHKSI",
+        "date": "2022-01"
+      }
+    ]
+  },
+  {
+    "id": "lab-as-seafood-dumaguete",
+    "base": "negros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Lab-as Seafood Restaurant",
+    "blurb": "Le seafood de boulevard le plus honnête de Dumaguete depuis 1988 — attrape du jour dans des tanks, braise au charbon ou sauce noix de coco, vue sur le détroit de Tanon.",
+    "signature": "Dumaguete Express — version locale du Bicol Express aux fruits de mer et porc croustillant, ou bouillabaisse coconut avec catch du jour",
+    "image": null,
+    "price": {
+      "range": "₱200–500/plat",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://outoftownblog.com/lunch-at-lab-as-seafood-restaurant-in-dumaguete-city/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Lab-as%20Seafood%20Restaurant%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.3075,
+      "lng": 123.3065,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Out of Town Blog — Lab-as Dumaguete",
+        "url": "https://outoftownblog.com/lunch-at-lab-as-seafood-restaurant-in-dumaguete-city/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Tsinoy Foodies — Lab-as review 2024",
+        "url": "https://www.tsinoyfoodies.com/2024/06/lab-as-dumaguate.html",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "hayahay-treehouse",
+    "base": "negros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Hayahay Treehouse Bar & Viewdeck",
+    "blurb": "Le bar de bord de mer de Dumaguete — huîtres au fromage, crabe au beurre citron, bière froide, musique live le soir et vue sur le détroit depuis la plateforme en bois.",
+    "signature": "Huîtres au fromage gratinées (baked oysters) et crabe sauté sauce ail-citron",
+    "image": null,
+    "price": {
+      "range": "₱150–600/plat",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://us.trip.com/travel-guide/foods/dumaguete-57594-restaurant/Hayahay%20Treehouse%20Bar%20and%20View%20Deck-23871171",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hayahay%20Treehouse%20Bar%20%26%20Viewdeck%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.3079,
+      "lng": 123.3071,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "TripAdvisor — Hayahay reviews consolidés",
+        "url": "https://www.tripadvisor.com.ph/Restaurant_Review-g616032-d1569406-Reviews-Hayahay_Treehouse_Bar_and_View_Deck-Dumaguete_City_Negros_Oriental_Negros_Island_.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "sharyn-cansi-house",
+    "base": "negros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Sharyn's Cansi House",
+    "blurb": "Cansi pur et simple — ils ne servent que ça, riz et boissons. Le bouillon le plus concentré de Bacolod selon les locaux qui n'ont pas besoin de Google Maps pour trouver.",
+    "signature": "Cansi single-dish — bouillon batwan-jarret avec os à moelle entier",
+    "image": null,
+    "price": {
+      "range": "₱200–400/bol",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Restaurant_Review-g298464-d8728488-Reviews-Sharyn_s_Cansi-Bacolod_Negros_Occidental_Negros_Island_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sharyn%27s%20Cansi%20House%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.6738,
+      "lng": 122.9518,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "TripAdvisor — Sharyn's Cansi Bacolod reviews",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g298464-d8728488-Reviews-Sharyn_s_Cansi-Bacolod_Negros_Occidental_Negros_Island_Visayas.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "manokan-country-sight",
+    "base": "negros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Manokan Country",
+    "blurb": "Le complexe de grills à inasal fondé en 1979 — une rue entière de fumée de charbon de bois et de poulet qui caramélise à l'annatto, l'expérience culinaire la plus honnête de Bacolod.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit (payer la bouffe)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Manokan%20Country%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.6775,
+      "lng": 122.9535,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Out of Town Blog — Manokan Country",
+        "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "the-ruins-talisay",
+    "base": "negros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "The Ruins de Talisay",
+    "blurb": "Le squelette en béton armé d'un manoir de baron du sucre dynamité par les Japonais — la lumière de fin d'après-midi à travers les colonnes italianisantes vaut le déplacement.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱150 adultes étrangers, ₱100 locaux",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://suroy.ph/the-ruins-in-the-sugar-city-of-bacolod/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/The%20Ruins%20de%20Talisay%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.7105,
+      "lng": 122.9372,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Don Mariano Lacson a construit ce palais au début du XXe siècle en hommage à sa femme portugaise Maria Braga, morte lors de sa 11e grossesse. Ses descendants l'ont fait sauter plutôt que de le laisser aux Japonais pendant l'occupation. Ce qui reste — les colonnes de béton, les arcades, les jardins revegetalisés — n'est pas une ruine triste. C'est une carcasse aristocratique qui résiste, dorée au soleil couchant de Negros.",
+    "sources": [
+      {
+        "creator": "Suroy.ph — guide Visayas",
+        "url": "https://suroy.ph/the-ruins-in-the-sugar-city-of-bacolod/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Wikipedia — The Ruins (mansion)",
+        "url": "https://en.wikipedia.org/wiki/The_Ruins_(mansion)",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "silay-heritage-zone",
+    "base": "negros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Silay City — Balay Negrense et maisons patrimoniales",
+    "blurb": "30+ maisons ancestrales des barons du sucre des XIXe et XXe siècles dans la ville surnommée la Paris de Negros — la plus belle est le Balay Negrense, museum de Victor Gaston.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱50–100/maison (musées individuels)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://guidetothephilippines.ph/destinations-and-attractions/balay-negrense-museum",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Silay%20City%20%E2%80%94%20Balay%20Negrense%20et%20maisons%20patrimoniales%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.8007,
+      "lng": 122.9726,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Guide to the Philippines — Balay Negrense",
+        "url": "https://guidetothephilippines.ph/destinations-and-attractions/balay-negrense-museum",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "apo-island",
+    "base": "negros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Apo Island — réserve marine",
+    "blurb": "La réserve marine gérée par les villageois depuis 1982 : tortues vertes en eau peu profonde, coraux intacts, visibilité de 25m+ — le day trip le plus mémorable de Negros Oriental.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱300 étrangers (environmental fee) + ₱300 guide turtle sanctuary + banca ₱3,500–5,000 aller-retour",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.weseektravel.com/apo-island/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Apo%20Island%20%E2%80%94%20r%C3%A9serve%20marine%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.0833,
+      "lng": 123.2667,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Apo Island s'est protégée elle-même avant que l'État ne comprenne ce que ça voulait dire. Les villageois ont imposé un no-take zone en 1982, et 40 ans plus tard, les tortues femelles viennent toujours se nourrir d'algues dans ce couloir de 20 mètres de fond, à un mètre cinquante de la surface. On nage à côté d'une carapace de la taille d'une table basse qui nous ignore complètement. C'est de la conservation qui a marché.",
+    "sources": [
+      {
+        "creator": "WeSeeekTravel — Apo Island guide",
+        "url": "https://www.weseektravel.com/apo-island/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Tara Lets Anywhere — snorkeling turtles Apo Island",
+        "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "dauin-marine-sanctuary",
+    "base": "negros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Dauin Marine Sanctuary — muck diving et snorkeling",
+    "blurb": "18 sites de plongée sur sable volcanique noir avec les critters les plus rares des Philippines — frogfish, pieuvre mimic, cuttlefish flamboyant, nudibranches. Snorkeling gratuit depuis la rive.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱0 pour snorkeling depuis la rive (inclus dans les resorts)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://divernet.com/world-dives/asia/diving-dauin-philippines/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dauin%20Marine%20Sanctuary%20%E2%80%94%20muck%20diving%20et%20snorkeling%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.245,
+      "lng": 123.2745,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Dauin est la capitale mondiale du muck diving. On dit capitale du frogfish mais c'est aussi la seule place où on peut voir un flamboyant cuttlefish changer de couleur à 5 mètres de fond pendant qu'un hippocampe se cramponne à du corail fouet à 10 cm. Le sable est noir comme de la poudre à fusil. Sous l'eau, ça ressemble à de l'art contemporain.",
+    "sources": [
+      {
+        "creator": "Divernet — magazine plongée international",
+        "url": "https://divernet.com/world-dives/asia/diving-dauin-philippines/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "EAZY Traveler — Liquid Dumaguete muck diving",
+        "url": "https://eazytraveler.net/2017/09/liquid-dive-resort-dumaguete-muck-diving/",
+        "date": "2023-01"
+      }
+    ]
+  },
+  {
+    "id": "rizal-boulevard-dumaguete",
+    "base": "negros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Rizal Boulevard — Dumaguete",
+    "blurb": "Le boulevard de mer de la ville des gens doux — bancs sous les palmiers, coucher de soleil sur le détroit de Tanon, vendeurs de tempura et cafés universitaires à portée de marche.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://guidetothephilippines.ph/destinations-and-attractions/rizal-boulevard-dumaguete",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Rizal%20Boulevard%20%E2%80%94%20Dumaguete%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.3075,
+      "lng": 123.3068,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Guide to the Philippines — Rizal Boulevard",
+        "url": "https://guidetothephilippines.ph/destinations-and-attractions/rizal-boulevard-dumaguete",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "malatapay-port",
+    "base": "negros",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Port de Malatapay — départ banca Apo Island",
+    "blurb": "Le port de pêche de Zamboanguita où les bancas locales partent pour Apo Island — le marché du matin adjacent vaut l'arrêt pour le poisson grillé et les légumes frais.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit (accès port). Banca ₱3,500–5,000 aller-retour",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Port%20de%20Malatapay%20%E2%80%94%20d%C3%A9part%20banca%20Apo%20Island%20negros"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.153,
+      "lng": 123.2456,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Tara Lets Anywhere — Apo Island access Malatapay",
+        "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "coco-grove-siquijor",
+    "base": "siquijor",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Coco Grove Beach Resort",
+    "blurb": "Resort établi sur Tubod Beach avec 3 restaurants, piscines et accès direct à un site de snorkeling — la valeur sûre pour qui veut du confort sans luxe absurde.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱3,500-6,500 (≈ $62-115 USD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.cocogrovebeachresort.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Coco%20Grove%20Beach%20Resort%20Tubod%2C%20San%20Juan"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.1724,
+      "lng": 123.5005,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Le seul resort de l'île qui tient la promesse complète : plage devant, récif corallien à 100 mètres, restaurant qui sert autre chose que des chips. Les bâtiments couleur terracotta ne gagnent aucun prix d'architecture, mais les chambres sont propres, les lits sont bons, et le petit-déjeuner philippin (longanisa, riz, oeuf) arrive chaud. Le Sunset Resto sur le site vaut le détour pour un verre en fin de journée — le Chocolate Highway en dessert est leur signature kitsch qu'on pardonne facilement.",
+    "sources": [
+      {
+        "creator": "Girl on a Zebra (Oliver)",
+        "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Bean in Transit (Johanna Marie Frejoles)",
+        "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "salamangka-beach-siquijor",
+    "base": "siquijor",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Salamangka Beach & Dive Resort",
+    "blurb": "Petit resort de plongée en bord de mer à San Juan — propre, calme, personnel attentionné, dive center compétent pour explorer sous l'eau.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱2,800-4,500 (≈ $52-80 USD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Hotel_Review-g3175044-d3874181-Reviews-Salamangka_Beach_And_Dive_Resort-San_Juan_Siquijor_Island_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Salamangka%20Beach%20%26%20Dive%20Resort%20San%20Juan"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.175,
+      "lng": 123.498,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Girl on a Zebra (Oliver)",
+        "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "runik-siquijor",
+    "base": "siquijor",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "RUNIK Siquijor — Adults Only",
+    "blurb": "Tentes glamping climatisées en bord de mer, piscine à débordement, restaurant méditerranéen — l'endroit le plus esthétique de l'île pour un couple qui veut du cachet.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱5,500-9,000 (≈ $98-160 USD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.booking.com/hotel/ph/runik-glamping-siquijor.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/RUNIK%20Siquijor%20%E2%80%94%20Adults%20Only%20Tubod%2C%20San%20Juan"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.171,
+      "lng": 123.502,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "RUNIK, c'est l'anomalie douce de Siquijor — une propriété adultes seulement qui ne cache pas son ambition esthétique. Les tentes ont l'air sorties d'un magazine de Bali : tissu ivoire, lit king sur plancher de bois, AC silencieux, entrée privée sur jardin tropical. La piscine à débordement donne directement sur la mer. Le restaurant sert de la pizza napolitaine, des sushis et du tzatziki — pas très philippin, mais exécuté proprement. C'est le genre d'endroit où on passe l'après-midi à lire au bord de l'eau en oubliant qu'il y a un monde dehors.",
+    "sources": [
+      {
+        "creator": "Philippines Hidden Gems",
+        "url": "https://philippineshiddengems.com/runik-siquijor/",
+        "date": "2025-10"
+      },
+      {
+        "creator": "Girl on a Zebra (Oliver)",
+        "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "lazi-beach-club",
+    "base": "siquijor",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Lazi Beach Club Resort",
+    "blurb": "Bungalows de plage locaux sur la côte sud, piscine palmier, restaurant philippin honnête — option budget avec âme à l'écart de l'axe touristique de San Juan.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱1,700-2,500 (≈ $30-45 USD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Lazi%20Beach%20Club%20Resort%20Lazi"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.088,
+      "lng": 123.596,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Girl on a Zebra (Oliver)",
+        "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "dalahikan-grill-siquijor",
+    "base": "siquijor",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Dalahikan Grill Masters",
+    "blurb": "Tables monobloc sur le sable, braise qui crépite, lapu-lapu entier grillé à la commande — la cantine de plage la plus honnête de San Juan.",
+    "signature": "Lapu-lapu (mérou) grillé entier au charbon, servi avec riz et vinaigre aux piments — ₱150-250",
+    "image": null,
+    "price": {
+      "range": "₱80-300 par personne",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com.ph/Restaurant_Review-g3175044-d11769397-Reviews-Dalahikan_Grill_Masters-San_Juan_Siquijor_Island_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dalahikan%20Grill%20Masters%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.174,
+      "lng": 123.501,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Le principe est simple et imbattable : on choisit son poisson du jour dans la glacière, on dit comment on le veut (grillé, c'est le bon choix), et on s'assoit dehors sur le sable pendant que ça cuit sur la braise. Le Lapu-lapu — mérou des Visayas — arrive avec sa peau croustillante et sa chair blanche, accompagné de riz blanc et d'un bol de vinaigre aux piments rouges. La San Miguel Pale Pilsen coûte ₱45. Le coucher de soleil est compris dans le prix.",
+    "sources": [
+      {
+        "creator": "PhilippineTravels.ph",
+        "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Girl on a Zebra (Oliver)",
+        "url": "https://girlonazebra.com/siquijor-island-philippines/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "baha-bar-siquijor",
+    "base": "siquijor",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Baha Ba'r",
+    "blurb": "Bar-resto en bois style nipa hut à Maite, buffet lechon + fruits de mer le vendredi soir avec musique live visayan — l'endroit où locaux et expats se retrouvent.",
+    "signature": "Buffet cochon de lait rôti + poisson grillé du jour + soupe + dessert, vendredi soir à partir de 18h30 — ₱380-450/personne",
+    "image": null,
+    "price": {
+      "range": "₱200-600 par personne",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "http://baha-bar.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Baha%20Ba%27r%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.1695,
+      "lng": 123.5045,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Le cochon est sur le feu dans le jardin depuis 16h — on le voit rôtir en passant en scooter. À 18h30, la salle se remplit de locaux, de quelques expats installés sur l'île, et de voyageurs qui ont eu le bon tuyau. Le buffet à ₱450 : lechon croustillant, poisson grillé de la pêche du jour, riz, soupe, dessert. Le musicien Nonoy « Embol » joue des ballades en visayan en arrière-fond. À réserver 24h à l'avance en haute saison — ils font ça une fois par semaine et la table se remplit vite.",
+    "sources": [
+      {
+        "creator": "Siquijor-island.com",
+        "url": "https://siquijor-island.com/friday-night-lechon/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Ed Puno — One-Armed Wanderer",
+        "url": "https://www.edpuno.com/2017/01/restaurant-bar-in-siquijor-island-baha-bar.html",
+        "date": "2017-01"
+      }
+    ]
+  },
+  {
+    "id": "twenty4-cafe-lazi",
+    "base": "siquijor",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Twenty4 Cafe",
+    "blurb": "Petit café local à Lazi, à deux pas des chutes Cambugahay — lechon kawali maison et sauce piment faite sur place, escale parfaite du tour de l'île.",
+    "signature": "Lechon kawali (porc frit croustillant) avec sauce piment maison — ₱180",
+    "image": null,
+    "price": {
+      "range": "₱200-700 par personne",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Twenty4%20Cafe%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.086,
+      "lng": 123.594,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "PhilippineTravels.ph",
+        "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "bucafe-siquijor",
+    "base": "siquijor",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bucafe",
+    "blurb": "Café perché sur une colline au-dessus de San Juan, style cabane dans les arbres, empanadas fromagées et vue sur la forêt et la mer.",
+    "signature": "Empanadas au fromage fondant (6 pièces pour ₱180) + café local de Siquijor — ₱120",
+    "image": null,
+    "price": {
+      "range": "₱150-350 par personne",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bucafe%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.178,
+      "lng": 123.499,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "PhilippineTravels.ph",
+        "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "fig-sunset-resto-siquijor",
+    "base": "siquijor",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "FIG Sunset View Resort & Restaurant",
+    "blurb": "Restaurant ouvert aux non-résidents avec vue mer imprenable, calamar rôti et bangus frit en vedette — un des meilleurs rapports qualité/vue de San Juan.",
+    "signature": "Calamar rôti entier (pusit inihaw) avec sauce vinaigrée — ₱280, et bangus (milkfish) frit croustillant — ₱220",
+    "image": null,
+    "price": {
+      "range": "₱300-700 par personne",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/FIG%20Sunset%20View%20Resort%20%26%20Restaurant%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.1755,
+      "lng": 123.497,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "PhilippineTravels.ph",
+        "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Bean in Transit (Johanna Marie Frejoles)",
+        "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "cambugahay-falls",
+    "base": "siquijor",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Chutes Cambugahay",
+    "blurb": "Trois niveaux de bassins turquoise en pleine jungle, balançoires à corde, bambou pour flotter — la baignade la plus photogénique de Siquijor.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱10 entrée + ₱50 balançoire (illimitée)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.kateandmikestravels.com/post/cambugahay-falls-siquijor",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Chutes%20Cambugahay%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.083,
+      "lng": 123.591,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Les locals appellent ça le « Tarzan Jump ». Deux balançoires à corde au-dessus du premier bassin : on monte sur la plate-forme en bois, on attrape la corde, et on lâche au-dessus de l'eau turquoise. Les jeunes du coin font ça depuis l'enfance — ils vous montrent comment tourner sur soi-même avant d'entrer dans l'eau. Le deuxième bassin plus en amont est plus calme, plus ombragé, parfait pour s'allonger sur un radeau de bambou que les locaux font glisser doucement vers vous.",
+    "sources": [
+      {
+        "creator": "Kate and Mike's Travels",
+        "url": "https://www.kateandmikestravels.com/post/cambugahay-falls-siquijor",
+        "date": "2024-01"
+      },
+      {
+        "creator": "FunFam Travels PH",
+        "url": "https://funfamtravelsph.com/discovering-the-magic-of-cambugahay-falls-rope-swings-bamboo-rafts-and-the-enchanting-fairy-walk/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "paliton-beach",
+    "base": "siquijor",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Paliton Beach",
+    "blurb": "Bande de sable blanc avec eau turquoise calme et peu profonde, palmiers en bordure — la plage de carte postale qui justifie le détour.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱20 par personne",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://girlonazebra.com/siquijor-beaches/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Paliton%20Beach%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.182,
+      "lng": 123.478,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Girl on a Zebra (Oliver)",
+        "url": "https://girlonazebra.com/siquijor-beaches/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Philippines Hidden Gems",
+        "url": "https://philippineshiddengems.com/siquijor-beaches/",
+        "date": "2026-04"
+      }
+    ]
+  },
+  {
+    "id": "salagdoong-beach",
+    "base": "siquijor",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Salagdoong Beach",
+    "blurb": "Plage de sable blanc sur la côte est avec plateformes de saut de falaise à 10 et 15 mètres — pour regarder les locaux voler ou sauter soi-même.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱40 entrée + ₱40 parking scooter",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://girlonazebra.com/siquijor-beaches/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Salagdoong%20Beach%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.164,
+      "lng": 123.638,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Girl on a Zebra (Oliver)",
+        "url": "https://girlonazebra.com/siquijor-beaches/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "The Always Wanderer (Sophia)",
+        "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "vieux-balete",
+    "base": "siquijor",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Vieux Balete de 400 ans et spa aux poissons",
+    "blurb": "Banian séculaire de Lazi avec racines aériennes imposantes et bassin naturel où des doctor fish grignotent les peaux mortes des pieds — étrange et agréable.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱20 entrée + don libre pour le spa aux poissons",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://iheartph.com/siquijor-balete-tree-fish-spa/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vieux%20Balete%20de%20400%20ans%20et%20spa%20aux%20poissons%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.074,
+      "lng": 123.606,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Le banian a 400 ans et ses racines aériennes tombent en rideaux depuis des branches impossiblement épaisses. Les gens du coin viennent y chercher de l'ombre depuis des générations. Le bassin naturel au pied de l'arbre accueille des doctor fish — ces petits poissons qui grignotent les cellules mortes des pieds plongés dans l'eau. L'effet est bizarre, légèrement chatouilleux, et franchement relaxant. La café Balete Bistro juste à côté sert du café local et des snacks pour prolonger la pause.",
+    "sources": [
+      {
+        "creator": "Tita S Travels",
+        "url": "https://titastravels.wordpress.com/2019/04/20/enchanting-400-year-old-balete-tree-and-fish-spa-siquijor/",
+        "date": "2019-01"
+      },
+      {
+        "creator": "iHeartPH",
+        "url": "https://iheartph.com/siquijor-balete-tree-fish-spa/",
+        "date": "2023-01"
+      }
+    ]
+  },
+  {
+    "id": "tour-scooter-ile",
+    "base": "siquijor",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Tour de l'île en scooter",
+    "blurb": "La route circumférentielle fait 72 km sur asphalte lisse — une journée complète à s'arrêter où l'envie vient, avec chutes, plages, couvent baroque et marchés locaux.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱300-400 location scooter/jour",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tour%20de%20l%27%C3%AEle%20en%20scooter%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.12,
+      "lng": 123.58,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "The Always Wanderer (Sophia)",
+        "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Bean in Transit (Johanna Marie Frejoles)",
+        "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "tubod-marine-sanctuary",
+    "base": "siquijor",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Tubod Marine Sanctuary",
+    "blurb": "Site de snorkeling à 100 mètres du rivage à San Juan — récifs coralliens vivants, poissons-perroquets, visibilité jusqu'à 10 mètres par temps calme.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "₱100 entrée sanctuaire",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tubod%20Marine%20Sanctuary%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.171,
+      "lng": 123.5015,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "The Always Wanderer (Sophia)",
+        "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "lazi-convent-eglise",
+    "base": "siquijor",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Couvent et église de Lazi",
+    "blurb": "Le plus grand couvent des Philippines en pierre de corail (XVIIIe siècle) — une pause architecturale baroque sobre dans le circuit de l'île.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Entrée libre (don suggéré)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Couvent%20et%20%C3%A9glise%20de%20Lazi%20siquijor"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.0795,
+      "lng": 123.5955,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Bean in Transit (Johanna Marie Frejoles)",
+        "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+        "date": "2025-01"
+      }
+    ]
+  },
+  {
+    "id": "momo-beach-house-panglao",
+    "base": "bohol",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Momo Beach House",
+    "blurb": "Boutique éco-chic de 20 chambres pastel directement sur la plage, bambou bar en bord de mer, kayak et équipement de snorkel fournis gratuitement.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "PHP 5 360 – PHP 7 500 (environ 90-125 CAD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://momo-beach-house-panglao.h-rez.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Momo%20Beach%20House%20Barangay%20Bil-isah%2C%20c%C3%B4t%C3%A9%20est%20de%20Panglao%20%28loin%20d%27Alona%29"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.548,
+      "lng": 123.783,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Momo Beach House, c'est exactement ce qu'on cherche : petit, calme, sur une plage qui ne ressemble pas à un couloir de trafic. La propriété joue la carte naturel sans être rustique — bambou, cocotiers, vue sur le coucher de soleil côté mer — et ça marche. Les chambres sont propres, aérées, avec balcon. On n'est pas entassés : 20 chambres max, jamais la sensation d'être dans une machine à touristes. Le bar sur la plage sert des San Miguel et des boissons fraîches jusqu'en soirée.",
+    "sources": [
+      {
+        "creator": "Tripadvisor Momo Beach House",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1036817-d3914565-Reviews-Momo_Beach_House-Panglao_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "bohol-bee-farm-hotel",
+    "base": "bohol",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Bohol Bee Farm",
+    "blurb": "Éco-resort perché sur une falaise avec vue sur mer, 28 chambres dans un jardin potager bio, piscine, petit-déjeuner bio inclus — le meilleur rapport qualité-âme de l'île.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "PHP 3 200 – PHP 5 500 (environ 55-95 CAD), petit-déjeuner inclus",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Hotel_Review-g1220535-d636754-Reviews-Bohol_Bee_Farm-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bohol%20Bee%20Farm%20Dao%2C%20Dauis%20%28entre%20Tagbilaran%20et%20Panglao%2C%20falaise%20sur%20mer%29"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.5812,
+      "lng": 123.7568,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "C'est la chef Vicky Wallace qui a bâti ça au début des années 2000, refusant de faire comme les autres resorts. Elle a planté des légumes, mis des ruches, formé ses cuisiniers avec ce qui pousse dans la cour. Le résultat, c'est un hôtel où le déjeuner au restaurant de falaise surplombant la mer vaut autant que la chambre. Noté #1 des B&B de la province de Bohol avec plus de 1600 avis — ce n'est pas un accident.",
+    "sources": [
+      {
+        "creator": "Tripadvisor Bohol Bee Farm",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1220535-d636754-Reviews-Bohol_Bee_Farm-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "dumaluan-beach-resort",
+    "base": "bohol",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Dumaluan Beach Resort",
+    "blurb": "Resort de plage familial 3 étoiles sur Dumaluan, la plage la plus tranquille de Panglao — buffet déjeuner inclus, piscine extérieure, 80 chambres climatisées à bon prix.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "PHP 2 093 – PHP 4 000 (environ 35-70 CAD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Hotel_Review-g13547993-d634283-Reviews-Dumaluan_Beach_Resort-Bolod_Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dumaluan%20Beach%20Resort%20Bolod%2C%20Panglao%20%E2%80%94%20c%C3%B4t%C3%A9%20est%2C%20plage%20calme%2C%20loin%20d%27Alona"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.522,
+      "lng": 123.792,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Tripadvisor Dumaluan Beach Resort",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g13547993-d634283-Reviews-Dumaluan_Beach_Resort-Bolod_Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "harolds-evotel-cebu",
+    "base": "bohol",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Harolds Evotel Cebu",
+    "blurb": "Hôtel urbain moderne de taille humaine à Cebu, rooftop bar avec vue sur la ville, propre et confortable pour une nuit de transit avant vol international.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "PHP 2 500 – PHP 4 500 (environ 45-75 CAD)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Hotel_Review-g298460-d1931590-Reviews-Harolds_Hotel_Cebu-Cebu_City_Cebu_Island_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Harolds%20Evotel%20Cebu%20Entre%20IT%20Park%20et%20Mango%20Avenue%2C%20Cebu%20City%20%E2%80%94%20acc%C3%A8s%20direct%20Zubuchon%20/%20CnT"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.3234,
+      "lng": 123.9022,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Tripadvisor Harolds Evotel Cebu",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g298460-d1931590-Reviews-Harolds_Hotel_Cebu-Cebu_City_Cebu_Island_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "bohol-bee-farm-restaurant",
+    "base": "bohol",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bohol Bee Farm Restaurant",
+    "blurb": "Restaurant de falaise sur fond de mer bleue, 100% bio du jardin adjacent — la meilleure table de l'île, point.",
+    "signature": "Kare-kare de légumes du jardin en sauce aux arachides + sinigang de lapu-lapu (mérou) au tamarin, crème glacée malunggay (moringa)",
+    "image": null,
+    "price": {
+      "range": "PHP 350-700 par plat",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Restaurant_Review-g1220535-d1168871-Reviews-Bohol_Bee_Farm_Restaurant-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bohol%20Bee%20Farm%20Restaurant%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.5812,
+      "lng": 123.7568,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "La chef Vicky Wallace cultive ce qu'elle sert — riz rouge local, légumes du potager, miel de ses propres ruches. Le restaurant est perché sur une falaise avec vue directe sur la mer de Bohol : on mange un kare-kare de légumes avec une brise salée dans les cheveux. Ce n'est pas de la cuisine de resort insipide. C'est une vraie cuisine de terroir, rare dans une région où la plupart des établissements servent les mêmes recettes internationalisées.",
+    "sources": [
+      {
+        "creator": "Tripadvisor Bohol Bee Farm Restaurant",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g1220535-d1168871-Reviews-Bohol_Bee_Farm_Restaurant-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "redcrab-bohol",
+    "base": "bohol",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Redcrab Bohol",
+    "blurb": "Meilleure table de seafood à Panglao selon les locaux — crabe au beurre aillé, poulpe grillé, crevettes tigrées fraîches du jour.",
+    "signature": "Garlic butter crab (crabe des îles au beurre aillé) + calamares sinugba (calmars grillés entiers, farcis tomates-oignons)",
+    "image": null,
+    "price": {
+      "range": "PHP 400-900 par plat principal",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Restaurant_Review-g10687799-d25431214-Reviews-Redcrab_Bohol-Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Redcrab%20Bohol%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.565,
+      "lng": 123.77,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Redcrab tourne régulièrement dans le top 2 des restaurants de Panglao, et ce n'est pas grâce aux touristes : les Boholanos viennent ici le week-end. Le crabe au beurre aillé arrive dans une casserole fumante ; la chair est ferme, pas caoutchouteuse. Les prix sont honnêtes si on demande le prix au poids avant de commander — le piège classique des restaurants de seafood philippins.",
+    "sources": [
+      {
+        "creator": "Tripadvisor Redcrab Bohol",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g10687799-d25431214-Reviews-Redcrab_Bohol-Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "loboc-riverwatch",
+    "base": "bohol",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Loboc Riverwatch Floating Resto",
+    "blurb": "Buffet bisaya sur un bateau qui glisse au fil de la rivière Loboc — touristique assumé, mais le décor de bambous géants et de nipa palms mérite la sortie.",
+    "signature": "Buffet bisaya : sinuglaw (porc grillé + kinilaw de poisson mélangés), dinuguan, riz, mangue fraîche",
+    "image": null,
+    "price": {
+      "range": "PHP 850 par personne (buffet inclus)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://lobocriverwatch.com/loboc-river-lunch-cruise-bohol/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Loboc%20Riverwatch%20Floating%20Resto%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.7402,
+      "lng": 124.0256,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Oui, c'est touristique. Il y a des enfants sur la rive qui chantent pour des pesos, et le buffet ne prétend pas être Michelin. Mais la rivière Loboc, emerald green entre deux murs de végétation tropicale dense, est genuinement belle. On mange du sinuglaw (porc grillé + kinilaw de poisson), du riz, des fruits frais. L'expérience vaut pour l'atmosphère plus que pour la gastronomie.",
+    "sources": [
+      {
+        "creator": "Loboc Riverwatch official site",
+        "url": "https://lobocriverwatch.com/loboc-river-lunch-cruise-bohol/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Tripadvisor Loboc River Cruise",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g1082590-d1073515-Reviews-Loboc_River_Cruise-Loboc_Bohol_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "cnt-lechon-cebu",
+    "base": "bohol",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "CnT Lechon",
+    "blurb": "L'institution du lechon à Cebu — les Cebuanos débattent depuis des décennies si c'est meilleur ici que chez Zubuchon (réponse selon la vieille garde : oui).",
+    "signature": "Lechon de Cebu à la peau croustillante aux herbes (servi au kilo, avec riz et atchara en accompagnement)",
+    "image": null,
+    "price": {
+      "range": "PHP 600-1200 pour un repas complet (lechon vendu au poids)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.tripadvisor.com/Restaurant_Review-g298460-d1723444-Reviews-CnT_Lechon-Cebu_City_Cebu_Island_Visayas.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/CnT%20Lechon%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.3102,
+      "lng": 123.8958,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "CnT existe depuis des décennies sur la V. Rama Avenue. La peau croustit comme du chicharron — papier mince, brun laqué — et la viande est juteuse, parfumée aux herbes locales. Les cebuanos qui mangent lechon depuis l'enfance pointent souvent vers CnT plutôt que vers Zubuchon (que Bourdain avait rendu célèbre). Les deux méritent d'être testés si on a une deuxième faim, mais CnT reste la référence de la vieille garde.",
+    "sources": [
+      {
+        "creator": "Tripadvisor CnT Lechon",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g298460-d1723444-Reviews-CnT_Lechon-Cebu_City_Cebu_Island_Visayas.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "2bearbear — CnT vs Zubuchon comparison blog",
+        "url": "https://www.2bearbear.com/cnt-lechon-the-best-lechon-in-cebu/",
+        "date": "2023-01"
+      }
+    ]
+  },
+  {
+    "id": "zubuchon-cebu",
+    "base": "bohol",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Zubuchon",
+    "blurb": "Le lechon qu'Anthony Bourdain a qualifié de « best pig ever » à la télé — peau sans sauce soja, craquante comme du chicharron, farcie d'herbes parfumées.",
+    "signature": "Lechon de Cebu style Zubuchon : peau croustillante sans sauce soja, farce citronnelle-laurier, vendu au poids (PHP 450/100g env.)",
+    "image": null,
+    "price": {
+      "range": "PHP 450-990 pour une portion individuelle",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://outoftownblog.com/zubuchon-lechon-cebu-anthony-bourdains-favorite-roasted-pig/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Zubuchon%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 10.3312,
+      "lng": 123.9068,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Zubuchon est né d'un pari culinaire : pas de sauce soja sur la peau, cuisson lente, farce d'herbes aromatiques locales dont de la citronnelle et des feuilles de laurier. Anthony Bourdain en a parlé dans No Reservations, et depuis, chaque visiteur fait le pèlerinage. La peau est légère, presque translucide, avec un craquant de chicharron. Une portion de 500g à PHP 450 entre deux, avec du riz nature : le repas est rapide, mémorable.",
+    "sources": [
+      {
+        "creator": "Out of Town Blog — Zubuchon, Bourdain's favourite",
+        "url": "https://outoftownblog.com/zubuchon-lechon-cebu-anthony-bourdains-favorite-roasted-pig/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Tripadvisor Zubuchon — Bourdain claim verified",
+        "url": "https://www.tripadvisor.com.ph/ShowUserReviews-g298460-d2338110-r131949559-Zubuchon-Cebu_City_Cebu_Island_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "dumaluan-beach",
+    "base": "bohol",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Plage Dumaluan",
+    "blurb": "La plage la plus tranquille de Panglao — sable blanc, eau turquoise, presque pas de vendeurs ambulants.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit (accès plage)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Plage%20Dumaluan%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.522,
+      "lng": 123.792,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Dumaluan est ce qu'Alona Beach était il y a vingt ans : calme, peu développé, avec un fond de mer visible à l'oeil nu. En février-mars, la mer est plate le matin et les fonds de 1 à 3 mètres sont parfaits pour le snorkel sans bouteille. Quelques bars de plage rudimentaires servent des boissons fraîches, mais on n'est pas harcelé.",
+    "sources": [
+      {
+        "creator": "Tripadvisor Dumaluan Beach",
+        "url": "https://www.tripadvisor.com.ph/Attraction_Review-g1036817-d4168308-Reviews-Dumaluan_Beach-Panglao_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "A Handful of Sand — Dumaluan blog",
+        "url": "https://www.ahandfulofsand.com/blog-philippines/dumaluan-beach",
+        "date": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": "balicasag-island-snorkel",
+    "base": "bohol",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Balicasag Island — snorkel et tortues marines",
+    "blurb": "Sanctuaire marin à 30 min de bateau — on nage avec des tortues vertes et des barracudas dans une visibilité de 15 à 40 mètres.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "PHP 500-800 pour la balade en bateau + droit d'entrée sanctuaire; plongée PHP 1500-2500 avec guide",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Balicasag%20Island%20%E2%80%94%20snorkel%20et%20tortues%20marines%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.5117,
+      "lng": 123.6883,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "Balicasag est une île-sanctuaire à une demi-heure de Panglao. L'eau est propre, les coraux sont denses, et les tortues de mer passent sans se préoccuper des nageurs. En février-mars — pleine saison sèche — la visibilité atteint couramment 30-40m. Pour les non-plongeurs, le snorkel de surface suffit : les tortues remontent régulièrement à 1-2 mètres. La municipalité limite à 150 plongeurs par jour — réserver à l'avance.",
+    "sources": [
+      {
+        "creator": "Guide to the Philippines — Balicasag diving guide",
+        "url": "https://guidetothephilippines.ph/articles/adventure-and-outdoors/balicasag-diving-guide",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Starfish.ch — Bohol dive sites reference",
+        "url": "https://www.starfish.ch/dive/Bohol.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "tarsier-sanctuary-corella",
+    "base": "bohol",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Philippine Tarsier & Wildlife Sanctuary, Corella",
+    "blurb": "Le seul sanctuaire éthique de Bohol — 134 hectares de forêt, 500+ tarsiers libres, guides silencieux, zéro cage.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "PHP 100-150 par personne",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://bohol-philippines.com/tarsier-sanctuary-guide-in-corella/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Philippine%20Tarsier%20%26%20Wildlife%20Sanctuary%2C%20Corella%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.7617,
+      "lng": 123.96,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "story": "La Philippine Tarsier Foundation gère 134 hectares de forêt secondaire à Corella où les tarsiers vivent et se reproduisent librement. Un guide montre où ils se reposent ce jour-là — on observe en silence, sans flash, à bonne distance. C'est radicalement différent des stands de bord de route où les animaux sont stressés et mal nourris. Le sanctuaire mérite le détour seul, avant les Chocolate Hills voisines.",
+    "sources": [
+      {
+        "creator": "Bohol Cebu Travel Guide — sanctuaire Corella",
+        "url": "https://bohol-philippines.com/tarsier-sanctuary-guide-in-corella/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Tripadvisor — The Only Ethical Place to Support Tarsiers",
+        "url": "https://www.tripadvisor.com/ShowUserReviews-g3649283-d320849-r578441808-Philippine_Tarsier_and_Wildlife_Sanctuary-Corella_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "chocolate-hills-carmen",
+    "base": "bohol",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Chocolate Hills — belvédère de Carmen",
+    "blurb": "1268 collines coniques brun cacao vues depuis le belvédère à 214 marches — en fin d'après-midi, les ombres transforment le paysage.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "PHP 150 par personne",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Chocolate%20Hills%20%E2%80%94%20belv%C3%A9d%C3%A8re%20de%20Carmen%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.7996,
+      "lng": 124.1651,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Journey Era — Chocolate Hills complete guide",
+        "url": "https://www.journeyera.com/chocolate-hills-bohol/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Ambot-ah Travel Blog — Sagbayan et Carmen viewdecks",
+        "url": "https://www.ambot-ah.com/bohol-chocolate-hills-sagbayan-carmen-viewdecks/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "loboc-river-cruise",
+    "base": "bohol",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Croisière rivière Loboc",
+    "blurb": "Buffet bisaya sur l'eau, bambous géants de chaque côté, enfants qui chantent sur la rive — touristique assumé, décor réellement beau.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "PHP 850 par personne (buffet inclus)",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Croisi%C3%A8re%20rivi%C3%A8re%20Loboc%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.7402,
+      "lng": 124.0256,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Lakbay Pinas — Ultimate Guide Loboc River Cruise 2025",
+        "url": "https://lakbaypinas.com/ultimate-guide-to-loboc-river-cruise-in-bohol-2025/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Adventures We Chase — Lunch and Cruise on the Loboc River",
+        "url": "https://www.adventureswechase.com/explore-bohol-lunch-and-cruise-on-the-loboc-river/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "tagbilaran-public-market",
+    "base": "bohol",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do"
+    ],
+    "tier": null,
+    "name": "Marché public de Tagbilaran",
+    "blurb": "Le marché aux poissons ouvre dès 4h du matin — les pêcheurs débarquent le lapu-lapu, le malasugi, le kinilaw se prépare sur place.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/March%C3%A9%20public%20de%20Tagbilaran%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.6558,
+      "lng": 123.8543,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Yoorekka PH — Fresh Seafood Tagbilaran Wet Markets",
+        "url": "https://yoorekka.com/magazine/cebu-bohol/2016/04/23/get-fresh-or-dried-seafood-at-tagbilarans-wet-markets",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "momo-beach-kayak",
+    "base": "bohol",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Momo Beach — kayak et coucher de soleil",
+    "blurb": "Plage de 200m de sable blanc face à l'ouest — les couchers de soleil sont photographiques ; les kayaks du resort sont gratuits.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "Gratuit pour les résidents du Momo Beach House",
+      "currency": "PHP",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Momo%20Beach%20%E2%80%94%20kayak%20et%20coucher%20de%20soleil%20bohol"
+    },
+    "extraLinks": [],
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "coords": {
+      "lat": 9.548,
+      "lng": 123.783,
+      "source": "websearch",
+      "verifiedOn": "2026-06-15"
+    },
+    "sources": [
+      {
+        "creator": "Tripadvisor Momo Beach House reviews",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1036817-d3914565-Reviews-Momo_Beach_House-Panglao_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      }
+    ]
+  }
+]
