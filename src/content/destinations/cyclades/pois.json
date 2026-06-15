@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "syros-electra",
+    "base": "syros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Electra Syros",
+    "blurb": "Un boutique-hôtel de dix chambres dans les anciens manoirs de Vaporia, juste au-dessus de la plage Asteria. Petit, discret, au cœur du quartier des armateurs — la mer en bas, la ville à pied.",
+    "signature": "Dix chambres dans un manoir de Vaporia, au-dessus de la plage Asteria",
+    "image": null,
+    "price": {
+      "range": "~120–180 €/nuit (plus cher en haute saison)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4471397,
+      "lng": 24.9475787,
+      "source": "OSM/Nominatim — reverse-geocodé Vaporia (rue Athinas)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://syrosconcept.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Electra+Syros+Vaporia+Ermoupoli"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage OSM vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Syros Concept (gestionnaire de l'Electra Syros)",
+        "url": "https://syrosconcept.gr/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-aristide",
+    "base": "syros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Aristide Hotel",
+    "blurb": "Neuf suites dans un manoir néoclassique de Vaporia, membre des Small Luxury Hotels of the World. Galerie d'art, jardin secret, bar en laiton, terrasse vue mer pour l'apéro au coucher du soleil. Le luxe d'occasion spéciale.",
+    "signature": "Manoir du XIXe, 9 suites, Small Luxury Hotels — terrasse vue mer",
+    "image": null,
+    "price": {
+      "range": "grand luxe (SLH) · ~300 €+/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4477,
+      "lng": 24.9472,
+      "source": "OSM — interpolé rue Babagiotou, Vaporia (adresse SLH/Booking, confiance moyenne)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://slh.com/hotels/aristide-hotel",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Aristide+Hotel+Vaporia+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research (SLH) + géocodage OSM interpolé (confiance moyenne)"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Small Luxury Hotels of the World — Aristide Hotel",
+        "url": "https://slh.com/hotels/aristide-hotel",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-mirsini",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "To Tsipouradiko tis Mirsinis",
+    "blurb": "Une taverne de mezedes sur le front de mer d'Ermoupoli, pleine de gens d'ici — le test qui ne ment pas. Petites assiettes à partager autour d'un verre de tsipouro, l'eau-de-vie maison. Pas de carte plastifiée, pas de photos de plats.",
+    "signature": "Mezedes et tsipouro sur le port, pleins de locaux",
+    "image": null,
+    "price": {
+      "range": "~15–25 €/pers (mezedes + tsipouro)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4417965,
+      "lng": 24.9417532,
+      "source": "Nominatim (Τσιπουράδικο της Μυρσίνης, display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Tsipouradiko+tis+Mirsinis+Ermoupoli"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Explore Syros Cyclades — restaurants",
+        "url": "https://exploresyroscyclades.com/best-restaurants-in-syros-greece/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Tzatchickie — food guide Ermoupoli",
+        "url": "https://tzatchickie.gr/the-ultimate-food-guide-to-ermoupoli-syros-where-to-eat-and-drink-in-the-islands-capital/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-ithaki",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Stin Ithaki tou Ai",
+    "blurb": "Une petite taverne de cuisine traditionnelle où chercher la pasturmadopita — la tourte au pastrami grec, héritage d'Asie Mineure. (Adresse à confirmer sur place : le géocodage la place au centre d'Ermoupoli, mais on la dit dans la ville haute — vérifier en arrivant.)",
+    "signature": "La pasturmadopita, tourte au pastrami d'Asie Mineure",
+    "image": null,
+    "price": {
+      "range": "~15–25 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4442227,
+      "lng": 24.9439367,
+      "source": "Nominatim (Ιθάκη του Αή — centre Ermoupoli ; emplacement Ano Syros à confirmer sur place)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Stin+Ithaki+tou+Ai+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research (jaune : adresse exacte non confirmée) + géocodage Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Tzatchickie — food guide Ermoupoli",
+        "url": "https://tzatchickie.gr/the-ultimate-food-guide-to-ermoupoli-syros-where-to-eat-and-drink-in-the-islands-capital/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-roussounelos",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Boucherie Roussounelos",
+    "blurb": "La charcuterie de la famille Roussounelos depuis 1950, au cœur d'Ermoupoli — c'est ici qu'on prend la louza, la longe de porc séchée aux vents de l'hiver. Un bâtiment sur trois étages : réfrigération en bas, vente au rez, atelier en haut.",
+    "signature": "La louza de Syros, à la source — famille Roussounelos depuis 1950",
+    "image": null,
+    "price": {
+      "range": "charcuterie à emporter, au poids",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4341891,
+      "lng": 24.9354007,
+      "source": "Nominatim (Ρουσσουνέλος, 50 Ηρώων Πολυτεχνείου, display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Roussounelos+Iroon+Polytechniou+Ermoupoli"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Roussounelos, louza de Syros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/roussounelos-kreatagora-louza-syros/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-miaouli",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Place Miaouli & Hôtel de Ville",
+    "blurb": "Le cœur civique d'Ermoupoli : une grande place de marbre dominée par l'Hôtel de Ville néoclassique d'Ernst Ziller (1876–1898), la statue de l'amiral Miaoulis au centre. Le soir, tout le monde y déambule sous les arcades.",
+    "signature": "L'Hôtel de Ville de Ziller, le marbre fait pour impressionner l'Europe",
+    "image": "syros-miaouli",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4446928,
+      "lng": 24.9429679,
+      "source": "Nominatim (Πλατεία Μιαούλη, display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Miaouli+Square+Ermoupoli"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Wikipedia — Miaouli Square",
+        "url": "https://en.wikipedia.org/wiki/Miaouli_Square",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wikipedia — Ermoupoli",
+        "url": "https://en.wikipedia.org/wiki/Ermoupoli",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-apollon",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Théâtre Apollon",
+    "blurb": "La « Piccola Scala » des Cyclades : un opéra de 350 places bâti en 1862–1864, inauguré avec un Verdi. Quand la bourgeoisie marchande a voulu prouver qu'elle était civilisée à l'européenne, elle a construit ça — avant un hôpital. Toujours en activité.",
+    "signature": "Un opéra italien de 350 places, inauguré en 1864 avec Rigoletto",
+    "image": "syros-apollon",
+    "price": {
+      "range": "visite ou spectacle selon le programme",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4456839,
+      "lng": 24.9437206,
+      "source": "Nominatim (Δημοτικό Θέατρο Απόλλων, display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://apollontheater.gr/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Apollon+Theatre+Ermoupoli"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Théâtre Apollon (site officiel)",
+        "url": "https://apollontheater.gr/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wikipedia — Apollon Theater, Syros",
+        "url": "https://en.wikipedia.org/wiki/Apollon_Theater,_Syros",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-vaporia",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Quartier Vaporia",
+    "blurb": "Les manoirs des armateurs du XIXe, plongeant à pic dans la mer. Le nom vient des vapori, les bateaux à vapeur qui ont fait la fortune d'Ermoupoli. L'argent maritime coulé en marbre et en fresque — et des escaliers publics qui descendent se baigner au pied des rochers.",
+    "signature": "Les manoirs d'armateurs suspendus au-dessus de l'Égée",
+    "image": "syros-vaporia",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4474349,
+      "lng": 24.9475571,
+      "source": "Nominatim (Βαπόρια, display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vaporia+Ermoupoli+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Wikipedia — Ermoupoli",
+        "url": "https://en.wikipedia.org/wiki/Ermoupoli",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greeka — Vaporia de Syros",
+        "url": "https://www.greeka.com/cyclades/syros/sightseeing/syros-vaporia/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-ano-syros",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": "gem",
+    "name": "Ano Syros & cathédrale San Giorgio",
+    "blurb": "La cité médiévale fondée par les Vénitiens vers 1200, catholique, surnommée « L'isola del Papa ». Ruelles étroites anti-pirates, la cathédrale San Giorgio au sommet (et le plus vieil orgue de Grèce). C'est elle qui explique pourquoi Syros a pu accueillir les réfugiés de 1822.",
+    "signature": "La cité catholique vénitienne — l'orgue papal et la vue sur la ville basse",
+    "image": "syros-ano-syros",
+    "price": {
+      "range": "accès libre (montée à pied ~20 min, ou bus)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4510072,
+      "lng": 24.9354305,
+      "source": "Nominatim (Άγιος Γεώργιος / San Giorgio, sommet Ano Syros, display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ano+Syros+San+Giorgio+Cathedral"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek News Agenda — cathédrale Saint-Georges & orgue",
+        "url": "https://www.greeknewsagenda.gr/saint-george-cathedral-church-organ/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Syros Key — dualité catholique/orthodoxe",
+        "url": "https://syroskey.gr/the-duality-of-syros-catholic-charm-meets-orthodox-life/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-musee-industriel",
+    "base": "syros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Musée Industriel d'Ermoupoli",
+    "blurb": "Quatre usines du XIXe reconverties en musée : tannerie, fonderie, tissage, fabrique de peinture. 300 objets qui racontent d'où venait l'argent — coton d'Égypte, peaux du Levant — et les chantiers Neorion à côté, « première industrie lourde des Balkans ».",
+    "signature": "Pourquoi les manoirs ont pu être bâtis : la couche industrielle",
+    "image": "syros-industriel",
+    "price": {
+      "range": "~4 € · mar–sam 8h30–15h",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4377551,
+      "lng": 24.9346651,
+      "source": "Nominatim (Industrial Museum, Γ. Παπανδρέου, display_name vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": "https://industrialmuseum.gr/en/the-museum/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Industrial+Museum+Ermoupolis"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Musée Industriel d'Ermoupoli (site officiel)",
+        "url": "https://industrialmuseum.gr/en/the-museum/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wikipedia — Neorion",
+        "url": "https://en.wikipedia.org/wiki/Neorion",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-loukoumi",
+    "base": "syros",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do",
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Loukoumi Leivadaras (confiserie)",
+    "blurb": "Une des confiseries historiques d'Ermoupoli, où le loukoumi se fait encore à la main au chaudron de cuivre. La porte d'entrée gustative du voyage : la première bouchée est déjà une mémoire de réfugiés. Commander la rose ou le mastic.",
+    "signature": "Le loukoumi de l'exil, fait main au chaudron — la porte d'entrée du voyage",
+    "image": "syros-loukoumi",
+    "price": {
+      "range": "quelques € la boîte",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4412028,
+      "lng": 24.9410651,
+      "source": "OSM (Λειβαδάρας, shop=confectionery, vérifié)",
+      "verifiedOn": "2026-06-14"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Loukoumi+Leivadaras+Ermoupoli"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-14",
+      "method": "web-research + géocodage OSM vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Omilo — loukoumi et halvadopita de Syros",
+        "url": "https://omilo.com/the-famous-loukoumi-and-halvadopita-of-syros-island/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide (GNTO)",
+        "url": "https://www.greekgastronomyguide.gr/en/item/loukoumi-syros/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-kini-plage",
+    "base": "syros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Plage de Kini",
+    "blurb": "Le village de pêcheurs de la côte ouest, sa baie de sable orientée plein ouest et ses barques qui rentrent au crépuscule. L'eau est claire et peu profonde, et c'est d'ici qu'on part vers les criques sauvages du nord. Le plus beau coucher de soleil de l'île.",
+    "signature": "Le village de pêcheurs et son coucher de soleil sur la baie",
+    "image": "syros-kini",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.445761,
+      "lng": 24.900211,
+      "source": "Nominatim (Κίνι beach, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kini+Beach+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Explore Syros & Cyclades — Kini",
+        "url": "https://exploresyroscyclades.com/kini-beach-syros/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greeka — Kini Beach",
+        "url": "https://www.greeka.com/cyclades/syros/beaches/kini-beach/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "My Greece Travel Blog — Kini",
+        "url": "https://mygreecetravelblog.com/2019/03/22/a-guide-to-kini-the-laid-back-beach-village-on-syros/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-delfini",
+    "base": "syros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Crique de Delfini",
+    "blurb": "À une vingtaine de minutes de marche au nord de Kini, une crique abritée à l'eau turquoise et cristalline, protégée du Meltemi par les collines. Des tamaris pour l'ombre, un fond mi-sable mi-galets — on entre par le passage sablonneux (des oursins sur les rochers : chaussures d'eau). La baignade tranquille du voyage.",
+    "signature": "L'eau turquoise abritée du vent, à 20 min à pied de Kini",
+    "image": "syros-delfini",
+    "price": {
+      "range": "accès libre (transats payants et beach bar en saison)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.459562,
+      "lng": 24.898128,
+      "source": "Nominatim (Delfini Beach Bar, Δελφίνι-Βαρβαρούσα, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Delfini+Beach+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Cyclades Map — Delfini",
+        "url": "https://cycladesmap.gr/en/listings/syros/paralia-delfini/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Kupi — Delfini Beach",
+        "url": "https://www.kupi.com/en-ae/explore/greece/syros/delfini-beach",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Delphini Beach",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g1925453-d8561337-Reviews-Delphini_Beach-Kini_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-megas-gialos",
+    "base": "syros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Megas Gialos",
+    "blurb": "Au sud de l'île, une longue plage de sable fin au fond d'une baie abritée entre les collines — l'eau y reste calme même quand le Meltemi agite le reste de Syros. Des tamaris pour l'ombre, l'accès en bus. Le plan B des locaux les jours de grand vent.",
+    "signature": "La plage toujours calme, même quand le Meltemi souffle",
+    "image": null,
+    "price": {
+      "range": "accès libre (transats payants en saison)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.378815,
+      "lng": 24.908866,
+      "source": "Nominatim (Μέγας Γιαλός beach, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Megas+Gialos+Beach+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Megas Gialos",
+        "url": "https://www.greeka.com/cyclades/syros/beaches/megas-gialos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Meravigliose Isole Greche — Megas Gialos",
+        "url": "https://www.meraviglioseisolegreche.com/en/attivita_isole/megas-gialos-beach-syros/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-grammata",
+    "base": "syros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Grammata",
+    "blurb": "La baie sauvage du nord-ouest, accessible seulement par bateau depuis Kini. Les marins romains et byzantins y attendaient que le Meltemi tombe et gravaient leur nom dans la roche — on nage aujourd'hui dans la même eau turquoise, au-dessus des mêmes inscriptions. Aucune installation : on apporte tout.",
+    "signature": "La crique des marins antiques — la journée bateau depuis Kini",
+    "image": null,
+    "price": {
+      "range": "accès libre · excursion bateau ~25–40 €/pers depuis Kini",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.499301,
+      "lng": 24.887954,
+      "source": "Nominatim (Γράμματα beach, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Grammata+Beach+Syros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié (bateaux mai–oct)"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Cyclades Map — Grammata",
+        "url": "https://cycladesmap.gr/en/listings/syros/paralia-grammata/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "My Greek Charter — Ormos Grammata (données nautiques)",
+        "url": "https://mygreekcharter.com/anchorage/ormos-grammata/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greeka — Grammata",
+        "url": "https://www.greeka.com/cyclades/syros/beaches/grammata/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-allou-yialou",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Allou Yialou",
+    "blurb": "La table de pêcheur sur la plage de Kini : les barques sont à 200 mètres et le poulpe grillé, les moules au romarin, le poisson du jour arrivent de là. Tenue par la même famille depuis des années, terrasse sous les tamaris face au coucher de soleil. Indexée par le Greek Gastronomy Guide.",
+    "signature": "Poulpe grillé et poisson du jour, les pieds dans la plage de Kini",
+    "image": "syros-poulpe",
+    "price": {
+      "range": "~20–30 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.445761,
+      "lng": 24.900211,
+      "source": "interpolé sur la plage de Kini (front de mer ; adresse exacte à confirmer sur place)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.allouyialousyros.gr/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Allou+Yialou+Kini+Syros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (Greek Gastronomy Guide + site officiel) + coords interpolées plage de Kini"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Allou Gyalou",
+        "url": "https://www.greekgastronomyguide.gr/en/item/estiatorio-allou-gyalou-kini-syros/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Allou Yialou (site officiel)",
+        "url": "https://www.allouyialousyros.gr/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Allou Yialou",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g1925453-d780363-Reviews-Allou_Yialou-Kini_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-dyo-tzitzikia",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Dyo Tzitzikia sta Armyrikia",
+    "blurb": "Une taverne familiale sur le front de mer de Kini où le poisson du jour est sur la glace à l'entrée et le pain est fait maison. On y lève les filets de pêche dans la salle. Réserver une table au bord de l'eau pour le coucher de soleil.",
+    "signature": "Poisson frais et pain maison, table au bord de l’eau de Kini",
+    "image": null,
+    "price": {
+      "range": "~15–25 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4462,
+      "lng": 24.9011,
+      "source": "interpolé front de mer de Kini (Seafront Road ; adresse exacte à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dyo+Tzitzikia+sta+Armyrikia+Kini"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées front de mer Kini"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Dyo Tzitzikia Sta Armyrikia",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g1925453-d3566771-Reviews-Dyo_Tzitzikia_Sta_Armyrikia-Kini_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-plakostroto",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Plakostroto",
+    "blurb": "Au bout de la route, dans le village de San Michalis au nord, la table de terroir de l'île : le gigot d'agneau braisé à la marjolaine sur des hilopites tirées à la main, les côtelettes et le chevreau au feu de bois, et la vue sur les îles voisines au coucher du soleil. Réserver 24 h à l'avance.",
+    "signature": "Le gigot à la marjolaine sur hilopites maison, face au coucher de soleil",
+    "image": "syros-agneau",
+    "price": {
+      "range": "~15–20 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.487977,
+      "lng": 24.920732,
+      "source": "Nominatim (San Michalis / Σα Μιχάλης — centre du village ; emplacement exact à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://plakostroto.com/index.php?l=en",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Plakostroto+San+Michalis+Syros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (site officiel + e-restaurants.gr) + géocodage village San Michalis"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Plakostroto (site officiel)",
+        "url": "https://plakostroto.com/index.php?l=en",
+        "date": "2026-06"
+      },
+      {
+        "creator": "e-restaurants.gr — Plakostroto (menu)",
+        "url": "https://www.e-restaurants.gr/en/estiatorio/plakostroto-syros",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Plakostroto (304 avis)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g616163-d2465522-Reviews-To_Plakostroto-Hermoupolis_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-calmo-mare",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Calmo Mare",
+    "blurb": "Le mezedopoleio de Finikas où les habitants reviennent depuis des années : côtelettes d'agneau sur la braise, fava onctueuse, poulpe et mezedes, face à la marina paisible. Bon rapport qualité-prix, validé par plus de mille cinq cents avis.",
+    "signature": "Côtelettes d’agneau et fava face à la marina de Finikas",
+    "image": null,
+    "price": {
+      "range": "~12–20 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.397622,
+      "lng": 24.88116,
+      "source": "Nominatim (Mare Calmo, Φοίνικας, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Calmo+Mare+Finikas+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (National Geographic + 1500 avis Google) + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "National Geographic — What to eat Syros",
+        "url": "https://www.nationalgeographic.com/travel/article/what-to-eat-syros-greece",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Calmo Mare (#1 Finikas)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g5484796-d12634712-Reviews-Calmo_Mare_Cafe_Mezedopoleio-Finikas_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Travel Cyclades — Calmo Mare",
+        "url": "https://travelcyclades.com/en/directory/calmo-mare-mezedopoleio-cafe/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-seariani",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Seariani Fish & More",
+    "blurb": "La psarotaverna de référence d'Ermoupoli, près du port : le poisson frais du jour dans la vitrine réfrigérée — le fagri (daurade royale) grillé entier au ladolemono, le barbouni (rouget) frit — qu'on choisit soi-même au poids.",
+    "signature": "Le poisson du jour choisi en vitrine, grillé au ladolemono",
+    "image": null,
+    "price": {
+      "range": "poisson au poids · ~45–65 €/kg",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.444021,
+      "lng": 24.94154,
+      "source": "Nominatim (seariani, Βροντάδο/Ερμούπολη, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Seariani+Fish+Ermoupoli+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Seariani Fish & More (229 avis)",
+        "url": "https://www.tripadvisor.co.uk/Restaurant_Review-g15278394-d17756207-Reviews-Seariani_Fish_More-Ermoupoli_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Lauer House — Guide to Greek Seafood (fagri, barbouni)",
+        "url": "https://lauerhouse.gr/blog/guide-to-greek-seafood",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-prekas",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Prekas — produits du terroir",
+    "blurb": "La petite épicerie de terroir de la rue Chiou : les câpres sauvages cueillies à la main sur les falaises arides du nord, les tomates séchées au soleil, le critamo (fenouil de mer) et le San Michali au comptoir — tout produit sur l'île. On goûte avant d'acheter.",
+    "signature": "Câpres sauvages, tomates séchées et San Michali, rue Chiou",
+    "image": "syros-marche",
+    "price": {
+      "range": "produits du terroir au poids",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.44417,
+      "lng": 24.942149,
+      "source": "Nominatim (rue Chiou, Ermoupoli ; n° 4 exact à confirmer sur place)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.prekasyros.gr/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Prekas+Chiou+Ermoupoli+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (site officiel + Greek Gastronomy Guide) + géocodage rue Chiou"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Prekas Syros (site officiel)",
+        "url": "https://www.prekasyros.gr/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — marché rue Chiou",
+        "url": "https://www.greekgastronomyguide.gr/en/item/agora-ermoupolis-odos-chiou-syros/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Prekas Traditional Products",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g616163-d12962689-Reviews-Prekas_Traditional_Products-Hermoupolis_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-ellinikon",
+    "base": "syros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "drink",
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Ellinikon Kafeneio",
+    "blurb": "Le café de la place Miaouli, dans un bâtiment néoclassique du XIXe : un freddo espresso le matin, à la terrasse, pendant qu'Ermoupoli s'éveille autour de la façade de marbre de l'hôtel de ville. Le tempo lent du voyage.",
+    "signature": "Le freddo du matin face à l'hôtel de ville de marbre",
+    "image": null,
+    "price": {
+      "range": "freddo ~3–4 € · brunch léger ~8–12 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4446928,
+      "lng": 24.9429679,
+      "source": "place Miaouli (Nominatim Πλατεία Μιαούλη) — sur la place",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ellinikon+Cafe+Miaouli+Ermoupoli"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords place Miaouli"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Ellinikon Café (222 avis)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g616163-d7059621-Reviews-Ellinikon_cafe-Hermoupolis_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Eurectory — Elliniko Kafeneio Syros",
+        "url": "https://eurectory.com/listing/elliniko-kafeneio-syros-island.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-makryonitis",
+    "base": "syros",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "drink",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Distillerie Makryonitis",
+    "blurb": "La seule distillerie de Syros, à Vari : le tsipouro distillé des cépages de l'île (pas de souma ici — la souma, c'est une affaire du Dodécanèse) et l'eau-de-vie de figues fraîches cueillies à la main en août. Dégustation sur place, sur rendez-vous.",
+    "signature": "Le tsipouro et l'eau-de-vie de figues de l'île, en dégustation",
+    "image": null,
+    "price": {
+      "range": "dégustation sur place · produits à l’achat",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.398349,
+      "lng": 24.946711,
+      "source": "interpolé village de Vari (emplacement exact de la distillerie à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://syrosdistillery.gr/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Makryonitis+Distillery+Vari+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (site officiel) + coords interpolées Vari"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Makryonitis Syros Distillery (site officiel)",
+        "url": "https://syrosdistillery.gr/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greece and Grapes — Makryonitis",
+        "url": "https://www.greeceandgrapes.com/en/wineries/makryonitis-syros-distillery",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-lila",
+    "base": "syros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Guesthouse Lila",
+    "blurb": "Une maison d'hôtes de six chambres dans l'ancien consulat de France, en plein cœur d'Ermoupoli. Studios en mezzanine, kitchenette, terrasse ensoleillée — et une hôtesse réputée pour son accueil. Douillet et abordable, à dix minutes à pied de la place Miaouli.",
+    "signature": "Six chambres dans l'ancien consulat de France, accueil chaleureux",
+    "image": null,
+    "price": {
+      "range": "~85–95 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.443,
+      "lng": 24.9405,
+      "source": "interpolé centre d’Ermoupoli (~1 km de la place Miaouli ; adresse exacte à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://lila.guesthouse.gr/",
+      "booking": "https://www.booking.com/hotel/gr/guesthouse-lila.html",
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Lila+Guesthouse+Ermoupoli+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (site officiel + Booking) + coords interpolées centre Ermoupoli"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Lila Guesthouse (site officiel)",
+        "url": "https://lila.guesthouse.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Booking.com — Guesthouse Lila",
+        "url": "https://www.booking.com/hotel/gr/guesthouse-lila.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-nestorian",
+    "base": "syros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "The Nestorian House",
+    "blurb": "Un petit hôtel de charme ouvert en 2022 dans un manoir néoclassique de 1883, à Vaporia, au-dessus de la mer. Chambres spacieuses, impeccables, petit-déjeuner soigné — le confort d'un boutique-hôtel sans le tarif d'un palace. Noté 9,7 sur Booking.",
+    "signature": "Un manoir de 1883 restauré à Vaporia, le confort sans le palace",
+    "image": null,
+    "price": {
+      "range": "~150–210 €/nuit (haute saison)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.4476,
+      "lng": 24.9474,
+      "source": "interpolé quartier Vaporia (près de l’église Saint-Nicolas ; adresse exacte à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.nestoriansyros.gr/",
+      "booking": "https://www.booking.com/hotel/gr/the-nestorian.html",
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/The+Nestorian+House+Ermoupoli+Syros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (site officiel + Booking 9,7) + coords interpolées Vaporia"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "The Nestorian House (site officiel)",
+        "url": "https://www.nestoriansyros.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Booking.com — The Nestorian House",
+        "url": "https://www.booking.com/hotel/gr/the-nestorian.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "syros-syrou-lotos",
+    "base": "syros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Syrou Lotos",
+    "blurb": "Des studios simples et bien tenus avec piscine et vue directe sur la baie de Kini — l'option plage, pour avoir l'eau cristalline sous les yeux dès le réveil. Il faut la voiture pour aller manger à Ermoupoli le soir, mais on dort face au coucher de soleil.",
+    "signature": "Studios avec piscine face à la baie de Kini, l’option plage",
+    "image": null,
+    "price": {
+      "range": "~70 €/nuit (basse saison) · plus cher l’été",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 37.44663,
+      "lng": 24.901121,
+      "source": "interpolé baie de Kini (emplacement approx. ; à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.syroulotos.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Syrou+Lotos+Kini+Syros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (site officiel) + coords interpolées baie de Kini"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Syrou Lotos (site officiel)",
+        "url": "https://www.syroulotos.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Syrou Lotos",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1925453-d6405866-Reviews-Syrou_Lotos-Kini_Syros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  }
+]

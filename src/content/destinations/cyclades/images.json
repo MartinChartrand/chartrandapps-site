@@ -1,0 +1,386 @@
+[
+  {
+    "id": "cyclades-hero",
+    "slot": "cyclades-hero",
+    "base": null,
+    "role": "hero",
+    "file": "cyclades-hero.jpg",
+    "alt": "Les lions de marbre archaïques de la Terrasse des Lions à Délos, l'île sacrée et inhabitée des Cyclades, sous un ciel bleu profond",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "20100706_Terrace_of_the_Lions_Delos_Cyclades_Greece.jpg",
+      "photographer": "Georgios Giannopoulos (User:Ggia)",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "db1e040deb9ce1b913df429b9693446381a139eafe4884aabeccadd26ec21600",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "db1e040deb9ce1b913df429b9693446381a139eafe4884aabeccadd26ec21600",
+      "alt": "Les lions de marbre archaïques de la Terrasse des Lions à Délos, l'île sacrée et inhabitée des Cyclades, sous un ciel bleu profond",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-cover",
+    "slot": "syros-cover",
+    "base": "syros",
+    "role": "cover",
+    "file": "syros-cover.jpg",
+    "alt": "Ermoupoli vue du port : les maisons néoclassiques étagées sur les deux collines de Syros — la cité médiévale d'Ano Syros à gauche, Vrontado et son église à dôme à droite",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Syros_Ano_Syros_u_Ermoupolis140707.jpg",
+      "photographer": "Hans Peter Schaefer",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "49d6cb757d36d597b09a5311b55ab1441079116993423971afc7a68425b524ac",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "49d6cb757d36d597b09a5311b55ab1441079116993423971afc7a68425b524ac",
+      "alt": "Ermoupoli vue du port : les maisons néoclassiques étagées sur les deux collines de Syros — la cité médiévale d'Ano Syros à gauche, Vrontado et son église à dôme à droite",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-vaporia",
+    "slot": "syros-vaporia",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-vaporia.jpg",
+    "alt": "Les manoirs néoclassiques du quartier Vaporia d'Ermoupoli, bâtis à pic au-dessus de la mer Égée, sous un ciel d'orage",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Vaporia.JPG",
+      "photographer": "Belisa",
+      "license": "Domaine public"
+    },
+    "sha256": "7249f0efa6f33c527bb9183cc939be7fc66db0686929d42cdce6e9b453e01755",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "7249f0efa6f33c527bb9183cc939be7fc66db0686929d42cdce6e9b453e01755",
+      "alt": "Les manoirs néoclassiques du quartier Vaporia d'Ermoupoli, bâtis à pic au-dessus de la mer Égée, sous un ciel d'orage",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-miaouli",
+    "slot": "syros-miaouli",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-miaouli.jpg",
+    "alt": "L'Hôtel de Ville néoclassique d'Ermoupoli (Ernst Ziller) et la statue de l'amiral Miaoulis sur la place Miaouli, Syros, avec deux vieux canons et des drapeaux grecs",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "City_Hall, Miaouli Square.JPG",
+      "photographer": "Zacharias Mitzelos",
+      "license": "CC0"
+    },
+    "sha256": "87654d39c5d4cf7cf04549eea31eacc7396ff2db6b23f1382d55037b931fcbdb",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "87654d39c5d4cf7cf04549eea31eacc7396ff2db6b23f1382d55037b931fcbdb",
+      "alt": "L'Hôtel de Ville néoclassique d'Ermoupoli (Ernst Ziller) et la statue de l'amiral Miaoulis sur la place Miaouli, Syros, avec deux vieux canons et des drapeaux grecs",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-apollon",
+    "slot": "syros-apollon",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-apollon.jpg",
+    "alt": "La façade néoclassique en marbre du théâtre Apollon d'Ermoupoli — « ΘΕΑΤΡΟΝ ΑΠΟΛΛΩΝ » gravé au fronton, trois grandes portes rouges en arc",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Apollon Theater, front view.JPG",
+      "photographer": "Zacharias Mitzelos",
+      "license": "CC0"
+    },
+    "sha256": "ee49cd9190d318e052b3cd2706c8405d626dae158b344b6f7dcb81310cd8ea98",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "ee49cd9190d318e052b3cd2706c8405d626dae158b344b6f7dcb81310cd8ea98",
+      "alt": "La façade néoclassique en marbre du théâtre Apollon d'Ermoupoli — « ΘΕΑΤΡΟΝ ΑΠΟΛΛΩΝ » gravé au fronton, trois grandes portes rouges en arc",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-ano-syros",
+    "slot": "syros-ano-syros",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-ano-syros.jpg",
+    "alt": "La cathédrale catholique San Giorgio au sommet d'Ano Syros, dominant les maisons blanchies à la chaux de la cité médiévale",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Saint George's Cathedral, Syros (6).JPG",
+      "photographer": "Glorious 93",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "fe55d4753fdf89ca1e99da2c0e81ba2e099ba0bea3e1fc1d66e7501a21bb81c4",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "fe55d4753fdf89ca1e99da2c0e81ba2e099ba0bea3e1fc1d66e7501a21bb81c4",
+      "alt": "La cathédrale catholique San Giorgio au sommet d'Ano Syros, dominant les maisons blanchies à la chaux de la cité médiévale",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-loukoumi",
+    "slot": "syros-loukoumi",
+    "base": "syros",
+    "role": "food",
+    "file": "syros-loukoumi.jpg",
+    "alt": "Des cubes de loukoumi (loukoum), blanc et rose, généreusement saupoudrés de sucre glace, en gros plan",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Turkish_Delight.JPG",
+      "photographer": "Chris Buttigieg",
+      "license": "Domaine public"
+    },
+    "sha256": "7bc98f5656bbc2b7377aa09d10b0328835ffe810d6cc4a93541def33d683d5bc",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "7bc98f5656bbc2b7377aa09d10b0328835ffe810d6cc4a93541def33d683d5bc",
+      "alt": "Des cubes de loukoumi (loukoum), blanc et rose, généreusement saupoudrés de sucre glace, en gros plan",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-san-michali",
+    "slot": "syros-san-michali",
+    "base": "syros",
+    "role": "food",
+    "file": "syros-san-michali.jpg",
+    "alt": "Un quartier de fromage San Michali de Syros, pâte mi-dure jaune pâle piquée de petites ouvertures, posé sur une planche de bois",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "San Michali 2370.jpg",
+      "photographer": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "c0330f12656493c65ce4068f43d5175200f883cf7e6c8f42dca78b41ac4a7831",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "c0330f12656493c65ce4068f43d5175200f883cf7e6c8f42dca78b41ac4a7831",
+      "alt": "Un quartier de fromage San Michali de Syros, pâte mi-dure jaune pâle piquée de petites ouvertures, posé sur une planche de bois",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-industriel",
+    "slot": "syros-industriel",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-industriel.jpg",
+    "alt": "Les chantiers navals Neorion de Syros vus du port : la cale sèche flottante « NEORION », des grues et les collines arides derrière",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Neorion_Syros_Shipyards.jpg",
+      "photographer": "Jonathan Beliën",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "de1bd6f4c18cf673e2fe57e2dbe2ef258958fdbfdb7aebdde7764d385aa2723f",
+    "visionChecked": "2026-06-14",
+    "visionCheckedSemantic": {
+      "sha256": "de1bd6f4c18cf673e2fe57e2dbe2ef258958fdbfdb7aebdde7764d385aa2723f",
+      "alt": "Les chantiers navals Neorion de Syros vus du port : la cale sèche flottante « NEORION », des grues et les collines arides derrière",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-delfini",
+    "slot": "syros-delfini",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-delfini.jpg",
+    "alt": "Une crique rocheuse isolée de Syros : une eau turquoise et émeraude limpide qui laisse voir le fond clair, une petite plage de galets pâles au fond de l'anse, des falaises arides à pic de chaque côté",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Hidden beach.jpg",
+      "photographer": "Nikos syros",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "f8b4ee2136046e4ba2857627307342bb4ea4d6f6d76ae2ecc7c7e0032daaed59",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "f8b4ee2136046e4ba2857627307342bb4ea4d6f6d76ae2ecc7c7e0032daaed59",
+      "alt": "Une crique rocheuse isolée de Syros : une eau turquoise et émeraude limpide qui laisse voir le fond clair, une petite plage de galets pâles au fond de l'anse, des falaises arides à pic de chaque côté",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-poulpe",
+    "slot": "syros-poulpe",
+    "base": "syros",
+    "role": "food",
+    "file": "syros-poulpe.jpg",
+    "alt": "Une tentacule de poulpe grillée au charbon (chtapodi sta karvouna), dorée et charbonnée, dans une assiette avec une tranche d'oignon grillée, un poivron rouge grillé, une demi-tomate et du persil, arrosés d'huile d'olive",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Χταποδάκι στα κάρβουνα (4462751743).jpg",
+      "photographer": "Klearchos Kapoutsis from Santorini, Greece",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "dc594727653b97840dd6a8bc01e8377f23b48124ef49d45968979bf8eca89e6d",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "dc594727653b97840dd6a8bc01e8377f23b48124ef49d45968979bf8eca89e6d",
+      "alt": "Une tentacule de poulpe grillée au charbon (chtapodi sta karvouna), dorée et charbonnée, dans une assiette avec une tranche d'oignon grillée, un poivron rouge grillé, une demi-tomate et du persil, arrosés d'huile d'olive",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-kini",
+    "slot": "syros-kini",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-kini.jpg",
+    "alt": "Le port de pêche de Kini, sur la côte ouest de Syros, au crépuscule : de petites barques de pêcheurs amarrées près du brise-lames et de sa balise, sous un ciel rose et orangé reflété sur la mer calme",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Kini 841 00, Greece - panoramio.jpg",
+      "photographer": "Kevin Stroup",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "e3e746385e66a3562e4513f73abaef8ed9a7e04c952ef9fdac50abd18bb40e97",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "e3e746385e66a3562e4513f73abaef8ed9a7e04c952ef9fdac50abd18bb40e97",
+      "alt": "Le port de pêche de Kini, sur la côte ouest de Syros, au crépuscule : de petites barques de pêcheurs amarrées près du brise-lames et de sa balise, sous un ciel rose et orangé reflété sur la mer calme",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-agneau",
+    "slot": "syros-agneau",
+    "base": "syros",
+    "role": "food",
+    "file": "syros-agneau.jpg",
+    "alt": "Une assiette de côtelettes d'agneau grillées (paidakia) dans une taverne grecque, avec un poivron rouge grillé, des pommes de terre rôties, de la roquette et une quenelle de trempette blanche, sur une table sombre",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Arni Paidaki (44833803801).jpg",
+      "photographer": "pelican from Tokyo, Japan",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "452dce86d095f589ebe682e45470336252c66cc61ef1e7e770c63aacc5d8c67e",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "452dce86d095f589ebe682e45470336252c66cc61ef1e7e770c63aacc5d8c67e",
+      "alt": "Une assiette de côtelettes d'agneau grillées (paidakia) dans une taverne grecque, avec un poivron rouge grillé, des pommes de terre rôties, de la roquette et une quenelle de trempette blanche, sur une table sombre",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-horiatiki",
+    "slot": "syros-horiatiki",
+    "base": "syros",
+    "role": "food",
+    "file": "syros-horiatiki.jpg",
+    "alt": "Une salade grecque horiatiki en gros plan : tomates, cubes de feta, rondelles d'oignon rouge, concombre, olives noires, origan et huile d'olive, dans un bol doré",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Flickr - cyclonebill - Græsk salat.jpg",
+      "photographer": "cyclonebill",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "f8f49878a0c2e5d80358e20f8356a28dda943a44a2970d4c12fed221756fb422",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "f8f49878a0c2e5d80358e20f8356a28dda943a44a2970d4c12fed221756fb422",
+      "alt": "Une salade grecque horiatiki en gros plan : tomates, cubes de feta, rondelles d'oignon rouge, concombre, olives noires, origan et huile d'olive, dans un bol doré",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-place-miaouli",
+    "slot": "syros-place-miaouli",
+    "base": "syros",
+    "role": "photo",
+    "file": "syros-place-miaouli.jpg",
+    "alt": "La terrasse d'un café sur la place Miaouli d'Ermoupoli : des gens attablés sous un parasol, une carafe d'eau en avant-plan, l'hôtel de ville néoclassique et la foule sur la place de marbre derrière, en lumière chaude de fin de journée",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "20221028 468 Syros.jpg",
+      "photographer": "Jean Housen",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "9a2fbd80b4db2f874907e5a1df32579993668b39a648973509e9cdb3d5700183",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "9a2fbd80b4db2f874907e5a1df32579993668b39a648973509e9cdb3d5700183",
+      "alt": "La terrasse d'un café sur la place Miaouli d'Ermoupoli : des gens attablés sous un parasol, une carafe d'eau en avant-plan, l'hôtel de ville néoclassique et la foule sur la place de marbre derrière, en lumière chaude de fin de journée",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "syros-marche",
+    "slot": "syros-marche",
+    "base": "syros",
+    "role": "food",
+    "file": "syros-marche.jpg",
+    "alt": "L'étal d'une épicerie de fruits et légumes d'Ermoupoli (Οπωροπαντοπωλείο), des cageots débordant de tomates rouges, oranges, fraises, aubergines, poivrons et légumes verts, et deux personnes à l'intérieur de la boutique",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Syros, Ermoupoli market shop.jpg",
+      "photographer": "Iantomferry",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "142d0c532f602424520eedede0ed72593dc267296fc9298be1f40c534574947d",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "142d0c532f602424520eedede0ed72593dc267296fc9298be1f40c534574947d",
+      "alt": "L'étal d'une épicerie de fruits et légumes d'Ermoupoli (Οπωροπαντοπωλείο), des cageots débordant de tomates rouges, oranges, fraises, aubergines, poivrons et légumes verts, et deux personnes à l'intérieur de la boutique",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  }
+]

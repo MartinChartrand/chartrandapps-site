@@ -1,0 +1,106 @@
+{
+  "slug": "cyclades",
+  "pageTitle": "Cyclades — Juin 2027 · Itinéraire de voyage",
+  "heroTitle": {
+    "main": "Cyclades",
+    "em": "le cercle"
+  },
+  "heroSub": "Un mois en boucle autour de Délos, d'île en île, la contrainte lue dans l'assiette",
+  "subtitle": "Un mois en boucle autour de Délos, d'île en île, la contrainte lue dans l'assiette",
+  "season": "Juin 2027",
+  "travelers": {
+    "count": 2,
+    "label": "Voyage en duo"
+  },
+  "arrival": {
+    "date": "2027-06-01",
+    "airport": "ATH",
+    "city": "Athènes"
+  },
+  "departure": {
+    "date": "2027-06-30",
+    "airport": "ATH",
+    "city": "Athènes"
+  },
+  "theme": {
+    "favicon": "⛴️",
+    "palette": "cyclades"
+  },
+  "hero": {
+    "image": "cyclades-hero",
+    "label": "Itinéraire · Voyage en duo"
+  },
+  "overviewKicker": "Logique du voyage",
+  "overviewTitle": "Cinq îles en cercle, le ferry pour seul fil",
+  "overviewIntro": "Cinq îles choisies par Sophie, dans l'ordre de la mer : Syros, Sifnos, Folegandros, Amorgos, Santorin. On entre et on sort par le ferry du Pirée — aucun vol inter-îles. La fenêtre de juin pour le calme avant le Meltemi, le rythme lent assumé, et la table comme fil conducteur.",
+  "intro": {
+    "whySeason": {
+      "title": "Pourquoi juin",
+      "body": "Fin mai – juin, c'est la fenêtre calme de l'Égée : le Meltemi, le vent du nord qui annule les catamarans rapides, ne frappe pour de vrai qu'à partir de mi-juillet. En juin, plein horaire de ferries, mer baignable, chaleur encore raisonnable, et les foules restent sous le pic d'août. (Dates provisoires : à reconfirmer quand les horaires 2027 seront publiés, ~1 mois avant le départ.)"
+    },
+    "logistics": {
+      "title": "Logistique de base",
+      "body": "Vol aller-retour Montréal → Athènes (ATH), sans transit par les États-Unis. Entrée ET sortie par le ferry du Pirée, le port d'Athènes — aucun vol inter-îles, tout se fait en bateau (Ferryhopper, Ferryscanner). Deux segments fragiles à caler en premier dès la publication des horaires : Syros → Sifnos (indirect, 5-7 h) et Folegandros → Amorgos (rapide saisonnier)."
+    }
+  },
+  "footerNote": "Itinéraire préparé avec amour · Cyclades, juin 2027",
+  "episodic": true,
+  "chapterTotal": 5,
+  "container": {
+    "hookKicker": "Un mois · cinq îles · le ferry pour seul fil",
+    "hookTitle": "Il y a, au centre de ce voyage, une île que tu ne visiteras jamais.",
+    "hookBody": "Délos est interdite aux vivants depuis 426 avant notre ère : ni naître, ni mourir, ni rester. Athènes a dû vider l'humanité de l'île pour que le sanctuaire soit assez sacré. Ce vide est la clé du voyage. Les cinq îles de cette boucle forment un cercle autour de cette absence depuis l'Antiquité — le mot « Cyclades » vient du grec kyklos, le cercle. Chacune a répondu différemment à la même question : quand la mer est ta prison et ta seule porte de sortie, qu'est-ce que tu fais de toi-même? Tu creuses dans l'argile, la cendre, la falaise. Tu accueilles ceux qui arrivent par la mer. Tu transformes la catastrophe en terroir. Et tout ça, on le lit dans ce qu'on mange. C'est ça, le voyage.",
+    "hookImage": "cyclades-hero",
+    "sources": [
+      {
+        "creator": "École Française d'Athènes — histoire de Délos (purification de 426 av. J.-C.)",
+        "url": "https://www.efa.gr/en/recherche/sites-de-fouilles/cyclades/delos/delos-histoire-de-delos",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Reporter — Délos, naissance et mort interdites",
+        "url": "https://greekreporter.com/2026/05/11/delos-ancient-greek-island-birth-death-forbidden/",
+        "date": "2026-05"
+      },
+      {
+        "creator": "Wikipedia — Cyclades (étymologie kyklos, le cercle autour de Délos)",
+        "url": "https://en.wikipedia.org/wiki/Cyclades",
+        "date": "2026-06"
+      }
+    ],
+    "tilesIntro": "Cinq îles, cinq chapitres. Syros est écrit à fond ; les quatre autres sont en route.",
+    "tiles": [
+      {
+        "base": "syros",
+        "kicker": "Chapitre 1 · 3 nuits",
+        "title": "Le sucre de l'exil",
+        "teaser": "Le poulpe grillé d'un village de pêcheurs, une crique turquoise abritée du vent, l'agneau du nord aride — et le loukoumi né de l'exil. La capitale oubliée des Cyclades se goûte plus qu'elle ne se visite.",
+        "image": "syros-cover"
+      },
+      {
+        "base": "sifnos",
+        "kicker": "Chapitre 2 · 6 nuits",
+        "title": "L'argile et le four",
+        "teaser": "L'île gastronomique : la même terre qui façonnait les urnes antiques fait les pots de la revithada du dimanche. La patrie de Tselementes, dont le nom est devenu le mot grec pour « livre de recettes »."
+      },
+      {
+        "base": "folegandros",
+        "kicker": "Chapitre 3 · 5 nuits",
+        "title": "L'île-prison",
+        "teaser": "Les falaises, le Kastro vénitien dont les murs des maisons sont les remparts, la matsata roulée à la main depuis 1920. Quand tu ne peux pas partir, le village devient l'univers entier."
+      },
+      {
+        "base": "amorgos",
+        "kicker": "Chapitre 4 · 7 nuits",
+        "title": "Le monastère dans la falaise",
+        "teaser": "La plus reculée, en deux bases : le monastère d'Hozoviotissa incrusté à 300 m dans la roche, le raki au miel offert aux visiteurs, et la baie du Grand Bleu."
+      },
+      {
+        "base": "santorin",
+        "kicker": "Chapitre 5 · 4 nuits",
+        "title": "La catastrophe comme terroir",
+        "teaser": "La caldeira, l'éruption qui a tout détruit et tout créé : l'Assyrtiko, la fava, le tomataki poussés sur la cendre volcanique. La finale du cercle."
+      }
+    ]
+  }
+}

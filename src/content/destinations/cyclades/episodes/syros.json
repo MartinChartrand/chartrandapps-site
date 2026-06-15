@@ -1,0 +1,162 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée par la mer",
+      "body": "On entre dans l'archipel par sa capitale oubliée. Pas de dômes bleus ni de ruelles à cartes postales : Ermoupoli grimpe sur deux collines de marbre et de chaux au-dessus du port — au XIXe siècle, c'était le premier port de Grèce, bâti par des réfugiés. Mais on n'est pas venus pour les musées. On est venus pour ce qui se passe à table et dans l'eau.",
+      "focusPoi": "syros-miaouli",
+      "zoom": 14,
+      "targets": ["syros-miaouli", "syros-vaporia"],
+      "thumb": "syros-cover",
+      "thumbAlt": "Ermoupoli vue du port : les maisons néoclassiques étagées sur les deux collines de Syros, Ano Syros à gauche, Vrontado et son église à dôme à droite",
+      "poiRef": "syros-miaouli",
+      "sources": [
+        { "creator": "Wikipedia — Ermoupoli", "url": "https://en.wikipedia.org/wiki/Ermoupoli", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme de l'île",
+      "body": "On dort à Vaporia, dans les vieux manoirs d'armateurs suspendus au-dessus de la mer. Le matin, un freddo sur la place de marbre pendant qu'Ermoupoli s'éveille. Puis on file vers l'autre versant : la côte ouest, le village de pêcheurs de Kini, et les criques où l'eau devient turquoise. C'est ça, la journée type — la table, la mer, et l'histoire qu'on croise en chemin.",
+      "focusPoi": "syros-kini-plage",
+      "zoom": 13,
+      "targets": ["syros-kini-plage", "syros-delfini"],
+      "thumb": "syros-kini",
+      "thumbAlt": "Le port de pêche de Kini, sur la côte ouest de Syros, au crépuscule : de petites barques amarrées près du brise-lames, sous un ciel rose et orangé reflété sur la mer calme",
+      "poiRef": "syros-kini-plage",
+      "sources": [
+        { "creator": "Explore Syros & Cyclades — Kini", "url": "https://exploresyroscyclades.com/kini-beach-syros/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-loukoumi",
+      "kicker": "Le loukoumi · LA PORTE",
+      "title": "Le sucre que les réfugiés ont apporté",
+      "image": "syros-loukoumi",
+      "alt": "Des cubes de loukoumi (loukoum), blanc et rose, généreusement saupoudrés de sucre glace, en gros plan",
+      "intro": "En 1822, les Ottomans massacrent l'île de Chios. Les survivants — confiseurs, marchands, armateurs — fuient vers Syros, restée neutre parce que catholique et alliée de la France. Ils apportent leur savoir-faire, et avec lui le loukoumi : le loukoum parfumé au mastic de leur île perdue, fait main au chaudron de cuivre. En 2019, les loukoumia de Syros entrent au patrimoine immatériel grec. Ce n'est pas une spécialité touristique inventée — c'est une mémoire d'exil sublimée en sucre.",
+      "reco": "Entre dans une des vieilles confiseries du port — Leivadaras (1923), Sykoutris (1928) — et commande la version à la rose ou au mastic, pas les variantes aux fruits, plus récentes. C'est la première bouchée du voyage, et déjà une porte : tout ce qu'on mangera dans cet archipel est, d'une façon ou d'une autre, une réponse à une contrainte. Ici, la réponse est venue par bateau.",
+      "quote": "On ouvre un mois dans les Cyclades par un bonbon que des réfugiés ont apporté dans leurs bagages. La première chose qu'on goûte, c'est déjà une histoire de survie.",
+      "via": null,
+      "poiRef": "syros-loukoumi",
+      "sources": [
+        { "creator": "Omilo — loukoumi et halvadopita de Syros", "url": "https://omilo.com/the-famous-loukoumi-and-halvadopita-of-syros-island/", "date": "2026-06" },
+        { "creator": "Greek Gastronomy Guide (GNTO)", "url": "https://www.greekgastronomyguide.gr/en/item/loukoumi-syros/", "date": "2026-06" },
+        { "creator": "WIPO — indication géographique loukoumi de Syros", "url": "https://www.wipo.int/ipadvantage/fr/details.jsp?id=4742", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-vie-ermoupoli",
+      "kicker": "Ermoupoli · LA PLACE",
+      "title": "Le freddo, le marbre, et le temps qui ralentit",
+      "image": "syros-place-miaouli",
+      "alt": "La terrasse d'un café sur la place Miaouli d'Ermoupoli : des gens attablés sous un parasol, une carafe d'eau en avant-plan, l'hôtel de ville néoclassique et la foule sur la place de marbre derrière, en lumière chaude de fin de journée",
+      "intro": "Avant de filer vers la mer, on prend le temps. Le matin, Ermoupoli s'éveille autour de la place Miaouli — une grande esplanade de marbre dominée par l'hôtel de ville néoclassique. On s'assoit à une terrasse, un freddo devant soi, et on regarde la ville vivre : les vieux qui jasent, les chaises de café qui se remplissent, les enfants qui traversent. C'est ça, le rythme de Syros — lent, vécu, pas mis en scène pour personne.",
+      "reco": "L'Ellinikon, sur la place, pour le freddo du matin — un espresso glacé monté en mousse, à siroter lentement. Le soir, la même place déambule sous les arcades. Syros est la capitale administrative des Cyclades, pas une île-décor : les gens d'ici y vivent leur vie, et c'est exactement ça qui la rend belle.",
+      "quote": "Pas de dômes bleus pour la photo — une place de marbre, un café glacé, une ville qui prend son temps. L'imaginaire grec, le vrai.",
+      "via": null,
+      "poiRef": "syros-ellinikon",
+      "sources": [
+        { "creator": "TripAdvisor — Ellinikon Café (222 avis)", "url": "https://www.tripadvisor.com/Restaurant_Review-g616163-d7059621-Reviews-Ellinikon_cafe-Hermoupolis_Syros_Cyclades_South_Aegean.html", "date": "2026-06" },
+        { "creator": "Wikipedia — Miaouli Square", "url": "https://en.wikipedia.org/wiki/Miaouli_Square", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-kini-taverna",
+      "kicker": "Kini · LA TABLE DE LA MER",
+      "title": "Le poulpe qui sèche sur la corde",
+      "image": "syros-poulpe",
+      "alt": "Une tentacule de poulpe grillée au charbon (chtapodi sta karvouna), dorée et charbonnée, dans une assiette avec une tranche d'oignon grillée, un poivron rouge grillé, une demi-tomate et du persil, arrosés d'huile d'olive",
+      "intro": "Sur la côte ouest, Kini est resté un vrai village de pêcheurs. Les barques rentrent en fin d'après-midi, le poulpe sèche sur une corde devant les tavernes, et le soleil plonge droit dans la baie — la seule de l'île orientée plein ouest. On s'assoit les pieds presque dans le sable, chez Allou Yialou ou Dyo Tzitzikia, et on commande ce qui est arrivé par bateau le matin.",
+      "reco": "Réserve une table au bord de l'eau pour le coucher de soleil — c'est ce qui part en premier l'été. Le poulpe (chtapodi sta karvouna) se prend grillé au charbon, arrosé d'huile d'olive et d'origan. Pour le poisson, demande le fagri (daurade royale) grillé entier au ladolemono, ou le barbouni (rouget) frit qu'on choisit à la vitrine. Allou Yialou est indexé par le Greek Gastronomy Guide : la cuisine vient de la mer d'en face, pas d'un congélateur.",
+      "quote": "Un village qui a gardé ses barques, une assiette de poulpe fumé, et le soleil qui se couche dans ton verre. C'est pour ça qu'on traverse l'Atlantique.",
+      "via": null,
+      "poiRef": "syros-allou-yialou",
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — Allou Gyalou, Kini", "url": "https://www.greekgastronomyguide.gr/en/item/estiatorio-allou-gyalou-kini-syros/", "date": "2026-06" },
+        { "creator": "Explore Syros & Cyclades — Kini", "url": "https://exploresyroscyclades.com/kini-beach-syros/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-delfini-bain",
+      "kicker": "Delfini · LE BAIN",
+      "title": "L'eau qu'on voit jusqu'au fond",
+      "image": "syros-delfini",
+      "alt": "Une crique rocheuse isolée de Syros : une eau turquoise et émeraude limpide qui laisse voir le fond clair, une petite plage de galets pâles au fond de l'anse, des falaises arides à pic de chaque côté",
+      "intro": "À une vingtaine de minutes à pied au nord de Kini, le sentier débouche sur Delfini : une crique abritée où l'eau passe du vert à l'émeraude, si claire qu'on voit le fond. Les collines la protègent du Meltemi, ce vent du nord qui agite le reste de l'île ; ici, la mer reste calme. Des tamaris donnent de l'ombre aux deux bouts. On entre par le passage sablonneux — des oursins sur les rochers, alors chaussures d'eau — et on nage.",
+      "reco": "Pars de Kini après le café, avec de l'eau et de quoi grignoter : à Delfini, juste un petit bar de plage en saison, rien d'autre. Les jours de grand Meltemi, Megas Gialos au sud reste toujours calme. Et si tu veux LA journée : un bateau depuis Kini jusqu'à Grammata, la crique sauvage du nord où les marins romains gravaient leur nom dans la roche en attendant le même vent du nord — on nage au-dessus des inscriptions, deux mille ans plus tard.",
+      "quote": "Sophie cherche l'eau cristalline partout où on va. Ici, elle l'a trouvée : une crique pour nous deux, turquoise, abritée, et personne.",
+      "via": null,
+      "poiRef": "syros-delfini",
+      "sources": [
+        { "creator": "Cyclades Map — Delfini (protégée du Meltemi)", "url": "https://cycladesmap.gr/en/listings/syros/paralia-delfini/", "date": "2026-06" },
+        { "creator": "Kupi — Delfini Beach (eau cristalline, baie abritée)", "url": "https://www.kupi.com/en-ae/explore/greece/syros/delfini-beach", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-agneau",
+      "kicker": "Apano Meria · LA TABLE DU NORD",
+      "title": "Le goût du caillou aride",
+      "image": "syros-agneau",
+      "alt": "Une assiette de côtelettes d'agneau grillées (paidakia) dans une taverne grecque, avec un poivron rouge grillé, des pommes de terre rôties, de la roquette et une quenelle de trempette blanche, sur une table sombre",
+      "intro": "La cuisine de Syros n'est pas qu'une affaire de mer. Le nord de l'île, l'Apano Meria, est aride, presque désert — et c'est de là que vient l'autre table : l'agneau et le chevreau. Au bout de la route, dans le village de San Michalis, Plakostroto sert le gigot braisé à la marjolaine sur des hilopites tirées à la main, les côtelettes et le chevreau au feu de bois, avec la vue sur les îles voisines au moment où le soleil tombe.",
+      "reco": "Réserve la veille — sans réservation, on te refuse, c'est au bout d'un chemin. Prends le gigot à la marjolaine sur hilopites, et les paidakia (côtelettes) grillées au bois. Deux choses du terroir aride à rapporter, chez Prekas rue Chiou : le San Michali, le fromage de vache AOP de l'île (le plus cher de Grèce), et les câpres sauvages des falaises. Pour les mezedes face à la marina, Calmo Mare à Finikas, que les locaux valident depuis des années.",
+      "quote": "Le luxe d'Ermoupoli venait de la mer ; sa vraie cuisine vient du caillou aride du nord. C'est presque toujours comme ça dans les Cyclades — le meilleur sort de la plus mauvaise terre.",
+      "via": null,
+      "poiRef": "syros-plakostroto",
+      "sources": [
+        { "creator": "Plakostroto (site officiel) — gigot marjolaine, feu de bois", "url": "https://plakostroto.com/index.php?l=en", "date": "2026-06" },
+        { "creator": "e-restaurants.gr — Plakostroto (menu)", "url": "https://www.e-restaurants.gr/en/estiatorio/plakostroto-syros", "date": "2026-06" },
+        { "creator": "Tyrosyra — fromage San Michali AOP", "url": "https://www.tyrosyra.com/san-mixali?lang=en", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-ano-syros",
+      "kicker": "Ano Syros · l'histoire en filigrane",
+      "title": "La colline du Pape, entre deux bains",
+      "image": "syros-ano-syros",
+      "alt": "La cathédrale catholique San Giorgio au sommet d'Ano Syros, dominant les maisons blanchies à la chaux de la cité médiévale",
+      "intro": "Si l'île a pu accueillir les réfugiés qui ont bâti sa table et sa fortune, c'est grâce à la colline d'en haut : Ano Syros, la cité médiévale catholique fondée par les Vénitiens vers 1200, « l'isola del Papa ». Catholique et alliée de la France, Syros est restée neutre pendant la guerre d'indépendance — et a pu ouvrir ses portes. C'est tout. L'histoire, ici, reste en arrière-plan : on y monte un soir, pour les ruelles fraîches et la vue sur la ville basse.",
+      "reco": "Monte à pied par les ruelles (une vingtaine de minutes) ou en bus, jusqu'à la cathédrale San Giorgio et son orgue, le plus vieux de Grèce. Et si le néoclassique te tente : le théâtre Apollon, la « Piccola Scala » des Cyclades, et le Musée industriel pour comprendre d'où venait l'argent. Mais ça, c'est si le cœur t'en dit — le voyage, lui, est à table et dans l'eau.",
+      "quote": null,
+      "via": null,
+      "poiRef": "syros-ano-syros",
+      "sources": [
+        { "creator": "Greek News Agenda — cathédrale Saint-Georges & orgue", "url": "https://www.greeknewsagenda.gr/saint-george-cathedral-church-organ/", "date": "2026-06" },
+        { "creator": "Syros Key — dualité catholique/orthodoxe", "url": "https://syroskey.gr/the-duality-of-syros-catholic-charm-meets-orthodox-life/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de monter sur le ferry : le poulpe de Kini, l'agneau du nord, le San Michali et les câpres de chez Prekas, le tsipouro de Vari. Et les criques — Delfini à pied, Grammata en bateau, Megas Gialos quand le vent se lève. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": ["syros-allou-yialou", "syros-plakostroto", "syros-delfini", "syros-prekas"],
+      "targets": ["syros-allou-yialou"],
+      "thumb": "syros-marche",
+      "thumbAlt": "L'étal coloré d'une épicerie de fruits et légumes d'Ermoupoli : cageots de tomates, poivrons, aubergines, oranges et légumes verts",
+      "pills": [
+        { "poiRef": "syros-allou-yialou", "link": "maps", "label": "Allou Yialou · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — Allou Gyalou, Kini", "url": "https://www.greekgastronomyguide.gr/en/item/estiatorio-allou-gyalou-kini-syros/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "À Vaporia, dans les manoirs au-dessus de la mer : l'Electra (10 chambres, charme discret) ou The Nestorian House (manoir de 1883, le confort sans le palace). Plus intime et abordable, la Guesthouse Lila (ancien consulat de France). Côté plage, Syrou Lotos à Kini, l'eau sous les yeux le matin. L'Aristide, lui, c'est le grand luxe d'occasion spéciale. Réserver tôt — peu de chambres partout." },
+      { "label": "À table", "kinds": ["resto"], "footer": "La mer à Kini (Allou Yialou, Dyo Tzitzikia : poulpe, poisson du jour, coucher de soleil). L'agneau du nord à Plakostroto (San Michalis) et les mezedes à Calmo Mare (Finikas). Le poisson choisi en vitrine chez Seariani. Le terroir — câpres, San Michali — chez Prekas, rue Chiou. Et le freddo du matin à l'Ellinikon, sur la place Miaouli." },
+      { "label": "La mer & les criques", "kinds": ["plage"], "footer": "Delfini, la crique turquoise à 20 min à pied de Kini. Megas Gialos au sud, toujours calme quand le Meltemi souffle. Et la journée bateau jusqu'à Grammata, la crique des marins antiques aux noms gravés dans la roche." },
+      { "label": "À voir, si ça te tente", "kinds": ["sight", "activity", "winery"], "footer": "L'histoire reste le décor : le théâtre Apollon (la « Piccola Scala »), la place Miaouli et son hôtel de ville de marbre, le quartier Vaporia, la montée à Ano Syros, le Musée industriel. La distillerie Makryonitis à Vari pour le tsipouro. Et le loukoumi à la confiserie, pour la porte d'entrée." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le cercle commence",
+    "body": "Première île, première réponse : ici, la contrainte du rocher a été résolue par ceux qui sont arrivés par la mer — et ça se goûte, du poulpe de Kini à l'agneau du nord. Les {count} lieux de Syros — où dormir, où manger, où se baigner — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochain ferry : Sifnos.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/cyclades/"
+  }
+}
