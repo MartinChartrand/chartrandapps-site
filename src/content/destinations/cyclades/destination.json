@@ -69,7 +69,7 @@
         "date": "2026-06"
       }
     ],
-    "tilesIntro": "Cinq îles, cinq chapitres. Syros est écrit à fond ; les quatre autres sont en route.",
+    "tilesIntro": "Syros et Sifnos sont écrits à fond ; les trois autres sont en route.",
     "tiles": [
       {
         "base": "syros",
@@ -82,7 +82,8 @@
         "base": "sifnos",
         "kicker": "Chapitre 2 · 6 nuits",
         "title": "L'argile et le four",
-        "teaser": "L'île gastronomique : la même terre qui façonnait les urnes antiques fait les pots de la revithada du dimanche. La patrie de Tselementes, dont le nom est devenu le mot grec pour « livre de recettes »."
+        "teaser": "L'île gastronomique : la même terre qui façonnait les urnes antiques fait les pots de la revithada du dimanche. La patrie de Tselementes, dont le nom est devenu le mot grec pour « livre de recettes ».",
+        "image": "sifnos-chrysopigi"
       },
       {
         "base": "folegandros",

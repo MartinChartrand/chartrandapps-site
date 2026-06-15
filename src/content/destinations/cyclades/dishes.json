@@ -286,5 +286,201 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "sif-revithada",
+    "type": "plat",
+    "base": "sifnos",
+    "region": "sifnos",
+    "title": "Revithada — les pois chiches du dimanche",
+    "body": "Le plat-mémoire de Sifnos : des pois chiches mijotés six à huit heures dans un pot d'argile (le skepastaria), au four du boulanger, la nuit du samedi au dimanche. Sans une once de viande, ça donne un bouillon profond et doux, coiffé d'oignons caramélisés. Les femmes mettaient le pot au four avant la messe et repartaient avec le déjeuner prêt — le même geste depuis des siècles, dans la même argile que les urnes cycladiques. À manger un dimanche, à Tsikali, à To Steki ou à la taverne d'Apokofto.",
+    "poiRef": "sifnos-tsikali",
+    "image": "sifnos-revithada",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — tavernes de Sifnos",
+        "url": "https://www.greekgastronomyguide.gr/en/7-dialextes-apo-tis-kalyteres-tavernes-tis-sifnou/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Dan Almond — Sifnos Revithada",
+        "url": "https://danalmond.substack.com/p/sifnos-revithada",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Gastronomy Tours — revithada de Sifnos",
+        "url": "https://gastronomytours.com/encyclopedia/traditional-revithada-chickpea-stew-from-sifnos-by-george-grigoriadis/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sif-mastelo",
+    "type": "plat",
+    "base": "sifnos",
+    "region": "sifnos",
+    "title": "Mastelo — l'agneau de Pâques au pot d'argile",
+    "body": "L'autre plat du pot d'argile : l'agneau (ou le chevreau) braisé au vin rouge et à l'aneth, lentement, jusqu'à ce que la chair se détache de l'os. Plat de Pâques à l'origine, on le trouve toute la saison. À Kastro, Leonidas est le seul à le cuire encore au four à bois traditionnel, dans la cour du village médiéval, servi dans la vaisselle de poterie locale.",
+    "poiRef": "sifnos-leonidas",
+    "image": "sifnos-mastelo",
+    "links": [
+      {
+        "label": "National Geographic — Sifnos gourmet island",
+        "url": "https://www.nationalgeographic.com/travel/article/exploring-flavours-sifnos-greeces-gourmet-island"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "National Geographic — Sifnos gourmet island",
+        "url": "https://www.nationalgeographic.com/travel/article/exploring-flavours-sifnos-greeces-gourmet-island",
+        "date": "2026-06"
+      },
+      {
+        "creator": "sifnos.e-sifnos — Leonidas",
+        "url": "https://sifnos.e-sifnos.com/diaf/sifnos-restaurants/leonidas-restaurant/leonidas.php",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sif-kaparosalata",
+    "type": "plat",
+    "base": "sifnos",
+    "region": "sifnos",
+    "title": "Kaparosalata & revithokeftedes",
+    "body": "La salade de câpres de Sifnos : des câpres cueillies à la main sur les falaises calcaires, des oignons caramélisés, un trait de vinaigre de vin — un éclat de saveur à chaque bouchée, spécialité unique à l'île. À côté, les revithokeftedes : des boulettes de pois chiches écrasés, frites, croquantes dehors et fondantes dedans. Les mezedes qui ouvrent le repas, chez To Steki ou Tsikali.",
+    "poiRef": "sifnos-to-steki",
+    "image": "",
+    "links": [
+      {
+        "label": "Sifnos Chronicler — Caper Salad",
+        "url": "https://thesifnoschronicler.wordpress.com/2016/10/29/sifnos-caper-salad/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Sifnos Chronicler — Sifnos Caper Salad",
+        "url": "https://thesifnoschronicler.wordpress.com/2016/10/29/sifnos-caper-salad/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — Taverna Steki",
+        "url": "https://www.greekgastronomyguide.gr/en/item/taverna-steki-platys-gialos-sifnos/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sif-fromages",
+    "type": "produit",
+    "base": "sifnos",
+    "region": "sifnos",
+    "title": "Manoura & xinomyzithra — les fromages de l'île",
+    "body": "Deux fromages introuvables ailleurs. La manoura : une boule à croûte noire, affinée dans les lies de vin rouge jusqu'à ce que le vin imprègne toute la pâte — forte, piquante, à manger en fin de repas avec des figues sèches ou du miel. La xinomyzithra : blanche, molle, légèrement acidulée, faite au lait entier dans les maisons de Sifnos — inscrite à l'Arche du Goût de Slow Food. À demander dans les tavernes ou les épiceries d'Apollonia.",
+    "poiRef": "sifnos-tsikali",
+    "image": "",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — Manoura de Sifnos",
+        "url": "https://www.greekgastronomyguide.gr/en/item/manoura-sifnou/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Slow Food — Sifnos Xinomizithra (Arche du Goût)",
+        "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/sifnos-xinomizithra-cheese/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — Manoura Sifnou",
+        "url": "https://www.greekgastronomyguide.gr/en/item/manoura-sifnou/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sif-poisson",
+    "type": "plat",
+    "base": "sifnos",
+    "region": "sifnos",
+    "title": "Le poisson du jour — Faros & Herronisos",
+    "body": "Sur une île où le poisson n'est pas toujours frais en août, deux adresses tenues par des pêcheurs garantissent la prise du matin : To Limanaki à Faros (rougets, poulpe, calmars, oursins, choisis en arrivant) et la taverne Fyssas à Herronisos, au bout du monde, avec son tsiros — un poisson séché et salé à la maison qu'on ne trouve nulle part ailleurs, à manger avec un ouzo, les pieds presque dans l'eau.",
+    "poiRef": "sifnos-to-limanaki",
+    "image": "",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — To Limanaki, Faros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/psarotaverna-limanaki-faros-sifnos/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — To Limanaki Faros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/psarotaverna-limanaki-faros-sifnos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wine Anorak — Fish Tavern Fyssas, Herronisos",
+        "url": "https://wineanorak.com/2025/10/22/sifnos-the-gastronomic-greek-island-2-cheronissos-the-journey-begins-with-lunch-at-fish-tavern-fyssas/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sif-amygdalota",
+    "type": "produit",
+    "base": "sifnos",
+    "region": "sifnos",
+    "title": "Amygdalota & le sucre d'Artemonas",
+    "body": "Les douceurs de l'île, cuites au feu de bois dans des chaudrons de cuivre : les amygdalota, petites boules d'amandes moulues parfumées à la fleur d'oranger et roulées dans le sucre glace, qui fondent en bouche ; le pasteli au miel et sésame ; la melopita, la tarte au miel et à la mizithra (à demander sur place, c'est surtout un dessert de Pâques). Chez Theodorou à Artemonas, la plus vieille pâtisserie de l'île, ou chez Gerontopoulos à Apollonia.",
+    "poiRef": "sifnos-theodorou",
+    "image": "",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — Theodorou",
+        "url": "https://www.greekgastronomyguide.gr/en/item/zaxaroplasteio-theodorou-sifnos/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Zaxaroplasteio Theodorou",
+        "url": "https://www.greekgastronomyguide.gr/en/item/zaxaroplasteio-theodorou-sifnos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Seasoned Traveller — souvenirs de Sifnos",
+        "url": "https://seasonedtraveller.com/best-of-lists/souvenirs-sifnos",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "sif-miel-capres",
+    "type": "produit",
+    "base": "sifnos",
+    "region": "sifnos",
+    "title": "Miel de thym & câpres de falaise",
+    "body": "Le terroir de Sifnos en bocal : le miel de thym, récolté en août quand les abeilles butinent le thym sauvage des collines sèches — limpide, doré, intense, l'âme de la melopita et du petit-déjeuner sur la xinomyzithra. Et les câpres, cueillies à la main sur les falaises calcaires, en boutons ou en feuilles marinées. À rapporter de chez Gerontopoulos, à Apollonia.",
+    "poiRef": "sifnos-gerontopoulos",
+    "image": "",
+    "links": [
+      {
+        "label": "sifnos.gr — produits locaux",
+        "url": "https://sifnos.gr/en/local-products/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "National Geographic — Sifnos gourmet island",
+        "url": "https://www.nationalgeographic.com/travel/article/exploring-flavours-sifnos-greeces-gourmet-island",
+        "date": "2026-06"
+      },
+      {
+        "creator": "sifnos.gr — Local Products",
+        "url": "https://sifnos.gr/en/local-products/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]

@@ -382,5 +382,149 @@
       "verdict": "match",
       "checkedAt": "2026-06-15"
     }
+  },
+  {
+    "id": "sifnos-chrysopigi",
+    "slot": "sifnos-chrysopigi",
+    "base": "sifnos",
+    "role": "photo",
+    "file": "sifnos-chrysopigi.jpg",
+    "alt": "Le monastère blanc de Panagia Chrysopigi sur son îlot rocheux qui s'avance dans la mer Égée d'un bleu profond, à Sifnos — la chapelle et les bâtiments blancs reliés à la côte par une langue de rocher",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Endless blue.jpg",
+      "photographer": "Menis Tselentis",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "2f9e7768fd14d605a72c676e9115cb410522115a78992758df97c17aa4e76435",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "2f9e7768fd14d605a72c676e9115cb410522115a78992758df97c17aa4e76435",
+      "alt": "Le monastère blanc de Panagia Chrysopigi sur son îlot rocheux qui s'avance dans la mer Égée d'un bleu profond, à Sifnos — la chapelle et les bâtiments blancs reliés à la côte par une langue de rocher",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sifnos-revithada",
+    "slot": "sifnos-revithada",
+    "base": "sifnos",
+    "role": "food",
+    "file": "sifnos-revithada.jpg",
+    "alt": "Un plat creux de pois chiches mijotés (revithada), crémeux et dorés, avec une tige d'oignon vert posée sur le bord",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Revithia.jpg",
+      "photographer": "topsyntages.gr from Greece",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "10e989a293803f3a2d5986cf569a6ddabbed0c324d1789925d156f09cdbfe5dc",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "10e989a293803f3a2d5986cf569a6ddabbed0c324d1789925d156f09cdbfe5dc",
+      "alt": "Un plat creux de pois chiches mijotés (revithada), crémeux et dorés, avec une tige d'oignon vert posée sur le bord",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sifnos-vathi",
+    "slot": "sifnos-vathi",
+    "base": "sifnos",
+    "role": "photo",
+    "file": "sifnos-vathi.jpg",
+    "alt": "La plage de sable de la baie de Vathi à Sifnos : une eau calme et peu profonde où des gens se baignent, le village blanc et son église au pied de collines arides",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Beach in Vathy on Sifnos, 153617.jpg",
+      "photographer": "Zde",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "df73339061efc0725bb21a9c588f78e4379fbb268e6cb7b721b782d5062927b6",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "df73339061efc0725bb21a9c588f78e4379fbb268e6cb7b721b782d5062927b6",
+      "alt": "La plage de sable de la baie de Vathi à Sifnos : une eau calme et peu profonde où des gens se baignent, le village blanc et son église au pied de collines arides",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sifnos-mastelo",
+    "slot": "sifnos-mastelo",
+    "base": "sifnos",
+    "role": "food",
+    "file": "sifnos-mastelo.jpg",
+    "alt": "Un plat d'agneau cuit longuement, tendre et fondant, entouré de pommes de terre rôties dorées, sur une assiette blanche",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Kleftiko.JPG",
+      "photographer": "Lord Mountbatten",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "17585f376cabd2c7edf0c37bcba594f01dce60fee1554f4a4da21947b35445fb",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "17585f376cabd2c7edf0c37bcba594f01dce60fee1554f4a4da21947b35445fb",
+      "alt": "Un plat d'agneau cuit longuement, tendre et fondant, entouré de pommes de terre rôties dorées, sur une assiette blanche",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sifnos-kastro",
+    "slot": "sifnos-kastro",
+    "base": "sifnos",
+    "role": "photo",
+    "file": "sifnos-kastro.jpg",
+    "alt": "Une ruelle blanchie à la chaux du village médiéval de Kastro, à Sifnos : des marches de pierre peintes en blanc, une porte avec des géraniums rouges en pot, sous un ciel bleu",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Kastro of Sifnos, alley, 153472.jpg",
+      "photographer": "Zde",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "d97120d5d1456fcde10a0a712fceae048320bcee269196fb4ad2b224b816e749",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "d97120d5d1456fcde10a0a712fceae048320bcee269196fb4ad2b224b816e749",
+      "alt": "Une ruelle blanchie à la chaux du village médiéval de Kastro, à Sifnos : des marches de pierre peintes en blanc, une porte avec des géraniums rouges en pot, sous un ciel bleu",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sifnos-village",
+    "slot": "sifnos-village",
+    "base": "sifnos",
+    "role": "photo",
+    "file": "sifnos-village.jpg",
+    "alt": "Une ruelle pavée de marbre blanc aux joints peints, avec un arbre vert au centre et des escaliers blanchis à la chaux, dans le village de Kastro à Sifnos",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Kastro of Sifnos, street, 153470.jpg",
+      "photographer": "Zde",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "e993268ebde789800d9595ca615301c268e696e9c65c18d9fc4c9799efe390a6",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "e993268ebde789800d9595ca615301c268e696e9c65c18d9fc4c9799efe390a6",
+      "alt": "Une ruelle pavée de marbre blanc aux joints peints, avec un arbre vert au centre et des escaliers blanchis à la chaux, dans le village de Kastro à Sifnos",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   }
 ]
