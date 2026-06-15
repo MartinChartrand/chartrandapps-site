@@ -19,16 +19,19 @@ Voyage perso Martin & Sophie, fév-mars 2027. Brouillon (itinéraire + budget da
 - `scripts/geo/make-landmask.mjs` : bbox `philippines` ajoutée.
 - **Recherche des 5 bases** : `src/content/destinations/philippines/.research/<base>.json` (force-committée). Riche : ~16 POIs/base (héberg+restos+sights), 6-7 dishes, 5 gems, narratif 2200-3250 car, pratique, 7-8 imagesCandidates, panel créateurs. **Tout a un `sources[]`.**
 
-## BLOC A — Consolidation (à faire en premier, ~besoin 20-30% de quota)
-Transformer `.research/*.json` → fichiers de collection conformes. **Cloner le format exact de `crete/`** (`pois.json`, `bases/01-chania.md`, `dishes.json`, `images.json`). Approche recommandée : **script Python de transformation** (évite de charger 161k dans le contexte).
+## BLOC A — Consolidation ✅ FAIT (commit 7e9fb3b)
+Script déterministe `scripts/migrate/_transform-philippines.py` (re-roulable) : `.research/*.json` → fichiers de collection. Résultat : **77 POIs** (tous onMap, 0 coords hors-zone), **33 dishes**, **25 gems**, **5 bases/*.md** (0 `[[poi:]]` orphelin — réconciliation par fuzzy match), `budget.json`, `pratique.json`. **`astro build` ✓ (19 pages).** Dates de source normalisées en YYYY-MM (le schéma l'exige). `approvedBy` PAS posé (ADR-3).
 
-Mapping POI (héberg→`kind:hotel,roles:[sleep],tier`; resto→`kind:resto,roles:[eat],signature=platSignature`; sight→`kind:sight|activity|plage`→`mapType:sight|plage`, `roles:[see|do]`). Champs constants : `price{range,currency:THB/PHP,asOf:"2026-06"}`, `coords{lat,lng,source:"websearch",verifiedOn:"2026-06-15"}`, `links{maps:généré}`, `status{open:true,lastChecked:"2026-06-15",method:"websearch"}`, `onMap:true si coords`.
+## BLOC B — Images + provenance + validation + deploy (RESTE — le gros morceau, vision = cher en quota)
+1. **Modèle d'images à RETRAVAILLER** : Bloc A a généré 64 slots placeholder (hero + 5 `<base>-cover` + 1 `d-<id>`/dish + 1 `g-<id>`/gem, tous `photoId:"" sha:""`). C'est un échafaudage. Pour de vrai : passer à un set CURATÉ (cf. crete) en piochant dans les `imagesCandidates` de `.research/*.json` (8/base, vrais IDs Unsplash, claims atmosphere) — covers + quelques foodie/atmosphere partagés. Résoudre les long IDs (`curl -sI -L unsplash.com/photos/<id>/download`), remplir `images.json` (photoId).
+2. `node scripts/migrate/fetch-images.mjs philippines` (download + sha256). Local, pas de tokens LLM.
+3. `npm run vision:images philippines` (réseau, **Claude vision = CHER en quota**) → zéro mismatch. Test de l'ami-témoin.
+4. **Provenance cleanup** : 40 POIs ont un `story`. `validate-provenance` exige, par story, ≥2 sources distinctes (ou `singleSourceTrusted`) + `approvedBy:"human"` + ≥60 car. Nettoyer les sources faibles (hébergements sourcés Booking/site officiel ≠ créateur indépendant). **`approvedBy:human` posé SEULEMENT sur approbation explicite de Martin (checkpoint 3).** D'ici là `validate:fast` est rouge (attendu).
+5. **Checkpoint 2** : `npm run preview` → screenshot pinchtab du hero (palette).
+6. `npm run validate:fast` exit 0 + `node scripts/validate-geo.mjs philippines`.
+7. **Checkpoint 3** : approbation Martin → `git push origin main` (auto-deploy) → live `chartrandapps.ca/philippines/`.
 
-**Pièges à régler :**
-1. **Image slots** : modèle curaté (hero + covers + foodie-N + accom-N + atmosphere), PAS 1 image/POI. Les POIs partagent des slots. Décider la liste d'images depuis imagesCandidates.
-2. **`[[poi:id]]` dans les narratifs** : les agents ont mis des ids qui ne matchent pas toujours l'id réel du POI (ex. narratif Bangkok dit `[[poi:phed-mark]]`, le POI est `phed-mark-ekkamai`). Réconcilier sinon orphelins.
-3. **Provenance** : `validate-provenance` mord sur tout `story` non-vide → exige ≥2 sources distinctes (ou `singleSourceTrusted`) + **`approvedBy:"human"`**. ⚠️ `approvedBy:human` UNIQUEMENT sur approbation explicite de Martin (checkpoint 3). Nettoyer les sources faibles (certains hébergements sourcés Booking/site officiel = pas un créateur indépendant → soit retirer le `story`, soit `singleSourceTrusted`, soit ajouter une vraie 2e source).
-4. Pampanga (sisig) à intégrer comme section/POIs dans le chapitre Panay.
+Note : Pampanga (sisig) est dans le chapitre Panay (dishes `d-sisig-kapampangan` + narratif).
 
 ## BLOC B — Images + validation + deploy
 1. `images.json` (slots + alt + claims + credit photoId) → `node scripts/migrate/fetch-images.mjs philippines` (download + sha256).
