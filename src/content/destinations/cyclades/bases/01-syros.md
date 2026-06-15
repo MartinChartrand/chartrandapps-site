@@ -5,10 +5,10 @@ title: Syros
 kicker: Le sucre de l'exil
 nights: 3
 dates: "2–5 juin 2027"
-focus: "Ermoupolis, la capitale que l'exil a bâtie · le loukoumi de Chios · les deux collines"
-subtitle: "Trois nuits pour ouvrir le voyage là où personne ne va — pas l'île des cartes postales, mais la capitale administrative des Cyclades, bâtie par les réfugiés du massacre de Chios en 1822. Ermoupolis, « le Manchester de la Grèce » : un opéra, des manoirs de marbre, des chantiers navals, et une confiserie née de l'exil. La contrainte des Cyclades, ici, a été résolue par l'afflux humain."
-summary: "On entre dans l'archipel par sa capitale oubliée. Au XIXe siècle, Ermoupolis dépassait Le Pirée — premier port de Grèce, financé par des marchands qui voulaient prouver quelque chose à l'Europe. Le matin pour la ville basse néoclassique (la place Miaouli, le théâtre Apollon, le quartier Vaporia suspendu au-dessus de la mer) ; l'après-midi, la montée vers Ano Syros, la cité catholique médiévale qui explique pourquoi l'île a pu accueillir les réfugiés. Et partout, le sucre de l'exil — le loukoumi à la rose, la halvadopita — et la table de l'arrière-pays aride : le San Michali, la louza séchée au vent du nord. Puis le ferry vers Sifnos, le segment à planifier en premier."
-pullquote: "Pas l'île des dômes bleus — la capitale que des réfugiés ont bâtie en une génération, opéra compris. Tout ce qu'on mange ici est une mémoire de migration."
+focus: "Le poulpe et le poisson de Kini · le bain dans les criques turquoise · l'agneau du nord aride · le loukoumi de l'exil"
+subtitle: "Trois nuits pour ouvrir le voyage par le ventre et par la mer. Pas l'île des cartes postales : un village de pêcheurs où le poulpe sèche sur la corde, des criques turquoise abritées du vent, l'agneau du nord aride — et, en filigrane, une capitale de marbre bâtie par des réfugiés, dont le loukoumi raconte l'exil. La contrainte des Cyclades, ici, se lit dans l'assiette."
+summary: "On entre dans l'archipel par Syros, la tête de ligne des ferries. On dort à Vaporia, au-dessus de la mer ; le matin, un freddo sur la place de marbre, puis la côte ouest : Kini, le village de pêcheurs, son poulpe grillé au charbon et son poisson du jour face au coucher de soleil. L'après-midi, le bain — Delfini, la crique turquoise à vingt minutes à pied, abritée du Meltemi, ou la journée bateau jusqu'à Grammata. Et la table du nord aride : l'agneau braisé à la marjolaine de Plakostroto, le San Michali et les câpres de chez Prekas. L'histoire — le loukoumi de l'exil, l'opéra, Ano Syros — reste le décor. Puis le ferry vers Sifnos, le segment à réserver en premier."
+pullquote: "Pas l'île des dômes bleus — un village de pêcheurs, une crique turquoise et l'agneau du caillou aride. L'histoire est dans l'assiette, pas au musée."
 cover: syros-cover
 tagBlock:
   label: "Syros, début juin"
@@ -22,42 +22,58 @@ infoBlocks:
     type: poi-list
     items:
       - syros-electra
+      - syros-nestorian
+      - syros-lila
+      - syros-syrou-lotos
       - syros-aristide
-    footer: "Vaporia concentre les meilleures adresses, dans les anciens manoirs d'armateurs au-dessus de la mer. L'Electra pour le charme discret (10 chambres), l'Aristide pour le luxe de manoir (9 suites, Small Luxury Hotels). Réserver tôt : peu de chambres, ça part vite en saison."
-  - label: "Où manger"
+    footer: "Vaporia concentre les meilleures adresses, dans les manoirs d'armateurs au-dessus de la mer : l'Electra (10 chambres, charme discret) ou The Nestorian House (manoir de 1883, le confort sans le palace). Plus intime et abordable, la Guesthouse Lila, dans l'ancien consulat de France. Côté plage, Syrou Lotos à Kini, l'eau sous les yeux le matin. L'Aristide reste le grand luxe d'occasion spéciale. Réserver tôt : peu de chambres, ça part vite."
+  - label: "À table"
     type: poi-list
     items:
-      - syros-mirsini
-      - syros-roussounelos
-      - syros-ithaki
-    footer: "Le tsipouro et les mezedes sur le port chez Mirsini (plein de locaux, le test qui ne ment pas), la louza directement à la boucherie Roussounelos, et la montée à Ano Syros pour la pasturmadopita (adresse à confirmer sur place)."
-  - label: "À voir & faire"
+      - syros-allou-yialou
+      - syros-dyo-tzitzikia
+      - syros-plakostroto
+      - syros-calmo-mare
+      - syros-seariani
+      - syros-prekas
+      - syros-ellinikon
+    footer: "La mer à Kini (Allou Yialou, Dyo Tzitzikia : poulpe grillé, poisson du jour, coucher de soleil). L'agneau du nord à Plakostroto (San Michalis) et les mezedes à Calmo Mare (Finikas). Le poisson choisi en vitrine chez Seariani. Le terroir — câpres sauvages, San Michali, tomates séchées — chez Prekas, rue Chiou. Et le freddo du matin à l'Ellinikon, sur la place Miaouli."
+  - label: "La mer & les criques"
+    type: poi-list
+    items:
+      - syros-delfini
+      - syros-kini-plage
+      - syros-megas-gialos
+      - syros-grammata
+    footer: "Delfini, la crique turquoise à 20 min à pied de Kini, abritée du Meltemi. La plage de Kini pour le coucher de soleil sur les barques. Megas Gialos au sud, toujours calme les jours de grand vent. Et la journée bateau jusqu'à Grammata, la crique sauvage où les marins antiques gravaient leurs noms."
+  - label: "À voir, si ça te tente"
     type: poi-list
     items:
       - syros-loukoumi
+      - syros-makryonitis
       - syros-apollon
       - syros-miaouli
       - syros-vaporia
       - syros-ano-syros
       - syros-musee-industriel
-    footer: "Le loukoumi à la confiserie pour comprendre la porte d'entrée du voyage. Puis la ville basse néoclassique (Apollon, place Miaouli, Vaporia), la montée à Ano Syros pour les deux religions, et le Musée industriel pour voir d'où venait l'argent."
-mapLabel: "Carte — Ermoupoli, Ano Syros et le port"
+    footer: "L'histoire reste le décor : le loukoumi à la confiserie pour la porte d'entrée du voyage, la distillerie Makryonitis à Vari pour le tsipouro, puis — si le cœur t'en dit — le théâtre Apollon, la place Miaouli, Vaporia, la montée à Ano Syros et le Musée industriel."
+mapLabel: "Carte — Kini, les criques, et Ermoupoli"
 ---
 
-Le voyage commence là où les ferries des Cyclades commencent depuis deux cents ans : Syros, la tête de ligne de l'archipel. Mais oublie les dômes bleus et les ruelles à touristes — Ermoupolis, la capitale, est une ville de marbre et de suie, bâtie en une génération par des gens qui fuyaient la mort. C'est la première réponse du voyage à la grande question des Cyclades : quand on est coincé sur un rocher au milieu de la mer, qu'est-ce qu'on fait de soi? Ici, la réponse est venue de l'extérieur — par bateau, dans les bagages des réfugiés.
+Le voyage commence là où les ferries des Cyclades commencent depuis deux cents ans : Syros, la tête de ligne de l'archipel. Mais oublie les dômes bleus et les ruelles à touristes — et oublie, pour un moment, les musées. Ici, la première réponse à la grande question des Cyclades — quand on est coincé sur un rocher au milieu de la mer, qu'est-ce qu'on fait de soi? — se goûte et se nage. La capitale de marbre attendra le soir.
 
-#### Le sucre de l'exil
+#### La table de la mer
 
-En 1822, les Ottomans massacrent l'île de Chios. Les survivants — confiseurs, marchands, armateurs — fuient vers Syros, une petite île catholique restée neutre. Ils apportent leur savoir-faire et, avec lui, le [[poi:syros-loukoumi]] : le loukoum parfumé au mastic de leur île perdue. La confiserie est encore là, faite main au chaudron de cuivre. C'est la porte d'entrée du voyage : la première bouchée est déjà une mémoire de migration.
+Sur la côte ouest, à une quinzaine de minutes d'Ermoupoli, [[poi:syros-kini-plage]] est resté un vrai village de pêcheurs. Les barques rentrent en fin d'après-midi, le poulpe sèche sur une corde devant les tavernes, et le soleil plonge droit dans la baie — la seule de l'île orientée plein ouest. On s'assoit les pieds presque dans le sable, chez [[poi:syros-allou-yialou]] (indexée par le Greek Gastronomy Guide) ou chez [[poi:syros-dyo-tzitzikia]], et on commande ce qui est arrivé par bateau le matin : le poulpe grillé au charbon, les moules au romarin, le poisson du jour. À Ermoupoli, [[poi:syros-seariani]] aligne le poisson frais en vitrine — on choisit son fagri (daurade royale) ou son barbouni (rouget) au poids.
 
-#### Le Manchester de la Grèce
+#### Le bain
 
-Ces réfugiés ne se sont pas contentés de survivre — ils ont bâti le premier port de Grèce. Dans les années 1850, Ermoupolis dépassait Athènes. Et quand la bourgeoisie marchande a voulu prouver qu'elle était civilisée à l'européenne, elle a construit un opéra avant un hôpital : le [[poi:syros-apollon]], une « Piccola Scala » de 350 places inaugurée en 1864 avec un Verdi. Autour, la [[poi:syros-miaouli]] et son hôtel de ville de marbre signé Ernst Ziller. Pour comprendre d'où venait l'argent — coton d'Égypte, peaux du Levant, chantiers navals — le [[poi:syros-musee-industriel]] raconte la couche industrielle que les cartes postales cachent.
+À une vingtaine de minutes à pied au nord de Kini, le sentier débouche sur [[poi:syros-delfini]] : une crique abritée où l'eau passe du vert à l'émeraude, si claire qu'on voit le fond. Les collines la protègent du Meltemi, ce vent du nord qui agite le reste de l'île ; ici, la mer reste calme, et les tamaris donnent de l'ombre. Les jours de grand vent, [[poi:syros-megas-gialos]] au sud reste toujours baignable. Et pour LA journée : un bateau depuis Kini jusqu'à [[poi:syros-grammata]], la crique sauvage du nord où les marins romains gravaient leur nom dans la roche en attendant que le Meltemi tombe — on nage au-dessus des mêmes inscriptions, deux mille ans plus tard.
 
-#### Les deux collines
+#### La table du nord
 
-Au-dessus de la ville basse, [[poi:syros-ano-syros]] : la cité médiévale fondée par les Vénitiens vers 1200, catholique, surnommée « L'isola del Papa ». C'est elle qui explique tout : en 1821, les Ottomans ménagent les catholiques alliés de la France, Syros reste neutre, et c'est pour ça qu'elle peut accueillir les réfugiés de Chios. Le médiéval catholique a semé l'industriel orthodoxe. En contrebas, le quartier [[poi:syros-vaporia]] — les manoirs des armateurs plongeant à pic dans la mer, l'argent maritime coulé en marbre et en fresque.
+La cuisine de Syros n'est pas qu'une affaire de mer. Le nord de l'île, l'Apano Meria, est aride, presque désert — et c'est de là que vient l'autre table : l'agneau et le chevreau. Au bout de la route, dans le village de San Michalis, [[poi:syros-plakostroto]] sert le gigot braisé à la marjolaine sur des hilopites tirées à la main, les côtelettes et le chevreau au feu de bois, avec la vue sur les îles voisines au coucher du soleil (réserver la veille). Le terroir aride donne aussi le San Michali, fromage de vache AOP — le plus cher de Grèce — et les câpres sauvages des falaises, qu'on rapporte de chez [[poi:syros-prekas]], rue Chiou. Pour les mezedes face à la marina, [[poi:syros-calmo-mare]] à Finikas, que les locaux valident depuis des années. Et la boisson de l'île, c'est le tsipouro, distillé à [[poi:syros-makryonitis]] à Vari (la « souma », elle, est une affaire du Dodécanèse).
 
-#### La table de l'arrière-pays
+#### L'histoire en filigrane
 
-La cuisine de Syros porte la même mémoire. Le San Michali, fromage AOP de l'aride nord de l'île, affiné comme un parmesan — le plus cher de Grèce. La louza, longe de porc séchée aux vents froids de l'hiver, chez [[poi:syros-roussounelos]] depuis 1950. Et le soir, les mezedes et le tsipouro sur le port chez [[poi:syros-mirsini]], pleins de gens d'ici. Puis on attrape le ferry vers Sifnos — le segment fragile, celui qu'on a réservé en premier.
+Le décor, lui, raconte une histoire de migration. En 1822, les Ottomans massacrent l'île de Chios ; les survivants — confiseurs, marchands, armateurs — fuient vers Syros, restée neutre parce que catholique et alliée de la France. Ils apportent leur savoir-faire et, avec lui, le [[poi:syros-loukoumi]] : le loukoum parfumé au mastic, encore fait main au chaudron de cuivre. C'est la porte d'entrée du voyage, la première bouchée déjà chargée de mémoire. Ces réfugiés ont bâti le premier port de Grèce et, pour le prouver à l'Europe, un opéra avant un hôpital : le [[poi:syros-apollon]], une « Piccola Scala » de 350 places. Autour, la [[poi:syros-miaouli]] de marbre et le quartier [[poi:syros-vaporia]] suspendu au-dessus de la mer. Et tout en haut, [[poi:syros-ano-syros]], la cité catholique médiévale qui explique pourquoi l'île a pu accueillir les réfugiés — on y monte un soir, pour les ruelles fraîches et la vue. Puis on attrape le ferry vers Sifnos, le segment fragile, celui qu'on a réservé en premier.
