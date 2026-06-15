@@ -1,13 +1,18 @@
-# HANDOFF — Cyclades ch.1 (Syros) : rebalance bouffe/plages + oomph images FAITS, VERDICT FEEL DE MARTIN PASSÉ ✅ (« c'est bon », 2026-06-15) — sur `feat/cyclades`, DÉPLOYÉ EN PROD ✅ (2026-06-15)
+# HANDOFF — Cyclades : 3 CHAPITRES DÉPLOYÉS EN PROD ✅ (Syros · Sifnos · Folegandros) · Amorgos recherche préservée (build à reprendre) · reste Santorin (MAJ 2026-06-15)
 
-> **MAJ 2026-06-15 (2) — VERDICT PASSÉ.** Martin a approuvé Syros (« ok c'est bon ») après DEUX passes : (1) rebalance sensoriel bouffe/plages (`3fbc158`), (2) passe **oomph images** (`af0730e`). Le contenu+texte « vraiment beaucoup mieux » ; les images avaient besoin de VIE/couleur-qui-pop (pas des stills plats) → nouvelle **mémoire `style-imagerie-voyage`** (style scaffolding TOUS sites : la vie avant la nature morte, couleur pop bouffe+lieu, N&B humain ; **Chemin B = Syros-vrai** pour lieux/gens). Ajouté : scène humaine pleine « La place » (café Miaouli, gens, couleur) + image marché terroir (fruits/légumes éclatants). 16 images witnessées+scellées (vision:images 16 MATCH/0 mismatch), `npm run audit` VERT, iOS confirmé. **DÉPLOYÉ EN PROD** (merge→main `96e82fd`, run 27538836335, live sur https://chartrandapps.ca/cyclades/syros/ — vérifié curl 200 + scènes présentes). Détails « ÉTAT 2026-06-15 » plus bas.
+> **MAJ 2026-06-15 (3) — 3/5 CHAPITRES EN PROD, ARRÊT CLEAN à ~68-70% du quota de Martin.** Le voyage Cyclades est aux **3/5**, tous live sur chartrandapps.ca. Pipeline éprouvé identique à chaque fois : recherche fan-out **Sonnet** → images CC **witnessées (Read) + scellées (vision:images)** → rebuild (pois/dishes/episode/base.md/tuile) → `npm run audit` VERT → rendu iOS → verdict feel de Martin → merge `feat/cyclades-<île>`→`main` (auto-deploy).
+> - **Syros** (ch.1, capitale/réfugiés) — merge `96e82fd` — /cyclades/syros/
+> - **Sifnos** (ch.2, l'île gastro : revithada/mastelo/Chrysopigi) — merge `a2eea94` — /cyclades/sifnos/
+> - **Folegandros** (ch.3, l'île-prison : matsata/Katergo/Kastro) — merge `a2035fe` — /cyclades/folegandros/
+> Aussi déployé : la **landing page** liste Cyclades en tête (champ `cardImage` = `syros-delfini`), hook container = `syros-kini`. **Narration ANONYME** (jamais nommer Sophie/Martin → « on/nous » ; mémoire `registre-public-voix`). Style images = mémoire `style-imagerie-voyage` (vie+couleur qui pop, N&B humain, **Chemin B = île-vraie** pour lieux/gens, bouffe générique OK). 29 images scellées (vision 29 MATCH/0 mismatch). 0 lien mort cyclades.
+> **PROCHAIN : AMORGOS (ch.4)** — recherche fan-out FAITE et **PRÉSERVÉE** dans `src/content/destinations/cyclades/.research/amorgos-dossier.md` (header + flags) + `amorgos-research-raw.json` (98 ko, tout sourcé). **Build PAS commencé** (arrêt clean avant le plafond quota). Puis **Santorin (ch.5)**. Reprendre Amorgos par son dossier (branche `feat/cyclades-amorgos` depuis `main`). Détails « ÉTAT » plus bas (Syros).
 
 **Autoportant. LE doc de reprise à froid pour le voyage Cyclades.**
 À lire AVEC : `docs/CONTRAT-MACHINE-A-SAUCISSE.md` + mémoire **`contenu-sensoriel-bouffe-plages`** (LA consigne) + `HANDOFF-2026-06-14-prod-deploye.md` (la machine Andalousie en prod, toujours valide).
 Mémoires clés : `contenu-sensoriel-bouffe-plages`, `gestion-limites-session`, `andalousie-dogfood-seville`, `modele-sonnet-pour-fanout`, `bareme-temoin-images`, `principe-cloner-pas-reinventer`.
 
-## ⚠️ STATUT — Syros DÉPLOYÉ EN PROD (2026-06-15) ; restent 4 îles à bâtir
-- **Syros mergé `feat/cyclades`→`main` (`96e82fd`), LIVE** sur https://chartrandapps.ca/cyclades/syros/ (vérifié curl 200 + scènes). L'Andalousie reste en prod aussi. **Pour les 4 autres îles : bâtir sur une NOUVELLE branche** (`main` auto-deploie à chaque push).
+## ⚠️ STATUT — 3 chapitres DÉPLOYÉS (Syros, Sifnos, Folegandros) ; reste Amorgos (recherche prête) + Santorin
+- **Syros + Sifnos + Folegandros mergés→`main`, LIVE** sur https://chartrandapps.ca/cyclades/. L'Andalousie reste en prod aussi. **Chaque nouvelle île = NOUVELLE branche `feat/cyclades-<île>` depuis `main`** (`main` auto-deploie à chaque push). Amorgos = ch.4 (en 2 bases, recherche préservée dans `.research/amorgos-*`), Santorin = ch.5 (le final).
 - **`npm run audit` VERT (exit 0)** : tests + build + validate:fast (géo/images/claims/provenance/orphans). `validate:full` = 12 liens morts mais **100% pré-existants** (andalousie/crete/turquie), **0 cyclades**.
 - Rendu iOS vérifié (iPhone 17 Pro Max, Safari réel) : container hook + carte Leaflet (quirk WebKit OK) + scènes. Serveur preview arrêté.
 
