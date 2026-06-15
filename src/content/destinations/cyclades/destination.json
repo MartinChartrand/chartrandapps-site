@@ -30,9 +30,10 @@
     "image": "cyclades-hero",
     "label": "Itinéraire · Voyage en duo"
   },
+  "cardImage": "syros-delfini",
   "overviewKicker": "Logique du voyage",
   "overviewTitle": "Cinq îles en cercle, le ferry pour seul fil",
-  "overviewIntro": "Cinq îles choisies par Sophie, dans l'ordre de la mer : Syros, Sifnos, Folegandros, Amorgos, Santorin. On entre et on sort par le ferry du Pirée — aucun vol inter-îles. La fenêtre de juin pour le calme avant le Meltemi, le rythme lent assumé, et la table comme fil conducteur.",
+  "overviewIntro": "Cinq îles choisies dans l'ordre de la mer : Syros, Sifnos, Folegandros, Amorgos, Santorin. On entre et on sort par le ferry du Pirée — aucun vol inter-îles. La fenêtre de juin pour le calme avant le Meltemi, le rythme lent assumé, et la table comme fil conducteur.",
   "intro": {
     "whySeason": {
       "title": "Pourquoi juin",
@@ -50,7 +51,7 @@
     "hookKicker": "Un mois · cinq îles · le ferry pour seul fil",
     "hookTitle": "Il y a, au centre de ce voyage, une île que tu ne visiteras jamais.",
     "hookBody": "Délos est interdite aux vivants depuis 426 avant notre ère : ni naître, ni mourir, ni rester. Athènes a dû vider l'humanité de l'île pour que le sanctuaire soit assez sacré. Ce vide est la clé du voyage. Les cinq îles de cette boucle forment un cercle autour de cette absence depuis l'Antiquité — le mot « Cyclades » vient du grec kyklos, le cercle. Chacune a répondu différemment à la même question : quand la mer est ta prison et ta seule porte de sortie, qu'est-ce que tu fais de toi-même? Tu creuses dans l'argile, la cendre, la falaise. Tu accueilles ceux qui arrivent par la mer. Tu transformes la catastrophe en terroir. Et tout ça, on le lit dans ce qu'on mange. C'est ça, le voyage.",
-    "hookImage": "cyclades-hero",
+    "hookImage": "syros-kini",
     "sources": [
       {
         "creator": "École Française d'Athènes — histoire de Délos (purification de 426 av. J.-C.)",

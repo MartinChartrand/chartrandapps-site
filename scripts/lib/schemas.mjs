@@ -86,6 +86,11 @@ export const destinationSchema = z.object({
   }),
   theme: z.object({ favicon: z.string(), palette: z.string() }),
   hero: z.object({ image: z.string(), label: z.string() }),
+  // §style-imagerie-voyage — image de la CARTE sur la landing (1re impression qui doit POP :
+  // une crique, une assiette, la vie — jamais un still muséal). Optionnel : si absent, la home
+  // retombe sur hero.image. Découplé du hook/concept (ex. Cyclades : carte = crique turquoise,
+  // mais hero/concept = les lions de Délos).
+  cardImage: z.string().optional(),
   overviewKicker: z.string().default(''), // .section-num v1 (« Logique du voyage »)
   overviewTitle: z.string().default(''),  // h2.section-title v1 (« Quatre bases, mouvement minimal »)
   overviewIntro: z.string(),              // p.section-intro v1

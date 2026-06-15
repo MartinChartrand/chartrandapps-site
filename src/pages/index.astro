@@ -32,7 +32,7 @@ const voyages = ORDER
     em: d.data.heroTitle.em,
     season: d.data.season,
     subtitle: d.data.subtitle,
-    heroUrl: heroUrl(d.data.slug, d.data.hero.image),
+    heroUrl: heroUrl(d.data.slug, d.data.cardImage ?? d.data.hero.image),
     episodic: !!d.data.episodic,
     href: `/${d.data.slug}/`,
   }));
