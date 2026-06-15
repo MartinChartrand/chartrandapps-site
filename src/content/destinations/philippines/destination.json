@@ -1,0 +1,47 @@
+{
+  "slug": "philippines",
+  "pageTitle": "Philippines — Février 2027 · Itinéraire de voyage",
+  "heroTitle": {
+    "main": "Philippines",
+    "em": "février"
+  },
+  "heroSub": "Un mois dans les Visayas — la mer et la table",
+  "subtitle": "Un mois dans les Visayas — la mer et la table",
+  "season": "Février 2027",
+  "travelers": {
+    "count": 2,
+    "label": "Voyage en duo"
+  },
+  "arrival": {
+    "date": "2027-02-01",
+    "airport": "BKK",
+    "city": "Bangkok"
+  },
+  "departure": {
+    "date": "2027-02-27",
+    "airport": "CEB",
+    "city": "Cebu"
+  },
+  "theme": {
+    "favicon": "🏝️",
+    "palette": "philippines"
+  },
+  "hero": {
+    "image": "hero",
+    "label": "Itinéraire · Voyage en duo"
+  },
+  "overviewKicker": "Logique du voyage",
+  "overviewTitle": "Cinq escales, d'ouest en est par la mer",
+  "overviewIntro": "On commence par quelques jours à Bangkok pour décompresser du vol et manger, puis un mois dans les Visayas : Panay, Negros, Siquijor, Bohol. L'itinéraire suit la géographie d'ouest en est, en ferries et petits vols, et sort par Cebu. On bouge le moins possible, on s'attable le plus possible.",
+  "intro": {
+    "whySeason": {
+      "title": "Pourquoi février",
+      "body": "Saison sèche dans les Visayas centrales : mer calme du côté ouest, eau chaude, ciel franc pour la photo. On arrive avant la cohue de la Semaine sainte, quand les îles respirent encore."
+    },
+    "logistics": {
+      "title": "Logistique de base",
+      "body": "Vol Montréal → Bangkok pour quelques jours, puis Bangkok → Manille et un mois dans les Visayas en ferries et petits vols, sortie par Cebu (billet open-jaw). Visa de 30 jours largement suffisant. Budget total estimé : ~9 965 $ CAD pour deux."
+    }
+  },
+  "footerNote": "Itinéraire préparé avec soin · Philippines, février 2027"
+}

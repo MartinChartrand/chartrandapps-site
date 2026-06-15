@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              99.5,
+              8.5
+            ],
+            [
+              126,
+              8.5
+            ],
+            [
+              126,
+              14.5
+            ],
+            [
+              99.5,
+              14.5
+            ],
+            [
+              99.5,
+              8.5
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "philippines",
+        "note": "Polygone bbox approximatif — remplacer par un landmask OSM précis si besoin."
+      }
+    }
+  ]
+}
