@@ -1474,5 +1474,131 @@
     },
     "sha256": "fc8b64f9e43dc9eebe4e455fccddc1c89e7000627b7472c8d638b9b8082116b1",
     "visionChecked": "migration-v1"
+  },
+  {
+    "id": "ch-balos-lagoon",
+    "slot": "ch-balos-lagoon",
+    "base": "chania",
+    "role": "photo",
+    "file": "photo-4.jpg",
+    "alt": "Le lagon de Balos à la pointe nord-ouest de la Crète, vu d'en haut : un cap de montagne aride qui plonge dans la mer, une eau peu profonde passant du turquoise laiteux au bleu profond, un liseré de sable pâle au pied des pentes",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1604179562800-b60b88b8cb26",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "b57d869af718aabcee48ba7b66043b1508e02c969be7976b0306e23e9aaba3be",
+    "visionChecked": "reuse-2026-06-15"
+  },
+  {
+    "id": "ch-elafonisi-rose",
+    "slot": "ch-elafonisi-rose",
+    "base": "chania",
+    "role": "photo",
+    "file": "photo-2.jpg",
+    "alt": "Vue aérienne d'une plage du sud-ouest crétois : du sable pâle bordé d'une eau translucide très peu profonde, vert émeraude sur les hauts-fonds, parsemée de rochers affleurants et de quelques baigneurs",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1636634245640-e223f8fbe529",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "ec380310b1a696856aa628cba1f1134125c5d30a387a20d2b525b86d4dcd6ed5",
+    "visionChecked": "reuse-2026-06-15"
+  },
+  {
+    "id": "ch-poisson-grille",
+    "slot": "ch-poisson-grille",
+    "base": "chania",
+    "role": "food",
+    "file": "photo-5.jpg",
+    "alt": "Deux assiettes d'une taverna crétoise : un poisson entier grillé et un poulpe grillé au charbon, servis avec des pommes de terre, des légumes grillés, de la salade et des quartiers de citron",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1611697522020-f44d4e818698",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "2bf3799069c7294845f64c0326485c8e623e0fbd37e99c021ee5d3deab902be4",
+    "visionChecked": "reuse-2026-06-15"
+  },
+  {
+    "id": "ch-agneau-feu",
+    "slot": "ch-agneau-feu",
+    "base": "chania",
+    "role": "food",
+    "file": "photo-69.jpg",
+    "alt": "Des côtelettes d'agneau grillées (paidakia), dorées et marquées par les braises, dressées sur une planche de bois rustique dans une taverne crétoise",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1760888938853-f3f92bd210b8",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "75b9445fc33a074538d2bc6ce95cbc48cb672f29a97a58ea84a1e0cae50ed58b",
+    "visionChecked": "reuse-2026-06-15"
+  },
+  {
+    "id": "ch-tamam-horta",
+    "slot": "ch-tamam-horta",
+    "base": "chania",
+    "role": "food",
+    "file": "photo-49.jpg",
+    "alt": "Un plat de légumes crétois rôtis au four — tomates, tranches d'aubergine et champignons confits à l'huile d'olive — servi en taverne",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1764397514707-48308ede7f04",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7951d8b9d2accee45db9c12ccd5d1201fab9e6f5399b3981a25aafe608e3c22d",
+    "visionChecked": "reuse-2026-06-15"
+  },
+  {
+    "id": "ch-agora",
+    "slot": "ch-agora",
+    "base": "chania",
+    "role": "food",
+    "file": "photo-70.jpg",
+    "alt": "Un étal de marché crétois débordant de légumes frais — artichauts violets, poivrons rouges et verts, haricots — avec une pancarte de prix manuscrite",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1734987052573-0fbe611842ae",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "6337e9eccf53408370fb8a617202b2fb4ce79ef5757d13b6589a65874477a391",
+    "visionChecked": "reuse-2026-06-15"
+  },
+  {
+    "id": "ch-splantzia",
+    "slot": "ch-splantzia",
+    "base": "chania",
+    "role": "photo",
+    "file": "photo-56.jpg",
+    "alt": "Une ruelle pavée de la vieille ville crétoise : une boutique d'antiquités à l'enseigne grecque, des chaises de bois dépareillées devant les portes, des fanions tendus au-dessus des pavés, sous des murs ocre et pastel",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1764116698347-6a89f62a908c",
+      "photographer": "",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d7e313f9e17140f992af1df7a030edd582a3aea961afc2492e594a9f8a5e1681",
+    "visionChecked": "reuse-2026-06-15"
   }
 ]

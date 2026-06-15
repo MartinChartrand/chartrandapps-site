@@ -43,5 +43,48 @@
       "body": "Vol aller Montréal → Chania (CHQ), retour Héraklion (HER) → Montréal. Voiture louée à Chania pour toute la durée, sauf pendant Loutro (6 nuits) où elle reste garée à Chora Sfakion. Budget total estimé : ~11 400 $ CAD pour deux."
     }
   },
-  "footerNote": "Itinéraire préparé avec amour · Crète, septembre–octobre 2027"
+  "footerNote": "Itinéraire préparé avec amour · Crète, septembre–octobre 2027",
+  "episodic": true,
+  "chapterTotal": 4,
+  "container": {
+    "hookKicker": "Un mois · quatre bases · le rocher, le feu, l'herbe",
+    "hookTitle": "En Crète, la table est née du manque — et la mer, elle, donne sans compter.",
+    "hookBody": "La cuisine crétoise n'a pas grandi dans l'abondance mais dans la contrainte du caillou : les horta, ces herbes sauvages cueillies dans les collines, les légumineuses, l'huile d'olive à flots. Et deux feux pour le reste. Celui du berger d'abord — l'agneau et le chevreau rôtis lentement au bois, l'antikristo planté face aux braises depuis toujours. Celui de la mer ensuite — le poulpe et le poisson grillés au charbon, choisis selon l'arrivage du matin dans les tavernas de quartier. Entre les deux, une eau turquoise à couper le souffle : Balos, Elafonisi, les criques de l'ouest, la mer de Libye au sud. On commence par Chania, le sas vénitien de l'ouest, et on traverse l'île d'ouest en est sans se presser — la mer d'un côté, la montagne et son agneau de l'autre. L'histoire, minoenne, vénitienne, ottomane, reste le décor. Le voyage, lui, est à table et dans l'eau.",
+    "hookImage": "ch-balos-lagoon",
+    "sources": [
+      { "creator": "Maps — Balos Lagoon, Crète", "url": "https://www.google.com/maps/search/Balos+Lagoon+Crete", "date": "2026-06" },
+      { "creator": "Tamam Restaurant — site officiel", "url": "https://www.tamamrestaurant.com/", "date": "2026-06" }
+    ],
+    "tilesIntro": "De l'ouest vénitien de Chania au retour en douceur de Rethymno, quatre bases et un mouvement minimal — on s'installe vraiment, on suit la mer et la table, et on laisse l'île venir à nous.",
+    "tiles": [
+      {
+        "base": "chania",
+        "kicker": "Chapitre 1 · 8 nuits",
+        "title": "Le sas, l'ouest sauvage",
+        "teaser": "La plus belle vieille ville de l'île pour point de chute, l'agneau au feu de bois et les horta dans les ruelles, et à une heure de route le turquoise de Balos et le sable rose d'Elafonisi.",
+        "image": "chania-cover"
+      },
+      {
+        "base": "loutro",
+        "kicker": "Chapitre 2 · 6 nuits",
+        "title": "Le cœur du voyage, sans route",
+        "teaser": "Un village blanc en demi-lune, accessible seulement par bateau, accroché entre les montagnes à pic et la mer de Libye. Six nuits à ralentir pour de vrai.",
+        "image": "loutro-cover"
+      },
+      {
+        "base": "sitia",
+        "kicker": "Chapitre 3 · 9 nuits",
+        "title": "L'est authentique",
+        "teaser": "Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port, l'eau à son maximum thermique (27–28°C), et la palmeraie de Vaï au bout du monde.",
+        "image": "sitia-cover"
+      },
+      {
+        "base": "rethymno",
+        "kicker": "Chapitre 4 · 7 nuits",
+        "title": "Le retour en douceur",
+        "teaser": "La deuxième plus belle vieille ville de l'île, vénitienne et compacte, plus détendue que Chania — et les plages de Plakias à quarante-cinq minutes, pour finir au calme.",
+        "image": "rethymno-cover"
+      }
+    ]
+  }
 }

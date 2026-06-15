@@ -1,0 +1,142 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée par l'ouest",
+      "body": "On entre en Crète par sa plus belle ville. Chania, c'est un port vénitien, des minarets ottomans, des ruelles qui sentent le jasmin le soir. Mais on n'a pas traversé l'Atlantique pour les musées. On est venus pour comprendre une cuisine née de la pierre : ce que le caillou aride finit par donner — l'herbe sauvage, l'agneau, le raki — et ce que la mer, juste à côté, rapporte sans compter. Huit nuits ici, c'est exprès. C'est le sas du voyage : on largue le décalage, on apprend le rythme crétois avant de disparaître plus au sud.",
+      "focusPoi": "splantzia-vieille-ville",
+      "zoom": 14,
+      "targets": ["splantzia-vieille-ville", "tamam"],
+      "thumb": "chania-cover",
+      "thumbAlt": "Le vieux port vénitien de Chania au coucher du soleil : le phare de pierre au bout de la jetée, les façades ocre et pastel alignées sur le quai, leurs reflets dans l'eau calme du bassin",
+      "poiRef": "splantzia-vieille-ville",
+      "sources": [
+        { "creator": "Région de Crète — vieille ville de Chania", "url": "https://www.google.com/maps/search/Splantzia+Square+Chania+Crete", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme crétois",
+      "body": "On dort à Splantzia ou à Halepa, jamais au front de port : c'est 20% moins cher, et c'est là que les voisines sortent leur chaise sur le trottoir à 18h. Le matin, un café grec à l'ombre d'un platane pendant que la ville s'éveille. Puis on file vers l'ouest sauvage — Balos, Falassarna, l'eau qui vire au turquoise — et on rentre par les ruelles à la tombée du jour. La journée type tient en trois mots : la table, la mer, et l'histoire qu'on croise en chemin sans s'arrêter.",
+      "focusPoi": "nea-chora",
+      "zoom": 13,
+      "targets": ["nea-chora", "profiti-ilia-tombeaux-venizelos"],
+      "thumb": "ch-splantzia",
+      "thumbAlt": "Une ruelle pavée de la vieille ville crétoise : une boutique d'antiquités à l'enseigne grecque, des chaises de bois dépareillées devant les portes, des fanions tendus au-dessus des pavés, sous des murs ocre et pastel",
+      "poiRef": "nea-chora",
+      "sources": [
+        { "creator": "Maps — Nea Chora Beach, Chania", "url": "https://www.google.com/maps/search/Nea+Chora+Beach+Chania", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-tamam",
+      "kicker": "Tamam · LA PORTE",
+      "title": "La cuisine que la pierre a forcée",
+      "image": "ch-tamam-horta",
+      "alt": "Un plat de légumes crétois rôtis au four — tomates, tranches d'aubergine et champignons confits à l'huile d'olive — servi en taverne",
+      "intro": "La cuisine crétoise n'est pas née de l'abondance : elle est née de la contrainte. Sur ce caillou, on a appris à manger ce que la terre aride donne — les horta, ces herbes sauvages qu'on cueille dans les collines, les légumineuses, l'huile d'olive à flots. Tamam, installé dans les anciens bains turcs du XVIe siècle au cœur de la vieille ville, en a fait une table : un menu presque végétarien qui ne ressemble à rien d'autre, des recettes de grand-mère servies sous les voûtes de pierre, dans une ruelle derrière le port.",
+      "reco": "Commande les boureki (courgette, fromage frais, menthe), les feuilles de vigne, les horta du jour à l'huile et au citron, le fromage local grillé. C'est la porte d'entrée du voyage : tout ce qu'on mangera en Crète est, d'une façon ou d'une autre, une réponse au manque. Et la règle d'or de Chania commence ici — on évite le premier rang de restos du port, qualité divisée par deux, prix doublés. Tamam est dans une ruelle, et c'est précisément pour ça qu'il est bon.",
+      "quote": "On ouvre un mois en Crète par un plat d'herbes sauvages servi dans un ancien hammam. La première bouchée, c'est déjà une leçon : ici, on a sublimé la survie.",
+      "via": null,
+      "poiRef": "tamam",
+      "sources": [
+        { "creator": "Tamam Restaurant — site officiel", "url": "https://www.tamamrestaurant.com/", "date": "2026-06" },
+        { "creator": "TripAdvisor — Tamam Restaurant, Chania", "url": "https://www.tripadvisor.com/Restaurant_Review-g189415-d1104362-Reviews-Tamam_Restaurant-Chania_Town_Chania_Prefecture_Crete.html", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-feu",
+      "kicker": "Chrisostomos · LE FEU",
+      "title": "L'agneau qui cuit au bois depuis toujours",
+      "image": "ch-agneau-feu",
+      "alt": "Des côtelettes d'agneau grillées (paidakia), dorées et marquées par les braises, dressées sur une planche de bois rustique dans une taverne crétoise",
+      "intro": "L'autre moitié de la cuisine crétoise, c'est le feu et le berger. Dans les montagnes, on a toujours cuit l'agneau et le chevreau au bois : l'ofto, la viande rôtie lentement, et l'antikristo, des morceaux plantés sur des broches dressées autour des braises, « face au feu ». Chrisostomos, une institution de Chania, garde le four à bois allumé. Pas de fusion, pas de chichi : de la viande, du feu, du temps, et une carte qui n'a pas bougé depuis des décennies.",
+      "reco": "L'agneau ofto au four à bois si la carte du jour le permet, ou les paidakia — les côtelettes grillées sur les braises, dorées, juste du sel et l'os à ronger. Attention : ouvert du mercredi au dimanche seulement, à planifier dans la semaine. Prends un pichet de vin local, et le tsikoudia (le raki crétois) arrive en digestif à la fin, offert, toujours. C'est la table du dimanche, celle des familles qui parlent fort — exactement là qu'on veut être.",
+      "quote": "Le luxe, ici, ce n'est pas la sauce. C'est trois heures de braises et un agneau qui a brouté du thym sauvage toute sa vie.",
+      "via": null,
+      "poiRef": "chrisostomos",
+      "sources": [
+        { "creator": "Chrisostomos — site officiel", "url": "https://chrisostomos.gr/en/", "date": "2026-06" },
+        { "creator": "TripAdvisor — Chrisostomos, Chania", "url": "https://www.tripadvisor.com/Restaurant_Review-g189415-d1645781-Reviews-Chrisostomos-Chania_Town_Chania_Prefecture_Crete.html", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-quartier",
+      "kicker": "Evgonia · LA TABLE DE QUARTIER",
+      "title": "Là où Nektarios décide pour toi",
+      "image": "ch-poisson-grille",
+      "alt": "Deux assiettes d'une taverna crétoise : un poisson entier grillé et un poulpe grillé au charbon, servis avec des pommes de terre, des légumes grillés, de la salade et des quartiers de citron",
+      "intro": "Loin du port à touristes, rue Milonogianni, Evgonia est une taverne de quartier comme on les cherche : pas de menu plastifié, c'est l'arrivage du matin qui décide. Nektarios, le patron, te guide selon ce que les barques ont rapporté — le poulpe, le rouget, ce qui est frais aujourd'hui et pas hier. C'est la Crète des locaux, celle qui mange ce que la mer d'en face donne, le jour même, sans intermédiaire.",
+      "reco": "Laisse Nektarios choisir, c'est tout l'intérêt. Le poulpe grillé au charbon, le poisson du jour entier au ladolemono, une salade de tomates qui goûtent vraiment la tomate, des horta en accompagnement. La règle d'or de Chania, on la répète parce qu'elle sauve le voyage : le premier rang du port, jamais. Les vraies tables sont dans les ruelles, à dix minutes à pied, là où les prix sont honnêtes et le poisson, frais du matin.",
+      "quote": "Pas de carte. Tu demandes ce qui est bon aujourd'hui, et un gars qui s'appelle Nektarios te répond avec ce que la mer a donné. C'est ça, manger en Crète.",
+      "via": null,
+      "poiRef": "evgonia",
+      "sources": [
+        { "creator": "TripAdvisor — Evgonia, Chania", "url": "https://www.tripadvisor.com/Restaurant_Review-g189415-d6206686-Reviews-Evgonia-Chania_Town_Chania_Prefecture_Crete.html", "date": "2026-06" },
+        { "creator": "Maps — Evgonia, rue Milonogianni, Chania", "url": "https://www.google.com/maps/search/Evgonia+Milonogianni+Chania", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-balos",
+      "kicker": "Balos · LA MER",
+      "title": "Le lagon qu'on voit depuis l'espace",
+      "image": "ch-balos-lagoon",
+      "alt": "Le lagon de Balos à la pointe nord-ouest de la Crète, vu d'en haut : un cap de montagne aride qui plonge dans la mer, une eau peu profonde passant du turquoise laiteux au bleu profond, un liseré de sable pâle au pied des pentes",
+      "intro": "À la pointe nord-ouest de l'île, là où la route goudronnée abandonne, Balos s'ouvre : un lagon peu profond où l'eau passe du blanc au turquoise au bleu profond, un banc de sable tendu entre deux caps arides. C'est l'image qui hante l'imaginaire crétois — et pour une fois, la réalité écrase la carte postale. On y nage dans une eau tiède à hauteur de taille, le sable rosé sous les pieds, les montagnes nues tout autour.",
+      "reco": "Vas-y par le bateau depuis Kissamos (~15 € l'aller), pas par la piste de montagne défoncée : tu arrives reposé, et la vue de l'approche par la mer vaut à elle seule le billet. Pars tôt — vers midi, les bateaux de croisière déversent leur monde. Apporte de l'eau, de l'ombre et des chaussures d'eau pour les rochers : sur place, il n'y a presque rien, et c'est très bien comme ça.",
+      "quote": "On cherche l'eau cristalline partout où on va. Balos, c'est le genre d'endroit où on reste deux heures sans dire un mot, juste à flotter dans le turquoise.",
+      "via": null,
+      "poiRef": "balos",
+      "sources": [
+        { "creator": "Maps — Balos Lagoon, Crète", "url": "https://www.google.com/maps/search/Balos+Lagoon+Crete", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-elafonisi",
+      "kicker": "Elafonisi · LE SABLE ROSE",
+      "title": "L'eau où on flotte sans effort",
+      "image": "ch-elafonisi-rose",
+      "alt": "Vue aérienne d'une plage du sud-ouest crétois : du sable pâle bordé d'une eau translucide très peu profonde, vert émeraude sur les hauts-fonds, parsemée de rochers affleurants et de quelques baigneurs",
+      "intro": "À l'extrême sud-ouest, Elafonisi est une lagune d'un tout autre genre : du sable teinté de rose par des coquillages broyés, une eau si peu profonde et si calme qu'on traverse à pied jusqu'à l'îlot d'en face. C'est une réserve protégée — les dunes, les lys de mer, les tortues. Le contraste avec Balos est total : là-bas le sauvage et le minéral, ici le doux, le plat, le presque irréel.",
+      "reco": "Vas-y tôt le matin, avant les autocars (environ 1h de route depuis Chania à travers les gorges). Reste sur les sentiers balisés : c'est protégé, et emporter du sable rose est interdit. Une taverne en surplomb pour le dîner les pieds au sec, et le retour par la route panoramique de la côte sud si le cœur t'en dit — c'est l'un des plus beaux bouts d'asphalte de l'île.",
+      "quote": "Du sable rose et de l'eau à hauteur de cheville sur cent mètres. On marche dans la mer comme dans un rêve un peu kitsch, et franchement, on adore ça.",
+      "via": null,
+      "poiRef": "elafonisi",
+      "sources": [
+        { "creator": "Maps — Elafonisi Beach, Crète", "url": "https://www.google.com/maps/search/Elafonisi+Beach+Crete", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de filer vers Loutro : le poulpe d'Evgonia, l'agneau au feu de Chrisostomos, les horta et le fromage de montagne. Et l'ouest sauvage qu'on n'a pas eu le temps de tout faire — Falassarna face au soleil couchant (le bar Orange Blue sur la colline pour le dernier verre), la crique secrète de Seitan Limania nichée entre les rochers, le marché couvert d'Agora pour l'huile, le miel et les fromages. Le carnet a toutes les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": ["chrisostomos", "falassarna", "seitan-limania", "evgonia"],
+      "targets": ["falassarna"],
+      "thumb": "ch-agora",
+      "thumbAlt": "Un étal de marché crétois débordant de légumes frais — artichauts violets, poivrons rouges et verts, haricots — avec une pancarte de prix manuscrite",
+      "pills": [
+        { "poiRef": "falassarna", "link": "maps", "label": "Falassarna · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Maps — Marché couvert (Agora), Chania", "url": "https://www.google.com/maps/search/Municipal+Market+Agora+Chania+Crete", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "À Splantzia ou Halepa, jamais au front de port — 20% moins cher, dix minutes à pied de tout. Le Halepa Hotel (néoclassique, calme) ou l'Ionas Boutique Hotel dans la vieille ville. Et le coup de cœur : l'Harismari, un bâtiment vénitien de 1400, sept chambres uniques aux pierres d'origine, noté 9.8 — un musée où on dort. Réserver tôt, peu de chambres partout." },
+      { "label": "À table", "kinds": ["resto"], "footer": "Les horta et les boureki de Tamam dans les bains turcs, l'agneau au feu de bois de Chrisostomos (mer–dim), le poisson du jour qu'Evgonia choisit pour toi rue Milonogianni. Et les loukoumades au miel de Ntourountous, Place 1866, pour la première bouchée. Règle d'or : le premier rang du port, jamais." },
+      { "label": "La mer & les criques", "kinds": ["plage"], "footer": "Balos par le bateau de Kissamos (le turquoise, tôt le matin). Elafonisi et son sable rose au sud-ouest. Falassarna pour le coucher de soleil. Seitan Limania, la crique secrète entre les rochers. Et Nea Chora à dix minutes à pied pour faire des longueurs avant le café." },
+      { "label": "À voir, si ça te tente", "kinds": ["sight"], "footer": "L'histoire reste le décor : le quartier Splantzia et ses couteliers rue Maxaradika, la colline des tombeaux Venizelos au coucher du soleil (le spot des locaux, pas le phare). Et les vignes de l'arrière-pays — Manousakis, Karavitakis — pour la dégustation et le tsikoudia." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le sas est passé",
+    "body": "Huit nuits pour larguer le décalage et apprendre le rythme — l'herbe de Tamam, le feu de Chrisostomos, le turquoise de Balos, le miel de la Place 1866. Les {count} lieux de Chania — où dormir, où manger, où se baigner — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochaine base : Loutro, le village sans route accroché à la côte sud, accessible seulement par la mer.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/crete/"
+  }
+}
