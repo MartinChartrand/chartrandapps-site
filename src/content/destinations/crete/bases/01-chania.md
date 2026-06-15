@@ -60,7 +60,7 @@ accomExtras:
   -
     name: Harismari Cozy Hotel
     tier: gem
-    price: ~95–130 €/nuit
+    price: ~95–130 €/nuit (~CAD 155–210)
     blurb: 'Bâtiment vénitien de 1400, 7 chambres uniques avec meubles anciens et pierres d''origine. Note 9.8/10 — un musée vivant.'
     image: accom-3
     links:
