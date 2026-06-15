@@ -155,8 +155,16 @@
     "region": "Chania",
     "story": "Chrisostomos Orfanoudakis a jamais mis les pieds dans une école de cuisine — il a appris en regardant, pis il s'entête à faire les affaires comme du monde. L'agneau pis la chèvre, il monte les chercher à Sfakia, dans les montagnes. Le pain pis l'ofto — la viande cuite lentement — c'est au feu de bois, pas de raccourci. Commande la sfakiani pita au miel, pis les escargots si t'es game. C'est pas un piège à touristes du vieux port : c'est la place où un gars cuisine ce qu'il se ferait à lui-même.",
     "sources": [
-      { "creator": "Helen Iatrou (National Geographic)", "url": "https://www.nationalgeographic.com/travel/article/a-food-guide-to-chania-crete", "date": "2026-05-03" },
-      { "creator": "Lori Ann Griffith (Diary of a Gen-X Traveler)", "url": "https://thegenxtravels.com/2023/09/29/revisiting-old-town-chania-crete-greece-2023/", "date": "2023-09-29" }
+      {
+        "creator": "Helen Iatrou (National Geographic)",
+        "url": "https://www.nationalgeographic.com/travel/article/a-food-guide-to-chania-crete",
+        "date": "2026-05-03"
+      },
+      {
+        "creator": "Lori Ann Griffith (Diary of a Gen-X Traveler)",
+        "url": "https://thegenxtravels.com/2023/09/29/revisiting-old-town-chania-crete-greece-2023/",
+        "date": "2023-09-29"
+      }
     ],
     "verifiedAt": "2026-06-13",
     "approvedBy": "human"
@@ -208,7 +216,7 @@
       "eat"
     ],
     "name": "Ntourountous (loukoumades)",
-    "blurb": "",
+    "blurb": "Loukoumades au miel chaud, frits minute, sur la Place 1866. Recette familiale, cinq euros la portion — la première bouchée qui dit qu'on est en Crète.",
     "signature": "",
     "image": null,
     "price": {
@@ -246,7 +254,7 @@
       "see"
     ],
     "name": "Splantzia (vieille ville)",
-    "blurb": "",
+    "blurb": "Le vrai cœur de la vieille ville, derrière le port : ruelles fraîches à l'ombre, cours intérieures cachées et les couteliers de la rue Maxaradika qui forgent encore à la main.",
     "signature": "",
     "image": null,
     "price": {
@@ -284,7 +292,7 @@
       "see"
     ],
     "name": "Profiti Ilia (Tombeaux Venizelos)",
-    "blurb": "",
+    "blurb": "La colline des tombeaux de Venizelos, au-dessus de la ville. Le spot des locaux pour le coucher de soleil sur le port et les Montagnes Blanches — jamais le phare, toujours ici.",
     "signature": "",
     "image": null,
     "price": {
@@ -322,7 +330,7 @@
       "see"
     ],
     "name": "Manousakis Winery",
-    "blurb": "",
+    "blurb": "Domaine familial dans les collines au sud de Chania : cépages crétois et rhônais, dégustation dans les vignes et tsikoudia maison en digestif. Une demi-journée au calme.",
     "signature": "",
     "image": null,
     "price": {
@@ -360,7 +368,7 @@
       "see"
     ],
     "name": "Karavitakis Winery",
-    "blurb": "",
+    "blurb": "Petit domaine réputé de la région de Kissamos, sur la route de l'ouest : vins de cépages locaux, accueil chaleureux et dégustation à l'ombre avant ou après la plage.",
     "signature": "",
     "image": null,
     "price": {
@@ -398,7 +406,7 @@
       "do"
     ],
     "name": "Nea Chora",
-    "blurb": "",
+    "blurb": "La plage de la ville, à dix minutes à pied du port. Du sable, des tavernas de poisson les pieds dans l'eau, et assez de place pour faire des longueurs avant le café du matin.",
     "signature": "",
     "image": null,
     "price": {
