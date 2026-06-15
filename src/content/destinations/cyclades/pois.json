@@ -2275,5 +2275,947 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "fol-katergo",
+    "base": "folegandros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Katergo",
+    "blurb": "La plus belle plage de l'île, et la plus sauvage : des galets blancs, une eau émeraude cristalline au pied de falaises à pic, deux îlots qu'on rejoint à la nage. Aucun service — on apporte tout. Accessible seulement en bateau-taxi depuis le port (10 min) ou par un sentier.",
+    "signature": "L'eau émeraude au pied des falaises, accessible en bateau",
+    "image": "fol-katergo",
+    "price": {
+      "range": "accès libre · bateau ~10 € A/R depuis Karavostasis",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.594798,
+      "lng": 24.94913,
+      "source": "Nominatim (Κάτεργο beach, display_name vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Katergo+Beach+Folegandros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "folegandros.gr — Katergo",
+        "url": "https://www.folegandros.gr/en/list-en/katergo-beach/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greeka — Katergo",
+        "url": "https://www.greeka.com/cyclades/folegandros/beaches/katergo/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-agali",
+    "base": "folegandros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Agali",
+    "blurb": "La plage principale, sable fin et eau turquoise calme, « embrassée » par les collines qui la protègent du Meltemi (agali = étreinte). Des tavernes les pieds dans le sable, et c'est d'ici que partent les bateaux vers les criques voisines. La base balnéaire de l'île.",
+    "signature": "La crique abritée, tavernes dans le sable, hub des bateaux",
+    "image": "fol-agali",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.631,
+      "lng": 24.887,
+      "source": "interpolé baie d'Agali (côte ouest, proche Agios Nikolaos ; à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Agali+Beach+Folegandros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Take Me To Greece — Agali",
+        "url": "https://takemetogreece.com/agali-beach-folegandros/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "folegandros.com — beaches",
+        "url": "https://www.folegandros.com/beaches/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-agios-nikolaos",
+    "base": "folegandros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "mid",
+    "name": "Agios Nikolaos",
+    "blurb": "La crique face à Agali, la seule avec des tamaris pour l'ombre et une taverne au bord de l'eau. On y va en bateau depuis la jetée d'Agali (5 min) ou à pied. Eau cristalline, calme, fond rocheux à snorkeler. Abritée du Meltemi.",
+    "signature": "La crique ombragée, accessible en bateau depuis Agali",
+    "image": null,
+    "price": {
+      "range": "accès libre · bateau ~3 € depuis Agali",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.630225,
+      "lng": 24.884526,
+      "source": "Nominatim (Άγιος Νικόλαος beach, vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Agios+Nikolaos+Beach+Folegandros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Take Me To Greece — beaches",
+        "url": "https://takemetogreece.com/folegandros-beaches/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Agios Nikolaos Beach",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g189426-d6864775-Reviews-Agios_Nikolaos_Beach-Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-livadaki",
+    "base": "folegandros",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "mid",
+    "name": "Livadaki",
+    "blurb": "La rivale de Katergo : galets blancs, eau turquoise d'une transparence totale, falaises tout autour, zéro service. Quelques oliviers pour l'ombre. Bateau depuis Agali (15-20 min) ou sentier d'Ano Meria. Quand Katergo est bondée, on vient ici.",
+    "signature": "L'autre crique émeraude, encore plus sauvage",
+    "image": null,
+    "price": {
+      "range": "accès libre · bateau ~6 € depuis Agali",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.636632,
+      "lng": 24.85959,
+      "source": "Nominatim (Λιβαδάκι beach, vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Livadaki+Beach+Folegandros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Take Me To Greece — beaches",
+        "url": "https://takemetogreece.com/folegandros-beaches/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Allover Greece — Livadaki",
+        "url": "https://www.allovergreece.com/Beaches/Descr/25/1106/en",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-sinadisi",
+    "base": "folegandros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Sinadisi",
+    "blurb": "La taverne familiale d'Ano Meria qui fait la matsata à la main depuis des générations : les pâtes roulées et coupées au couteau chaque matin, cuites dans le bouillon d'un ragoût de lapin ou de coq, couvertes de fromage sec râpé. La table des locaux, hors du circuit touristique.",
+    "signature": "La matsata roulée à la main, au lapin et au coq",
+    "image": "fol-matsata",
+    "price": {
+      "range": "~12–16 €/plat",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.648123,
+      "lng": 24.868518,
+      "source": "Nominatim (Η Συνάντηση / Sinadisi, Ano Meria — restaurant vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sinadisi+Ano+Meria+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — restaurants Ano Meria",
+        "url": "https://www.greeka.com/cyclades/folegandros/eat-drink/restaurants/ano-meria/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Travel.gr — Folegandros food",
+        "url": "https://www.travel.gr/en/food-and-drink-en/folegandros-a-feast-of-authentic-greek-island-life/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-mimis",
+    "base": "folegandros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "O Mimis",
+    "blurb": "Huit tables, une grand-mère aux fourneaux, des poulpes qui sèchent sur la corde dehors : la matsata la plus viscéralement locale d'Ano Meria. On entre comme chez quelqu'un. La pâte maison arrive en sauce rouge au coq, sous le fromage râpé. La patronne donne même des cours de cuisine.",
+    "signature": "La matsata de la grand-mère, les poulpes qui sèchent dehors",
+    "image": null,
+    "price": {
+      "range": "abordable",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.6465,
+      "lng": 24.87,
+      "source": "interpolé village d'Ano Meria (proche Sinadisi ; à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.o-mimis-folegandros.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/O+Mimis+Ano+Meria+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "O Mimis (site officiel)",
+        "url": "https://www.o-mimis-folegandros.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "IfTheBagFits — Granny's Matsata",
+        "url": "https://ifthebagfits.com/2015/08/30/grannys-matsata/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-to-goupi",
+    "base": "folegandros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "To Goupi",
+    "blurb": "Un mezedopoleio de quartier sur une place de Chora : peu de tables, un menu ultra-court écrit au crayon, le chevreau au citron et la fava chaude. Pas de nappes, pas de carte plastifiée — la cuisine du jour, et l'addition sous 40 € à deux, vin compris.",
+    "signature": "Le chevreau au citron et la fava, menu du jour",
+    "image": null,
+    "price": {
+      "range": "~15–20 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.6281,
+      "lng": 24.9197,
+      "source": "interpolé Chora (place centrale ; à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/To+Goupi+Chora+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — To Goupi",
+        "url": "https://www.tripadvisor.com/ShowUserReviews-g2183458-d2244018-r503426883-To_Goupi-Chora_Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Take Me To Greece — Chora",
+        "url": "https://takemetogreece.com/chora-folegandros/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-psaromiligkas",
+    "base": "folegandros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "O Psaromiligkas",
+    "blurb": "La taverne de pêcheur d'Agali, les pieds dans le sable, terrasse sur la crique turquoise. Le skaros (poisson-perroquet des Cyclades) grillé entier, la salade de poulpe, et de la pastèque offerte en fin de repas. À privilégier le midi, le poisson du jour bien frais.",
+    "signature": "Le skaros grillé, les pieds dans le sable d'Agali",
+    "image": null,
+    "price": {
+      "range": "~15–25 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.6312,
+      "lng": 24.8868,
+      "source": "interpolé plage d'Agali (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Psaromiligkas+Agali+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Psaromiligkas",
+        "url": "https://www.greeka.com/cyclades/folegandros/eat-drink/restaurants/agali/psaromiligkas/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Take Me To Greece — Agali",
+        "url": "https://takemetogreece.com/agali-beach-folegandros/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-agios-nik-taverna",
+    "base": "folegandros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Taverna Agios Nikolaos",
+    "blurb": "La taverne qui vient te chercher en bateau : le proprio embarque ses clients depuis la jetée d'Agali (5 min) jusqu'à sa terrasse au ras de la plage d'Agios Nikolaos. Crevettes, poulpe et calmars du jour, raki maison, et l'eau cristalline devant. L'accès fait partie du repas.",
+    "signature": "On t'embarque en bateau pour manger le poisson du jour",
+    "image": null,
+    "price": {
+      "range": "~15–25 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.630748,
+      "lng": 24.884796,
+      "source": "Nominatim (Agios Nikolaos Taverna — restaurant vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.agiosnikolaos-folegandros.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Taverna+Agios+Nikolaos+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Taverna Agios Nikolaos (site officiel)",
+        "url": "https://www.agiosnikolaos-folegandros.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Agios Nikolaos Taverna",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g189426-d4742330-Reviews-Agios_Nikolaos_Taverna_Folegandros-Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-dal-capo",
+    "base": "folegandros",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Dal Capo del Porto",
+    "blurb": "La table du port de Karavostasis, parfaite pour le premier ou le dernier soir : des anchois frits croustillants, du poulpe grillé tendre, des pâtes aux crevettes, face à l'Égée au coucher du soleil. Bon rapport qualité-prix, ambiance décontractée, les ferries en vue.",
+    "signature": "Les anchois frits et le poulpe, coucher de soleil sur le port",
+    "image": null,
+    "price": {
+      "range": "~18–22 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.6125,
+      "lng": 24.946,
+      "source": "interpolé port de Karavostasis (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dal+Capo+del+Porto+Karavostasis+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Dal Capo del Porto",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g1950079-d8441461-Reviews-Dal_Capo_del_porto-Karavostasis_Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Emma VlogTrotter — restos Folegandros",
+        "url": "https://www.vlogtrotter.com/fr/blog_les-7-meilleurs-restaurants-de-folegandros-ou-manger-dans-la-chora-et-ailleurs_117",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-fata-morgana",
+    "base": "folegandros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Fata Morgana Studios",
+    "blurb": "Quatorze studios cycladiques étagés en amphithéâtre sur la falaise, une piscine suspendue orientée plein ouest pour le coucher du soleil, et l'hôtesse Fani qui apporte le petit-déjeuner avec des produits locaux. À cinq minutes à pied des tavernes de Chora, dans le calme. Le sweet spot.",
+    "signature": "Studios sur la falaise, piscine suspendue face au couchant",
+    "image": null,
+    "price": {
+      "range": "~130–200 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.628,
+      "lng": 24.9185,
+      "source": "interpolé Chora, flanc ouest (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.fatamorgana.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Fata+Morgana+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Fata Morgana (site officiel)",
+        "url": "https://www.fatamorgana.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Fata Morgana",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g2183458-d621864-Reviews-Fata_Morgana-Chora_Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-anemomilos",
+    "base": "folegandros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Anemomilos Boutique",
+    "blurb": "Le boutique-hôtel le mieux noté de l'île : des chambres blanches et nettes suspendues au bord de la falaise, à cinq minutes à pied de Chora. Les chambres « Blue Line » donnent à pic sur la mer — un verre de vin local sur la terrasse au coucher du soleil, et c'est une soirée dont on parle longtemps. Piscine, kitchenette.",
+    "signature": "Les chambres au bord du précipice, le coucher de soleil",
+    "image": null,
+    "price": {
+      "range": "~120–200 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.628996,
+      "lng": 24.9214,
+      "source": "Nominatim (Anemomilos Apartments — vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Anemomilos+Boutique+Hotel+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Anemomilos Boutique Hotel",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g189426-d274215-Reviews-Anemomilos_Boutique_Hotel-Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-paraporti",
+    "base": "folegandros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Paraporti Hotel",
+    "blurb": "Des studios cycladiques en plein cœur de Chora, sans voitures : on sort directement dans les ruelles, on arrive aux tavernes en deux minutes. Balcon avec vue sur les toits blancs et l'Égée, kitchenette, café du matin sur la terrasse pendant que le village s'éveille. La meilleure position pour flâner.",
+    "signature": "Au cœur de Chora sans voitures, le café du matin sur les toits",
+    "image": null,
+    "price": {
+      "range": "~120–200 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.6282,
+      "lng": 24.92,
+      "source": "interpolé centre de Chora (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.paraportihotel.com/folegandros/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Paraporti+Hotel+Chora+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Paraporti Hotel (site officiel)",
+        "url": "https://www.paraportihotel.com/folegandros/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Paraporti Hotel",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g2183458-d4893298-Reviews-Paraporti_Hotel-Chora_Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-vardia-bay",
+    "base": "folegandros",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Vardia Bay Studios",
+    "blurb": "L'option plage : des studios sur la péninsule du port, à vingt mètres de la plage de Vardia, avec terrasses panoramiques sur la mer et les ferries qui arrivent en contrebas. Karavostasis est plus calme que Chora le soir ; le petit-déjeuner se prend sur le balcon, face à l'eau. On se lève et on plonge.",
+    "signature": "À vingt mètres de la plage, vue sur le port et les ferries",
+    "image": null,
+    "price": {
+      "range": "~100–150 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.615681,
+      "lng": 24.950016,
+      "source": "Nominatim (Vardia Bay Studios, Karavostasis — vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://vardiabay.com/accommodation.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vardia+Bay+Studios+Karavostasis+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Vardia Bay Studios (site officiel)",
+        "url": "https://vardiabay.com/accommodation.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Vardia Bay Studios",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1950079-d496944-Reviews-Vardia_Bay_Studios-Karavostasis_Folegandros_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-chora",
+    "base": "folegandros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "La Chora & ses places",
+    "blurb": "Une des plus belles Chora des Cyclades, sur la falaise, sans voitures au cœur : la vie sociale se déroule sur cinq places ombragées qui se suivent comme des salons à ciel ouvert (Pounda pour le coucher de soleil, Dounavis et son platane centenaire, Piatsa). Les tables débordent sous les bougainvilliers, et ça ne se vide pas avant minuit.",
+    "signature": "Cinq places ombragées en enfilade, sans voitures",
+    "image": "fol-chora",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.628121,
+      "lng": 24.919657,
+      "source": "Nominatim (Χώρα Folegandros, village — vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Chora+Folegandros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Take Me To Greece — Chora",
+        "url": "https://takemetogreece.com/chora-folegandros/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greeka — Chora Folegandros",
+        "url": "https://www.greeka.com/cyclades/folegandros/sightseeing/kastro/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-kastro",
+    "base": "folegandros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": "gem",
+    "name": "Le Kastro médiéval",
+    "blurb": "Le cœur de l'île-prison : un quartier vénitien de 1215 où les murs des maisons forment les remparts, perché à deux cents mètres au-dessus de la mer, accessible par une seule porte. Côté nord, la pierre brute n'a jamais été chaulée pour se fondre dans la falaise et échapper aux pirates. Habité sans interruption depuis huit cents ans.",
+    "signature": "Les maisons qui SONT les remparts, à pic au-dessus de la mer",
+    "image": "fol-village",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.6285,
+      "lng": 24.9185,
+      "source": "interpolé quartier nord-ouest de Chora (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kastro+Folegandros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Kastro Folegandros",
+        "url": "https://www.greeka.com/cyclades/folegandros/sightseeing/kastro/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Alosanthos — histoire du Kastro",
+        "url": "https://alosanthos.gr/en/information.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-panagia",
+    "base": "folegandros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "mid",
+    "name": "Église Panagia",
+    "blurb": "L'église blanche aux dômes qui domine Chora, au bout d'une montée en lacets d'un quart d'heure depuis la place Pounda. La vue embrasse la mer des deux côtés de l'île. La nuit du 14 au 15 août, une procession aux lanternes y monte pour la plus grande fête de l'année.",
+    "signature": "La montée en lacets et la vue sur les deux mers",
+    "image": null,
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.63022,
+      "lng": 24.925583,
+      "source": "Nominatim (Παναγία church — vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Panagia+Church+Folegandros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Panagia Folegandros",
+        "url": "https://www.greeka.com/cyclades/folegandros/sightseeing/folegandros-panagia-church/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-folklore",
+    "base": "folegandros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "mid",
+    "name": "Musée folklorique d'Ano Meria",
+    "blurb": "Le premier éco-musée de Grèce (1988), à Ano Meria : une ferme themonia du XVIIe reconstruite avec ses murs de pierre brute, son pressoir à vin, son four à pain et sa citerne taillée comme une tombe. Une demi-heure pour comprendre comment on vivait sur ce caillou — puis on mange la matsata à côté.",
+    "signature": "La ferme autosuffisante de l'île, le 1er éco-musée de Grèce",
+    "image": null,
+    "price": {
+      "range": "entrée libre (donation)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.641665,
+      "lng": 24.887801,
+      "source": "Nominatim (Folklore museum, Ano Meria — vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Folklore+Museum+Ano+Meria+Folegandros"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Folklore Museum Folegandros",
+        "url": "https://www.greeka.com/cyclades/folegandros/sightseeing/folegandros-ecological-folklore-museum/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "fol-karavostasis",
+    "base": "folegandros",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Karavostasis — le port",
+    "blurb": "Le seul point d'entrée de l'île, sans aéroport : un petit port à un seul quai, quelques cafés au bord de l'eau, et le bus qui attend les ferries pour monter à Chora en dix minutes. Les falaises se dressent derrière le village — la promesse de l'île avant même d'avoir posé le pied à terre.",
+    "signature": "L'arrivée par la mer, le bus qui monte à Chora",
+    "image": null,
+    "price": {
+      "range": "—",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.6125,
+      "lng": 24.946,
+      "source": "interpolé port de Karavostasis (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Karavostasis+Folegandros"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Folegandros.app — how to get there",
+        "url": "https://folegandros.app/how-to-get-there",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Aegean Islands — Karavostasis",
+        "url": "https://www.aegeanislands.gr/pois/folegandros-karavostasis-en/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]

@@ -1,0 +1,144 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée — l'île au bout de la mer",
+      "body": "Folegandros n'a pas d'aéroport : on n'y arrive que par la mer. Le ferry entre dans le petit port de Karavostasis, les falaises se dressent derrière, et le bus monte en dix minutes jusqu'à Chora, perchée tout en haut. C'est une des plus petites des Cyclades, et longtemps un lieu d'exil — l'île d'où l'on ne pouvait pas partir. C'est exactement ce qui l'a gardée intacte.",
+      "focusPoi": "fol-karavostasis",
+      "zoom": 13,
+      "targets": ["fol-karavostasis", "fol-chora"],
+      "thumb": "fol-village",
+      "thumbAlt": "Une ruelle pavée du quartier médiéval du Kastro de Folegandros, maisons blanches aux balustrades bleues et géraniums rouges",
+      "poiRef": "fol-karavostasis",
+      "sources": [
+        { "creator": "Folegandros.app — how to get there", "url": "https://folegandros.app/how-to-get-there", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme de l'île",
+      "body": "Chora se vit à pied : pas de voitures au cœur, cinq petites places ombragées qui se suivent comme des salons à ciel ouvert, et la vie qui ne s'éteint pas avant minuit. Le matin, un café sur le marbre ; puis le bus ou le bateau vers une crique d'eau émeraude, ou vers Ano Meria pour la matsata. Quand on ne peut pas partir, on apprend à tout faire soi-même — et ça se goûte.",
+      "focusPoi": "fol-katergo",
+      "zoom": 12,
+      "targets": ["fol-katergo", "fol-agali"],
+      "thumb": "fol-katergo",
+      "thumbAlt": "La crique de Katergo : eau turquoise limpide sur une plage de sable au pied d'une grande falaise grise",
+      "poiRef": "fol-katergo",
+      "sources": [
+        { "creator": "Take Me To Greece — Chora Folegandros", "url": "https://takemetogreece.com/chora-folegandros/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-matsata",
+      "kicker": "Ano Meria · LA MATSATA",
+      "title": "Les pâtes qu'on roule à la main",
+      "image": "fol-matsata",
+      "alt": "Une assiette de poulet aux hilopites (petites pâtes carrées coupées à la main) dans une sauce crémeuse, avec des poivrons rouges, des oignons et une tomate autour, et des pâtes crues à côté",
+      "intro": "Sur une île d'où l'on ne pouvait pas partir, on a appris à tout faire soi-même — à commencer par les pâtes. La matsata, c'est de la farine, de l'eau et de l'huile, étalée puis pliée et coupée au couteau chaque matin, cuite fraîche dans le bouillon d'un ragoût de lapin ou de coq, sous une pluie de fromage sec râpé. Elle n'existe qu'ici. À Ano Meria, le village agricole étalé à l'ouest, on la fait à la main depuis des générations.",
+      "reco": "Chez Sinadisi ou chez Mimis — huit tables, la grand-mère aux fourneaux, les poulpes qui sèchent sur la corde dehors. On entre comme chez quelqu'un, on commande la matsata au lapin ou au coq. Avant de monter, le Musée folklorique d'Ano Meria, premier éco-musée de Grèce, montre la ferme autosuffisante qui explique tout : le pressoir, le four à pain, la citerne taillée dans le roc.",
+      "quote": "Quand la mer est ta prison, tu fais ton pain, ton vin et tes pâtes. La matsata, c'est l'autosuffisance devenue plat de fête.",
+      "via": null,
+      "poiRef": "fol-sinadisi",
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — matsata Folegandros", "url": "https://www.greekgastronomyguide.gr/en/item/matsata-folegandros/", "date": "2026-06" },
+        { "creator": "Travel.gr — Folegandros food", "url": "https://www.travel.gr/en/food-and-drink-en/folegandros-a-feast-of-authentic-greek-island-life/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-katergo",
+      "kicker": "Katergo · LE BAIN",
+      "title": "L'eau émeraude au pied de la falaise",
+      "image": "fol-katergo",
+      "alt": "La crique de Katergo à Folegandros : une eau turquoise et limpide qui vient mourir sur une plage de sable clair, au pied d'une immense falaise de roche grise striée",
+      "intro": "La plus belle plage de l'île ne s'atteint qu'en bateau. Dix minutes de taxiboat depuis le port, et on débarque à Katergo : des galets blancs, une eau émeraude d'une transparence absolue, une immense falaise grise qui plonge dans la mer, deux îlots rocheux qu'on rejoint à la nage. Aucun service, aucune ombre — on apporte tout, et on a la crique presque pour soi.",
+      "reco": "Le taxiboat part de Karavostasis (~10 €), ou l'on y descend à pied par un sentier depuis Livadi (30-40 min, bonnes chaussures). L'eau pareille, plus sauvage encore : Livadaki, en bateau depuis Agali. Et le refuge des jours de grand Meltemi : Ambeli, sur la côte nord-ouest, abritée du vent.",
+      "quote": "Une crique fermée par les falaises, une eau qui ne ressemble à rien, et le silence. Le genre d'endroit qu'on garde pour soi et dont on parle à voix basse.",
+      "via": null,
+      "poiRef": "fol-katergo",
+      "sources": [
+        { "creator": "folegandros.gr — Katergo", "url": "https://www.folegandros.gr/en/list-en/katergo-beach/", "date": "2026-06" },
+        { "creator": "Greeka — Katergo", "url": "https://www.greeka.com/cyclades/folegandros/beaches/katergo/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-agali",
+      "kicker": "Agali · LA TABLE DE LA MER",
+      "title": "La taverne qui vient te chercher en bateau",
+      "image": "fol-agali",
+      "alt": "La baie d'Agali à Folegandros vue d'en haut : une anse d'eau turquoise, quelques maisons blanches éparpillées sur les pentes rocheuses et arides qui descendent vers la mer",
+      "intro": "Agali est la crique-base : une anse de sable turquoise abritée du vent par les collines, des tavernes les pieds dans le sable, et le point de départ des bateaux vers les criques voisines. En face, Agios Nikolaos — la seule crique ombragée de tamaris, avec une taverne au ras de l'eau. Et le détail qui dit tout de l'île : le proprio vient te chercher en bateau depuis la jetée d'Agali.",
+      "reco": "Cinq minutes de barque jusqu'à Agios Nikolaos, et on mange le poisson du jour — crevettes, poulpe, calmars — avec le raki maison et l'eau cristalline devant. Sur Agali même, Psaromiligkas grille le skaros entier, les pieds dans le sable. Au port, pour le premier ou le dernier soir, Dal Capo del Porto : anchois frits et coucher de soleil sur l'Égée.",
+      "quote": "On t'embarque pour aller manger. Le repas commence sur l'eau avant même d'arriver à la table — c'est ça, le luxe de Folegandros.",
+      "via": null,
+      "poiRef": "fol-agios-nik-taverna",
+      "sources": [
+        { "creator": "Taverna Agios Nikolaos (site officiel)", "url": "https://www.agiosnikolaos-folegandros.gr/", "date": "2026-06" },
+        { "creator": "Greeka — Psaromiligkas Agali", "url": "https://www.greeka.com/cyclades/folegandros/eat-drink/restaurants/agali/psaromiligkas/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-chora",
+      "kicker": "Chora · LES PLACES",
+      "title": "Cinq places, pas une voiture, et le temps qui s'arrête",
+      "image": "fol-chora",
+      "alt": "Le village de Chora de Folegandros au crépuscule : les maisons blanches groupées sur le flanc d'une colline aride, sous un ciel qui passe du bleu profond à l'orangé du couchant",
+      "intro": "Le soir, tout converge vers la Chora. Une des plus belles des Cyclades : perchée sur la falaise, sans voitures au cœur, sa vie sociale se déroule sur cinq places ombragées qui s'enchaînent comme des salons à ciel ouvert. Sous le platane centenaire de Dounavis, sous les bougainvilliers de Piatsa, les tables des tavernes débordent sur le marbre, et ça ne se vide pas avant minuit.",
+      "reco": "On s'installe une fois et on ne bouge plus. La fava et le chevreau au citron chez To Goupi, menu du jour écrit au crayon ; le coucher de soleil depuis la place Pounda, parfois en musique. Le matin, la kalasouna chaude — la tourte au fromage souroto de l'île — à la boulangerie. Et la karpouzenia, l'étrange et addictive tarte à la pastèque au miel et au sésame, en dessert.",
+      "quote": "Pas de voitures, pas de course, pas de destination obligatoire. On marche d'une place à l'autre, un verre à la main, et c'est tout le programme. Le slow travel à l'état pur.",
+      "via": null,
+      "poiRef": "fol-chora",
+      "sources": [
+        { "creator": "Take Me To Greece — Chora Folegandros", "url": "https://takemetogreece.com/chora-folegandros/", "date": "2026-06" },
+        { "creator": "TripAdvisor — To Goupi", "url": "https://www.tripadvisor.com/ShowUserReviews-g2183458-d2244018-r503426883-To_Goupi-Chora_Folegandros_Cyclades_South_Aegean.html", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-kastro",
+      "kicker": "Le Kastro · L'ÎLE-PRISON",
+      "title": "Le village qui s'est fait forteresse",
+      "image": "fol-kastro",
+      "alt": "Une femme accoudée à un muret blanchi au bord de la falaise de Chora à Folegandros, regardant la mer immense au crépuscule, une chapelle blanche perchée sur le roc à droite",
+      "intro": "Au cœur de Chora, le Kastro : un quartier médiéval de 1215 où les murs des maisons forment les remparts, perché à deux cents mètres au-dessus de la mer, accessible par une seule porte. Côté nord, la pierre est restée brute, jamais chaulée, pour se fondre dans la falaise et échapper aux pirates venus de la mer. C'est la réponse de Folegandros à la grande question des Cyclades : quand on ne peut pas partir, le village devient l'univers entier — et on le rend imprenable.",
+      "reco": "Une demi-heure suffit pour s'y perdre, entre les escaliers fleuris et les minuscules cours. Puis la montée de quinze minutes jusqu'à l'église Panagia, qui domine l'île : la vue embrasse la mer des deux côtés. Le 15 août, une procession aux lanternes y monte — la plus grande fête de l'année.",
+      "quote": "Huit cents ans dans la même forteresse, à regarder la mer qui t'enferme et te nourrit. Folegandros a fait de la clôture une œuvre d'art.",
+      "via": null,
+      "poiRef": "fol-kastro",
+      "sources": [
+        { "creator": "Greeka — Kastro Folegandros", "url": "https://www.greeka.com/cyclades/folegandros/sightseeing/kastro/", "date": "2026-06" },
+        { "creator": "Alosanthos — histoire du Kastro", "url": "https://alosanthos.gr/en/information.html", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant le prochain ferry : la matsata d'Ano Meria, le poisson d'Agali, la kalasouna et les fromages de l'île, la karpouzenia. Et les criques — Katergo et Livadaki en bateau, Agali et Agios Nikolaos pour la table, Ambeli quand le vent se lève. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": ["fol-sinadisi", "fol-katergo", "fol-agios-nik-taverna", "fol-chora"],
+      "targets": ["fol-katergo"],
+      "thumb": "fol-matsata",
+      "thumbAlt": "Une assiette de pâtes coupées à la main avec du poulet en sauce — la matsata de Folegandros",
+      "pills": [
+        { "poiRef": "fol-sinadisi", "link": "maps", "label": "Sinadisi · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — matsata Folegandros", "url": "https://www.greekgastronomyguide.gr/en/item/matsata-folegandros/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Sur les falaises de Chora : Fata Morgana (studios en amphithéâtre, piscine face au couchant) ou Anemomilos (les chambres au bord du précipice). Au cœur du village sans voitures, le Paraporti. Et l'option plage, à vingt mètres de l'eau au port, Vardia Bay Studios. Réserver tôt — l'île est petite et courue." },
+      { "label": "À table", "kinds": ["resto"], "footer": "La matsata à la main d'Ano Meria (Sinadisi, Mimis). Le poisson d'Agali, les pieds dans le sable (Psaromiligkas) ou à Agios Nikolaos, où la taverne vient te chercher en bateau. Les mezedes du soir sur les places de Chora (To Goupi). Et le port au coucher du soleil (Dal Capo del Porto)." },
+      { "label": "La mer & les criques", "kinds": ["plage"], "footer": "Katergo, l'eau émeraude au pied des falaises (en bateau). Agali, la crique-base abritée du vent, avec ses tavernes. Agios Nikolaos, la seule ombragée. Et Livadaki, encore plus sauvage. Ambeli quand le Meltemi souffle fort." },
+      { "label": "À voir & faire", "kinds": ["sight", "activity"], "footer": "Le Kastro médiéval, où les maisons sont les remparts. Les places ombragées de Chora. La montée à l'église Panagia pour la vue. Et le Musée folklorique d'Ano Meria, la ferme autosuffisante de l'île." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le cercle continue",
+    "body": "Troisième île, troisième réponse : ici, la contrainte du rocher a été poussée à l'absolu — l'île-prison qui s'est fait forteresse et a tout appris à faire elle-même, jusqu'à ses pâtes. Les {count} lieux de Folegandros — où dormir, où manger, où se baigner — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochain ferry : Amorgos.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/cyclades/"
+  }
+}
