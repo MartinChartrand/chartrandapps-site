@@ -69,7 +69,7 @@
         "date": "2026-06"
       }
     ],
-    "tilesIntro": "Quatre îles sur cinq sont écrites à fond ; Santorin clôt le cercle bientôt.",
+    "tilesIntro": "Les cinq îles sont écrites à fond — le cercle autour de Délos est complet.",
     "tiles": [
       {
         "base": "syros",
@@ -103,7 +103,8 @@
         "base": "santorin",
         "kicker": "Chapitre 5 · 4 nuits",
         "title": "La catastrophe comme terroir",
-        "teaser": "La caldeira, l'éruption qui a tout détruit et tout créé : l'Assyrtiko, la fava, le tomataki poussés sur la cendre volcanique. La finale du cercle."
+        "teaser": "L'éruption a tout détruit et tout concentré : l'Assyrtiko des vignes non greffées, la fava, le tomataki, nés de la cendre. On descend manger le poisson sous les falaises rouges d'Ammoudi. La finale du cercle.",
+        "image": "santorin-ammoudi"
       }
     ]
   }

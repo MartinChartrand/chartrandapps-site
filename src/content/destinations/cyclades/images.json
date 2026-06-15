@@ -814,5 +814,173 @@
       "verdict": "match",
       "checkedAt": "2026-06-15"
     }
+  },
+  {
+    "id": "santorin-vines",
+    "slot": "santorin-vines",
+    "base": "santorin",
+    "role": "photo",
+    "file": "santorin-vines.jpg",
+    "alt": "Des vignes basses et touffues poussant à même un sol volcanique clair et caillouteux, un muret de pierre sèche à gauche, un village blanc étalé sur la colline au fond, sous un ciel bleu — un vignoble de Santorin.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Old vines at Domaine Sigalas in Santorini, Greece.jpg",
+      "photographer": "Treephoto",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "2f1ccf72ccf54320dfd6b3360b2a6f661f0de79ace8454610c2493eeaef80561",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "2f1ccf72ccf54320dfd6b3360b2a6f661f0de79ace8454610c2493eeaef80561",
+      "alt": "Des vignes basses et touffues poussant à même un sol volcanique clair et caillouteux, un muret de pierre sèche à gauche, un village blanc étalé sur la colline au fond, sous un ciel bleu — un vignoble de Santorin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "santorin-vlychada",
+    "slot": "santorin-vlychada",
+    "base": "santorin",
+    "role": "photo",
+    "file": "santorin-vlychada.jpg",
+    "alt": "Une plage de sable et galets noirs volcaniques décrivant une longue courbe, une eau turquoise près du rivage virant au bleu profond, des rochers sombres affleurant dans l'eau, une petite île à l'horizon, sous un ciel bleu dégagé — la plage de Vlychada, au sud de Santorin.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Santorin (GR), Exomytis, Vlychada Beach -- 2017 -- 2802.jpg",
+      "photographer": "Dietmar Rabich",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "9575e1ba43cdf2cd4801e18030cf07d06fd525f5bd8adf2c78f6e272693ece64",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "9575e1ba43cdf2cd4801e18030cf07d06fd525f5bd8adf2c78f6e272693ece64",
+      "alt": "Une plage de sable et galets noirs volcaniques décrivant une longue courbe, une eau turquoise près du rivage virant au bleu profond, des rochers sombres affleurant dans l'eau, une petite île à l'horizon, sous un ciel bleu dégagé — la plage de Vlychada, au sud de Santorin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "santorin-ammoudi",
+    "slot": "santorin-ammoudi",
+    "base": "santorin",
+    "role": "photo",
+    "file": "santorin-ammoudi.jpg",
+    "alt": "De hautes falaises volcaniques rouge-brun plongeant vers un petit port, une grappe de maisons blanches et de tavernes au bord de l'eau, des barques de pêche et une mer bleu profond au premier plan — la baie d'Ammoudi sous Oia, à Santorin.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Ammoudi Santorin 02.jpg",
+      "photographer": "Olaf Tausch",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "9427bf59ade18478dcb7edbc927bb1f47549c5029cac3e31663ea3aebbd82764",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "9427bf59ade18478dcb7edbc927bb1f47549c5029cac3e31663ea3aebbd82764",
+      "alt": "De hautes falaises volcaniques rouge-brun plongeant vers un petit port, une grappe de maisons blanches et de tavernes au bord de l'eau, des barques de pêche et une mer bleu profond au premier plan — la baie d'Ammoudi sous Oia, à Santorin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "santorin-pyrgos",
+    "slot": "santorin-pyrgos",
+    "base": "santorin",
+    "role": "photo",
+    "file": "santorin-pyrgos.jpg",
+    "alt": "Un village blanc accroché à une colline, dominé par une église à dôme bleu et son haut clocher blanc surmonté d'un drapeau grec, une montagne aride et un fil de mer au fond, sous un ciel bleu profond — Pyrgos, à Santorin.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Pyrgos Kallistis 847 00, Greece - panoramio (17).jpg",
+      "photographer": "logopop",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "0a4a57fcfd99bd38b88f36625b0ed6349a93c18a07c9fc5dce4cd8bdb13335a5",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "0a4a57fcfd99bd38b88f36625b0ed6349a93c18a07c9fc5dce4cd8bdb13335a5",
+      "alt": "Un village blanc accroché à une colline, dominé par une église à dôme bleu et son haut clocher blanc surmonté d'un drapeau grec, une montagne aride et un fil de mer au fond, sous un ciel bleu profond — Pyrgos, à Santorin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "santorin-emporio",
+    "slot": "santorin-emporio",
+    "base": "santorin",
+    "role": "photo",
+    "file": "santorin-emporio.jpg",
+    "alt": "Une ruelle étroite d'un village cycladique aux murs crème arrondis et chaulés, une porte verte et une porte bleue, des marches de pierre, un agave en pot, sous un ciel bleu vif — le dédale médiéval d'Emporio (Kasteli), à Santorin.",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Καστέλι Εμπορειού 0785.jpg",
+      "photographer": "C messier",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "cc8be5ea7e77f2246b862773c00bfca1a9e281883d21e053be6c9766a869c7e4",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "cc8be5ea7e77f2246b862773c00bfca1a9e281883d21e053be6c9766a869c7e4",
+      "alt": "Une ruelle étroite d'un village cycladique aux murs crème arrondis et chaulés, une porte verte et une porte bleue, des marches de pierre, un agave en pot, sous un ciel bleu vif — le dédale médiéval d'Emporio (Kasteli), à Santorin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "santorin-fava",
+    "slot": "santorin-fava",
+    "base": "santorin",
+    "role": "food",
+    "file": "santorin-fava.jpg",
+    "alt": "Un bol blanc de purée de pois jaunes lisse, nappée d'huile d'olive et garnie d'oignon rouge cru haché, une cuillère plantée dedans — la fava de Santorin.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Φάβα Σαντορίνης (4463510858).jpg",
+      "photographer": "Klearchos Kapoutsis from Santorini, Greece",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "cff241aa9c86ad2b91498f308f4bd6353d1742dc51bcd2465b1f34670b68710c",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "cff241aa9c86ad2b91498f308f4bd6353d1742dc51bcd2465b1f34670b68710c",
+      "alt": "Un bol blanc de purée de pois jaunes lisse, nappée d'huile d'olive et garnie d'oignon rouge cru haché, une cuillère plantée dedans — la fava de Santorin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "santorin-tomatokeftedes",
+    "slot": "santorin-tomatokeftedes",
+    "base": "santorin",
+    "role": "food",
+    "file": "santorin-tomatokeftedes.jpg",
+    "alt": "Une assiette blanche de beignets dorés frits, mouchetés de vert d'herbes et de rouge de tomate, un verre de vin derrière, sur une table de taverne — des tomatokeftedes de Santorin.",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Tomato fritters of Santorini (Tomatokeftedes).jpg",
+      "photographer": "Sam Holt",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "1fe0a58d9fb852513a593e9fce2811c42dbab4d3048f3def93eb5349c9ce0502",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "1fe0a58d9fb852513a593e9fce2811c42dbab4d3048f3def93eb5349c9ce0502",
+      "alt": "Une assiette blanche de beignets dorés frits, mouchetés de vert d'herbes et de rouge de tomate, un verre de vin derrière, sur une table de taverne — des tomatokeftedes de Santorin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   }
 ]
