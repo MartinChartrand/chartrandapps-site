@@ -3633,7 +3633,7 @@
     ],
     "tier": "gem",
     "name": "Kastanis",
-    "blurb": "Sur la ruelle piétonne de la Chora, une taverne de locaux où goûter le patatato (le ragoût de chèvre aux patates de l'île) et la kopanisti, le fromage piquant. Cuisine du jour, prix modérés.",
+    "blurb": "Depuis 1962, la première taverne de la Chora, dans la ruelle piétonne en escalier — une poignée de tables de part et d'autre des marches. On y goûte le patatato (le ragoût de chèvre aux patates de l'île) et la kopanisti, le fromage piquant. Cuisine du jour, prix modérés.",
     "signature": "Le patatato et la kopanisti, dans la Chora",
     "image": null,
     "price": {
@@ -3642,16 +3642,16 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 36.8319,
-      "lng": 25.8961,
-      "source": "interpolé Chora, ruelle principale (à confirmer)",
+      "lat": 36.83172,
+      "lng": 25.89816,
+      "source": "Chora d'Amorgos — centre du village (OSM vérifié) ; la taverne est dans la ruelle principale en escalier",
       "verifiedOn": "2026-06-15"
     },
     "links": {
       "official": null,
       "booking": null,
-      "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Kastanis+Amorgos"
+      "tripadvisor": "https://www.tripadvisor.com/Restaurant_Review-g3453100-d3464008-Reviews-Kastanis-Chora_Amorgos_Cyclades_South_Aegean.html",
+      "maps": "https://www.google.com/maps/search/?api=1&query=36.83172%2C25.89816"
     },
     "seasonal": true,
     "status": {
@@ -4173,6 +4173,1323 @@
       {
         "creator": "Amorgos.gr — rakomelo",
         "url": "https://amorgos.gr/explore-amorgos/rakomelo/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-argyros",
+    "base": "santorin",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "drink"
+    ],
+    "tier": "gem",
+    "name": "Estate Argyros",
+    "blurb": "Fondé en 1903, le plus grand vignoble en propriété unique de l'île. On déguste l'Assyrtiko et un Vinsanto vieilli vingt ans, les koulouras centenaires à portée de main et un guide qui explique pourquoi on tresse la vigne en panier contre le vent. Formules 15 € (4 vins + fromages) ou 40 € (7 vins + plateau).",
+    "signature": "Le Vinsanto vingt ans, et les vignes en panier devant la table",
+    "image": null,
+    "price": {
+      "range": "dégustation 15–40 € / pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.38361,
+      "lng": 25.46473,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://estateargyros.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Estate%20Argyros%20Winery%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Estate Argyros (officiel)",
+        "url": "https://estateargyros.com/tour/taste-the-real-santorini/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini Dave — Estate Argyros",
+        "url": "https://santorinidave.com/estate-argyros-winery-santorini",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-gavalas",
+    "base": "santorin",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "drink"
+    ],
+    "tier": "gem",
+    "name": "Gavalas Winery",
+    "blurb": "La cave familiale la plus intime de Santorin : cinq générations à Megalochori, la bouteille bleue signature, et les seuls vins de l'île issus des cépages rares Katsano et Voudomato. On sonne, on entre, on jase avec la famille. Dégustation 10/15/20 € selon le nombre de verres.",
+    "signature": "Cinq générations, la bouteille bleue, et le vin versé par la famille",
+    "image": null,
+    "price": {
+      "range": "dégustation 10–20 € / pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.37589,
+      "lng": 25.43116,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.gavalaswines.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Gavalas%20Winery%20Megalochori%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Gavalas Winery (officiel)",
+        "url": "https://www.gavalaswines.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini Dave — Gavalas",
+        "url": "https://santorinidave.com/gavalas-winery-santorini",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-venetsanos",
+    "base": "santorin",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "drink"
+    ],
+    "tier": null,
+    "name": "Venetsanos Winery",
+    "blurb": "La première cave industrielle de l'île (1947), taillée à même la falaise de la caldeira à Megalochori. La dégustation la plus spectaculaire : chaque verre d'Assyrtiko servi face au volcan et à la mer, pour une quinzaine d'euros. La terrasse peut fermer par grand vent.",
+    "signature": "L'Assyrtiko servi sur une terrasse suspendue au-dessus de la caldeira",
+    "image": null,
+    "price": {
+      "range": "dégustation ~15 € / pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.38266,
+      "lng": 25.43163,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://venetsanoswinery.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Venetsanos%20Winery%20Megalochori%20Santorini"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Santorini Dave — Venetsanos",
+        "url": "https://santorinidave.com/venetsanos-winery-santorini",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek City Times — Venetsanos",
+        "url": "https://greekcitytimes.com/2025/09/12/santorini-in-a-glass-at-venetsanos-winery/",
+        "date": "2025-09"
+      }
+    ]
+  },
+  {
+    "id": "san-sigalas",
+    "base": "santorin",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "drink"
+    ],
+    "tier": null,
+    "name": "Domaine Sigalas",
+    "blurb": "Au nord, dans la plaine de Baxedes près d'Oia : le domaine fondé en 1991 par Paris Sigalas, devenu l'une des références de l'Assyrtiko (cinq versions différentes). Dégustation simple dès 12 €, ou tour vignoble + accords mets sur le patio face aux vignes.",
+    "signature": "Cinq Assyrtiko comparés, sur le patio face aux koulouras",
+    "image": null,
+    "price": {
+      "range": "dégustation dès 12 € / pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.46296,
+      "lng": 25.37557,
+      "source": "web-research + coords interpolées (secteur Baxedes, au nord près d'Oia)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://sigalas-wine.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Domaine%20Sigalas%20Oia%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Domaine Sigalas (officiel)",
+        "url": "https://sigalas-wine.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini Dave — Sigalas",
+        "url": "https://santorinidave.com/domaine-sigalas-winery-santorini",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-metaximas",
+    "base": "santorin",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Metaxi Mas",
+    "blurb": "« Le meilleur restaurant de Santorin selon les locaux », caché à Exo Gonia près de l'église Agios Charalambos. Cuisine crétoise et santorinienne : fava, aubergine blanche rôtie, poulpe grillé (14,50 €), côtelettes de porc. Environ 25 € par personne avec le vin. Voiture ou taxi — c'est l'isolement qui fait le charme.",
+    "signature": "La table des locaux : fava, aubergine blanche, poulpe grillé",
+    "image": null,
+    "price": {
+      "range": "~25 € / pers avec vin",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.38795,
+      "lng": 25.45736,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.santorini-metaximas.gr/en/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Metaxi%20Mas%20Exo%20Gonia%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Metaxi Mas (officiel)",
+        "url": "https://www.santorini-metaximas.gr/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Will Fly for Food — Metaxi Mas",
+        "url": "https://www.willflyforfood.net/metaxi-mas-the-best-restaurant-in-santorini-according-to-locals/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-selene",
+    "base": "santorin",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Selene",
+    "blurb": "À Pyrgos, dans un ancien monastère catholique du XVIIIe siècle : la table gastronomique qui a façonné la cuisine santorinienne depuis près de quarante ans. Tomatokeftedes, tarte de poisson local, spaghetti aux oursins, tout en produits de l'île. Le repas spécial du voyage. Réservation conseillée.",
+    "signature": "La tomatokeftedes et le terroir, version gastronomique",
+    "image": null,
+    "price": {
+      "range": "menu dégustation — soir spécial",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.38065,
+      "lng": 25.44991,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://selene.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Selene%20restaurant%20Pyrgos%20Santorini"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Selene (officiel)",
+        "url": "https://selene.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wine Spectator — Selene",
+        "url": "https://www.winespectator.com/restaurant-awards/detail/17162/name/selene",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-mythos",
+    "base": "santorin",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Mythos Taverna",
+    "blurb": "À l'entrée de Pyrgos, sur la première place : un grill de village qui ne sert que des produits de l'île — fava, chloro (le fromage frais de chèvre maison), saucisses de Santorin, aubergine blanche, tomataki. Et les broches au charbon : kontosouvli, kokoretsi, agneau. Le repas du quotidien santorinien.",
+    "signature": "Le grill de village : chloro maison, broches au charbon, tomataki",
+    "image": null,
+    "price": {
+      "range": "taverne — abordable",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.3826,
+      "lng": 25.45015,
+      "source": "web-research + coords interpolées (centre de Pyrgos)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://mythostaverna.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mythos%20Taverna%20Pyrgos%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Mythos Taverna (officiel)",
+        "url": "https://mythostaverna.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini Pyrgos — Mythos",
+        "url": "https://www.santorinipyrgos.com/santorini-restaurant-mythos-tavern-grill-house.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-sunset-ammoudi",
+    "base": "santorin",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Sunset Ammoudi by Paraskevas",
+    "blurb": "Au bas des 280 marches d'Oia, dans la baie d'Ammoudi : trente ans de poisson frais sous les falaises rouges, Paraskevas et Margarita aux commandes. Le poulpe sèche à l'entrée — c'est l'enseigne. Pâtes au homard de recette secrète, table au ras de l'eau, barques de pêche à deux mètres. Réserver pour le soir.",
+    "signature": "Le poulpe qui sèche à l'entrée, la table au ras de l'eau",
+    "image": null,
+    "price": {
+      "range": "~45–50 € / pers (vue + réputation)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.45996,
+      "lng": 25.37057,
+      "source": "web-research + coords interpolées (baie d'Ammoudi, sous Oia)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.sunset-ammoudi.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sunset%20Ammoudi%20Paraskevas%20Oia%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Sunset Ammoudi (officiel)",
+        "url": "https://www.sunset-ammoudi.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini Dave — Ammoudi Bay",
+        "url": "https://santorinidave.com/santorini-ammoudi-bay",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-dimitris-ammoudi",
+    "base": "santorin",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Dimitris Ammoudi Taverna",
+    "blurb": "Un ancien entrepôt à bateaux d'Ammoudi devenu taverne en 1989 — Dimitris et Joy n'ont jamais quitté le bord de l'eau. Rascasse à l'ail en papillote, spaghetti au homard, le poisson du matin cuisiné le midi. Décor nautique sans clinquant, vue directe sur la baie sous les falaises rouges.",
+    "signature": "Le poisson du matin dans un ex-entrepôt à bateaux",
+    "image": null,
+    "price": {
+      "range": "~45–50 € / pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.46036,
+      "lng": 25.37117,
+      "source": "web-research + coords interpolées (baie d'Ammoudi, sous Oia)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.dimitris-ammoudi-restaurant.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Dimitris%20Ammoudi%20Taverna%20Oia%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Dimitris Ammoudi (officiel)",
+        "url": "https://www.dimitris-ammoudi-restaurant.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini Dave — Ammoudi Bay",
+        "url": "https://santorinidave.com/santorini-ammoudi-bay",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-topsaraki",
+    "base": "santorin",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "To Psaraki",
+    "blurb": "Sur la marina de Vlychada, au sud, loin des foules d'Oia : les bateaux déchargent la prise à quelques pas de la terrasse. Le chef Thanasis Sfougaris travaille l'oursin frais, le thon de migration en août, et l'aubergine blanche au four aux tomates-cerises et féta. Trois terrasses face à l'Égée.",
+    "signature": "La prise déchargée sous la terrasse, l'aubergine blanche au four",
+    "image": null,
+    "price": {
+      "range": "~20–35 € / pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.33799,
+      "lng": 25.43505,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://topsaraki.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/To%20Psaraki%20Vlychada%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "To Psaraki (officiel)",
+        "url": "https://topsaraki.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — To Psaraki",
+        "url": "https://www.greekgastronomyguide.gr/en/item/taverna-psaraki-santorini/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-steki",
+    "base": "santorin",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "To Steki tou Psara (Chez Kiria Roula)",
+    "blurb": "Au port de Vlychada, la table la plus simple et la plus vraie de l'île : Kiria Roula aux fourneaux depuis plus de vingt ans, le menu du jour selon la prise — morue, anchois, seiche, sardines grillées. Pas de réservation, prix doux, et les pêcheurs qui viennent de décharger s'attablent à côté de toi.",
+    "signature": "Le menu du jour selon la prise, les pêcheurs à la table d'à côté",
+    "image": null,
+    "price": {
+      "range": "abordable — sans réservation",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.33749,
+      "lng": 25.43605,
+      "source": "web-research + coords interpolées (port de Vlychada)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/To%20Steki%20tou%20Psara%20Vlychada%20port%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Santorini Dave — Vlychada port",
+        "url": "https://santorinidave.com/vlychada-port-restaurant",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini Private Guide — tavernes de bord de mer",
+        "url": "https://santorini-private-guide.com/where-to-eat-local-in-santorini-traditional-seaside-tavernas/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-vlychada",
+    "base": "santorin",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Vlychada",
+    "blurb": "La plage la plus étrange de Santorin : des falaises de tuf — la cendre de l'éruption compactée — sculptées par le vent en piliers et grottes ivoire, un paysage lunaire. Sable gris-brun, entrée sablonneuse douce (rare ici), eau turquoise, et le calme. Plein sud, donc protégée du Meltemi. Tavernes de poisson au port voisin.",
+    "signature": "Se baigner sous les falaises de cendre sculptées par le vent",
+    "image": "santorin-vlychada",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.34233,
+      "lng": 25.429,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vlychada%20Beach%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Santorinika — Vlychada",
+        "url": "https://santorinika.com/santorini-beaches/vlychada-beach-in-santorini-walking-through-the-moonscapes/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Akrotiri Museum — Vlychada (falaises de cendre)",
+        "url": "https://akrotiri-museum.com/vlychada-beach-in-santorini/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-perissa",
+    "base": "santorin",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Perissa & Perivolos",
+    "blurb": "Sept kilomètres de sable noir volcanique sur la côte est, eau calme sans galets (entrée facile), protégée du Meltemi par le rempart de Mesa Vouno. La zone la plus abordable de l'île pour manger et dormir. La Perivolos Tavern y grille le poisson des pêcheurs locaux depuis 1981, les pieds dans le sable noir.",
+    "signature": "Sept kilomètres de sable noir, l'eau calme, le poisson au charbon",
+    "image": null,
+    "price": {
+      "range": "accès libre · transats ~10 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.35233,
+      "lng": 25.47235,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Perissa%20Beach%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Opera Santorini — Perissa",
+        "url": "https://www.operasantorini.com/blog/perissa-beach",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Perivolos Tavern (officiel)",
+        "url": "https://perivolostavern.gr/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-ammoudi-bay",
+    "base": "santorin",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do",
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Baie d'Ammoudi",
+    "blurb": "L'antidote à Oia-Instagram : 280 marches sous le village, un port minuscule creusé dans la falaise rouge, des rochers plats d'où l'on plonge dans une eau profonde et claire (on nage jusqu'à l'îlot Saint-Nicolas). Pas de sable — la baignade au rocher brut, le même coucher de soleil qu'Oia mais une assiette de poisson devant soi.",
+    "signature": "Plonger des rochers rouges, le poisson frais au ras de l'eau",
+    "image": "santorin-ammoudi",
+    "price": {
+      "range": "accès libre (280 marches ou taxi)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.45996,
+      "lng": 25.37057,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ammoudi%20Bay%20Oia%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Santorini Dave — Ammoudi Bay",
+        "url": "https://santorinidave.com/santorini-ammoudi-bay",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini-view — Ammoudi",
+        "url": "https://www.santorini-view.com/santorini-beaches/ammoudi-beach/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-redbeach",
+    "base": "santorin",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Red Beach (Kokkini)",
+    "blurb": "La plage des falaises rouge-brique d'oxyde de fer, juste à côté du site d'Akrotiri : le terroir volcanique à l'œil nu, l'éruption inscrite dans la roche. À admirer surtout depuis un bateau ou le belvédère — l'accès terrestre par le sentier est officiellement fermé depuis les séismes de 2025 (éboulements). À reconfirmer pour 2027.",
+    "signature": "Les falaises rouge-brique : l'éruption inscrite dans la roche",
+    "image": null,
+    "price": {
+      "range": "accès libre (par bateau)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.34884,
+      "lng": 25.39412,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Red%20Beach%20Akrotiri%20Santorini"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "ProtoThema — Red Beach fermée (2025)",
+        "url": "https://en.protothema.gr/2025/02/04/santorinis-red-beach-closed-pieces-of-rocks-fell-due-to-the-earthquakes/",
+        "date": "2025-02"
+      },
+      {
+        "creator": "Trips2Greece — Red Beach",
+        "url": "https://trips2greece.com/greek-islands/red-beach-santorini-complete-guide/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-kamari",
+    "base": "santorin",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Kamari",
+    "blurb": "Sable noir Blue Flag sous l'imposant rocher de Mesa Vouno, eau calme et surveillée, promenade bordée de tavernes. Plus organisée que Perissa, mais l'accès en bus est le plus simple de l'île et l'ombre du rocher tombe sur la plage l'après-midi. Une étape facile entre deux journées de terroir.",
+    "signature": "Le sable noir Blue Flag sous le rocher de Mesa Vouno",
+    "image": null,
+    "price": {
+      "range": "accès libre · transats ~12–15 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.37678,
+      "lng": 25.48614,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kamari%20Beach%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Santorini Experts — Kamari",
+        "url": "https://www.santoriniexperts.com/kamari-beach/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini-view — Kamari",
+        "url": "https://www.santorini-view.com/santorini-beaches/kamari-beach/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-pyrgos",
+    "base": "santorin",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Pyrgos & le Kasteli",
+    "blurb": "Le village le plus haut de l'île, couronné par un château vénitien (le Kasteli, vers 1580) : ruelles en escargot, maisons blanches, et un panorama qui embrasse Fira, Oia et la mer. Le Santorin d'avant les foules, où l'on flâne le soir entre Santo Wines, Selene et les tavernes de village.",
+    "signature": "Le château vénitien, le panorama, le Santorin d'avant les foules",
+    "image": "santorin-pyrgos",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.3826,
+      "lng": 25.45015,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Pyrgos%20Kallistis%20Castle%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Kasteli de Pyrgos",
+        "url": "https://www.greeka.com/cyclades/santorini/sightseeing/kasteli-castle-santorini/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini-view — Pyrgos",
+        "url": "https://www.santorini-view.com/pyrgos/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-megalochori",
+    "base": "santorin",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Megalochori",
+    "blurb": "Un des plus vieux villages de l'île (XVIIe siècle), tout en ruelles pavées, maisons chaulées et bougainvillées, posé au cœur des vignobles. C'est le village du vin : on y rejoint à pied les domaines Venetsanos et Gavalas, et on dîne sur une placette sans personne.",
+    "signature": "Le village du vin : ruelles, bougainvillées, domaines à pied",
+    "image": null,
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.37639,
+      "lng": 25.43173,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Megalochori%20village%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Santorini-view — Megalochori",
+        "url": "https://www.santorini-view.com/megalochori/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santo Luxury Escape — Megalochori",
+        "url": "https://santoluxuryescape.com/2025/12/16/megalochori-santorini/",
+        "date": "2025-12"
+      }
+    ]
+  },
+  {
+    "id": "san-emporio",
+    "base": "santorin",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Emporio & son Kasteli",
+    "blurb": "Le plus grand village de Santorin, et le plus secret : un labyrinthe médiéval (le Kasteli) de ruelles voûtées, de portes basses et de chapelles à dôme bleu, conçu pour égarer les pirates. On s'y perd exprès. À cinq minutes des plages de sable noir, c'est le vrai quotidien de l'île, intact.",
+    "signature": "Se perdre dans le dédale médiéval aux portes vertes et bleues",
+    "image": "santorin-emporio",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.35717,
+      "lng": 25.44612,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Emporio%20Kasteli%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Opera Santorini — Emporio",
+        "url": "https://www.operasantorini.com/blog/emporio-village",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini Experts — Emporio",
+        "url": "https://www.santoriniexperts.com/emporio-santorini/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-akrotiri",
+    "base": "santorin",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Akrotiri — la Pompéi de l'Égée",
+    "blurb": "La cité minoenne ensevelie par l'éruption entre le XVIIe et le XVIe siècle av. J.-C., et figée intacte sous la cendre : rues, escaliers, jarres et fresques préservés sous un toit bioclimatique, parcourus sur passerelles. La catastrophe fondatrice du chapitre, qu'on peut littéralement traverser. Ouvert d'avril à octobre.",
+    "signature": "La ville figée sous la cendre — le terroir raconté par l'archéologie",
+    "image": null,
+    "price": {
+      "range": "billet ~12 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.35179,
+      "lng": 25.40349,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Akrotiri%20archaeological%20site%20Santorini"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Santorini Dave — Akrotiri",
+        "url": "https://santorinidave.com/santorini-ancient-akrotiri",
+        "date": "2026-06"
+      },
+      {
+        "creator": "World History Encyclopedia — fresques d'Akrotiri",
+        "url": "https://www.worldhistory.org/article/673/akrotiri-frescoes/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-akrotiri-lighthouse",
+    "base": "santorin",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Phare d'Akrotiri",
+    "blurb": "À la pointe sud-ouest, un phare de 1892 et le meilleur coucher de soleil de l'île sans la cohue d'Oia : le soleil plonge droit dans l'Égée, panorama sur la caldeira, Thirassia et le volcan. On apporte un pique-nique, une bouteille d'Assyrtiko, et on arrive une heure avant.",
+    "signature": "Le coucher de soleil sur la caldeira, sans la foule d'Oia",
+    "image": null,
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.3577,
+      "lng": 25.35712,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Akrotiri%20Lighthouse%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Wikipedia — Akrotiri Lighthouse",
+        "url": "https://en.wikipedia.org/wiki/Akrotiri_Lighthouse",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Visiter Santorini — phare d'Akrotiri",
+        "url": "https://visiter-santorini.fr/phare-akrotiri-santorin/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-kastro-mansion",
+    "base": "santorin",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Kastro Mansion",
+    "blurb": "Un manoir cycladique restauré au sommet de Pyrgos, quatre suites troglodytes seulement, terrasses de pierre, hot tub et kitchenette pour rapporter la fava du marché. Le village le plus haut et le plus calme de l'île, à pied des tavernes. L'anti-suite-de-caldeira : confortable et douillet, pas tape-à-l'œil.",
+    "signature": "Quatre suites troglodytes au sommet du village le plus tranquille",
+    "image": null,
+    "price": {
+      "range": "~99–316 USD / nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.3826,
+      "lng": 25.45015,
+      "source": "web-research + coords interpolées (centre de Pyrgos)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://kastromansion.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kastro%20Mansion%20Pyrgos%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Kastro Mansion (officiel)",
+        "url": "https://kastromansion.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Kastro Mansion",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1097549-d15680660-Reviews-Kastro_Mansion-Pyrgos_Santorini_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-elements",
+    "base": "santorin",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Elements Cave Suites",
+    "blurb": "Quatre suites troglodytes à Megalochori, le village des vignobles : pierre taillée à la main, voûtes, cour calme et jardin sous les vignes. À cinq minutes à pied de la place et des domaines — on déguste l'Assyrtiko sans reprendre la voiture. Hôtesse Vasia réputée pour ses bonnes adresses.",
+    "signature": "Quatre suites de pierre au cœur du village des vignobles",
+    "image": null,
+    "price": {
+      "range": "à partir de ~308 € (bas hors saison)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.37639,
+      "lng": 25.43173,
+      "source": "web-research + coords interpolées (centre de Megalochori)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.hotelssantoriniisland.com/en/property/elements-suites.html",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Elements%20Cave%20Suites%20Megalochori%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Elements Cave Suites",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1191887-d24206021-Reviews-Elements_Cave_Suites-Megalochori_Santorini_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Booking — Elements Cave Suites",
+        "url": "https://www.booking.com/hotel/gr/elements-suites-santorini.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-exi-castle",
+    "base": "santorin",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Exi Castle Suites",
+    "blurb": "Quatre suites aménagées dans le Castelli vénitien du XVe siècle d'Emporio — la forteresse même qu'on traverse en se perdant dans le dédale. Pierre ancienne, voûtes, terrasses sur le village, dès ~76 $ la nuit : le bon plan authentique, loin de la caldeira, à un saut des plages de sable noir.",
+    "signature": "Dormir dans le château vénitien d'Emporio, pour pas cher",
+    "image": null,
+    "price": {
+      "range": "dès ~76 $US / nuit (~70 €)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.35717,
+      "lng": 25.44612,
+      "source": "web-research + coords interpolées (Kasteli/centre d’Emporio)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://exicastlesuites.reserve-online.net/",
+      "booking": "https://www.booking.com/hotel/gr/exi-castle-suites-emporio.html",
+      "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g1025026-d25575973-Reviews-Exi_Castle_Suites-Emporio_Santorini_Cyclades_South_Aegean.html",
+      "maps": "https://www.google.com/maps/search/Exi+Castle+Suites+Emporio+Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research (Booking 314 avis + site officiel + TripAdvisor)"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Exi Castle Suites (officiel)",
+        "url": "https://exicastlesuites.reserve-online.net/about",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Booking — Exi Castle Suites (314 avis)",
+        "url": "https://www.booking.com/hotel/gr/exi-castle-suites-emporio.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Exi Castle Suites",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1025026-d25575973-Reviews-Exi_Castle_Suites-Emporio_Santorini_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-finikia-memories",
+    "base": "santorin",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Finikia Memories Hotel",
+    "blurb": "Dans le hameau de Finikia, à quinze minutes à pied d'Oia mais au calme : vingt-quatre chambres en architecture troglodyte, piscine dans la verdure, et un restaurant sur place que les clients disent « le meilleur repas de Santorin ». Le coucher de soleil d'Oia quand on veut, sans y dormir.",
+    "signature": "À quinze minutes d'Oia, mais au calme — et le resto maison",
+    "image": null,
+    "price": {
+      "range": "~147–323 USD / nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.46138,
+      "lng": 25.39543,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.finikiamemories.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Finikia%20Memories%20Hotel%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Finikia Memories (officiel)",
+        "url": "https://www.finikiamemories.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Booking — Finikia Memories",
+        "url": "https://www.booking.com/hotel/gr/finikiaplace.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-morning-star",
+    "base": "santorin",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": null,
+    "name": "Morning Star Traditional Houses",
+    "blurb": "Trois maisons traditionnelles indépendantes à Exo Gonia, le village-secret entre Pyrgos et Kamari : vue sur le lever de soleil et la mer (pas la caldeira — donc pas de foule), ruelles désertes au petit matin. Pour un couple qui veut son propre espace et le silence. Réservation par contact direct.",
+    "signature": "Sa propre maison de village, le lever de soleil sur la mer, le silence",
+    "image": null,
+    "price": {
+      "range": "~80–150 € / nuit (contact direct)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.38798,
+      "lng": 25.45787,
+      "source": "web-research + coords interpolées (centre d'Exo Gonia)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://www.morningstarsantorini.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Morning%20Star%20Traditional%20Houses%20Exo%20Gonia%20Santorini"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords Nominatim"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Morning Star (officiel)",
+        "url": "https://www.morningstarsantorini.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini-view — Exo Gonia",
+        "url": "https://www.santorini-view.com/exo-gonia-hotels/",
         "date": "2026-06"
       }
     ]

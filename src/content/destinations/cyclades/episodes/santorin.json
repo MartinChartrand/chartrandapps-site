@@ -1,0 +1,242 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée — la fin du cercle",
+      "body": "Dernier ferry du voyage : depuis Amorgos, on entre dans la caldeira de Santorin, ce demi-anneau de falaises noires qui n'est rien d'autre que la lèvre d'un volcan éventré. Entre le XVIIe et le XVIe siècle avant notre ère, l'éruption a tout soufflé — et tout concentré. La cendre est devenue le sol ; le sol a tout changé. C'est ici que le cercle des Cyclades se referme, sur l'île où la catastrophe est devenue le terroir.",
+      "focusPoi": "san-pyrgos",
+      "zoom": 11,
+      "targets": [
+        "san-pyrgos",
+        "san-akrotiri"
+      ],
+      "thumb": "santorin-vines",
+      "thumbAlt": "Des vignes basses dans un sol volcanique clair, un village blanc sur la colline au fond, à Santorin",
+      "poiRef": "san-argyros",
+      "sources": [
+        {
+          "creator": "Wines of Greece (officiel) — PDO Santorini",
+          "url": "https://winesofgreece.org/pdo/pdo-santorini/",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "kicker": "La logique : fuir la carte postale",
+      "body": "On ne dort pas à Oia. On s'installe dans les villages tranquilles de l'intérieur — Pyrgos perché, Megalochori dans les vignes, Emporio et son dédale médiéval — d'où l'on rayonne vers les domaines, les plages de sable noir et les ports de pêche. Les dômes bleus et les couchers de soleil, on les garde en toile de fond. Le voyage, ici, c'est le vin, la table et la mer.",
+      "focusPoi": "san-akrotiri",
+      "zoom": 12,
+      "targets": [
+        "san-akrotiri",
+        "san-vlychada"
+      ],
+      "thumb": "santorin-pyrgos",
+      "thumbAlt": "Le village de Pyrgos accroché à sa colline, église à dôme bleu et clocher blanc, à Santorin",
+      "poiRef": "san-akrotiri",
+      "sources": [
+        {
+          "creator": "World History Encyclopedia — fresques d'Akrotiri",
+          "url": "https://www.worldhistory.org/article/673/akrotiri-frescoes/",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-vin",
+      "kicker": "Le terroir · LA CATASTROPHE DANS LE VERRE",
+      "title": "Le vin de la cendre",
+      "image": "santorin-vines",
+      "alt": "Des vignes basses et touffues poussant à même un sol volcanique clair et caillouteux, un muret de pierre sèche à gauche, un village blanc étalé sur la colline au fond, sous un ciel bleu — un vignoble de Santorin.",
+      "intro": "Le sol de cendre, sableux, sec, a fait une chose unique au monde : il a tenu le phylloxéra à l'écart. Les vignes ne sont pas greffées, certaines ont trois cents ans, et on les tresse au ras du sol en paniers — les koulouras — pour les abriter du vent et leur faire boire la brume de mer la nuit, faute de pluie. De ces ceps tordus sort l'Assyrtiko : un blanc pâle, sec, d'une minéralité saline qui tranche. La contrainte volcanique, directement dans le verre.",
+      "reco": "Chez Estate Argyros, à Episkopi Gonia, on déguste face aux koulouras centenaires, avec un Vinsanto vieilli vingt ans — les raisins séchés au soleil, l'ambre, le café et le caramel (15 à 40 € selon la formule). Pour l'intime, Gavalas à Megalochori : cinq générations, la bouteille bleue, le vin versé par la famille. Et pour la vue, Venetsanos, taillé dans la falaise de la caldeira.",
+      "quote": "Une éruption a enseveli l'île, et c'est elle qui fait le meilleur vin blanc de Grèce. Ici, la catastrophe ne se raconte pas : elle se boit.",
+      "via": null,
+      "poiRef": "san-argyros",
+      "sources": [
+        {
+          "creator": "Wines of Greece (officiel) — PDO Santorini",
+          "url": "https://winesofgreece.org/pdo/pdo-santorini/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Wines of Greece — le kouloura",
+          "url": "https://winesofgreece.org/articles/the-santorini-kouloura/",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-table",
+      "kicker": "À table · LE GOÛT DU SOL",
+      "title": "La fava, le beignet et l'oignon cru",
+      "image": "santorin-fava",
+      "alt": "Un bol blanc de purée de pois jaunes lisse, nappée d'huile d'olive et garnie d'oignon rouge cru haché, une cuillère plantée dedans — la fava de Santorin.",
+      "intro": "Le même sol a tout rendu unique. La fava — des pois jaunes cultivés ici depuis l'âge du bronze, mijotés en purée onctueuse, servis à l'huile d'olive avec de l'oignon rouge cru et des câpres. La tomate-cerise, le tomataki, cultivée sans une goutte d'eau, peau épaisse et sucre concentré, qu'on écrase en beignets frits, les tomatokeftedes. L'aubergine blanche, douce. Le chloro, fromage frais de chèvre. Rien de tout ça ne pousse pareil ailleurs.",
+      "reco": "Le repas qu'on cherche, c'est Metaxi Mas, caché à Exo Gonia : « le meilleur de l'île selon les locaux », fava, aubergine blanche, poulpe grillé, environ 25 € avec le vin. Pour le grill de village, Mythos à Pyrgos (chloro maison, broches au charbon). Et un soir, la table gastronomique de Selene, à Pyrgos, dans un ancien monastère — ses tomatokeftedes sont une institution.",
+      "quote": "Des pois jaunes, une tomate sans eau, un oignon cru. Sur cette île, le plus humble des plats a un goût qu'on ne peut pas emporter.",
+      "via": null,
+      "poiRef": "san-metaximas",
+      "sources": [
+        {
+          "creator": "Commission européenne — recette Fava Santorinis PDO",
+          "url": "https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/gi-recipes/fava-santorinis-pdo-married-capers-and-red-onions_en",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Will Fly for Food — Metaxi Mas",
+          "url": "https://www.willflyforfood.net/metaxi-mas-the-best-restaurant-in-santorini-according-to-locals/",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-village",
+      "kicker": "Les villages · LE SANTORIN D'AVANT",
+      "title": "Se perdre dans le dédale",
+      "image": "santorin-emporio",
+      "alt": "Une ruelle étroite d'un village cycladique aux murs crème arrondis et chaulés, une porte verte et une porte bleue, des marches de pierre, un agave en pot, sous un ciel bleu vif — le dédale médiéval d'Emporio (Kasteli), à Santorin.",
+      "intro": "Pendant que les cars se vident sur les belvédères d'Oia, l'intérieur de l'île dort. À Emporio, le plus grand village, le Kasteli est un labyrinthe médiéval de ruelles voûtées et de portes basses, conçu pour égarer les pirates — on s'y perd exprès, entre une porte verte et une porte bleue. Pyrgos, le village le plus haut, déroule ses ruelles en escargot jusqu'au château vénitien. Megalochori somnole au milieu des vignes. C'est ici qu'on pose ses valises.",
+      "reco": "On dort dans ces villages, pas sur la caldeira : Kastro Mansion au sommet de Pyrgos (quatre suites troglodytes), Elements Cave Suites à Megalochori (à pied des domaines), ou Exi Castle Suites, dans le château vénitien d'Emporio, pour pas cher. Le soir, on flâne sans personne et on dîne sur une placette.",
+      "quote": "Le vrai Santorin n'est pas sur la falaise bleue et blanche. Il est dans ces ruelles où l'on se perd, à dix minutes et à mille lieues des foules.",
+      "via": null,
+      "poiRef": "san-emporio",
+      "sources": [
+        {
+          "creator": "Opera Santorini — Emporio",
+          "url": "https://www.operasantorini.com/blog/emporio-village",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Greeka — Kasteli de Pyrgos",
+          "url": "https://www.greeka.com/cyclades/santorini/sightseeing/kasteli-castle-santorini/",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-poisson",
+      "kicker": "Ammoudi · PIEDS DANS L'EAU",
+      "title": "Le poisson sous les falaises rouges",
+      "image": "santorin-ammoudi",
+      "alt": "De hautes falaises volcaniques rouge-brun plongeant vers un petit port, une grappe de maisons blanches et de tavernes au bord de l'eau, des barques de pêche et une mer bleu profond au premier plan — la baie d'Ammoudi sous Oia, à Santorin.",
+      "intro": "Sous Oia, deux cent quatre-vingts marches descendent vers un port minuscule creusé dans la falaise rouge : Ammoudi. C'est l'antidote à la carte postale. Le poulpe sèche à l'entrée des tavernes, les barques rentrent avec la prise du matin, la table est au ras de l'eau. Même coucher de soleil qu'en haut, mais une assiette de poisson frais devant soi au lieu d'un cocktail dans la cohue.",
+      "reco": "Sunset by Paraskevas, trente ans de poisson sous les falaises (le poulpe séché, c'est l'enseigne), ou Dimitris, un ancien entrepôt à bateaux depuis 1989 — réserve pour le soir, c'est couru. Plus au sud et plus vrai encore : le port de Vlychada, où To Psaraki et le tout simple Steki de Kiria Roula servent la prise du jour pendant que les pêcheurs s'attablent à côté.",
+      "quote": "On peut payer pour la vue d'en haut, dans la foule. Ou descendre les marches et manger le poisson du matin, les pieds au-dessus de l'eau. Le choix est vite fait.",
+      "via": null,
+      "poiRef": "san-ammoudi-bay",
+      "sources": [
+        {
+          "creator": "Santorini Dave — Ammoudi Bay",
+          "url": "https://santorinidave.com/santorini-ammoudi-bay",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Sunset Ammoudi (officiel)",
+          "url": "https://www.sunset-ammoudi.gr/",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-bain",
+      "kicker": "Vlychada · LE BAIN",
+      "title": "Se baigner sous les falaises de cendre",
+      "image": "santorin-vlychada",
+      "alt": "Une plage de sable et galets noirs volcaniques décrivant une longue courbe, une eau turquoise près du rivage virant au bleu profond, des rochers sombres affleurant dans l'eau, une petite île à l'horizon, sous un ciel bleu dégagé — la plage de Vlychada, au sud de Santorin.",
+      "intro": "Au sud, à Vlychada, on se baigne dans une eau turquoise au pied d'une longue plage de sable noir volcanique — ce sable, c'est la lave et la cendre broyées. À une extrémité, les falaises blondes ne sont pas de la roche : c'est la cendre minoenne compactée en tuf, que le vent a sculptée en piliers et en grottes, un paysage lunaire. L'entrée dans l'eau est douce, le coin reste calme, et plein sud, il est à l'abri du Meltemi. On flotte sur le dos, au pied du dépôt de la catastrophe.",
+      "reco": "Vlychada pour le bain et les tavernes du port. Pour les longues journées tranquilles, les sept kilomètres de sable noir de Perissa et Perivolos, eau calme sans galets, budget humain. Et le spectacle volcanique de Red Beach, les falaises rouge-brique près d'Akrotiri — à voir depuis un bateau : le sentier terrestre est fermé depuis les séismes de 2025, à reconfirmer pour 2027.",
+      "quote": "Nager au pied de falaises faites de cendre, dans une eau que le volcan réchauffe encore. À Santorin, même le bain raconte l'éruption.",
+      "via": null,
+      "poiRef": "san-vlychada",
+      "sources": [
+        {
+          "creator": "Akrotiri Museum — Vlychada (falaises de cendre)",
+          "url": "https://akrotiri-museum.com/vlychada-beach-in-santorini/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "ProtoThema — Red Beach fermée (2025)",
+          "url": "https://en.protothema.gr/2025/02/04/santorinis-red-beach-closed-pieces-of-rocks-fell-due-to-the-earthquakes/",
+          "date": "2025-02"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de boucler le cercle : l'Assyrtiko et le Vinsanto des domaines, la fava à l'oignon cru, les tomatokeftedes, le poisson d'Ammoudi et de Vlychada, et les villages où l'on dort loin des foules. Le carnet a toutes les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": [
+        "san-argyros",
+        "san-metaximas",
+        "san-emporio",
+        "san-ammoudi-bay",
+        "san-vlychada"
+      ],
+      "targets": [
+        "san-argyros"
+      ],
+      "thumb": "santorin-tomatokeftedes",
+      "thumbAlt": "Une assiette de beignets de tomate dorés sur une table de taverne, à Santorin",
+      "pills": [
+        {
+          "poiRef": "san-metaximas",
+          "link": "official",
+          "label": "Metaxi Mas · Site"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Wines of Greece (officiel) — PDO Santorini",
+          "url": "https://winesofgreece.org/pdo/pdo-santorini/",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "On dort dans les villages tranquilles, jamais sur la caldeira. Kastro Mansion au sommet de Pyrgos et Elements Cave Suites à Megalochori (à pied des domaines) ; Exi Castle Suites dans le château vénitien d'Emporio (dès ~76 $), le bon plan authentique ; Finikia Memories à un quart d'heure d'Oia mais au calme ; Morning Star, sa propre maison de village à Exo Gonia."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Le terroir des villages : Metaxi Mas à Exo Gonia (la table des locaux), Mythos le grill de Pyrgos, Selene en gastronomique. Le poisson au bord de l'eau : Sunset by Paraskevas et Dimitris à Ammoudi, To Psaraki et le Steki de Kiria Roula au port de Vlychada."
+      },
+      {
+        "label": "La mer & les plages",
+        "kinds": [
+          "plage"
+        ],
+        "footer": "Vlychada et ses falaises de cendre sculptées ; les sept kilomètres de sable noir de Perissa et Perivolos ; la baie d'Ammoudi pour plonger des rochers rouges ; le sable noir Blue Flag de Kamari ; et le spectacle des falaises rouges de Red Beach, par bateau."
+      },
+      {
+        "label": "Vin, villages & terroir",
+        "kinds": [
+          "winery",
+          "sight"
+        ],
+        "footer": "Les domaines de l'Assyrtiko : Argyros, Gavalas, Venetsanos, Sigalas. Les villages : Pyrgos et son château, Emporio et son dédale, Megalochori dans les vignes. Et la catastrophe fondatrice elle-même : le site d'Akrotiri, la Pompéi de l'Égée, puis le coucher de soleil au phare d'Akrotiri, sans la foule."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le cercle se referme",
+    "body": "Cinquième île, dernière réponse. Là où Syros répondait par l'afflux, Sifnos par l'argile, Folegandros par la clôture et Amorgos par l'accueil, Santorin répond par la catastrophe : une éruption a tout détruit, et de la cendre est né le terroir le plus irremplaçable de Grèce. Les {count} lieux du chapitre — domaines, tables, plages et villages — vivent dans le carnet, avec leurs liens, leurs prix et le budget complet. Le cercle des Cyclades, autour de Délos, se referme ici.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/cyclades/"
+  }
+}

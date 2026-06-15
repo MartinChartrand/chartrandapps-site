@@ -808,5 +808,200 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "san-assyrtiko",
+    "type": "vin",
+    "base": "santorin",
+    "region": "santorin",
+    "title": "Assyrtiko — le vin de la cendre",
+    "body": "Le cœur du terroir santorinien dans un verre. La cendre volcanique, sableuse, a tenu le phylloxéra à l'écart : les vignes ne sont pas greffées, certaines ont trois cents ans, et on les tresse au sol en paniers — les koulouras — pour les protéger du vent et capter la brume de mer la nuit, faute de pluie. Le résultat : un blanc sec, pâle, d'une minéralité saline tranchante, parfait sur la fava et tous les fruits de mer. PDO depuis 1971, au moins 85 % d'Assyrtiko.",
+    "image": "",
+    "links": [
+      {
+        "label": "Wines of Greece — PDO Santorini",
+        "url": "https://winesofgreece.org/pdo/pdo-santorini/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Wines of Greece (officiel) — PDO Santorini",
+        "url": "https://winesofgreece.org/pdo/pdo-santorini/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wines of Greece — le kouloura",
+        "url": "https://winesofgreece.org/articles/the-santorini-kouloura/",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "san-argyros"
+  },
+  {
+    "id": "san-vinsanto",
+    "type": "vin",
+    "base": "santorin",
+    "region": "santorin",
+    "title": "Vinsanto — le dessert de soleil",
+    "body": "Le même Assyrtiko, mais les raisins sont laissés à sécher au soleil une semaine avant le pressage, puis le vin vieillit des années en fût de chêne. Il vire à l'ambre brun : café torréfié, caramel, fruits secs, une douceur tenue par l'acidité qui empêche l'écœurement. Chez Argyros, on en goûte un vieilli vingt ans. La catastrophe volcanique, sucrée et patiente.",
+    "image": "",
+    "links": [
+      {
+        "label": "National Geographic — Vinsanto de Santorin",
+        "url": "https://www.nationalgeographic.com/travel/article/vinsanto-santorini-dessert-wine-greece"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "National Geographic — Vinsanto",
+        "url": "https://www.nationalgeographic.com/travel/article/vinsanto-santorini-dessert-wine-greece",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wines of Greece (officiel) — PDO Santorini",
+        "url": "https://winesofgreece.org/pdo/pdo-santorini/",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "san-argyros"
+  },
+  {
+    "id": "san-fava",
+    "type": "plat",
+    "base": "santorin",
+    "region": "santorin",
+    "title": "Fava — la purée jaune de l'île",
+    "body": "Pas une fève : des pois jaunes (Lathyrus clymenum) cultivés sur l'île depuis l'âge du bronze, moulus par des minoteries certifiées, mijotés jusqu'à devenir une purée onctueuse qui prend toute seule. On la sert nappée d'huile d'olive avec de l'oignon rouge cru et des câpres — la recette PDO officielle. Le plat de tous les jours, sur toutes les tables de village.",
+    "image": "santorin-fava",
+    "links": [
+      {
+        "label": "Commission européenne — Fava Santorinis PDO",
+        "url": "https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/gi-recipes/fava-santorinis-pdo-married-capers-and-red-onions_en"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Commission européenne — recette Fava Santorinis PDO",
+        "url": "https://agriculture.ec.europa.eu/farming/geographical-indications-and-quality-schemes/gi-recipes/fava-santorinis-pdo-married-capers-and-red-onions_en",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Flavours — fava de Santorin",
+        "url": "https://www.greekflavours.com/en-us/blogs/recipes/greek-fava-puree-recipe-santorini",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "san-metaximas"
+  },
+  {
+    "id": "san-tomatokeftedes",
+    "type": "plat",
+    "base": "santorin",
+    "region": "santorin",
+    "title": "Tomatokeftedes — les beignets de tomate",
+    "body": "Le beignet emblématique : la petite tomate-cerise de Santorin, écrasée avec des oignons, de la menthe et des herbes, frite en pâte d'huile d'olive jusqu'au doré. Croustillant dehors, fondant et acidulé dedans. On les commande partout en meze, de la taverne de village à la table gastronomique de Selene à Pyrgos.",
+    "image": "santorin-tomatokeftedes",
+    "links": [
+      {
+        "label": "Santorini.net — la tomate-cerise de Santorin",
+        "url": "https://www.santorini.net/the-santorini-cherry-tomato-a-small-fruit-with-a-big-story/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Selene (officiel)",
+        "url": "https://selene.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Santorini.net — tomate-cerise",
+        "url": "https://www.santorini.net/the-santorini-cherry-tomato-a-small-fruit-with-a-big-story/",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "san-selene"
+  },
+  {
+    "id": "san-tomataki",
+    "type": "produit",
+    "base": "santorin",
+    "region": "santorin",
+    "title": "Tomataki — la tomate-cerise sans eau",
+    "body": "Arrivée sur l'île vers 1875, elle s'est adaptée à l'impossible : on la cultive sans irrigation, peau épaisse, chair dense, presque sans eau — d'où son sucre concentré. Récoltée à la main (le sol volcanique interdit la machine), souvent séchée au soleil. PDO depuis 2013. C'est elle qui donne aux tomatokeftedes leur goût qu'on ne trouve nulle part ailleurs.",
+    "image": "",
+    "links": [
+      {
+        "label": "Slow Food — Santorini cherry tomato",
+        "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/santorini-cherry-tomato/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Slow Food — Santorini Cherry Tomato (Ark of Taste)",
+        "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/santorini-cherry-tomato/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Nomikos Estate — Tomataki Santorinis",
+        "url": "https://nomikosestate.com/tomato/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "san-chloro-capres",
+    "type": "produit",
+    "base": "santorin",
+    "region": "santorin",
+    "title": "Chloro & câpres sauvages",
+    "body": "Deux saveurs introuvables hors de l'île. Le chloro, un fromage frais de chèvre, doux et humide, qu'on tartine ou qu'on glisse dans les beignets. Et les câpres sauvages — boutons et feuilles — cueillis sur les buissons qui poussent à même la roche, marinés, vifs et salés. On les retrouve dans la fava, la salade, sur le grill de village comme chez Mythos à Pyrgos.",
+    "image": "",
+    "links": [
+      {
+        "label": "Santorini.net — produits locaux",
+        "url": "https://www.santorini.net/about-santorini/food/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Santorini.net — produits locaux",
+        "url": "https://www.santorini.net/about-santorini/food/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Mythos Taverna (officiel)",
+        "url": "https://mythostaverna.gr/",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "san-mythos"
+  },
+  {
+    "id": "san-aubergine-blanche",
+    "type": "produit",
+    "base": "santorin",
+    "region": "santorin",
+    "title": "L'aubergine blanche de Santorin",
+    "body": "Ici l'aubergine n'est pas violette mais blanche : plus douce, plus juteuse, sans l'amertume habituelle. On la rôtit au four entière, on la sert avec des tomates-cerises et de la féta — comme à To Psaraki, sur la marina de Vlychada. Un autre légume que le sol de cendre a rendu unique.",
+    "image": "",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — To Psaraki",
+        "url": "https://www.greekgastronomyguide.gr/en/item/taverna-psaraki-santorini/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — To Psaraki",
+        "url": "https://www.greekgastronomyguide.gr/en/item/taverna-psaraki-santorini/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Kivotos Hotels — cuisine traditionnelle de Santorin",
+        "url": "https://www.kivotoshotels.com/santorini/blog/traditional-food-in-santorini/",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "san-topsaraki"
   }
 ]
