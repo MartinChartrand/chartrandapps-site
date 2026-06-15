@@ -643,5 +643,170 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "amo-patatato",
+    "type": "plat",
+    "base": "amorgos",
+    "region": "amorgos",
+    "title": "Patatato — le ragoût de l'île",
+    "body": "Le plat-identité d'Amorgos : de la chèvre (ou de l'agneau) mijotée longtemps avec des pommes de terre, de la cannelle, du vin rouge et des clous de girofle, jusqu'à ce que la viande se défasse à la fourchette. On le sauce avec du pain. Le 25 juillet, à la fête d'Agia Paraskevi au sud, on en sert quatre mille portions cuites dans des chaudrons au charbon. À goûter dans une taverne de la Chora comme Kastanis.",
+    "image": "",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — patatato d'Amorgos",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/amorgiano-patatato-amorgos/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — patatato Amorgos",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/amorgiano-patatato-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Go Amorgos — patatato",
+        "url": "https://go-amorgos.gr/en/patatato/",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "amo-kastani"
+  },
+  {
+    "id": "amo-rakomelo",
+    "type": "alcool",
+    "base": "amorgos",
+    "region": "amorgos",
+    "title": "Rakomelo — le raki au miel",
+    "body": "La boisson emblématique d'Amorgos : du raki adouci au miel, à la cannelle et aux clous de girofle, servi chaud, le verre fumant dans la main. Les habitants le boivent à toutes les fêtes — et au monastère Hozoviotissa, c'est le geste d'accueil, un verre offert après la montée. À Katapola, la distillerie Amorgion d'Antonis Vekris le fait à la source.",
+    "image": "",
+    "links": [
+      {
+        "label": "Amorgos.gr — rakomelo",
+        "url": "https://amorgos.gr/explore-amorgos/rakomelo/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Go Amorgos — rakomelo",
+        "url": "https://go-amorgos.gr/en/psimeni-raki-rakomelo-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — Amorgion Vekris",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/amorgion-antonis-vekris-amorgos/",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "amo-amorgion"
+  },
+  {
+    "id": "amo-fromages",
+    "type": "produit",
+    "base": "amorgos",
+    "region": "amorgos",
+    "title": "Kopanisti & xinomyzithra",
+    "body": "Les fromages faits maison de l'île, où broutent quinze mille chèvres et moutons : la kopanisti, piquante et poivrée, tartinable, l'apéro parfait avec un raki ; et la xinomyzithra, douce et acidulée, qui remplace la feta dans la salade amorgienne (tomates, câpres, origan). Quasi introuvables hors d'Amorgos.",
+    "image": "",
+    "links": [
+      {
+        "label": "Amorgos.gr — fromages",
+        "url": "https://amorgos.gr/explore-amorgos/cheese/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Amorgos.gr — fromages",
+        "url": "https://amorgos.gr/explore-amorgos/cheese/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — fromages d'Amorgos",
+        "url": "https://www.greekgastronomyguide.gr/fr/geuseis/ouzomezedes/tyrakia-amorgou-mezes/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-poisson",
+    "type": "plat",
+    "base": "amorgos",
+    "region": "amorgos",
+    "title": "Le poisson des deux ports",
+    "body": "Aux deux ports de l'île — Katapola au sud, Aegiali au nord — le poisson sort du bateau le matin : poulpe grillé, calmars, le poisson du jour selon la pêche. À Mouragio, sur le quai de Katapola, on le mange en regardant accoster les ferries ; à Aegiali, chez Kyra Katina, dans une ruelle derrière la plage.",
+    "image": "",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — Mouragio, Katapola",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/psarotaverna-mouragio-katapola-amorgos/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Mouragio",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/psarotaverna-mouragio-katapola-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — Kyra Katinas",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/limani-tis-kyra-katinas-aigiali-amorgos/",
+        "date": "2026-06"
+      }
+    ],
+    "poiRef": "amo-mouragio"
+  },
+  {
+    "id": "amo-xerotigana",
+    "type": "produit",
+    "base": "amorgos",
+    "region": "amorgos",
+    "title": "Xerotigana — les rubans au miel",
+    "body": "Des rubans de pâte frits, croustillants et presque aériens, arrosés de miel tiède et parsemés de sésame grillé. Le sucre de fête d'Amorgos. Chaque premier week-end de septembre, à Aegiali, les femmes des villages les préparent en public, avec rakomelo et musique — la place sent l'huile chaude et le miel.",
+    "image": "",
+    "links": [
+      {
+        "label": "Greek Gastronomy Guide — xerotigana d'Amorgos",
+        "url": "https://www.greekgastronomyguide.gr/en/item/xerotigana-fried-dough-sweets-amorgos/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — xerotigana",
+        "url": "https://www.greekgastronomyguide.gr/en/item/xerotigana-fried-dough-sweets-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Visit Amorgos — xerotigana",
+        "url": "https://www.visitamorgos.com/taste/xerotigana/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-herbes",
+    "type": "produit",
+    "base": "amorgos",
+    "region": "amorgos",
+    "title": "Les herbes sauvages & tisanes",
+    "body": "Amorgos est réputée pour ses plantes sauvages : l'origan, la sauge, le thym et le dictame poussent sur les pentes arides, surtout au nord vers Langada et Tholaria. On les rapporte en sachets, séchées, des épiceries de village — l'île en tisane, le terroir le plus léger à mettre dans sa valise.",
+    "image": "",
+    "links": [
+      {
+        "label": "Amorgos.gr — découvrir l'île",
+        "url": "https://amorgos.gr/explore-amorgos/"
+      }
+    ],
+    "sources": [
+      {
+        "creator": "Plantes et Santé — Amorgos plantes sauvages",
+        "url": "https://www.plantes-et-sante.fr/articles/escapade-nature/3392-amorgos-charme-calme-et-plantes-sauvages",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Choice Greece — sentiers d'Amorgos",
+        "url": "https://www.choicegreece.com/en/discover/hiking/hiking-in-amorgos-the-blue-trails",
+        "date": "2026-06"
+      }
+    ]
   }
 ]

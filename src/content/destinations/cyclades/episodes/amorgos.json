@@ -1,0 +1,144 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée — la plus reculée",
+      "body": "Amorgos est la dernière du cercle avant le retour, la plus reculée des Cyclades — longue, montagneuse, au bout de la traversée. Peuplée depuis l'Antiquité, vidée par la modernité, rendue mythique par le cinéma. On y arrive par la mer, au port de Katapola au sud, et on s'installe pour de bon : c'est l'île de ceux qui arrivent par l'eau et qui prennent leur temps.",
+      "focusPoi": "amo-chora",
+      "zoom": 12,
+      "targets": ["amo-chora", "amo-katapola"],
+      "thumb": "amorgos-chora",
+      "thumbAlt": "La Chora d'Amorgos, village de maisons blanches sur une colline coiffée d'un piton rocheux et d'un château",
+      "poiRef": "amo-chora",
+      "sources": [
+        { "creator": "Amorgos.gr (officiel)", "url": "https://amorgos.gr/explore-amorgos/", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Deux bases, le ferry pour seul fil",
+      "body": "L'île se vit en deux temps : le sud, autour de la Chora perchée et du port de Katapola ; le nord, autour de la baie de sable d'Aegiali et de ses villages suspendus, Langada et Tholaria. Entre les deux, la route de crête, le bus, et le monastère blanc collé dans la falaise. Le matin la mer, le soir le patatato et le rakomelo.",
+      "focusPoi": "amo-hozoviotissa",
+      "zoom": 13,
+      "targets": ["amo-hozoviotissa", "amo-agia-anna"],
+      "thumb": "amorgos-hozoviotissa",
+      "thumbAlt": "Le monastère blanc de Hozoviotissa collé en plein milieu d'une immense falaise brune à Amorgos",
+      "poiRef": "amo-hozoviotissa",
+      "sources": [
+        { "creator": "Choice Greece — sentiers d'Amorgos", "url": "https://www.choicegreece.com/en/discover/hiking/hiking-in-amorgos-the-blue-trails", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-monastere",
+      "kicker": "Hozoviotissa · L'ARRIVÉE",
+      "title": "Le monastère collé dans la falaise",
+      "image": "amorgos-hozoviotissa",
+      "alt": "Le monastère blanc de Panagia Hozoviotissa, collé en plein milieu d'une immense falaise brune verticale à Amorgos, sous un ciel bleu parsemé de nuages, un arbre au premier plan",
+      "intro": "On le voit de loin, impossible : un trait blanc collé en plein milieu d'une falaise brune qui tombe à pic dans la mer. Le monastère de Panagia Hozoviotissa, fondé en 1088, huit étages de haut mais cinq mètres de large, le plus vieux des Cyclades. On y monte à pied, une vingtaine de minutes de sentier, épaules et genoux couverts. Et tout en haut, après l'effort, on vous tend un petit verre : un raki au miel, fumant, et un loukoumi. L'accueil de l'île de ceux qui arrivent.",
+      "reco": "Tenue couvrante obligatoire (un foulard suffit). À faire tôt ou en fin d'après-midi, pour la lumière et la fraîcheur. Juste en dessous, la plage d'Agia Anna — celle de Le Grand Bleu — pour le bain qui suit. Et le raki au miel, le rakomelo, on le retrouve partout : à Katapola, la distillerie Amorgion le fait à la source.",
+      "quote": "Mille ans accroché à une falaise, et le premier geste pour le visiteur, c'est un verre de miel chaud. Amorgos accueille ceux qui ont traversé la mer.",
+      "via": null,
+      "poiRef": "amo-hozoviotissa",
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — Hozoviotissa", "url": "https://www.greekgastronomyguide.gr/fr/item/panagia-i-xozoviotissa-amorgos/", "date": "2026-06" },
+        { "creator": "Wikipédia — Monastère de la Chozoviótissa", "url": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_de_la_Chozovi%C3%B3tissa", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-patatato",
+      "kicker": "La Chora · LA TABLE",
+      "title": "Le patatato, la chèvre et la patate",
+      "image": "amorgos-chora",
+      "alt": "La Chora d'Amorgos : un village de maisons blanches étalé sur une colline, dominé par un piton rocheux coiffé d'une chapelle et d'un château, sous un ciel bleu",
+      "intro": "La Chora d'Amorgos, perchée, est une des plus belles des Cyclades : ruelles blanches, un château vénitien sur son piton, des moulins, et le soir la vie qui s'installe sur les places. C'est ici qu'on mange le plat de l'île — le patatato : de la chèvre mijotée des heures avec des pommes de terre, de la cannelle et du vin rouge, jusqu'à ce qu'elle se défasse. Du pain pour saucer, un verre de vin local.",
+      "reco": "Chez Kastanis, dans la ruelle piétonne, pour le patatato et la kopanisti — le fromage piquant qu'on tartine. Demande la salade amorgienne (xinomyzithra, tomates, câpres). L'île compte quinze mille chèvres et moutons : tout vient d'à côté. Et pour finir, les xerotigana, ces rubans frits au miel et au sésame.",
+      "quote": "Une chèvre, des patates, de la cannelle, et des heures de patience. Le patatato, c'est la montagne d'Amorgos dans une assiette.",
+      "via": null,
+      "poiRef": "amo-kastani",
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — patatato Amorgos", "url": "https://www.greekgastronomyguide.gr/fr/item/amorgiano-patatato-amorgos/", "date": "2026-06" },
+        { "creator": "Greek Gastronomy Guide — Kastanis", "url": "https://www.greekgastronomyguide.gr/en/item/kastanis-amorgos/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-bain",
+      "kicker": "Agia Anna · LE GRAND BLEU",
+      "title": "L'eau du film",
+      "image": "amorgos-agia-anna",
+      "alt": "L'immense montagne rocheuse de la côte est d'Amorgos, avec le minuscule monastère blanc de Hozoviotissa accroché à mi-falaise, vu depuis la plage d'Agia Anna",
+      "intro": "Sous le monastère, la côte plonge dans une eau d'un bleu impossible. C'est ici, à Agia Anna, que Luc Besson a tourné Le Grand Bleu en 1988 — et l'image a fait le tour du monde. Pas de sable : des plateformes de roche d'où l'on plonge dans le turquoise, l'immense falaise au-dessus, le monastère minuscule accroché là-haut. On nage dans le décor d'un mythe.",
+      "reco": "Agia Anna est petite et peut être ventée — arrive tôt. Pour une eau émeraude plus sauvage et des grottes à explorer au masque, Mouros, plus au sud. Et la crique de sable abritée en face de Katapola, Maltezi, en bateau-taxi (toutes les 30 min l'été).",
+      "quote": "On a tous vu cette eau au cinéma sans savoir où c'était. C'est ici. Et plonger dedans, c'est entrer dans l'image.",
+      "via": null,
+      "poiRef": "amo-agia-anna",
+      "sources": [
+        { "creator": "Movie-Locations — Le Grand Bleu", "url": "https://movie-locations.com/movies/g/Grand-Bleu.php", "date": "2026-06" },
+        { "creator": "Greeka — Agia Anna", "url": "https://www.greeka.com/cyclades/amorgos/beaches/agia-anna/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-aegiali",
+      "kicker": "Aegiali · LE NORD",
+      "title": "La deuxième base : sable et villages perchés",
+      "image": "amorgos-aegiali",
+      "alt": "Une longue plage de galets de la baie d'Aegiali, au nord d'Amorgos, bordée de collines arides et d'une eau bleue claire",
+      "intro": "Au bout de la route de crête, le nord change de visage : Aegiali ouvre une vraie baie de sable, plus douce, et au-dessus s'accrochent deux villages perchés, Langada et Tholaria, reliés par un sentier d'une heure et demie à travers les terrasses. C'est la deuxième moitié du séjour — on descend nager à Levrossos, on remonte manger dans les villages.",
+      "reco": "À Langada, la taverne Loudaros pour les grillades et la vue ; à Aegiali, chez Kyra Katina pour la cuisine maison. Le premier week-end de septembre, le festival du xerotigano : les femmes frient les rubans au miel sur la place, rakomelo et danse. Et les herbes sauvages — origan, sauge, thym — à rapporter en tisane.",
+      "quote": "Deux villages blancs suspendus au-dessus d'une baie de sable, un sentier entre les deux, et le silence. Le nord d'Amorgos, c'est le ralenti dans le ralenti.",
+      "via": null,
+      "poiRef": "amo-levrossos",
+      "sources": [
+        { "creator": "Amorgos.gr — Levrossos", "url": "https://amorgos.gr/explore-amorgos/levrossos-beach/", "date": "2026-06" },
+        { "creator": "Cyclonomas — Langada-Tholaria", "url": "https://cyclonomas.wordpress.com/2017/01/07/amorgos-randonnee-langada-tholaria/", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-shipwreck",
+      "kicker": "Kalotaritissa · LE BOUT DU MONDE",
+      "title": "L'épave dans le turquoise",
+      "image": "amorgos-shipwreck",
+      "alt": "L'épave rouillée du cargo Olympia échouée dans une eau turquoise au pied de collines arides à Amorgos (la plage de Kalotaritissa), en lumière dorée",
+      "intro": "À la pointe sud, là où la route finit, la baie de Kalotaritissa. Dans l'anse voisine, échouée dans une eau turquoise au pied des collines arides, l'épave rouillée d'un cargo, l'Olympia — un autre fantôme du Grand Bleu, devenu une image qu'on garde d'Amorgos. On vient nager là, au bout de tout, dans le silence.",
+      "reco": "Voiture ou scooter (un bus par jour). La baie de Kalotaritissa pour le bain, l'épave dans l'anse de Liveros juste avant. Rien d'autre que la mer et la rouille contre le bleu — apporte de l'eau. C'est le dernier bain du cercle avant Santorin.",
+      "quote": "Une carcasse de fer qui rouille dans le plus beau bleu du monde. Amorgos garde ses légendes au bout de ses routes.",
+      "via": null,
+      "poiRef": "amo-kalotaritissa",
+      "sources": [
+        { "creator": "Go Amorgos — shipwreck", "url": "https://go-amorgos.gr/en/attractions/shipwreck/", "date": "2026-06" },
+        { "creator": "Miles with Vibes — Kalotaritissa", "url": "https://www.mileswithvibes.com/amorgos/kalotaritissa-beach/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant le dernier ferry : le patatato de la Chora, le poisson des deux ports, la kopanisti, le rakomelo de Katapola, les xerotigana d'Aegiali. Et la mer — Agia Anna et son Grand Bleu, l'épave de Kalotaritissa, le sable de Levrossos au nord. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": ["amo-hozoviotissa", "amo-kastani", "amo-agia-anna", "amo-levrossos"],
+      "targets": ["amo-hozoviotissa"],
+      "thumb": "amorgos-hozoviotissa",
+      "thumbAlt": "Le monastère blanc de Hozoviotissa accroché dans la falaise brune d'Amorgos",
+      "pills": [
+        { "poiRef": "amo-kastani", "link": "maps", "label": "Kastanis · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Greek Gastronomy Guide — 10 tavernes d'Amorgos", "url": "https://www.greekgastronomyguide.gr/en/oi-10-kalyteres-tavernes-stin-amorgo/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "L'île en deux bases. Au sud : Emprostiada ou Vorina Ktismata dans la Chora perchée, Amorgos Pearls près du port de Katapola. Au nord : Aelia Studios sur la plage d'Aegiali, le Pagali dans le village perché de Langada. Réserver tôt — peu de chambres partout." },
+      { "label": "À table", "kinds": ["resto"], "footer": "Le patatato et la kopanisti à la Chora (Kastanis). Le poisson des deux ports : Mouragio sur le quai de Katapola, Kyra Katina à Aegiali. Les grillades de village à Langada (Loudaros), et Youkali, au calme à Xilokeratidi." },
+      { "label": "La mer & les criques", "kinds": ["plage"], "footer": "Agia Anna, l'eau du Grand Bleu sous le monastère. Mouros, l'émeraude sauvage et ses grottes. Kalotaritissa et l'épave au bout de l'île. Au nord, le sable de Levrossos ; et Maltezi en face de Katapola, en bateau." },
+      { "label": "À voir & faire", "kinds": ["sight", "winery"], "footer": "Le monastère Hozoviotissa dans la falaise (le raki au miel offert). La Chora et son château. Les villages perchés de Langada et Tholaria et le sentier qui les relie. Et la distillerie Amorgion à Katapola, pour le rakomelo à la source." }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Le cercle se referme bientôt",
+    "body": "Quatrième île, quatrième réponse : ici, la plus reculée, on n'arrive que par la mer — et l'accueil, c'est un verre de miel chaud après la montée au monastère. Les {count} lieux d'Amorgos, du sud au nord, vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Dernier ferry : Santorin, et le cercle se referme.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/cyclades/"
+  }
+}
