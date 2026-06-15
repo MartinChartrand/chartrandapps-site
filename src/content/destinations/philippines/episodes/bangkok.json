@@ -55,7 +55,7 @@
       "reco": "Phed Mark, à deux pas du BTS Ekkamai. Le porc ou le poulet haché, basilic sacré, œuf frit. Niveau d'épice à ton goût — le 10 est sérieux, le 5 déjà bien relevé. C'est la première vraie bouchée du voyage : un plat de rue simple, fait avec une précision de chef.",
       "quote": "On ne vient pas à Bangkok pour les temples. On vient pour le wok qui crache du feu à 17h.",
       "via": {
-        "label": "📺 Mark Wiens / Migrationology",
+        "label": "Mark Wiens / Migrationology",
         "url": "https://winedirections.com/mark-wiens-and-the-street-food-scene-in-bangkok-a-legacy/"
       },
       "poiRef": "phed-mark-ekkamai",
@@ -83,11 +83,11 @@
       "title": "La crevette géante dans la fumée de Chinatown",
       "image": "bangkok-yaowarat",
       "alt": "Yaowarat Road, le Chinatown de Bangkok la nuit — néons rouges, étals de bouffe de rue, foule",
-      "intro": "Le soir, les néons rouges de Yaowarat s'allument, les familles s'installent sur des tabourets en plastique, et les woks crachent du feu sur le trottoir. Chez T&K, les « chemises vertes » grillent les crevettes fluviales géantes et le poisson dans la fumée jusqu'à 2h du matin. Une bouteille de Singha froide à 50 bahts t'appartient pour la soirée.",
+      "intro": "Le soir, les néons rouges de Yaowarat s'allument, les familles s'installent sur des tabourets en plastique, et les woks crachent du feu sur le trottoir. Chez T&K, les « chemises vertes » grillent les crevettes fluviales géantes et le poisson dans la fumée jusqu'à 2h du matin. Une bouteille de Singha froide à 50 bahts (~CAD 2) t'appartient pour la soirée.",
       "reco": "T&K Seafood (les chemises vertes) au coin de Phadung Dao, dans Yaowarat. La crevette fluviale géante grillée, le poisson du jour, les calamars dans la fumée du charbon. On mange au coude à coude avec des habitants qui font ça depuis trente ans.",
       "quote": "Personne ne te regarde bizarrement — Bangkok absorbe tout le monde avec la même indifférence bienveillante.",
       "via": {
-        "label": "📺 Eating Thai Food (Mark Wiens)",
+        "label": "Eating Thai Food (Mark Wiens)",
         "url": "https://www.eatingthaifood.com/restaurants/t-k-seafood-restaurant-yaowarat-chinatown-bangkok-thailand/"
       },
       "poiRef": "tk-seafood-yaowarat",
@@ -158,7 +158,7 @@
       "reco": "Or Tor Kor Market (MRT Kamphaeng Phet) pour le khao gaeng au comptoir et les fruits. Pour LE mango sticky rice de référence, Mae Varee au BTS Thong Lo, ouvert tard, à manger debout sur le trottoir comme un Bangkokien ordinaire.",
       "quote": "Le luxe, ici, c'est une mangue trop mûre mangée debout, le jus qui coule sur les doigts à 9h du matin.",
       "via": {
-        "label": "📺 Mark Wiens / Migrationology",
+        "label": "Mark Wiens / Migrationology",
         "url": "https://migrationology.com/or-tor-kor-market-bangkok-thailand/"
       },
       "poiRef": "or-tor-kor-market",
@@ -235,7 +235,7 @@
         "kinds": [
           "resto"
         ],
-        "footer": "Le pad krapow de Phed Mark (Ekkamai), la crevette de T&K dans la fumée de Yaowarat, le tom yum de minuit chez Jeh O Chula, le pad thai mythique de Thip Samai, et le guay tiew kua gai (Michelin à 50 bahts) chez Ann."
+        "footer": "Le pad krapow de Phed Mark (Ekkamai), la crevette de T&K dans la fumée de Yaowarat, le tom yum de minuit chez Jeh O Chula, le pad thai mythique de Thip Samai, et le guay tiew kua gai (Michelin à 50 bahts, ~CAD 2) chez Ann."
       },
       {
         "label": "À voir, si ça te tente",

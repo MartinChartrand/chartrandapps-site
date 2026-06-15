@@ -13,7 +13,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "5 500–7 000 THB",
+      "range": "5 500–7 000 THB (~CAD 195–250)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -65,7 +65,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "1 800–2 800 THB",
+      "range": "1 800–2 800 THB (~CAD 65–100)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -111,7 +111,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "2 500–4 000 THB",
+      "range": "2 500–4 000 THB (~CAD 90–145)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -157,7 +157,7 @@
     "signature": "Pad Krapow poulet ou boeuf niveau 5 (sur 10) avec oeuf frit croustillant — 80–120 THB",
     "image": null,
     "price": {
-      "range": "80–150 THB",
+      "range": "80–150 THB (~CAD 3–5)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -209,7 +209,7 @@
     "signature": "Or Suan — omelette d'huitres croustillante aux bords grillés sur wok charbon — 120–180 THB",
     "image": null,
     "price": {
-      "range": "200–500 THB par personne",
+      "range": "200–500 THB par personne (~CAD 7–18)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -261,7 +261,7 @@
     "signature": "Pad Thai enveloppé dans une crêpe d'oeuf avec grosses crevettes — 120–200 THB",
     "image": null,
     "price": {
-      "range": "60–200 THB",
+      "range": "60–200 THB (~CAD 2–7)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -312,7 +312,7 @@
     "signature": "Kua Gai — nouilles plates de riz sautées au charbon avec poulet, oeuf coulant, graisses de wok — 60–80 THB",
     "image": null,
     "price": {
-      "range": "60–100 THB",
+      "range": "60–100 THB (~CAD 2–4)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -363,7 +363,7 @@
     "signature": "MAMA OHO — tom yum XXL aux fruits de mer sur nouilles instantanées avec deux oeufs — 220–320 THB",
     "image": null,
     "price": {
-      "range": "120–400 THB",
+      "range": "120–400 THB (~CAD 4–14)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -618,7 +618,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "600–800 THB / heure",
+      "range": "600–800 THB / heure (~CAD 21–29)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -664,7 +664,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "200 THB",
+      "range": "200 THB (~CAD 7)",
       "currency": "THB",
       "asOf": "2026-06"
     },
@@ -1212,7 +1212,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱50 (inclus dans la plupart des tours)",
+      "range": "₱50 (inclus dans la plupart des tours) (~CAD 1)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1406,7 +1406,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱75 environmental fee (Carles Tourism Office)",
+      "range": "₱75 environmental fee (Carles Tourism Office) (~CAD 2)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1452,7 +1452,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱250/personne (~30 min)",
+      "range": "₱250/personne (~30 min) (~CAD 6)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1503,7 +1503,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱3,500–5,500 (~$60–95 USD)",
+      "range": "₱3,500–5,500 (~CAD 85–135)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1549,7 +1549,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱4,000–7,500 (~$69–130 USD) selon la chambre",
+      "range": "₱4,000–7,500 (~CAD 100–185) selon la chambre",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1601,7 +1601,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱2,500–4,000 (~$43–69 USD)",
+      "range": "₱2,500–4,000 (~CAD 60–100)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1647,7 +1647,7 @@
     "signature": "Pecho (poitrine) ou paa (cuisse) inasal grillé au charbon, servi avec riz sinangag et sinamak-calamansi pour tremper",
     "image": null,
     "price": {
-      "range": "₱80–150/pièce + riz ₱30",
+      "range": "₱80–150/pièce (~CAD 2–4) + riz ₱30 (~CAD 1)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1699,7 +1699,7 @@
     "signature": "Cansi — bouillon de jarret de boeuf souri au batwan avec moelle et jackfruit vert, servi avec riz blanc",
     "image": null,
     "price": {
-      "range": "₱250–470 (grand bol pour 2-3)",
+      "range": "₱250–470 (grand bol pour 2-3) (~CAD 6–11)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1751,7 +1751,7 @@
     "signature": "Dumaguete Express — version locale du Bicol Express aux fruits de mer et porc croustillant, ou bouillabaisse coconut avec catch du jour",
     "image": null,
     "price": {
-      "range": "₱200–500/plat",
+      "range": "₱200–500/plat (~CAD 5–12)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1802,7 +1802,7 @@
     "signature": "Huîtres au fromage gratinées (baked oysters) et crabe sauté sauce ail-citron",
     "image": null,
     "price": {
-      "range": "₱150–600/plat",
+      "range": "₱150–600/plat (~CAD 4–15)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1848,7 +1848,7 @@
     "signature": "Cansi single-dish — bouillon batwan-jarret avec os à moelle entier",
     "image": null,
     "price": {
-      "range": "₱200–400/bol",
+      "range": "₱200–400/bol (~CAD 5–10)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1941,7 +1941,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱150 adultes étrangers, ₱100 locaux",
+      "range": "₱150 (~CAD 4) adultes étrangers, ₱100 (~CAD 2) locaux",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -1993,7 +1993,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱50–100/maison (musées individuels)",
+      "range": "₱50–100/maison (musées individuels) (~CAD 1–2)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2040,7 +2040,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱300 étrangers (environmental fee) + ₱300 guide turtle sanctuary + banca ₱3,500–5,000 aller-retour",
+      "range": "₱300 (~CAD 7) étrangers (environmental fee) + ₱300 (~CAD 7) guide turtle sanctuary + banca ₱3,500–5,000 (~CAD 85–120) aller-retour",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2092,7 +2092,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱0 pour snorkeling depuis la rive (inclus dans les resorts)",
+      "range": "₱0 pour snorkeling depuis la rive (inclus dans les resorts) (~CAD 1)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2237,7 +2237,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱3,500-6,500 (≈ $62-115 USD)",
+      "range": "₱3,500-6,500 (~CAD 85–160)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2289,7 +2289,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱2,800-4,500 (≈ $52-80 USD)",
+      "range": "₱2,800-4,500 (~CAD 70–110)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2335,7 +2335,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱5,500-9,000 (≈ $98-160 USD)",
+      "range": "₱5,500-9,000 (~CAD 135–220)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2387,7 +2387,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱1,700-2,500 (≈ $30-45 USD)",
+      "range": "₱1,700-2,500 (~CAD 41–60)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2433,7 +2433,7 @@
     "signature": "Lapu-lapu (mérou) grillé entier au charbon, servi avec riz et vinaigre aux piments — ₱150-250",
     "image": null,
     "price": {
-      "range": "₱80-300 par personne",
+      "range": "₱80-300 par personne (~CAD 2–7)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2485,7 +2485,7 @@
     "signature": "Buffet cochon de lait rôti + poisson grillé du jour + soupe + dessert, vendredi soir à partir de 18h30 — ₱380-450/personne",
     "image": null,
     "price": {
-      "range": "₱200-600 par personne",
+      "range": "₱200-600 par personne (~CAD 5–15)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2537,7 +2537,7 @@
     "signature": "Lechon kawali (porc frit croustillant) avec sauce piment maison — ₱180",
     "image": null,
     "price": {
-      "range": "₱200-700 par personne",
+      "range": "₱200-700 par personne (~CAD 5–17)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2583,7 +2583,7 @@
     "signature": "Empanadas au fromage fondant (6 pièces pour ₱180) + café local de Siquijor — ₱120",
     "image": null,
     "price": {
-      "range": "₱150-350 par personne",
+      "range": "₱150-350 par personne (~CAD 4–9)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2629,7 +2629,7 @@
     "signature": "Calamar rôti entier (pusit inihaw) avec sauce vinaigrée — ₱280, et bangus (milkfish) frit croustillant — ₱220",
     "image": null,
     "price": {
-      "range": "₱300-700 par personne",
+      "range": "₱300-700 par personne (~CAD 7–17)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2681,7 +2681,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱10 entrée + ₱50 balançoire (illimitée)",
+      "range": "₱10 (~CAD <1) entrée + ₱50 (~CAD 1) balançoire (illimitée)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2734,7 +2734,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱20 par personne",
+      "range": "₱20 par personne (~CAD 1)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2786,7 +2786,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱40 entrée + ₱40 parking scooter",
+      "range": "₱40 (~CAD 1) entrée + ₱40 (~CAD 1) parking scooter",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2838,7 +2838,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱20 entrée + don libre pour le spa aux poissons",
+      "range": "₱20 (~CAD <1) entrée + don libre pour le spa aux poissons",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2890,7 +2890,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱300-400 location scooter/jour",
+      "range": "₱300-400 location scooter/jour (~CAD 7–10)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -2941,7 +2941,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "₱100 entrée sanctuaire",
+      "range": "₱100 entrée sanctuaire (~CAD 2)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3217,7 +3217,7 @@
     "signature": "Kare-kare de légumes du jardin en sauce aux arachides + sinigang de lapu-lapu (mérou) au tamarin, crème glacée malunggay (moringa)",
     "image": null,
     "price": {
-      "range": "PHP 350-700 par plat",
+      "range": "PHP 350-700 par plat (~CAD 9–17)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3263,7 +3263,7 @@
     "signature": "Garlic butter crab (crabe des îles au beurre aillé) + calamares sinugba (calmars grillés entiers, farcis tomates-oignons)",
     "image": null,
     "price": {
-      "range": "PHP 400-900 par plat principal",
+      "range": "PHP 400-900 par plat principal (~CAD 10–22)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3309,7 +3309,7 @@
     "signature": "Buffet bisaya : sinuglaw (porc grillé + kinilaw de poisson mélangés), dinuguan, riz, mangue fraîche",
     "image": null,
     "price": {
-      "range": "PHP 850 par personne (buffet inclus)",
+      "range": "PHP 850 par personne (buffet inclus) (~CAD 21)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3361,7 +3361,7 @@
     "signature": "Lechon de Cebu à la peau croustillante aux herbes (servi au kilo, avec riz et atchara en accompagnement)",
     "image": null,
     "price": {
-      "range": "PHP 600-1200 pour un repas complet (lechon vendu au poids)",
+      "range": "PHP 600-1200 pour un repas complet (lechon vendu au poids) (~CAD 15–29)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3413,7 +3413,7 @@
     "signature": "Lechon de Cebu style Zubuchon : peau croustillante sans sauce soja, farce citronnelle-laurier, vendu au poids (PHP 450/100g env.)",
     "image": null,
     "price": {
-      "range": "PHP 450-990 pour une portion individuelle",
+      "range": "PHP 450-990 pour une portion individuelle (~CAD 11–24)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3517,7 +3517,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "PHP 500-800 pour la balade en bateau + droit d'entrée sanctuaire; plongée PHP 1500-2500 avec guide",
+      "range": "PHP 500-800 (~CAD 12–20) pour la balade en bateau + droit d'entrée sanctuaire; plongée PHP 1500-2500 (~CAD 35–60) avec guide",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3569,7 +3569,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "PHP 100-150 par personne",
+      "range": "PHP 100-150 par personne (~CAD 2–4)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3621,7 +3621,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "PHP 150 par personne",
+      "range": "PHP 150 par personne (~CAD 4)",
       "currency": "PHP",
       "asOf": "2026-06"
     },
@@ -3672,7 +3672,7 @@
     "signature": "",
     "image": null,
     "price": {
-      "range": "PHP 850 par personne (buffet inclus)",
+      "range": "PHP 850 par personne (buffet inclus) (~CAD 21)",
       "currency": "PHP",
       "asOf": "2026-06"
     },

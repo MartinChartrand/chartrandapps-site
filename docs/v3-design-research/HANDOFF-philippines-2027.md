@@ -1,7 +1,20 @@
 # HANDOFF — Site voyage Philippines/Visayas 2027
 
-**Branche :** `voyage/philippines-visayas-2027` · **Commit scaffold :** `a7c0b5f` · **Date :** 2026-06-15
-**Arrêt :** quota Martin à 70% → stop clean avant le seuil 78-80% (règle `gestion-limites-session`).
+**Branche :** `voyage/philippines-visayas-2027` · **Commit courant :** `3c37ce1` · **Date :** 2026-06-15
+
+## ⚑ ÉTAT COURANT (2026-06-15, fin de session)
+**Site BÂTI EN FORMAT ÉPISODE (v3), committé sur la branche, PAS encore en prod.**
+- ✅ Conversion v2 long-scroll → **épisode** (clone Cyclades) : `episodic=true` + `container` (hook « le ferry, le feu et l'acide » + 5 tuiles) + **5 `episodes/<base>.json`** (cold open carte + scènes Bourdain + montage + carnet + outro). Bangkok authoré main ; Panay/Negros/Siquijor/Bohol fan-outés (Sonnet), sources injectées des données.
+- ✅ **30 images** CDN-vérifiées + **30/30 match vision**. 7 plats nichés sans image (Loi 3). Mémoire `sourcing-images-unsplash-grounded` (validateur CDN gratuit + grille `file://` pinchtab).
+- ✅ Provenance nettoyée, géo 77/77 (landmask étendu Pampanga), orphelins OK, build 24 pages.
+- 🟥 **RESTE = CHECKPOINT 3** : Martin review le preview (`npm run preview` → localhost:4321/philippines/) → si OK : poser `approvedBy:human` ×92 (script à écrire ou sed) → `validate:fast` vert → **merge main = auto-deploy** live `chartrandapps.ca/philippines/`. PAS de push tant que Martin pas approuvé.
+- 📋 Caveats à trancher : lechon (plat-finale) sans image (Unsplash en a aucun vrai → option Wikimedia CC) ; scène 2 Panay titre « batchoy » mais image kinilaw ; 2 stand-ins ambiance (panay-tangke=El Nido, bohol-panglao=île PH générique).
+- 🔜 **SUIVI (task #8) : désactiver le format v2** — tout nouveau voyage en épisode (garde-fou + `/voyage-new` épisode-only). NE PAS ripper le rendu v2 : Crète+Turquie sont v2 en prod (grandfather ou convertir).
+
+Scripts re-roulables : `scripts/migrate/_transform-philippines.py`, `_author-episode-bangkok.py`, `_assemble-episodes.py <workflow-output>`, `_author-container.py`.
+
+---
+**Arrêt initial :** quota Martin à 70% → stop clean avant le seuil 78-80% (règle `gestion-limites-session`).
 
 ## Contexte
 Voyage perso Martin & Sophie, fév-mars 2027. Brouillon (itinéraire + budget dans `~/Downloads/`) **fact-checké** (fan-out 8 axes) + **filtré au style** (bouffe+eau+slow, Cordillère coupée → all-in Visayas). Décision : en faire un site via `/voyage-new`.
