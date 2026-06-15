@@ -1,0 +1,322 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée — l'île qui flotte",
+      "body": "On arrive à Siquijor par le premier ferry du matin depuis Dumaguete — quarante minutes sur une mer plate, et l'île apparaît comme une promesse verte qui flotte. Pas de gratte-ciel, pas d'aéroport international, pas de resort à 500 USD la nuit. Juste la route côtière qui fait le tour, les bougainvillées qui débordent sur l'asphalte, et une odeur de charbon de bois qui annonce déjà quelqu'un en train de griller quelque chose quelque part.",
+      "focusPoi": "coco-grove-siquijor",
+      "zoom": 12,
+      "targets": [
+        "coco-grove-siquijor",
+        "salamangka-beach-siquijor"
+      ],
+      "thumb": "siquijor-cover",
+      "thumbAlt": "Un bassin naturel au pied d'une chute tropicale en pleine jungle — l'esprit des chutes Cambugahay, Siquijor",
+      "poiRef": "coco-grove-siquijor",
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/beach-resorts-in-siquijor-philippines/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "kicker": "Le rythme de base — le scooter et la mer",
+      "body": "La séquence logique, c'est le scooter. À 300 pesos la journée, on prend l'anneau circumférentiel dans le sens des aiguilles d'une montre. On sort de San Juan, on longe la côte nord, on s'arrête aux chutes Cambugahay avant que les groupes arrivent. À 8h du matin, les bassins turquoise sont presque vides. Les cordes pendent au-dessus du premier niveau — on monte, on saute, l'eau est fraîche, les gens du coin rient et applaudissent. C'est la version philippine du bonheur simple.",
+      "focusPoi": "cambugahay-falls",
+      "zoom": 13,
+      "targets": [
+        "cambugahay-falls",
+        "tour-scooter-ile",
+        "paliton-beach"
+      ],
+      "thumb": "siquijor-salagdoong",
+      "thumbAlt": "Salagdoong Beach : une eau turquoise nichée entre des falaises, Siquijor",
+      "poiRef": "cambugahay-falls",
+      "sources": [
+        {
+          "creator": "Kate and Mike's Travels",
+          "url": "https://www.kateandmikestravels.com/post/cambugahay-falls-siquijor",
+          "date": "2024-01"
+        },
+        {
+          "creator": "FunFam Travels PH",
+          "url": "https://funfamtravelsph.com/discovering-the-magic-of-cambugahay-falls-rope-swings-bamboo-rafts-and-the-enchanting-fairy-walk/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "The Always Wanderer (Sophia)",
+          "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-cambugahay",
+      "kicker": "Cambugahay · LES CHUTES",
+      "title": "Les bassins turquoise avant les groupes",
+      "image": "siquijor-cover",
+      "alt": "Un bassin naturel au pied d'une chute tropicale en pleine jungle — l'esprit des chutes Cambugahay, Siquijor",
+      "intro": "Les chutes Cambugahay, c'est pas un détour — c'est le premier arrêt obligatoire du tour de l'île. Trois niveaux en cascade, des bassins d'eau douce et froide, des lianes-cordes qui pendent pour sauter. Tôt le matin, avant 9h, les locaux ont le lieu pour eux. On saute, on flotte, on rit. C'est tout. Ça suffit.",
+      "reco": "Cambugahay Falls, à environ 3 km de la ville de Siquijor. Louer le scooter la veille, partir à 7h30 max. Entrée quasi gratuite (frais minimes). Premier bassin le plus accessible, deuxième le plus beau pour nager. Revenir avant midi si possible — les groupes arrivent dès 10h.",
+      "quote": "C'est la version philippine du bonheur simple : une corde, de l'eau froide, et des gens du coin qui applaudissent.",
+      "poiRef": "cambugahay-falls",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Kate and Mike's Travels",
+          "url": "https://www.kateandmikestravels.com/post/cambugahay-falls-siquijor",
+          "date": "2024-01"
+        },
+        {
+          "creator": "FunFam Travels PH",
+          "url": "https://funfamtravelsph.com/discovering-the-magic-of-cambugahay-falls-rope-swings-bamboo-rafts-and-the-enchanting-fairy-walk/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "The Always Wanderer (Sophia)",
+          "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-kinilaw-siquijor",
+      "kicker": "Dalahikan Grill · LA TABLE",
+      "title": "Le lapu-lapu au charbon les pieds dans le sable",
+      "image": "d-kinilaw-frais",
+      "alt": "Kinilaw de thon ou vivaneau",
+      "intro": "La bouffe de Siquijor, c'est pas de la grande gastronomie sophistiquée — c'est de la pêche du matin passée sur la braise. Au Dalahikan Grill Masters en fin d'après-midi, un lapu-lapu entier ouvert en deux sur le charbon de bois, avec du riz, du vinaigre aux piments et une San Miguel froide : 200 pesos. Ça goûte comme si quelqu'un t'avait invité à souper.",
+      "reco": "Dalahikan Grill Masters pour le poisson grillé en soirée. Arriver pour le coucher de soleil, rester pour le kinilaw de thon ou vivaneau en entrée — vinaigre de coco, gingembre, piment oiseau. Le marché public de Siquijor Town tôt le matin (5h-8h) pour voir les pêcheurs débarquer : on achète le poisson, une carinderia voisine le prépare pour presque rien.",
+      "quote": "200 pesos. Un lapu-lapu entier. Une bière froide. Pieds dans le sable. C'est le restaurant sans menu le plus honnête du monde.",
+      "poiRef": "dalahikan-grill-siquijor",
+      "via": null,
+      "sources": [
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-island-philippines/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "id": "scene-paliton",
+      "kicker": "Paliton Beach · LA MER",
+      "title": "Le sable blanc et personne avant 9h",
+      "image": "g-coucher-soleil-paliton-cocktail",
+      "alt": "Des cocotiers en silhouette sur une plage au coucher du soleil — l'esprit de Paliton, Siquijor",
+      "intro": "Paliton Beach tôt le matin — le sable blanc, l'eau qui vire du turquoise au bleu roi selon la profondeur, et presque personne. C'est pour ça qu'on est là. Une plage sans infrastructure de resort, sans jet-skis, sans bar à cocktails en plastique. Juste la mer et les cocotiers. Le soir, on revient avec une noix de coco fraîche et on regarde le soleil tomber dans le détroit.",
+      "reco": "Paliton Beach, côte nord-ouest de Siquijor — accessible en scooter, environ 20 minutes de San Juan. Aller à l'aube pour le calme absolu. Revenir en fin d'après-midi pour le coucher de soleil, idéalement avec une noix de coco fraîche achetée en chemin. Le Capilay Spring Park de San Juan est à 5 minutes — une autre piscine naturelle gratuite.",
+      "quote": null,
+      "poiRef": "paliton-beach",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-beaches/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-beaches/",
+          "date": "2026-04"
+        },
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-salagdoong",
+      "kicker": "Salagdoong · LA FALAISE",
+      "title": "Les plates-formes pour ceux qui n'ont pas peur",
+      "image": "siquijor-salagdoong",
+      "alt": "Salagdoong Beach : une eau turquoise nichée entre des falaises, Siquijor",
+      "intro": "Salagdoong Beach, sur la côte est, c'est l'autre visage de Siquijor : des plates-formes à 10 et 15 mètres au-dessus d'une eau turquoise, les téméraires locaux qui sautent sans hésiter, les touristes qui regardent du bord. L'eau en dessous est profonde et claire. On a regardé, on a admiré, on n'a pas regretté de ne pas avoir sauté. Le cadre, lui, mérite seul le déplacement.",
+      "reco": "Salagdoong Beach, côte est de l'île — la route traverse la montagne depuis San Juan (45 minutes en scooter, la vue vaut le trajet). Les chutes Lugnason sont à proximité : un trou d'eau caché dans la forêt de la côte sud, pratiquement sans panneau, pratiquement sans touriste. Combiner les deux dans la même boucle.",
+      "quote": null,
+      "poiRef": "salagdoong-beach",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-beaches/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "The Always Wanderer (Sophia)",
+          "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-lugnason",
+      "kicker": "Lugnason · LE SECRET",
+      "title": "Le trou d'eau caché de la côte sud",
+      "image": "g-lugnason-falls-cache",
+      "alt": "Chutes Lugnason — le trou d'eau caché de la côte sud",
+      "intro": "Les chutes Lugnason n'ont pas de panneau officiel, pas de vendeurs de billets, pas de selfie-sticks. Un sentier dans la forêt, dix minutes de marche, et on tombe sur un bassin d'eau sombre cerné de rochers couverts de mousse. Les seuls autres humains sont deux garçons du village qui pêchent à la canne. C'est le genre d'endroit qu'on ne peut pas mettre sur une liste sans avoir l'air de le gâcher.",
+      "reco": "Chutes Lugnason, côte sud — chercher la route de barangay Cangclaran. Pas de GPS fiable : demander en chemin à un habitant. Combinable avec Salagdoong dans la boucle de la côte est/sud. Les Bucafe empanadas dans les arbres sur la route du retour vers San Juan — l'arrêt pour reprendre son souffle et grignoter avant le coucher de soleil.",
+      "quote": "Le genre d'endroit qu'on ne peut pas mettre sur une liste sans avoir l'air de le gâcher.",
+      "poiRef": "tubod-marine-sanctuary",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Bean in Transit (Johanna Marie Frejoles)",
+          "url": "https://www.beanintransit.com/2025/01/siquijor-travel-guide-3-day-itinerary.html",
+          "date": "2025-01"
+        },
+        {
+          "creator": "The Always Wanderer (Sophia)",
+          "url": "https://thealwayswanderer.com/siquijor-island-travel-guide/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de filer vers Bohol : les bassins turquoise de Cambugahay, le lapu-lapu au charbon du Dalahikan, le kinilaw de vivaneau au marché du matin, le coucher de soleil à Paliton avec une noix de coco, les chutes Lugnason sans âme qui vive. Et le Baha Ba'r pour le lechon du vendredi soir. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": [
+        "cambugahay-falls",
+        "dalahikan-grill-siquijor",
+        "paliton-beach",
+        "salagdoong-beach",
+        "baha-bar-siquijor"
+      ],
+      "targets": [
+        "dalahikan-grill-siquijor"
+      ],
+      "thumb": "g-coucher-soleil-paliton-cocktail",
+      "thumbAlt": "Des cocotiers en silhouette sur une plage au coucher du soleil — l'esprit de Paliton, Siquijor",
+      "pills": [
+        {
+          "poiRef": "dalahikan-grill-siquijor",
+          "link": "maps",
+          "label": "Dalahikan Grill Masters · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "PhilippineTravels.ph",
+          "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-island-philippines/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Siquijor-island.com",
+          "url": "https://siquijor-island.com/friday-night-lechon/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Ed Puno — One-Armed Wanderer",
+          "url": "https://www.edpuno.com/2017/01/restaurant-bar-in-siquijor-island-baha-bar.html",
+          "date": "2017-01"
+        },
+        {
+          "creator": "Kate and Mike's Travels",
+          "url": "https://www.kateandmikestravels.com/post/cambugahay-falls-siquijor",
+          "date": "2024-01"
+        },
+        {
+          "creator": "FunFam Travels PH",
+          "url": "https://funfamtravelsph.com/discovering-the-magic-of-cambugahay-falls-rope-swings-bamboo-rafts-and-the-enchanting-fairy-walk/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Girl on a Zebra (Oliver)",
+          "url": "https://girlonazebra.com/siquijor-beaches/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Philippines Hidden Gems",
+          "url": "https://philippineshiddengems.com/siquijor-beaches/",
+          "date": "2026-04"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "Coco Grove Beach Resort à San Juan : le classique de l'île, bungalows dans les cocotiers, plage privée. Salamangka Beach & Dive Resort pour les plongeurs et snorkeleurs, à deux pas du Tubod Marine Sanctuary. RUNIK Siquijor (Adults Only) pour le calme absolu. Lazi Beach Club si on préfère la côte est, plus tranquille encore."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Dalahikan Grill Masters pour le poisson au charbon en soirée. Le marché public de Siquijor Town avant 8h pour acheter la pêche du jour et la faire cuisiner à côté. Baha Ba'r pour le lechon rôti du vendredi soir. FIG Sunset View Resort & Restaurant pour manger face à la mer au coucher du soleil. Bucafe pour les empanadas dans les arbres en fin d'après-midi."
+      },
+      {
+        "label": "Plages et nature",
+        "kinds": [
+          "plage",
+          "activity",
+          "sight"
+        ],
+        "footer": "Cambugahay Falls avant 9h (premier arrêt obligatoire). Paliton Beach à l'aube puis au coucher de soleil. Salagdoong Beach pour les plates-formes de saut et l'eau turquoise. Chutes Lugnason sans panneau ni foule sur la côte sud. Le Tubod Marine Sanctuary pour le snorkeling de rive. Le vieux balete de 400 ans — impressionnant, même si c'est touristique. Le tour de l'île en scooter : la vraie façon de voir Siquijor."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "L'île douce se referme",
+    "body": "Deux ou trois nuits à Siquijor, c'est court — mais c'est exactement la bonne durée. L'île est petite, douce, pas encore écrasée. Les {count} adresses — où dormir, où manger, où nager — sont dans le carnet, avec leurs liens, leurs prix, et le budget du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochain arrêt : Bohol et la sortie.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/philippines/"
+  }
+}

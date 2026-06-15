@@ -64,6 +64,40 @@ META = {
 }
 ORDER = ["bangkok","panay","negros","siquijor","bohol"]
 
+# ── Curation des images (Bloc B) ─────────────────────────────────────────────
+# Patron cyclades (prod) : un slot d'image RÉEL seulement pour les items iconiques +
+# photographables sur Unsplash ; tout le reste → image:"" (rend sans photo, valide au schéma,
+# cf. cyclades 11/36 dishes avec image). Choisi au filtre style (bouffe + eau + slow).
+# Les plats nichés qu'Unsplash n'a pas (napoleones, piaya, cansi, bukayo, kalamay, torta,
+# tsokolate, sinamak…) restent SANS image — pas de stock menteur (Loi 3 du contrat).
+CURATED_DISH_IMG = {
+  # bangkok — la rue qui crache du feu
+  "pad-krapow-holy-basil","kuay-teow-reua-boat-noodles","mango-sticky-rice","cha-yen-thai-iced-tea","tom-yum-mama-jeh-o",
+  # panay — la table sous-cotée + la mer
+  "sisig-kapampangan","scallops-gigantes","talaba-iloilo","kinilaw-ilonggo","la-paz-batchoy",
+  # negros — le grill et la côte
+  "chicken-inasal","fruits-de-mer-dumaguete","banka-breakfast-malatapay",
+  # siquijor — l'île douce
+  "kinilaw-frais","lechon-vendredi-siquijor","san-miguel-pale-pilsen",
+  # bohol — la sortie / le festin final
+  "lechon-cebu","garlic-butter-crab-bohol","sinugba-seafood","kinilaw-bohol",
+}
+CURATED_GEM_IMG = {
+  "talad-rot-fai-train-market",                              # bangkok — night market
+  "bantigue-sandbar-gigantes",                               # panay — banc de sable turquoise
+  "phare-apo-island","dauin-muck-non-diver",                 # negros — île + récif
+  "coucher-soleil-paliton-cocktail","lugnason-falls-cache",  # siquijor — plage + cascade
+  "bohol-bee-farm-falaise-breakfast",                        # bohol — falaise sur mer
+}
+# Cover par base = le hook eau/ambiance du chapitre (alt = claim vérifié par la vision).
+COVER_ALT = {
+  "bangkok":  "Un wok de rue qui crache du feu à la tombée du jour dans une ruelle de Bangkok",
+  "panay":    "Un banc de sable désert cerné d'eau turquoise aux îles Gigantes, Philippines",
+  "negros":   "Une tortue de mer verte glissant au-dessus d'un récif dans une eau claire, Apo Island",
+  "siquijor": "Le bassin turquoise des chutes Cambugahay sous la végétation tropicale, Siquijor",
+  "bohol":    "Les Chocolate Hills de Bohol : des centaines de collines coniques vertes à perte de vue",
+}
+
 def norm_date(d):
     if not d: return "2026-06"
     d = str(d).strip()
@@ -188,32 +222,36 @@ for base in ORDER:
     if see: info.append({"label":"Voir & se baigner","type":"poi-list","items":see})
     cover=f"{base}-cover"
     images.append({"id":cover,"slot":cover,"base":base,"role":"cover","file":f"{cover}.jpg",
-        "alt":f"{m['title']} — {m['focus'].split(' · ')[0]}","layout":"wide","claims":"atmosphere",
+        "alt":COVER_ALT.get(base, f"{m['title']} — {m['focus'].split(' · ')[0]}"),"layout":"wide","claims":"atmosphere",
         "credit":{"source":"unsplash","photoId":"","photographer":"","license":"unsplash-standard"},
         "sha256":"","visionChecked":"pending"})
     # dishes / gems (scope par base, image placeholder par item)
     for d in (b.get("dishes") or []):
         did=uniq(d.get("id") or d.get("title"), seen_dish, base)
-        slot=f"d-{did}"
+        curated = did in CURATED_DISH_IMG
+        slot=f"d-{did}" if curated else ""
         e={"id":did,"base":base,"group":f"Le carnet de bouche — {m['title']}","title":d.get("title",""),
            "body":d.get("body",""),"image":slot,"links":[]}
         if d.get("type") in ("plat","vin","bière","alcool","produit"): e["type"]=d["type"]
         if d.get("region"): e["region"]=d["region"]
         e.update(mk_provenance(d)); all_dishes.append(e)
-        images.append({"id":slot,"slot":slot,"base":base,"role":"foodie","file":f"{slot}.jpg",
-            "alt":d.get("title",""),"layout":None,"claims":"atmosphere",
-            "credit":{"source":"unsplash","photoId":"","photographer":"","license":"unsplash-standard"},
-            "sha256":"","visionChecked":"pending"})
+        if curated:
+            images.append({"id":slot,"slot":slot,"base":base,"role":"foodie","file":f"{slot}.jpg",
+                "alt":d.get("title",""),"layout":None,"claims":"atmosphere",
+                "credit":{"source":"unsplash","photoId":"","photographer":"","license":"unsplash-standard"},
+                "sha256":"","visionChecked":"pending"})
     for g in (b.get("gems") or []):
         gid=uniq(g.get("id") or g.get("title"), seen_gem, base)
-        slot=f"g-{gid}"
+        curated = gid in CURATED_GEM_IMG
+        slot=f"g-{gid}" if curated else ""
         e={"id":gid,"base":base,"group":f"Pépites locales — {m['title']}","title":g.get("title",""),
            "body":g.get("body",""),"image":slot,"links":[]}
         e.update(mk_provenance(g)); all_gems.append(e)
-        images.append({"id":slot,"slot":slot,"base":base,"role":"photo","file":f"{slot}.jpg",
-            "alt":g.get("title",""),"layout":None,"claims":"atmosphere",
-            "credit":{"source":"unsplash","photoId":"","photographer":"","license":"unsplash-standard"},
-            "sha256":"","visionChecked":"pending"})
+        if curated:
+            images.append({"id":slot,"slot":slot,"base":base,"role":"photo","file":f"{slot}.jpg",
+                "alt":g.get("title",""),"layout":None,"claims":"atmosphere",
+                "credit":{"source":"unsplash","photoId":"","photographer":"","license":"unsplash-standard"},
+                "sha256":"","visionChecked":"pending"})
     # base .md
     body=reconcile_refs(b.get("narratif",""), base_ids)
     front={"order":m["order"],"slug":base,"title":m["title"],"kicker":m["kicker"],"nights":m["nights"],

@@ -29,7 +29,7 @@ const BBOXES = {
   crete:      [23.5, 34.8, 26.4, 35.7],
   turquie:    [25.6, 36.0, 45.0, 42.2],
   andalousie: [-7.6, 35.9, -1.4, 38.8], // Huelva/Jabugo → Almería ; Tarifa → Sierra Morena
-  philippines: [99.5, 8.5, 126.0, 14.5], // Bangkok (escale) + Visayas centrales (Panay→Bohol/Cebu)
+  philippines: [99.5, 8.5, 126.0, 15.5], // Bangkok (escale) + Pampanga/Angeles (sisig) + Visayas centrales (Panay→Bohol/Cebu)
 };
 
 async function main() {

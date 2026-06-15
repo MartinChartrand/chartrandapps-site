@@ -1,0 +1,361 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée — le turquoise qui gifle",
+      "body": "On arrive à Panglao par le pont qui relie Bohol à l'île — et on comprend tout de suite pourquoi on est là. L'eau en dessous est d'un turquoise presque indécent, le genre de couleur qu'on pense retouchée sur les photos. Ce n'est pas Alona Beach qu'on vise : ce coin-là, c'est fini depuis longtemps, envahi par les offres de plongée criardes et les bars à smoothies. On va plutôt du côté de Dumaluan et Momo Beach, à l'est de l'île, où les plages blanches restent calmes et où les resorts n'ont pas encore fusionné en un mur continu de béton.",
+      "focusPoi": "dumaluan-beach",
+      "zoom": 13,
+      "targets": [
+        "dumaluan-beach",
+        "momo-beach-house-panglao"
+      ],
+      "thumb": "bohol-panglao",
+      "thumbAlt": "Une île tropicale bordée de sable blanc et d'eau turquoise, l'esprit de Panglao",
+      "poiRef": "momo-beach-house-panglao",
+      "sources": [
+        {
+          "creator": "Tripadvisor Momo Beach House",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1036817-d3914565-Reviews-Momo_Beach_House-Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Tripadvisor Dumaluan Beach Resort",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g13547993-d634283-Reviews-Dumaluan_Beach_Resort-Bolod_Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Tripadvisor Dumaluan Beach",
+          "url": "https://www.tripadvisor.com.ph/Attraction_Review-g1036817-d4168308-Reviews-Dumaluan_Beach-Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "A Handful of Sand — Dumaluan blog",
+          "url": "https://www.ahandfulofsand.com/blog-philippines/dumaluan-beach",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "kicker": "Le rythme — slow, les pieds dans le sable",
+      "body": "Quatre nuits à Panglao, ça se vit lentement. On commence par les matins sur la plage — la mer est plate en février-mars, la lumière est dorée avant neuf heures, et les marcheurs de l'aube sont rares. Le premier vrai repas qu'on prend, c'est du kinilaw : du poisson cru mariné dans du vinaigre de coco et du citron vert, avec du gingembre frais et du chili. C'est la ceviche de l'archipel, mais plus franche, plus tranchante. On mange ça avec les pieds dans le sable, une bière froide San Miguel dans l'autre main, et on arrête de chercher quoi faire.",
+      "focusPoi": "momo-beach-kayak",
+      "zoom": 14,
+      "targets": [
+        "momo-beach-kayak",
+        "momo-beach-house-panglao"
+      ],
+      "thumb": "bohol-cover",
+      "thumbAlt": "Les Chocolate Hills de Bohol : des centaines de collines coniques vertes à perte de vue",
+      "poiRef": "momo-beach-house-panglao",
+      "sources": [
+        {
+          "creator": "Bohol Local — Traditional Cuisine guide",
+          "url": "https://bohollocal.ph/blogs/bohol-local/bohol-s-traditional-cuisine-a-guide-to-the-island-s-best-local-dishes",
+          "date": "2026-06"
+        },
+        {
+          "creator": "RichestPH — Bohol for Foodies kinilaw to kalamay",
+          "url": "https://richestph.com/bohol-for-foodies-a-culinary-adventure-from-kinilaw-to-kalamay/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Tripadvisor Momo Beach House reviews",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1036817-d3914565-Reviews-Momo_Beach_House-Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-bee-farm",
+      "kicker": "Bohol Bee Farm · LE DÉJEUNER SUR LA FALAISE",
+      "title": "La ferme bio perchée au-dessus de la mer",
+      "image": "g-bohol-bee-farm-falaise-breakfast",
+      "alt": "Une terrasse de restaurant en bord de falaise surplombant la mer — l'esprit du Bohol Bee Farm",
+      "intro": "Le Bohol Bee Farm mérite le détour pour un déjeuner : une ferme bio tenue par la chef Vicky Wallace depuis le début des années 2000, perchée sur une falaise au-dessus de la mer. Le risotto de riz rouge local, le kare-kare de légumes du jardin, la crème glacée à la malunggay — ça n'a rien à voir avec la cuisine de resort habituellement insipide des îles philippines.",
+      "reco": "Bohol Bee Farm Restaurant, côte ouest de Panglao. Réserve pour le déjeuner — la terrasse falaise se remplit vite. Le risotto de riz rouge, le kare-kare de légumes, et la crème glacée maison. Si tu dors sur place, le petit-déjeuner sur la falaise au lever du soleil est la meilleure entrée en matière de la journée.",
+      "quote": "La cuisine de resort peut être insipide. Ici, le jardin est dans l'assiette et la mer est en dessous.",
+      "poiRef": "bohol-bee-farm-restaurant",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Tripadvisor Bohol Bee Farm Restaurant",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g1220535-d1168871-Reviews-Bohol_Bee_Farm_Restaurant-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Tripadvisor Bohol Bee Farm",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1220535-d636754-Reviews-Bohol_Bee_Farm-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-sinugba",
+      "kicker": "Redcrab Bohol · LES GRILLADES AU CHARBON",
+      "title": "Les fruits de mer sur la braise — la version bisaya",
+      "image": "d-sinugba-seafood",
+      "alt": "Sinugba — grillades de fruits de mer au charbon",
+      "intro": "Le sinugba, c'est la technique bisaya : on grille sur le charbon de bois, directement, sans trop intervenir. Du calamar, du lapu-lapu, des crevettes, du crabe au beurre aillé. Chez Redcrab Bohol, la salle donne sur l'eau et le poisson arrive du marché de Tagbilaran. C'est le genre de repas qui dure deux heures parce qu'il n'y a aucune raison de se presser.",
+      "reco": "Redcrab Bohol pour les grillades de fruits de mer. Le sinugba de fruits de mer et le garlic butter crab. Commande le poisson du jour — ce qu'ils ont, c'est ce qui sortait de l'eau ce matin. Avec du riz et du tuba bien froid, le repas coûte une fraction de ce que tu paierais ailleurs.",
+      "quote": null,
+      "poiRef": "redcrab-bohol",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Tripadvisor Redcrab Bohol",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g10687799-d25431214-Reviews-Redcrab_Bohol-Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "JJ's Seafood Village Tagbilaran — Tripadvisor menus",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g1066348-d1480864-Reviews-JJ_s_Seafood_Village-Tagbilaran_City_Bohol_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "SM Divers Bohol — Food Lovers Guide Bohol",
+          "url": "https://www.smdiversbohol.com/a-food-lovers-guide-to-dining-in-bohol/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Wanderlog — Bohol seafood restaurants top 21",
+          "url": "https://wanderlog.com/list/geoCategory/262935/best-seafood-restaurants-in-bohol-province",
+          "date": "2026-06"
+        },
+        {
+          "creator": "KGM Resorts — Tuba, Lambanog et Tapuy guide",
+          "url": "https://www.kgmresorts.com/post/tuba-lambanog-and-tapuy",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Slow Food Foundation — Tubâ Ark of Taste",
+          "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/tuba-coconout-wine/",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-tarsier",
+      "kicker": "Corella · LES GRANDS YEUX DE LA FORÊT",
+      "title": "Le tarsier, le plus petit primate du monde — en silence",
+      "image": "bohol-tarsier",
+      "alt": "Un tarsier des Philippines agrippé à une branche, ses immenses yeux ronds",
+      "intro": "Les tarsiers d'abord — le vrai sanctuaire à Corella, 134 hectares de forêt, pas les cages de bord de route. Ces petits primates à gros yeux, nocturnes, sensibles au son et à la lumière, méritent qu'on les observe en silence et sans flash. Après, les Chocolate Hills en fin d'après-midi quand la lumière fait de l'ombre sur les 1268 monticules bruns arrondis — en février-mars, elles sont de la couleur annoncée par leur nom.",
+      "reco": "Philippine Tarsier & Wildlife Sanctuary à Corella — pas les cages roadside. Arriver tôt (8h-9h), parler doucement, pas de flash. Enchaîner avec le belvédère des Chocolate Hills à Carmen en fin d'après-midi : la lumière rasante transforme la vue. Demi-journée combinée en voiture ou moto.",
+      "quote": null,
+      "poiRef": "tarsier-sanctuary-corella",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Bohol Cebu Travel Guide — sanctuaire Corella",
+          "url": "https://bohol-philippines.com/tarsier-sanctuary-guide-in-corella/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Tripadvisor — The Only Ethical Place to Support Tarsiers",
+          "url": "https://www.tripadvisor.com/ShowUserReviews-g3649283-d320849-r578441808-Philippine_Tarsier_and_Wildlife_Sanctuary-Corella_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Journey Era — Chocolate Hills complete guide",
+          "url": "https://www.journeyera.com/chocolate-hills-bohol/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Ambot-ah Travel Blog — Sagbayan et Carmen viewdecks",
+          "url": "https://www.ambot-ah.com/bohol-chocolate-hills-sagbayan-carmen-viewdecks/",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-loboc",
+      "kicker": "Rivière Loboc · LA CROISIÈRE BISAYA",
+      "title": "Le bateau qui glisse, le buffet sur le pont",
+      "image": "bohol-loboc",
+      "alt": "Une croisière sur la rivière Loboc entre des rives de jungle verte, Bohol",
+      "intro": "La journée sur la rivière Loboc, c'est touristique — soyons honnêtes. Mais c'est touristique de la bonne façon : un bateau qui glisse sur l'eau verte bordée de bambous géants et de nipa palms, un buffet de cuisine bisaya sur le pont, des enfants qui chantent sur la rive pour quelques pesos. On ne va pas là pour faire semblant d'être les seuls découvreurs — on va là parce que le cadre est beau et la bouffe est correcte.",
+      "reco": "Loboc Riverwatch Floating Resto — la croisière avec le buffet bisaya sur le pont. Prévoir le repas du midi. Combine facilement avec la matinée tarsiers + Chocolate Hills : la rivière Loboc est entre les deux. L'heure de départ idéale, c'est 11h30 pour le lunch sur l'eau.",
+      "quote": "On ne va pas là pour faire semblant d'être les seuls découvreurs — on va là parce que le cadre est beau.",
+      "poiRef": "loboc-river-cruise",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Lakbay Pinas — Ultimate Guide Loboc River Cruise 2025",
+          "url": "https://lakbaypinas.com/ultimate-guide-to-loboc-river-cruise-in-bohol-2025/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Adventures We Chase — Lunch and Cruise on the Loboc River",
+          "url": "https://www.adventureswechase.com/explore-bohol-lunch-and-cruise-on-the-loboc-river/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Loboc Riverwatch official site",
+          "url": "https://lobocriverwatch.com/loboc-river-lunch-cruise-bohol/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Tripadvisor Loboc River Cruise",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g1082590-d1073515-Reviews-Loboc_River_Cruise-Loboc_Bohol_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-lechon-cebu",
+      "kicker": "Cebu · LE COCHON DE BOURDAIN",
+      "title": "Le meilleur cochon du monde — à Cebu, pas à Bohol",
+      "image": "d-sinugba-seafood",
+      "alt": "Sinugba — grillades de fruits de mer au charbon",
+      "intro": "La dernière journée, on prend le fastcraft vers Cebu — deux heures de mer — et le soir même, on mange le lechon. C'est pour ça qu'on a fait ce détour. Anthony Bourdain l'a dit devant caméra : « The best pig, ever. » La peau craque sous la dent, la farce intérieure sent le citronnelle et l'ail, la chair est fondante. On n'arrive pas à le contredire.",
+      "reco": "CnT Lechon d'abord — le cochon entier, la peau croustillante, la portion à commander avant d'arriver. Puis Zubuchon le lendemain si tu veux le comparer. Ce sont deux écoles, deux façons de préparer. Prendre les deux est la seule façon honnête de trancher. L'aéroport de Cebu, c'est le départ — le lechon, c'est la sortie.",
+      "quote": "The best pig, ever. — Anthony Bourdain",
+      "poiRef": "cnt-lechon-cebu",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Tripadvisor CnT Lechon",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g298460-d1723444-Reviews-CnT_Lechon-Cebu_City_Cebu_Island_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "2bearbear — CnT vs Zubuchon comparison blog",
+          "url": "https://www.2bearbear.com/cnt-lechon-the-best-lechon-in-cebu/",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Out of Town Blog — Zubuchon, Bourdain's favourite",
+          "url": "https://outoftownblog.com/zubuchon-lechon-cebu-anthony-bourdains-favorite-roasted-pig/",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Tripadvisor Zubuchon — Bourdain claim verified",
+          "url": "https://www.tripadvisor.com.ph/ShowUserReviews-g298460-d2338110-r131949559-Zubuchon-Cebu_City_Cebu_Island_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Mark Wiens x Stanly on Media — Cebu Lechon Tour YouTube",
+          "url": "https://www.youtube.com/watch?v=UvoIYiKLIL4",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Authentic Food Quest — Best Lechon in Cebu Bourdain guide",
+          "url": "https://authenticfoodquest.com/cebu-lechon-bourdain/",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de prendre le fastcraft pour Cebu : quatre nuits de plage à Panglao, la falaise du Bee Farm au déjeuner, les grillades sinugba au charbon, le silence des tarsiers à Corella, le bateau sur la Loboc. Et puis les Chocolate Hills au crépuscule, brunes comme leur nom en saison sèche. Le carnet a les adresses, les liens, les prix, et le budget complet du segment.",
+      "boundsPois": [
+        "bohol-bee-farm-restaurant",
+        "tarsier-sanctuary-corella",
+        "chocolate-hills-carmen",
+        "loboc-river-cruise",
+        "dumaluan-beach"
+      ],
+      "targets": [
+        "bohol-bee-farm-restaurant"
+      ],
+      "thumb": "bohol-panglao",
+      "thumbAlt": "Une île tropicale bordée de sable blanc et d'eau turquoise, l'esprit de Panglao",
+      "pills": [
+        {
+          "poiRef": "bohol-bee-farm-restaurant",
+          "link": "maps",
+          "label": "Bohol Bee Farm Restaurant · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Tripadvisor Bohol Bee Farm Restaurant",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g1220535-d1168871-Reviews-Bohol_Bee_Farm_Restaurant-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Bohol Cebu Travel Guide — sanctuaire Corella",
+          "url": "https://bohol-philippines.com/tarsier-sanctuary-guide-in-corella/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Tripadvisor — The Only Ethical Place to Support Tarsiers",
+          "url": "https://www.tripadvisor.com/ShowUserReviews-g3649283-d320849-r578441808-Philippine_Tarsier_and_Wildlife_Sanctuary-Corella_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Journey Era — Chocolate Hills complete guide",
+          "url": "https://www.journeyera.com/chocolate-hills-bohol/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Ambot-ah Travel Blog — Sagbayan et Carmen viewdecks",
+          "url": "https://www.ambot-ah.com/bohol-chocolate-hills-sagbayan-carmen-viewdecks/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Lakbay Pinas — Ultimate Guide Loboc River Cruise 2025",
+          "url": "https://lakbaypinas.com/ultimate-guide-to-loboc-river-cruise-in-bohol-2025/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Adventures We Chase — Lunch and Cruise on the Loboc River",
+          "url": "https://www.adventureswechase.com/explore-bohol-lunch-and-cruise-on-the-loboc-river/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Tripadvisor Dumaluan Beach",
+          "url": "https://www.tripadvisor.com.ph/Attraction_Review-g1036817-d4168308-Reviews-Dumaluan_Beach-Panglao_Island_Bohol_Province_Visayas.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "A Handful of Sand — Dumaluan blog",
+          "url": "https://www.ahandfulofsand.com/blog-philippines/dumaluan-beach",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "À Panglao côté est (calme) : Momo Beach House, intimiste, kayaks inclus. Bohol Bee Farm pour l'expérience sur la falaise, une nuit suffit. Dumaluan Beach Resort si tu veux la plage au pied du lit. Pour la nuit à Cebu avant le vol : Harolds Evotel, bien situé, propre, sans chichi."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Le kinilaw au bord de la mer dès le premier matin, le déjeuner falaise au Bohol Bee Farm Restaurant, les sinugba de Redcrab Bohol pour les grillades au charbon. Le buffet bisaya sur le bateau de la Loboc. Et le lechon de CnT à Cebu le soir de l'arrivée — puis Zubuchon le lendemain pour comparer. Le marché aux poissons de Tagbilaran à l'aube pour les lève-tôt."
+      },
+      {
+        "label": "À voir et à faire",
+        "kinds": [
+          "plage",
+          "sight",
+          "activity"
+        ],
+        "footer": "Dumaluan Beach et Momo Beach pour les matins calmes. Balicasag Island en demi-journée pour le snorkel et les tortues. Le sanctuaire de tarsiers à Corella (le vrai, pas les cages de bord de route). Les Chocolate Hills de Carmen en fin d'après-midi. La croisière Loboc pour le lunch sur l'eau. Le marché de Tagbilaran pour le poisson du matin."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Bohol — la sortie par Cebu",
+    "body": "Quatre nuits lentes à Panglao, une demi-journée dans la forêt des tarsiers, les collines brunes au crépuscule, et le cochon de Bourdain à Cebu pour clore le circuit. Les {count} adresses de Bohol et Cebu — où dormir, où manger, quoi faire — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du segment. C'est la dernière île. Prochain vol : Montréal.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/philippines/"
+  }
+}

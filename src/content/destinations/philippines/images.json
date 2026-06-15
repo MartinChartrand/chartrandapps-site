@@ -10,12 +10,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1757872248191-5b357691014e",
+      "photographer": "Bernd Dittrich",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "d0a5e0d04cc384d856abb792ddfb2802b89fbcb66a5e4a72f8f169619dbf53cd",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "d0a5e0d04cc384d856abb792ddfb2802b89fbcb66a5e4a72f8f169619dbf53cd",
+      "alt": "Mer turquoise et bateau de pêcheur — Visayas, Philippines",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "bangkok-cover",
@@ -23,17 +29,23 @@
     "base": "bangkok",
     "role": "cover",
     "file": "bangkok-cover.jpg",
-    "alt": "Bangkok — Bouffe de rue",
+    "alt": "Les étals de bouffe de rue de Yaowarat s'allument à la tombée de la nuit, Bangkok",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1750635409983-78ca6a8cf324",
+      "photographer": "Kaden Taylor",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "fca7839828cee7e9650112f6101be7d2b3ecd89ae68d8d7aac9a07f96af50991",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "fca7839828cee7e9650112f6101be7d2b3ecd89ae68d8d7aac9a07f96af50991",
+      "alt": "Les étals de bouffe de rue de Yaowarat s'allument à la tombée de la nuit, Bangkok",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-pad-krapow-holy-basil",
@@ -46,30 +58,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1775198178204-f127498a97a5",
+      "photographer": "sicong gao",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-kuay-teow-reua-boat-noodles",
-    "slot": "d-kuay-teow-reua-boat-noodles",
-    "base": "bangkok",
-    "role": "foodie",
-    "file": "d-kuay-teow-reua-boat-noodles.jpg",
-    "alt": "Kuay Teow Reua (ก๋วยเตี๋ยวเรือ) — nouilles de bateau",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "379da4f1bc311465a81b5a83ddee829357430d7b28b42d121e0b407da67708e3",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "379da4f1bc311465a81b5a83ddee829357430d7b28b42d121e0b407da67708e3",
+      "alt": "Pad Krapow (ผัดกะเพรา)",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-mango-sticky-rice",
@@ -82,12 +82,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1705234384751-84081009588e",
+      "photographer": "Markus Winkler",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "4698f0f11b7f6d7c01d5fad83ad3c4738a04e5c26ab9432b424afe53fc852b31",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "4698f0f11b7f6d7c01d5fad83ad3c4738a04e5c26ab9432b424afe53fc852b31",
+      "alt": "Khao Niao Mamuang — Mango Sticky Rice",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-cha-yen-thai-iced-tea",
@@ -100,48 +106,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1773738650471-102f4a4e986a",
+      "photographer": "Surya Kleij",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-singha-chang-leo-beer",
-    "slot": "d-singha-chang-leo-beer",
-    "base": "bangkok",
-    "role": "foodie",
-    "file": "d-singha-chang-leo-beer.jpg",
-    "alt": "Singha / Chang / Leo — bières thaïes",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-khai-jiao-poo-jay-fai",
-    "slot": "d-khai-jiao-poo-jay-fai",
-    "base": "bangkok",
-    "role": "foodie",
-    "file": "d-khai-jiao-poo-jay-fai.jpg",
-    "alt": "Khai Jiao Poo — omelette de crabe de Jay Fai",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "1f9be762f0ef1a8d5a6d3fb6f1f86caa73085aa8fb4dbdf335562cee0706b4f1",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "1f9be762f0ef1a8d5a6d3fb6f1f86caa73085aa8fb4dbdf335562cee0706b4f1",
+      "alt": "Cha Yen (ชาเย็น) — thé glacé thaïlandais",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-tom-yum-mama-jeh-o",
@@ -149,89 +125,23 @@
     "base": "bangkok",
     "role": "foodie",
     "file": "d-tom-yum-mama-jeh-o.jpg",
-    "alt": "Tom Yum MAMA OHO — Jeh O Chula",
+    "alt": "Tom Yum Goong — soupe thaïe épicée aux crevettes, citronnelle et citron vert",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1775480617686-405e19721d88",
+      "photographer": "Bobbi Wu",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-som-tam-or-tor-kor",
-    "slot": "g-som-tam-or-tor-kor",
-    "base": "bangkok",
-    "role": "photo",
-    "file": "g-som-tam-or-tor-kor.jpg",
-    "alt": "Som Tam Restaurant — Or Tor Kor Market",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-mae-varee-fruit-shop",
-    "slot": "g-mae-varee-fruit-shop",
-    "base": "bangkok",
-    "role": "photo",
-    "file": "g-mae-varee-fruit-shop.jpg",
-    "alt": "Mae Varee — la mangue qu'on n'oublie pas",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-sarnies-charoenkrung",
-    "slot": "g-sarnies-charoenkrung",
-    "base": "bangkok",
-    "role": "photo",
-    "file": "g-sarnies-charoenkrung.jpg",
-    "alt": "Sarnies Café — Charoenkrung Soi 44",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-guay-tiew-kua-gai-suanmali",
-    "slot": "g-guay-tiew-kua-gai-suanmali",
-    "base": "bangkok",
-    "role": "photo",
-    "file": "g-guay-tiew-kua-gai-suanmali.jpg",
-    "alt": "Guay Tiew Kua Gai Suanmali — Michelin à 50 bahts",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "1111e6c624a5a254137714813997af822a2bd9dc78820ca0da9395780f38005a",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "1111e6c624a5a254137714813997af822a2bd9dc78820ca0da9395780f38005a",
+      "alt": "Tom Yum Goong — soupe thaïe épicée aux crevettes, citronnelle et citron vert",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "g-talad-rot-fai-train-market",
@@ -239,17 +149,23 @@
     "base": "bangkok",
     "role": "photo",
     "file": "g-talad-rot-fai-train-market.jpg",
-    "alt": "Rot Fai Market — Ratchada (Train Night Market)",
+    "alt": "Les tentes colorées d'un marché de nuit illuminées à la tombée du jour, Bangkok",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1623076019191-4d57d9f3c902",
+      "photographer": "Mikhail Preobrazhenskiy",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "5fb3e29cd4fc9a0a04752f150813c44174c91b270e2d130e4190d07d48046857",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "5fb3e29cd4fc9a0a04752f150813c44174c91b270e2d130e4190d07d48046857",
+      "alt": "Les tentes colorées d'un marché de nuit illuminées à la tombée du jour, Bangkok",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "panay-cover",
@@ -257,17 +173,23 @@
     "base": "panay",
     "role": "cover",
     "file": "panay-cover.jpg",
-    "alt": "Panay — Sisig de Pampanga",
+    "alt": "Les îlots et lagons des Gigantes vus du ciel — Panay, Philippines",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1759862325603-0afdc8591dc7",
+      "photographer": "Bernd Dittrich",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "d468842ea3cf8eef81b7d42f9f814d639dd89e5846f4a4e85a31ead9a29ae7b6",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "d468842ea3cf8eef81b7d42f9f814d639dd89e5846f4a4e85a31ead9a29ae7b6",
+      "alt": "Les îlots et lagons des Gigantes vus du ciel — Panay, Philippines",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-sisig-kapampangan",
@@ -280,30 +202,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1658713064117-51f51ecfaf69",
+      "photographer": "SJ",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-la-paz-batchoy",
-    "slot": "d-la-paz-batchoy",
-    "base": "panay",
-    "role": "foodie",
-    "file": "d-la-paz-batchoy.jpg",
-    "alt": "La Paz Batchoy",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "98274eac0faeaf35137be3e7145aa1fed426d448b583d279e27a99d9517dff9a",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "98274eac0faeaf35137be3e7145aa1fed426d448b583d279e27a99d9517dff9a",
+      "alt": "Sisig kapampangan (original)",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-kinilaw-ilonggo",
@@ -311,53 +221,23 @@
     "base": "panay",
     "role": "foodie",
     "file": "d-kinilaw-ilonggo.jpg",
-    "alt": "Kinilaw ilonggo (ceviche au vinaigre de coco)",
+    "alt": "Kinilaw — ceviche philippin de poisson cru au vinaigre et oignon rouge",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1533658266890-8bd362930725",
+      "photographer": "Silvia Trigo",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-scallops-gigantes",
-    "slot": "d-scallops-gigantes",
-    "base": "panay",
-    "role": "foodie",
-    "file": "d-scallops-gigantes.jpg",
-    "alt": "Scallops à la vapeur de Gigantes Norte",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-pancit-molo",
-    "slot": "d-pancit-molo",
-    "base": "panay",
-    "role": "foodie",
-    "file": "d-pancit-molo.jpg",
-    "alt": "Pancit Molo (soupe aux wontons ilonggo)",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "16a89e57168b565bde764ee2f46ff3e4e86514c36672798d48397fb411a340c0",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "16a89e57168b565bde764ee2f46ff3e4e86514c36672798d48397fb411a340c0",
+      "alt": "Kinilaw — ceviche philippin de poisson cru au vinaigre et oignon rouge",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-talaba-iloilo",
@@ -365,53 +245,23 @@
     "base": "panay",
     "role": "foodie",
     "file": "d-talaba-iloilo.jpg",
-    "alt": "Talaba (huîtres fraîches) au calamansi",
+    "alt": "Des huîtres fraîches ouvertes sur glace avec quartiers d'agrume",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1633321094192-388268512e0f",
+      "photographer": "Anima Visual",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-tsokolate-batirol-iloilo",
-    "slot": "d-tsokolate-batirol-iloilo",
-    "base": "panay",
-    "role": "foodie",
-    "file": "d-tsokolate-batirol-iloilo.jpg",
-    "alt": "Tsokolate de Batirol au cacao de Guimaras",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-coning-talabahan-molo",
-    "slot": "g-coning-talabahan-molo",
-    "base": "panay",
-    "role": "photo",
-    "file": "g-coning-talabahan-molo.jpg",
-    "alt": "Coning's Talabahan — huîtres et poisson séché",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "fa954382e60446d429409a1fd2c2c3da416725c4bcab46f909492ece93b39471",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "fa954382e60446d429409a1fd2c2c3da416725c4bcab46f909492ece93b39471",
+      "alt": "Des huîtres fraîches ouvertes sur glace avec quartiers d'agrume",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "g-bantigue-sandbar-gigantes",
@@ -419,71 +269,23 @@
     "base": "panay",
     "role": "photo",
     "file": "g-bantigue-sandbar-gigantes.jpg",
-    "alt": "Bantigue Sandbar — banc de sable mouvant",
+    "alt": "Un banc de sable blanc cerné d'une eau turquoise, l'esprit des îlots des Gigantes",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1565113218386-934429f84cc2",
+      "photographer": "Alejandro Luengo",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-panaderia-de-molo-iloilo",
-    "slot": "g-panaderia-de-molo-iloilo",
-    "base": "panay",
-    "role": "photo",
-    "file": "g-panaderia-de-molo-iloilo.jpg",
-    "alt": "Panaderia de Molo — boulangerie des années 1800",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-ludy-pension-house-carles",
-    "slot": "g-ludy-pension-house-carles",
-    "base": "panay",
-    "role": "photo",
-    "file": "g-ludy-pension-house-carles.jpg",
-    "alt": "Ludy's Pension House — à 1 minute du port de Bancal",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-valeria-street-food-strip",
-    "slot": "g-valeria-street-food-strip",
-    "base": "panay",
-    "role": "photo",
-    "file": "g-valeria-street-food-strip.jpg",
-    "alt": "Valeria Street Food Strip — abats grillés et inasal",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "0e33d9312dcb8348cd84924904cb4d0a933f3d213e4742c0f604bbaf48f0d349",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "0e33d9312dcb8348cd84924904cb4d0a933f3d213e4742c0f604bbaf48f0d349",
+      "alt": "Un banc de sable blanc cerné d'une eau turquoise, l'esprit des îlots des Gigantes",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "negros-cover",
@@ -491,89 +293,23 @@
     "base": "negros",
     "role": "cover",
     "file": "negros-cover.jpg",
-    "alt": "Negros — Inasal de Bacolod",
+    "alt": "Une tortue de mer verte glissant au-dessus d'un récif dans une eau claire, Apo Island",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1696015675484-06b58159fc2d",
+      "photographer": "Pascal van de Vendel",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-chicken-inasal",
-    "slot": "d-chicken-inasal",
-    "base": "negros",
-    "role": "foodie",
-    "file": "d-chicken-inasal.jpg",
-    "alt": "Chicken Inasal — pecho ou paa",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-cansi-bacolod",
-    "slot": "d-cansi-bacolod",
-    "base": "negros",
-    "role": "foodie",
-    "file": "d-cansi-bacolod.jpg",
-    "alt": "Cansi — soupe de jarret au batwan",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-napoleones-bacolod",
-    "slot": "d-napoleones-bacolod",
-    "base": "negros",
-    "role": "foodie",
-    "file": "d-napoleones-bacolod.jpg",
-    "alt": "Napoleones — feuilleté à la crème de lait",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-piaya-muscovado",
-    "slot": "d-piaya-muscovado",
-    "base": "negros",
-    "role": "foodie",
-    "file": "d-piaya-muscovado.jpg",
-    "alt": "Piaya au muscovado",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "bb45a2f008e2c4f1935481d8b634fc6a9f424cd2295a94b38b2e544e013e1544",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "bb45a2f008e2c4f1935481d8b634fc6a9f424cd2295a94b38b2e544e013e1544",
+      "alt": "Une tortue de mer verte glissant au-dessus d'un récif dans une eau claire, Apo Island",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-fruits-de-mer-dumaguete",
@@ -586,12 +322,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1739484151190-e2a73842ca13",
+      "photographer": "Jan Ledermann",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "131d8a61c6fe7095153a3b51668ea0a12e237c99bc193c80b810d7889fc6238a",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "131d8a61c6fe7095153a3b51668ea0a12e237c99bc193c80b810d7889fc6238a",
+      "alt": "Catch du jour grillé — Dumaguete Boulevard",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-banka-breakfast-malatapay",
@@ -599,17 +341,23 @@
     "base": "negros",
     "role": "foodie",
     "file": "d-banka-breakfast-malatapay.jpg",
-    "alt": "Poisson grillé + sinangag — marché de Malatapay",
+    "alt": "Un festin de fruits de mer grillés et de riz sur feuille de bananier, façon boodle fight philippin",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1578366687181-5f90a617ca7a",
+      "photographer": "John Matthew Flores",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "f0c554e87c3a7edfae5821d8a6bb60c69d2c8016b7f424f853ce5a6703718ccc",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "f0c554e87c3a7edfae5821d8a6bb60c69d2c8016b7f424f853ce5a6703718ccc",
+      "alt": "Un festin de fruits de mer grillés et de riz sur feuille de bananier, façon boodle fight philippin",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "g-dauin-muck-non-diver",
@@ -617,53 +365,23 @@
     "base": "negros",
     "role": "photo",
     "file": "g-dauin-muck-non-diver.jpg",
-    "alt": "Snorkeling de rive au Dauin Marine Sanctuary — gratuit, sans organiser quoi que ce soit",
+    "alt": "Snorkeling au-dessus d'un récif corallien peu profond grouillant de poissons tropicaux",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1673030994503-b049124955a7",
+      "photographer": "Enrique Ortega Miranda",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-sinamak-local-condiment",
-    "slot": "g-sinamak-local-condiment",
-    "base": "negros",
-    "role": "photo",
-    "file": "g-sinamak-local-condiment.jpg",
-    "alt": "Le sinamak — le truc qu'on achète à ramener",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-bongbongs-pasalubong",
-    "slot": "g-bongbongs-pasalubong",
-    "base": "negros",
-    "role": "photo",
-    "file": "g-bongbongs-pasalubong.jpg",
-    "alt": "BongBong's — la pasalubong shop de référence à Bacolod",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "e5b203a2682ccad4aaf00d4081e787533cdf386ed73b2b133aecf4da41583324",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "e5b203a2682ccad4aaf00d4081e787533cdf386ed73b2b133aecf4da41583324",
+      "alt": "Snorkeling au-dessus d'un récif corallien peu profond grouillant de poissons tropicaux",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "g-phare-apo-island",
@@ -671,35 +389,23 @@
     "base": "negros",
     "role": "photo",
     "file": "g-phare-apo-island.jpg",
-    "alt": "Randonnée vers le phare d'Apo Island — vue panoramique sans foule",
+    "alt": "Une petite île tropicale cernée d'eau turquoise et de récifs, vue du ciel — esprit d'Apo Island",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1756571078015-36fa53db08a7",
+      "photographer": "Bernd Dittrich",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-dumaguete-university-cafes",
-    "slot": "g-dumaguete-university-cafes",
-    "base": "negros",
-    "role": "photo",
-    "file": "g-dumaguete-university-cafes.jpg",
-    "alt": "Cafés de Silliman University — café, livres, locaux",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "8914c866a9b740b3097fbc5bae8a2bdc22e43e58b52453f320278488c7648cdd",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "8914c866a9b740b3097fbc5bae8a2bdc22e43e58b52453f320278488c7648cdd",
+      "alt": "Une petite île tropicale cernée d'eau turquoise et de récifs, vue du ciel — esprit d'Apo Island",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "siquijor-cover",
@@ -707,17 +413,23 @@
     "base": "siquijor",
     "role": "cover",
     "file": "siquijor-cover.jpg",
-    "alt": "Siquijor — Cambugahay",
+    "alt": "Un bassin naturel au pied d'une chute tropicale en pleine jungle — l'esprit des chutes Cambugahay, Siquijor",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1476988552461-c1cb135cd48b",
+      "photographer": "Jakob Owens",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "a69276e2b546a5f25cb6281302b985e29aedfa1c5dc47f0550eaf8916791d688",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "a69276e2b546a5f25cb6281302b985e29aedfa1c5dc47f0550eaf8916791d688",
+      "alt": "Un bassin naturel au pied d'une chute tropicale en pleine jungle — l'esprit des chutes Cambugahay, Siquijor",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-kinilaw-frais",
@@ -730,156 +442,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1533658266890-8bd362930725",
+      "photographer": "Silvia Trigo",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-sutukil-poisson",
-    "slot": "d-sutukil-poisson",
-    "base": "siquijor",
-    "role": "foodie",
-    "file": "d-sutukil-poisson.jpg",
-    "alt": "Sutukil — Sugba, Tula, Kilaw",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-lechon-vendredi-siquijor",
-    "slot": "d-lechon-vendredi-siquijor",
-    "base": "siquijor",
-    "role": "foodie",
-    "file": "d-lechon-vendredi-siquijor.jpg",
-    "alt": "Lechon rôti du vendredi soir au Baha Ba'r",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-bukayo-noix-coco",
-    "slot": "d-bukayo-noix-coco",
-    "base": "siquijor",
-    "role": "foodie",
-    "file": "d-bukayo-noix-coco.jpg",
-    "alt": "Bukayo — caramel de coco séché",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-torta-siquijor",
-    "slot": "d-torta-siquijor",
-    "base": "siquijor",
-    "role": "foodie",
-    "file": "d-torta-siquijor.jpg",
-    "alt": "Torta de Siquijor — gâteau anis",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-san-miguel-pale-pilsen",
-    "slot": "d-san-miguel-pale-pilsen",
-    "base": "siquijor",
-    "role": "foodie",
-    "file": "d-san-miguel-pale-pilsen.jpg",
-    "alt": "San Miguel Pale Pilsen froide",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-fruit-wine-siquijor",
-    "slot": "d-fruit-wine-siquijor",
-    "base": "siquijor",
-    "role": "foodie",
-    "file": "d-fruit-wine-siquijor.jpg",
-    "alt": "Vin de fruits local (duhat, guyabano)",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-marche-matin-siquijor-town",
-    "slot": "g-marche-matin-siquijor-town",
-    "base": "siquijor",
-    "role": "photo",
-    "file": "g-marche-matin-siquijor-town.jpg",
-    "alt": "Marché public de Siquijor Town — 5h-8h du matin",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-capilay-spring-park",
-    "slot": "g-capilay-spring-park",
-    "base": "siquijor",
-    "role": "photo",
-    "file": "g-capilay-spring-park.jpg",
-    "alt": "Capilay Spring Park — piscine naturelle de San Juan",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "16a89e57168b565bde764ee2f46ff3e4e86514c36672798d48397fb411a340c0",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "16a89e57168b565bde764ee2f46ff3e4e86514c36672798d48397fb411a340c0",
+      "alt": "Kinilaw de thon ou vivaneau",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "g-lugnason-falls-cache",
@@ -892,12 +466,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1779178107248-20d42004e2bb",
+      "photographer": "Regi Munandar",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "dee04f90b9f135b7892df3bc6cf62aa65b06c772d32cda5f5b1a9961a430f348",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "dee04f90b9f135b7892df3bc6cf62aa65b06c772d32cda5f5b1a9961a430f348",
+      "alt": "Chutes Lugnason — le trou d'eau caché de la côte sud",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "g-coucher-soleil-paliton-cocktail",
@@ -905,35 +485,23 @@
     "base": "siquijor",
     "role": "photo",
     "file": "g-coucher-soleil-paliton-cocktail.jpg",
-    "alt": "Coucher de soleil à Paliton avec noix de coco fraîche",
+    "alt": "Des cocotiers en silhouette sur une plage au coucher du soleil — l'esprit de Paliton, Siquijor",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1610987067555-2947ed187d8b",
+      "photographer": "allPhoto Bangkok",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-bucafe-treehouse-empanadas",
-    "slot": "g-bucafe-treehouse-empanadas",
-    "base": "siquijor",
-    "role": "photo",
-    "file": "g-bucafe-treehouse-empanadas.jpg",
-    "alt": "Bucafe — empanadas dans les arbres au coucher de soleil",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "cc18ed944ea22e7a95443974e6dc7cb55dddccb00c2d112ebd6f7e4fac1d6a9a",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "cc18ed944ea22e7a95443974e6dc7cb55dddccb00c2d112ebd6f7e4fac1d6a9a",
+      "alt": "Des cocotiers en silhouette sur une plage au coucher du soleil — l'esprit de Paliton, Siquijor",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "bohol-cover",
@@ -941,53 +509,23 @@
     "base": "bohol",
     "role": "cover",
     "file": "bohol-cover.jpg",
-    "alt": "Bohol — Plages calmes de Panglao",
+    "alt": "Les Chocolate Hills de Bohol : des centaines de collines coniques vertes à perte de vue",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1515511210479-bc02c48ec763",
+      "photographer": "Shing",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-lechon-cebu",
-    "slot": "d-lechon-cebu",
-    "base": "bohol",
-    "role": "foodie",
-    "file": "d-lechon-cebu.jpg",
-    "alt": "Lechon de Cebu",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-kinilaw-bohol",
-    "slot": "d-kinilaw-bohol",
-    "base": "bohol",
-    "role": "foodie",
-    "file": "d-kinilaw-bohol.jpg",
-    "alt": "Kinilaw de poisson frais",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "e64804dc1d3450df861a4cbd6dd4ec24a66e95565e677a884103c5ebceca3c57",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "e64804dc1d3450df861a4cbd6dd4ec24a66e95565e677a884103c5ebceca3c57",
+      "alt": "Les Chocolate Hills de Bohol : des centaines de collines coniques vertes à perte de vue",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "d-sinugba-seafood",
@@ -1000,120 +538,18 @@
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1556814901-18c866c057da",
+      "photographer": "Clint Bustrillos",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-kalamay-jagna",
-    "slot": "d-kalamay-jagna",
-    "base": "bohol",
-    "role": "foodie",
-    "file": "d-kalamay-jagna.jpg",
-    "alt": "Kalamay de Jagna",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-tuba-visayas",
-    "slot": "d-tuba-visayas",
-    "base": "bohol",
-    "role": "foodie",
-    "file": "d-tuba-visayas.jpg",
-    "alt": "Tuba — vin de coco des Visayas",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "d-garlic-butter-crab-bohol",
-    "slot": "d-garlic-butter-crab-bohol",
-    "base": "bohol",
-    "role": "foodie",
-    "file": "d-garlic-butter-crab-bohol.jpg",
-    "alt": "Crabe au beurre aillé (Garlic Butter Crab)",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-tagbilaran-market-dawn",
-    "slot": "g-tagbilaran-market-dawn",
-    "base": "bohol",
-    "role": "photo",
-    "file": "g-tagbilaran-market-dawn.jpg",
-    "alt": "Marché aux poissons de Tagbilaran à l'aube",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-kalamay-jagna-town",
-    "slot": "g-kalamay-jagna-town",
-    "base": "bohol",
-    "role": "photo",
-    "file": "g-kalamay-jagna-town.jpg",
-    "alt": "Jagna — les kalamay du marché matinal",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "g-tuba-bord-de-route",
-    "slot": "g-tuba-bord-de-route",
-    "base": "bohol",
-    "role": "photo",
-    "file": "g-tuba-bord-de-route.jpg",
-    "alt": "Tuba de bord de route — les vendeuses du matin",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "111993a5f904b99840d4f3d89ebbe65075516bc3b43459f28781699f4bba4bde",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "111993a5f904b99840d4f3d89ebbe65075516bc3b43459f28781699f4bba4bde",
+      "alt": "Sinugba — grillades de fruits de mer au charbon",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
     "id": "g-bohol-bee-farm-falaise-breakfast",
@@ -1121,34 +557,166 @@
     "base": "bohol",
     "role": "photo",
     "file": "g-bohol-bee-farm-falaise-breakfast.jpg",
-    "alt": "Petit-déjeuner au Bohol Bee Farm — falaise sur mer",
+    "alt": "Une terrasse de restaurant en bord de falaise surplombant la mer — l'esprit du Bohol Bee Farm",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1770703674649-435f4d3e89c4",
+      "photographer": "Ashutosh Gupta",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "72e516dfed494b972ac32c25ee9af534263dc1c603e552c45b0d9e17668916cd",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "72e516dfed494b972ac32c25ee9af534263dc1c603e552c45b0d9e17668916cd",
+      "alt": "Une terrasse de restaurant en bord de falaise surplombant la mer — l'esprit du Bohol Bee Farm",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   },
   {
-    "id": "g-cebu-lechon-hunt",
-    "slot": "g-cebu-lechon-hunt",
-    "base": "bohol",
+    "id": "bangkok-yaowarat",
+    "slot": "bangkok-yaowarat",
+    "base": "bangkok",
     "role": "photo",
-    "file": "g-cebu-lechon-hunt.jpg",
-    "alt": "La tournée lechon à Cebu — CnT puis Zubuchon le même après-midi",
+    "file": "bangkok-yaowarat.jpg",
+    "alt": "Yaowarat Road, le Chinatown de Bangkok la nuit — néons rouges, étals de bouffe de rue, foule",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "",
-      "photographer": "",
+      "photoId": "photo-1756713545237-7c97075b71da",
+      "photographer": "GVZ 42",
       "license": "unsplash-standard"
     },
-    "sha256": "",
-    "visionChecked": "pending"
+    "sha256": "3c06851b6d85ac31aaf86606cf261f06e459e0fc1e7ca0d9ecaeb48a6806af02",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "3c06851b6d85ac31aaf86606cf261f06e459e0fc1e7ca0d9ecaeb48a6806af02",
+      "alt": "Yaowarat Road, le Chinatown de Bangkok la nuit — néons rouges, étals de bouffe de rue, foule",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "panay-tangke",
+    "slot": "panay-tangke",
+    "base": "panay",
+    "role": "photo",
+    "file": "panay-tangke.jpg",
+    "alt": "Un lagon d'eau turquoise cerné de falaises karstiques tropicales, Philippines",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1697473259118-473211915531",
+      "photographer": "Mario von Rotz",
+      "license": "unsplash-standard"
+    },
+    "sha256": "6a78c571134bdc690900634cdeeb48a2a2bd5a35a1af57a13feca1bf0526a282",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "6a78c571134bdc690900634cdeeb48a2a2bd5a35a1af57a13feca1bf0526a282",
+      "alt": "Un lagon d'eau turquoise cerné de falaises karstiques tropicales, Philippines",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "siquijor-salagdoong",
+    "slot": "siquijor-salagdoong",
+    "base": "siquijor",
+    "role": "photo",
+    "file": "siquijor-salagdoong.jpg",
+    "alt": "Salagdoong Beach : une eau turquoise nichée entre des falaises, Siquijor",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1766863676031-efcb3f3a1087",
+      "photographer": "Tripora.app",
+      "license": "unsplash-standard"
+    },
+    "sha256": "66b93cb707528228e043b3a059591cf04113198bc5f367dde46a2eb3e2c0789d",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "66b93cb707528228e043b3a059591cf04113198bc5f367dde46a2eb3e2c0789d",
+      "alt": "Salagdoong Beach : une eau turquoise nichée entre des falaises, Siquijor",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "bohol-panglao",
+    "slot": "bohol-panglao",
+    "base": "bohol",
+    "role": "photo",
+    "file": "bohol-panglao.jpg",
+    "alt": "Une île tropicale bordée de sable blanc et d'eau turquoise, l'esprit de Panglao",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1756572798557-1d196dcf8b2b",
+      "photographer": "Bernd Dittrich",
+      "license": "unsplash-standard"
+    },
+    "sha256": "e6e94abea338c4086900ca66abe622b888a767af349e3af95ae567f0cab3d921",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "e6e94abea338c4086900ca66abe622b888a767af349e3af95ae567f0cab3d921",
+      "alt": "Une île tropicale bordée de sable blanc et d'eau turquoise, l'esprit de Panglao",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "bohol-tarsier",
+    "slot": "bohol-tarsier",
+    "base": "bohol",
+    "role": "photo",
+    "file": "bohol-tarsier.jpg",
+    "alt": "Un tarsier des Philippines agrippé à une branche, ses immenses yeux ronds",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1743430163568-645e576c1271",
+      "photographer": "Hongbin",
+      "license": "unsplash-standard"
+    },
+    "sha256": "81c518c05020bcf8235ca29a043376e3a437589bff40ed585875db990e9d0ce8",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "81c518c05020bcf8235ca29a043376e3a437589bff40ed585875db990e9d0ce8",
+      "alt": "Un tarsier des Philippines agrippé à une branche, ses immenses yeux ronds",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "bohol-loboc",
+    "slot": "bohol-loboc",
+    "base": "bohol",
+    "role": "photo",
+    "file": "bohol-loboc.jpg",
+    "alt": "Une croisière sur la rivière Loboc entre des rives de jungle verte, Bohol",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1591506557489-e8ca407063e7",
+      "photographer": "Aldrin Brosas",
+      "license": "unsplash-standard"
+    },
+    "sha256": "2acf82bf5559ccf683f44e8b45bf8e6d5e1d51423772deafdfa1d75bd8909480",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "2acf82bf5559ccf683f44e8b45bf8e6d5e1d51423772deafdfa1d75bd8909480",
+      "alt": "Une croisière sur la rivière Loboc entre des rives de jungle verte, Bohol",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   }
 ]

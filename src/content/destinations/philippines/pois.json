@@ -135,7 +135,6 @@
       "source": "websearch",
       "verifiedOn": "2026-06-15"
     },
-    "story": "MUU (le mot thaï pour « communauté ») joue la carte du voisinage plutôt que de l'isolement de resort. Chambres épurées, literie sérieuse, et tu es à 2 minutes à pied de Mae Varee et des meilleures rues à pad krapow de Ekkamai. C'est le genre d'hôtel où tu rentres fatigué à minuit, les mains encore grasses de sticky rice, et tout ce que tu veux c'est une douche froide et un lit ferme.",
     "sources": [
       {
         "creator": "MUU Hotels",
@@ -789,7 +788,8 @@
         "url": "https://ilonggotraveler.com/2025/07/06/iloilo-city-travel-guide-2025/",
         "date": "2025-07"
       }
-    ]
+    ],
+    "singleSourceTrusted": true
   },
   {
     "id": "casa-marta-hotel-iloilo",
@@ -829,7 +829,6 @@
       "source": "websearch",
       "verifiedOn": "2026-06-15"
     },
-    "story": "Le genre de place qu'on ne trouve pas sur les grands sites avant qu'un blog en parle. Chambres spacieuses, piscine intérieure à quelques pas des portes, et chaque matin un Filipino breakfast servi frais. Le staff connaît la ville de l'intérieur — ce qui vaut plus qu'un concierge d'hôtel de chaîne.",
     "sources": [
       {
         "creator": "TripAdvisor guests",
@@ -1195,7 +1194,8 @@
         "url": "https://thehappytrip.com/2024/03/netongs-original-la-paz-batchoy-iloilo-city/",
         "date": "2024-03"
       }
-    ]
+    ],
+    "singleSourceTrusted": true
   },
   {
     "id": "cabugao-gamay-gigantes",
@@ -1243,7 +1243,8 @@
         "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
         "date": "2024-01"
       }
-    ]
+    ],
+    "singleSourceTrusted": true
   },
   {
     "id": "tangke-lagoon-gigantes",
@@ -3056,7 +3057,6 @@
       "source": "websearch",
       "verifiedOn": "2026-06-15"
     },
-    "story": "Momo Beach House, c'est exactement ce qu'on cherche : petit, calme, sur une plage qui ne ressemble pas à un couloir de trafic. La propriété joue la carte naturel sans être rustique — bambou, cocotiers, vue sur le coucher de soleil côté mer — et ça marche. Les chambres sont propres, aérées, avec balcon. On n'est pas entassés : 20 chambres max, jamais la sensation d'être dans une machine à touristes. Le bar sur la plage sert des San Miguel et des boissons fraîches jusqu'en soirée.",
     "sources": [
       {
         "creator": "Tripadvisor Momo Beach House",
@@ -3103,7 +3103,6 @@
       "source": "websearch",
       "verifiedOn": "2026-06-15"
     },
-    "story": "C'est la chef Vicky Wallace qui a bâti ça au début des années 2000, refusant de faire comme les autres resorts. Elle a planté des légumes, mis des ruches, formé ses cuisiniers avec ce qui pousse dans la cour. Le résultat, c'est un hôtel où le déjeuner au restaurant de falaise surplombant la mer vaut autant que la chambre. Noté #1 des B&B de la province de Bohol avec plus de 1600 avis — ce n'est pas un accident.",
     "sources": [
       {
         "creator": "Tripadvisor Bohol Bee Farm",
@@ -3242,7 +3241,6 @@
       "source": "websearch",
       "verifiedOn": "2026-06-15"
     },
-    "story": "La chef Vicky Wallace cultive ce qu'elle sert — riz rouge local, légumes du potager, miel de ses propres ruches. Le restaurant est perché sur une falaise avec vue directe sur la mer de Bohol : on mange un kare-kare de légumes avec une brise salée dans les cheveux. Ce n'est pas de la cuisine de resort insipide. C'est une vraie cuisine de terroir, rare dans une région où la plupart des établissements servent les mêmes recettes internationalisées.",
     "sources": [
       {
         "creator": "Tripadvisor Bohol Bee Farm Restaurant",
@@ -3289,7 +3287,6 @@
       "source": "websearch",
       "verifiedOn": "2026-06-15"
     },
-    "story": "Redcrab tourne régulièrement dans le top 2 des restaurants de Panglao, et ce n'est pas grâce aux touristes : les Boholanos viennent ici le week-end. Le crabe au beurre aillé arrive dans une casserole fumante ; la chair est ferme, pas caoutchouteuse. Les prix sont honnêtes si on demande le prix au poids avant de commander — le piège classique des restaurants de seafood philippins.",
     "sources": [
       {
         "creator": "Tripadvisor Redcrab Bohol",

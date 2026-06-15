@@ -1,0 +1,361 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'entrée en matière — Angeles City",
+      "body": "On commence pas à Iloilo. On commence à Angeles City, dans une carinderia sous des néons qui clignotent, avec une assiette de sisig qui chante sur la plaque de fonte. Aling Lucing, Glaciano Valdez Street — l'endroit exact où Lucia Cunanan a inventé le sisig en 1974 avec les têtes de cochon que les militaires américains de Clark Air Base jetaient aux ordures. Ce que Bourdain a appelé « the greatest drunk food in the world ». On n'arrive pas à Iloilo la tête vide.",
+      "focusPoi": "aling-lucing-sisig-angeles",
+      "zoom": 14,
+      "targets": [
+        "aling-lucing-sisig-angeles"
+      ],
+      "thumb": "d-sisig-kapampangan",
+      "thumbAlt": "Sisig kapampangan (original)",
+      "poiRef": "aling-lucing-sisig-angeles",
+      "sources": [
+        {
+          "creator": "The Daily Phil",
+          "url": "https://thedailyphil.net/tasting-the-original-aling-lucings-sisig-in-angeles-pampanga/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Zoy to the World",
+          "url": "https://www.zoytotheworld.com/blog/angeles-city-food-trip-aling-lucing",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Simpol.ph — Sisig History",
+          "url": "https://www.simpol.ph/sisig-history-begins-long-before-the-sizzle/",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "kicker": "La base — Iloilo, ville UNESCO de la gastronomie",
+      "body": "Iloilo City te happe par le ventre avant de te parler d'histoire. Première UNESCO Creative City of Gastronomy des Philippines depuis octobre 2023 — mais dans la vraie vie, ça veut dire qu'on arrive au marché de La Paz à 7h du matin, on s'assoit dans la boucan de la salle étroite de Deco's fondée en 1938, et on reçoit un bol de batchoy : miki épais, couenne croustillante, intestins de cochon, bouillon chargé de crevettes séchées, nappe de chicharon pilé. Le genre de soupe que les Ilonggo mangent au déjeuner et au déjeuner indifféremment.",
+      "focusPoi": "decos-batchoy-la-paz",
+      "zoom": 13,
+      "targets": [
+        "decos-batchoy-la-paz",
+        "la-paz-market-iloilo"
+      ],
+      "thumb": "panay-cover",
+      "thumbAlt": "Les îlots et lagons des Gigantes vus du ciel — Panay, Philippines",
+      "poiRef": "decos-batchoy-la-paz",
+      "sources": [
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2018/12/la-paz-batchoy-iloilo-netongs-teds-decos/",
+          "date": "2018-01"
+        },
+        {
+          "creator": "Zoy to the World",
+          "url": "https://www.zoytotheworld.com/blog/iloilo-city-food-trip-best-la-paz-batchoy",
+          "date": "2023-01"
+        },
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2024/03/netongs-original-la-paz-batchoy-iloilo-city/",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Jay Exiomo",
+          "url": "https://jayexiomo.com/2024/07/12/dine-in-netongs-original-special-la-paz-batchoy/",
+          "date": "2024-07"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-sisig",
+      "kicker": "Angeles City · LA PLAQUE",
+      "title": "Le sisig original — avant même de prendre l'avion",
+      "image": "d-sisig-kapampangan",
+      "alt": "Sisig kapampangan (original)",
+      "intro": "Aling Lucing a inventé ce plat en 1974 avec ce que les militaires américains de Clark Air Base jetaient aux ordures : des têtes de cochon, des oreilles, des joues. Aujourd'hui, la plaque de fonte grésille sur Glaciano Valdez Street et le sisig est partout aux Philippines — mais c'est ici que ça a commencé. Bourdain l'a dit devant caméra : « the greatest drunk food in the world ».",
+      "reco": "Aling Lucing Sisig, Glaciano Valdez Street, Angeles City. Sisig kapampangan original — tête de cochon, oeuf cru qu'on mélange sur la fonte brûlante, calamansi pressé. C'est gras, croustillant, légèrement acidulé. C'est la première bouchée du voyage, et elle donne le ton.",
+      "quote": "On n'arrive pas à Iloilo la tête vide.",
+      "poiRef": "aling-lucing-sisig-angeles",
+      "via": null,
+      "sources": [
+        {
+          "creator": "The Daily Phil",
+          "url": "https://thedailyphil.net/tasting-the-original-aling-lucings-sisig-in-angeles-pampanga/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Zoy to the World",
+          "url": "https://www.zoytotheworld.com/blog/angeles-city-food-trip-aling-lucing",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Simpol.ph — Sisig History",
+          "url": "https://www.simpol.ph/sisig-history-begins-long-before-the-sizzle/",
+          "date": "2023-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-batchoy",
+      "kicker": "La Paz · LA SOUPE",
+      "title": "Le batchoy de Deco's — fondé en 1938, toujours debout",
+      "image": "d-kinilaw-ilonggo",
+      "alt": "Kinilaw — ceviche philippin de poisson cru au vinaigre et oignon rouge",
+      "intro": "Au marché de La Paz, la salle étroite de Deco's n'a pas changé de vocation depuis 1938. Le batchoy, c'est la soupe-identité d'Iloilo : miki épais, couenne croustillante, intestins de cochon, bouillon chargé de crevettes séchées, nappe de chicharon pilé par-dessus. Les Ilonggo en mangent le matin, à midi, le soir — sans distinction. Un peu plus loin, le kinilaw d'Iloilo — vinaigre de noix de coco, gingembre, piment oiseau, lait de coco — est la version locale du ceviche, plus tranchante et plus franche.",
+      "reco": "Deco's Original La Paz Batchoy, marché de La Paz — arriver avant 8h pour éviter la file. Pour le kinilaw, Tatoy's Manokan & Seafoods à Villa Beach, district d'Arevalo : le poisson blanc est mariné au vinaigre de coco, servi avec du riz. Le genre de repas qui reste en mémoire.",
+      "quote": "Iloilo, UNESCO Creative City of Gastronomy — mais dans la vraie vie, ça goûte comme ça.",
+      "poiRef": "decos-batchoy-la-paz",
+      "via": null,
+      "sources": [
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2018/12/la-paz-batchoy-iloilo-netongs-teds-decos/",
+          "date": "2018-01"
+        },
+        {
+          "creator": "Zoy to the World",
+          "url": "https://www.zoytotheworld.com/blog/iloilo-city-food-trip-best-la-paz-batchoy",
+          "date": "2023-01"
+        },
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2024/03/netongs-original-la-paz-batchoy-iloilo-city/",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Jay Exiomo",
+          "url": "https://jayexiomo.com/2024/07/12/dine-in-netongs-original-special-la-paz-batchoy/",
+          "date": "2024-07"
+        },
+        {
+          "creator": "FEATR / Erwan Heussaff",
+          "url": "https://featrmedia.com/the-best-food-in-iloilo-with-erwan-heussaff-part-1/",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Adventure.com / Sarah Gillespie",
+          "url": "https://adventure.com/food-guide-iloilo-philippines/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Guide to the Philippines",
+          "url": "https://guidetothephilippines.ph/articles/what-to-experience/best-iloilo-restaurants",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-talaba-molo",
+      "kicker": "Molo · LES HUÎTRES",
+      "title": "Les talaba de Molo — ouvertes devant soi, calamansi et bière froide",
+      "image": "d-talaba-iloilo",
+      "alt": "Des huîtres fraîches ouvertes sur glace avec quartiers d'agrume",
+      "intro": "Le quartier de Molo, à quinze minutes de taxi d'Iloilo, c'est l'autre monde. Les maisons coloniales, l'église baroque, et Stanley Talabahan sur pilotis au-dessus de l'eau. Des huîtres fraîches ouvertes devant soi, calamansi pressé, sauce noire, bière froide. La commande s'arrête seulement quand on lève la main.",
+      "reco": "Stanley Talabahan, quartier de Molo. Commander les talaba au calamansi et la sauce noire en extra. Aller en fin d'après-midi, quand la lumière tape sur l'eau et que la salle commence à se remplir de familles locales. Garder de la place pour les pancit Molo si le serveur insiste — la soupe aux wontons ilonggo mérite qu'on l'essaie.",
+      "quote": "Des huîtres fraîches, une bière froide, les pieds dans l'air au-dessus de l'eau. C'est tout ce qu'il faut.",
+      "poiRef": "stanley-talabahan-molo",
+      "via": null,
+      "sources": [
+        {
+          "creator": "FEATR / Erwan Heussaff",
+          "url": "https://featrmedia.com/the-best-of-ilonggo-food-with-erwan-where-locals-eat/",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Adventure.com / Sarah Gillespie",
+          "url": "https://adventure.com/food-guide-iloilo-philippines/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "I Am Traveling Light",
+          "url": "https://iamtravelinglight.com/2012/09/24/ilioilos-oysters-a-delicious-and-cheap-love-affair/",
+          "date": "2012-01"
+        },
+        {
+          "creator": "Visit Iloilo City",
+          "url": "https://visitiloilocity.com/food/pancit-molo/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-gigantes-scallops",
+      "kicker": "Islas de Gigantes · LES SCALLOPS",
+      "title": "Un peso la coquille Saint-Jacques — on en a perdu le compte",
+      "image": "g-bantigue-sandbar-gigantes",
+      "alt": "Un banc de sable blanc cerné d'une eau turquoise, l'esprit des îlots des Gigantes",
+      "intro": "Trois heures de bus jusqu'à Carles, puis un pump boat d'une heure depuis Bancal vers le nord — et l'archipel de karst et d'eau jade s'ouvre. À Cabugao Gamay, la petite île en forme de champignon avec son banc de sable blanc, on comprend pourquoi les photos deviennent virales. Au Tangke Lagoon, l'eau est tellement transparente qu'on distingue le fond à six mètres. Et les scallops de Gigantes Norte — à un peso pièce, cuites à la vapeur dans leur coquille sur le bord d'un bateau de bois. On en mange trente. Cinquante. On perd le compte.",
+      "reco": "Prendre le premier bus Ceres Liner pour Carles depuis Iloilo (départ tôt le matin). Organiser le pump boat depuis le port de Bancal. Priorité : Cabugao Gamay en matinée avant les groupes, Tangke Lagoon après. Les scallops se commandent directement aux pêcheurs ou aux comptoirs de plage de Gigantes Norte — à la vapeur, pas frits.",
+      "quote": "On en mange trente. Cinquante. On perd le compte.",
+      "poiRef": "gigantes-norte-seafood-stalls",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Lakbay Pinas",
+          "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "A Wanderful Sole",
+          "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Suroy.ph",
+          "url": "https://suroy.ph/gigantes-island/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Gigantes Island Tour",
+          "url": "https://www.gigantesislandtour.com/2025/10/the-tangke-saltwater-lagoon-natures.html",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Ilonggo Traveler",
+          "url": "https://ilonggotraveler.com/2025/07/14/isla-gigantes-travel-guide/",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Project Gora",
+          "url": "https://projectgora.com/gigantes-islands-travel-guide/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-tangke",
+      "kicker": "Tangke Lagoon · LE LAGON",
+      "title": "La piscine de calcaire — l'eau à six mètres de profondeur sous les yeux",
+      "image": "panay-tangke",
+      "alt": "Un lagon d'eau turquoise cerné de falaises karstiques tropicales, Philippines",
+      "intro": "Le Tangke Saltwater Lagoon, c'est une piscine naturelle enfermée dans des falaises de calcaire — l'eau est tellement transparente qu'on voit le fond à six mètres, et les parois karstiques tombent à pic de chaque côté. C'est le genre d'endroit qu'on pensait réservé aux screensavers. La séquence parfaite pour finir les Gigantes avant de reprendre le bateau.",
+      "reco": "Inclure Tangke dans la tournée des Gigantes — en général, les pump boats organisent la boucle Cabugao Gamay → Bantigue → Tangke en une journée. Y aller le matin tôt ou en fin de journée quand la lumière est basse. Le site peut être fermé par forte houle — vérifier la météo avant de partir de Bancal.",
+      "quote": "C'est ça, Panay. La mer et la table, dans l'ordre qui convient.",
+      "poiRef": "tangke-lagoon-gigantes",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Suroy.ph",
+          "url": "https://suroy.ph/gigantes-island/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Gigantes Island Tour",
+          "url": "https://www.gigantesislandtour.com/2025/10/the-tangke-saltwater-lagoon-natures.html",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Lakbay Pinas",
+          "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Project Gora",
+          "url": "https://projectgora.com/gigantes-islands-travel-guide/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Ilonggo Traveler",
+          "url": "https://ilonggotraveler.com/2025/07/14/isla-gigantes-travel-guide/",
+          "date": "2025-01"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de filer vers Negros : le sisig d'Aling Lucing à Angeles, le batchoy de Deco's au marché de La Paz, les huîtres de Stanley Talabahan à Molo, le kinilaw de Tatoy's à Villa Beach, et les scallops à un peso pièce dans le lagon des Gigantes. Le carnet a les adresses, les liens, les prix, et le budget complet.",
+      "boundsPois": [
+        "aling-lucing-sisig-angeles",
+        "decos-batchoy-la-paz",
+        "stanley-talabahan-molo",
+        "tatoys-villa-arevalo",
+        "gigantes-norte-seafood-stalls",
+        "cabugao-gamay-gigantes"
+      ],
+      "targets": [
+        "decos-batchoy-la-paz"
+      ],
+      "thumb": "panay-cover",
+      "thumbAlt": "Les îlots et lagons des Gigantes vus du ciel — Panay, Philippines",
+      "pills": [
+        {
+          "poiRef": "decos-batchoy-la-paz",
+          "link": "maps",
+          "label": "Deco's Original La Paz Batchoy (depuis 1938) · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2018/12/la-paz-batchoy-iloilo-netongs-teds-decos/",
+          "date": "2018-01"
+        },
+        {
+          "creator": "Zoy to the World",
+          "url": "https://www.zoytotheworld.com/blog/iloilo-city-food-trip-best-la-paz-batchoy",
+          "date": "2023-01"
+        },
+        {
+          "creator": "The Happy Trip",
+          "url": "https://thehappytrip.com/2024/03/netongs-original-la-paz-batchoy-iloilo-city/",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Lakbay Pinas",
+          "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "A Wanderful Sole",
+          "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Project Gora",
+          "url": "https://projectgora.com/gigantes-islands-travel-guide/",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "À Iloilo City : Smallville 21 Hotel dans le quartier animé de Smallville, ou Casa Marta Hotel pour quelque chose de plus intime et central. Pour les nuits aux Gigantes : Arjan Beach Resort sur Gigantes Norte — simple, propre, les pieds dans l'eau. Réserver à l'avance en haute saison."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Le sisig d'Aling Lucing à Angeles City avant de voler vers Panay. Le batchoy de Deco's au marché de La Paz dès l'arrivée à Iloilo. Les talaba de Stanley Talabahan à Molo au coucher du soleil. Le kinilaw et le poulet rôti de Tatoy's à Villa Beach. Et les scallops à la vapeur aux comptoirs de Gigantes Norte — à un peso pièce, sans chichis."
+      },
+      {
+        "label": "À voir et à faire",
+        "kinds": [
+          "plage",
+          "sight",
+          "activity"
+        ],
+        "footer": "Le marché de La Paz tôt le matin, le temps de voir les boucannes et les vendeurs de batchoy en action. La tournée des Gigantes en pump boat depuis Bancal : Cabugao Gamay, Bantigue Sandbar, Tangke Lagoon. L'église baroque de Miagao (UNESCO) sur le chemin retour si on passe par le sud. Le kawa hot bath de Tibiao, dans Antique, pour ceux qui veulent l'option détour."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "Panay, c'est fait",
+    "body": "Une séquence parfaite : la graisse de Pampanga, la soupe de La Paz, les huîtres de Molo, les lagons de Gigantes. Les {count} adresses de Panay — où dormir, où manger, où nager — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochain arrêt : Negros.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/philippines/"
+  }
+}
