@@ -1,4 +1,6 @@
-# HANDOFF — Cyclades ch.1 (Syros) : squelette VALIDÉ, REBALANCE bouffe/plages à faire (session 2026-06-14 soir)
+# HANDOFF — Cyclades ch.1 (Syros) : REBALANCE bouffe/plages FAIT (commit `3fbc158`), machine-VERT + iOS-vérifié — PENDING verdict feel de Martin (MAJ 2026-06-15)
+
+> **MAJ 2026-06-15** — Le rebalance sensoriel de Syros est FAIT et committé sur `feat/cyclades` (`3fbc158`). Machine verte (`npm run audit`), 0 lien mort cyclades, 5 images CC witnessées+scellées (vision:images 14 MATCH/0 mismatch), rendu iOS Safari réel confirmé (hook food/water + scènes poulpe/Delfini/agneau + carte Leaflet). **Reste : le VERDICT FEEL de Martin sur Syros**, puis appliquer la même lentille aux 4 autres îles, puis merge→`main` (auto-deploy). Détails dans « ÉTAT 2026-06-15 » plus bas.
 
 **Autoportant. LE doc de reprise à froid pour le voyage Cyclades.**
 À lire AVEC : `docs/CONTRAT-MACHINE-A-SAUCISSE.md` + mémoire **`contenu-sensoriel-bouffe-plages`** (LA consigne) + `HANDOFF-2026-06-14-prod-deploye.md` (la machine Andalousie en prod, toujours valide).
@@ -26,11 +28,20 @@ Tout dans `src/content/destinations/cyclades/` :
 - **Recherche PRÉSERVÉE** (gitignorée, persiste localement) : `.research/cyclades-spine.md` (spine complet + angles par île + **flags jaunes** Tselementes/icône/éruption/Atlantide) + `.research/syros-dossier.md`.
 - Dates voyage **provisoires** (juin 2027, à reconfirmer horaires ferry 2027). Coords Aristide interpolée (moyenne), Ithaki géocodée au centre-ville (flag). Louza **sans image** (rien d'honnête sur Commons, Loi 3).
 
-## PROCHAIN MORCEAU (à la reprise, après reset 4h) — DANS L'ORDRE
-1. **REBUILD Syros sensoriel.** Fan-out recherche Sonnet sur : **criques/plages** (Kini, Komito, Delfini, Vari, Galissas — eau cristalline), **tavernas de locaux** (poisson frais à Kini, agneau/salade/légumes de village), **bouffe** (horiatiki/tomates, poulpe grillé, agneau, souma/raki, fruits de mer), **logements confortables/douillets**. Puis images CC (assiettes taverna, fruits de mer, criques) → witness à la main → rebuild `pois.json`/`dishes.json`/`episodes/syros.json`.
-   - **Rebalance scènes** : loukoumi (la porte, garder) → **LA TAVERNA** (poisson/agneau/salade/raki) → **UNE CRIQUE** (eau cristalline, le bain) → histoire (Ano Syros) en backdrop léger. Opéra + musée industriel → **descendent dans le carnet** (options « à voir »), arrêtent d'être les vedettes.
-2. **Appliquer la même lentille aux 4 autres îles** (Sifnos = gastro, Folegandros/Amorgos/Santorin = criques+tavernas). Spine = squelette, bouffe+eau+confort = vedettes.
-3. Quand Syros passe le **verdict feel de Martin** → merge `feat/cyclades` → `main` = **deploy prod** + `gh run watch` + curl.
+## ÉTAT 2026-06-15 — REBALANCE SYROS FAIT (commit `3fbc158`)
+Le rebuild sensoriel demandé est livré. Ce qui a changé :
+- **Scènes (5)** : `loukoumi` (la porte, gardé) → **`kini-taverna`** (poulpe grillé, poisson du jour, coucher de soleil, image poulpe) → **`delfini-bain`** (crique turquoise abritée du Meltemi, image tall) → **`agneau`** (Plakostroto, gigot marjolaine/feu de bois, image paidakia) → **`ano-syros`** (backdrop léger, court). L'ANCIENNE scène opéra + l'ancienne scène fromage/charcuterie = SUPPRIMÉES comme vedettes ; opéra + musée industriel descendus dans le carnet « à voir, si ça te tente ».
+- **POIs : +15** (criques Delfini/Kini/Megas Gialos/Grammata · tavernas Kini Allou Yialou/Dyo Tzitzikia · agneau Plakostroto/Calmo Mare · poisson Seariani · terroir Prekas · café Ellinikon · distillerie Makryonitis · logement douillet Lila/Nestorian/Syrou Lotos). Coords Nominatim ; interpolations flaggées honnêtement dans `coords.source`.
+- **Dishes : +6** (poulpe, agneau/chevreau, horiatiki au San Michali, fagri/barbouni, tsipouro, câpres d'Apano Meria). **Correction souma→tsipouro** (la souma n'existe pas à Syros = Dodécanèse) baked partout.
+- **Images : +5** CC witnessées à la main (Read) ET scellées `vision:images` (14 MATCH/0 mismatch) : `syros-delfini` (crique, tall), `syros-poulpe`, `syros-kini` (port crépuscule), `syros-agneau` (paidakia), `syros-horiatiki`.
+- **`base.md` + tuile container** rebalancés food/water-led (la card hook de l'épisode ne dit plus « le Manchester de la Grèce, un opéra » — elle dit « ouvrir le voyage par le ventre et par la mer »).
+- **Vérif** : `npm run audit` VERT · `validate:links` 0 mort cyclades (12 morts = 100% pré-existants andalousie/crète/turquie) · rendu iOS Safari réel (iPhone 17 Pro Max) confirmé. NOTE : cyclades n'a PAS de landmask → géo `--network` ne valide que crète (limitation pré-existante ; coords = Nominatim réel + interpolations flaggées).
+
+## PROCHAIN MORCEAU — DANS L'ORDRE
+1. **VERDICT FEEL DE MARTIN sur Syros** (le plafond ; la machine est verte, le « fini » lui appartient). Servir les screenshots iOS + l'auto-audit. S'il valide → étape 2 ; sinon, ajuster selon son retour.
+2. **Appliquer la même lentille aux 4 autres îles** (Sifnos = gastro, Folegandros/Amorgos/Santorin = criques+tavernas). Spine = squelette, bouffe+eau+confort = vedettes. Même pipeline : fan-out recherche Sonnet → images CC witnessées → rebuild → audit → iOS.
+3. **Détails à confirmer sur place / placeholders restants** : dates voyage juin 2027 provisoires (horaires ferry 2027 non publiés) ; coords interpolées (Allou Yialou, Dyo Tzitzikia, Plakostroto, Makryonitis, Lila, Nestorian, Syrou Lotos) ; n° exact Prekas (4 Chiou) ; horaires d'ouverture saisonniers.
+4. Quand TOUTES les îles passent le verdict feel → merge `feat/cyclades` → `main` = **deploy prod** + `gh run watch` + curl. **Après les Cyclades : revoir l'Andalousie en prod sous le même angle** (même style de voyage).
 
 ## RAPPELS MACHINE
 - Tout fan-out = **Sonnet** (`model:'sonnet'`, un hook BLOQUE sinon). Browsing auto-accepté en session (VALIDER avec Martin avant chaque fan-out).
