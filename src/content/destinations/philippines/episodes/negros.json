@@ -1,0 +1,325 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée — fumée et charbon",
+      "body": "On arrive à Bacolod par le nord et on comprend vite : cette île ne se présente pas avec des temples ou des musées. Elle se présente avec de la fumée de charbon de bois et l'odeur du poulet qui grille depuis 6 heures du matin. Manokan Country, c'est pas un resto — c'est une collection de cahutes en tôle ondulée avec des grills au charbon qui n'ont jamais refroidi depuis 1979. On s'assoit sur des bancs en plastique, on pointe le morceau qu'on veut, et on regarde la bête se faire badigeonner d'huile annatto devant les yeux.",
+      "focusPoi": "manokan-country",
+      "zoom": 14,
+      "targets": [
+        "manokan-country"
+      ],
+      "thumb": "negros-cover",
+      "thumbAlt": "Une tortue de mer verte glissant au-dessus d'un récif dans une eau claire, Apo Island",
+      "poiRef": "manokan-country",
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Miko Morelos",
+          "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Mark Wiens YouTube — Filipino Street Food Bacolod",
+          "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
+          "date": "2022-01"
+        }
+      ]
+    },
+    {
+      "kicker": "Le rythme — du nord au sud, la mer au bout",
+      "body": "Le bus Ceres Liner traverse l'île du nord au sud, six heures à travers les montagnes et les plantations de canne. On arrive à Dauin au lever du soleil, sur une côte noire de sable volcanique. Là, le masque, l'eau, et la plaque de sable noir qui s'arrête là où commence la couleur : nudibranchs d'un jaune flamboyant, pieuvres à anneaux bleus, poisson-grenouille immobile sur un rocher. Et le lendemain, Apo Island — les tortues vertes qui nagent à un mètre cinquante de profondeur sans se préoccuper de personne.",
+      "focusPoi": "dauin-marine-sanctuary",
+      "zoom": 12,
+      "targets": [
+        "dauin-marine-sanctuary",
+        "apo-island"
+      ],
+      "thumb": "g-dauin-muck-non-diver",
+      "thumbAlt": "Snorkeling au-dessus d'un récif corallien peu profond grouillant de poissons tropicaux",
+      "poiRef": "dauin-marine-sanctuary",
+      "sources": [
+        {
+          "creator": "Divernet — magazine plongée international",
+          "url": "https://divernet.com/world-dives/asia/diving-dauin-philippines/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "EAZY Traveler — Liquid Dumaguete muck diving",
+          "url": "https://eazytraveler.net/2017/09/liquid-dive-resort-dumaguete-muck-diving/",
+          "date": "2023-01"
+        },
+        {
+          "creator": "WeSeeekTravel — Apo Island guide",
+          "url": "https://www.weseektravel.com/apo-island/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Tara Lets Anywhere — snorkeling turtles Apo Island",
+          "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-inasal",
+      "kicker": "Bacolod · LE GRILL",
+      "title": "Le chicken inasal qui ne refroidit jamais",
+      "image": "d-banka-breakfast-malatapay",
+      "alt": "Un festin de fruits de mer grillés et de riz sur feuille de bananier, façon boodle fight philippin",
+      "intro": "Manokan Country, c'est une collection de cahutes en tôle ondulée avec des grills au charbon qui n'ont jamais refroidi depuis 1979. On s'assoit sur des bancs en plastique, on pointe le morceau — pecho (poitrine), pakpak (ailes), paa (cuisse) — et on regarde la bête se faire badigeonner d'huile annatto devant les yeux. Le résultat a le goût d'une promesse tenue : fumé, légèrement acidulé, avec la couleur orange d'un coucher de soleil de Visayas.",
+      "reco": "Manokan Country, Bacolod. On mange avec les mains, avec du riz sinangag, avec du sinamak pour tremper. Les voisins de table sont des chauffeurs de tricycle et des familles du quartier. Le prix tient à quelques pesos. Avant de partir, on passe chez Eron's Cansi House pour un bol de cansi — la version Negros du bulalo, rendu sour par le batwan, un fruit qu'on trouve presque nulle part ailleurs.",
+      "quote": "Le résultat a le goût d'une promesse tenue : fumé, légèrement acidulé, la couleur orange d'un coucher de soleil de Visayas.",
+      "poiRef": "manokan-country",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Miko Morelos",
+          "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Mark Wiens YouTube — Filipino Street Food Bacolod",
+          "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
+          "date": "2022-01"
+        },
+        {
+          "creator": "Bacolod Food Hunters — blog local référence",
+          "url": "https://bacolodfoodhunters.com/2024/04/07/erons-cansi-house-the-best-place-in-bacolod-for-beef-cansi/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Mark Wiens YouTube — DINO BONE CANSI Bacolod",
+          "url": "https://www.youtube.com/watch?v=jZdV_pmHKSI",
+          "date": "2022-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-ruins",
+      "kicker": "Talisay · LA RUINE",
+      "title": "Le squelette élégant du baron de canne à sucre",
+      "image": "g-phare-apo-island",
+      "alt": "Une petite île tropicale cernée d'eau turquoise et de récifs, vue du ciel — esprit d'Apo Island",
+      "intro": "The Ruins de Talisay, c'est à 15 minutes de Bacolod en tuk-tuk — le backdrop parfait pour comprendre pourquoi tout ce sucre existait. La fortune d'un baron de canne à sucre coulée dans du béton armé au début du XXe siècle, dynamitée par les Japonais pendant la Deuxième Guerre mondiale pour qu'elle ne serve pas de QG, et qui reste debout comme un squelette élégant.",
+      "reco": "Y aller en fin d'après-midi, quand la lumière traverse les murs évidés et fait de l'ombre sur les colonnes néoclassiques. Pas besoin de beaucoup de temps — une heure suffit, les pieds dans l'herbe, à regarder le soleil descendre sur les vestiges.",
+      "quote": null,
+      "poiRef": "the-ruins-talisay",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Suroy.ph — guide Visayas",
+          "url": "https://suroy.ph/the-ruins-in-the-sugar-city-of-bacolod/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Wikipedia — The Ruins (mansion)",
+          "url": "https://en.wikipedia.org/wiki/The_Ruins_(mansion)",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-dauin",
+      "kicker": "Dauin · LE FOND",
+      "title": "La capitale mondiale du muck diving",
+      "image": "g-dauin-muck-non-diver",
+      "alt": "Snorkeling au-dessus d'un récif corallien peu profond grouillant de poissons tropicaux",
+      "intro": "La côte de Dauin, c'est du sable volcanique noir — ça casse le mythe des Philippines-plages-blanches. On enfile le masque, on glisse dans l'eau, et la plaque de sable noir s'arrête là où commence la couleur : nudibranchs d'un jaune flamboyant, pieuvres à anneaux bleus, poisson-grenouille immobile sur un rocher. Le Dauin Marine Sanctuary, c'est la capitale mondiale du muck diving.",
+      "reco": "Pour les plongeurs : Atlantis Dive Resorts Dumaguete organise tout, c'est leur terrain de jeu. Pour les autres : le snorkeling de rive au sanctuaire est gratuit et saisissant — pas besoin de bouteilles pour voir des créatures impossibles dans un mètre cinquante d'eau.",
+      "quote": "La plaque de sable noir s'arrête là où commence la couleur.",
+      "poiRef": "dauin-marine-sanctuary",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Divernet — magazine plongée international",
+          "url": "https://divernet.com/world-dives/asia/diving-dauin-philippines/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "EAZY Traveler — Liquid Dumaguete muck diving",
+          "url": "https://eazytraveler.net/2017/09/liquid-dive-resort-dumaguete-muck-diving/",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Atlantis Dive Resorts (officiel)",
+          "url": "https://www.atlantishotel.com/dumaguete-resort/",
+          "date": "2025-01"
+        },
+        {
+          "creator": "ScubaBoard — trip report communauté plongée",
+          "url": "https://scubaboard.com/community/threads/atlantis-dumaguete-review.629910/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Earth Vagabonds — Dauin Marine Sanctuary budget sweet spot",
+          "url": "https://www.earthvagabonds.com/dauin-marine-sanctuary-budget-travel-sweet-spot/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Diving Escapades — Is Dauin Worth Visiting",
+          "url": "https://divingescapades.com/is-dauin-philippines-worth-visiting/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-apo-island",
+      "kicker": "Apo Island · LES TORTUES",
+      "title": "Les tortues qui ignorent les touristes depuis 1982",
+      "image": "negros-cover",
+      "alt": "Une tortue de mer verte glissant au-dessus d'un récif dans une eau claire, Apo Island",
+      "intro": "La banca part du port de Malatapay — 30 minutes sur l'eau verte de la mer de Bohol — et dépose sur un rivage où les tortues vertes nagent à un mètre cinquante de profondeur sans se préoccuper de personne. Apo Island est une réserve marine gérée par les villageois depuis 1982, et ça paraît : les coraux sont intacts, les poissons sont gros, et les tortues ont l'air d'avoir passé leur vie à ignorer les touristes.",
+      "reco": "Départ tôt de Malatapay, au sud de Dumaguete. La traversée de 30 minutes vaut le lever à 5h30. Prévoir la journée complète — on snorkele, on mange chez un des deux ou trois petits comptoirs de l'île, on repart en fin d'après-midi. Pas de resort sur l'île, pas de béton : c'est voulu.",
+      "quote": "Les tortues ont l'air d'avoir passé leur vie à ignorer les touristes.",
+      "poiRef": "apo-island",
+      "via": null,
+      "sources": [
+        {
+          "creator": "WeSeeekTravel — Apo Island guide",
+          "url": "https://www.weseektravel.com/apo-island/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Tara Lets Anywhere — snorkeling turtles Apo Island",
+          "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-dumaguete",
+      "kicker": "Dumaguete · LE BOULEVARD",
+      "title": "La bière froide et les huîtres au fromage sur le Rizal",
+      "image": "d-fruits-de-mer-dumaguete",
+      "alt": "Catch du jour grillé — Dumaguete Boulevard",
+      "intro": "Le soir, le Rizal Boulevard à Dumaguete, c'est des bancs sous les palmiers, des vendeurs de tempura de rue, l'odeur du sel, et Hayahay Treehouse pour les huîtres au fromage et la bière locale avec une vue sur le détroit de Tanon. La ville est calme, universitaire, pas écrasée par le tourisme de masse. C'est une ville où on mange bien pour pas cher et où on n'est pas importuné.",
+      "reco": "Lab-as Seafood Restaurant pour le catch du jour — lapu-lapu grillé, crevettes, crabes. Hayahay Treehouse pour l'ambiance boulevard et la bière froide au coucher de soleil. Dumaguete est une ville de passage qui mérite une nuit de plus qu'on lui donne habituellement.",
+      "quote": null,
+      "poiRef": "rizal-boulevard-dumaguete",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Guide to the Philippines — Rizal Boulevard",
+          "url": "https://guidetothephilippines.ph/destinations-and-attractions/rizal-boulevard-dumaguete",
+          "date": "2024-01"
+        },
+        {
+          "creator": "TripAdvisor — Hayahay reviews consolidés",
+          "url": "https://www.tripadvisor.com.ph/Restaurant_Review-g616032-d1569406-Reviews-Hayahay_Treehouse_Bar_and_View_Deck-Dumaguete_City_Negros_Oriental_Negros_Island_.html",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Out of Town Blog — Lab-as Dumaguete",
+          "url": "https://outoftownblog.com/lunch-at-lab-as-seafood-restaurant-in-dumaguete-city/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Tsinoy Foodies — Lab-as review 2024",
+          "url": "https://www.tsinoyfoodies.com/2024/06/lab-as-dumaguate.html",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "De Bacolod à Dumaguete : le charbon de Manokan Country, le bouillon épais de cansi chez Eron's, les murs de The Ruins dans la lumière de 17h, le sable noir de Dauin sous le masque, les tortues d'Apo Island, et les huîtres au fromage sur le Rizal Boulevard. Le carnet a les adresses, les liens, les prix, et le budget complet de l'île.",
+      "boundsPois": [
+        "manokan-country",
+        "the-ruins-talisay",
+        "dauin-marine-sanctuary",
+        "apo-island",
+        "rizal-boulevard-dumaguete"
+      ],
+      "targets": [
+        "manokan-country"
+      ],
+      "thumb": "d-banka-breakfast-malatapay",
+      "thumbAlt": "Un festin de fruits de mer grillés et de riz sur feuille de bananier, façon boodle fight philippin",
+      "pills": [
+        {
+          "poiRef": "manokan-country",
+          "link": "maps",
+          "label": "Manokan Country · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Miko Morelos",
+          "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Mark Wiens YouTube — Filipino Street Food Bacolod",
+          "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
+          "date": "2022-01"
+        },
+        {
+          "creator": "WeSeeekTravel — Apo Island guide",
+          "url": "https://www.weseektravel.com/apo-island/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Tara Lets Anywhere — snorkeling turtles Apo Island",
+          "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Divernet — magazine plongée international",
+          "url": "https://divernet.com/world-dives/asia/diving-dauin-philippines/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "EAZY Traveler — Liquid Dumaguete muck diving",
+          "url": "https://eazytraveler.net/2017/09/liquid-dive-resort-dumaguete-muck-diving/",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Guide to the Philippines — Rizal Boulevard",
+          "url": "https://guidetothephilippines.ph/destinations-and-attractions/rizal-boulevard-dumaguete",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "À Bacolod : L'Fisher Hotel, bien placé pour rayonner vers Manokan Country et The Ruins. À Dauin : Mike's Dauin Beach Resort, à deux pas du sanctuaire marin, simple et bien tenu. À Dumaguete : Atlantis Dive Resorts, le choix évident si on plonge — sinon n'importe quel guesthouse du boulevard convient."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Le chicken inasal de Manokan Country (Bacolod, bancs en plastique, charbon depuis 1979), le cansi d'Eron's ou de Sharyn's Cansi House (le bouillon au batwan qu'on redemande même sous 32 degrés), le catch du jour de Lab-as Seafood à Dumaguete, et les huîtres au fromage chez Hayahay avec vue sur le détroit."
+      },
+      {
+        "label": "À voir et à faire",
+        "kinds": [
+          "plage",
+          "sight",
+          "activity"
+        ],
+        "footer": "The Ruins de Talisay en fin d'après-midi (lumière parfaite), snorkeling de rive au Dauin Marine Sanctuary (gratuit, sans organiser quoi que ce soit), journée complète à Apo Island depuis le port de Malatapay (départ 5h30), flâner le Rizal Boulevard à Dumaguete au coucher de soleil."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche"
+  },
+  "outro": {
+    "kicker": "L'île s'efface dans la fumée du grill",
+    "body": "Du charbon de Bacolod aux tortues d'Apo Island : Negros livre tout sans se vanter. Les {count} adresses — où dormir, où manger, où plonger — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du tronçon. L'épisode allume la mèche ; le carnet donne les clés.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/philippines/"
+  }
+}

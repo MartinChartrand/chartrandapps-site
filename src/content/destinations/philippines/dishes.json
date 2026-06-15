@@ -1,0 +1,828 @@
+[
+  {
+    "id": "pad-krapow-holy-basil",
+    "base": "bangkok",
+    "group": "Le carnet de bouche — Bangkok",
+    "title": "Pad Krapow (ผัดกะเพรา)",
+    "body": "Porc ou boeuf haché sauté au wok à feu vif avec chili bird's eye, basilic sacré (krapow — pas le Thai basil de substitution) et ail. Servi sur riz jasmin avec oeuf frit aux bords dorés et croustillants. Prix rue : 60–100 THB. Chez Phed Mark : 80–150 THB.",
+    "image": "d-pad-krapow-holy-basil",
+    "links": [],
+    "type": "plat",
+    "region": "Bangkok / Thaïlande centrale",
+    "story": "C'est le déjeuner rapide de l'employé de bureau bangkokien depuis des générations — les vendeurs de rue le préparent en moins de 3 minutes sur wok charbon. La version authentique pique franchement et sent le basilic à 10 mètres. Phed Mark de Mark Wiens en fait une religion : un seul plat, décliné sur 10 niveaux de chaleur, avec du matériel de qualité.",
+    "sources": [
+      {
+        "creator": "Mark Wiens / Migrationology",
+        "url": "https://winedirections.com/mark-wiens-and-the-street-food-scene-in-bangkok-a-legacy/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Daniel Food Diary",
+        "url": "https://danielfooddiary.com/2025/02/17/phedmark/",
+        "date": "2025-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "kuay-teow-reua-boat-noodles",
+    "base": "bangkok",
+    "group": "Le carnet de bouche — Bangkok",
+    "title": "Kuay Teow Reua (ก๋วยเตี๋ยวเรือ) — nouilles de bateau",
+    "body": "Petit bol de bouillon noir intense (sauce soja foncée + sang de porc) avec nouilles de riz minces, boeuf ou porc, herbes. On en commande 8–12 bols successifs à 12–15 THB chacun. Allée de Victory Monument ou Doy Kuay Teow Reua, Ratchawithi Soi 18.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Bangkok",
+    "story": "Servies depuis des embarcations sur les canaux de Bangkok jusqu'aux années 1960, ces nouilles ont migré vers les rives mais gardé leurs petits bols minuscules — tradition de ne pas renverser sur le bateau. Le bouillon sombre et complexe est ce qui sépare la version authentique de l'imitation : il faut le sang, il faut les épices, et il faut les os mijotés depuis le matin.",
+    "sources": [
+      {
+        "creator": "Eating Thai Food (Mark Wiens)",
+        "url": "https://www.eatingthaifood.com/restaurants/excellent-boat-noodles-bangkok/",
+        "date": "2022-01"
+      },
+      {
+        "creator": "Seasoned Traveller",
+        "url": "https://seasonedtraveller.com/places/boat-noodle-alley-bangkok",
+        "date": "2023-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "mango-sticky-rice",
+    "base": "bangkok",
+    "group": "Le carnet de bouche — Bangkok",
+    "title": "Khao Niao Mamuang — Mango Sticky Rice",
+    "body": "Riz gluant cuit à la vapeur au lait de coco, mangue Nam Dok Mai mûre dorée, coulis de lait de coco légèrement salé. Mae Varee, 1 Sukhumvit Soi 55, Thong Lo BTS Sortie 3 : 100–150 THB la portion.",
+    "image": "d-mango-sticky-rice",
+    "links": [],
+    "type": "plat",
+    "region": "Bangkok / Thaïlande",
+    "story": "Mae Varee fait ça depuis des décennies à côté du BTS Thong Lo — les Bangkokiens font un détour exprès en rentrant du bureau. La mangue Nam Dok Mai en saison (mars = parfait) est dorée, fibreuse et sucrée sans acidité. Le riz gluant au lait de coco est ferme, la sauce finale légèrement salée équilibre tout. On mange debout sur le trottoir, en plastique dans les mains, comme tout le monde.",
+    "sources": [
+      {
+        "creator": "Daniel Food Diary",
+        "url": "https://danielfooddiary.com/2024/08/19/maevaree/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "MUU Bangkok",
+        "url": "https://muuhotels.com/bangkok/neighbourhoods/mae-varee-fruit-shop-mango-sticky-rice-at-thong-lo-bts/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "cha-yen-thai-iced-tea",
+    "base": "bangkok",
+    "group": "Le carnet de bouche — Bangkok",
+    "title": "Cha Yen (ชาเย็น) — thé glacé thaïlandais",
+    "body": "Thé noir thaï infusé fort (couleur orange brûlé), sucré condensé, lait évaporé, versé sur glace pilée dans un sac de plastique avec paille. Prix rue : 20–40 THB. Disponible à tous les comptoirs de boissons.",
+    "image": "d-cha-yen-thai-iced-tea",
+    "links": [],
+    "type": "bière",
+    "region": "Bangkok / Thaïlande",
+    "story": "Bangkok te met un cha yen dans les mains avant même que tu comprennes ce qui se passe. Le thé thaïlandais est plus fort et plus parfumé que le Lipton standard — les feuilles sont souvent mélangées à des épices et fleurs séchées. La version locale avec lait évaporé plutôt que condensé sucré est moins sucrée et laisse mieux sentir le thé. En fév-mars, c'est le compagnon indispensable pour survivre aux marchés de midi.",
+    "sources": [
+      {
+        "creator": "Michelin Guide Thailand",
+        "url": "https://guide.michelin.com/qa/en/article/features/iconic-dishes-thai-milk-tea-explained",
+        "date": "2024-01"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "singha-chang-leo-beer",
+    "base": "bangkok",
+    "group": "Le carnet de bouche — Bangkok",
+    "title": "Singha / Chang / Leo — bières thaïes",
+    "body": "Lagers locales servies froides dans les bars de rue et restaurants. Singha (depuis 1933, 5% ABV) = la plus ancienne et la plus sèche. Chang = moins chère, légèrement plus douce. Leo = la plus populaire en volume. Prix : 50–80 THB en épicerie, 80–120 THB en bar de rue.",
+    "image": "",
+    "links": [],
+    "type": "bière",
+    "region": "Bangkok / Thaïlande",
+    "story": "Dans les bars de rue de Yaowarat à 21h, une Singha froide est l'unité de mesure du plaisir. On partage la bouteille — souvent un litre — entre deux, avec un seau de glace sur la table, et on regarde les woks flamber. Le rituel local : remplir le verre jusqu'à mi-hauteur de glace avant de verser la bière. Ça dilue légèrement mais garde la température pendant la chaleur.",
+    "sources": [
+      {
+        "creator": "Nomad Monkey",
+        "url": "https://nomad-monkeys.com/5-ways-to-drink-like-a-local-in-bangkok/",
+        "date": "2024-01"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "khai-jiao-poo-jay-fai",
+    "base": "bangkok",
+    "group": "Le carnet de bouche — Bangkok",
+    "title": "Khai Jiao Poo — omelette de crabe de Jay Fai",
+    "body": "Omelette soufflée sur charbon, farcie de chair de crabe fraîche, croustillante à l'extérieur et fondante à l'intérieur. Jay Fai (Raan Jay Fai), 327 Mahachai Rd, mer–dim 9h–14h / 16h–19h. Prix : 1 000–1 500 THB. File d'attente : 2–5 heures. Michelin 1 étoile.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Bangkok — Vieille ville",
+    "story": "Jay Fai porte ses lunettes de ski pour se protéger des flammes du charbon depuis 40 ans, dans la même échoppe de la vieille ville. Elle est la seule à cuisiner — chaque plat, chaque jour, sans sous-traitance. L'omelette de crabe est dense, généreuse, et servie sans chichi sur une assiette en plastique. La queue est réelle, le prix est élevé pour du street food, mais c'est le seul stand de rue au monde avec une étoile Michelin.",
+    "sources": [
+      {
+        "creator": "Michelin Guide Bangkok",
+        "url": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-fai",
+        "date": "2024-01"
+      },
+      {
+        "creator": "The Smart Local Thailand",
+        "url": "https://thesmartlocal.co.th/jay-fai/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "tom-yum-mama-jeh-o",
+    "base": "bangkok",
+    "group": "Le carnet de bouche — Bangkok",
+    "title": "Tom Yum MAMA OHO — Jeh O Chula",
+    "body": "Bouillon tom yum crémeux XXL, nouilles Mama instantanées, crevettes, calmar, boulettes de porc, porc croustillant, deux oeufs entiers. Disponible seulement après 23h. Jeh O Chula, 113 Soi Charatmeang, Pathum Wan. Ouvert 17h30–1h. 220–320 THB.",
+    "image": "d-tom-yum-mama-jeh-o",
+    "links": [],
+    "type": "plat",
+    "region": "Bangkok — Pathum Wan",
+    "story": "Les Bangkokiens font la queue pendant 3 heures pour manger des nouilles instantanées à minuit dans ce restaurant de quartier qui existe depuis 50 ans. Le paradoxe est réel. La clé : le bouillon tom yum de Jeh O Chula n'a rien des sachets — c'est un fond de mer cuit depuis des heures, versé sur les nouilles Mama au dernier moment. Le résultat est quelque chose entre le réconfort absolu et l'excitation des épices lemongrass-kafir.",
+    "sources": [
+      {
+        "creator": "The Ranting Panda",
+        "url": "https://therantingpanda.com/2025/08/27/panda-picks-best-bangkok-local-food-eateries-to-try-from-jeh-o-chulas-tom-yum-mama-to-thong-smiths-thai-boat-noodles/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Chueonit",
+        "url": "https://chueonit.com/2025/01/29/jeh-o-chula/",
+        "date": "2025-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "sisig-kapampangan",
+    "base": "panay",
+    "group": "Le carnet de bouche — Panay",
+    "title": "Sisig kapampangan (original)",
+    "body": "Oreilles et joues de porc grillées, hachées grossièrement, mélangées à des oignons crus, du calamansi local et du piment oiseau. Servi sur une plaque de fonte brûlante qui crépite à table. Sans mayo, sans œuf — la version originale d'Aling Lucing. Texture : croustillant à l'extérieur, gras et humide à l'intérieur.",
+    "image": "d-sisig-kapampangan",
+    "links": [],
+    "type": "plat",
+    "region": "Pampanga / Angeles City",
+    "story": "Inventé en 1974 par Lucia Cunanan à partir des têtes de cochon que les militaires américains de Clark Air Base jetaient. Accident culinaire transformé en plat national. Bourdain l'a mangé ici et l'a appelé 'the greatest drunk food in the world.' C'est le plat qui ouvre le voyage vers Panay.",
+    "sources": [
+      {
+        "creator": "The Daily Phil",
+        "url": "https://thedailyphil.net/tasting-the-original-aling-lucings-sisig-in-angeles-pampanga/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Simpol.ph — Sisig History",
+        "url": "https://www.simpol.ph/sisig-history-begins-long-before-the-sizzle/",
+        "date": "2023-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "la-paz-batchoy",
+    "base": "panay",
+    "group": "Le carnet de bouche — Panay",
+    "title": "La Paz Batchoy",
+    "body": "Bol de nouilles miki épaisses dans un bouillon de porc chargé de guinamos (pâte de crevettes fermentées). Garni d'intestins et foie de porc, de moelle osseuse et d'une neige de chicharon pilé. Prix 2024 : ₱80 (régulier) à ₱130 (méga). Illimité en caldo sur demande.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Iloilo City — La Paz",
+    "story": "Federico Guillergan Sr. était boucher au marché de La Paz en 1938. Il vendait du bouillon, un client a demandé des nouilles, le batchoy est né. La recette utilise le guinamos — pâte de crevettes fermentées — qui donne au bouillon sa profondeur umami unique. Aucun équivalent exact ailleurs aux Philippines.",
+    "sources": [
+      {
+        "creator": "The Happy Trip",
+        "url": "https://thehappytrip.com/2024/03/netongs-original-la-paz-batchoy-iloilo-city/",
+        "date": "2024-03"
+      },
+      {
+        "creator": "Jay Exiomo",
+        "url": "https://jayexiomo.com/2024/07/12/dine-in-netongs-original-special-la-paz-batchoy/",
+        "date": "2024-07"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "kinilaw-ilonggo",
+    "base": "panay",
+    "group": "Le carnet de bouche — Panay",
+    "title": "Kinilaw ilonggo (ceviche au vinaigre de coco)",
+    "body": "Tranches de poisson blanc (managat, tanigue) marinées à cru dans du vinaigre tuba (vinaigre de sève de cocotier), gingembre frais, échalotes, piment oiseau et lait de coco. Servi froid. Texture : ferme à l'extérieur, fondant au centre. Distinct du ceviche sud-américain — moins acide, plus umami.",
+    "image": "d-kinilaw-ilonggo",
+    "links": [],
+    "type": "plat",
+    "region": "Iloilo City — Villa Arevalo",
+    "story": "Le kinilaw ilonggo est antérieur à la colonisation espagnole. La version de Tatoy's — avec vinaigre tuba de la région de Cabatuan et lait de coco de Guimaras — est considérée par Erwan Heussaff et plusieurs food writers comme la référence dans la ville. La mer est à 50 mètres du restaurant.",
+    "sources": [
+      {
+        "creator": "FEATR / Erwan Heussaff",
+        "url": "https://featrmedia.com/the-best-food-in-iloilo-with-erwan-heussaff-part-1/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Adventure.com / Sarah Gillespie",
+        "url": "https://adventure.com/food-guide-iloilo-philippines/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "scallops-gigantes",
+    "base": "panay",
+    "group": "Le carnet de bouche — Panay",
+    "title": "Scallops à la vapeur de Gigantes Norte",
+    "body": "Coquilles Saint-Jacques locales (kapis) cuites à la vapeur dans leur coquille sur réchaud de bois, à même la plage ou le pont du bateau. Chair ferme, eau de mer naturellement salée, goût iodé sans excès. Prix : ₱1 pièce (~₱200/kg). Aussi disponibles grillées à l'ail, en adobo ou en ginataang scallops (lait de coco).",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Islas de Gigantes, Carles",
+    "story": "Gigantes Norte est surnommée la 'Scallops Capital of the Philippines.' Les mollusques se reproduisent dans les eaux calmes et profondes autour de l'archipel. À ₱1 pièce, c'est l'absurdité joyeuse du voyage : on en commande cinquante, on perd le compte, on recommande. Le wasay-wasay — palourde géante locale — accompagne à mi-chemin entre l'huître et la clam.",
+    "sources": [
+      {
+        "creator": "Lakbay Pinas",
+        "url": "https://lakbaypinas.com/gigantes-island-iloilo-travel-guide-2024/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "A Wanderful Sole",
+        "url": "https://www.awanderfulsole.com/gigantes-islands-2d1n-budget-travel-guide-itinerary-northern-jewel-iloilo/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "pancit-molo",
+    "base": "panay",
+    "group": "Le carnet de bouche — Panay",
+    "title": "Pancit Molo (soupe aux wontons ilonggo)",
+    "body": "Wontons maison farcis de porc haché assaisonné, servis dans un bouillon de poulet clair avec ail frit et oignons verts. Pâte épaisse distincte du wonton cantonais. Aucun féculent ou vermicelle — uniquement les dumplings. Prix : ₱80–120 selon la maison.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Iloilo City — Molo",
+    "story": "Le pancit molo est né dans le quartier de Molo d'Iloilo, où vivaient les commerçants chinois au XIXe siècle. La version maison de la Panaderia de Molo — fondée dans les années 1800 par les sœurs Jason — est considérée comme la version la plus authentique restante. Kap Ising's offre une version contemporaine réputée également. Comfort food philippin dans toute sa simplicité.",
+    "sources": [
+      {
+        "creator": "Adventure.com / Sarah Gillespie",
+        "url": "https://adventure.com/food-guide-iloilo-philippines/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Visit Iloilo City",
+        "url": "https://visitiloilocity.com/food/pancit-molo/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "talaba-iloilo",
+    "base": "panay",
+    "group": "Le carnet de bouche — Panay",
+    "title": "Talaba (huîtres fraîches) au calamansi",
+    "body": "Huîtres locales servies crues à la douzaine, ouvertes à table, avec calamansi (citron vert philippin) et sauce soja-ail. Aussi disponibles grillées (sinuglaw) ou en tinola. Prix : ₱80–120 la douzaine chez Stanley Talabahan.",
+    "image": "d-talaba-iloilo",
+    "links": [],
+    "type": "plat",
+    "region": "Iloilo City — Molo / Villa Arevalo",
+    "story": "Les huîtres d'Iloilo viennent des bancs de Guimaras Strait — la même bande d'eau qui sépare Panay de l'île de Guimaras. Stanley Talabahan sur pilotis dans Molo les sert depuis des décennies, dans une cabane à toit de tôle où les familles ilonggo passent les samedis après-midi à boire de la San Miguel et à ouvrir des huîtres. Le prix n'a presque pas bougé.",
+    "sources": [
+      {
+        "creator": "FEATR / Erwan Heussaff",
+        "url": "https://featrmedia.com/the-best-of-ilonggo-food-with-erwan-where-locals-eat/",
+        "date": "2023-01"
+      },
+      {
+        "creator": "I Am Traveling Light",
+        "url": "https://iamtravelinglight.com/2012/09/24/ilioilos-oysters-a-delicious-and-cheap-love-affair/",
+        "date": "2012-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "tsokolate-batirol-iloilo",
+    "base": "panay",
+    "group": "Le carnet de bouche — Panay",
+    "title": "Tsokolate de Batirol au cacao de Guimaras",
+    "body": "Chocolat chaud préparé à la main avec un fouet de bois (batirol) dans un pot en métal haut. Cacao provenant de Guimaras Island, fruité et légèrement acidulé — rien à voir avec le cacao sucré industriel. Texture : légèrement granuleuse, dense. Servi avec biscocho (toast beurré local).",
+    "image": "",
+    "links": [],
+    "type": "produit",
+    "region": "Iloilo City",
+    "story": "Le cacao de Guimaras est aux Philippines ce que le cacao de Oaxaca est au Mexique — un produit d'appellation de fait, pas encore de nom, reconnu par les chefs et les food travellers qui font l'effort de traverser vers l'île. Le tsokolate de batirol d'Iloilo, préparé à la main et sans ajout de sucre, est la version la plus directe de ce goût.",
+    "sources": [
+      {
+        "creator": "Adventure.com / Sarah Gillespie",
+        "url": "https://adventure.com/food-guide-iloilo-philippines/",
+        "date": "2024-01"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "chicken-inasal",
+    "base": "negros",
+    "group": "Le carnet de bouche — Negros",
+    "title": "Chicken Inasal — pecho ou paa",
+    "body": "Poulet mariné vinaigre de coco + calamansi + ail + citronnelle + graines d'annatto, grillé sur braise de charbon. La peau vire orange-fumé, la chair reste juteuse. Servi avec riz sinangag, sinamak (vinaigre infusé) pour tremper. Manger avec les mains, impératif.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Bacolod, Negros Occidental",
+    "story": "À Manokan Country, la fumée de 12 grills simultanés monte à 6 heures du matin et ne redescend pas avant minuit. Le secret n'est pas la marinade — c'est que le poulet est badigeonné d'huile annatto toutes les 3 minutes pendant la cuisson. Résultat : une peau qui craque, une couleur d'or rouge, un arôme qui suit encore deux rues plus loin. Déclaré Important Cultural Property par le gouvernement philippin en 2022.",
+    "sources": [
+      {
+        "creator": "Out of Town Blog — Manokan Country",
+        "url": "https://outoftownblog.com/authentic-bacolod-chicken-inasal-at-manokan-country/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Mark Wiens YouTube — Filipino Street Food Bacolod",
+        "url": "https://www.youtube.com/watch?v=Ctt0z9Db7-s",
+        "date": "2022-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "cansi-bacolod",
+    "base": "negros",
+    "group": "Le carnet de bouche — Negros",
+    "title": "Cansi — soupe de jarret au batwan",
+    "body": "Bouillon de jarret de boeuf et os à moelle rendu sour par le batwan (fruit endémique de Negros), alourdis par l'atsuete et le lemongrass. La moelle coule à la cuillère. Servi dans un bol géant avec riz blanc. À partager 2-3 personnes.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Bacolod, Negros Occidental",
+    "story": "Le batwan est un fruit qu'on trouve presque nulle part ailleurs que Negros et Panay. Il donne au cansi une acidité différente du tamarin — moins tranchante, plus profonde, presque végétale. Eron's Cansi House en fait un bol à ₱470 qui justifie à lui seul le détour depuis Bacolod centre.",
+    "sources": [
+      {
+        "creator": "Bacolod Food Hunters — Eron's Cansi House 2024",
+        "url": "https://bacolodfoodhunters.com/2024/04/07/erons-cansi-house-the-best-place-in-bacolod-for-beef-cansi/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Mark Wiens YouTube — DINO BONE CANSI Bacolod",
+        "url": "https://www.youtube.com/watch?v=jZdV_pmHKSI",
+        "date": "2022-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "napoleones-bacolod",
+    "base": "negros",
+    "group": "Le carnet de bouche — Negros",
+    "title": "Napoleones — feuilleté à la crème de lait",
+    "body": "Petit carré feuilleté fourré de crème pâtissière sucrée au lait local, glacé au sucre. Pas du tout un mille-feuille français — plus dense, plus doux, plus riche. Chez Leones depuis 1999, une boîte de 6 = ₱360.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Bacolod, Negros Occidental",
+    "story": "La capitale du sucre des Philippines n'avait pas besoin d'inventer ses desserts — elle avait la matière première à profusion. Les napoleones de Leones ont commencé dans une bakery de quartier avant de devenir le pasalubong obligatoire qu'on rapporte à Manille dans une glacière.",
+    "sources": [
+      {
+        "creator": "Leones Napoleones (officiel)",
+        "url": "https://leonesnapoleones.com/collections/bacolod",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Pure Detour — Bacolod Sweets Guide",
+        "url": "https://puredetour.com/post/the-ultimate-bacolod-sweets-guide/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "piaya-muscovado",
+    "base": "negros",
+    "group": "Le carnet de bouche — Negros",
+    "title": "Piaya au muscovado",
+    "body": "Galette plate de pâte feuilletée souple, fourrée de muscovado (sucre brun de canne non raffiné) — légèrement caramélisée en surface, encore tiède quand on la sort du four. Chez BongBong's ou Merzci, ₱20–30/pièce.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Bacolod, Negros Occidental",
+    "story": "Le piaya, c'est le taste de Negros le plus honnête : du sucre local dans de la pâte locale, cuit sur une plaque chauffante locale. Le muscovado non raffiné a un goût de mélasse et de canne que le sucre blanc n'a plus. C'est ce qui fait qu'on en mange trois avant de comprendre ce qui se passe.",
+    "sources": [
+      {
+        "creator": "ExpPH Blog — Piaya the Sweet and Crispy Delight",
+        "url": "https://expphblog.com/piaya-filipino-delicacy/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Pure Detour — Bacolod Sweets Guide",
+        "url": "https://puredetour.com/post/the-ultimate-bacolod-sweets-guide/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "fruits-de-mer-dumaguete",
+    "base": "negros",
+    "group": "Le carnet de bouche — Negros",
+    "title": "Catch du jour grillé — Dumaguete Boulevard",
+    "body": "Poisson entier ou fruits de mer (crevettes, crabe, calmars) pêchés le matin dans le détroit de Tanon, grillés au charbon ou cuits en sauce noix de coco. Dans les restos de bord de boulevard, ₱200–500 selon la prise.",
+    "image": "d-fruits-de-mer-dumaguete",
+    "links": [],
+    "type": "plat",
+    "region": "Dumaguete, Negros Oriental",
+    "story": "Le détroit de Tanon entre Negros et Cebu est l'un des plus productifs des Philippines — les pêcheurs reviennent à l'aube avec ce qui définit le menu du soir. Lab-as en Cebuano veut dire frais. C'est aussi le nom du meilleur resto de seafood du boulevard depuis 1988, et la description la plus juste de ce qu'on mange là.",
+    "sources": [
+      {
+        "creator": "Out of Town Blog — Lab-as Dumaguete",
+        "url": "https://outoftownblog.com/lunch-at-lab-as-seafood-restaurant-in-dumaguete-city/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Tsinoy Foodies — Lab-as review 2024",
+        "url": "https://www.tsinoyfoodies.com/2024/06/lab-as-dumaguate.html",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "banka-breakfast-malatapay",
+    "base": "negros",
+    "group": "Le carnet de bouche — Negros",
+    "title": "Poisson grillé + sinangag — marché de Malatapay",
+    "body": "Au marché de Malatapay avant d'embarquer pour Apo Island, quelques étals servent du poisson grillé chaud avec du riz frit à l'ail. ₱50–80 l'assiette. Manger debout, café instantané sucré dans un styro cup.",
+    "image": "d-banka-breakfast-malatapay",
+    "links": [],
+    "type": "plat",
+    "region": "Malatapay/Zamboanguita, Negros Oriental",
+    "story": "Ce n'est pas un restaurant. C'est un marché de pêcheurs où les femmes font griller le poisson pêché cette nuit-là pendant que leurs maris amarrent les bangkas. Personne n'a mis ça sur Google Maps. On y va parce qu'on arrive tôt pour Apo Island et l'odeur nous guide.",
+    "sources": [
+      {
+        "creator": "Tara Lets Anywhere — Apo Island guide Malatapay",
+        "url": "https://www.taraletsanywhere.com/snorkeling-swimming-with-turtles-in-apo-island/",
+        "date": "2024-01"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "kinilaw-frais",
+    "base": "siquijor",
+    "group": "Le carnet de bouche — Siquijor",
+    "title": "Kinilaw de thon ou vivaneau",
+    "body": "Poisson cru pêché le matin même, coupé en cubes et « cuit » dans du vinaigre de coco (sukang tuba) avec gingembre, oignons rouges, piment bird's eye et lait de coco. L'acidité est vive, le gingembre pique au fond de la gorge — manger avec du riz blanc et une bière froide. Commander au marché public de Siquijor Town ou dans les restos côtiers.",
+    "image": "d-kinilaw-frais",
+    "links": [],
+    "type": "plat",
+    "region": "Visayas / Siquijor",
+    "story": "Le kinilaw des Visayas, c'est pas le ceviche péruvien revisité à la mode. C'est un plat de pêcheurs : le poisson sort de l'eau à 5h du matin, il est dans l'assiette à 11h. Le vinaigre de coco local (pas de citron vert) lui donne une acidité plus ronde, moins agressive. Un plat qu'on commande en premier pour tester l'honnêteté d'un établissement.",
+    "sources": [
+      {
+        "creator": "Philippines Hidden Gems",
+        "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+        "date": "2026-02"
+      },
+      {
+        "creator": "PhilippineTravels.ph",
+        "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "sutukil-poisson",
+    "base": "siquijor",
+    "group": "Le carnet de bouche — Siquijor",
+    "title": "Sutukil — Sugba, Tula, Kilaw",
+    "body": "Formule à trois têtes : le même poisson préparé en trois façons simultanément — grillé (sugba), mijoté en bouillon léger (tula), et cru mariné (kilaw). Commander chez Dalahikan Grill ou chez les petits restos côtiers autour du port de Lazi. Idéal pour deux personnes partageant un poisson entier.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Visayas centrale",
+    "story": "Le sutukil, c'est la preuve que les Visayans ne font pas de compromis : au lieu de choisir comment manger leur poisson, ils l'ont mangé de toutes les façons en même temps. La version grillée a la peau carbonisée et la chair qui se détache à la fourchette. La version bouillie arrive dans un bouillon de tomates et citron vert. La version crue pique avec les piments. Trois textures, trois niveaux d'acidité, un seul poisson.",
+    "sources": [
+      {
+        "creator": "Philippines Hidden Gems",
+        "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+        "date": "2026-02"
+      },
+      {
+        "creator": "PhilippineTravels.ph",
+        "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+        "date": "2024-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "lechon-vendredi-siquijor",
+    "base": "siquijor",
+    "group": "Le carnet de bouche — Siquijor",
+    "title": "Lechon rôti du vendredi soir au Baha Ba'r",
+    "body": "Cochon de lait entier rôti à la broche sur feu de bois dans le jardin du Baha Ba'r — peau craquante, chair juteuse, servi avec le poisson du jour en buffet à ₱450/personne. Uniquement le vendredi à partir de 18h30. Réserver 24h à l'avance en haute saison.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Siquijor",
+    "story": "Il y a quelque chose d'intemporel dans l'image : le cochon sur la broche visible depuis la route, la fumée qui monte dans les frangipaniers, et à 18h30 les gens qui arrivent à pied ou en scooter depuis San Juan. Le Baha Ba'r fait ça une fois par semaine depuis des années — les expats de l'île ont leur table réservée depuis janvier.",
+    "sources": [
+      {
+        "creator": "Siquijor-island.com",
+        "url": "https://siquijor-island.com/friday-night-lechon/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Ed Puno — One-Armed Wanderer",
+        "url": "https://www.edpuno.com/2017/01/restaurant-bar-in-siquijor-island-baha-bar.html",
+        "date": "2017-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "bukayo-noix-coco",
+    "base": "siquijor",
+    "group": "Le carnet de bouche — Siquijor",
+    "title": "Bukayo — caramel de coco séché",
+    "body": "Lanières de noix de coco jeune caramélisées au sucre brun — texture entre le nougat et le pralin, goût de noix de coco rôtie. Vendu aux kiosques près du marché public et dans les boutiques autour du vieux Balete. Prix : ₱30-80 le sachet selon la taille.",
+    "image": "",
+    "links": [],
+    "type": "produit",
+    "region": "Siquijor",
+    "story": "Le bukayo, c'est le souvenir comestible honnête de Siquijor : fait avec les noix de coco du coin, sans colorants ni conservateurs, par des familles qui perpétuent la recette depuis des générations. On en achète un sachet près du vieux Balete et on le grignote en scooter sur la route du retour vers San Juan.",
+    "sources": [
+      {
+        "creator": "Philippines Hidden Gems",
+        "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+        "date": "2026-02"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "torta-siquijor",
+    "base": "siquijor",
+    "group": "Le carnet de bouche — Siquijor",
+    "title": "Torta de Siquijor — gâteau anis",
+    "body": "Pâtisserie sucrée légèrement moelleuse parfumée à l'anis, typique des îles Visayas. Vendue à un kiosque près du Siquijor Integrated School dans Siquijor Town. Manger avec du café noir local — déjeuner parfait avant de monter en scooter.",
+    "image": "",
+    "links": [],
+    "type": "produit",
+    "region": "Siquijor",
+    "story": "Le genre de gâteau qu'une grand-mère fait le matin et qu'elle vend devant l'école. Pas prétentieux, pas instagrammable. Juste sucré, parfumé à l'anis, et tellement local qu'il n'existe pas de chaîne de franchises qui le vende. On en achète deux, on repart sur la route.",
+    "sources": [
+      {
+        "creator": "Philippines Hidden Gems",
+        "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+        "date": "2026-02"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "san-miguel-pale-pilsen",
+    "base": "siquijor",
+    "group": "Le carnet de bouche — Siquijor",
+    "title": "San Miguel Pale Pilsen froide",
+    "body": "Bière nationale philippine servie partout à ₱40-60 la bouteille froide — légère, légèrement amère, parfaite avec du poisson grillé sur la plage. C'est pas la plus complexe du monde, mais c'est LA bière de Siquijor.",
+    "image": "",
+    "links": [],
+    "type": "bière",
+    "region": "Philippines",
+    "story": "On peut débattre de la bière artisanale tant qu'on veut. Quand il fait 32 degrés sur la plage et que le poisson sort du grill, la San Miguel Pale Pilsen froide est la réponse correcte. Pas parce que c'est la meilleure — parce que c'est celle que le pêcheur d'à côté boit aussi.",
+    "sources": [
+      {
+        "creator": "PhilippineTravels.ph",
+        "url": "https://philippinetravels.ph/where-to-eat-in-siquijor/",
+        "date": "2024-01"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "fruit-wine-siquijor",
+    "base": "siquijor",
+    "group": "Le carnet de bouche — Siquijor",
+    "title": "Vin de fruits local (duhat, guyabano)",
+    "body": "Vins artisanaux produits localement à partir de fruits tropicaux : duhat (prune de Java), guyabano (corossol), mangue, ananas. Vendus dans les boutiques de souvenirs autour du marché et des sites touristiques. Bouteille ₱80-150. À déguster frais — plus proche d'un cidre fruité que d'un vin de raisin.",
+    "image": "",
+    "links": [],
+    "type": "alcool",
+    "region": "Siquijor",
+    "story": "Les guérisseurs traditionnels de Siquijor utilisaient les plantes locales pour soigner. Les vignerons artisanaux, eux, ont simplement décidé de fermenter les fruits qui poussent dans leur jardin. Le résultat est doux, légèrement pétillant parfois, et ça fait une bien meilleure histoire à raconter en rentrant qu'une bouteille achetée dans un duty-free.",
+    "sources": [
+      {
+        "creator": "Philippines Hidden Gems",
+        "url": "https://philippineshiddengems.com/siquijor-delicacies/",
+        "date": "2026-02"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "lechon-cebu",
+    "base": "bohol",
+    "group": "Le carnet de bouche — Bohol",
+    "title": "Lechon de Cebu",
+    "body": "Cochon entier rôti lentement à la broche, farci d'herbes locales (citronnelle, feuilles de laurier, ail), peau croustillante comme du chicharron. Vendu au poids, PHP 450-990 pour une portion. Manger debout au comptoir de Zubuchon ou CnT.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Cebu City",
+    "story": "Anthony Bourdain l'a dit à la caméra dans No Reservations : « The best pig, ever. » Il parlait de Zubuchon. La spécificité de Cebu, c'est de ne pas utiliser de sauce soja sur la peau — elle reste naturellement blond doré, légère, qui craque entre les dents sans coller. Les Cebuanos débattent encore si CnT (vieille garde) ou Zubuchon (rendu célèbre par Bourdain) est supérieur. La vraie réponse : tester les deux en une après-midi.",
+    "sources": [
+      {
+        "creator": "Mark Wiens x Stanly on Media — Cebu Lechon Tour YouTube",
+        "url": "https://www.youtube.com/watch?v=UvoIYiKLIL4",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Authentic Food Quest — Best Lechon in Cebu Bourdain guide",
+        "url": "https://authenticfoodquest.com/cebu-lechon-bourdain/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "kinilaw-bohol",
+    "base": "bohol",
+    "group": "Le carnet de bouche — Bohol",
+    "title": "Kinilaw de poisson frais",
+    "body": "Ceviche philippine — poisson cru (malasugi/espadon ou lapu-lapu) coupé en dés, mariné dans du vinaigre de coco et du citron vert, mélangé à du gingembre frais, piment et oignons. Servi froid comme entrée ou pulutan (grignotine à bière). PHP 180-350.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Panglao / Bohol",
+    "story": "Le kinilaw, c'est la version bisaya du ceviche — mais le vinaigre de coco donne une acidité plus ronde que le citron seul. On en trouve au marché de Tagbilaran dès l'aube, préparé minute avec le poisson sorti de la glace. Les pêcheurs en mangent au petit-déjeuner. La version au malasugi (espadon), coupé en petits cubes fermes, est particulièrement bonne — la chair dense tient la marinade sans se défaire.",
+    "sources": [
+      {
+        "creator": "Bohol Local — Traditional Cuisine guide",
+        "url": "https://bohollocal.ph/blogs/bohol-local/bohol-s-traditional-cuisine-a-guide-to-the-island-s-best-local-dishes",
+        "date": "2026-06"
+      },
+      {
+        "creator": "RichestPH — Bohol for Foodies kinilaw to kalamay",
+        "url": "https://richestph.com/bohol-for-foodies-a-culinary-adventure-from-kinilaw-to-kalamay/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "sinugba-seafood",
+    "base": "bohol",
+    "group": "Le carnet de bouche — Bohol",
+    "title": "Sinugba — grillades de fruits de mer au charbon",
+    "body": "Grillades bisaya au charbon de bois : calmars entiers farcis tomates-oignons, lapu-lapu (mérou) entier, crevettes tigrées en brochette. Servi avec riz et sauce coco-vinaigre. PHP 300-700 selon le poisson.",
+    "image": "d-sinugba-seafood",
+    "links": [],
+    "type": "plat",
+    "region": "Panglao / Bohol",
+    "story": "Sinugba signifie littéralement « grillé » en visayan. Dans les restaurants de Panglao, la grille est dehors, au charbon de bois, et la fumée fait partie du paysage olfactif de l'île. Le calmar entier, farci de tomates et d'oignons avant de passer sur la grille, gonfle légèrement et sort juteux avec une légère amertume de brûlé en surface. Le lapu-lapu (mérou rouge local) grillé entier, fendu à la machette, quelques gouttes de calamansi (citron vert philippin) — il n'y a pas grand-chose à ajouter.",
+    "sources": [
+      {
+        "creator": "JJ's Seafood Village Tagbilaran — Tripadvisor menus",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g1066348-d1480864-Reviews-JJ_s_Seafood_Village-Tagbilaran_City_Bohol_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "SM Divers Bohol — Food Lovers Guide Bohol",
+        "url": "https://www.smdiversbohol.com/a-food-lovers-guide-to-dining-in-bohol/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "kalamay-jagna",
+    "base": "bohol",
+    "group": "Le carnet de bouche — Bohol",
+    "title": "Kalamay de Jagna",
+    "body": "Confiture épaisse de riz gluant, lait de coco et sucre de palme, cuite des heures à feu doux, servie dans une demi-noix de coco avec du latik (résidus caramélisés de coco) par-dessus. PHP 50-100 le pot.",
+    "image": "",
+    "links": [],
+    "type": "produit",
+    "region": "Jagna, Bohol",
+    "story": "Le kalamay de Jagna est la friandise emblématique de Bohol — chaque famille a sa recette et les vendeurs du marché passent la matinée à brasser la pâte dans de grands woks noirs. La couleur est brun foncé, presque noire ; le goût est doux, légèrement fumé, avec une douceur de coco qui ne colle pas. On l'achète emballé dans une demi-coque de noix de coco comme souvenir, mais la meilleure version se mange chaude, à même la casserole, avec les doigts.",
+    "sources": [
+      {
+        "creator": "Tasteplorers — Kalamay Philippines complete guide",
+        "url": "https://tasteplorers.com/en/philippines/kalamay.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Pinoytourist — Top 25 Bohol delicacies",
+        "url": "https://www.pinoytourist.com/destinations-philippines/indulge-in-the-top-25-bohol-delicacies-a-gastronomic-tour-of-the-island",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "tuba-visayas",
+    "base": "bohol",
+    "group": "Le carnet de bouche — Bohol",
+    "title": "Tuba — vin de coco des Visayas",
+    "body": "Sève de cocotier fermentée, recueillie au sommet des arbres chaque matin, mélangée à de l'écorce de mangrove (barok) qui lui donne une teinte rouge-rouille. Légèrement pétillant, peu alcoolisé (3-5%), saveur douce-acidulée. Vendu par les mamans au bord des routes, PHP 20-30 le verre.",
+    "image": "",
+    "links": [],
+    "type": "alcool",
+    "region": "Bohol / Visayas",
+    "story": "Le tuba, c'est la boisson des gens qui travaillent. Les pêcheurs en boivent en revenant du large, les agriculteurs en fin de journée sous le nipa. Dans les Visayas, on n'a pas besoin de bar pour en trouver : les vendeuses sont au bord des routes avec leurs bidons en plastique, le verre rempli à ras bord. La version de Bohol, teintée de rouge par l'écorce de mangrove, est plus tannique que les tubas de Luzon. Un verre au soleil couchant sur la plage de Dumaluan, avec un reste de kinilaw : aussi bon que ça.",
+    "sources": [
+      {
+        "creator": "KGM Resorts — Tuba, Lambanog et Tapuy guide",
+        "url": "https://www.kgmresorts.com/post/tuba-lambanog-and-tapuy",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Slow Food Foundation — Tubâ Ark of Taste",
+        "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/tuba-coconout-wine/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  },
+  {
+    "id": "garlic-butter-crab-bohol",
+    "base": "bohol",
+    "group": "Le carnet de bouche — Bohol",
+    "title": "Crabe au beurre aillé (Garlic Butter Crab)",
+    "body": "Crabe des îles mud crab (alimango), poché beurre-ail-calamansi, servi entier, mangé avec les mains. PHP 800-2000 selon le poids. Demander le prix au poids avant de commander.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "Panglao, Bohol",
+    "story": "Le crabe au beurre aillé philippin est le plat qui finit les arguments. La chair du mud crab est dense, sucrée, et ne ressemble pas aux crabes insipides d'eau froide. Chez Redcrab à Panglao, il arrive dans une casserole fumante avec une sauce beurre-ail qui a réduit juste assez pour napper sans étouffer. On casse les pinces à la main, on suce les sucs. La serviette fournie est là en décoration.",
+    "sources": [
+      {
+        "creator": "Tripadvisor Redcrab Bohol — Garlic Butter Crab review",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g10687799-d25431214-Reviews-Redcrab_Bohol-Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wanderlog — Bohol seafood restaurants top 21",
+        "url": "https://wanderlog.com/list/geoCategory/262935/best-seafood-restaurants-in-bohol-province",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-15"
+  }
+]

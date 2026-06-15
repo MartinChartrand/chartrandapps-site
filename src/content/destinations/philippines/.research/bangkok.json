@@ -1,0 +1,677 @@
+{
+  "base": "bangkok",
+  "narratif": "Bangkok te tombe dessus comme une fièvre. Le tuk-tuk klaxonne, l'air sent le jasmin et la graisse de wok, et avant même d'avoir posé les valises, quelqu'un t'a déjà mis un cha yen dans les mains — ce thé glacé couleur orange brûlé qui coule dans un sac de plastique noué sur une paille.\n\nC'est ça, Bangkok en février. Le ciel est bleu, l'air est doux — pas encore l'écrasante chaleur de mai — et les marchés fonctionnent à plein régime. C'est l'heure où les cuisinières de Yaowarat commencent à allumer les woks vers 17h, où l'allée aux boat noodles près de Victory Monument se remplit de fonctionnaires pour un deuxième lunch tardif à 12 bols de 15 bahts chacun, où l'Or Tor Kor Market sent le durian kanyao à 9h du matin et te colle une tache de mangue sur la chemise avant 10h.\n\nOn ne vient pas à Bangkok pour les temples — ils sont là, imposants, unavoidables, mais ils sont le backdrop. Ce qu'on vient chercher, c'est le **pad krapow** qui fait pleurer de bonheur [[poi:phed-mark]], les nouilles de bateaux à 12 bahts le bol [[poi:boat-noodle-alley-victory]], la **crevette fluviale géante** grillée chez T&K [[poi:tk-seafood-yaowarat]] dans la fumée de Yaowarat un mardi soir, et le mango sticky rice de Mae Varee [[poi:mae-varee]] au BTS de Thong Lo, à manger debout sur le trottoir comme un Bangkokien ordinaire.\n\nLe quartier Thonglor-Ekkamai, c'est la zone de base idéale : loin du chaos de Khao San Road et de Silom bondés de touristes, proche du BTS pour tout rejoindre, entouré de coffee shops japonais, de petits restos de nouilles ouvertes jusqu'à 2h du matin et de salons de massage qui chargent 350 bahts l'heure. L'hôtel sent l'air conditionné propre et les draps sont froids — le luxe à Bangkok, c'est ça.\n\nLe soir, on se laisse porter vers [[poi:yaowarat-chinatown]] : les néons rouges du Chinatown s'allument, les familles s'installent sur des tabourets en plastique, les woks crachen du feu, et une bouteille de Singha froide contre 50 bahts t'appartient pour la soirée. On mange au coude à coude avec des habitants du quartier qui font ça depuis trente ans. Personne ne te regarde bizarrement — Bangkok absorbe tout le monde avec la même indifférence bienveillante.",
+  "pratique": "**Arrivée** : Vol direct ou correspondance vers Suvarnabhumi (BKK) — gare de Bangkok depuis l'aéroport en Airport Rail Link (~45 min, 45 bahts) jusqu'à station Phaya Thai, puis BTS vers Ekkamai/Thong Lo. Éviter les taxis hors du comptoir officiel (arnaque courante au prix fixe). Uber/Grab = meilleure option fiable.\n\n**Transport local** : BTS Skytrain couvre Sukhumvit/Silom = trajet principal. MRT pour Chinatown (station Wat Mangkon) et Or Tor Kor (station Kamphaeng Phet). Grab pour tout le reste (jamais de tuk-tuk pour les longues distances — tarif négocié = piège). Bateaux sur le Chao Phraya pour traverser vers Rattanakosin.\n\n**Saison fév-mars** : Février = meilleur mois (sec, 27-31°C le jour, 22°C la nuit). Mars commence à chauffer sérieusement. Prévoir vêtements légers mais couvrir épaules/genoux pour les temples. Toujours une bouteille d'eau sur soi.\n\n**Pièges spécifiques** :\n- Jay Fai : file d'attente de 3-5 heures sans réservation, prix élevés (crab omelette 1500 bahts minimum). Vaut le coup pour l'expérience, mais planifier en avance.\n- Jeh O Chula : ne commence vraiment qu'à 23h pour le MAMA OHO signature, file de 2-4 heures. Y aller un soir de semaine.\n- Khao San Road = attrape-touriste complet. Éviter pour dormir et manger.\n- Yaowarat le vendredi-samedi = très bondé. Préférer mardi-jeudi.\n- Or Tor Kor : ferme à 17h, y aller le matin pour la fraîcheur des produits et le durian.\n- Taxis au compteur obligatoire — dire « meter please » en montant.",
+  "hebergements": [
+    {
+      "id": "mustang-blu-chinatown",
+      "name": "The Mustang Blu",
+      "tier": "gem",
+      "quartier": "Chinatown / Talat Noi",
+      "blurb": "Ancienne banque de 1890 reconvertie en 10 suites design au coeur du vieux Bangkok, à deux pas de Yaowarat.",
+      "story": "Ananda Chalardcharoen a transformé ce bâtiment colonial en quelque chose de rare : un hôtel de 10 chambres où chaque suite a sa propre personnalité — baignoire sur pied en plein milieu de la pièce, escalier en spirale spectaculaire, murs de brique brute. Dormir ici, c'est dormir dans la couture entre le Bangkok chinois d'il y a 150 ans et celui d'aujourd'hui. Tu sors à pied vers T&K Seafood en 5 minutes, et le matin tu as Talat Noi à portée de café.",
+      "prixParNuit": "5 500–7 000 THB",
+      "devise": "THB",
+      "url": "https://www.themustangblu.com",
+      "lat": 13.7347,
+      "lng": 100.5118,
+      "sources": [
+        {
+          "creator": "TravelPhotoBloggers",
+          "url": "https://travelphotobloggers.com/thailand/mustang-blu-bangkok/",
+          "date": "2024"
+        },
+        {
+          "creator": "L'Escale Voyage",
+          "url": "https://www.lescale-voyage.com/destinations/the-mustang-blu-ananda-chalardcharoens-iconic-hotel-in-bangkoks-chinatown",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "feung-nakorn-balcony",
+      "name": "Feung Nakorn Balcony Rooms & Cafe",
+      "tier": "mid",
+      "quartier": "Rattanakosin / Vieille ville",
+      "blurb": "École rénovée des années 1920 avec jardin intérieur, à 10 minutes à pied de Wat Pho, calme et propre.",
+      "prixParNuit": "1 800–2 800 THB",
+      "devise": "THB",
+      "url": "https://www.booking.com/hotel/th/feung-nakorn-balcony-rooms-and-cafe.html",
+      "lat": 13.7499,
+      "lng": 100.4984,
+      "sources": [
+        {
+          "creator": "Booking.com listing",
+          "url": "https://www.booking.com/hotel/th/feung-nakorn-balcony-rooms-and-cafe.html",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "muu-bangkok-thonglor",
+      "name": "MUU Bangkok",
+      "tier": "mid",
+      "quartier": "Thonglor (Sukhumvit Soi 55)",
+      "blurb": "Boutique hôtel ancré dans le quartier le plus vivant de Bangkok, connecté au centre commercial Eight Thonglor, BTS à 15 min à pied.",
+      "story": "MUU (le mot thaï pour « communauté ») joue la carte du voisinage plutôt que de l'isolement de resort. Chambres épurées, literie sérieuse, et tu es à 2 minutes à pied de Mae Varee et des meilleures rues à pad krapow de Ekkamai. C'est le genre d'hôtel où tu rentres fatigué à minuit, les mains encore grasses de sticky rice, et tout ce que tu veux c'est une douche froide et un lit ferme.",
+      "prixParNuit": "2 500–4 000 THB",
+      "devise": "THB",
+      "url": "https://muuhotels.com/bangkok/",
+      "lat": 13.7294,
+      "lng": 100.5834,
+      "sources": [
+        {
+          "creator": "MUU Hotels",
+          "url": "https://muuhotels.com/bangkok/boutique-hotel-bangkok/",
+          "date": "2025"
+        }
+      ]
+    }
+  ],
+  "restos": [
+    {
+      "id": "phed-mark-ekkamai",
+      "name": "Phed Mark เผ็ดมาร์ค",
+      "blurb": "L'atelier pad krapow de Mark Wiens — une seule recette, faite obsessionnellement bien, en version brûlante.",
+      "story": "Mark Wiens, le YouTubeur de Migrationology qui vit à Bangkok et qui connaît chaque ruelle de la ville, a co-fondé Phed Mark avec un champion Iron Chef et deux locaux. Le nom joue sur son nom de famille : «phed maak» veut dire «très épicé» en thaï. Ils font une chose — pad krapow — et ils la font avec une précision de chirurgien : viande de choix, basilic sacré, chili bird's eye, oeuf frit aux bords croustillants. Pas de légumes-remplissage, pas de sauce sucrée pour adoucir. C'est chaud, parfumé, et ça te colle au palais pendant une heure.",
+      "platSignature": "Pad Krapow poulet ou boeuf niveau 5 (sur 10) avec oeuf frit croustillant — 80–120 THB",
+      "fourchettePrix": "80–150 THB",
+      "devise": "THB",
+      "url": "https://phedmark.com",
+      "lat": 13.7232,
+      "lng": 100.5848,
+      "sources": [
+        {
+          "creator": "Daniel Food Diary",
+          "url": "https://danielfooddiary.com/2025/02/17/phedmark/",
+          "date": "2025-02"
+        },
+        {
+          "creator": "Feastography Blog",
+          "url": "https://www.feastographyblog.com/blog/phed-mark-review",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "tk-seafood-yaowarat",
+      "name": "T&K Seafood",
+      "blurb": "Les chemises vertes de Phadung Dao — poissons et calamars grillés dans la fumée de Yaowarat jusqu'à 2h du mat.",
+      "story": "Sur le coin de Yaowarat Road et Soi Phadung Dao, les gars en chemise verte de T&K vocifèrent les commandes depuis des décennies. C'est le chaos organisé du Chinatown de nuit : bar à fruits de mer à ciel ouvert, tables en plastique, vapeur de wok, bouteilles de Singha qui se multiplient. On y vient pour l'huitre en omelette croustillante (or suan), le bar citronné-ail au vapeur, et le calmar sauté au curry jaune. La qualité est réelle — les cuisines ouvrent à 16h30 et ne ferment pas avant 2h du matin.",
+      "platSignature": "Or Suan — omelette d'huitres croustillante aux bords grillés sur wok charbon — 120–180 THB",
+      "fourchettePrix": "200–500 THB par personne",
+      "devise": "THB",
+      "url": "https://www.eatingthaifood.com/restaurants/t-k-seafood-restaurant-yaowarat-chinatown-bangkok-thailand/",
+      "lat": 13.7402,
+      "lng": 100.5131,
+      "sources": [
+        {
+          "creator": "Eating Thai Food (Mark Wiens)",
+          "url": "https://www.eatingthaifood.com/restaurants/t-k-seafood-restaurant-yaowarat-chinatown-bangkok-thailand/",
+          "date": "2023"
+        },
+        {
+          "creator": "Authentic Food Quest",
+          "url": "https://authenticfoodquest.com/chinatown-bangkok-food/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "thip-samai-pad-thai",
+      "name": "Thip Samai",
+      "blurb": "La pad thai de référence depuis 1966 — crevettes, oeuf enrobant les nouilles, fumée de wok charbon dans la vieille ville.",
+      "platSignature": "Pad Thai enveloppé dans une crêpe d'oeuf avec grosses crevettes — 120–200 THB",
+      "fourchettePrix": "60–200 THB",
+      "devise": "THB",
+      "url": "https://www.eatingthaifood.com/pad-thai-thip-samai-restaurant-bangkok/",
+      "lat": 13.7522,
+      "lng": 100.5048,
+      "sources": [
+        {
+          "creator": "Eating Thai Food (Mark Wiens)",
+          "url": "https://www.eatingthaifood.com/pad-thai-thip-samai-restaurant-bangkok/",
+          "date": "2023"
+        },
+        {
+          "creator": "Chasing a Plate",
+          "url": "https://chasingaplate.com/thip-samai-jay-fai/",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "id": "ann-guay-tiew-kua-gai",
+      "name": "Ann Guay Tiew Kua Gai",
+      "blurb": "Michelin Bib Gourmand à 30 mètres de Chinatown — nouilles de riz sautées au wok charbon avec poulet et oeuf coulant, 50 ans de maison.",
+      "platSignature": "Kua Gai — nouilles plates de riz sautées au charbon avec poulet, oeuf coulant, graisses de wok — 60–80 THB",
+      "fourchettePrix": "60–100 THB",
+      "devise": "THB",
+      "url": "https://danielfooddiary.com/2018/09/20/annguaytiewkuagai/",
+      "lat": 13.7468,
+      "lng": 100.5168,
+      "sources": [
+        {
+          "creator": "Daniel Food Diary",
+          "url": "https://danielfooddiary.com/2018/09/20/annguaytiewkuagai/",
+          "date": "2024"
+        },
+        {
+          "creator": "Streetside Bangkok",
+          "url": "https://www.streetsidebangkok.com/roasted-chicken-noodles-guay-tiew-kua-gai-at-suan-mali-is-a-true-treasure/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "jeh-o-chula",
+      "name": "Jeh O Chula",
+      "blurb": "Le spot de souper des noctambules bangkokiens depuis 50 ans — tom yum instantané XXL à minuit, file monstre, mais légendaire.",
+      "story": "Les habitants du quartier Pathum Wan font la file depuis 1970 pour ce restaurant de nuit sans prétention qui sert des tom yum aux nouilles Mama dans des bols de la taille d'un baptistère. Ce n'est pas de la haute gastronomie — c'est de la nourriture d'âme à 2h du matin, celle que tu mange après une nuit dans les bars ou en rentrant d'un late shift. La recette n'a pas changé : bouillon tom yum crémeux, crevettes, calmar, boulettes de porc, deux oeufs entiers. Michelin Bib Gourmand. Arrive avant 22h ou prends un numéro et attends.",
+      "platSignature": "MAMA OHO — tom yum XXL aux fruits de mer sur nouilles instantanées avec deux oeufs — 220–320 THB",
+      "fourchettePrix": "120–400 THB",
+      "devise": "THB",
+      "url": "https://danielfooddiary.com/2016/09/21/jehochula/",
+      "lat": 13.7383,
+      "lng": 100.5228,
+      "sources": [
+        {
+          "creator": "Daniel Food Diary",
+          "url": "https://danielfooddiary.com/2016/09/21/jehochula/",
+          "date": "2023"
+        },
+        {
+          "creator": "The Ranting Panda",
+          "url": "https://therantingpanda.com/2023/01/09/food-review-jeh-o-chula-bangkok-how-to-skip-the-queue-at-the-popular-michelin-bib-gourmand-restaurant-for-its-tom-yum-noodles/",
+          "date": "2023"
+        }
+      ]
+    }
+  ],
+  "sights": [
+    {
+      "id": "yaowarat-chinatown",
+      "name": "Yaowarat Road — Chinatown de nuit",
+      "kind": "sight",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "blurb": "La rue principale de Chinatown s'éveille à 18h en un marché de rue fumant — omelettes d'huitres, calamars grillés, néons rouges.",
+      "story": "Yaowarat a l'air de toujours avoir existé ainsi : les enseignes dorées se croisent, les woks crachent du feu, les familles s'installent sur des tabourets bas depuis avant que tu sois né. En février, l'air du soir est doux et on mange dehors sans souffrir. L'heure idéale est 18h30 — la nourriture est à point, les foules n'ont pas encore explosé. Sortie MRT Wat Mangkon, 5 minutes de marche vers le chaos parfait.",
+      "timingPhoto": "18h–20h pour les néons + vapeur de wok, lumière bleue du crépuscule",
+      "prixEntree": "Gratuit",
+      "lat": 13.7402,
+      "lng": 100.5131,
+      "sources": [
+        {
+          "creator": "Bangkok Days",
+          "url": "https://bangkokdays.com/yaowarat-delights-a-guide-to-bangkoks-best-chinatown-street-food-year/",
+          "date": "2025"
+        },
+        {
+          "creator": "Little Big Red Dot",
+          "url": "https://littlebigreddot.com/yaowarat-after-dark-the-ultimate-top-5-street-food-spots-in-bangkoks-chinatown-2025/",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "or-tor-kor-market",
+      "name": "Or Tor Kor Market (ตลาด อตก)",
+      "kind": "activity",
+      "roles": [
+        "do"
+      ],
+      "blurb": "Le marché de fruits et curry préféré des chefs locaux — durian kanyao, crevettes fluviales, et l'un des meilleurs khao gaeng de la ville.",
+      "story": "Mark Wiens l'appelle l'un de ses marchés préférés sur terre — et il a raté beaucoup de marchés sur terre. Or Tor Kor, c'est le marché que les cuisiniers professionnels de Bangkok fréquentent le matin : fruits impeccables (la mangue Nam Dok Mai ici est une autre espèce que les mangues du supermarché), crabe vivant, crevettes fluvières géantes, et un food court au fond qui sert le meilleur riz curry de la zone nord de Bangkok pour 70 bahts.",
+      "timingPhoto": "9h–11h, lumière du matin sur les étals de fruits tropicaux",
+      "prixEntree": "Gratuit",
+      "url": "https://migrationology.com/or-tor-kor-market-bangkok-thailand/",
+      "lat": 13.7996,
+      "lng": 100.5508,
+      "sources": [
+        {
+          "creator": "Mark Wiens / Migrationology",
+          "url": "https://migrationology.com/or-tor-kor-market-bangkok-thailand/",
+          "date": "2023"
+        },
+        {
+          "creator": "Miss Tam Chiak",
+          "url": "https://www.misstamchiak.com/or-tor-kor-market-one-of-the-best-market-in-bangkok/",
+          "date": "2022"
+        }
+      ]
+    },
+    {
+      "id": "boat-noodle-alley-victory",
+      "name": "Allée aux Boat Noodles — Victory Monument",
+      "kind": "activity",
+      "roles": [
+        "do"
+      ],
+      "blurb": "Une vingtaine de comptoirs le long du canal de Khlong Samsen — petits bols à 12–15 bahts, bouillon noir au sang de porc, une institution locale.",
+      "story": "Les nouilles de bateaux ont été servies depuis des embarcations sur les canaux de Bangkok pendant des décennies. L'allée de Victory Monument est l'endroit où la tradition survit, intacte et sans décoration inutile. On s'assoit sur un tabouret, on commande 8–10 petits bols au boeuf ou au porc avec le bouillon sombre rehaussé à la sauce soja foncée et sang de porc (c'est ce qui donne la couleur et le umami), et on empile les bols vides en compétition silencieuse avec soi-même.",
+      "timingPhoto": "11h–14h pour l'affluence maximum des bureaux locaux",
+      "prixEntree": "Gratuit",
+      "url": "https://www.eatingthaifood.com/restaurants/restaurant-sud-yod-kuay-teow-reua-best-boat-noodles/",
+      "lat": 13.7648,
+      "lng": 100.5384,
+      "sources": [
+        {
+          "creator": "Eating Thai Food (Mark Wiens)",
+          "url": "https://www.eatingthaifood.com/restaurants/excellent-boat-noodles-bangkok/",
+          "date": "2022"
+        },
+        {
+          "creator": "Spring Tomorrow",
+          "url": "https://www.springtomorrow.com/victory-monument-boat-noodles/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "lumpini-park-matin",
+      "name": "Lumpini Park — lever de soleil",
+      "kind": "activity",
+      "roles": [
+        "do"
+      ],
+      "blurb": "Le parc central de Bangkok entre 6h et 8h : Tai Chi, joggeurs locaux, silence relatif avant la fournaise urbaine.",
+      "timingPhoto": "6h–7h30, lumière dorée sur le lac, silhouettes Tai Chi",
+      "prixEntree": "Gratuit",
+      "lat": 13.7305,
+      "lng": 100.5417,
+      "sources": [
+        {
+          "creator": "Thailand Magazine",
+          "url": "https://thailandmagazine.com/bangkok/see-do/lumpini-park/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "ruen-nuad-massage",
+      "name": "Ruen-Nuad Massage Studio",
+      "kind": "activity",
+      "roles": [
+        "do"
+      ],
+      "blurb": "Maison en bois de trois étages avec jardin, Sukhumvit 31 — massage thaïlandais traditionnel authentique à prix raisonnable, loin des centres de touristes.",
+      "timingPhoto": "N/A",
+      "prixEntree": "600–800 THB / heure",
+      "url": "https://www.tripadvisor.com/Attraction_Review-g293916-d1549403-Reviews-Ruen_Nuad_Massage_Studio-Bangkok.html",
+      "lat": 13.7291,
+      "lng": 100.5628,
+      "sources": [
+        {
+          "creator": "GoWabi",
+          "url": "https://www.gowabi.com/en/provider/ruen-nuad-massage-studio-sukhumvit-31",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "wat-pho-reclining",
+      "name": "Wat Pho — le Bouddha couché",
+      "kind": "sight",
+      "roles": [
+        "see"
+      ],
+      "blurb": "46 mètres de Bouddha couché en feuille d'or — le temple le plus vieux de Bangkok, promenade de 20 min à pied depuis le ferry.",
+      "timingPhoto": "8h–9h pour éviter les groupes de tour",
+      "prixEntree": "200 THB",
+      "url": "https://www.watpho.com",
+      "lat": 13.7468,
+      "lng": 100.4927,
+      "sources": [
+        {
+          "creator": "Bangkok Days",
+          "url": "https://bangkokdays.com/michelin-recommended-meals-in-bangkok/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "talad-noi-riverside-walk",
+      "name": "Talad Noi — balade riverside",
+      "kind": "activity",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "blurb": "Ruelle historique sino-thaïe au bord du Chao Phraya, ateliers de mécanique, shrines, et cafés dans d'anciens entrepôts portuaires.",
+      "timingPhoto": "7h–9h pour les shrines allumés, ou coucher de soleil 17h30",
+      "prixEntree": "Gratuit",
+      "lat": 13.7368,
+      "lng": 100.5098,
+      "sources": [
+        {
+          "creator": "NextStopAsia",
+          "url": "https://nextstopasia.com/riverside-cafes-in-bangkok-hidden-gems/",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "dishes": [
+    {
+      "id": "pad-krapow-holy-basil",
+      "type": "plat",
+      "title": "Pad Krapow (ผัดกะเพรา)",
+      "region": "Bangkok / Thaïlande centrale",
+      "body": "Porc ou boeuf haché sauté au wok à feu vif avec chili bird's eye, basilic sacré (krapow — pas le Thai basil de substitution) et ail. Servi sur riz jasmin avec oeuf frit aux bords dorés et croustillants. Prix rue : 60–100 THB. Chez Phed Mark : 80–150 THB.",
+      "story": "C'est le déjeuner rapide de l'employé de bureau bangkokien depuis des générations — les vendeurs de rue le préparent en moins de 3 minutes sur wok charbon. La version authentique pique franchement et sent le basilic à 10 mètres. Phed Mark de Mark Wiens en fait une religion : un seul plat, décliné sur 10 niveaux de chaleur, avec du matériel de qualité.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Mark Wiens / Migrationology",
+          "url": "https://winedirections.com/mark-wiens-and-the-street-food-scene-in-bangkok-a-legacy/",
+          "date": "2024"
+        },
+        {
+          "creator": "Daniel Food Diary",
+          "url": "https://danielfooddiary.com/2025/02/17/phedmark/",
+          "date": "2025"
+        }
+      ]
+    },
+    {
+      "id": "kuay-teow-reua-boat-noodles",
+      "type": "plat",
+      "title": "Kuay Teow Reua (ก๋วยเตี๋ยวเรือ) — nouilles de bateau",
+      "region": "Bangkok",
+      "body": "Petit bol de bouillon noir intense (sauce soja foncée + sang de porc) avec nouilles de riz minces, boeuf ou porc, herbes. On en commande 8–12 bols successifs à 12–15 THB chacun. Allée de Victory Monument ou Doy Kuay Teow Reua, Ratchawithi Soi 18.",
+      "story": "Servies depuis des embarcations sur les canaux de Bangkok jusqu'aux années 1960, ces nouilles ont migré vers les rives mais gardé leurs petits bols minuscules — tradition de ne pas renverser sur le bateau. Le bouillon sombre et complexe est ce qui sépare la version authentique de l'imitation : il faut le sang, il faut les épices, et il faut les os mijotés depuis le matin.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Eating Thai Food (Mark Wiens)",
+          "url": "https://www.eatingthaifood.com/restaurants/excellent-boat-noodles-bangkok/",
+          "date": "2022"
+        },
+        {
+          "creator": "Seasoned Traveller",
+          "url": "https://seasonedtraveller.com/places/boat-noodle-alley-bangkok",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "mango-sticky-rice",
+      "type": "plat",
+      "title": "Khao Niao Mamuang — Mango Sticky Rice",
+      "region": "Bangkok / Thaïlande",
+      "body": "Riz gluant cuit à la vapeur au lait de coco, mangue Nam Dok Mai mûre dorée, coulis de lait de coco légèrement salé. Mae Varee, 1 Sukhumvit Soi 55, Thong Lo BTS Sortie 3 : 100–150 THB la portion.",
+      "story": "Mae Varee fait ça depuis des décennies à côté du BTS Thong Lo — les Bangkokiens font un détour exprès en rentrant du bureau. La mangue Nam Dok Mai en saison (mars = parfait) est dorée, fibreuse et sucrée sans acidité. Le riz gluant au lait de coco est ferme, la sauce finale légèrement salée équilibre tout. On mange debout sur le trottoir, en plastique dans les mains, comme tout le monde.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Daniel Food Diary",
+          "url": "https://danielfooddiary.com/2024/08/19/maevaree/",
+          "date": "2024"
+        },
+        {
+          "creator": "MUU Bangkok",
+          "url": "https://muuhotels.com/bangkok/neighbourhoods/mae-varee-fruit-shop-mango-sticky-rice-at-thong-lo-bts/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "cha-yen-thai-iced-tea",
+      "type": "bière",
+      "title": "Cha Yen (ชาเย็น) — thé glacé thaïlandais",
+      "region": "Bangkok / Thaïlande",
+      "body": "Thé noir thaï infusé fort (couleur orange brûlé), sucré condensé, lait évaporé, versé sur glace pilée dans un sac de plastique avec paille. Prix rue : 20–40 THB. Disponible à tous les comptoirs de boissons.",
+      "story": "Bangkok te met un cha yen dans les mains avant même que tu comprennes ce qui se passe. Le thé thaïlandais est plus fort et plus parfumé que le Lipton standard — les feuilles sont souvent mélangées à des épices et fleurs séchées. La version locale avec lait évaporé plutôt que condensé sucré est moins sucrée et laisse mieux sentir le thé. En fév-mars, c'est le compagnon indispensable pour survivre aux marchés de midi.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Michelin Guide Thailand",
+          "url": "https://guide.michelin.com/qa/en/article/features/iconic-dishes-thai-milk-tea-explained",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "singha-chang-leo-beer",
+      "type": "bière",
+      "title": "Singha / Chang / Leo — bières thaïes",
+      "region": "Bangkok / Thaïlande",
+      "body": "Lagers locales servies froides dans les bars de rue et restaurants. Singha (depuis 1933, 5% ABV) = la plus ancienne et la plus sèche. Chang = moins chère, légèrement plus douce. Leo = la plus populaire en volume. Prix : 50–80 THB en épicerie, 80–120 THB en bar de rue.",
+      "story": "Dans les bars de rue de Yaowarat à 21h, une Singha froide est l'unité de mesure du plaisir. On partage la bouteille — souvent un litre — entre deux, avec un seau de glace sur la table, et on regarde les woks flamber. Le rituel local : remplir le verre jusqu'à mi-hauteur de glace avant de verser la bière. Ça dilue légèrement mais garde la température pendant la chaleur.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Nomad Monkey",
+          "url": "https://nomad-monkeys.com/5-ways-to-drink-like-a-local-in-bangkok/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "khai-jiao-poo-jay-fai",
+      "type": "plat",
+      "title": "Khai Jiao Poo — omelette de crabe de Jay Fai",
+      "region": "Bangkok — Vieille ville",
+      "body": "Omelette soufflée sur charbon, farcie de chair de crabe fraîche, croustillante à l'extérieur et fondante à l'intérieur. Jay Fai (Raan Jay Fai), 327 Mahachai Rd, mer–dim 9h–14h / 16h–19h. Prix : 1 000–1 500 THB. File d'attente : 2–5 heures. Michelin 1 étoile.",
+      "story": "Jay Fai porte ses lunettes de ski pour se protéger des flammes du charbon depuis 40 ans, dans la même échoppe de la vieille ville. Elle est la seule à cuisiner — chaque plat, chaque jour, sans sous-traitance. L'omelette de crabe est dense, généreuse, et servie sans chichi sur une assiette en plastique. La queue est réelle, le prix est élevé pour du street food, mais c'est le seul stand de rue au monde avec une étoile Michelin.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Michelin Guide Bangkok",
+          "url": "https://guide.michelin.com/th/en/bangkok-region/bangkok/restaurant/jay-fai",
+          "date": "2024"
+        },
+        {
+          "creator": "The Smart Local Thailand",
+          "url": "https://thesmartlocal.co.th/jay-fai/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "tom-yum-mama-jeh-o",
+      "type": "plat",
+      "title": "Tom Yum MAMA OHO — Jeh O Chula",
+      "region": "Bangkok — Pathum Wan",
+      "body": "Bouillon tom yum crémeux XXL, nouilles Mama instantanées, crevettes, calmar, boulettes de porc, porc croustillant, deux oeufs entiers. Disponible seulement après 23h. Jeh O Chula, 113 Soi Charatmeang, Pathum Wan. Ouvert 17h30–1h. 220–320 THB.",
+      "story": "Les Bangkokiens font la queue pendant 3 heures pour manger des nouilles instantanées à minuit dans ce restaurant de quartier qui existe depuis 50 ans. Le paradoxe est réel. La clé : le bouillon tom yum de Jeh O Chula n'a rien des sachets — c'est un fond de mer cuit depuis des heures, versé sur les nouilles Mama au dernier moment. Le résultat est quelque chose entre le réconfort absolu et l'excitation des épices lemongrass-kafir.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "The Ranting Panda",
+          "url": "https://therantingpanda.com/2025/08/27/panda-picks-best-bangkok-local-food-eateries-to-try-from-jeh-o-chulas-tom-yum-mama-to-thong-smiths-thai-boat-noodles/",
+          "date": "2025"
+        },
+        {
+          "creator": "Chueonit",
+          "url": "https://chueonit.com/2025/01/29/jeh-o-chula/",
+          "date": "2025"
+        }
+      ]
+    }
+  ],
+  "gems": [
+    {
+      "id": "som-tam-or-tor-kor",
+      "title": "Som Tam Restaurant — Or Tor Kor Market",
+      "body": "Au fond du marché Or Tor Kor, ce comptoir Isan sert une som tam boo pla ra (salade papaye verte avec crabe et poisson fermenté) et du gai yang (poulet grillé charbon) à côté de la crème. Repas complet pour deux : 255 THB. Ouvert 8h30–17h.",
+      "story": "Mark Wiens considère ce comptoir comme son lunch de référence quand il veut manger la vraie cuisine du Nord-Est sans quitter Bangkok. Le papier d'alu sur la table, le mortier en pierre qui martèle la papaye à côté, la sauce de poisson fermenté qui monte dans le nez — c'est cru, parfumé, indiscutablement vivant. L'endroit n'a pas de site web, pas de photo sur le menu : juste la matière première la plus fraîche du marché.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Mark Wiens / Migrationology",
+          "url": "https://migrationology.com/or-tor-kor-market-bangkok-thailand/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "mae-varee-fruit-shop",
+      "title": "Mae Varee — la mangue qu'on n'oublie pas",
+      "body": "Échoppe de fruits et sticky rice juste à la sortie du BTS Thong Lo (Soi 55). Nam Dok Mai mûres à point en mars. Sticky rice en trois couleurs (blanc, pandan vert, butterfly pea bleu). 100–150 THB la boîte. 6h–22h.",
+      "story": "C'est la halte d'après-midi que les Bangkokiens font depuis que la ligne BTS existe. Un sac de plastique, une fourchette en bois, une mangue qui coule sur les doigts — et le riz gluant au lait de coco tiède qui absorbe le jus. En mars, les Nam Dok Mai sont au sommet de leur saison. L'endroit fait 30 places debout maximum, mais la file avance vite.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Daniel Food Diary",
+          "url": "https://danielfooddiary.com/2024/08/19/maevaree/",
+          "date": "2024"
+        },
+        {
+          "creator": "MUU Bangkok",
+          "url": "https://muuhotels.com/bangkok/neighbourhoods/mae-varee-fruit-shop-mango-sticky-rice-at-thong-lo-bts/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "sarnies-charoenkrung",
+      "title": "Sarnies Café — Charoenkrung Soi 44",
+      "body": "Café dans un ancien atelier de réparation de bateaux de 150 ans à Charoenkrung — café de spécialité, sandwichs solides, ambiance industrielle douce. À 5 min à pied de la rivière et du musée MOCA.",
+      "story": "Le quartier de Charoenkrung se réinvente tranquillement depuis 5 ans, et Sarnies est le symbole de cette mutation : des briques qui ont souffert, un espresso ristretto exécuté avec sérieux, et des habitués qui lisent leur journal en thaï à côté de toi. C'est la pause du milieu de matinée après une nuit de Yaowarat — café, tartine, silence relatif, air conditionné.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Timeout Bangkok",
+          "url": "https://www.timeout.com/bangkok/restaurants/new-restaurants-and-cafes-in-charoenkrung",
+          "date": "2024"
+        },
+        {
+          "creator": "NextStopAsia",
+          "url": "https://nextstopasia.com/riverside-cafes-in-bangkok-hidden-gems/",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "guay-tiew-kua-gai-suanmali",
+      "title": "Guay Tiew Kua Gai Suanmali — Michelin à 50 bahts",
+      "body": "Dans la ruelle derrière Ann Guay Tiew Kua Gai, Luang Road — même spécialité (nouilles de riz sautées au charbon avec poulet et oeuf coulant), Michelin Bib Gourmand, 50–80 THB le bol. Ouvert 17h–22h.",
+      "story": "Deux comptoirs distants de 30 mètres dans la même ruelle, les deux Michelin Bib Gourmand, les deux servant le même plat pour moins de 80 bahts. Suanmali est souvent préféré des locaux qui connaissent le coin : moins connu, moins de queue, et la patronne utilise plus de graisse de wok qui donne ce goût fumé irrésistible.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Daniel Food Diary",
+          "url": "https://danielfooddiary.com/2023/09/04/guaytiewkuagai/",
+          "date": "2023"
+        },
+        {
+          "creator": "Streetside Bangkok",
+          "url": "https://www.streetsidebangkok.com/roasted-chicken-noodles-guay-tiew-kua-gai-at-suan-mali-is-a-true-treasure/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "talad-rot-fai-train-market",
+      "title": "Rot Fai Market — Ratchada (Train Night Market)",
+      "body": "Marché nocturne vintage sous les arches de Ratchada — vinyles, vêtements rétro, et stands de nourriture sans prétention avec Singha pas chère. MRT Thailand Cultural Centre. Mer–dim, 17h–1h.",
+      "story": "Loin des nuit markets formatés pour les Instagranders, Rot Fai garde son côté débraillé et authentique. Les Bangkokiens de 20–35 ans viennent chercher des pièces vintage et manger du grillé assis sur des chaises de camping. En fév-mars, l'air du soir est parfait pour traîner ici deux heures avec une bière à 60 bahts.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Tulum Asia",
+          "url": "https://tulum.asia/blog/5-famous-night-markets-in-bangkok/",
+          "date": "2024"
+        }
+      ]
+    }
+  ],
+  "imagesCandidates": [
+    {
+      "slot": "hero",
+      "urlOuId": "1Y1bHUMqFDo",
+      "alt": "Wok de rue en feu la nuit dans les ruelles de Yaowarat, vapeur et néons rouges en arrière-plan",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "food-street-stall",
+      "urlOuId": "iXYEnXsL4_Y",
+      "alt": "Étalage de pad krapow et oeufs frits sur wok charbon, échoppe de rue Bangkok",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "market-fruits",
+      "urlOuId": "bKN8_Fxn5Z0",
+      "alt": "Étals de mangues Nam Dok Mai dorées et fruits tropicaux au marché Or Tor Kor",
+      "claims": "place"
+    },
+    {
+      "slot": "boat-noodles",
+      "urlOuId": "RsS2NsRnE2Q",
+      "alt": "Petits bols de nouilles de bateau empilés sur une table en plastique, bouillon sombre et herbes",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "mango-sticky-rice",
+      "urlOuId": "0yCOpMIFoMk",
+      "alt": "Mango sticky rice dans sa boîte en plastique, mangue dorée et riz gluant blanc au lait de coco",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "yaowarat-night",
+      "urlOuId": "Lh18RmKAX7A",
+      "alt": "Rue Yaowarat de nuit — enseignes chinoises rouges et dorées, foule dense, stands de nourriture",
+      "claims": "place"
+    },
+    {
+      "slot": "lumpini-morning",
+      "urlOuId": "vZJdYl5BOGE",
+      "alt": "Pratiquants de Tai Chi au lever du soleil dans Lumpini Park, Bangkok skyline en arrière-plan",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "thai-iced-tea",
+      "urlOuId": "O5K8m3g7OMQ",
+      "alt": "Verre de cha yen orange dans un sac de plastique sur paille, comptoir de rue Bangkok",
+      "claims": "atmosphere"
+    }
+  ],
+  "sourcesCreateurs": [
+    {
+      "creator": "Mark Wiens / Migrationology + Eating Thai Food",
+      "url": "https://migrationology.com",
+      "type": "méga-créateur",
+      "note": "Vit à Bangkok, parle thaï couramment, réseau local de chefs et de vendeurs de rue. Référence fiable à ~99% sur Bangkok spécifiquement. Deux canaux : migrationology.com (blog voyage) et eatingthaifood.com (restos/stands détaillés avec adresses). Co-fondateur de Phed Mark — à mentionner comme conflit d'intérêt potentiel pour ce resto spécifiquement."
+    },
+    {
+      "creator": "Daniel Food Diary (Daniel Ang)",
+      "url": "https://danielfooddiary.com",
+      "type": "méga-créateur",
+      "note": "Basé à Singapour, couvre Bangkok extensivement avec adresses, prix et photos de qualité. Couverture 2023–2025 de Jay Fai, Phed Mark, Mae Varee, Jeh O Chula vérifiable et convergente avec d'autres sources."
+    },
+    {
+      "creator": "Leela Punyaratabandhu / SheSimmers",
+      "url": "https://shesimmers.com",
+      "type": "micro-créateur local",
+      "note": "Bangkokienne native, formatrice culinaire, auteure de deux livres sur la cuisine thaïe. Référence d'autorité sur les recettes et le contexte culturel. Blog moins actif depuis 2020 mais les entrées existantes sont fiables à 100%."
+    },
+    {
+      "creator": "The Ranting Panda",
+      "url": "https://therantingpanda.com",
+      "type": "micro-créateur local",
+      "note": "Blog food asiatique basé à Singapour avec couverture dense de Bangkok — détails précis sur files d'attente, prix et variations de menus (Jeh O Chula, boat noodles). Convergent avec d'autres sources."
+    },
+    {
+      "creator": "Streetside Bangkok",
+      "url": "https://www.streetsidebangkok.com",
+      "type": "micro-créateur local",
+      "note": "Blog spécialisé sur les stands de rue bangkokiens, en anglais mais avec couverture de plats peu connus des touristes (Guay Tiew Kua Gai Suanmali). Contenu primaire, pas agrégateur."
+    },
+    {
+      "creator": "Chueonit",
+      "url": "https://chueonit.com",
+      "type": "micro-créateur local",
+      "note": "Blog food de Bangkok actif 2024–2025 avec comptes-rendus de visites détaillées incluant temps d'attente réels, prix exacts, et photos de la commande. Couverture Jeh O Chula (jan 2025) et Phed Mark (fév 2024)."
+    },
+    {
+      "creator": "Feastography Blog",
+      "url": "https://www.feastographyblog.com",
+      "type": "micro-créateur local",
+      "note": "Spécialisé sur Bangkok street food, couverture boat noodles à Victory Monument et Phed Mark avec détails visuels et comparaisons de qualité. Actif 2023–2024."
+    }
+  ]
+}

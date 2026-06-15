@@ -1,0 +1,16 @@
+/* Thème Philippines — ARCHITECTURE §4 : une destination = données + ~40 lignes CSS */
+/* Signature Visayas : mer turquoise qui POP, sable blanc, bois tropical, soleil couchant corail */
+
+[data-theme="philippines"] {
+  --terre: #C2763C;        /* bois / terre tropicale chaude */
+  --sand: #F4EADA;         /* sable crème */
+  --deep: #082A30;         /* deep teal — hero + titres (eau profonde, nuit tropicale) */
+  --mer: #0E9499;          /* turquoise signature des Visayas */
+  --mer-light: #DEF3F1;    /* aqua clair */
+  --text: #1F2E2B;         /* texte principal — presque noir verdâtre */
+  --muted: #5F6B66;        /* texte secondaire */
+  --border: rgba(31, 46, 43, 0.10);
+  --accent: #E8743B;       /* corail / soleil couchant — hover, underlines */
+  --bg: #FCFAF5;           /* background global — crème chaude */
+  --white: #FFFFFF;
+}

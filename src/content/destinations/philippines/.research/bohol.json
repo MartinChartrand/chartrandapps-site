@@ -1,0 +1,641 @@
+{
+  "base": "bohol",
+  "narratif": "On arrive à Panglao par le pont qui relie Bohol à l'île — et on comprend tout de suite pourquoi on est là. L'eau en dessous est d'un turquoise presque indécent, le genre de couleur qu'on pense retouchée sur les photos. Ce n'est pas Alona Beach qu'on vise : ce coin-là, c'est fini depuis longtemps, envahi par les offres de plongée criardes et les bars à smoothies. On va plutôt du côté de Dumaluan et Momo Beach, à l'est de l'île, où les plages blanches restent calmes et où les resorts n'ont pas encore fusionné en un mur continu de béton.\n\nQuatre nuits à Panglao, ça se vit lentement. On commence par les matins sur la plage — la mer est plate en février-mars, la lumière est dorée avant neuf heures, et les marcheurs de l'aube sont rares. Le premier vrai repas qu'on prend, c'est du kinilaw : du poisson cru mariné dans du vinaigre de coco et du citron vert, avec du gingembre frais et du chili. C'est la ceviche de l'archipel, mais plus franche, plus tranchante. On mange ça avec les pieds dans le sable, une bière froide San Miguel Pale Pilsen dans l'autre main, et on arrête de chercher quoi faire.\n\nLe [[poi:bohol-bee-farm-restaurant]] mérite le détour pour un déjeuner : une ferme bio tenue par la chef Vicky Wallace depuis le début des années 2000, perchée sur une falaise au-dessus de la mer. Le risotto de riz rouge local, le kare-kare de légumes du jardin, la crème glacée à la malunggay — ça n'a rien à voir avec la cuisine de resort habituellement insipide des îles philippines.\n\nLa journée sur la rivière Loboc, c'est touristique — soyons honnêtes. Mais c'est touristique de la bonne façon : un bateau qui glisse sur l'eau verte bordée de bambous géants et de nipa palms, un buffet de cuisine bisaya sur le pont, des enfants qui chantent sur la rive pour quelques pesos. On ne va pas là pour faire semblant d'être les seuls découvreurs — on va là parce que le cadre est beau et la bouffe est correcte.\n\nLes [[poi:tarsier-sanctuary-corella]] et les [[poi:chocolate-hills-carmen]], c'est une demi-journée ensemble, logiquement. Les tarsiers d'abord — le vrai sanctuaire à Corella, 134 hectares de forêt, pas les cages de bord de route. Ces petits primates à gros yeux, nocturnes, sensibles au son et à la lumière, méritent qu'on les observe en silence et sans flash. Les collines de chocolat ensuite, en fin d'après-midi quand la lumière fait de l'ombre sur les 1268 monticules bruns arrondis. En février-mars, elles sont de la couleur annoncée par leur nom — le manque de pluie les dessèche à brun cacao.\n\nLa dernière journée, on prend le fastcraft vers Cebu — deux heures de mer — et le soir même, on mange le lechon. C'est pour ça qu'on a fait ce détour. Anthony Bourdain l'a dit devant caméra : « The best pig, ever. » On n'arrive pas à le contredire.",
+  "pratique": "ARRIVÉE DEPUIS L'ÉTAPE PRÉCÉDENTE : Si on vient de Manille, vol direct vers Tagbilaran (Bohol) ou vers Cebu (puis ferry 2h vers Tagbilaran, ferries toutes les heures de 5h10 à 18h40 environ, PHP 800-1200 en fastcraft SuperCat/OceanJet). Depuis Cebu en ferry, débarquer à Tagbilaran Port puis tricycle ou jeepney jusqu'à Panglao (30-45 min, PHP 50-150). TRANSPORT LOCAL : Tricycle pour les courts trajets à Panglao (PHP 20-50 la course), location de scooter (PHP 300-500/jour) pour explorer l'île à son rythme, van ou jeepney pour les excursions vers Loboc/Chocolate Hills (prévoir PHP 1500-2500 pour un chauffeur à la journée). SAISON FÉV-MARS : Saison sèche — la meilleure période. Mer calme, excellente visibilité pour la plongée (15-40m à Balicasag), chaleur (28-32°C), quasi zéro pluie. Les Chocolate Hills sont brun cacao, leur look iconique. PIÈGES À ÉVITER : (1) Alona Beach — zoo touristique, éviter pour dormir et manger. (2) Les sanctuaires de tarsiers commerciaux sur la route principale — fuir, aller uniquement au Sanctuaire de Corella de la Philippine Tarsier Foundation. (3) Les taxis non-officiels du port de Tagbilaran — prendre un tricycle ou une voiture de resort réservée à l'avance. (4) Bohol Seafood Town — les prix des crabes peuvent grimper sans avertissement, demander le prix au poids avant. SORTIE VERS CEBU : Fastcraft Tagbilaran → Cebu, 2h, PHP 800-1200. Départs fréquents ; le matin (8h-10h) est plus confortable pour arriver à Cebu en début d'après-midi et profiter de la journée pour la tournée lechon.",
+  "hebergements": [
+    {
+      "id": "momo-beach-house-panglao",
+      "name": "Momo Beach House",
+      "tier": "mid",
+      "quartier": "Barangay Bil-isah, côté est de Panglao (loin d'Alona)",
+      "blurb": "Boutique éco-chic de 20 chambres pastel directement sur la plage, bambou bar en bord de mer, kayak et équipement de snorkel fournis gratuitement.",
+      "story": "Momo Beach House, c'est exactement ce qu'on cherche : petit, calme, sur une plage qui ne ressemble pas à un couloir de trafic. La propriété joue la carte naturel sans être rustique — bambou, cocotiers, vue sur le coucher de soleil côté mer — et ça marche. Les chambres sont propres, aérées, avec balcon. On n'est pas entassés : 20 chambres max, jamais la sensation d'être dans une machine à touristes. Le bar sur la plage sert des San Miguel et des boissons fraîches jusqu'en soirée.",
+      "prixParNuit": "PHP 5 360 – PHP 7 500 (environ 90-125 CAD)",
+      "devise": "PHP",
+      "lat": 9.548,
+      "lng": 123.783,
+      "url": "https://momo-beach-house-panglao.h-rez.com/",
+      "sources": [
+        {
+          "creator": "Tripadvisor Momo Beach House",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1036817-d3914565-Reviews-Momo_Beach_House-Panglao_Island_Bohol_Province_Visayas.html"
+        }
+      ]
+    },
+    {
+      "id": "bohol-bee-farm-hotel",
+      "name": "Bohol Bee Farm",
+      "tier": "gem",
+      "quartier": "Dao, Dauis (entre Tagbilaran et Panglao, falaise sur mer)",
+      "blurb": "Éco-resort perché sur une falaise avec vue sur mer, 28 chambres dans un jardin potager bio, piscine, petit-déjeuner bio inclus — le meilleur rapport qualité-âme de l'île.",
+      "story": "C'est la chef Vicky Wallace qui a bâti ça au début des années 2000, refusant de faire comme les autres resorts. Elle a planté des légumes, mis des ruches, formé ses cuisiniers avec ce qui pousse dans la cour. Le résultat, c'est un hôtel où le déjeuner au restaurant de falaise surplombant la mer vaut autant que la chambre. Noté #1 des B&B de la province de Bohol avec plus de 1600 avis — ce n'est pas un accident.",
+      "prixParNuit": "PHP 3 200 – PHP 5 500 (environ 55-95 CAD), petit-déjeuner inclus",
+      "devise": "PHP",
+      "lat": 9.5812,
+      "lng": 123.7568,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g1220535-d636754-Reviews-Bohol_Bee_Farm-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+      "sources": [
+        {
+          "creator": "Tripadvisor Bohol Bee Farm",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1220535-d636754-Reviews-Bohol_Bee_Farm-Dauis_Panglao_Island_Bohol_Province_Visayas.html"
+        }
+      ]
+    },
+    {
+      "id": "dumaluan-beach-resort",
+      "name": "Dumaluan Beach Resort",
+      "tier": "budget",
+      "quartier": "Bolod, Panglao — côté est, plage calme, loin d'Alona",
+      "blurb": "Resort de plage familial 3 étoiles sur Dumaluan, la plage la plus tranquille de Panglao — buffet déjeuner inclus, piscine extérieure, 80 chambres climatisées à bon prix.",
+      "prixParNuit": "PHP 2 093 – PHP 4 000 (environ 35-70 CAD)",
+      "devise": "PHP",
+      "lat": 9.522,
+      "lng": 123.792,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g13547993-d634283-Reviews-Dumaluan_Beach_Resort-Bolod_Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+      "sources": [
+        {
+          "creator": "Tripadvisor Dumaluan Beach Resort",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g13547993-d634283-Reviews-Dumaluan_Beach_Resort-Bolod_Panglao_Panglao_Island_Bohol_Province_Visayas.html"
+        }
+      ]
+    },
+    {
+      "id": "harolds-evotel-cebu",
+      "name": "Harolds Evotel Cebu",
+      "tier": "mid",
+      "quartier": "Entre IT Park et Mango Avenue, Cebu City — accès direct Zubuchon / CnT",
+      "blurb": "Hôtel urbain moderne de taille humaine à Cebu, rooftop bar avec vue sur la ville, propre et confortable pour une nuit de transit avant vol international.",
+      "prixParNuit": "PHP 2 500 – PHP 4 500 (environ 45-75 CAD)",
+      "devise": "PHP",
+      "lat": 10.3234,
+      "lng": 123.9022,
+      "url": "https://www.tripadvisor.com/Hotel_Review-g298460-d1931590-Reviews-Harolds_Hotel_Cebu-Cebu_City_Cebu_Island_Visayas.html",
+      "sources": [
+        {
+          "creator": "Tripadvisor Harolds Evotel Cebu",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g298460-d1931590-Reviews-Harolds_Hotel_Cebu-Cebu_City_Cebu_Island_Visayas.html"
+        }
+      ]
+    }
+  ],
+  "restos": [
+    {
+      "id": "bohol-bee-farm-restaurant",
+      "name": "Bohol Bee Farm Restaurant",
+      "blurb": "Restaurant de falaise sur fond de mer bleue, 100% bio du jardin adjacent — la meilleure table de l'île, point.",
+      "story": "La chef Vicky Wallace cultive ce qu'elle sert — riz rouge local, légumes du potager, miel de ses propres ruches. Le restaurant est perché sur une falaise avec vue directe sur la mer de Bohol : on mange un kare-kare de légumes avec une brise salée dans les cheveux. Ce n'est pas de la cuisine de resort insipide. C'est une vraie cuisine de terroir, rare dans une région où la plupart des établissements servent les mêmes recettes internationalisées.",
+      "platSignature": "Kare-kare de légumes du jardin en sauce aux arachides + sinigang de lapu-lapu (mérou) au tamarin, crème glacée malunggay (moringa)",
+      "fourchettePrix": "PHP 350-700 par plat",
+      "devise": "PHP",
+      "lat": 9.5812,
+      "lng": 123.7568,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g1220535-d1168871-Reviews-Bohol_Bee_Farm_Restaurant-Dauis_Panglao_Island_Bohol_Province_Visayas.html",
+      "sources": [
+        {
+          "creator": "Tripadvisor Bohol Bee Farm Restaurant",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g1220535-d1168871-Reviews-Bohol_Bee_Farm_Restaurant-Dauis_Panglao_Island_Bohol_Province_Visayas.html"
+        }
+      ]
+    },
+    {
+      "id": "redcrab-bohol",
+      "name": "Redcrab Bohol",
+      "blurb": "Meilleure table de seafood à Panglao selon les locaux — crabe au beurre aillé, poulpe grillé, crevettes tigrées fraîches du jour.",
+      "story": "Redcrab tourne régulièrement dans le top 2 des restaurants de Panglao, et ce n'est pas grâce aux touristes : les Boholanos viennent ici le week-end. Le crabe au beurre aillé arrive dans une casserole fumante ; la chair est ferme, pas caoutchouteuse. Les prix sont honnêtes si on demande le prix au poids avant de commander — le piège classique des restaurants de seafood philippins.",
+      "platSignature": "Garlic butter crab (crabe des îles au beurre aillé) + calamares sinugba (calmars grillés entiers, farcis tomates-oignons)",
+      "fourchettePrix": "PHP 400-900 par plat principal",
+      "devise": "PHP",
+      "lat": 9.565,
+      "lng": 123.77,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g10687799-d25431214-Reviews-Redcrab_Bohol-Panglao_Panglao_Island_Bohol_Province_Visayas.html",
+      "sources": [
+        {
+          "creator": "Tripadvisor Redcrab Bohol",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g10687799-d25431214-Reviews-Redcrab_Bohol-Panglao_Panglao_Island_Bohol_Province_Visayas.html"
+        }
+      ]
+    },
+    {
+      "id": "loboc-riverwatch",
+      "name": "Loboc Riverwatch Floating Resto",
+      "blurb": "Buffet bisaya sur un bateau qui glisse au fil de la rivière Loboc — touristique assumé, mais le décor de bambous géants et de nipa palms mérite la sortie.",
+      "story": "Oui, c'est touristique. Il y a des enfants sur la rive qui chantent pour des pesos, et le buffet ne prétend pas être Michelin. Mais la rivière Loboc, emerald green entre deux murs de végétation tropicale dense, est genuinement belle. On mange du sinuglaw (porc grillé + kinilaw de poisson), du riz, des fruits frais. L'expérience vaut pour l'atmosphère plus que pour la gastronomie.",
+      "platSignature": "Buffet bisaya : sinuglaw (porc grillé + kinilaw de poisson mélangés), dinuguan, riz, mangue fraîche",
+      "fourchettePrix": "PHP 850 par personne (buffet inclus)",
+      "devise": "PHP",
+      "lat": 9.7402,
+      "lng": 124.0256,
+      "url": "https://lobocriverwatch.com/loboc-river-lunch-cruise-bohol/",
+      "sources": [
+        {
+          "creator": "Loboc Riverwatch official site",
+          "url": "https://lobocriverwatch.com/loboc-river-lunch-cruise-bohol/"
+        },
+        {
+          "creator": "Tripadvisor Loboc River Cruise",
+          "url": "https://www.tripadvisor.com/Attraction_Review-g1082590-d1073515-Reviews-Loboc_River_Cruise-Loboc_Bohol_Island_Bohol_Province_Visayas.html"
+        }
+      ]
+    },
+    {
+      "id": "cnt-lechon-cebu",
+      "name": "CnT Lechon",
+      "blurb": "L'institution du lechon à Cebu — les Cebuanos débattent depuis des décennies si c'est meilleur ici que chez Zubuchon (réponse selon la vieille garde : oui).",
+      "story": "CnT existe depuis des décennies sur la V. Rama Avenue. La peau croustit comme du chicharron — papier mince, brun laqué — et la viande est juteuse, parfumée aux herbes locales. Les cebuanos qui mangent lechon depuis l'enfance pointent souvent vers CnT plutôt que vers Zubuchon (que Bourdain avait rendu célèbre). Les deux méritent d'être testés si on a une deuxième faim, mais CnT reste la référence de la vieille garde.",
+      "platSignature": "Lechon de Cebu à la peau croustillante aux herbes (servi au kilo, avec riz et atchara en accompagnement)",
+      "fourchettePrix": "PHP 600-1200 pour un repas complet (lechon vendu au poids)",
+      "devise": "PHP",
+      "lat": 10.3102,
+      "lng": 123.8958,
+      "url": "https://www.tripadvisor.com/Restaurant_Review-g298460-d1723444-Reviews-CnT_Lechon-Cebu_City_Cebu_Island_Visayas.html",
+      "sources": [
+        {
+          "creator": "Tripadvisor CnT Lechon",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g298460-d1723444-Reviews-CnT_Lechon-Cebu_City_Cebu_Island_Visayas.html"
+        },
+        {
+          "creator": "2bearbear — CnT vs Zubuchon comparison blog",
+          "url": "https://www.2bearbear.com/cnt-lechon-the-best-lechon-in-cebu/",
+          "date": "2023"
+        }
+      ]
+    },
+    {
+      "id": "zubuchon-cebu",
+      "name": "Zubuchon",
+      "blurb": "Le lechon qu'Anthony Bourdain a qualifié de « best pig ever » à la télé — peau sans sauce soja, craquante comme du chicharron, farcie d'herbes parfumées.",
+      "story": "Zubuchon est né d'un pari culinaire : pas de sauce soja sur la peau, cuisson lente, farce d'herbes aromatiques locales dont de la citronnelle et des feuilles de laurier. Anthony Bourdain en a parlé dans No Reservations, et depuis, chaque visiteur fait le pèlerinage. La peau est légère, presque translucide, avec un craquant de chicharron. Une portion de 500g à PHP 450 entre deux, avec du riz nature : le repas est rapide, mémorable.",
+      "platSignature": "Lechon de Cebu style Zubuchon : peau croustillante sans sauce soja, farce citronnelle-laurier, vendu au poids (PHP 450/100g env.)",
+      "fourchettePrix": "PHP 450-990 pour une portion individuelle",
+      "devise": "PHP",
+      "lat": 10.3312,
+      "lng": 123.9068,
+      "url": "https://outoftownblog.com/zubuchon-lechon-cebu-anthony-bourdains-favorite-roasted-pig/",
+      "sources": [
+        {
+          "creator": "Out of Town Blog — Zubuchon, Bourdain's favourite",
+          "url": "https://outoftownblog.com/zubuchon-lechon-cebu-anthony-bourdains-favorite-roasted-pig/",
+          "date": "2023"
+        },
+        {
+          "creator": "Tripadvisor Zubuchon — Bourdain claim verified",
+          "url": "https://www.tripadvisor.com.ph/ShowUserReviews-g298460-d2338110-r131949559-Zubuchon-Cebu_City_Cebu_Island_Visayas.html"
+        }
+      ]
+    }
+  ],
+  "sights": [
+    {
+      "id": "dumaluan-beach",
+      "name": "Plage Dumaluan",
+      "kind": "plage",
+      "blurb": "La plage la plus tranquille de Panglao — sable blanc, eau turquoise, presque pas de vendeurs ambulants.",
+      "story": "Dumaluan est ce qu'Alona Beach était il y a vingt ans : calme, peu développé, avec un fond de mer visible à l'oeil nu. En février-mars, la mer est plate le matin et les fonds de 1 à 3 mètres sont parfaits pour le snorkel sans bouteille. Quelques bars de plage rudimentaires servent des boissons fraîches, mais on n'est pas harcelé.",
+      "roles": [
+        "see"
+      ],
+      "timingPhoto": "Lever du soleil ou fin d'après-midi — la lumière rasante sur le sable blanc est parfaite pour le N&B style Cartier-Bresson.",
+      "prixEntree": "Gratuit (accès plage)",
+      "lat": 9.522,
+      "lng": 123.792,
+      "sources": [
+        {
+          "creator": "Tripadvisor Dumaluan Beach",
+          "url": "https://www.tripadvisor.com.ph/Attraction_Review-g1036817-d4168308-Reviews-Dumaluan_Beach-Panglao_Island_Bohol_Province_Visayas.html"
+        },
+        {
+          "creator": "A Handful of Sand — Dumaluan blog",
+          "url": "https://www.ahandfulofsand.com/blog-philippines/dumaluan-beach",
+          "date": "2024"
+        }
+      ]
+    },
+    {
+      "id": "balicasag-island-snorkel",
+      "name": "Balicasag Island — snorkel et tortues marines",
+      "kind": "activity",
+      "blurb": "Sanctuaire marin à 30 min de bateau — on nage avec des tortues vertes et des barracudas dans une visibilité de 15 à 40 mètres.",
+      "story": "Balicasag est une île-sanctuaire à une demi-heure de Panglao. L'eau est propre, les coraux sont denses, et les tortues de mer passent sans se préoccuper des nageurs. En février-mars — pleine saison sèche — la visibilité atteint couramment 30-40m. Pour les non-plongeurs, le snorkel de surface suffit : les tortues remontent régulièrement à 1-2 mètres. La municipalité limite à 150 plongeurs par jour — réserver à l'avance.",
+      "roles": [
+        "do"
+      ],
+      "timingPhoto": "Matin (arriver avant 9h pour éviter les groupes)",
+      "prixEntree": "PHP 500-800 pour la balade en bateau + droit d'entrée sanctuaire; plongée PHP 1500-2500 avec guide",
+      "lat": 9.5117,
+      "lng": 123.6883,
+      "sources": [
+        {
+          "creator": "Guide to the Philippines — Balicasag diving guide",
+          "url": "https://guidetothephilippines.ph/articles/adventure-and-outdoors/balicasag-diving-guide"
+        },
+        {
+          "creator": "Starfish.ch — Bohol dive sites reference",
+          "url": "https://www.starfish.ch/dive/Bohol.html"
+        }
+      ]
+    },
+    {
+      "id": "tarsier-sanctuary-corella",
+      "name": "Philippine Tarsier & Wildlife Sanctuary, Corella",
+      "kind": "sight",
+      "blurb": "Le seul sanctuaire éthique de Bohol — 134 hectares de forêt, 500+ tarsiers libres, guides silencieux, zéro cage.",
+      "story": "La Philippine Tarsier Foundation gère 134 hectares de forêt secondaire à Corella où les tarsiers vivent et se reproduisent librement. Un guide montre où ils se reposent ce jour-là — on observe en silence, sans flash, à bonne distance. C'est radicalement différent des stands de bord de route où les animaux sont stressés et mal nourris. Le sanctuaire mérite le détour seul, avant les Chocolate Hills voisines.",
+      "roles": [
+        "see"
+      ],
+      "timingPhoto": "Matinée tôt (les tarsiers sont moins stressés avant la chaleur du midi)",
+      "prixEntree": "PHP 100-150 par personne",
+      "lat": 9.7617,
+      "lng": 123.96,
+      "url": "https://bohol-philippines.com/tarsier-sanctuary-guide-in-corella/",
+      "sources": [
+        {
+          "creator": "Bohol Cebu Travel Guide — sanctuaire Corella",
+          "url": "https://bohol-philippines.com/tarsier-sanctuary-guide-in-corella/"
+        },
+        {
+          "creator": "Tripadvisor — The Only Ethical Place to Support Tarsiers",
+          "url": "https://www.tripadvisor.com/ShowUserReviews-g3649283-d320849-r578441808-Philippine_Tarsier_and_Wildlife_Sanctuary-Corella_Bohol_Province_Visayas.html"
+        }
+      ]
+    },
+    {
+      "id": "chocolate-hills-carmen",
+      "name": "Chocolate Hills — belvédère de Carmen",
+      "kind": "sight",
+      "blurb": "1268 collines coniques brun cacao vues depuis le belvédère à 214 marches — en fin d'après-midi, les ombres transforment le paysage.",
+      "roles": [
+        "see"
+      ],
+      "timingPhoto": "Fin d'après-midi 16h-18h — les ombres longues entre les collines donnent la profondeur manquante en plein soleil.",
+      "prixEntree": "PHP 150 par personne",
+      "lat": 9.7996,
+      "lng": 124.1651,
+      "sources": [
+        {
+          "creator": "Journey Era — Chocolate Hills complete guide",
+          "url": "https://www.journeyera.com/chocolate-hills-bohol/"
+        },
+        {
+          "creator": "Ambot-ah Travel Blog — Sagbayan et Carmen viewdecks",
+          "url": "https://www.ambot-ah.com/bohol-chocolate-hills-sagbayan-carmen-viewdecks/"
+        }
+      ]
+    },
+    {
+      "id": "loboc-river-cruise",
+      "name": "Croisière rivière Loboc",
+      "kind": "activity",
+      "blurb": "Buffet bisaya sur l'eau, bambous géants de chaque côté, enfants qui chantent sur la rive — touristique assumé, décor réellement beau.",
+      "roles": [
+        "do"
+      ],
+      "timingPhoto": "Départ vers 11h30 — la lumière zénithale filtrée par les bambous crée des tableaux naturels.",
+      "prixEntree": "PHP 850 par personne (buffet inclus)",
+      "lat": 9.7402,
+      "lng": 124.0256,
+      "sources": [
+        {
+          "creator": "Lakbay Pinas — Ultimate Guide Loboc River Cruise 2025",
+          "url": "https://lakbaypinas.com/ultimate-guide-to-loboc-river-cruise-in-bohol-2025/"
+        },
+        {
+          "creator": "Adventures We Chase — Lunch and Cruise on the Loboc River",
+          "url": "https://www.adventureswechase.com/explore-bohol-lunch-and-cruise-on-the-loboc-river/"
+        }
+      ]
+    },
+    {
+      "id": "tagbilaran-public-market",
+      "name": "Marché public de Tagbilaran",
+      "kind": "activity",
+      "blurb": "Le marché aux poissons ouvre dès 4h du matin — les pêcheurs débarquent le lapu-lapu, le malasugi, le kinilaw se prépare sur place.",
+      "roles": [
+        "do"
+      ],
+      "timingPhoto": "6h-7h du matin — la lumière naturelle dans les halles couvertes fait des portraits forts.",
+      "prixEntree": "Gratuit",
+      "lat": 9.6558,
+      "lng": 123.8543,
+      "sources": [
+        {
+          "creator": "Yoorekka PH — Fresh Seafood Tagbilaran Wet Markets",
+          "url": "https://yoorekka.com/magazine/cebu-bohol/2016/04/23/get-fresh-or-dried-seafood-at-tagbilarans-wet-markets"
+        }
+      ]
+    },
+    {
+      "id": "momo-beach-kayak",
+      "name": "Momo Beach — kayak et coucher de soleil",
+      "kind": "plage",
+      "blurb": "Plage de 200m de sable blanc face à l'ouest — les couchers de soleil sont photographiques ; les kayaks du resort sont gratuits.",
+      "roles": [
+        "see",
+        "do"
+      ],
+      "timingPhoto": "17h30-18h30 — coucher de soleil face à la mer ouverte, lumière chaude idéale.",
+      "prixEntree": "Gratuit pour les résidents du Momo Beach House",
+      "lat": 9.548,
+      "lng": 123.783,
+      "sources": [
+        {
+          "creator": "Tripadvisor Momo Beach House reviews",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1036817-d3914565-Reviews-Momo_Beach_House-Panglao_Island_Bohol_Province_Visayas.html"
+        }
+      ]
+    }
+  ],
+  "dishes": [
+    {
+      "id": "lechon-cebu",
+      "type": "plat",
+      "title": "Lechon de Cebu",
+      "region": "Cebu City",
+      "body": "Cochon entier rôti lentement à la broche, farci d'herbes locales (citronnelle, feuilles de laurier, ail), peau croustillante comme du chicharron. Vendu au poids, PHP 450-990 pour une portion. Manger debout au comptoir de Zubuchon ou CnT.",
+      "story": "Anthony Bourdain l'a dit à la caméra dans No Reservations : « The best pig, ever. » Il parlait de Zubuchon. La spécificité de Cebu, c'est de ne pas utiliser de sauce soja sur la peau — elle reste naturellement blond doré, légère, qui craque entre les dents sans coller. Les Cebuanos débattent encore si CnT (vieille garde) ou Zubuchon (rendu célèbre par Bourdain) est supérieur. La vraie réponse : tester les deux en une après-midi.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Mark Wiens x Stanly on Media — Cebu Lechon Tour YouTube",
+          "url": "https://www.youtube.com/watch?v=UvoIYiKLIL4"
+        },
+        {
+          "creator": "Authentic Food Quest — Best Lechon in Cebu Bourdain guide",
+          "url": "https://authenticfoodquest.com/cebu-lechon-bourdain/"
+        }
+      ]
+    },
+    {
+      "id": "kinilaw-bohol",
+      "type": "plat",
+      "title": "Kinilaw de poisson frais",
+      "region": "Panglao / Bohol",
+      "body": "Ceviche philippine — poisson cru (malasugi/espadon ou lapu-lapu) coupé en dés, mariné dans du vinaigre de coco et du citron vert, mélangé à du gingembre frais, piment et oignons. Servi froid comme entrée ou pulutan (grignotine à bière). PHP 180-350.",
+      "story": "Le kinilaw, c'est la version bisaya du ceviche — mais le vinaigre de coco donne une acidité plus ronde que le citron seul. On en trouve au marché de Tagbilaran dès l'aube, préparé minute avec le poisson sorti de la glace. Les pêcheurs en mangent au petit-déjeuner. La version au malasugi (espadon), coupé en petits cubes fermes, est particulièrement bonne — la chair dense tient la marinade sans se défaire.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Bohol Local — Traditional Cuisine guide",
+          "url": "https://bohollocal.ph/blogs/bohol-local/bohol-s-traditional-cuisine-a-guide-to-the-island-s-best-local-dishes"
+        },
+        {
+          "creator": "RichestPH — Bohol for Foodies kinilaw to kalamay",
+          "url": "https://richestph.com/bohol-for-foodies-a-culinary-adventure-from-kinilaw-to-kalamay/"
+        }
+      ]
+    },
+    {
+      "id": "sinugba-seafood",
+      "type": "plat",
+      "title": "Sinugba — grillades de fruits de mer au charbon",
+      "region": "Panglao / Bohol",
+      "body": "Grillades bisaya au charbon de bois : calmars entiers farcis tomates-oignons, lapu-lapu (mérou) entier, crevettes tigrées en brochette. Servi avec riz et sauce coco-vinaigre. PHP 300-700 selon le poisson.",
+      "story": "Sinugba signifie littéralement « grillé » en visayan. Dans les restaurants de Panglao, la grille est dehors, au charbon de bois, et la fumée fait partie du paysage olfactif de l'île. Le calmar entier, farci de tomates et d'oignons avant de passer sur la grille, gonfle légèrement et sort juteux avec une légère amertume de brûlé en surface. Le lapu-lapu (mérou rouge local) grillé entier, fendu à la machette, quelques gouttes de calamansi (citron vert philippin) — il n'y a pas grand-chose à ajouter.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "JJ's Seafood Village Tagbilaran — Tripadvisor menus",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g1066348-d1480864-Reviews-JJ_s_Seafood_Village-Tagbilaran_City_Bohol_Island_Bohol_Province_Visayas.html"
+        },
+        {
+          "creator": "SM Divers Bohol — Food Lovers Guide Bohol",
+          "url": "https://www.smdiversbohol.com/a-food-lovers-guide-to-dining-in-bohol/"
+        }
+      ]
+    },
+    {
+      "id": "kalamay-jagna",
+      "type": "produit",
+      "title": "Kalamay de Jagna",
+      "region": "Jagna, Bohol",
+      "body": "Confiture épaisse de riz gluant, lait de coco et sucre de palme, cuite des heures à feu doux, servie dans une demi-noix de coco avec du latik (résidus caramélisés de coco) par-dessus. PHP 50-100 le pot.",
+      "story": "Le kalamay de Jagna est la friandise emblématique de Bohol — chaque famille a sa recette et les vendeurs du marché passent la matinée à brasser la pâte dans de grands woks noirs. La couleur est brun foncé, presque noire ; le goût est doux, légèrement fumé, avec une douceur de coco qui ne colle pas. On l'achète emballé dans une demi-coque de noix de coco comme souvenir, mais la meilleure version se mange chaude, à même la casserole, avec les doigts.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Tasteplorers — Kalamay Philippines complete guide",
+          "url": "https://tasteplorers.com/en/philippines/kalamay.html"
+        },
+        {
+          "creator": "Pinoytourist — Top 25 Bohol delicacies",
+          "url": "https://www.pinoytourist.com/destinations-philippines/indulge-in-the-top-25-bohol-delicacies-a-gastronomic-tour-of-the-island"
+        }
+      ]
+    },
+    {
+      "id": "tuba-visayas",
+      "type": "alcool",
+      "title": "Tuba — vin de coco des Visayas",
+      "region": "Bohol / Visayas",
+      "body": "Sève de cocotier fermentée, recueillie au sommet des arbres chaque matin, mélangée à de l'écorce de mangrove (barok) qui lui donne une teinte rouge-rouille. Légèrement pétillant, peu alcoolisé (3-5%), saveur douce-acidulée. Vendu par les mamans au bord des routes, PHP 20-30 le verre.",
+      "story": "Le tuba, c'est la boisson des gens qui travaillent. Les pêcheurs en boivent en revenant du large, les agriculteurs en fin de journée sous le nipa. Dans les Visayas, on n'a pas besoin de bar pour en trouver : les vendeuses sont au bord des routes avec leurs bidons en plastique, le verre rempli à ras bord. La version de Bohol, teintée de rouge par l'écorce de mangrove, est plus tannique que les tubas de Luzon. Un verre au soleil couchant sur la plage de Dumaluan, avec un reste de kinilaw : aussi bon que ça.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "KGM Resorts — Tuba, Lambanog et Tapuy guide",
+          "url": "https://www.kgmresorts.com/post/tuba-lambanog-and-tapuy"
+        },
+        {
+          "creator": "Slow Food Foundation — Tubâ Ark of Taste",
+          "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/tuba-coconout-wine/"
+        }
+      ]
+    },
+    {
+      "id": "garlic-butter-crab-bohol",
+      "type": "plat",
+      "title": "Crabe au beurre aillé (Garlic Butter Crab)",
+      "region": "Panglao, Bohol",
+      "body": "Crabe des îles mud crab (alimango), poché beurre-ail-calamansi, servi entier, mangé avec les mains. PHP 800-2000 selon le poids. Demander le prix au poids avant de commander.",
+      "story": "Le crabe au beurre aillé philippin est le plat qui finit les arguments. La chair du mud crab est dense, sucrée, et ne ressemble pas aux crabes insipides d'eau froide. Chez Redcrab à Panglao, il arrive dans une casserole fumante avec une sauce beurre-ail qui a réduit juste assez pour napper sans étouffer. On casse les pinces à la main, on suce les sucs. La serviette fournie est là en décoration.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Tripadvisor Redcrab Bohol — Garlic Butter Crab review",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g10687799-d25431214-Reviews-Redcrab_Bohol-Panglao_Panglao_Island_Bohol_Province_Visayas.html"
+        },
+        {
+          "creator": "Wanderlog — Bohol seafood restaurants top 21",
+          "url": "https://wanderlog.com/list/geoCategory/262935/best-seafood-restaurants-in-bohol-province"
+        }
+      ]
+    }
+  ],
+  "gems": [
+    {
+      "id": "tagbilaran-market-dawn",
+      "title": "Marché aux poissons de Tagbilaran à l'aube",
+      "body": "Dès 4h du matin, les pêcheurs débarquent le lapu-lapu, le malasugi et les crevettes dans les halles du marché public. Les vendeuses préparent le kinilaw minute. La lumière naturelle dans les halles couvertes, les caisses de glace, les gestes des poissonnières : du Cartier-Bresson disponible.",
+      "story": "Personne ne parle de ce marché dans les guides touristiques. C'est un marché de travail, pas un marché à touristes. Les femmes qui vendent le poisson sont là depuis 3h du matin, leur mise en place est impeccable. Le kinilaw qu'on mange à 6h30 avec une tasse de kapeng barako (café fort philippin) dans un coin du marché compte parmi les petits-déjeuners les plus honnêtes du voyage.",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Yoorekka PH — Tagbilaran wet markets",
+          "url": "https://yoorekka.com/magazine/cebu-bohol/2016/04/23/get-fresh-or-dried-seafood-at-tagbilarans-wet-markets"
+        }
+      ]
+    },
+    {
+      "id": "kalamay-jagna-town",
+      "title": "Jagna — les kalamay du marché matinal",
+      "body": "La ville de Jagna, à 60km de Tagbilaran, est le temple du kalamay de Bohol. Les vendeuses brassent la pâte dès l'aube dans les woks collectifs. On en achète un pot chaud, on mange sur la place centrale.",
+      "story": "Jagna est une ville tranquille de la côte sud de Bohol que quasi aucun touriste ne visite. La réputation du kalamay de Jagna est strictement locale et bisaya. Faire le détour juste pour ça et pour le point de vue sur la mer depuis le Punta Cruz Watchtower (tour de guet espagnol du 17e siècle) : deux bonnes raisons de sortir du circuit habituel.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Tasteplorers — Best Kalamay in Bohol local guide",
+          "url": "https://tasteplorers.com/en/philippines/city/bohol/kalamay.html"
+        },
+        {
+          "creator": "RichestPH — Gastronomic Journey Bohol local flavors",
+          "url": "https://richestph.com/a-gastronomic-journey-through-bohol-local-flavors-and-delicacies/"
+        }
+      ]
+    },
+    {
+      "id": "tuba-bord-de-route",
+      "title": "Tuba de bord de route — les vendeuses du matin",
+      "body": "Les femmes avec leurs bidons de tuba rouge se postent au bord des routes de Bohol dès le lever du soleil. Un verre coûte PHP 20. C'est la meilleure introduction à la culture bisaya — direct, sans menu ni code QR.",
+      "story": "On n'ira pas chercher le tuba dans un bar. On va s'arrêter en scooter au bord d'une route secondaire entre Panglao et Loboc, acheter un verre de cette chose rouge légèrement pétillante à une femme qui n'a pas de signe sur sa table. Elle verse, on paie, elle sourit. C'est tout. Et c'est exactement ce genre de moment qu'on cherche depuis le début.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "KGM Resorts — Tuba, Lambanog et Tapuy",
+          "url": "https://www.kgmresorts.com/post/tuba-lambanog-and-tapuy"
+        },
+        {
+          "creator": "Slow Food Foundation — Tubâ Ark of Taste",
+          "url": "https://www.fondazioneslowfood.com/en/ark-of-taste-slow-food/tuba-coconout-wine/"
+        }
+      ]
+    },
+    {
+      "id": "bohol-bee-farm-falaise-breakfast",
+      "title": "Petit-déjeuner au Bohol Bee Farm — falaise sur mer",
+      "body": "Le restaurant de falaise du Bohol Bee Farm ouvre à 7h. On commande les oeufs des poules de la ferme, du pain à la malunggay, du miel local et un fruit frais. La mer de Bohol est en dessous, bleue-verte, calme.",
+      "story": "Il y a des moments de voyage qui ne coûtent presque rien et qu'on n'oublie pas. Le petit-déjeuner de la ferme sur la falaise en fait partie : pas de bruit, pas de gaspillage, juste la brise de mer et un plateau de nourriture qui vient du jardin cinq mètres derrière soi. La crème glacée à la moringa au dessert — oui, au petit-déjeuner — est une absurdité délicieuse.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Tripadvisor Bohol Bee Farm Restaurant",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g1220535-d1168871-Reviews-Bohol_Bee_Farm_Restaurant-Dauis_Panglao_Island_Bohol_Province_Visayas.html"
+        },
+        {
+          "creator": "Tripadvisor Bohol Bee Farm Hotel reviews",
+          "url": "https://www.tripadvisor.com/Hotel_Review-g1220535-d636754-Reviews-Bohol_Bee_Farm-Dauis_Panglao_Island_Bohol_Province_Visayas.html"
+        }
+      ]
+    },
+    {
+      "id": "cebu-lechon-hunt",
+      "title": "La tournée lechon à Cebu — CnT puis Zubuchon le même après-midi",
+      "body": "L'itinéraire non officiel des épicuriens à Cebu : déjeuner tard chez CnT (peau caramélisée, vieille garde cebuano), puis vers 16h une portion chez Zubuchon (la version herbes fraîches popularisée par Bourdain). Comparer, trancher, recommencer.",
+      "story": "Le lechon de Cebu est l'un des rares plats qui justifie un vol. Bourdain l'a dit, et il avait raison. Mais ce qui est intéressant, c'est que le débat continue : CnT ou Zubuchon ? Les Cebuanos ne s'entendent pas. La seule façon de participer au débat, c'est de manger les deux dans la même après-midi, puis de former une opinion qu'on défendra pour le reste de sa vie.",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Mark Wiens — Cebu Lechon YouTube",
+          "url": "https://www.youtube.com/watch?v=UvoIYiKLIL4"
+        },
+        {
+          "creator": "Authentic Food Quest — Best Lechon Cebu Bourdain",
+          "url": "https://authenticfoodquest.com/cebu-lechon-bourdain/"
+        }
+      ]
+    }
+  ],
+  "imagesCandidates": [
+    {
+      "slot": "hero",
+      "urlOuId": "JM7H24U_fT0",
+      "alt": "Eau turquoise cristalline d'une plage de Panglao, Bohol, avec sable blanc immaculé et cocotiers en arrière-plan",
+      "claims": "place"
+    },
+    {
+      "slot": "food-lechon",
+      "urlOuId": "pMnw5BSZqqQ",
+      "alt": "Peau dorée croustillante d'un lechon de Cebu découpé en tranches, servi sur une planche de bois",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "chocolate-hills",
+      "urlOuId": "8-nJFn7hFVc",
+      "alt": "Les collines Chocolate Hills de Bohol vues depuis le belvédère de Carmen en fin d'après-midi, 1268 monticules brun cacao s'étendant à l'horizon",
+      "claims": "place"
+    },
+    {
+      "slot": "loboc-river",
+      "urlOuId": "y-lEFaJ6t-E",
+      "alt": "La rivière Loboc bordée de bambous géants et de végétation tropicale dense, eau emerald-green reflétant la canopée",
+      "claims": "place"
+    },
+    {
+      "slot": "seafood-market",
+      "urlOuId": "FpVDpNqKJBU",
+      "alt": "Marché aux poissons philippin au petit matin, vendeurs déballant des caisses de glace remplies de lapu-lapu et de crevettes fraîches",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "balicasag-snorkel",
+      "urlOuId": "GRkFjJGdYhI",
+      "alt": "Tortue marine verte nageant dans l'eau turquoise cristalline de la réserve marine de Balicasag Island, Philippines",
+      "claims": "place"
+    },
+    {
+      "slot": "tarsier",
+      "urlOuId": "VhZD_mMJ69A",
+      "alt": "Tarsier philippin aux grands yeux dorés accroché à une branche dans la forêt du sanctuaire de Corella, Bohol",
+      "claims": "atmosphere"
+    },
+    {
+      "slot": "kinilaw",
+      "urlOuId": "Ph_D9ZBMvKE",
+      "alt": "Bol de kinilaw philippin — poisson cru en dés mariné dans du vinaigre de coco avec gingembre frais et piment, servi avec des rondelles de calamansi",
+      "claims": "atmosphere"
+    }
+  ],
+  "sourcesCreateurs": [
+    {
+      "creator": "Mark Wiens (Migrationology)",
+      "url": "https://www.youtube.com/@markwiens",
+      "type": "méga-créateur",
+      "note": "A couvert le lechon de Cebu en collaboration avec Stanly on Media — vidéo YouTube avec visite de 3 établissements en une journée. Référence fiable pour la scène lechon de Cebu."
+    },
+    {
+      "creator": "Stanly on Media",
+      "url": "https://www.youtube.com/@stanlyonmedia",
+      "type": "micro-créateur local",
+      "note": "Vlogger cebuano spécialisé street food Cebu et lechon. A collaboré avec Mark Wiens. Focalisation locale sur les meilleurs établissements de Cebu Province (Gogoe's, Oca Paraz, Talisay City)."
+    },
+    {
+      "creator": "Joseph the Explorer (Rhodman Joseph Ubas)",
+      "url": "https://www.youtube.com/@josephtheexplorer",
+      "type": "micro-créateur local",
+      "note": "Boholano local — cuisine du seafood dans sa ferme, interactions avec voisins, contenu authentique de la vie provinciale bisaya. 4.5M vues en une journée sur contenu vie locale Bohol. Crédible pour l'angle quotidien."
+    },
+    {
+      "creator": "Lakbay Pinas",
+      "url": "https://lakbaypinas.com",
+      "type": "micro-créateur local",
+      "note": "Blog de voyage philippin avec guides détaillés Bohol — Loboc River cruise, tarsier sanctuary. Contenu primaire avec photos de terrain, pas agrégateur."
+    },
+    {
+      "creator": "Authentic Food Quest",
+      "url": "https://authenticfoodquest.com",
+      "type": "méga-créateur",
+      "note": "Couple de food bloggers qui documente les plats emblématiques avec research approfondie. Article sur le lechon de Cebu avec comparaison Rico's/Zubuchon/CnT, très référencé."
+    },
+    {
+      "creator": "Bohol Cebu Travel Guide (bohol-philippines.com)",
+      "url": "https://bohol-philippines.com",
+      "type": "micro-créateur local",
+      "note": "Site spécialisé Bohol — guides du sanctuaire de tarsiers, Chocolate Hills, restaurants locaux. Contenu terrain, mis à jour régulièrement, écrit depuis la perspective locale."
+    },
+    {
+      "creator": "Adventures We Chase",
+      "url": "https://www.adventureswechase.com",
+      "type": "micro-créateur local",
+      "note": "Blogueurs de voyage avec compte-rendu détaillé de la croisière Loboc avec photos et évaluation honnête (touristique mais valable). Source primaire avec expérience vécue."
+    }
+  ]
+}

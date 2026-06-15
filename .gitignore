@@ -8,3 +8,4 @@ src/content/destinations/*/.research/
 
 # Rapports vision générés (éphémères ; les rapports curés vivent en sous-dossiers)
 reports/*.json
+**/.research/
