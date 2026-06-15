@@ -694,5 +694,125 @@
       "verdict": "match",
       "checkedAt": "2026-06-15"
     }
+  },
+  {
+    "id": "amorgos-hozoviotissa",
+    "slot": "amorgos-hozoviotissa",
+    "base": "amorgos",
+    "role": "photo",
+    "file": "amorgos-hozoviotissa.jpg",
+    "alt": "Le monastère blanc de Panagia Hozoviotissa, collé en plein milieu d'une immense falaise brune verticale à Amorgos, sous un ciel bleu parsemé de nuages, un arbre au premier plan",
+    "layout": "tall",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Παναγία Χοζοβιώτισσα - Αμοργός.jpg",
+      "photographer": "Chris Kar",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "e784eae83c1e7a024fa3b5df32242c07a93fdbf790e036d8fbaa1f02e36a6fc1",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "e784eae83c1e7a024fa3b5df32242c07a93fdbf790e036d8fbaa1f02e36a6fc1",
+      "alt": "Le monastère blanc de Panagia Hozoviotissa, collé en plein milieu d'une immense falaise brune verticale à Amorgos, sous un ciel bleu parsemé de nuages, un arbre au premier plan",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "amorgos-chora",
+    "slot": "amorgos-chora",
+    "base": "amorgos",
+    "role": "photo",
+    "file": "amorgos-chora.jpg",
+    "alt": "La Chora d'Amorgos : un village de maisons blanches étalé sur une colline, dominé par un piton rocheux coiffé d'une chapelle et d'un château, sous un ciel bleu",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Chora (Amorgos).JPG",
+      "photographer": "Phso2",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "c9970686c82e7e22aed66390b39101292d07c1122c4d1a561aa2ae63166fed82",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "c9970686c82e7e22aed66390b39101292d07c1122c4d1a561aa2ae63166fed82",
+      "alt": "La Chora d'Amorgos : un village de maisons blanches étalé sur une colline, dominé par un piton rocheux coiffé d'une chapelle et d'un château, sous un ciel bleu",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "amorgos-shipwreck",
+    "slot": "amorgos-shipwreck",
+    "base": "amorgos",
+    "role": "photo",
+    "file": "amorgos-shipwreck.jpg",
+    "alt": "L'épave rouillée du cargo Olympia échouée dans une eau turquoise au pied de collines arides à Amorgos (la plage de Kalotaritissa), en lumière dorée",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Shipwreck Amorgos.jpg",
+      "photographer": "Giorgos Gazetas",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "86049ea3e9074261e06c5d089c4c0516f5367342a4d09614da01306dbc3dee73",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "86049ea3e9074261e06c5d089c4c0516f5367342a4d09614da01306dbc3dee73",
+      "alt": "L'épave rouillée du cargo Olympia échouée dans une eau turquoise au pied de collines arides à Amorgos (la plage de Kalotaritissa), en lumière dorée",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "amorgos-agia-anna",
+    "slot": "amorgos-agia-anna",
+    "base": "amorgos",
+    "role": "photo",
+    "file": "amorgos-agia-anna.jpg",
+    "alt": "L'immense montagne rocheuse de la côte est d'Amorgos, avec le minuscule monastère blanc de Hozoviotissa accroché à mi-falaise, vu depuis la plage d'Agia Anna",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Agia Anna beach, view from the beach to Monastery Chozoviotissa, Amorgos, 18M1566.jpg",
+      "photographer": "Zde",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "082c6b5ca9271c56a3d34e3cdc9d41822adb8c35907436d4adc9af9fe8c11536",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "082c6b5ca9271c56a3d34e3cdc9d41822adb8c35907436d4adc9af9fe8c11536",
+      "alt": "L'immense montagne rocheuse de la côte est d'Amorgos, avec le minuscule monastère blanc de Hozoviotissa accroché à mi-falaise, vu depuis la plage d'Agia Anna",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "amorgos-aegiali",
+    "slot": "amorgos-aegiali",
+    "base": "amorgos",
+    "role": "photo",
+    "file": "amorgos-aegiali.jpg",
+    "alt": "Une longue plage de galets de la baie d'Aegiali, au nord d'Amorgos, bordée de collines arides et d'une eau bleue claire",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Langada 01.jpg",
+      "photographer": "Olaf Tausch",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "49176d459523027fd1d1b33ae15429930a316a30552ed7e03f246cf9fcab8d51",
+    "visionChecked": "2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "49176d459523027fd1d1b33ae15429930a316a30552ed7e03f246cf9fcab8d51",
+      "alt": "Une longue plage de galets de la baie d'Aegiali, au nord d'Amorgos, bordée de collines arides et d'une eau bleue claire",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
   }
 ]

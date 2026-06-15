@@ -69,7 +69,7 @@
         "date": "2026-06"
       }
     ],
-    "tilesIntro": "Syros, Sifnos et Folegandros sont écrits à fond ; les deux dernières sont en route.",
+    "tilesIntro": "Quatre îles sur cinq sont écrites à fond ; Santorin clôt le cercle bientôt.",
     "tiles": [
       {
         "base": "syros",
@@ -96,7 +96,8 @@
         "base": "amorgos",
         "kicker": "Chapitre 4 · 7 nuits",
         "title": "Le monastère dans la falaise",
-        "teaser": "La plus reculée, en deux bases : le monastère d'Hozoviotissa incrusté à 300 m dans la roche, le raki au miel offert aux visiteurs, et la baie du Grand Bleu."
+        "teaser": "La plus reculée, en deux bases : le monastère d'Hozoviotissa incrusté à 300 m dans la roche, le raki au miel offert aux visiteurs, et la baie du Grand Bleu.",
+        "image": "amorgos-hozoviotissa"
       },
       {
         "base": "santorin",

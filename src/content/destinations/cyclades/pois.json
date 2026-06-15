@@ -3217,5 +3217,964 @@
         "date": "2026-06"
       }
     ]
+  },
+  {
+    "id": "amo-agia-anna",
+    "base": "amorgos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Agia Anna",
+    "blurb": "Les petites criques de rochers sous le monastère, l'eau turquoise où Luc Besson a tourné Le Grand Bleu en 1988. Pas de sable, juste la roche et le bleu — on plonge des plateformes. Bus depuis Chora/Katapola.",
+    "signature": "L'eau turquoise du Grand Bleu, sous le monastère",
+    "image": "amorgos-agia-anna",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8259,
+      "lng": 25.9059,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Agia+Anna+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Go Amorgos — Agia Anna",
+        "url": "https://go-amorgos.gr/en/beaches/agia-anna/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greeka — Agia Anna",
+        "url": "https://www.greeka.com/cyclades/amorgos/beaches/agia-anna/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-mouros",
+    "base": "amorgos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "mid",
+    "name": "Mouros",
+    "blurb": "Une crique de galets sauvage de la côte sud, eau émeraude limpide et grottes marines à explorer au masque. Peu de monde, aucun aménagement. Voiture ou bus rare.",
+    "signature": "Galets, eau émeraude et grottes, côte sud sauvage",
+    "image": null,
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.7862,
+      "lng": 25.8274,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mouros+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greeka — Mouros",
+        "url": "https://www.greeka.com/cyclades/amorgos/beaches/mouros/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Kanoa — plages Amorgos",
+        "url": "https://kanoa.org.uk/amorgos/beaches-of-amorgos/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-kalotaritissa",
+    "base": "amorgos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Kalotaritissa & l'épave",
+    "blurb": "La pointe sud de l'île : une baie de sable et galets, et dans l'anse voisine de Liveros, l'épave rouillée du cargo Olympia échouée dans le turquoise — une image du Grand Bleu devenue légende. Voiture ou un bus par jour.",
+    "signature": "La baie du bout de l'île et l'épave de l'Olympia",
+    "image": "amorgos-shipwreck",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.794,
+      "lng": 25.7441,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kalotaritissa+&+l'épave+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Go Amorgos — shipwreck",
+        "url": "https://go-amorgos.gr/en/attractions/shipwreck/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Miles with Vibes — Kalotaritissa",
+        "url": "https://www.mileswithvibes.com/amorgos/kalotaritissa-beach/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-levrossos",
+    "base": "amorgos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "mid",
+    "name": "Levrossos",
+    "blurb": "La plage de sable de la baie d'Aegiali, au nord, à vingt minutes à pied du village ou en bateau-navette. Eau calme et peu profonde, tamaris pour l'ombre. La base balnéaire du nord.",
+    "signature": "Le sable de la baie d'Aegiali, à 20 min à pied",
+    "image": "amorgos-aegiali",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.9087,
+      "lng": 25.9714,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Levrossos+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Amorgos.gr — Levrossos",
+        "url": "https://amorgos.gr/explore-amorgos/levrossos-beach/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Visit Amorgos — Levrossos",
+        "url": "https://www.visitamorgos.com/item/beach-levrossos/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-maltezi",
+    "base": "amorgos",
+    "kind": "plage",
+    "mapType": "plage",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "mid",
+    "name": "Maltezi",
+    "blurb": "Une crique de sable abritée en face du port de Katapola, accessible seulement par bateau-taxi (toutes les 30 min l'été) ou un sentier. Eau cristalline, un petit bar de plage. Le bain facile depuis la base sud.",
+    "signature": "La crique de sable en face de Katapola, en bateau",
+    "image": null,
+    "price": {
+      "range": "accès libre · bateau-taxi ~3,50 €",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.836,
+      "lng": 25.854,
+      "source": "web-research + géocodage Nominatim vérifié",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Maltezi+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Amorgos.gr — Maltezi",
+        "url": "https://amorgos.gr/explore-amorgos/maltezi-beach/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Go Amorgos — plages de Katapola",
+        "url": "https://go-amorgos.gr/en/beaches/beaches-of-katapola/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-mouragio",
+    "base": "amorgos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Mouragio",
+    "blurb": "La psarotaverna du port de Katapola, là où les ferries accostent : le poisson du jour, le poulpe grillé, les fruits de mer, en regardant le va-et-vient du quai. La table de mer de la base sud.",
+    "signature": "Le poisson du jour sur le quai de Katapola",
+    "image": null,
+    "price": {
+      "range": "~20–30 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8263,
+      "lng": 25.8637,
+      "source": "interpolé port de Katapola (sur le quai ; à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Mouragio+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Mouragio",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/psarotaverna-mouragio-katapola-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Mouragio",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g1187623-d2462728-Reviews-Mouragio_Restaurant-Katapola_Amorgos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-katinas",
+    "base": "amorgos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "To Limani tis Kyra Katinas",
+    "blurb": "Dans une ruelle derrière la plage d'Aegiali, la taverne de Kyra Katina : cuisine maison, portions généreuses, prix justes — la table où mangent les gens du nord. Le patatato, les mezedes, le poisson.",
+    "signature": "La cuisine maison de Kyra Katina, à Aegiali",
+    "image": null,
+    "price": {
+      "range": "~15–25 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.892,
+      "lng": 25.974,
+      "source": "interpolé Aegiali (ruelle derrière la plage ; à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://amorgoslimanitiskatinas.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/To+Limani+tis+Kyra+Katinas+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Kyra Katina",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/limani-tis-kyra-katinas-aigiali-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "To Limani tis Kyra Katinas (officiel)",
+        "url": "https://amorgoslimanitiskatinas.com/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-loudaros",
+    "base": "amorgos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Taverne Loudaros",
+    "blurb": "Dans le village perché de Langada, la taverne familiale de Nikitia : grillades locales, légumes du jardin, vue sur la vallée. On y monte à pied d'Aegiali (30 min) ou en bus. Fermée l'hiver.",
+    "signature": "Les grillades de village à Langada, vue sur la vallée",
+    "image": null,
+    "price": {
+      "range": "~15–22 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.9063,
+      "lng": 25.9982,
+      "source": "interpolé village de Langada (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Taverne+Loudaros+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Loudaros",
+        "url": "https://www.greekgastronomyguide.gr/en/item/taverna-loudaros-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Loudaros",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g15004889-d17762632-Reviews-Taverna_Loudaros-Langada_Aegiali_Amorgos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-kastani",
+    "base": "amorgos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "gem",
+    "name": "Kastanis",
+    "blurb": "Sur la ruelle piétonne de la Chora, une taverne de locaux où goûter le patatato (le ragoût de chèvre aux patates de l'île) et la kopanisti, le fromage piquant. Cuisine du jour, prix modérés.",
+    "signature": "Le patatato et la kopanisti, dans la Chora",
+    "image": null,
+    "price": {
+      "range": "~15–22 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8319,
+      "lng": 25.8961,
+      "source": "interpolé Chora, ruelle principale (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Kastanis+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Kastanis",
+        "url": "https://www.greekgastronomyguide.gr/en/item/kastanis-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Greek Gastronomy Guide — 10 tavernes Amorgos",
+        "url": "https://www.greekgastronomyguide.gr/en/oi-10-kalyteres-tavernes-stin-amorgo/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-youkali",
+    "base": "amorgos",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": "mid",
+    "name": "Youkali",
+    "blurb": "De l'autre côté de la baie de Katapola, à Xilokeratidi, une table un peu plus créative au bord de l'eau — bonne adresse pour un dîner tranquille loin de l'agitation du quai des ferries.",
+    "signature": "Le dîner au bord de l'eau à Xilokeratidi",
+    "image": null,
+    "price": {
+      "range": "~18–28 €/pers",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.835,
+      "lng": 25.855,
+      "source": "interpolé Xilokeratidi, Katapola (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Youkali+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Youkali",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g8521744-d14200538-Reviews-Youkali-Xilokeratidi_Katapola_Amorgos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Hellenic Travel — Youkali",
+        "url": "https://www.hellenic-travelgroup.com/business/restaurants-taverns/katapola/youkali",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-emprostiada",
+    "base": "amorgos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Emprostiada Traditional Guest House",
+    "blurb": "Une maison d'hôtes traditionnelle au cœur de la Chora, à cinq minutes du centre : architecture cycladique, accueil chaleureux, calme. La base sud, perchée dans la capitale.",
+    "signature": "Maison d'hôtes traditionnelle au cœur de la Chora",
+    "image": null,
+    "price": {
+      "range": "~100–150 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8319,
+      "lng": 25.8961,
+      "source": "interpolé Chora (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://emprostiada.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Emprostiada+Traditional+Guest+House+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Emprostiada (officiel)",
+        "url": "https://emprostiada.gr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Emprostiada",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g189423-d1847205-Reviews-Emprostiada_Traditional_Guest_House-Amorgos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-vorina",
+    "base": "amorgos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Vorina Ktismata",
+    "blurb": "Des maisonnettes cycladiques de charme à huit minutes de la Chora, pierre et chaux, vue mer, calme absolu. Un cran plus haut de gamme, pour une base sud douillette.",
+    "signature": "Maisonnettes de pierre vue mer, près de la Chora",
+    "image": null,
+    "price": {
+      "range": "~170–220 €/nuit (haute saison)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8325,
+      "lng": 25.895,
+      "source": "interpolé Chora (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vorina+Ktismata+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "The Hotel Guru — Vorina Ktismata",
+        "url": "https://www.thehotelguru.com/hotel/vorina-ktismata-amorgos",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Booking.com — Vorina Ktismata",
+        "url": "https://www.booking.com/hotel/gr/vorina-ktismata.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-pearls",
+    "base": "amorgos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Amorgos Pearls",
+    "blurb": "Deux studios seulement, à cinq minutes du port de Katapola et à 150 m de la plage : propre, intime, accueil personnel. L'option port de la base sud — réserver très tôt.",
+    "signature": "Deux studios près du port et de la plage, Katapola",
+    "image": null,
+    "price": {
+      "range": "~85–150 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8263,
+      "lng": 25.8637,
+      "source": "interpolé Katapola (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Amorgos+Pearls+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Booking.com — Amorgos Pearls",
+        "url": "https://www.booking.com/hotel/gr/amorgos-pearls.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Amorgos Pearls",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1187623-d12606316-Reviews-Amorgos_Pearls-Katapola_Amorgos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-aelia",
+    "base": "amorgos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Aelia Studios",
+    "blurb": "À cinquante mètres de la plage d'Aegiali et cinq minutes du port, des studios simples et bien tenus avec kitchenette. La base nord, les pieds dans le sable, pour la deuxième moitié du séjour.",
+    "signature": "Studios à 50 m de la plage d'Aegiali, base nord",
+    "image": null,
+    "price": {
+      "range": "~85–120 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.892,
+      "lng": 25.974,
+      "source": "interpolé Aegiali (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Aelia+Studios+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Aelia Studios",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g1899316-d8325425-Reviews-Aelia_Studios-Aegiali_Amorgos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "GoMadNomad — où dormir Amorgos",
+        "url": "https://gomadnomad.com/2023/12/18/where-to-stay-on-amorgos-island-greece/",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-pagali",
+    "base": "amorgos",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Pagali Hotel & Taverna",
+    "blurb": "Dans le village perché de Langada, un hôtel familial avec sa taverne, vue sur la vallée et la mer, départ des sentiers de randonnée. Pour vivre le nord d'Amorgos au rythme lent.",
+    "signature": "Hôtel familial à Langada, au départ des sentiers",
+    "image": null,
+    "price": {
+      "range": "~90–150 €/nuit",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.9063,
+      "lng": 25.9982,
+      "source": "interpolé Langada (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://pagalihotel-amorgos.com/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Pagali+Hotel+&+Taverna+Amorgos"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Pagali Hotel (officiel)",
+        "url": "https://pagalihotel-amorgos.com/accommodation/studios/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Pagali Hotel",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g15004889-d659577-Reviews-Pagali_Hotel-Langada_Aegiali_Amorgos_Cyclades_South_Aegean.html",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-hozoviotissa",
+    "base": "amorgos",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Monastère Hozoviotissa",
+    "blurb": "Le monastère blanc fondé en 1088, incrusté à trois cents mètres de haut dans une falaise verticale — huit étages mais cinq mètres de large, le plus vieux des Cyclades. On y monte à pied (~20 min), tenue couvrante exigée, et un raki au miel est offert aux visiteurs au sommet.",
+    "signature": "Le monastère collé dans la falaise, le raki au miel offert",
+    "image": "amorgos-hozoviotissa",
+    "price": {
+      "range": "entrée libre (don)",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8275,
+      "lng": 25.9025,
+      "source": "interpolé falaise entre Chora et Agia Anna (à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Monastère+Hozoviotissa+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Hozoviotissa",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/panagia-i-xozoviotissa-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wikipédia — Monastère de la Chozoviótissa",
+        "url": "https://fr.wikipedia.org/wiki/Monast%C3%A8re_de_la_Chozovi%C3%B3tissa",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-chora",
+    "base": "amorgos",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "La Chora d'Amorgos",
+    "blurb": "La capitale perchée, une des plus belles des Cyclades : ruelles blanches, château vénitien sur son piton rocheux, moulins, et le soir la vie qui s'installe sur les places. C'est ici qu'on mange le patatato et qu'on boit le rakomelo.",
+    "signature": "La capitale blanche, son château-rocher et ses places",
+    "image": "amorgos-chora",
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8319,
+      "lng": 25.8961,
+      "source": "Nominatim (Χώρα Αμοργού — secteur vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/La+Chora+d'Amorgos+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Routard — Chora d'Amorgos",
+        "url": "https://www.routard.com/fr/guide/europe/grece/iles-grecques/cyclades/ile-d-amorgos/chora-amorgos",
+        "date": "2026-06"
+      },
+      {
+        "creator": "e-Kyklades — Amorgos",
+        "url": "https://www.e-kyklades.gr/travel/tourism/amorgos?lang=fr",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-langada-tholaria",
+    "base": "amorgos",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Langada & Tholaria",
+    "blurb": "Les deux villages perchés au-dessus d'Aegiali, reliés par un sentier d'une heure et demie à travers les terrasses : maisons blanches, chapelles, et le silence du nord d'Amorgos. Le cœur de la rando et du rakomelo.",
+    "signature": "Les villages perchés du nord et le sentier entre les deux",
+    "image": null,
+    "price": {
+      "range": "accès libre",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.9063,
+      "lng": 25.9982,
+      "source": "Nominatim (Langada — village vérifié)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Langada+&+Tholaria+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + géocodage Nominatim vérifié"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Cyclonomas — Langada-Tholaria",
+        "url": "https://cyclonomas.wordpress.com/2017/01/07/amorgos-randonnee-langada-tholaria/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Choice Greece — sentiers d'Amorgos",
+        "url": "https://www.choicegreece.com/en/discover/hiking/hiking-in-amorgos-the-blue-trails",
+        "date": "2026-06"
+      }
+    ]
+  },
+  {
+    "id": "amo-amorgion",
+    "base": "amorgos",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "drink",
+      "do"
+    ],
+    "tier": "gem",
+    "name": "Distillerie Amorgion (rakomelo)",
+    "blurb": "À Katapola, Antonis Vekris distille le rakomelo d'Amorgos — le raki au miel et aux épices, emblématique de l'île, celui qu'on boit chaud à toutes les fêtes et qu'on offre au monastère. Dégustation et achat à la source.",
+    "signature": "Le rakomelo d'Amorgos à la source, chez Vekris",
+    "image": null,
+    "price": {
+      "range": "dégustation · bouteille à l'achat",
+      "currency": "EUR",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 36.8263,
+      "lng": 25.8637,
+      "source": "interpolé Katapola (distillerie ; à confirmer)",
+      "verifiedOn": "2026-06-15"
+    },
+    "links": {
+      "official": "https://amorgion.gr/",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Distillerie+Amorgion+(rakomelo)+Amorgos"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-15",
+      "method": "web-research + coords interpolées"
+    },
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Greek Gastronomy Guide — Amorgion Vekris",
+        "url": "https://www.greekgastronomyguide.gr/fr/item/amorgion-antonis-vekris-amorgos/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Amorgos.gr — rakomelo",
+        "url": "https://amorgos.gr/explore-amorgos/rakomelo/",
+        "date": "2026-06"
+      }
+    ]
   }
 ]
