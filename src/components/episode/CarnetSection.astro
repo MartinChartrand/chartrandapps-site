@@ -4,6 +4,7 @@
 // export KML par chapitre. Purement présentationnel : la page pré-calcule `groups` (résolution
 // d'images comprise) — y compris la fusion des accomExtras dans « Où dormir » et les dishes/gems.
 interface Pill { label: string; url: string }
+interface Source { creator: string; url: string; date?: string }
 interface Row {
   id?: string;          // 'carnet-<poiId>' pour les POI cartographiés
   dataPoi?: string;     // id du POI si onMap (la mini-carte suit le scroll dessus)
@@ -13,6 +14,8 @@ interface Row {
   name: string;
   price?: string;
   blurb?: string;
+  story?: string;       // récit sourcé (ADR-5) — dépliable « le récit » ; absent => pas de toggle
+  sources?: Source[];   // provenance affichée sous le récit déplié
   pills: Pill[];
   forcePillRow?: boolean; // POI/hébergements : <div class="pill-row"> rendu même si vide
 }
@@ -71,6 +74,20 @@ const { title, dates, focus, kmlHref, kmlDownload, kmlCount, markers, openBounds
                       {r.price && <span class="carnet-price">{r.price}</span>}
                       {r.blurb && <p class="carnet-blurb">{r.blurb}</p>}
                     </div>
+                    {r.story && (
+                      <details class="carnet-recit">
+                        <summary class="carnet-recit-toggle">le récit</summary>
+                        <p class="carnet-recit-prose">{r.story}</p>
+                        {r.sources && r.sources.length > 0 && (
+                          <p class="carnet-recit-sources">
+                            <span class="carnet-recit-srclabel">Sources :</span>{' '}
+                            {r.sources.map((s, i) => (
+                              <Fragment>{i > 0 && <span class="carnet-recit-sep"> · </span>}<a class="carnet-recit-src" href={s.url} target="_blank" rel="noopener">{s.creator}</a></Fragment>
+                            ))}
+                          </p>
+                        )}
+                      </details>
+                    )}
                     {(r.forcePillRow || r.pills.length > 0) && (
                       <div class="pill-row">
                         {r.pills.map((l) => (

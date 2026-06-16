@@ -11,9 +11,13 @@ export type Poi = CollectionEntry<'pois'>['data'];
 // Pills de liens d'un POI — toute reco = lien cliquable (critère CI).
 export type Pill = { label: string; url: string };
 
+// Source de provenance (ADR-2) — affichée sous le récit déplié dans le carnet.
+export type Source = { creator: string; url: string; date?: string };
+
 export type CarnetRow = {
   id?: string; dataPoi?: string; thumbSrc?: string; thumbAlt?: string; thumbFood?: boolean;
   name: string; price?: string; blurb?: string; pills: Pill[]; forcePillRow?: boolean;
+  story?: string; sources?: Source[]; // récit sourcé (ADR-5) — dépliable « le récit », vide => pas de toggle
 };
 
 // Forme brute d'un beat de carte (cold open / montage) AVANT résolution d'images.
@@ -155,6 +159,8 @@ export async function createEpisode(dest: string, baseSlug: string, opts: Episod
       name: p.name,
       price: p.price?.range,
       blurb: p.blurb,
+      story: p.story,
+      sources: p.sources,
       pills: poiPills(p),
       forcePillRow: true,
     };

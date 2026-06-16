@@ -126,6 +126,8 @@ const dishesGroup = {
     thumbFood: true,
     name: di.title,
     blurb: di.body,
+    story: di.story,
+    sources: di.sources,
     pills: (di.links ?? []) as Pill[],
   })) as CarnetRow[],
 };
@@ -137,6 +139,8 @@ const gemsGroup = {
     thumbAlt: ge.title,
     name: ge.title,
     blurb: ge.body,
+    story: ge.story,
+    sources: ge.sources,
     pills: (ge.links ?? []) as Pill[],
   })) as CarnetRow[],
 };

@@ -9,7 +9,7 @@
     ],
     "tier": "budget",
     "name": "JAM Porto",
-    "blurb": "Hôtel minimaliste dans Bonfim — tourne-disques dans les chambres, piscine, jardin tranquille, cuisine en libre-service, à quinze minutes à pied du centre historique sans le bruit du Ribeira (~CAD 90–120/nuit).",
+    "blurb": "Hôtel minimaliste dans Bonfim — ambiance bibliothèque de vinyles, cuisine en libre-service, à quinze minutes à pied du centre historique sans le bruit du Ribeira (~CAD 90–120/nuit).",
     "image": null,
     "price": {
       "range": "~55–75 €/nuit",
@@ -57,7 +57,7 @@
     ],
     "tier": "mid",
     "name": "Casa do Conto — Arts & Residence",
-    "blurb": "Six chambres dessinées individuellement dans un bâtiment Cedofeita, plafonds sculptés de citations littéraires, déco monochrome minimaliste primée, à deux pas des galeries de Miguel Bombarda (~CAD 195–265/nuit).",
+    "blurb": "Six chambres dessinées individuellement dans un bâtiment Cedofeita, plafonds sculptés de citations littéraires, déco minimaliste, à deux pas des galeries de Miguel Bombarda (~CAD 195–265/nuit).",
     "image": null,
     "price": {
       "range": "~120–165 €/nuit",
@@ -109,7 +109,7 @@
     ],
     "tier": "gem",
     "name": "Torel Avantgarde",
-    "blurb": "Art hotel au-dessus du Douro — chaque chambre signée par un artiste différent, piscine panoramique avec vue directe sur le fleuve depuis les hauteurs de Miragaia, l'hôtel est lui-même une expérience (~CAD 300–420/nuit).",
+    "blurb": "Art hotel dans les hauteurs de Miragaia — chaque chambre signée par un artiste différent, piscine panoramique avec vue directe sur le Douro, l'hôtel est lui-même une expérience (~CAD 300–420/nuit).",
     "image": null,
     "price": {
       "range": "~185–260 €/nuit",
@@ -161,7 +161,7 @@
     ],
     "tier": null,
     "name": "Café Santiago",
-    "blurb": "Depuis 1959, la francesinha de référence à Porto — mortadelle, saucisse fumée, steak, jambon, fromage fondu et œuf dans la sauce secrète bière-tomate-piri piri qu'Isabel Ferreira garde jalousement ; arriver au déjeuner en semaine pour éviter la file (~CAD 20–28/pers).",
+    "blurb": "Depuis 1959, la francesinha de référence à Porto — mortadelle, saucisse fumée, steak, jambon, fromage fondu et œuf dans la sauce secrète bière-tomate-piri piri ; arriver au déjeuner en semaine pour éviter la file (~CAD 20–28/pers).",
     "signature": "Francesinha Santiago — sauce secrète bière-tomate-piri piri",
     "image": null,
     "price": {
@@ -301,7 +301,7 @@
     ],
     "tier": null,
     "name": "Casa Guedes Tradicional",
-    "blurb": "Un sandwich de pernil fondant avec le Serra da Estrela qui coule sur le pain rustique chaud, arrosé d'un Vinho Verde en pichet de céramique debout au comptoir — le lunch local parfait depuis des décennies (~CAD 8–13).",
+    "blurb": "Un sandwich de pernil qui sort du four — simple, franc, sans détour. Le lunch local qui fait tourner le quartier (~CAD 8–13).",
     "signature": "Sandes de pernil com queijo — épaule rôtie + Serra da Estrela fondu",
     "image": null,
     "price": {
@@ -350,7 +350,7 @@
     ],
     "tier": null,
     "name": "Praia de Matosinhos",
-    "blurb": "Vingt minutes de métro (Ligne A) depuis le centre — sable doré Blue Flag 5 étoiles, vagues atlantiques, et toute la rangée de restaurants de poisson grillé à 200 mètres : la meilleure journée de Porto se construit ici.",
+    "blurb": "Vingt-sept minutes de métro (Ligne A) depuis le centre — sable doré, vagues atlantiques, et toute la rangée de restaurants de poisson grillé : la meilleure journée de Porto se construit ici.",
     "image": null,
     "price": {
       "range": "Gratuit",
@@ -403,7 +403,7 @@
     ],
     "tier": null,
     "name": "Taylor's Port Wine Cellars",
-    "blurb": "La visite de cave la plus décontractée de Gaia — audio guide à son rythme dans les chais millénaires depuis 1692, dégustation assise dans la cour avec les paons, vue directe sur Porto de l'autre côté du fleuve (~CAD 45/pers).",
+    "blurb": "La visite de cave la plus décontractée de Gaia — audioguide à son rythme dans les chais depuis 1692, dégustation assise pour trois verres (~CAD 45/pers).",
     "image": null,
     "price": {
       "range": "~28 €/pers",
@@ -551,7 +551,7 @@
     ],
     "tier": null,
     "name": "Toca da Raposa",
-    "blurb": "Ce que Portoalities appelle « un vrai repas de maison portugaise » — riz de cabrito (chevreau) au four, jarret de porc rôti lentement, ragoût de sanglier, tables de locaux, service sans chichis et boutique de confitures maison à la sortie (~CAD 32–49/pers).",
+    "blurb": "Jarret de porc rôti lentement, riz de cabrito (chevreau) au four, agneau au Porto — cuisine de terroir signée par le lauréat de l'Académie portugaise de gastronomie (~CAD 32–49/pers).",
     "signature": "Arroz de cabrito (riz au chevreau au four)",
     "image": null,
     "price": {
@@ -659,7 +659,7 @@
     ],
     "tier": null,
     "name": "Veladouro",
-    "blurb": "Tables en balcon surplombant le fleuve à deux pas du débarcadère de Pinhão — le patron guide les vins, le baba au porto (dessert signature de Pinhão, introuvable ailleurs) clôt le repas, 4,8/5 sur 2 500 avis (~CAD 32–49/pers).",
+    "blurb": "Tables surplombant le Douro — grillades sérieuses, poisson selon l'envie, portions qui ne font pas semblant. Le genre d'endroit qu'on quitte à contrecœur. (~CAD 32–49/pers)",
     "signature": "Baba au porto — dessert signature de Pinhão",
     "image": null,
     "price": {
@@ -713,7 +713,7 @@
     ],
     "tier": null,
     "name": "Croisière rabelo — Pinhão",
-    "blurb": "Deux heures en vedette de bois traditionnelle remontant le Douro en silence — les terrasses étagées défilent à hauteur d'yeux des deux côtés, un verre de porto dans la main, et on comprend pourquoi ces gens ont sculpté des falaises pendant des siècles (~CAD 40/pers).",
+    "blurb": "Deux heures en vedette de bois traditionnelle remontant le Douro en silence — les terrasses étagées défilent à hauteur d'yeux des deux côtés, et on comprend pourquoi ces gens ont sculpté des falaises pendant des siècles (~CAD 40/pers).",
     "image": null,
     "price": {
       "range": "~25 €/pers (2h)",
@@ -854,7 +854,7 @@
     ],
     "tier": null,
     "name": "Zé da Mouraria",
-    "blurb": "Sélectionnée dans la rota das tasquinhas de la Ville de Lisbonne — bacalhau à minhota (plus de 200 kg vendus par semaine), portions généreuses, tableau noir au mur, clientèle de quartier, pas de menu en anglais en vitrine (~CAD 13–23/plat).",
+    "blurb": "Tasquinha de Mouraria — bacalhau à minhota, portions généreuses, tableau noir au mur, clientèle de quartier, pas de menu en anglais en vitrine (~CAD 13–23/plat).",
     "signature": "Bacalhau à minhota",
     "image": null,
     "price": {
@@ -907,7 +907,7 @@
     ],
     "tier": null,
     "name": "Cervejaria Ramiro",
-    "blurb": "Depuis les années 1950, deux étages bruyants, lumières au néon, serveurs en tablier blanc — le rite d'arrivée à Lisbonne : percebes et bière froide, puis carabineiros au gros sel et ameijoas à bulhão pato ; réserver ou arriver à 12h pile (~CAD 80–145/pers).",
+    "blurb": "Depuis les années 1950, deux étages bruyants, lumières au néon, serveurs en tablier blanc — le rite d'arrivée à Lisbonne : percebes iodés d'abord, puis un prego pour finir (règle de la maison, pas de discussion) ; réserver ou arriver à 12h pile (~CAD 80–145/pers).",
     "signature": "Carabineiros au gros sel + ameijoas à bulhão pato",
     "image": null,
     "price": {
@@ -1106,7 +1106,7 @@
     ],
     "tier": null,
     "name": "Miradouro da Senhora do Monte",
-    "blurb": "Le plus haut miradouro de Lisbonne — vue 360° sur le Castelo São Jorge, les toits rouges d'Alfama et le Tage, moins fréquenté que Portas do Sol, lumière dorée de 19h30 à 21h en mai-juin.",
+    "blurb": "Le plus haut miradouro de Lisbonne — vue panoramique sur le Castelo São Jorge, les toits rouges d'Alfama et le Tage, lumière dorée de 19h30 à 21h en mai-juin.",
     "image": null,
     "price": {
       "range": "Gratuit",
@@ -1154,7 +1154,7 @@
     ],
     "tier": null,
     "name": "Cascais — day trip côtier",
-    "blurb": "La ligne de train depuis Cais do Sodré longe déjà l'Atlantique par la fenêtre (~33 min, billet ~2,25 €, ~CAD 4) — à Cascais : déjeuner de fruits de mer en bord de mer, promenade côtière, eau plus froide qu'à Sesimbra mais le paysage compense amplement.",
+    "blurb": "La ligne de train depuis Cais do Sodré longe déjà l'Atlantique par la fenêtre (~40 min, billet ~2,25 €, ~CAD 4) — à Cascais : déjeuner de fruits de mer en bord de mer, promenade côtière, eau froide en mai (journée de table, pas de baignade).",
     "image": null,
     "price": {
       "range": "Gratuit (plage)",
@@ -1206,7 +1206,7 @@
     ],
     "tier": "budget",
     "name": "B.Hostel Possanco",
-    "blurb": "Douze chambres minimalistes dans le village agricole de Possanco, cerné de rizières et de prairies — l'option la plus abordable de la zone sans sacrifier le charme, à quinze minutes en voiture des plages (~CAD 185/nuit).",
+    "blurb": "Neuf chambres minimalistes à Comporta — l'option la plus abordable de la zone sans sacrifier le charme, à quinze minutes en voiture des plages (~CAD 185/nuit).",
     "image": null,
     "price": {
       "range": "~114 €/nuit",
@@ -1393,7 +1393,7 @@
     ],
     "tier": null,
     "name": "Sal",
-    "blurb": "La table de plage qui revient dans tous les guides — terrasse avec vue sur l'Atlantique, poisson ultra-frais, arroz negro à l'encre de seiche qui tache les doigts ; trendy mais la qualité justifie, réserver à l'avance même en juin (~CAD 49–73/pers).",
+    "blurb": "La table de plage qui revient dans tous les guides — terrasse face à l'Atlantique, calamar frit d'une légèreté étonnante, salade de poulpe franche, crevettes géantes sur riz à la coriandre ; trendy mais la qualité justifie, réserver à l'avance même en juin (~CAD 49–73/pers).",
     "signature": "Arroz negro à l'encre de seiche, huîtres, poisson du jour",
     "image": null,
     "price": {
@@ -1447,7 +1447,7 @@
     ],
     "tier": null,
     "name": "Gomes — Casa de Vinhos & Petiscos",
-    "blurb": "Épicerie-bar à vins hybride dans le village de Comporta — vins de l'Alentejo soigneusement sélectionnés, planches de charcuterie au porco preto, fromage de brebis local, conserves artisanales, ambiance cave décontractée parfaite pour un late lunch (~CAD 40–57/pers).",
+    "blurb": "Bar à vins et petiscos dans le village de Comporta — charcuterie porco preto, fromages locaux, vins de l'Alentejo, ambiance décontractée (~CAD 40–57/pers).",
     "signature": "Petiscos alentejanos + vins d'Alentejo au verre",
     "image": null,
     "price": {
@@ -1474,7 +1474,7 @@
       "method": "websearch"
     },
     "onMap": true,
-    "story": "[Entrée à retirer — établissement signalé fermé définitivement. Suspendre jusqu'à confirmation d'ouverture via source primaire ou visite de terrain avant tout usage dans le guide.]",
+    "story": "Dans le village de Comporta, Gomes est l'adresse à vins et petiscos où l'on s'attable sans chichi : planches de charcuterie au porco preto, fromages de la région et conserves, arrosés d'une sélection de vins de l'Alentejo. Le genre d'endroit décontracté pour un long déjeuner ou un verre en fin de journée.",
     "sources": [
       {
         "creator": "Taste of Lisboa (guide culinaire Portugal)",
@@ -1496,7 +1496,7 @@
     ],
     "tier": null,
     "name": "Praia do Pego",
-    "blurb": "Quatre kilomètres de sable doré bordé de pinèdes, eau atlantique propre, dunes de sable blanc sans béton en vue — citée parmi les plus belles plages d'Europe, les dauphins du Sado se montrent parfois au large.",
+    "blurb": "Quatre kilomètres de sable doré, Pavillon Bleu et passerelle piétonne toute neuve pour rejoindre l'eau — on pose le sac et on reste.",
     "image": null,
     "price": {
       "range": "Parking ~3 €",
@@ -1544,7 +1544,7 @@
     ],
     "tier": null,
     "name": "Praia do Carvalhal",
-    "blurb": "Dunes larges, pavillon bleu, rizières juste derrière la piste d'accès sablonneuse — le meilleur spot surf de la zone, moins bondé que la plage du village, le refuge des Lisboètes quand Comporta est prise d'assaut.",
+    "blurb": "Dunes larges, rizières juste derrière la piste d'accès sablonneuse — vague mellow et sans piège, idéale pour les débutants, moins bondé que la plage du village. Le refuge des Lisboètes quand Comporta est prise d'assaut.",
     "image": null,
     "price": {
       "range": "Parking ~3 €",
@@ -1738,7 +1738,7 @@
     ],
     "tier": null,
     "name": "O Retiro do Pescador",
-    "blurb": "La plus locale des tables de Sagres — portions généreuses, cataplana de poisson légendaire dans la casserole de cuivre, fréquentée par les pêcheurs du port de Baleeira, la question simple : qu'est-ce qui est frais aujourd'hui (~CAD 23–36/pers).",
+    "blurb": "Frango no churrasco à emporter, poisson grillé, cataplana — table sans chichi, carte qui suit la pêche du jour (~CAD 23–36/pers).",
     "signature": "Cataplana de peixe (dorade, palourdes, tomates, coriandre, vin blanc)",
     "image": null,
     "price": {
@@ -1879,7 +1879,7 @@
     ],
     "tier": null,
     "name": "Praia do Tonel",
-    "blurb": "La plage de Sagres exposée plein ouest — falaises ocre qui tombent dans l'eau turquoise sauvage, vagues spectaculaires pour les surfeurs, lever de soleil en silence complet, pas une plage de bain calme mais une plage de contemplation pure.",
+    "blurb": "La plage de Sagres ouverte à l'Atlantique — falaises ocre qui tombent dans l'eau turquoise sauvage, vagues spectaculaires pour les surfeurs, lever de soleil en silence complet, pas une plage de bain calme mais une plage de contemplation pure.",
     "image": null,
     "price": {
       "range": "Gratuit",
@@ -1927,7 +1927,7 @@
     ],
     "tier": null,
     "name": "Praia da Marinha",
-    "blurb": "La plus photographiée de l'Algarve et méritée — arches de calcaire doré, eau turquoise, criques à explorer à marée basse, kayak et SUP pour les grottes marines ; arriver avant 9h ou après 17h pour ne pas se battre pour un mètre carré de sable.",
+    "blurb": "Arches de calcaire doré qui plongent dans l'eau turquoise — un tableau qui mérite sa réputation. Arriver avant 9h ou après 17h : le parking sature vite.",
     "image": null,
     "price": {
       "range": "Parking ~2–3 €/h",
@@ -1976,7 +1976,7 @@
     ],
     "tier": null,
     "name": "Ponta da Piedade — Kayak tôt matin",
-    "blurb": "Les arches de calcaire doré de Lagos en kayak à 9h — eau calme, zéro bateaux à moteur, lumière oblique qui filtre dans les grottes ; booker 1-2 semaines à l'avance en juin pour le slot matin, le plus beau moment du séjour en Algarve (~CAD 40–57/pers).",
+    "blurb": "Les arches de grès doré de Lagos en kayak tôt le matin — eau calme, zéro bateaux à moteur, lumière oblique qui filtre dans les grottes ; booker 1-2 semaines à l'avance en juin pour le slot matin, le plus beau moment du séjour en Algarve (~CAD 40–57/pers).",
     "image": null,
     "price": {
       "range": "~25–35 €/pers",
