@@ -10,10 +10,15 @@
 - ✅ **Dates de sources Porto corrigées** (19 étaient en année nue → schéma exige `YYYY-MM`). Workflow de récup (19 fetches) : 12 vrais mois (dont 6 années provenance erronées corrigées : Portugal Confidential = nov. 2021 pas 2024 ; Portoalities/tripas = oct. 2019 pas 2025 ; etc.), 6 evergreen/officielles → date d'accès `2026-06`, 1 (**Walk Trek Travel**, bot-bloqué) **droppé** → São Pedro da Afurada en `singleSourceTrusted` sur Portoalities (juil. 2016).
 - ✅ **5 épisodes** (Porto `496c61a` + 4 autres `76abcd8`), **36 images vision-check 36/36** (`1b6316f`), **landmask + validate-geo 41/41** (`289e4d8`).
 
-**PROCHAIN MORCEAU — Checkpoint 3 (décision Martin, après le break) :**
-1. ⚠️ **Vérif rendu iPhone Safari** d'abord (`/portugal/` + 1-2 épisodes) — pinchtab = Chromium, pas Safari (mémoire `verif-ios-simulateur-xcode`). Vérifier que les `story` s'affichent bien dans les fiches/carnet.
-2. Sur GO → **merge `portugal-episode` → `main`** (⚠️ `main` auto-deploie) → CI verte → live **`chartrandapps.ca/portugal/`**.
-3. Sync Obsidian (`Voyage-Portugal-2027-Duo.md` + ce handoff) + jalon T-3 mois.
+**✅ Affichage des récits + reconciliation blurbs FAIT (commit `0caf70b`) :**
+- Feature B : les `story` s'affichent au carnet via dépliable « le récit » + sources cliquables (`CarnetSection` partagé → allume aussi Crète/Philippines/Andalousie : 1 toggle par story scellée, Cyclades 0 car pas de story). `<details>` natif zéro-JS.
+- Reconciliation : rendre les stories a révélé que les **blurbs** (jamais vérifiés) contredisaient les récits → workflow Sonnet 2 étages sur les 46 fixable, 42 blurbs corrigés (prix CAD préservés). gomes vérifié OUVERT (faux positif RestaurantGuru) → story+blurb réécrits main. validate:fast 0 · build 0 · 0 langage méta dans dist.
+
+**PROCHAIN MORCEAU — Checkpoint 3 (décision Martin) :**
+1. ⚠️ **Vérif rendu iPhone Safari** (`/portugal/` + 1-2 épisodes, **mode carnet**) — pinchtab = Chromium (+ son eval est cassé), pas Safari (mémoire `verif-ios-simulateur-xcode`). Vérifier : le dépliable « le récit » s'ouvre/ferme propre, prose + sources lisibles, blurbs corrigés (ex JAM Porto = « bibliothèque de vinyles », plus « piscine »).
+2. ⚠️ **Bonus à surveiller** : le merge allumera les récits des 4 voyages PROD aussi (Crète 3, Philippines 92, Andalousie 3). Build vert sur les 5 confirmé local, mais jeter un œil au rendu prod après deploy.
+3. Sur GO → **merge `portugal-episode` → `main`** (⚠️ `main` auto-deploie) → CI verte → live **`chartrandapps.ca/portugal/`**.
+4. Sync Obsidian (`Voyage-Portugal-2027-Duo.md` + ce handoff) + jalon T-3 mois.
 
 Single-source noté : Sueste/Ferragudo = REJETÉ à la vérif (Portugal Resident 403). Ferragudo le village a sa provenance ailleurs.
 
