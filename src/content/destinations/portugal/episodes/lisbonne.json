@@ -1,0 +1,147 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée dans la capitale",
+      "body": "Quatre heures de train depuis le Douro et on débarque à Lisbonne : sept collines, des tramways jaunes qui grincent dans les virages, des façades d'azulejos et le Tage large comme une mer. C'est la grande ville du voyage — mais on n'y vient pas pour les monuments. On y vient pour les tascas de quartier, les fruits de mer d'une cervejaria, et la mer qu'on rejoint en train de banlieue l'après-midi. Sept nuits pour rayonner sans se presser.",
+      "focusPoi": "lisbonne-senhora-do-monte",
+      "zoom": 13,
+      "targets": ["lisbonne-senhora-do-monte", "lisbonne-ramiro"],
+      "thumb": "lisbonne-cover",
+      "thumbAlt": "Les toits de tuiles orange de Lisbonne étagés sur les collines au coucher du soleil, le château et le Tage au loin.",
+      "poiRef": "lisbonne-senhora-do-monte",
+      "sources": [
+        { "creator": "Maps — Miradouro da Senhora do Monte, Lisbonne", "url": "https://www.google.com/maps/search/Miradouro+da+Senhora+do+Monte+Lisboa", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme de Lisbonne",
+      "body": "On dort à Mouraria ou Alfama, les vieux quartiers en pente, jamais dans le Baixa à touristes. Le matin, un pastel de nata et un café court ; à pied dans les ruelles, le tram 28 qu'on laisse passer bondé. L'après-midi, soit un miradouro, soit le train vers la mer. Et le soir, les tascas. La journée se découpe simple : la table, la colline, l'eau — et le fado qu'on croise sans le chercher.",
+      "focusPoi": "lisbonne-cascais",
+      "zoom": 10,
+      "targets": ["lisbonne-cascais", "lisbonne-ramiro"],
+      "thumb": "lisbonne-tram",
+      "thumbAlt": "Un tramway jaune historique numéro 28 descendant une ruelle étroite de Lisbonne bordée de façades anciennes.",
+      "poiRef": "lisbonne-senhora-do-monte",
+      "sources": [
+        { "creator": "Maps — Cascais depuis Lisbonne", "url": "https://www.google.com/maps/dir/Lisbon/Cascais", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-ramiro",
+      "kicker": "Cervejaria Ramiro · LE TEMPLE",
+      "title": "Les fruits de mer au poids, et un prego pour finir",
+      "image": "lisbonne-ramiro",
+      "alt": "Un plateau de fruits de mer dans une cervejaria : grosses crevettes rouges, palourdes et crustacés, avec du citron et du pain.",
+      "intro": "Ramiro, c'est l'institution des fruits de mer de Lisbonne — une cervejaria bruyante et lumineuse où l'on commande au poids ce qui est arrivé du jour. Les carabineiros, ces grosses crevettes écarlates qu'on suce jusqu'à la tête, les palourdes à bulhão pato noyées d'ail et de coriandre, les percebes, les navalheiras. Pas de chichi, des nappes en papier, et une foule de Lisboètes autant que de voyageurs avertis. Anthony Bourdain y est passé ; ça n'a rien gâché, mais ça reste vrai.",
+      "reco": "On commande progressivement, au fil de la faim : un plat de palourdes pour commencer, puis les gambas, puis ce que le serveur recommande d'aujourd'hui. Et la tradition, c'est de finir par un prego no pão — un petit sandwich au steak à l'ail — pour saucer la bière. Réserver ou venir tôt (fermé le lundi), parce que la file est réelle. C'est gras de beurre d'ail, c'est joyeux, c'est exactement pourquoi on traverse l'océan.",
+      "quote": "On suce la tête des carabineiros, on sauce l'ail avec le pain, on commande encore une bière : chez Ramiro, manger des fruits de mer redevient un sport de contact.",
+      "via": null,
+      "poiRef": "lisbonne-ramiro",
+      "sources": [
+        { "creator": "Cervejaria Ramiro — site officiel", "url": "https://www.cervejariaramiro.com/", "date": "2026-06" },
+        { "creator": "Mark Wiens — Lisbon seafood (Ramiro)", "url": "https://www.youtube.com/watch?v=Nz5KvY1Jq3Y", "date": "2024-03" }
+      ]
+    },
+    {
+      "id": "scene-tasca",
+      "kicker": "Mouraria · LES TASCAS",
+      "title": "Le bacalhau et la grillade de quartier",
+      "image": "lisbonne-tasca",
+      "alt": "Un plat de morue (bacalhau) avec pommes de terre et chou dans une petite taverne, sur une nappe à carreaux.",
+      "intro": "Le vrai repas lisboète se prend dans une tasca : une salle minuscule, une dizaine de tables, un patron qui crie la commande en cuisine. Zé da Mouraria sert le bacalhau à minhota — la morue avec ses oignons et ses pommes de terre — dans une de ces salles sans prétention de Mouraria. Zé dos Cornos, deux rues plus loin, grille les travers de porc sur charbon, nappe en papier, vin de la maison au pichet. C'est la cuisine de tous les jours, celle qu'on ne trouve pas dans les guides en six langues.",
+      "reco": "Le bacalhau sous une de ses mille formes, ou les grillades sur charbon, avec le vinho da casa en pichet (3-4 € le demi-litre, souvent excellent). Midi, c'est plein d'ouvriers et de bureaux du coin — c'est bon signe. On y va sans réserver mais tôt, et on accepte de partager une table. La règle d'or de Lisbonne tient en une phrase : plus le menu est traduit, moins c'est bon.",
+      "quote": "Une tasca pleine d'habitués qui parlent fort, une morue qui sort de la cuisine, un pichet de rouge : c'est là que Lisbonne se mange vraiment.",
+      "via": null,
+      "poiRef": "lisbonne-ze-da-mouraria",
+      "sources": [
+        { "creator": "Maps — Zé da Mouraria, Lisbonne", "url": "https://www.google.com/maps/search/Ze+da+Mouraria+Lisboa", "date": "2026-06" },
+        { "creator": "Olá Daniela — Lisbon tascas guide", "url": "https://www.oladaniela.com/where-to-eat-lisbon/", "date": "2026-01" }
+      ]
+    },
+    {
+      "id": "scene-bifana",
+      "kicker": "O Afonso · LE COMPTOIR",
+      "title": "La bifana avalée debout",
+      "image": "lisbonne-bifana",
+      "alt": "Une bifana — sandwich portugais au filet de porc mariné dans un petit pain — tenue à la main, simple et sans garniture.",
+      "intro": "La bifana, c'est le casse-croûte national : du filet de porc mariné à l'ail et au paprika, mijoté dans son jus, glissé dans un petit pain qui boit la sauce. Rien d'autre — pas de fromage, pas de salade. As Bifanas do Afonso, un comptoir minuscule du centre, en fait une des meilleures de la ville : on la mange debout, en deux minutes, avec une moutarde ou un piri piri, et on repart. C'est le lunch lisboète dans sa forme la plus pure et la moins chère.",
+      "reco": "Une bifana, debout au comptoir, avec un trait de moutarde et une bière ou un jus d'orange frais. Deux ou trois euros, et c'est tout. C'est le genre de bouchée qu'on enchaîne entre deux miradouros, sans s'asseoir, sans réfléchir. Le contraire exact d'un repas — et parfois exactement ce qu'on veut.",
+      "quote": "Deux euros, deux minutes, debout : la bifana, c'est la preuve qu'un grand moment de bouffe n'a pas besoin de table.",
+      "via": null,
+      "pills": [
+        { "label": "As Bifanas do Afonso · Maps", "url": "https://www.google.com/maps/search/As+Bifanas+do+Afonso+Lisboa" }
+      ],
+      "sources": [
+        { "creator": "Maps — As Bifanas do Afonso, Lisbonne", "url": "https://www.google.com/maps/search/As+Bifanas+do+Afonso+Lisboa", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-pastel",
+      "kicker": "Belém · LA DOUCEUR",
+      "title": "Le pastel de nata, tiède et saupoudré",
+      "image": "lisbonne-pastel",
+      "alt": "Des pastéis de nata — petites tartelettes à la crème à la pâte feuilletée dorée et caramélisée sur le dessus.",
+      "intro": "Le pastel de nata est né juste à côté, au monastère des Hiéronymites de Belém, où les moines utilisaient le blanc d'œuf pour amidonner leurs habits et le jaune pour faire des pâtisseries. La recette de Belém est secrète depuis 1837 ; partout ailleurs on l'appelle pastel de nata, et les Lisboètes débattent sans fin de la meilleure adresse. Pâte feuilletée croustillante, crème vanillée tremblante, surface caramélisée au four très chaud, cannelle et sucre glace par-dessus.",
+      "reco": "Tiède, c'est la règle — jamais froid. Aux Pastéis de Belém pour l'original et la file (ça vaut le coup une fois), ou à la Manteigaria du centre, où on les voit sortir du four toute la journée. Un café court (bica) avec, debout au comptoir, et un nuage de cannelle. C'est le petit-déjeuner, le goûter, et la consolation de fin de soirée — souvent les trois.",
+      "quote": "Un pastel de nata tiède sous un nuage de cannelle, debout au comptoir avec une bica : le geste lisboète parfait, à répéter trois fois par jour.",
+      "via": null,
+      "pills": [
+        { "label": "Pastéis de Belém · Maps", "url": "https://www.google.com/maps/search/Pasteis+de+Belem+Lisboa" }
+      ],
+      "sources": [
+        { "creator": "Maps — Pastéis de Belém, Lisbonne", "url": "https://www.google.com/maps/search/Pasteis+de+Belem+Lisboa", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-eau",
+      "kicker": "Cascais & Sesimbra · L'EAU",
+      "title": "La mer à un train de banlieue",
+      "image": "lisbonne-cascais",
+      "alt": "La côte de Cascais près de Lisbonne : plage de sable dans une baie, eau bleue de l'Atlantique et bâtiments pâles en bord de mer.",
+      "intro": "Lisbonne est posée sur l'eau, et la mer est à portée de billet de train. La ligne littorale file depuis Cais do Sodré jusqu'à Cascais en quarante minutes, longeant l'estuaire puis l'océan — plages de l'Estoril, baie de Cascais, et la côte sauvage plus loin vers Guincho. De l'autre côté du Tage, Sesimbra offre une baie plus chaude et abritée avec son poisson grillé sur le port, et Setúbal son choco frito et le traversier vers les plages de Tróia.",
+      "reco": "Cascais en train pour une journée plage + déjeuner de poisson (l'eau est fraîche, ~17°C — on trempe plus qu'on ne nage). Mieux pour se baigner : Sesimbra, baie protégée et plus chaude, ou un saut à Setúbal pour le choco frito (la seiche frite locale) avant le traversier de Tróia. Le truc, c'est qu'on n'a pas à choisir entre la ville et la mer — on a les deux dans la même journée.",
+      "quote": "Manger des fruits de mer le midi au bord de l'Atlantique et être de retour dans une tasca de Mouraria le soir : voilà le luxe discret de Lisbonne.",
+      "via": null,
+      "poiRef": "lisbonne-cascais",
+      "sources": [
+        { "creator": "Maps — Cascais", "url": "https://www.google.com/maps/search/Cascais+Portugal+beach", "date": "2026-06" },
+        { "creator": "Maps — Sesimbra & Setúbal", "url": "https://www.google.com/maps/search/Sesimbra+Portugal", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de filer vers Comporta : une ginjinha avalée debout dans un comptoir grand comme un placard, et tout ce que sept nuits n'ont pas suffi à couvrir — la Feira da Ladra, le marché aux puces du mardi et samedi ; le jardin du Príncipe Real sous son ficus bicentenaire ; Cantinho do Aziz et son curry de crabe mozambicain dans Mouraria ; Sintra pour les queijadas et les travesseiros (et les palais en décor). Le carnet a les tascas, les miradouros, les liens et le budget complet.",
+      "boundsPois": ["lisbonne-ramiro", "lisbonne-senhora-do-monte", "lisbonne-cascais"],
+      "targets": ["lisbonne-senhora-do-monte"],
+      "thumb": "lisbonne-tram",
+      "thumbAlt": "Un tramway jaune historique numéro 28 descendant une ruelle étroite de Lisbonne bordée de façades anciennes.",
+      "pills": [
+        { "poiRef": "lisbonne-senhora-do-monte", "link": "maps", "label": "Senhora do Monte · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Maps — Feira da Ladra, Lisbonne", "url": "https://www.google.com/maps/search/Feira+da+Ladra+Lisboa", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Alfama, Mouraria ou Graça — les quartiers vivants en pente, pas le Baixa à touristes. Solar dos Mouros à Alfama, vue sur le Tage. Peu de chambres dans les bons coins : réserver tôt." },
+      { "label": "À table", "kinds": ["resto"], "footer": "Les fruits de mer au poids de Ramiro, le bacalhau de Zé da Mouraria, les grillades de Zé dos Cornos, la bifana debout chez Afonso, l'ardoise d'O Velho Eurico (réserver). Le menu en six langues, jamais." },
+      { "label": "L'eau & les escapades", "kinds": ["plage"], "footer": "Cascais par le train littoral (eau fraîche), Sesimbra pour une baie plus chaude et abritée, Setúbal pour le choco frito et le traversier de Tróia." },
+      { "label": "Les points de vue", "kinds": ["sight"], "footer": "Le miradouro da Senhora do Monte, le plus haut et le moins couru, pour les sept collines à l'heure dorée." }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites de Lisbonne"
+  },
+  "outro": {
+    "kicker": "La capitale est dans les jambes",
+    "body": "Sept nuits à monter et descendre les collines, entre les fruits de mer de Ramiro, les tascas de Mouraria, les pastéis tièdes et la mer à un train de banlieue. Les {count} lieux de Lisbonne — tascas, miradouros, plages — vivent dans le carnet, avec leurs liens, leurs prix et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochaine base : Comporta, les plages sauvages que les Lisboètes se gardent, à une heure de route vers le sud.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/portugal/"
+  }
+}

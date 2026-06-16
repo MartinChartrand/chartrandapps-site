@@ -90,25 +90,29 @@
         "base": "douro",
         "kicker": "Chapitre 2 · 3 nuits",
         "title": "Le vin à la source, les pieds dans les terrasses",
-        "teaser": "Trois nuits dans une quinta accrochée au fleuve : le porto dégusté là où il naît, le cabrito au four d'un village, les cerises en pleine saison. On ne défait pas les valises, on contemple."
+        "teaser": "Trois nuits dans une quinta accrochée au fleuve : le porto dégusté là où il naît, le cabrito au four d'un village, les cerises en pleine saison. On ne défait pas les valises, on contemple.",
+        "image": "douro-cover"
       },
       {
         "base": "lisbonne",
         "kicker": "Chapitre 3 · 7 nuits",
         "title": "Les tascas, le poisson, sept collines",
-        "teaser": "Les fruits de mer d'une cervejaria, la bifana avalée debout, les pastéis à la sortie du four — et l'eau jamais loin : Sesimbra, Setúbal et son choco frito à un train de banlieue."
+        "teaser": "Les fruits de mer d'une cervejaria, la bifana avalée debout, les pastéis à la sortie du four — et l'eau jamais loin : Sesimbra, Setúbal et son choco frito à un train de banlieue.",
+        "image": "lisbonne-cover"
       },
       {
         "base": "comporta",
         "kicker": "Chapitre 4 · 5 nuits",
         "title": "Les plages que les Lisboètes se gardent",
-        "teaser": "Du sable sauvage à perte de vue derrière les rizières et les pins, le porc noir et les palourdes à la table des habitués, le vin de l'Alentejo. Le slow, version chic-décontractée."
+        "teaser": "Du sable sauvage à perte de vue derrière les rizières et les pins, le porc noir et les palourdes à la table des habitués, le vin de l'Alentejo. Le slow, version chic-décontractée.",
+        "image": "comporta-cover"
       },
       {
         "base": "algarve",
         "kicker": "Chapitre 5 · 10 nuits",
         "title": "Les criques turquoise, le slow finish",
-        "teaser": "De Sagres la sauvage aux falaises ocre de Lagos, la cataplana et les percebes face à la mer, l'eau cristalline des criques où on arrive en kayak avant les bateaux. On finit les pieds dans l'eau."
+        "teaser": "De Sagres la sauvage aux falaises ocre de Lagos, la cataplana et les percebes face à la mer, l'eau cristalline des criques où on arrive en kayak avant les bateaux. On finit les pieds dans l'eau.",
+        "image": "algarve-cover"
       }
     ]
   }

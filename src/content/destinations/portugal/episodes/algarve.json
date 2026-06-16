@@ -1,0 +1,141 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée par la côte",
+      "body": "Deux heures de route depuis Comporta et on atteint l'Algarve de l'ouest — pas celui des resorts et du béton, à l'est, mais le sauvage : les falaises ocre qui tombent dans une eau turquoise, les villages de pêcheurs, le vent de l'Atlantique. C'est la dernière base, dix nuits, le slow finish du voyage. On la fait en deux temps : Sagres et le bout du monde d'abord, puis Lagos et la côte des criques. Les pieds dans l'eau, du lever au coucher.",
+      "focusPoi": "algarve-praia-marinha",
+      "zoom": 11,
+      "targets": ["algarve-praia-marinha", "algarve-cabo-sao-vicente"],
+      "thumb": "algarve-cover",
+      "thumbAlt": "La côte de l'Algarve de l'ouest : falaises de calcaire doré découpées en criques, eau turquoise et plages de sable en contrebas.",
+      "poiRef": "algarve-praia-marinha",
+      "sources": [
+        { "creator": "Maps — Algarve de l'ouest (Lagos, Lagoa)", "url": "https://www.google.com/maps/search/Praia+da+Marinha+Algarve", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme de l'Algarve",
+      "body": "La règle, ici, c'est de se lever tôt : les criques les plus belles se vident le matin et se remplissent dès 10h. Alors on se réveille pour être dans l'eau turquoise avant les bateaux, on déjeune de poisson grillé sur un quai, on fait la sieste à l'ombre quand le soleil tape, et on garde les couchers de soleil pour le Cap Saint-Vincent. Dix nuits, deux ancrages, la voiture pour relier les criques — et nulle part où être pressé.",
+      "focusPoi": "algarve-cabo-sao-vicente",
+      "zoom": 11,
+      "targets": ["algarve-cabo-sao-vicente", "algarve-praia-tonel"],
+      "thumb": "algarve-tonel",
+      "thumbAlt": "La plage sauvage de Praia do Tonel à Sagres, exposée à l'Atlantique, encadrée de falaises ocre, avec des vagues et quelques surfeurs.",
+      "poiRef": "algarve-cabo-sao-vicente",
+      "sources": [
+        { "creator": "Maps — Praia do Tonel, Sagres", "url": "https://www.google.com/maps/search/Praia+do+Tonel+Sagres", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-cabo",
+      "kicker": "Cabo de São Vicente · LE BOUT DU MONDE",
+      "title": "Le dernier coucher de soleil d'Europe",
+      "image": "algarve-cabo",
+      "alt": "Le Cabo de São Vicente : un phare au sommet de hautes falaises ocre battues par l'Atlantique, au coucher du soleil, à la pointe sud-ouest de l'Europe.",
+      "intro": "À la pointe sud-ouest du continent, là où la terre s'arrête, le Cabo de São Vicente plonge dans l'Atlantique du haut de ses falaises rouges. Pour les marins de l'Antiquité, c'était la fin du monde connu, un cap sacré. Aujourd'hui, c'est le bout de l'Algarve sauvage : un phare, le vent, et l'océan ouvert jusqu'aux Amériques. Juste à côté, Praia do Tonel, plage de surf exposée plein ouest, pour ceux qui aiment l'Atlantique brut.",
+      "reco": "Y aller pour le coucher du soleil — c'est le plus à l'ouest qu'on puisse le regarder tomber en Europe, et la foule se disperse vite après. Un pull, parce que le vent du cap est réel même en juin. Le matin, Tonel pour le sauvage et la lumière rasante sur les falaises. C'est le décor le plus dramatique du voyage : pas une plage de baignade, une plage de contemplation.",
+      "quote": "Regarder le dernier soleil d'Europe tomber dans l'Atlantique depuis une falaise rouge battue par le vent : on ne pouvait pas commencer la fin du voyage autrement.",
+      "via": null,
+      "poiRef": "algarve-cabo-sao-vicente",
+      "sources": [
+        { "creator": "Maps — Cabo de São Vicente, Sagres", "url": "https://www.google.com/maps/search/Cabo+de+Sao+Vicente+Sagres", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-cataplana",
+      "kicker": "Sagres & Lagos · LA MER À TABLE",
+      "title": "La cataplana et les percebes",
+      "image": "algarve-cataplana",
+      "alt": "Une cataplana de fruits de mer ouverte sur la table : poisson, palourdes et crevettes dans une sauce tomate, cuits dans une marmite de cuivre.",
+      "intro": "La cuisine de l'Algarve, c'est la mer et le cuivre. La cataplana — du nom de la marmite de cuivre en forme de coquillage dans laquelle elle mijote — réunit le poisson, les palourdes, la tomate et l'ail dans une vapeur parfumée qu'on ouvre à table. À Sagres, O Retiro do Pescador la fait à la façon des pêcheurs. Et il y a les percebes, ces pousse-pieds arrachés aux rochers battus par les vagues de la Costa Vicentina — chers, étranges, iodés, et payés cash à la Cervejaria Ferradura de Lagos.",
+      "reco": "Une cataplana de peixe pour deux à Sagres (ça arrive fermé, on l'ouvre à table, c'est tout le théâtre). Les percebes au moins une fois — on tire la peau, on aspire la chair, ça goûte l'océan pur. Un vinho verde ou un blanc de l'Algarve. Et le poisson du jour pointé du doigt au marché de Lagos, grillé simplement. La mer décide du menu, on suit.",
+      "quote": "On ouvre la cataplana à table et la vapeur de tomate, d'ail et de mer monte d'un coup : c'est l'Algarve qui se mange, droit sorti du cuivre.",
+      "via": null,
+      "poiRef": "algarve-retiro-pescador",
+      "sources": [
+        { "creator": "Maps — O Retiro do Pescador, Sagres", "url": "https://www.google.com/maps/search/O+Retiro+do+Pescador+Sagres", "date": "2026-06" },
+        { "creator": "Olá Daniela — Algarve food guide", "url": "https://www.oladaniela.com/algarve-portugal/", "date": "2025-07" }
+      ]
+    },
+    {
+      "id": "scene-criques",
+      "kicker": "Praia da Marinha · LE TURQUOISE",
+      "title": "L'eau cristalline avant les bateaux",
+      "image": "algarve-criques",
+      "alt": "Praia da Marinha : une crique d'eau turquoise translucide encadrée de falaises de calcaire doré, avec des arches rocheuses et une petite plage de sable.",
+      "intro": "C'est pour ça qu'on est descendus jusqu'ici. Praia da Marinha, la plus photographiée de l'Algarve et pour une fois c'est mérité : des falaises de calcaire doré, des arches sculptées par la mer, et une eau turquoise si claire qu'on voit le fond. À marée basse, on explore les criques voisines à pied. C'est la carte postale rendue réelle — à condition d'y être au bon moment, quand la lumière est basse et que la plage est encore à soi.",
+      "reco": "Avant 9h ou après 17h, sans exception : entre les deux, en juin, les parkings sont pleins et le sable est un champ de serviettes. Tôt le matin, l'eau est calme, la lumière dorée, et on a la crique presque pour soi. Des chaussures d'eau pour les rochers, un masque pour regarder sous la surface. C'est le sommet aquatique du voyage — on prend son temps.",
+      "quote": "Une eau turquoise si transparente qu'on hésite à la troubler, des falaises dorées tout autour, et personne avant neuf heures : Praia da Marinha tient sa promesse.",
+      "via": null,
+      "poiRef": "algarve-praia-marinha",
+      "sources": [
+        { "creator": "Maps — Praia da Marinha, Lagoa", "url": "https://www.google.com/maps/search/Praia+da+Marinha+Algarve", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-kayak",
+      "kicker": "Ponta da Piedade · LE KAYAK",
+      "title": "Dans les grottes dorées, à la pagaie",
+      "image": "algarve-kayak",
+      "alt": "Les arches et grottes de calcaire doré de Ponta da Piedade à Lagos, avec des kayaks sur une eau turquoise calme.",
+      "intro": "À Lagos, Ponta da Piedade est un labyrinthe d'arches, de grottes et de piliers de calcaire doré qui s'avancent dans la mer — parmi les côtes les plus photographiées du monde. Mais la vraie expérience, c'est à ras de l'eau : en kayak ou en SUP, tôt le matin, quand la mer est lisse comme une huile et que la lumière entre oblique dans les grottes. Avant 10h, zéro bateau à moteur, juste le bruit des pagaies et l'écho dans les cavités.",
+      "reco": "Un tour guidé en kayak au départ de 9h (à réserver une à deux semaines à l'avance en juin) — c'est obligatoire pour accéder aux grottes intérieures, et ça vaut chaque euro. On descend ensuite les 200 marches de bois jusqu'à Praia do Camilo voisine, une crique turquoise au fond d'un escalier vertigineux. La matinée parfaite de l'Algarve tient là-dedans.",
+      "quote": "Pagayer dans une grotte dorée à l'aube, seul avec l'écho de l'eau, avant que les bateaux à moteur ne réveillent la côte : ça, on ne l'oublie pas.",
+      "via": null,
+      "poiRef": "algarve-ponta-piedade-kayak",
+      "sources": [
+        { "creator": "Maps — Ponta da Piedade, Lagos", "url": "https://www.google.com/maps/search/Ponta+da+Piedade+Lagos", "date": "2026-06" },
+        { "creator": "Olá Daniela — Lagos & Ponta da Piedade", "url": "https://www.oladaniela.com/lagos-algarve/", "date": "2025-07" }
+      ]
+    },
+    {
+      "id": "scene-ferragudo",
+      "kicker": "Ferragudo · LE SLOW FINISH",
+      "title": "Le village que Portimão a oublié",
+      "image": "algarve-ferragudo",
+      "alt": "Le village de pêcheurs de Ferragudo : maisons blanches aux touches colorées descendant vers un port avec des barques de pêche colorées.",
+      "intro": "Les derniers jours ralentissent pour de bon. En face de Portimão et de ses tours, Ferragudo est resté ce qu'il était : un village de pêcheurs aux maisons blanches qui dégringolent vers le port, des ruelles pavées, des barques colorées, et des grilladeries où le poisson cuit sur le quai. C'est l'anti-resort, le contraire exact de l'Algarve des cartes postales bétonnées — et c'est exactement là qu'on veut finir le voyage.",
+      "reco": "Le poisson grillé sur le quai, pointé du doigt selon l'arrivage — les grilladeries de Ferragudo comme le Sueste en font la spécialité (à recroiser sur place, c'est le genre d'adresse qui change). Une fin d'après-midi à flâner dans les ruelles blanches, un dernier medronho (l'eau-de-vie d'arbouse de l'arrière-pays), et le coucher de soleil sur le port. Salema, plus à l'ouest, est l'autre village qui a résisté, si on veut doubler la dose.",
+      "quote": "Un village de pêcheurs blanc qui dégringole vers ses barques, du poisson sur le gril du quai, un dernier medronho : c'est la fin de voyage qu'on s'était promise.",
+      "via": null,
+      "poiRef": "algarve-sueste-ferragudo",
+      "sources": [
+        { "creator": "Maps — Ferragudo, Algarve", "url": "https://www.google.com/maps/search/Ferragudo+Algarve", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Pour finir le voyage : un dom rodrigo (la douceur algarvienne aux fils d'œuf et à l'amande) et un dernier medronho. Et ce que dix nuits n'ont pas suffi à épuiser — Praia do Carvalho, la crique cachée qu'on rejoint par un tunnel dans la falaise ; Salema, le village de pêcheurs qui a résisté ; le sentier de la Rota Vicentina le long des falaises. Le carnet a les criques, les villages, les tables, les liens et le budget complet du voyage.",
+      "boundsPois": ["algarve-cabo-sao-vicente", "algarve-praia-marinha", "algarve-ponta-piedade-kayak"],
+      "targets": ["algarve-praia-marinha"],
+      "thumb": "algarve-percebes",
+      "thumbAlt": "Des percebes (pousse-pieds) cuits, présentés en tas dans une assiette — le crustacé iodé des rochers de la Costa Vicentina.",
+      "pills": [
+        { "poiRef": "algarve-praia-marinha", "link": "maps", "label": "Praia da Marinha · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Maps — Praia do Carvalho & Salema", "url": "https://www.google.com/maps/search/Praia+do+Carvalho+Algarve", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Deux ancrages : Memmo Baleeira à Sagres (vue sur la baie) pour la côte sauvage, puis O Castelo sur la falaise de Carvoeiro pour les criques. Du charme côtier, pas de resort tout-inclus." },
+      { "label": "À table", "kinds": ["resto"], "footer": "La cataplana d'O Retiro do Pescador à Sagres, les percebes cash-only de la Cervejaria Ferradura à Lagos, le poisson grillé sur le quai de Ferragudo (Sueste — à recroiser sur place). Marché de Lagos pour le poisson du jour." },
+      { "label": "Les criques & la côte", "kinds": ["plage", "activity", "sight"], "footer": "Praia da Marinha et Ponta da Piedade en kayak pour le turquoise (avant 9h), Praia do Tonel pour le sauvage, le Cabo de São Vicente pour le dernier coucher de soleil d'Europe." }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites de l'Algarve"
+  },
+  "outro": {
+    "kicker": "Le voyage est dans l'eau",
+    "body": "Dix nuits pour finir les pieds dans le turquoise — le bout du monde au Cap Saint-Vincent, la cataplana à Sagres, les criques de Marinha avant les bateaux, les grottes de Piedade à la pagaie, et le dernier medronho à Ferragudo. Les {count} lieux de l'Algarve — criques, villages, tables — vivent dans le carnet, avec leurs liens, leurs prix et le budget complet du voyage. C'est ici que le mois se termine : le fleuve à Porto, le vin au Douro, les tascas de Lisbonne, le sable de Comporta, et l'eau cristalline pour finir.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/portugal/"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée par les rizières",
+      "body": "Une heure au sud de Lisbonne, le décor bascule d'un coup : les rizières inondées, les pins parasols, les cigognes, et derrière une barrière de dunes, des kilomètres de sable que personne ne garde. Comporta est devenue l'adresse chic des Lisboètes — mais sous le vernis bobo, c'est encore un pays de riziculteurs et de pêcheurs. On vient pour le sable vide et la table généreuse, pas pour les beach clubs. Cinq nuits à ne presque rien faire.",
+      "focusPoi": "comporta-praia-pego",
+      "zoom": 12,
+      "targets": ["comporta-praia-pego", "comporta-cais-carrasqueira"],
+      "thumb": "comporta-cover",
+      "thumbAlt": "Une longue plage de sable sauvage de l'Alentejo bordée de dunes et de pins, l'Atlantique large sous un ciel dégagé.",
+      "poiRef": "comporta-praia-pego",
+      "sources": [
+        { "creator": "Maps — Comporta & Praia do Pego", "url": "https://www.google.com/maps/search/Praia+do+Pego+Comporta", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme de Comporta",
+      "body": "Pas d'horaire ici. Le matin, les rizières dans la lumière rasante ; la journée, une plage qu'on choisit au hasard de la route entre les pins ; le soir, le porc noir et un rouge d'Alentejo dans le village. On roule peu (mais la voiture est indispensable — aucun transport public), on marche pieds nus, on regarde le soleil tomber sur la vasière. C'est le slow dans sa version chic-décontractée, posé entre la ville et la côte sauvage de l'Algarve.",
+      "focusPoi": "comporta-cais-carrasqueira",
+      "zoom": 12,
+      "targets": ["comporta-cais-carrasqueira", "comporta-sao-joao"],
+      "thumb": "comporta-rizieres",
+      "thumbAlt": "Des rizières inondées de Comporta au lever du jour, reflétant le ciel, bordées de pins au loin.",
+      "poiRef": "comporta-cais-carrasqueira",
+      "sources": [
+        { "creator": "Maps — Rizières de Comporta", "url": "https://www.google.com/maps/search/Comporta+rice+fields", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-plage",
+      "kicker": "Pego & Carvalhal · LE SABLE",
+      "title": "Les plages que les Lisboètes se gardent",
+      "image": "comporta-plage",
+      "alt": "Une vaste plage de sable presque déserte de l'Alentejo, bordée de dunes basses et de pins, avec l'océan Atlantique calme.",
+      "intro": "C'est le cœur de Comporta : une barrière de dunes et de pins, et derrière, des kilomètres de sable doré quasi vide. Praia do Pego, Praia do Carvalhal — du sable doux jusqu'à la dune, l'Atlantique large et frais, et personne, ou presque, avant la ruée de juillet. Pas de béton, pas de rangées de transats : juste la plage, comme elle était avant que le reste de l'Algarve ne se construise. Plus au sud, la lagune de Melides et dix kilomètres de sable à Pinheiros Altos pour qui veut être vraiment seul.",
+      "reco": "On plante la serviette où on veut — pas besoin de payer un club. L'eau est fraîche début juin (~18–20°C), bonne pour les courageux, parfaite pour marcher au bord. Le matin tôt ou en fin d'après-midi pour la lumière et le vide. Et entre deux baignades, un déjeuner de poisson grillé dans une paillote de plage simple, les pieds dans le sable.",
+      "quote": "Des kilomètres de sable doré sans une seule rangée de transats : à Comporta, on se souvient de ce qu'était une plage avant qu'on les vende au mètre carré.",
+      "via": null,
+      "poiRef": "comporta-praia-pego",
+      "sources": [
+        { "creator": "Maps — Praia do Carvalhal, Comporta", "url": "https://www.google.com/maps/search/Praia+do+Carvalhal+Comporta", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-table",
+      "kicker": "São João · LA TABLE DES HABITUÉS",
+      "title": "Les palourdes et l'arroz de marisco du village",
+      "image": "comporta-fruits-mer",
+      "alt": "Un arroz de marisco — riz aux fruits de mer avec palourdes, crevettes et coriandre — servi dans une marmite en terre cuite.",
+      "intro": "Comporta a beau être chic, on mange comme à l'Alentejo : généreux et sans manière. Restaurante São João, dans le village, c'est la table des habitués — pas celle du beach club à 40 € la salade. L'arroz de marisco crémeux servi à la marmite pour deux, les palourdes à l'ail (ameijoas), le poisson du jour de l'estuaire. C'est l'adresse où les gens du coin amènent leur famille le dimanche, et ça se goûte.",
+      "reco": "L'arroz de marisco pour deux (ça arrive en marmite, c'est fait pour partager), ou les ameijoas à l'ail et à la coriandre pour commencer. Un vinho verde frais ou un blanc de l'Alentejo. Pour une table de plage plus léchée, Sal et son arroz negro à l'encre de seiche ; pour les petiscos et les vins au verre, Gomes. Mais pour la vérité du coin, c'est São João.",
+      "quote": "Une marmite d'arroz de marisco à partager dans le village, loin des beach clubs : c'est là que Comporta reste fidèle à l'Alentejo.",
+      "via": null,
+      "poiRef": "comporta-sao-joao",
+      "sources": [
+        { "creator": "Maps — Restaurante São João, Comporta", "url": "https://www.google.com/maps/search/Restaurante+Sao+Joao+Comporta", "date": "2026-06" },
+        { "creator": "Espirito da Comporta — guide local", "url": "https://www.espiritodacomporta.pt/en/", "date": "2025-05" }
+      ]
+    },
+    {
+      "id": "scene-porco",
+      "kicker": "L'Alentejo · LE PORC NOIR",
+      "title": "Le porco preto, élevé sous les chênes",
+      "image": "comporta-porco-preto",
+      "alt": "Des tranches de charcuterie de porc noir ibérique (porco preto) et du jambon sur une planche de bois, avec du pain et du vin rouge.",
+      "intro": "Derrière Comporta s'ouvre l'Alentejo, et l'Alentejo, c'est le pays du porco preto — le porc noir ibérique qui court librement dans le montado, ces forêts de chênes-lièges et de chênes verts, en se gorgeant de glands. Sa viande et sa charcuterie ont un goût de noisette que rien d'autre n'égale. On le mange en petiscos (charcuterie, presa, secretos grillés) avec un rouge d'Alentejo charpenté, le genre de vin qui a poussé dans la même plaine que le cochon.",
+      "reco": "Une planche de charcuterie de porco preto pour commencer, puis la presa ou le secreto grillés — les morceaux persillés du cochon noir. Un rouge d'Alentejo (Herdade da Comporta ou un domaine voisin). Et pour finir, la sericaia avec ses prunes d'Elvas. Chez Gomes pour les petiscos et la carte des vins, ou dans n'importe quelle taverne de village de l'arrière-pays.",
+      "quote": "Un cochon qui a passé sa vie à manger des glands sous les chênes-lièges, ça se goûte dans l'assiette : le porco preto, c'est l'Alentejo en une bouchée.",
+      "via": null,
+      "poiRef": "comporta-gomes",
+      "sources": [
+        { "creator": "Maps — Gomes, Comporta", "url": "https://www.google.com/maps/search/Gomes+Comporta+vinhos+petiscos", "date": "2026-06" },
+        { "creator": "Olá Daniela — Alentejo food", "url": "https://www.oladaniela.com/alentejo-portugal/", "date": "2025-09" }
+      ]
+    },
+    {
+      "id": "scene-cais",
+      "kicker": "Carrasqueira · LE DÉCOR",
+      "title": "Le quai de pêcheurs sur pilotis",
+      "image": "comporta-cais",
+      "alt": "Le Cais Palafítico de Carrasqueira : un quai de pêcheurs sur pilotis de bois penchés au-dessus d'une vasière, au coucher du soleil.",
+      "intro": "À quelques minutes de Comporta, le Cais Palafítico de Carrasqueira est l'un des décors les plus étranges du Portugal : un quai de pêcheurs entièrement bâti sur pilotis de bois bruts, penchés et noircis, qui s'avancent au-dessus de la vasière de l'estuaire du Sado. Construit pièce par pièce par les pêcheurs au fil des décennies, il est aujourd'hui classé. Au lever ou au coucher du soleil, quand la marée se retire et que la lumière rase la vase, c'est irréel.",
+      "reco": "Y aller à marée basse, au lever ou au coucher du soleil — c'est là que la lumière fait tout. On marche (prudemment) sur les pontons, on regarde les barques échouées et les pêcheurs qui réparent les filets. C'est gratuit, c'est silencieux, et c'est le genre d'endroit qu'on photographie longtemps sans s'en lasser. Un détour de quinze minutes qui reste.",
+      "quote": "Un quai de bois penché au-dessus de la vase, construit à la main par des générations de pêcheurs : Carrasqueira, c'est le genre de beauté qu'aucun architecte n'aurait osé dessiner.",
+      "via": null,
+      "poiRef": "comporta-cais-carrasqueira",
+      "sources": [
+        { "creator": "Maps — Cais Palafítico da Carrasqueira", "url": "https://www.google.com/maps/search/Cais+Palafitico+da+Carrasqueira", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de filer vers l'Algarve : la sericaia aux prunes d'Elvas, le dessert alentejan, et ce que cinq nuits de farniente n'ont pas couvert — la lagune de Melides, encore plus secrète que Comporta ; les dix kilomètres de sable vide de Pinheiros Altos ; le Museu do Arroz pour l'histoire du riz local ; et une table de plage chic comme Sal pour un soir. Le carnet a les cabanes, les plages, les tables, les liens et le budget complet.",
+      "boundsPois": ["comporta-praia-pego", "comporta-sao-joao", "comporta-cais-carrasqueira"],
+      "targets": ["comporta-praia-pego"],
+      "thumb": "comporta-rizieres",
+      "thumbAlt": "Des rizières inondées de Comporta au lever du jour, reflétant le ciel, bordées de pins au loin.",
+      "pills": [
+        { "poiRef": "comporta-cais-carrasqueira", "link": "maps", "label": "Carrasqueira · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Maps — Lagoa de Melides", "url": "https://www.google.com/maps/search/Lagoa+de+Melides", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Comporta monte vite en juin — viser le village ou Carvalhal. Les cabanes en chaume (Casas de Arroz) pour le charme, l'AlmaLusa pour le confort de village, le B.Hostel Possanco pour le budget dans les rizières." },
+      { "label": "À table", "kinds": ["resto"], "footer": "L'arroz de marisco de São João (la table des habitués), l'arroz negro de Sal (plus chic), les petiscos de porco preto et les vins d'Alentejo de Gomes." },
+      { "label": "Les plages", "kinds": ["plage"], "footer": "Pego et Carvalhal pour le sable et les pins, Pinheiros Altos pour 10 km de sable vide, la lagune de Melides plus au sud pour le secret." },
+      { "label": "Le décor", "kinds": ["sight"], "footer": "Le Cais Palafítico de Carrasqueira, quai de pêcheurs sur pilotis, à marée basse au lever ou au coucher du soleil." }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites de Comporta"
+  },
+  "outro": {
+    "kicker": "Le sable est dans les valises",
+    "body": "Cinq nuits de sable vide, de palourdes au village, de porc noir sous les chênes et de couchers de soleil sur la vasière. Les {count} lieux de Comporta — cabanes, plages, tables — vivent dans le carnet, avec leurs liens, leurs prix et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Dernière base : l'Algarve de l'ouest, les criques turquoise et le slow finish, à deux heures de route vers le sud.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/portugal/"
+  }
+}
