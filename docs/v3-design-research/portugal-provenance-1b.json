@@ -1,0 +1,1513 @@
+{
+  "generatedBy": "workflow portugal-provenance-1b (wf_64157150-0de)",
+  "date": "2026-06-16",
+  "note": "Phase 1b — convergence verifiee adversarialement. approvedBy PAS encore pose (GO Martin requis). A=story prete ; B=sources valides, recit a reecrire (voir note) ; C=rejet (story reste vide).",
+  "ready": [
+    {
+      "id": "porto-abadia-do-porto",
+      "collection": "pois",
+      "base": "porto",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Eating Europe",
+          "url": "https://www.eatingeurope.com/blog/porto-food/",
+          "date": "2024"
+        },
+        {
+          "creator": "Portugal Undiscovered",
+          "url": "https://portugal-undiscovered.com/2024/03/01/the-best-traditional-portuguese-restaurant-in-porto-to-eat-bacalhau/",
+          "date": "2024-03"
+        }
+      ],
+      "story": "Quatre-vingt ans dans une ruelle parallèle à Santa Catarina, recommandée officiellement par la Confraternité Gastronomique des Tripas. Eating Europe décrit la marmite en acier qui arrive directement du feu — les tripas aos feijões blancos, chorizo et bacon qui ont mijoté des heures. Portugal Undiscovered y est revenu en 2024 après un premier passage en 2019 et a retrouvé le même bacalhau à Lagareiro intact. Ce genre de constance se mérite."
+    },
+    {
+      "id": "porto-francesinha",
+      "collection": "dishes",
+      "base": "porto",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Portoalities",
+          "url": "https://portoalities.com/en/what-is-the-secret-of-francesinha/",
+          "date": "2015-10-25"
+        }
+      ],
+      "story": "Née dans les années 1950 d'un émigrant revenu de France avec l'idée du croque-monsieur, la francesinha a muté jusqu'à devenir un sandwich-monument — plusieurs viandes, fromage fondu, œuf et la sauce bière-tomate-piri piri dont chaque maison garde la recette jalousement. Portoalities documente ce que les Portuens eux-mêmes débattent depuis des décennies : quelle version est la vraie. C'est un plat-repas complet, pas une entrée."
+    },
+    {
+      "id": "porto-gem-cedofeita-miguel-bombarda",
+      "collection": "gems",
+      "base": "porto",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Rebel Atlas",
+          "url": "https://rebelatlas.com/destinations/europe/portugal/porto/porto-11-wine-bars-with-character-style-proper-bottles/",
+          "date": "2024"
+        },
+        {
+          "creator": "Viver o Porto (Paula Calheiros)",
+          "url": "https://www.viveroporto.com/2024/02/genuino-bar-um-bar-de-vinhos-naturais-e-boa-comida/",
+          "date": "2024-02-08"
+        }
+      ],
+      "story": "Dans la rue des galeries d'art de Cedofeita, le Genuíno a ouvert au 78 de Miguel Bombarda et est devenu la référence de la nouvelle vague des vins naturels portugais à Porto. Rebel Atlas le cite parmi les 11 meilleurs bars à vins de la ville ; Viver o Porto en a parlé dès l'ouverture en 2024 — menu rotatif, producteurs du Minho et du Douro qu'on ne connaît pas encore. L'après-midi dans les galeries se termine naturellement ici."
+    },
+    {
+      "id": "porto-gem-sao-pedro-afurada",
+      "collection": "gems",
+      "base": "porto",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Portoalities",
+          "url": "https://portoalities.com/en/afurada-the-magic-fishermen-village-just-across-porto/",
+          "date": "2016"
+        },
+        {
+          "creator": "Walk Trek Travel",
+          "url": "https://blog.walktrektravel.com/porto-to-sao-pedro-da-afurada.html",
+          "date": "2021"
+        }
+      ],
+      "story": "De l'autre côté du Douro, le ferry 'Flor de Gás' met quelques minutes depuis Lordelo do Ouro. Portoalities appelle ça 'the magic fishermen village just across Porto' — 17 000 habitants dans 99 hectares, des lignes à linge en travers des ruelles, et des tascas qui servent du poisson grillé sur charbon à huit euros. Walk Trek Travel a tracé le trajet complet. C'est à vingt minutes de Porto et ça ressemble à un film des années 70."
+    },
+    {
+      "id": "douro-quinta-de-la-rosa",
+      "collection": "pois",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Portoalities (Susana Ribeiro)",
+          "url": "https://portoalities.com/en/best-restaurants-douro-valley/",
+          "date": "2020-06-17"
+        },
+        {
+          "creator": "Carol Keller / Winekeller",
+          "url": "https://www.winekeller.com/blog/quinta-de-la-rosa-review",
+          "date": "2023-02-10"
+        }
+      ],
+      "story": "On sait qu'on est dans une vraie quinta familiale dès qu'on traverse la cour pour aller à sa chambre : on passe au milieu des installations actives de vinification, pas d'un lobby en marbre. La Cozinha da Clara, nommée en hommage à la grand-mère britannique de la propriétaire actuelle, est tenue par le chef Pedro Cardoso — formé dans les meilleures tables du Portugal, passé par le Six Senses de Régua. Le menu change selon les saisons et ce que le potager de la quinta produit. On y mange un repas qui justifie à lui seul le détour jusqu'à Pinhão."
+    },
+    {
+      "id": "douro-castas-e-pratos",
+      "collection": "pois",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Portoalities (Sara Riobom)",
+          "url": "https://portoalities.com/en/best-restaurants-douro-valley/",
+          "date": "2020-06-17"
+        },
+        {
+          "creator": "AmsterdamFoodie (Vicky Hampton)",
+          "url": "https://www.amsterdamfoodie.nl/2024/douro-valley-wine-tour-from-porto/",
+          "date": "2024-04-24"
+        }
+      ],
+      "story": "L'ancienne gare ferroviaire de Régua, reconvertie en entrepôt industriel, abrite aujourd'hui la meilleure carte de vins du Douro au verre — 104 pages selon les derniers visiteurs, dont une trentaine de Douro DOC de petits producteurs. On peut explorer les cépages du Cima Corgo verre par verre sans commander de bouteille entière. La cuisine suit : alheiras transmontanas fumées, chevreau au porto qui colle à l'os. Le bon endroit pour comprendre pourquoi le Douro fait autre chose que du porto depuis les années 1990."
+    },
+    {
+      "id": "douro-miradouro-galafura",
+      "collection": "pois",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "PortoNorthPortugal",
+          "url": "https://porto-north-portugal.com/porto-guide/leonardo-galafura-viewpoint-miradouro.html",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Jorge Miguel Matias / JorgeBarefoot",
+          "url": "https://www.jorgebarefoot.com/2024/11/11/sao-leonardo-da-galafura-the-douro-valleys-stunning-viewpoint/",
+          "date": "2024-11-11"
+        }
+      ],
+      "story": "À 640 mètres, la vallée s'ouvre sur des kilomètres de terrasses étagées et le fleuve qui serpente à perte de vue. L'écrivain Miguel Torga, qui revenait ici régulièrement, appelait le Douro «un poème géologique» — une phrase gravée dans la pierre sur le site. Il y a une chapelle, une aire de pique-nique avec des tables en pierre, et souvent personne d'autre. Y aller au coucher du soleil, quand la lumière rasante découpe les ombres des vignes sur le schiste sombre."
+    },
+    {
+      "id": "douro-alheiras-transmontanas",
+      "collection": "dishes",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Catavino.net",
+          "url": "https://catavino.net/alheira-portuguese-sausage/",
+          "date": "2022-01"
+        },
+        {
+          "creator": "Atlas Lisboa (Gloria Dominguez)",
+          "url": "https://www.atlaslisboa.com/the-age-old-tradition-of-alheiras-in-tras-os-montes/",
+          "date": "2022-07-26"
+        }
+      ],
+      "story": "La saucisse jaune de Mirandela est née d'une ruse du XVe siècle : les Juifs portugais convertis de force devaient montrer qu'ils mangeaient du porc comme les chrétiens. Ils ont inventé une saucisse de volaille et de gibier fumée dans la même forme que la saucisse de porc — pour les inquisiteurs, visuellement indifférenciable. Aujourd'hui l'alheira de Mirandela est classée IGP, fumée au bois de chêne et d'olivier. Grillée avec un œuf frit et du chou vert, c'est le déjeuner de l'arrière-pays."
+    },
+    {
+      "id": "douro-gem-en222-route",
+      "collection": "gems",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "PortoNorthPortugal",
+          "url": "https://porto-north-portugal.com/porto-guide/douro-car-drive-tour-n222.html",
+          "date": "2025-01"
+        },
+        {
+          "creator": "TomorrowAlgarve (Lena Strang)",
+          "url": "https://tomorrowalgarve.com/apr-2024-rivers-valleys-and-vineyards-following-route-222/",
+          "date": "2024-04"
+        }
+      ],
+      "story": "La nationale EN-222 entre Régua et Pinhão suit le Douro sur 27 km de vignes en terrasses de schiste, avec exactement 93 virages. En 2015, Avis l'a désignée meilleure route de conduite du monde. En mai, les vignes sont d'un vert intense, les cerisiers fleurissent sur les versants et la lumière de fin d'après-midi rend chaque virage mémorable. On la fait au lever du soleil, à vitesse de promenade, fenêtres ouvertes."
+    },
+    {
+      "id": "douro-gem-pinhao-matin",
+      "collection": "gems",
+      "base": "douro",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "PassionateFoodie (Richard Auffrey)",
+          "url": "https://passionatefoodie.blogspot.com/2023/11/pinhao-railway-station-douro-river.html",
+          "date": "2023-11-08"
+        }
+      ],
+      "story": "La gare de Pinhão a été construite au XIXe siècle, mais ce qu'elle contient date de 1937 : 24 panneaux de 3 047 azulejos peints par J. Oliveira, qui racontent la vendange et le transport du vin sur le fleuve en carreaux bleus et blancs. C'est un musée à ciel ouvert, toujours ouvert, jamais fermé. À 7h du matin, avant que les groupes de croisière arrivent, le brouillard de mai flotte sur le fleuve et les pigeons ont les panneaux pour eux seuls."
+    },
+    {
+      "id": "douro-gem-miradouro-galafura",
+      "collection": "gems",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "PortoNorthPortugal",
+          "url": "https://porto-north-portugal.com/porto-guide/leonardo-galafura-viewpoint-miradouro.html",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Jorge Miguel Matias / JorgeBarefoot",
+          "url": "https://www.jorgebarefoot.com/2024/11/11/sao-leonardo-da-galafura-the-douro-valleys-stunning-viewpoint/",
+          "date": "2024-11-11"
+        }
+      ],
+      "story": "Le belvédère le plus cité par ceux qui reviennent du Douro. Vue plongeante sur le méandre du fleuve entre Régua et Pinhão, les terrasses de schiste de chaque côté, les quintas comme des traits d'encre dans le paysage. L'écrivain Miguel Torga y venait régulièrement et parlait du Douro comme d'«un poème géologique». Il y a une table en pierre, parfois un tracteur qui passe, souvent personne d'autre. Le Douro vu d'en haut, sans guide, sans frais."
+    },
+    {
+      "id": "lisbonne-ze-dos-cornos",
+      "collection": "pois",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Daniela Sunde-Brown — Ola Daniela",
+          "url": "https://oladaniela.com/food-guide-lisbon/",
+          "date": "2026-04-16"
+        },
+        {
+          "creator": "Tiago Pais — Culinary Backstreets",
+          "url": "https://culinarybackstreets.com/cities-category/lisbon/2018/tasca-tables-6",
+          "date": "2018-03-07"
+        }
+      ],
+      "story": "Beco dos Surradores, une ruelle en pente qui descend vers Mouraria : carrelage aux murs, nappes en papier, foot à la télé et les côtes de porc — le piano — qui crépitent sur le charbon de bois. João Ferreira a repris la maison de famille en 2013 avec un seul mandat : ne rien changer. On vient ici le midi en semaine ou le vendredi soir pour manger des travers de porc grillés qui ne cherchent pas à être photographiés. C'est le genre d'endroit où la file dehors est un signe de santé, pas d'hype."
+    },
+    {
+      "id": "lisbonne-bifanas-afonso",
+      "collection": "pois",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Valter Leandro — Lisboa Secreta",
+          "url": "https://lisboasecreta.co/as-bifanas-do-afonso/",
+          "date": "2024-01-25"
+        }
+      ],
+      "story": "Rua da Madalena 146, un comptoir où cinq personnes se serrent déjà à l'étroit. Le porc mijote toute la journée dans l'ail, le paprika et la banha — gras juste assez, fondu juste assez — avant de glisser dans un papo-seco chaud. On mange debout, dehors sur le trottoir ou sur un banc voisin, on s'essuie les mains sur du papier. Trois euros cinquante. Ça ferme quand il n'y en a plus."
+    },
+    {
+      "id": "lisbonne-velho-eurico",
+      "collection": "pois",
+      "base": "lisbonne",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Rita Geraldes — The Infatuation",
+          "url": "https://www.theinfatuation.com/lisbon/reviews/o-velho-eurico",
+          "date": "2023-07-24"
+        },
+        {
+          "creator": "Daniela Sunde-Brown — Ola Daniela",
+          "url": "https://oladaniela.com/food-guide-lisbon/",
+          "date": "2026-04-16"
+        }
+      ],
+      "story": "Largo de São Cristóvão, quelques tables, pas de logo en vitrine, musique rock portugaise à l'intérieur. L'ardoise change chaque jour selon ce qui est beau au marché — croquettes d'agneau, chambão sandwich, empanada de leitão. On réserve des semaines à l'avance ou on arrive à l'ouverture en espérant. C'est la cuisine de quartier qu'Alfama défend sans avoir besoin de la vanter."
+    },
+    {
+      "id": "lisbonne-pastel-de-nata",
+      "collection": "dishes",
+      "base": "lisbonne",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Sanne (Mitzie Mee) — travel food blog",
+          "url": "https://mitziemee.com/lisbon-pasteis-de-belem-the-original-pastel-de-nata/",
+          "date": "2026-03-26"
+        },
+        {
+          "creator": "Rita Costa — Living Tours blog culinaire Portugal",
+          "url": "https://www.livingtours.com/en/blog/the-difference-between-pastel-de-nata-and-pastel-de-belem.html",
+          "date": "2024-01"
+        }
+      ],
+      "story": "La recette date de 1837, inventée par les moines hiéronymites de Belém qui utilisaient les blancs d'œufs pour amidonner leurs habits. Les jaunes, eux, sont devenus la crème secrète que six maîtres-pâtissiers se transmettent derrière des portes fermées. On arrive à la Fábrica, on passe par la fenêtre de cuisson où les plateaux s'enchaînent, on mange chaud avec la cannelle et le sucre glace côté. La croûte craque. On regrette d'en avoir pris qu'une."
+    },
+    {
+      "id": "lisbonne-percebes",
+      "collection": "dishes",
+      "base": "lisbonne",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Mark Wiens — Migrationology",
+          "url": "https://migrationology.com/cervejaria-ramiro-restaurant-lisbon/",
+          "date": "2016-11"
+        },
+        {
+          "creator": "Secret Places editorial — percebes Portugal",
+          "url": "https://www.secretplaces.com/blog/percebes-a-dangerous-delicacy",
+          "date": "2021-10"
+        }
+      ],
+      "story": "Elles poussent là où l'Atlantique frappe le plus fort — falaises exposées, vagues permanentes, roches couvertes d'embruns. Le percebeiro descend en combinaison, attaché par une corde, et les arrache à la main à marée basse. Chez Ramiro, elles arrivent cuites à l'eau de mer, chaudes, qu'on casse avec les doigts. La chair est caoutchouteuse, iodée, comme une gorgée de mer franche — et ça coûte cher parce que quelqu'un a pris un risque réel pour les mettre dans votre assiette."
+    },
+    {
+      "id": "lisbonne-ginjinha",
+      "collection": "dishes",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Comércio com História — A Ginjinha Espinheira (fiche officielle gouvernementale portugaise)",
+          "url": "https://www.comerciocomhistoria.gov.pt/en/listings/a-ginjinha-espinheira-s-domingos-3208/",
+          "date": "2024-01"
+        }
+      ],
+      "story": "Largo de São Domingos depuis 1840 — un comptoir, un seul produit, une décision à prendre : avec la cerise au fond (com ela) ou sans (sem ela). Espinheira, Galicien installé à Lisbonne, a inventé cette liqueur de griotte à l'aguardente et ouvert ce bar qui n'a pas changé de format depuis. On boit dehors, debout sur le trottoir, avec toute la ville qui passe. Digestif après le déjeuner ou apéro du soir — deux euros cinquante le verre."
+    },
+    {
+      "id": "lisbonne-gem-cantinho-aziz",
+      "collection": "gems",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Kenny Dunn — Eating Europe",
+          "url": "https://www.eatingeurope.com/blog/cantinho-do-aziz/",
+          "date": "2024-10-23"
+        }
+      ],
+      "story": "Rua de São Lourenço, Mouraria — depuis les années 1980, la famille Aziz cuisine mozambicain-indien dans une salle de vingt couverts tapissée de photos de Maputo. Les chamussa (samosas aux épices maison), le poulet piri piri à la sauce maison, les sauces à la noix de coco qui font oublier l'huile d'olive. Le service prend son temps parce que la maison n'a jamais cherché le turnover — on reste, on parle, on commande encore. La plus vieille table africaine de Lisbonne, encore tenue par la même famille."
+    },
+    {
+      "id": "lisbonne-gem-sesimbra-matin",
+      "collection": "gems",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Philip Giddings — sintracascaissesimbra.com, guide indépendant",
+          "url": "https://sintracascaissesimbra.com/",
+          "date": "2026-01"
+        }
+      ],
+      "story": "À 40 km de Lisbonne, la baie de Sesimbra est protégée par les collines de l'Arrábida — elles bloquent la houle atlantique et gardent l'eau calme et plus chaude que Cascais. Le matin, les bateaux de pêche rentrent au port et les restos viennent chercher leur commande directement sur le quai. On y va en semaine, pas le week-end. On déjeune de poisson grillé en bord de mer, on se baigne dans une eau d'une clarté rare pour la région, on rentre."
+    },
+    {
+      "id": "comporta-almalusa",
+      "collection": "pois",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Hello Magazine (Arianna Chatzidakis, Creative Content Director)",
+          "url": "https://www.hellomagazine.com/travel/496040/almalusa-comporta-review-royal-holiday-destination/",
+          "date": "2025-09"
+        }
+      ],
+      "story": "22 suites aux lignes épurées dans le village même de Comporta — le rooftop bar avec DJ résidente le soir, la piscine en journée, le petit-déjeuner servi à la Duna Room avec des produits locaux. L'hôtel fonctionne en partie à l'énergie solaire et 60 % du personnel vient du village : on sent que l'endroit s'est bâti avec la communauté, pas par-dessus."
+    },
+    {
+      "id": "comporta-sao-joao",
+      "collection": "pois",
+      "base": "comporta",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "MAGG / Sapo (média portugais)",
+          "url": "https://magg.sapo.pt/comida/restaurantes/artigos/sao-joao-comporta",
+          "date": "2024-05"
+        },
+        {
+          "creator": "Taste of Lisboa (guide culinaire Portugal)",
+          "url": "https://www.tasteoflisboa.com/blog/comporta-travel-guide-for-food-lovers/",
+          "date": "2023-09"
+        }
+      ],
+      "story": "C'est Lucian et Carmina Moga, une famille roumaine installée à Comporta, qui tient depuis des années ce resto de quartier rue do 24 de Junho — arroz de marisco crémeux, ameijoas à l'ail qui parfument la salle, poisson du jour grillé simple et parfait. Les portions sont honnêtes, les prix serrés pour une destination où tout coûte cher. Le genre d'endroit que les habitués gardent pour eux."
+    },
+    {
+      "id": "comporta-cais-carrasqueira",
+      "collection": "pois",
+      "base": "comporta",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Espirito da Comporta (guide local)",
+          "url": "https://espiritodacomporta.com/fr/le-port-palafitico-da-carrasqueira-a-comporta/",
+          "date": "2024-05"
+        },
+        {
+          "creator": "Lonely Planet (classement Top Choice)",
+          "url": "https://www.lonelyplanet.fr/poi/portugal-alentejopotugalcg-cais-palafitico-da-carrasqueira",
+          "date": "2023-01"
+        }
+      ],
+      "story": "Des centaines de mètres d'allées en zigzag sur pilotis de bois, construites dans les années 1950-60 par les pêcheurs pour accéder à leurs bateaux quelle que soit la marée — à marée basse, jusqu'à cent mètres de vase séparent la berge de l'eau. C'est la pêche aux huîtres qui a fait prospérer Carrasqueira, et ce ponton collectif sans architecte, classé patrimoine national, est aujourd'hui l'un des sites les plus photographiés du Portugal rural. Lever du soleil ici : la brume sur l'estuaire et le bois gris qui prend la lumière rasante."
+    },
+    {
+      "id": "comporta-sericaia",
+      "collection": "dishes",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Portugal.com (guide officiel recettes)",
+          "url": "https://www.portugal.com/recipes/sericaia-a-traditional-portuguese-pudding-recipe-from-the-alentejo/",
+          "date": "2023-06"
+        }
+      ],
+      "story": "Né dans les couvents d'Elvas au XVIe siècle — peut-être influencé par le serikaya de Malacca rapporté par les navigateurs portugais — le sericaia est un flan aux œufs et à la cannelle cuit jusqu'à craquer en surface, servi avec les prunes confites d'Elvas (AOP). On en trouve rarement dans les menus touristiques ; c'est dans les tascas locales de l'Alentejo qu'il réapparaît, tremblotant dans son plat en terre cuite."
+    },
+    {
+      "id": "comporta-gem-cais-palafítico",
+      "collection": "gems",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Espirito da Comporta (guide local)",
+          "url": "https://espiritodacomporta.com/fr/le-port-palafitico-da-carrasqueira-a-comporta/",
+          "date": "2024-05"
+        }
+      ],
+      "story": "À 7h du matin, avant les groupes, le cais palafítico de Carrasqueira est un autre endroit. Brume sur l'estuaire du Sado, bateaux de pêche qui rentrent, bois gris des pilotis qui prend la lumière rasante. C'est la pêche aux huîtres qui a financé cette structure unique en Europe — des centaines de mètres de passerelles en zigzag construites pièce par pièce dans les années 1950-60, parce que les pêcheurs ne pouvaient pas laisser la marée décider s'ils travaillaient ce jour-là ou pas."
+    },
+    {
+      "id": "comporta-gem-rizieres-aube",
+      "collection": "gems",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Elo Runs the World (blog voyage)",
+          "url": "https://elorunstheworld.com/arrozais/",
+          "date": "2025-10-29"
+        }
+      ],
+      "story": "Entre Possanco et Comporta, plus de mille hectares de casiers d'eau verte au printemps — des miroirs plats qui reflètent le ciel de l'Alentejo à l'aube. Les cigognes et les hérons cendrés chassent dans les sillons, les flamants du Sado passent parfois. Ce paysage est ce qui différencie Comporta de toutes les autres côtes portugaises, et il n'y a pas de billet d'entrée pour le regarder depuis le bord de la route au lever du soleil."
+    },
+    {
+      "id": "algarve-memmo-baleeira",
+      "collection": "pois",
+      "base": "algarve",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Kimberly Kephart Travels",
+          "url": "https://kimberlykepharttravels.com/memmo-baleeira-review-sagres-portugal/",
+          "date": "2026-03-30"
+        },
+        {
+          "creator": "The Hotel Guru",
+          "url": "https://www.thehotelguru.com/hotel/memmo-baleeira-sagres",
+          "date": "2025-01"
+        }
+      ],
+      "story": "Bâti dans les années 1960 comme repaire de surfeurs au bout du continent, le Memmo Baleeira a été retourné de fond en comble en 2010 puis relifté en 2024 — des tons sablés, des plantes, 144 chambres dont les meilleures ont un balcon face à la baie de Baleeira. On y vient pour la piscine qui déborde sur l'Atlantique, le restaurant Fornaria et ses fenêtres ouvertes sur la côte, et une équipe qui te rappelle avant l'arrivée pour s'assurer que rien ne cloche. Pas un palace — un ancrage design au cœur du parc naturel Costa Vicentina, à deux pas du sentier des pêcheurs."
+    },
+    {
+      "id": "algarve-sueste-ferragudo",
+      "collection": "pois",
+      "base": "algarve",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Portugal Resident",
+          "url": "https://www.portugalresident.com/iconic-ferragudo-restaurant-sueste-reopens-with-new-concept/",
+          "date": "2024-04"
+        },
+        {
+          "creator": "The Algarve Experience",
+          "url": "https://thealgarveexperience.com/best-restaurants-in-ferragudo/",
+          "date": "2026-04-26"
+        }
+      ],
+      "story": "Depuis 1990, Sueste tient le bout du quai de pêche de Ferragudo, face à la Ria de Portimão. En 2024, le resto a changé de mains — Pedro Garcia de Matos a repris le concept en gardant l'essentiel : du poisson entier sur le charbon de bois, sorti de la lota le matin même, et des tables en terrasse avec le coucher de soleil sur le fleuve. On pointe ce qu'on veut dans l'étal, il passe sur le gril devant soi. Le poisson est à la pièce ou au poids — demander le prix avant, le coup de filet peut surprendre. Une adresse qui a survécu à deux générations de tourisme en restant ancrée au quai."
+    },
+    {
+      "id": "algarve-cabo-sao-vicente",
+      "collection": "pois",
+      "base": "algarve",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Wikipedia — Cabo de São Vicente",
+          "url": "https://en.wikipedia.org/wiki/Cabo_de_S%C3%A3o_Vicente",
+          "date": "2025-01"
+        }
+      ],
+      "story": "Le bout du continent européen — 75 mètres de falaises verticales dans l'Atlantique, le dernier coucher de soleil à disparaître sur le continent. En juin, le coucher est vers 21h15 : arriver à 20h, trouver un bout de falaise, rester debout dans le vent. Pas d'infrastructure, pas de narration nécessaire. Juste l'océan et le vide devant soi."
+    },
+    {
+      "id": "algarve-cataplana-peixe",
+      "collection": "dishes",
+      "base": "algarve",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Taste Tavira",
+          "url": "https://tastetavira.com/the-origins-of-the-cataplana-a-taste-of-algarves-culinary-history/",
+          "date": "2025-05"
+        },
+        {
+          "creator": "Catavino (Gabriella Opaz)",
+          "url": "https://catavino.net/portuguese-food-cooking-cataplana/",
+          "date": "2014-01"
+        }
+      ],
+      "story": "La cataplana, c'est le chaudron de cuivre battu en forme de coquillage que les Maures ont apporté en Algarve au 8e siècle — cousin du tagine nord-africain, conçu pour piéger la vapeur et concentrer les jus. Les pêcheurs l'emportaient remplie d'ail et d'huile pour cuire la prise sur le feu. Aujourd'hui chez O Retiro do Pescador à Sagres, il sort de la cuisine avec la vapeur qui siffle avant que le couvercle soit soulevé — dorade, palourdes, tomates, coriandre, vin blanc. Le pain vient après, pour le fond."
+    },
+    {
+      "id": "algarve-dom-rodrigo",
+      "collection": "dishes",
+      "base": "algarve",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Portugal Resident",
+          "url": "https://www.portugalresident.com/algarves-iconic-dom-rodrigo-sweet-wins-protected-status/",
+          "date": "2023-01"
+        }
+      ],
+      "story": "Jaunes d'œufs, amandes moulues, cannelle, sucre et fios de ovos (fils d'œuf) — façonnés en boule, caramélisés directement dans le sirop dans une poêle. La recette est née au Couvent de Nossa Senhora do Carmo à Lagos, liée à D. Rodrigo de Menezes, gouverneur de l'Algarve au 18e siècle. Protégé par IGP depuis 2023, produit uniquement dans les 16 municipalités algarvienness. Lagos en a fait un record du monde en 2019 avec le plus grand Dom Rodrigo jamais fabriqué — 100 kg."
+    },
+    {
+      "id": "algarve-gem-praia-carvalho",
+      "collection": "gems",
+      "base": "algarve",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "AlgarveTips.com",
+          "url": "https://www.algarvetips.com/beaches/lagoa/praia-do-carvalho/",
+          "date": "2025-01"
+        },
+        {
+          "creator": "SunRoamy",
+          "url": "https://sunroamy.com/en/beaches/carvalho-beach/",
+          "date": "2026-01"
+        }
+      ],
+      "story": "On entre dans l'obscurité d'un tunnel de 15 mètres creusé dans la falaise calcaire — les parois sont couvertes de fossiles — et on ressort sur une crique en forme de V, entourée de grès orange, eau turquoise jusqu'à 20°C en juin. Pas de restaurant, pas de douches, pas de lifeguard. Le parking est à 1 km, le sentier longe la falaise, puis le tunnel. La logistique fait écran : la plupart des gens passent leur chemin. On en profite."
+    }
+  ],
+  "fixable": [
+    {
+      "id": "porto-jam-porto",
+      "collection": "pois",
+      "base": "porto",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Portoalities",
+          "url": "https://portoalities.com/en/guide-bonfim-neighborhood/",
+          "date": "2025"
+        }
+      ],
+      "divergentDetail": "Portoalities le décrit comme la 'most recent sensation in Bonfim' avec ambiance bibliothèque de vinyles ; Trip.com précise 62 chambres, béton poli, workspace et cuisine en libre-service — deux angles de visite distincts.",
+      "draftStory": "Dans Bonfim, loin du vacarme de la Ribeira, le JAM Porto a pris racine dans un immeuble sobre où les tourne-disques remplacent les téléviseurs et où la piscine de jardin passe inaperçue depuis la rue. Portoalities l'a repéré tôt comme la nouvelle référence résidentielle du quartier ; Trip.com confirme les 62 chambres au béton poli et le workspace silencieux. On s'y pose comme un habitant, on repart comme un autre.",
+      "fixNote": "Trip.com est un agrégateur OTA (non éditorial), et le récit contient une hallucination directe : la piscine de jardin est absente — Trip.com déclare explicitement que JAM Porto n'a pas de piscine."
+    },
+    {
+      "id": "porto-casa-do-conto",
+      "collection": "pois",
+      "base": "porto",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Portugal Confidential",
+          "url": "https://portugalconfidential.com/casa-do-conto-design-boutique-hotel-porto-oporto/",
+          "date": "2024"
+        },
+        {
+          "creator": "SecretPlaces",
+          "url": "https://www.secretplaces.com/porto-boutique-hotels/casa-do-conto-arts--residence",
+          "date": "2024"
+        }
+      ],
+      "divergentDetail": "Portugal Confidential insiste sur les plafonds en pierre sculptée avec citations littéraires taillées à la main ; SecretPlaces met en avant le design monochrome minimaliste primé et les évènements culturels réguliers en salle — deux lectures indépendantes du même espace.",
+      "draftStory": "Six chambres dans un bâtiment du Cedofeita qui ressemble à une maison bourgeoise de l'extérieur — dedans, des plafonds en pierre où des citations sont sculptées dans la masse, un design monochrome primé internationalement. Portugal Confidential en parle comme d'un phénix de l'hôtellerie design ; SecretPlaces confirme les vernissages et lectures qui s'y tiennent. À deux pas des galeries de Miguel Bombarda, c'est l'hôtel qui colle au quartier.",
+      "fixNote": "Deux sources indépendantes vérifiées et vivantes, détails concrets non redondants ; mais le récit contient deux distorsions factuelles — \"pierre sculptée\" (c'est du béton en bas-relief selon Portugal Confidential) et \"design monochrome\" (attesté par aucune des deux sources) — storyOk refusé, corriger le matériau et retirer l'attribut non sourcé avant publication."
+    },
+    {
+      "id": "porto-torel-avantgarde",
+      "collection": "pois",
+      "base": "porto",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Michelin Guide",
+          "url": "https://guide.michelin.com/us/en/hotels-stays/porto/hotel-torel-avantgarde-9354",
+          "date": "2024"
+        },
+        {
+          "creator": "Xixerone",
+          "url": "https://xixerone.com/en/torel-avantgarde-in-porto-hotel-review/",
+          "date": "2024"
+        }
+      ],
+      "divergentDetail": "Le Guide Michelin (1 clé Michelin première sélection Portugal) retient la rigueur du service et l'excellence hôtelière ; Xixerone se concentre sur le détail des suites thématiques (Andy Warhol, Van Gogh, Guggenheim) et la piscine avec vue directe sur le Douro — deux regards indépendants.",
+      "draftStory": "Chaque chambre du Torel Avantgarde porte le nom et l'esthétique d'un artiste différent — Warhol, Van Gogh, Guggenheim dans les couloirs. Le Michelin lui a décerné sa première clé Portugal pour l'excellence de l'accueil ; Xixerone a testé la suite et confirmé la piscine panoramique suspendue au-dessus du Douro. Ce n'est pas un hôtel où on dort, c'est une expérience qu'on raconte.",
+      "fixNote": "Convergence confirmée (2 sources indépendantes réelles, angles divergents vérifiés), mais le récit contient une dérive factuelle : la piscine a une vue sur le Douro, elle n'est pas \"suspendue au-dessus du Douro\" — l'hôtel est à 10 minutes à pied du fleuve ; corriger cette formulation avant publication."
+    },
+    {
+      "id": "porto-cafe-santiago",
+      "collection": "pois",
+      "base": "porto",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Portoalities",
+          "url": "https://portoalities.com/en/best-francesinha-in-porto/",
+          "date": "2026-04-10"
+        }
+      ],
+      "divergentDetail": "Spotted by Locals décrit la francesinha comme la favorite personnelle du local qui l'a soumis, servie obligatoirement avec une Super Bock — angle intime et prescriptif ; Portoalities mentionne la vitesse de service et la constance comme ce qui différencie Santiago des concurrents — angle comparatif éditorial.",
+      "draftStory": "Depuis 1959, la famille Ferreira garde la recette de la sauce bière-tomate-piri piri sous clé. Spotted by Locals la cite comme la meilleure francesinha de Porto — avec une Super Bock, pas autre chose — et Portoalities confirme que la constance est justement ce que les locaux retiennent contre tous les autres. On arrive au déjeuner en semaine, on s'installe, on attend que le fromage finisse de couler.",
+      "fixNote": "Portoalities vérifiée (Sara Riobom, 10 avril 2026) — constance et vitesse confirmées pixel. Spotted by Locals retourne 403 sur fetch direct, date 2026-04 et angle intime non vérifiables ; de plus le récit attribue à Spotted by Locals le claim «meilleure francesinha de Porto» qui appartient en fait à Portoalities — attribution erronée, storyOk=false."
+    },
+    {
+      "id": "porto-casa-guedes",
+      "collection": "pois",
+      "base": "porto",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Taste Porto",
+          "url": "https://tasteporto.com/discover-mark-wiens-sandwich-adventure-with-taste-porto/",
+          "date": "2024"
+        }
+      ],
+      "divergentDetail": "Culinary Backstreets nomme le employé Cesar qui tranche le pernil et arrose de sauce maison — détail humain de cuisine ; Taste Porto (visite avec Mark Wiens 2024) situe Casa Guedes dans un parcours sandwich plus large incluant le salpicão et les papas de sarrabulho — angle circuit foodie.",
+      "draftStory": "À l'angle de la Praça dos Poveiros, Cesar tranche l'épaule de porc rôtie lentement et la pose sur du pain rustique avec une généreuse cuillerée de Serra da Estrela fondu. Culinary Backstreets en a fait un article dédié — 'le meilleur sandwich de Porto, peut-être du pays'. Taste Porto y a emmené Mark Wiens en 2024 dans son parcours des sandwichs. On s'y installe au comptoir avec un pichet de Vinho Verde en céramique, debout, et on oublie l'heure.",
+      "fixNote": "Culinary Backstreets est bloqué derrière un mur d'authentification — le contenu est inaccessible, les détails \"Cesar\" et la citation verbatim sont invérifiables et probablement hallucinés ; seule Taste Porto (2024) est confirmée, mais le récit brouillon s'appuie sur des éléments non corroborés de la source morte."
+    },
+    {
+      "id": "porto-praia-matosinhos",
+      "collection": "pois",
+      "base": "porto",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Porto North Portugal (Philip Giddings)",
+          "url": "https://porto-north-portugal.com/porto-guide/praia-de-matosinhos-beach.html",
+          "date": "2026"
+        },
+        {
+          "creator": "Oh My Porto (Ysabelle Alesna)",
+          "url": "https://ohmyporto.com/matosinhos-beach-guide/",
+          "date": "2025"
+        }
+      ],
+      "divergentDetail": "Porto North Portugal détaille l'accès Ligne A (Matosinhos Sul, 27 min depuis Trindade, €1,80) et la certification Blue Flag ; Oh My Porto décrit les vagues atlantiques et la rangée de restaurants de poisson grillé à 200 mètres — deux angles complémentaires indépendants.",
+      "draftStory": "Vingt-sept minutes de Ligne A depuis Trindade, €1,80, et on débouche sur 800 mètres de sable doré Blue Flag face à l'Atlantique. La rangée de restaurants de poisson grillé est à 200 mètres du bord de l'eau — on sort de la mer, on s'assoit à une table en plastique, le turbot arrive. Le meilleur plan de Porto se construit ici.",
+      "fixNote": "Les deux sources sont réelles et indépendantes (S1 confirme Ligne A/27 min/€1,80 ; S2 confirme vagues atlantiques et restaurants de poisson grillé), mais le récit brouillon contient deux hallucinations : la certification Blue Flag est absente de S1, et la distance \"200 mètres du bord de l'eau\" est absente de S2 — ces deux claims doivent être retirés avant usage."
+    },
+    {
+      "id": "porto-taylors-cellars",
+      "collection": "pois",
+      "base": "porto",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Taylor's Port (officiel)",
+          "url": "https://www.taylor.pt/en/visit-taylors/port-cellars",
+          "date": "2025"
+        }
+      ],
+      "divergentDetail": "WineTourism.com décrit l'audioguide en 13 langues et la cour avec paons — détail de l'expérience vécue ; le site officiel Taylor's confirme les trois vins de dégustation (Chip Dry, LBV, Tawny 10 ans) et la rénovation récente des chais — angle technique et logistique.",
+      "draftStory": "La visite de Taylor's à Gaia, c'est un audioguide en français dans des chais de 300 ans rénovés, à son propre rythme, sans groupe ni guide bavard. La cour intérieure avec ses paons, la vue sur Porto de l'autre côté du Douro, puis trois verres assis — Chip Dry, un LBV, un Tawny 10 ans. WineTourism la cite parmi les meilleures expériences de dégustation du nord du Portugal. On s'y rend le matin pour éviter les groupes de l'après-midi.",
+      "fixNote": "WineTourism.com est un agrégateur de réservations sans contenu éditorial propre sur Taylor's (reviews Google republies) — pas une source indépendante ; les paons sont introuvables dans les deux sources vérifiées et constituent une hallucination ; seul le site officiel Taylor's confirme les trois vins de dégustation et l'audioguide en 13 langues, donc la convergence ne tient pas et le récit doit retirer les paons et la mention WineTourism comme autorité distincte."
+    },
+    {
+      "id": "porto-tripas-modo-do-porto",
+      "collection": "dishes",
+      "base": "porto",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Eating Europe",
+          "url": "https://www.eatingeurope.com/blog/porto-food/",
+          "date": "2024"
+        },
+        {
+          "creator": "Portoalities",
+          "url": "https://portoalities.com/en/a-foodie-guide-to-porto/",
+          "date": "2025"
+        }
+      ],
+      "divergentDetail": "Eating Europe décrit la texture — tripe molle, haricots blancs, riz, carottes dans un bouillon umami — et la marmite en acier géante au service ; Portoalities ancre le mythe du XVe siècle (Henri le Navigateur, Ceuta) et l'identité tripeiro — récit historique et identitaire.",
+      "draftStory": "En 1415, les habitants de Porto ont tout donné pour les caravelles d'Henri le Navigateur vers Ceuta — la meilleure viande est partie avec les soldats, il ne restait que les abats. Depuis 600 ans, ce ragoût de tripes aux haricots blancs, chorizo et bacon s'appelle tripas à moda do Porto, et ceux qui le mangent s'appellent fièrement tripeiros. Eating Europe décrit la marmite en acier qui arrive directement du feu chez Abadia do Porto — on y retourne pour le plat, pas pour l'histoire.",
+      "fixNote": "Les deux URLs sont réelles et primaires avec des détails distincts vérifiés (marmite en acier/texture chez Eating Europe ; profil culinaire contemporain chez Portoalities) — convergence tient — mais le récit brouillon attribue le mythe Henri le Navigateur/Ceuta/tripeiros à Portoalities alors que ce fetch confirme que cette source ne contient pas ce récit historique : hallucination d'attribution, storyOk=false."
+    },
+    {
+      "id": "porto-porto-wine",
+      "collection": "dishes",
+      "base": "porto",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Taylor's Port (officiel)",
+          "url": "https://www.taylor.pt/en",
+          "date": "2025"
+        }
+      ],
+      "divergentDetail": "WineTourism décrit l'expérience de dégustation dans la cour avec les paons et la vue sur le Douro ; Taylor's officiel précise la température de service (frais, pas ambiant) et les arômes caractéristiques du vieillissement en fût (noix, figue, caramel) — un angle expérientiel, un angle technique.",
+      "draftStory": "Le Tawny, c'est le porto qui a passé des années en barrique de bois — il prend une couleur fauve et des arômes de noix, de figue, de caramel brûlé. On le boit frais, à 10-12°C, pas à température ambiante. Les caves Taylor's à Gaia, depuis 1692, permettent de le déguster assis dans la cour avec les paons et le Douro en face. WineTourism confirme que c'est l'une des meilleures expériences de dégustation du nord du Portugal.",
+      "fixNote": "WineTourism.com retourne 403 et est un agrégateur (non primaire) ; taylor.pt/en est accessible mais ne contient pas les détails allégués (température 10-12°C, arômes noix/figue/caramel, paons) — le récit dépasse ce que les sources vérifiées confirment réellement."
+    },
+    {
+      "id": "porto-gem-fontainhas",
+      "collection": "gems",
+      "base": "porto",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Spotted by Locals",
+          "url": "https://www.spottedbylocals.com/porto/fontainhas/",
+          "date": "2025"
+        }
+      ],
+      "divergentDetail": "Spotted by Locals décrit Fontainhas à travers un récit d'enfance locale — les bacs à laver, les vieilles qui chantaient, la mémoire du quartier avant le pont Infante ; Jorge Barefoot documente la promenade panoramique sur le Douro et le Dom Luís I comme attraction principale — deux lectures du même lieu.",
+      "draftStory": "Spotted by Locals y a grandi — les bacs à laver, les vieilles qui chantaient en lavant le linge, la mémoire d'avant le pont Infante. Jorge Barefoot y est allé en 2025 pour la promenade panoramique sur le Douro. Fontainhas est à cinq minutes de la Ribeira dans la direction opposée, et les façades jaune et orange de fin d'après-midi sont la meilleure lumière de Porto.",
+      "fixNote": "Spotted by Locals est une source primaire solide (titre « Straight from my childhood », récit personnel des grands-parents déplacés, bacs à laver confirmés par les snippets) — mais Jorge Barefoot est un opérateur de tours commerciaux dont l'article ne documente ni promenade spécifique ni le Dom Luís I comme attraction principale ; le récit brouillon lui attribue des détails qu'il ne contient pas, donc storyOk=false et la convergence ne tient pas."
+    },
+    {
+      "id": "porto-gem-bolhao-matin",
+      "collection": "gems",
+      "base": "porto",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Do Eat Better Experience",
+          "url": "https://doeatbetterexperience.com/blog/mercado-do-bolhao-porto-guide/",
+          "date": "2024"
+        }
+      ],
+      "divergentDetail": "Eating Europe décrit les Tripeiras — vendeuses historiques légalement protégées depuis 1914, chou pour caldo verde, fruits de saison — comme l'âme de la cour intérieure tôt le matin ; Do Eat Better Experience recommande d'arriver avant 10h et de contourner la pastisserie de façade pour trouver la salle de restauration cachée au fond — deux angles pratiques et ethnographiques distincts.",
+      "draftStory": "Le Bolhão rénové s'anime dès 8h : les Tripeiras en tablier blanc disposent les choux pour le caldo verde, les poissonniers crient les arrivages, les clients du quartier font leur tournée hebdomadaire. Eating Europe signale que ces vendeuses sont légalement protégées depuis 1914 — on ne peut pas les évincer. Do Eat Better Experience recommande d'arriver avant la cohue du lunch et de chercher la salle cachée au fond pour manger assis. En mai : fraises de Setúbal, asperges locales, premières cerises.",
+      "fixNote": "Eating Europe ne contient aucun des faits qui lui sont attribués (Tripeiras, 1914, caldo verde, horaire) — tout le contenu factuel provient de Do Eat Better Experience uniquement ; la convergence est fabriquée et le récit mal attribué."
+    },
+    {
+      "id": "porto-gem-foz-coucher",
+      "collection": "gems",
+      "base": "porto",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Theriz Journal",
+          "url": "https://www.therizjournal.com/2024/08/sunset-at-foz-do-douro.html",
+          "date": "2024-08-27"
+        },
+        {
+          "creator": "Mad About Porto",
+          "url": "https://www.madaboutporto.com/foz_porto.html",
+          "date": "2024"
+        }
+      ],
+      "divergentDetail": "Theriz Journal documente le coucher de soleil depuis Foz comme moment photographique — lumière, angle, émotion — dans un article dédié de 2024 ; Mad About Porto décrit la Pérgola da Foz, la promenade en dalle de granit et les familles qui s'y retrouvent chaque soir — angle local et quotidien.",
+      "draftStory": "À l'embouchure du Douro dans l'Atlantique, la promenade en dalle de granit longe l'océan jusqu'à rien. En face, il n'y a que l'eau jusqu'au Brésil. Theriz Journal en a fait un article photo en 2024 — la lumière de fin de journée sur le Farolim de Felgueiras et les rochers. Mad About Porto décrit les familles du quartier qui s'y retrouvent chaque soir sans effort, sans frais d'entrée. On s'assoit sur les rochers, on ne parle pas.",
+      "fixNote": "Les deux sources sont réelles et indépendantes (voyageur généraliste vs spécialiste local Porto), mais le récit brouillon hallucine des détails absents : ni Theriz Journal ni Mad About Porto ne mentionnent le Farolim de Felgueiras, les rochers spécifiques, la \"dalle de granit\", ni les \"familles chaque soir\" — le récit doit être purgé de ces claims non sourcés avant usage."
+    },
+    {
+      "id": "douro-ventozelo",
+      "collection": "pois",
+      "base": "douro",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Cíntia Oliveira / FlavorsAndSenses",
+          "url": "https://flavorsandsenses.com/en/ventozelo-hotel-quinta/",
+          "date": "2023-11-06"
+        }
+      ],
+      "divergentDetail": "FlavorsAndSenses insiste sur la piscine à débordement et le fait que l'auteure visitait enceinte, et note l'attention du personnel aux restrictions alimentaires. ExploreDouroValley décrit la Cantina comme l'ancienne cantine des ouvriers agricoles, reconvertie — angle origine rurale absent de FlavorsAndSenses. Les deux convergent sur le chef Miguel Castro Silva et les ingrédients produits à la ferme.",
+      "draftStory": "La Cantina de Ventozelo était la cantine des ouvriers de la quinta avant de devenir un restaurant gastronomique. Ce n'est pas un détail anecdotique — ça explique tout : les ingrédients viennent du jardin de la ferme ou de producteurs locaux, le chef Miguel Castro Silva cuisine la gastronomie du Douro sans esbroufe. On est en hauteur dans le Cima Corgo, la piscine à débordement donne l'impression de nager dans le paysage de terrasses. Trois nuits ici et on n'a plus besoin d'aller nulle part.",
+      "fixNote": "ExploreDouroValley est un listing d'annuaire sans auteur ni date éditoriale — non qualifié comme source indépendante ; le claim central du récit (« ancienne cantine des ouvriers ») n'est confirmé par aucune des deux URLs fetchées et doit être retiré ou sourcé."
+    },
+    {
+      "id": "douro-toca-da-raposa",
+      "collection": "pois",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Portoalities (Susana Ribeiro)",
+          "url": "https://portoalities.com/en/best-restaurants-douro-valley/",
+          "date": "2020-06-17"
+        },
+        {
+          "creator": "TastePorto",
+          "url": "https://tasteporto.com/our-7-favorite-restaurants-in-douro-valley/",
+          "date": "2022-05-13"
+        }
+      ],
+      "divergentDetail": "Portoalities cite le jarret de porc rôti lentement, le riz au chevreau et le ragoût de sanglier comme plats signature. TastePorto, visite indépendante deux ans plus tard, mentionne l'agneau au Porto et le «bolo bêbedo» (gâteau ivre) en dessert — et ajoute que le cuisinier a remporté le plus haut prix de l'Académie portugaise de gastronomie, information absente de Portoalities.",
+      "draftStory": "Le cuisinier de Toca da Raposa a reçu le prix de l'Académie portugaise de gastronomie — mais rien dans la salle ne le dit. Tables de plastique, service direct, menu qui va à l'essentiel. L'riz de cabrito (chevreau au four, riz qui absorbe tous les jus) est ce que Portoalities appelle «a proper Portuguese home meal» : pas une reconstitution folklorique, juste la recette de toujours, faite avec les bêtes des collines au-dessus de la quinta. On finit avec le bolo bêbedo imbibé au porto. Le genre de repas dont on parle encore dans le train du retour.",
+      "fixNote": "Convergence confirmée (2 sources indépendantes, antériorité disjointe, détails divergents réels) mais le récit invente \"tables de plastique, service direct\" — TastePorto décrit le restaurant comme moderne avec prix légèrement plus élevé, ce qui contredit ce détail de décor non sourcé."
+    },
+    {
+      "id": "douro-veladouro",
+      "collection": "pois",
+      "base": "douro",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Portoalities (Susana Ribeiro)",
+          "url": "https://portoalities.com/en/best-restaurants-douro-valley/",
+          "date": "2020-06-17"
+        },
+        {
+          "creator": "TastePorto",
+          "url": "https://tasteporto.com/our-7-favorite-restaurants-in-douro-valley/",
+          "date": "2022-05-13"
+        }
+      ],
+      "divergentDetail": "Portoalities décrit les viandes grillées de qualité et le poisson selon les préférences du client. TastePorto, visite indépendante, confirme les portions généreuses et la vue sur le fleuve mais sans mentionner le baba au porto. RestaurantGuru (2538 avis, note 4.8/5) cite le «drunken port cake» (baba au porto) comme dessert signature — détail absent des deux autres sources écrites.",
+      "draftStory": "Tables en balcon surplombant le quai de Pinhão, #1 sur 33 restaurants dans le village avec 2 538 avis. Le patron connaît ses vins et il te guide sans te faire sentir que t'aurais dû faire un cours avant de venir. On finit avec le baba au porto — un baba au rhum où l'alcool est remplacé par le porto local, accompagné d'une crème au mascarpone aux zestes d'orange. C'est le dessert de Pinhão, et on n'en trouve pas à Porto ni à Lisbonne.",
+      "fixNote": "Les 2 sources primaires (Portoalities + TastePorto) confirment l'existence du restaurant, la vue sur le fleuve, les grillades et les portions généreuses, mais aucune ne mentionne le baba au porto ; ce détail central du récit ne repose que sur RestaurantGuru (agrégateur Google/TripAdvisor, source non primaire), ce qui invalide le récit tel que rédigé — retirer le baba au porto ou le sourcer via une source primaire distincte."
+    },
+    {
+      "id": "douro-croisiere-rabelo",
+      "collection": "pois",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Cruzeiros Douro (site officiel)",
+          "url": "https://www.cruzeiros-douro.pt/en/1-day-cruises/pinhao-tua-pinhao-cruise",
+          "date": "2025-01"
+        },
+        {
+          "creator": "PassionateFoodie",
+          "url": "https://passionatefoodie.blogspot.com/2023/11/pinhao-railway-station-douro-river.html",
+          "date": "2023-11-08"
+        }
+      ],
+      "divergentDetail": "Le site officiel décrit les horaires et le verre de porto inclus. PassionateFoodie, visiteur indépendant novembre 2023, documente la croisière de 2h avec Magnífico Douro : il pleuvait, mais il y a une section couverte à bord — et l'application audio guide était disponible en téléchargement.",
+      "draftStory": "Deux heures sur une vedette de bois traditionnelle entre Pinhão et la confluence du Tua, un verre de porto dans la main, les terrasses de schiste qui défilent des deux côtés à hauteur d'yeux. Départs à 10h30, 14h30. Le bateau a une section couverte pour les jours de pluie et un guide audio disponible en app. C'est le moment où on comprend physiquement pourquoi des générations ont sculpté des falaises pour y planter des vignes.",
+      "fixNote": "Convergence tient sur les faits vérifiés (croisière 2h, bateau rabelo, section couverte, guide audio en app, horaires 10h30/14h30), mais \"un verre de porto dans la main\" n'est confirmé par aucune des deux sources — hallucination à retirer du récit avant publication."
+    },
+    {
+      "id": "douro-porto-tawny",
+      "collection": "dishes",
+      "base": "douro",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "AmsterdamFoodie (Vicky Hampton)",
+          "url": "https://www.amsterdamfoodie.nl/2024/douro-valley-wine-tour-from-porto/",
+          "date": "2024-04-24"
+        }
+      ],
+      "divergentDetail": "AmsterdamFoodie documente la dégustation à Quinta do Bomfim : LBV 1998 et Tawny 20 ans de Dow's. WineTourism documente la Quinta do Tedo : Tawny 10, 20, Colheita 2005 — deux quintas distinctes, deux millésimes complètement différents, même expérience fondamentale de boire le Tawny à sa source dans la vallée.",
+      "draftStory": "Le porto qu'on boit dans les caves du Douro n'est pas le même que celui qu'on achète en ville. Ici, il sort directement du tonneau, dans la quinta qui l'a produit, avec les vignes visibles par la fenêtre. On boit du Tawny 20 ans frais, pas à température ambiante — les notes de noix, de figue et de caramel brûlé s'expriment mieux à 10-12 °C. C'est la dégustation d'avant le repas dans le Douro, pas le digestif de fin de soirée.",
+      "fixNote": "WineTourism.com retourne 403 sur tout le domaine (inaccessible et structurellement agrégateur) — une seule source primaire vérifiée ; le récit extrapole la température de service et le moment de dégustation sans base dans la source confirmée."
+    },
+    {
+      "id": "douro-doc-rouge",
+      "collection": "dishes",
+      "base": "douro",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "AmsterdamFoodie",
+          "url": "https://www.amsterdamfoodie.nl/2024/douro-valley-wine-tour-from-porto/",
+          "date": "2024-04-24"
+        },
+        {
+          "creator": "Wine Folly",
+          "url": "https://winefolly.com/deep-dive/exploring-touriga-nacional-wine/",
+          "date": "2024-01"
+        }
+      ],
+      "divergentDetail": "AmsterdamFoodie documente la carte de 104 pages de Castas e Pratos, avec exploration des Douro DOC au verre. Wine Folly traite le Touriga Nacional comme cépage : puissant, structuré, profondément coloré, tannique avec un fruit noir. Les deux convergent sur le fait que le Douro produit des rouges secs de haut niveau depuis les années 1990 seulement.",
+      "draftStory": "Pendant des siècles, tout ce qui sortait des schistes du Douro était fortifié en porto. Ce n'est qu'à partir des années 1990 que les producteurs ont commencé à vinifier en sec. Aujourd'hui, les Touriga Nacional du Cima Corgo comptent parmi les grands rouges ibériques — profonds, tanniques, avec un fruit sombre que le schiste concentre. À Castas e Pratos à Régua, une carte de 104 pages de vins portugais au verre permet d'explorer une douzaine de producteurs sans commander de bouteille entière.",
+      "fixNote": "Les deux sources sont réelles, primaires et indépendantes — la carte de 104 pages à Castas e Pratos et le profil tannique/fruit noir du Touriga Nacional sont confirmés — mais le récit introduit deux faits non sourcés : la date de transition \"années 1990\" (absente des deux sources) et la précision \"Douro DOC au verre\" (AmsterdamFoodie dit vins portugais en général, pas DOC Douro spécifiquement)."
+    },
+    {
+      "id": "douro-riz-de-cabrito",
+      "collection": "dishes",
+      "base": "douro",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Portoalities (Susana Ribeiro)",
+          "url": "https://portoalities.com/en/best-restaurants-douro-valley/",
+          "date": "2020-06-17"
+        }
+      ],
+      "divergentDetail": "Portoalities décrit le riz au chevreau comme plat signature de Toca da Raposa, sans détail de préparation. TastePorto documente un review indépendant deux ans plus tard et cite un critique de RestaurantGuru qui écrit que la viande «freed from the bone with ease, it was incredibly juicy, well seasoned and with a slight spicy touch» — texture et assaisonnement absents de la première source.",
+      "draftStory": "La recette est trás-os-montaine : chevreau et riz cuits ensemble dans le même plat en terre cuite, les jus de la viande infusant le riz pendant la cuisson au four. Pas un braisé séparé, pas un plat de riz à part — un seul plat, une seule cuisson, le riz qui absorbe tout. À Toca da Raposa à Ervedosa do Douro, c'est le plat qui revient dans toutes les critiques : la chair se défait à la fourchette, la légère touche épicée arrive à la fin. Ce plat seul justifie le détour vers l'arrière-pays.",
+      "fixNote": "TastePorto (2022) ne mentionne pas le riz de cabrito — les plats cités sont l'agneau au Porto, le sanglier et l'alheira — et la citation du critique RestaurantGuru sur la texture/assaisonnement est introuvable dans cette source, ce qui invalide la convergence et rend le récit invérifiable sur ses détails les plus précis."
+    },
+    {
+      "id": "douro-gem-baba-ao-porto",
+      "collection": "gems",
+      "base": "douro",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Portoalities (Sara Riobom)",
+          "url": "https://portoalities.com/en/best-restaurants-douro-valley/",
+          "date": "2020-06-17"
+        }
+      ],
+      "divergentDetail": "RestaurantGuru compile 2 538 avis sur Veladouro et mentionne le «drunken port cake» (baba au porto) parmi les points forts. Portoalities recommande Veladouro dans la même liste et confirme le restaurant comme adresse incontournable de Pinhão — mais sans citer le baba nommément. La convergence tient sur le lieu (Veladouro), pas sur le détail «introuvable ailleurs» qui reste une claim à vérifier en arrivant.",
+      "draftStory": "Le baba au porto est le dessert de Pinhão — un baba au rhum revisité où l'alcool est remplacé par du porto local, accompagné d'une crème au mascarpone aux zestes d'orange. Chez Veladouro, en terrasse sur le quai, il clôt naturellement un déjeuner après la croisière en rabelo. On n'en trouve pas à Porto, pas à Lisbonne. C'est un dessert de lieu et de saison.",
+      "fixNote": "Portoalities confirme Veladouro comme adresse incontournable de Pinhão mais ne mentionne aucun dessert ; RestaurantGuru est un agrégateur d'avis anonymes (non primaire) et non indépendant de TripAdvisor/Google — la convergence sur le «baba au porto introuvable ailleurs» ne tient pas, le récit doit supprimer cette claim non corroborée."
+    },
+    {
+      "id": "lisbonne-ze-da-mouraria",
+      "collection": "pois",
+      "base": "lisbonne",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Julie Kruijs — The Lisbon Connection",
+          "url": "https://www.thelisbonconnection.com/restaurant-ze-da-mouraria-hidden-gem-in-lisbons-historical-city-center/",
+          "date": "2021-05-04"
+        },
+        {
+          "creator": "Daniela Sunde-Brown — Ola Daniela",
+          "url": "https://oladaniela.com/food-guide-lisbon/",
+          "date": "2026-04-16"
+        }
+      ],
+      "divergentDetail": "The Lisbon Connection (2021) souligne le bacalhau à minhota et les portions intentionnellement surdimensionnées — pour deux personnes, commander pour une. Ola Daniela (2026) le liste pour le bacalhau com grão à Mouraria, autre déclinaison de la morue. Deux résidentes, deux visites séparées de cinq ans, deux plats distincts cités.",
+      "draftStory": "Rua João do Outeiro, au bord de Mouraria : une salle carrelée, un tableau noir, des portions qui ne s'excusent de rien. Ici on vend plus de 200 kg de bacalhau à minhota par semaine — la morue rôtie aux pois chiches qui a rendu l'endroit célèbre sans que personne ne l'ait planifié. On arrive à midi pile, on commande pour un seul même quand on est deux, et on repart avec l'impression d'avoir mangé comme un Mourariense un mardi ordinaire.",
+      "fixNote": "Convergence sur le resto validée (deux sources primaires indépendantes, portions + bacalhau/pois chiches confirmés), mais le récit contient deux défauts bloquants : l'adresse Rua João do Outeiro 24 est fermée selon la source 2026 (déménagé à Rua Gomes Freire 60), et le chiffre \"200 kg de bacalhau à minhota par semaine\" est introuvable dans les deux sources — hallucination à supprimer avant publication."
+    },
+    {
+      "id": "lisbonne-ramiro",
+      "collection": "pois",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Mark Wiens — Migrationology",
+          "url": "https://migrationology.com/cervejaria-ramiro-restaurant-lisbon/",
+          "date": "2016-11"
+        }
+      ],
+      "divergentDetail": "Mark Wiens (2016) décrit les percebes comme « juicy and rubbery, kind of similar to really salty snails » et note la pratique du prego en dessert — détail hyper-local confirmé indépendamment par Will Fly for Food (2023) qui décrit les carabineiros comme « the best single piece of seafood » avec une douceur naturelle impressionnante. Deux terrains, sept ans d'écart, deux détails concrets différents.",
+      "draftStory": "Depuis 1956, l'Avenida Almirante Reis abrite deux étages de bruit, de néons et de tabliers blancs. On commence par un plateau de percebes — chair caoutchouteuse et iodée, comme avaler une gorgée de vague — et une Super Bock froide. Puis arrivent les carabineiros au gros sel, crevettes écarlates d'une douceur presque indécente. La tradition : finir avec un prego, le petit sandwich au steak qui sert de dessert dans cette maison. On réserve ou on arrive à midi pile — aucun autre compromis n'existe ici.",
+      "fixNote": "Will Fly for Food (2019, pas 2023) n'a PAS goûté les carabineiros — le détail « best single piece of seafood » est une hallucination directe ; ET Food Voyage ne contient aucun des détails allégués ; seul Mark Wiens est une source terrain vérifiée pour les percebes et le prego."
+    },
+    {
+      "id": "lisbonne-senhora-do-monte",
+      "collection": "pois",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Visit Lisboa — official city tourism",
+          "url": "https://www.visitlisboa.com/en/places/miradouro-da-senhora-do-monte",
+          "date": "2025-01"
+        }
+      ],
+      "divergentDetail": "Deux sources indépendantes confirment le miradouro le plus haut de Lisbonne, vue panoramique 250° sur le Castelo, les toits d'Alfama et le Tage. Moins fréquenté car il faut monter à pied depuis le tram 28 (E28). Chapelle Nossa Senhora do Monte sur place, exposée plein ouest — idéale au coucher du soleil.",
+      "draftStory": "Le plus haut miradouro de Lisbonne et le moins achalandé — parce qu'il faut grimper à pied depuis l'arrêt du 28. En haut, une chapelle du XVIIIe siècle, quelques bancs, et une vue à 250° sur le Castelo São Jorge, les toits rouges d'Alfama et le Tage. On s'installe environ 45 minutes avant le coucher du soleil, on laisse la lumière descendre sur la ville, et on comprend pourquoi les locaux gardent cet endroit pour eux.",
+      "fixNote": "Source 1 (lisbonportugaltourism.com) réfute directement le récit : le site dit explicitement que le miradouro est désormais « envahi par les touristes et tuk-tuks », ce qui contredit la claim centrale du draft (« les locaux gardent cet endroit pour eux / le moins achalandé ») — source 1 ne peut donc pas être retenue pour valider ce récit ; source 2 (visitlisboa.com, officielle) confirme l'existence du lieu et la vue panoramique mais ne supporte pas les claims « 250° », « moins fréquenté », ni « orientation plein ouest » ; le récit ne passe pas storyOk en raison de la contradiction fréquentation et des claims non sourcés."
+    },
+    {
+      "id": "lisbonne-cascais",
+      "collection": "pois",
+      "base": "lisbonne",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Devour Tours editorial",
+          "url": "https://devourtours.com/blog/cascais-day-trip/",
+          "date": "2024-06"
+        },
+        {
+          "creator": "Chasing Whereabouts editorial",
+          "url": "https://chasingwhereabouts.com/blog/cascais-day-trip-from-lisbon",
+          "date": "2026-01"
+        }
+      ],
+      "divergentDetail": "Deux sources indépendantes confirment le train depuis Cais do Sodré (~33-40 min, ~2,30 €), la ligne qui longe l'Atlantique par la fenêtre, et Boca do Inferno comme site spectaculaire côtier. Eau froide en mai (16-18°C) : plus promenade côtière et fruits de mer que baignade.",
+      "draftStory": "Le train part de Cais do Sodré et longe déjà l'Atlantique par la fenêtre avant même d'arriver — trente-trois minutes de côte comme mise en bouche. À Cascais, on déjeune de fruits de mer en bord de mer, on marche sur la promenade côtière jusqu'à Boca do Inferno, et on rentre quand on veut. L'eau en mai est froide (16-18°C) : c'est une journée de mer et de table, pas une journée de bain.",
+      "fixNote": "Les deux sources confirment le train ~40 min depuis Cais do Sodré, Boca do Inferno et les fruits de mer — mais le récit brouillon invente «33 minutes» (aucune source ne dit ça, les deux disent 40 min) et la température eau «16-18°C en mai» est absente des deux sources : deux données non sourcées rendent storyOk=false."
+    },
+    {
+      "id": "lisbonne-bifana",
+      "collection": "dishes",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Valter Leandro — Lisboa Secreta",
+          "url": "https://lisboasecreta.co/as-bifanas-do-afonso/",
+          "date": "2024-01-25"
+        }
+      ],
+      "divergentDetail": "Lisboa Secreta (2024) précise le rôle de la banha (saindoux) dans la marinade — ingrédient que les restos touristiques omettent. Devour Tours (2023) décrit la technique de mijotage au vin blanc et à l'ail. Deux sources distinctes, deux éléments techniques complémentaires sur la recette authentique.",
+      "draftStory": "Le filet de porc mijote dans le vin blanc, l'ail et la banha — le saindoux qui donne au bouillon sa richesse particulière. On glisse la viande dans un papo-seco légèrement beurré, on rajoute un filet de sauce, et on mange debout. C'est le repas le plus honnête de Lisbonne : pas de nappe, pas de menu, pas de prix au-delà de quatre euros.",
+      "fixNote": "Devour Tours (2019, pas 2023) ne mentionne ni la banha ni la technique de mijotage au vin blanc — le détail technique sur le mijotage dans le récit est une hallucination ; seule Lisboa Secreta confirme la banha, donc downgrade à singleSourceTrusted et le récit doit être vidé de la phrase sur Devour Tours."
+    },
+    {
+      "id": "lisbonne-bacalhau-a-bras",
+      "collection": "dishes",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Wikipedia — Bacalhau à Brás",
+          "url": "https://en.wikipedia.org/wiki/Bacalhau_%C3%A0_Br%C3%A1s",
+          "date": "2024-01"
+        }
+      ],
+      "divergentDetail": "Wikipedia et 196 Flavors convergent sur l'origine Bairro Alto, seconde moitié du XIXe siècle. Le plat serait né pour valoriser les morceaux moins nobles de la morue — désossés, effeuillés, liés aux œufs et aux pommes de terre paille. Deux sources indépendantes sur un plat générique sans adresse fixe : convergence sur l'histoire et la technique.",
+      "draftStory": "Né dans le Bairro Alto au XIXe siècle pour ne rien gaspiller : les morceaux moins nobles de la morue dessalée, effilochés, mélangés aux œufs brouillés, aux pommes de terre paille croustillantes, aux olives noires. La liaison vient des œufs — pas de sauce, pas de farine. Un plat de restes improvisé devenu institution nationale, présent sur presque toutes les ardoises de Mouraria.",
+      "fixNote": "196 Flavors est un agrégateur sans bibliographie propre ni datation XIXe indépendante — probable écho Wikipedia ; de plus, le récit ajoute «morceaux moins nobles» qui n'apparaît dans aucune des deux sources, ce qui invalide storyOk."
+    },
+    {
+      "id": "lisbonne-choco-frito",
+      "collection": "dishes",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Inês — O diário da Inês (blog local)",
+          "url": "https://odaines.blogspot.com/2016/01/casa-santiago-o-rei-do-choco-frito.html",
+          "date": "2016-01-30"
+        }
+      ],
+      "divergentDetail": "Inês (blogueuse locale, 2016) décrit l'attente à midi avec tickets numérotés dehors, les frites maison, et le dessert insolite — pudding et babaganoush aux amandes. Everything Setúbal (2024) confirme Casa Santiago comme référence absolue de la ville. Deux sources locales indépendantes, huit ans d'écart, détails complémentaires.",
+      "draftStory": "La seiche de l'estuaire du Sado, tranchée, légèrement farinée et frite — chair épaisse qui résiste sous les dents, croûte mince qui ne masque rien. À Setúbal, personne ne conteste le titre : Casa Santiago, Avenida Luísa Todi, est le Rei do Choco Frito. On arrive à midi, les files se forment, on prend un ticket numéroté si la salle est pleine. Spécialité de Setúbal, imitée partout ailleurs, réussie nulle part autant qu'ici.",
+      "fixNote": "Everything Setúbal (sept. 2025, pas mars 2024) ne mentionne pas Casa Santiago — six autres restos listés, convergence inexistante ; de plus le récit traduit \"baba de camelo com amêndoa\" par \"babaganoush aux amandes\", hallucination de traduction à corriger avant publication."
+    },
+    {
+      "id": "lisbonne-moscatel-setubal",
+      "collection": "dishes",
+      "base": "lisbonne",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Salt of Portugal — blog vin Portugal",
+          "url": "https://saltofportugal.com/2016/12/27/tasting-moscatel-in-setubal/",
+          "date": "2016-12-27"
+        },
+        {
+          "creator": "Cellar Tours editorial — vins Portugal",
+          "url": "https://www.cellartours.com/blog/portugal/sweet-discoveries-moscatel-and-fortified-wines-of-portugal",
+          "date": "2023-09"
+        }
+      ],
+      "divergentDetail": "Salt of Portugal (2016, dégustation sur place chez Fonseca à Azeitão) décrit des Moscatel de plus de 100 ans en barrique, arômes de caramel, noix et orange confite. Cellar Tours (2023) confirme que les caves contiennent la plus grande collection de Moscatel vieilli au Portugal, certains datant des années 1800. Deux visites indépendantes, angle sensoriel vs angle patrimonial.",
+      "draftStory": "Sur la péninsule de Setúbal, la maison José Maria da Fonseca élabore du Moscatel fortifié depuis 1834. Le raisin Muscat d'Alexandrie donne un vin ambré, arômes d'abricot sec, d'orange confite et de miel tiède — à boire frais en fin de repas. Les caves d'Azeitão conservent des millésimes datant du XIXe siècle. On visite, on goûte, et on repart avec une bouteille qui voyage mieux que le vin léger.",
+      "fixNote": "Les deux sources sont réelles et indépendantes (Salt of Portugal confirme la visite chez Fonseca + millésimes depuis 1880 ; Cellar Tours confirme les vins des années 1800 à Azeitão), mais le récit brouillon introduit des arômes spécifiques (abricot sec, orange confite, miel) non attestés dans les sources vérifiées, et surenchérit \"finest collection\" en \"plus grande collection\" — réécriture requise en se limitant aux faits sourcés."
+    },
+    {
+      "id": "lisbonne-gem-feira-ladra",
+      "collection": "gems",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Marga — Discover Portugal (résidente Lisbonne)",
+          "url": "https://www.discover-portugal.com/feira-da-ladra/",
+          "date": "2026-04-23"
+        }
+      ],
+      "divergentDetail": "Marga (résidente Lisbonne, mise à jour avril 2026) décrit la composition du marché : antiquités, objets militaires, vêtements vintage, artisanat, et recommande d'arriver tôt avant que les bonnes pièces partent. Marché existe depuis le XIIe siècle, 'Feira da Ladra' = 'marché des voleurs'. Le Campo de Santa Clara jouxte le Panthéon National — vue gratuite depuis les gradins.",
+      "draftStory": "Depuis le XIIe siècle au Campo de Santa Clara — azulejos récupérés dans des démolitions, disques de fado des années 50, faïence Vista Alegre ébréchée, briquets de l'armée. Le marché s'appelle la Feira da Ladra, le marché des voleurs, depuis assez longtemps pour que le nom soit devenu un titre de noblesse. On arrive à 8h30, avant la chaleur et avant que les meilleures pièces aient trouvé preneurs. Le Panthéon national est juste derrière — entrée des gradins gratuite.",
+      "fixNote": "Source 2 (Visit Lisboa) pointe sur le Miradouro da Senhora do Monte — page sans rapport avec la Feira da Ladra, URL invalide pour ce claim ; seule Marga est vérifiée, mais le récit extrapole des détails (disques de fado, faïence Vista Alegre, azulejos) absents de cette source."
+    },
+    {
+      "id": "lisbonne-gem-jardim-principe-real",
+      "collection": "gems",
+      "base": "lisbonne",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Visit Lisboa — Príncipe Real Organic Produce Fair",
+          "url": "https://www.visitlisboa.com/en/places/principe-real-organic-produce-fair",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Junta de Freguesia da Misericórdia — Feiras e Mercados (source officielle paroisse)",
+          "url": "https://www.jf-misericordia.pt/viver/economia-local/feiras-e-mercados",
+          "date": "2024-01"
+        }
+      ],
+      "divergentDetail": "Visit Lisboa (source officielle) et Lifecooler (guide local) confirment tous deux le marché bio du samedi matin (8h-14h), résultant d'une collaboration mairie-Agrobio. Le grand cèdre du Buçaco centenaire (145 ans, canopée de 20m) est documenté par lisbonportugaltourism.com. Deux sources distinctes sur le marché, une troisième sur l'arbre.",
+      "draftStory": "Au centre du jardin inauguré en 1853, un cèdre du Buçaco de 145 ans étend une canopée de vingt mètres. Le samedi matin de 8h à 14h, le marché bio s'installe sur le pourtour : fromages de chèvre de l'Alentejo, miel de bruyère, pains de seigle, huiles d'olive de producteurs régionaux. Des vieux jouent aux cartes sous l'ombre, des chiens font leur tournée des kiosques. C'est une des places de Lisbonne où les habitants viennent s'asseoir sans raison — ce qui est la meilleure raison.",
+      "fixNote": "Le marché bio du samedi (8h-14h, partenariat Agrobio) est confirmé par sources indépendantes, mais le récit mélange deux arbres distincts : le cèdre du Buçaco (~150 ans, canopée 30m diamètre / 7m hauteur) et les ficus australiens (Ficus macrophylla, ~140 ans, 30m de hauteur) — \"ficus bicentenaire\" dans le titre contredit \"cèdre du Buçaco de 145 ans\" dans le corps, et \"vingt mètres de canopée\" est une fusion fautive des deux espèces."
+    },
+    {
+      "id": "lisbonne-gem-senhora-do-monte",
+      "collection": "gems",
+      "base": "lisbonne",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "lisbonportugaltourism.com — guide miradouros",
+          "url": "https://www.lisbonportugaltourism.com/guide/miradouro-da-senhora-do-monte.html",
+          "date": "2026-01"
+        },
+        {
+          "creator": "Visit Lisboa — Turismo de Lisboa (fiche officielle)",
+          "url": "https://www.visitlisboa.com/en/places/miradouro-da-senhora-do-monte",
+          "date": "2025-01"
+        }
+      ],
+      "divergentDetail": "Deux sources confirment : plus haut miradouro de Lisbonne (quartier Graça), vue panoramique 250°, chapelle Nossa Senhora do Monte sur place, orienté plein ouest (coucher de soleil). Moins fréquenté que Portas do Sol ou Santa Luzia car montée à pied depuis le tram E28 requise.",
+      "draftStory": "Le plus haut des miradouros de Lisbonne est aussi le moins achalandé — il faut monter à pied depuis l'arrêt du 28, et ça décourage les groupes. En haut, la chapelle du XVIIIe siècle, quelques bancs, 250° de panorama sur le Castelo São Jorge, les toits rouges d'Alfama et le Tage. Exposé plein ouest : le coucher du soleil de fin mai, vers 21h, descend directement sur la ville. C'est le genre d'endroit qu'on garde pour soi.",
+      "fixNote": "Les deux URLs chargent et sont indépendantes (guide privé + office officiel), mais trois affirmations clés du récit sont absentes des deux sources — « plus haut miradouro » (les sources disent seulement « plus haute colline »), « 250° de panorama » et « orienté plein ouest » — ce qui invalide le récit tel quel ; downgrade à singleSourceTrusted car seule lisbonportugaltourism fournit des détails pratiques concordants (chapelle XVIIIe, tram 28)."
+    },
+    {
+      "id": "comporta-bhostel-possanco",
+      "collection": "pois",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "JO&SO (guide voyage curated)",
+          "url": "https://www.joandso.com/hotels-portugal/comporta-b-hostel",
+          "date": "2024-01"
+        }
+      ],
+      "divergentDetail": "JO&SO décrit 9 chambres dans le village de Brejos da Carregueira avec cuisine commune et piscine ; ThatHolidayMum souligne le rapport qualité-prix familial exceptionnel et les équipements de plage prêtés gratuitement — deux angles et détails distincts, visites à des périodes différentes.",
+      "draftStory": "Au cœur du village agricole de Brejos da Carregueira, à mi-chemin entre Carvalhal et Comporta, on dort dans neuf chambres épurées avec cuisine commune et petite piscine — une oasis abordable dans une destination où les maisons de plage dépassent facilement 300 € la nuit. L'équipement de plage est prêté sans frais, et les plages de l'Atlantique sont à un quart d'heure en voiture.",
+      "fixNote": "La convergence tombe : ThatHolidayMum date réelle = 2025-02 (pas 2023-06), place l'établissement en bordure de Comporta town (pas Brejos da Carregueira) — contradiction factuelle directe avec JO&SO et avec le récit brouillon ; la localisation du brouillon ne peut pas tenir en l'état."
+    },
+    {
+      "id": "comporta-sal",
+      "collection": "pois",
+      "base": "comporta",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Portugal Confidential — Ann Abel (critique voyage)",
+          "url": "https://portugalconfidential.com/sal-restaurant-praia-carvalhal-comporta/",
+          "date": "2023-05-20"
+        },
+        {
+          "creator": "Taste of Lisboa Food Tours (guide culinaire Portugal)",
+          "url": "https://www.tasteoflisboa.com/blog/comporta-travel-guide-for-food-lovers/",
+          "date": "2023-08-24"
+        }
+      ],
+      "divergentDetail": "Portugal Confidential a mangé la salade de poulpe et le calamar frit « le plus léger » de leur mémoire, et note que célébrités et inconnus sont traités pareil en salle ; Taste of Lisboa cite les crevettes géantes avec riz à la coriandre et le carpaccio de poulpe. Deux visites, deux plats différents commandés, même verdict sur la fraîcheur.",
+      "draftStory": "Élu meilleur bar de plage du monde par Condé Nast Traveller en 2015, le Sal a depuis déménagé de la Praia do Pego à la Praia do Carvalhal, en 2023. La terrasse donne sur l'Atlantique, le riz noir à l'encre de seiche tache les doigts et les lèvres, le calamar frit sort de l'huile avec une légèreté qu'on ne s'explique pas. On réserve bien à l'avance — même en juin, les weekends partent vite.",
+      "fixNote": "Les deux sources sont réelles et indépendantes avec détails divergents vérifiés (salade de poulpe + calamar frit chez Portugal Confidential ; carpaccio de poulpe + crevettes géantes riz coriandre chez Taste of Lisboa), mais le récit brouillon contient une affirmation non corroborée : « élu meilleur bar de plage du monde par Condé Nast Traveller en 2015 » — aucune des deux sources ne cite le Sal dans ce contexte ni ne date cet award à 2015 ; à retirer ou sourcer séparément avant publication."
+    },
+    {
+      "id": "comporta-gomes",
+      "collection": "pois",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Taste of Lisboa (guide culinaire Portugal)",
+          "url": "https://www.tasteoflisboa.com/blog/comporta-travel-guide-for-food-lovers/",
+          "date": "2023-09"
+        }
+      ],
+      "divergentDetail": "Taste of Lisboa décrit les tapas, la charcuterie ibérique et les fromages en salle, avec sélection de vins au verre soignée ; Restaurant Guru confirme la sélection vinicole étendue, l'ouverture en 2018 par un épicier gourmet local, et la note Google à 4.4/5. Deux angles — l'expérience assiette vs. l'historique de l'établissement.",
+      "draftStory": "Ouvert en 2018 par un épicier gourmet du village, Gomes est une cave à vins doublée d'un comptoir à petiscos : planches de charcuterie au porco preto, fromage de brebis local, conserves artisanales soigneusement choisies. Les vins sont exclusivement de l'Alentejo et du Setúbal — une sélection qu'on explore au verre, sans commander la bouteille entière. Le bon endroit pour le late lunch entre deux plages.",
+      "fixNote": "Restaurant Guru est un agrégateur non primaire; la date d'ouverture 2018 et le profil 'épicier gourmet' sont absents des sources fetchées (hallucination probable); la page Guru indique 'Permanently closed', ce qui invalide le récit tel que rédigé — seule Taste of Lisboa est retenue, et le récit doit être purgé des détails non sourcés avant usage."
+    },
+    {
+      "id": "comporta-praia-pego",
+      "collection": "pois",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "VillaNovo (guide destinations)",
+          "url": "https://www.villanovo.com/guides/portugal/comporta/beautiful-beaches",
+          "date": "2023-10"
+        }
+      ],
+      "divergentDetail": "AMA Selections insiste sur le Blue Flag, les 4 km de sable doré et la passerelle piétonne récente ; VillaNovo ajoute que les dauphins du Sado se voient parfois au large et que la pinède forme un écran naturel contre tout développement à l'arrière. Deux sources avec des détails complémentaires non copiés.",
+      "draftStory": "Quatre kilomètres de sable doré Blue Flag bordés d'une pinède dense qui bloque toute vue sur du béton — la plage de Pego est ce à quoi ressemblent les grandes plages européennes quand personne ne les a encore construites. Les dauphins du Sado passent parfois au large. Le Sal restaurant est à 200 mètres : on n'a pas besoin de partir chercher le déjeuner.",
+      "fixNote": "AMA Selections est un agrégateur marketing (villas de luxe), non une source primaire indépendante ; VillaNovo confirme Blue Flag et passerelle pour Pego mais les dauphins du Sado et la pinède comme écran contre le béton ne sont pas attribués à Pego spécifiquement — le récit croise des détails mal attribués et doit être vidé des claims non vérifiés (dauphins, pinède-béton)."
+    },
+    {
+      "id": "comporta-praia-carvalhal",
+      "collection": "pois",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Surf Atlas (guide surf Portugal)",
+          "url": "https://thesurfatlas.com/surfing-portugal/comporta-surf/",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Villanovo (guide destinations)",
+          "url": "https://www.villanovo.com/guides/portugal/comporta/beautiful-beaches",
+          "date": "2023-10"
+        }
+      ],
+      "divergentDetail": "Surf Atlas décrit techniquement les bancs de sable changeants, le break de plage mellow adapté aux débutants et l'école de surf ouverte depuis 2008 ; Villanovo parle plutôt de l'ambiance, des dunes larges et du fait que c'est là où les Lisboètes se réfugient quand Comporta village est pris d'assaut. Deux angles entièrement distincts.",
+      "draftStory": "Dunes larges, rizières juste derrière la piste d'accès sablonneuse, break de plage mellow qui accueille les débutants et les surfers intermédiaires depuis que l'école Surf in Comporta a ouvert ici en 2008. Moins bondé que la plage du village, pavillon bleu, et le Sal restaurant s'est installé ici depuis 2023 — c'est maintenant la meilleure plage du secteur pour une journée complète.",
+      "fixNote": "Les deux URLs sont vivantes et indépendantes (angles distincts confirmés), mais le récit contient deux hallucinations non sourcées : l'école \"Surf in Comporta ouverte en 2008\" est absente de Surf Atlas, et le restaurant \"Sal depuis 2023 à Carvalhal\" contredit Villanovo qui place le Sal à Pego Beach et nomme \"Dos Pescadores\" sur Carvalhal — verdict rétrogradé à singleSourceTrusted (les faits géographiques/surf de base sont supportés) et storyOk=false jusqu'à purge des deux fabrications."
+    },
+    {
+      "id": "comporta-porco-preto",
+      "collection": "dishes",
+      "base": "comporta",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Visit Alentejo / Turismo do Alentejo (office de tourisme officiel)",
+          "url": "https://www.visitalentejo.pt/en/blog/ten-wonderful-things-to-eat-and-drink-in-portugal-s-alentejo/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "1st Day of Summer (food blog Portugal)",
+          "url": "https://www.1stdayofsummer.com/black-pork-portugal-porco-preto/",
+          "date": "2023-05"
+        }
+      ],
+      "divergentDetail": "Visit Alentejo met l'accent sur la montanheira (phase d'engraissement aux glands d'octobre à mars) et les produits charcutiers AOP ; 1st Day of Summer décrit la texture persillée de la viande et le contraste gustatif avec le porc industriel, avec une expérience de dégustation en ferme.",
+      "draftStory": "Le porco preto alentejano passe la montanheira d'octobre à mars en liberté dans les chênes-lièges du montado, à se nourrir de glands — c'est ce qui lui donne cette graisse douce et persillée, cette chair qui n'a rien à voir avec le porc industriel. On le mange chez Gomes en planche de charcuterie ibérique (presunto, paio, chouriço) ou grillé en côtelettes avec des migas alentejanas. Le meilleur apéro de Comporta.",
+      "fixNote": "Convergence confirmée sur le fond (montado, glands, persillage, charcuterie ibérique) par deux sources indépendantes vivantes — mais le récit contient trois problèmes : (1) la période est octobre-janvier selon 1st Day of Summer, pas octobre-mars ; (2) le restaurant \"Gomes\" n'apparaît dans aucune des deux sources ; (3) les \"migas alentejanas\" comme accompagnement attesté ne sont pas sourcées — corriger ces trois points avant publication."
+    },
+    {
+      "id": "comporta-ameijoas-alho",
+      "collection": "dishes",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Culinary Backstreets Lisbon — Austin Bush",
+          "url": "https://culinarybackstreets.com/cities-category/lisbon/2022/recipe-ameijoas-a-bulhao-pato-lisbon-in-a-dish",
+          "date": "2022-08-26"
+        }
+      ],
+      "divergentDetail": "Visit Portugal donne la recette officielle et l'origine du nom (le poète et gastronome Raimundo António de Bulhão Pato) ; Culinary Backstreets insiste sur le fait que la qualité dépend entièrement de la fraîcheur des palourdes et du bouillon qu'on trempe avec le pain — angle pratico-sensoriel vs. historique.",
+      "draftStory": "Nommées d'après le poète-gastronome Raimundo António de Bulhão Pato, ces palourdes de l'estuaire du Sado s'ouvrent dans un bain d'huile d'olive, d'ail, de vin blanc et de coriandre fraîche. La clé : les ameijoas arrivent du Sado le matin même au Restaurante São João — la fraîcheur de l'estuaire, ça se goûte. Et le bouillon dans le fond de la casserole, on le trempe avec du pain jusqu'au dernier millilitre.",
+      "fixNote": "Visit Portugal ne mentionne pas Bulhão Pato le poète (hallucination partielle dans le détail divergent allégué) ; Culinary Backstreets est fiable pour le bouillon et le pain, mais ni l'estuaire du Sado ni le Restaurante São João ne sont mentionnés dans aucune source — le récit brouillon invente ces détails géo-commerciaux."
+    },
+    {
+      "id": "comporta-vinho-alentejo",
+      "collection": "dishes",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Herdade da Comporta (producteur officiel)",
+          "url": "https://www.adega.herdadedacomporta.pt/en/wines/",
+          "date": "2024-01"
+        }
+      ],
+      "divergentDetail": "La Herdade da Comporta décrit ses blancs récoltés la nuit pour préserver la fraîcheur, sur sols sableux avec minéralité marquée (Arinto, Antão Vaz) ; le critique Bońkowski note que le terroir sableux atlantique produit des vins d'un profil radicalement différent des vins de l'Alentejo intérieur — plus légers, plus acides, presque côtiers.",
+      "draftStory": "Les vins de la Herdade da Comporta poussent sur des sols sableux à un kilomètre de l'Atlantique — un terroir qui n'a rien à voir avec l'Alentejo intérieur. Les blancs sont récoltés la nuit pour préserver la fraîcheur, avec une minéralité et une acidité surprenantes pour la région. Chez Gomes, la sélection se concentre sur ces producteurs côtiers : un verre d'Arinto frais avec les ameijoas, c'est l'accord régional qui s'explique tout seul.",
+      "fixNote": "La source producteur confirme récolte nocturne + sols sableux + minéralité, mais l'article Bońkowski (2012) ne contient aucune affirmation sur un profil « radicalement différent de l'Alentejo intérieur » ni sur une acidité côtière — ce détail central est une hallucination ; le récit brouillon lui attribue une thèse absente de son texte."
+    },
+    {
+      "id": "comporta-gem-lagoa-melides",
+      "collection": "gems",
+      "base": "comporta",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Espirito da Comporta (guide local)",
+          "url": "https://espiritodacomporta.com/the-secrets-of-melides-portugal/",
+          "date": "2024-06"
+        }
+      ],
+      "divergentDetail": "Espirito da Comporta décrit les activités (paddleboard, kayak, observation ornithologique depuis un observatoire) et le coucher de soleil qui se reflète dans la lagune ; All About Portugal confirme le statut de zone protégée d'intérêt national depuis 2010 et la richesse ornithologique (canards, rapaces, échassiers). Deux angles qui ne se dupliquent pas.",
+      "draftStory": "À 20 km au sud de Comporta, la lagune de Melides est classée zone protégée nationale depuis 2010 — eau douce et eau salée séparées par un mince cordon de sable. Le matin, les échassiers et les canards se nourrissent dans les bas-fonds près de l'observatoire ornithologique. L'après-midi, on fait du paddleboard côté lagune calme, puis on traverse à pied le cordon de sable pour les vagues atlantiques. Deux baignades pour le prix d'une.",
+      "fixNote": "Convergence invalide : les détails clés (zone protégée 2010, observatoire, canards/rapaces/échassiers, paddleboard au coucher de soleil) proviennent tous d'Espirito da Comporta — All About Portugal ne corrobore aucun d'eux et cite trois espèces différentes ; le récit contient de plus une hallucination (kayak absent des deux sources, cordon de sable non décrit ainsi)."
+    },
+    {
+      "id": "comporta-gem-museu-arroz",
+      "collection": "gems",
+      "base": "comporta",
+      "verdict": "converged",
+      "singleSourceTrusted": false,
+      "sources": [
+        {
+          "creator": "Herdade da Comporta (propriétaire officiel — sous-domaine adega)",
+          "url": "https://www.adega.herdadedacomporta.pt/en/rice-museum/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Portugal Confidential (critique voyage)",
+          "url": "https://portugalconfidential.com/rice-museum-muesu-arroz-comporta/",
+          "date": "2023-04"
+        }
+      ],
+      "divergentDetail": "La Herdade da Comporta (propriétaire) décrit l'ancienne usine de décorticage de riz de 1952 avec ses espaces de métiers disparus (boucherie, boulangerie, barbier, couturière) et les machines d'un autre siècle ; Portugal Confidential ajoute que le restaurant adjacent sert le riz local cuisiné sous toutes ses formes et que c'est l'endroit pour comprendre pourquoi Comporta est synonyme de riz. Deux angles distincts — l'historique vs. l'expérience visiteur.",
+      "draftStory": "Dans l'ancienne usine de décorticage de riz de 1952, le Museu do Arroz reconstitue la vie ouvrière de Comporta : boucherie, boulangerie, barbier, atelier de couture — les métiers d'un village agricole qui ne fonctionnait qu'autour du riz. Entrée à 2 €, une heure suffit, et le restaurant adjacent sert l'arroz de marisco avec le riz cultivé dans les rizières qu'on vient de comprendre. On repart avec une lecture différente du paysage.",
+      "fixNote": "Convergence tient (deux sources indépendantes sur usine 1952 + restaurant), mais le récit contient deux erreurs : le prix \"2 €\" est introuvable dans les deux sources vérifiées (hallucination), et \"une heure suffit\" contredit la source qui indique 45 minutes — le récit doit être corrigé avant usage."
+    },
+    {
+      "id": "algarve-retiro-pescador",
+      "collection": "pois",
+      "base": "algarve",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Olá Daniela (Daniela Sunde-Brown, résidente Portugal)",
+          "url": "https://oladaniela.com/best-restaurants-algarve-aljezur-arrifana-sagres/",
+          "date": "2026-02-02"
+        }
+      ],
+      "divergentDetail": "Olá Daniela mentionne le resto pour son frango no churrasco à emporter (poulet grillé pour un pique-nique sur la falaise, si bon qu'elle est revenue le lendemain) — pas pour la cataplana de peixe qui est la signature mise en avant. Le site officiel présente le poisson grillé et les cataplanas comme cœur du menu.",
+      "draftStory": "Au bout de Sagres, là où la route finit avant l'Atlantique, O Retiro do Pescador ressemble à ce que le mot 'local' veut vraiment dire : portions honnêtes, poisson sorti de l'eau le matin, et une clientèle de pêcheurs du port de Baleeira qui sait exactement ce qu'elle commande. Daniela Sunde-Brown, blog résidente du Portugal, y est retournée deux jours de suite — la première fois pour un poulet grillé à emporter, la deuxième parce qu'elle ne pouvait pas s'en empêcher. On y vient pour la cataplana de cuivre qui sort de la cuisine avec la vapeur qui s'annonce avant l'assiette.",
+      "fixNote": "Une seule source éditoriale indépendante vérifiée (Daniela) — le site officiel du restaurant n'est pas une source indépendante ; le récit brouillon contient des embellissements non sourcés (cataplana vapeur, clientèle de pêcheurs de Baleeira, \"au bout de Sagres avant l'Atlantique\") qui dépassent ce que les sources confirment."
+    },
+    {
+      "id": "algarve-praia-tonel",
+      "collection": "pois",
+      "base": "algarve",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "AlgarveTips.com",
+          "url": "https://www.algarvetips.com/beaches/vila-do-bispo/praia-do-tonel/",
+          "date": "2025-01"
+        }
+      ],
+      "divergentDetail": "Les deux sources convergent sur le caractère sauvage exposé plein ouest et les vagues spectaculaires ; le dossier de recherche note spécifiquement l'absence de baignade calme et la lumière rasante au lever, AlgarveTips confirme l'exposition atlantique et l'absence d'infrastructure.",
+      "draftStory": "Plein ouest, falaises ocre qui tombent dans l'Atlantique, vagues spectaculaires pour les surfeurs et silence complet à l'aube — Praia do Tonel est la plage de contemplation pure de Sagres. Pas une plage pour se baigner tranquille : le courant et les vagues l'interdisent la plupart du temps. On y vient au lever du soleil, seuls, pour regarder l'eau turquoise s'écraser sur les falaises avant que le monde se réveille.",
+      "fixNote": "Source 1 soumise (URL Carvoeiro) est une mauvaise URL — elle décrit Praia do Carvoeiro, pas Tonel ; la page correcte AlgarveTips Tonel existe et confirme l'exposition atlantique et les dangers de baignade, MAIS contredit le récit sur deux points : la plage n'est pas \\\"plein ouest\\\" selon AlgarveTips (exposition brute atlantique sans mention d'orientation ouest précise) et elle possède des infrastructures réelles (bar de plage, parking, toilettes, maîtres-nageurs, école de surf) — le récit affirme \\\"absence d'infrastructure\\\" ce qui est faux ; source 2 (Google Maps vers fichier interne .research) n'est pas une source primaire vérifiable et ne constitue pas une deuxième source indépendante."
+    },
+    {
+      "id": "algarve-praia-marinha",
+      "collection": "pois",
+      "base": "algarve",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "AlgarveTips.com",
+          "url": "https://www.algarvetips.com/beaches/lagoa/praia-da-marinha/",
+          "date": "2026-01"
+        }
+      ],
+      "divergentDetail": "AlgarveTips confirme les arches de calcaire, l'eau turquoise et le kayak/SUP disponible pour les grottes ; le dossier de recherche ajoute la recommandation d'arriver avant 9h ou après 17h en juin pour éviter la cohue des parkings.",
+      "draftStory": "La plus photographiée de l'Algarve — et méritée. Les arches de calcaire doré, l'eau turquoise, les criques à explorer à marée basse quand les grottes marines s'ouvrent à pied sec. En juin, arriver avant 9h ou après 17h : le parking sature dès 10h30. Le kayak et le SUP disponibles sur place permettent d'entrer dans des grottes que les bateaux à moteur ne peuvent pas atteindre.",
+      "fixNote": "L'URL soumise (/praia-do-carvoeiro/) est la mauvaise plage et invalide ; la vraie page AlgarveTips Marinha confirme arches, eau turquoise et arrivée avant 9h, mais ne mentionne ni kayak/SUP sur place ni grottes accessibles à pied sec à marée basse — deux claims centraux du récit sont sans source, donc storyOk=false."
+    },
+    {
+      "id": "algarve-ponta-piedade-kayak",
+      "collection": "pois",
+      "base": "algarve",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "AlgarveTips.com — Ponta da Piedade",
+          "url": "https://www.algarvetips.com/things-to-do/ponta-da-piedade/",
+          "date": "2025-01"
+        }
+      ],
+      "divergentDetail": "Le dossier de recherche insiste sur le créneau 9h pour la lumière oblique dans les arches et l'absence de bateaux à moteur ; AlgarveTips confirme l'accès aux grottes profondes uniquement en kayak ou SUP, inaccessibles aux embarcations motorisées.",
+      "draftStory": "Les arches et colonnes de grès doré de Ponta da Piedade en kayak à 9h du matin — eau plate, zéro bateaux à moteur, lumière oblique qui filtre dans les grottes jusqu'à 5 mètres de fond. Le même paysage qu'on voit dans toutes les brochures, mais vu de l'intérieur, en silence. Booker 1 à 2 semaines à l'avance en juin pour le slot matin — les places s'arrachent.",
+      "fixNote": "Source 1 (Google Maps) est un agrégateur/cartographe, non une source primaire — invalide ; source 2 citée (/beaches/lagoa/praia-do-carvalho/) est hors sujet (Praia do Carvalho, pas Ponta da Piedade) — invalide telle que déclarée ; la vraie page AlgarveTips sur Ponta da Piedade confirme les grottes kayak-only et la lumière dorée du matin, mais NE mentionne PAS le créneau 9h précis ni l'heure d'une heure oblique dans les arches — le récit introduit un détail horaire non sourcé, ce qui rend storyOk=false."
+    },
+    {
+      "id": "algarve-medronho",
+      "collection": "dishes",
+      "base": "algarve",
+      "verdict": "singleSourceTrusted",
+      "singleSourceTrusted": true,
+      "sources": [
+        {
+          "creator": "Casa do Medronho (producteur Serra de Monchique)",
+          "url": "http://casadomedronho.com/en/medronho-roadmap/aguardente-medronho-da-serra-de-monchique/",
+          "date": "2024-01"
+        }
+      ],
+      "divergentDetail": "Casa do Medronho (producteur direct à Monchique) documente la production par alambic de cuivre à feu de bois et la certification PGI obtenue en 2015 ; The Portugal News retrace l'histoire depuis les Arabes au 10e siècle et précise que la récolte manuelle par les femmes et la distillation par les hommes restent la norme dans la Serra.",
+      "draftStory": "Eau-de-vie d'arbousier distillée dans les montagnes de la Serra de Monchique depuis les Arabes du 10e siècle — baies rouges récoltées à la main, alambic de cuivre à feu de bois lent, résultat entre 40 et 52 degrés. Limpide, avec un arôme de fruit sauvage et un goût qui chauffe sans agresser. Le bon est artisanal (caseiro) — demander si c'est de la production familiale plutôt qu'industrielle. Certifié IGP depuis 2015, produit uniquement en Algarve.",
+      "fixNote": "Source 2 (The Portugal News) retourne HTTP 405 — URL morte, non vérifiable ; source 1 (Casa do Medronho) existe mais ne mentionne ni l'alambic de cuivre à feu de bois, ni la certification PGI 2015, ni les degrés 40–52, ni le rôle genré récolte/distillation — les claims techniques du récit ne sont pas étayés par les sources retenues, donc storyOk=false et convergence impossible."
+    }
+  ],
+  "rejected": [
+    {
+      "id": "porto-salta-o-muro",
+      "base": "porto",
+      "reason": "Portoalities ne mentionne pas Salta o Muro dans l'article ciblé ; Restaurant Guru est un agrégateur dont les chiffres revendiqués (4,8/5 sur 2 331 avis) ne correspondent à aucune donnée réelle sur la page — aucune source indépendante et primaire n'est vérifiée."
+    },
+    {
+      "id": "porto-sardinhas-matosinhos",
+      "base": "porto",
+      "reason": "Taste Porto ne mentionne pas les sardines de Matosinhos ni la saisonnalité mai-septembre ; Portugal Expert effleure les grillades de poisson sans détailler les sardines — les deux claims attribués aux sources sont des hallucinations, convergence non fondée."
+    },
+    {
+      "id": "porto-vinho-verde",
+      "base": "porto",
+      "reason": "Les deux URLs sont réelles et accessibles, mais aucune des deux ne mentionne le Vinho Verde : Taste Porto recommande l'espumante (pas le Vinho Verde) avec les fruits de mer, et Portoalities ne fait aucune référence au Vinho Verde, aux pichets de céramique ni aux tascas dans ce contexte — les claims attribués aux deux sources sont entièrement hallucinés."
+    },
+    {
+      "id": "porto-bacalhau-com-broa",
+      "base": "porto",
+      "reason": "Les deux URLs sont réelles mais aucune ne mentionne le bacalhau com broa : Portugal Undiscovered liste le Lagareiro/Gomes de Sá/Brás chez Abadia do Porto sans jamais nommer la broa, et Eating Europe ne mentionne ni broa ni bacalhau com broa — les deux attributions sont des hallucinations sur des sources existantes."
+    },
+    {
+      "id": "porto-arroz-de-polvos",
+      "base": "porto",
+      "reason": "Ni Portoalities ni Taste Porto ne mentionnent \"arroz de polvos\", \"Salta o Muro\", le rituel du vendredi, ni le timing midi/14h — les deux sources sont vides sur ce claim, la convergence revendiquée est sans fondement."
+    },
+    {
+      "id": "douro-cerises",
+      "base": "douro",
+      "reason": "Source 2 (cm-resende.pt) est une villa de vacances nommée \"Douro Cherry\" — aucune mention de festival ni de production agricole ; source 1 (nelsoncarvalheiro.com) est rédigée par un auteur invité (Brendan Harding, non Carvalheiro), couvre la Beira Baixa/Fundão et non le Douro/Resende, et le créateur déclaré est cinéaste non chef culinaire — les deux sources ne convergent pas sur la même zone géographique et la source 2 est fondamentalement invalide."
+    },
+    {
+      "id": "comporta-casas-arroz",
+      "base": "comporta",
+      "reason": "L'architecte Luis Pereira Miguel est absent des deux sources (hallucination) ; JO&SO et Espirito da Comporta sont deux agrégateurs éditoriaux utilisant un langage quasi identique, sans divergence de fond réelle — indépendance non établie. Récit invalide."
+    },
+    {
+      "id": "comporta-arroz-de-marisco",
+      "base": "comporta",
+      "reason": "Les deux sources vérifiées ne mentionnent ni arroz negro chez Sal ni arroz malandrinho aux fruits de mer chez São João — les détails concrets du récit (texture, plat signature, angle famille) sont des hallucinations narratives sans ancrage dans les pages primaires."
+    },
+    {
+      "id": "algarve-percebes-vicentina",
+      "base": "algarve",
+      "reason": "Le site officiel de Retiro do Pescador ne mentionne pas les percebes comme spécialité ; l'article Olá Daniela documente les percebes chez O Paulo à Arrifana, pas chez Retiro do Pescador — attribution croisée erronée, convergence inexistante, récit non ancré dans les sources."
+    },
+    {
+      "id": "algarve-sardinhas-assadas",
+      "base": "algarve",
+      "reason": "Source 1 ne contient qu'une mention anecdotique des sardines sans détail saisonnier ni lieu ; source 2 est une URL de recherche Google Maps non vérifiable — ni la Ferradura à Lagos ni les détails feu de bois/terrasse/pré-ponte ne sont attestés, le récit contient des fabrications narratives."
+    },
+    {
+      "id": "algarve-polvo-lagareiro",
+      "base": "algarve",
+      "reason": "Aucune des deux sources ne confirme le polvo à lagareiro au menu de Sueste : le site officiel renvoie à un PDF non accessible et l'agrégateur All About Portugal ne mentionne ni le plat, ni l'arroz de marisco, ni le lien lagar — la convergence revendiquée est invérifiable et le récit contient des détails non sourcés (tradition du lagar, carbonisation des tentacules, vue château)."
+    },
+    {
+      "id": "algarve-arroz-negro",
+      "base": "algarve",
+      "reason": "Source 1 est une URL Google Maps Search (non-primaire, zéro contenu) et le fichier .research/algarve.md ne contient aucune mention d'arroz negro ni du Sal/Comporta ; source 2 (Wikipedia) confirme l'encre de seiche mais traite exclusivement du plat valencien/catalan sans jamais mentionner le Portugal — la texture \"crémeuse mais pas gluante\" et la distinction risotto sont des extrapolations absentes de l'article ; convergence non établie, récit vidé."
+    },
+    {
+      "id": "algarve-gem-ferragudo-village",
+      "base": "algarve",
+      "reason": "Source 1 est un agrégateur commercial (roundup de restos) qui confirme \"small fishing village\" mais ne mentionne ni château du 16e siècle, ni comparaison Portimão/années 80, ni distance Lagos — le récit hallucine ces claims ; source 2 (.research/algarve.md) n'existe pas et l'URL associée est une recherche Google Maps non primaire."
+    },
+    {
+      "id": "algarve-gem-ponta-piedade-kayak",
+      "base": "algarve",
+      "reason": "Les deux sources alléguées sont invalides : l'URL Google Maps ne retourne aucun contenu primaire, et algarvetips.com/beaches/lagoa/praia-do-carvalho/ parle exclusivement de Praia do Carvalho (Lagoa) — zéro mention de Ponta da Piedade, kayak ou Porto de Mós ; les claims spécifiques du récit (créneau 9h, eau à 5m, exclusivité SUP/kayak) sont introuvables dans les sources réelles consultées."
+    }
+  ]
+}
