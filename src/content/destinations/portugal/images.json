@@ -1,0 +1,218 @@
+[
+  {
+    "id": "algarve-cove",
+    "slot": "algarve-cove",
+    "base": null,
+    "role": "hero",
+    "file": "algarve-cove.jpg",
+    "alt": "Une crique turquoise de l'Algarve nichée sous des falaises ocre, sous un ciel bleu vif — petite plage cachée, kayaks et barques sur l'eau cristalline.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1781241611237-d99a05e1f741",
+      "photographer": "William V",
+      "license": "unsplash-standard"
+    },
+    "sha256": "ab8421799aaa2ed2b2ed9adbb887e8376acf0ec359f586590ec61f1c9dce4eed",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "ab8421799aaa2ed2b2ed9adbb887e8376acf0ec359f586590ec61f1c9dce4eed",
+      "alt": "Une crique turquoise de l'Algarve nichée sous des falaises ocre, sous un ciel bleu vif — petite plage cachée, kayaks et barques sur l'eau cristalline.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "porto-cover",
+    "slot": "porto-cover",
+    "base": "porto",
+    "role": "cover",
+    "file": "porto-cover.jpg",
+    "alt": "Le quartier de la Ribeira à Porto : maisons colorées étagées sur la rive du Douro, barques rabelo amarrées au quai historique.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1765100779992-b9f7b950917c",
+      "photographer": "Vitalii Kyktov",
+      "license": "unsplash-standard"
+    },
+    "sha256": "49985a57531eb4cd5fdf407e863118b4f9029a66f7da4b4e8209221a6a661744",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "49985a57531eb4cd5fdf407e863118b4f9029a66f7da4b4e8209221a6a661744",
+      "alt": "Le quartier de la Ribeira à Porto : maisons colorées étagées sur la rive du Douro, barques rabelo amarrées au quai historique.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "porto-bonfim",
+    "slot": "porto-bonfim",
+    "base": "porto",
+    "role": "photo",
+    "file": "porto-bonfim.jpg",
+    "alt": "Façade d'azulejos bleus de Porto avec un balcon fleuri en fer forgé — carreaux de faïence bleus et blancs typiques de la ville.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1757700050663-d0e048bf00e4",
+      "photographer": "Maxime Galliot",
+      "license": "unsplash-standard"
+    },
+    "sha256": "3ab4dc8766f128a8282471353761d26f16353d4ee9713454ed0c7acea1547176",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "3ab4dc8766f128a8282471353761d26f16353d4ee9713454ed0c7acea1547176",
+      "alt": "Façade d'azulejos bleus de Porto avec un balcon fleuri en fer forgé — carreaux de faïence bleus et blancs typiques de la ville.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "porto-francesinha",
+    "slot": "porto-francesinha",
+    "base": "porto",
+    "role": "foodie",
+    "file": "porto-francesinha.jpg",
+    "alt": "Une francesinha de Porto : sandwich recouvert de fromage fondu et nappé d'une sauce orangée épaisse, dans une assiette.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Francesinha_in_Porto.jpg",
+      "photographer": "Jaherrero",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "e05ca4ef58d0045ee22d380a6fe059c6b307c8409e6311545b7380b99b099494",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "e05ca4ef58d0045ee22d380a6fe059c6b307c8409e6311545b7380b99b099494",
+      "alt": "Une francesinha de Porto : sandwich recouvert de fromage fondu et nappé d'une sauce orangée épaisse, dans une assiette.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "porto-tripas",
+    "slot": "porto-tripas",
+    "base": "porto",
+    "role": "foodie",
+    "file": "porto-tripas.jpg",
+    "alt": "Un plat de tripas à moda do Porto : tripes mijotées avec des haricots blancs et de la viande dans une sauce dorée.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Tripas_a_moda_do_Porto.JPG",
+      "photographer": "MariaCartas",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "deda1e59cfafedef0a92df8ba02eadf51d8f74f6eca3624d93a98e06b2c2a472",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "deda1e59cfafedef0a92df8ba02eadf51d8f74f6eca3624d93a98e06b2c2a472",
+      "alt": "Un plat de tripas à moda do Porto : tripes mijotées avec des haricots blancs et de la viande dans une sauce dorée.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "porto-matosinhos-poisson",
+    "slot": "porto-matosinhos-poisson",
+    "base": "porto",
+    "role": "foodie",
+    "file": "porto-matosinhos-poisson.jpg",
+    "alt": "Des sardines grillées (sardinhas assadas) servies dans une assiette avec de la salade — poisson grillé à la portugaise.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1600699899970-b1c9fadd8f9e",
+      "photographer": "Alex Teixeira",
+      "license": "unsplash-standard"
+    },
+    "sha256": "1adb16b4a27eced4ea9dbcbf50fdd444311cd4c498bb2c254fa13b5f852c8a23",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "1adb16b4a27eced4ea9dbcbf50fdd444311cd4c498bb2c254fa13b5f852c8a23",
+      "alt": "Des sardines grillées (sardinhas assadas) servies dans une assiette avec de la salade — poisson grillé à la portugaise.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "porto-foz",
+    "slot": "porto-foz",
+    "base": "porto",
+    "role": "photo",
+    "file": "porto-foz.jpg",
+    "alt": "Des vagues de l'Atlantique s'écrasent sur une côte rocheuse de granite à Porto, des bâtiments au loin.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1770038811574-61136b36293a",
+      "photographer": "Oksana Demenko",
+      "license": "unsplash-standard"
+    },
+    "sha256": "912471ca34cd20fa720ebf22aaccd0fd84127f56e33638decd9bdab50c13e5f0",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "912471ca34cd20fa720ebf22aaccd0fd84127f56e33638decd9bdab50c13e5f0",
+      "alt": "Des vagues de l'Atlantique s'écrasent sur une côte rocheuse de granite à Porto, des bâtiments au loin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "porto-porto-wine",
+    "slot": "porto-porto-wine",
+    "base": "porto",
+    "role": "foodie",
+    "file": "porto-porto-wine.jpg",
+    "alt": "Des rangées de barriques de porto en chêne empilées dans les chais Taylor's à Vila Nova de Gaia, sur la rive du Douro.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1736977807979-572fd19a37aa",
+      "photographer": "John Cameron",
+      "license": "unsplash-standard"
+    },
+    "sha256": "2496e8ab30ebcea575c0023ebe017b68274d534f7e50e2da39f63a7a49fee42d",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "2496e8ab30ebcea575c0023ebe017b68274d534f7e50e2da39f63a7a49fee42d",
+      "alt": "Des rangées de barriques de porto en chêne empilées dans les chais Taylor's à Vila Nova de Gaia, sur la rive du Douro.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "porto-bolhao",
+    "slot": "porto-bolhao",
+    "base": "porto",
+    "role": "photo",
+    "file": "porto-bolhao.jpg",
+    "alt": "Un étal de fruits frais (cerises, fruits d'été) et de jus au Mercado do Bolhão de Porto.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1776066942076-4d19009d5240",
+      "photographer": "Pascal Bernardon",
+      "license": "unsplash-standard"
+    },
+    "sha256": "8e4dc25ca7f4c63cc495044e52d783918d42b93ee30fe695f80c37877421bec6",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "8e4dc25ca7f4c63cc495044e52d783918d42b93ee30fe695f80c37877421bec6",
+      "alt": "Un étal de fruits frais (cerises, fruits d'été) et de jus au Mercado do Bolhão de Porto.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  }
+]

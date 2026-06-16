@@ -10,7 +10,7 @@
         "url": "https://www.google.com/maps/search/Fontainhas+Porto+Portugal"
       }
     ],
-    "image": "porto-gem-fontainhas",
+    "image": "",
     "base": "porto"
   },
   {
@@ -24,7 +24,7 @@
         "url": "https://www.google.com/maps/search/Rua+Miguel+Bombarda+Porto+galleries"
       }
     ],
-    "image": "porto-gem-cedofeita-miguel-bombarda",
+    "image": "",
     "base": "porto"
   },
   {
@@ -38,7 +38,7 @@
         "url": "https://www.google.com/maps/search/Sao+Pedro+de+Afurada+Vila+Nova+de+Gaia"
       }
     ],
-    "image": "porto-gem-sao-pedro-afurada",
+    "image": "",
     "base": "porto"
   },
   {
@@ -52,7 +52,7 @@
         "url": "https://www.google.com/maps/search/Mercado+do+Bolhao+Porto"
       }
     ],
-    "image": "porto-gem-bolhao-matin",
+    "image": "",
     "base": "porto"
   },
   {
@@ -66,7 +66,7 @@
         "url": "https://www.google.com/maps/search/Foz+do+Douro+Porto+sunset"
       }
     ],
-    "image": "porto-gem-foz-coucher",
+    "image": "",
     "base": "porto"
   },
   {
@@ -80,7 +80,7 @@
         "url": "https://www.google.com/maps/search/EN222+Douro+Regua+Pinhao"
       }
     ],
-    "image": "douro-gem-en222-route",
+    "image": "",
     "base": "douro"
   },
   {
@@ -94,7 +94,7 @@
         "url": "https://www.google.com/maps/search/Pinhao+train+station+Douro+Portugal"
       }
     ],
-    "image": "douro-gem-pinhao-matin",
+    "image": "",
     "base": "douro"
   },
   {
@@ -108,7 +108,7 @@
         "url": "https://www.google.com/maps/search/Miradouro+de+Galafura+Douro"
       }
     ],
-    "image": "douro-gem-miradouro-galafura",
+    "image": "",
     "base": "douro"
   },
   {
@@ -122,7 +122,7 @@
         "url": "https://www.google.com/maps/search/Veladouro+Pinhao+Douro"
       }
     ],
-    "image": "douro-gem-baba-ao-porto",
+    "image": "",
     "base": "douro"
   },
   {
@@ -136,7 +136,7 @@
         "url": "https://www.google.com/maps/search/Mouraria+Lisboa+Portugal"
       }
     ],
-    "image": "lisbonne-gem-mouraria-aube",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -150,7 +150,7 @@
         "url": "https://www.google.com/maps/search/Feira+da+Ladra+Campo+Santa+Clara+Lisboa"
       }
     ],
-    "image": "lisbonne-gem-feira-ladra",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -164,7 +164,7 @@
         "url": "https://www.google.com/maps/search/Jardim+do+Principe+Real+Lisboa"
       }
     ],
-    "image": "lisbonne-gem-jardim-principe-real",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -178,7 +178,7 @@
         "url": "https://www.google.com/maps/search/Miradouro+da+Senhora+do+Monte+Lisboa"
       }
     ],
-    "image": "lisbonne-gem-senhora-do-monte",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -192,7 +192,7 @@
         "url": "https://www.google.com/maps/search/Cantinho+do+Aziz+Mouraria+Lisboa"
       }
     ],
-    "image": "lisbonne-gem-cantinho-aziz",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -206,7 +206,7 @@
         "url": "https://www.google.com/maps/search/Sesimbra+fishing+port+Portugal"
       }
     ],
-    "image": "lisbonne-gem-sesimbra-matin",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -220,7 +220,7 @@
         "url": "https://www.google.com/maps/search/Cais+Palafitico+Carrasqueira+Comporta"
       }
     ],
-    "image": "comporta-gem-cais-palafítico",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -234,7 +234,7 @@
         "url": "https://www.google.com/maps/search/Comporta+rizières+rice+fields+Portugal"
       }
     ],
-    "image": "comporta-gem-rizieres-aube",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -248,7 +248,7 @@
         "url": "https://www.google.com/maps/search/Lagoa+de+Melides+Alentejo+Portugal"
       }
     ],
-    "image": "comporta-gem-lagoa-melides",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -262,7 +262,7 @@
         "url": "https://www.google.com/maps/search/Praia+dos+Pinheiros+Altos+Comporta"
       }
     ],
-    "image": "comporta-gem-pinheiros-altos",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -276,7 +276,7 @@
         "url": "https://www.google.com/maps/search/Museu+do+Arroz+Comporta"
       }
     ],
-    "image": "comporta-gem-museu-arroz",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -290,7 +290,7 @@
         "url": "https://www.google.com/maps/search/Praia+do+Carvalho+Lagoa+Algarve"
       }
     ],
-    "image": "algarve-gem-praia-carvalho",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -304,7 +304,7 @@
         "url": "https://www.google.com/maps/search/Ferragudo+village+Algarve+Portugal"
       }
     ],
-    "image": "algarve-gem-ferragudo-village",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -318,7 +318,7 @@
         "url": "https://www.google.com/maps/search/Ponta+da+Piedade+Lagos+Algarve"
       }
     ],
-    "image": "algarve-gem-ponta-piedade-kayak",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -332,7 +332,7 @@
         "url": "https://www.google.com/maps/search/Salema+village+pêcheurs+Algarve"
       }
     ],
-    "image": "algarve-gem-salema-pecheurs",
+    "image": "",
     "base": "algarve"
   }
 ]

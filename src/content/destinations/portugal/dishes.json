@@ -11,7 +11,7 @@
         "url": "https://www.google.com/maps/search/Cafe+Santiago+Rua+Passos+Manuel+Porto"
       }
     ],
-    "image": "porto-francesinha",
+    "image": "",
     "base": "porto"
   },
   {
@@ -26,7 +26,7 @@
         "url": "https://www.google.com/maps/search/Restaurante+Abadia+do+Porto"
       }
     ],
-    "image": "porto-tripas-modo-do-porto",
+    "image": "",
     "base": "porto"
   },
   {
@@ -41,7 +41,7 @@
         "url": "https://www.google.com/maps/search/Salta+o+Muro+Matosinhos+Porto"
       }
     ],
-    "image": "porto-sardinhas-matosinhos",
+    "image": "",
     "base": "porto"
   },
   {
@@ -56,7 +56,7 @@
         "url": "https://www.google.com/maps/search/Taylor's+Port+Wine+Cellars+Gaia+Porto"
       }
     ],
-    "image": "porto-vinho-verde",
+    "image": "",
     "base": "porto"
   },
   {
@@ -71,7 +71,7 @@
         "url": "https://www.taylor.pt/en/"
       }
     ],
-    "image": "porto-porto-wine",
+    "image": "",
     "base": "porto"
   },
   {
@@ -86,7 +86,7 @@
         "url": "https://www.google.com/maps/search/Restaurante+Abadia+do+Porto"
       }
     ],
-    "image": "porto-bacalhau-com-broa",
+    "image": "",
     "base": "porto"
   },
   {
@@ -101,7 +101,7 @@
         "url": "https://www.google.com/maps/search/Salta+o+Muro+Matosinhos"
       }
     ],
-    "image": "porto-arroz-de-polvos",
+    "image": "",
     "base": "porto"
   },
   {
@@ -116,7 +116,7 @@
         "url": "https://www.quintadelarosa.com"
       }
     ],
-    "image": "douro-porto-tawny",
+    "image": "",
     "base": "douro"
   },
   {
@@ -131,7 +131,7 @@
         "url": "https://www.google.com/maps/search/Castas+e+Pratos+Peso+da+Regua"
       }
     ],
-    "image": "douro-doc-rouge",
+    "image": "",
     "base": "douro"
   },
   {
@@ -146,7 +146,7 @@
         "url": "https://www.google.com/maps/search/Toca+da+Raposa+Ervedosa+do+Douro"
       }
     ],
-    "image": "douro-riz-de-cabrito",
+    "image": "",
     "base": "douro"
   },
   {
@@ -161,7 +161,7 @@
         "url": "https://www.google.com/maps/search/mercado+Pinhao+Douro+Portugal"
       }
     ],
-    "image": "douro-cerises",
+    "image": "",
     "base": "douro"
   },
   {
@@ -176,7 +176,7 @@
         "url": "https://www.google.com/maps/search/Castas+e+Pratos+Peso+da+Regua"
       }
     ],
-    "image": "douro-alheiras-transmontanas",
+    "image": "",
     "base": "douro"
   },
   {
@@ -191,7 +191,7 @@
         "url": "https://www.pasteisdebelem.pt/"
       }
     ],
-    "image": "lisbonne-pastel-de-nata",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -206,7 +206,7 @@
         "url": "https://www.google.com/maps/search/As+Bifanas+do+Afonso+Rua+Madalena+Lisboa"
       }
     ],
-    "image": "lisbonne-bifana",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -221,7 +221,7 @@
         "url": "https://www.cervejariaramiro.pt/"
       }
     ],
-    "image": "lisbonne-percebes",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -236,7 +236,7 @@
         "url": "https://www.google.com/maps/search/Ze+da+Mouraria+Lisboa"
       }
     ],
-    "image": "lisbonne-bacalhau-a-bras",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -251,7 +251,7 @@
         "url": "https://www.google.com/maps/search/A+Ginjinha+Largo+Sao+Domingos+Lisboa"
       }
     ],
-    "image": "lisbonne-ginjinha",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -266,7 +266,7 @@
         "url": "https://www.google.com/maps/search/Casa+Santiago+Rei+Choco+Frito+Setubal"
       }
     ],
-    "image": "lisbonne-choco-frito",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -281,7 +281,7 @@
         "url": "https://www.jmf.pt/"
       }
     ],
-    "image": "lisbonne-moscatel-setubal",
+    "image": "",
     "base": "lisbonne"
   },
   {
@@ -296,7 +296,7 @@
         "url": "https://www.google.com/maps/search/Gomes+Casa+Vinhos+Petiscos+Comporta"
       }
     ],
-    "image": "comporta-porco-preto",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -311,7 +311,7 @@
         "url": "https://www.google.com/maps/search/Restaurante+Sao+Joao+Comporta"
       }
     ],
-    "image": "comporta-ameijoas-alho",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -326,7 +326,7 @@
         "url": "https://www.google.com/maps/search/Sal+Restaurant+Comporta+beach"
       }
     ],
-    "image": "comporta-arroz-de-marisco",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -341,7 +341,7 @@
         "url": "https://www.google.com/maps/search/Restaurante+do+Cais+Carrasqueira+Comporta"
       }
     ],
-    "image": "comporta-choco-com-coentros",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -356,7 +356,7 @@
         "url": "https://www.google.com/maps/search/Gomes+Casa+Vinhos+Petiscos+Comporta"
       }
     ],
-    "image": "comporta-sericaia",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -371,7 +371,7 @@
         "url": "https://www.google.com/maps/search/Gomes+Casa+Vinhos+Petiscos+Comporta"
       }
     ],
-    "image": "comporta-vinho-alentejo",
+    "image": "",
     "base": "comporta"
   },
   {
@@ -386,7 +386,7 @@
         "url": "https://www.google.com/maps/search/Retiro+do+Pescador+Sagres"
       }
     ],
-    "image": "algarve-cataplana-peixe",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -401,7 +401,7 @@
         "url": "https://www.google.com/maps/search/Sagres+Algarve+Portugal"
       }
     ],
-    "image": "algarve-percebes-vicentina",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -416,7 +416,7 @@
         "url": "https://www.google.com/maps/search/Ferradura+Lagos+Algarve"
       }
     ],
-    "image": "algarve-sardinhas-assadas",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -431,7 +431,7 @@
         "url": "https://www.google.com/maps/search/Sueste+Ferragudo+Algarve"
       }
     ],
-    "image": "algarve-polvo-lagareiro",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -446,7 +446,7 @@
         "url": "https://www.google.com/maps/search/Monchique+Algarve+Portugal"
       }
     ],
-    "image": "algarve-medronho",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -461,7 +461,7 @@
         "url": "https://www.google.com/maps/search/Lagos+Algarve+confeitaria"
       }
     ],
-    "image": "algarve-dom-rodrigo",
+    "image": "",
     "base": "algarve"
   },
   {
@@ -476,7 +476,7 @@
         "url": "https://www.google.com/maps/search/Sal+Restaurant+Comporta+Carvalhal"
       }
     ],
-    "image": "algarve-arroz-negro",
+    "image": "",
     "base": "algarve"
   }
 ]

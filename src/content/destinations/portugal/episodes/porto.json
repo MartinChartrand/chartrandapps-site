@@ -1,0 +1,235 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée par le nord",
+      "body": "On entre au Portugal par Porto, sa ville la plus dense, la plus têtue. Le granite noirci, les azulejos bleus, le fleuve en contrebas et les caves de porto alignées sur l'autre rive. Mais on n'a pas traversé l'Atlantique pour les façades. On vient pour ce que cette ville de travailleurs a mis dans l'assiette : la francesinha qui ne ressemble à rien d'ailleurs, les tripes dont les Portuens ont fait une fierté, le poisson grillé à vingt minutes de métro. Cinq nuits ici, c'est exprès — le temps de larguer le décalage et d'apprendre que dans le nord, tout finit au bord de l'eau.",
+      "focusPoi": "porto-cafe-santiago",
+      "zoom": 13,
+      "targets": [
+        "porto-cafe-santiago",
+        "porto-abadia-do-porto"
+      ],
+      "thumb": "porto-cover",
+      "thumbAlt": "Le quartier de la Ribeira à Porto : maisons colorées étagées sur la rive du Douro, barques rabelo amarrées au quai historique.",
+      "poiRef": "porto-cafe-santiago",
+      "sources": [
+        {
+          "creator": "Maps — Ribeira & Café Santiago, Porto",
+          "url": "https://www.google.com/maps/search/Cafe+Santiago+Passos+Manuel+Porto",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "kicker": "Le rythme de Porto",
+      "body": "On dort à Bonfim ou Cedofeita, jamais sur la Ribeira : c'est moins cher, c'est plus calme la nuit, et c'est là que vivent les Portuens. Le matin, un café et un pastel dans une pâtisserie de quartier pendant que la ville s'ébroue. Puis on attrape la Ligne A du métro vers Matosinhos pour le poisson, ou on traverse à Gaia pour le porto. Et le soir, on rentre par les tascas. La journée tient en trois mots : la table, la mer, le fleuve — et l'histoire qu'on croise en chemin sans s'arrêter.",
+      "focusPoi": "porto-praia-matosinhos",
+      "zoom": 12,
+      "targets": [
+        "porto-praia-matosinhos",
+        "porto-salta-o-muro"
+      ],
+      "thumb": "porto-bonfim",
+      "thumbAlt": "Façade d'azulejos bleus de Porto avec un balcon fleuri en fer forgé — carreaux de faïence bleus et blancs typiques de la ville.",
+      "poiRef": "porto-salta-o-muro",
+      "sources": [
+        {
+          "creator": "Maps — Matosinhos, Porto",
+          "url": "https://www.google.com/maps/search/Praia+de+Matosinhos+Porto",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-francesinha",
+      "kicker": "Café Santiago · LA PORTE",
+      "title": "Le sandwich qui n'en est pas un",
+      "image": "porto-francesinha",
+      "alt": "Une francesinha de Porto : sandwich recouvert de fromage fondu et nappé d'une sauce orangée épaisse, dans une assiette.",
+      "intro": "La francesinha, c'est Porto dans une assiette : un pain garni de mortadelle, de saucisse fumée, de steak et de jambon, le tout enseveli sous le fromage fondu, noyé dans une sauce épaisse de bière, de tomate et de piri piri, un œuf au plat posé par-dessus. Né dans les années 1950, censément inspiré du croque-monsieur français — d'où le nom, « la petite Française » — mais transformé en monstre généreux qui n'appartient qu'à cette ville. Café Santiago en sert depuis 1959, et la sauce, c'est le secret de la maison qu'on ne sortira jamais.",
+      "reco": "Une francesinha, deux personnes : c'est un plat-repas, pas une entrée, et la première fois ça assomme. On y va au déjeuner en semaine pour éviter la file, on prend une fine (bière pression) pour faire descendre, et on assume. C'est gras, c'est chaud, c'est un peu obscène — et c'est exactement la bonne façon d'ouvrir un mois au Portugal : par un excès joyeux qui dit tout du caractère du nord.",
+      "quote": "On ne comprend pas Porto tant qu'on n'a pas mangé une francesinha qui nous regarde droit dans les yeux. C'est moins un repas qu'une déclaration d'intention.",
+      "via": null,
+      "poiRef": "porto-cafe-santiago",
+      "sources": [
+        {
+          "creator": "Café Santiago — site officiel",
+          "url": "https://cafesantiago.pt/en/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Taste Porto × Mark Wiens — Porto food tour",
+          "url": "https://www.youtube.com/watch?v=oXraJsfeVQ8",
+          "date": "2024-10"
+        }
+      ]
+    },
+    {
+      "id": "scene-tripas",
+      "kicker": "Abadia do Porto · LE NOM",
+      "title": "Pourquoi on les appelle les tripeiros",
+      "image": "porto-tripas",
+      "alt": "Un plat de tripas à moda do Porto : tripes mijotées avec des haricots blancs et de la viande dans une sauce dorée.",
+      "intro": "Au XVe siècle, quand les caravelles partaient conquérir Ceuta, Porto a envoyé toute sa bonne viande aux navires et a gardé pour elle les abats. La ville en a fait un plat — les tripas aux haricots blancs, au chorizo, mijotées longtemps — et un surnom qu'elle porte fièrement : les Portuens s'appellent eux-mêmes *tripeiros*, les mangeurs de tripes. C'est ça, le nord : on a transformé le sacrifice et le reste en identité. Abadia do Porto sert ce plat depuis plus de 80 ans, recommandé par la confrérie gastronomique des tripes elle-même.",
+      "reco": "Les tripas à moda do Porto si le cœur t'en dit (c'est doux, mijoté, rien d'effrayant une fois dans l'assiette), sinon le bacalhau com broa — la morue sous sa croûte de pain de maïs doré, fondante dessous, croustillante dessus. Si tu arrives affamé, les deux : c'est la maison qui les fait le mieux. Un demi-pichet de rouge du Douro, et tu manges cinq siècles d'histoire de la ville sans qu'on te fasse la leçon.",
+      "quote": "Une ville qui se définit par le plat des pauvres plutôt que par celui des rois, c'est une ville qu'on a envie de connaître.",
+      "via": null,
+      "poiRef": "porto-abadia-do-porto",
+      "sources": [
+        {
+          "creator": "Maps — Abadia do Porto",
+          "url": "https://www.google.com/maps/search/Abadia+do+Porto+Ateneu+Comercial",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Portoalities — guide local de Porto",
+          "url": "https://www.portoalities.com/en/where-to-eat-tripas-a-moda-do-porto/",
+          "date": "2025-03"
+        }
+      ]
+    },
+    {
+      "id": "scene-matosinhos",
+      "kicker": "Matosinhos · LA MER À TABLE",
+      "title": "Le poisson qui change de mains le matin",
+      "image": "porto-matosinhos-poisson",
+      "alt": "Des sardines grillées (sardinhas assadas) servies dans une assiette avec de la salade — poisson grillé à la portugaise.",
+      "intro": "Vingt minutes de métro au nord du centre, Matosinhos est le ventre de Porto : le port de pêche, la criée, et une rue entière de grilladeries où la fumée du charbon ne s'arrête jamais. Les poissonniers et les restos sont à deux cents mètres les uns des autres — le poisson change de mains le matin même. Salta o Muro, minuscule et sans réservation, n'a pas de menu : c'est l'ardoise du jour qui décide, selon ce que la criée a donné. Le vendredi, l'arroz de polvos sort du four vers midi et il n'en reste plus à deux heures.",
+      "reco": "On se présente tôt, on regarde l'ardoise, on prend ce qui est frais — le turbot, la lotte, les sardines quand c'est la saison (elles arrivent en juin). On laisse le patron griller ça simplement : huile d'olive, gros sel, citron. Un vinho verde bien froid en pichet, et c'est tout. C'est la mer à table dans sa version la plus honnête, et c'est meilleur que n'importe quelle table à nappe du centre.",
+      "quote": "Pas de menu, pas de réservation, juste l'arrivage du matin sur une ardoise. On a traversé l'océan en partie pour des repas comme celui-là.",
+      "via": null,
+      "poiRef": "porto-salta-o-muro",
+      "sources": [
+        {
+          "creator": "Maps — Salta o Muro, Matosinhos",
+          "url": "https://www.google.com/maps/search/Salta+o+Muro+Herois+de+Franca+Matosinhos",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Taste Porto × Mark Wiens — Matosinhos seafood",
+          "url": "https://www.youtube.com/watch?v=oXraJsfeVQ8",
+          "date": "2024-10"
+        }
+      ]
+    },
+    {
+      "id": "scene-foz",
+      "kicker": "Foz & Matosinhos · L'EAU",
+      "title": "Là où le fleuve se jette dans l'océan",
+      "image": "porto-foz",
+      "alt": "Des vagues de l'Atlantique s'écrasent sur une côte rocheuse de granite à Porto, des bâtiments au loin.",
+      "intro": "Porto n'est pas qu'une ville de fleuve : c'est une ville d'océan qui s'ignore un peu. À l'ouest, le Douro se jette dans l'Atlantique à Foz — falaises basses, promenade de granite, familles à vélo en fin de journée, et en face plus rien jusqu'au Brésil. Le coucher de soleil y rassemble les gens du quartier chaque soir, sans cérémonie. Et la plage de Matosinhos, juste au nord, c'est le grand sable Blue Flag avec les grilladeries derrière. L'eau de l'Atlantique est franchement fraîche en mai — on ne se baigne pas longtemps — mais on s'assoit sur les rochers et on regarde.",
+      "reco": "Foz pour le coucher de soleil (on prend un verre sur la promenade, on s'assoit sur le granite), Matosinhos pour une vraie journée de plage si le soleil coopère. L'eau tourne autour de 15-16°C à la mi-mai : c'est pour les courageux, ou pour tremper les pieds et remettre ça à plus tard, plus au sud. Le truc, ici, c'est moins la baignade que la lumière de fin de printemps sur l'eau.",
+      "quote": "On cherche l'eau partout où on va. À Porto, elle est froide et brute — l'Atlantique du nord — mais la lumière du soir sur le granite vaut le détour à elle seule.",
+      "via": null,
+      "poiRef": "porto-praia-matosinhos",
+      "sources": [
+        {
+          "creator": "Maps — Foz do Douro & Praia de Matosinhos",
+          "url": "https://www.google.com/maps/search/Foz+do+Douro+Porto",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-porto-wine",
+      "kicker": "Taylor's, Gaia · LE VERRE",
+      "title": "Le tawny servi avec les paons",
+      "image": "porto-porto-wine",
+      "alt": "Des rangées de barriques de porto en chêne empilées dans les chais Taylor's à Vila Nova de Gaia, sur la rive du Douro.",
+      "intro": "Le porto se fait au Douro mais vieillit à Gaia, sur la rive d'en face — des siècles d'allées-venues de barques chargées de barriques. Le tawny, c'est celui qui a passé des années dans le bois : couleur fauve, arômes de noix, de figue, de caramel brûlé, et on le boit frais, jamais à température ambiante. Taylor's, dans les hauteurs de Gaia, fait la dégustation la plus décontractée de la rive : on visite les chais à son rythme avec un audio-guide, et on s'installe dans la cour avec les paons et la vue sur Porto en face.",
+      "reco": "Le tawny 10 ans pour commencer, frais. On prend son temps dans la cour, on regarde la ville de l'autre côté du fleuve, et on laisse tomber l'idée du « tour de caves » à la chaîne. C'est l'histoire du commerce du vin servie dans un verre plutôt que dans une vitrine de musée — et c'est le digestif parfait avant de redescendre à pied vers le pont et la Ribeira au crépuscule.",
+      "quote": "Boire un tawny frais dans une cour pleine de paons, avec Porto qui s'allume en face : c'est le genre de moment où on comprend pourquoi on voyage lentement.",
+      "via": null,
+      "poiRef": "porto-taylors-cellars",
+      "sources": [
+        {
+          "creator": "Taylor's Port — site officiel",
+          "url": "https://www.taylor.pt/en",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Maps — Taylor's Cellars, Vila Nova de Gaia",
+          "url": "https://www.google.com/maps/search/Taylors+Port+Wine+Cellars+Vila+Nova+de+Gaia",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de filer vers le Douro : le sandes de pernil de Casa Guedes, l'épaule rôtie et le Serra da Estrela qui coule, debout au comptoir avec un vinho verde. Et le Porto qu'on n'a pas eu le temps de tout faire — Fontainhas, le seul quartier resté en 1920, accroché à la falaise ; le Mercado do Bolhão à 8h avant la cohue, quand les premières cerises du Douro arrivent ; São Pedro de Afurada, le village de pêcheurs à dix minutes de ferry ; la rue Miguel Bombarda et ses galeries le samedi matin. Le carnet a toutes les adresses, les liens, les prix et le budget complet du voyage.",
+      "boundsPois": [
+        "porto-casa-guedes",
+        "porto-praia-matosinhos",
+        "porto-taylors-cellars"
+      ],
+      "targets": [
+        "porto-casa-guedes"
+      ],
+      "thumb": "porto-bolhao",
+      "thumbAlt": "Un étal de fruits frais (cerises, fruits d'été) et de jus au Mercado do Bolhão de Porto.",
+      "pills": [
+        {
+          "poiRef": "porto-casa-guedes",
+          "link": "maps",
+          "label": "Casa Guedes · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Maps — Mercado do Bolhão, Porto",
+          "url": "https://www.google.com/maps/search/Mercado+do+Bolhao+Porto",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "Bonfim ou Cedofeita, jamais la Ribeira — moins cher, plus calme, là où vivent les Portuens. JAM pour le budget (tourne-disques et piscine), Casa do Conto pour le design dans Cedofeita, Torel Avantgarde si on se gâte avec la vue sur le fleuve."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "La francesinha de Café Santiago, les tripas et le bacalhau com broa d'Abadia do Porto, le poisson du jour de Salta o Muro à Matosinhos, le sandes de pernil de Casa Guedes au comptoir. Règle d'or : le menu en six langues avec photos, jamais."
+      },
+      {
+        "label": "La mer & le fleuve",
+        "kinds": [
+          "plage"
+        ],
+        "footer": "Matosinhos pour la plage et les grilladeries (Ligne A du métro, 20 min), Foz do Douro pour le coucher de soleil à l'embouchure du fleuve. L'eau est fraîche en mai — le vrai bain attendra le sud."
+      },
+      {
+        "label": "Le porto, à la source",
+        "kinds": [
+          "winery"
+        ],
+        "footer": "Taylor's à Gaia : audio-guide à son rythme dans les chais, tawny dans la cour avec les paons, et Porto qui s'allume de l'autre côté du fleuve."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites de Porto"
+  },
+  "outro": {
+    "kicker": "Le nord est apprivoisé",
+    "body": "Cinq nuits pour entrer dans le pays par la table — la francesinha de Santiago, les tripes des tripeiros, le poisson de Matosinhos, le tawny frais avec les paons. Les {count} lieux de Porto — où dormir, où manger, où se baigner, où boire — vivent dans le carnet, avec leurs liens, leurs prix et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochaine base : la vallée du Douro, le vin à la source, les pieds dans les terrasses.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/portugal/"
+  }
+}

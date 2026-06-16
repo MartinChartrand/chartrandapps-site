@@ -24,8 +24,14 @@
     "transfer": {
       "body": "Pas de vol transatlantique direct depuis Faro : deux options pour le retour. Soit Faro (FAO) avec une escale européenne, soit remonter à Lisbonne (LIS, ~2h45 de route depuis l'Algarve) pour le vol direct vers Montréal. À trancher selon les tarifs au moment de réserver.",
       "links": [
-        { "label": "Faro → Montréal (FAO)", "url": "https://www.google.com/maps/search/Faro+Airport" },
-        { "label": "Algarve → Lisbonne (LIS)", "url": "https://www.google.com/maps/dir/Lagos+Portugal/Lisbon+Airport" }
+        {
+          "label": "Faro → Montréal (FAO)",
+          "url": "https://www.google.com/maps/search/Faro+Airport"
+        },
+        {
+          "label": "Algarve → Lisbonne (LIS)",
+          "url": "https://www.google.com/maps/dir/Lagos+Portugal/Lisbon+Airport"
+        }
       ]
     }
   },
@@ -34,10 +40,10 @@
     "palette": "portugal"
   },
   "hero": {
-    "image": "hero",
+    "image": "algarve-cove",
     "label": "Itinéraire · Voyage en duo"
   },
-  "cardImage": "algarve-marinha",
+  "cardImage": "algarve-cove",
   "overviewKicker": "Logique du voyage",
   "overviewTitle": "Cinq bases, du nord au sud",
   "overviewIntro": "Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire descend la carte — de Porto et du Douro au nord jusqu'aux criques de l'Algarve au sud, en passant par Lisbonne et les plages sauvages de l'Alentejo — sans jamais courir.",
@@ -58,7 +64,7 @@
     "hookKicker": "Un mois · cinq bases · le fleuve, le sel et l'Atlantique",
     "hookTitle": "Au Portugal, tout remonte à l'eau — le vin descend du fleuve, la morue vient du grand large, et le reste, l'océan d'en face le donne chaque matin.",
     "hookBody": "Le Portugal a longtemps regardé vers l'Atlantique parce qu'il n'avait pas le choix : un pays mince, accroché au bord de l'Europe, qui est allé chercher sa morue jusque dans les eaux froides de Terre-Neuve et en a fait le bacalhau, mille et une façons. Mais on n'a pas traversé l'océan pour les caravelles. On vient pour ce que cette obsession de la mer a laissé dans l'assiette : les fruits de mer cuits à la minute dans les cervejarias, les sardines grillées sur le trottoir, le poisson choisi sur la glace le matin même. Et pour ce que la terre a appris à tirer du peu — le porc noir nourri de glands, le pain de maïs, le cochon de lait rôti lentement, et le vin qu'on boit là où il naît, sur les terrasses étagées du Douro. On entre par le nord, à Porto, là où le fleuve rencontre l'océan ; on descend sans se presser jusqu'aux criques turquoise de l'Algarve, en passant par les tascas de Lisbonne et les plages sauvages de l'Alentejo. L'histoire — les navigateurs, les azulejos, le fado — reste le décor. Le voyage, lui, est à table et dans l'eau.",
-    "hookImage": "algarve-marinha",
+    "hookImage": "algarve-cove",
     "sources": [
       {
         "creator": "Maps — Praia da Marinha, Algarve",
@@ -84,29 +90,25 @@
         "base": "douro",
         "kicker": "Chapitre 2 · 3 nuits",
         "title": "Le vin à la source, les pieds dans les terrasses",
-        "teaser": "Trois nuits dans une quinta accrochée au fleuve : le porto dégusté là où il naît, le cabrito au four d'un village, les cerises en pleine saison. On ne défait pas les valises, on contemple.",
-        "image": "douro-cover"
+        "teaser": "Trois nuits dans une quinta accrochée au fleuve : le porto dégusté là où il naît, le cabrito au four d'un village, les cerises en pleine saison. On ne défait pas les valises, on contemple."
       },
       {
         "base": "lisbonne",
         "kicker": "Chapitre 3 · 7 nuits",
         "title": "Les tascas, le poisson, sept collines",
-        "teaser": "Les fruits de mer d'une cervejaria, la bifana avalée debout, les pastéis à la sortie du four — et l'eau jamais loin : Sesimbra, Setúbal et son choco frito à un train de banlieue.",
-        "image": "lisbonne-cover"
+        "teaser": "Les fruits de mer d'une cervejaria, la bifana avalée debout, les pastéis à la sortie du four — et l'eau jamais loin : Sesimbra, Setúbal et son choco frito à un train de banlieue."
       },
       {
         "base": "comporta",
         "kicker": "Chapitre 4 · 5 nuits",
         "title": "Les plages que les Lisboètes se gardent",
-        "teaser": "Du sable sauvage à perte de vue derrière les rizières et les pins, le porc noir et les palourdes à la table des habitués, le vin de l'Alentejo. Le slow, version chic-décontractée.",
-        "image": "comporta-cover"
+        "teaser": "Du sable sauvage à perte de vue derrière les rizières et les pins, le porc noir et les palourdes à la table des habitués, le vin de l'Alentejo. Le slow, version chic-décontractée."
       },
       {
         "base": "algarve",
         "kicker": "Chapitre 5 · 10 nuits",
         "title": "Les criques turquoise, le slow finish",
-        "teaser": "De Sagres la sauvage aux falaises ocre de Lagos, la cataplana et les percebes face à la mer, l'eau cristalline des criques où on arrive en kayak avant les bateaux. On finit les pieds dans l'eau.",
-        "image": "algarve-cover"
+        "teaser": "De Sagres la sauvage aux falaises ocre de Lagos, la cataplana et les percebes face à la mer, l'eau cristalline des criques où on arrive en kayak avant les bateaux. On finit les pieds dans l'eau."
       }
     ]
   }
