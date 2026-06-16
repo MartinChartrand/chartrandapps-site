@@ -1,26 +1,21 @@
 # HANDOFF — Portugal 2027 (nouveau voyage, format épisode)
 
-## ⏩ MISE À JOUR 2026-06-16 (matin/jour) — SITE COMPLET 5/5 + Phase 1b vérifiée
+## ⏩ MISE À JOUR 2026-06-16 (après-midi) — Phase 1b APPLIQUÉE + SCELLÉE ✅ (prochain = Checkpoint 3)
 
-**État réel maintenant** (branche `portugal-episode`, build vert, validate:fast exit 0) :
-- ✅ **Les 5 épisodes sont bâtis et committés** (Porto `496c61a`, les 4 autres `76abcd8`) — container + 5 scrollytelling complets, voix Martin/Bourdain.
-- ✅ **36 images auto-hébergées, vision-check 36/36 MATCH** (`1b6316f`) — Unsplash + Wikimedia CC (vrais plats portugais + Comporta). Hook turquoise (William V) validé Checkpoint 2 par Martin. Palette azulejo approuvée.
-- ✅ **landmask + validate-geo 41/41 OK** (`289e4d8`).
-- ✅ **Phase 1b provenance FAITE et vérifiée adversarialement** (2 workflows, ~5M tokens) → résultats dans **`docs/v3-design-research/portugal-provenance-1b.json`** :
-  - **`ready` (31)** : story + ≥2 sources convergentes (ou singleSourceTrusted) VÉRIFIÉES, récit fidèle → à appliquer tel quel.
-  - **`fixable` (46)** : sources valides, mais le récit brouillon hallucinait → **réécrire le `story`** ancré sur `divergentDetail` (faits confirmés) en retirant ce que `fixNote` pointe. NE PAS re-sourcer (sources déjà vérifiées).
-  - **`rejected` (14)** : agrégateur/URL morte/pas de 2e source → **story reste VIDE** (honnête).
+**État réel maintenant** (branche `portugal-episode`, **build exit 0 + validate:fast exit 0**) :
+- ✅ **Les 77 stories sont POSÉES et SCELLÉES `approvedBy:"human"`** (GO Martin par base, calibration Porto en premier) — garde `validate-provenance portugal` = **77 OK / 0 problème**. Doc d'approbation : `docs/v3-design-research/portugal-1b-review.md`.
+  - **31 `ready`** appliqués (27 verbatim, 4 dé-cités des noms de sources dans la prose).
+  - **46 `fixable` RÉÉCRITS** (workflow 2 étages : réécriture Sonnet ancrée sur `divergentDetail` + vérif adversariale Sonnet ; le 2e agent a resserré 23/46). Sources + `singleSourceTrusted` copiés du fichier vérifié (agents = zéro autorité provenance).
+  - **14 `rejected`** restent VIDES (honnête).
+- ✅ **Dates de sources Porto corrigées** (19 étaient en année nue → schéma exige `YYYY-MM`). Workflow de récup (19 fetches) : 12 vrais mois (dont 6 années provenance erronées corrigées : Portugal Confidential = nov. 2021 pas 2024 ; Portoalities/tripas = oct. 2019 pas 2025 ; etc.), 6 evergreen/officielles → date d'accès `2026-06`, 1 (**Walk Trek Travel**, bot-bloqué) **droppé** → São Pedro da Afurada en `singleSourceTrusted` sur Portoalities (juil. 2016).
+- ✅ **5 épisodes** (Porto `496c61a` + 4 autres `76abcd8`), **36 images vision-check 36/36** (`1b6316f`), **landmask + validate-geo 41/41** (`289e4d8`).
 
-**⚠️ Rien n'est appliqué au JSON encore.** Aucune `story` posée → build reste vert (garde provenance = no-op). Dès qu'on pose une `story`, il FAUT `approvedBy:"human"` + ≥2 sources sinon build ROUGE.
+**PROCHAIN MORCEAU — Checkpoint 3 (décision Martin, après le break) :**
+1. ⚠️ **Vérif rendu iPhone Safari** d'abord (`/portugal/` + 1-2 épisodes) — pinchtab = Chromium, pas Safari (mémoire `verif-ios-simulateur-xcode`). Vérifier que les `story` s'affichent bien dans les fiches/carnet.
+2. Sur GO → **merge `portugal-episode` → `main`** (⚠️ `main` auto-deploie) → CI verte → live **`chartrandapps.ca/portugal/`**.
+3. Sync Obsidian (`Voyage-Portugal-2027-Duo.md` + ce handoff) + jalon T-3 mois.
 
-**PLAN DE REPRISE Phase 1b → prod :**
-1. Appliquer les 31 `ready` (story + sources) dans pois/dishes/gems.json. Réécrire les 46 `fixable` (utiliser `fixNote`+`divergentDetail`), les appliquer. Laisser les 14 `rejected` sans story.
-2. **Soumettre la liste à Martin pour approbation** (par base). Sur son GO → poser `approvedBy:"human"` sur les approuvées.
-3. `npm run validate:fast` exit 0 (la garde provenance valide tout `story`).
-4. **Checkpoint 3** (décision Martin) → merge `portugal-episode` → `main` → CI → live `chartrandapps.ca/portugal/`. ⚠️ Vérif iPhone Safari avant (pinchtab=Chromium).
-5. Sync Obsidian + jalon T-3 mois.
-
-Single-source restant noté : Sueste/Ferragudo = REJETÉ par la vérif (Portugal Resident 403). Ferragudo le village a sa propre provenance ailleurs.
+Single-source noté : Sueste/Ferragudo = REJETÉ à la vérif (Portugal Resident 403). Ferragudo le village a sa provenance ailleurs.
 
 **Le reste de ce document = état du 2026-06-15 (fondation), conservé pour référence.**
 

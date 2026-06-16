@@ -12,7 +12,18 @@
       }
     ],
     "image": "",
-    "base": "porto"
+    "base": "porto",
+    "story": "Née dans les années 1950 d'un émigrant revenu de France avec l'idée du croque-monsieur, la francesinha a muté jusqu'à devenir un sandwich-monument — plusieurs viandes, fromage fondu, œuf et la sauce bière-tomate-piri piri dont chaque maison garde la recette jalousement. Ce que les Portuens eux-mêmes débattent depuis des décennies : quelle version est la vraie. C'est un plat-repas complet, pas une entrée.",
+    "sources": [
+      {
+        "creator": "Portoalities",
+        "url": "https://portoalities.com/en/what-is-the-secret-of-francesinha/",
+        "date": "2015-10-25"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "porto-tripas-modo-do-porto",
@@ -27,7 +38,22 @@
       }
     ],
     "image": "",
-    "base": "porto"
+    "base": "porto",
+    "story": "La marmite en acier arrive du feu, bien chargée — tripe fondante, haricots blancs, carottes et riz dans un bouillon umami qui a du fond. À Porto, on se nomme tripeiros, et ce plat en est la signature. La première cuillerée, et on les comprend.",
+    "sources": [
+      {
+        "creator": "Eating Europe",
+        "url": "https://www.eatingeurope.com/blog/porto-food/",
+        "date": "2026-02-27"
+      },
+      {
+        "creator": "Portoalities",
+        "url": "https://portoalities.com/en/a-foodie-guide-to-porto/",
+        "date": "2019-10"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "porto-sardinhas-matosinhos",
@@ -72,7 +98,18 @@
       }
     ],
     "image": "",
-    "base": "porto"
+    "base": "porto",
+    "story": "Le Tawny vieillit en barrique jusqu'à virer fauve — noix grillée, figue, caramel qui tient. On le sert frais, jamais à température ambiante. Dans les caves de Taylor's à Gaia, avec le Douro droit devant, c'est le genre de verre qu'on fait durer plus longtemps que prévu.",
+    "sources": [
+      {
+        "creator": "Taylor's Port (officiel)",
+        "url": "https://www.taylor.pt/en",
+        "date": "2026-06"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "porto-bacalhau-com-broa",
@@ -117,7 +154,18 @@
       }
     ],
     "image": "",
-    "base": "douro"
+    "base": "douro",
+    "story": "À Quinta do Bomfim, le Tawny 20 ans de Dow's et le LBV 1998 se boivent dans la quinta même qui les a produits, au coeur du Douro. Un verre ici, et on comprend enfin ce qu'on tentait de recréer dans son salon depuis des années.",
+    "sources": [
+      {
+        "creator": "AmsterdamFoodie (Vicky Hampton)",
+        "url": "https://www.amsterdamfoodie.nl/2024/douro-valley-wine-tour-from-porto/",
+        "date": "2024-04-24"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "douro-doc-rouge",
@@ -132,7 +180,22 @@
       }
     ],
     "image": "",
-    "base": "douro"
+    "base": "douro",
+    "story": "Au Douro, le Touriga Nacional donne des rouges qui tachent : profonds, tanniques, avec un fruit noir dense. À Castas e Pratos à Régua, une carte de cent-quatre pages de vins portugais permet d'en explorer plusieurs au verre — sans commander de bouteille entière.",
+    "sources": [
+      {
+        "creator": "AmsterdamFoodie",
+        "url": "https://www.amsterdamfoodie.nl/2024/douro-valley-wine-tour-from-porto/",
+        "date": "2024-04-24"
+      },
+      {
+        "creator": "Wine Folly",
+        "url": "https://winefolly.com/deep-dive/exploring-touriga-nacional-wine/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "douro-riz-de-cabrito",
@@ -147,7 +210,18 @@
       }
     ],
     "image": "",
-    "base": "douro"
+    "base": "douro",
+    "story": "À Toca da Raposa, le riz de cabrito est le plat signature — le plat dont on fait l'éloge. Une raison suffisante de s'enfoncer dans l'arrière-pays.",
+    "sources": [
+      {
+        "creator": "Portoalities (Susana Ribeiro)",
+        "url": "https://portoalities.com/en/best-restaurants-douro-valley/",
+        "date": "2020-06-17"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "douro-cerises",
@@ -177,7 +251,22 @@
       }
     ],
     "image": "",
-    "base": "douro"
+    "base": "douro",
+    "story": "La saucisse jaune de Mirandela est née d'une ruse du XVe siècle : les Juifs portugais convertis de force devaient montrer qu'ils mangeaient du porc comme les chrétiens. Ils ont inventé une saucisse de volaille et de gibier fumée dans la même forme que la saucisse de porc — pour les inquisiteurs, visuellement indifférenciable. Aujourd'hui l'alheira de Mirandela est classée IGP, fumée au bois de chêne et d'olivier. Grillée avec un œuf frit et du chou vert, c'est le déjeuner de l'arrière-pays.",
+    "sources": [
+      {
+        "creator": "Catavino.net",
+        "url": "https://catavino.net/alheira-portuguese-sausage/",
+        "date": "2022-01"
+      },
+      {
+        "creator": "Atlas Lisboa (Gloria Dominguez)",
+        "url": "https://www.atlaslisboa.com/the-age-old-tradition-of-alheiras-in-tras-os-montes/",
+        "date": "2022-07-26"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "lisbonne-pastel-de-nata",
@@ -192,7 +281,22 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "La recette date de 1837, inventée par les moines hiéronymites de Belém qui utilisaient les blancs d'œufs pour amidonner leurs habits. Les jaunes, eux, sont devenus la crème secrète que six maîtres-pâtissiers se transmettent derrière des portes fermées. On arrive à la Fábrica, on passe par la fenêtre de cuisson où les plateaux s'enchaînent, on mange chaud avec la cannelle et le sucre glace côté. La croûte craque. On regrette d'en avoir pris qu'une.",
+    "sources": [
+      {
+        "creator": "Sanne (Mitzie Mee) — travel food blog",
+        "url": "https://mitziemee.com/lisbon-pasteis-de-belem-the-original-pastel-de-nata/",
+        "date": "2026-03-26"
+      },
+      {
+        "creator": "Rita Costa — Living Tours blog culinaire Portugal",
+        "url": "https://www.livingtours.com/en/blog/the-difference-between-pastel-de-nata-and-pastel-de-belem.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "lisbonne-bifana",
@@ -207,7 +311,18 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "Le porc mariné à la banha — le saindoux que les restos touristiques préfèrent oublier — glisse dans un papo-seco, avec un filet de sauce. On mange debout, contre le comptoir. Pas de nappe, pas de menu. Juste un repas honnête.",
+    "sources": [
+      {
+        "creator": "Valter Leandro — Lisboa Secreta",
+        "url": "https://lisboasecreta.co/as-bifanas-do-afonso/",
+        "date": "2024-01-25"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "lisbonne-percebes",
@@ -222,7 +337,22 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "Elles poussent là où l'Atlantique frappe le plus fort — falaises exposées, vagues permanentes, roches couvertes d'embruns. Le percebeiro descend en combinaison, attaché par une corde, et les arrache à la main à marée basse. Chez Ramiro, elles arrivent cuites à l'eau de mer, chaudes, qu'on casse avec les doigts. La chair est caoutchouteuse, iodée, comme une gorgée de mer franche — et ça coûte cher parce que quelqu'un a pris un risque réel pour les mettre dans votre assiette.",
+    "sources": [
+      {
+        "creator": "Mark Wiens — Migrationology",
+        "url": "https://migrationology.com/cervejaria-ramiro-restaurant-lisbon/",
+        "date": "2016-11"
+      },
+      {
+        "creator": "Secret Places editorial — percebes Portugal",
+        "url": "https://www.secretplaces.com/blog/percebes-a-dangerous-delicacy",
+        "date": "2021-10"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "lisbonne-bacalhau-a-bras",
@@ -237,7 +367,18 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "Né dans le Bairro Alto à la fin du XIXe, c'est l'honnêteté même : morue dessalée effilochée, œufs brouillés, pommes de terre paille qui craquent sous la dent. Un plat devenu institution nationale, qu'on retrouve sur presque toutes les ardoises du pays.",
+    "sources": [
+      {
+        "creator": "Wikipedia — Bacalhau à Brás",
+        "url": "https://en.wikipedia.org/wiki/Bacalhau_%C3%A0_Br%C3%A1s",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "lisbonne-ginjinha",
@@ -252,7 +393,18 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "Largo de São Domingos depuis 1840 — un comptoir, un seul produit, une décision à prendre : avec la cerise au fond (com ela) ou sans (sem ela). Espinheira, Galicien installé à Lisbonne, a inventé cette liqueur de griotte à l'aguardente et ouvert ce bar qui n'a pas changé de format depuis. On boit dehors, debout sur le trottoir, avec toute la ville qui passe. Digestif après le déjeuner ou apéro du soir — deux euros cinquante le verre.",
+    "sources": [
+      {
+        "creator": "Comércio com História — A Ginjinha Espinheira (fiche officielle gouvernementale portugaise)",
+        "url": "https://www.comerciocomhistoria.gov.pt/en/listings/a-ginjinha-espinheira-s-domingos-3208/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "lisbonne-choco-frito",
@@ -267,7 +419,18 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "La seiche de Setúbal, tranchée, légèrement farinée et frite — chair épaisse qui résiste sous les dents, croûte mince qui ne masque rien. À midi, devant Casa Santiago, les tickets numérotés s'arrachent : on attend dehors avec les frites maison en tête. Le repas se termine sur un baba de camelo aux amandes — douceur crémeuse, étrange, qui prend tout le monde par surprise.",
+    "sources": [
+      {
+        "creator": "Inês — O diário da Inês (blog local)",
+        "url": "https://odaines.blogspot.com/2016/01/casa-santiago-o-rei-do-choco-frito.html",
+        "date": "2016-01-30"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "lisbonne-moscatel-setubal",
@@ -282,7 +445,22 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "À Azeitão, les caves Fonseca gardent des Moscatel en barrique depuis les années 1800. On descend, on goûte cent ans dans le verre — caramel, noix, orange confite — et on remonte avec une bouteille qui pèse.",
+    "sources": [
+      {
+        "creator": "Salt of Portugal — blog vin Portugal",
+        "url": "https://saltofportugal.com/2016/12/27/tasting-moscatel-in-setubal/",
+        "date": "2016-12-27"
+      },
+      {
+        "creator": "Cellar Tours editorial — vins Portugal",
+        "url": "https://www.cellartours.com/blog/portugal/sweet-discoveries-moscatel-and-fortified-wines-of-portugal",
+        "date": "2023-09"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "comporta-porco-preto",
@@ -297,7 +475,22 @@
       }
     ],
     "image": "",
-    "base": "comporta"
+    "base": "comporta",
+    "story": "Le porco preto passe la montanheira d'octobre à janvier en liberté dans les chênes-lièges du montado, à se gaver de glands — c'est ce qui lui donne cette graisse douce et persillée, cette chair qui n'a rien à voir avec le porc industriel. On le découvre en dégustation à la ferme, en planche de charcuterie AOP : une tranche, et tout l'Alentejo est là.",
+    "sources": [
+      {
+        "creator": "Visit Alentejo / Turismo do Alentejo (office de tourisme officiel)",
+        "url": "https://www.visitalentejo.pt/en/blog/ten-wonderful-things-to-eat-and-drink-in-portugal-s-alentejo/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "1st Day of Summer (food blog Portugal)",
+        "url": "https://www.1stdayofsummer.com/black-pork-portugal-porco-preto/",
+        "date": "2023-05"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "comporta-ameijoas-alho",
@@ -312,7 +505,18 @@
       }
     ],
     "image": "",
-    "base": "comporta"
+    "base": "comporta",
+    "story": "Nommées d'après le poète-gastronome Bulhão Pato, ces palourdes s'ouvrent dans un bain d'huile d'olive, d'ail, de vin blanc et de coriandre fraîche. La clé, c'est la fraîcheur — ça se goûte à la première bouchée. Le bouillon au fond de la casserole, on le trempe avec du pain jusqu'au dernier millilitre.",
+    "sources": [
+      {
+        "creator": "Culinary Backstreets Lisbon — Austin Bush",
+        "url": "https://culinarybackstreets.com/cities-category/lisbon/2022/recipe-ameijoas-a-bulhao-pato-lisbon-in-a-dish",
+        "date": "2022-08-26"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "comporta-arroz-de-marisco",
@@ -357,7 +561,18 @@
       }
     ],
     "image": "",
-    "base": "comporta"
+    "base": "comporta",
+    "story": "Né dans les couvents d'Elvas au XVIe siècle — peut-être influencé par le serikaya de Malacca rapporté par les navigateurs portugais — le sericaia est un flan aux œufs et à la cannelle cuit jusqu'à craquer en surface, servi avec les prunes confites d'Elvas (AOP). On en trouve rarement dans les menus touristiques ; c'est dans les tascas locales de l'Alentejo qu'il réapparaît, tremblotant dans son plat en terre cuite.",
+    "sources": [
+      {
+        "creator": "Portugal.com (guide officiel recettes)",
+        "url": "https://www.portugal.com/recipes/sericaia-a-traditional-portuguese-pudding-recipe-from-the-alentejo/",
+        "date": "2023-06"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "comporta-vinho-alentejo",
@@ -372,7 +587,18 @@
       }
     ],
     "image": "",
-    "base": "comporta"
+    "base": "comporta",
+    "story": "Les blancs de la Herdade da Comporta poussent sur des sols sableux à deux pas de l'Atlantique — récoltés la nuit pour garder toute leur fraîcheur, ils développent une minéralité franche qu'on ne s'attendait pas à trouver ici. Arinto, Antão Vaz : un premier verre, et le terroir s'explique tout seul.",
+    "sources": [
+      {
+        "creator": "Herdade da Comporta (producteur officiel)",
+        "url": "https://www.adega.herdadedacomporta.pt/en/wines/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "algarve-cataplana-peixe",
@@ -387,7 +613,22 @@
       }
     ],
     "image": "",
-    "base": "algarve"
+    "base": "algarve",
+    "story": "La cataplana, c'est le chaudron de cuivre battu en forme de coquillage que les Maures ont apporté en Algarve au 8e siècle — cousin du tagine nord-africain, conçu pour piéger la vapeur et concentrer les jus. Les pêcheurs l'emportaient remplie d'ail et d'huile pour cuire la prise sur le feu. Aujourd'hui chez O Retiro do Pescador à Sagres, il sort de la cuisine avec la vapeur qui siffle avant que le couvercle soit soulevé — dorade, palourdes, tomates, coriandre, vin blanc. Le pain vient après, pour le fond.",
+    "sources": [
+      {
+        "creator": "Taste Tavira",
+        "url": "https://tastetavira.com/the-origins-of-the-cataplana-a-taste-of-algarves-culinary-history/",
+        "date": "2025-05"
+      },
+      {
+        "creator": "Catavino (Gabriella Opaz)",
+        "url": "https://catavino.net/portuguese-food-cooking-cataplana/",
+        "date": "2014-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "algarve-percebes-vicentina",
@@ -447,7 +688,18 @@
       }
     ],
     "image": "",
-    "base": "algarve"
+    "base": "algarve",
+    "story": "L'eau-de-vie d'arbousier des montagnes de Monchique — limpide, arôme de fruit sauvage, chaleur douce qui ne mord pas. Demander le caseiro, la production familiale : la différence avec l'industriel se sent au premier verre.",
+    "sources": [
+      {
+        "creator": "Casa do Medronho (producteur Serra de Monchique)",
+        "url": "http://casadomedronho.com/en/medronho-roadmap/aguardente-medronho-da-serra-de-monchique/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "algarve-dom-rodrigo",
@@ -462,7 +714,18 @@
       }
     ],
     "image": "",
-    "base": "algarve"
+    "base": "algarve",
+    "story": "Jaunes d'œufs, amandes moulues, cannelle, sucre et fios de ovos (fils d'œuf) — façonnés en boule, caramélisés directement dans le sirop dans une poêle. La recette est née au Couvent de Nossa Senhora do Carmo à Lagos, liée à D. Rodrigo de Menezes, gouverneur de l'Algarve au 18e siècle. Protégé par IGP depuis 2023, produit uniquement dans les 16 municipalités algarvienness. Lagos en a fait un record du monde en 2019 avec le plus grand Dom Rodrigo jamais fabriqué — 100 kg.",
+    "sources": [
+      {
+        "creator": "Portugal Resident",
+        "url": "https://www.portugalresident.com/algarves-iconic-dom-rodrigo-sweet-wins-protected-status/",
+        "date": "2023-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "algarve-arroz-negro",

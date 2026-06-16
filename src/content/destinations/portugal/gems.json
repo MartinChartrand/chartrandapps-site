@@ -11,7 +11,18 @@
       }
     ],
     "image": "",
-    "base": "porto"
+    "base": "porto",
+    "story": "Un quartier que les cartes oublient encore. Des bacs à laver collectifs, des vieilles qui chantaient en battant le linge, la mémoire d'un Porto d'avant le pont — tout ça tient encore dans ces ruelles. Fontainhas, c'est Porto avant le vernis.",
+    "sources": [
+      {
+        "creator": "Spotted by Locals",
+        "url": "https://www.spottedbylocals.com/porto/fontainhas/",
+        "date": "2026-06-05"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "porto-gem-cedofeita-miguel-bombarda",
@@ -25,7 +36,22 @@
       }
     ],
     "image": "",
-    "base": "porto"
+    "base": "porto",
+    "story": "Dans la rue des galeries d'art de Cedofeita, le Genuíno a ouvert au 78 de Miguel Bombarda et est devenu la référence de la nouvelle vague des vins naturels portugais à Porto. Il figure parmi les 11 meilleurs bars à vins de la ville depuis son ouverture en 2024 — menu rotatif, producteurs du Minho et du Douro qu'on ne connaît pas encore. L'après-midi dans les galeries se termine naturellement ici.",
+    "sources": [
+      {
+        "creator": "Rebel Atlas",
+        "url": "https://rebelatlas.com/destinations/europe/portugal/porto/porto-11-wine-bars-with-character-style-proper-bottles/",
+        "date": "2026-04-04"
+      },
+      {
+        "creator": "Viver o Porto (Paula Calheiros)",
+        "url": "https://www.viveroporto.com/2024/02/genuino-bar-um-bar-de-vinhos-naturais-e-boa-comida/",
+        "date": "2024-02-08"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "porto-gem-sao-pedro-afurada",
@@ -39,7 +65,18 @@
       }
     ],
     "image": "",
-    "base": "porto"
+    "base": "porto",
+    "story": "De l'autre côté du Douro, le ferry 'Flor de Gás' met quelques minutes depuis Lordelo do Ouro. Un vrai village de pêcheurs à deux pas de Porto — 17 000 habitants dans 99 hectares, des lignes à linge en travers des ruelles, et des tascas qui servent du poisson grillé sur charbon à huit euros. C'est à vingt minutes de Porto et ça ressemble à un film des années 70.",
+    "sources": [
+      {
+        "creator": "Portoalities",
+        "url": "https://portoalities.com/en/afurada-the-magic-fishermen-village-just-across-porto/",
+        "date": "2016-07-25"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "porto-gem-bolhao-matin",
@@ -53,7 +90,18 @@
       }
     ],
     "image": "",
-    "base": "porto"
+    "base": "porto",
+    "story": "À 8h, le Bolhão appartient encore aux Tripeiras — ces vendeuses historiques légalement protégées depuis 1914, qui disposent les choux à caldo verde et les fruits de saison avec la précision d'un rituel. On contourne la pâtisserie de façade, on trouve la salle cachée au fond, et on mange assis avant que la cohue du lunch efface tout ça.",
+    "sources": [
+      {
+        "creator": "Do Eat Better Experience",
+        "url": "https://doeatbetterexperience.com/blog/mercado-do-bolhao-porto-guide/",
+        "date": "2026-06-13"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "porto-gem-foz-coucher",
@@ -67,7 +115,22 @@
       }
     ],
     "image": "",
-    "base": "porto"
+    "base": "porto",
+    "story": "À l'embouchure du Douro, là où le fleuve donne sur l'Atlantique, la Pérgola da Foz longe l'horizon en dalle de granit. Chaque soir, les gens du quartier s'y retrouvent — pas pour marquer le coup, juste parce que c'est là. La lumière de fin de journée s'occupe du reste. On s'assoit, on se tait un peu.",
+    "sources": [
+      {
+        "creator": "Theriz Journal",
+        "url": "https://www.therizjournal.com/2024/08/sunset-at-foz-do-douro.html",
+        "date": "2024-08-27"
+      },
+      {
+        "creator": "Mad About Porto",
+        "url": "https://www.madaboutporto.com/foz_porto.html",
+        "date": "2026-06"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "douro-gem-en222-route",
@@ -81,7 +144,22 @@
       }
     ],
     "image": "",
-    "base": "douro"
+    "base": "douro",
+    "story": "La nationale EN-222 entre Régua et Pinhão suit le Douro sur 27 km de vignes en terrasses de schiste, avec exactement 93 virages. En 2015, Avis l'a désignée meilleure route de conduite du monde. En mai, les vignes sont d'un vert intense, les cerisiers fleurissent sur les versants et la lumière de fin d'après-midi rend chaque virage mémorable. On la fait au lever du soleil, à vitesse de promenade, fenêtres ouvertes.",
+    "sources": [
+      {
+        "creator": "PortoNorthPortugal",
+        "url": "https://porto-north-portugal.com/porto-guide/douro-car-drive-tour-n222.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "TomorrowAlgarve (Lena Strang)",
+        "url": "https://tomorrowalgarve.com/apr-2024-rivers-valleys-and-vineyards-following-route-222/",
+        "date": "2024-04"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "douro-gem-pinhao-matin",
@@ -95,7 +173,18 @@
       }
     ],
     "image": "",
-    "base": "douro"
+    "base": "douro",
+    "story": "La gare de Pinhão a été construite au XIXe siècle, mais ce qu'elle contient date de 1937 : 24 panneaux de 3 047 azulejos peints par J. Oliveira, qui racontent la vendange et le transport du vin sur le fleuve en carreaux bleus et blancs. C'est un musée à ciel ouvert, toujours ouvert, jamais fermé. À 7h du matin, avant que les groupes de croisière arrivent, le brouillard de mai flotte sur le fleuve et les pigeons ont les panneaux pour eux seuls.",
+    "sources": [
+      {
+        "creator": "PassionateFoodie (Richard Auffrey)",
+        "url": "https://passionatefoodie.blogspot.com/2023/11/pinhao-railway-station-douro-river.html",
+        "date": "2023-11-08"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "douro-gem-miradouro-galafura",
@@ -109,7 +198,22 @@
       }
     ],
     "image": "",
-    "base": "douro"
+    "base": "douro",
+    "story": "Le belvédère le plus cité par ceux qui reviennent du Douro. Vue plongeante sur le méandre du fleuve entre Régua et Pinhão, les terrasses de schiste de chaque côté, les quintas comme des traits d'encre dans le paysage. L'écrivain Miguel Torga y venait régulièrement et parlait du Douro comme d'«un poème géologique». Il y a une table en pierre, parfois un tracteur qui passe, souvent personne d'autre. Le Douro vu d'en haut, sans guide, sans frais.",
+    "sources": [
+      {
+        "creator": "PortoNorthPortugal",
+        "url": "https://porto-north-portugal.com/porto-guide/leonardo-galafura-viewpoint-miradouro.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Jorge Miguel Matias / JorgeBarefoot",
+        "url": "https://www.jorgebarefoot.com/2024/11/11/sao-leonardo-da-galafura-the-douro-valleys-stunning-viewpoint/",
+        "date": "2024-11-11"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "douro-gem-baba-ao-porto",
@@ -123,7 +227,18 @@
       }
     ],
     "image": "",
-    "base": "douro"
+    "base": "douro",
+    "story": "À Pinhão, Veladouro sert un baba au porto : le rhum remplacé par le vin fortifié du coin, le terroir qui s'impose jusqu'au dessert. Une finale de repas qui ne cherche pas à épater — juste à conclure.",
+    "sources": [
+      {
+        "creator": "Portoalities (Sara Riobom)",
+        "url": "https://portoalities.com/en/best-restaurants-douro-valley/",
+        "date": "2020-06-17"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "lisbonne-gem-mouraria-aube",
@@ -151,7 +266,18 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "Le nom dit tout : la Feira da Ladra, le marché des voleurs, existe depuis le XIIe siècle et le titre n'a rien perdu de son lustre. On arrive tôt — antiquités, objets militaires, vêtements vintage — avant que les bonnes pièces trouvent preneurs. Le Panthéon national est juste derrière ; les gradins sont gratuits.",
+    "sources": [
+      {
+        "creator": "Marga — Discover Portugal (résidente Lisbonne)",
+        "url": "https://www.discover-portugal.com/feira-da-ladra/",
+        "date": "2026-04-23"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "lisbonne-gem-jardim-principe-real",
@@ -165,7 +291,22 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "Le samedi matin, de 8h à 14h, le marché bio s'installe tout autour du jardin. Des chiens font leur tournée des kiosques, des vieux jouent aux cartes sous l'ombre du cèdre centenaire. C'est un des endroits de Lisbonne où on s'assoit sans raison — et c'est la meilleure raison.",
+    "sources": [
+      {
+        "creator": "Visit Lisboa — Príncipe Real Organic Produce Fair",
+        "url": "https://www.visitlisboa.com/en/places/principe-real-organic-produce-fair",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Junta de Freguesia da Misericórdia — Feiras e Mercados (source officielle paroisse)",
+        "url": "https://www.jf-misericordia.pt/viver/economia-local/feiras-e-mercados",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "lisbonne-gem-senhora-do-monte",
@@ -179,7 +320,23 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "Dans le quartier de Graça, sur la plus haute colline de Lisbonne, il faut monter à pied depuis le tram 28 — ce détail suffit à décourager les groupes. En haut, la chapelle Nossa Senhora do Monte et un large panorama sur la ville. Le genre de vue que les locaux gardent pour eux.",
+    "sources": [
+      {
+        "creator": "lisbonportugaltourism.com — guide miradouros",
+        "url": "https://www.lisbonportugaltourism.com/guide/miradouro-da-senhora-do-monte.html",
+        "date": "2026-01"
+      },
+      {
+        "creator": "Visit Lisboa — Turismo de Lisboa (fiche officielle)",
+        "url": "https://www.visitlisboa.com/en/places/miradouro-da-senhora-do-monte",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "lisbonne-gem-cantinho-aziz",
@@ -193,7 +350,18 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "Rua de São Lourenço, Mouraria — depuis les années 1980, la famille Aziz cuisine mozambicain-indien dans une salle de vingt couverts tapissée de photos de Maputo. Les chamussa (samosas aux épices maison), le poulet piri piri à la sauce maison, les sauces à la noix de coco qui font oublier l'huile d'olive. Le service prend son temps parce que la maison n'a jamais cherché le turnover — on reste, on parle, on commande encore. La plus vieille table africaine de Lisbonne, encore tenue par la même famille.",
+    "sources": [
+      {
+        "creator": "Kenny Dunn — Eating Europe",
+        "url": "https://www.eatingeurope.com/blog/cantinho-do-aziz/",
+        "date": "2024-10-23"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "lisbonne-gem-sesimbra-matin",
@@ -207,7 +375,18 @@
       }
     ],
     "image": "",
-    "base": "lisbonne"
+    "base": "lisbonne",
+    "story": "À 40 km de Lisbonne, la baie de Sesimbra est protégée par les collines de l'Arrábida — elles bloquent la houle atlantique et gardent l'eau calme et plus chaude que Cascais. Le matin, les bateaux de pêche rentrent au port et les restos viennent chercher leur commande directement sur le quai. On y va en semaine, pas le week-end. On déjeune de poisson grillé en bord de mer, on se baigne dans une eau d'une clarté rare pour la région, on rentre.",
+    "sources": [
+      {
+        "creator": "Philip Giddings — sintracascaissesimbra.com, guide indépendant",
+        "url": "https://sintracascaissesimbra.com/",
+        "date": "2026-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "comporta-gem-cais-palafítico",
@@ -221,7 +400,18 @@
       }
     ],
     "image": "",
-    "base": "comporta"
+    "base": "comporta",
+    "story": "À 7h du matin, avant les groupes, le cais palafítico de Carrasqueira est un autre endroit. Brume sur l'estuaire du Sado, bateaux de pêche qui rentrent, bois gris des pilotis qui prend la lumière rasante. C'est la pêche aux huîtres qui a financé cette structure unique en Europe — des centaines de mètres de passerelles en zigzag construites pièce par pièce dans les années 1950-60, parce que les pêcheurs ne pouvaient pas laisser la marée décider s'ils travaillaient ce jour-là ou pas.",
+    "sources": [
+      {
+        "creator": "Espirito da Comporta (guide local)",
+        "url": "https://espiritodacomporta.com/fr/le-port-palafitico-da-carrasqueira-a-comporta/",
+        "date": "2024-05"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "comporta-gem-rizieres-aube",
@@ -235,7 +425,18 @@
       }
     ],
     "image": "",
-    "base": "comporta"
+    "base": "comporta",
+    "story": "Entre Possanco et Comporta, plus de mille hectares de casiers d'eau verte au printemps — des miroirs plats qui reflètent le ciel de l'Alentejo à l'aube. Les cigognes et les hérons cendrés chassent dans les sillons, les flamants du Sado passent parfois. Ce paysage est ce qui différencie Comporta de toutes les autres côtes portugaises, et il n'y a pas de billet d'entrée pour le regarder depuis le bord de la route au lever du soleil.",
+    "sources": [
+      {
+        "creator": "Elo Runs the World (blog voyage)",
+        "url": "https://elorunstheworld.com/arrozais/",
+        "date": "2025-10-29"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "comporta-gem-lagoa-melides",
@@ -249,7 +450,18 @@
       }
     ],
     "image": "",
-    "base": "comporta"
+    "base": "comporta",
+    "story": "Zone protégée depuis 2010, la lagune de Melides vit à deux rythmes : les oiseaux depuis l'observatoire, le paddleboard sur l'eau calme. Et quand le soleil descend, il se reflète dans la lagune — une lumière qui ne s'explique pas, ça se vit.",
+    "sources": [
+      {
+        "creator": "Espirito da Comporta (guide local)",
+        "url": "https://espiritodacomporta.com/the-secrets-of-melides-portugal/",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human",
+    "singleSourceTrusted": true
   },
   {
     "id": "comporta-gem-pinheiros-altos",
@@ -277,7 +489,22 @@
       }
     ],
     "image": "",
-    "base": "comporta"
+    "base": "comporta",
+    "story": "Dans l'ancienne usine de décorticage de riz de 1952, le Museu do Arroz reconstitue le village disparu : boucherie, boulangerie, barbier, couturière — un monde qui tournait entièrement autour du grain. Le restaurant adjacent sert ce même riz local cuisiné sous toutes ses formes. On repart en comprenant pourquoi Comporta est synonyme de riz.",
+    "sources": [
+      {
+        "creator": "Herdade da Comporta (propriétaire officiel — sous-domaine adega)",
+        "url": "https://www.adega.herdadedacomporta.pt/en/rice-museum/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Portugal Confidential (critique voyage)",
+        "url": "https://portugalconfidential.com/rice-museum-muesu-arroz-comporta/",
+        "date": "2023-04"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "algarve-gem-praia-carvalho",
@@ -291,7 +518,22 @@
       }
     ],
     "image": "",
-    "base": "algarve"
+    "base": "algarve",
+    "story": "On entre dans l'obscurité d'un tunnel de 15 mètres creusé dans la falaise calcaire — les parois sont couvertes de fossiles — et on ressort sur une crique en forme de V, entourée de grès orange, eau turquoise jusqu'à 20°C en juin. Pas de restaurant, pas de douches, pas de lifeguard. Le parking est à 1 km, le sentier longe la falaise, puis le tunnel. La logistique fait écran : la plupart des gens passent leur chemin. On en profite.",
+    "sources": [
+      {
+        "creator": "AlgarveTips.com",
+        "url": "https://www.algarvetips.com/beaches/lagoa/praia-do-carvalho/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "SunRoamy",
+        "url": "https://sunroamy.com/en/beaches/carvalho-beach/",
+        "date": "2026-01"
+      }
+    ],
+    "verifiedAt": "2026-06-16",
+    "approvedBy": "human"
   },
   {
     "id": "algarve-gem-ferragudo-village",
