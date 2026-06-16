@@ -1,6 +1,14 @@
 # HANDOFF — Portugal 2027 (nouveau voyage, format épisode)
 
-## ⏩ MISE À JOUR 2026-06-16 (après-midi) — Phase 1b APPLIQUÉE + SCELLÉE ✅ (prochain = Checkpoint 3)
+## ⏩ MISE À JOUR 2026-06-16 (après-midi) — ✅ DÉPLOYÉ EN PROD — `chartrandapps.ca/portugal/` LIVE
+
+**Checkpoint 3 FAIT** : merge FF `portugal-episode`→`main` (`f2f269b`), deploy GitHub Pages OK, **5/5 destinations vérifiées live HTTP 200** (portugal/algarve 11 toggles « le récit », crete/chania 1, philippines/bangkok 19, cyclades 0, andalousie 0 — 0 langage méta partout). Les récits sourcés s'affichent en prod sur les 5 voyages.
+
+**Suites (pas bloquantes, post-deploy) :** ⚠️ jeter un œil au feel iPhone Safari sur le live (mode carnet, dépliable « le récit ») quand tu passes ; sync Obsidian (`Voyage-Portugal-2027-Duo.md`) ; jalon T-3 mois (planif réelle : trancher départ FAO-escale vs LIS).
+
+---
+
+### (Archive) État pré-deploy — Phase 1b APPLIQUÉE + SCELLÉE ✅
 
 **État réel maintenant** (branche `portugal-episode`, **build exit 0 + validate:fast exit 0**) :
 - ✅ **Les 77 stories sont POSÉES et SCELLÉES `approvedBy:"human"`** (GO Martin par base, calibration Porto en premier) — garde `validate-provenance portugal` = **77 OK / 0 problème**. Doc d'approbation : `docs/v3-design-research/portugal-1b-review.md`.
