@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -9.6,
+              36.9
+            ],
+            [
+              -6,
+              36.9
+            ],
+            [
+              -6,
+              42.2
+            ],
+            [
+              -9.6,
+              42.2
+            ],
+            [
+              -9.6,
+              36.9
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "portugal",
+        "note": "Polygone bbox approximatif — remplacer par un landmask OSM précis si besoin."
+      }
+    }
+  ]
+}
