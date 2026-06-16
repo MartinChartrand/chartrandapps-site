@@ -1,0 +1,18 @@
+/* Thème Portugal — ARCHITECTURE §4 : une destination = données + ~40 lignes CSS */
+/* Signature visuelle : azulejo bleu + terracotta des toits + crème chaud + note dorée (façades/tramways) */
+/* PROPOSITION — à valider visuellement au Checkpoint 2 (preview + screenshot hero) */
+
+[data-theme="portugal"] {
+  --terre: #BC5E3C;          /* terracotta des toits portugais */
+  --sand: #F2E8D9;           /* fond crème léger */
+  --deep: #15324C;           /* azulejo navy profond — hero + titres */
+  --mer: #2A6196;            /* bleu azulejo signature (Atlantique, plus cobalt que l'Égée) */
+  --mer-light: #E7F1F8;
+  --text: #29241B;           /* texte principal — brun-noir chaud */
+  --muted: #6A6157;          /* texte secondaire */
+  --border: rgba(41, 36, 27, 0.10);
+  --accent: #B07514;         /* ocre doré — façade pombaline / tramway, le pop interactif */
+  --gold: #C9912E;           /* 3e signature — azulejo doré / calçada */
+  --bg: #FCF8F1;             /* background global — crème chaud */
+  --white: #FFFFFF;
+}

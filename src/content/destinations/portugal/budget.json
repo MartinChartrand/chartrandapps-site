@@ -1,0 +1,67 @@
+{
+  "kicker": "Finances",
+  "title": "Budget estimé",
+  "intro": "En dollars canadiens, taux de référence 1 € ≈ 1,62 $ CAD (juin 2026). Estimations réalistes pour deux personnes, niveau confort intermédiaire — bon hébergement sans luxe, tascas et tavernes locales, vin au repas, quelques tables qui valent le détour. Calibré « serré-confortable ».",
+  "statCards": [
+    { "value": "~14 900 $", "label": "Total pour 2 personnes, 30 jours" },
+    { "value": "~7 450 $", "label": "Par personne, tout inclus" },
+    { "value": "~405 $", "label": "Par jour sur place, pour 2" },
+    { "value": "1 € ≈ 1,62 $", "label": "Taux de référence CAD" }
+  ],
+  "lines": [
+    {
+      "label": "Vols aller-retour (2 pers.)",
+      "category": "Montréal (YUL) → Porto (OPO), retour Faro (FAO) avec escale OU Lisbonne (LIS) direct · via hub européen, sans transit USA",
+      "amount": "~2 800 $"
+    },
+    {
+      "label": "Hébergement (30 nuits)",
+      "category": "Porto 5n (~90€) · Douro 3n quinta (~150€) · Lisbonne 7n (~110€) · Comporta 5n (~120€) · Algarve 10n (~110€)",
+      "amount": "~5 200 $"
+    },
+    {
+      "label": "Location de voiture (~17 jours)",
+      "category": "Prise à la sortie du Douro, gardée pour Alentejo + Algarve · pas de voiture à Porto ni Lisbonne (villes + trains) · petite voiture ~40€/jour",
+      "amount": "~1 450 $"
+    },
+    {
+      "label": "Essence + péages",
+      "category": "Autoroutes à péage (A2 vers le sud) · essence ~1,80€/litre · ~900 km au total",
+      "amount": "~400 $"
+    },
+    {
+      "label": "Trains et traversiers",
+      "category": "Porto → Douro (Régua/Pinhão) · Douro → Lisbonne (Alfa Pendular) · day-trips Sintra/Setúbal · traversier Tróia",
+      "amount": "~330 $"
+    },
+    {
+      "label": "Nourriture et boissons",
+      "category": "Pastéis et café le matin, marché le midi · taverne/cervejaria le soir pour 2 avec vin : ~45–60€ · ~80€/jour en moyenne",
+      "amount": "~3 500 $"
+    },
+    {
+      "label": "Activités, dégustations, entrées",
+      "category": "Dégustations au Douro · croisière rabelo · kayak Benagil/Ponta da Piedade · sites · marchés et imprévus",
+      "amount": "~900 $"
+    },
+    {
+      "label": "Assurance voyage",
+      "category": "2 personnes, couverture médicale complète, 30 jours",
+      "amount": "~350 $"
+    }
+  ],
+  "scenarios": [
+    {
+      "name": "Budget serré",
+      "total": "~13 000 $",
+      "desc": "~13 000 $ (Airbnb moins central, plus de pique-niques de marché, la quinta la moins chère du Douro, voiture compacte)"
+    },
+    {
+      "name": "Budget confort+",
+      "total": "~18 500 $",
+      "desc": "~18 500 $ (hôtels design à Lisbonne et Porto, quinta gem au Douro, un souper gastronomique comme le DOC by Rui Paula au-dessus du fleuve)"
+    }
+  ],
+  "advice": "Le poste le plus négociable reste l'hébergement : pour un séjour d'un mois, contacter directement les propriétaires sur Booking.com et demander un tarif mensuel (−15 à −25%). Le Douro est le segment le plus cher la nuit — c'est le splurge assumé du voyage, on compense ailleurs. Porto et Lisbonne se font sans voiture (on la prend seulement à partir du Douro), ce qui coupe plusieurs jours de location et de stationnement.",
+  "total": "~14 930 $"
+}

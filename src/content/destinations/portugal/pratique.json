@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "label": "Info pratique",
+      "items": [
+        {
+          "label": "Vols — stratégie",
+          "body": "Vol aller Montréal (YUL) → Porto (OPO) via hub européen (Lisbonne, Paris CDG, Francfort, Amsterdam). Retour depuis l'Algarve : soit Faro (FAO) avec une escale, soit remonter à Lisbonne (LIS, ~2h45 de route) pour le vol direct vers Montréal — comparer les tarifs au moment de réserver, l'écart paie souvent les 2h45 de route. Aucun transit par les États-Unis. Réserver 4–5 mois à l'avance pour la mi-mai à juin : ~1 300–1 600 $ CAD/pers. aller-retour."
+        },
+        {
+          "label": "Location de voiture",
+          "body": "Pas besoin de voiture à Porto ni à Lisbonne — tout se fait à pied, en métro et en train, et stationner y est un cauchemar. On loue à partir du Douro (ou en sortant de Lisbonne) et on garde la voiture pour l'Alentejo et l'Algarve, où le transport public est faible et les plages éparpillées. Assurance complète recommandée. Sociétés locales souvent moins chères que les internationales ; un forfait de ~2-3 semaines se négocie."
+        },
+        {
+          "label": "Trains et déplacements",
+          "body": "Le réseau Comboios de Portugal est excellent et bon marché. Porto → vallée du Douro (Régua/Pinhão) en train panoramique le long du fleuve. Douro → Lisbonne via l'Alfa Pendular (~3h depuis Porto). À Lisbonne, carte Navegante pour métro/tram/train de banlieue ; day-trips à Sintra (depuis Rossio), Cascais (depuis Cais do Sodré), Setúbal (depuis Sete Rios). Traversier Setúbal ↔ Tróia pour basculer vers Comporta."
+        },
+        {
+          "label": "Argent et paiement",
+          "body": "Zone euro. Les tascas authentiques, les marchés et certaines petites adresses (Cervejaria Ferradura à Lagos, les percebes) marchent encore au cash — retirer des euros et en garder sur soi. La carte passe partout ailleurs. Le pourboire n'est pas obligatoire mais arrondir ou laisser 5–10% dans une bonne table est apprécié."
+        },
+        {
+          "label": "Téléphonie — eSIM",
+          "body": "Roaming canadien en Europe : vérifier le forfait avant de partir, souvent cher. Alternative : une eSIM (Vodafone PT, MEO, ou un fournisseur eSIM voyage) activée à l'arrivée, ~15–20 € pour 10–15 Go. Télécharger les cartes hors-ligne (Maps) pour les routes de l'Alentejo et de la Costa Vicentina, où le réseau peut flancher."
+        },
+        {
+          "label": "Gastronomie — s'orienter",
+          "body": "Règle d'or, partout : si le menu est en six langues avec photos, fuir. Les vraies tables sont dans les ruelles et les quartiers résidentiels (Bonfim et Cedofeita à Porto, Mouraria et Graça à Lisbonne), pas sur les fronts touristiques (Ribeira, Baixa, le strip d'Albufeira). Demander le vin de la maison en pichet (vinho da casa) — souvent excellent et 3–5 € le demi-litre. Les fruits de mer se commandent au poids (preço por kg) dans les marisqueiras : se faire confirmer le prix avant."
+        },
+        {
+          "label": "Météo et eau (mi-mai à juin)",
+          "body": "Températures : 20–27°C le jour, plus chaud dans l'Alentejo et l'Algarve, plus frais et parfois humide à Porto. Journées longues, lumière de fin de printemps superbe pour la photo. Eau : l'Atlantique reste frais (~17–19°C sur la côte ouest, plus froid à Cascais), mais les criques abritées de l'Algarve et la baie de Sesimbra sont plus clémentes et se réchauffent en juin. Avant la grande chaleur et la foule de juillet-août."
+        },
+        {
+          "label": "Marchés et saison",
+          "body": "Mi-mai à juin = début d'été dans les étals : cerises du Douro en pleine saison, premiers abricots et figues, fraises, et la sardine grillée qui revient (la vraie saison démarre en juin, jour de la Saint-Antoine à Lisbonne le 13 juin — la ville sent la sardine sur charbon). Marchés à viser : Bolhão (Porto), Campo de Ourique (Lisbonne, pas le Time Out bondé), les marchés municipaux de Lagos et Olhão pour le poisson."
+        },
+        {
+          "label": "Hébergement — réserver tôt",
+          "body": "Le Douro en priorité : peu de quintas, très demandées, écrire par courriel plusieurs mois à l'avance. Comporta monte vite en juin (bobo-chic) — viser le village ou Carvalhal plutôt que les beach clubs. Pour Porto, Lisbonne et l'Algarve : Booking.com en cherchant « appartement avec cuisine » dans les bons quartiers, puis contacter le propriétaire pour négocier le tarif mensuel."
+        }
+      ]
+    }
+  ]
+}
