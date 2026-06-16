@@ -1,0 +1,338 @@
+[
+  {
+    "id": "porto-gem-fontainhas",
+    "group": "Pépites locales — Porto",
+    "title": "Fontainhas — le quartier caché",
+    "body": "Le seul quartier de Porto qui ressemble encore à 1920. Maisons colorées accrochées à la falaise au-dessus du Douro, balcons envahis de linge, vieilles dames qui bavardent depuis leurs fenêtres. Pas de boutiques de souvenirs, pas d'hôtels, personne qui cherche un brunch. On entre par l'Escadaria das Verdades et on descend à pied jusqu'au fleuve. La lumière de fin d'après-midi, sur ces façades jaune et orange, est une affaire sérieuse.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Fontainhas+Porto+Portugal"
+      }
+    ],
+    "image": "porto-gem-fontainhas",
+    "base": "porto"
+  },
+  {
+    "id": "porto-gem-cedofeita-miguel-bombarda",
+    "group": "Pépites locales — Porto",
+    "title": "Rue Miguel Bombarda — galeries et vins naturels",
+    "body": "La rue des galeries d'art contemporain de Porto — une dizaine d'espaces dans des locaux industriels reconvertis. En mai, les vernissages du samedi matin attirent toute la faune créative du Cedofeita. Après les galeries, le bar à vins naturels Genuíno, au 78, sert des petits producteurs du Minho et du Douro qu'on ne connaît pas encore. C'est l'après-midi qui tourne lentement.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Rua+Miguel+Bombarda+Porto+galleries"
+      }
+    ],
+    "image": "porto-gem-cedofeita-miguel-bombarda",
+    "base": "porto"
+  },
+  {
+    "id": "porto-gem-sao-pedro-afurada",
+    "group": "Pépites locales — Porto",
+    "title": "São Pedro de Afurada — le village de pêcheurs",
+    "body": "De l'autre côté du Douro, à 10 min en ferry depuis Ribeira (quelques euros), il y a un village de pêcheurs dont personne ne parle dans les guides. Des barques colorées tirées sur les berges. Des filets qui sèchent sur des cadres en bois. Un café avec une télé et du vinho verde en pichet. Les pêcheurs qui rentrent du Douro à 7h du matin. C'est à 20 minutes de Porto et ça ressemble à un film des années 70.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Sao+Pedro+de+Afurada+Vila+Nova+de+Gaia"
+      }
+    ],
+    "image": "porto-gem-sao-pedro-afurada",
+    "base": "porto"
+  },
+  {
+    "id": "porto-gem-bolhao-matin",
+    "group": "Pépites locales — Porto",
+    "title": "Mercado do Bolhão à 8h du matin",
+    "body": "Le marché Bolhão à la mi-journée, c'est la cohue des touristes. À 8h, c'est les marchands qui disposent leurs cageots, les femmes du quartier qui font leur tournée hebdomadaire, les poissonniers qui crient les arrivages. Le bâtiment Beaux-Arts sur trois niveaux, avec ses galeries ajourées, est plus beau vide à moitié qu'encombré à plein. En mai : fraises de Setúbal, asperges locales, premières cerises du Douro.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Mercado+do+Bolhao+Porto"
+      }
+    ],
+    "image": "porto-gem-bolhao-matin",
+    "base": "porto"
+  },
+  {
+    "id": "porto-gem-foz-coucher",
+    "group": "Pépites locales — Porto",
+    "title": "Foz do Douro — coucher de soleil au bout du fleuve",
+    "body": "L'embouchure du Douro dans l'Atlantique, à l'extrémité ouest de Porto. Des falaises basses, une promenade en dalle de granit qui longe l'océan, des familles qui font du vélo en fin de journée. En face : rien. L'Atlantique jusqu'au Brésil. Le coucher de soleil à Foz est un phénomène quotidien qui rassemble les habitants du quartier sans effort. Pas de point de vue officiel, pas de frais d'entrée. On s'assoit sur les rochers.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Foz+do+Douro+Porto+sunset"
+      }
+    ],
+    "image": "porto-gem-foz-coucher",
+    "base": "porto"
+  },
+  {
+    "id": "douro-gem-en222-route",
+    "group": "Pépites locales — Douro",
+    "title": "EN-222 — la plus belle route du Portugal",
+    "body": "La route nationale 222 longe le Douro sur la rive nord entre Régua et Pinhão — environ 25 km de vignes en terrasses de schiste, de quintas centenaires et de virages qui descendent jusqu'au fleuve puis remontent. Plusieurs fois élue meilleure route de conduite au monde. En mai, les vignes sont d'un vert intense qui contraste avec le schiste sombre des murs de soutènement. On la fait au lever du soleil, à vitesse de promenade, avec les fenêtres ouvertes.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/EN222+Douro+Regua+Pinhao"
+      }
+    ],
+    "image": "douro-gem-en222-route",
+    "base": "douro"
+  },
+  {
+    "id": "douro-gem-pinhao-matin",
+    "group": "Pépites locales — Douro",
+    "title": "Pinhão à 7h du matin",
+    "body": "Le village de Pinhão avant les touristes de la croisière : le fleuve dans le brouillard de mai, les pigeons sur les panneaux d'azulejos de la gare (qui racontent l'histoire du vin en carreaux bleus), le bar qui ouvre pour les ouvriers des quintas. La gare de Pinhão, avec ses 20 panneaux d'azulejos du XXe siècle représentant les scènes de la récolte, est l'un des joyaux méconnus du Portugal. Gratuit, jamais fermé — on y entre à n'importe quelle heure.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Pinhao+train+station+Douro+Portugal"
+      }
+    ],
+    "image": "douro-gem-pinhao-matin",
+    "base": "douro"
+  },
+  {
+    "id": "douro-gem-miradouro-galafura",
+    "group": "Pépites locales — Douro",
+    "title": "Miradouro de Galafura — le panorama des panoramas",
+    "body": "Le belvédère le plus cité par ceux qui reviennent du Douro. Vue plongeante sur le méandre du fleuve entre Régua et Pinhão, les terrasses de schiste de chaque côté, les quintas comme des traits d'encre dans le paysage. À environ 8 km au nord de Régua par une petite route qui monte dans les vignes. Il y a une table en pierre, parfois un tracteur qui passe, souvent personne d'autre. Le Douro vu d'en haut, sans guide, sans frais.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Miradouro+de+Galafura+Douro"
+      }
+    ],
+    "image": "douro-gem-miradouro-galafura",
+    "base": "douro"
+  },
+  {
+    "id": "douro-gem-baba-ao-porto",
+    "group": "Pépites locales — Douro",
+    "title": "Baba au porto — le dessert introuvable ailleurs",
+    "body": "Le baba au porto est le dessert signature de Pinhão — un baba au rhum revisité où l'alcool est remplacé par du porto, et qui s'accompagne d'une crème au mascarpone parfumée aux zestes d'orange. Chez Veladouro, au bord du fleuve, c'est la conclusion naturelle d'un déjeuner après la croisière rabelo. On n'en trouve pas à Lisbonne, pas à Porto, pas ailleurs dans le Douro. C'est le dessert de l'endroit, de la saison, du moment.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Veladouro+Pinhao+Douro"
+      }
+    ],
+    "image": "douro-gem-baba-ao-porto",
+    "base": "douro"
+  },
+  {
+    "id": "lisbonne-gem-mouraria-aube",
+    "group": "Pépites locales — Lisbonne",
+    "title": "Mouraria à l'aube",
+    "body": "Le quartier maure de Lisbonne — le plus vieux, le plus métissé — se révèle entre 6h et 8h du matin. Les commerçants arabes qui ouvrent leurs épiceries, les vieilles femmes qui descendent les escaliers vers le Largo do Intendente, les chats qui font leur tournée des poubelles. À cette heure, pas de touristes, pas de fado en vitrine. Juste le quartier qui se réveille dans son propre ordre. Largo de São Domingos puis ruelle Remédios.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Mouraria+Lisboa+Portugal"
+      }
+    ],
+    "image": "lisbonne-gem-mouraria-aube",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-gem-feira-ladra",
+    "group": "Pépites locales — Lisbonne",
+    "title": "Feira da Ladra — le marché aux puces de Campo de Santa Clara",
+    "body": "Mardi et samedi matin, le Campo de Santa Clara se couvre d'étals qui vendent de la porcelaine Vista Alegre usée, des disques de fado des années 50, des caisses de vieux azulejos récupérés dans des démolitions, des briquets de l'armée. C'est autant un marché qu'un inventaire de toutes les maisons qui ont été vidées depuis un siècle. Arriver à 8h30, avant la chaleur et les prix qui montent.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Feira+da+Ladra+Campo+Santa+Clara+Lisboa"
+      }
+    ],
+    "image": "lisbonne-gem-feira-ladra",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-gem-jardim-principe-real",
+    "group": "Pépites locales — Lisbonne",
+    "title": "Jardim do Príncipe Real — sous le ficus bicentenaire",
+    "body": "Au centre du jardin du Príncipe Real, un ficus macrophylla planté en 1852 a étendu ses racines aériennes sur 20 mètres de diamètre. Sous la canopée, des vieux jouent aux cartes sur des tables fixes. Le samedi matin, le marché bio s'installe sur le pourtour : fromages de chèvre de l'Alentejo, miel de bruyère, pains de seigle. C'est une des places de Lisbonne où les habitants vont s'asseoir sans raison, ce qui est la meilleure raison.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Jardim+do+Principe+Real+Lisboa"
+      }
+    ],
+    "image": "lisbonne-gem-jardim-principe-real",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-gem-senhora-do-monte",
+    "group": "Pépites locales — Lisbonne",
+    "title": "Miradouro da Senhora do Monte — la vue que les locaux gardent",
+    "body": "Le mirador le plus haut de Lisbonne, dans le quartier de Graça — une terrasse herbue avec quelques bancs, une chapelle du XVIe siècle et une vue à 180° sur la ville et le Tage. Moins fréquenté que Portas do Sol ou Santa Luzia parce qu'il faut monter à pied depuis le tramway. En mai, le coucher de soleil ici se fait dans un silence relatif, face aux toits rouges qui descendent vers le fleuve.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Miradouro+da+Senhora+do+Monte+Lisboa"
+      }
+    ],
+    "image": "lisbonne-gem-senhora-do-monte",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-gem-cantinho-aziz",
+    "group": "Pépites locales — Lisbonne",
+    "title": "Cantinho do Aziz — Mozambique à Mouraria",
+    "body": "Une salle de 20 couverts, des murs couverts de photos de Maputo, et la cuisine de la famille Aziz — mozambicaine, portugaise et swahili à la fois. Caril de camarão avec riz coconut, matapa (feuilles de manioc au coco), roti maison. Le fils de la fondatrice tient la salle, l'émotion est réelle. Ouvert depuis 1990, mentionné dans les mêmes phrases que les meilleures tables de la ville. On réserve.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Cantinho+do+Aziz+Mouraria+Lisboa"
+      }
+    ],
+    "image": "lisbonne-gem-cantinho-aziz",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-gem-sesimbra-matin",
+    "group": "Pépites locales — Lisbonne",
+    "title": "Sesimbra — le port de pêche à l'aurore",
+    "body": "À 40 km de Lisbonne (50 min en bus), Sesimbra est la ville côtière que les Lisboètes gardent pour eux. Le port de pêche artisanale en activité, les bateaux qui rentrent entre 6h et 9h, les pêcheurs qui vendent directement sur le quai avant que les restos viennent chercher leur commande. L'eau de la baie, protégée par le Cap Espichel, est d'une clarté rare pour la région. On y va en semaine, pas le week-end.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Sesimbra+fishing+port+Portugal"
+      }
+    ],
+    "image": "lisbonne-gem-sesimbra-matin",
+    "base": "lisbonne"
+  },
+  {
+    "id": "comporta-gem-cais-palafítico",
+    "group": "Pépites locales — Comporta",
+    "title": "Cais Palafítico de Carrasqueira",
+    "body": "Un ponton de pêcheurs sur pilotis de bois, construit à la main au fil des décennies sur l'estuaire du Sado — les planches s'emboîtent de guingois, les amarres sont faites de cordes tressées à la main, les couleurs s'écaillent sans s'effacer. Chaque pêcheur possède son bout de ponton. C'est un édifice collectif sans architecte, et c'est exactement ce qui le rend remarquable. Lever du soleil ici : la lumière rasante sur le bois gris, les barques au mouillage, l'estuaire immobile.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Cais+Palafitico+Carrasqueira+Comporta"
+      }
+    ],
+    "image": "comporta-gem-cais-palafítico",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-gem-rizieres-aube",
+    "group": "Pépites locales — Comporta",
+    "title": "Rizières de Comporta au lever du jour",
+    "body": "Entre Possanco et Comporta village, les rizières irriguées couvrent des dizaines d'hectares. En mai, elles sont encore en eau — des miroirs plats qui reflètent le ciel de l'Alentejo. Les hérons cendrés et les cigognes chassent à l'aube dans les sillons. Ce paysage est ce qui différencie Comporta de toutes les autres côtes portugaises. On le voit depuis la route principale — il n'y a pas de billet d'entrée pour regarder les rizières au lever du soleil.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Comporta+rizières+rice+fields+Portugal"
+      }
+    ],
+    "image": "comporta-gem-rizieres-aube",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-gem-lagoa-melides",
+    "group": "Pépites locales — Comporta",
+    "title": "Lagoa de Melides — la lagune secrète",
+    "body": "À 20 km au sud de Comporta, la lagune de Melides s'ouvre sur l'Atlantique par un étroit chenal. Eau douce et eau salée se mélangent, la lagune est peu profonde, chaude, calme. On y accède par un sentier à travers les pins et les dunes. Il y a un café de plage à l'entrée et rien d'autre. C'est la baignade que les familles de l'Alentejo font en secret depuis des générations. Arriver le matin — l'après-midi les locaux y viennent aussi.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Lagoa+de+Melides+Alentejo+Portugal"
+      }
+    ],
+    "image": "comporta-gem-lagoa-melides",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-gem-pinheiros-altos",
+    "group": "Pépites locales — Comporta",
+    "title": "Praia dos Pinheiros Altos — 10 km de sable vide",
+    "body": "La plage de Pinheiros Altos, entre Comporta et Carvalhal, est ce que la Comporta sauvage promettait avant de devenir tendance. Dix kilomètres de sable blanc bordés d'une pinède dense — pas de bars, pas d'accès voiture directe, pas de parasols en rang. On gare la voiture au bout de la piste et on marche 10 minutes dans les dunes. En juin les vagues de l'Atlantique gardent encore une bonne puissance — pas une plage de baignade passive.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Praia+dos+Pinheiros+Altos+Comporta"
+      }
+    ],
+    "image": "comporta-gem-pinheiros-altos",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-gem-museu-arroz",
+    "group": "Pépites locales — Comporta",
+    "title": "Museu do Arroz — l'histoire du riz de Comporta",
+    "body": "Dans une ancienne herdade (grande propriété agricole) restaurée, le musée du riz retrace l'histoire de la culture du riz dans l'estuaire du Sado depuis les Arabes du VIIIe siècle. Petit, bien fait, pas prétentieux. Ce qui est intéressant ici, c'est moins l'exposition que le bâtiment lui-même — les entrepôts de séchage, les machines d'un autre siècle, les photos des ouvriers saisonniers venus d'Alentejo. On y passe une heure, on repart avec une meilleure compréhension du paysage.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Museu+do+Arroz+Comporta"
+      }
+    ],
+    "image": "comporta-gem-museu-arroz",
+    "base": "comporta"
+  },
+  {
+    "id": "algarve-gem-praia-carvalho",
+    "group": "Pépites locales — Algarve",
+    "title": "Praia do Carvalho — la plage par le tunnel",
+    "body": "Praia do Carvalho n'est accessible que par un tunnel de 50 mètres creusé dans la falaise calcaire. On entre dans l'obscurité, on ressort sur une crique de 100 mètres de sable entourée de grottes et de formations de grès orange. L'eau est d'une clarté exceptionnelle — turquoise en juin, jusqu'à 20°C. Parking à 1 km, sentier pédestre le long de la falaise, puis le tunnel. Pas de restaurant, pas de douches — juste la plage et la mer.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Praia+do+Carvalho+Lagoa+Algarve"
+      }
+    ],
+    "image": "algarve-gem-praia-carvalho",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-gem-ferragudo-village",
+    "group": "Pépites locales — Algarve",
+    "title": "Ferragudo — le village que Portimão a oublié",
+    "body": "En face de Portimão, de l'autre côté de la Ria, le village de Ferragudo n'a pas été touché par le développement des années 80-90. Maisons blanches aux volets peints, ruelles en pavés qui montent vers le château du XVIe siècle, terrasses avec vue sur la Ria et l'embouchure de l'Atlantique. Le port de pêche en bas garde encore ses bateaux de travail. C'est à 10 minutes en voiture de Portimão, mais à des décennies d'écart dans l'atmosphère.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Ferragudo+village+Algarve+Portugal"
+      }
+    ],
+    "image": "algarve-gem-ferragudo-village",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-gem-ponta-piedade-kayak",
+    "group": "Pépites locales — Algarve",
+    "title": "Ponta da Piedade en kayak — dans les grottes",
+    "body": "Les falaises de Ponta da Piedade, à 3 km au sud de Lagos, forment un labyrinthe de grottes, d'arches et de colonnes de grès doré. En kayak (location disponible à la plage de Porto de Mós), on entre dans des grottes que les bateaux à moteur ne peuvent pas atteindre. L'eau est transparente jusqu'à 5 mètres de fond, les couleurs du grès changent selon l'heure. En juin à 9h du matin, avant les bateaux touristiques, c'est presque silencieux.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Ponta+da+Piedade+Lagos+Algarve"
+      }
+    ],
+    "image": "algarve-gem-ponta-piedade-kayak",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-gem-salema-pecheurs",
+    "group": "Pépites locales — Algarve",
+    "title": "Salema — le village de pêcheurs qui a résisté",
+    "body": "Entre Sagres et Lagos, le village de Salema est l'exception de l'Algarve touristique : des bateaux de pêche colorés encore sortis tous les matins, des maisons de calcaire blanc et bleu sur deux ruelles qui mènent directement à la plage, un bar où les pêcheurs jouent aux cartes à 11h. Le reste de l'Algarve a été urbanisé dans les années 80 ; Salema a résisté sans le planifier. On y déjeune entre les deux ancrages — le poisson du jour grillé sort directement du filet de la nuit précédente.",
+    "links": [
+      {
+        "label": "Localiser",
+        "url": "https://www.google.com/maps/search/Salema+village+pêcheurs+Algarve"
+      }
+    ],
+    "image": "algarve-gem-salema-pecheurs",
+    "base": "algarve"
+  }
+]

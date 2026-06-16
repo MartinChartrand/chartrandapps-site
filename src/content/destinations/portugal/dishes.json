@@ -1,0 +1,482 @@
+[
+  {
+    "id": "porto-francesinha",
+    "group": "Incontournables — Porto",
+    "title": "Francesinha",
+    "body": "Mortadelle, saucisse fumée, steak, jambon, œuf sur le plat — le tout enfoui sous le fromage fondu et nappé d'une sauce bière-tomate dont la famille Santiago garde jalousement la recette depuis 1959. C'est chaud, généreux, légèrement obscène, et absolument impossible à reproduire chez soi. Un plat-repas complet, pas une entrée (~CAD 22–28 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Café Santiago · Maps",
+        "url": "https://www.google.com/maps/search/Cafe+Santiago+Rua+Passos+Manuel+Porto"
+      }
+    ],
+    "image": "porto-francesinha",
+    "base": "porto"
+  },
+  {
+    "id": "porto-tripas-modo-do-porto",
+    "group": "Incontournables — Porto",
+    "title": "Tripas à moda do Porto",
+    "body": "Tripes aux haricots blancs, chorizo et bacon — la recette codifiée officiellement en 2001 mais vieille de cinq siècles. C'est pour ça que les Portuenses s'appellent eux-mêmes tripeiros (mangeurs de tripes) : au XVe siècle, ils ont gardé les abats pour eux et envoyé la meilleure viande aux armées de Ceuta. Chez Abadia do Porto, on mange ce plat depuis plus de 80 ans (~CAD 16–24 le plat).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Abadia do Porto · Maps",
+        "url": "https://www.google.com/maps/search/Restaurante+Abadia+do+Porto"
+      }
+    ],
+    "image": "porto-tripas-modo-do-porto",
+    "base": "porto"
+  },
+  {
+    "id": "porto-sardinhas-matosinhos",
+    "group": "Incontournables — Porto",
+    "title": "Sardinhas grelhadas de Matosinhos",
+    "body": "Sardines entières sur la braise, huile d'olive, gros sel. À Matosinhos, les poissonniers et les restos sont à 200 mètres l'un de l'autre — le poisson change de mains le matin même. Chez Salta o Muro, le vendredi, c'est sardinhas — pas de menu, pas de réservations, juste ce qui est frais. On arrive à midi pile ou on attend (~CAD 32–45 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Matosinhos · Maps",
+        "url": "https://www.google.com/maps/search/Salta+o+Muro+Matosinhos+Porto"
+      }
+    ],
+    "image": "porto-sardinhas-matosinhos",
+    "base": "porto"
+  },
+  {
+    "id": "porto-vinho-verde",
+    "group": "Incontournables — Porto",
+    "title": "Vinho Verde",
+    "body": "Le vin d'été des Portugais : légèrement pétillant, faiblement alcoolisé (8–11 %), acide et fruité. Il vient des collines du Minho, juste au nord de Porto. Pas un vin de garde — un vin de soif. Alvarinho (le cépage roi), Loureiro, Trajadura. On en boit avec les sardines, avec les fruits de mer, et avec le soleil de mai sur Matosinhos (~CAD 10–18 la bouteille en resto).",
+    "type": "vin",
+    "links": [
+      {
+        "label": "Taylor's Cellars · Maps",
+        "url": "https://www.google.com/maps/search/Taylor's+Port+Wine+Cellars+Gaia+Porto"
+      }
+    ],
+    "image": "porto-vinho-verde",
+    "base": "porto"
+  },
+  {
+    "id": "porto-porto-wine",
+    "group": "Incontournables — Porto",
+    "title": "Porto — Tawny vieilli en cave",
+    "body": "Le porto Tawny, c'est le porto qui a passé des années en barrique de bois — il prend une couleur fauve, des arômes de noix, de figues, de caramel brûlé. On le boit frais (10–12 °C), pas à température ambiante. La cave Taylor's à Gaia, sur la rive opposée, fait des dégustations guidées avec vue sur Porto et le Douro. Mieux que n'importe quel livre d'histoire du vin (~CAD 14–22 la dégustation).",
+    "type": "vin",
+    "links": [
+      {
+        "label": "Taylor's Cellars",
+        "url": "https://www.taylor.pt/en/"
+      }
+    ],
+    "image": "porto-porto-wine",
+    "base": "porto"
+  },
+  {
+    "id": "porto-bacalhau-com-broa",
+    "group": "Incontournables — Porto",
+    "title": "Bacalhau com broa",
+    "body": "Morue salée pochée, recouverte d'une croûte de pain de maïs (broa) doré au four avec de l'huile d'olive et de l'ail. La broa croustille, la morue reste fondante. L'une des 365 façons officielles de cuisiner le bacalhau au Portugal — et l'une des meilleures. Chez Abadia do Porto, on peut manger les deux spécialités maison (tripas + bacalhau com broa) dans le même repas, à condition de venir affamé (~CAD 18–26 le plat).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Abadia do Porto · Maps",
+        "url": "https://www.google.com/maps/search/Restaurante+Abadia+do+Porto"
+      }
+    ],
+    "image": "porto-bacalhau-com-broa",
+    "base": "porto"
+  },
+  {
+    "id": "porto-arroz-de-polvos",
+    "group": "Incontournables — Porto",
+    "title": "Arroz de polvos",
+    "body": "Riz de pieuvre cuit au four — les tentacules fondantes qui ont absorbé l'huile d'olive, le vin blanc, les tomates et l'ail pendant des heures. Chez Salta o Muro à Matosinhos, c'est le plat du vendredi : l'arroz de polvos sort du four vers 12h et il n'en reste généralement plus à 14h. C'est le genre de plat qu'on ne réserve pas à l'avance — on se présente tôt et on espère (~CAD 32–45 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Salta o Muro · Maps",
+        "url": "https://www.google.com/maps/search/Salta+o+Muro+Matosinhos"
+      }
+    ],
+    "image": "porto-arroz-de-polvos",
+    "base": "porto"
+  },
+  {
+    "id": "douro-porto-tawny",
+    "group": "Incontournables — Douro",
+    "title": "Porto Tawny — à la source",
+    "body": "Le porto qu'on boit dans les caves du Douro n'est pas le même qu'on boit à Porto. Ici, il sort directement du tonneau, sans les années de voyage qui l'arrondissent. La dégustation à Quinta de la Rosa ou à Quinta do Vallado, c'est voir et goûter en même temps : les vignes sont dehors, le vin est dans le verre, les collines en terrasses sont le décor (~CAD 12–20 la dégustation guidée).",
+    "type": "vin",
+    "links": [
+      {
+        "label": "Quinta de la Rosa",
+        "url": "https://www.quintadelarosa.com"
+      }
+    ],
+    "image": "douro-porto-tawny",
+    "base": "douro"
+  },
+  {
+    "id": "douro-doc-rouge",
+    "group": "Incontournables — Douro",
+    "title": "Douro DOC rouge — petits producteurs",
+    "body": "Le Douro produit du porto, mais aussi certains des meilleurs rouges secs du Portugal — Touriga Nacional, Touriga Franca, Tinta Roriz sur des sols de schiste. Chez Castas e Pratos à Régua, la sélection au verre permet d'explorer une dizaine de producteurs sans commander de bouteille entière. Un verre de Douro DOC avec le chevreau au porto : l'accord régional parfait (~CAD 8–16 le verre en resto).",
+    "type": "vin",
+    "links": [
+      {
+        "label": "Castas e Pratos · Maps",
+        "url": "https://www.google.com/maps/search/Castas+e+Pratos+Peso+da+Regua"
+      }
+    ],
+    "image": "douro-doc-rouge",
+    "base": "douro"
+  },
+  {
+    "id": "douro-riz-de-cabrito",
+    "group": "Incontournables — Douro",
+    "title": "Riz de cabrito au four",
+    "body": "Chevreau cuit lentement, le riz absorbe tous les jus dans le four en terre cuite. La recette de Trás-os-Montes : ni braisé ni rôti séparément, mais ensemble, dans un seul plat. Toca da Raposa, à Ervedosa do Douro, c'est une table rurale sans concession à l'esthétique : nappes en plastique, service direct, portions honnêtes. Ce plat seul justifie le détour vers l'arrière-pays (~CAD 32–48 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Toca da Raposa · Maps",
+        "url": "https://www.google.com/maps/search/Toca+da+Raposa+Ervedosa+do+Douro"
+      }
+    ],
+    "image": "douro-riz-de-cabrito",
+    "base": "douro"
+  },
+  {
+    "id": "douro-cerises",
+    "group": "Incontournables — Douro",
+    "title": "Cerises du Douro",
+    "body": "Mi-mai, les cerisiers du Douro sont en production. Les variétés locales — surtout autour de Resende et Cinfães — sont petites, noires, très sucrées. On les trouve aux marchés de Pinhão et de Régua, vendues dans des cornets en papier journal. En mai 2027, elles seront à leur pic. Un des plaisirs les plus simples du séjour — et un des moins chers (~CAD 2–4 le cornet).",
+    "type": "produit",
+    "links": [
+      {
+        "label": "Marché de Pinhão · Maps",
+        "url": "https://www.google.com/maps/search/mercado+Pinhao+Douro+Portugal"
+      }
+    ],
+    "image": "douro-cerises",
+    "base": "douro"
+  },
+  {
+    "id": "douro-alheiras-transmontanas",
+    "group": "Incontournables — Douro",
+    "title": "Alheiras transmontanas",
+    "body": "Saucisses jaunes de Trás-os-Montes, originellement inventées par les Juifs portugais au XVe siècle pour simuler la saucisse de porc tout en respectant les lois alimentaires — aujourd'hui à base de poulet, gibier et pain. La version authentique est encore fumée en maison. Chez Castas e Pratos à Régua, on les sert grillées avec des œufs et des pommes de terre sautées — le petit-déjeuner tardif parfait après une matinée de vignes (~CAD 16–24 le plat).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Castas e Pratos · Maps",
+        "url": "https://www.google.com/maps/search/Castas+e+Pratos+Peso+da+Regua"
+      }
+    ],
+    "image": "douro-alheiras-transmontanas",
+    "base": "douro"
+  },
+  {
+    "id": "lisbonne-pastel-de-nata",
+    "group": "Incontournables — Lisbonne",
+    "title": "Pastel de nata — Pastéis de Belém",
+    "body": "Crème aux œufs caramélisée dans une coque feuilletée. La recette originale des moines hiéronymites de Belém, datant de 1837, reste secrète et réservée à une seule fabrique sur cette planète : Pastéis de Belém. Saupoudrer de cannelle et de sucre glace. Manger chaud, debout au comptoir ou sur la terrasse. Ne pas comparer avec les autres (il n'y a pas d'autres) (~CAD 2–3 le pastel).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Pastéis de Belém",
+        "url": "https://www.pasteisdebelem.pt/"
+      }
+    ],
+    "image": "lisbonne-pastel-de-nata",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-bifana",
+    "group": "Incontournables — Lisbonne",
+    "title": "Bifana au comptoir",
+    "body": "Filet de porc mariné à l'ail et au paprika, mijoté dans un bouillon jusqu'à ce qu'il soit fondant, servi dans un papo-seco légèrement beurré. Debout au comptoir, pas de couverts, pas de nappe. Chez As Bifanas do Afonso, monsieur Afonso tient son poêlon en permanence. On mange vite, on sort, on s'essuie les mains en marchant. Le repas le plus honnête de Lisbonne (~CAD 4–7 la bifana).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "As Bifanas do Afonso · Maps",
+        "url": "https://www.google.com/maps/search/As+Bifanas+do+Afonso+Rua+Madalena+Lisboa"
+      }
+    ],
+    "image": "lisbonne-bifana",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-percebes",
+    "group": "Incontournables — Lisbonne",
+    "title": "Percebes",
+    "body": "Balanes (berniques de roche) cuites à l'eau de mer et servies chaudes, à la pince. La chair est iodée, gélatineuse, avec un goût de mer franche et de fond de baie rocheuse. Chez Ramiro, on en commande un plateau en arrivant pendant qu'on décide du reste. C'est le rituel d'arrivée à Lisbonne : percebes + bière froide, lumière néon, bruit de deux étages en plein service (~CAD 40–65 par personne tout compris).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Cervejaria Ramiro",
+        "url": "https://www.cervejariaramiro.pt/"
+      }
+    ],
+    "image": "lisbonne-percebes",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-bacalhau-a-bras",
+    "group": "Incontournables — Lisbonne",
+    "title": "Bacalhau à Brás",
+    "body": "Morue effilochée, mélangée à des pommes de terre paille croustillantes, des œufs brouillés, des olives noires et du persil. Pas de sauce — la liaison vient des œufs. C'est un plat de taverne, présent sur presque toutes les ardoises de Mouraria : simple, cohérent, indémodable. Le nom « Brás » vient d'un restaurateur lisboète du XIXe siècle qui en aurait codifié la recette (~CAD 16–22 le plat).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Zé da Mouraria · Maps",
+        "url": "https://www.google.com/maps/search/Ze+da+Mouraria+Lisboa"
+      }
+    ],
+    "image": "lisbonne-bacalhau-a-bras",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-ginjinha",
+    "group": "Incontournables — Lisbonne",
+    "title": "Ginjinha",
+    "body": "Liqueur de griotte macérée dans l'aguardente — rouge profond, douce-amère, servie froide dans un petit verre avec ou sans la cerise au fond (il faut choisir au comptoir). Le bar A Ginjinha, sur Largo de São Domingos, existe depuis 1840. Un seul comptoir, un seul produit. Lisbonne entière passe par là. Digestif après le déjeuner ou apéro du soir, une ginjinha coûte moins cher qu'un café dans les hôtels (~CAD 2–4 le verre).",
+    "type": "alcool",
+    "links": [
+      {
+        "label": "A Ginjinha · Maps",
+        "url": "https://www.google.com/maps/search/A+Ginjinha+Largo+Sao+Domingos+Lisboa"
+      }
+    ],
+    "image": "lisbonne-ginjinha",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-choco-frito",
+    "group": "Incontournables — Lisbonne",
+    "title": "Choco frito de Setúbal",
+    "body": "Seiche de l'estuaire du Sado, farinée légèrement et frite — chair épaisse, presque tendre, croûte fine qui ne masque rien. Spécialité de Setúbal, à 50 km de Lisbonne (30 min en train). Chez Casa Santiago, O Rei do Choco Frito, la terrasse vitrée sur l'estuaire est ouverte à l'année et la clientèle est exclusivement locale. C'est la sortie en day trip qui transforme un déjeuner en souvenir (~CAD 16–29 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Casa Santiago · Maps",
+        "url": "https://www.google.com/maps/search/Casa+Santiago+Rei+Choco+Frito+Setubal"
+      }
+    ],
+    "image": "lisbonne-choco-frito",
+    "base": "lisbonne"
+  },
+  {
+    "id": "lisbonne-moscatel-setubal",
+    "group": "Incontournables — Lisbonne",
+    "title": "Moscatel de Setúbal",
+    "body": "Vin doux fortifié, élaboré depuis le XVIIe siècle sur la péninsule de Setúbal. Couleur ambre, arômes de miel, d'abricot confit et de fleur d'oranger. À boire frais en fin de repas — il accompagne naturellement les desserts à base d'amandes et de figues du Sud. La maison José Maria da Fonseca à Azeitão (à 10 min de Setúbal) fait des visites de cave avec dégustation — bon retour sur investissement (~CAD 6–12 le verre).",
+    "type": "vin",
+    "links": [
+      {
+        "label": "José Maria da Fonseca",
+        "url": "https://www.jmf.pt/"
+      }
+    ],
+    "image": "lisbonne-moscatel-setubal",
+    "base": "lisbonne"
+  },
+  {
+    "id": "comporta-porco-preto",
+    "group": "Incontournables — Comporta",
+    "title": "Porco preto — charcuterie de montado",
+    "body": "Le porc noir ibérique (porco preto) pâture en liberté dans les forêts de chênes-lièges de l'Alentejo, se nourrissant de glands. La chair est persillée, goûteuse, très différente du porc industriel. On le mange sous toutes ses formes — pluma grillée, presunto (jambon), lombo séché. Chez Gomes à Comporta, les planches de charcuterie ibérique sont le meilleur argument pour un apéro tardif entre deux plages (~CAD 40–57 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Gomes · Maps",
+        "url": "https://www.google.com/maps/search/Gomes+Casa+Vinhos+Petiscos+Comporta"
+      }
+    ],
+    "image": "comporta-porco-preto",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-ameijoas-alho",
+    "group": "Incontournables — Comporta",
+    "title": "Ameijoas à l'ail",
+    "body": "Palourdes de l'estuaire du Sado sautées à l'ail, huile d'olive, vin blanc et coriandre fraîche — la recette bulhão pato, celle qu'on mange partout mais que peu de gens maîtrisent. La clé : les palourdes doivent venir de l'eau de l'estuaire, pas d'une ferme aquacole standardisée. Au Restaurante São João à Comporta, les ameijoas arrivent de la côte le matin même (~CAD 24–40 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Restaurante São João · Maps",
+        "url": "https://www.google.com/maps/search/Restaurante+Sao+Joao+Comporta"
+      }
+    ],
+    "image": "comporta-ameijoas-alho",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-arroz-de-marisco",
+    "group": "Incontournables — Comporta",
+    "title": "Arroz de marisco de Comporta",
+    "body": "Le riz est cultivé ici même — les rizières en terrasses de Comporta sont le paysage de l'arrivée. Ce riz local, crémeux, absorbe le bouillon de crevettes et de palourdes pendant la cuisson. La version du Sal restaurant, avec vue sur l'Atlantique, est celle qu'on cite le plus souvent. Arroz malandrinho — pas sec, pas en risotto, quelque part entre les deux, tremblant dans l'assiette (~CAD 48–73 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Sal · Maps",
+        "url": "https://www.google.com/maps/search/Sal+Restaurant+Comporta+beach"
+      }
+    ],
+    "image": "comporta-arroz-de-marisco",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-choco-com-coentros",
+    "group": "Incontournables — Comporta",
+    "title": "Choco com coentros",
+    "body": "Seiche de l'estuaire grillée avec une généreuse quantité de coriandre fraîche — la version de Comporta et du Baixo Alentejo. Différente du choco frito de Setúbal : ici on ne farine pas, on grille directement, et la coriandre envahit tout. Au Restaurant du Cais à Carrasqueira, ce plat se mange face au ponton de pêcheurs sur pilotis — l'un des endroits les plus photographiés de la région, avec raison (~CAD 24–38 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Cais Carrasqueira · Maps",
+        "url": "https://www.google.com/maps/search/Restaurante+do+Cais+Carrasqueira+Comporta"
+      }
+    ],
+    "image": "comporta-choco-com-coentros",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-sericaia",
+    "group": "Incontournables — Comporta",
+    "title": "Sericaia",
+    "body": "Dessert de l'Alentejo : flan aux œufs et à la cannelle, cuit au four dans un plat en terre cuite, servi avec des prunes d'Elvas confites (ameixa de Elvas). La surface grille légèrement, l'intérieur reste tremblotant. Origine monastique, probablement influencée par les couvents de Portalegre au XVIe siècle. Rarement affiché sur les menus touristiques — on en trouve dans les tascas locales de l'Alentejo (~CAD 6–10 la portion).",
+    "type": "produit",
+    "links": [
+      {
+        "label": "Gomes · Maps",
+        "url": "https://www.google.com/maps/search/Gomes+Casa+Vinhos+Petiscos+Comporta"
+      }
+    ],
+    "image": "comporta-sericaia",
+    "base": "comporta"
+  },
+  {
+    "id": "comporta-vinho-alentejo",
+    "group": "Incontournables — Comporta",
+    "title": "Vins de l'Alentejo",
+    "body": "L'Alentejo produit des rouges généreux, tanniques et fruités — Aragonez, Trincadeira, Alicante Bouschet — sur des sols d'argile et de granite sous un soleil intense. Les blancs sont plus rares mais surprennent avec de la fraîcheur. À Gomes à Comporta, la sélection se compose exclusivement de producteurs régionaux. Le vin d'Alentejo, c'est le porto sans l'alcool ajouté : généreux et direct (~CAD 10–20 le verre, CAD 32–55 la bouteille).",
+    "type": "vin",
+    "links": [
+      {
+        "label": "Gomes · Maps",
+        "url": "https://www.google.com/maps/search/Gomes+Casa+Vinhos+Petiscos+Comporta"
+      }
+    ],
+    "image": "comporta-vinho-alentejo",
+    "base": "comporta"
+  },
+  {
+    "id": "algarve-cataplana-peixe",
+    "group": "Incontournables — Algarve",
+    "title": "Cataplana de peixe",
+    "body": "Dorade, palourdes, tomates, coriandre et vin blanc cuits dans la cataplana — le chaudron en cuivre étamé de l'Algarve, ancêtre du wok hermétique. La vapeur qui sort quand on soulève le couvercle à table, c'est le plat qui s'annonce lui-même. Chez O Retiro do Pescador à Sagres, c'est la cataplana des pêcheurs qui habitent à côté du port de Baleeira : simple, abondante, iodée (~CAD 23–36 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "O Retiro do Pescador · Maps",
+        "url": "https://www.google.com/maps/search/Retiro+do+Pescador+Sagres"
+      }
+    ],
+    "image": "algarve-cataplana-peixe",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-percebes-vicentina",
+    "group": "Incontournables — Algarve",
+    "title": "Percebes de la Costa Vicentina",
+    "body": "Les berniques de roche de la Costa Vicentina — la côte sauvage au nord de Sagres — sont considérées parmi les meilleures du Portugal. Les vagues de l'Atlantique ouvert, les roches exposées, les eaux froides et oxygénées : les conditions idéales. On les cueille à la main aux marées basses. Cuites à l'eau de mer et servies chaudes, avec du pain et du beurre. La qualité ici dépasse ce qu'on trouve à Lisbonne (~CAD 32–55 la portion).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Sagres · Maps",
+        "url": "https://www.google.com/maps/search/Sagres+Algarve+Portugal"
+      }
+    ],
+    "image": "algarve-percebes-vicentina",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-sardinhas-assadas",
+    "group": "Incontournables — Algarve",
+    "title": "Sardinhas assadas",
+    "body": "Sardines entières grillées au charbon de bois — le plat d'été du Portugal. En juin à Sagres et Lagos, les sardines atlantiques sont à leur pic de gras (avant la ponte). On les mange avec les doigts, sur du pain de maïs frotté avec des tomates et arrosé d'huile d'olive. La Ferradura à Lagos, sur le bord de mer, les grille au feu de bois en terrasse : l'odeur de la braise et du sel se sent de la rue (~CAD 24–35 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Ferradura Lagos · Maps",
+        "url": "https://www.google.com/maps/search/Ferradura+Lagos+Algarve"
+      }
+    ],
+    "image": "algarve-sardinhas-assadas",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-polvo-lagareiro",
+    "group": "Incontournables — Algarve",
+    "title": "Polvo à lagareiro",
+    "body": "Pieuvre cuite à la braise puis arrosée d'huile d'olive de première pression et d'ail — lagareiro réfère au lagar, le pressoir à huile. La texture : tentacules légèrement carbonisées à l'extérieur, fondantes à l'intérieur. Servi avec des pommes de terre cuites à l'eau et de la coriandre. Sueste à Ferragudo, avec vue sur le château et le Guadiana, en sert une version qui revient dans toutes les conversations de table (~CAD 35–52 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Sueste Ferragudo · Maps",
+        "url": "https://www.google.com/maps/search/Sueste+Ferragudo+Algarve"
+      }
+    ],
+    "image": "algarve-polvo-lagareiro",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-medronho",
+    "group": "Incontournables — Algarve",
+    "title": "Medronho",
+    "body": "Eau-de-vie distillée à partir du fruit de l'arbousier (medronheiro) — une baie rouge-orange qui pousse dans les maquis de la Serra de Monchique, derrière l'Algarve. Le medronho artisanal, distillé en alambic de cuivre dans la montagne, est limpide et peut dépasser 50 °. C'est un digestif de paysans qui s'est transformé en fierté régionale. On en trouve en épicerie locale ou chez les producteurs de Monchique (~CAD 16–24 la petite bouteille).",
+    "type": "alcool",
+    "links": [
+      {
+        "label": "Serra de Monchique · Maps",
+        "url": "https://www.google.com/maps/search/Monchique+Algarve+Portugal"
+      }
+    ],
+    "image": "algarve-medronho",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-dom-rodrigo",
+    "group": "Incontournables — Algarve",
+    "title": "Dom Rodrigo",
+    "body": "Friandise de Lagos : amandes grillées, jaunes d'œufs, cannelle et sucre enveloppés dans un papier métallisé torsadé aux deux bouts. Couleur dorée, texture fondante et croquante en même temps. Patrimoine sucré de l'Algarve depuis les couvents mauresques du XIIIe siècle. On en trouve dans les confeitarias de Lagos, vendu au poids. À ramener comme souvenir — mais difficile de ne pas les manger avant l'avion (~CAD 2–4 la pièce).",
+    "type": "produit",
+    "links": [
+      {
+        "label": "Lagos · Maps",
+        "url": "https://www.google.com/maps/search/Lagos+Algarve+confeitaria"
+      }
+    ],
+    "image": "algarve-dom-rodrigo",
+    "base": "algarve"
+  },
+  {
+    "id": "algarve-arroz-negro",
+    "group": "Incontournables — Algarve",
+    "title": "Arroz negro",
+    "body": "Riz à l'encre de seiche — noir profond, avec des morceaux de seiche et de crevettes, crémeux mais pas gluant. La couleur vient de l'encre, qui ajoute un goût ferrique et marin très prononcé. Au Sal, face à l'Atlantique près de Comporta-Carvalhal, l'arroz negro est le plat signature — il tache les doigts, les lèvres et les nappes en papier, et personne ne s'en plaint (~CAD 48–73 par personne).",
+    "type": "plat",
+    "links": [
+      {
+        "label": "Sal · Maps",
+        "url": "https://www.google.com/maps/search/Sal+Restaurant+Comporta+Carvalhal"
+      }
+    ],
+    "image": "algarve-arroz-negro",
+    "base": "algarve"
+  }
+]
