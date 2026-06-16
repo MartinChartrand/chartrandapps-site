@@ -214,5 +214,667 @@
       "verdict": "match",
       "checkedAt": "2026-06-16"
     }
+  },
+  {
+    "id": "douro-cover",
+    "slot": "douro-cover",
+    "base": "douro",
+    "role": "cover",
+    "file": "douro-cover.jpg",
+    "alt": "Terrasses de vignes étagées sur les pentes de la vallée du Douro au Portugal — paysage viticole UNESCO avec rangées de vignobles descendant vers le fleuve sous un ciel bleu.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1603657289433-e4983d2114b9",
+      "photographer": "Maksym Kaharlytskyi",
+      "license": "unsplash-standard"
+    },
+    "sha256": "059a83d3b541d33700fc14929774e7273a8890b298ae53f34d8fad156c501d93",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "059a83d3b541d33700fc14929774e7273a8890b298ae53f34d8fad156c501d93",
+      "alt": "Terrasses de vignes étagées sur les pentes de la vallée du Douro au Portugal — paysage viticole UNESCO avec rangées de vignobles descendant vers le fleuve sous un ciel bleu.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "douro-quinta",
+    "slot": "douro-quinta",
+    "base": "douro",
+    "role": "photo",
+    "file": "douro-quinta.jpg",
+    "alt": "Maison isolée au sommet d'une colline de vignobles à Pinhão, dans la vallée du Douro — quinta viticole entourée de terrasses de vigne en Portugal.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1724184983327-8caf4b26f07b",
+      "photographer": "Thomas Gabernig",
+      "license": "unsplash-standard"
+    },
+    "sha256": "1df54655c9e0ccbf341d057eeb62073415eebdd0cfe93c6f74663d05c1a1576f",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "1df54655c9e0ccbf341d057eeb62073415eebdd0cfe93c6f74663d05c1a1576f",
+      "alt": "Maison isolée au sommet d'une colline de vignobles à Pinhão, dans la vallée du Douro — quinta viticole entourée de terrasses de vigne en Portugal.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "douro-vin",
+    "slot": "douro-vin",
+    "base": "douro",
+    "role": "foodie",
+    "file": "douro-vin.jpg",
+    "alt": "Rangées de barriques de porto dans la cave Offley à Vila Nova de Gaia — fûts de chêne empilés dans l'obscurité d'un chai historique de production de vin de porto.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1496537103253-04627ff71f96",
+      "photographer": "Flavio Amiel",
+      "license": "unsplash-standard"
+    },
+    "sha256": "26caca6d1ee43fcd435dd51b45144f0dde11f94754652f0efa6d2674a25ee5b0",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "26caca6d1ee43fcd435dd51b45144f0dde11f94754652f0efa6d2674a25ee5b0",
+      "alt": "Rangées de barriques de porto dans la cave Offley à Vila Nova de Gaia — fûts de chêne empilés dans l'obscurité d'un chai historique de production de vin de porto.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "douro-cabrito",
+    "slot": "douro-cabrito",
+    "base": "douro",
+    "role": "foodie",
+    "file": "douro-cabrito.jpg",
+    "alt": "Cabrito assado — chevreau rôti au four à la portugaise, plat typique de la région de Paredes au Portugal, chair dorée et pommes de terre fondantes.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Cabrito_Assado_Paredes.jpg",
+      "photographer": "MunParedes",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "1b86cde97bab1e56580b97c55485ba0e1c7461788067e8e9be29a8f3d8e30461",
+    "visionChecked": "2026-06-16",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "1b86cde97bab1e56580b97c55485ba0e1c7461788067e8e9be29a8f3d8e30461",
+      "alt": "Cabrito assado — chevreau rôti au four à la portugaise, plat typique de la région de Paredes au Portugal, chair dorée et pommes de terre fondantes.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "douro-fleuve",
+    "slot": "douro-fleuve",
+    "base": "douro",
+    "role": "photo",
+    "file": "douro-fleuve.jpg",
+    "alt": "Boucle du fleuve Douro entourée de vignobles en terrasses — coteaux verdoyants et vignes descendant vers les eaux calmes du Douro, vallée viticole du Portugal.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1603657289479-14ada3bb33a3",
+      "photographer": "Maksym Kaharlytskyi",
+      "license": "unsplash-standard"
+    },
+    "sha256": "11541105d287bc43fa6bca4b5be5e985b4bf228ce738664cf1f2f48b36d2eca5",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "11541105d287bc43fa6bca4b5be5e985b4bf228ce738664cf1f2f48b36d2eca5",
+      "alt": "Boucle du fleuve Douro entourée de vignobles en terrasses — coteaux verdoyants et vignes descendant vers les eaux calmes du Douro, vallée viticole du Portugal.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "douro-cerises",
+    "slot": "douro-cerises",
+    "base": "douro",
+    "role": "foodie",
+    "file": "douro-cerises.jpg",
+    "alt": "Gros plan sur des cerises rouges fraîches recouvertes de gouttelettes d'eau — cerises brillantes et mûres de la saison mai-juin, comme celles qu'on trouve sur les marchés du Douro.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1439127989242-c3749a012eac",
+      "photographer": "Roksolana Zasiadko",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9d3149007a175cea921f1c8e73ef206d1e97d24c8a0c44032ccb11817734fc53",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "9d3149007a175cea921f1c8e73ef206d1e97d24c8a0c44032ccb11817734fc53",
+      "alt": "Gros plan sur des cerises rouges fraîches recouvertes de gouttelettes d'eau — cerises brillantes et mûres de la saison mai-juin, comme celles qu'on trouve sur les marchés du Douro.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "lisbonne-cover",
+    "slot": "lisbonne-cover",
+    "base": "lisbonne",
+    "role": "cover",
+    "file": "lisbonne-cover.jpg",
+    "alt": "Vue aérienne sur les toits de tuiles orange d'Alfama à Lisbonne avec le Tage en arrière-plan — maisons colorées serrées sur les collines historiques de la capitale portugaise.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1536663815808-535e2280d2c2",
+      "photographer": "Tom Byrom",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9401faaf86fec9be586a5f000c142fc638deeaaaba7e88de3b54bd3a42c55f64",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "9401faaf86fec9be586a5f000c142fc638deeaaaba7e88de3b54bd3a42c55f64",
+      "alt": "Vue aérienne sur les toits de tuiles orange d'Alfama à Lisbonne avec le Tage en arrière-plan — maisons colorées serrées sur les collines historiques de la capitale portugaise.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "lisbonne-tram",
+    "slot": "lisbonne-tram",
+    "base": "lisbonne",
+    "role": "photo",
+    "file": "lisbonne-tram.jpg",
+    "alt": "Tramway jaune et blanc de Lisbonne navigant dans une ruelle étroite bordée de vieux bâtiments — le tram iconique de Lisbonne dans le quartier historique de la ville.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1575373350254-9ab842370a47",
+      "photographer": "Theodor Vasile",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7ef8d94fe309176c9daffd4d5ff49db3c429f3990d404376b8185f8dd9c3f179",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "7ef8d94fe309176c9daffd4d5ff49db3c429f3990d404376b8185f8dd9c3f179",
+      "alt": "Tramway jaune et blanc de Lisbonne navigant dans une ruelle étroite bordée de vieux bâtiments — le tram iconique de Lisbonne dans le quartier historique de la ville.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "lisbonne-tasca",
+    "slot": "lisbonne-tasca",
+    "base": "lisbonne",
+    "role": "foodie",
+    "file": "lisbonne-tasca.jpg",
+    "alt": "Bacalhau assado com batatas a murro — morue rôtie avec pommes de terre écrasées à la portugaise, plat de tasca traditionnel de Lisbonne.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Bacalhau_assado_com_batatas_a_murro.jpg",
+      "photographer": "Enrique Dans",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "caae37a813ed110dfa077469b0474a8abb46a81b99765285dd20eea837ec361c",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "caae37a813ed110dfa077469b0474a8abb46a81b99765285dd20eea837ec361c",
+      "alt": "Bacalhau assado com batatas a murro — morue rôtie avec pommes de terre écrasées à la portugaise, plat de tasca traditionnel de Lisbonne.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "lisbonne-bifana",
+    "slot": "lisbonne-bifana",
+    "base": "lisbonne",
+    "role": "foodie",
+    "file": "lisbonne-bifana.jpg",
+    "alt": "Bifana — sandwich au porc mariné à la portugaise dans un papo-seco, photographié chez As Bifanas do Afonso à Lisbonne, l'adresse de référence pour ce classique du comptoir lisbonnais.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Delicious_Bifana_Sandwich,_As_Bifana_do_Afonso_(49652989992).jpg",
+      "photographer": "Sonse",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "edad23868d8505f812eb0d7273ca79fa824a2d35f481e2f34c38d896802ae51b",
+    "visionChecked": "2026-06-16",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "edad23868d8505f812eb0d7273ca79fa824a2d35f481e2f34c38d896802ae51b",
+      "alt": "Bifana — sandwich au porc mariné à la portugaise dans un papo-seco, photographié chez As Bifanas do Afonso à Lisbonne, l'adresse de référence pour ce classique du comptoir lisbonnais.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "lisbonne-pastel",
+    "slot": "lisbonne-pastel",
+    "base": "lisbonne",
+    "role": "foodie",
+    "file": "lisbonne-pastel.jpg",
+    "alt": "Pastéis de nata — tartelettes à la crème portugaises sur assiette avec leur coque feuilletée dorée et leur crème aux œufs légèrement caramélisée en surface.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1716360806681-b4defdfba134",
+      "photographer": "Magdalena Raczka",
+      "license": "unsplash-standard"
+    },
+    "sha256": "96bc29c1d783fc04da244a5b61dc4ab15577a6c6e204ff77e60a69b066f2eade",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "96bc29c1d783fc04da244a5b61dc4ab15577a6c6e204ff77e60a69b066f2eade",
+      "alt": "Pastéis de nata — tartelettes à la crème portugaises sur assiette avec leur coque feuilletée dorée et leur crème aux œufs légèrement caramélisée en surface.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "lisbonne-cascais",
+    "slot": "lisbonne-cascais",
+    "base": "lisbonne",
+    "role": "photo",
+    "file": "lisbonne-cascais.jpg",
+    "alt": "Plage de Cascais près de Lisbonne avec baigneurs — baie atlantique ensoleillée de cette station balnéaire de la côte estuarienne portugaise.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1602350314289-f9848266a402",
+      "photographer": "Shobhit Sharma",
+      "license": "unsplash-standard"
+    },
+    "sha256": "a7259b2856c4f43aba14a36a1317ce5ad50d664d0c0191d842f43ad54ccd72d7",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "a7259b2856c4f43aba14a36a1317ce5ad50d664d0c0191d842f43ad54ccd72d7",
+      "alt": "Plage de Cascais près de Lisbonne avec baigneurs — baie atlantique ensoleillée de cette station balnéaire de la côte estuarienne portugaise.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "algarve-cover",
+    "slot": "algarve-cover",
+    "base": "algarve",
+    "role": "cover",
+    "file": "algarve-cover.jpg",
+    "alt": "Barques ancrées dans une crique rocheuse aux eaux turquoise cristallines, falaises calcaires de l'Algarve, Ponta da Piedade, Lagos",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1759877718110-5afb48938738",
+      "photographer": "Farnaz Kohankhaki",
+      "license": "Unsplash License"
+    },
+    "sha256": "016940704bd81c42e4c1c22041955baa519927f55d433074813f0a85175a0be4",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "016940704bd81c42e4c1c22041955baa519927f55d433074813f0a85175a0be4",
+      "alt": "Barques ancrées dans une crique rocheuse aux eaux turquoise cristallines, falaises calcaires de l'Algarve, Ponta da Piedade, Lagos",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "algarve-tonel",
+    "slot": "algarve-tonel",
+    "base": "algarve",
+    "role": "photo",
+    "file": "algarve-tonel.jpg",
+    "alt": "Praia do Tonel à Sagres — plage sauvage battue par l'Atlantique, falaises ocre et vagues de surf, côte sud-ouest du Portugal",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1521812002301-a0bd5bbacf50",
+      "photographer": "Paul Pastourmatzis",
+      "license": "Unsplash License"
+    },
+    "sha256": "e27084e9127ac02fdad25e7408ab50e11ff7b4e2133372c5ee4d9327ab573c1e",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "e27084e9127ac02fdad25e7408ab50e11ff7b4e2133372c5ee4d9327ab573c1e",
+      "alt": "Praia do Tonel à Sagres — plage sauvage battue par l'Atlantique, falaises ocre et vagues de surf, côte sud-ouest du Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "algarve-cabo",
+    "slot": "algarve-cabo",
+    "base": "algarve",
+    "role": "photo",
+    "file": "algarve-cabo.jpg",
+    "alt": "Phare Farol do Cabo de São Vicente perché sur les hautes falaises ocre face à l'Atlantique, Sagres, Portugal",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1709803836271-b4402074ae04",
+      "photographer": "Jan (wayfaringjan)",
+      "license": "Unsplash License"
+    },
+    "sha256": "a8fbd1e9cd92a0eb653d48a8c408a6ef3428f7c894ec2c0fda517cb029f36239",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "a8fbd1e9cd92a0eb653d48a8c408a6ef3428f7c894ec2c0fda517cb029f36239",
+      "alt": "Phare Farol do Cabo de São Vicente perché sur les hautes falaises ocre face à l'Atlantique, Sagres, Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "algarve-cataplana",
+    "slot": "algarve-cataplana",
+    "base": "algarve",
+    "role": "foodie",
+    "file": "algarve-cataplana.jpg",
+    "alt": "Cataplana de fruits de mer ouverte, marmite de cuivre portugaise révélant crevettes, moules et palourdes",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Seafood_Cataplana_at_World_Heritage_Cuisine_Summit_&_Food_Festival_2018_(Day_2)_-_22.jpg",
+      "photographer": "Satdeep Gill",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "a18f9f4517328cf218a0104324ec2e039fc12c9951db3dbb4fdb25cd85e60f0e",
+    "visionChecked": "2026-06-16",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "a18f9f4517328cf218a0104324ec2e039fc12c9951db3dbb4fdb25cd85e60f0e",
+      "alt": "Cataplana de fruits de mer ouverte, marmite de cuivre portugaise révélant crevettes, moules et palourdes",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "algarve-criques",
+    "slot": "algarve-criques",
+    "base": "algarve",
+    "role": "photo",
+    "file": "algarve-criques.jpg",
+    "alt": "Praia da Marinha — côte rocheuse calcaire dorée avec eau turquoise translucide en pleine lumière, Algarve, Portugal",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1764077298190-7caef60611e4",
+      "photographer": "Jeffrey Eisen",
+      "license": "Unsplash License"
+    },
+    "sha256": "2de90d45ab852e97fc246877d2836d6caa37e00e21efacf4bae0a1eb91788d0e",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "2de90d45ab852e97fc246877d2836d6caa37e00e21efacf4bae0a1eb91788d0e",
+      "alt": "Praia da Marinha — côte rocheuse calcaire dorée avec eau turquoise translucide en pleine lumière, Algarve, Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "algarve-kayak",
+    "slot": "algarve-kayak",
+    "base": "algarve",
+    "role": "photo",
+    "file": "algarve-kayak.jpg",
+    "alt": "Formations rocheuses et grottes calcaires de Ponta da Piedade vues depuis l'eau, Lagos, Algarve",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1597332045617-7a0479156995",
+      "photographer": "Guillermo Varela",
+      "license": "Unsplash License"
+    },
+    "sha256": "5af9268b6c8f45e4a2a044505855c4ae9918f5b19169cfa997076b297d59aabc",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "5af9268b6c8f45e4a2a044505855c4ae9918f5b19169cfa997076b297d59aabc",
+      "alt": "Formations rocheuses et grottes calcaires de Ponta da Piedade vues depuis l'eau, Lagos, Algarve",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "algarve-ferragudo",
+    "slot": "algarve-ferragudo",
+    "base": "algarve",
+    "role": "photo",
+    "file": "algarve-ferragudo.jpg",
+    "alt": "Barque échouée sur la plage face au village côtier de Ferragudo, Algarve, Portugal",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1749037953712-d1d715f82cac",
+      "photographer": "Nick Andreas",
+      "license": "Unsplash License"
+    },
+    "sha256": "8fa521859948a5f26c2d991adf5710237cae54e4ce87f6ac6cdaf6fdb6d57e81",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "8fa521859948a5f26c2d991adf5710237cae54e4ce87f6ac6cdaf6fdb6d57e81",
+      "alt": "Barque échouée sur la plage face au village côtier de Ferragudo, Algarve, Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "algarve-percebes",
+    "slot": "algarve-percebes",
+    "base": "algarve",
+    "role": "foodie",
+    "file": "algarve-percebes.jpg",
+    "alt": "Percebes (pousse-pieds) servis en assiette — crustacés de roche typiques de la côte atlantique portugaise",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Percebes.iguaria.jpg",
+      "photographer": "Msadp06",
+      "license": "CC0"
+    },
+    "sha256": "06599bf408087e04a74bffde46f64864d50bd7ff7aee3e5b7122a49757278fde",
+    "visionChecked": "2026-06-16",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "06599bf408087e04a74bffde46f64864d50bd7ff7aee3e5b7122a49757278fde",
+      "alt": "Percebes (pousse-pieds) servis en assiette — crustacés de roche typiques de la côte atlantique portugaise",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "comporta-cover",
+    "slot": "comporta-cover",
+    "base": "comporta",
+    "role": "cover",
+    "file": "comporta-cover.jpg",
+    "alt": "Plage de Comporta — vaste étendue de sable sauvage de l'Alentejo côtier, pins parasols en arrière-plan, Portugal",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Playa_de_Comporta,_Portugal,_2021-09-12,_DD_15-26_PAN.jpg",
+      "photographer": "Diego Delso",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "fee746b0028feffca74f8e902a6c12ab766d6fbb0d5a6d12dd3acfb3ef85003b",
+    "visionChecked": "2026-06-16",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "fee746b0028feffca74f8e902a6c12ab766d6fbb0d5a6d12dd3acfb3ef85003b",
+      "alt": "Plage de Comporta — vaste étendue de sable sauvage de l'Alentejo côtier, pins parasols en arrière-plan, Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "comporta-rizieres",
+    "slot": "comporta-rizieres",
+    "base": "comporta",
+    "role": "photo",
+    "file": "comporta-rizieres.jpg",
+    "alt": "Rizières de Comporta — champs inondés en damier au milieu des pins, paysage agricole typique de l'arrière-pays de la péninsule de Tróia, Alentejo, Portugal",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Comporta_Rice_Fields.JPG",
+      "photographer": "Living Portugal Property",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "e13a82794b37bce6c0529cf00244cb944325966ed8d7bc7d6864b3e78ac3ff11",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "e13a82794b37bce6c0529cf00244cb944325966ed8d7bc7d6864b3e78ac3ff11",
+      "alt": "Rizières de Comporta — champs inondés en damier au milieu des pins, paysage agricole typique de l'arrière-pays de la péninsule de Tróia, Alentejo, Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "comporta-plage",
+    "slot": "comporta-plage",
+    "base": "comporta",
+    "role": "photo",
+    "file": "comporta-plage.jpg",
+    "alt": "Vague atlantique déferle sur la vaste plage de sable de Comporta, côte sauvage de l'Alentejo, Portugal",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1704316020511-92ab5d6214b3",
+      "photographer": "Steffen Lemmerzahl",
+      "license": "Unsplash License"
+    },
+    "sha256": "1caefafba34955684a20be6b10075ad6aba94c063efa41c000e0c2b45da690ba",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "1caefafba34955684a20be6b10075ad6aba94c063efa41c000e0c2b45da690ba",
+      "alt": "Vague atlantique déferle sur la vaste plage de sable de Comporta, côte sauvage de l'Alentejo, Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "comporta-fruits-mer",
+    "slot": "comporta-fruits-mer",
+    "base": "comporta",
+    "role": "foodie",
+    "file": "comporta-fruits-mer.jpg",
+    "alt": "Arroz de marisco — riz aux fruits de mer en marmite, spécialité alentejane et algarvienne du Portugal",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Arroz_de_marisco_-_Tavira.jpg",
+      "photographer": "Cayetano Delgado",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "4a7747d9dd2f2a04f2aca7e725a6cca9c27946b11b8f863270f0b5aefdf3830b",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "4a7747d9dd2f2a04f2aca7e725a6cca9c27946b11b8f863270f0b5aefdf3830b",
+      "alt": "Arroz de marisco — riz aux fruits de mer en marmite, spécialité alentejane et algarvienne du Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "comporta-porco-preto",
+    "slot": "comporta-porco-preto",
+    "base": "comporta",
+    "role": "foodie",
+    "file": "comporta-porco-preto.jpg",
+    "alt": "Jambon de porc ibérique (presunto de porco preto) tranché, photographié à Setúbal, Portugal",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Jamón_ibérico,_Setúbal,_Portugal,_2012-05-11,_DD_02.JPG",
+      "photographer": "Diego Delso",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "07fbf8800762040ea503e74a2f24fe2f93de8e0484fd4f7d78857880ff61e527",
+    "visionChecked": "2026-06-16",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "07fbf8800762040ea503e74a2f24fe2f93de8e0484fd4f7d78857880ff61e527",
+      "alt": "Jambon de porc ibérique (presunto de porco preto) tranché, photographié à Setúbal, Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "comporta-cais",
+    "slot": "comporta-cais",
+    "base": "comporta",
+    "role": "photo",
+    "file": "comporta-cais.jpg",
+    "alt": "Cais Palafítico da Carrasqueira — quai de pêcheurs sur pilotis de bois dans l'estuaire du Sado, Comporta, Portugal",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Carrasqueira_Pier_Stilts_Wood_Pier_(145749821).jpeg",
+      "photographer": "Luís Ascenso",
+      "license": "CC BY 3.0"
+    },
+    "sha256": "b4bcfd4bd64e8c36fde99ce989e3df20d54c093e313a020ba39569a7ff1477a8",
+    "visionChecked": "2026-06-16",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "b4bcfd4bd64e8c36fde99ce989e3df20d54c093e313a020ba39569a7ff1477a8",
+      "alt": "Cais Palafítico da Carrasqueira — quai de pêcheurs sur pilotis de bois dans l'estuaire du Sado, Comporta, Portugal",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "lisbonne-ramiro",
+    "slot": "lisbonne-ramiro",
+    "base": "lisbonne",
+    "role": "foodie",
+    "file": "lisbonne-ramiro.jpg",
+    "alt": "Une marmite de palourdes à bulhão pato (à l'ail, à la coriandre et au citron), plat signature des cervejarias de fruits de mer de Lisbonne.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "Ameijoas_a_Bulhao_Pato.jpg",
+      "photographer": "ricardo",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "b0e93b4e81eaa3d98e93af3548f1da6aa45054d0b5163b1e2fbf57b26c03517a",
+    "visionChecked": "2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "b0e93b4e81eaa3d98e93af3548f1da6aa45054d0b5163b1e2fbf57b26c03517a",
+      "alt": "Une marmite de palourdes à bulhão pato (à l'ail, à la coriandre et au citron), plat signature des cervejarias de fruits de mer de Lisbonne.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
   }
 ]

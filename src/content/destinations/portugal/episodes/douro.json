@@ -5,12 +5,19 @@
       "body": "On quitte Porto par le train qui longe le Douro — une heure et demie de rail parmi les plus belles d'Europe, le fleuve d'un côté, les terrasses de vignes qui montent à l'assaut des collines de l'autre. Puis la vallée s'ouvre et on se pose. Ici, on n'est pas venus pour cocher des caves : on est venus pour s'arrêter. Trois nuits dans une quinta sur le fleuve, le vin là où il naît, et le temps qui s'étire jusqu'au soir.",
       "focusPoi": "douro-quinta-de-la-rosa",
       "zoom": 11,
-      "targets": ["douro-quinta-de-la-rosa", "douro-miradouro-galafura"],
+      "targets": [
+        "douro-quinta-de-la-rosa",
+        "douro-miradouro-galafura"
+      ],
       "thumb": "douro-cover",
-      "thumbAlt": "Les terrasses de vignes étagées de la vallée du Douro descendant vers le fleuve, sous la lumière de fin d'après-midi.",
+      "thumbAlt": "Terrasses de vignes étagées sur les pentes de la vallée du Douro au Portugal — paysage viticole UNESCO avec rangées de vignobles descendant vers le fleuve sous un ciel bleu.",
       "poiRef": "douro-quinta-de-la-rosa",
       "sources": [
-        { "creator": "Maps — Pinhão, vallée du Douro", "url": "https://www.google.com/maps/search/Pinhao+Douro+Valley", "date": "2026-06" }
+        {
+          "creator": "Maps — Pinhão, vallée du Douro",
+          "url": "https://www.google.com/maps/search/Pinhao+Douro+Valley",
+          "date": "2026-06"
+        }
       ]
     },
     {
@@ -18,12 +25,19 @@
       "body": "On défait les valises une seule fois. Le matin, un café sur la terrasse avec les vignes en contrebas ; l'après-midi, une dégustation à la cave ou une sieste ; le soir, on descend dans un village souper. Pas de route, pas de course — c'est le segment lent du voyage, posé exprès entre l'intensité de Porto et celle de Lisbonne. La voiture sert juste pour grimper aux miradouros et rejoindre les tables des villages.",
       "focusPoi": "douro-miradouro-galafura",
       "zoom": 12,
-      "targets": ["douro-miradouro-galafura", "douro-toca-da-raposa"],
+      "targets": [
+        "douro-miradouro-galafura",
+        "douro-toca-da-raposa"
+      ],
       "thumb": "douro-quinta",
-      "thumbAlt": "Une quinta viticole du Douro : bâtiment aux murs blancs entouré de vignes en terrasses, avec vue sur le fleuve en contrebas.",
+      "thumbAlt": "Maison isolée au sommet d'une colline de vignobles à Pinhão, dans la vallée du Douro — quinta viticole entourée de terrasses de vigne en Portugal.",
       "poiRef": "douro-quinta-de-la-rosa",
       "sources": [
-        { "creator": "Maps — Miradouro de São Leonardo de Galafura", "url": "https://www.google.com/maps/search/Miradouro+Sao+Leonardo+de+Galafura", "date": "2026-06" }
+        {
+          "creator": "Maps — Miradouro de São Leonardo de Galafura",
+          "url": "https://www.google.com/maps/search/Miradouro+Sao+Leonardo+de+Galafura",
+          "date": "2026-06"
+        }
       ]
     }
   ],
@@ -33,15 +47,23 @@
       "kicker": "Quinta de la Rosa · LA SOURCE",
       "title": "Le porto, là où il est né",
       "image": "douro-vin",
-      "alt": "Des verres de porto sur une table en terrasse face aux vignes en terrasses du Douro.",
+      "alt": "Rangées de barriques de porto dans la cave Offley à Vila Nova de Gaia — fûts de chêne empilés dans l'obscurité d'un chai historique de production de vin de porto.",
       "intro": "Tout le porto du monde commence ici, sur ces terrasses, avant de descendre vieillir dans les chais de Gaia. La Quinta de la Rosa, un domaine familial au bord du fleuve à Pinhão, fait partie de ces quintas qui logent, dégustent et cuisinent sur place — on dort au-dessus des vignes qui font le vin qu'on boit au souper. On goûte le porto à la source, mais surtout les rouges secs du Douro DOC, ceux des petits producteurs qui ne passent jamais l'exportation.",
       "reco": "Un tawny ou un vintage de la maison en fin d'après-midi, dans la cour, avec les terrasses en face — et au repas, un Douro DOC rouge qu'on n'aurait jamais trouvé à la SAQ. Demande la dégustation maison plutôt que de courir trois caves : ici l'intérêt, c'est de rester, pas de visiter. C'est l'inverse exact d'un tour organisé — un verre, une vue, et tout l'après-midi devant soi.",
       "quote": "Boire le vin sur la terrasse même qui l'a fait pousser, en regardant le fleuve : c'est le genre de luxe qui ne coûte que du temps.",
       "via": null,
       "poiRef": "douro-quinta-de-la-rosa",
       "sources": [
-        { "creator": "Quinta de la Rosa — site officiel", "url": "https://www.quintadelarosa.com/", "date": "2026-06" },
-        { "creator": "Nelson Carvalheiro — Douro Valley wine & food", "url": "https://www.nelsoncarvalheiro.com/douro-valley-wine-tour/", "date": "2024-09" }
+        {
+          "creator": "Quinta de la Rosa — site officiel",
+          "url": "https://www.quintadelarosa.com/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Nelson Carvalheiro — Douro Valley wine & food",
+          "url": "https://www.nelsoncarvalheiro.com/douro-valley-wine-tour/",
+          "date": "2024-09"
+        }
       ]
     },
     {
@@ -49,15 +71,23 @@
       "kicker": "Toca da Raposa · LA TABLE DU VILLAGE",
       "title": "Le riz de cabrito d'une cuisine de maison",
       "image": "douro-cabrito",
-      "alt": "Un plat de cabrito (chevreau) rôti au four avec du riz, servi dans un plat en terre cuite.",
+      "alt": "Cabrito assado — chevreau rôti au four à la portugaise, plat typique de la région de Paredes au Portugal, chair dorée et pommes de terre fondantes.",
       "intro": "Le soir, on descend des terrasses vers un village. Toca da Raposa, à Ervedosa do Douro, c'est la cuisine de maison du haut-Douro : pas de carte gastronomique, des plats qu'une grand-mère mijoterait — le riz de cabrito au four, le sanglier, les légumineuses. La viande de chevreau rôtie lentement, c'est le grand plat des fêtes dans ces villages de montagne où l'on a toujours su tirer beaucoup de peu.",
       "reco": "Le riz de cabrito si c'est à la carte du jour — fondant, parfumé, le genre de plat qui justifie à lui seul de monter dans la vallée. Un rouge du Douro de la maison, et on prend son temps : ici on ne presse personne. Réserve, c'est petit et connu des gens du coin. Pour les soirs à Régua, Castas e Pratos dans l'ancienne gare ; à Pinhão, Veladouro sur le quai pour finir sur un baba au porto.",
       "quote": "Un riz de chevreau mijoté dans un village de montagne, loin de tout : c'est là que la cuisine du Douro est la plus vraie.",
       "via": null,
       "poiRef": "douro-toca-da-raposa",
       "sources": [
-        { "creator": "Maps — Toca da Raposa, Ervedosa do Douro", "url": "https://www.google.com/maps/search/Toca+da+Raposa+Ervedosa+do+Douro", "date": "2026-06" },
-        { "creator": "Portoalities — Douro Valley restaurants", "url": "https://www.portoalities.com/en/douro-valley-restaurants/", "date": "2025-04" }
+        {
+          "creator": "Maps — Toca da Raposa, Ervedosa do Douro",
+          "url": "https://www.google.com/maps/search/Toca+da+Raposa+Ervedosa+do+Douro",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Portoalities — Douro Valley restaurants",
+          "url": "https://www.portoalities.com/en/douro-valley-restaurants/",
+          "date": "2025-04"
+        }
       ]
     },
     {
@@ -65,15 +95,23 @@
       "kicker": "Le rabelo & Galafura · LE FLEUVE",
       "title": "La vallée vue d'un seul coup d'œil",
       "image": "douro-fleuve",
-      "alt": "Une boucle du fleuve Douro vue d'en haut, entourée de coteaux couverts de vignes en terrasses.",
+      "alt": "Boucle du fleuve Douro entourée de vignobles en terrasses — coteaux verdoyants et vignes descendant vers les eaux calmes du Douro, vallée viticole du Portugal.",
       "intro": "Le Douro a longtemps porté le vin : ces vieilles barques à fond plat, les rabelos, descendaient les fûts jusqu'à Porto avant les barrages. Aujourd'hui on en prend une depuis Pinhão pour deux heures lentes sur l'eau, un verre à bord, les terrasses qui défilent. Et pour comprendre la vallée d'un seul regard, on monte au miradouro de São Leonardo de Galafura, à 640 mètres : le fleuve qui serpente, les coteaux striés de vignes jusqu'à l'horizon.",
       "reco": "La croisière en rabelo au départ de Pinhão (~2h) en début d'après-midi, quand la lumière commence à dorer les terrasses. Puis Galafura pour le coucher de soleil — c'est l'image qu'on ramène du Douro, et c'est gratuit. En chemin, rouler la EN-222 entre Régua et Pinhão, fenêtres baissées, sans se presser : c'est la route, autant que la destination.",
       "quote": "Du haut de Galafura, la vallée entière se déplie d'un coup — et on comprend pourquoi on est montés jusqu'ici sans rien prévoir d'autre.",
       "via": null,
       "poiRef": "douro-croisiere-rabelo",
       "sources": [
-        { "creator": "Maps — Croisière rabelo, Pinhão", "url": "https://www.google.com/maps/search/Pinhao+rabelo+boat+cruise", "date": "2026-06" },
-        { "creator": "Maps — Miradouro de Galafura", "url": "https://www.google.com/maps/search/Miradouro+Sao+Leonardo+de+Galafura", "date": "2026-06" }
+        {
+          "creator": "Maps — Croisière rabelo, Pinhão",
+          "url": "https://www.google.com/maps/search/Pinhao+rabelo+boat+cruise",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Maps — Miradouro de Galafura",
+          "url": "https://www.google.com/maps/search/Miradouro+Sao+Leonardo+de+Galafura",
+          "date": "2026-06"
+        }
       ]
     }
   ],
@@ -81,24 +119,60 @@
     {
       "kicker": "Le carnet de bouche",
       "body": "Avant de filer vers Lisbonne : les cerises du Douro, en pleine saison à la mi-mai, qu'on achète aux étals le long de la route. Et ce qu'on n'a pas eu le temps de tout faire — la EN-222 roulée fenêtres baissées, Pinhão à 7h du matin pour les azulejos de la gare avant les groupes, le baba au porto de Veladouro sur le quai, et une nuit plus haut dans la vallée à la Quinta de Ventozelo pour la vue. Le carnet a les quintas, les tables, les liens et le budget complet.",
-      "boundsPois": ["douro-quinta-de-la-rosa", "douro-toca-da-raposa", "douro-miradouro-galafura"],
-      "targets": ["douro-miradouro-galafura"],
+      "boundsPois": [
+        "douro-quinta-de-la-rosa",
+        "douro-toca-da-raposa",
+        "douro-miradouro-galafura"
+      ],
+      "targets": [
+        "douro-miradouro-galafura"
+      ],
       "thumb": "douro-cerises",
-      "thumbAlt": "Des cerises rouges fraîches en grappes, fraîchement cueillies — les cerises du Douro de début d'été.",
+      "thumbAlt": "Gros plan sur des cerises rouges fraîches recouvertes de gouttelettes d'eau — cerises brillantes et mûres de la saison mai-juin, comme celles qu'on trouve sur les marchés du Douro.",
       "pills": [
-        { "poiRef": "douro-miradouro-galafura", "link": "maps", "label": "Galafura · Maps" },
-        { "label": "Le carnet de bouche", "url": "#carnet" }
+        {
+          "poiRef": "douro-miradouro-galafura",
+          "link": "maps",
+          "label": "Galafura · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
       ],
       "sources": [
-        { "creator": "Maps — Vallée du Douro (cerises, EN-222)", "url": "https://www.google.com/maps/search/Douro+Valley+cherries+EN222", "date": "2026-06" }
+        {
+          "creator": "Maps — Vallée du Douro (cerises, EN-222)",
+          "url": "https://www.google.com/maps/search/Douro+Valley+cherries+EN222",
+          "date": "2026-06"
+        }
       ]
     }
   ],
   "carnet": {
     "groups": [
-      { "label": "Où dormir", "kinds": ["hotel"], "footer": "La quinta EST le voyage : Quinta de la Rosa à Pinhão au bord du fleuve (dégustation et table sur place), ou Ventozelo plus haut dans la vallée pour la vue et la piscine. On défait les valises une seule fois." },
-      { "label": "À table", "kinds": ["resto"], "footer": "Le riz de cabrito de Toca da Raposa dans son village, les alheiras et le chevreau au porto de Castas e Pratos (ancienne gare de Régua), le baba au porto de Veladouro sur le quai de Pinhão." },
-      { "label": "Le fleuve & les terrasses", "kinds": ["activity", "sight"], "footer": "La croisière en rabelo depuis Pinhão (~2h, un verre à bord), et le miradouro de São Leonardo de Galafura à 640 m — le panorama qui résume toute la vallée." }
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "La quinta EST le voyage : Quinta de la Rosa à Pinhão au bord du fleuve (dégustation et table sur place), ou Ventozelo plus haut dans la vallée pour la vue et la piscine. On défait les valises une seule fois."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Le riz de cabrito de Toca da Raposa dans son village, les alheiras et le chevreau au porto de Castas e Pratos (ancienne gare de Régua), le baba au porto de Veladouro sur le quai de Pinhão."
+      },
+      {
+        "label": "Le fleuve & les terrasses",
+        "kinds": [
+          "activity",
+          "sight"
+        ],
+        "footer": "La croisière en rabelo depuis Pinhão (~2h, un verre à bord), et le miradouro de São Leonardo de Galafura à 640 m — le panorama qui résume toute la vallée."
+      }
     ],
     "dishesTitle": "Le carnet de bouche",
     "gemsTitle": "Pépites du Douro"
