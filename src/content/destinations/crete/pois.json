@@ -482,7 +482,7 @@
       "do"
     ],
     "name": "Elafonisi",
-    "blurb": "(1h15 sud-ouest) — Sable rose, eau turquoise peu profonde. Y aller tôt en septembre.",
+    "blurb": "(1h15 sud-ouest) — Sable rose, eau turquoise peu profonde. Y aller tôt en mai-juin.",
     "signature": "",
     "image": null,
     "price": {
@@ -866,7 +866,7 @@
       "do"
     ],
     "name": "Glyka Nera (Sweet Water)",
-    "blurb": "",
+    "blurb": "Des sources d'eau douce jaillissent sous les galets, au pied de hautes falaises blanches. À 1h de marche ou 20 min en bateau-taxi (~5 €, ~CAD 8). La baignade longue, où on flotte sur le dos sans effort.",
     "signature": "",
     "image": null,
     "price": {
@@ -904,7 +904,7 @@
       "do"
     ],
     "name": "Marmara Beach",
-    "blurb": "",
+    "blurb": "Plage de marbre là où la gorge d'Aradena rejoint la mer : roches pâles polies, petites grottes pour nager à l'ombre, eau turquoise. Taverna Dialiskari sur place (pain au feu de bois). Accès bateau-taxi ou à pied.",
     "signature": "",
     "image": null,
     "price": {
@@ -942,7 +942,7 @@
       "see"
     ],
     "name": "Chora Sfakion (embarquement)",
-    "blurb": "",
+    "blurb": "Le port d'embarquement pour Loutro. On y laisse la voiture (~3 €/jour, ~CAD 5), on retire du cash — aucun distributeur à Loutro — et on prend le ferry ANENDYK (20 min, premier à 9h30, dernier à 18h45).",
     "signature": "",
     "image": null,
     "price": {
@@ -1211,7 +1211,7 @@
       "do"
     ],
     "name": "Mazzida Ammos (Xerokambos)",
-    "blurb": "",
+    "blurb": "Sable blanc presque tropical, eau turquoise peu profonde, au bout d'une route qui décourage les autocars. Une des criques désertes de Xerokampos, à 1h au sud de Sitia.",
     "signature": "",
     "image": null,
     "price": {
@@ -1249,7 +1249,7 @@
       "see"
     ],
     "name": "Sitia (vieille ville)",
-    "blurb": "",
+    "blurb": "Vraie ville crétoise de l'est, sans tourisme de masse : la promenade du port, les pêcheurs qui rentrent à l'aube, les tavernas où mangent encore les Grecs. Le point de chute pour rayonner vers les criques.",
     "signature": "",
     "image": null,
     "price": {
@@ -1287,7 +1287,7 @@
       "do"
     ],
     "name": "Vaï (palmeraie)",
-    "blurb": "",
+    "blurb": "La seule palmeraie naturelle d'Europe — des milliers de palmiers de Crète derrière une plage de sable doré, l'eau turquoise devant. Arriver tôt ; en mai-juin, avant la ruée estivale, presque personne.",
     "signature": "",
     "image": null,
     "price": {
@@ -1325,7 +1325,7 @@
       "do"
     ],
     "name": "Psili Ammos",
-    "blurb": "",
+    "blurb": "La plage cachée derrière Vaï : on passe le promontoire à pied et 90 % des visiteurs disparaissent. Sable et eau claire, quasi déserte.",
     "signature": "",
     "image": null,
     "price": {
@@ -1363,7 +1363,7 @@
       "do"
     ],
     "name": "Xerokambos",
-    "blurb": "",
+    "blurb": "Chapelet de criques désertes à l'extrême sud-est, au bout du monde. Sable blanc, eau cristalline, zéro foule avant juillet — le genre de vide qu'on ne trouve plus sur la côte nord.",
     "signature": "",
     "image": null,
     "price": {
@@ -1401,7 +1401,7 @@
       "do"
     ],
     "name": "Argilos Beach",
-    "blurb": "",
+    "blurb": "Juste à côté de Mazzida Ammos : l'argile grise se ramasse sur la berge et fait un spa naturel gratuit. On s'enduit, on sèche au soleil, on se rince dans la mer.",
     "signature": "",
     "image": null,
     "price": {
@@ -1439,7 +1439,7 @@
       "see"
     ],
     "name": "Kato Zakros (palais minoen)",
-    "blurb": "",
+    "blurb": "Au bout de la route est, après la Gorge des Morts : une baie tranquille, quelques tavernas, et un palais minoen à deux cents mètres de l'eau. On nage, on visite quatre mille ans d'histoire, on retourne nager.",
     "signature": "",
     "image": null,
     "price": {
@@ -1842,7 +1842,7 @@
       "eat"
     ],
     "name": "Sella Vineria",
-    "blurb": "",
+    "blurb": "Bar à vin de la vieille ville. Cépages autochtones crétois — Vidiano, Kotsifali, Mandilari — au verre, avec de petites assiettes. L'arrêt avant ou après souper.",
     "signature": "",
     "image": null,
     "price": {
@@ -1880,7 +1880,7 @@
       "eat"
     ],
     "name": "Rewine",
-    "blurb": "",
+    "blurb": "Cave à vin de poche dans la vieille ville, sélection pointue de crus crétois. On goûte les cépages introuvables ailleurs, on repart avec une bouteille.",
     "signature": "",
     "image": null,
     "price": {
@@ -1918,7 +1918,7 @@
       "eat"
     ],
     "name": "Chrysoula's Cooking Class (Pigi)",
-    "blurb": "",
+    "blurb": "Cours de cuisine crétoise chez Chrysoula, au village de Pigi (10 min). Marché le matin, légumes du jardin, cuisine l'après-midi, festin le soir — une journée complète, les mains dans la pâte à kalitsounia.",
     "signature": "",
     "image": null,
     "price": {
@@ -1956,7 +1956,7 @@
       "eat"
     ],
     "name": "Yiorgos Hatziparaskos (phyllo & baklava)",
-    "blurb": "",
+    "blurb": "Atelier-boutique où la famille tire la pâte phyllo à la main depuis 1960. Baklavas au miel et kalitsounia à la myzithra préparés sous tes yeux — la vraie version, dans une ruelle de la vieille ville.",
     "signature": "",
     "image": null,
     "price": {
@@ -2032,7 +2032,7 @@
       "see"
     ],
     "name": "Fortezza",
-    "blurb": "",
+    "blurb": "La forteresse vénitienne qui domine la vieille ville. Y monter vers 18h30 : lumière dorée sur les remparts, la mer derrière, presque personne à cette heure-là.",
     "signature": "",
     "image": null,
     "price": {
@@ -2070,7 +2070,7 @@
       "see"
     ],
     "name": "Marché du mercredi (Koumoundourou)",
-    "blurb": "",
+    "blurb": "Marché paysan du mercredi, rue Koumoundourou. Fromages frais, miel de thym, herbes séchées, légumes de saison — tôt le matin, là où les locaux font leurs courses.",
     "signature": "",
     "image": null,
     "price": {
@@ -2222,7 +2222,7 @@
       "do"
     ],
     "name": "Damnoni",
-    "blurb": "(à côté de Plakias) — Trois petites criques successives, eau cristalline, peu fréquentées en octobre. Google Maps",
+    "blurb": "(à côté de Plakias) — Trois petites criques successives, eau cristalline, peu fréquentées en juin. Google Maps",
     "signature": "",
     "image": null,
     "price": {
@@ -2260,7 +2260,7 @@
       "do"
     ],
     "name": "Korakas",
-    "blurb": "",
+    "blurb": "Crique isolée à 20 min de sentier côtier depuis Plakias. Eau cristalline, galets clairs, quasi déserte en juin, avant la ruée estivale — le vrai trésor de la côte sud, qu'on mérite en marchant un peu.",
     "signature": "",
     "image": null,
     "price": {

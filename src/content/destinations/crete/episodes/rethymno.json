@@ -22,7 +22,7 @@
     },
     {
       "kicker": "La ville le soir, la mer le jour",
-      "body": "Le rythme s'inverse doucement. Le jour, on traîne dans les ruelles vénitiennes, on monte à la Fortezza vers 18h30 pour la lumière dorée sur les pierres, on flâne le vieux port et son petit phare. Et quand l'envie de sel revient, la côte sud est à quarante-cinq minutes : Preveli et sa palmeraie, Plakias et la crique cachée de Korakas. Le soir, une cour vénitienne, un verre de cépage crétois qu'on ne boit nulle part ailleurs, et le temps qui ne presse plus.",
+      "body": "Le rythme s'inverse doucement. Le jour, on traîne dans les ruelles vénitiennes, on monte à la Fortezza vers 20h pour la lumière dorée sur les pierres, on flâne le vieux port et son petit phare. Et quand l'envie de sel revient, la côte sud est à quarante-cinq minutes : Preveli et sa palmeraie, Plakias et la crique cachée de Korakas. Le soir, une cour vénitienne, un verre de cépage crétois qu'on ne boit nulle part ailleurs, et le temps qui ne presse plus.",
       "focusPoi": "fortezza",
       "zoom": 14,
       "targets": [
@@ -115,9 +115,9 @@
       "title": "Vingt minutes de sentier pour une crique à soi",
       "image": "ret-korakas",
       "alt": "Une crique rocheuse isolée de la Crète : une eau turquoise cristalline entre des falaises dorées et arides, sans plage de sable, presque personne.",
-      "intro": "Depuis Plakias, station balnéaire tranquille de la côte sud, un sentier côtier de vingt minutes mène à Korakas : une crique isolée, une eau cristalline, des galets clairs, et en octobre, presque personne. C'est le vrai trésor du coin — celui qu'on mérite en marchant un peu, pendant que les autres restent sur la grande plage.",
+      "intro": "Depuis Plakias, station balnéaire tranquille de la côte sud, un sentier côtier de vingt minutes mène à Korakas : une crique isolée, une eau cristalline, des galets clairs, et à la mi-juin, presque personne. C'est le vrai trésor du coin — celui qu'on mérite en marchant un peu, pendant que les autres restent sur la grande plage.",
       "reco": "Chausse-toi correctement, emporte de l'eau et de l'ombre, et suis le sentier depuis l'est de Plakias. La crique n'a aucun service — juste l'eau claire et le silence. Enchaîne avec Damnoni juste à côté, trois petites criques successives, si le cœur t'en dit. C'est la baignade de fin de voyage, lente et vide.",
-      "quote": "Vingt minutes de sentier, et la crique est à toi. En octobre, sur la côte sud de la Crète, le luxe c'est ça : une eau cristalline et pas une seule autre serviette.",
+      "quote": "Vingt minutes de sentier, et la crique est à toi. À la mi-juin, sur la côte sud de la Crète, le luxe c'est ça : une eau cristalline et pas une seule autre serviette.",
       "via": null,
       "poiRef": "korakas",
       "sources": [

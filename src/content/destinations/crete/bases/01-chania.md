@@ -4,17 +4,17 @@ slug: chania
 title: Chania
 kicker: 'l''ouest'
 nights: 8
-dates: 5–12 septembre
+dates: 15–23 mai
 focus: Vieux port vénitien · Quartier Splantzia · Côte sauvage
 subtitle: 'La plus belle vieille ville de Crète. Port vénitien, ruelles ottomanes, et à une heure de voiture les plages sauvages de l''extrême ouest.'
-summary: 'Arrivée, décompression, orientation. La plus belle vieille ville de Crète comme point de chute. Journées à la mer — Falassarna et Elafonisi sont à 1h de voiture — soirées dans les ruelles. L''eau commence à ~24°C en début septembre.'
+summary: 'Arrivée, décompression, orientation. La plus belle vieille ville de Crète comme point de chute. Journées à la mer — Falassarna et Elafonisi sont à 1h de voiture — soirées dans les ruelles. L''eau est encore fraîche, ~19–20°C à la mi-mai, et se réchauffe.'
 pullquote: 'Huit nuits à Chania, c''est long exprès. C''est le sas du voyage — l''endroit où on laisse tomber le décalage horaire, où on apprend le rythme crétois avant de disparaître à Loutro.'
 cover: chania-cover
 tagBlock:
   label: 'Température de l''eau'
   tags:
     -
-      text: ~24°C début septembre
+      text: ~19–20°C mi-mai
     -
       text: Côte nord plus agitée
       tone: amber
@@ -87,7 +87,7 @@ La base est à Splantzia ou Halepa, jamais au front de port : c'est 20% moins ch
 
 #### Les plages
 
-        L'ouest est sauvage. [[poi:falassarna]] face au soleil couchant, section nord vide, bar Orange Blue sur la colline pour le dernier verre. [[poi:elafonisi]] pour le sable rose et l'eau peu profonde où on flotte sans effort — y aller tôt. [[poi:balos]] par le bateau depuis Kissamos (15 €), pas par la route de montagne. [[poi:seitan-limania]], crique secrète entre les rochers. L'eau commence à 24°C début septembre et monte tout le mois.
+        L'ouest est sauvage. [[poi:falassarna]] face au soleil couchant, section nord vide, bar Orange Blue sur la colline pour le dernier verre. [[poi:elafonisi]] pour le sable rose et l'eau peu profonde où on flotte sans effort — y aller tôt. [[poi:balos]] par le bateau depuis Kissamos (15 €), pas par la route de montagne. [[poi:seitan-limania]], crique secrète entre les rochers. L'eau est fraîche en début de saison — ~19–20°C à la mi-mai — et se réchauffe tout au long du séjour.
 
         
 

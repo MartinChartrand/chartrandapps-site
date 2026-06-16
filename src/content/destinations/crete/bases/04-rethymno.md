@@ -4,7 +4,7 @@ slug: rethymno
 title: Rethymno
 kicker: le retour en douceur
 nights: 7
-dates: 28 septembre–5 octobre
+dates: 7–14 juin
 focus: Centre-ouest · Vieille ville vénitienne · Plakias à 45 min
 subtitle: La deuxième plus belle vieille ville de Crète. Vénitienne, compacte, plus détendue que Chania. Plakias à 45 minutes.
 summary: Avant-dernière étape avant le vol depuis Héraklion. Belle vieille ville, rythme posé, accès facile à la côte sud (Plakias, plage de Korakas). Fin de voyage plus tranquille — le temps de décompresser avant de rentrer.
@@ -68,7 +68,7 @@ On veut une belle vieille ville, une adresse le soir, une plage à 45 minutes, e
 
 #### Les plages
 
-        Pas à Rethymno même — au sud. [[poi:preveli]] (35 min) : palmeraie à l'embouchure d'une gorge, rivière qui se jette dans la mer turquoise, escalier de 15 minutes pour descendre. [[poi:plakias]] (45 min) : station balnéaire tranquille, et le vrai trésor c'est [[poi:korakas]], 20 minutes de sentier côtier à pied depuis Plakias — crique isolée, eau cristalline, quasi vide en octobre. [[poi:damnoni]] juste à côté : trois petites criques successives.
+        Pas à Rethymno même — au sud. [[poi:preveli]] (35 min) : palmeraie à l'embouchure d'une gorge, rivière qui se jette dans la mer turquoise, escalier de 15 minutes pour descendre. [[poi:plakias]] (45 min) : station balnéaire tranquille, et le vrai trésor c'est [[poi:korakas]], 20 minutes de sentier côtier à pied depuis Plakias — crique isolée, eau cristalline, quasi vide en juin, avant la ruée estivale. [[poi:damnoni]] juste à côté : trois petites criques successives.
 
         
 

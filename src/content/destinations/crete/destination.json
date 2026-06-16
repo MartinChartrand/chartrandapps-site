@@ -1,24 +1,24 @@
 {
   "slug": "crete",
-  "pageTitle": "Crète — Septembre 2027 · Itinéraire de voyage",
+  "pageTitle": "Crète — Mi-mai à juin 2027 · Itinéraire de voyage",
   "heroTitle": {
     "main": "Crète",
-    "em": "septembre"
+    "em": "mai-juin"
   },
   "heroSub": "Un mois dans le sud de l'île",
   "subtitle": "Un mois dans le sud de l'île",
-  "season": "Septembre 2027",
+  "season": "Mi-mai à juin 2027",
   "travelers": {
     "count": 2,
     "label": "Voyage en duo"
   },
   "arrival": {
-    "date": "2027-09-05",
+    "date": "2027-05-15",
     "airport": "CHQ",
     "city": "Chania"
   },
   "departure": {
-    "date": "2027-10-05",
+    "date": "2027-06-14",
     "airport": "HER",
     "city": "Héraklion"
   },
@@ -35,15 +35,15 @@
   "overviewIntro": "Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire suit la géographie ouest → sud → est → centre, de l'arrivée à Chania jusqu'au départ depuis Héraklion.",
   "intro": {
     "whySeason": {
-      "title": "Pourquoi septembre",
-      "body": "Eau à 26–28°C — le maximum thermique annuel. Foules divisées par trois après le 15 août. Les Crétois reprennent leur île. Lumière d'automne dorée, idéale pour la photo. Tarifs 30–40% inférieurs à juillet–août."
+      "title": "Pourquoi la fin du printemps",
+      "body": "Les journées s'allongent vers le solstice — la lumière du soir s'étire tard. Les collines sont encore vertes et les herbes sauvages en fleur, avant que la Crète ne brunisse l'été. La mer se réchauffe au fil des semaines — de ~19°C à la mi-mai jusqu'à ~23°C en juin : fraîche au début, bonne ensuite, et calme sur la côte sud. C'est avant la ruée de juillet-août — foules légères, surtout en mai. Et le début d'été dans les marchés : cerises, abricots, premières tomates, fèves et artichauts."
     },
     "logistics": {
       "title": "Logistique de base",
       "body": "Vol aller Montréal → Chania (CHQ), retour Héraklion (HER) → Montréal. Voiture louée à Chania pour toute la durée, sauf pendant Loutro (6 nuits) où elle reste garée à Chora Sfakion. Budget total estimé : ~11 400 $ CAD pour deux."
     }
   },
-  "footerNote": "Itinéraire préparé avec amour · Crète, septembre–octobre 2027",
+  "footerNote": "Itinéraire préparé avec amour · Crète, mi-mai à juin 2027",
   "episodic": true,
   "chapterTotal": 4,
   "container": {
@@ -83,7 +83,7 @@
         "base": "sitia",
         "kicker": "Chapitre 3 · 9 nuits",
         "title": "L'est authentique",
-        "teaser": "Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port, l'eau à son maximum thermique (27–28°C), et la palmeraie de Vaï au bout du monde.",
+        "teaser": "Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port, l'eau calme de la côte sud qui se réchauffe (~22–23°C en juin), et la palmeraie de Vaï au bout du monde.",
         "image": "sitia-cover"
       },
       {

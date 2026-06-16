@@ -4,7 +4,7 @@ slug: loutro
 title: Loutro
 kicker: le cœur du voyage
 nights: 6
-dates: 13–18 septembre
+dates: 23–29 mai
 focus: Côte sud · Accessible uniquement en bateau ou à pied · Mer de Libye
 subtitle: Village sans route, accessible uniquement en bateau. Maisons blanches en demi-lune, montagnes à pic, mer de Libye.
 summary: 'Village sans route, sans voiture. Maisons blanches sur une baie en demi-lune face à la Libye. Voiture garée à Chora Sfakion, ferry de 20 minutes. La pièce maîtresse du voyage — pour la baignade, l''isolement, l''eau turquoise, les criques accessibles à pied ou en bateau-taxi.'
@@ -27,7 +27,7 @@ tagBlock:
   label: 'Température de l''eau'
   tags:
     -
-      text: ~26–27°C mi-septembre
+      text: ~21–22°C fin mai
     -
       text: Mer de Libye — très calme
       tone: green
@@ -77,7 +77,7 @@ On laisse l'auto à [[poi:chora-sfakion-embarquement]] (~3 €/jour), on prend l
 
 #### L'eau
 
-        La mer de Libye est la plus calme de l'île. 26–27°C mi-septembre, quasi aucune vague. C'est la baignade longue — celle où on flotte sur le dos pendant une heure sans effort. [[poi:glyka-nera-sweet-water]] (Sweetwater Beach) à une heure de marche ou 20 minutes en bateau-taxi (~5 €) : des sources d'eau douce jaillissent sous les galets et créent des zones chaudes contre la mer salée. [[poi:marmara-beach]] à l'ouest pour ses grottes de marbre et la taverna Dialiskari avec son pain au feu de bois. Et la baie de Loutro elle-même se vide après 18h30, quand les bateaux de la journée repartent.
+        La mer de Libye est la plus calme de l'île. ~21–22°C fin mai, quasi aucune vague. C'est la baignade longue — celle où on flotte sur le dos pendant une heure sans effort. [[poi:glyka-nera-sweet-water]] (Sweetwater Beach) à une heure de marche ou 20 minutes en bateau-taxi (~5 €) : des sources d'eau douce jaillissent sous les galets et créent des zones chaudes contre la mer salée. [[poi:marmara-beach]] à l'ouest pour ses grottes de marbre et la taverna Dialiskari avec son pain au feu de bois. Et la baie de Loutro elle-même se vide après 18h30, quand les bateaux de la journée repartent.
 
         
 

@@ -27,7 +27,7 @@
     },
     {
       "kicker": "Quand le dernier ferry repart",
-      "body": "Le jour, les bateaux déversent les marcheurs des gorges, de 9h à 18h30. Puis le dernier ferry s'en va, et Loutro change de peau. Les chats reprennent le quai, les lumières s'allument sur la baie, les patrons des tavernas s'assoient enfin avec un raki. La mer de Libye — la plus calme de l'île, 26–27°C à la mi-septembre — devient un miroir. C'est l'heure où on nage sur le dos sans effort, où on traverse le village d'un bout à l'autre en sept minutes, où l'endroit se révèle. Le matin tôt, même magie, avant le retour des bateaux.",
+      "body": "Le jour, les bateaux déversent les marcheurs des gorges, de 9h à 18h30. Puis le dernier ferry s'en va, et Loutro change de peau. Les chats reprennent le quai, les lumières s'allument sur la baie, les patrons des tavernas s'assoient enfin avec un raki. La mer de Libye — la plus calme de l'île, ~21–22°C fin mai et qui se réchauffe — devient un miroir. C'est l'heure où on nage sur le dos sans effort, où on traverse le village d'un bout à l'autre en sept minutes, où l'endroit se révèle. Le matin tôt, même magie, avant le retour des bateaux.",
       "focusPoi": "hotel-porto-loutro",
       "zoom": 14,
       "targets": [
@@ -78,7 +78,7 @@
       "image": "lou-finix-cove",
       "alt": "Une crique sauvage et isolée au débouché d'une gorge de la côte sud de la Crète : une petite plage de galets coincée entre de hautes parois rocheuses, une eau turquoise profonde, presque personne.",
       "intro": "À quinze minutes de marche de Loutro, sur le sentier européen E4, la baie de Finix s'ouvre — l'ancien port d'Anopolis, un site quasi désert où une seule taverna tient le coup : l'Old Phoenix. On y arrive à pied le long de la côte, ou par bateau-taxi quand les jambes disent non. Le pain est pétri à la main, la cuisine se fait au feu de bois, et la baie n'appartient qu'à ceux qui ont fait l'effort de venir.",
-      "reco": "Réserve, surtout en septembre — la salle est minuscule. Le poisson du jour grillé, les légumes du jardin, le pain chaud sorti du four à bois. Mange face à la mer de Libye, sans un bruit de moteur, puis baigne-toi dans la crique avant de remonter le sentier. C'est le genre de repas qu'on raconte au retour : pas pour la cuisine élaborée, mais pour l'endroit impossible où on l'a mangé.",
+      "reco": "Réserve — la salle est minuscule, et la baie se mérite. Le poisson du jour grillé, les légumes du jardin, le pain chaud sorti du four à bois. Mange face à la mer de Libye, sans un bruit de moteur, puis baigne-toi dans la crique avant de remonter le sentier. C'est le genre de repas qu'on raconte au retour : pas pour la cuisine élaborée, mais pour l'endroit impossible où on l'a mangé.",
       "quote": "Pas de route, pas de quai, pas de foule. Juste un sentier, une baie sauvage, et une famille qui pétrit son pain et allume son feu pour les rares qui se présentent.",
       "via": null,
       "poiRef": "old-phoenix-finix-cove",
