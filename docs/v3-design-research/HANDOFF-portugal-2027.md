@@ -46,11 +46,10 @@ Nouveau voyage **from-scratch #4** (après Cyclades, Crète, Philippines, Andalo
 - `src/content/destinations/portugal/budget.json` — ~14 930 $ CAD, taux 1,62
 - `src/content/destinations/portugal/pratique.json` — 9 blocs
 
-**✅ Faits par agent de données (Sonnet) — À VÉRIFIER au schéma à la reprise :**
-- `src/content/destinations/portugal/pois.json`
-- `src/content/destinations/portugal/dishes.json`
-- `src/content/destinations/portugal/gems.json`
-- (sans champ `story` — provenance ajoutée en 1b ; build vert)
+**✅ Faits par agent de données (Sonnet) — VÉRIFIÉS + COMMITTÉS (`97042c3`) :**
+- `pois.json` (42 POIs) · `dishes.json` (32) · `gems.json` (24) — **98/98 valides au schéma**, build vert, KMLs générés, provenance no-op.
+- Sans champ `story` — provenance + `approvedBy:human` à brancher en 1b.
+- Notes agent : `lisbonne-bifanas-afonso` = onMap:false (pas de coords confirmées) ; Lisbonne n'a qu'un hôtel mid validé (Solar dos Mouros) → chercher un budget + un gem à la reprise ; Vallado exclu (hors budget), Quinta de la Rosa (gem) + Ventozelo (mid) retenues au Douro.
 
 **📂 Recherche brute (gitignorée, `.research/`) :** porto.md, douro.md, lisbonne.md, comporta.md, algarve.md — 5 dossiers complets (hébergements, restos, plages, foodie, gems, candidats sources créateurs, candidats Unsplash NON validés, narratif, pratique).
 
@@ -64,7 +63,7 @@ Nouveau voyage **from-scratch #4** (après Cyclades, Crète, Philippines, Andalo
 
 ## Plan de reprise (ordre exact)
 
-1. **Vérifier la donnée agent** : `node scripts/validate-provenance.mjs portugal` + `npm run validate:fast` (cible crete par défaut → faire aussi `astro build`). Corriger toute erreur de schéma dans pois/dishes/gems.
+1. ~~Vérifier la donnée agent~~ ✅ FAIT (committé `97042c3`, 98/98 valides). À la reprise : juste compléter Lisbonne (1 hôtel budget + 1 gem manquants).
 2. **Base Porto** (`bases/01-porto.md`) + **épisode Porto** (`episodes/porto.json`) — clone du gabarit OR `crete/episodes/chania.json` et `crete/bases/01-chania.md`. Référencer les ids de POIs réels. **C'est l'épisode RÉFÉRENCE** : on le prouve avant de cloner ×4.
 3. **Images Porto + hero + hookImage** : candidats Unsplash dans `.research/porto.md` + `.research/algarve.md` (Praia da Marinha). Workflow : résoudre long IDs (curl redirect) → `images.json` → `fetch-images.mjs portugal` → `vision:images portugal` (zéro mismatch exigé). Méthode groundée — voir mémoire `sourcing-images-unsplash-grounded` (404 = ID fabriqué ; 200 ≠ match sémantique ; grille HTML pinchtab pour le match visuel).
 4. **CHECKPOINT 2** — `npm run build && npm run preview` → screenshot hero `/portugal/` → valider palette + structure avec Martin. ⚠️ pinchtab = Chromium, pas Safari : pour le vrai rendu iOS, passe iPhone de Martin (mémoire `verif-ios-simulateur-xcode`).
