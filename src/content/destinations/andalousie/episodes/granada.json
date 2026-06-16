@@ -5,13 +5,23 @@
       "body": "Le 2 janvier 1492, Boabdil rend les clés de l'Alhambra. Sept cent quatre-vingts ans d'Al-Andalus finissent ici, dans cette ville. Mais regarde bien le palais sur la colline : il est intact. On va y revenir — parce que Granada n'a pas été détruite. Elle a été gardée. Et ça change tout.",
       "focusPoi": "granada-alhambra",
       "zoom": 15,
-      "targets": ["granada-alhambra"],
+      "targets": [
+        "granada-alhambra"
+      ],
       "thumb": "granada-cover",
       "thumbAlt": "L'Alhambra sur sa colline, la Sierra Nevada derrière, vue depuis l'Albaicín",
       "poiRef": "granada-alhambra",
       "sources": [
-        { "creator": "Wikipedia — Treaty of Granada (1491)", "url": "https://en.wikipedia.org/wiki/Treaty_of_Granada_(1491)", "date": "2024-01" },
-        { "creator": "Patronato de la Alhambra y Generalife", "url": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices", "date": "2026-06" }
+        {
+          "creator": "Wikipedia — Treaty of Granada (1491)",
+          "url": "https://en.wikipedia.org/wiki/Treaty_of_Granada_(1491)",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Patronato de la Alhambra y Generalife",
+          "url": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices",
+          "date": "2026-06"
+        }
       ]
     },
     {
@@ -19,25 +29,39 @@
       "body": "À cinq cents mètres de là, dans la Capilla Real, Ferdinand et Isabelle se sont fait enterrer — pile dans la ville qu'ils venaient de prendre. À côté, leur cathédrale est posée sur la grande mosquée. Toute la ville est un geste : poser la pierre des vainqueurs sur celle des vaincus, sans la cacher.",
       "focusPoi": "granada-capilla-real",
       "zoom": 16,
-      "targets": ["granada-capilla-real", "granada-catedral"],
+      "targets": [
+        "granada-capilla-real",
+        "granada-catedral"
+      ],
       "thumb": "granada-capilla-real",
       "thumbAlt": "La Capilla Real de Granada, où reposent Ferdinand et Isabelle",
       "poiRef": "granada-capilla-real",
       "sources": [
-        { "creator": "Capilla Real de Granada (officiel)", "url": "https://capillarealgranada.com/en/the-temple/the-royal-mausoleums-and-the-crypt/", "date": "2024-01" }
+        {
+          "creator": "Capilla Real de Granada (officiel)",
+          "url": "https://capillarealgranada.com/en/the-temple/the-royal-mausoleums-and-the-crypt/",
+          "date": "2024-01"
+        }
       ]
     },
     {
       "kicker": "Le pacte de la tapa",
-      "body": "Et puis il y a l'autre Granada, celle qui se boit. Ici, un verre commandé arrive avec une tapa offerte. Gratuite. Un pacte non écrit qui a survécu à un maire qui voulait le tuer en 2022. Trois verres, trois vraies tapas, dix euros. C'est l'identité de la ville autant que le palais.",
+      "body": "Et puis il y a l'autre Granada, celle qui se boit. Ici, un verre commandé arrive avec une tapa offerte. Gratuite. Un pacte non écrit qui a survécu à un maire qui voulait le tuer en 2022. Trois verres, trois vraies tapas, dix euros (~CAD 15). C'est l'identité de la ville autant que le palais.",
       "focusPoi": "granada-los-diamantes",
       "zoom": 17,
-      "targets": ["granada-los-diamantes", "granada-castaneda"],
+      "targets": [
+        "granada-los-diamantes",
+        "granada-castaneda"
+      ],
       "thumb": "granada-tapa",
       "thumbAlt": "Une bière et une tapa sur le comptoir d'un bar, province de Granada",
       "poiRef": "granada-los-diamantes",
       "sources": [
-        { "creator": "The Objective — la tapa gratuite de Granada (2022)", "url": "https://theobjective.com/sociedad/2022-03-31/granada-tapas-gratuitas/", "date": "2022-03" }
+        {
+          "creator": "The Objective — la tapa gratuite de Granada (2022)",
+          "url": "https://theobjective.com/sociedad/2022-03-31/granada-tapas-gratuitas/",
+          "date": "2022-03"
+        }
       ]
     }
   ],
@@ -54,8 +78,16 @@
       "via": null,
       "poiRef": "granada-alhambra",
       "sources": [
-        { "creator": "Patronato de la Alhambra y Generalife", "url": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices", "date": "2026-06" },
-        { "creator": "Wikipedia — Palace of Charles V", "url": "https://en.wikipedia.org/wiki/Palace_of_Charles_V", "date": "2024-01" }
+        {
+          "creator": "Patronato de la Alhambra y Generalife",
+          "url": "https://www.alhambra-patronato.es/en/visit/opening-hours-and-prices",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Wikipedia — Palace of Charles V",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Charles_V",
+          "date": "2024-01"
+        }
       ]
     },
     {
@@ -70,8 +102,16 @@
       "via": null,
       "poiRef": "granada-capilla-real",
       "sources": [
-        { "creator": "El Independiente de Granada — le mythe inventé par Guevara (1539)", "url": "https://www.elindependientedegranada.es/cultura/ultimo-suspiro-moro-que-invento-obispo-guadix", "date": "2024-01" },
-        { "creator": "Wikipedia — Alhambra Decree", "url": "https://en.wikipedia.org/wiki/Alhambra_Decree", "date": "2024-01" }
+        {
+          "creator": "El Independiente de Granada — le mythe inventé par Guevara (1539)",
+          "url": "https://www.elindependientedegranada.es/cultura/ultimo-suspiro-moro-que-invento-obispo-guadix",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Wikipedia — Alhambra Decree",
+          "url": "https://en.wikipedia.org/wiki/Alhambra_Decree",
+          "date": "2024-01"
+        }
       ]
     },
     {
@@ -86,8 +126,16 @@
       "via": null,
       "poiRef": "granada-los-diamantes",
       "sources": [
-        { "creator": "The Objective — la tapa gratuite de Granada (2022)", "url": "https://theobjective.com/sociedad/2022-03-31/granada-tapas-gratuitas/", "date": "2022-03" },
-        { "creator": "Los Diamantes (site officiel)", "url": "https://losdiamantes.es/ubicaciones/", "date": "2026-06" }
+        {
+          "creator": "The Objective — la tapa gratuite de Granada (2022)",
+          "url": "https://theobjective.com/sociedad/2022-03-31/granada-tapas-gratuitas/",
+          "date": "2022-03"
+        },
+        {
+          "creator": "Los Diamantes (site officiel)",
+          "url": "https://losdiamantes.es/ubicaciones/",
+          "date": "2026-06"
+        }
       ]
     },
     {
@@ -102,8 +150,16 @@
       "via": null,
       "poiRef": "granada-casa-juanillo",
       "sources": [
-        { "creator": "Directo al Paladar — tortilla del Sacromonte", "url": "https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/receta-tortilla-sacromonte-tortilla-casqueria-insignia-gastronomia-granada", "date": "2026-06" },
-        { "creator": "Museo Cuevas del Sacromonte (officiel)", "url": "https://sacromontegranada.com/en/", "date": "2025-06" }
+        {
+          "creator": "Directo al Paladar — tortilla del Sacromonte",
+          "url": "https://www.directoalpaladar.com/recetas-de-huevos-y-tortillas/receta-tortilla-sacromonte-tortilla-casqueria-insignia-gastronomia-granada",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Museo Cuevas del Sacromonte (officiel)",
+          "url": "https://sacromontegranada.com/en/",
+          "date": "2025-06"
+        }
       ]
     }
   ],
@@ -111,17 +167,41 @@
     {
       "kicker": "La ville maure d'en bas",
       "body": "Le circuit à pied, sans l'Alhambra : monter l'Albaicín par ses ruelles blanches jusqu'au Mirador de San Nicolás pour la vue au coucher (la vraie photo de Granada), redescendre la Carrera del Darro le long de la rivière — El Bañuelo, des bains arabes du XIᵉ restés debout — et finir au Paseo de los Tristes, face à la falaise.",
-      "boundsPois": ["granada-albaicin", "granada-mirador-san-nicolas", "granada-carrera-darro"],
-      "targets": ["granada-albaicin", "granada-mirador-san-nicolas", "granada-carrera-darro"],
+      "boundsPois": [
+        "granada-albaicin",
+        "granada-mirador-san-nicolas",
+        "granada-carrera-darro"
+      ],
+      "targets": [
+        "granada-albaicin",
+        "granada-mirador-san-nicolas",
+        "granada-carrera-darro"
+      ],
       "thumb": "granada-albaicin",
       "thumbAlt": "Ruelle blanche typique de l'Albaicín à Granada",
       "pills": [
-        { "poiRef": "granada-mirador-san-nicolas", "link": "official", "label": "Mirador de San Nicolás" },
-        { "poiRef": "granada-carrera-darro", "link": "official", "label": "Carrera del Darro · El Bañuelo" },
-        { "poiRef": "granada-albaicin", "link": "maps", "label": "Albaicín · Maps" }
+        {
+          "poiRef": "granada-mirador-san-nicolas",
+          "link": "official",
+          "label": "Mirador de San Nicolás"
+        },
+        {
+          "poiRef": "granada-carrera-darro",
+          "link": "official",
+          "label": "Carrera del Darro · El Bañuelo"
+        },
+        {
+          "poiRef": "granada-albaicin",
+          "link": "maps",
+          "label": "Albaicín · Maps"
+        }
       ],
       "sources": [
-        { "creator": "Turismo de Granada — Mirador San Nicolás", "url": "https://turismo.granada.org/en/mirador-san-nicolas-viewpoint", "date": "2026-06" }
+        {
+          "creator": "Turismo de Granada — Mirador San Nicolás",
+          "url": "https://turismo.granada.org/en/mirador-san-nicolas-viewpoint",
+          "date": "2026-06"
+        }
       ]
     },
     {
@@ -129,20 +209,50 @@
       "body": "Au-delà de la tortilla : les habas con jamón chez Chikito (l'œuf compris), le pionono de Casa Ysla depuis 1897, le pan d'Alfacar IGP qui structure chaque tapa, et le vin d'altitude D.O. Granada que personne n'attend, à goûter à La Tana. Tout est dans le carnet, avec les liens et les prix.",
       "focusPoi": "granada-chikito",
       "zoom": 15,
-      "targets": ["granada-chikito"],
+      "targets": [
+        "granada-chikito"
+      ],
       "thumb": "granada-habas-jamon",
       "thumbAlt": "Assiette de habas con jamón — fèves et jambon à la granadine",
-      "pills": [{ "label": "Le carnet de bouche", "url": "#carnet" }],
+      "pills": [
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
       "sources": [
-        { "creator": "Restaurante Chikito (carte officielle)", "url": "https://restaurantechikito.com/menu/carta-restaurante-chikito/", "date": "2026-06" }
+        {
+          "creator": "Restaurante Chikito (carte officielle)",
+          "url": "https://restaurantechikito.com/menu/carta-restaurante-chikito/",
+          "date": "2026-06"
+        }
       ]
     }
   ],
   "carnet": {
     "groups": [
-      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Dormir dans l'Albaicín ou le Realejo, à pied de tout. ZBE active depuis octobre 2025 : sans vignette DGT, se garer directement dans un parking agréé — jamais suivre Waze dans l'Albaicín (amende +200 €)." },
-      { "label": "Où manger", "kinds": ["resto"], "footer": "La tapa offerte tient hors des axes touristiques. Un verre = une tapa. Si on te la facture, tu sors." },
-      { "label": "À voir & faire", "kinds": ["sight", "activity"], "footer": "L'Alhambra d'abord — créneau des Palais nasrides réservé des semaines à l'avance. Le reste se marche." }
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "Dormir dans l'Albaicín ou le Realejo, à pied de tout. ZBE active depuis octobre 2025 : sans vignette DGT, se garer directement dans un parking agréé — jamais suivre Waze dans l'Albaicín (amende +200 € · ~CAD 300)."
+      },
+      {
+        "label": "Où manger",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "La tapa offerte tient hors des axes touristiques. Un verre = une tapa. Si on te la facture, tu sors."
+      },
+      {
+        "label": "À voir & faire",
+        "kinds": [
+          "sight",
+          "activity"
+        ],
+        "footer": "L'Alhambra d'abord — créneau des Palais nasrides réservé des semaines à l'avance. Le reste se marche."
+      }
     ],
     "dishesTitle": "Le carnet de bouche"
   },

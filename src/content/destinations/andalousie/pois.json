@@ -13,7 +13,7 @@
     "signature": "",
     "image": "triana-pureza",
     "price": {
-      "range": "~70–95 €/nuit (est. 2027)",
+      "range": "~70–95 € (~CAD 105–145)/nuit (est. 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -51,7 +51,7 @@
     "signature": "",
     "image": "casa-triana-betis",
     "price": {
-      "range": "~130–185 €/nuit (est. 2027)",
+      "range": "~130–185 € (~CAD 195–280)/nuit (est. 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -106,7 +106,7 @@
     "signature": "",
     "image": "triana-patio",
     "price": {
-      "range": "~180–270 €/nuit (est. 2027)",
+      "range": "~180–270 € (~CAD 270–405)/nuit (est. 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -161,7 +161,7 @@
     "signature": "Puntas de solomillo (pointes de filet de porc grillées sur lit de patates) — le classique que les habitués commandent sans le nommer",
     "image": "golondrinas-bar",
     "price": {
-      "range": "tapas ~3–4 € / ración ~9–14 € (est. 2027)",
+      "range": "tapas ~3–4 € (~CAD 5–6) / ración ~9–14 € (~CAD 14–21) (est. 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -206,7 +206,7 @@
     "signature": "Rabo de toro (queue de taureau braisée) et guisos traditionnels — table d'institution, pas un bar à tapas express",
     "image": "rabo-toro",
     "price": {
-      "range": "tapas ~3–4,50 € / plats ~12–18 € (est. 2027)",
+      "range": "tapas ~3–4,50 € (~CAD 5–7) / plats ~12–18 € (~CAD 18–27) (est. 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -256,7 +256,7 @@
     "signature": "Morcilla aux oignons caramélisés couronnée d'un œuf de caille ; ventrèche de thon et seiche panée à la mayo d'oloroso",
     "image": "azotea-morcilla",
     "price": {
-      "range": "plats ~9–16 € (est. 2027)",
+      "range": "plats ~9–16 € (~CAD 14–24) (est. 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -326,7 +326,7 @@
     "signature": "Menu dégustation andalou de saison (option « Sobretablas Deluxe » avec accord vins) — produit local, technique de haute cuisine",
     "image": "sobretablas-plat",
     "price": {
-      "range": "menu dégustation ~55–80 €/pers (est. 2027, à confirmer)",
+      "range": "menu dégustation ~55–80 € (~CAD 85–120)/pers (est. 2027, à confirmer)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -372,7 +372,7 @@
     "signature": "Espinacas con garbanzos (épinards-pois chiches au cumin, recette morisque) — la tapa la plus demandée de la maison",
     "image": "el-rinconcillo",
     "price": {
-      "range": "tapas ~3–4 € / repas ~30–45 €/pers (est. 2027)",
+      "range": "tapas ~3–4 € (~CAD 5–6) / repas ~30–45 € (~CAD 45–70)/pers (est. 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -492,7 +492,7 @@
     "signature": "",
     "image": "ceramica-triana",
     "price": {
-      "range": "~2–3 € (à confirmer 2027)",
+      "range": "~2–3 € (~CAD 3–5) (à confirmer 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -659,7 +659,7 @@
     "signature": "",
     "image": "alcazar",
     "price": {
-      "range": "général ~15,50 € (asOf 2026 — re-valider 2027) ; réduit ~8 € ; gratuit 18h–18h30 sur résa",
+      "range": "général ~15,50 € (~CAD 23) (asOf 2026 — re-valider 2027) ; réduit ~8 € (~CAD 12) ; gratuit 18h–18h30 sur résa",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -709,7 +709,7 @@
     "signature": "",
     "image": "giralda",
     "price": {
-      "range": "~12–13 € (à re-valider 2027)",
+      "range": "~12–13 € (~CAD 18–20) (à re-valider 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -815,7 +815,7 @@
     "signature": "Jamón 5J 100% ibérico de bellota ; charcuterie caña de lomo / presa accordée à l'oloroso",
     "image": "cinco-jotas",
     "price": {
-      "range": "visite de base ~28 €/pers (60 min) ; dégustation étendue ~46 €/pers (80 min) — asOf 2026, re-valider 2027",
+      "range": "visite de base ~28 € (~CAD 40)/pers (60 min) ; dégustation étendue ~46 € (~CAD 70)/pers (80 min) — asOf 2026, re-valider 2027",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -865,7 +865,7 @@
     "signature": "Presa ibérica grillée et carrillada ibérica (joue de porc braisée) ; croquetas de jamón de bellota",
     "image": "las-bellotas-carrillada",
     "price": {
-      "range": "raciones ~10–20 € (est. 2027)",
+      "range": "raciones ~10–20 € (~CAD 15–30) (est. 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -931,7 +931,7 @@
     "signature": "",
     "image": "gruta-maravillas",
     "price": {
-      "range": "adulte ~15 € / enfant 6–12 ~11 € (asOf 2026 — re-valider 2027)",
+      "range": "adulte ~15 € (~CAD 23) / enfant 6–12 ~11 € (~CAD 17) (asOf 2026 — re-valider 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -977,7 +977,7 @@
     "signature": "",
     "image": "museo-jamon",
     "price": {
-      "range": "adulte ~3,50 € / 65+ ~3 € (asOf 2026 — re-valider 2027)",
+      "range": "adulte ~3,50 € (~CAD 5) / 65+ ~3 € (~CAD 5) (asOf 2026 — re-valider 2027)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1023,7 +1023,7 @@
     "signature": "Junior Suite Valley View — volets ouverts sur le Puente Nuevo et le Tajo d'un coup",
     "image": null,
     "price": {
-      "range": "~120–290 €/nuit (est. 2025)",
+      "range": "~120–290 € (~CAD 180–435)/nuit (est. 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1072,7 +1072,7 @@
     "blurb": "Onze chambres collées contre les bains arabes du XIIIe, dans le Barrio San Francisco médiéval. Design mauresque, jardin, piscine face aux remparts. Le seul de la liste avec parking public gratuit à deux pas — sur 5 nuits en voiture, c'est l'argument décisif.",
     "image": null,
     "price": {
-      "range": "~75–130 €/nuit (est. 2025)",
+      "range": "~75–130 € (~CAD 115–195)/nuit (est. 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1115,7 +1115,7 @@
     "blurb": "L'ancienne mairie de 1761 plantée sur le bord du précipice, côté El Mercadillo (pas besoin de traverser le Puente Nuevo en voiture — évite la zone restreinte). La terrasse panoramique au-dessus du Tajo = la vue la plus spectaculaire de Ronda. L'astuce honnête : un fino au coucher du soleil même si tu dors ailleurs.",
     "image": null,
     "price": {
-      "range": "~150–250 €/nuit selon saison (est. 2025)",
+      "range": "~150–250 € (~CAD 225–375)/nuit selon saison (est. 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1164,7 +1164,7 @@
     "blurb": "Maison-manoir du XVIIIe dans la vieille ville, tenue en famille. Petit salon de cinéma avec fauteuils récupérés d'un vieux théâtre, bibliothèque, patio. L'antithèse de l'hôtel de chaîne — du caractère, pas une vue vendue au prix fort.",
     "image": null,
     "price": {
-      "range": "~80–130 €/nuit (est. 2025)",
+      "range": "~80–130 € (~CAD 120–195)/nuit (est. 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1214,7 +1214,7 @@
     "signature": "Menu dégustation autour des produits de la Serranía",
     "image": null,
     "price": {
-      "range": "menu dégustation ~195–230 €/pers (à confirmer à la réservation, 2025)",
+      "range": "menu dégustation ~195–230 € (~CAD 295–345)/pers (à confirmer à la réservation, 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1260,11 +1260,11 @@
     ],
     "tier": "mid",
     "name": "Tragatá",
-    "blurb": "Le gastrobar de Benito Gómez — et la maison-mère, ouverte en 2006, dix ans AVANT Bardal. Pas le chef étoilé qui « descend » faire des tapas : c'est ici qu'il a bâti son piédestal. Pastrami ibérique en brioche, rabo de toro à la purée, croquetas de jamón. ~35 €/pers, le génie sans l'addition gastronomique.",
+    "blurb": "Le gastrobar de Benito Gómez — et la maison-mère, ouverte en 2006, dix ans AVANT Bardal. Pas le chef étoilé qui « descend » faire des tapas : c'est ici qu'il a bâti son piédestal. Pastrami ibérique en brioche, rabo de toro à la purée, croquetas de jamón. ~35 €/pers (~CAD 55), le génie sans l'addition gastronomique.",
     "signature": "Pastrami ibérique Dehesa de los Monteros en brioche, coleslaw et pickles",
     "image": null,
     "price": {
-      "range": "~35 €/pers (2025)",
+      "range": "~35 € (~CAD 55)/pers (2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1311,11 +1311,11 @@
     ],
     "tier": "budget",
     "name": "El Lechuguita",
-    "blurb": "Le bar de tapas que Benito Gómez lui-même nomme comme son spot préféré en ville — la donnée la plus précieuse qui soit : le chef 2 étoiles qui te dit « pour les tapas, je vais là ». Tapas à 1,20 € pièce, menu papier, 30 lignes : bollito de pringá, chorizo de Ronda, serranito. Décor inchangé depuis des décennies.",
-    "signature": "Le bollito de pringá et le serranito — à 1,20 € la tapa, on coche le menu papier",
+    "blurb": "Le bar de tapas que Benito Gómez lui-même nomme comme son spot préféré en ville — la donnée la plus précieuse qui soit : le chef 2 étoiles qui te dit « pour les tapas, je vais là ». Tapas à 1,20 € (~CAD 2) pièce, menu papier, 30 lignes : bollito de pringá, chorizo de Ronda, serranito. Décor inchangé depuis des décennies.",
+    "signature": "Le bollito de pringá et le serranito — à 1,20 € (~CAD 2) la tapa, on coche le menu papier",
     "image": null,
     "price": {
-      "range": "tapas ~1,20 € pièce · ~10–15 €/pers (2025)",
+      "range": "tapas ~1,20 € (~CAD 2) pièce · ~10–15 € (~CAD 15–23)/pers (2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1365,7 +1365,7 @@
     "signature": "Rabo de toro Pedro Romero, mijoté lentement au vin rouge local (recette publiée depuis des décennies)",
     "image": null,
     "price": {
-      "range": "~20–30 €/pers (2025)",
+      "range": "~20–30 € (~CAD 30–45)/pers (2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1414,7 +1414,7 @@
     "blurb": "42 ans à construire (1751-1793), 120 m de vide creusés par la Guadalevín. La plupart repartent avec la photo sans savoir ce qui s'est passé ici (voir le carnet : le mythe Hemingway de la guerre civile, démonté). Le selfie est le réflexe touristique. Rester dix minutes avec le poids de l'endroit, c'est le vrai geste.",
     "image": "ronda-puente-nuevo",
     "price": {
-      "range": "traversée gratuite · Centro de Interpretación 2,50 € (2025)",
+      "range": "traversée gratuite · Centro de Interpretación 2,50 € (~CAD 4) (2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1464,7 +1464,7 @@
     "signature": "L'arène de pierre + le musée taurin ; à l'entrée, le monument à Orson Welles",
     "image": "ronda-plaza-toros",
     "price": {
-      "range": "9 € · 10,50 € avec audioguide (2025)",
+      "range": "9 € (~CAD 14) · 10,50 € (~CAD 16) avec audioguide (2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1513,7 +1513,7 @@
     "blurb": "Un des hammams les mieux conservés de la péninsule — l'original, pas une reconstruction. Chambres froide, tiède, chaude ; les étoiles percées dans la voûte filtrent encore la lumière d'origine. À Grenade et Séville, les bains arabes sont des reproductions pour touristes. Ici c'est le vrai bâtiment, 700 ans debout, dans un quartier que les day-trippers n'atteignent pas.",
     "image": "ronda-banos-arabes",
     "price": {
-      "range": "4,50 € (2025)",
+      "range": "4,50 € (~CAD 7) (2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1563,7 +1563,7 @@
     "signature": "Descendre les 231 marches de la mine nasride jusqu'à la Guadalevín",
     "image": "ronda-casa-rey-moro",
     "price": {
-      "range": "jardins + mine 10 € (2026)",
+      "range": "jardins + mine 10 € (~CAD 15) (2026)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1609,10 +1609,10 @@
     ],
     "tier": null,
     "name": "Palacio de Mondragón",
-    "blurb": "Palais nasride reconverti en musée municipal, cœur du parcours hors-cars de la vieille ville. Patios, stucs et vue sur la serranía. Le circuit honnête : Mondragón → Santa María la Mayor (église sur mosquée sur temple romain) → le vieux pont arabe quasi désert. Le Bono Turístico à 12 € le couvre si tu fais trois sites.",
+    "blurb": "Palais nasride reconverti en musée municipal, cœur du parcours hors-cars de la vieille ville. Patios, stucs et vue sur la serranía. Le circuit honnête : Mondragón → Santa María la Mayor (église sur mosquée sur temple romain) → le vieux pont arabe quasi désert. Le Bono Turístico à 12 € (~CAD 18) le couvre si tu fais trois sites.",
     "image": "ronda-mondragon",
     "price": {
-      "range": "3 € · Bono Turístico 12 € pour 3+ sites (2025)",
+      "range": "3 € (~CAD 5) · Bono Turístico 12 € (~CAD 18) pour 3+ sites (2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1713,7 +1713,7 @@
     "signature": "Chambre avec terrasse sur le jardin et la colline de l'Alhambra en face",
     "image": null,
     "price": {
-      "range": "~190–290 €/nuit (est. 2025, haute saison à confirmer)",
+      "range": "~190–290 € (~CAD 285–435)/nuit (est. 2025, haute saison à confirmer)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1763,7 +1763,7 @@
     "signature": "Chambre avec vue directe sur l'Alhambra, dans une demeure de 1503",
     "image": null,
     "price": {
-      "range": "~70–160 €/nuit (est. 2025)",
+      "range": "~70–160 € (~CAD 105–240)/nuit (est. 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1813,7 +1813,7 @@
     "signature": "Patio à l'artesonado mudéjar de 1512 et fresques de l'école de Raphaël",
     "image": null,
     "price": {
-      "range": "~90–190 €/nuit (est. 2025)",
+      "range": "~90–190 € (~CAD 135–285)/nuit (est. 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1863,7 +1863,7 @@
     "signature": "Terrasse et piscine sur les toits du Realejo",
     "image": null,
     "price": {
-      "range": "~80–290 €/nuit (fourchette large 2025, juin à confirmer)",
+      "range": "~80–290 € (~CAD 120–435)/nuit (fourchette large 2025, juin à confirmer)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1914,7 +1914,7 @@
     "signature": "Fritura de pescado au comptoir, tapa offerte qui grimpe à chaque tournée",
     "image": null,
     "price": {
-      "range": "~8–15 €/pers au comptoir (tapa offerte avec la conso)",
+      "range": "~8–15 € (~CAD 12–23)/pers au comptoir (tapa offerte avec la conso)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1965,7 +1965,7 @@
     "signature": "Calicasas (cocktail maison secret) et tapa offerte sous les jambons",
     "image": null,
     "price": {
-      "range": "~10–18 €/pers au comptoir",
+      "range": "~10–18 € (~CAD 15–27)/pers au comptoir",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2016,7 +2016,7 @@
     "signature": "Jamón asado (cuisson verticale) et alioli maison, à la barra",
     "image": null,
     "price": {
-      "range": "~8–14 €/pers au comptoir (tapa offerte)",
+      "range": "~8–14 € (~CAD 12–21)/pers au comptoir (tapa offerte)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2062,11 +2062,11 @@
     ],
     "tier": "mid",
     "name": "Los Manueles (Reyes Católicos)",
-    "blurb": "Une institution de la cuisine granadine depuis 1917 — l'original (La Manigua) a fermé en 2005, et la bonne adresse aujourd'hui c'est Reyes Católicos 61, pas la succursale ouverte en 2021 près de la cathédrale. Carte de casquería assumée : c'est ici qu'on apprend la cuisine d'abats de Granada, plato del día à 8 € (lun–jeu), menu complet à 13,90 €.",
+    "blurb": "Une institution de la cuisine granadine depuis 1917 — l'original (La Manigua) a fermé en 2005, et la bonne adresse aujourd'hui c'est Reyes Católicos 61, pas la succursale ouverte en 2021 près de la cathédrale. Carte de casquería assumée : c'est ici qu'on apprend la cuisine d'abats de Granada, plato del día à 8 € (~CAD 12) (lun–jeu), menu complet à 13,90 € (~CAD 21).",
     "signature": "Tortilla del Sacromonte et casquería, la salle de classe de la cuisine granadine",
     "image": null,
     "price": {
-      "range": "plato del día 8 € (lun–jeu) · menú complet 13,90 €",
+      "range": "plato del día 8 € (~CAD 12) (lun–jeu) · menú complet 13,90 € (~CAD 21)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2116,7 +2116,7 @@
     "signature": "Habas con jamón a la granaína (œuf compris) et tortilla del Sacromonte",
     "image": null,
     "price": {
-      "range": "habas con jamón ~14,50 € · à la carte ~25–35 €/pers",
+      "range": "habas con jamón ~14,50 € (~CAD 22) · à la carte ~25–35 € (~CAD 40–55)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2166,7 +2166,7 @@
     "signature": "Tortilla del Sacromonte en terrasse, face à l'Alhambra",
     "image": null,
     "price": {
-      "range": "~20–30 €/pers",
+      "range": "~20–30 € (~CAD 30–45)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2217,7 +2217,7 @@
     "signature": "Vins D.O. Granada au verre — la Contraviesa-Alpujarras d'altitude",
     "image": null,
     "price": {
-      "range": "verre ~3–6 € · tapas d'accompagnement",
+      "range": "verre ~3–6 € (~CAD 5–9) · tapas d'accompagnement",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2267,7 +2267,7 @@
     "signature": "Les Palais nasrides — créneau horodaté à réserver tôt",
     "image": "granada-alhambra",
     "price": {
-      "range": "billet général jour 22,27 € (Patronato 2026 — revalider, change en janvier)",
+      "range": "billet général jour 22,27 € (~CAD 35) (Patronato 2026 — revalider, change en janvier)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2414,7 +2414,7 @@
     "blurb": "La rue qui longe le Darro au pied de l'Alhambra, ponts médiévaux et façades qui penchent — souvent citée parmi les plus belles d'Europe. À mi-chemin, El Bañuelo : des bains arabes du XIe siècle, parmi les plus anciens et les mieux conservés d'Espagne, restés debout là où ceux de Séville et d'ailleurs ont disparu. Elle débouche sur le Paseo de los Tristes, face à la falaise de l'Alhambra.",
     "image": "granada-carrera-darro",
     "price": {
-      "range": "rue gratuite · El Bañuelo ~5 € (billet Dawla)",
+      "range": "rue gratuite · El Bañuelo ~5 € (~CAD 8) (billet Dawla)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2460,10 +2460,10 @@
     ],
     "tier": null,
     "name": "Sacromonte",
-    "blurb": "La colline gitane en face de l'Albaicín, les cuevas creusées dans la roche, le berceau de la zambra — le flamenco de Granada. Le Museo Cuevas del Sacromonte montre comment on vivait dans ces grottes (~6 €). C'est ici que les abats d'agneau sont devenus la tortilla del Sacromonte : la bouffe de la misère, montée en plat-signature.",
+    "blurb": "La colline gitane en face de l'Albaicín, les cuevas creusées dans la roche, le berceau de la zambra — le flamenco de Granada. Le Museo Cuevas del Sacromonte montre comment on vivait dans ces grottes (~6 € · ~CAD 9). C'est ici que les abats d'agneau sont devenus la tortilla del Sacromonte : la bouffe de la misère, montée en plat-signature.",
     "image": "granada-sacromonte",
     "price": {
-      "range": "quartier gratuit · Museo Cuevas ~6 €",
+      "range": "quartier gratuit · Museo Cuevas ~6 € (~CAD 9)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2512,7 +2512,7 @@
     "blurb": "La boucle de 1492 qui se ferme : Ferdinand et Isabelle ont choisi de se faire enterrer ici, dans la ville qu'ils venaient de prendre. Leurs gisants de marbre (avec Jeanne la Folle et Philippe le Beau) au-dessus de la crypte, la grille, et la sacristie où dorment la couronne et le sceptre d'Isabelle. À 50 m, la cathédrale plantée sur l'ancienne grande mosquée. La possession faite pierre.",
     "image": "granada-capilla-real",
     "price": {
-      "range": "adulte ~6 € (billet sur place ou en ligne)",
+      "range": "adulte ~6 € (~CAD 9) (billet sur place ou en ligne)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2561,7 +2561,7 @@
     "blurb": "La cathédrale Renaissance commandée par Charles V, bâtie sur la grande mosquée nasride — la nef blanche, les piliers énormes, la Capilla Mayor circulaire. Le même geste que le palais dans l'Alhambra : poser la pierre chrétienne sur la pierre musulmane, sans la cacher. À côté, l'Alcaicería, ce qui reste du souk de la soie nasride, réduit à une ruelle de boutiques.",
     "image": null,
     "price": {
-      "range": "adulte ~6 €",
+      "range": "adulte ~6 € (~CAD 9)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2607,11 +2607,11 @@
     ],
     "tier": null,
     "name": "Zambra aux Cuevas Los Tarantos",
-    "blurb": "La zambra dans une grotte du Sacromonte, famille fondatrice depuis 1972, 10–12 artistes, ~1 h. Trois séances : 19 h, 21 h 15, 22 h 30. Pour éviter les cars de tourisme, viser 21 h 15 — le forfait transport panoramique est branché exclusivement sur le 22 h 30, qui ramasse les groupes. 28 € (spectacle + copa), réservation directe plutôt que par les OTAs.",
+    "blurb": "La zambra dans une grotte du Sacromonte, famille fondatrice depuis 1972, 10–12 artistes, ~1 h. Trois séances : 19 h, 21 h 15, 22 h 30. Pour éviter les cars de tourisme, viser 21 h 15 — le forfait transport panoramique est branché exclusivement sur le 22 h 30, qui ramasse les groupes. 28 € (~CAD 40) (spectacle + copa), réservation directe plutôt que par les OTAs.",
     "signature": "Zambra dans la grotte — viser la séance de 21 h 15",
     "image": null,
     "price": {
-      "range": "28 € (spectacle + copa)",
+      "range": "28 € (~CAD 40) (spectacle + copa)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2661,7 +2661,7 @@
     "signature": "Chambre vue mer au-dessus des falaises, le Restaurant 34 en bas",
     "image": null,
     "price": {
-      "range": "~120–230 €/nuit (est. 2025)",
+      "range": "~120–230 € (~CAD 180–345)/nuit (est. 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2711,7 +2711,7 @@
     "signature": "Base centrale à Nerja, piscines sur le toit",
     "image": null,
     "price": {
-      "range": "~145–305 €/nuit (haute saison juin)",
+      "range": "~145–305 € (~CAD 220–460)/nuit (haute saison juin)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2761,7 +2761,7 @@
     "signature": "Chambre-terrasse face à la sierra, dans les hauteurs de Frigiliana",
     "image": null,
     "price": {
-      "range": "~145–225 €/nuit (−15 % sur 7 nuits, est. 2025)",
+      "range": "~145–225 € (~CAD 220–340)/nuit (−15 % sur 7 nuits, est. 2025)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2811,7 +2811,7 @@
     "signature": "Paella au feu de bois resservie à volonté + espeto de sardines",
     "image": null,
     "price": {
-      "range": "paella ~9,50 €/ration · espetos à la pièce",
+      "range": "paella ~9,50 € (~CAD 14)/ration · espetos à la pièce",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2862,7 +2862,7 @@
     "signature": "Fruits de mer et boquerones, à la terrasse des locaux",
     "image": null,
     "price": {
-      "range": "tapas ~2,20 € · ración 8–14 €",
+      "range": "tapas ~2,20 € (~CAD 3) · ración 8–14 € (~CAD 12–21)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2912,7 +2912,7 @@
     "signature": "Menu dégustation autour des produits subtropicaux de la côte",
     "image": null,
     "price": {
-      "range": "~85 €/pers (à confirmer à la réservation)",
+      "range": "~85 € (~CAD 130)/pers (à confirmer à la réservation)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2962,7 +2962,7 @@
     "signature": "Berenjenas con miel de caña, avec vue sur la vallée",
     "image": null,
     "price": {
-      "range": "~15–25 €/pers",
+      "range": "~15–25 € (~CAD 23–40)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3012,7 +3012,7 @@
     "signature": "Cuisine de montagne au feu de bois dans un village ressuscité",
     "image": null,
     "price": {
-      "range": "~60 € pour deux avec vin · réservation essentielle",
+      "range": "~60 € (~CAD 90) pour deux avec vin · réservation essentielle",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3062,7 +3062,7 @@
     "signature": "Chivo (chevreau de lait) de la Sierra de Tejeda",
     "image": null,
     "price": {
-      "range": "~25–35 €/pers · réservation essentielle",
+      "range": "~25–35 € (~CAD 40–55)/pers · réservation essentielle",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3260,7 +3260,7 @@
     "blurb": "Une cathédrale souterraine : d'immenses salles de stalactites, l'une des plus grandes colonnes du monde, et des peintures rupestres parmi les plus anciennes connues. Découvertes par hasard en 1959 par des gamins qui chassaient les chauves-souris. Réserver en ligne en haute saison.",
     "image": "axarquia-cuevas",
     "price": {
-      "range": "adulte ~15 € (2026, à revalider)",
+      "range": "adulte ~15 € (~CAD 23) (2026, à revalider)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3310,7 +3310,7 @@
     "blurb": "Le paraje naturel des falaises de Maro-Cerro Gordo : eau turquoise, criques sous les falaises, la cascade qui tombe directement sur le sable à la Playa de Maro. La côte sauvage que le béton de la Costa del Sol n'a pas eue. Navette saisonnière depuis le village (accès voiture régulé l'été).",
     "image": "axarquia-maro",
     "price": {
-      "range": "plage gratuite · navette ~1,50 € l'été",
+      "range": "plage gratuite · navette ~1,50 € (~CAD 2) l'été",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3610,7 +3610,7 @@
     "signature": "Chambre vue sur les toits blancs, au cœur du pueblo",
     "image": null,
     "price": {
-      "range": "~50–110 €/nuit (plus cher en juin)",
+      "range": "~50–110 € (~CAD 75–165)/nuit (plus cher en juin)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3660,7 +3660,7 @@
     "signature": "Cabrito payoyo à la braise — le chevreau de la sierra au feu de bois",
     "image": null,
     "price": {
-      "range": "~40 €/pers (indicatif)",
+      "range": "~40 € (~CAD 60)/pers (indicatif)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3705,7 +3705,7 @@
     "signature": "Tapas avec vue sur la vallée, sous le château",
     "image": null,
     "price": {
-      "range": "tapas et raciones ~3–12 €",
+      "range": "tapas et raciones ~3–12 € (~CAD 5–18)",
       "currency": "EUR",
       "asOf": "2026-06"
     },

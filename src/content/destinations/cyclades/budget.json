@@ -3,10 +3,22 @@
   "title": "Budget estimé",
   "intro": "En dollars canadiens, taux de référence 1 € ≈ 1,50 $ CAD. Estimations réalistes pour deux personnes, ~30 jours (29 nuits), niveau confort intermédiaire — hébergement de caractère, tavernes et tables locales, vin au repas. Entrée et sortie par ferry du Pirée, vol aller-retour sur Athènes. Chiffres à reconfirmer au moment de réserver (juin, haute-ish saison).",
   "statCards": [
-    { "value": "~15 200 $", "label": "Total pour 2 personnes, ~30 jours" },
-    { "value": "~7 600 $", "label": "Par personne, tout inclus" },
-    { "value": "~355 $", "label": "Par jour sur place, pour 2 (hébergement + bouffe + activités)" },
-    { "value": "1 € ≈ 1,50 $", "label": "Taux de référence CAD" }
+    {
+      "value": "~15 200 $",
+      "label": "Total pour 2 personnes, ~30 jours"
+    },
+    {
+      "value": "~7 600 $",
+      "label": "Par personne, tout inclus"
+    },
+    {
+      "value": "~355 $",
+      "label": "Par jour sur place, pour 2 (hébergement + bouffe + activités)"
+    },
+    {
+      "value": "1 € ≈ 1,50 $",
+      "label": "Taux de référence CAD"
+    }
   ],
   "lines": [
     {
@@ -16,7 +28,7 @@
     },
     {
       "label": "Hébergement (29 nuits)",
-      "category": "Maisons et studios de caractère · Athènes 4n · Syros 3n (~120€) · Sifnos 6n (~130€) · Folegandros 5n (~145€, offre limitée) · Amorgos 7n (~110€) · Santorin 4n (~250€, vue caldeira)",
+      "category": "Maisons et studios de caractère · Athènes 4n · Syros 3n (~120€ · ~CAD 180) · Sifnos 6n (~130€ · ~CAD 195) · Folegandros 5n (~145€ · ~CAD 220, offre limitée) · Amorgos 7n (~110€ · ~CAD 165) · Santorin 4n (~250€ · ~CAD 375, vue caldeira)",
       "amount": "~6 150 $"
     },
     {
@@ -31,7 +43,7 @@
     },
     {
       "label": "Nourriture et boissons",
-      "category": "Tavernes de quartier, poisson, mezze, vin et raki locaux · ~70€/jour pour 2 en moyenne · marchés le midi",
+      "category": "Tavernes de quartier, poisson, mezze, vin et raki locaux · ~70€/jour (~CAD 105) pour 2 en moyenne · marchés le midi",
       "amount": "~2 900 $"
     },
     {

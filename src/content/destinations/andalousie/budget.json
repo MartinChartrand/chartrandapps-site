@@ -3,10 +3,22 @@
   "title": "Budget estimé",
   "intro": "En dollars canadiens, taux de référence 1 € ≈ 1,50 $ CAD. Estimations réalistes pour deux personnes, ~27 jours, niveau confort intermédiaire — hébergement boutique, tapas et tables locales, vin au repas. Vol open-jaw (arrivée Séville, départ Málaga).",
   "statCards": [
-    { "value": "~15 100 $", "label": "Total pour 2 personnes, ~27 jours" },
-    { "value": "~7 550 $", "label": "Par personne, tout inclus" },
-    { "value": "~340 $", "label": "Par jour sur place, pour 2 (hébergement + bouffe + activités)" },
-    { "value": "1 € ≈ 1,50 $", "label": "Taux de référence CAD" }
+    {
+      "value": "~15 100 $",
+      "label": "Total pour 2 personnes, ~27 jours"
+    },
+    {
+      "value": "~7 550 $",
+      "label": "Par personne, tout inclus"
+    },
+    {
+      "value": "~340 $",
+      "label": "Par jour sur place, pour 2 (hébergement + bouffe + activités)"
+    },
+    {
+      "value": "1 € ≈ 1,50 $",
+      "label": "Taux de référence CAD"
+    }
   ],
   "lines": [
     {
@@ -16,27 +28,27 @@
     },
     {
       "label": "Hébergement (~25 nuits)",
-      "category": "Boutique/apparts de caractère · Séville 7n (~140€) · Ronda 5n (~150€) · Granada 6n (~160€) · Axarquía/Nerja 7n (~140€) · Casares en arrêt-dîner",
+      "category": "Boutique/apparts de caractère · Séville 7n (~140€ · ~CAD 210) · Ronda 5n (~150€ · ~CAD 225) · Granada 6n (~160€ · ~CAD 240) · Axarquía/Nerja 7n (~140€ · ~CAD 210) · Casares en arrêt-dîner",
       "amount": "~5 100 $"
     },
     {
       "label": "Location de voiture open-jaw (28 jours)",
-      "category": "Prise à l'aéroport de Séville, retour à Málaga (one-way intra-Espagne, drop modéré) · petite voiture ~32€/jour tout inclus",
+      "category": "Prise à l'aéroport de Séville, retour à Málaga (one-way intra-Espagne, drop modéré) · petite voiture ~32€/jour (~CAD 50) tout inclus",
       "amount": "~2 300 $"
     },
     {
       "label": "Essence + péages + parkings",
-      "category": "~1 200 km (sierra, Jabugo, inter-bases) · essence ~1,60€/L · parkings villages (Casares, Zahara, Frigiliana pentus) + ZBE Séville",
+      "category": "~1 200 km (sierra, Jabugo, inter-bases) · essence ~1,60€/L (~CAD 2) · parkings villages (Casares, Zahara, Frigiliana pentus) + ZBE Séville",
       "amount": "~650 $"
     },
     {
       "label": "Nourriture et boissons",
-      "category": "Épicerie matin/midi · tapas le soir pour 2 avec vin ~40–55€ · Granada quasi gratis (tapa offerte) · ~70€/jour en moyenne",
+      "category": "Épicerie matin/midi · tapas le soir pour 2 avec vin ~40–55€ (~CAD 60–85) · Granada quasi gratis (tapa offerte) · ~70€/jour (~CAD 105) en moyenne",
       "amount": "~2 850 $"
     },
     {
       "label": "Activités, sites, dégustations",
-      "category": "Alhambra (~20€/pers, réserver tôt) · Alcázar (~16€) · Gruta de las Maravillas (~15€) · dégustations jamón Eiriz / Cinco Jotas (~30–46€/pers) · marchés, imprévus",
+      "category": "Alhambra (~20€/pers · ~CAD 30, réserver tôt) · Alcázar (~16€ · ~CAD 24) · Gruta de las Maravillas (~15€ · ~CAD 23) · dégustations jamón Eiriz / Cinco Jotas (~30–46€/pers · ~CAD 45–70) · marchés, imprévus",
       "amount": "~900 $"
     },
     {

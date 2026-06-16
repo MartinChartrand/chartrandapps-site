@@ -13,7 +13,7 @@
     "signature": "Dix chambres dans un manoir de Vaporia, au-dessus de la plage Asteria",
     "image": null,
     "price": {
-      "range": "~120–180 €/nuit (plus cher en haute saison)",
+      "range": "~120–180 € (~CAD 180–270)/nuit (plus cher en haute saison)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -58,7 +58,7 @@
     "signature": "Manoir du XIXe, 9 suites, Small Luxury Hotels — terrasse vue mer",
     "image": null,
     "price": {
-      "range": "grand luxe (SLH) · ~300 €+/nuit",
+      "range": "grand luxe (SLH) · ~300 €+ (~CAD 450)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -103,7 +103,7 @@
     "signature": "Mezedes et tsipouro sur le port, pleins de locaux",
     "image": null,
     "price": {
-      "range": "~15–25 €/pers (mezedes + tsipouro)",
+      "range": "~15–25 € (~CAD 23–40)/pers (mezedes + tsipouro)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -153,7 +153,7 @@
     "signature": "La pasturmadopita, tourte au pastrami d'Asie Mineure",
     "image": null,
     "price": {
-      "range": "~15–25 €/pers",
+      "range": "~15–25 € (~CAD 23–40)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -445,7 +445,7 @@
     "signature": "Pourquoi les manoirs ont pu être bâtis : la couche industrielle",
     "image": "syros-industriel",
     "price": {
-      "range": "~4 € · mar–sam 8h30–15h",
+      "range": "~4 € (~CAD 6) · mar–sam 8h30–15h",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -710,7 +710,7 @@
     "signature": "La crique des marins antiques — la journée bateau depuis Kini",
     "image": null,
     "price": {
-      "range": "accès libre · excursion bateau ~25–40 €/pers depuis Kini",
+      "range": "accès libre · excursion bateau ~25–40 € (~CAD 40–60)/pers depuis Kini",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -765,7 +765,7 @@
     "signature": "Poulpe grillé et poisson du jour, les pieds dans la plage de Kini",
     "image": "syros-poulpe",
     "price": {
-      "range": "~20–30 €/pers",
+      "range": "~20–30 € (~CAD 30–45)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -820,7 +820,7 @@
     "signature": "Poisson frais et pain maison, table au bord de l’eau de Kini",
     "image": null,
     "price": {
-      "range": "~15–25 €/pers",
+      "range": "~15–25 € (~CAD 23–40)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -865,7 +865,7 @@
     "signature": "Le gigot à la marjolaine sur hilopites maison, face au coucher de soleil",
     "image": "syros-agneau",
     "price": {
-      "range": "~15–20 €/pers",
+      "range": "~15–20 € (~CAD 23–30)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -920,7 +920,7 @@
     "signature": "Côtelettes d’agneau et fava face à la marina de Finikas",
     "image": null,
     "price": {
-      "range": "~12–20 €/pers",
+      "range": "~12–20 € (~CAD 18–30)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -975,7 +975,7 @@
     "signature": "Le poisson du jour choisi en vitrine, grillé au ladolemono",
     "image": null,
     "price": {
-      "range": "poisson au poids · ~45–65 €/kg",
+      "range": "poisson au poids · ~45–65 € (~CAD 70–100)/kg",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1082,7 +1082,7 @@
     "signature": "Le freddo du matin face à l'hôtel de ville de marbre",
     "image": null,
     "price": {
-      "range": "freddo ~3–4 € · brunch léger ~8–12 €",
+      "range": "freddo ~3–4 € (~CAD 5–6) · brunch léger ~8–12 € (~CAD 12–18)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1183,7 +1183,7 @@
     "signature": "Six chambres dans l'ancien consulat de France, accueil chaleureux",
     "image": null,
     "price": {
-      "range": "~85–95 €/nuit",
+      "range": "~85–95 € (~CAD 130–145)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1233,7 +1233,7 @@
     "signature": "Un manoir de 1883 restauré à Vaporia, le confort sans le palace",
     "image": null,
     "price": {
-      "range": "~150–210 €/nuit (haute saison)",
+      "range": "~150–210 € (~CAD 225–315)/nuit (haute saison)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1283,7 +1283,7 @@
     "signature": "Studios avec piscine face à la baie de Kini, l’option plage",
     "image": null,
     "price": {
-      "range": "~70 €/nuit (basse saison) · plus cher l’été",
+      "range": "~70 € (~CAD 105)/nuit (basse saison) · plus cher l’été",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1537,7 +1537,7 @@
     "signature": "Chevreau à l'aneth et fromage maison, les pieds dans le sable de Vathi",
     "image": null,
     "price": {
-      "range": "~12–18 €/pers",
+      "range": "~12–18 € (~CAD 18–27)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1592,7 +1592,7 @@
     "signature": "La salade de câpres maison et le mastelo, au bord de l'eau",
     "image": null,
     "price": {
-      "range": "~12–20 €/pers",
+      "range": "~12–20 € (~CAD 18–30)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1642,7 +1642,7 @@
     "signature": "Le mastelo au four à bois dans la cour médiévale de Kastro",
     "image": "sifnos-mastelo",
     "price": {
-      "range": "~15–22 €/pers",
+      "range": "~15–22 € (~CAD 23–35)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1792,7 +1792,7 @@
     "signature": "Sept chambres, l'accueil maison, le bus à la porte",
     "image": null,
     "price": {
-      "range": "~110–150 €/nuit",
+      "range": "~110–150 € (~CAD 165–225)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1842,7 +1842,7 @@
     "signature": "Piscine vue Égée et petit-déjeuner inclus, à pied d'Apollonia",
     "image": null,
     "price": {
-      "range": "~210–280 €/nuit (haute saison)",
+      "range": "~210–280 € (~CAD 315–420)/nuit (haute saison)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1892,7 +1892,7 @@
     "signature": "Hôtel familial à Artemonas, taverne sifnienne dans la cour",
     "image": null,
     "price": {
-      "range": "~100–150 €/nuit",
+      "range": "~100–150 € (~CAD 150–225)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1942,7 +1942,7 @@
     "signature": "Quatre chambres sur la plage de Vathi, l'huile d'olive maison",
     "image": null,
     "price": {
-      "range": "~90–110 €/nuit",
+      "range": "~90–110 € (~CAD 135–165)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1993,7 +1993,7 @@
     "signature": "Les amygdalota et le miel de thym, derrière la porte bleue",
     "image": null,
     "price": {
-      "range": "café ~3–5 € · sweets variable",
+      "range": "café ~3–5 € (~CAD 5–8) · sweets variable",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2043,7 +2043,7 @@
     "signature": "Amygdalota et pasteli au feu de bois, à Artemonas",
     "image": null,
     "price": {
-      "range": "boîte de sweets ~8–15 €",
+      "range": "boîte de sweets ~8–15 € (~CAD 12–23)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2291,7 +2291,7 @@
     "signature": "L'eau émeraude au pied des falaises, accessible en bateau",
     "image": "fol-katergo",
     "price": {
-      "range": "accès libre · bateau ~10 € A/R depuis Karavostasis",
+      "range": "accès libre · bateau ~10 € (~CAD 15) A/R depuis Karavostasis",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2393,7 +2393,7 @@
     "signature": "La crique ombragée, accessible en bateau depuis Agali",
     "image": null,
     "price": {
-      "range": "accès libre · bateau ~3 € depuis Agali",
+      "range": "accès libre · bateau ~3 € (~CAD 5) depuis Agali",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2444,7 +2444,7 @@
     "signature": "L'autre crique émeraude, encore plus sauvage",
     "image": null,
     "price": {
-      "range": "accès libre · bateau ~6 € depuis Agali",
+      "range": "accès libre · bateau ~6 € (~CAD 9) depuis Agali",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2494,7 +2494,7 @@
     "signature": "La matsata roulée à la main, au lapin et au coq",
     "image": "fol-matsata",
     "price": {
-      "range": "~12–16 €/plat",
+      "range": "~12–16 € (~CAD 18–24)/plat",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2590,11 +2590,11 @@
     ],
     "tier": "mid",
     "name": "To Goupi",
-    "blurb": "Un mezedopoleio de quartier sur une place de Chora : peu de tables, un menu ultra-court écrit au crayon, le chevreau au citron et la fava chaude. Pas de nappes, pas de carte plastifiée — la cuisine du jour, et l'addition sous 40 € à deux, vin compris.",
+    "blurb": "Un mezedopoleio de quartier sur une place de Chora : peu de tables, un menu ultra-court écrit au crayon, le chevreau au citron et la fava chaude. Pas de nappes, pas de carte plastifiée — la cuisine du jour, et l'addition sous 40 € (~CAD 60) à deux, vin compris.",
     "signature": "Le chevreau au citron et la fava, menu du jour",
     "image": null,
     "price": {
-      "range": "~15–20 €/pers",
+      "range": "~15–20 € (~CAD 23–30)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2644,7 +2644,7 @@
     "signature": "Le skaros grillé, les pieds dans le sable d'Agali",
     "image": null,
     "price": {
-      "range": "~15–25 €/pers",
+      "range": "~15–25 € (~CAD 23–40)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2694,7 +2694,7 @@
     "signature": "On t'embarque en bateau pour manger le poisson du jour",
     "image": null,
     "price": {
-      "range": "~15–25 €/pers",
+      "range": "~15–25 € (~CAD 23–40)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2744,7 +2744,7 @@
     "signature": "Les anchois frits et le poulpe, coucher de soleil sur le port",
     "image": null,
     "price": {
-      "range": "~18–22 €/pers",
+      "range": "~18–22 € (~CAD 27–35)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2794,7 +2794,7 @@
     "signature": "Studios sur la falaise, piscine suspendue face au couchant",
     "image": null,
     "price": {
-      "range": "~130–200 €/nuit",
+      "range": "~130–200 € (~CAD 195–300)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2844,7 +2844,7 @@
     "signature": "Les chambres au bord du précipice, le coucher de soleil",
     "image": null,
     "price": {
-      "range": "~120–200 €/nuit",
+      "range": "~120–200 € (~CAD 180–300)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2889,7 +2889,7 @@
     "signature": "Au cœur de Chora sans voitures, le café du matin sur les toits",
     "image": null,
     "price": {
-      "range": "~120–200 €/nuit",
+      "range": "~120–200 € (~CAD 180–300)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -2939,7 +2939,7 @@
     "signature": "À vingt mètres de la plage, vue sur le port et les ferries",
     "image": null,
     "price": {
-      "range": "~100–150 €/nuit",
+      "range": "~100–150 € (~CAD 150–225)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3437,7 +3437,7 @@
     "signature": "La crique de sable en face de Katapola, en bateau",
     "image": null,
     "price": {
-      "range": "accès libre · bateau-taxi ~3,50 €",
+      "range": "accès libre · bateau-taxi ~3,50 € (~CAD 5)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3487,7 +3487,7 @@
     "signature": "Le poisson du jour sur le quai de Katapola",
     "image": null,
     "price": {
-      "range": "~20–30 €/pers",
+      "range": "~20–30 € (~CAD 30–45)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3537,7 +3537,7 @@
     "signature": "La cuisine maison de Kyra Katina, à Aegiali",
     "image": null,
     "price": {
-      "range": "~15–25 €/pers",
+      "range": "~15–25 € (~CAD 23–40)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3587,7 +3587,7 @@
     "signature": "Les grillades de village à Langada, vue sur la vallée",
     "image": null,
     "price": {
-      "range": "~15–22 €/pers",
+      "range": "~15–22 € (~CAD 23–35)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3637,7 +3637,7 @@
     "signature": "Le patatato et la kopanisti, dans la Chora",
     "image": null,
     "price": {
-      "range": "~15–22 €/pers",
+      "range": "~15–22 € (~CAD 23–35)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3687,7 +3687,7 @@
     "signature": "Le dîner au bord de l'eau à Xilokeratidi",
     "image": null,
     "price": {
-      "range": "~18–28 €/pers",
+      "range": "~18–28 € (~CAD 27–40)/pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3737,7 +3737,7 @@
     "signature": "Maison d'hôtes traditionnelle au cœur de la Chora",
     "image": null,
     "price": {
-      "range": "~100–150 €/nuit",
+      "range": "~100–150 € (~CAD 150–225)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3787,7 +3787,7 @@
     "signature": "Maisonnettes de pierre vue mer, près de la Chora",
     "image": null,
     "price": {
-      "range": "~170–220 €/nuit (haute saison)",
+      "range": "~170–220 € (~CAD 255–330)/nuit (haute saison)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3837,7 +3837,7 @@
     "signature": "Deux studios près du port et de la plage, Katapola",
     "image": null,
     "price": {
-      "range": "~85–150 €/nuit",
+      "range": "~85–150 € (~CAD 130–225)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3887,7 +3887,7 @@
     "signature": "Studios à 50 m de la plage d'Aegiali, base nord",
     "image": null,
     "price": {
-      "range": "~85–120 €/nuit",
+      "range": "~85–120 € (~CAD 130–180)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -3937,7 +3937,7 @@
     "signature": "Hôtel familial à Langada, au départ des sentiers",
     "image": null,
     "price": {
-      "range": "~90–150 €/nuit",
+      "range": "~90–150 € (~CAD 135–225)/nuit",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4188,11 +4188,11 @@
     ],
     "tier": "gem",
     "name": "Estate Argyros",
-    "blurb": "Fondé en 1903, le plus grand vignoble en propriété unique de l'île. On déguste l'Assyrtiko et un Vinsanto vieilli vingt ans, les koulouras centenaires à portée de main et un guide qui explique pourquoi on tresse la vigne en panier contre le vent. Formules 15 € (4 vins + fromages) ou 40 € (7 vins + plateau).",
+    "blurb": "Fondé en 1903, le plus grand vignoble en propriété unique de l'île. On déguste l'Assyrtiko et un Vinsanto vieilli vingt ans, les koulouras centenaires à portée de main et un guide qui explique pourquoi on tresse la vigne en panier contre le vent. Formules 15 € (~CAD 23) (4 vins + fromages) ou 40 € (~CAD 60) (7 vins + plateau).",
     "signature": "Le Vinsanto vingt ans, et les vignes en panier devant la table",
     "image": null,
     "price": {
-      "range": "dégustation 15–40 € / pers",
+      "range": "dégustation 15–40 € (~CAD 23–60) / pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4239,11 +4239,11 @@
     ],
     "tier": "gem",
     "name": "Gavalas Winery",
-    "blurb": "La cave familiale la plus intime de Santorin : cinq générations à Megalochori, la bouteille bleue signature, et les seuls vins de l'île issus des cépages rares Katsano et Voudomato. On sonne, on entre, on jase avec la famille. Dégustation 10/15/20 € selon le nombre de verres.",
+    "blurb": "La cave familiale la plus intime de Santorin : cinq générations à Megalochori, la bouteille bleue signature, et les seuls vins de l'île issus des cépages rares Katsano et Voudomato. On sonne, on entre, on jase avec la famille. Dégustation 10/15/20 € (~CAD 15–30) selon le nombre de verres.",
     "signature": "Cinq générations, la bouteille bleue, et le vin versé par la famille",
     "image": null,
     "price": {
-      "range": "dégustation 10–20 € / pers",
+      "range": "dégustation 10–20 € (~CAD 15–30) / pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4290,11 +4290,11 @@
     ],
     "tier": null,
     "name": "Venetsanos Winery",
-    "blurb": "La première cave industrielle de l'île (1947), taillée à même la falaise de la caldeira à Megalochori. La dégustation la plus spectaculaire : chaque verre d'Assyrtiko servi face au volcan et à la mer, pour une quinzaine d'euros. La terrasse peut fermer par grand vent.",
+    "blurb": "La première cave industrielle de l'île (1947), taillée à même la falaise de la caldeira à Megalochori. La dégustation la plus spectaculaire : chaque verre d'Assyrtiko servi face au volcan et à la mer, pour une quinzaine d'euros (~CAD 23). La terrasse peut fermer par grand vent.",
     "signature": "L'Assyrtiko servi sur une terrasse suspendue au-dessus de la caldeira",
     "image": null,
     "price": {
-      "range": "dégustation ~15 € / pers",
+      "range": "dégustation ~15 € (~CAD 23) / pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4341,11 +4341,11 @@
     ],
     "tier": null,
     "name": "Domaine Sigalas",
-    "blurb": "Au nord, dans la plaine de Baxedes près d'Oia : le domaine fondé en 1991 par Paris Sigalas, devenu l'une des références de l'Assyrtiko (cinq versions différentes). Dégustation simple dès 12 €, ou tour vignoble + accords mets sur le patio face aux vignes.",
+    "blurb": "Au nord, dans la plaine de Baxedes près d'Oia : le domaine fondé en 1991 par Paris Sigalas, devenu l'une des références de l'Assyrtiko (cinq versions différentes). Dégustation simple dès 12 € (~CAD 18), ou tour vignoble + accords mets sur le patio face aux vignes.",
     "signature": "Cinq Assyrtiko comparés, sur le patio face aux koulouras",
     "image": null,
     "price": {
-      "range": "dégustation dès 12 € / pers",
+      "range": "dégustation dès 12 € (~CAD 18) / pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4391,11 +4391,11 @@
     ],
     "tier": "gem",
     "name": "Metaxi Mas",
-    "blurb": "« Le meilleur restaurant de Santorin selon les locaux », caché à Exo Gonia près de l'église Agios Charalambos. Cuisine crétoise et santorinienne : fava, aubergine blanche rôtie, poulpe grillé (14,50 €), côtelettes de porc. Environ 25 € par personne avec le vin. Voiture ou taxi — c'est l'isolement qui fait le charme.",
+    "blurb": "« Le meilleur restaurant de Santorin selon les locaux », caché à Exo Gonia près de l'église Agios Charalambos. Cuisine crétoise et santorinienne : fava, aubergine blanche rôtie, poulpe grillé (14,50 € · ~CAD 22), côtelettes de porc. Environ 25 € (~CAD 40) par personne avec le vin. Voiture ou taxi — c'est l'isolement qui fait le charme.",
     "signature": "La table des locaux : fava, aubergine blanche, poulpe grillé",
     "image": null,
     "price": {
-      "range": "~25 € / pers avec vin",
+      "range": "~25 € (~CAD 40) / pers avec vin",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4545,7 +4545,7 @@
     "signature": "Le poulpe qui sèche à l'entrée, la table au ras de l'eau",
     "image": null,
     "price": {
-      "range": "~45–50 € / pers (vue + réputation)",
+      "range": "~45–50 € (~CAD 70–75) / pers (vue + réputation)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4595,7 +4595,7 @@
     "signature": "Le poisson du matin dans un ex-entrepôt à bateaux",
     "image": null,
     "price": {
-      "range": "~45–50 € / pers",
+      "range": "~45–50 € (~CAD 70–75) / pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4645,7 +4645,7 @@
     "signature": "La prise déchargée sous la terrasse, l'aubergine blanche au four",
     "image": null,
     "price": {
-      "range": "~20–35 € / pers",
+      "range": "~20–35 € (~CAD 30–55) / pers",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4797,7 +4797,7 @@
     "signature": "Sept kilomètres de sable noir, l'eau calme, le poisson au charbon",
     "image": null,
     "price": {
-      "range": "accès libre · transats ~10 €",
+      "range": "accès libre · transats ~10 € (~CAD 15)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -4950,7 +4950,7 @@
     "signature": "Le sable noir Blue Flag sous le rocher de Mesa Vouno",
     "image": null,
     "price": {
-      "range": "accès libre · transats ~12–15 €",
+      "range": "accès libre · transats ~12–15 € (~CAD 18–23)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -5153,7 +5153,7 @@
     "signature": "La ville figée sous la cendre — le terroir raconté par l'archéologie",
     "image": null,
     "price": {
-      "range": "billet ~12 €",
+      "range": "billet ~12 € (~CAD 18)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -5303,7 +5303,7 @@
     "signature": "Quatre suites de pierre au cœur du village des vignobles",
     "image": null,
     "price": {
-      "range": "à partir de ~308 € (bas hors saison)",
+      "range": "à partir de ~308 € (~CAD 460) (bas hors saison)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -5353,7 +5353,7 @@
     "signature": "Dormir dans le château vénitien d'Emporio, pour pas cher",
     "image": null,
     "price": {
-      "range": "dès ~76 $US / nuit (~70 €)",
+      "range": "dès ~76 $US / nuit (~70 € · ~CAD 105)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -5458,7 +5458,7 @@
     "signature": "Sa propre maison de village, le lever de soleil sur la mer, le silence",
     "image": null,
     "price": {
-      "range": "~80–150 € / nuit (contact direct)",
+      "range": "~80–150 € (~CAD 120–225) / nuit (contact direct)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
