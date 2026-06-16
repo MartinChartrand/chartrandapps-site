@@ -1,0 +1,236 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "Le sas de sortie",
+      "body": "Après Loutro et Sitia, on n'a plus le goût de découvrir à toute vitesse. Rethymno, c'est exactement ça : la deuxième plus belle vieille ville de Crète, vénitienne et compacte, posée entre une forteresse et la mer — et plus détendue que Chania. Sept nuits pour décompresser : une belle ruelle le soir, une table qu'on planifie comme un événement, une plage à quarante-cinq minutes au sud, et le vol retour facile depuis Héraklion, à une heure quinze d'autoroute. On ralentit pour de bon.",
+      "focusPoi": "rethymno-vieille-ville",
+      "zoom": 15,
+      "targets": [
+        "rethymno-vieille-ville",
+        "fortezza"
+      ],
+      "thumb": "rethymno-cover",
+      "thumbAlt": "Le phare vénitien en pierre du port de Rethymno, vu à travers une arche : l'eau turquoise du bassin, le rempart et des promeneurs sur le môle.",
+      "poiRef": "rethymno-vieille-ville",
+      "sources": [
+        {
+          "creator": "Maps — Rethymno (vieille ville), Crète",
+          "url": "https://www.google.com/maps/search/Rethymno+Old+Town+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "kicker": "La ville le soir, la mer le jour",
+      "body": "Le rythme s'inverse doucement. Le jour, on traîne dans les ruelles vénitiennes, on monte à la Fortezza vers 18h30 pour la lumière dorée sur les pierres, on flâne le vieux port et son petit phare. Et quand l'envie de sel revient, la côte sud est à quarante-cinq minutes : Preveli et sa palmeraie, Plakias et la crique cachée de Korakas. Le soir, une cour vénitienne, un verre de cépage crétois qu'on ne boit nulle part ailleurs, et le temps qui ne presse plus.",
+      "focusPoi": "fortezza",
+      "zoom": 14,
+      "targets": [
+        "preveli",
+        "korakas"
+      ],
+      "thumb": "ret-korakas",
+      "thumbAlt": "Une crique rocheuse isolée de la Crète : une eau turquoise cristalline entre des falaises dorées et arides, sans plage de sable, presque personne.",
+      "poiRef": "fortezza",
+      "sources": [
+        {
+          "creator": "Maps — Fortezza de Rethymno",
+          "url": "https://www.google.com/maps/search/Fortezza+Rethymno+Crete",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-avli",
+      "kicker": "Avli · LE DÎNER D'ADIEU",
+      "title": "Le repas qu'on planifie comme un événement",
+      "image": "ret-avli",
+      "alt": "Un ancien patio en pierre la nuit : des colonnes et des arches voûtées éclairées par des lanternes ambrées, de grandes jarres en terre cuite, des tables en fer forgé.",
+      "intro": "Dans une cour intérieure vénitienne, sous les bougainvilliers et les pierres anciennes, Avli est la table du dernier acte. C'est le repas de fin de voyage qu'on réserve à l'avance et qu'on attend toute la semaine : agneau braisé qui tombe de l'os, chèvre cuite au vin, fruits de mer, et une cave de cépages crétois introuvables ailleurs.",
+      "reco": "Réserve, et prends ton temps — c'est le soir où l'on étire le repas exprès. L'agneau braisé ou la chèvre au vin, des mezedes pour commencer, et laisse le sommelier ouvrir un Vidiano blanc ou un Kotsifali rouge. C'est le dîner-événement du voyage, celui qu'on se raconte encore au retour, dans une cour qui sent le jasmin.",
+      "quote": "Une cour vénitienne, des bougainvilliers, un agneau braisé trois heures et un vin qui n'existe que sur cette île. Il y a des repas qu'on planifie comme un voyage à l'intérieur du voyage.",
+      "via": null,
+      "poiRef": "avli",
+      "sources": [
+        {
+          "creator": "TripAdvisor — Avli, Rethymno",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g189418-Reviews-Avli-Rethymnon_Town_Rethymnon_Prefecture_Crete.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Maps — Avli, vieille ville de Rethymno",
+          "url": "https://www.google.com/maps/search/Avli+Restaurant+Rethymno+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-port",
+      "kicker": "Le vieux port · LE POISSON AU COUCHER",
+      "title": "Le poulpe, le phare vénitien, le soleil qui tombe",
+      "image": "ret-port",
+      "alt": "Un poulpe suspendu à un crochet devant une enseigne de taverne (ΤΑΒΕΡΝΑ), un port crétois et ses bateaux à quai en arrière-plan.",
+      "intro": "Le petit port vénitien de Rethymno, avec son phare au bout de la jetée et ses barques colorées, est l'un des plus charmants de l'île. Sur le quai, le Zefyros sert le poisson et le poulpe à prix honnête — le poulpe au vinaigre, grillé, pendant que le soleil tombe derrière les mâts.",
+      "reco": "Vise le coucher du soleil : commande le poulpe grillé, une friture de petits poissons, une salade, un pichet de blanc, et regarde le port virer à l'orange. Évite le premier rang le plus racoleur — au Zefyros, le poisson est frais et l'addition reste sage. Pour une version terrasse sous la Fortezza, Prima Plora fait le même poisson au même soleil, un cran plus haut.",
+      "quote": "Un poulpe grillé, un phare vénitien, et le soleil qui s'éteint dans un port de poche. La Crète sait finir une journée mieux que personne.",
+      "via": null,
+      "poiRef": "zefyros-fish-taverna",
+      "sources": [
+        {
+          "creator": "TripAdvisor — Zefyros Fish Taverna, Rethymno",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g189418-Reviews-Zefyros_Fish_Tavern-Rethymnon_Town_Rethymnon_Prefecture_Crete.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Maps — Vieux port de Rethymno",
+          "url": "https://www.google.com/maps/search/Rethymno+Venetian+Harbour+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-preveli",
+      "kicker": "Preveli · LA PALMERAIE & LA RIVIÈRE",
+      "title": "Une rivière de palmiers qui se jette dans le turquoise",
+      "image": "ret-preveli",
+      "alt": "La gorge de Preveli, en Crète : une rivière aux eaux émeraude bordée d'une dense palmeraie, encaissée entre des parois rocheuses.",
+      "intro": "À trente-cinq minutes au sud, Preveli est une merveille géographique : à l'embouchure d'une gorge, une rivière bordée de palmiers descend jusqu'à se jeter dans une mer turquoise. On gare en haut, on descend un escalier d'un quart d'heure, et on débouche sur une plage de sable doré coincée entre la palmeraie et le large.",
+      "reco": "Descends tôt — l'escalier chauffe l'après-midi — et apporte de l'eau. Baigne-toi dans la mer, puis remonte la rivière à pied entre les palmiers, l'eau douce aux chevilles, jusqu'aux petits bassins en amont. C'est l'une des plages les plus singulières de Crète : la rivière, la palmeraie et le sel, au même endroit.",
+      "quote": "Une rivière qui descend une gorge entre les palmiers et se jette dans une mer turquoise. On nage dans le sel, on remonte dans l'eau douce, et on se demande pourquoi on n'a pas connu ça plus tôt.",
+      "via": null,
+      "poiRef": "preveli",
+      "sources": [
+        {
+          "creator": "Maps — Preveli Beach, Crète",
+          "url": "https://www.google.com/maps/search/Preveli+Beach+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-korakas",
+      "kicker": "Korakas · LA CRIQUE CACHÉE",
+      "title": "Vingt minutes de sentier pour une crique à soi",
+      "image": "ret-korakas",
+      "alt": "Une crique rocheuse isolée de la Crète : une eau turquoise cristalline entre des falaises dorées et arides, sans plage de sable, presque personne.",
+      "intro": "Depuis Plakias, station balnéaire tranquille de la côte sud, un sentier côtier de vingt minutes mène à Korakas : une crique isolée, une eau cristalline, des galets clairs, et en octobre, presque personne. C'est le vrai trésor du coin — celui qu'on mérite en marchant un peu, pendant que les autres restent sur la grande plage.",
+      "reco": "Chausse-toi correctement, emporte de l'eau et de l'ombre, et suis le sentier depuis l'est de Plakias. La crique n'a aucun service — juste l'eau claire et le silence. Enchaîne avec Damnoni juste à côté, trois petites criques successives, si le cœur t'en dit. C'est la baignade de fin de voyage, lente et vide.",
+      "quote": "Vingt minutes de sentier, et la crique est à toi. En octobre, sur la côte sud de la Crète, le luxe c'est ça : une eau cristalline et pas une seule autre serviette.",
+      "via": null,
+      "poiRef": "korakas",
+      "sources": [
+        {
+          "creator": "Maps — Korakas Beach, Plakias",
+          "url": "https://www.google.com/maps/search/Korakas+Beach+Plakias+Crete",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Maps — Plakias, Crète",
+          "url": "https://www.google.com/maps/search/Plakias+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-phyllo",
+      "kicker": "Hatziparaskos · LE PHYLLO À LA MAIN",
+      "title": "La pâte tirée à la main depuis 1960",
+      "image": "ret-phyllo",
+      "alt": "Des feuilletés de pâte phyllo dorée et croustillante, fourrés de pistaches hachées, serrés dans un plateau métallique — pâtisserie au miel, gros plan appétissant.",
+      "intro": "Dans une ruelle de la vieille ville, la famille Hatziparaskos tire la pâte phyllo à la main depuis 1960 — fine comme du papier, étirée sur une grande table jusqu'à la transparence. C'est l'atelier où l'on prépare, sous tes yeux, les vrais baklavas et les kalitsounia à la myzithra, la version qui n'a rien à voir avec l'industriel.",
+      "reco": "Passe en fin de matinée, regarde la pâte s'étirer, et repars avec une boîte de baklava au miel et de kalitsounia encore tièdes. Pour aller plus loin, réserve une journée chez Chrysoula à Pigi : marché le matin, légumes du jardin, cuisine l'après-midi, festin le soir — l'expérience qu'on ramène en mémoire musculaire, pas juste en photos.",
+      "quote": "Une famille qui tire la même pâte à la main depuis 1960, dans une ruelle, sans vitrine tape-à-l'œil. Le dernier goût de Crète qu'on emporte, c'est celui-là : sucré, feuilleté, fait par des mains qui savent.",
+      "via": null,
+      "poiRef": "yiorgos-hatziparaskos-phyllo-baklava",
+      "sources": [
+        {
+          "creator": "Maps — Yiorgos Hatziparaskos (phyllo), Rethymno",
+          "url": "https://www.google.com/maps/search/Hatziparaskos+phyllo+Rethymno+Crete",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Maps — Chrysoula's Cooking Class, Pigi",
+          "url": "https://www.google.com/maps/search/Chrysoula+cooking+class+Pigi+Rethymno",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant le vol depuis Héraklion : l'agneau braisé d'Avli dans sa cour vénitienne, le poulpe du Zefyros au coucher, le phyllo des Hatziparaskos. Et tout ce qu'on n'a pas eu le temps de raconter — la chèvre rôtie de la taverna Alekos au village d'Armenoi, les bars à vin Sella et Rewine pour les cépages Vidiano et Kotsifali, le marché du mercredi rue Koumoundourou, le monastère d'Arkadi, et les criques de Damnoni à côté de Korakas. Où dormir, les prix et le budget complet sont dans le carnet.",
+      "boundsPois": [
+        "rethymno-vieille-ville",
+        "preveli",
+        "korakas",
+        "taverna-alekos-armenoi"
+      ],
+      "targets": [
+        "fortezza"
+      ],
+      "thumb": "ret-phyllo",
+      "thumbAlt": "Des feuilletés de pâte phyllo dorée et croustillante, fourrés de pistaches hachées, serrés dans un plateau métallique — pâtisserie au miel, gros plan appétissant.",
+      "pills": [
+        {
+          "poiRef": "fortezza",
+          "link": "maps",
+          "label": "Fortezza · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Maps — Rethymno, Crète",
+          "url": "https://www.google.com/maps/search/Rethymno+Crete",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "L'Atelier Vieux Port avec rooftop pour l'économique qui ne sacrifie rien (~55–70 €, ~CAD 90–115). Le Pepi Boutique dans un bâtiment vénitien, piscine intérieure et petit-déjeuner crétois (~85–103 €, ~CAD 140–165). Ou le Rimondi, ancien manoir vénitien avec piscine dans la cour et suites aux pierres apparentes (~110–180 €, ~CAD 180–290) — le splurge de la dernière semaine, on l'a mérité."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Le dîner-événement d'Avli dans sa cour vénitienne, le poulpe du Zefyros sur le vieux port, le poisson de Prima Plora sous la Fortezza, et la chèvre rôtie de la taverna Alekos à Armenoi (15 min). Pour le vin : Sella et Rewine, cépages Vidiano, Kotsifali, Mandilari. Et le phyllo tiré à la main chez Hatziparaskos."
+      },
+      {
+        "label": "Les plages du sud",
+        "kinds": [
+          "plage"
+        ],
+        "footer": "Preveli et sa rivière de palmiers (35 min). Plakias, station tranquille, et son trésor caché Korakas, à vingt minutes de sentier. Damnoni juste à côté, trois petites criques. Toutes au sud, toutes à moins de 45 minutes."
+      },
+      {
+        "label": "À voir",
+        "kinds": [
+          "sight"
+        ],
+        "footer": "La Fortezza vénitienne au coucher du soleil, la vieille ville et son minaret-clocher, le marché du mercredi rue Koumoundourou pour les fromages et le miel de thym, et le monastère d'Arkadi, haut lieu de l'histoire crétoise, à l'intérieur des terres."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites locales"
+  },
+  "outro": {
+    "kicker": "Le voyage se pose",
+    "body": "Sept nuits pour décompresser — la cour d'Avli, le poulpe du vieux port au coucher, la rivière de palmiers de Preveli, la crique de Korakas, le phyllo tiré à la main. Les {count} lieux de Rethymno vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. De Chania à Rethymno, d'ouest en est et retour, un mois à suivre la table des locaux et la mer — puis le vol depuis Héraklion, à une heure quinze d'ici. Kalo taxidi.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/crete/"
+  }
+}

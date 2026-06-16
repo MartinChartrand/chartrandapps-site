@@ -66,7 +66,7 @@
         "url": "https://www.alltrails.com/trail/greece/crete/glyka-nera-beach-timios-stavros-chapel-loutro"
       }
     ],
-    "image": "photo-15",
+    "image": "",
     "base": "loutro"
   },
   {
@@ -80,7 +80,7 @@
         "url": "https://www.old-phoenix.com/"
       }
     ],
-    "image": "photo-16",
+    "image": "",
     "base": "loutro"
   },
   {
@@ -88,7 +88,7 @@
     "group": "Pépites locales — Loutro",
     "title": "La promenade du soir, 19h–20h",
     "body": "Quand le dernier ferry est parti. Les chats sortent, les lumières s'allument sur la baie, les propriétaires des tavernas s'assoient avec un raki. Le vrai Loutro ne commence qu'à cette heure-là.",
-    "image": "photo-17",
+    "image": "",
     "base": "loutro"
   },
   {
@@ -102,7 +102,7 @@
         "url": "https://www.google.com/maps/search/Argilos+Beach+Xerokambos+Crete"
       }
     ],
-    "image": "photo-23",
+    "image": "",
     "base": "sitia"
   },
   {
@@ -110,7 +110,7 @@
     "group": "Pépites locales — Sitia",
     "title": "Psili Ammos — la plage cachée derrière Vaï",
     "body": "Sentier par-dessus le promontoire depuis le parking de Vaï. Plage déserte sans aucune installation. Apporter eau et nourriture. Le contraste avec Vaï est saisissant.",
-    "image": "photo-24",
+    "image": "",
     "base": "sitia"
   },
   {
@@ -124,7 +124,7 @@
         "url": "https://www.google.com/maps/search/Zakros+Gorge+Dead+Crete"
       }
     ],
-    "image": "photo-25",
+    "image": "",
     "base": "sitia"
   },
   {
@@ -132,7 +132,7 @@
     "group": "Pépites locales — Sitia",
     "title": "Palekastro — le village d'à côté",
     "body": "1 300 habitants, aucun tourisme de masse. Musée folklorique passionné, accès aux sites archéologiques, porte d'entrée vers Vaï sans les bus. Authenticité totale.",
-    "image": "photo-26",
+    "image": "",
     "base": "sitia"
   },
   {
@@ -146,7 +146,7 @@
         "url": "https://maps.google.com/maps?q=Preveli+Monastery+Crete"
       }
     ],
-    "image": "photo-32",
+    "image": "",
     "base": "rethymno"
   },
   {
@@ -160,7 +160,7 @@
         "url": "https://maps.google.com/maps?q=Neratze+Mosque+Rethymno"
       }
     ],
-    "image": "photo-33",
+    "image": "",
     "base": "rethymno"
   },
   {
@@ -174,7 +174,7 @@
         "url": "https://maps.google.com/maps?q=Fortezza+Rethymno"
       }
     ],
-    "image": "photo-34",
+    "image": "",
     "base": "rethymno"
   },
   {
@@ -188,7 +188,7 @@
         "url": "https://maps.google.com/maps?q=Korakas+Beach+Plakias"
       }
     ],
-    "image": "photo-35",
+    "image": "",
     "base": "rethymno"
   }
 ]

@@ -99,7 +99,7 @@
     "group": "Incontournables foodie — Loutro & Sfakia",
     "title": "Paidakia chez Stratis",
     "body": "Côtelettes d'agneau grillées, yogourt du troupeau familial. Simple, parfait. Accompagner de salade crétoise et de vin de la maison.",
-    "image": "foodie-7",
+    "image": "",
     "base": "loutro"
   },
   {
@@ -107,7 +107,7 @@
     "group": "Incontournables foodie — Loutro & Sfakia",
     "title": "Déjeuner à la taverna Dialiskari (Marmara Beach)",
     "body": "Accessible uniquement par bateau. Pain pétri main, légumes du jardin, poisson grillé. Manger pieds dans le sable avec vue sur les grottes de marbre.",
-    "image": "foodie-8",
+    "image": "",
     "base": "loutro"
   },
   {
@@ -142,7 +142,7 @@
         "url": "https://www.google.com/maps/search/Ecomuseum+Municipality+Sitia+Crete"
       }
     ],
-    "image": "foodie-10",
+    "image": "",
     "base": "sitia"
   },
   {
@@ -156,7 +156,7 @@
         "url": "https://toplouoliveoil.com/"
       }
     ],
-    "image": "foodie-4",
+    "image": "",
     "base": "sitia"
   },
   {
@@ -164,7 +164,7 @@
     "group": "Incontournables foodie — Sitia",
     "title": "Plateau de poisson chez Tzivaeri",
     "body": "22 € pour deux. Poisson du matin, pain du four, huile et vin de la famille Psarakis. Le genre de repas qu'on ne trouve plus nulle part en zone touristique.",
-    "image": "foodie-12",
+    "image": "",
     "base": "sitia"
   },
   {
@@ -172,7 +172,7 @@
     "group": "Incontournables foodie — Sitia",
     "title": "Pieuvre séchée au soleil",
     "body": "Tradition en déclin mais encore visible sur le port de Sitia. Demander la xtapodi krasata (pieuvre au vin rouge) chez Fegaropsaro — la version cuttlefish aussi.",
-    "image": "foodie-13",
+    "image": "",
     "base": "sitia"
   },
   {
@@ -180,7 +180,7 @@
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Marché du mercredi",
     "body": "Rue Koumoundourou, marché paysan hebdomadaire. Fromages frais, miel de thym, herbes séchées, fruits de saison. Y aller tôt le matin pour la meilleure sélection.",
-    "image": "foodie-14",
+    "image": "",
     "base": "rethymno"
   },
   {
@@ -188,7 +188,7 @@
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Kalitsounia",
     "body": "Chaussons crétois fourrés au fromage mizithra et herbes sauvages, version sucrée au miel. Essayer chez Yiorgos Hatziparaskos, atelier familial depuis 1960 dans la vieille ville qui tire la pâte phyllo à la main sous les yeux des clients.",
-    "image": "foodie-15",
+    "image": "",
     "base": "rethymno"
   },
   {
@@ -196,7 +196,7 @@
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Vin crétois",
     "body": "La région de Rethymno produit d'excellents crus. Sella Vineria et Rewine dans la vieille ville offrent des dégustations de cépages autochtones — Vidiano, Kotsifali, Mandilari.",
-    "image": "foodie-16",
+    "image": "",
     "base": "rethymno"
   },
   {
@@ -204,7 +204,7 @@
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Cooking class",
     "body": "Chrysoula à Pigi, village à 10 minutes de Rethymno, propose des cours de cuisine crétoise traditionnelle dans sa maison. Légumes de la ferme familiale, four à bois, ~3h30 en petit groupe. Réserver à l'avance.",
-    "image": "foodie-17",
+    "image": "",
     "base": "rethymno"
   },
   {
@@ -212,7 +212,7 @@
     "group": "🍷 Incontournables foodie — Rethymno",
     "title": "Raki & mezze",
     "body": "En fin de soirée, les tavernes offrent le raki maison avec mezze gratuit (fruits, gâteaux). C'est la tradition crétoise du tsikoudia — ne jamais refuser, c'est l'hospitalité incarnée. <div",
-    "image": "foodie-18",
+    "image": "",
     "base": "rethymno"
   }
 ]

@@ -77,21 +77,21 @@
         "kicker": "Chapitre 2 · 6 nuits",
         "title": "Le cœur du voyage, sans route",
         "teaser": "Un village blanc en demi-lune, accessible seulement par bateau, accroché entre les montagnes à pic et la mer de Libye. Six nuits à ralentir pour de vrai.",
-        "image": ""
+        "image": "loutro-cover"
       },
       {
         "base": "sitia",
         "kicker": "Chapitre 3 · 9 nuits",
         "title": "L'est authentique",
         "teaser": "Une vraie ville crétoise où les Grecs mangent encore dans les tavernas du port, l'eau à son maximum thermique (27–28°C), et la palmeraie de Vaï au bout du monde.",
-        "image": ""
+        "image": "sitia-cover"
       },
       {
         "base": "rethymno",
         "kicker": "Chapitre 4 · 7 nuits",
         "title": "Le retour en douceur",
         "teaser": "La deuxième plus belle vieille ville de l'île, vénitienne et compacte, plus détendue que Chania — et les plages de Plakias à quarante-cinq minutes, pour finir au calme.",
-        "image": ""
+        "image": "rethymno-cover"
       }
     ]
   }

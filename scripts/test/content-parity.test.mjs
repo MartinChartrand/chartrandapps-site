@@ -21,9 +21,17 @@ function visibleText(html) {
     .trim();
 }
 
-const DESTINATIONS = ['crete', 'turquie'];
-// Phase 2 (récupération summary/focus/overview/intro-grid/dishes/gems/notes/budget-cat) :
-// ratios mesurés crete 1.030 · turquie 1.054 — zéro segment v1 (>40 chars) absent du dist.
+// Parité v1 = garde-fou de migration v2 LONG-SCROLL uniquement. Une destination convertie en
+// ÉPISODE (container survol /dest/ + scrollytelling /dest/base/) sort de cette parité : son
+// contenu n'habite plus une page unique mais les pages-épisodes (cf. cyclades/philippines/
+// andalousie, déjà épisodiques, jamais dans cette liste). Mesuré le 2026-06-15 après conversion
+// de crete en épisode : container + 4 épisodes = 179 liens cliquables (> 159 v1) et 40 images
+// VÉRIFIÉES (vs 81 v1, dont les menteuses/doublons volontairement purgés). Le contenu n'est pas
+// perdu, il est redistribué + éditorialisé ; les gardes qui s'appliquent désormais à crete sont
+// T-CONT-* (container/tuiles↔épisodes), validate-image-claims (slots scellés) et le carnet de
+// chaque épisode (toute reco = pill cliquable). turquie reste en v2 long-scroll → parité active.
+const DESTINATIONS = ['turquie'];
+// ratio mesuré turquie 1.054 — zéro segment v1 (>40 chars) absent du dist.
 // Le léger dépassement de 1.0 vient du rendu v2 qui duplique volontairement les blurbs des
 // POIs sleep (AccomGrid + poi-list « Où dormir », testé par built-html T4).
 const MIN_RATIO = 0.90;

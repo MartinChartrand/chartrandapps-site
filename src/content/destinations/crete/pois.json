@@ -599,7 +599,7 @@
     "name": "Hotel Porto Loutro",
     "blurb": "18 chambres, directement sur la plage, 5m de la mer turquoise. Terrasse face à la baie. Réserver tôt.",
     "signature": "",
-    "image": "accom-5",
+    "image": null,
     "price": {
       "range": "~82–100 €/nuit (~CAD 135–160)",
       "currency": "EUR",
@@ -638,7 +638,7 @@
     "name": "Hotel Anna",
     "blurb": "Front de mer, simple et propre. Restaurant sur place. Le meilleur rapport qualité-prix du village.",
     "signature": "",
-    "image": "accom-4",
+    "image": null,
     "price": {
       "range": "~35–50 €/nuit (~CAD 55–80)",
       "currency": "EUR",
@@ -715,7 +715,7 @@
     "name": "Notos Restaurant & Rooms",
     "blurb": "Famille Androulakakis. Mezedopoleion (petites assiettes) stylé + chambres au-dessus. Le foodie move — dormir là où on mange le mieux.",
     "signature": "",
-    "image": "accom-6",
+    "image": null,
     "price": {
       "range": "~60–85 €/nuit (~CAD 95–140)",
       "currency": "EUR",
@@ -983,7 +983,7 @@
     "name": "Nereids Apartments",
     "blurb": "30m de la plage, studios avec cuisine, jardin. Note 9/10. Idéal pour cuisiner avec les produits du marché local.",
     "signature": "",
-    "image": "accom-7",
+    "image": null,
     "price": {
       "range": "~45–58 €/nuit (~CAD 75–95)",
       "currency": "EUR",
@@ -1022,7 +1022,7 @@
     "name": "Elysee Hotel",
     "blurb": "Promenade du port, balcons face à la mer de Crète. Près de la forteresse vénitienne. Propre, bien situé.",
     "signature": "",
-    "image": "accom-8",
+    "image": null,
     "price": {
       "range": "~65–85 €/nuit (~CAD 105–140)",
       "currency": "EUR",
@@ -1061,7 +1061,7 @@
     "name": "Livikoview Xerokambos",
     "blurb": "48 km au sud, au milieu de nulle part. Hébergement + restaurant de cuisine crétoise moderne. Plages désertes à 5 min. Le vrai bout du monde.",
     "signature": "",
-    "image": "accom-9",
+    "image": null,
     "price": {
       "range": "~75–95 €/nuit (~CAD 120–155)",
       "currency": "EUR",
@@ -1566,7 +1566,7 @@
     "name": "Atelier Vieux Port",
     "blurb": "Studio dans la vieille ville, à deux pas du port vénitien. Déco minimaliste, cuisine équipée, terrasse sur les toits.",
     "signature": "",
-    "image": "accom-10",
+    "image": null,
     "price": {
       "range": "~55–70 €/nuit (~CAD 90–115)",
       "currency": "EUR",
@@ -1605,7 +1605,7 @@
     "name": "Pepi Boutique Hotel",
     "blurb": "Hôtel de caractère dans un bâtiment vénitien restauré. Piscine intérieure, petit-déj crétois copieux.",
     "signature": "",
-    "image": "accom-11",
+    "image": null,
     "price": {
       "range": "~85–103 €/nuit (~CAD 140–165)",
       "currency": "EUR",
@@ -1644,7 +1644,7 @@
     "name": "Rimondi Boutique Hotel",
     "blurb": "Ancien manoir vénitien converti, suites avec pierres apparentes, piscine dans la cour intérieure. L'adresse la plus élégante de la vieille ville.",
     "signature": "",
-    "image": "accom-12",
+    "image": null,
     "price": {
       "range": "~110–180 €/nuit (~CAD 180–290)",
       "currency": "EUR",

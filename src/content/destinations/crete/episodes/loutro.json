@@ -1,0 +1,236 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "Le village sans route",
+      "body": "On laisse l'auto à Chora Sfakion et on monte sur le ferry. Vingt minutes le long d'une côte de falaises, et Loutro apparaît : un croissant de maisons blanches accroché entre la montagne à pic et la mer de Libye, sans une seule route pour y mener. On débarque, on tire son sac sur le quai, et quelque chose se desserre. Pas de voiture, pas de scooter, pas d'issue rapide — on est venus pour exactement ça. Six nuits à ralentir pour de vrai, au cœur du voyage.",
+      "focusPoi": "chora-sfakion-embarquement",
+      "zoom": 12,
+      "targets": [
+        "chora-sfakion-embarquement",
+        "hotel-porto-loutro"
+      ],
+      "thumb": "loutro-cover",
+      "thumbAlt": "Vue aérienne du village de Loutro, en Crète : des maisons blanches en arc de cercle autour d'une baie en croissant aux eaux turquoise, de petits bateaux amarrés, une montagne aride et abrupte juste derrière.",
+      "poiRef": "chora-sfakion-embarquement",
+      "sources": [
+        {
+          "creator": "Maps — Chora Sfakion (embarquement)",
+          "url": "https://www.google.com/maps/search/Chora+Sfakion+Crete",
+          "date": "2026-06"
+        },
+        {
+          "creator": "ANENDYK — ferries de la côte sud",
+          "url": "https://www.anendyk.gr/",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "kicker": "Quand le dernier ferry repart",
+      "body": "Le jour, les bateaux déversent les marcheurs des gorges, de 9h à 18h30. Puis le dernier ferry s'en va, et Loutro change de peau. Les chats reprennent le quai, les lumières s'allument sur la baie, les patrons des tavernas s'assoient enfin avec un raki. La mer de Libye — la plus calme de l'île, 26–27°C à la mi-septembre — devient un miroir. C'est l'heure où on nage sur le dos sans effort, où on traverse le village d'un bout à l'autre en sept minutes, où l'endroit se révèle. Le matin tôt, même magie, avant le retour des bateaux.",
+      "focusPoi": "hotel-porto-loutro",
+      "zoom": 14,
+      "targets": [
+        "glyka-nera-sweet-water",
+        "marmara-beach"
+      ],
+      "thumb": "lou-glyka-nera",
+      "thumbAlt": "Glyka Nera (Sweetwater Beach), près de Loutro : une plage de galets au pied d'une immense falaise calcaire pâle, des tamaris nourris par les sources d'eau douce, une barque et des parasols dans une eau turquoise.",
+      "poiRef": "hotel-porto-loutro",
+      "sources": [
+        {
+          "creator": "Maps — Loutro, Crète",
+          "url": "https://www.google.com/maps/search/Loutro+Crete",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-stratis",
+      "kicker": "Stratis · LA TABLE",
+      "title": "L'agneau, le yogourt du troupeau, la crêpe de Sfakia",
+      "image": "lou-paidakia",
+      "alt": "Des côtelettes d'agneau grillées (paidakia), os à l'air et croûte d'épices dorée et caramélisée, dans une poêle en fonte noire sur une table de bois.",
+      "intro": "Sept minutes pour traverser le village à pied, et autant d'adresses pour souper. Stratis, c'est la cuisine de famille : l'agneau grillé en paidakia, les tartes maison, et le yogourt qui descend du troupeau des proprios, là-haut dans les montagnes. Pas de carte plastifiée, pas de mise en scène — la table d'une famille de bergers installée au bord de l'eau.",
+      "reco": "Les paidakia — les côtelettes d'agneau grillées sur les braises, dorées, juste le sel et l'os à ronger — avec une salade crétoise et la carafe de vin de la maison. Et le geste qui définit la région : la sfakianopita. Une crêpe mince pétrie au raki, fourrée à la myzithra fraîche, dorée à la poêle sans gras, arrosée de miel de thym. C'est le déjeuner des bergers de Sfakia, candidate au patrimoine de l'UNESCO. On y goûte une fois, et on en commande chaque matin jusqu'à la fin du séjour.",
+      "quote": "Le yogourt vient de leurs propres bêtes, la crêpe est pétrie au raki, et tout ça arrive dans un village où aucune route ne se rend. Manger ici, c'est manger ce que la montagne et la mer ont bien voulu donner.",
+      "via": null,
+      "poiRef": "stratis-taverna",
+      "sources": [
+        {
+          "creator": "TripAdvisor — Stratis, Loutro",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g1187644-d3566876-Reviews-Stratis-Loutro_Chania_Prefecture_Crete.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Nektaria Kokkinaki (ERT — TV publique grecque)",
+          "url": "https://www.youtube.com/watch?v=1EnA0Y38E8A",
+          "date": "2023-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-finix",
+      "kicker": "Old Phoenix · LA PÉPITE",
+      "title": "Un repas au feu de bois dans une baie sans personne",
+      "image": "lou-finix-cove",
+      "alt": "Une crique sauvage et isolée au débouché d'une gorge de la côte sud de la Crète : une petite plage de galets coincée entre de hautes parois rocheuses, une eau turquoise profonde, presque personne.",
+      "intro": "À quinze minutes de marche de Loutro, sur le sentier européen E4, la baie de Finix s'ouvre — l'ancien port d'Anopolis, un site quasi désert où une seule taverna tient le coup : l'Old Phoenix. On y arrive à pied le long de la côte, ou par bateau-taxi quand les jambes disent non. Le pain est pétri à la main, la cuisine se fait au feu de bois, et la baie n'appartient qu'à ceux qui ont fait l'effort de venir.",
+      "reco": "Réserve, surtout en septembre — la salle est minuscule. Le poisson du jour grillé, les légumes du jardin, le pain chaud sorti du four à bois. Mange face à la mer de Libye, sans un bruit de moteur, puis baigne-toi dans la crique avant de remonter le sentier. C'est le genre de repas qu'on raconte au retour : pas pour la cuisine élaborée, mais pour l'endroit impossible où on l'a mangé.",
+      "quote": "Pas de route, pas de quai, pas de foule. Juste un sentier, une baie sauvage, et une famille qui pétrit son pain et allume son feu pour les rares qui se présentent.",
+      "via": null,
+      "poiRef": "old-phoenix-finix-cove",
+      "sources": [
+        {
+          "creator": "Old Phoenix — site officiel",
+          "url": "https://www.old-phoenix.com/",
+          "date": "2026-06"
+        },
+        {
+          "creator": "AllTrails — sentier E4 Loutro → Finix / Glyka Nera",
+          "url": "https://www.alltrails.com/trail/greece/crete/glyka-nera-beach-timios-stavros-chapel-loutro",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-glyka-nera",
+      "kicker": "Glyka Nera · LA MER",
+      "title": "La plage où l'eau douce jaillit sous les galets",
+      "image": "lou-glyka-nera",
+      "alt": "Glyka Nera (Sweetwater Beach), près de Loutro : une plage de galets au pied d'une immense falaise calcaire pâle, des tamaris nourris par les sources d'eau douce, une barque et des parasols dans une eau turquoise.",
+      "intro": "Une heure de marche sur le sentier qui longe la falaise, ou vingt minutes en bateau-taxi (~5 €, ~CAD 8) : Glyka Nera — « eau douce » — est la plus belle baignade du coin. Des sources d'eau douce jaillissent sous les galets, juste au bord de la mer salée, et créent des poches étrangement tièdes quand on creuse un peu le fond avec les pieds. Au-dessus, des falaises blanches à pic ; devant, le bleu profond de la mer de Libye.",
+      "reco": "Pars tôt — à 6h30 sur le sentier E4, tu arrives seul sur la plage, et tu te baignes dans une eau où personne n'est encore allé ce jour-là. Apporte de l'eau et de l'ombre : il n'y a qu'une petite cantine, et c'est tout l'intérêt. C'est la baignade longue, celle où on flotte sur le dos une heure sans bouger, la tête remplie de rien.",
+      "quote": "On cherche l'eau cristalline partout où on va. Ici elle est tiède, transparente, et trouée de sources froides qui surgissent du fond. On reste jusqu'à ce que le soleil bascule derrière la falaise.",
+      "via": null,
+      "poiRef": "glyka-nera-sweet-water",
+      "sources": [
+        {
+          "creator": "Maps — Glyka Nera (Sweetwater Beach)",
+          "url": "https://www.google.com/maps/search/Glyka+Nera+Sweetwater+Beach+Loutro+Crete",
+          "date": "2026-06"
+        },
+        {
+          "creator": "AllTrails — Glyka Nera depuis Loutro",
+          "url": "https://www.alltrails.com/trail/greece/crete/glyka-nera-beach-timios-stavros-chapel-loutro",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-marmara",
+      "kicker": "Marmara · LA CRIQUE",
+      "title": "Le marbre, les grottes, et le pain de Dialiskari",
+      "image": "lou-marmara",
+      "alt": "Vue aérienne d'une crique d'eau turquoise et translucide entre des rochers pâles, une petite plage de galets et un petit bateau — Marmara, près de Loutro.",
+      "intro": "À l'autre bout, vers l'ouest, Marmara — la plage de marbre — là où le sentier des gorges d'Aradena rejoint la mer. Des roches de marbre pâle, polies par les siècles, plongent dans une eau turquoise percée de petites grottes où l'on nage à l'ombre. Sur place, une seule taverna : Dialiskari, pieds dans le sable, qui pétrit son pain au feu de bois.",
+      "reco": "Vas-y par bateau-taxi depuis Loutro, ou à pied par la gorge d'Aradena pour les plus vaillants. Réserve à Dialiskari si tu veux dîner — le pain maison part vite. Baigne-toi entre les rochers de marbre, entre dans les grottes, et laisse passer la chaleur de midi à l'ombre de la pierre. Le contraste avec Glyka Nera est total : là-bas les galets et les sources, ici le marbre et les cavernes.",
+      "quote": "Du marbre poli qui plonge dans le turquoise, des grottes pour se mettre à l'ombre, et une taverna qui pétrit son pain à dix mètres de l'eau. La Crète sait faire des criques comme personne.",
+      "via": null,
+      "poiRef": "marmara-beach",
+      "sources": [
+        {
+          "creator": "Maps — Marmara Beach, Loutro",
+          "url": "https://www.google.com/maps/search/Marmara+Beach+Loutro+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-notos",
+      "kicker": "Notos · LE FOODIE MOVE",
+      "title": "Dormir juste au-dessus de la meilleure table",
+      "image": "lou-mezedes",
+      "alt": "Une assiette de poulpe grillé : des tentacules charbonnés et glacés, un quartier de citron, des brins de romarin et des touches d'huile verte et de sauce, sur une assiette en céramique au liseré bleu, dans une ambiance de taverne.",
+      "intro": "Sur le quai, la famille Androulakakis tient le Notos : un mezedopoleion — une table de petites assiettes — avec quelques chambres au-dessus. C'est le foodie move du village : dormir là où on mange le mieux, descendre l'escalier pour souper, et remonter se coucher avec le bruit des vagues. Les petites assiettes défilent, on partage, on commande encore, on étire la soirée.",
+      "reco": "Laisse la cuisine décider — le poulpe grillé, les mezedes du jour, le poisson, les légumes, un pichet de vin local. Les chambres tournent autour de 60–85 € (~CAD 95–140), à réserver tôt : il y en a peu, et le bouche-à-oreille les remplit. Finis au raki maison, offert comme partout ici en digestif, et regarde la baie se vider de ses derniers bateaux.",
+      "quote": "Une table de petites assiettes tenue par une famille, et quelques chambres juste au-dessus. On soupe, on monte se coucher, on redescend déjeuner. Le voyage tient parfois dans un escalier.",
+      "via": null,
+      "poiRef": "notos-restaurant-rooms",
+      "sources": [
+        {
+          "creator": "TripAdvisor — Notos Restaurant & Rooms, Loutro",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g1187644-d3518986-Reviews-Notos_Restaurant_Rooms-Loutro_Chania_Prefecture_Crete.html",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de remonter sur le ferry vers l'est : les paidakia de Stratis et le yogourt du troupeau, le pain au feu de bois de l'Old Phoenix dans sa baie sauvage, les mezedes des Androulakakis sur le quai. Et tout ce qu'on n'a pas eu le temps de raconter — le Porto Loutro les pieds dans l'eau et l'Hotel Anna pour le budget, l'Ilios tenu par la même famille depuis 1979, le Blue House sur le front de mer, la promenade du soir quand les chats reprennent le quai. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": [
+        "hotel-porto-loutro",
+        "old-phoenix-finix-cove",
+        "marmara-beach",
+        "glyka-nera-sweet-water"
+      ],
+      "targets": [
+        "hotel-porto-loutro"
+      ],
+      "thumb": "lou-marmara",
+      "thumbAlt": "Vue aérienne d'une crique d'eau turquoise et translucide entre des rochers pâles, une petite plage de galets et un petit bateau — Marmara, près de Loutro.",
+      "pills": [
+        {
+          "poiRef": "hotel-porto-loutro",
+          "link": "official",
+          "label": "Porto Loutro · Site"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Maps — Loutro et la baie de Finix",
+          "url": "https://www.google.com/maps/search/Loutro+Finix+Bay+Crete",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "Le Porto Loutro, 18 chambres à cinq mètres de l'eau, la référence du village (~82–100 €, ~CAD 135–160). L'Hotel Anna pour le budget sans compromis (~35–50 €, ~CAD 55–80). Ou le Notos, chez les Androulakakis, pour dormir juste au-dessus de la meilleure table. Peu de chambres partout — écrire en direct, cinq à six mois d'avance."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Les paidakia et la sfakianopita chez Stratis, le pain au feu de bois de l'Old Phoenix dans la baie de Finix (15 min sur l'E4), les fruits de mer de l'Ilios (même famille depuis 1979), les mezedes des Androulakakis au Notos. La règle de Sfakia : un raki maison pour finir, toujours offert."
+      },
+      {
+        "label": "La mer & les criques",
+        "kinds": [
+          "plage"
+        ],
+        "footer": "Glyka Nera et ses sources d'eau douce sous les galets (à pied ou en bateau-taxi, ~5 €, ~CAD 8). Marmara et ses grottes de marbre, taverna Dialiskari sur place. Et la baie de Loutro elle-même, après 18h30, quand le dernier ferry est parti et que l'eau devient un miroir."
+      },
+      {
+        "label": "Le point d'ancrage",
+        "kinds": [
+          "sight"
+        ],
+        "footer": "Chora Sfakion : on y laisse la voiture (~3 €/jour, ~CAD 5), on retire du cash — aucun distributeur à Loutro — et on prend le ferry ANENDYK (20 min, ~8–15 €, ~CAD 13–24). Premier départ 9h30, dernier 18h45."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites locales"
+  },
+  "outro": {
+    "kicker": "Le cœur du voyage",
+    "body": "Six nuits sans route, sans voiture, sans issue rapide — exactement ce qu'on cherchait. L'agneau de Stratis, le pain au feu de l'Old Phoenix, les sources de Glyka Nera, le marbre de Marmara, et la baie qui se vide chaque soir à 18h30. Les {count} lieux de Loutro — où dormir, où manger, où nager — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochaine base : Sitia, tout à l'est, la vraie ville crétoise où les Grecs mangent encore au port.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/crete/"
+  }
+}

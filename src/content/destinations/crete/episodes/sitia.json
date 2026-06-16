@@ -1,0 +1,226 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "La Crète qui mange chez elle",
+      "body": "On reprend la voiture à Chora Sfakion et on roule vers l'est — Plakias, Frangokastello, trois heures trente de côte et de montagne jusqu'à Sitia. C'est le pari du voyage : l'est, là où les tour-opérateurs ne sont jamais vraiment arrivés. Une vraie ville crétoise, qui mange dans ses propres tavernas, parle à ses propres voisins, ne s'est déguisée pour personne. Et l'eau, ici, est à 27–28°C — le maximum thermique de l'année — calme, parce que personne n'est là pour la brasser. Neuf nuits exprès. On s'installe.",
+      "focusPoi": "sitia-vieille-ville",
+      "zoom": 13,
+      "targets": [
+        "sitia-vieille-ville",
+        "zorbas-tavern"
+      ],
+      "thumb": "sitia-cover",
+      "thumbAlt": "Des petits bateaux de pêche amarrés le long d'une jetée dans un port crétois tranquille, une longue digue et un petit phare au loin, une eau calme teintée de turquoise.",
+      "poiRef": "sitia-vieille-ville",
+      "sources": [
+        {
+          "creator": "Maps — Sitia, Crète orientale",
+          "url": "https://www.google.com/maps/search/Sitia+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "kicker": "L'eau à son maximum",
+      "body": "La journée type tient en deux pôles : le port et les criques. Le matin, on descend sur la promenade voir les pêcheurs rentrer ; le midi, on mange ce qu'ils ont sorti. L'après-midi, on file vers le sud — Xerokampos et son chapelet de criques désertes — ou vers la pointe est, Vaï et sa palmeraie, Kato Zakros au bout de la route. En septembre, l'eau est tiède comme un bain et les plages sont à nous. C'est lent, c'est vide, et c'est exactement le pari qu'on est venus tenir.",
+      "focusPoi": "kato-zakros-palais-minoen",
+      "zoom": 10,
+      "targets": [
+        "vai-palmeraie",
+        "mazzida-ammos-xerokambos"
+      ],
+      "thumb": "sit-xerokampos",
+      "thumbAlt": "Une crique de galets clairs aux eaux turquoise cristallines, des collines arides et des montagnes au loin sous un ciel bleu — côte de la Crète.",
+      "poiRef": "kato-zakros-palais-minoen",
+      "sources": [
+        {
+          "creator": "Maps — Xerokampos, Crète",
+          "url": "https://www.google.com/maps/search/Xerokambos+Crete",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-zorbas",
+      "kicker": "Zorbas · LA TABLE DU PORT",
+      "title": "Le proprio pêche, sa femme cuisine",
+      "image": "sit-zorbas",
+      "alt": "Quatre poissons entiers grillés (sardines) aux marques de grill, sur une assiette blanche, avec une petite salade et un quartier de citron.",
+      "intro": "Sur la promenade du port, Zorbas est exactement la taverne qu'on cherche en Crète et qu'on ne trouve plus ailleurs : le patron sort en mer le matin, sa femme cuisine le midi ce qu'il a rapporté, et l'addition pour deux finit autour de 40 € (~CAD 65). Pas de menu touristique, pas de rabatteur sur le trottoir — juste le poisson du jour et la mer en face.",
+      "reco": "Demande ce qui est frais aujourd'hui et laisse-toi guider. Le poisson grillé entier au ladolemono, une salade de tomates qui goûtent le soleil, des légumes de saison, une carafe de blanc local. C'est la Crète des pêcheurs, celle qui mange sa propre prise le jour même — la raison pour laquelle on a roulé trois heures et demie vers l'est.",
+      "quote": "Le gars qui te sert le poisson est le même qui l'a sorti de l'eau ce matin. À Sitia, la chaîne d'approvisionnement, c'est une barque et un quai.",
+      "via": null,
+      "poiRef": "zorbas-tavern",
+      "sources": [
+        {
+          "creator": "TripAdvisor — Zorbas, Sitia",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g635049-Reviews-Zorbas-Sitia_Lasithi_Prefecture_Crete.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Maps — Zorbas, port de Sitia",
+          "url": "https://www.google.com/maps/search/Zorbas+Tavern+Sitia+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-inodion",
+      "kicker": "Inodion · LE TERROIR",
+      "title": "Le dakos, l'huile PDO, et le Liatiko",
+      "image": "sit-dakos",
+      "alt": "Une salade crétoise — tomates, concombre, poivron, oignon rouge, olives noires et myzithra à l'origan — entourée de paximadi, les biscottes d'orge, sur une assiette blanche.",
+      "intro": "Chez Inodion, la famille Garefalakis sert depuis 2005 le dakos au four à bois — la galette d'orge dure, ramollie de tomate râpée, couronnée de myzithra et arrosée de l'huile PDO de Sitia, celle que les nutritionnistes citent quand ils parlent du régime crétois. C'est le plat le plus simple de l'île, et l'un des plus parfaits.",
+      "reco": "Le dakos, évidemment, et avec lui une carafe de Liatiko — le cépage rouge autochtone de l'est, presque introuvable hors de la Crète. C'est le killer move de Sitia : un plat de paysan et un vin qu'on ne boira nulle part ailleurs, sur une terrasse où personne ne te presse. Le repas qui justifie à lui seul la journée de route.",
+      "quote": "Une galette d'orge, une tomate, un filet d'huile, un verre de rouge qu'on ne trouve que sur cette île. Le luxe crétois, c'est ça : presque rien, mais le presque-rien parfait.",
+      "via": null,
+      "poiRef": "inodion",
+      "sources": [
+        {
+          "creator": "TripAdvisor — Inodion, Sitia",
+          "url": "https://www.tripadvisor.com/Restaurant_Review-g635049-Reviews-Inodion-Sitia_Lasithi_Prefecture_Crete.html",
+          "date": "2026-06"
+        },
+        {
+          "creator": "Maps — Monastère de Toplou (vin Liatiko)",
+          "url": "https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-xerokampos",
+      "kicker": "Xerokampos · LES CRIQUES DÉSERTES",
+      "title": "Le sable blanc, l'argile, et personne",
+      "image": "sit-xerokampos",
+      "alt": "Une crique de galets clairs aux eaux turquoise cristallines, des collines arides et des montagnes au loin sous un ciel bleu — côte de la Crète.",
+      "intro": "Une heure au sud de Sitia, au bout d'une route qui décourage les autocars, Xerokampos s'ouvre : un chapelet de criques désertes où le sable est blanc et l'eau, transparente jusqu'à l'os. À Mazzida Ammos, on dirait les tropiques ; juste à côté, à Argilos, l'argile grise se ramasse sur la berge et fait un spa naturel gratuit — on s'enduit, on sèche au soleil, on se rince dans la mer.",
+      "reco": "Vas-y avec de l'eau, de l'ombre et un pique-nique : il n'y a presque rien sur place, et c'est tout l'intérêt. Enchaîne Mazzida Ammos pour la baignade et Argilos pour le rituel de l'argile. En septembre, tu auras des criques entières pour toi seul — le genre de vide qu'on ne trouve plus sur la côte nord.",
+      "quote": "Du sable blanc, une eau à 28 degrés, de l'argile qui sort de terre, et pas une serviette à l'horizon. On a roulé jusqu'au bout de la Crète pour ça, et ça valait chaque kilomètre.",
+      "via": null,
+      "poiRef": "mazzida-ammos-xerokambos",
+      "sources": [
+        {
+          "creator": "Maps — Mazzida Ammos, Xerokampos",
+          "url": "https://www.google.com/maps/search/Mazida+Ammos+Xerokambos+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-vai",
+      "kicker": "Vaï · LA PALMERAIE",
+      "title": "La seule forêt de palmiers d'Europe",
+      "image": "sit-vai",
+      "alt": "La palmeraie de Vaï, en Crète : de grands palmiers serrés, des promeneurs sur le sable, et la mer turquoise visible entre les troncs.",
+      "intro": "À la pointe nord-est, Vaï est une anomalie : la seule palmeraie naturelle d'Europe, des milliers de palmiers de Crète serrés derrière une plage de sable doré, l'eau turquoise devant. L'image est presque irréelle — une oasis posée au bout de l'île, là où la terre s'arrête.",
+      "reco": "Arrive tôt, avant les quelques autocars de la mi-journée — en septembre, ils se comptent sur une main. Baigne-toi face aux palmiers, puis grimpe le promontoire vers Psili Ammos, la plage cachée derrière, où 90 % des visiteurs ne mettent jamais les pieds. C'est la récompense de ceux qui marchent dix minutes de plus.",
+      "quote": "Une forêt de palmiers au bord d'une mer turquoise, au bout de la Crète. On a beau savoir que ça existe, on n'y croit pas tant qu'on n'a pas posé la serviette dessous.",
+      "via": null,
+      "poiRef": "vai-palmeraie",
+      "sources": [
+        {
+          "creator": "Maps — Vaï (palmeraie), Crète",
+          "url": "https://www.google.com/maps/search/Vai+Beach+Crete",
+          "date": "2026-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-kato-zakros",
+      "kicker": "Kato Zakros · LA BAIGNADE ARCHÉOLOGIQUE",
+      "title": "Un palais minoen à deux cents mètres de l'eau",
+      "image": "sit-kato-zakros",
+      "alt": "Vue aérienne d'une plage de galets et de rochers au pied de collines arides, une eau turquoise cristalline — côte sud de la Crète.",
+      "intro": "Tout au bout de la route est, après la Gorge des Morts — où les Minoens enterraient leurs morts dans les grottes des falaises —, Kato Zakros est une fin du monde douce : une baie tranquille, quelques tavernas, et derrière la plage, à deux cents mètres de l'eau, les ruines d'un palais minoen. On nage, puis on marche quatre mille ans en arrière, puis on retourne nager.",
+      "reco": "Descends la gorge à pied le matin (compte une bonne heure, chaussures fermées), récompense-toi d'un déjeuner de poisson à la taverne du village, et passe l'après-midi à alterner baignade et ruines. L'histoire reste le décor — mais ici, le décor a quatre millénaires et les pieds dans l'eau turquoise.",
+      "quote": "On se baigne dans une crique calme, on sort de l'eau, et un palais de l'âge du bronze nous attend à deux cents mètres. La Crète mélange les époques sans prévenir.",
+      "via": null,
+      "poiRef": "kato-zakros-palais-minoen",
+      "sources": [
+        {
+          "creator": "Maps — Kato Zakros (palais minoen)",
+          "url": "https://www.google.com/maps/search/Kato+Zakros+Minoan+Palace+Crete",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de reprendre la route vers Rethymno : le poisson de Zorbas pêché le matin, le dakos et le Liatiko d'Inodion, le plateau de poisson des Psarakis chez Tzivaeri (22 € pour deux, ~CAD 36, imbattable). Et tout ce qu'on n'a pas eu le temps de raconter — la dégustation gratuite d'huile et de vin au monastère de Toplou, l'argile-spa d'Argilos, la plage secrète de Psili Ammos derrière Vaï, l'îlot-forteresse de Spinalonga sur la route. Où dormir, où manger, les prix et le budget complet sont dans le carnet.",
+      "boundsPois": [
+        "sitia-vieille-ville",
+        "vai-palmeraie",
+        "kato-zakros-palais-minoen",
+        "mazzida-ammos-xerokambos"
+      ],
+      "targets": [
+        "monastere-de-toplou"
+      ],
+      "thumb": "sit-vai",
+      "thumbAlt": "La palmeraie de Vaï, en Crète : de grands palmiers serrés, des promeneurs sur le sable, et la mer turquoise visible entre les troncs.",
+      "pills": [
+        {
+          "poiRef": "monastere-de-toplou",
+          "link": "maps",
+          "label": "Toplou · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Maps — Monastère de Toplou, Sitia",
+          "url": "https://www.google.com/maps/search/Toplou+Monastery+Sitia+Crete",
+          "date": "2026-06"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "Les Nereids Apartments avec cuisine à trente mètres de la plage (~45–58 €, ~CAD 75–95), pour cuisiner les légumes du marché. L'Elysee sur la promenade du port (~65–85 €, ~CAD 105–140), pour voir les pêcheurs rentrer à 6h. Et la pépite qu'on se cache à soi-même : Livikoview à Xerokambos (~75–95 €, ~CAD 120–155), à 48 km au sud, pour disparaître complètement quelques nuits."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Le poisson que Zorbas pêche lui-même le matin, le dakos au four à bois et le Liatiko d'Inodion, le plateau de poisson des Psarakis chez Tzivaeri (22 € pour deux). Trois tables familiales, zéro touriste, l'addition douce."
+      },
+      {
+        "label": "Les criques & plages",
+        "kinds": [
+          "plage"
+        ],
+        "footer": "Xerokampos et ses criques désertes (Mazzida Ammos pour le sable blanc, Argilos pour l'argile-spa). Vaï et sa palmeraie, Psili Ammos cachée derrière le promontoire. Et Kato Zakros, sa baie calme et son palais minoen. L'eau à 27–28°C, et presque personne."
+      },
+      {
+        "label": "À ne pas manquer",
+        "kinds": [
+          "sight"
+        ],
+        "footer": "Le monastère de Toplou (XVe siècle) pour la dégustation gratuite d'huile et de vin Liatiko, cinq siècles de viticulture monastique. Et Spinalonga, l'îlot-forteresse vénitien devenu ancienne léproserie, sur la route du retour vers l'ouest."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites locales"
+  },
+  "outro": {
+    "kicker": "Le pari est gagné",
+    "body": "Neuf nuits dans l'est où personne ne va — le poisson du port, le dakos et le Liatiko, les criques désertes de Xerokampos, la palmeraie de Vaï, le palais de Kato Zakros les pieds dans l'eau. Les {count} lieux de Sitia vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Dernière base : Rethymno, le retour en douceur — la vieille ville vénitienne et les plages du sud, avant le vol depuis Héraklion.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/crete/"
+  }
+}

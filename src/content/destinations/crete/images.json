@@ -48,126 +48,6 @@
     }
   },
   {
-    "id": "photo-1",
-    "slot": "photo-1",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-2.jpg",
-    "alt": "Phare vénitien de Chania",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1636634245640-e223f8fbe529",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "ec380310b1a696856aa628cba1f1134125c5d30a387a20d2b525b86d4dcd6ed5",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "ec380310b1a696856aa628cba1f1134125c5d30a387a20d2b525b86d4dcd6ed5",
-      "alt": "Phare vénitien de Chania",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-2",
-    "slot": "photo-2",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-3.jpg",
-    "alt": "Elafonisi vue aérienne",
-    "layout": "wide",
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1627240821425-3e148ca739b1",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "d36f110da2416a3930a8c18143a3b3e1438f0ef31cdf58f851dfd3d1f23d6d1b",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "d36f110da2416a3930a8c18143a3b3e1438f0ef31cdf58f851dfd3d1f23d6d1b",
-      "alt": "Elafonisi vue aérienne",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-3",
-    "slot": "photo-3",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-4.jpg",
-    "alt": "Plage de Falassarna",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1604179562800-b60b88b8cb26",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "b57d869af718aabcee48ba7b66043b1508e02c969be7976b0306e23e9aaba3be",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "b57d869af718aabcee48ba7b66043b1508e02c969be7976b0306e23e9aaba3be",
-      "alt": "Plage de Falassarna",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-4",
-    "slot": "photo-4",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-5.jpg",
-    "alt": "Balos Lagoon",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1611697522020-f44d4e818698",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "2bf3799069c7294845f64c0326485c8e623e0fbd37e99c021ee5d3deab902be4",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "2bf3799069c7294845f64c0326485c8e623e0fbd37e99c021ee5d3deab902be4",
-      "alt": "Balos Lagoon",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-5",
-    "slot": "photo-5",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-6.jpg",
-    "alt": "Poisson grillé et pieuvre — cuisine crétoise",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1768322264423-4b0adf0cf31b",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "c04cddcfce3c46a7ed3b51928264bbdde3a3cd561c01ea777d6cb8d480a9f0d8",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "c04cddcfce3c46a7ed3b51928264bbdde3a3cd561c01ea777d6cb8d480a9f0d8",
-      "alt": "Poisson grillé et pieuvre — cuisine crétoise",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
     "id": "accom-1",
     "slot": "accom-1",
     "base": "chania",
@@ -188,30 +68,6 @@
       "sha256": "3a0ffc686b88df52094ee9511c411158c97f0dc0d720d2d6a574af026f9cef0c",
       "alt": "Chambre d'hôtel avec fenêtre lumineuse",
       "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-2",
-    "slot": "accom-2",
-    "base": "chania",
-    "role": "accom",
-    "file": "photo-8.jpg",
-    "alt": "Balcon avec vue sur cour vénitienne",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1694434029818-0f0dd57939b1",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "452dcaf5b296f56e0fd658d334bae3b01f9988443c495c26b46191cf692421c2",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "452dcaf5b296f56e0fd658d334bae3b01f9988443c495c26b46191cf692421c2",
-      "alt": "Balcon avec vue sur cour vénitienne",
-      "verdict": "mismatch",
       "checkedAt": "2026-06-15"
     }
   },
@@ -240,1730 +96,26 @@
     }
   },
   {
-    "id": "resto-1",
-    "slot": "resto-1",
-    "base": "chania",
-    "role": "resto",
-    "file": "photo-10.jpg",
-    "alt": "Table garnie de plats crétois — mezze et légumes",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1580751150184-e12c5beb8588",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "7d22ab8d7d014127d0f1b243e33f54a3be168f8cce629e85dda47ba1db2dcba9",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "7d22ab8d7d014127d0f1b243e33f54a3be168f8cce629e85dda47ba1db2dcba9",
-      "alt": "Table garnie de plats crétois — mezze et légumes",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-2",
-    "slot": "resto-2",
-    "base": "chania",
-    "role": "resto",
-    "file": "photo-11.jpg",
-    "alt": "Agneau rôti sur planche en bois — spécialité au four",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1692106914421-e04e1066bd62",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "b55a9fc6cbf09d21a4ec6a9585668d82cbd6b9aee523a8e109afdbcf50c54ab5",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "b55a9fc6cbf09d21a4ec6a9585668d82cbd6b9aee523a8e109afdbcf50c54ab5",
-      "alt": "Agneau rôti sur planche en bois — spécialité au four",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "food-1",
-    "slot": "food-1",
-    "base": "chania",
-    "role": "food",
-    "file": "photo-12.jpg",
-    "alt": "Fruits de mer grillés aux herbes — spécialité crétoise",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1758972572427-fc3d4193bbd2",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "896cd2d6c4c59a6690f832a8db79118c32c3917c08ba8b5a1f62f43de6febd2b",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "896cd2d6c4c59a6690f832a8db79118c32c3917c08ba8b5a1f62f43de6febd2b",
-      "alt": "Fruits de mer grillés aux herbes — spécialité crétoise",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-1",
-    "slot": "foodie-1",
-    "base": "chania",
-    "role": "foodie",
-    "file": "photo-13.jpg",
-    "alt": "Loukoumades dorés arrosés de miel",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1567306226416-28f0efdc88ce",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "f87a87259a5dcac49775c91272919aa21cf245b228de0cba3546419fb6639c4e",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "f87a87259a5dcac49775c91272919aa21cf245b228de0cba3546419fb6639c4e",
-      "alt": "Loukoumades dorés arrosés de miel",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-2",
-    "slot": "foodie-2",
-    "base": "chania",
-    "role": "foodie",
-    "file": "photo-14.jpg",
-    "alt": "Fromage et olives — mezze crétois",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1748274240982-6b99b423ee93",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "48d995ad920b68090f405056cf18e37a0fe53e3eda02ef216f6047cb0d5d99ec",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "48d995ad920b68090f405056cf18e37a0fe53e3eda02ef216f6047cb0d5d99ec",
-      "alt": "Fromage et olives — mezze crétois",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-3",
-    "slot": "foodie-3",
-    "base": "chania",
-    "role": "foodie",
-    "file": "photo-15.jpg",
-    "alt": "Poulpe grillé aux herbes et feta",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1764397514715-37a966071228",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "c9ccc93018b72efa174f4ec8773c7d710541df14924a63215d8cd6aa2aedb49a",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "c9ccc93018b72efa174f4ec8773c7d710541df14924a63215d8cd6aa2aedb49a",
-      "alt": "Poulpe grillé aux herbes et feta",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-4",
-    "slot": "foodie-4",
-    "base": "chania",
-    "role": "foodie",
-    "file": "photo-16.jpg",
-    "alt": "Vin et panier dans les vignes",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1667226701528-722a4f098707",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "68dae99650b69f1b0823a788e01bbc9bd65457894a43bf22ef8cebf3cbaae5e6",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "68dae99650b69f1b0823a788e01bbc9bd65457894a43bf22ef8cebf3cbaae5e6",
-      "alt": "Vin et panier dans les vignes",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-5",
-    "slot": "foodie-5",
-    "base": "chania",
-    "role": "foodie",
-    "file": "photo-17.jpg",
-    "alt": "Préparation de plats crétois traditionnels",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1638612833646-34eecc16f3f1",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "e471fc0f66aa833b13dbf328923c3c7397f5fcf2c2145b81cc10f80686a59709",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "e471fc0f66aa833b13dbf328923c3c7397f5fcf2c2145b81cc10f80686a59709",
-      "alt": "Préparation de plats crétois traditionnels",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-6",
-    "slot": "photo-6",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-18.jpg",
-    "alt": "Ruelle pavée bordée de fruits et fleurs — quartier traditionnel",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1634372307576-18e2a25e825b",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "79496f0b3ca5f0fd24d3a0abd39a46fc967683c98a8b0c75976b48af93cdd463",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "79496f0b3ca5f0fd24d3a0abd39a46fc967683c98a8b0c75976b48af93cdd463",
-      "alt": "Ruelle pavée bordée de fruits et fleurs — quartier traditionnel",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-7",
-    "slot": "photo-7",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-19.jpg",
-    "alt": "Table dressée au coucher du soleil face à la mer",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1766393305879-96093c91c0ca",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "8ef6529e2e1c0d1bef892059dc68ba95fd822f42c73a56efd46fb10476fa4237",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "8ef6529e2e1c0d1bef892059dc68ba95fd822f42c73a56efd46fb10476fa4237",
-      "alt": "Table dressée au coucher du soleil face à la mer",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-8",
-    "slot": "photo-8",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-20.jpg",
-    "alt": "Montagnes et mer turquoise — crique crétoise",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1589052958432-21951b2f0982",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "17997aedaef8c372205d9f11a509fdf0c246e7cbc72624f609a976173055c104",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "17997aedaef8c372205d9f11a509fdf0c246e7cbc72624f609a976173055c104",
-      "alt": "Montagnes et mer turquoise — crique crétoise",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-9",
-    "slot": "photo-9",
-    "base": "chania",
-    "role": "photo",
-    "file": "photo-21.jpg",
-    "alt": "Dîner illuminé en bord de mer le soir",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1772331161410-7a4e7ce1a2aa",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "e579631a2e3d5c40c30db612a37b11e7b685b934a2ef5e5c1c1b0e3c765f1950",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "e579631a2e3d5c40c30db612a37b11e7b685b934a2ef5e5c1c1b0e3c765f1950",
-      "alt": "Dîner illuminé en bord de mer le soir",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
     "id": "loutro-cover",
     "slot": "loutro-cover",
     "base": "loutro",
     "role": "cover",
-    "file": "photo-22.jpg",
-    "alt": "Vue panoramique de Loutro — baie en demi-lune",
+    "file": "loutro-cover.jpg",
+    "alt": "Vue aérienne du village de Loutro, en Crète : des maisons blanches en arc de cercle autour d'une baie en croissant aux eaux turquoise, de petits bateaux amarrés, une montagne aride et abrupte juste derrière.",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "1673594214953-21b34424467a",
-      "photographer": "",
+      "photoId": "1697753581590-414f4753d77c",
+      "photographer": "Dimitris Kiriakakis",
       "license": "unsplash-standard"
     },
-    "sha256": "d0f4dcf18d9dabbf7055a8973926f7dca128f213137d0e7624717da0a55634cd",
-    "visionChecked": "migration-v1",
+    "sha256": "3960a1ce78d4affaba3d255a3f0cf6926999ca21f005a14af595693a2bc5c7e3",
+    "visionChecked": "fresh-source-2026-06-15",
     "visionCheckedSemantic": {
-      "sha256": "d0f4dcf18d9dabbf7055a8973926f7dca128f213137d0e7624717da0a55634cd",
-      "alt": "Vue panoramique de Loutro — baie en demi-lune",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-10",
-    "slot": "photo-10",
-    "base": "loutro",
-    "role": "photo",
-    "file": "photo-23.jpg",
-    "alt": "Maisons blanches de Loutro face à la mer",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1620992363972-c960f373f79f",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "fcbf94e8b9e6e2eba3ee8854366501ab9fe3ab75646206895762202edd01673c",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "fcbf94e8b9e6e2eba3ee8854366501ab9fe3ab75646206895762202edd01673c",
-      "alt": "Maisons blanches de Loutro face à la mer",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-11",
-    "slot": "photo-11",
-    "base": "loutro",
-    "role": "photo",
-    "file": "photo-24.jpg",
-    "alt": "Village côtier niché au bord des montagnes",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1764140254410-f8462f93b51e",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "3ce579b86d3bc554db4c36eebf84788aae68049c78d63bf734b5739a5b570c21",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "3ce579b86d3bc554db4c36eebf84788aae68049c78d63bf734b5739a5b570c21",
-      "alt": "Village côtier niché au bord des montagnes",
+      "sha256": "3960a1ce78d4affaba3d255a3f0cf6926999ca21f005a14af595693a2bc5c7e3",
+      "alt": "Vue aérienne du village de Loutro, en Crète : des maisons blanches en arc de cercle autour d'une baie en croissant aux eaux turquoise, de petits bateaux amarrés, une montagne aride et abrupte juste derrière.",
       "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-12",
-    "slot": "photo-12",
-    "base": "loutro",
-    "role": "photo",
-    "file": "photo-25.jpg",
-    "alt": "Loutro entre montagne et mer",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1751060867787-3d28ea3d6e22",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "84fa6646dd499c61192c0636f097a4f42bf7f25d7ee95a2905dc0a30772dc2ff",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "84fa6646dd499c61192c0636f097a4f42bf7f25d7ee95a2905dc0a30772dc2ff",
-      "alt": "Loutro entre montagne et mer",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-13",
-    "slot": "photo-13",
-    "base": "loutro",
-    "role": "photo",
-    "file": "photo-26.jpg",
-    "alt": "Taverna en bord de mer — chaises bleues",
-    "layout": "wide",
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1747002723821-38872177dfe3",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "f6677e45078f894b54a1f86f0c6517c90e1838b67b574937c918337efca688ac",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "f6677e45078f894b54a1f86f0c6517c90e1838b67b574937c918337efca688ac",
-      "alt": "Taverna en bord de mer — chaises bleues",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-14",
-    "slot": "photo-14",
-    "base": "loutro",
-    "role": "photo",
-    "file": "photo-27.jpg",
-    "alt": "Vue sur la plage depuis la colline",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1737176301309-34954bc4fb12",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "9bf785fa56b63000da63b457060051b22b13b7c4b469b9b7ee6dc5a39e5bc449",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "9bf785fa56b63000da63b457060051b22b13b7c4b469b9b7ee6dc5a39e5bc449",
-      "alt": "Vue sur la plage depuis la colline",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-4",
-    "slot": "accom-4",
-    "base": "loutro",
-    "role": "accom",
-    "file": "photo-28.jpg",
-    "alt": "Terrasse avec parasol et vue mer",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1719821756477-dcb0b6ed0dc9",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "57c3134cb6881d50c32cfe91889305d7afbf833b39d7f565e4a2cb0d22edc1af",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "57c3134cb6881d50c32cfe91889305d7afbf833b39d7f565e4a2cb0d22edc1af",
-      "alt": "Terrasse avec parasol et vue mer",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-5",
-    "slot": "accom-5",
-    "base": "loutro",
-    "role": "accom",
-    "file": "photo-29.jpg",
-    "alt": "Balcon avec table donnant sur la mer",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1693098243367-93320637839e",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "2b50701ce38f678eb89aa4cf727dd6937b09ef60fcce33765ee3c9037f5f0b37",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "2b50701ce38f678eb89aa4cf727dd6937b09ef60fcce33765ee3c9037f5f0b37",
-      "alt": "Balcon avec table donnant sur la mer",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-6",
-    "slot": "accom-6",
-    "base": "loutro",
-    "role": "accom",
-    "file": "photo-30.jpg",
-    "alt": "Restaurant avec vue sur l'océan",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1758561087076-e647b2e2485a",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "4b8252c4176045f981c9af96d99e7ec754bf1f3daa4f44e049da9714f627d2ef",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "4b8252c4176045f981c9af96d99e7ec754bf1f3daa4f44e049da9714f627d2ef",
-      "alt": "Restaurant avec vue sur l'océan",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-3",
-    "slot": "resto-3",
-    "base": "loutro",
-    "role": "resto",
-    "file": "photo-31.jpg",
-    "alt": "Côtelettes d'agneau grillées sur assiette",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1676471977139-315014bed47e",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "f3c530a71c80c390e0e4be2eb40cac24f2d74f7e9c597223156c3f6b623e8922",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "f3c530a71c80c390e0e4be2eb40cac24f2d74f7e9c597223156c3f6b623e8922",
-      "alt": "Côtelettes d'agneau grillées sur assiette",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-4",
-    "slot": "resto-4",
-    "base": "loutro",
-    "role": "resto",
-    "file": "photo-6.jpg",
-    "alt": "Poisson grillé et pieuvre avec légumes",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1768322264423-4b0adf0cf31b",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "c04cddcfce3c46a7ed3b51928264bbdde3a3cd561c01ea777d6cb8d480a9f0d8",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "c04cddcfce3c46a7ed3b51928264bbdde3a3cd561c01ea777d6cb8d480a9f0d8",
-      "alt": "Poisson grillé et pieuvre avec légumes",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "food-2",
-    "slot": "food-2",
-    "base": "loutro",
-    "role": "food",
-    "file": "photo-32.jpg",
-    "alt": "Plat de fruits de mer frais en taverna",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1773701626594-a601beb3297d",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "c0c96e8b6ca854a2fb464517df9db9000b7204c5ad23ec80bb6cc04c04f3f207",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "c0c96e8b6ca854a2fb464517df9db9000b7204c5ad23ec80bb6cc04c04f3f207",
-      "alt": "Plat de fruits de mer frais en taverna",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-6",
-    "slot": "foodie-6",
-    "base": "loutro",
-    "role": "foodie",
-    "file": "photo-33.jpg",
-    "alt": "Plat gratiné aux herbes — cuisine crétoise",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1767514579388-278d63566fd7",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "6183f0b1e3cf6b2583e3e9211b85e0932878e51a50695374800ae79af0651b36",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "6183f0b1e3cf6b2583e3e9211b85e0932878e51a50695374800ae79af0651b36",
-      "alt": "Plat gratiné aux herbes — cuisine crétoise",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-7",
-    "slot": "foodie-7",
-    "base": "loutro",
-    "role": "foodie",
-    "file": "photo-34.jpg",
-    "alt": "Viande grillée à côté de haricots verts",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1553621044-bcfa686676dc",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "ec855eb27983ae6067dd488940ddbed937aafffbf0c7c4f8d04d3545f5d8bc29",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "ec855eb27983ae6067dd488940ddbed937aafffbf0c7c4f8d04d3545f5d8bc29",
-      "alt": "Viande grillée à côté de haricots verts",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-8",
-    "slot": "foodie-8",
-    "base": "loutro",
-    "role": "foodie",
-    "file": "photo-35.jpg",
-    "alt": "Table dressée dans un café en bord de mer",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1759369983522-b12cd771fe01",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "9effb09ac90e1e3acc255f29e466b98ad9b62e6960498bacdb919e37ab12bb8f",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "9effb09ac90e1e3acc255f29e466b98ad9b62e6960498bacdb919e37ab12bb8f",
-      "alt": "Table dressée dans un café en bord de mer",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-9",
-    "slot": "foodie-9",
-    "base": "loutro",
-    "role": "foodie",
-    "file": "photo-36.jpg",
-    "alt": "Verre de raki sur table de taverna",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1573126617899-41f1dffb196c",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "7f207b6b03f33568ff10f9637d0d8c4472b39473cc37c34a2d345d09a93cc3c5",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "7f207b6b03f33568ff10f9637d0d8c4472b39473cc37c34a2d345d09a93cc3c5",
-      "alt": "Verre de raki sur table de taverna",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-15",
-    "slot": "photo-15",
-    "base": "loutro",
-    "role": "photo",
-    "file": "photo-37.jpg",
-    "alt": "Rivage rocheux avec herbe verte et mer turquoise",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1627240821221-10c90724a9e1",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "5b6c22683d8c84e41268e0b603c38451c8830abf2d249d9a18acf1cd40d4d8f2",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "5b6c22683d8c84e41268e0b603c38451c8830abf2d249d9a18acf1cd40d4d8f2",
-      "alt": "Rivage rocheux avec herbe verte et mer turquoise",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-16",
-    "slot": "photo-16",
-    "base": "loutro",
-    "role": "photo",
-    "file": "photo-38.jpg",
-    "alt": "Eau cristalline dans une crique isolée",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1575237579976-4d4219f1860f",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "9661526e047f3242e22fc6d24e22028a120138363a3c0ad539add836274684f7",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "9661526e047f3242e22fc6d24e22028a120138363a3c0ad539add836274684f7",
-      "alt": "Eau cristalline dans une crique isolée",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-17",
-    "slot": "photo-17",
-    "base": "loutro",
-    "role": "photo",
-    "file": "photo-39.jpg",
-    "alt": "Terrasse de café avec vue sur l'océan au crépuscule",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1664547654523-24e8a9121988",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "ac40150f61d60952656b59d9b5be8e70893b7d70ec41429739c8dd56c8282a9d",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "ac40150f61d60952656b59d9b5be8e70893b7d70ec41429739c8dd56c8282a9d",
-      "alt": "Terrasse de café avec vue sur l'océan au crépuscule",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "sitia-cover",
-    "slot": "sitia-cover",
-    "base": "sitia",
-    "role": "cover",
-    "file": "photo-40.jpg",
-    "alt": "Port de Sitia — côte rocheuse et plage",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1741618487089-c7a11f4e89d0",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "98e4a98e7ee94a353c7675c8e8084c90042b3237d73afbd41aa68da188f55507",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "98e4a98e7ee94a353c7675c8e8084c90042b3237d73afbd41aa68da188f55507",
-      "alt": "Port de Sitia — côte rocheuse et plage",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-18",
-    "slot": "photo-18",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-41.jpg",
-    "alt": "Baignade près des bâtiments historiques de Sitia",
-    "layout": "wide",
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1741617621351-9e15b51e5cb4",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "aa3be8d7260a31d1e5ef1804860a2e1e2863337f9b9586d99c29d245eb2d3c9d",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "aa3be8d7260a31d1e5ef1804860a2e1e2863337f9b9586d99c29d245eb2d3c9d",
-      "alt": "Baignade près des bâtiments historiques de Sitia",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-19",
-    "slot": "photo-19",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-42.jpg",
-    "alt": "Ruelles blanches de l'est crétois",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1572256729029-2554f8839c6b",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "10d7e3c94772f15d3b19cac68fb90f95e0f9eb8b3a377158e2abb7684dc12f3a",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "10d7e3c94772f15d3b19cac68fb90f95e0f9eb8b3a377158e2abb7684dc12f3a",
-      "alt": "Ruelles blanches de l'est crétois",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-20",
-    "slot": "photo-20",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-43.jpg",
-    "alt": "Spinalonga — île-forteresse",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1637649983971-597acff319a5",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "dd2c6abbdc99cbfde122cdce464105b7d384a8c92d6175c4da3108a5d6aa7994",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "dd2c6abbdc99cbfde122cdce464105b7d384a8c92d6175c4da3108a5d6aa7994",
-      "alt": "Spinalonga — île-forteresse",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-21",
-    "slot": "photo-21",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-44.jpg",
-    "alt": "Bateaux devant Spinalonga",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1577909927624-46239c787f4e",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "726eba8fb86b92c759d3fe28b9e7f0e5f0631a391251ac14b63947930611e77f",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "726eba8fb86b92c759d3fe28b9e7f0e5f0631a391251ac14b63947930611e77f",
-      "alt": "Bateaux devant Spinalonga",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-22",
-    "slot": "photo-22",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-45.jpg",
-    "alt": "Pieuvres séchant au soleil — tradition crétoise",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1517580314428-09d986e8f63a",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "558261f31e9d4fc290ffbf5d948861ccffaf942aecf0a3d78e0110f3c459d56e",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "558261f31e9d4fc290ffbf5d948861ccffaf942aecf0a3d78e0110f3c459d56e",
-      "alt": "Pieuvres séchant au soleil — tradition crétoise",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-7",
-    "slot": "accom-7",
-    "base": "sitia",
-    "role": "accom",
-    "file": "photo-46.jpg",
-    "alt": "Murs blancs et plantes vertes — studio méditerranéen",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1630410304931-d90e1fe3f918",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "660d5f54e91f858c86d39ffd9d6e0dcc629dd36d8fec16521eeb334fad53b2d4",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "660d5f54e91f858c86d39ffd9d6e0dcc629dd36d8fec16521eeb334fad53b2d4",
-      "alt": "Murs blancs et plantes vertes — studio méditerranéen",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-8",
-    "slot": "accom-8",
-    "base": "sitia",
-    "role": "accom",
-    "file": "photo-47.jpg",
-    "alt": "Terrasse et mobilier extérieur face à la mer",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1604145195376-e2c8195adf29",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "9e9e050c2f9d90b84e21e5601ac977263ed5c8fce7bdd02b7786f9ba56e62b4d",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "9e9e050c2f9d90b84e21e5601ac977263ed5c8fce7bdd02b7786f9ba56e62b4d",
-      "alt": "Terrasse et mobilier extérieur face à la mer",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-9",
-    "slot": "accom-9",
-    "base": "sitia",
-    "role": "accom",
-    "file": "photo-48.jpg",
-    "alt": "Table en bois et chaises — ambiance rustique méditerranéenne",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1606141331552-a39fb3230fc3",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "d66b7477fe5c34dc84a3fcc22cfae76b3b6cc25d37557f53aeea23f6d3ad8b7e",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "d66b7477fe5c34dc84a3fcc22cfae76b3b6cc25d37557f53aeea23f6d3ad8b7e",
-      "alt": "Table en bois et chaises — ambiance rustique méditerranéenne",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-5",
-    "slot": "resto-5",
-    "base": "sitia",
-    "role": "resto",
-    "file": "photo-49.jpg",
-    "alt": "Poulpe grillé avec légumes et vin rosé",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1764397514707-48308ede7f04",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "7951d8b9d2accee45db9c12ccd5d1201fab9e6f5399b3981a25aafe608e3c22d",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "7951d8b9d2accee45db9c12ccd5d1201fab9e6f5399b3981a25aafe608e3c22d",
-      "alt": "Poulpe grillé avec légumes et vin rosé",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-6",
-    "slot": "resto-6",
-    "base": "sitia",
-    "role": "resto",
-    "file": "photo-50.jpg",
-    "alt": "Tomates et légumes tranchés — ingrédients frais crétois",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1640702296640-20dfeee862ad",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "8be658fd42e2e8647ca1c48cdf6a5a3d20a09dfbca52e32c83b7ae5227f120ef",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "8be658fd42e2e8647ca1c48cdf6a5a3d20a09dfbca52e32c83b7ae5227f120ef",
-      "alt": "Tomates et légumes tranchés — ingrédients frais crétois",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-10",
-    "slot": "foodie-10",
-    "base": "sitia",
-    "role": "foodie",
-    "file": "photo-51.jpg",
-    "alt": "Huile d'olive versée — close-up doré",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1773217890253-78fb48cc5c79",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "b91647a6e292fc7bfe1561654b4a8d722fc16bb757e507930e1a8199fbf91011",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "b91647a6e292fc7bfe1561654b4a8d722fc16bb757e507930e1a8199fbf91011",
-      "alt": "Huile d'olive versée — close-up doré",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-11",
-    "slot": "foodie-11",
-    "base": "sitia",
-    "role": "foodie",
-    "file": "photo-16.jpg",
-    "alt": "Vin et panier dans les vignes",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1667226701528-722a4f098707",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "68dae99650b69f1b0823a788e01bbc9bd65457894a43bf22ef8cebf3cbaae5e6",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "68dae99650b69f1b0823a788e01bbc9bd65457894a43bf22ef8cebf3cbaae5e6",
-      "alt": "Vin et panier dans les vignes",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-12",
-    "slot": "foodie-12",
-    "base": "sitia",
-    "role": "foodie",
-    "file": "photo-52.jpg",
-    "alt": "Assiette de poisson et poulpe grillés avec légumes",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1764397514789-079231e88f31",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "33f91199594c6370a0a39dd994b059b7862c3cf518860aadf805424f4779770a",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "33f91199594c6370a0a39dd994b059b7862c3cf518860aadf805424f4779770a",
-      "alt": "Assiette de poisson et poulpe grillés avec légumes",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-13",
-    "slot": "foodie-13",
-    "base": "sitia",
-    "role": "foodie",
-    "file": "photo-53.jpg",
-    "alt": "Poulpe grillé avec salade et vin sur la table",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1764397514746-e58523d0eaff",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "4718561133d79b9375281cf1afaca4b96f751e34e535657cef3855d3b56b5ed3",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "4718561133d79b9375281cf1afaca4b96f751e34e535657cef3855d3b56b5ed3",
-      "alt": "Poulpe grillé avec salade et vin sur la table",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-23",
-    "slot": "photo-23",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-54.jpg",
-    "alt": "Eaux turquoise et côte rocheuse",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1577986396799-e4739339575d",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "670731863b727e842f655ed852cafaa20e27c6f32210a3c7a3c4d0eb235be814",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "670731863b727e842f655ed852cafaa20e27c6f32210a3c7a3c4d0eb235be814",
-      "alt": "Eaux turquoise et côte rocheuse",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-24",
-    "slot": "photo-24",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-55.jpg",
-    "alt": "Palmiers au bord d'un plan d'eau cristalline",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1572006169383-3588cb15361f",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "ac2534f219f6140c2df3a85d8da8f8e38c4acf37e8b70212481aaa4589e50128",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "ac2534f219f6140c2df3a85d8da8f8e38c4acf37e8b70212481aaa4589e50128",
-      "alt": "Palmiers au bord d'un plan d'eau cristalline",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-25",
-    "slot": "photo-25",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-56.jpg",
-    "alt": "Rivière à travers une gorge verdoyante",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1764116698347-6a89f62a908c",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "d7e313f9e17140f992af1df7a030edd582a3aea961afc2492e594a9f8a5e1681",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "d7e313f9e17140f992af1df7a030edd582a3aea961afc2492e594a9f8a5e1681",
-      "alt": "Rivière à travers une gorge verdoyante",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-26",
-    "slot": "photo-26",
-    "base": "sitia",
-    "role": "photo",
-    "file": "photo-57.jpg",
-    "alt": "Tables et chaises en bois devant un bâtiment en pierre",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1519310948589-40d899de4d50",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "04a841397f5d55053687dd91b4b948052ff3b4ab5f12e4f3be765aea295a54d0",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "04a841397f5d55053687dd91b4b948052ff3b4ab5f12e4f3be765aea295a54d0",
-      "alt": "Tables et chaises en bois devant un bâtiment en pierre",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "rethymno-cover",
-    "slot": "rethymno-cover",
-    "base": "rethymno",
-    "role": "cover",
-    "file": "photo-58.jpg",
-    "alt": "Port de Rethymno — bateaux et architecture vénitienne",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1625231432020-208fbfe585ed",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "39adb2c099d65bc106bc6fd85fa60b5f48e5b194e9d4ba4f3b6b54c0b7a9219b",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "39adb2c099d65bc106bc6fd85fa60b5f48e5b194e9d4ba4f3b6b54c0b7a9219b",
-      "alt": "Port de Rethymno — bateaux et architecture vénitienne",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-27",
-    "slot": "photo-27",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-59.jpg",
-    "alt": "Phare de Rethymno",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1719328264273-5546f7924872",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "5964d8fb9751354733fdf224b345718382b6ac782ebebac23eaa13601f1fd639",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "5964d8fb9751354733fdf224b345718382b6ac782ebebac23eaa13601f1fd639",
-      "alt": "Phare de Rethymno",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-28",
-    "slot": "photo-28",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-60.jpg",
-    "alt": "Baignade à Plakias",
-    "layout": "wide",
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1562267699-ecc4b90e44da",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "ab1a95a676d4c8a0abd1cd2fce4a95feeb3379761f09d68fbb674b5faa956242",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "ab1a95a676d4c8a0abd1cd2fce4a95feeb3379761f09d68fbb674b5faa956242",
-      "alt": "Baignade à Plakias",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-29",
-    "slot": "photo-29",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-61.jpg",
-    "alt": "Architecture vénitienne de Rethymno",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1625939618055-2014e8c4334f",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "88ad0f6cb37b86c8b11c15d764076fe887bd02ef2d8ae94a046b0a5b3a5d21cb",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "88ad0f6cb37b86c8b11c15d764076fe887bd02ef2d8ae94a046b0a5b3a5d21cb",
-      "alt": "Architecture vénitienne de Rethymno",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-30",
-    "slot": "photo-30",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-62.jpg",
-    "alt": "Table sous les arbres en bord de mer",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1719917484287-b984aed711c1",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "6e4e81ce0d143365ece2eac49c4a9ab21878021f1a393d01a34262cf9640f097",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "6e4e81ce0d143365ece2eac49c4a9ab21878021f1a393d01a34262cf9640f097",
-      "alt": "Table sous les arbres en bord de mer",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-31",
-    "slot": "photo-31",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-63.jpg",
-    "alt": "Moules et vin — dîner crétois",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1717251881858-b06e4656f913",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "f627bf157b9eb99479bae9d5a6a791212433b365f02146e1b39696d031ddba9d",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "f627bf157b9eb99479bae9d5a6a791212433b365f02146e1b39696d031ddba9d",
-      "alt": "Moules et vin — dîner crétois",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-10",
-    "slot": "accom-10",
-    "base": "rethymno",
-    "role": "accom",
-    "file": "photo-64.jpg",
-    "alt": "Bâtiment blanc méditerranéen",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1661091106717-05b9403bbeaa",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "8cd42d16e4c8cc7c19da750c5d41e846b4c5fc1593ba19120aee431ac532d0a2",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "8cd42d16e4c8cc7c19da750c5d41e846b4c5fc1593ba19120aee431ac532d0a2",
-      "alt": "Bâtiment blanc méditerranéen",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-11",
-    "slot": "accom-11",
-    "base": "rethymno",
-    "role": "accom",
-    "file": "photo-65.jpg",
-    "alt": "Piscine bleue et blanche — hôtel boutique",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1578864426752-f1b2900fb1f3",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "5568b8b2442c9f7b6f72db4d775b528f3ebee58c4e920b1fd6cf2072621ae362",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "5568b8b2442c9f7b6f72db4d775b528f3ebee58c4e920b1fd6cf2072621ae362",
-      "alt": "Piscine bleue et blanche — hôtel boutique",
-      "verdict": "unverifiable",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "accom-12",
-    "slot": "accom-12",
-    "base": "rethymno",
-    "role": "accom",
-    "file": "photo-66.jpg",
-    "alt": "Vue à travers une arche en pierre — manoir vénitien",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1695552866433-994a7750d4f8",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "f47bfb636a7d686f1891ad42776f5df675b981d924fa0cc4e185ca80def6abde",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "f47bfb636a7d686f1891ad42776f5df675b981d924fa0cc4e185ca80def6abde",
-      "alt": "Vue à travers une arche en pierre — manoir vénitien",
-      "verdict": "match",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-7",
-    "slot": "resto-7",
-    "base": "rethymno",
-    "role": "resto",
-    "file": "photo-67.jpg",
-    "alt": "Agneau braisé et spécialités crétoises",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1581347964096-25fad8a08dab",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "e292bb3a574b3d4731c72dc00861b8fb6aad02e68dcdd69647d2ed980fc00835",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "e292bb3a574b3d4731c72dc00861b8fb6aad02e68dcdd69647d2ed980fc00835",
-      "alt": "Agneau braisé et spécialités crétoises",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-8",
-    "slot": "resto-8",
-    "base": "rethymno",
-    "role": "resto",
-    "file": "photo-68.jpg",
-    "alt": "Terrasse en bord de mer au coucher du soleil",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1766547325390-44833aa5675b",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "8ddcbecb4d257891e432afe490a8084ce2d09c61df62b699e648a28a3e3d861d",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "8ddcbecb4d257891e432afe490a8084ce2d09c61df62b699e648a28a3e3d861d",
-      "alt": "Terrasse en bord de mer au coucher du soleil",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-9",
-    "slot": "resto-9",
-    "base": "rethymno",
-    "role": "resto",
-    "file": "photo-69.jpg",
-    "alt": "Poisson grillé au port vénitien",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1760888938853-f3f92bd210b8",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "75b9445fc33a074538d2bc6ce95cbc48cb672f29a97a58ea84a1e0cae50ed58b",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "75b9445fc33a074538d2bc6ce95cbc48cb672f29a97a58ea84a1e0cae50ed58b",
-      "alt": "Poisson grillé au port vénitien",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "resto-10",
-    "slot": "resto-10",
-    "base": "rethymno",
-    "role": "resto",
-    "file": "photo-70.jpg",
-    "alt": "Chèvre rôtie à la taverna de campagne",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1734987052573-0fbe611842ae",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "6337e9eccf53408370fb8a617202b2fb4ce79ef5757d13b6589a65874477a391",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "6337e9eccf53408370fb8a617202b2fb4ce79ef5757d13b6589a65874477a391",
-      "alt": "Chèvre rôtie à la taverna de campagne",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-14",
-    "slot": "foodie-14",
-    "base": "rethymno",
-    "role": "foodie",
-    "file": "photo-71.jpg",
-    "alt": "Artichauts frais et poivrons colorés au marché",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1775343963054-11247c9d4d30",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "f12ec09b62920c68c9c686d2057542118e1d57f9b173486fefc0fc1cf247673d",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "f12ec09b62920c68c9c686d2057542118e1d57f9b173486fefc0fc1cf247673d",
-      "alt": "Artichauts frais et poivrons colorés au marché",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-15",
-    "slot": "foodie-15",
-    "base": "rethymno",
-    "role": "foodie",
-    "file": "photo-72.jpg",
-    "alt": "Pâtisserie dorée au miel — kalitsounia crétois",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1733252211052-91a95b0291f8",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "5be3c46c16e5d264f6f39ea353735746fdbf3342bba3c723100535a8fa1a13fa",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "5be3c46c16e5d264f6f39ea353735746fdbf3342bba3c723100535a8fa1a13fa",
-      "alt": "Pâtisserie dorée au miel — kalitsounia crétois",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-16",
-    "slot": "foodie-16",
-    "base": "rethymno",
-    "role": "foodie",
-    "file": "photo-73.jpg",
-    "alt": "Bouteille et verre de vin crétois",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1648228891576-09bf0ba4aa96",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "6ee098cd38a8b0a475996fcad573175854373d20a6f4eaba5cfed6e1cd1c8eac",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "6ee098cd38a8b0a475996fcad573175854373d20a6f4eaba5cfed6e1cd1c8eac",
-      "alt": "Bouteille et verre de vin crétois",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-17",
-    "slot": "foodie-17",
-    "base": "rethymno",
-    "role": "foodie",
-    "file": "photo-74.jpg",
-    "alt": "Préparation de légumes frais en cours de cuisine",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1507048331197-7d4ac70811cf",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "71d34b23bdcb851fe777d3817e4863bff14c0d9cff93810c2597960a7a05d785",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "71d34b23bdcb851fe777d3817e4863bff14c0d9cff93810c2597960a7a05d785",
-      "alt": "Préparation de légumes frais en cours de cuisine",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "foodie-18",
-    "slot": "foodie-18",
-    "base": "rethymno",
-    "role": "foodie",
-    "file": "photo-75.jpg",
-    "alt": "Table garnie de mezze et raki crétois",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1746203170430-e8a7c11d5539",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "05f5498746eaad919a47d5eae2b697a4393db661baf984a02948cc41da088603",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "05f5498746eaad919a47d5eae2b697a4393db661baf984a02948cc41da088603",
-      "alt": "Table garnie de mezze et raki crétois",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-32",
-    "slot": "photo-32",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-76.jpg",
-    "alt": "Monastère de Preveli surplombant la palmeraie",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1661285462650-78ad06b5c316",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "d6869a14bc47c64565e8627822f612e309841df8ceb24cd7036140920584e131",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "d6869a14bc47c64565e8627822f612e309841df8ceb24cd7036140920584e131",
-      "alt": "Monastère de Preveli surplombant la palmeraie",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-33",
-    "slot": "photo-33",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-77.jpg",
-    "alt": "Architecture ottomane et vénitienne dans la vieille ville",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1629290439638-bca633156414",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "7ea0c7cbc273f0bd1d93711f4f809a0b0d8e74a4d72f8ded0eefdfa50d3caac0",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "7ea0c7cbc273f0bd1d93711f4f809a0b0d8e74a4d72f8ded0eefdfa50d3caac0",
-      "alt": "Architecture ottomane et vénitienne dans la vieille ville",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-34",
-    "slot": "photo-34",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-78.jpg",
-    "alt": "Rayons de soleil sur la ville côtière de Rethymno",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1775649133969-62428745962a",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "17b87eadcde4990179bdedbbd6a253fa70ab1852611ed5452e86875799d79202",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "17b87eadcde4990179bdedbbd6a253fa70ab1852611ed5452e86875799d79202",
-      "alt": "Rayons de soleil sur la ville côtière de Rethymno",
-      "verdict": "mismatch",
-      "checkedAt": "2026-06-15"
-    }
-  },
-  {
-    "id": "photo-35",
-    "slot": "photo-35",
-    "base": "rethymno",
-    "role": "photo",
-    "file": "photo-79.jpg",
-    "alt": "Crique isolée aux eaux turquoise — Korakas",
-    "layout": null,
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "1629369382900-1e534cdf14cd",
-      "photographer": "",
-      "license": "unsplash-standard"
-    },
-    "sha256": "fc8b64f9e43dc9eebe4e455fccddc1c89e7000627b7472c8d638b9b8082116b1",
-    "visionChecked": "migration-v1",
-    "visionCheckedSemantic": {
-      "sha256": "fc8b64f9e43dc9eebe4e455fccddc1c89e7000627b7472c8d638b9b8082116b1",
-      "alt": "Crique isolée aux eaux turquoise — Korakas",
-      "verdict": "unverifiable",
       "checkedAt": "2026-06-15"
     }
   },
@@ -2131,6 +283,414 @@
     "visionCheckedSemantic": {
       "sha256": "e24d0e6782b68493de94b579d540e30f3c53ca75ffea37749e0dae48f5fa08a9",
       "alt": "Une ruelle pavée de la vieille ville de Chania à la tombée du jour : des boutiques et tavernes aux enseignes de fer, des lanternes, et un passant au loin entre les murs anciens.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "lou-paidakia",
+    "slot": "lou-paidakia",
+    "base": "loutro",
+    "role": "food",
+    "file": "lou-paidakia.jpg",
+    "alt": "Des côtelettes d'agneau grillées (paidakia), os à l'air et croûte d'épices dorée et caramélisée, dans une poêle en fonte noire sur une table de bois.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1766589152485-9aafd9812a19",
+      "photographer": "Diego Arenas de Rodrigo",
+      "license": "unsplash-standard"
+    },
+    "sha256": "1df65c147db482dd9f252de69acb777aa8c80ee6aa8c0e375e6a05e42d742a81",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "1df65c147db482dd9f252de69acb777aa8c80ee6aa8c0e375e6a05e42d742a81",
+      "alt": "Des côtelettes d'agneau grillées (paidakia), os à l'air et croûte d'épices dorée et caramélisée, dans une poêle en fonte noire sur une table de bois.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "lou-finix-cove",
+    "slot": "lou-finix-cove",
+    "base": "loutro",
+    "role": "photo",
+    "file": "lou-finix-cove.jpg",
+    "alt": "Une crique sauvage et isolée au débouché d'une gorge de la côte sud de la Crète : une petite plage de galets coincée entre de hautes parois rocheuses, une eau turquoise profonde, presque personne.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1631260512468-78a7c934c24c",
+      "photographer": "Dimitris Kiriakakis",
+      "license": "unsplash-standard"
+    },
+    "sha256": "320264d7e4e72da1f1f174485090553a3eb0c9b02294c55c1b81e1d2099f7f10",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "320264d7e4e72da1f1f174485090553a3eb0c9b02294c55c1b81e1d2099f7f10",
+      "alt": "Une crique sauvage et isolée au débouché d'une gorge de la côte sud de la Crète : une petite plage de galets coincée entre de hautes parois rocheuses, une eau turquoise profonde, presque personne.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "lou-glyka-nera",
+    "slot": "lou-glyka-nera",
+    "base": "loutro",
+    "role": "photo",
+    "file": "lou-glyka-nera.jpg",
+    "alt": "Glyka Nera (Sweetwater Beach), près de Loutro : une plage de galets au pied d'une immense falaise calcaire pâle, des tamaris nourris par les sources d'eau douce, une barque et des parasols dans une eau turquoise.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1561583285-ba9f2dccec4f",
+      "photographer": "Matthieu Oger",
+      "license": "unsplash-standard"
+    },
+    "sha256": "4f886793808ddb306375166f2df07ca37a5f70d6623dff41c27f452fcf6021b3",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "4f886793808ddb306375166f2df07ca37a5f70d6623dff41c27f452fcf6021b3",
+      "alt": "Glyka Nera (Sweetwater Beach), près de Loutro : une plage de galets au pied d'une immense falaise calcaire pâle, des tamaris nourris par les sources d'eau douce, une barque et des parasols dans une eau turquoise.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "lou-marmara",
+    "slot": "lou-marmara",
+    "base": "loutro",
+    "role": "photo",
+    "file": "lou-marmara.jpg",
+    "alt": "Vue aérienne d'une crique d'eau turquoise et translucide entre des rochers pâles, une petite plage de galets et un petit bateau — Marmara, près de Loutro.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1697753581687-5cc47ddc02c6",
+      "photographer": "Dimitris Kiriakakis",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7fe781e0644f6088f50fe32f23ef3a95b0f84726738c1ac515d22f042e5975dd",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "7fe781e0644f6088f50fe32f23ef3a95b0f84726738c1ac515d22f042e5975dd",
+      "alt": "Vue aérienne d'une crique d'eau turquoise et translucide entre des rochers pâles, une petite plage de galets et un petit bateau — Marmara, près de Loutro.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "lou-mezedes",
+    "slot": "lou-mezedes",
+    "base": "loutro",
+    "role": "food",
+    "file": "lou-mezedes.jpg",
+    "alt": "Une assiette de poulpe grillé : des tentacules charbonnés et glacés, un quartier de citron, des brins de romarin et des touches d'huile verte et de sauce, sur une assiette en céramique au liseré bleu, dans une ambiance de taverne.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1572438631563-a3429408a845",
+      "photographer": "Nastya Dulhiier",
+      "license": "unsplash-standard"
+    },
+    "sha256": "b2630f4325fff20a7f78e13b265bd8f9ec23c11598c255f7beb47cd012abb3f0",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "b2630f4325fff20a7f78e13b265bd8f9ec23c11598c255f7beb47cd012abb3f0",
+      "alt": "Une assiette de poulpe grillé : des tentacules charbonnés et glacés, un quartier de citron, des brins de romarin et des touches d'huile verte et de sauce, sur une assiette en céramique au liseré bleu, dans une ambiance de taverne.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sitia-cover",
+    "slot": "sitia-cover",
+    "base": "sitia",
+    "role": "cover",
+    "file": "sitia-cover.jpg",
+    "alt": "Des petits bateaux de pêche amarrés le long d'une jetée dans un port crétois tranquille, une longue digue et un petit phare au loin, une eau calme teintée de turquoise.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1636904761185-5b9624ea1d98",
+      "photographer": "Marita Mones",
+      "license": "unsplash-standard"
+    },
+    "sha256": "13eaf458e8bad002a7a7ebbf76e7d3416ce325e3c3d6902970bb331d362d830a",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "13eaf458e8bad002a7a7ebbf76e7d3416ce325e3c3d6902970bb331d362d830a",
+      "alt": "Des petits bateaux de pêche amarrés le long d'une jetée dans un port crétois tranquille, une longue digue et un petit phare au loin, une eau calme teintée de turquoise.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sit-zorbas",
+    "slot": "sit-zorbas",
+    "base": "sitia",
+    "role": "food",
+    "file": "sit-zorbas.jpg",
+    "alt": "Quatre poissons entiers grillés (sardines) aux marques de grill, sur une assiette blanche, avec une petite salade et un quartier de citron.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1600699899970-b1c9fadd8f9e",
+      "photographer": "Alex Teixeira",
+      "license": "unsplash-standard"
+    },
+    "sha256": "6bf9a4250b6e83991c00c69416837741704572622fb5de2dc93d1209d3dd3827",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "6bf9a4250b6e83991c00c69416837741704572622fb5de2dc93d1209d3dd3827",
+      "alt": "Quatre poissons entiers grillés (sardines) aux marques de grill, sur une assiette blanche, avec une petite salade et un quartier de citron.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sit-dakos",
+    "slot": "sit-dakos",
+    "base": "sitia",
+    "role": "food",
+    "file": "sit-dakos.jpg",
+    "alt": "Une salade crétoise — tomates, concombre, poivron, oignon rouge, olives noires et myzithra à l'origan — entourée de paximadi, les biscottes d'orge, sur une assiette blanche.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1638612833646-34eecc16f3f1",
+      "photographer": "Yevheniia",
+      "license": "unsplash-standard"
+    },
+    "sha256": "51d0876032a78e1ac179ec2aae552e0f30054119d607c89e20e9a9bba15c3afb",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "51d0876032a78e1ac179ec2aae552e0f30054119d607c89e20e9a9bba15c3afb",
+      "alt": "Une salade crétoise — tomates, concombre, poivron, oignon rouge, olives noires et myzithra à l'origan — entourée de paximadi, les biscottes d'orge, sur une assiette blanche.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sit-xerokampos",
+    "slot": "sit-xerokampos",
+    "base": "sitia",
+    "role": "photo",
+    "file": "sit-xerokampos.jpg",
+    "alt": "Une crique de galets clairs aux eaux turquoise cristallines, des collines arides et des montagnes au loin sous un ciel bleu — côte de la Crète.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1735326852772-af0a915f070e",
+      "photographer": "Bruna Santos",
+      "license": "unsplash-standard"
+    },
+    "sha256": "b84853a58a2e2356e16018beac474a9f5d95b637aae70749043373eac58b6858",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "b84853a58a2e2356e16018beac474a9f5d95b637aae70749043373eac58b6858",
+      "alt": "Une crique de galets clairs aux eaux turquoise cristallines, des collines arides et des montagnes au loin sous un ciel bleu — côte de la Crète.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sit-vai",
+    "slot": "sit-vai",
+    "base": "sitia",
+    "role": "photo",
+    "file": "sit-vai.jpg",
+    "alt": "La palmeraie de Vaï, en Crète : de grands palmiers serrés, des promeneurs sur le sable, et la mer turquoise visible entre les troncs.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1734649186977-390d05b5348d",
+      "photographer": "Monica Hudec",
+      "license": "unsplash-standard"
+    },
+    "sha256": "6e13daa84e67da9b01ce82f2c672abd9314dac030c425fe8ca334b466296a6f1",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "6e13daa84e67da9b01ce82f2c672abd9314dac030c425fe8ca334b466296a6f1",
+      "alt": "La palmeraie de Vaï, en Crète : de grands palmiers serrés, des promeneurs sur le sable, et la mer turquoise visible entre les troncs.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "sit-kato-zakros",
+    "slot": "sit-kato-zakros",
+    "base": "sitia",
+    "role": "photo",
+    "file": "sit-kato-zakros.jpg",
+    "alt": "Vue aérienne d'une plage de galets et de rochers au pied de collines arides, une eau turquoise cristalline — côte sud de la Crète.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1598845511224-75cd1ac5fd23",
+      "photographer": "Evangelos Mpikakis",
+      "license": "unsplash-standard"
+    },
+    "sha256": "fb63d5c9b18ff7078444dce8b0336884e3932ab8439d867208d3e0786f1cece1",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "fb63d5c9b18ff7078444dce8b0336884e3932ab8439d867208d3e0786f1cece1",
+      "alt": "Vue aérienne d'une plage de galets et de rochers au pied de collines arides, une eau turquoise cristalline — côte sud de la Crète.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "rethymno-cover",
+    "slot": "rethymno-cover",
+    "base": "rethymno",
+    "role": "cover",
+    "file": "rethymno-cover.jpg",
+    "alt": "Le phare vénitien en pierre du port de Rethymno, vu à travers une arche : l'eau turquoise du bassin, le rempart et des promeneurs sur le môle.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1738530570697-4c75d3388505",
+      "photographer": "Kurt Hänel",
+      "license": "unsplash-standard"
+    },
+    "sha256": "dfdcacaaca17d954cbc4089974c2c9808dbc85383b8bbd41aa4aeae9532f45ff",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "dfdcacaaca17d954cbc4089974c2c9808dbc85383b8bbd41aa4aeae9532f45ff",
+      "alt": "Le phare vénitien en pierre du port de Rethymno, vu à travers une arche : l'eau turquoise du bassin, le rempart et des promeneurs sur le môle.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "ret-avli",
+    "slot": "ret-avli",
+    "base": "rethymno",
+    "role": "photo",
+    "file": "ret-avli.jpg",
+    "alt": "Un ancien patio en pierre la nuit : des colonnes et des arches voûtées éclairées par des lanternes ambrées, de grandes jarres en terre cuite, des tables en fer forgé.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1777728490155-6b70125c1bed",
+      "photographer": "Nisa Yum",
+      "license": "unsplash-standard"
+    },
+    "sha256": "ce1f08826b798919f9bfa9a3d8d94df4c5458a818da748981ce650e300fe044b",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "ce1f08826b798919f9bfa9a3d8d94df4c5458a818da748981ce650e300fe044b",
+      "alt": "Un ancien patio en pierre la nuit : des colonnes et des arches voûtées éclairées par des lanternes ambrées, de grandes jarres en terre cuite, des tables en fer forgé.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "ret-port",
+    "slot": "ret-port",
+    "base": "rethymno",
+    "role": "food",
+    "file": "ret-port.jpg",
+    "alt": "Un poulpe suspendu à un crochet devant une enseigne de taverne (ΤΑΒΕΡΝΑ), un port crétois et ses bateaux à quai en arrière-plan.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1469532954151-60b475900aa2",
+      "photographer": "Milada Vigerova",
+      "license": "unsplash-standard"
+    },
+    "sha256": "adbe83a3a92235878cf4ddf99baea5838ced2101285cc899087d701a52580452",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "adbe83a3a92235878cf4ddf99baea5838ced2101285cc899087d701a52580452",
+      "alt": "Un poulpe suspendu à un crochet devant une enseigne de taverne (ΤΑΒΕΡΝΑ), un port crétois et ses bateaux à quai en arrière-plan.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "ret-preveli",
+    "slot": "ret-preveli",
+    "base": "rethymno",
+    "role": "photo",
+    "file": "ret-preveli.jpg",
+    "alt": "La gorge de Preveli, en Crète : une rivière aux eaux émeraude bordée d'une dense palmeraie, encaissée entre des parois rocheuses.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1577968680674-d967769be12c",
+      "photographer": "Joshua Kettle",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9009f5c0756c46a5d405861bb061fc38e1528f1b9cb587be36e30ffa79bbc4ad",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "9009f5c0756c46a5d405861bb061fc38e1528f1b9cb587be36e30ffa79bbc4ad",
+      "alt": "La gorge de Preveli, en Crète : une rivière aux eaux émeraude bordée d'une dense palmeraie, encaissée entre des parois rocheuses.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "ret-korakas",
+    "slot": "ret-korakas",
+    "base": "rethymno",
+    "role": "photo",
+    "file": "ret-korakas.jpg",
+    "alt": "Une crique rocheuse isolée de la Crète : une eau turquoise cristalline entre des falaises dorées et arides, sans plage de sable, presque personne.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1674149091778-33d21429dbf0",
+      "photographer": "Dorien Beernink",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9629cbac3b9f96ad664d4e44ec85a21d1a735b2eb439b16014d77eb62c57eabf",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "9629cbac3b9f96ad664d4e44ec85a21d1a735b2eb439b16014d77eb62c57eabf",
+      "alt": "Une crique rocheuse isolée de la Crète : une eau turquoise cristalline entre des falaises dorées et arides, sans plage de sable, presque personne.",
+      "verdict": "match",
+      "checkedAt": "2026-06-15"
+    }
+  },
+  {
+    "id": "ret-phyllo",
+    "slot": "ret-phyllo",
+    "base": "rethymno",
+    "role": "food",
+    "file": "ret-phyllo.jpg",
+    "alt": "Des feuilletés de pâte phyllo dorée et croustillante, fourrés de pistaches hachées, serrés dans un plateau métallique — pâtisserie au miel, gros plan appétissant.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1761828122856-8703baac8e86",
+      "photographer": "Benjamin Chambon",
+      "license": "unsplash-standard"
+    },
+    "sha256": "6fa58ba88a86fbdc37fef24100c8343d3d9e82f158d5ac40a6e88e7d601b0c28",
+    "visionChecked": "fresh-source-2026-06-15",
+    "visionCheckedSemantic": {
+      "sha256": "6fa58ba88a86fbdc37fef24100c8343d3d9e82f158d5ac40a6e88e7d601b0c28",
+      "alt": "Des feuilletés de pâte phyllo dorée et croustillante, fourrés de pistaches hachées, serrés dans un plateau métallique — pâtisserie au miel, gros plan appétissant.",
       "verdict": "match",
       "checkedAt": "2026-06-15"
     }
