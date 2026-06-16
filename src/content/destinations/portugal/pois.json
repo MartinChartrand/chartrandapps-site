@@ -12,7 +12,7 @@
     "blurb": "Hôtel minimaliste dans Bonfim — ambiance bibliothèque de vinyles, cuisine en libre-service, à quinze minutes à pied du centre historique sans le bruit du Ribeira (~CAD 90–120/nuit).",
     "image": null,
     "price": {
-      "range": "~55–75 €/nuit",
+      "range": "~55–75 €/nuit (~CAD 90–120)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -60,7 +60,7 @@
     "blurb": "Six chambres dessinées individuellement dans un bâtiment Cedofeita, plafonds sculptés de citations littéraires, déco minimaliste, à deux pas des galeries de Miguel Bombarda (~CAD 195–265/nuit).",
     "image": null,
     "price": {
-      "range": "~120–165 €/nuit",
+      "range": "~120–165 €/nuit (~CAD 195–265)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -112,7 +112,7 @@
     "blurb": "Art hotel dans les hauteurs de Miragaia — chaque chambre signée par un artiste différent, piscine panoramique avec vue directe sur le Douro, l'hôtel est lui-même une expérience (~CAD 300–420/nuit).",
     "image": null,
     "price": {
-      "range": "~185–260 €/nuit",
+      "range": "~185–260 €/nuit (~CAD 300–420)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -165,7 +165,7 @@
     "signature": "Francesinha Santiago — sauce secrète bière-tomate-piri piri",
     "image": null,
     "price": {
-      "range": "~12–17 €/pers",
+      "range": "~12–17 €/pers (~CAD 19–28)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -214,7 +214,7 @@
     "signature": "Poisson du jour grillé selon l'ardoise, arroz de polvos le vendredi",
     "image": null,
     "price": {
-      "range": "~20–28 €/pers",
+      "range": "~20–28 €/pers (~CAD 30–45)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -252,7 +252,7 @@
     "signature": "Tripas à moda do Porto, bacalhau com broa",
     "image": null,
     "price": {
-      "range": "~8–18 €/plat",
+      "range": "~8–18 €/plat (~CAD 13–29)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -305,7 +305,7 @@
     "signature": "Sandes de pernil com queijo — épaule rôtie + Serra da Estrela fondu",
     "image": null,
     "price": {
-      "range": "~5–8 €/sandwich",
+      "range": "~5–8 €/sandwich (~CAD 8–13)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -376,7 +376,7 @@
       "method": "websearch"
     },
     "onMap": true,
-    "story": "Vingt-sept minutes de Ligne A depuis Trindade, €1,80 — et voilà les vagues de l'Atlantique. La rangée de restaurants de poisson grillé est là, à portée de serviette : on sort de l'eau, on s'assoit, on mange. C'est aussi simple que ça.",
+    "story": "Vingt-sept minutes de Ligne A depuis Trindade, €1,80 (~CAD 3) — et voilà les vagues de l'Atlantique. La rangée de restaurants de poisson grillé est là, à portée de serviette : on sort de l'eau, on s'assoit, on mange. C'est aussi simple que ça.",
     "sources": [
       {
         "creator": "Porto North Portugal (Philip Giddings)",
@@ -406,7 +406,7 @@
     "blurb": "La visite de cave la plus décontractée de Gaia — audioguide à son rythme dans les chais depuis 1692, dégustation assise pour trois verres (~CAD 45/pers).",
     "image": null,
     "price": {
-      "range": "~28 €/pers",
+      "range": "~28 €/pers (~CAD 45)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -454,7 +454,7 @@
     "blurb": "Domaine familial à Pinhão, restaurant Cozinha da Clara avec chef Pedro Cardoso, dégustations guidées quotidiennes, vue directe sur le fleuve depuis les chambres — la mère de famille est souvent en salle, c'est le contraire d'un hôtel anonyme (~CAD 185–380/nuit).",
     "image": null,
     "price": {
-      "range": "~115–235 €/nuit",
+      "range": "~115–235 €/nuit (~CAD 185–380)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -506,7 +506,7 @@
     "blurb": "Quinta en hauteur dans le Cima Corgo avec vue plongeante sur les terrasses étagées, piscine à débordement dans le paysage, restaurant La Cantina — poser les bagages ici pour trois nuits et ne plus avoir à aller nulle part (~CAD 245–325/nuit).",
     "image": null,
     "price": {
-      "range": "~150–200 €/nuit",
+      "range": "~150–200 €/nuit (~CAD 245–325)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -555,7 +555,7 @@
     "signature": "Arroz de cabrito (riz au chevreau au four)",
     "image": null,
     "price": {
-      "range": "~20–30 €/pers",
+      "range": "~20–30 €/pers (~CAD 30–50)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -609,7 +609,7 @@
     "signature": "Alheiras transmontanas + chevreau au porto",
     "image": null,
     "price": {
-      "range": "~25–35 €/pers",
+      "range": "~25–35 €/pers (~CAD 40–55)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -663,7 +663,7 @@
     "signature": "Baba au porto — dessert signature de Pinhão",
     "image": null,
     "price": {
-      "range": "~20–30 €/pers",
+      "range": "~20–30 €/pers (~CAD 30–50)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -716,7 +716,7 @@
     "blurb": "Deux heures en vedette de bois traditionnelle remontant le Douro en silence — les terrasses étagées défilent à hauteur d'yeux des deux côtés, et on comprend pourquoi ces gens ont sculpté des falaises pendant des siècles (~CAD 40/pers).",
     "image": null,
     "price": {
-      "range": "~25 €/pers (2h)",
+      "range": "~25 €/pers (2h) (~CAD 40)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -820,7 +820,7 @@
     "blurb": "Onze chambres toutes différentes meublées par des artistes contemporains portugais, parquet, couleurs vives, vue sur le Tage et le Castelo de presque toutes les fenêtres — une maison de caractère sur les hauteurs d'Alfama sans lobby corporate (~CAD 195–290/nuit).",
     "image": null,
     "price": {
-      "range": "~120–180 €/nuit",
+      "range": "~120–180 €/nuit (~CAD 195–290)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -858,7 +858,7 @@
     "signature": "Bacalhau à minhota",
     "image": null,
     "price": {
-      "range": "~8–14 €/plat",
+      "range": "~8–14 €/plat (~CAD 13–23)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -911,7 +911,7 @@
     "signature": "Carabineiros au gros sel + ameijoas à bulhão pato",
     "image": null,
     "price": {
-      "range": "~50–90 €/pers",
+      "range": "~50–90 €/pers (~CAD 80–145)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -960,7 +960,7 @@
     "signature": "Piano (travers de porc) grillé sur charbon de bois",
     "image": null,
     "price": {
-      "range": "~8–15 €/plat",
+      "range": "~8–15 €/plat (~CAD 13–24)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1014,7 +1014,7 @@
     "signature": "Bifana au comptoir — filet de porc ail-paprika-vin blanc",
     "image": null,
     "price": {
-      "range": "~2,50–4 €/sandwich",
+      "range": "~2,50–4 €/sandwich (~CAD 4–6)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1031,7 +1031,7 @@
       "method": "websearch"
     },
     "onMap": false,
-    "story": "Rua da Madalena 146, un comptoir où cinq personnes se serrent déjà à l'étroit. Le porc mijote toute la journée dans l'ail, le paprika et la banha — gras juste assez, fondu juste assez — avant de glisser dans un papo-seco chaud. On mange debout, dehors sur le trottoir ou sur un banc voisin, on s'essuie les mains sur du papier. Trois euros cinquante. Ça ferme quand il n'y en a plus.",
+    "story": "Rua da Madalena 146, un comptoir où cinq personnes se serrent déjà à l'étroit. Le porc mijote toute la journée dans l'ail, le paprika et la banha — gras juste assez, fondu juste assez — avant de glisser dans un papo-seco chaud. On mange debout, dehors sur le trottoir ou sur un banc voisin, on s'essuie les mains sur du papier. Trois euros cinquante (~CAD 6). Ça ferme quand il n'y en a plus.",
     "sources": [
       {
         "creator": "Valter Leandro — Lisboa Secreta",
@@ -1057,7 +1057,7 @@
     "signature": "Menu au tableau noir — recettes de mères et grand-mères",
     "image": null,
     "price": {
-      "range": "~8–14 €/plat",
+      "range": "~8–14 €/plat (~CAD 13–23)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1209,7 +1209,7 @@
     "blurb": "Neuf chambres minimalistes à Comporta — l'option la plus abordable de la zone sans sacrifier le charme, à quinze minutes en voiture des plages (~CAD 185/nuit).",
     "image": null,
     "price": {
-      "range": "~114 €/nuit",
+      "range": "~114 €/nuit (~CAD 185)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1257,7 +1257,7 @@
     "blurb": "22 chambres et suites dans le cœur du village de Comporta, rooftop avec vue sur les rizières, piscine extérieure, noté 8,7 sur Booking — le point de chute mid-range le plus cité dans une destination où les villas dépassent facilement 400 € (~CAD 210–250/nuit).",
     "image": null,
     "price": {
-      "range": "~130–155 €/nuit",
+      "range": "~130–155 €/nuit (~CAD 210–250)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1305,7 +1305,7 @@
     "blurb": "Cabanes traditionnelles en chaume (palheiro) revisitées avec goût, piscine qui déborde côté rizières — on dort dans l'architecture vernaculaire de Comporta sans payer le tarif palace ; réservation tôt obligatoire en haute saison (~CAD 245–325/nuit).",
     "image": null,
     "price": {
-      "range": "~150–200 €/nuit",
+      "range": "~150–200 €/nuit (~CAD 245–325)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1343,7 +1343,7 @@
     "signature": "Arroz de marisco, ameijoas à l'ail, poisson du jour",
     "image": null,
     "price": {
-      "range": "~10–20 €/pers",
+      "range": "~10–20 €/pers (~CAD 16–30)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1397,7 +1397,7 @@
     "signature": "Arroz negro à l'encre de seiche, huîtres, poisson du jour",
     "image": null,
     "price": {
-      "range": "~30–45 €/pers",
+      "range": "~30–45 €/pers (~CAD 50–75)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1451,7 +1451,7 @@
     "signature": "Petiscos alentejanos + vins d'Alentejo au verre",
     "image": null,
     "price": {
-      "range": "~25–35 €/pers",
+      "range": "~25–35 €/pers (~CAD 40–55)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1499,7 +1499,7 @@
     "blurb": "Quatre kilomètres de sable doré, Pavillon Bleu et passerelle piétonne toute neuve pour rejoindre l'eau — on pose le sac et on reste.",
     "image": null,
     "price": {
-      "range": "Parking ~3 €",
+      "range": "Parking ~3 € (~CAD 5)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1547,7 +1547,7 @@
     "blurb": "Dunes larges, rizières juste derrière la piste d'accès sablonneuse — vague mellow et sans piège, idéale pour les débutants, moins bondé que la plage du village. Le refuge des Lisboètes quand Comporta est prise d'assaut.",
     "image": null,
     "price": {
-      "range": "Parking ~3 €",
+      "range": "Parking ~3 € (~CAD 5)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1652,7 +1652,7 @@
     "blurb": "Design hotel 4 étoiles dans le Parc Naturel Costa Vicentina à Sagres — 144 chambres avec balcon face à la baie, piscine infinity sur l'Atlantique, restaurant Fornaria four à bois, le bon équilibre commodités et charme sauvage (~CAD 195–355/nuit).",
     "image": null,
     "price": {
-      "range": "~120–220 €/nuit",
+      "range": "~120–220 €/nuit (~CAD 195–355)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1704,7 +1704,7 @@
     "blurb": "Guesthouse familiale perchée sur la falaise de Carvoeiro — vue panoramique sur l'Atlantique et le village de pêcheurs, deux minutes à pied de la plage, base idéale pour Praia da Marinha et Benagil (~CAD 145–260/nuit).",
     "image": null,
     "price": {
-      "range": "~90–160 €/nuit",
+      "range": "~90–160 €/nuit (~CAD 145–260)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1742,7 +1742,7 @@
     "signature": "Cataplana de peixe (dorade, palourdes, tomates, coriandre, vin blanc)",
     "image": null,
     "price": {
-      "range": "~14–22 €/pers",
+      "range": "~14–22 €/pers (~CAD 23–35)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1791,7 +1791,7 @@
     "signature": "Percebes de Sagres, navalheiras, ameijoas — selon arrivage",
     "image": null,
     "price": {
-      "range": "~20–35 €/pers",
+      "range": "~20–35 €/pers (~CAD 30–55)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1830,7 +1830,7 @@
     "signature": "Grelhados du pêcheur pointés en direct + cataplana de marisco pour 2",
     "image": null,
     "price": {
-      "range": "~22–38 €/pers",
+      "range": "~22–38 €/pers (~CAD 35–60)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1930,7 +1930,7 @@
     "blurb": "Arches de calcaire doré qui plongent dans l'eau turquoise — un tableau qui mérite sa réputation. Arriver avant 9h ou après 17h : le parking sature vite.",
     "image": null,
     "price": {
-      "range": "Parking ~2–3 €/h",
+      "range": "Parking ~2–3 €/h (~CAD 3–5)",
       "currency": "EUR",
       "asOf": "2026-06"
     },
@@ -1979,7 +1979,7 @@
     "blurb": "Les arches de grès doré de Lagos en kayak tôt le matin — eau calme, zéro bateaux à moteur, lumière oblique qui filtre dans les grottes ; booker 1-2 semaines à l'avance en juin pour le slot matin, le plus beau moment du séjour en Algarve (~CAD 40–57/pers).",
     "image": null,
     "price": {
-      "range": "~25–35 €/pers",
+      "range": "~25–35 €/pers (~CAD 40–55)",
       "currency": "EUR",
       "asOf": "2026-06"
     },

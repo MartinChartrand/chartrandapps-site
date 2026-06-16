@@ -16,17 +16,17 @@
     },
     {
       "label": "Hébergement (30 nuits)",
-      "category": "Porto 5n (~90€) · Douro 3n quinta (~150€) · Lisbonne 7n (~110€) · Comporta 5n (~120€) · Algarve 10n (~110€)",
+      "category": "Porto 5n (~90€ · ~CAD 145) · Douro 3n quinta (~150€ · ~CAD 245) · Lisbonne 7n (~110€ · ~CAD 180) · Comporta 5n (~120€ · ~CAD 195) · Algarve 10n (~110€ · ~CAD 180)",
       "amount": "~5 200 $"
     },
     {
       "label": "Location de voiture (~17 jours)",
-      "category": "Prise à la sortie du Douro, gardée pour Alentejo + Algarve · pas de voiture à Porto ni Lisbonne (villes + trains) · petite voiture ~40€/jour",
+      "category": "Prise à la sortie du Douro, gardée pour Alentejo + Algarve · pas de voiture à Porto ni Lisbonne (villes + trains) · petite voiture ~40€/jour (~CAD 65)",
       "amount": "~1 450 $"
     },
     {
       "label": "Essence + péages",
-      "category": "Autoroutes à péage (A2 vers le sud) · essence ~1,80€/litre · ~900 km au total",
+      "category": "Autoroutes à péage (A2 vers le sud) · essence ~1,80€/litre (~CAD 2,90) · ~900 km au total",
       "amount": "~400 $"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       "label": "Nourriture et boissons",
-      "category": "Pastéis et café le matin, marché le midi · taverne/cervejaria le soir pour 2 avec vin : ~45–60€ · ~80€/jour en moyenne",
+      "category": "Pastéis et café le matin, marché le midi · taverne/cervejaria le soir pour 2 avec vin : ~45–60€ (~CAD 75–95) · ~80€/jour (~CAD 130) en moyenne",
       "amount": "~3 500 $"
     },
     {
