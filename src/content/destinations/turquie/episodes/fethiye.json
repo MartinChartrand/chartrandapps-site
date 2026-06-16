@@ -1,0 +1,145 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "Le slow finish, en trois temps",
+      "body": "Bus côtier depuis Kaş, trois heures à travers les pins, et on arrive pour décompresser. Dix nuits, mais pas au même endroit : trois bases pour finir en douceur. Paspatur, la vieille Fethiye, pour le bazar, le marché du mardi et le fish market où on achète son poisson avant qu'on vous le grille. Kayaköy, le village gréco-turc abandonné en 1923, pour la pierre et le silence. Faralya, sur la falaise au-dessus de Butterfly Valley, pour la mer en fond sonore. On évite Ölüdeniz bourg — c'est Blackpool-sur-Méditerranée. Et le vol part de Dalaman, à quarante-cinq minutes.",
+      "focusPoi": "kayakoy-ghost-village",
+      "zoom": 12,
+      "targets": ["fethiye-fish-market-mavicemrafet", "kayakoy-ghost-village"],
+      "thumb": "feth-cote-pins",
+      "thumbAlt": "La côte turquoise autour de Fethiye : des baies découpées, des pins qui descendent vers une mer bleu profond, quelques gulets au mouillage, sous une lumière chaude de fin de journée.",
+      "poiRef": "kayakoy-ghost-village",
+      "sources": [
+        { "creator": "Fethiye Tours — Kayaköy ghost town", "url": "https://www.fethiyetours.com/best-of-fethiye/kayakoy-ghost-town/", "date": "2026-01" }
+      ]
+    },
+    {
+      "kicker": "Le rythme : ne plus rien découvrir à toute vitesse",
+      "body": "Après Istanbul, la Cappadoce et Kaş, on n'a plus envie de courir. Le rythme se ralentit pour de bon : un bazar à l'aube, le poisson choisi les mains dans la glace, un village abandonné quand la lumière du soir frappe la pierre, une crique sauvage où l'on descend à pied. Les braises d'un mangal sous une tonnelle de vigne, un pot de tahin pekmez à rapporter, la mer quelque part en fond. C'est la base de la décompression — la table et l'eau, sans agenda, jusqu'au vol du retour depuis Dalaman.",
+      "focusPoi": "butterfly-valley",
+      "zoom": 12,
+      "targets": ["kabak-bay-sauvage", "fethiye-tuesday-market"],
+      "thumb": "feth-butterfly-canyon",
+      "thumbAlt": "L'entrée du canyon de Butterfly Valley vue depuis l'eau : des falaises vertes de plus de 350 mètres qui plongent de chaque côté, une eau turquoise au premier plan, un mince ruban de ciel en haut.",
+      "poiRef": "butterfly-valley",
+      "sources": [
+        { "creator": "Visiting Turkey — Butterfly Valley (maj 2026-03)", "url": "https://visitingturkey.com/destinations/fethiye/butterfly-valley", "date": "2026-03" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-fish-market",
+      "kicker": "Fish Market · LE CONCEPT",
+      "title": "Tu choisis ton poisson, ils le grillent",
+      "image": "feth-fish-market",
+      "alt": "Un cercle de poissonniers au marché de Fethiye : bars et dorades argentés sur glace pilée à la lumière des étals du soir, des restos tout autour sous des lanternes en papier.",
+      "intro": "C'est le seul endroit en Turquie qui marche comme ça : au centre du marché, un cercle de poissonniers vend l'arrivage du jour ; tout autour, une dizaine de restos le grillent pour toi contre un petit droit de cuisson. Tu achètes ton poisson les mains dans la glace à neuf heures du matin ou à vingt et une heures quand la musique démarre, tu traverses une ruelle avec ton sac, et dix minutes plus tard il est dans ton assiette sous les lanternes. Pas un restaurant — une infrastructure communautaire qui dure depuis des générations.",
+      "reco": "Choisir un levrek (bar) ou une çupra (dorade) entiers — les espèces de base, fraîches — chez un poissonnier achalandé (le passage est le meilleur gage de fraîcheur ; quelques étals ont mauvaise réputation). Apporter le sac au resto de son choix. Commander en plus des mezze froids — cacık, aubergine, deniz börülcesi (salicorne). Et le réflexe qui évite la mauvaise surprise : demander le prix de la grillade et du poisson AU KILO avant de s'asseoir. Le droit de cuisson reste modeste — à confirmer sur place, l'inflation rend tout vieux chiffre inutile.",
+      "quote": "Tu choisis ton poisson dans la glace à neuf heures, tu traverses une ruelle, et il arrive grillé dans ton assiette sous les lanternes. Ce n'est pas un resto — c'est le système d'approvisionnement de toute une ville.",
+      "via": null,
+      "poiRef": "fethiye-fish-market-mavicemrafet",
+      "sources": [
+        { "creator": "SmartFethiye — fish market", "url": "https://www.smartfethiye.com/discover/fethiye-fish-market", "date": "2026-06" },
+        { "creator": "Four Jandals — Fethiye fish market (récit)", "url": "https://www.fourjandals.com/europe/seafood-fethiye-fish-market-restaurant/", "date": "2024-01" }
+      ]
+    },
+    {
+      "id": "scene-cin-bal",
+      "kicker": "Cin Bal 1975 · LE FEU À TABLE",
+      "title": "Le mangal aux braises, dans un village fantôme",
+      "image": "feth-cin-bal-mangal",
+      "alt": "Un brasero de table allumé sur une table en bois dans une cour sous une tonnelle de vigne, le soir : des brochettes d'agneau sur les braises, la fumée qui monte, des lumières chaudes en arrière-plan.",
+      "intro": "À Kayaköy, dans le village gréco-turc abandonné, Cin Bal grille la viande depuis 1975. Le concept : on choisit ses viandes crues dans la vitrine réfrigérée, et on les cuit soi-même sur un mangal — un brasero de braises posé à même la table. Cour sous la tonnelle de vigne, banquettes basses à coussins (le köşk), et les ruines de pierre à deux cents mètres. La mécanique n'a pas bougé en cinquante ans.",
+      "reco": "Prendre le plateau mixte — brochettes d'agneau (kuzu şiş), köfte, sucuk — et demander le köşk, les banquettes basses, si c'est disponible. La précaution qui s'impose : exiger la carte avec les prix au kilo AVANT de commander, et confirmer ce qui est compris dans les mezze (des avis récents signalent des additions salées pour les anglophones). Le moment, c'est la fumée des braseros qui monte sous les lumières de la cour quand la nuit tombe. Réserver en saison.",
+      "quote": "Un brasero de braises posé à quarante centimètres de la table, dans un village abandonné depuis 1923. On cuit sa propre viande sous une tonnelle de vigne, et le décor fait le reste.",
+      "via": null,
+      "poiRef": "cin-bal-kayakoy",
+      "sources": [
+        { "creator": "Cin Bal (site officiel)", "url": "https://cinbal.com/kayakoy-et-mangal-firsatlari/", "date": "2026-06" },
+        { "creator": "TripAdvisor — Cin Bal Kebab Restaurant", "url": "https://www.tripadvisor.com/Restaurant_Review-g635670-d3373798-Reviews-Cin_Bal_Kebab_Restaurant-Kayakoy_Fethiye_Mugla_Province_Turkish_Aegean_Coast.html", "date": "2025-08" }
+      ]
+    },
+    {
+      "id": "scene-butterfly",
+      "kicker": "Butterfly Valley · LA CRIQUE-CANYON",
+      "title": "Un canyon qui se ferme à quatre cents mètres",
+      "image": "feth-butterfly-plage",
+      "alt": "La plage de galets de Butterfly Valley vue depuis le rivage : une crique encaissée entre des parois vertes de plus de 350 mètres, une eau turquoise translucide, accessible seulement par bateau.",
+      "intro": "Une faille dans la côte, fermée par des parois de plus de trois cent cinquante mètres, avec une crique de galets au fond et une cascade saisonnière. Le seul moyen d'y entrer, c'est le bateau depuis Ölüdeniz, ou la descente technique du sentier Lycien depuis Faralya. Pas de route, pas de parking, pas de jet-ski. À sept heures du matin, avant les tours, le silence du canyon est une expérience à part.",
+      "reco": "Prendre le boat-taxi depuis la plage d'Ölüdeniz dès neuf heures, avant la foule (environ 3–6 €, ~CAD 5–9 aller-retour). Nager dans la crique jusqu'à ce que les jambes disparaissent dans le turquoise — l'eau est chaude en été. Au printemps ou début d'été, remonter vingt minutes dans la vallée jusqu'à la cascade (réduite à un filet en fin de saison). Pour les vaillants, la descente du Lycian Way depuis Faralya — quarante-cinq minutes raides avec cordes fixes, baignade avant l'arrivée des bateaux, retour en water-taxi. Cette photo-là, personne ne l'a.",
+      "quote": "Des parois de quatre cents mètres qui se referment au-dessus de la tête, une crique de galets, une eau translucide — et pour seul accès, un bateau. Le silence à sept heures vaut le réveil.",
+      "via": null,
+      "poiRef": "butterfly-valley",
+      "sources": [
+        { "creator": "Visiting Turkey — Butterfly Valley (maj 2026-03)", "url": "https://visitingturkey.com/destinations/fethiye/butterfly-valley", "date": "2026-03" },
+        { "creator": "Your Tour Key — Butterfly Valley guide 2025", "url": "https://yourtourkey.com/butterfly-valley-fethiye-travel-guide/", "date": "2025-01" }
+      ]
+    },
+    {
+      "id": "scene-kabak",
+      "kicker": "Kabak · LA BAIE SAUVAGE",
+      "title": "On descend à pied, on remonte à pied",
+      "image": "feth-kabak-bay",
+      "alt": "La plage de galets de Kabak Bay et son eau turquoise lumineuse : des falaises couvertes de pins qui plongent dans la mer, aucune infrastructure visible, une crique au bout d'une descente.",
+      "intro": "À une vingtaine de kilomètres au sud de Fethiye, au-delà de Faralya, Kabak est la dernière crique de la côte qui force encore le ralentissement complet. Pas d'accès routier direct à la plage : on prend le dolmuş jusqu'à Faralya, puis on descend à pied vingt à trente minutes. En bas, des galets, une eau d'un bleu qui n'existe que là, et quelques camps en bambou accrochés à la pente — pas un beach-club à sono, pas un jet-ski.",
+      "reco": "Dolmuş Fethiye–Faralya (une demi-heure en saison), puis la descente à pied vers la crique. Nager, snorkeler, laisser passer la journée sans agenda. Pour une nuit sur place, réserver un bungalow à l'avance (les camps type Avalon ou Reflections, plus confortables que le camping basique) — pas de distributeur ni de paiement par carte en bas, prévoir du cash. C'est le bout du voyage : la crique où on ne fait plus rien d'autre que d'être là.",
+      "quote": "La seule plage qu'on ne rejoint qu'à pied. On descend une demi-heure dans les pins, et on remonte le soir, les jambes lourdes et la tête vide. C'est exactement ce qu'on était venus chercher pour finir.",
+      "via": null,
+      "poiRef": "kabak-bay-sauvage",
+      "sources": [
+        { "creator": "Avalon at Kabak Beach (site officiel)", "url": "https://kabakbeach.com/", "date": "2025-12" },
+        { "creator": "SmartFethiye — Kabak Bay", "url": "https://www.smartfethiye.com/discover/kabak-bay", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-kayakoy",
+      "kicker": "Kayaköy · LE VILLAGE FANTÔME",
+      "title": "Cinq cents maisons, laissées telles quelles en 1923",
+      "image": "feth-kayakoy",
+      "alt": "La lumière dorée de fin d'après-midi sur un mur de pierre calcaire effondré à Kayaköy, des maisons en ruines en escalier sur la colline derrière, personne dans le cadre.",
+      "intro": "Cinq cents maisons et deux églises orthodoxes, abandonnées un matin de 1923 lors de l'échange de populations gréco-turc. Les gens sont partis si vite que les murs sont encore là, les arches debout, les niches creusées. Ce n'est pas un musée reconstruit — c'est un village laissé exactement comme il est tombé. Le décor le plus fort de tout l'itinéraire ; mais c'est un décor, pas le lead du séjour.",
+      "reco": "Y aller en fin d'après-midi, vers 16h–17h : contrairement à ce qu'on lit souvent, c'est la lumière rasante du soir qui fait chanter la pierre calcaire, pas celle de l'aube — et les foules sont parties. Monter jusqu'à l'église haute (Taksiyarhis) pour la vue sur les maisons en cascade et la mer derrière. Entrée modique en cash (~3 €, ~CAD 5), prévoir une heure et demie à deux heures, et des chaussures fermées — le terrain est en pente, non goudronné. Ne pas courir : laisser l'atmosphère s'installer.",
+      "quote": "Cinq cents maisons vidées en un matin, laissées telles quelles depuis un siècle. À la lumière du soir, la pierre devient dorée et le silence, total. On marche dans une absence.",
+      "via": null,
+      "poiRef": "kayakoy-ghost-village",
+      "sources": [
+        { "creator": "Fethiye Tours — Kayaköy ghost town", "url": "https://www.fethiyetours.com/best-of-fethiye/kayakoy-ghost-town/", "date": "2026-01" },
+        { "creator": "The Turkey Traveler — Kayaköy", "url": "https://theturkeytraveler.com/kayakoy-ghost-village/", "date": "2025-03" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant le vol du retour depuis Dalaman : le poisson choisi au fish market, le mangal de Cin Bal, le canyon de Butterfly et la pierre dorée de Kayaköy. Et le reste — le meyhane de Paspatur le soir, mezze et rakı sous les vignes, chez Meğri, l'institution de 1989 (le vieux « Reis » du carnet ne survit pas à la vérification — on va chez Meğri) ; le Lebessos, ancien Levissi Garden, un bâtiment ottoman de 400 ans reconverti en cave à vin sous les ruines grecques ; le marché du mardi, le Salı Pazarı, un des plus gros du sud-ouest, où les villages descendent avec leurs olives, fromages et miel ; le monastère byzantin d'Afkule perché sur la falaise ; et le pot de tahin pekmez d'un tahinci du bazar à rapporter à la maison. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": ["fethiye-fish-market-mavicemrafet", "kayakoy-ghost-village", "butterfly-valley", "fethiye-tuesday-market"],
+      "targets": ["fethiye-tuesday-market"],
+      "thumb": "feth-tuesday-market",
+      "thumbAlt": "Le marché du mardi de Fethiye (Salı Pazarı) : une femme de village derrière ses paniers d'olives noires et d'herbes séchées, sous les tentes de toile, dans la lumière du matin.",
+      "pills": [
+        { "poiRef": "fethiye-tuesday-market", "link": "maps", "label": "Salı Pazarı · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Turkeys for Life — Paspatur (juin 2025)", "url": "https://www.turkeysforlife.com/2025/06/fethiye-old-town-paspatur.html", "date": "2025-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "À Kayaköy, la Villa Rhapsody — une pension (pas une villa) tenue par Atilla et Jeanne, couple Istanbul-Amsterdam qui cuisine avec le marché, à dix minutes des ruines, avec piscine pour la fin d'après-midi. Le Yonca Lodge pour rester dans le village, le Hideaway de Faralya sur la falaise au-dessus de Butterfly. Confortable et douillet, petites structures — réserver tôt. (Vérifier les avis récents au moment de réserver.)" },
+      { "label": "À table", "kinds": ["resto"], "footer": "Le fish market — on choisit son poisson, un resto autour le grille (demander le prix au kilo avant). Le mangal aux braises de Cin Bal (1975) à Kayaköy. Pour la soirée meyhane à Paspatur, Meğri (fondé 1989) plutôt que l'ancien Reis, introuvable aujourd'hui. Et le Lebessos (ex-Levissi Garden), bâtiment de 400 ans et grande cave à vin du sud, pour un repas lent sous les ruines." },
+      { "label": "La mer & les criques", "kinds": ["plage"], "footer": "Butterfly Valley en bateau depuis Ölüdeniz dès 9h (~3–6 €, ~CAD 5–9). Kabak Bay, la baie sauvage, en dolmuş via Faralya puis à pied. Et le Blue Lagoon d'Ölüdeniz — pas la plage bondée, mais la vue depuis le téléphérique du Babadağ, là où décollent les parapentes." },
+      { "label": "Sites, sentiers & marchés", "kinds": ["sight"], "footer": "Kayaköy à la lumière du soir. Le marché du mardi (Salı Pazarı), tôt pour les producteurs des villages. Saklıkent Gorge et sa marche dans l'eau glacée. Le monastère d'Afkule perché sur sa falaise (1h30 de Lycian Way). Et la gulet des 12 îles depuis le port, un bateau de 30–40 places plutôt que 80+." }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites de la côte turquoise"
+  },
+  "outro": {
+    "kicker": "Le voyage se pose en douceur",
+    "body": "Dix nuits pour ralentir pour de bon — le poisson du fish market, les braises de Cin Bal, le canyon de Butterfly, la baie sauvage de Kabak, et la pierre dorée de Kayaköy au soir. Les {count} lieux de Fethiye et Kayaköy — où dormir, où manger, où nager, où marcher — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Le vol part de Dalaman, à quarante-cinq minutes — un mois, quatre bases, et la mer encore dans les oreilles.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/turquie/"
+  }
+}

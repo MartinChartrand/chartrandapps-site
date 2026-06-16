@@ -1,0 +1,145 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "Le Loutro turc",
+      "body": "On quitte le tuf pour la mer : vol Kayseri → Antalya, puis quatre heures de bus sur la D400, assis côté droit pour la côte qui défile. Kaş descend vers un port en demi-cercle, un amphithéâtre lycien planté en plein centre-ville, et l'île grecque de Kastellorizo à deux kilomètres en face qu'on regarde depuis la terrasse du petit-déjeuner. Pas de resort all-inclusive, pas de marina à yachts — une petite ville blanche qui vit à hauteur d'humain. C'est la pièce maîtresse du voyage : huit nuits exprès, le temps de s'installer, d'apprendre le rythme, et de devenir le client qui commande toujours la même table.",
+      "focusPoi": "hideaway-hotel-kas",
+      "zoom": 14,
+      "targets": ["hideaway-hotel-kas", "kaputas-beach"],
+      "thumb": "kas-port-ville",
+      "thumbAlt": "La petite ville blanche de Kaş descendant vers son port en demi-cercle, l'amphithéâtre lycien à flanc de colline, et l'île grecque de Kastellorizo posée sur la mer en arrière-plan.",
+      "poiRef": "hideaway-hotel-kas",
+      "sources": [
+        { "creator": "Hideaway Hotel (site officiel)", "url": "https://www.hotelhideaway.com/en/", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme : l'eau à 25 degrés, la table au port",
+      "body": "La côte Lycienne en septembre, c'est l'eau à vingt-quatre, vingt-six degrés, les foules d'été divisées par trois, et une visibilité sous-marine qui fait honte au reste de la Méditerranée. La journée tourne autour de l'eau : une crique le matin avant la chaleur, une sieste à l'heure creuse, une baignade au couchant. Et le soir, la table — la daurade sur une terrasse-jardin, le rakı au meyhane, le poisson qu'un patron de troisième génération nettoie devant toi. Les ruines lyciennes — Patara, Myra, Xanthos — sont partout autour, mais elles restent le décor d'un séjour qui se passe dans l'eau et à table.",
+      "focusPoi": "kaputas-beach",
+      "zoom": 13,
+      "targets": ["limanagz-crique", "kekova-simena-cite-engloutie"],
+      "thumb": "kas-eau-turquoise",
+      "thumbAlt": "Une eau turquoise cristalline de la côte Lycienne près de Kaş, des falaises calcaires qui plongent dans la mer, des pins méditerranéens jusqu'au bord de l'eau.",
+      "poiRef": "kaputas-beach",
+      "sources": [
+        { "creator": "Antalya Tourist Information — Kaputaş", "url": "https://antalyatouristinformation.com/things-to-do/beach/kaputas/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-kaputas",
+      "kicker": "Kaputaş · LA CRIQUE",
+      "title": "Cent quatre-vingt-sept marches vers le turquoise",
+      "image": "kas-kaputas",
+      "alt": "Vue depuis le haut des marches sur la crique de Kaputaş : une eau turquoise vif coincée entre deux falaises calcaires verticales, une plage de galets dorés, quelques nageurs minuscules.",
+      "intro": "C'est la crique archétypale de la côte Lycienne : une brèche dans la roche entre deux falaises à pic, cent cinquante mètres de galets dorés, une eau d'un turquoise impossible à inventer. Aucun resort, aucune marina — juste l'escalier qui descend de la route et la mer en bas. La photo qui hante l'imaginaire de la côte, et pour une fois la réalité écrase la carte postale.",
+      "reco": "Cent quatre-vingt-sept marches à descendre (prévoir des sandales, c'est raide) — la plage ouvre à 8h, et la fenêtre idéale est 8h30–10h, avant que les falaises perdent leur ombre et que la cohue arrive. Petite entrée municipale (~60 TL, ~CAD 3) pour les douches et les chaises. Filer vers le rocher de gauche pour moins de monde, et plonger directement du bord — l'eau devient profonde à dix mètres du rivage. C'est un site de tortues caretta : la plage peut fermer tôt en soirée, vérifier sur place.",
+      "quote": "Une eau turquoise électrique entre deux murs de calcaire blanc, au bout de cent quatre-vingt-sept marches. On descend, on plonge, et on comprend pourquoi on est venus jusqu'ici.",
+      "via": null,
+      "poiRef": "kaputas-beach",
+      "sources": [
+        { "creator": "Antalya Tourist Information — Kaputaş", "url": "https://antalyatouristinformation.com/things-to-do/beach/kaputas/", "date": "2026-06" },
+        { "creator": "Villa Tatilinde — guide Kaputaş", "url": "https://villatatilinde.com/blog/kaputas-plaji-rehberi-giris-ucreti-ve-ulasim", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-kekova",
+      "kicker": "Kekova & Simena · LA CITÉ ENGLOUTIE",
+      "title": "Une ville lycienne à fleur d'eau",
+      "image": "kas-kekova-ruines",
+      "alt": "Vue plongeante depuis le bastingage d'un gulet sur des ruines lyciennes immergées à un ou deux mètres de profondeur — fondations et escaliers de pierre visibles dans une eau turquoise cristalline, le château de Simena sur la colline.",
+      "intro": "Un séisme du IIe siècle a avalé une ville entière. Aujourd'hui, le long de l'île de Kekova, les fondations, les escaliers et les sarcophages lyciens affleurent sous un ou deux mètres d'eau si transparente qu'on les voit depuis le pont du bateau, sans plonger. C'est l'expédition de la semaine : on part en gulet du vieux port de Kaş, on glisse au-dessus de la cité fantôme, et on monte au château de Simena qui domine la baie.",
+      "reco": "Choisir un gulet local au vieux port — éviter les bateaux à sono et haut-parleurs. Important : la plongée et le snorkeling directement au-dessus des ruines sont interdits (zone protégée, amende à la clé) — les ruines se regardent depuis le bastingage, et on se baigne dans les baies voisines, comme l'Aquarium Bay, où l'eau est tout aussi turquoise. Monter à pied au château de Simena (Kaleköy, quinze minutes depuis le quai) pour la vue sur tout l'archipel. Le déjeuner est souvent servi à bord.",
+      "quote": "On se penche par-dessus le bastingage et on regarde dans une ville fantôme — des escaliers, des murs, des tombeaux à fleur d'eau. Pas besoin de plonger : le fond est si clair que la cité remonte vers toi.",
+      "via": null,
+      "poiRef": "kekova-simena-cite-engloutie",
+      "sources": [
+        { "creator": "Vigo Tours — Kekova sunken city", "url": "https://vigotours.com/kas-turkey/boat-trip-along-the-sunken-city-and-kekova-island", "date": "2026-06" },
+        { "creator": "Boat Trip Turkey — Kekova", "url": "https://www.boattripturkey.com/kekova-boat-tour", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-bi-lokma",
+      "kicker": "Bi Lokma · LA TABLE",
+      "title": "Les mezze d'une mère, la baie en contrebas",
+      "image": "kas-bi-lokma-mezze",
+      "alt": "Une terrasse-jardin avec tables en bois sous des oliviers, un plateau de mezze colorés — haydari blanc, aubergine fumée, olives noires — et la baie bleue de Kaş en arrière-plan.",
+      "intro": "On grimpe dans le quartier d'Andifli, au-dessus du port, jusqu'à Bi Lokma — une terrasse-jardin que les locaux indiquent à voix basse. Pas de bord de mer, pas de jetée : des tables en hauteur sous les arbres, la baie de Kaş et Kastellorizo qui s'ouvrent en contrebas, et une cuisine de mère de famille tenue depuis plus de vingt ans. Pas de carte plastifiée à photos, pas de chichi — des mezze faits à la main et le poisson du jour.",
+      "reco": "Monter en terrasse avant le coucher du soleil, vers 19h, pour la lumière dorée sur la baie. Commencer par le plateau de mezze froids — aubergine fumée au yaourt, haydari, salade de poulpe en saison — puis le poisson du jour grillé, un verre de rakı coupé à l'eau. Réserver (WhatsApp). C'est la table tranquille du séjour, celle où on revient, où on devient un habitué en huit nuits.",
+      "quote": "Une terrasse sous les oliviers, les mezze d'une mère qui cuisine pour de vrai depuis vingt ans, et la baie qui s'allume en contrebas. Le genre d'adresse qu'on ne trouve pas — qu'on te confie.",
+      "via": null,
+      "poiRef": "bi-lokma-kucuk-cakl",
+      "sources": [
+        { "creator": "Bi'Lokma Restaurant (site officiel)", "url": "https://www.bilokma.com.tr/", "date": "2026-06" },
+        { "creator": "Kaş Gezi Rehberi — Bi Lokma", "url": "https://www.kasgezirehberi.com/en/nm-Bi_Lokma_Mama_s_Kitchen-cp-834", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-limanagzi",
+      "kicker": "Limanağzı · LA BAIE SANS ROUTE",
+      "title": "On débarque, et on change d'époque",
+      "image": "kas-limanagzi",
+      "alt": "La baie de Limanağzı vue depuis l'eau : des pins méditerranéens qui descendent jusqu'au bord, une eau turquoise-vert cristalline, le petit ponton de bois d'un beach club, des collines boisées en fond.",
+      "intro": "Juste en face du vieux port, mais inaccessible en voiture : Limanağzı est une baie qu'on n'atteint qu'en taxi-eau ou par le sentier Lycien. On débarque du bateau et on entre dans une autre époque — les pins jusqu'à l'eau, les cigales, quelques tables sur pilotis, et un fond marin qui grouille. Pas d'hôtel, pas de tour bus, juste les rochers et la mer à vingt-quatre, vingt-six degrés.",
+      "reco": "Prendre le taxi-eau au kiosque du vieux port (environ 350 TL aller-retour, ~CAD 19 — vérifier l'heure du dernier retour, souvent vers 17h–18h), ou marcher une heure trente par le sentier Lycien. Plusieurs beach clubs simples se partagent la baie (Bilal'in Yeri, Nuri's Beach, La Moda) : on s'installe à l'ombre, on snorkèle autour des rochers — barracudas, poissons-trompette, parfois une tortue — et on demande si le poisson ou le poulpe grillé est dispo ce jour-là. La baignade longue, celle où on ne fait rien.",
+      "quote": "Aucune route ne s'y rend. On monte dans une barque, on traverse cinq minutes, et on débarque dans une baie où il n'y a que les pins, les cigales et l'eau. Le luxe, c'est l'absence.",
+      "via": null,
+      "poiRef": "limanagz-crique",
+      "sources": [
+        { "creator": "Turkey's For Life — Limanağzı Bay (visite août 2025)", "url": "https://www.turkeysforlife.com/2025/08/limanagzi-bay-kas-beaches.html", "date": "2025-08" },
+        { "creator": "Ada Yacht Sailing — Limanağzı", "url": "https://www.adayachtsailing.com/en/blog/where-is-kas-limanagzi-bay-and-how-to-get-there", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-hideaway",
+      "kicker": "Hideaway · LE RÉVEIL",
+      "title": "Le petit-déjeuner turc, une île grecque en face",
+      "image": "kas-hideaway-terrasse",
+      "alt": "Une terrasse-toit au lever du soleil : une table de petit-déjeuner turc — fromages, olives, œufs, pain frais — au premier plan, la mer turquoise et l'île grecque de Kastellorizo distinctement visible en arrière-plan.",
+      "intro": "Se loger à Kaş, c'est aussi choisir son réveil. Au Hideaway, petit hôtel-boutique collé à l'amphithéâtre antique, la terrasse-toit donne plein sud sur la Méditerranée et sur Kastellorizo — l'île grecque à deux kilomètres, la frontière maritime la plus absurde de la Méditerranée. Confortable et douillet sans être luxe : exactement le genre d'endroit où on traîne au petit-déjeuner.",
+      "reco": "Demander une chambre Deluxe ou Sea View pour le balcon. Descendre tôt sur la terrasse pour le buffet turc — fromages de chèvre, olives, œufs, miel, tomates qui goûtent la tomate — dans la lumière fraîche du matin, le Meis en face. Le soir, le bar de toit pour un verre avec l'île grecque éclairée à l'horizon. C'est la scène qui justifie à elle seule de s'installer plutôt que de passer.",
+      "quote": "On se lève, on monte sur le toit, et la première chose qu'on voit avec son café, c'est une île grecque à deux kilomètres. Le petit-déjeuner turc devant une frontière qui n'a aucun sens : on reste une heure de plus.",
+      "via": null,
+      "poiRef": "hideaway-hotel-kas",
+      "sources": [
+        { "creator": "Hideaway Hotel (site officiel)", "url": "https://www.hotelhideaway.com/en/", "date": "2026-06" },
+        { "creator": "Booking.com — Hideaway Hotel Kaş", "url": "https://www.booking.com/hotel/tr/hideaway.html", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant la dernière base : la crique de Kaputaş, la cité engloutie de Kekova, les mezze de Bi Lokma et le réveil sur Kastellorizo. Et tout le reste — le Lagos buğulama de Mercan, l'institution de 1956 où Mustafa Eriş, troisième génération, nettoie encore le poisson devant toi (le restaurant a quitté le port pour l'entrée de Kaş) ; la soirée meyhane chez Beyhude ou Salkım Ocakbaşı, le rakı en carafe et les mezze qui défilent après 21h, depuis que le vieil İkbal a fermé ; la plongée chez Dragoman sur l'épave du Dakota et ses tortues ; le petit-déjeuner paysan de montagne à Pello Kalkan, au village de Bezirgan ; et le marché du vendredi, le Cuma Pazarı, les femmes Yörük et les fromages de chèvre. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": ["kaputas-beach", "limanagz-crique", "kekova-simena-cite-engloutie", "mercan-restaurant-1956"],
+      "targets": ["marche-vendredi-cuma-pazar"],
+      "thumb": "kas-cuma-pazari",
+      "thumbAlt": "Le marché du vendredi de Kaş (Cuma Pazarı) : des femmes Yörük en costume traditionnel derrière des étals de fromages de chèvre, d'olives et de figues fraîches, sous la lumière du matin.",
+      "pills": [
+        { "poiRef": "marche-vendredi-cuma-pazar", "link": "maps", "label": "Cuma Pazarı · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Nerde Yiyelim — Mercan Restaurant", "url": "https://nerdeyiyelim.com/mekan/62/mercan-et-balik-restaurant/", "date": "2026-06" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "Le Hideaway, vingt chambres collées à l'amphithéâtre, pour le petit-déjeuner sur le toit face à Kastellorizo. Le Gardenia au calme près du port, ou le Nur Beach sur la péninsule de Çukurbağ, les pieds dans l'eau, pour finir plus haut de gamme. Confortable et douillet plutôt que luxe — réserver tôt, petites structures. (Vérifier les avis récents au moment de réserver.)" },
+      { "label": "À table", "kinds": ["resto"], "footer": "Les mezze de Bi Lokma sur sa terrasse-jardin d'Andifli, le Lagos buğulama de Mercan (1956, à l'entrée de Kaş depuis son déménagement). Pour la soirée meyhane — rakı, mezze, musique — Beyhude ou Salkım Ocakbaşı sont les valeurs sûres aujourd'hui. Et le petit-déjeuner de montagne à Pello Kalkan, au village de Bezirgan (~40 min, à réserver)." },
+      { "label": "La mer & les criques", "kinds": ["plage"], "footer": "Kaputaş et ses 187 marches (ouvre 8h, viser 8h30–10h). Limanağzı, la baie sans route, en taxi-eau du vieux port (~350 TL aller-retour, ~CAD 19). Et la Mavi Mağara, la grotte bleue, en petit bateau de pêcheur depuis la jetée Est plutôt qu'en gros tour." },
+      { "label": "Plongée, ruines & marchés", "kinds": ["sight"], "footer": "La plongée chez Dragoman (épave du Dakota C-47, canyons, tortues — prix à confirmer en direct). Kekova et la cité engloutie en gulet. Les ruines lyciennes en décor : Patara et ses 18 km de plage antique, Myra et ses tombeaux rupestres, Xanthos-Letoon classés UNESCO. Et le marché du vendredi (Cuma Pazarı), tôt pour la lumière." }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites lyciennes"
+  },
+  "outro": {
+    "kicker": "Le cœur du voyage",
+    "body": "Huit nuits pour s'installer vraiment — la crique de Kaputaş, la cité engloutie de Kekova, les mezze de Bi Lokma, et le réveil sur une île grecque à deux kilomètres. Les {count} lieux de Kaş — où dormir, où manger, où nager, où plonger — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Dernière base : Fethiye et Kayaköy, le slow finish — le fish market où on choisit son poisson, le mangal aux braises, et le village fantôme à la lumière du soir.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/turquie/"
+  }
+}

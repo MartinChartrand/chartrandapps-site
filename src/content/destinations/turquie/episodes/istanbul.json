@@ -1,0 +1,146 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'arrivée par la mauvaise rive",
+      "body": "On atterrit à seize millions d'habitants étalés sur deux continents, et la première décision est la plus importante du séjour : où poser ses bagages. Pas à Sultanahmet — c'est beau vingt minutes à l'aube, puis ça ferme à 19h comme un parc à thème. On s'installe à Karaköy, ou dans les ruelles en pente derrière la tour de Galata : vivant vingt-quatre heures, pêcheurs à 6h, galeries l'après-midi, meyhane le soir, et sept minutes de ferry jusqu'à la rive asiatique où la vraie ville mange. On a sept nuits. C'est court pour Istanbul. C'est assez pour comprendre qu'elle est ailleurs que sur les cartes postales.",
+      "focusPoi": "karakoy-rooms",
+      "zoom": 14,
+      "targets": ["karakoy-rooms", "ferry-bosphore-eminonu"],
+      "thumb": "ist-karakoy-toits",
+      "thumbAlt": "Les toits de Karaköy et Galata au crépuscule, la tour de Galata qui domine les ruelles en pente, et la Corne d'Or qui s'ouvre vers le Bosphore en arrière-plan.",
+      "poiRef": "karakoy-rooms",
+      "sources": [
+        { "creator": "Go Türkiye (officiel) — Fener & Balat", "url": "https://istanbul.goturkiye.com/fr/fener-and-balat-neighbourhoods", "date": "2026-06" }
+      ]
+    },
+    {
+      "kicker": "Le rythme : suivre l'eau, suivre la table",
+      "body": "La journée type tient en trois gestes. Le matin, un thé sur un balcon face au détroit pendant que les mouettes gueulent et que les ferries klaxonnent. Le midi, on traverse — sept minutes de bateau public jusqu'à Kadıköy, là où la rive asiatique se nourrit pour de vrai, loin des menus en six langues. Le soir, un meyhane à Beyoğlu, le rakı qui coupe l'eau en blanc laiteux et les petites assiettes qui défilent sans qu'on demande. Le Bosphore est le fil : on le franchit, on le longe, on le regarde s'allumer. L'histoire, byzantine et ottomane, reste le décor — magnifique, mais le décor.",
+      "focusPoi": "ferry-bosphore-eminonu",
+      "zoom": 12,
+      "targets": ["marche-poissons-kadkoy", "balat-fener-quartier"],
+      "thumb": "ist-bosphore-ferry",
+      "thumbAlt": "Un ferry public sur le Bosphore vu du pont avant : l'eau bleue, un cargo au loin, et les minarets et collines boisées de la rive asiatique sous une lumière de fin d'après-midi.",
+      "poiRef": "ferry-bosphore-eminonu",
+      "sources": [
+        { "creator": "Şehir Hatları (officiel) — lignes du Bosphore", "url": "https://sehirhatlari.istanbul/en/timetables/domestic-trips/bosphorus-lines/anadolu-kavagi-uskudar-172", "date": "2026-06" }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-ciya",
+      "kicker": "Çiya Sofrası · LA PORTE",
+      "title": "L'Anatolie entière, au comptoir vapeur",
+      "image": "ist-ciya-mezze",
+      "alt": "Un comptoir vapeur de cantine turque garni de plats en terre cuite — ragoûts, légumes farcis, mijotés d'agneau — et une assiette qu'on remplit en pointant, dans le bazar couvert de Kadıköy.",
+      "intro": "On ouvre le voyage sur la rive asiatique, dans le bazar de Kadıköy, chez Çiya Sofrası. Depuis la fin des années 80, Musa Dağdeviren y fait un travail d'anthropologue : il parcourt l'Anatolie rurale et ramène des recettes paysannes en voie d'extinction — d'un village d'agneau aux coings, d'une vallée d'herbes sauvages, d'une frontière où la cuisine kurde, arménienne et arabe se touchent. Ce n'est pas un restaurant, c'est un musée vivant où on mange au poids.",
+      "reco": "On longe le comptoir vapeur sans se presser et on pointe : le kuzu ayva (agneau mijoté aux coings), le mumbar (intestin farci au boulgour), l'ezme (purée de poivrons rôtis), une soupe de yaourt et lentilles. On compose deux ou trois petites assiettes plutôt qu'une grosse, on paie à la caisse, on finit sur un dessert aux fruits confits. Environ 400–600 TL par personne (~CAD 22–33) — donné, pour ce que c'est. C'est la porte d'entrée : tout ce qu'on mangera ensuite en Turquie répond, d'une façon ou d'une autre, à ce comptoir-là.",
+      "quote": "On traverse l'Atlantique, puis un détroit, pour s'asseoir devant un comptoir où un homme a passé trente ans à sauver des recettes que plus personne ne cuisine. La première bouchée, c'est déjà tout le pays.",
+      "via": null,
+      "poiRef": "ciya-sofras",
+      "sources": [
+        { "creator": "Katie Parla", "url": "https://katieparla.com/ciya-sofrasi/", "date": "2009-03" },
+        { "creator": "World's 50 Best — Çiya Sofrası", "url": "https://www.theworlds50best.com/discovery/Establishments/T%C3%BCrkiye/Istanbul/%C3%87iya-Sofras%C4%B1.html", "date": "2026-06" },
+        { "creator": "Will Fly for Food — Çiya Sofrası", "url": "https://www.willflyforfood.net/ciya-sofrasi-quite-possibly-the-best-restaurant-in-istanbul-turkey/", "date": "2024-05" }
+      ]
+    },
+    {
+      "id": "scene-meyhane",
+      "kicker": "Asmalı Cavit · LE RITUEL",
+      "title": "Le rakı, les petites assiettes, la soirée qui s'étire",
+      "image": "ist-meyhane-raki",
+      "alt": "Une table ronde de meyhane couverte de petites assiettes de mezze, une bouteille de rakı sur glace et des verres d'eau, sous une lumière chaude, des photos en noir et blanc aux murs.",
+      "intro": "Le meyhane, c'est le rituel social d'Istanbul — la table de petites assiettes et de rakı autour de laquelle se règlent les amitiés et les engueulades depuis toujours. À Beyoğlu, sur la rue Asmalı Mescit, Asmalı Cavit le tient sans esbroufe depuis les années 90 : pas de menu affiché, les mezze arrivent au gré du cuisinier, et on s'abandonne au rythme. La clientèle a changé — l'endroit est connu des voyageurs avisés autant que des habitués — mais l'esprit, lui, n'a pas bougé.",
+      "reco": "On commence par les mezze froids : le lakerda (bonite marinée en saumure), le patlıcan salatası (aubergine fumée), les œufs de poisson. Puis le foie en fines lamelles sautées aux oignons, et le köfte au coulis de tomate épicé. Le rakı se coupe à l'eau — il blanchit, on ajoute un glaçon — et on ne presse jamais le service : c'est tout l'intérêt. Réserver la fin de semaine. Et la règle d'or de la ville, qui sauve le séjour : jamais un resto avec un rabatteur à la porte ni un menu en six langues à photos.",
+      "quote": "Le rakı qui blanchit dans le verre, des assiettes qui arrivent sans qu'on les commande, et une soirée qu'on laisse durer. Manger à Istanbul, c'est d'abord apprendre à ne pas être pressé.",
+      "via": null,
+      "poiRef": "asmal-cavit",
+      "sources": [
+        { "creator": "Katie Parla — Asmalı Cavit", "url": "https://katieparla.com/asmali-cavit-a-meyhane-in-beyoglu/", "date": "2011-02" },
+        { "creator": "Culinary Backstreets — Asmalı Cavit", "url": "https://culinarybackstreets.com/cities-category/istanbul/2012/asmali-cavit/", "date": "2012-01" }
+      ]
+    },
+    {
+      "id": "scene-ferry",
+      "kicker": "Le Bosphore · L'EAU",
+      "title": "Le détroit, sans payer le prix des tours",
+      "image": "ist-bosphore-pont",
+      "alt": "Le pont extérieur d'un ferry public sur le Bosphore : des passagers accoudés au bastingage, l'eau bleue parsemée de bateaux, des palais ottomans en bois et des collines boisées sur la rive.",
+      "intro": "Istanbul n'a pas de criques — son eau, c'est le Bosphore, le détroit qui sépare deux continents et que la ville traverse mille fois par jour. Deux bateaux publics, deux plaisirs. La navette de tous les jours file vers la rive asiatique pour quelques liras — le prix d'un trajet de tramway. Et la longue ligne du Bosphore remonte le détroit jusqu'à son embouchure : on s'installe sur le pont avant et tout défile, les tankers russes, les yalı en bois des sultans, les forteresses, les mosquées posées sur les collines. C'est le meilleur siège de la ville — et même cette version longue coûte une fraction des tours privés.",
+      "reco": "Deux versions, sans piège. Le ferry-navette Eminönü → Kadıköy, pour quelques liras avec l'Istanbulkart (~15 TL, ~CAD 1) : sept minutes, l'entrée idéale vers la rive asiatique et son marché. Ou la longue croisière Şehir Hatları depuis Eminönü, un seul départ par jour vers 10h35, jusqu'à Anadolu Kavağı et son château de Yoros (640 TL, ~CAD 35) — bien moins que les tours privés qui facturent dix fois ça pour le même trajet. On monte au château, on mange le poisson grillé sur le petit port en bas, et on rentre dans la lumière de l'après-midi.",
+      "quote": "Les tours privés vendent le Bosphore quarante euros et plus. Les Stambouliotes, eux, le traversent en navette pour le prix d'un tramway, ou remontent tout le détroit en ferry public pour une fraction du prix — même eau, mêmes palais, même lumière.",
+      "via": null,
+      "poiRef": "ferry-bosphore-eminonu",
+      "sources": [
+        { "creator": "Şehir Hatları (officiel)", "url": "https://sehirhatlari.istanbul/en/timetables/domestic-trips/bosphorus-lines/anadolu-kavagi-uskudar-172", "date": "2026-06" },
+        { "creator": "Istanbul Clues — croisière du Bosphore", "url": "https://istanbulclues.com/istanbul-bosphorus-cruise-tours/", "date": "2026-04" }
+      ]
+    },
+    {
+      "id": "scene-kadikoy",
+      "kicker": "Marché de Kadıköy · LA RIVE QUI MANGE",
+      "title": "Le poisson sur glace, à neuf heures, sans un touriste",
+      "image": "ist-kadikoy-poisson",
+      "alt": "Un étal de poissonnerie couvert : maquereaux et dorades brillants sur de la glace pilée, un poissonnier en tablier blanc, dans la halle du marché de Kadıköy sous une lumière froide du matin.",
+      "intro": "De l'autre côté du ferry, le bazar de Kadıköy (le Çarşı) est l'estomac de la rive asiatique. À neuf heures, mardi ou vendredi quand l'arrivage est le plus gros, il n'y a pas un touriste — juste des poissonniers, des cuisinières de quartier et des restaurateurs qui choisissent le poisson du jour les mains dans la glace. Autour, les bars à fruits de mer ouvrent tôt, les bocaux de turşu (cornichons maison, tradition des années 30) s'alignent, et les vendeurs de midye dolma tendent leurs moules farcies.",
+      "reco": "On arrive vers neuf heures. On grignote au comptoir d'un bar à fruits de mer — moules à l'ail, lakerda tranché épais, crevettes — chez un poissonnier qui a aussi une table, comme Kadı Nimet. On repart avec un bocal de turşu et des olives noires pour grignoter le soir au logement. Puis cinq minutes à pied jusqu'à Çiya pour compléter. C'est l'Istanbul réelle, celle d'avant l'ouverture des cafés Instagram.",
+      "quote": "Pas une carte, pas une enseigne traduite, pas un rabatteur. Juste l'arrivage du matin, des gens qui cuisinent pour de vrai, et l'odeur de la mer à neuf heures. On mange là où la ville s'approvisionne.",
+      "via": null,
+      "poiRef": "marche-poissons-kadkoy",
+      "sources": [
+        { "creator": "Museum Pass Istanbul — marché de Kadıköy", "url": "https://fr.museumpass.istanbul/kadikoy-fish-market-in-istanbul/", "date": "2026-06" },
+        { "creator": "Istanbul.com — fish market", "url": "https://istanbul.com/fr/city-life/fish-market-in-istanbul", "date": "2026-06" }
+      ]
+    },
+    {
+      "id": "scene-neolokal",
+      "kicker": "Neolokal · LA TABLE D'AUTEUR",
+      "title": "L'Anatolie oubliée, une étoile, la Corne d'Or au couchant",
+      "image": "ist-neolokal-assiette",
+      "alt": "Une assiette de dégustation sur céramique artisanale anatolienne — herbes sauvages, sauce profonde, dressage épuré — devant une fenêtre donnant sur la Corne d'Or au crépuscule.",
+      "intro": "Une fois dans le séjour, on monte le registre. Au deuxième étage de SALT Galata, une ancienne banque ottomane de la rue des banques, Maksut Aşkar tient Neolokal — étoilé Michelin et Green Star pour sa durabilité. Il fait en gastronomie ce que Dağdeviren fait en cantine : restituer une recette anatolienne oubliée, mais en version contemporaine, sans une once de fusion euro-turque. Et derrière la fenêtre, la Corne d'Or s'allume.",
+      "reco": "Le menu Heritage, à réserver au moins une semaine d'avance (info@neolokal.com ou par téléphone) — sinon on se retrouve sans table. Demander la place côté fenêtre pour le coucher de soleil sur la Corne d'Or, et prendre l'accord avec les cépages anatoliens (Öküzgözü, Boğazkere), un vin turc qui boit encore sous les radars du monde. Compter une table haut de gamme et deux heures et demie. C'est le seul repas « spécial » du séjour, et il raconte le même pays que le comptoir de Çiya — autrement.",
+      "quote": "Une recette de village qu'on croyait perdue, servie dans une banque ottomane avec la Corne d'Or en fond. La haute cuisine, ici, ne regarde pas vers Paris — elle regarde vers l'Anatolie.",
+      "via": null,
+      "poiRef": "neolokal-salt-galata",
+      "sources": [
+        { "creator": "Neolokal (site officiel)", "url": "https://www.neolokal.com/en/neolokal_en/", "date": "2026-06" },
+        { "creator": "Michelin Guide — Neolokal", "url": "https://guide.michelin.com/us/en/istanbul-province/istanbul/restaurant/neolokal", "date": "2026-06" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de filer vers la Cappadoce : le comptoir de Çiya et les mezze d'Asmalı Cavit, le ferry du Bosphore et le marché de Kadıköy à neuf heures. Et ce qu'on n'a pas eu le temps de raconter — le balık ekmek grillé sur les barques d'Eminönü, au pied du pont de Galata, depuis que la petite Furreyya de Galata a fermé ses portes ; le şıra de Vefa Bozacısı, la maison de 1876 qui fête ses cent cinquante ans (la boza, sa boisson d'hiver, ne coule qu'entre octobre et avril — en septembre, c'est le jus de raisin doux qu'on boit dans le verre en zinc d'époque) ; Balat à l'aube avant 7h30, ses maisons en encorbellement et ses chats sur les marches ; la terrasse de la Süleymaniye au couchant ; et le kokoreç de minuit après le rakı. Le carnet a les adresses, les liens, les prix, et le budget complet du voyage.",
+      "boundsPois": ["ciya-sofras", "ferry-bosphore-eminonu", "balat-fener-quartier", "vefa-bozacs-1876"],
+      "targets": ["balat-fener-quartier"],
+      "thumb": "ist-balat-aube",
+      "thumbAlt": "Une rue pavée en pente de Balat à l'aube : des maisons ottomanes en encorbellement peintes en bleu, rouge et vert, du linge aux fenêtres, un chat sur les marches, lumière dorée rasante.",
+      "pills": [
+        { "poiRef": "balat-fener-quartier", "link": "maps", "label": "Balat-Fener · Maps" },
+        { "label": "Le carnet de bouche", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "The Wom Travel — Balat", "url": "https://www.thewomtravel.fr/turquie/istanbul/guide-balat-istanbul.html", "date": "2025-01" },
+        { "creator": "Better Istanbul — Vefa Bozacısı", "url": "https://betteristanbul.com/vefa-bozacisi/", "date": "2025-04" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      { "label": "Où dormir", "kinds": ["hotel"], "footer": "La règle : Karaköy ou Galata, jamais Sultanahmet. Les rues en pente derrière la tour de Galata mettent le ferry d'Eminönü, Beyoğlu et la rive asiatique à dix minutes à pied, dans un quartier vivant vingt-quatre heures. Demander un étage avec vue sur le Bosphore ou la Corne d'Or — le café du matin face au détroit vaut la chambre. (Le nom exact d'un établissement n'est confirmé qu'au moment de réserver : vérifier les avis récents avant de payer.)" },
+      { "label": "À table", "kinds": ["resto"], "footer": "Çiya Sofrası au comptoir de Kadıköy, les mezze et le rakı d'Asmalı Cavit à Beyoğlu (réserver la fin de semaine), le menu Heritage de Neolokal une fois dans le séjour (étoile Michelin, réserver une semaine d'avance). Pour la rue : le balık ekmek des barques d'Eminönü au pied du pont de Galata, et un kokoreç de minuit après le rakı. Règle d'or : jamais un resto de Sultanahmet avec rabatteur à la porte." },
+      { "label": "Le Bosphore & les quartiers", "kinds": ["sight"], "footer": "Le ferry public du Bosphore (navette Kadıköy pour quelques liras, ou la longue croisière d'Eminönü, un seul départ vers 10h35). Le marché de Kadıköy à neuf heures, mardi ou vendredi. Balat et ses ruelles colorées avant 7h30, quand il n'y a encore que les chats. Et Vefa Bozacısı, la maison de 1876, pour le verre en zinc — şıra en été, boza l'hiver." }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites stambouliotes"
+  },
+  "outro": {
+    "kicker": "Le décalage est largué",
+    "body": "Sept nuits pour apprendre qu'Istanbul est sur l'autre rive — le comptoir de Çiya, le rakı d'Asmalı Cavit, le ferry qui traverse pour le prix d'un café, le poisson de Kadıköy à l'aube. Les {count} lieux de la ville — où dormir, où manger, où prendre le bateau — vivent dans le carnet, avec leurs liens, leurs prix, et le budget complet du voyage. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochaine base : la Cappadoce, le paysage lunaire, le testi kebab cassé au marteau et le vin volcanique d'Ürgüp.",
+    "nextLabel": "← Retour au survol du voyage",
+    "nextHref": "/turquie/"
+  }
+}
