@@ -1474,5 +1474,197 @@
     },
     "sha256": "d47f5e0b9bf7b1644a610d8458241fde9b65ccb8ae7883415fc97cba8cb26271",
     "visionChecked": "migration-v1"
+  },
+  {
+    "id": "ist-karakoy-toits",
+    "slot": "ist-karakoy-toits",
+    "base": null,
+    "role": "photo",
+    "file": "ist-karakoy-toits.jpg",
+    "alt": "La tour de Galata dominant les toits denses du quartier au coucher du soleil, des mouettes en vol dans le ciel doré.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1524231757912-21f4fe3a7200",
+      "photographer": "Anna Berdnik",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9d3602f4a775d476c22be8492dacaea61eda92687cbf7d5b99dc9536fab4bbf1",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "9d3602f4a775d476c22be8492dacaea61eda92687cbf7d5b99dc9536fab4bbf1",
+      "alt": "La tour de Galata dominant les toits denses du quartier au coucher du soleil, des mouettes en vol dans le ciel doré.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "ist-bosphore-ferry",
+    "slot": "ist-bosphore-ferry",
+    "base": null,
+    "role": "photo",
+    "file": "ist-bosphore-ferry.jpg",
+    "alt": "Le sillage d’un ferry sur le Bosphore, vu de l’arrière depuis le pont en bois, les collines habitées de la rive au loin.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1621417535643-b17468156ebd",
+      "photographer": "Elena",
+      "license": "unsplash-standard"
+    },
+    "sha256": "237897bc70eb973a124d6da200f33f092d9c6e13e07a267bc8a28d273ead4e91",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "237897bc70eb973a124d6da200f33f092d9c6e13e07a267bc8a28d273ead4e91",
+      "alt": "Le sillage d’un ferry sur le Bosphore, vu de l’arrière depuis le pont en bois, les collines habitées de la rive au loin.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "ist-ciya-mezze",
+    "slot": "ist-ciya-mezze",
+    "base": null,
+    "role": "photo",
+    "file": "ist-ciya-mezze.jpg",
+    "alt": "Des plats turcs mijotés en cocottes de terre cuite — agneau, poivrons verts et rouges, tomates cerises jaunes — alignés pour le service.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1773209927898-a0a7e0a13125",
+      "photographer": "Hakan Çınar",
+      "license": "unsplash-standard"
+    },
+    "sha256": "663fed607963ecdc48c9531e5156581dca36c048d0ac2076f667721f6de2e36b",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "663fed607963ecdc48c9531e5156581dca36c048d0ac2076f667721f6de2e36b",
+      "alt": "Des plats turcs mijotés en cocottes de terre cuite — agneau, poivrons verts et rouges, tomates cerises jaunes — alignés pour le service.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "ist-meyhane-raki",
+    "slot": "ist-meyhane-raki",
+    "base": null,
+    "role": "photo",
+    "file": "ist-meyhane-raki.jpg",
+    "alt": "Une assiette de mezze méditerranéen et des verres de rakı laiteux posés sur une table de taverne, en soirée.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1723191630811-1f25dcadc846",
+      "photographer": "Ren",
+      "license": "unsplash-standard"
+    },
+    "sha256": "85226cc94a7786e19d9099c7dbdad4c0e6b4dfba094de6ff44665cb2e957da38",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "85226cc94a7786e19d9099c7dbdad4c0e6b4dfba094de6ff44665cb2e957da38",
+      "alt": "Une assiette de mezze méditerranéen et des verres de rakı laiteux posés sur une table de taverne, en soirée.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "ist-bosphore-pont",
+    "slot": "ist-bosphore-pont",
+    "base": null,
+    "role": "photo",
+    "file": "ist-bosphore-pont.jpg",
+    "alt": "Un passager accoudé au bastingage d’un ferry public d’Istanbul, des bouées de sauvetage orange marquées « İSTANBUL » fixées à la rambarde.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1759888107030-fd04ca19c09b",
+      "photographer": "Cemrecan Yurtman",
+      "license": "unsplash-standard"
+    },
+    "sha256": "b337032b309472ae2d0bca524c85cc836febd9a32fc6de7711f5ec177b3c5fb2",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "b337032b309472ae2d0bca524c85cc836febd9a32fc6de7711f5ec177b3c5fb2",
+      "alt": "Un passager accoudé au bastingage d’un ferry public d’Istanbul, des bouées de sauvetage orange marquées « İSTANBUL » fixées à la rambarde.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "ist-kadikoy-poisson",
+    "slot": "ist-kadikoy-poisson",
+    "base": null,
+    "role": "photo",
+    "file": "ist-kadikoy-poisson.jpg",
+    "alt": "Deux poissonniers derrière leur étal couvert de poissons frais dans un marché d’Istanbul, un drapeau turc au fond.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1632690286867-994ac7c571e1",
+      "photographer": "Alexey Taktarov",
+      "license": "unsplash-standard"
+    },
+    "sha256": "4a3ad498a48859b72887eba159e23d483f67693b83d565a4c3b2fa5e7dd080be",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "4a3ad498a48859b72887eba159e23d483f67693b83d565a4c3b2fa5e7dd080be",
+      "alt": "Deux poissonniers derrière leur étal couvert de poissons frais dans un marché d’Istanbul, un drapeau turc au fond.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "ist-neolokal-assiette",
+    "slot": "ist-neolokal-assiette",
+    "base": null,
+    "role": "photo",
+    "file": "ist-neolokal-assiette.jpg",
+    "alt": "Une main verse une sauce verte sur une assiette gastronomique épurée — betterave glacée, légumes-racines, dressage soigné sur fond blanc.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1673706530246-4c1d8b141748",
+      "photographer": "Jon Handley",
+      "license": "unsplash-standard"
+    },
+    "sha256": "ea5e5b86d6ba98920367f0901ec762236c70bbb480ffdadf28d6d08825f8634e",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "ea5e5b86d6ba98920367f0901ec762236c70bbb480ffdadf28d6d08825f8634e",
+      "alt": "Une main verse une sauce verte sur une assiette gastronomique épurée — betterave glacée, légumes-racines, dressage soigné sur fond blanc.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "ist-balat-aube",
+    "slot": "ist-balat-aube",
+    "base": null,
+    "role": "photo",
+    "file": "ist-balat-aube.jpg",
+    "alt": "Une rue étroite de Balat bordée de maisons aux façades colorées — vert, bleu, rose, jaune — un passant au loin, en plein jour.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1661769255055-37faa16b3bec",
+      "photographer": "Jillian Amatt - Artistic Voyages",
+      "license": "unsplash-standard"
+    },
+    "sha256": "52342cebd65ceb52448b6117c9c8fb559df6619851726d9754e1f30722f38101",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "52342cebd65ceb52448b6117c9c8fb559df6619851726d9754e1f30722f38101",
+      "alt": "Une rue étroite de Balat bordée de maisons aux façades colorées — vert, bleu, rose, jaune — un passant au loin, en plein jour.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
   }
 ]
