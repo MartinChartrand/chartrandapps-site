@@ -30,6 +30,7 @@
     "image": "hero",
     "label": "Itinéraire · Voyage solo"
   },
+  "cardImage": "capp-montgolfieres",
   "overviewKicker": "Logique du voyage",
   "overviewTitle": "Quatre bases, mouvement minimal",
   "overviewIntro": "Un mois, c'est assez pour s'installer vraiment quelque part. L'itinéraire descend en diagonale — urbain, intérieur lunaire, côte Lycienne intime, décompression finale — de l'arrivée à Istanbul jusqu'au vol retour depuis Dalaman.",
@@ -43,5 +44,48 @@
       "body": "Vol aller Montréal → Istanbul via hub européen (pas de transit US). Vols domestiques Turkish/Pegasus entre les bases. Retour Dalaman → Montréal. Pas de voiture de location — tout se fait en bus, dolmuş, ferry et scooter ponctuel. Budget total estimé : ~5 500 $ CAD solo, trente nuits."
     }
   },
-  "footerNote": "Itinéraire préparé avec amour · Turquie, septembre–octobre 2027"
+  "footerNote": "Itinéraire préparé avec amour · Turquie, septembre–octobre 2027",
+  "episodic": true,
+  "chapterTotal": 4,
+  "container": {
+    "hookKicker": "Un mois · quatre bases · la table, la mer, le feu",
+    "hookTitle": "La Turquie se mange à deux mains et se nage dans le turquoise — l'histoire, elle, reste le décor.",
+    "hookBody": "On entre par Istanbul, seize millions d'habitants sur deux continents, et on apprend tout de suite la règle : la vraie ville mange sur l'autre rive — au comptoir de Çiya, au meyhane, au marché de Kadıköy — et son eau, c'est le Bosphore qu'on traverse en ferry public pour le prix d'un café. Puis on monte en Cappadoce, le seul paysage lunaire au monde, où l'agneau mijote six heures dans un pot d'argile cassé au marteau et où le vin pousse dans le tuf volcanique depuis l'Antiquité. On redescend sur la côte Lycienne, à Kaş : une petite ville blanche sans resorts, des criques turquoise entre les falaises, la daurade sur une terrasse et l'île grecque à deux kilomètres. Et on finit en douceur à Fethiye — le poisson qu'on choisit soi-même au marché, le mangal aux braises dans un village fantôme, les baies sauvages où l'on descend à pied. Un mois, quatre bases, mouvement minimal : la table et la mer d'abord, l'histoire (byzantine, ottomane, grecque) en décor.",
+    "hookImage": "kas-kaputas",
+    "sources": [
+      { "creator": "Antalya Tourist Information — Kaputaş", "url": "https://antalyatouristinformation.com/things-to-do/beach/kaputas/", "date": "2026-06" },
+      { "creator": "Katie Parla — Çiya Sofrası", "url": "https://katieparla.com/ciya-sofrasi/", "date": "2009-03" }
+    ],
+    "tilesIntro": "De l'arrivée à Istanbul jusqu'au vol retour depuis Dalaman, l'itinéraire descend en diagonale — urbain, intérieur lunaire, côte Lycienne, décompression finale. On s'installe, on suit la table et la mer, et on laisse le pays venir.",
+    "tiles": [
+      {
+        "base": "istanbul",
+        "kicker": "Chapitre 1 · 7 nuits",
+        "title": "Le choc, sur deux continents",
+        "teaser": "La vraie ville mange sur l'autre rive — Çiya, le meyhane, le poisson de Kadıköy — et son eau, c'est le Bosphore qu'on traverse en ferry public.",
+        "image": "ist-karakoy-toits"
+      },
+      {
+        "base": "cappadoce",
+        "kicker": "Chapitre 2 · 5 nuits",
+        "title": "Le paysage lunaire",
+        "teaser": "Le testi kebab cassé au marteau, le vin volcanique d'Ürgüp, la montgolfière au lever du soleil et les vallées de tuf qui s'embrasent au couchant.",
+        "image": "capp-montgolfieres"
+      },
+      {
+        "base": "kas",
+        "kicker": "Chapitre 3 · 8 nuits",
+        "title": "Le cœur du voyage, sur la côte Lycienne",
+        "teaser": "Une petite ville blanche sans resorts, les criques turquoise entre les falaises, la cité engloutie de Kekova et la table de port.",
+        "image": "kas-port-ville"
+      },
+      {
+        "base": "fethiye",
+        "kicker": "Chapitre 4 · 10 nuits",
+        "title": "Le slow finish",
+        "teaser": "Le poisson qu'on choisit au marché et qu'on fait griller, le mangal dans un village fantôme, Butterfly Valley et les baies sauvages où l'on descend à pied.",
+        "image": "feth-butterfly-plage"
+      }
+    ]
+  }
 }

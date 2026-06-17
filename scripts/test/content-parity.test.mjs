@@ -29,9 +29,9 @@ function visibleText(html) {
 // VÉRIFIÉES (vs 81 v1, dont les menteuses/doublons volontairement purgés). Le contenu n'est pas
 // perdu, il est redistribué + éditorialisé ; les gardes qui s'appliquent désormais à crete sont
 // T-CONT-* (container/tuiles↔épisodes), validate-image-claims (slots scellés) et le carnet de
-// chaque épisode (toute reco = pill cliquable). turquie reste en v2 long-scroll → parité active.
-const DESTINATIONS = ['turquie'];
-// ratio mesuré turquie 1.054 — zéro segment v1 (>40 chars) absent du dist.
+// chaque épisode (toute reco = pill cliquable). turquie est passée en ÉPISODE le 2026-06-16 :
+// plus AUCUNE destination en v2 long-scroll → cette parité v2 n'a plus d'objet (liste vide).
+const DESTINATIONS = [];
 // Le léger dépassement de 1.0 vient du rendu v2 qui duplique volontairement les blurbs des
 // POIs sleep (AccomGrid + poi-list « Où dormir », testé par built-html T4).
 const MIN_RATIO = 0.90;
