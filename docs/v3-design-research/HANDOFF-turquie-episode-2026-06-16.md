@@ -4,7 +4,33 @@
 Contexte profond : `docs/CONTRAT-MACHINE-A-SAUCISSE.md` + mémoires `contenu-sensoriel-bouffe-plages`,
 `format-episode-standard`, `sourcing-images-unsplash-grounded`, `prix-cad-partout`, `registre-public-voix`.
 
-## Statut — LE GROS CHUNK EST FAIT (contenu), PAS DÉPLOYÉ
+## MISE À JOUR (même jour, suite) — CONVERSION COMPLÈTE, PRÊTE À DÉPLOYER
+
+Tout le reste a été fait dans la foulée (quota reseté). État réel : **conversion Turquie 4/4
+TERMINÉE sur la branche `turquie-episode`, `npm run audit` VERT (165 tests/0 fail), PAS encore
+mergée sur `main` (déploiement = go/no-go de Martin, action outward-facing).**
+
+- **32 images sourcées + scellées** (8/base) — sourcing Unsplash groundé (fan-out Sonnet, IDs
+  curl-validés), **vérif AU PIXEL par lecture Opus** (test ami-témoin), sceau `visionCheckedSemantic=match`.
+  Mix ~50% lieux confirmés / ~50% doublures honnêtes (alt ne nomme jamais un faux lieu). 2 rejets à la
+  lecture (enseigne espagnole, doublon) → re-sourcés. Commits `c04a248`/`9ea059f`/`15e3825`/`9d2f13d`.
+- **Données POI durcies** (`896f915`) : 12 lieux fermés/déménagés/faux repointés vers substituts vérifiés
+  avec coords **Nominatim/OSM** (Furreyya→barques Eminönü, İkbal→Beyhude, Köyüm→Pello, Reis→Meğri,
+  Muti→Ortahisar, Mercan/Bi Lokma→Andifli, Kocabağ→Uçhisar, hanmaga→Dedeli Konak, fish-market sans
+  Mavi/Cem/Rafet, Levissi→Lebessos, Villa Rhapsody=pension). 36 POIs sourcés + `approvedBy:human`.
+  dishes(17)+gems(16) ont un `base` (carnet scopé par épisode). Boza : saisonnalité oct-avril.
+- **Flip `episodic:true`** (`e079e30`) : container survol (hook + 4 tuiles-images scellées),
+  `chapterTotal:4`, `cardImage=capp-montgolfieres` (carte landing). `/turquie/` rend le survol ;
+  content-parity vidée (plus aucune destination v2 long-scroll).
+
+**Reste avant/après deploy :** (1) merge FF `turquie-episode → main` = GO LIVE (Martin approuve). (2) passe
+iPhone Safari de Martin (le rendu scrollytelling n'a PAS été vu à l'écran — voir Dette §4). (3) optionnel :
+purge des 82 vieux slots v2 jaune orphelins (non bloquant ; attention, le carnet réfère encore des slots v2
+via images de POI/dishes/gems — purger seulement les VRAIS orphelins).
+
+---
+
+## Statut (en cours de session) — LE GROS CHUNK EST FAIT (contenu), PAS DÉPLOYÉ
 
 Conversion Turquie v2 → épisode, **phase contenu**. Décision de session (Martin) : **#1 contenu d'abord,
 images après ; zéro raccourci ; arrêter après le gros chunk.** Quota frais.
