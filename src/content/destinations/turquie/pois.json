@@ -72,10 +72,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Boutique Hotels Guru",
+        "url": "https://istanbul.boutiquehotels.guru/karakoy-rooms-istanbul/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Karakoy Rooms (hôtel)",
+        "url": "https://karakoy-rooms.hotel-istanbul.net/en/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "georges-hotel-galata",
@@ -149,10 +163,29 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Katie Parla",
+        "url": "https://katieparla.com/ciya-sofrasi/",
+        "date": "2009-03"
+      },
+      {
+        "creator": "World's 50 Best",
+        "url": "https://www.theworlds50best.com/discovery/Establishments/T%C3%BCrkiye/Istanbul/%C3%87iya-Sofras%C4%B1.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Will Fly for Food",
+        "url": "https://www.willflyforfood.net/ciya-sofrasi-quite-possibly-the-best-restaurant-in-istanbul-turkey/",
+        "date": "2024-05"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "asmal-cavit",
@@ -187,10 +220,29 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Katie Parla",
+        "url": "https://katieparla.com/asmali-cavit-a-meyhane-in-beyoglu/",
+        "date": "2011-02"
+      },
+      {
+        "creator": "Culinary Backstreets",
+        "url": "https://culinarybackstreets.com/cities-category/istanbul/2012/asmali-cavit/",
+        "date": "2012-01"
+      },
+      {
+        "creator": "Foursquare",
+        "url": "https://foursquare.com/v/asmal%C4%B1-cavit/4b5f4ac9f964a52052b229e3",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "furreyya-galata-balkcs",
@@ -200,9 +252,9 @@
     "roles": [
       "eat"
     ],
-    "name": "Furreyya Galata Balıkçısı",
-    "blurb": "Comptoir de six tabourets, rue Serdar-ı Ekrem, Galata. Pêche du jour au tableau, hamsi dürüm et balık ekmek gourmet. L'alternative au sandwich sous le pont. 8–12 €/pers.",
-    "signature": "",
+    "name": "Balık ekmek — barques d’Eminönü",
+    "blurb": "Le sandwich de maquereau grillé d’Istanbul dans sa version brute : des barques qui grillent le poisson à la minute au pied du pont de Galata, côté Eminönü. (La petite Furreyya de Galata a fermé.)",
+    "signature": "Balık ekmek (maquereau grillé), 50-80 TL",
     "image": null,
     "price": {
       "range": "",
@@ -210,25 +262,39 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 41.0259,
-      "lng": 28.9735,
-      "source": "maps-v1",
-      "verifiedOn": "2026-06-12"
+      "lat": 41.0183562,
+      "lng": 28.9712101,
+      "source": "Nominatim / OpenStreetMap",
+      "verifiedOn": "2026-06-16"
     },
     "links": {
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Furreyya+Galata+Balikcisi+Istanbul"
+      "maps": "https://www.google.com/maps/search/Tarihi+Eminönü+Balık+Ekmek+Istanbul"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Yelp",
+        "url": "https://www.yelp.com/biz/f%C3%BCrreyya-galata-bal%C4%B1k%C3%A7%C4%B1s%C4%B1-istanbul",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Foursquare",
+        "url": "https://tr.foursquare.com/v/f%C3%BCreyya-galata-bal%C4%B1k%C3%A7%C4%B1s%C4%B1/4c753a012db5236a9255bc79",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "neolokal-salt-galata",
@@ -263,10 +329,29 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Neolokal (site officiel)",
+        "url": "https://www.neolokal.com/en/neolokal_en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Michelin Guide",
+        "url": "https://guide.michelin.com/us/en/istanbul-province/istanbul/restaurant/neolokal",
+        "date": "2026-06"
+      },
+      {
+        "creator": "World's 50 Best",
+        "url": "https://www.theworlds50best.com/discovery/Establishments/T%C3%BCrkiye/Istanbul/Neolokal.html",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "vefa-bozacs-1876",
@@ -301,10 +386,29 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Better Istanbul",
+        "url": "https://betteristanbul.com/vefa-bozacisi/",
+        "date": "2025-04"
+      },
+      {
+        "creator": "ExcursionMania",
+        "url": "https://excursionmania.com/ttd/3721/vefa-bozacisi-blg-3721",
+        "date": "2026-03"
+      },
+      {
+        "creator": "Istanbul Food",
+        "url": "https://istanbulfood.com/vefa-bozacisi-istanbul/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "sampiyon-kokorec",
@@ -529,10 +633,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "The Wom Travel",
+        "url": "https://www.thewomtravel.fr/turquie/istanbul/guide-balat-istanbul.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Go Türkiye (officiel)",
+        "url": "https://istanbul.goturkiye.com/fr/fener-and-balat-neighbourhoods",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "marche-poissons-kadkoy",
@@ -567,10 +685,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Museum Pass Istanbul",
+        "url": "https://fr.museumpass.istanbul/kadikoy-fish-market-in-istanbul/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Istanbul.com",
+        "url": "https://istanbul.com/fr/city-life/fish-market-in-istanbul",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "ferry-bosphore-eminonu",
@@ -605,10 +737,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Istanbul Clues",
+        "url": "https://istanbulclues.com/istanbul-bosphorus-cruise-tours/",
+        "date": "2026-04"
+      },
+      {
+        "creator": "Şehir Hatları (officiel)",
+        "url": "https://sehirhatlari.istanbul/en/timetables/domestic-trips/bosphorus-lines/anadolu-kavagi-uskudar-172",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "kuzguncuk-rive-asiatique",
@@ -695,8 +841,8 @@
       "sleep"
     ],
     "tier": "budget",
-    "name": "Hanımağa Konağı Cave Hotel",
-    "blurb": "Maison ottomane restaurée dans la vieille ville d'Ürgüp (quartier Esbelli). Chambres creusées dans le tuf avec arches en pierre. Le proprio Mehmet est un ancien guide — source d'or pour les coins hors circuit.",
+    "name": "Dedeli Konak Cave Hotel (Ürgüp)",
+    "blurb": "Cave hotel dans une maison ottomane de 400 ans à Ürgüp, chambres taillées dans le tuf — confortable et douillet, température régulée par la roche, centre à pied. (Remplace un hébergement du carnet v2 non vérifiable.)",
     "signature": "",
     "image": "accom-4",
     "price": {
@@ -705,25 +851,39 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 38.6322,
-      "lng": 34.9128,
-      "source": "maps-v1",
-      "verifiedOn": "2026-06-12"
+      "lat": 38.628718,
+      "lng": 34.9068882,
+      "source": "Nominatim / OpenStreetMap",
+      "verifiedOn": "2026-06-16"
     },
     "links": {
       "official": "https://www.hanimagacavehotel.com/",
       "booking": "https://www.booking.com/hotel/tr/hanimaga-konagi.html",
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Hanimaga+Cave+Hotel+Urgup+Cappadocia"
+      "maps": "https://www.google.com/maps/search/Dedeli+Konak+Cave+Hotel+Urgup"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Dedeli Konak Cave Hotel (site officiel)",
+        "url": "https://dedelikonak.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Dedeli Konak Cave Hotel Ürgüp",
+        "url": "https://www.tripadvisor.com/Hotel_Review-g297989-d1210560-Reviews-or50-Dedeli_Konak_Cave_Hotel-Urgup_Cappadocia.html",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "kayakapi-premium-caves",
@@ -836,10 +996,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Ziggy's Shoppe & Cafe",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g297989-d1124232-Reviews-Ziggy_s_Shoppe_Cafe-Urgup_Cappadocia.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Turkey Travel Planner — Ziggy Café",
+        "url": "https://turkeytravelplanner.com/go/CentralAnatolia/Cappadocia/urgup/rests/ziggys.html",
+        "date": "2022-08"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "dibek-goreme-475-ans",
@@ -874,10 +1048,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Dibek Traditional Cook (site officiel)",
+        "url": "https://www.dibektraditionalcook.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — Dibek Göreme",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g297983-d1099947-Reviews-Dibek-Goreme_Cappadocia.html",
+        "date": "2025-11"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "seten-restaurant-goreme",
@@ -925,8 +1113,8 @@
     "roles": [
       "eat"
     ],
-    "name": "Muti Restaurant (Ürgüp)",
-    "blurb": "Ürgüp. Cave voûtée, carte concentrée sur les cépages indigènes d'Anatolie centrale (Emir, Narince, Öküzgözü, Boğazkere). Sommelier Emre fait des verticales sur demande. 40–55 €/pers avec dégustation.",
+    "name": "Muti Restaurant (Ortahisar)",
+    "blurb": "Carte de vins d’Anatolie centrale (Emir, Öküzgözü, Boğazkere) dans un cadre de pierre. Le restaurant a quitté Ürgüp pour The House Hotel Cappadocia à Ortahisar (~15 min).",
     "signature": "",
     "image": null,
     "price": {
@@ -935,25 +1123,39 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 38.6305,
-      "lng": 34.9121,
-      "source": "maps-v1",
-      "verifiedOn": "2026-06-12"
+      "lat": 38.6280318,
+      "lng": 34.8640307,
+      "source": "Nominatim / OpenStreetMap",
+      "verifiedOn": "2026-06-16"
     },
     "links": {
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Muti+Restaurant+Urgup"
+      "maps": "https://www.google.com/maps/search/Muti+Restaurant+Ortahisar+Cappadocia"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turkey Travel Planner — Muti Restaurant (déménagement confirmé)",
+        "url": "https://turkeytravelplanner.com/go/CentralAnatolia/Cappadocia/urgup/rests/muti_restaurant.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Travel To Eat — Muti by Prokopia Ürgüp",
+        "url": "https://traveltoeat.com/muti-by-prokopia-restaurant-urgup-cappadocia-turkey/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "cafe-fat-boys-urgup",
@@ -1026,10 +1228,29 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Royal Balloon (site officiel)",
+        "url": "https://royalballoon.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Above Cappadocia — Meilleure saison montgolfière",
+        "url": "https://abovecappadocia.com/blog/best-time-for-cappadocia-balloon-ride",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Cappadocia Balloons Turkey — Prix 2026",
+        "url": "https://www.cappadociaballoonsturkey.com/cappadocia-balloon-prices/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "goreme-open-air-museum",
@@ -1102,10 +1323,29 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Visit Cappadocia — Red and Rose Valley Hike Guide",
+        "url": "https://visitcappadocia.net/en/blog/red-and-rose-valley-hike-complete-trail-guide",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Adventurous Miriam — Red Valley Cappadocia",
+        "url": "https://adventurousmiriam.com/red-valley-cappadocia/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Journey Era — Rose Valley Hike Cappadocia",
+        "url": "https://www.journeyera.com/rose-valley-hike-cappadocia/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "kzlcukur-viewpoint-red-valley",
@@ -1254,10 +1494,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Cappadocia Page — Turasan Wine House",
+        "url": "https://www.cappadociapage.com/en/turasan-wine-house-factory/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Lonely Planet — Turasan Winery",
+        "url": "https://www.lonelyplanet.com/turkey/cappadocia-kapadokya/urgup/attractions/turasan-winery/a/poi-sig/474806/360877",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "kocabag-winery",
@@ -1267,8 +1521,8 @@
     "roles": [
       "see"
     ],
-    "name": "Kocabağ Winery",
-    "blurb": "",
+    "name": "Kocabağ Winery (Uçhisar)",
+    "blurb": "Cave creusée à la main dans le tuf volcanique en 1972, à Uçhisar (pas Ürgüp). Cépages indigènes — Emir blanc minéral, Öküzgözü rouge tannique — sur terroir volcanique cappadocien.",
     "signature": "",
     "image": null,
     "price": {
@@ -1277,25 +1531,44 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 38.6288,
-      "lng": 34.9001,
-      "source": "maps-v1",
-      "verifiedOn": "2026-06-12"
+      "lat": 38.6293826,
+      "lng": 34.8046138,
+      "source": "Nominatim / OpenStreetMap",
+      "verifiedOn": "2026-06-16"
     },
     "links": {
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Kocabag+Winery+Urgup"
+      "maps": "https://www.google.com/maps/search/Kocabag+Winery+Uchisar"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "TripAdvisor — Kocabag Winery Uçhisar",
+        "url": "https://www.tripadvisor.com/Attraction_Review-g297988-d3613845-Reviews-Kocabag_Winery-Uchisar_Nevsehir_Province_Cappadocia.html",
+        "date": "2026-02"
+      },
+      {
+        "creator": "Turkey Travel Planner — Kocabağ Wines",
+        "url": "https://turkeytravelplanner.com/wine/kocabag.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wine Memories — Kocabağ Cave Tasting",
+        "url": "https://www.winememories.fi/venues/kocabag-winery-cave-tasting-tr",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "soganl-valley-jumelle-vide",
@@ -1368,10 +1641,29 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Michelin Guide Türkiye — Old Greek House",
+        "url": "https://guide.michelin.com/en/nevsehir/urgup_2827493/restaurant/old-greek-house",
+        "date": "2025-12"
+      },
+      {
+        "creator": "TripAdvisor — Old Greek House Restaurant & Hotel",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g635898-d1574015-Reviews-Old_Greek_House_Restaurant_and_Hotel-Mustafapasa_Urgup_Cappadocia.html",
+        "date": "2026-01"
+      },
+      {
+        "creator": "Old Greek House (site officiel)",
+        "url": "https://www.oldgreekhouse.com/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "hideaway-hotel-kas",
@@ -1407,10 +1699,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Hideaway Hotel (site officiel)",
+        "url": "https://www.hotelhideaway.com/en/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Booking.com",
+        "url": "https://www.booking.com/hotel/tr/hideaway.html",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "gardenia-hotel-kas",
@@ -1498,9 +1804,9 @@
     "roles": [
       "eat"
     ],
-    "name": "Bi Lokma (Küçük Çakıl)",
-    "blurb": "Küçük Çakıl, front de mer Est. Tables sur la jetée, le poisson arrive du bateau le matin. Daurade royale grillée au sel, salade roquette-grenade, rakı. 25–35 €/pers. Y aller 19h pour la lumière dorée sur les filets.",
-    "signature": "",
+    "name": "Bi Lokma (Andifli)",
+    "blurb": "Terrasse-jardin en hauteur dans le quartier Andifli (pas sur la jetée), cuisine de mère de famille : mezze faits main, poisson du jour, vue sur la baie de Kaş et Kastellorizo.",
+    "signature": "Mezze maison, vue baie",
     "image": null,
     "price": {
       "range": "",
@@ -1508,25 +1814,39 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 36.1974,
-      "lng": 29.6425,
-      "source": "maps-v1",
-      "verifiedOn": "2026-06-12"
+      "lat": 36.2020481,
+      "lng": 29.6369502,
+      "source": "Nominatim / OpenStreetMap",
+      "verifiedOn": "2026-06-16"
     },
     "links": {
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Bi+Lokma+Kas+Turkey"
+      "maps": "https://www.google.com/maps/search/Bi+Lokma+Kas"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Bi'Lokma Restaurant (site officiel)",
+        "url": "https://www.bilokma.com.tr/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Kaş Gezi Rehberi",
+        "url": "https://www.kasgezirehberi.com/en/nm-Bi_Lokma_Mama_s_Kitchen-cp-834",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "mercan-restaurant-1956",
@@ -1537,8 +1857,8 @@
       "eat"
     ],
     "name": "Mercan Restaurant (1956)",
-    "blurb": "Port côté ouest. Institution familiale depuis 1956, nappes blanches, vieux serveurs en veste. Meze chaud, loup de mer en croûte de sel. 40–55 €/pers. Le plus ancien du port.",
-    "signature": "",
+    "blurb": "Institution familiale depuis 1956, 3e génération — Mustafa Eriş nettoie le poisson devant toi. Spécialité : le lagos buğulama (loup de mer mijoté 45 min). A quitté le port pour l’entrée de Kaş (Andifli).",
+    "signature": "Lagos buğulama",
     "image": null,
     "price": {
       "range": "",
@@ -1546,25 +1866,39 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 36.1982,
-      "lng": 29.6395,
-      "source": "maps-v1",
-      "verifiedOn": "2026-06-12"
+      "lat": 36.1986669,
+      "lng": 29.6419305,
+      "source": "Nominatim / OpenStreetMap",
+      "verifiedOn": "2026-06-16"
     },
     "links": {
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Mercan+Restaurant+Kas+harbor"
+      "maps": "https://www.google.com/maps/search/Mercan+Restaurant+Kas"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Nerde Yiyelim",
+        "url": "https://nerdeyiyelim.com/mekan/62/mercan-et-balik-restaurant/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "mySea Nautical Guide",
+        "url": "https://my-sea.com/en/poi/turkey/fethiye-to-antalya/ka/mercan-restaurant/b34c5144-d772-44e6-aabb-962faef2513d",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "ikbal-meyhane",
@@ -1574,9 +1908,9 @@
     "roles": [
       "eat"
     ],
-    "name": "İkbal Meyhane",
-    "blurb": "Vieille ville, ruelle derrière le bazar. Meyhane authentique, tables basses, musique turque live le jeudi. Plateau de 15 mezze (haydari, patlıcan, lakerda, şakşuka), pieuvre grillée. 20–30 €/pers avec carafe de rakı.",
-    "signature": "",
+    "name": "Beyhude Meyhane (Kaş)",
+    "blurb": "Pour la soirée meyhane à Kaş — rakı en carafe, plateau de mezze qui défile, poisson frais et souvent musique live. L’ancien İkbal a fermé ; Beyhude (ou Salkım Ocakbaşı) a pris le relais.",
+    "signature": "Mezze + rakı, musique live",
     "image": null,
     "price": {
       "range": "",
@@ -1593,16 +1927,25 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Ikbal+Meyhane+Kas"
+      "maps": "https://www.google.com/maps/search/Beyhude+Meyhane+Kas"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "RestaurantGuru",
+        "url": "https://restaurantguru.com/Kas-Kale-Kas",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "koyum-gozleme-evi-bezirgan",
@@ -1612,9 +1955,9 @@
     "roles": [
       "eat"
     ],
-    "name": "Köyüm Gözleme Evi (Bezirgan)",
-    "blurb": "Village à 25 min au nord (altitude 850 m). Petit-déj paysan sur tapis, 20 composantes : fromages de chèvre frais, beurre baratté, miel de sapin, confitures maison, menemen, gözleme aux herbes sauvages. 12–18 €/pers. Maps",
-    "signature": "",
+    "name": "Pello Kalkan (Bezirgan)",
+    "blurb": "Le petit-déjeuner paysan de montagne au village de Bezirgan (~700 m) : fromages régionaux, bazlama et pişi chauds, confitures maison, olives du jardin, tahin-pekmez, vue sur la vallée. (Le « Köyüm Gözleme » du carnet v2 n’existe pas ici.)",
+    "signature": "Petit-déjeuner villageois",
     "image": null,
     "price": {
       "range": "",
@@ -1631,16 +1974,30 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://www.google.com/maps/search/Bezirgan+village+koy+kahvaltisi"
+      "maps": "https://www.google.com/maps/search/Pello+Kalkan+Bezirgan"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Pello Kalkan Cafe & Breakfast (site officiel)",
+        "url": "https://pellokalkan.com/menu/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Wanderlog (confirme Köyüm Gözleme Evi = Adıyaman, fermé)",
+        "url": "https://wanderlog.com/place/details/10896494/k%C3%B6y%C3%BCm-g%C3%B6zleme-evi--kahvalti-salonu",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "kaputas-beach",
@@ -1675,10 +2032,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Antalya Tourist Information",
+        "url": "https://antalyatouristinformation.com/things-to-do/beach/kaputas/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Villa Tatilinde Blog",
+        "url": "https://villatatilinde.com/blog/kaputas-plaji-rehberi-giris-ucreti-ve-ulasim",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "limanagz-crique",
@@ -1713,10 +2084,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turkey's For Life (blog voyage, visite août 2025)",
+        "url": "https://www.turkeysforlife.com/2025/08/limanagzi-bay-kas-beaches.html",
+        "date": "2025-08"
+      },
+      {
+        "creator": "Ada Yacht Sailing",
+        "url": "https://www.adayachtsailing.com/en/blog/where-is-kas-limanagzi-bay-and-how-to-get-there",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "mavi-magara-grotte-bleue",
@@ -1789,10 +2174,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "PADI Dive Center Locator (officiel)",
+        "url": "https://www.padi.com/dive-center/turkey/dragoman-dive-center/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Dragoman Diving and Outdoors (site officiel, page principale)",
+        "url": "https://dragoman-turkey.com/",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "kekova-simena-cite-engloutie",
@@ -1827,10 +2226,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Vigo Tours",
+        "url": "https://vigotours.com/kas-turkey/boat-trip-along-the-sunken-city-and-kekova-island",
+        "date": "2026-06"
+      },
+      {
+        "creator": "BoatTripTurkey",
+        "url": "https://www.boattripturkey.com/kekova-boat-tour",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "patara-ruines-plage-antique",
@@ -2070,7 +2483,7 @@
     ],
     "tier": "budget",
     "name": "Villa Rhapsody (Kayaköy)",
-    "blurb": "Pension tenue par une famille anglo-turque depuis 20+ ans, piscine, vue sur les ruines du village grec. Base parfaite pour shooter le ghost village à l'aube avant les bus. ~50–65 €/nuit B&B.",
+    "blurb": "Pension (pas une villa) tenue par Atilla et Jeanne à Kayaköy — confortable et douillet, piscine, table avec les produits du marché, à 10 min des ruines.",
     "signature": "",
     "image": "accom-10",
     "price": {
@@ -2094,10 +2507,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Booking.com — Villa Rhapsody Pension",
+        "url": "https://www.booking.com/hotel/tr/villa-rhapsody.html",
+        "date": "2026-06"
+      },
+      {
+        "creator": "GoTurkishRiviera — Villa Rhapsody Pension",
+        "url": "https://villa-rhapsody-pension.goturkishriviera.com/en/",
+        "date": "2025-12"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "yonca-lodge-kayakoy",
@@ -2185,8 +2612,8 @@
     "roles": [
       "eat"
     ],
-    "name": "Fethiye Fish Market (Mavi/Cem/Rafet)",
-    "blurb": "Balık Pazarı, Paspatur. Concept unique : tu achètes ton poisson (levrek, çupra, kalkan) aux poissonniers au centre, un des huit restos autour le grille pour toi contre 4-6 € de service (mezze, salade, pain). Total 12-22 € selon poisson. Maps",
+    "name": "Fethiye Fish Market (Balık Pazarı)",
+    "blurb": "Le cercle de poissonniers où l’on choisit son poisson (levrek, çupra) qu’un des restos autour grille pour un petit droit de cuisson. Demander le prix au kilo avant de s’asseoir.",
     "signature": "",
     "image": null,
     "price": {
@@ -2204,16 +2631,35 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://maps.google.com/maps?q=Fethiye+Fish+Market+Balik+Pazari"
+      "maps": "https://www.google.com/maps/search/Fethiye+Balik+Pazari"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "SmartFethiye",
+        "url": "https://www.smartfethiye.com/discover/fethiye-fish-market",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Four Jandals (firsthand account)",
+        "url": "https://www.fourjandals.com/europe/seafood-fethiye-fish-market-restaurant/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Wanderlog / Google Maps aggregate",
+        "url": "https://wanderlog.com/place/details/571368/fethiye-fish-market-bal%C4%B1k-pazar%C4%B1",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "cin-bal-kayakoy",
@@ -2248,10 +2694,29 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Cin Bal official site",
+        "url": "https://cinbal.com/kayakoy-et-mangal-firsatlari/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "Living the Turkish Dream (firsthand visit)",
+        "url": "https://livingtheturkishdream.com/2017/02/27/cin-bal-restaurant-kayakoy/",
+        "date": "2017-02"
+      },
+      {
+        "creator": "TripAdvisor — Cin Bal Kebab Restaurant",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g635670-d3373798-Reviews-Cin_Bal_Kebab_Restaurant-Kayakoy_Fethiye_Mugla_Province_Turkish_Aegean_Coast.html",
+        "date": "2025-08"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "reis-restaurant-paspatur",
@@ -2261,9 +2726,9 @@
     "roles": [
       "eat"
     ],
-    "name": "Reis Restaurant (Paspatur)",
-    "blurb": "Ruelles piétonnes derrière le fish market. Meyhane classique, tables dehors sous les vignes, mezze froids (haydari, acılı ezme, muhammara, fava), poulpe grillé, calamars. Musique turque live certains soirs. 15-25 €/pers avec rakı. Maps",
-    "signature": "",
+    "name": "Meğri Restaurant (Paspatur)",
+    "blurb": "Le meyhane classique de la vieille Fethiye, fondé en 1989 : mezze froids généreux, rakı, poisson, sous les vignes de Paspatur. (Le « Reis » du carnet v2 ne se vérifie pas ; Meğri est la valeur sûre.)",
+    "signature": "Meyhane, mezze + rakı",
     "image": null,
     "price": {
       "range": "",
@@ -2271,25 +2736,39 @@
       "asOf": "2026-06"
     },
     "coords": {
-      "lat": 36.624,
-      "lng": 29.1165,
-      "source": "maps-v1",
-      "verifiedOn": "2026-06-12"
+      "lat": 36.62086,
+      "lng": 29.1090453,
+      "source": "Nominatim / OpenStreetMap",
+      "verifiedOn": "2026-06-16"
     },
     "links": {
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://maps.google.com/maps?q=Reis+Restaurant+Paspatur+Fethiye"
+      "maps": "https://www.google.com/maps/search/Megri+Restaurant+Fethiye"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Turkeys for Life — guide Paspatur juin 2025",
+        "url": "https://www.turkeysforlife.com/2025/06/fethiye-old-town-paspatur.html",
+        "date": "2025-06"
+      },
+      {
+        "creator": "TripAdvisor — Reis Restaurant & Cafe (non-Paspatur)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g298031-d15355975-Reviews-Reis_Restaurant_Cafe-Fethiye_Mugla_Province_Turkish_Aegean_Coast.html",
+        "date": "2025-09"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "levissi-garden",
@@ -2299,8 +2778,8 @@
     "roles": [
       "eat"
     ],
-    "name": "Levissi Garden",
-    "blurb": "Resto-jardin avec potager qui fournit la cuisine. Tables sous les grenadiers et figuiers, mezze saisonniers, agneau au four, poisson à la braise. Très photogénique fin de journée. 18-30 €/pers. Maps",
+    "name": "Lebessos (ex-Levissi Garden)",
+    "blurb": "Bâtiment ottoman de 400 ans reconverti en restaurant-cave à vin (une des plus grandes du sud), sur la route Kayaköy-Ölüdeniz. Repas lent sous les ruines grecques.",
     "signature": "",
     "image": null,
     "price": {
@@ -2318,16 +2797,30 @@
       "official": null,
       "booking": null,
       "tripadvisor": null,
-      "maps": "https://maps.google.com/maps?q=Levissi+Garden+Kayakoy"
+      "maps": "https://www.google.com/maps/search/Lebessos+Kayakoy"
     },
     "extraLinks": [],
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Lebessos — site officiel",
+        "url": "https://www.lebessos.com/",
+        "date": "2026-06"
+      },
+      {
+        "creator": "TripAdvisor — The Lebessos Wine (avis)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g635670-d1100942-Reviews-The_Lebessos_Wine-Kayakoy_Mugla_Province_Turkish_Aegean_Coast.html",
+        "date": "2025-07"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "kayakoy-ghost-village",
@@ -2362,10 +2855,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Fethiye Tours — guide 2026",
+        "url": "https://www.fethiyetours.com/best-of-fethiye/kayakoy-ghost-town/",
+        "date": "2026-01"
+      },
+      {
+        "creator": "The Turkey Traveler",
+        "url": "https://theturkeytraveler.com/kayakoy-ghost-village/",
+        "date": "2025-03"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "butterfly-valley",
@@ -2400,10 +2907,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Visiting Turkey (mis à jour 2026-03)",
+        "url": "https://visitingturkey.com/destinations/fethiye/butterfly-valley",
+        "date": "2026-03"
+      },
+      {
+        "creator": "Your Tour Key — guide 2025",
+        "url": "https://yourtourkey.com/butterfly-valley-fethiye-travel-guide/",
+        "date": "2025-01"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "oludeniz-blue-lagoon",
@@ -2476,10 +2997,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Avalon at Kabak Beach — site officiel",
+        "url": "https://kabakbeach.com/",
+        "date": "2025-12"
+      },
+      {
+        "creator": "SmartFethiye — Kabak Bay",
+        "url": "https://www.smartfethiye.com/discover/kabak-bay",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "fethiye-marina-gulet-12-iles",
@@ -2704,10 +3239,24 @@
     "seasonal": false,
     "status": {
       "open": true,
-      "lastChecked": "2026-06-12",
-      "method": "migration-v1"
+      "lastChecked": "2026-06-16",
+      "method": "recherche web sourcée + Nominatim 2026-06"
     },
-    "onMap": true
+    "onMap": true,
+    "sources": [
+      {
+        "creator": "Travel to Fethiye",
+        "url": "https://www.traveltofethiye.co.uk/explore/excursions-and-guided-tours/fethiye-market/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "SmartFethiye",
+        "url": "https://www.smartfethiye.com/discover/fethiye-fish-market",
+        "date": "2026-06"
+      }
+    ],
+    "approvedBy": "human",
+    "verifiedAt": "2026-06-16"
   },
   {
     "id": "aeroport-dalaman-dlm",

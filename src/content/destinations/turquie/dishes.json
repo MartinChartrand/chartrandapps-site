@@ -4,20 +4,22 @@
     "group": "Incontournables foodie — Istanbul",
     "title": "Menemen + simit au petit-déjeuner",
     "body": "Œufs brouillés aux tomates, poivrons verts et souvent sucuk, à la poêle, pain frais. Le petit-déj stambouliote par excellence. Accompagner d'un simit acheté 3–5 TL à une charrette de rue.",
-    "image": "foodie-1"
+    "image": "foodie-1",
+    "base": "istanbul"
   },
   {
     "id": "boza-chez-vefa-bozacs-1876",
     "group": "Incontournables foodie — Istanbul",
     "title": "Boza chez Vefa Bozacısı (1876)",
-    "body": "Boisson fermentée au millet, épaisse, servie avec cannelle et leblebi (pois chiches torréfiés). La boutique d'origine n'a pas changé en 150 ans — verre en zinc d'époque, trois tables. Localiser",
+    "body": "Boisson épaisse de millet fermenté, servie avec cannelle et leblebi (pois chiches torréfiés) — mais SEULEMENT d’octobre à avril. En été (notre saison), Vefa sert le şıra, jus de raisin doux. La boutique d’origine (1876) n’a pas changé en 150 ans : verre en zinc d’époque, trois tables.",
     "links": [
       {
         "label": "Localiser",
         "url": "https://www.google.com/maps/search/Vefa+Bozacisi+Istanbul"
       }
     ],
-    "image": "foodie-2"
+    "image": "foodie-2",
+    "base": "istanbul"
   },
   {
     "id": "kokorec-chez-sampiyon-depuis-1977",
@@ -30,14 +32,16 @@
         "url": "https://www.google.com/maps/search/Sampiyon+Kokorec+Beyoglu+Istanbul"
       }
     ],
-    "image": "foodie-3"
+    "image": "foodie-3",
+    "base": "istanbul"
   },
   {
     "id": "midye-dolma-balk-ekmek",
     "group": "Incontournables foodie — Istanbul",
     "title": "Midye dolma + balık ekmek",
     "body": "Moules farcies au riz épicé citronné, vendues à l'unité par les vendeurs ambulants de Beyoğlu — acheter seulement chez un vendeur avec file d'attente. Balık ekmek (sandwich maquereau grillé) chez Furreyya plutôt que sous le pont de Galata.",
-    "image": "foodie-4"
+    "image": "foodie-4",
+    "base": "istanbul"
   },
   {
     "id": "kunefe-et-salep",
@@ -50,90 +54,103 @@
         "url": "https://www.google.com/maps/search/Hafiz+Mustafa+Istanbul"
       }
     ],
-    "image": "foodie-5"
+    "image": "foodie-5",
+    "base": "istanbul"
   },
   {
     "id": "testi-kebab-le-plat-cappadocien",
     "group": "Incontournables foodie — Cappadoce",
     "title": "Testi kebab — LE plat cappadocien",
     "body": "Agneau ou bœuf mijoté 4 à 6 heures avec tomates, oignons, ail, poivrons, dans un pot d'argile scellé à la pâte, cuit au four à bois. Le serveur casse le pot à table d'un coup de marteau. À commander 4h à l'avance chez Dibek.",
-    "image": "foodie-6"
+    "image": "foodie-6",
+    "base": "cappadoce"
   },
   {
     "id": "mant-les-raviolis-turcs",
     "group": "Incontournables foodie — Cappadoce",
     "title": "Mantı — les raviolis turcs",
     "body": "Version anatolienne centrale plus épicée qu'à Istanbul. Minuscules raviolis (idéalement 40 par cuillère) farcis à l'agneau haché, servis avec yaourt à l'ail, beurre fondu, sumac, paprika doux.",
-    "image": "foodie-7"
+    "image": "foodie-7",
+    "base": "cappadoce"
   },
   {
     "id": "vins-danatolie-centrale",
     "group": "Incontournables foodie — Cappadoce",
     "title": "Vins d'Anatolie centrale",
     "body": "Terroir volcanique unique à 1000–1200 m, cépages indigènes : Emir (blanc minéral, type riesling sec alsacien), Narince (blanc rond, miel-poire), Öküzgözü (rouge fruit rouge tendu), Boğazkere (rouge tannique, vieillissement).",
-    "image": "foodie-8"
+    "image": "foodie-8",
+    "base": "cappadoce"
   },
   {
     "id": "dutlu-pekmez-et-kaymak",
     "group": "Incontournables foodie — Cappadoce",
     "title": "Dutlu pekmez et kaymak",
     "body": "Mélasse de mûres noires réduite lentement, sans sucre ajouté, étalée sur le pain au petit-déj avec kaymak (crème de bufflonne) et tahin. Tradition des villages d'Ürgüp — acheter aux grand-mères en bord de route, pas dans les boutiques touristiques.",
-    "image": "foodie-5"
+    "image": "foodie-5",
+    "base": "cappadoce"
   },
   {
     "id": "meze-dantalya",
     "group": "Incontournables foodie — Kaş & côte Lycienne",
     "title": "Meze d'Antalya",
     "body": "Haydari (yogourt-ail-menthe), piyaz (haricots blancs-tahini-sumac — spécifique à Antalya), sigara böreği, ezme. Le plateau de référence à commander chez İkbal Meyhane, avec rakı et une soirée qui dure.",
-    "image": "foodie-8"
+    "image": "foodie-8",
+    "base": "kas"
   },
   {
     "id": "cig-kofte-au-bazar",
     "group": "Incontournables foodie — Kaş & côte Lycienne",
     "title": "Çiğ köfte au bazar",
     "body": "Boulettes crues de boulgour, piment, tomate, épices (jadis faites au bœuf cru, aujourd'hui végétariennes par loi). Roulées dans une feuille de laitue avec citron et grenade. Street stand Çiğköfteci Ali Usta dans la rue du bazar, 2-4 €.",
-    "image": "foodie-3"
+    "image": "foodie-3",
+    "base": "kas"
   },
   {
     "id": "nar-suyu-jus-de-grenade",
     "group": "Incontournables foodie — Kaş & côte Lycienne",
     "title": "Nar suyu — jus de grenade",
     "body": "Pressé minute au street stand, 2-3 € le verre, couleur rubis. Septembre-octobre = pleine saison. Le meilleur jus de grenade de ta vie. À boire tous les matins jusqu'au départ.",
-    "image": "foodie-12"
+    "image": "foodie-12",
+    "base": "kas"
   },
   {
     "id": "balk-ekmek-sur-le-port",
     "group": "Incontournables foodie — Kaş & côte Lycienne",
     "title": "Balık ekmek sur le port",
     "body": "Sandwich sardine ou maquereau grillé, oignons-sumac-citron, pain frais. Vendeurs sur le port de Kaş à midi, 4-6 €. Version locale moins touristique qu'à Istanbul, tout aussi bonne.",
-    "image": "foodie-4"
+    "image": "foodie-4",
+    "base": "kas"
   },
   {
     "id": "tahin-pekmez-la-specialite-de-fethiye",
     "group": "Incontournables foodie — Fethiye",
     "title": "Tahin pekmez — LA spécialité de Fethiye",
     "body": "Purée de sésame + mélasse de raisin, mangée au petit-déj sur pain frais. Acheter chez un tahinci artisanal du bazar Paspatur (pas en supermarché), 6-9 € le pot. À ramener à la maison.",
-    "image": "foodie-5"
+    "image": "foodie-5",
+    "base": "fethiye"
   },
   {
     "id": "seafood-grille-au-fish-market",
     "group": "Incontournables foodie — Fethiye",
     "title": "Seafood grillé au fish market",
     "body": "Levrek (bar), çupra (dorade), kalkan (turbot) choisis vivants, grillés à la braise, servis avec roka (roquette), citron, huile d'olive locale. Concept unique en Turquie — le cercle de poissonniers encadré par huit restos qui cuisinent.",
-    "image": "foodie-4"
+    "image": "foodie-4",
+    "base": "fethiye"
   },
   {
     "id": "mant-seches-a-rapporter",
     "group": "Incontournables foodie — Fethiye",
     "title": "Mantı séchés à rapporter",
     "body": "Raviolis turcs miniatures en sachets séchés, vendus par les femmes du bazar Paspatur. Se cuisinent en 5 min à la maison avec yaourt à l'ail, beurre fondu, paprika et sumac. Le meilleur souvenir gastronomique du voyage.",
-    "image": "foodie-16"
+    "image": "foodie-16",
+    "base": "fethiye"
   },
   {
     "id": "cig-kofte-au-bazar-2",
     "group": "Incontournables foodie — Fethiye",
     "title": "Çiğ köfte au bazar",
     "body": "Boulettes de boulgour, piment, tomate, épices (version végé par loi). Enveloppées dans feuille de laitue avec citron et grenade. Street food au bazar Paspatur, 60-120 TRY (2-4 €).",
-    "image": "foodie-3"
+    "image": "foodie-3",
+    "base": "fethiye"
   }
 ]
