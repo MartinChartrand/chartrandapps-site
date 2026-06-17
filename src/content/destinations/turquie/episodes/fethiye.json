@@ -7,7 +7,7 @@
       "zoom": 12,
       "targets": ["fethiye-fish-market-mavicemrafet", "kayakoy-ghost-village"],
       "thumb": "feth-cote-pins",
-      "thumbAlt": "La côte turquoise autour de Fethiye : des baies découpées, des pins qui descendent vers une mer bleu profond, quelques gulets au mouillage, sous une lumière chaude de fin de journée.",
+      "thumbAlt": "Une côte égéenne turque : une baie bleu profond, des collines découpées, une pointe rocheuse couverte de pins au premier plan.",
       "poiRef": "kayakoy-ghost-village",
       "sources": [
         { "creator": "Fethiye Tours — Kayaköy ghost town", "url": "https://www.fethiyetours.com/best-of-fethiye/kayakoy-ghost-town/", "date": "2026-01" }
@@ -20,7 +20,7 @@
       "zoom": 12,
       "targets": ["kabak-bay-sauvage", "fethiye-tuesday-market"],
       "thumb": "feth-butterfly-canyon",
-      "thumbAlt": "L'entrée du canyon de Butterfly Valley vue depuis l'eau : des falaises vertes de plus de 350 mètres qui plongent de chaque côté, une eau turquoise au premier plan, un mince ruban de ciel en haut.",
+      "thumbAlt": "L'entrée de Butterfly Valley vue depuis la mer : de hautes falaises de chaque côté, une plage au fond, des bateaux ancrés dans l'eau turquoise.",
       "poiRef": "butterfly-valley",
       "sources": [
         { "creator": "Visiting Turkey — Butterfly Valley (maj 2026-03)", "url": "https://visitingturkey.com/destinations/fethiye/butterfly-valley", "date": "2026-03" }
@@ -33,7 +33,7 @@
       "kicker": "Fish Market · LE CONCEPT",
       "title": "Tu choisis ton poisson, ils le grillent",
       "image": "feth-fish-market",
-      "alt": "Un cercle de poissonniers au marché de Fethiye : bars et dorades argentés sur glace pilée à la lumière des étals du soir, des restos tout autour sous des lanternes en papier.",
+      "alt": "Des dorades argentées fraîches disposées sur de la glace pilée à l'étal d'un marché aux poissons.",
       "intro": "C'est le seul endroit en Turquie qui marche comme ça : au centre du marché, un cercle de poissonniers vend l'arrivage du jour ; tout autour, une dizaine de restos le grillent pour toi contre un petit droit de cuisson. Tu achètes ton poisson les mains dans la glace à neuf heures du matin ou à vingt et une heures quand la musique démarre, tu traverses une ruelle avec ton sac, et dix minutes plus tard il est dans ton assiette sous les lanternes. Pas un restaurant — une infrastructure communautaire qui dure depuis des générations.",
       "reco": "Choisir un levrek (bar) ou une çupra (dorade) entiers — les espèces de base, fraîches — chez un poissonnier achalandé (le passage est le meilleur gage de fraîcheur ; quelques étals ont mauvaise réputation). Apporter le sac au resto de son choix. Commander en plus des mezze froids — cacık, aubergine, deniz börülcesi (salicorne). Et le réflexe qui évite la mauvaise surprise : demander le prix de la grillade et du poisson AU KILO avant de s'asseoir. Le droit de cuisson reste modeste — à confirmer sur place, l'inflation rend tout vieux chiffre inutile.",
       "quote": "Tu choisis ton poisson dans la glace à neuf heures, tu traverses une ruelle, et il arrive grillé dans ton assiette sous les lanternes. Ce n'est pas un resto — c'est le système d'approvisionnement de toute une ville.",
@@ -49,7 +49,7 @@
       "kicker": "Cin Bal 1975 · LE FEU À TABLE",
       "title": "Le mangal aux braises, dans un village fantôme",
       "image": "feth-cin-bal-mangal",
-      "alt": "Un brasero de table allumé sur une table en bois dans une cour sous une tonnelle de vigne, le soir : des brochettes d'agneau sur les braises, la fumée qui monte, des lumières chaudes en arrière-plan.",
+      "alt": "Des brochettes turques qui grillent sur des braises rougeoyantes, une main qui les tourne à la pince, un filet de fumée.",
       "intro": "À Kayaköy, dans le village gréco-turc abandonné, Cin Bal grille la viande depuis 1975. Le concept : on choisit ses viandes crues dans la vitrine réfrigérée, et on les cuit soi-même sur un mangal — un brasero de braises posé à même la table. Cour sous la tonnelle de vigne, banquettes basses à coussins (le köşk), et les ruines de pierre à deux cents mètres. La mécanique n'a pas bougé en cinquante ans.",
       "reco": "Prendre le plateau mixte — brochettes d'agneau (kuzu şiş), köfte, sucuk — et demander le köşk, les banquettes basses, si c'est disponible. La précaution qui s'impose : exiger la carte avec les prix au kilo AVANT de commander, et confirmer ce qui est compris dans les mezze (des avis récents signalent des additions salées pour les anglophones). Le moment, c'est la fumée des braseros qui monte sous les lumières de la cour quand la nuit tombe. Réserver en saison.",
       "quote": "Un brasero de braises posé à quarante centimètres de la table, dans un village abandonné depuis 1923. On cuit sa propre viande sous une tonnelle de vigne, et le décor fait le reste.",
@@ -65,7 +65,7 @@
       "kicker": "Butterfly Valley · LA CRIQUE-CANYON",
       "title": "Un canyon qui se ferme à quatre cents mètres",
       "image": "feth-butterfly-plage",
-      "alt": "La plage de galets de Butterfly Valley vue depuis le rivage : une crique encaissée entre des parois vertes de plus de 350 mètres, une eau turquoise translucide, accessible seulement par bateau.",
+      "alt": "La plage de Butterfly Valley vue d'en haut depuis la falaise : une crique encaissée au pied de parois vertigineuses, une eau qui passe du turquoise au bleu profond.",
       "intro": "Une faille dans la côte, fermée par des parois de plus de trois cent cinquante mètres, avec une crique de galets au fond et une cascade saisonnière. Le seul moyen d'y entrer, c'est le bateau depuis Ölüdeniz, ou la descente technique du sentier Lycien depuis Faralya. Pas de route, pas de parking, pas de jet-ski. À sept heures du matin, avant les tours, le silence du canyon est une expérience à part.",
       "reco": "Prendre le boat-taxi depuis la plage d'Ölüdeniz dès neuf heures, avant la foule (environ 3–6 €, ~CAD 5–9 aller-retour). Nager dans la crique jusqu'à ce que les jambes disparaissent dans le turquoise — l'eau est chaude en été. Au printemps ou début d'été, remonter vingt minutes dans la vallée jusqu'à la cascade (réduite à un filet en fin de saison). Pour les vaillants, la descente du Lycian Way depuis Faralya — quarante-cinq minutes raides avec cordes fixes, baignade avant l'arrivée des bateaux, retour en water-taxi. Cette photo-là, personne ne l'a.",
       "quote": "Des parois de quatre cents mètres qui se referment au-dessus de la tête, une crique de galets, une eau translucide — et pour seul accès, un bateau. Le silence à sept heures vaut le réveil.",
@@ -81,7 +81,7 @@
       "kicker": "Kabak · LA BAIE SAUVAGE",
       "title": "On descend à pied, on remonte à pied",
       "image": "feth-kabak-bay",
-      "alt": "La plage de galets de Kabak Bay et son eau turquoise lumineuse : des falaises couvertes de pins qui plongent dans la mer, aucune infrastructure visible, une crique au bout d'une descente.",
+      "alt": "La crique de Kabak Bay : une plage au creux d'une montagne couverte de pins, une eau turquoise lumineuse, quelques camps à la lisière des arbres.",
       "intro": "À une vingtaine de kilomètres au sud de Fethiye, au-delà de Faralya, Kabak est la dernière crique de la côte qui force encore le ralentissement complet. Pas d'accès routier direct à la plage : on prend le dolmuş jusqu'à Faralya, puis on descend à pied vingt à trente minutes. En bas, des galets, une eau d'un bleu qui n'existe que là, et quelques camps en bambou accrochés à la pente — pas un beach-club à sono, pas un jet-ski.",
       "reco": "Dolmuş Fethiye–Faralya (une demi-heure en saison), puis la descente à pied vers la crique. Nager, snorkeler, laisser passer la journée sans agenda. Pour une nuit sur place, réserver un bungalow à l'avance (les camps type Avalon ou Reflections, plus confortables que le camping basique) — pas de distributeur ni de paiement par carte en bas, prévoir du cash. C'est le bout du voyage : la crique où on ne fait plus rien d'autre que d'être là.",
       "quote": "La seule plage qu'on ne rejoint qu'à pied. On descend une demi-heure dans les pins, et on remonte le soir, les jambes lourdes et la tête vide. C'est exactement ce qu'on était venus chercher pour finir.",
@@ -97,7 +97,7 @@
       "kicker": "Kayaköy · LE VILLAGE FANTÔME",
       "title": "Cinq cents maisons, laissées telles quelles en 1923",
       "image": "feth-kayakoy",
-      "alt": "La lumière dorée de fin d'après-midi sur un mur de pierre calcaire effondré à Kayaköy, des maisons en ruines en escalier sur la colline derrière, personne dans le cadre.",
+      "alt": "Le village fantôme de Kayaköy au crépuscule : des maisons de pierre en ruines étagées sur la colline boisée, un ciel rose, aucune personne.",
       "intro": "Cinq cents maisons et deux églises orthodoxes, abandonnées un matin de 1923 lors de l'échange de populations gréco-turc. Les gens sont partis si vite que les murs sont encore là, les arches debout, les niches creusées. Ce n'est pas un musée reconstruit — c'est un village laissé exactement comme il est tombé. Le décor le plus fort de tout l'itinéraire ; mais c'est un décor, pas le lead du séjour.",
       "reco": "Y aller en fin d'après-midi, vers 16h–17h : contrairement à ce qu'on lit souvent, c'est la lumière rasante du soir qui fait chanter la pierre calcaire, pas celle de l'aube — et les foules sont parties. Monter jusqu'à l'église haute (Taksiyarhis) pour la vue sur les maisons en cascade et la mer derrière. Entrée modique en cash (~3 €, ~CAD 5), prévoir une heure et demie à deux heures, et des chaussures fermées — le terrain est en pente, non goudronné. Ne pas courir : laisser l'atmosphère s'installer.",
       "quote": "Cinq cents maisons vidées en un matin, laissées telles quelles depuis un siècle. À la lumière du soir, la pierre devient dorée et le silence, total. On marche dans une absence.",
@@ -116,7 +116,7 @@
       "boundsPois": ["fethiye-fish-market-mavicemrafet", "kayakoy-ghost-village", "butterfly-valley", "fethiye-tuesday-market"],
       "targets": ["fethiye-tuesday-market"],
       "thumb": "feth-tuesday-market",
-      "thumbAlt": "Le marché du mardi de Fethiye (Salı Pazarı) : une femme de village derrière ses paniers d'olives noires et d'herbes séchées, sous les tentes de toile, dans la lumière du matin.",
+      "thumbAlt": "Un étal d'épices d'un marché turc : safran, sumac, lavande, curry en plateaux colorés avec leurs étiquettes en turc.",
       "pills": [
         { "poiRef": "fethiye-tuesday-market", "link": "maps", "label": "Salı Pazarı · Maps" },
         { "label": "Le carnet de bouche", "url": "#carnet" }

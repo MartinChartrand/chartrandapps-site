@@ -2050,5 +2050,197 @@
       "verdict": "match",
       "checkedAt": "2026-06-16"
     }
+  },
+  {
+    "id": "feth-cote-pins",
+    "slot": "feth-cote-pins",
+    "base": null,
+    "role": "photo",
+    "file": "feth-cote-pins.jpg",
+    "alt": "Une côte égéenne turque : une baie bleu profond, des collines découpées, une pointe rocheuse couverte de pins au premier plan.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1766250822903-a45d06d15531",
+      "photographer": "Seval Torun",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7a1993200ea45652767ad79fcce7e1316172b2fc83a9491b443ac1d758d0ca66",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "7a1993200ea45652767ad79fcce7e1316172b2fc83a9491b443ac1d758d0ca66",
+      "alt": "Une côte égéenne turque : une baie bleu profond, des collines découpées, une pointe rocheuse couverte de pins au premier plan.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "feth-butterfly-canyon",
+    "slot": "feth-butterfly-canyon",
+    "base": null,
+    "role": "photo",
+    "file": "feth-butterfly-canyon.jpg",
+    "alt": "L’entrée de Butterfly Valley vue depuis la mer : de hautes falaises de chaque côté, une plage au fond, des bateaux ancrés dans l’eau turquoise.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1660572582093-0580e7027daf",
+      "photographer": "Julia Fiander",
+      "license": "unsplash-standard"
+    },
+    "sha256": "391a5ca103be934f0f059710c4f8b1476a7a25f51318480832fe1a1755bb6802",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "391a5ca103be934f0f059710c4f8b1476a7a25f51318480832fe1a1755bb6802",
+      "alt": "L’entrée de Butterfly Valley vue depuis la mer : de hautes falaises de chaque côté, une plage au fond, des bateaux ancrés dans l’eau turquoise.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "feth-fish-market",
+    "slot": "feth-fish-market",
+    "base": null,
+    "role": "photo",
+    "file": "feth-fish-market.jpg",
+    "alt": "Des dorades argentées fraîches disposées sur de la glace pilée à l’étal d’un marché aux poissons.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1642517245785-c89127ba8bcd",
+      "photographer": "engin akyurt",
+      "license": "unsplash-standard"
+    },
+    "sha256": "28156dc2e3e1bd664c314da8d000a14e4641b3bc9e6b2d861557ddcc4be58361",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "28156dc2e3e1bd664c314da8d000a14e4641b3bc9e6b2d861557ddcc4be58361",
+      "alt": "Des dorades argentées fraîches disposées sur de la glace pilée à l’étal d’un marché aux poissons.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "feth-cin-bal-mangal",
+    "slot": "feth-cin-bal-mangal",
+    "base": null,
+    "role": "photo",
+    "file": "feth-cin-bal-mangal.jpg",
+    "alt": "Des brochettes turques qui grillent sur des braises rougeoyantes, une main qui les tourne à la pince, un filet de fumée.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1730082460730-573793ec7c8f",
+      "photographer": "Cemrecan Yurtman",
+      "license": "unsplash-standard"
+    },
+    "sha256": "84358b15937af8ffc6d476ab83c5e82d5466a212f2be33eedab4ca8237a6e685",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "84358b15937af8ffc6d476ab83c5e82d5466a212f2be33eedab4ca8237a6e685",
+      "alt": "Des brochettes turques qui grillent sur des braises rougeoyantes, une main qui les tourne à la pince, un filet de fumée.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "feth-butterfly-plage",
+    "slot": "feth-butterfly-plage",
+    "base": null,
+    "role": "photo",
+    "file": "feth-butterfly-plage.jpg",
+    "alt": "La plage de Butterfly Valley vue d’en haut depuis la falaise : une crique encaissée au pied de parois vertigineuses, une eau qui passe du turquoise au bleu profond.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1672546278825-a08684a34311",
+      "photographer": "Mikail Çağlar",
+      "license": "unsplash-standard"
+    },
+    "sha256": "6bd42af0a27679a507b33bc3fd0539366dbb41fc2b77112b2b050b4614e2a755",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "6bd42af0a27679a507b33bc3fd0539366dbb41fc2b77112b2b050b4614e2a755",
+      "alt": "La plage de Butterfly Valley vue d’en haut depuis la falaise : une crique encaissée au pied de parois vertigineuses, une eau qui passe du turquoise au bleu profond.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "feth-kabak-bay",
+    "slot": "feth-kabak-bay",
+    "base": null,
+    "role": "photo",
+    "file": "feth-kabak-bay.jpg",
+    "alt": "La crique de Kabak Bay : une plage au creux d’une montagne couverte de pins, une eau turquoise lumineuse, quelques camps à la lisière des arbres.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1570799088236-903069fde316",
+      "photographer": "Alev Takil",
+      "license": "unsplash-standard"
+    },
+    "sha256": "accc17a75f8d71ab303cd74dcd96db9d6ab0f8a6127dd2f56004554efe5766ec",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "accc17a75f8d71ab303cd74dcd96db9d6ab0f8a6127dd2f56004554efe5766ec",
+      "alt": "La crique de Kabak Bay : une plage au creux d’une montagne couverte de pins, une eau turquoise lumineuse, quelques camps à la lisière des arbres.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "feth-kayakoy",
+    "slot": "feth-kayakoy",
+    "base": null,
+    "role": "photo",
+    "file": "feth-kayakoy.jpg",
+    "alt": "Le village fantôme de Kayaköy au crépuscule : des maisons de pierre en ruines étagées sur la colline boisée, un ciel rose, aucune personne.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1701940099602-cf5841e5a90b",
+      "photographer": "Arthur Shuraev",
+      "license": "unsplash-standard"
+    },
+    "sha256": "432fb5815ef9e8f2b1b40afc22a9789ea5dbea903f2679ddfa48399f3deef3b7",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "432fb5815ef9e8f2b1b40afc22a9789ea5dbea903f2679ddfa48399f3deef3b7",
+      "alt": "Le village fantôme de Kayaköy au crépuscule : des maisons de pierre en ruines étagées sur la colline boisée, un ciel rose, aucune personne.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "feth-tuesday-market",
+    "slot": "feth-tuesday-market",
+    "base": null,
+    "role": "photo",
+    "file": "feth-tuesday-market.jpg",
+    "alt": "Un étal d’épices d’un marché turc : safran, sumac, lavande, curry en plateaux colorés avec leurs étiquettes en turc.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1524593481568-2e46b9ffcd16",
+      "photographer": "Tom Hermans",
+      "license": "unsplash-standard"
+    },
+    "sha256": "24cbadc80b10a3131f00ce89560a23c216a88ef9a70f56a07ae5b94f01ce5b06",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "24cbadc80b10a3131f00ce89560a23c216a88ef9a70f56a07ae5b94f01ce5b06",
+      "alt": "Un étal d’épices d’un marché turc : safran, sumac, lavande, curry en plateaux colorés avec leurs étiquettes en turc.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
   }
 ]
