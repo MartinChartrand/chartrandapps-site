@@ -7,7 +7,7 @@
       "zoom": 13,
       "targets": ["ziggy-cafe-urgup", "turasan-winery-1943"],
       "thumb": "capp-urgup-tuf",
-      "thumbAlt": "Le paysage de tuf autour d'Ürgüp au lever du jour : des cheminées de fée beige-doré, des habitations troglodytes creusées dans la roche, une lumière rasante d'automne.",
+      "thumbAlt": "Des cheminées de fée de Cappadoce abritant des habitations troglodytes creusées dans la roche, sous un ciel clair.",
       "poiRef": "ziggy-cafe-urgup",
       "sources": [
         { "creator": "TripAdvisor — Ziggy's Shoppe & Cafe, Ürgüp", "url": "https://www.tripadvisor.com/Restaurant_Review-g297989-d1124232-Reviews-Ziggy_s_Shoppe_Cafe-Urgup_Cappadocia.html", "date": "2026-06" }
@@ -20,7 +20,7 @@
       "zoom": 12,
       "targets": ["rose-valley-depart-cavusin", "mustafapasa-ex-sinasos"],
       "thumb": "capp-montgolfieres",
-      "thumbAlt": "Une dizaine de montgolfières multicolores s'élevant au lever du soleil au-dessus des cheminées de fée de Göreme, ciel rose-orangé, formations de tuf en contrebas.",
+      "thumbAlt": "Des dizaines de montgolfières flottant à l'aube au-dessus des cheminées de fée et du paysage de Cappadoce.",
       "poiRef": "champ-montgolfieres-goreme",
       "sources": [
         { "creator": "Above Cappadocia — meilleure saison montgolfière", "url": "https://abovecappadocia.com/blog/best-time-for-cappadocia-balloon-ride", "date": "2026-06" }
@@ -33,7 +33,7 @@
       "kicker": "Dibek · LE PLAT-SIGNATURE",
       "title": "L'agneau qu'on casse au marteau",
       "image": "capp-testi-kebab",
-      "alt": "Une jarre d'argile scellée et fumante posée sur une table en bois, un serveur qui la fend au marteau pour libérer un ragoût d'agneau aux épices, dans une salle voûtée en pierre.",
+      "alt": "Un ragoût de viande mijoté dans un pot d'argile rustique, en gros plan.",
       "intro": "Le plat-signature de toute la Cappadoce, c'est le testi kebab : de l'agneau mijoté quatre à six heures avec tomates, oignons et poivrons dans une jarre d'argile scellée à la pâte, cuite au four à bois. On l'apporte à table fumante, et le serveur la fend d'un coup de marteau — le pot s'ouvre, l'agneau s'effondre, les vapeurs d'épices remplissent la pièce. À Göreme, la table de référence pour ce plat c'est Dibek — si ses portes sont ouvertes, car son statut était incertain à la dernière vérification (voir plus bas) — où on le mange assis par terre sur des coussins, dans une maison de pierre ancienne.",
       "reco": "Le testi kebab se commande à l'avance — au moins quatre heures, idéalement la veille. Et un avertissement honnête : à la vérification de juin 2026, le site de Dibek affichait « temporairement fermé », alors que les avis récents le donnaient ouvert — appeler avant de s'y rendre, et garder Seten ou une autre table de Göreme en plan B pour le même plat. On retire ses chaussures, on s'installe sur les coussins, on commande aussi le mantı maison (raviolis au yaourt à l'ail) et un dessert à l'abricot confit. La cérémonie du marteau, le pot qui fume : c'est le moment de table le plus chargé de la région.",
       "quote": "Un pot d'argile scellé, six heures de four à bois, et un coup de marteau à table. On ne sert pas un plat, ici — on en libère un.",
@@ -49,7 +49,7 @@
       "kicker": "Turasan · LE VIN VOLCANIQUE",
       "title": "Descendre dans le tuf pour boire l'Anatolie",
       "image": "capp-cave-turasan",
-      "alt": "Une galerie souterraine creusée dans le tuf volcanique beige-doré, des tonneaux de bois alignés de chaque côté, un éclairage chaud tamisé, des bouteilles de vin cappadocien au fond.",
+      "alt": "Une cave à vin souterraine voûtée en pierre, de grands tonneaux de bois alignés sous un éclairage chaud.",
       "intro": "À Ürgüp, on descend chez Turasan, la plus vieille cave de Cappadoce (1943). Le tuf volcanique fait naturellement le travail d'une cave bourguignonne — quatorze à seize degrés constants, l'année durant — sauf que les cépages sont turcs et n'ont jamais voyagé : l'Emir blanc, minéral, qui ne pousse qu'ici ; l'Öküzgözü (« œil de bœuf ») rouge et tendu ; le Boğazkere tannique. Du vin de terroir brut, sans storytelling importé de Bordeaux.",
       "reco": "Y aller le matin, avant que les cars arrivent et que la dégustation se fasse à la chaîne. Demander l'Emir Reserve — la référence régionale de ce cépage — et descendre dans la galerie taillée dans le tuf, les tonneaux alignés dans la pénombre fraîche. Compter vingt à trente minutes de dégustation sérieuse (quatre à cinq vins), et acheter directement à la cave, moins cher qu'au restaurant. Pour pousser plus loin, la cave de Kocabağ, à Uçhisar (quinze minutes en voiture), creusée à la main en 1972 dans le même tuf.",
       "quote": "Même roche volcanique qu'à Santorin, mais sans les touristes ni les prix. Le raisin pousse ici depuis l'Antiquité et n'a jamais eu besoin de la France pour exister.",
@@ -65,7 +65,7 @@
       "kicker": "Au lever du soleil · LE SPECTACLE",
       "title": "Cent ballons qui montent dans le silence",
       "image": "capp-nacelle-aube",
-      "alt": "Vue depuis une nacelle de montgolfière au lever du soleil au-dessus de la Cappadoce : d'autres ballons multicolores en suspension, les cheminées de fée et vallées de tuf en contrebas, lumière dorée.",
+      "alt": "Des montgolfières au-dessus des vallées de tuf de Cappadoce à l'aube, vues d'un point haut, les cheminées de fée en contrebas.",
       "intro": "C'est le seul endroit au monde où ce spectacle existe à cette échelle : une centaine de montgolfières qui décollent ensemble, à l'aube, au-dessus des cheminées de fée. On le fait une seule fois — c'est cher, ça réveille à 4h30 — mais quatre cents mètres de silence au-dessus d'un paysage lunaire, ça réinitialise quelque chose. Septembre-octobre, c'est la meilleure fenêtre : huit à neuf vols sur dix décollent.",
       "reco": "Réserver en direct chez un opérateur sérieux — Royal Balloon ou Butterfly Balloons — jamais un revendeur discount (les bons n'ont pas besoin d'intermédiaire). Compter 150–300 € en haute saison (~CAD 225–450). Prendre le premier créneau du matin : le second est souvent annulé pour le vent. Le pick-up est vers 4h30–5h, le vol dure une heure, et le champagne se boit au sol après l'atterrissage. Se placer côté horizon pour voir les autres ballons monter dans la lumière.",
       "quote": "On se lève en pleine nuit, on monte dans une nacelle, et le soleil se lève sur cent ballons et un paysage qui n'existe nulle part ailleurs. Ce n'est pas un gadget — c'est un silence qu'on n'oublie pas.",
@@ -81,7 +81,7 @@
       "kicker": "Rose & Red Valley · LE COUCHANT",
       "title": "La géologie qui prend feu",
       "image": "capp-red-valley",
-      "alt": "Un sentier entre des formations de tuf rouge-orangé dans la Red Valley de Cappadoce, lumière rasante dorée de fin d'après-midi, une petite chapelle rupestre byzantine creusée dans la paroi.",
+      "alt": "Le paysage de la Rose Valley en Cappadoce au couchant : des formations de tuf érodées teintées de doré, des vergers en contrebas.",
       "intro": "Quand le soleil tombe sur le tuf, les falaises de la Rose Valley et de la Red Valley passent du rose au bordeaux en vingt minutes. Ce n'est pas un coucher de soleil ordinaire — c'est de la roche volcanique qui s'embrase. Le sentier est libre, gratuit, et après dix-sept heures il n'y a plus personne. Et taillées dans la paroi, des chapelles byzantines rupestres aux fresques préservées — le seul musée qu'on ne voit jamais venir.",
       "reco": "Partir vers 14h30–15h depuis le trailhead de Meskendir (côté Göreme) ou de Çavuşin. Faire la Rose Valley, puis bifurquer vers la Red Valley pour le couchant — compter quatre à six heures pour le combiné, deux litres d'eau par personne, et aucun ravitaillement en chemin. Viser le viewpoint de Red Valley avant 18h15. Chercher au passage la Haçlı Kilise (l'église de la Croix) et ses fresques bibliques. Pas de groupe organisé : à pied, à son rythme, jusqu'à ce que la lumière bascule.",
       "quote": "On marche dans une vallée vide, et d'un coup le tuf vire au bordeaux. Vingt minutes de géologie en feu, sans une foule, avec une chapelle byzantine pour témoin.",
@@ -97,7 +97,7 @@
       "kicker": "Old Greek House · LA TABLE DE FAMILLE",
       "title": "Un Michelin dans un village grec abandonné",
       "image": "capp-old-greek-house",
-      "alt": "Une cour intérieure arcadée en pierre à Mustafapaşa, une table dressée sous une tonnelle de vigne, de vieilles fresques d'époque grecque visibles sur les murs.",
+      "alt": "Une ruelle-cour pavée en pierre, une table et des chaises sous une voûte de verdure, des murs de pierre ancienne.",
       "intro": "À Mustafapaşa — l'ancienne Sinasos, village grec vidé lors de l'échange de populations de 1924 — la famille Öztürk n'a jamais quitté sa maison du XIXe siècle. La mère cuisine des recettes qui mêlent l'Ottoman et le Grec de Thessalonique, et en décembre 2025 la Cappadoce est entrée pour la première fois au guide Michelin : l'Old Greek House y a décroché un Bib Gourmand. Ce n'est pas un restaurant — c'est un repas de famille dans des murs qui ont survécu à l'exode.",
       "reco": "Déjeuner ou dîner dans la cour intérieure, sous la vigne, devant les fresques d'époque. Commander le karnıyarık (aubergines farcies à la viande), les yaprak sarma (feuilles de vigne) et le yaourt maison. Quinze minutes d'Ürgüp en voiture, dans un village sans foule. Combiner avec une marche dans les ruelles de Mustafapaşa, ses maisons de pierre ouvragées et ses églises désaffectées — l'histoire grecque de la Cappadoce, en décor d'un repas lent.",
       "quote": "Une famille qui n'a jamais quitté sa maison grecque depuis 1938, une mère aux fourneaux, et un Bib Gourmand tout neuf. On ne réserve pas une table — on s'invite à un repas de famille qui a traversé un siècle.",
@@ -116,7 +116,7 @@
       "boundsPois": ["ziggy-cafe-urgup", "turasan-winery-1943", "mustafapasa-ex-sinasos", "soganl-valley-jumelle-vide"],
       "targets": ["soganl-valley-jumelle-vide"],
       "thumb": "capp-soganli",
-      "thumbAlt": "La vallée de Soğanlı en Cappadoce, vide de touristes : des cheminées de fée et des églises rupestres byzantines creusées dans le tuf, sous un ciel clair, sans une montgolfière ni un car.",
+      "thumbAlt": "Des cheminées de fée en champignon dans une vallée de Cappadoce, sous un ciel bleu, sans foule ni montgolfière.",
       "pills": [
         { "poiRef": "soganl-valley-jumelle-vide", "link": "maps", "label": "Soğanlı · Maps" },
         { "label": "Le carnet de bouche", "url": "#carnet" }

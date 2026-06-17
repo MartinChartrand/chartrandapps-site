@@ -1666,5 +1666,197 @@
       "verdict": "match",
       "checkedAt": "2026-06-16"
     }
+  },
+  {
+    "id": "capp-urgup-tuf",
+    "slot": "capp-urgup-tuf",
+    "base": null,
+    "role": "photo",
+    "file": "capp-urgup-tuf.jpg",
+    "alt": "Des cheminées de fée de Cappadoce abritant des habitations troglodytes creusées dans la roche, sous un ciel clair.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1643354812958-b648b92dc6c5",
+      "photographer": "Burak Arslan",
+      "license": "unsplash-standard"
+    },
+    "sha256": "efcd5fd48f8ab7227aae132e8f3ba3be8b7c4bb94435e72878f73ab35ecdb384",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "efcd5fd48f8ab7227aae132e8f3ba3be8b7c4bb94435e72878f73ab35ecdb384",
+      "alt": "Des cheminées de fée de Cappadoce abritant des habitations troglodytes creusées dans la roche, sous un ciel clair.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "capp-montgolfieres",
+    "slot": "capp-montgolfieres",
+    "base": null,
+    "role": "photo",
+    "file": "capp-montgolfieres.jpg",
+    "alt": "Des dizaines de montgolfières flottant à l’aube au-dessus des cheminées de fée et du paysage de Cappadoce.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1669111957528-6d4e78328692",
+      "photographer": "Igor Sporynin",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d6f87be522502ce0bff60cd3443cff30d76d940c52c50a1355791976bba5895a",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "d6f87be522502ce0bff60cd3443cff30d76d940c52c50a1355791976bba5895a",
+      "alt": "Des dizaines de montgolfières flottant à l’aube au-dessus des cheminées de fée et du paysage de Cappadoce.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "capp-testi-kebab",
+    "slot": "capp-testi-kebab",
+    "base": null,
+    "role": "photo",
+    "file": "capp-testi-kebab.jpg",
+    "alt": "Un ragoût de viande mijoté dans un pot d’argile rustique, en gros plan.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1773209927906-8a4187066b41",
+      "photographer": "Hakan Çınar",
+      "license": "unsplash-standard"
+    },
+    "sha256": "3718634e631291323202b4b055ece44a784e9d6187d4dbd2e0a9e8c436a52497",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "3718634e631291323202b4b055ece44a784e9d6187d4dbd2e0a9e8c436a52497",
+      "alt": "Un ragoût de viande mijoté dans un pot d’argile rustique, en gros plan.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "capp-cave-turasan",
+    "slot": "capp-cave-turasan",
+    "base": null,
+    "role": "photo",
+    "file": "capp-cave-turasan.jpg",
+    "alt": "Une cave à vin souterraine voûtée en pierre, de grands tonneaux de bois alignés sous un éclairage chaud.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1660815312830-7cb4e23547a8",
+      "photographer": "Mario La Pergola",
+      "license": "unsplash-standard"
+    },
+    "sha256": "39b7612289673089b139279a67beca8197ac6392cefdf6a0305791379daedb3f",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "39b7612289673089b139279a67beca8197ac6392cefdf6a0305791379daedb3f",
+      "alt": "Une cave à vin souterraine voûtée en pierre, de grands tonneaux de bois alignés sous un éclairage chaud.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "capp-nacelle-aube",
+    "slot": "capp-nacelle-aube",
+    "base": null,
+    "role": "photo",
+    "file": "capp-nacelle-aube.jpg",
+    "alt": "Des montgolfières au-dessus des vallées de tuf de Cappadoce à l’aube, vues d’un point haut, les cheminées de fée en contrebas.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1542833278-f4deb3180291",
+      "photographer": "Alev Takil",
+      "license": "unsplash-standard"
+    },
+    "sha256": "f0c5e267f79ee36a568f9516e007a8148b168101b4daeafa3495c1b316a75cca",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "f0c5e267f79ee36a568f9516e007a8148b168101b4daeafa3495c1b316a75cca",
+      "alt": "Des montgolfières au-dessus des vallées de tuf de Cappadoce à l’aube, vues d’un point haut, les cheminées de fée en contrebas.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "capp-red-valley",
+    "slot": "capp-red-valley",
+    "base": null,
+    "role": "photo",
+    "file": "capp-red-valley.jpg",
+    "alt": "Le paysage de la Rose Valley en Cappadoce au couchant : des formations de tuf érodées teintées de doré, des vergers en contrebas.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1628007087728-77a4ac288947",
+      "photographer": "Alexandra Tran",
+      "license": "unsplash-standard"
+    },
+    "sha256": "16878cb0de791e4ec4250ca5eeb40161068e5b3d85df75e8aec84bcf6ad8c21e",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "16878cb0de791e4ec4250ca5eeb40161068e5b3d85df75e8aec84bcf6ad8c21e",
+      "alt": "Le paysage de la Rose Valley en Cappadoce au couchant : des formations de tuf érodées teintées de doré, des vergers en contrebas.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "capp-old-greek-house",
+    "slot": "capp-old-greek-house",
+    "base": null,
+    "role": "photo",
+    "file": "capp-old-greek-house.jpg",
+    "alt": "Une ruelle-cour pavée en pierre, une table et des chaises sous une voûte de verdure, des murs de pierre ancienne.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1759197293037-1c9141fc4927",
+      "photographer": "MChe Lee",
+      "license": "unsplash-standard"
+    },
+    "sha256": "796bdf01587501f238a623e588c5ccdac275710599afeefb87393a114f165945",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "796bdf01587501f238a623e588c5ccdac275710599afeefb87393a114f165945",
+      "alt": "Une ruelle-cour pavée en pierre, une table et des chaises sous une voûte de verdure, des murs de pierre ancienne.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "capp-soganli",
+    "slot": "capp-soganli",
+    "base": null,
+    "role": "photo",
+    "file": "capp-soganli.jpg",
+    "alt": "Des cheminées de fée en champignon dans une vallée de Cappadoce, sous un ciel bleu, sans foule ni montgolfière.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1748415698208-61c15ab22575",
+      "photographer": "Emre Ozyemisci",
+      "license": "unsplash-standard"
+    },
+    "sha256": "99d5f00383cc1e393574a5fafaa33862cef6e56a9cd2c6162a4bb9be1fe7e996",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "99d5f00383cc1e393574a5fafaa33862cef6e56a9cd2c6162a4bb9be1fe7e996",
+      "alt": "Des cheminées de fée en champignon dans une vallée de Cappadoce, sous un ciel bleu, sans foule ni montgolfière.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
   }
 ]
