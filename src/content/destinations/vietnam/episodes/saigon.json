@@ -1,0 +1,275 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "13 février · L'ARRIVÉE",
+      "body": "Saigon commence la nuit. Le Grab qui sort de Tân Sơn Nhất prend l'autoroute et lâche un flot de néons et de klaxons dans le rétroviseur — on est en période post-Tết, la ville a passé une semaine à faire la fête et n'a pas encore dormi. À Binh Thanh, un quartier résidentiel que personne ne visite, un hôtel boutique mid-century à quelques rues de la rivière. Demain, la ville. Ce soir, les hẻm allumées, le bruit du trafic, le premier café sữa đá sur le trottoir encore chaud.",
+      "boundsPois": [
+        "oc-vinh-khanh",
+        "com-tam-ba-ghien",
+        "bot-chien-dat-thanh",
+        "ben-binh-dong-d8"
+      ],
+      "targets": [],
+      "thumb": "saigon-cover",
+      "thumbAlt": "Foule nocturne sur un boulevard de Saigon illuminé de néons et de lanternes pendant les festivités du Tết",
+      "poiRef": "maison-de-camille",
+      "sources": [
+        {
+          "creator": "Nomad Is Beautiful",
+          "url": "https://nomadisbeautiful.com/travel-blogs/where-to-stay-in-ho-chi-minh/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "kicker": "Binh Thanh · LE PREMIER CAFÉ",
+      "body": "Le lendemain matin à 6h, il y a déjà quelqu'un assis devant un thermos avec des tabourets bleus. Café sữa đá, filtre phin qui goutte lentement, lait concentré sucré au fond du verre en plastique — assis sur le trottoir, les scooters passent à vingt centimètres. Dix minutes plus tard, bord du canal Nhiêu Lộc : des joggers, un groupe de tai-chi, les cafés qui ouvrent sur l'eau. Pas un touriste en vue. C'est comme ça que Saigon commence, chaque matin.",
+      "boundsPois": [
+        "oc-vinh-khanh",
+        "com-tam-ba-ghien"
+      ],
+      "targets": [],
+      "thumb": "saigon-cover",
+      "thumbAlt": "Foule nocturne sur un boulevard de Saigon illuminé de néons et de lanternes pendant les festivités du Tết",
+      "poiRef": "canal-nhieu-loc",
+      "sources": [
+        {
+          "creator": "Saigoneer",
+          "url": "https://saigoneer.com/saigon-news/26130-vignette-the-nhi%C3%AAu-l%E1%BB%99c-th%E1%BB%8B-ngh%C3%A8-canal-s-comeback-story",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Vietnam.vn",
+          "url": "https://www.vietnam.vn/en/kenh-nhieu-loc-thi-nghe-dong-song-seine-giua-long-tp-ho-chi-minh",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-oc-vinh-khanh",
+      "kicker": "District 4 · LA RUE",
+      "title": "Ốc Vĩnh Khánh — une étoile Michelin sur des tabourets en plastique",
+      "image": "saigon-oc-nuit",
+      "alt": "Rue de fruits de mer nocturne à Saigon — tabourets en plastique, woks fumants et bouteilles de bière sur la chaussée",
+      "intro": "Un kilomètre de tabourets et de fruits de mer dans le District 4 — de Ben Van Don à Ton Dan, les stands existent pour eux-mêmes, pas pour les circuits. Ốc Oanh au numéro 534 a décroché une étoile Michelin 2025 sans rien changer à ses méthodes. Time Out l'a nommée parmi les dix meilleures rues de street food au monde. Les Saïgonnais s'en foutent — ils étaient là bien avant, et ils continuent.",
+      "reco": "Rue Vĩnh Khánh, District 4 — prendre le Grab jusqu'au bout de la rue, se laisser tomber sur les premiers tabourets libres. Commander l'ốc len xào dừa (escargots de mangrove au lait de coco) et l'ốc hương nướng mỡ hành (escargots grillés au beurre-ciboulette). Arriver entre 18h30 et 20h, avant que la rue soit pleine. Une bière Saigon froide. Ne pas chercher l'étoile — elle est sur tous les stands, et on comprend pourquoi.",
+      "quote": "Une étoile Michelin sur une rue de tabourets en plastique. C'est ça, Saigon.",
+      "poiRef": "oc-vinh-khanh",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Rusty Compass Vietnam",
+          "url": "https://www.rustycompass.com/vietnam-travel-guide-233/ho-chi-minh-city-4/eating-16/vinh-khanh-local-seafood-strip-saigon-1457",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Vespa Adventures Saigon",
+          "url": "https://www.vespaadventures.com/where-to-find-the-best-snail-and-seafood-restaurants-in-saigon",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Saigon Vibes",
+          "url": "https://saigonvibes.com/foods/the-10-best-snails-restaurant-in-ho-chi-minh-city/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-com-tam-ba-ghien",
+      "kicker": "Phú Nhuận · LE RIZ",
+      "title": "Cơm Tấm Ba Ghiền — le Bib Gourmand que personne n'a cherché",
+      "image": "saigon-comtam-grill",
+      "alt": "Côtelette de porc grillée au charbon sur riz brisé avec omelette vapeur et sauce nước chấm maison — déjeuner de rue à Saigon",
+      "intro": "84 Đặng Văn Ngữ, Phú Nhuận — le quartier résidentiel que personne ne visite. Ba Ghiền existe depuis les années 90, et les ouvriers du coin s'y retrouvent à l'heure du lunch dans une file qui avance lentement et ne proteste pas. Michelin en a fait un Bib Gourmand 2023. La clientèle ne sait pas, ne change pas. La côtelette grillée au charbon reste la même.",
+      "reco": "Cơm Tấm Ba Ghiền, 84 Đặng Văn Ngữ, Phú Nhuận. Arriver entre 11h et 13h. Commander le cơm tấm sườn bì chả — la combo standard : côtelette grillée, couenne de porc émincée, omelette vapeur, riz brisé, sauce maison. S'asseoir où il reste de la place. La sauce fait la différence — demander un bol extra. Compter 90 000–120 000 VND, ~5–7 $CA.",
+      "quote": "La clientèle ne sait pas que c'est Michelin. Ça ne change rien à ce qu'on commande.",
+      "poiRef": "com-tam-ba-ghien",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Michelin Guide HCM",
+          "url": "https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/com-tam-ba-ghien",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Saigon Vibes",
+          "url": "https://saigonvibes.com/foods/the-10-best-com-tam-restaurants-in-ho-chi-minh-city/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Impress Travel",
+          "url": "https://impresstravel.com/top-com-tam-spots-for-ho-chi-minh-city-tour-foodies/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-bun-mam",
+      "kicker": "District 1 / District 3 · LE BOUILLON",
+      "title": "Bún Mắm — le bouillon fermenté du Delta du Mékong",
+      "image": "saigon-bun-soup",
+      "alt": "Bol de soupe vietnamienne aux vermicelles avec morceaux de viande, herbes fraîches et ciboulette verte — déjeuner de rue à Saigon",
+      "intro": "Le bún mắm, c'est le bouillon le plus intense du Vietnam du Sud. La pâte de poisson fermentée donne quelque chose que les autres cuisines n'ont pas : une profondeur umami qui va loin dans la gorge. Le poisson serpentin entier dans le bol n'est pas une décoration. 22 Phan Bội Châu, face à la porte est de Ben Thanh — les touristes entrent dans le marché, les Saïgonnais s'assoient ici. Mark Wiens y a mangé pendant un mois entier à Saigon. Et plus caché encore : 108/20A Trần Quang Diệu, District 3 — hẻm résidentiel, ouvert le matin seulement, 60 kg de noodles partis avant midi.",
+      "reco": "Pour commencer : Bún Mắm Phan Bội Châu, 22 Phan Bội Châu, District 1 — accessible, ouvert le matin et le midi. Pour le vrai : Bún Mắm Cô Chính, 108/20A Trần Quang Diệu, District 3 — arriver avant 9h, 100% clientèle locale, aucune enseigne en anglais. Commander le bún mắm cá lóc (avec poisson serpentin) — ne pas choisir à la place du pork. Compter 60 000–80 000 VND, ~3,30–4,40 $CA.",
+      "quote": "L'adresse qu'on donne à voix basse. 60 kg de noodles avant midi. Aucune enseigne en anglais.",
+      "poiRef": "bun-mam-co-chinh",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Mark Wiens / Migrationology",
+          "url": "https://migrationology.com/bun-mam-saigon/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Saigon Vibes",
+          "url": "https://saigonvibes.com/foods/the-10-best-bun-mam-places-in-ho-chi-minh-city/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Saigon Traveling",
+          "url": "https://saigontraveling.com/saigon-food/bun-mam/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-cho-lon",
+      "kicker": "District 5 · LE CHINATOWN",
+      "title": "Hào Sỹ Phường — le Chinatown que les tours ne prennent pas",
+      "image": "saigon-hao-sy-ruelle",
+      "alt": "Ruelle de shophouses sino-vietnamiennes habitées dans le Chinatown de Saigon — façades colorées, lessive suspendue et lumière filtrée entre les bâtiments",
+      "intro": "Le marché Bình Tây attire les groupes avec les sacs à dos — eux cherchent les shophouses sino-vietnamiennes encore habitées, où la lessive sèche entre les façades et où un atelier de médecine traditionnelle ouvre sur la ruelle. Hào Sỹ Phường, District 5 : des maisons colorées du début du 20e siècle. Phú Định Street, rendue célèbre par L'Amant (Annaud, 1992). Saigon on Film en a fait la colonne vertébrale de leur walking tour photo. Les habitants s'en foutent, et c'est exactement pour ça que ça marche.",
+      "reco": "Partir tôt — 7h–9h pour la lumière de matin dans les ruelles. Entrer par Phú Định Street (ruelle parallèle à Trần Hưng Đạo) puis longer vers Hào Sỹ Phường. Les temples Bà Thiên Hậu et Ông Bổn à 200m. Passer chez Hàu Chiên Trứng (128 Phùng Hưng) pour l'omelette d'huîtres Teochew — 45 000–60 000 VND, ~2,50–3,30 $CA. Vérifier Google Maps avant d'y aller (sources 2023).",
+      "quote": "Phú Định Street a été filmée pour L'Amant. Les habitants s'en foutent. La lumière à 7h est toujours là.",
+      "poiRef": "hao-sy-phuong-cho-lon",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Saigon on Film",
+          "url": "https://www.saigononfilm.com/saigon-film-photography-walk-cho-lon-district-5",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Saigon on Film — Chinatown",
+          "url": "https://www.saigononfilm.com/all-about-saigon-chinatown",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Legend Travel Group",
+          "url": "https://www.legendtravelgroup.com/a/unique-streets-and-corners-of-chinatown-explore-cho-lon-in-ho-chi-minh-city",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-canal-nhieu-loc",
+      "kicker": "Binh Thanh / Phú Nhuận · LE CANAL",
+      "title": "Canal Nhiêu Lộc — 8 km de Saigon qui n'essaie pas de se montrer",
+      "image": "saigon-canal-aube",
+      "alt": "Promenade au bord d'un canal urbain à l'aube — joggers et café en bord de l'eau, trottoirs larges et arbres",
+      "intro": "Le canal Nhiêu Lộc puait avant les années 2000 — il était le dépotoir de la ville. Le projet de réhabilitation de 350 millions de dollars a rendu quelque chose d'autre : un espace de vie quotidienne dans les quartiers résidentiels. Trottoirs larges, cafés qui ont poussé face à l'eau, nouveau pont piétonnier ouvert en juillet 2024. Saigoneer le décrit comme 'one of the nicest places in Saigon to stroll.' Zero infrastructure touristique. Aucun bus. Le matin tôt, le canal appartient aux gens du quartier.",
+      "reco": "Partir entre 5h30 et 7h30 — tai-chi, café đá en plastique, joggers, seniors en survêtement. Entrer au canal depuis la rue Hoàng Sa (côté Phú Nhuận) ou Trần Khánh Dư (côté Bình Thạnh). Marcher vers le pont piétonnier neuf (Điện Biên Phủ–Thị Nghè) et traverser. S'asseoir dans un café bord de canal : 25 000–40 000 VND, ~1,50–2,50 $CA. Ne rien planifier d'autre pour ce matin.",
+      "quote": "Le matin tôt, le canal appartient aux gens du quartier. Pas un touriste en vue.",
+      "poiRef": "canal-nhieu-loc",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Saigoneer",
+          "url": "https://saigoneer.com/saigon-news/26130-vignette-the-nhi%C3%AAu-l%E1%BB%99c-th%E1%BB%8B-ngh%C3%A8-canal-s-comeback-story",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Vietnam.vn",
+          "url": "https://www.vietnam.vn/en/kenh-nhieu-loc-thi-nghe-dong-song-seine-giua-long-tp-ho-chi-minh",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Saigon on Film",
+          "url": "https://www.saigononfilm.com/saigon-best-photo-walk-locations",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de prendre le bus de nuit pour Quy Nhơn : les ốc len de Vĩnh Khánh, la côtelette de Ba Ghiền à Phú Nhuận, le bouillon fermenté du Delta face à Ben Thanh, les ruelles de Chợ Lớn à l'aube, le canal à 6h du matin. Six nuits, une ville qui mange avant de dormir. Le carnet a les adresses, les liens, les prix, et tout ce qu'il faut pour revenir.",
+      "boundsPois": [
+        "oc-vinh-khanh",
+        "com-tam-ba-ghien",
+        "bot-chien-dat-thanh",
+        "ben-binh-dong-d8"
+      ],
+      "targets": [
+        "oc-vinh-khanh"
+      ],
+      "thumb": "saigon-cover",
+      "thumbAlt": "Foule nocturne sur un boulevard de Saigon illuminé de néons et de lanternes pendant les festivités du Tết",
+      "pills": [
+        {
+          "poiRef": "oc-vinh-khanh",
+          "link": "maps",
+          "label": "Rue Ốc Vĩnh Khánh (Ốc Oanh · étoile Michelin 2025) · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Rusty Compass Vietnam",
+          "url": "https://www.rustycompass.com/vietnam-travel-guide-233/ho-chi-minh-city-4/eating-16/vinh-khanh-local-seafood-strip-saigon-1457",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Michelin Guide HCM",
+          "url": "https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/com-tam-ba-ghien",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Mark Wiens / Migrationology",
+          "url": "https://migrationology.com/bun-mam-saigon/",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "Maison De Camille (174/21 Dien Bien Phu, Binh Thanh) — 22 chambres mid-century moderne dans un quartier résidentiel, terrasse rooftop, petit-déj inclus, navette gratuite vers le centre. L'alternative au piège du District 1 sans se retrouver à 20 minutes de tout. Réserver à l'avance : reviews 2024-2025 unanimes sur le service."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "La rue Vĩnh Khánh le soir pour les ốc (District 4). Le cơm tấm de Ba Ghiền à midi (84 Đặng Văn Ngữ, Phú Nhuận, Bib Gourmand). Le bún mắm de Cô Chính le matin dans son hẻm de District 3 — arriver avant 9h. Le bánh mì Huynh Hoa à 14h (26 Lê Thị Riêng, District 1, ouvert 14h–23h). Le bột chiên d'Đạt Thành à n'importe quelle heure (277 Võ Văn Tần, District 3, 40 ans au comptoir). Et pour Chợ Lớn : les wontons de Thiên Thiên (195 Hà Tôn Quyền, District 11) et l'omelette d'huîtres Teochew au 128 Phùng Hưng — vérifier Maps avant."
+      },
+      {
+        "label": "À voir et à faire",
+        "kinds": [
+          "sight",
+          "activity"
+        ],
+        "footer": "Le canal Nhiêu Lộc à l'aube (5h30–7h, trottoirs larges, cafés bord de l'eau, aucun touriste). Les ruelles de Hào Sỹ Phường + Phú Định Street dans le Chinatown de District 5 (lumière de matin, shophouses habitées). Le marché Bà Hoa à Tân Bình (enclave Quảng Nam, accents du Centre, produits fermentés introuvables ailleurs). La péninsule Thanh Đa à vélo (500 ha, un seul pont, un Saigon qui n'essaie pas de se montrer). Et si le timing est bon : Bến Bình Đông + canal Tàu Hủ (District 8) pour les entrepôts de bois et les barques."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites — Saigon"
+  },
+  "outro": {
+    "kicker": "Saigon, c'est fait",
+    "body": "La rue Vĩnh Khánh le soir, le riz brisé de Phú Nhuận, le bouillon du Delta dans le hẻm de Cô Chính, les shophouses de Chợ Lớn à l'aube, le canal à 6h du matin. Les {count} adresses de Saigon — où dormir, où manger, où flâner — vivent dans le carnet, avec leurs liens, leurs prix, et ce qu'il faut savoir pour y aller. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochain arrêt : Quy Nhơn.",
+    "nextLabel": "Prochain épisode — Quy Nhơn →",
+    "nextHref": "/vietnam/quy-nhon/"
+  }
+}

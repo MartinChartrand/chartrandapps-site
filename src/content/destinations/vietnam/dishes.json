@@ -1,0 +1,931 @@
+[
+  {
+    "id": "oc-len-xao-dua",
+    "group": "Le carnet de bouche — Saigon",
+    "base": "saigon",
+    "title": "Ốc len xào dừa — escargots de mangrove au lait de coco",
+    "body": "Escargots de mangrove (ốc len) sautés au wok avec lait de coco, citronnelle, piment oiseau et feuilles de coriandre. Texture élastique, bouillon crémeux, iodé sans excès. Prix : 50 000–100 000 VND/portion (~3–6 $CA). Rue Vĩnh Khánh, District 4 — Ốc Oanh (#534, étoile Michelin 2025) ou Ốc Vũ (coin, toujours bondé).",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "saigon",
+    "story": "Le plat signature de la rue Vĩnh Khánh, et du nhậu saïgonnais en général. Les ốc len viennent des mangroves du Delta — leur chair ferme et leur goût iodé s'accordent exactement avec la douceur du lait de coco. On les mange debout ou assis sur des tabourets en plastique, avec une bière Saigon froide et des amis. La rue entière a décroché une mention Time Out Top 10 mondial 2025 sans que les habitués s'en aperçoivent.",
+    "sources": [
+      {
+        "creator": "Rusty Compass Vietnam",
+        "url": "https://www.rustycompass.com/vietnam-travel-guide-233/ho-chi-minh-city-4/eating-16/vinh-khanh-local-seafood-strip-saigon-1457",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vespa Adventures Saigon",
+        "url": "https://www.vespaadventures.com/where-to-find-the-best-snail-and-seafood-restaurants-in-saigon",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Saigon Vibes",
+        "url": "https://saigonvibes.com/foods/the-10-best-snails-restaurant-in-ho-chi-minh-city/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "com-tam-suon-nuong",
+    "group": "Le carnet de bouche — Saigon",
+    "base": "saigon",
+    "title": "Cơm tấm sườn nướng — riz brisé à la côtelette grillée",
+    "body": "Riz brisé (tấm) légèrement glueux, côtelette de porc grillée au charbon, tranche d'omelette vapeur (chả trứng), tranches de concombre, sauce nước chấm maison. Le plat du déjeuner de Saigon depuis des générations. Prix : 75 000–120 000 VND (~4–7 $CA).",
+    "image": "saigon-comtam-grill",
+    "links": [],
+    "type": "plat",
+    "region": "saigon",
+    "story": "Le cơm tấm est né des grains de riz brisés que les paysans du Sud mangeaient — trop abimés pour la vente, trop bons pour être jetés. La côtelette grillée au charbon de Ba Ghiền (Phú Nhuận, Bib Gourmand 2023) a une croûte caramélisée et une chair juteuse qui vient avec la sauce maison. 95% de clientèle locale, des ouvriers qui mangent ici depuis les années 90. Le plat qu'on retrouve partout à Saigon, mais dont chaque stand se distingue par sa sauce et son charbon.",
+    "sources": [
+      {
+        "creator": "Michelin Guide HCM",
+        "url": "https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/com-tam-ba-ghien",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Saigon Vibes",
+        "url": "https://saigonvibes.com/foods/the-10-best-com-tam-restaurants-in-ho-chi-minh-city/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "banh-mi-dac-biet",
+    "group": "Le carnet de bouche — Saigon",
+    "base": "saigon",
+    "title": "Bánh mì đặc biệt — le bánh mì de Saigon",
+    "body": "Baguette croustillante garnie de pâté de foie, jambon cuit, nem chua, mayonnaise, beurre généreux, daikon et carottes marinés, coriandre, piment. Version đặc biệt (spéciale) = garniture maximale. Prix 62 000 VND (~3,50 $CA) chez Huynh Hoa, 26 Lê Thị Riêng — ouvert 14h–23h uniquement.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "saigon",
+    "story": "La baguette vietnamienne, c'est ce que la colonisation française a laissé de plus honnête. La version de Huynh Hoa (fondée 1989) est dense, beurrée, chargée — rien à voir avec un bánh mì de touristes. 80-90% de Saïgonnais dans la file, qui font 20-30 minutes volontairement. Le prix est plus élevé qu'un bánh mì de rue standard, et les locaux l'assument. Daniel Food Diary l'a couvert après une vraie visite en 2024 — pas un article de presse de voyagiste.",
+    "sources": [
+      {
+        "creator": "Daniel Food Diary",
+        "url": "https://danielfooddiary.com/2024/02/26/banhmihuynhhoa/",
+        "date": "2024-02"
+      },
+      {
+        "creator": "Jackfruit Adventure",
+        "url": "https://jackfruitadventure.com/banh-mi-huynh-hoa-saigon-street-food-you-should-try-in-district-1/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "The City Lane",
+        "url": "https://thecitylane.com/banh-mi-huynh-hoa-district-1/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "bun-mam-saigon",
+    "group": "Le carnet de bouche — Saigon",
+    "base": "saigon",
+    "title": "Bún mắm — le bouillon fermenté du Sud",
+    "body": "Vermicelles dans un bouillon de mắm (pâte de poisson fermentée) du Delta du Mékong, chargé d'umami profond et teinté d'orange par l'huile annatto. Garnis de poisson serpentin (cá lóc) entier, crevettes, porc rôti, aubergine frite. Prix : 60 000–80 000 VND (~3,30–4,40 $CA). Cô Chính (108/20A Trần Quang Diệu, D3, matin seulement) ou Phan Bội Châu (#22, D1).",
+    "image": "saigon-bun-soup",
+    "links": [],
+    "type": "plat",
+    "region": "saigon",
+    "poiRef": "bun-mam-phan-boi-chau",
+    "story": "Le bún mắm est le bouillon le plus intense du Vietnam du Sud — le ferment de poisson utilisé dans le bouillon donne quelque chose que les autres cuisines asiatiques n'ont pas : une profondeur umami qui va loin dans la gorge. Le poisson serpentin entier dans le bol n'est pas une décoration. Mark Wiens l'a mangé pendant un mois à Saigon, chez Phan Bội Châu, face au marché Ben Thanh. La version de Cô Chính en hẻm, matin seulement, est encore plus concentrée — 60 kg de noodles par jour, 100% clientèle locale.",
+    "sources": [
+      {
+        "creator": "Mark Wiens / Migrationology",
+        "url": "https://migrationology.com/bun-mam-saigon/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Saigon Vibes",
+        "url": "https://saigonvibes.com/foods/the-10-best-bun-mam-places-in-ho-chi-minh-city/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "bot-chien-trung",
+    "group": "Le carnet de bouche — Saigon",
+    "base": "saigon",
+    "title": "Bột chiên trứng — galettes frites à l'oeuf",
+    "body": "Cubes de pâte de riz frits sur une plaque en acier avec oeuf cassé dessus, mélangés jusqu'à ce que l'oeuf enrobe les galettes dorées. Nappés d'une sauce soja sucrée avec ciboulette verte. Texture : croustillant à l'extérieur, fondant dedans. Prix : 25 000–40 000 VND (~1,40–2,20 $CA). Đạt Thành, 277 Võ Văn Tần, District 3.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "saigon",
+    "poiRef": "bot-chien-dat-thanh",
+    "story": "Le snack de l'après-école saïgonnais depuis 40 ans. La plaque d'acier chaude, la graisse qui crépite, l'oeuf qui prend en enrobant les cubes dorés — c'est pas une recette sophistiquée, c'est un plaisir simple que des générations de Saïgonnais mangent en rentrant du travail. Saigoneer l'a mis dans ses Hẻm Gems. Depuis, 277 Võ Văn Tần n'a rien changé. Le prix n'a presque pas bougé en 40 ans.",
+    "sources": [
+      {
+        "creator": "Saigoneer — Hẻm Gems",
+        "url": "https://saigoneer.com/saigon-street-food-restaurants/16974-h%E1%BA%BBm-gems-the-greasy-extravaganza-of-deep-fried-b%E1%BB%99t-chi%C3%AAn-and-egg",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Eating Saigon",
+        "url": "https://www.eatingsaigon.com/2013/03/18/bot-chien-2/",
+        "date": "2013-03"
+      },
+      {
+        "creator": "BABLocal",
+        "url": "https://bablocal.com/post/bot-chien-dat-thanh-vo-van-tan-quan-3-moolhz",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "ca-phe-sua-da",
+    "group": "Le carnet de bouche — Saigon",
+    "base": "saigon",
+    "title": "Cà phê sữa đá — café glacé au lait concentré",
+    "body": "Robusta vietnamien brassé lentement dans un filtre phin en métal individuel, versé chaud sur glace pilée et lait condensé sucré. Servi sur le trottoir dans un verre en plastique bas, assis sur des tabourets de 20 cm. Prix : 10 000–20 000 VND (~0,55–1,10 $CA).",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "saigon",
+    "story": "Pas un café, une pratique culturelle. Les stands tenus par des femmes qui squattent un coin de trottoir avec un thermos, une glacière et des tabourets — quasi-invisibles sur Google Maps, présents sur presque chaque bloc de la ville. 90% des Saïgonnais commencent leur journée comme ça, avant 8h. La découverte réelle n'est pas dans ce qu'on commande — c'est dans le fait de s'asseoir et d'observer la rue en buvant un café qui filtre lentement pendant 5 minutes dans la chaleur.",
+    "sources": [
+      {
+        "creator": "Vietnam Nomad",
+        "url": "https://vietnamnomad.com/eat-drink/ca-phe-sua-da/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Gran Tourismo Travels",
+        "url": "https://grantourismotravels.com/traditional-vietnamese-iced-coffee-and-saigons-best-cafes/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "jasmine-ipa-pasteur-street",
+    "group": "Le carnet de bouche — Saigon",
+    "base": "saigon",
+    "title": "Jasmine IPA — Pasteur Street Brewing",
+    "body": "IPA au jasmin de Hanoi brassée localement par Pasteur Street Brewing. Houblonnée, légèrement florale, pas sucrée. 5–6% ABV. Prix : 60 000–120 000 VND/pinte (~3,30–6,60 $CA). Taproom original : 144 Đường Pasteur, D1. 12 emplacements dans la ville.",
+    "image": "",
+    "links": [],
+    "type": "bière",
+    "region": "saigon",
+    "poiRef": "pasteur-street-brewing",
+    "story": "La brasserie 100% saïgonnaise qui prouve qu'on peut faire quelque chose de sérieux dans un marché de bières industrielles. Le jasmin de Hanoi dans une IPA — ça sonne comme un gadget marketing, ça n'en est pas un. Le floral est discret, le houblon reste présent. La clientèle des taprooms n'est pas touristique : expats long-terme, jeunes Saïgonnais qui ont voyagé et savent ce qu'est une craft beer. Une alternative sérieuse à la Bia Saigon.",
+    "sources": [
+      {
+        "creator": "Saigoneer",
+        "url": "https://saigoneer.com/sponsored-listings/244-eat-drink/19376-newest-pasteur-street-brewing-taproom-crafted-for-locals",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Pale Ale Travel",
+        "url": "https://palealetravel.com/guide-craft-beer-saigon/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Cao Cao Adventures",
+        "url": "https://caocaoadventures.com/blog/best-craft-beer-in-saigon-10-breweries-and-bars-to-try",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "hau-chien-trung-plat",
+    "group": "Le carnet de bouche — Saigon",
+    "base": "saigon",
+    "title": "Hàu chiên trứng — omelette d'huîtres Teochew (Chợ Lớn)",
+    "body": "Huîtres fraîches mélangées à de la fécule de patate douce et d'un oeuf battu, frites au wok à feu vif jusqu'à croustillant en dessous et fondant au centre. Sauce de soja sucrée citronnée. Prix : 45 000–60 000 VND (~2,50–3,30 $CA). 128 Phùng Hưng, District 5. ⚠️ Vérifier Maps avant d'y aller.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "saigon",
+    "poiRef": "hau-chien-trung-cho-lon",
+    "singleSourceTrusted": true,
+    "story": "Recette Teochew : la communauté de Chaozhou en Chine du Sud s'est installée dans le Chợ Lớn de Saigon au 19e siècle et a amené ses plats. L'omelette d'huîtres au wok (oyster omelette) existe partout en Asie du Sud-Est sous des variantes — mais la version locale du 128 Phùng Hưng, fait par la même famille depuis 56 ans, est une de celles qu'on ne trouve pas en dehors des quartiers chinois. Le plat introuvable si on ne sait pas où chercher.",
+    "sources": [
+      {
+        "creator": "The Smart Local Vietnam",
+        "url": "https://thesmartlocal.com/vietnam/cho-lon-foods/",
+        "date": "2023-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "banh-xeo-tom-nhay-binh-dinh",
+    "base": "quynhon",
+    "group": "Le carnet de bouche — Quy Nhơn",
+    "title": "Bánh Xèo Tôm Nhảy de Bình Định",
+    "body": "Crêpe de riz au curcuma cuite sur wok brûlant jusqu'au croustillant — la version Bình Định est plus petite et plus fine que la version du Sud. La garniture impose des crevettes encore vivantes (tôm nhảy = crevettes qui sautent) enfermées dans la pâte au moment de la cuisson. On la mange enroulée dans des feuilles de moutarde et de la menthe fraîche avec sauce nuoc-mâm sucrée locale. Prix : 25 000 VND/pièce. Adresse de référence : Gia Vỹ 2, 14 Diên Hồng.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "quynhon",
+    "story": "Le bánh xèo tôm nhảy est le plat identitaire de Quy Nhơn. La crevette encore vivante qui cuit dans la pâte conserve une texture ferme et une douceur iodée que les crevettes mortes n'ont pas. Le staff de Gia Vỹ 2 l'explique aux néophytes sans qu'on ait besoin de demander — les locaux comprennent que ça se voit quand c'est la première fois. À manger les deux mains sales, debout sur le trottoir si nécessaire.",
+    "poiRef": "gia-vy-2",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietcetera",
+        "url": "https://vietcetera.com/en/local-food-specialties-in-quy-nhon-and-where-to-try-them",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Gastronomy Blog",
+        "url": "https://gastronomyblog.com/2026/01/10/best-restaurants-food-quy-nhon-vietnam/",
+        "date": "2026-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "bun-ram-lagon-tra-o",
+    "base": "quynhon",
+    "group": "Le carnet de bouche — Quy Nhơn",
+    "title": "Bún Rạm du lagon Trà Ô",
+    "body": "Bol de vermicelle de riz frais dans un bouillon crabe tourteau pêché dans le lagon intérieur de Trà Ô, à quelques kilomètres de la ville. Le rạm (crabe de lagon) est plus petit que le crabe de mer mais son bouillon est plus parfumé — algues, vase, iode doux. Crevettes entières de la même source. Vermicelle fait sur place. Prix : 16 000–18 000 VND (~1 $CA). Adresse : Mỹ Hạnh, 48 Ngô Gia Tự. Ouvert le matin seulement.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "quynhon",
+    "story": "Un dollar canadien pour un bol de soupe de crabe fait avec des ingrédients pêchés à 5 km. C'est l'économie de Quy Nhơn avant le tourisme : les propriétaires de Mỹ Hạnh viennent de Phú Mỹ et gardent leur approvisionnement direct du lagon Trà Ô. Le vermicelle est roulé et coupé chaque matin. Rien dans ce bol ne vient d'une chaîne d'approvisionnement industrielle.",
+    "poiRef": "bun-ram-my-hanh",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "MyTour Vietnam",
+        "url": "https://mytour.vn/en/blog/bai-viet/discover-the-famed-bun-tom-and-bun-ram-of-quy-nhon.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Gastronomy Blog",
+        "url": "https://gastronomyblog.com/2026/01/10/best-restaurants-food-quy-nhon-vietnam/",
+        "date": "2026-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "goi-ca-mai-cru",
+    "base": "quynhon",
+    "group": "Le carnet de bouche — Quy Nhơn",
+    "title": "Gỏi Cá Mai — sardine blanche marinée crue",
+    "body": "Filets de cá mai (sardine blanche locale) coupés fins et marinés crus dans un mélange vinaigre de riz + lait de coco + gingembre + herbes. La chair blanchit et se raffermit par l'acidité — le même principe que le ceviche mais avec des ingrédients entièrement locaux. Servi avec bánh tráng grillé pour scooper. Prix : 100 000 VND/assiette (~5,55 $CA). Adresse de référence : Thanh Kiều, 69/1 Trần Hưng Đạo (dans le hẻm).",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "quynhon",
+    "story": "Le cá mai est un poisson quasi-exclusif à la côte Bình Định — blanc nacré, chair fine, presque translucide une fois filetée. La recette de Thanh Kiều date de plusieurs générations. On mange ça dans une ruelle du quartier pêcheur, les locaux n'imaginent même pas qu'on pourrait servir ça au restaurant touristique du bord de mer. Le site officiel du tourisme de Bình Định le référence comme spécialité emblématique.",
+    "poiRef": "goi-ca-mai-thanh-kieu",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Bình Định Tourism (officiel)",
+        "url": "https://dulichquynhon.binhdinh.gov.vn/en/goicathanhkieu",
+        "date": "2025-01"
+      },
+      {
+        "creator": "VietnamNet",
+        "url": "https://vietnamnet.vn/en/reminiscing-flavor-of-white-sardine-salad-2141101.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "nem-nuong-tre-binh-dinh",
+    "base": "quynhon",
+    "group": "Le carnet de bouche — Quy Nhơn",
+    "title": "Nem Nướng + Nem Chua + Tre — le trio fermenté de Bình Định",
+    "body": "Trois préparations distinctes du porc mangées ensemble : (1) Nem nướng — saucisses de porc grillées au charbon, parfumées citronnelle ; (2) Nem chua — porc cru fermenté en feuilles de goyave 2–3 jours, acidulé et légèrement pétillant ; (3) Tre — bambou tranché finement et fermenté avec du porc et des épices, spécialité quasi absente hors Bình Định. Tout se mange enroulé dans du bánh tráng mince avec herbes fraîches. Prix rue Ngô Văn Sở : ~120 000 VND/plateau (~6,70 $CA). Ouvert 15h–minuit.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "quynhon",
+    "story": "Le tre est ce qui distingue ce trio de ce qu'on trouve partout ailleurs au Vietnam. Le bambou finement tranché fermente avec le porc pendant plusieurs jours — le résultat est fibreux, légèrement acide, avec une amertume végétale douce que rien ne remplace. Ce n'est pas un plat qu'on invente en vacances — c'est une recette de province transmise dans les familles. Vietcetera, Quy Nhon Tourism et Vietnam Coracle le documentent indépendamment.",
+    "poiRef": "rue-nem-nuong-ngo-van-so",
+    "sources": [
+      {
+        "creator": "Quy Nhon Tourism",
+        "url": "https://www.quynhon.com/local-food-specialist/ngovanso-street.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietcetera",
+        "url": "https://vietcetera.com/en/local-food-specialties-in-quy-nhon-and-where-to-try-them",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "ruou-bau-da-alcool",
+    "base": "quynhon",
+    "group": "Le carnet de bouche — Quy Nhơn",
+    "title": "Rượu Bàu Đá — eau-de-vie d'appellation de Cu Lam",
+    "body": "Eau-de-vie de riz distillée en pot de terre à Cu Lam, commune Nhơn An, Bình Định — appellation géographique stricte : seul le produit de ce village peut porter ce nom. Environ 40% ABV. Goût sec, légèrement fruité, sans les brûlures de l'alcool bon marché. Deux versions : nature (ruou gao thường) et riz glutineux (nếp). Prix boutique Vinh Thuy à Quy Nhơn : 65 000–150 000 VND/bouteille (~3,60–8,35 $CA) selon contenant. Version moins forte disponible : Ruou Rum Sơn Hà (~39% ABV, 65 000–75 000 VND/650 ml).",
+    "image": "",
+    "links": [],
+    "type": "alcool",
+    "region": "quynhon",
+    "story": "Les producteurs de Cu Lam distillent dans des pots en terre cuite — la même technique depuis des siècles. L'eau du puits local (bàu đá = étang de pierre) entre dans la composition : les habitants croient qu'elle donne au produit son goût particulier. Acheter une bouteille ici, c'est acheter quelque chose qui n'existe nulle part ailleurs. À partager le soir à Bãi Xếp avec le poisson grillé du village — ça n'appelle pas un verre de vin.",
+    "poiRef": "ruou-bau-da-vinh-thuy",
+    "sources": [
+      {
+        "creator": "Vietcetera",
+        "url": "https://vietcetera.com/en/quy-nhon-has-spirit-alcoholic-drinks-in-the-coastal-city",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Báo Bình Định",
+        "url": "https://baobinhdinh.vn/land-people/2011/6/111940/",
+        "date": "2011-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "banh-hoi-chao-long-plat",
+    "base": "quynhon",
+    "group": "Le carnet de bouche — Quy Nhơn",
+    "title": "Bánh Hỏi Cháo Lòng — vermicelle tressé et abats du matin",
+    "body": "Deux éléments distincts présentés ensemble : bánh hỏi (vermicelle de riz ultra-fin tressé en galette molle) + cháo lòng (congee chaud aux abats frais — intestin, foie, sang coagulé selon le comptoir). On pose la galette de vermicelle dans le bol de congee ou on alterne cuillères. Prix : 15 000–25 000 VND (~0,85–1,40 $CA). Adresse : 20 Diên Hồng. Ouvert 5h–11h30.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "quynhon",
+    "story": "Le bánh hỏi cháo lòng, c'est la grammaire du matin à Quy Nhơn. La texture est ce qui surprend d'abord : les galettes de vermicelle tressé s'effacent dans la bouche en libérant un goût de riz doux, pendant que le congee aux abats est chaud et profond. Difficile de rater l'adresse rue Diên Hồng à 5h30 — c'est la seule lumière encore allumée, et les locaux qui arrivent à scooter le confirment.",
+    "poiRef": "banh-hoi-chao-long-dien-hong",
+    "sources": [
+      {
+        "creator": "Facebook officiel établissement",
+        "url": "https://www.facebook.com/p/B%C3%A1nh-H%E1%BB%8Fi-Ch%C3%A1o-L%C3%B2ng-20-Di%C3%AAn-H%E1%BB%93ng-100063633307124/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "nhphow (Medium)",
+        "url": "https://medium.com/@nhphow/top-10-best-restaurant-in-quy-nhon-unlisted-elsewhere-54ac56291b31",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Xanh SM",
+        "url": "https://www.xanhsm.com/news/banh-hoi-chao-long-quy-nhon",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "oc-grilles-soiree",
+    "base": "quynhon",
+    "group": "Le carnet de bouche — Quy Nhơn",
+    "title": "Ốc Hương Grillés au Beurre Ciboulette",
+    "body": "Escargots de mer (ốc hương = turritelle locale, distincte des ốc len de Saigon) grillés sur braises avec beurre fondu et ciboulette verte. Chair ferme, légèrement iodée, arôme beurre-fines herbes. Se mange avec un cure-dent pour extraire la chair de la spirale. Prix rue Ngọc Hân Công Chúa : 25 000–50 000 VND/portion (~1,40–2,80 $CA). Horaire : 16h–22h. Meilleur spot : Ốc Bà Bông au numéro 22.",
+    "image": "",
+    "links": [],
+    "type": "plat",
+    "region": "quynhon",
+    "story": "Le nhậu (boire-manger) à Quy Nhơn se joue à la rue des ốc à partir de 16h. Les Vietnamiens qui reviennent du boulot commandent une Tiger bière et une assiette d'escargots. La rue n'a aucun panneau en anglais, aucun menu traduit. Ce n'est pas un manque — c'est un filtre naturel qui maintient l'adresse dans le 2e cercle.",
+    "poiRef": "rue-oc-ngoc-han",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vinpearl Travel",
+        "url": "https://vinpearl.com/en/quy-nhon-food-street",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Du Lịch Quy Nhơn 77 (Facebook)",
+        "url": "https://www.facebook.com/dulichquynhon77/videos/kh%C3%A1m-ph%C3%A1-con-%C4%91%C6%B0%E1%BB%9Dng-%E1%BB%91c-n%E1%BB%95i-ti%E1%BA%BFng-ng%E1%BB%8Dc-h%C3%A2n-c%C3%B4ng-ch%C3%BAa",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "mi-quang-hoian",
+    "base": "hoian",
+    "group": "Plats signatures Hội An / Centre-Vietnam",
+    "type": "plat",
+    "title": "Mì Quảng",
+    "body": "Le plat du Centre par excellence — bol épais au curcuma, bouillon concentré servi en petite quantité (contrairement au phở), porc ou crevettes, feuilles de basilic thaï, galette de riz grillée par-dessus. Version authentique chez Ông Hai, Cẩm Châu : 15 000–40 000 VND, menu viet only.",
+    "image": "hoian-18",
+    "poiRef": "mi-quang-ong-hai",
+    "links": [
+      {
+        "label": "Guide patrimoine Hội An",
+        "url": "http://www.hoianworldheritage.org.vn/vi/news/am-thuc-hoi-an/den-hoi-an-an-my-ong-hai-1291.hwh"
+      }
+    ],
+    "story": "Le mì quảng n'est pas une soupe — c'est un bol dense. La clé : le bouillon est réduit, intense, versé en petite quantité pour humidifier sans noyer. Le curcuma teint les vermicelles d'un jaune presque agressif. Par-dessus : des cacahuètes grillées, des herbes fraîches, une galette de riz soufflée qui craque au contact du bol chaud. Chez Ông Hai à Cẩm Châu, la version n'a aucune concession touristique — le menu est en viet, les portions sont locales, le prix est 15 000 VND. C'est le plat de Hội An que les habitants mangent au quotidien, pas le cao lầu affiché partout dans la vieille ville.",
+    "sources": [
+      {
+        "creator": "Site officiel patrimoine mondial de Hội An",
+        "url": "http://www.hoianworldheritage.org.vn/vi/news/am-thuc-hoi-an/den-hoi-an-an-my-ong-hai-1291.hwh",
+        "date": "2023-01"
+      },
+      {
+        "creator": "CungDi",
+        "url": "https://cungdi.net/hoi-an/mi-quang-ong-hai-quan-mi-quang-tru-danh-xu-hoi/",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "cao-lau-hoian",
+    "base": "hoian",
+    "group": "Plats signatures Hội An / Centre-Vietnam",
+    "type": "plat",
+    "title": "Cao lầu",
+    "body": "Plat unique à Hội An — les vermicelles épais sont traditionnellement faits avec l'eau du puits Bà Lễ et de la cendre de bois du village Cham de Cù Lao Chàm. Porc laqué, herbes fraîches locales, crackers de riz soufflés. Introuvable ailleurs dans sa forme authentique.",
+    "image": "hoian-22",
+    "links": [
+      {
+        "label": "Vietnam Coracle guide Hội An",
+        "url": "https://www.vietnamcoracle.com/hoi-an-food-guide/"
+      }
+    ],
+    "story": "Le cao lầu est un argument géographique autant qu'un plat. Les vermicelles épais, gris-jaunes, tiennent leur texture particulière de la lessive de cendre de bois et de l'eau du puits Bà Lễ — une eau douce légèrement calcaire que les anciens jurent être irremplaçable. Au-dessus : du porc rôti tranché, des crackers soufflés, des herbes fraîches dont certaines ne poussent qu'autour de Hội An. Le résultat est sec, dense, mâché — rien à voir avec une soupe. Les meilleures versions se trouvent hors de la vieille ville, dans les gargotes de marché du matin.",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/hoi-an-food-guide/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Rusty Compass Vietnam",
+        "url": "https://www.rustycompass.com/vietnam-travel-guide-233/hoi-an-28/eating-16/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "banh-xeo-centre-vietnam",
+    "base": "hoian",
+    "group": "Plats signatures Hội An / Centre-Vietnam",
+    "type": "plat",
+    "title": "Bánh xèo du Centre",
+    "body": "La version centrale est plus fine et plus croustillante que celle du Sud — pâte à base de farine de riz et curcuma, crevettes fraîches ou tôm nhảy (vivantes), porc, germes de soja. Servie avec nem lụi (brochette porc-lemongrass). Deux adresses de référence : Bà Dưỡng (Michelin, ruelle Bình Hiên) et Năm Hiền (Michelin, tôm nhảy de rivière, Thanh Khê).",
+    "image": "hoian-27",
+    "links": [
+      {
+        "label": "Bánh xèo Bà Dưỡng — Michelin Guide",
+        "url": "https://guide.michelin.com/jp/ja/da-nang-region/da-nang_2984390/restaurant/banh-xeo-ba-duong"
+      }
+    ],
+    "story": "La crêpe de riz grésille dans l'huile avec un son qui donne son nom — bánh xèo, le 'gâteau qui siffle'. La version centrale est différente du Sud : plus fine, moins chargée, le curcuma moins présent. La coutume : on la coupe en morceaux, on l'enroule dans une feuille de moutarde ou une galette de riz avec des herbes fraîches, et on trempe dans le nước chấm. Le nem lụi servi à côté est une brochette de porc haché-lemongrass grillée sur charbon. Chez Bà Dưỡng dans sa ruelle de Hoàng Diệu, la crêpe est aussi fine qu'un Kleenex et aussi croustillante qu'une chips — 31 ans de maîtrise.",
+    "sources": [
+      {
+        "creator": "Visit Da Nang",
+        "url": "https://visitdanang.travel/vi/banh-xeo-ba-duong-da-nang-huong-vi-30-nam-kho-quen",
+        "date": "2024-01"
+      },
+      {
+        "creator": "We3Travel",
+        "url": "https://we3travel.com/skip-these-3-tourist-traps-10-authentic-street-foods-you-must-try-in-da-nang-vietnam/",
+        "date": "2024-06"
+      },
+      {
+        "creator": "Michelin Guide (Da Nang)",
+        "url": "https://guide.michelin.com/jp/ja/da-nang-region/da-nang_2984390/restaurant/banh-xeo-ba-duong",
+        "date": "2024-03"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "bun-cha-ca-danang",
+    "base": "hoian",
+    "group": "Plats signatures Hội An / Centre-Vietnam",
+    "type": "plat",
+    "title": "Bún chả cá Đà Nẵng",
+    "body": "Spécialité de la ville — vermicelles de riz dans un bouillon os de poisson cuit toute la nuit, avec des galettes de poisson maison (chả cá) frites et/ou grillées. Différent du bún chả cá du Centre plus au nord. Deux adresses fortes : Bà Hoa (Michelin Bib 2024) et Dì Gái (500 bols/jour, 50+ ans).",
+    "image": "hoian-30",
+    "links": [
+      {
+        "label": "Bà Hoa — Michelin Bib Gourmand 2024",
+        "url": "https://guide.michelin.com/vn/en/article/news-and-views/the-michelin-guide-da-nang-vietnam"
+      }
+    ],
+    "story": "À Da Nang, le bún chả cá est un plat du matin. Les pêcheurs le mangent avant l'aube, les travailleurs vers 7h, les familles avant 9h — et c'est terminé. Le bouillon est clair mais profond, cuit sur les arêtes et têtes de poisson toute la nuit. Les galettes de poisson (chả cá) sont moulées et frites maison — une texture ferme-élastique qui n'a rien à voir avec les versions industrielles. Le prix plancher (25 000–30 000 VND chez Bà Hoa) est un marqueur de clientèle locale : aucun touriste ne cherche un restaurant à 1,50 $CA. Sold-out avant 10h.",
+    "sources": [
+      {
+        "creator": "Danang Journey",
+        "url": "https://danangjourney.com/bun-cha-ca-da-nang/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Michelin Guide Vietnam 2024",
+        "url": "https://guide.michelin.com/vn/en/article/news-and-views/the-michelin-guide-da-nang-vietnam",
+        "date": "2024-03"
+      },
+      {
+        "creator": "Saigoneer (Hẻm Gems Da Nang)",
+        "url": "https://saigoneer.com/vietnam-street-food-restaurants/25946-h%E1%BA%BBm-gems-in-%C4%91%C3%A0-n%E1%BA%B5ng,-d%C3%AC-g%C3%A1i-s-b%C3%BAn-ch%E1%BA%A3-c%C3%A1-is-a-family-heirloom",
+        "date": "2023-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "goi-ca-nam-o-plat",
+    "base": "hoian",
+    "group": "Plats du terroir — village et mer",
+    "type": "plat",
+    "title": "Gỏi cá Nam Ô",
+    "body": "Ceviche centenaire propre au village de pêcheurs de Nam Ô (district Liên Chiểu) — maquereau filleté à cru, macéré dans le jus de carambole, servi avec banane verte, légumes de forêt, sauce pimentée maison. Introuvable en version authentique hors du village.",
+    "image": "hoian-31",
+    "links": [
+      {
+        "label": "VietnamNet — article Nam Ô fish salad",
+        "url": "https://vietnamnet.vn/en/nam-o-fish-salad-a-must-try-dish-of-da-nang-2117823.html"
+      }
+    ],
+    "story": "Nam Ô est à 30 km scooter du centre de Da Nang — et cette distance est volontaire. Le gỏi cá qui voyage (vers les restos du centre-ville) a déjà perdu : le poisson n'est plus à la même fraîcheur, les herbes ne sont plus les mêmes, la sauce pimentée maison est remplacée par une version commerciale. L'originale, chez Gỏi Cá Thanh Hương, utilise un maquereau pêché le matin, du jus de carambole fraîchement pressé et des feuilles de forêt que les femmes du village ramassent elles-mêmes. Le résultat : acide, frais, légèrement piquant, avec une texture de poisson cru qui fond sans être gras. La recette est vieille de plus de 100 ans.",
+    "sources": [
+      {
+        "creator": "VietnamNet",
+        "url": "https://vietnamnet.vn/en/nam-o-fish-salad-a-must-try-dish-of-da-nang-2117823.html",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Not Quite Nigella",
+        "url": "https://www.notquitenigella.com/2026/04/04/da-nang-food-restaurant/",
+        "date": "2026-04"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "banh-trang-thit-heo",
+    "base": "hoian",
+    "group": "Plats du terroir — village et mer",
+    "type": "plat",
+    "title": "Bánh tráng cuốn thịt heo",
+    "body": "Rouleau de porc bouilli + légumes frais dans une galette de riz — le plat communautaire du Centre-Vietnam. La clé est la sauce poisson maison (nước chấm) de chaque adresse, qui différencie les bonnes des moyennes. Adresse de référence : Bà Mụa, 93 Nguyễn Chí Thanh, Thạch Thang.",
+    "image": "hoian-32",
+    "poiRef": "banh-trang-ba-mua",
+    "links": [
+      {
+        "label": "Diff.vn guide bánh tráng Da Nang",
+        "url": "https://diff.vn/dac-san-da-nang/banh-trang-cuon-thit-heo-da-nang-an-dau-chuan-nhat/"
+      }
+    ],
+    "story": "Le format est participatif : on t'apporte le porc bouilli tranché, les légumes, les herbes, la pile de galettes de riz — et tu assembles toi-même. Pas de mauvais rouleau si les ingrédients sont bons. Ce qui change d'une adresse à l'autre : la qualité de la sauce poisson maison. Chez Bà Mụa, la nước chấm est réputée dans le quartier — pimentée, légèrement acidulée, avec un équilibre sucré-salé qui tient la route. Le plat est interactif, convivial, lent par nature — parfait pour manger seul en observant la rue.",
+    "sources": [
+      {
+        "creator": "Diff.vn",
+        "url": "https://diff.vn/dac-san-da-nang/banh-trang-cuon-thit-heo-da-nang-an-dau-chuan-nhat/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "CrystalBay Vietnam",
+        "url": "https://crystalbay.com/banh-trang-cuon-thit-heo-da-nang-o-dau-ngon-diem-danh-5-quan-an-ngon-nhuc-nach-n53013.html",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "ca-phe-muoi-plat",
+    "base": "hoian",
+    "group": "Boissons et habitudes locales",
+    "type": "produit",
+    "title": "Cà phê muối (café à la mousse salée)",
+    "body": "Habitude de quartier venue de Huế, répandue à Da Nang — café robusta vietnamien phin avec une mousse crémeuse et légèrement salée déposée sur le dessus. 25 000–35 000 VND. Adresse de référence : Cà Phê Muối Huế, 53C Đống Đa, Thạch Thang.",
+    "image": "hoian-35",
+    "poiRef": "ca-phe-muoi-hue-dn",
+    "links": [
+      {
+        "label": "Site officiel Cà Phê Muối Huế",
+        "url": "https://caphemuoihue.com/"
+      }
+    ],
+    "story": "Tu mélanges ou tu bois en couches — c'est la première question qu'on te pose. La mousse salée (muối = sel) est montée à la crème avec du sel, légèrement sucrée, et flotte sur le café noir servi à 35°C environ. L'amertume du robusta perce à travers la douceur salée. Ça devrait pas marcher, et pourtant — c'est addictif. La chaîne familiale de Huế a ouvert à Da Nang sur Đống Đa. Tu paies 25 000 VND, tu t'assieds, tu regardes la rue. C'est le café du travailleur vietnamien dans ce quartier — pas un concept pour Instagram.",
+    "sources": [
+      {
+        "creator": "Cà Phê Muối Huế (site officiel)",
+        "url": "https://caphemuoihue.com/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vinwonders Vietnam",
+        "url": "https://vinwonders.com/vi/wonderpedia/news/ca-phe-muoi-da-nang/",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "pho-bac-hanoi",
+    "group": "Le carnet de bouche — Hanoi",
+    "base": "hanoi",
+    "title": "Phở tái nạm — le phở du nord",
+    "body": "Bouillon de bœuf clair, non sucré, construit sur des os de bœuf mijotés 12 heures. Lamelles de flanc (nạm) + bœuf saignant (tái) versé à la louche bouillante. Herbes : oignons verts, coriandre longue — pas de germes de soja ni de basilic (version du nord). Vinaigre-piment-citron en table, pas de hoisin. Chez Phở Gia Truyền Bát Đàn (49 Bát Đàn, Vieux Quartier) : 50 000–60 000 VND (~3 $CA).",
+    "poiRef": "pho-gia-truyen-bat-dan",
+    "image": "d-pho-bac-hanoi",
+    "type": "plat",
+    "region": "hanoi",
+    "story": "La guerre du phở Nord-Sud est réelle et ancienne. Le nord l'a inventé — bouillon cristallin, sans fioriture, construit sur les os et les épices, pas sur la sucrosité. L'arrivée des réfugiés du nord en 1954 a exporté le phở au sud, qui l'a adapté (sucre, germes, basilic, hoisin). Hanoi considère ces adaptations comme des déviations. Phở Gia Truyền Bát Đàn sert la version orthodoxe depuis des décennies, avec les mêmes proportions d'os et les mêmes temps de cuisson. Michelin Bib Gourmand — mais le Michelin l'a trouvé, pas créé.",
+    "sources": [
+      {
+        "creator": "DanielFoodDiary",
+        "url": "https://danielfooddiary.com/2025/12/12/phogiatruyen/",
+        "date": "2025-12"
+      },
+      {
+        "creator": "Rusty Compass Vietnam",
+        "url": "https://www.rustycompass.com/vietnam-travel-guide-233/hanoi-5/eating-16/pho-gia-truyen-hanoi-1390",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Guide Michelin Vietnam",
+        "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/pho-gia-truyen",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "bun-cha-hanoi",
+    "group": "Le carnet de bouche — Hanoi",
+    "base": "hanoi",
+    "title": "Bún chả — le plat du midi hanoïen",
+    "body": "Galettes de porc grillées au charbon + boulettes de porc en feuilles (cha bao), servies dans un bol de bouillon légèrement vinaigrette avec vermicelles et herbes fraîches à côté. On trempe, on assemble, on mange vite avant que la fumée refroidisse. Bún Chả Đắc Kim (Hàng Mành, Vieux Quartier) : 40 000–60 000 VND (~2–3 $CA). Bún Chả Tuyết (34 Hàng Than, Ba Đình) : 35 000–55 000 VND (~2–3 $CA).",
+    "poiRef": "bun-cha-dac-kim",
+    "image": "scene-bun-cha-hanoi",
+    "type": "plat",
+    "region": "hanoi",
+    "story": "Obama a mangé du bún chả avec Bourdain en 2016 chez Hương Liên — depuis, la queue pour cette table est internationale. Mais le bún chả n'est pas cette table-là : c'est le plat du midi que des centaines de milliers de résidents mangent chaque jour dans des salles en plastique sans enseigne. La fumée de charbon colle aux vêtements, le bouillon légèrement vinaigrette coupe le gras du porc grillé. Đắc Kim le fait depuis 1965, Tuyết à Hàng Than grille à la commande — pas précuit, ce qui change la croûte.",
+    "sources": [
+      {
+        "creator": "Guide Michelin Vietnam",
+        "url": "https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/bun-cha-%C4%91ac-kim",
+        "date": "2025-01"
+      },
+      {
+        "creator": "JackfruitAdventure",
+        "url": "https://jackfruitadventure.com/top-7-bun-cha-in-hanoi-where-locals-eat/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Hanoi Times",
+        "url": "https://hanoitimes.vn/five-must-try-bun-cha-restaurants-in-hanoi-praised-by-michelin.874227.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "cha-ca-hanoi",
+    "group": "Le carnet de bouche — Hanoi",
+    "base": "hanoi",
+    "title": "Chả cá la vọng — le plat à réchaud",
+    "body": "Filet de poisson du fleuve Rouge, mariné au curcuma et à la galangale, grillé sur charbon puis finalisé sur réchaud de table avec aneth et ciboulette. Servi avec vermicelles de riz, cacahuètes pilées, et la sauce mắm tôm (pâte de crevettes fermentées) — la partie la plus confrontante pour le palais non-initié. Chả Cá Thăng Long (2D Đường Thành, Vieux Quartier) : 176 000 VND/pers (~10 $CA).",
+    "poiRef": "cha-ca-thang-long",
+    "image": "d-cha-ca-hanoi",
+    "type": "plat",
+    "region": "hanoi",
+    "story": "La rue Chả Cá (proche du Vieux Quartier) doit son nom à ce plat — tout un pâté de maisons reconverti depuis des siècles autour de cette seule préparation. La polie, un poisson de rivière blanc et ferme, tient mieux à la cuisson double (charbon + réchaud) que le poisson de mer. Le mắm tôm mélangé citron vert et piment est le test : les habitués le réclament, les étrangers le sniffent et passent. Thăng Long garde les locaux au rez-de-chaussée — un détail qui dit tout sur le type d'endroit.",
+    "sources": [
+      {
+        "creator": "Cavinteo blog Michelin Vietnam",
+        "url": "https://cavinteo.blogspot.com/2024/01/michelin-cha-ca-thang-long-in-hanoi-vietnam.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Guide Michelin Vietnam",
+        "url": "https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietnam Airlines Travel Guide",
+        "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/cha-ca-la-vong-hanoi",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "ca-phe-trung-hanoi",
+    "group": "Le carnet de bouche — Hanoi",
+    "base": "hanoi",
+    "title": "Cà phê trứng — le café à l'œuf",
+    "body": "Robusta vietnamien fort brassé à la cafetière, surmonté d'une crème épaisse montée à partir d'un jaune d'œuf battu avec lait concentré sucré. Servi chaud dans un bol d'eau chaude. Texture entre la crème brûlée et le cappuccino. Café Giang (39 Nguyễn Hữu Huân, Vieux Quartier, ruelle au fond à gauche) : 35 000 VND (~2 $CA). Éviter les copies Instagram à 3× le prix.",
+    "poiRef": "cafe-giang-ca-phe-trung",
+    "image": "scene-ca-phe-hanoi",
+    "type": "produit",
+    "region": "hanoi",
+    "story": "Nguyễn Văn Giang l'a inventé dans les années 40, pendant la guerre, quand le lait manquait à Hanoi — il a eu l'idée d'utiliser le jaune d'œuf battu pour reproduire la mousse, résultat accidentellement génial. Pendant des décennies, c'était un secret local. Depuis que les food bloggers l'ont découvert, des dizaines de copies ont surgi dans le Vieux Quartier à 80 000 VND avec déco Pinterest. Giang reste à 35 000 VND dans sa ruelle, sans déco, sans WiFi rapide, sans enseigne lumineuse.",
+    "sources": [
+      {
+        "creator": "Asiamystika Vietnam",
+        "url": "https://asiamystika.com/blog/cafe-giang",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Tom Henty's Travel",
+        "url": "https://www.tomhentystravel.co.uk/asia-1/cafe-giang-hanoi",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Fallon Travels",
+        "url": "https://fallontravels.com/blog/best-egg-coffee-hanoi-vietnamese-old-quarter-cafe",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "bia-hoi-ha-noi",
+    "group": "Le carnet de bouche — Hanoi",
+    "base": "hanoi",
+    "title": "Bia hơi — la pression quotidienne",
+    "body": "Bière légère (~3% alc.) brassée chaque matin, livrée en fûts, vendue sur le trottoir jusqu'à épuisement — pas de conservation, pas de lendemain. Servie glacée dans des verres en plastique, avec lạc rang (cacahuètes grillées à l'ail) ou bánh tráng nướng. Bia Hơi Ngọc Linh (2 Đường Thành, coin Bát Đàn, Vieux Quartier) : 8 000–15 000 VND/verre (~0.50–1 $CA). Ouvert ~16h–23h.",
+    "poiRef": "bia-hoi-ngoc-linh",
+    "image": "d-bia-hoi-hanoi",
+    "type": "bière",
+    "region": "hanoi",
+    "story": "La bia hơi de Ta Hiện est devenue une attraction touristique avec néons et DJ set. Ngọc Linh au coin de Đường Thành et Bát Đàn reste là où vont les ouvriers et résidents après 18h : un verre à 8 000 VND, des tabourets en plastique, des cacahuètes. À ce prix, c'est la boisson la moins chère de toute la ville. Le concept est unique : une bière non conservée, brassée pour être bue dans les 24 heures — les Hanoïens en mangent la logique depuis des générations.",
+    "sources": [
+      {
+        "creator": "GrantourismoTravels Hanoi",
+        "url": "https://grantourismotravels.com/our-hanoi-bia-hoi-guide/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "The Street Food Guy",
+        "url": "https://www.thestreetfoodguy.com/bia-hoi-corner/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Hanoi Locals",
+        "url": "https://hanoilocals.com/bia-hoi-corner-hanoi/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "bun-oc-hanoi",
+    "group": "Le carnet de bouche — Hanoi",
+    "base": "hanoi",
+    "title": "Bún ốc — escargots dans le bouillon aigre",
+    "body": "Vermicelles de riz dans un bouillon de porc et tomates, fortement acidulé au vinaigre, avec des escargots d'eau douce (ốc nhồi) croquants. Accompagnements : carambole tranchée, piments frais, liseron d'eau (rau muống). Deux versions : nước (dans le bouillon) ou khô (à sec). Chez Bún Ốc Cô Huệ (43 Nguyễn Siêu, Vieux Quartier) : 30 000–50 000 VND (~2–3 $CA). Ferme à 14h.",
+    "poiRef": "bun-oc-co-hue",
+    "image": "d-bun-oc-hanoi",
+    "type": "plat",
+    "region": "hanoi",
+    "story": "Plat matinal du nord — les hanoïens mangent le bún ốc comme d'autres mangent des céréales, avant 11h. L'acidité franche du bouillon est le marqueur d'authenticité : les versions touristiques l'adoucissent pour le rendre plus accessible. Les escargots d'eau douce ont une texture ferme et légèrement caoutchouteuse. La carambole découpée en étoile donne une acidité de fruit qui double le vinaigre. Cô Huệ n'a pas changé de recette — deux modes de service, aucune concession.",
+    "sources": [
+      {
+        "creator": "Saigoneer Hẻm Gems",
+        "url": "https://saigoneer.com/hanoi-street-food-restaurants/21648-h%E1%BA%BBm-gems-piquant-broth-and-tangy-snails-at-bun-oc-co-hue",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vietnam.vn",
+        "url": "https://www.vietnam.vn/en/4-quan-bun-oc-gia-truyen-dat-khach-o-ha-noi/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "TourinHanoi Guide",
+        "url": "https://tourinhanoi.com/guide/snail-vermicelli-rice/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "pho-cuon-hanoi",
+    "group": "Le carnet de bouche — Hanoi",
+    "base": "hanoi",
+    "title": "Phở cuốn — le rouleau de bœuf de Ngũ Xã",
+    "body": "Feuille de riz fraîche enroulée autour de bœuf sauté à l'ail et de fines herbes, trempée dans une sauce maison légèrement sucrée-salée. Invention des familles de Ngũ Xã, village du cuivre bord du lac Trúc Bạch. Phở Cuốn Hương Mai (25 Ngũ Xã, Ba Đình) : 40 000–65 000 VND (~2–4 $CA).",
+    "poiRef": "pho-cuon-huong-mai",
+    "image": "d-pho-cuon-hanoi",
+    "type": "plat",
+    "region": "hanoi",
+    "story": "Le phở cuốn est né dans le quartier Ngũ Xã pour réutiliser les feuilles de riz fraîches sans les transformer en soupe — une invention locale des années 1990 qui a diffusé lentement. Les imitations utilisent des feuilles de riz du commerce, pas fraîches du matin : la différence de texture est immédiate, ferme vs mou. Hương Mai est une adresse de 3e génération dans son propre immeuble familial, dans le quartier originel du plat. La sauce maison n'est donnée à personne.",
+    "sources": [
+      {
+        "creator": "MyTour.vn",
+        "url": "https://mytour.vn/en/blog/bai-viet/top-4-best-pho-roll-spots-in-ngu-xa-hanoi-mytour.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "VietnamNet",
+        "url": "https://vietnamnet.vn/en/top-5-pho-cuon-spots-in-hanoi-that-locals-and-tourists-love-2391473.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "VietnamOnline Guide",
+        "url": "https://www.vietnamonline.com/restaurant/hanoi/pho-cuon-ngu-xa.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  },
+  {
+    "id": "bun-dau-mam-tom-hanoi",
+    "group": "Le carnet de bouche — Hanoi",
+    "base": "hanoi",
+    "title": "Bún đậu mắm tôm — tofu pané + pâte de crevettes",
+    "body": "Vermicelles de riz épais, tofu frit croustillant (đậu chiên), patê de porc (chả lụa), couenne de porc sautée — trempés dans un bol de mắm tôm (pâte de crevettes fermentées) au citron vert et piment. L'odeur forte de la sauce élimine naturellement les non-initiés. Bún Đậu Cây Đa (235B Thụy Khuê, Tây Hồ) : 50 000–100 000 VND/pers (~3–6 $CA). Rouvert post-Têt 2026.",
+    "image": "d-bun-dau-mam-tom-hanoi",
+    "type": "plat",
+    "region": "hanoi",
+    "story": "Le mắm tôm est la sauce la plus polarisante du Vietnam : une pâte de crevettes fermentées d'une intensité olfactive considérable. C'est exactement pourquoi le bún đậu est resté un plat local — les circuits touristiques l'évitent. Tây Hồ côté Thụy Khuê est résidentiel et non-touristique : la clientèle est locale et assume la sauce. Le tofu frit croustillant et la couenne de porc en font un repas complet, pas un simple snack.",
+    "sources": [
+      {
+        "creator": "MyTour.vn",
+        "url": "https://mytour.vn/en/blog/bai-viet/top-14-famous-bun-dau-mam-tom-restaurants-in-hanoi-mytour.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Hanoi By Locals",
+        "url": "https://hanoibylocals.com/hanoi-cuisine-bun-dau-mam-tom/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Motogo Tours Vietnam",
+        "url": "https://motogo.tours/bun-dau-mam-tom-in-hanoi-2083.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human"
+  }
+]

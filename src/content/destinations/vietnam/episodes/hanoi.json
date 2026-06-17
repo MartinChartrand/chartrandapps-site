@@ -1,0 +1,295 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "Le train de nuit — gare de Hà Nội, 5h45",
+      "body": "Le train de nuit de Đà Nẵng entre en gare à 5h45. Il fait froid pour le Vietnam — dix-huit degrés, brumeux, les trottoirs encore vides. Je connais déjà l'itinéraire : traverser le Vieux Quartier à pied, rejoindre Bát Đàn avant 7h, prendre la file. 49 Bát Đàn, c'est le phở du nord dans sa version orthodoxe — Michelin Bib Gourmand, ouvert avant que le tourisme se lève, fermé quand le chaudron est vide. Hanoi commence toujours par un bol.",
+      "focusPoi": "pho-gia-truyen-bat-dan",
+      "zoom": 16,
+      "targets": [
+        "pho-gia-truyen-bat-dan"
+      ],
+      "thumb": "hanoi-cover",
+      "thumbAlt": "Reflet du pont Thê Húc dans les eaux du lac Hoàn Kiếm, drapeaux colorés et feuillage — Hanoi",
+      "poiRef": "pho-gia-truyen-bat-dan",
+      "sources": [
+        {
+          "creator": "DanielFoodDiary",
+          "url": "https://danielfooddiary.com/2025/12/12/phogiatruyen/",
+          "date": "2025-12"
+        },
+        {
+          "creator": "Rusty Compass Vietnam",
+          "url": "https://www.rustycompass.com/vietnam-travel-guide-233/hanoi-5/eating-16/pho-gia-truyen-hanoi-1390",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Guide Michelin Vietnam",
+          "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/pho-gia-truyen",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "kicker": "Le terrain — Vieux Quartier, Ba Đình et la règle du bol",
+      "body": "Six nuits réparties entre le Vieux Quartier (Hoàn Kiếm) et Ba Đình. La logique : le phở et le bún chả sont au cœur des 36 rues, le café à l'œuf dans sa ruelle, le chả cá en solo rue Đường Thành. Ba Đình donne accès au pont Long Biên à l'aube, aux arches de Phùng Hưng le soir, et aux adresses hors-radar de la clientèle résidentielle. Hanoi n'est pas une ville qu'on visite — c'est une ville qu'on mange, quartier par quartier, matin par matin.",
+      "boundsPois": [
+        "pho-gia-truyen-bat-dan",
+        "bun-cha-dac-kim",
+        "cha-ca-thang-long",
+        "cafe-giang-ca-phe-trung",
+        "phung-hung-mural-street"
+      ],
+      "targets": [
+        "bun-cha-dac-kim"
+      ],
+      "thumb": "hanoi-cover",
+      "thumbAlt": "Reflet du pont Thê Húc dans les eaux du lac Hoàn Kiếm, drapeaux colorés et feuillage — Hanoi",
+      "sources": [
+        {
+          "creator": "Guide Michelin Vietnam",
+          "url": "https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/bun-cha-%C4%91ac-kim",
+          "date": "2025-01"
+        },
+        {
+          "creator": "GrantourismoTravels Hanoi long séjour",
+          "url": "https://grantourismotravels.com/our-hanoi-bia-hoi-guide/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "JackfruitAdventure",
+          "url": "https://jackfruitadventure.com/top-7-bun-cha-in-hanoi-where-locals-eat/",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-pho",
+      "kicker": "Bát Đàn · LE BOL",
+      "title": "Le phở du nord — douze heures d'os, zéro compromis",
+      "image": "scene-pho-hanoi",
+      "alt": "Bol de phở bò du nord — bouillon clair, lamelles de bœuf tái et nạm, coriandre longue, Hanoi (Unsplash à sourcer)",
+      "intro": "49 Bát Đàn, Hoàn Kiếm. La file commence avant l'ouverture. Pas de menu, pas de choix : on reçoit un bol, on s'assoit sur un tabouret en plastique, on mange. Le bouillon du nord est clair, non sucré, construit sur des os de bœuf mijotés douze heures — pas d'anis étoilé en excès, pas de germes de soja, pas de basilic. La guerre du phở Nord-Sud est réelle et ancienne. Hanoi considère les adaptations du sud — sucre, basilic, hoisin — comme des déviations. Phở Gia Truyền sert la version orthodoxe depuis des décennies, sans exception.",
+      "reco": "Phở Gia Truyền Bát Đàn, 49 Bát Đàn, Hoàn Kiếm — arriver avant 7h pour éviter la file ou la rupture de stock. Phở tái nạm : lamelles de flanc cuit + bœuf saignant versé à la louche bouillante. Condiments : vinaigre, piment et citron en table — ne pas toucher au hoisin. Service cash et direct. Fermeture dès que le chaudron est vide, parfois avant 10h. Budget : 50 000–60 000 VND (~3 $CA).",
+      "quote": "Le Michelin l'a trouvé. Il ne l'a pas créé.",
+      "poiRef": "pho-gia-truyen-bat-dan",
+      "via": null,
+      "sources": [
+        {
+          "creator": "DanielFoodDiary",
+          "url": "https://danielfooddiary.com/2025/12/12/phogiatruyen/",
+          "date": "2025-12"
+        },
+        {
+          "creator": "Rusty Compass Vietnam",
+          "url": "https://www.rustycompass.com/vietnam-travel-guide-233/hanoi-5/eating-16/pho-gia-truyen-hanoi-1390",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Guide Michelin Vietnam",
+          "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/pho-gia-truyen",
+          "date": "2025-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-bun-cha",
+      "kicker": "Hàng Mành · LE CHARBON",
+      "title": "Đắc Kim depuis 1965 — avant que l'Amérique arrive",
+      "image": "scene-bun-cha-hanoi",
+      "alt": "Assiette de bún (vermicelles de riz) avec viande de bœuf sauté, germes de soja et herbes fraîches sur table en bois sombre — restaurant vietnamien, Hanoi",
+      "intro": "1965 — avant le Đổi Mới, avant le boom touristique, avant qu'un président américain et Anthony Bourdain rendent le bún chả Instagram-célèbre. Đắc Kim est dans sa ruelle de Hàng Mành depuis avant tout ça. Michelin Selected (pas Bib), donc moins médiatisé que Hương Liên, donc la clientèle bureau-résidentielle qui s'y rend le midi est encore intacte. Les galettes de porc arrivent grillées à la commande, pas réchauffées — la fumée de charbon colle aux vêtements, le bouillon légèrement vinaigrette coupe le gras. À Ba Đình, Hàng Than, Bún Chả Tuyết grille aussi à la commande — croûte caramélisée différente, file plus courte.",
+      "reco": "Bún Chả Đắc Kim, Hàng Mành, Hoàn Kiếm — repas du midi, arriver entre 11h30 et 12h30. Commander le bún chả avec cha bao (boulettes enveloppées de feuille). Ne pas hésiter à partager la table. Budget : 40 000–60 000 VND (~2–3 $CA). Alt : Bún Chả Tuyết au 34 Hàng Than, Ba Đình, pour la version grillée à la commande avec moins de monde.",
+      "quote": "La fumée de charbon colle aux vêtements. Signe que c'est le bon endroit.",
+      "poiRef": "bun-cha-dac-kim",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Guide Michelin Vietnam",
+          "url": "https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/bun-cha-%C4%91ac-kim",
+          "date": "2025-01"
+        },
+        {
+          "creator": "JackfruitAdventure",
+          "url": "https://jackfruitadventure.com/top-7-bun-cha-in-hanoi-where-locals-eat/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Hanoi Times",
+          "url": "https://hanoitimes.vn/five-must-try-bun-cha-restaurants-in-hanoi-praised-by-michelin.874227.html",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-ca-phe",
+      "kicker": "Nguyễn Hữu Huân · LA CRÈME",
+      "title": "Café Giang — inventé dans la pénurie, perfectionné dans l'ombre",
+      "image": "scene-ca-phe-hanoi",
+      "alt": "Filtre à café phin posé sur un verre, deuxième verre de café au lait condensé, reflet d'un lac calme en fond de table — Hanoi",
+      "intro": "Nguyễn Văn Giang a inventé ce breuvage pendant la guerre, quand le lait manquait à Hanoi — il a remplacé par la crème montée d'un jaune d'œuf battu avec sucre et café. Le résultat tient du tiramisu liquide, servi dans un bol d'eau chaude pour garder la température. La ruelle Nguyễn Hữu Huân, au fond à gauche, dans l'obscurité : l'adresse filtre naturellement. Les cafés Instagram à trois fois le prix ont copié l'idée partout dans le Vieux Quartier. Giang reste à 35 000 VND sans WiFi rapide, sans déco Pinterest, sans enseigne lumineuse.",
+      "reco": "Café Giang, 39 Nguyễn Hữu Huân, Hoàn Kiếm — entrée en angle dans la ruelle, au fond. Commander le cà phê trứng nóng (chaud) — ne pas prendre la version froide pour une première fois, la crème change de texture. Servir lentement en remuant la crème dans le café chaud. Budget : 35 000 VND (~2 $CA). Éviter les copies en façade sur la rue principale.",
+      "quote": "35 000 VND. Pas un centime de plus depuis des décennies.",
+      "poiRef": "cafe-giang-ca-phe-trung",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Asiamystika Vietnam travel",
+          "url": "https://asiamystika.com/blog/cafe-giang",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Tom Henty's Travel",
+          "url": "https://www.tomhentystravel.co.uk/asia-1/cafe-giang-hanoi",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Fallon Travels",
+          "url": "https://fallontravels.com/blog/best-egg-coffee-hanoi-vietnamese-old-quarter-cafe",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-long-bien",
+      "kicker": "Long Biên · L'AUBE",
+      "title": "5h45 sur le pont — les motards, les fleurs, les trains",
+      "image": "scene-long-bien-hanoi",
+      "alt": "Pont ferroviaire Long Biên à l'aube — structure métallique de 1902, brume sur le fleuve Rouge, lumière rasante (Unsplash à sourcer)",
+      "intro": "1902, entreprise Eiffel — 1 700 mètres de métal riveté à la main sur le fleuve Rouge. Bombardé pendant la guerre, jamais complètement réparé, traversé quand même. L'aube est le vrai horaire : de 5h30 à 7h, des centaines de motards de banlieue entrent en ville, des femmes pédalent avec cinquante kilos de fleurs sur leur porte-bagage, les trains de banlieue passent à quarante centimètres des piétons sans ralentir. Sous le pont, côté est, les rampes descendent vers Bãi Giữa — dix-huit hectares de jardins cultivés sous les arches, la skyline de Hanoi disparaît en cinq minutes.",
+      "reco": "Pont Long Biên — arriver à pied depuis le Vieux Quartier avant 5h30 (20 min à pied depuis Hoàn Kiếm, ou Grab jusqu'au pied du pont). Se positionner côté fleuve face au nord, lumière levante à l'est. Descendre à Bãi Giữa par les rampes latérales côté Hoàn Kiếm après 7h quand la lumière monte. Prévoir 2h au total. Gratuit.",
+      "quote": "Les trains passent à quarante centimètres des piétons. Sans ralentir.",
+      "poiRef": "pont-long-bien",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Vietnam InFocus photo tours",
+          "url": "https://www.vietnaminfocus.com/day-tours/long-bien-sunrise/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Moment Lives photo travel blog",
+          "url": "https://www.momentlives.com/photography-blogs/best-things-to-photograph-in-hanoi-for-street-photographers/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Asiamystika Vietnam",
+          "url": "https://asiamystika.com/blog/long-bien-bridge",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-vieux-quartier",
+      "kicker": "Phùng Hưng · LES ARCHES",
+      "title": "Le Hanoi de 1950 peint sur les arches — la vie en dessous",
+      "image": "scene-vieux-quartier-hanoi",
+      "alt": "Reflet du lac Hoàn Kiếm au crépuscule dans l'eau calme, arbres sombres au premier plan, lumières de la ville inversées — Hanoi",
+      "intro": "Dix-sept fresques sur les arches du vieux chemin de fer : la rue Hàng Mã à l'automne, les 36 corporations, le grand magasin Tràng Tiền — le Hanoi de 1950. Financé par la Korea Foundation et UN-Habitat en 2017-2018, réalisé par des artistes locaux. Contrairement à Train Street — barrières, tickets, selfie-sticks —, Phùng Hưng reste habité : vendeurs sous les arches, gamins qui jouent, trains de banlieue qui passent parfois. En soirée, le coin de Đường Thành et Bát Đàn pour la bia hơi à 8 000 VND : les ouvriers du quartier après 18h, des tabourets en plastique, des cacahuètes grillées à l'ail.",
+      "reco": "Phùng Hưng, rue Phùng Hưng, Hoàn Kiếm — longer les arches depuis la rue Hàng Cót vers le sud, le soir en semaine (pas le weekend). Bia Hơi Ngọc Linh au coin de Đường Thành et Bát Đàn, ouvert ~16h jusqu'à épuisement : 8 000 VND le verre, cacahuètes incluses. Éviter Ta Hiện — zoo à touristes avec DJ set.",
+      "quote": "Train Street a des barrières et un ticket. Phùng Hưng a des vendeurs ambulants. C'est la différence.",
+      "poiRef": "phung-hung-mural-street",
+      "via": null,
+      "sources": [
+        {
+          "creator": "VOV World Vietnam",
+          "url": "https://vovworld.vn/en-US/discovery-vietnam/phung-hung-mural-street-features-old-hanoi-636404.vov",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Travel Hanoi Org",
+          "url": "https://travelhanoi.org/place/phung-hung-street-art/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Roy Tells Tales photo blog",
+          "url": "https://roytellstales.com/exploring-the-murals-at-hanois-art-street-vietnam-a-photo-blog/",
+          "date": "2023-01"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant le vol : le phở de Bát Đàn avant 7h, le bún chả de Đắc Kim fondé en 1965, le café à l'œuf de Giang à 35 000 VND, le chả cá sur réchaud de Thăng Long, la bia hơi à 8 000 VND au coin de Đường Thành, le bún ốc aigre-vinaigrette avant 14h, le phở cuốn de Ngũ Xã. Et l'aube sur le Long Biên — gratuite, sans ticket, la meilleure heure. Le carnet a les adresses, les liens et les prix.",
+      "boundsPois": [
+        "pho-gia-truyen-bat-dan",
+        "bun-cha-dac-kim",
+        "cha-ca-thang-long",
+        "cafe-giang-ca-phe-trung",
+        "bun-cha-tuyet-hang-than",
+        "pho-ga-156-quan-thanh",
+        "pho-cuon-huong-mai",
+        "pont-long-bien"
+      ],
+      "targets": [
+        "pho-gia-truyen-bat-dan"
+      ],
+      "thumb": "montage-hanoi-thumb",
+      "thumbAlt": "Reflet d'un bâtiment colonial jaune inversé dans une flaque d'eau — architecture française coloniale, Hanoi",
+      "pills": [
+        {
+          "poiRef": "pho-gia-truyen-bat-dan",
+          "link": "maps",
+          "label": "Phở Gia Truyền Bát Đàn (Michelin Bib) · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "DanielFoodDiary",
+          "url": "https://danielfooddiary.com/2025/12/12/phogiatruyen/",
+          "date": "2025-12"
+        },
+        {
+          "creator": "JackfruitAdventure",
+          "url": "https://jackfruitadventure.com/top-7-bun-cha-in-hanoi-where-locals-eat/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "GrantourismoTravels Hanoi long séjour",
+          "url": "https://grantourismotravels.com/our-hanoi-bia-hoi-guide/",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "Hanowood Homestay, 6 chambres calmes près de l'Opéra — thé à l'arrivée, hôtes qui connaissent chaque ruelle, le prix d'un hostel avec l'âme d'une maison. Chip's House à Ba Đình pour une terrasse avec vue partielle sur le lac de l'Ouest, les cours de nems spontanés de la famille Loan, et l'accès direct au quartier résidentiel."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "La règle : manger tôt ou rater le coche. Le phở de Bát Đàn ferme quand le chaudron est vide — parfois avant 10h. Le bún ốc Cô Huệ ferme à 14h. La bia hơi Ngọc Linh ferme à épuisement. Tout ce que Hanoi mange vite n'attend pas. À Ba Đình, phở gà 156 Quán Thánh pour le bouillon de poulet du nord avec son quẩy croustillant, avant 8h, clientèle de résidents du quartier."
+      },
+      {
+        "label": "À voir et à vivre",
+        "kinds": [
+          "sight"
+        ],
+        "footer": "Le pont Long Biên à 5h30 — pas à 9h. Bãi Giữa par les rampes latérales côté Hoàn Kiếm après la marche sur le pont. Phùng Hưng un soir de semaine, pas un weekend. Pour une demi-journée libre : Làng Đa Sỹ les forgerons (600 ans de couteaux) ou Làng lụa Vạn Phúc la soie, 30 min en scooter vers le sud de Hà Đông — les deux se combinent."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites de Hanoi"
+  },
+  "outro": {
+    "kicker": "Hanoi, c'est fait",
+    "body": "Six nuits, {count} adresses. Le phở du nord droit comme une flèche, le charbon de Đắc Kim depuis 1965, la crème de Giang à 35 000 VND, l'aube sur le Long Biên, l'île sous le pont. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Le vol de Nội Bài vers Montréal. Fin du voyage.",
+    "nextLabel": "← Retour au survol",
+    "nextHref": "/vietnam/"
+  }
+}

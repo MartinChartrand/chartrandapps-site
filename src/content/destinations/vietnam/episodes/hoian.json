@@ -1,0 +1,278 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "L'ancrage — île de Cẩm Kim, pas la vieille ville",
+      "body": "Cinquième fois à Hội An. Cette fois, je traverse le pont Cẩm Kim et je ne reviens pas. L'île est à 2 km de la vieille ville mais personne n'y dépasse 10h du matin organisé — les tours s'arrêtent aux quais de démonstration, les ateliers actifs sont éparpillés sur les chemins de terre. Je dors ici. Tuân et son mari connaissent chaque artisan et chaque chemin de l'île. Le matin : leur petit-déjeuner, le vélo, les copeaux de bois dans l'air des ateliers de Kim Bồng. L'ambiance de la vieille ville reste de l'autre côté de la rivière.",
+      "focusPoi": "new-destination-homestay",
+      "zoom": 14,
+      "targets": [
+        "new-destination-homestay",
+        "gio-chieu-homestay"
+      ],
+      "thumb": "hoian-36",
+      "thumbAlt": "Île de Cẩm Kim — rizières et chemin de terre entre les champs, arrière-pays de Hội An",
+      "poiRef": "new-destination-homestay",
+      "sources": [
+        {
+          "creator": "Hoi An Day Trip",
+          "url": "https://hoiandaytrip.com/cam-kim-island-hoi-an-vietnam/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Culture Pham Travel",
+          "url": "https://culturephamtravel.com/cam-kim-island/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Ostrich Trails cycling guide",
+          "url": "https://www.ostrichtrails.com/asia/vietnam/hoi-an-cam-kim-cycling/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "kicker": "Le plan — Da Nang avant 8h",
+      "body": "Da Nang est à 30 km au nord. Pas un détour — une destination en soi, mais seulement le matin. La vraie bouffe de la ville opère dans un créneau de 4 heures : 6h à 10h, quartiers résidentiels de Hải Châu et Thạch Thang, zéro signalétique touristique. Le Michelin Bib Gourmand 2024 a confirmé ce que les locaux savaient depuis des décennies. Les bols coûtent entre 25 000 et 30 000 VND. Sold-out avant 10h. Le plan : partir de Cẩm Kim à 6h, bols, revenir à Hội An pour 10h30. Recommencer.",
+      "focusPoi": "cho-con-petit-dej",
+      "zoom": 13,
+      "targets": [
+        "cho-con-petit-dej"
+      ],
+      "thumb": "hoian-30",
+      "thumbAlt": "Bol de bún chả cá — galettes de poisson dans bouillon vermicelles de riz, Da Nang",
+      "poiRef": "cho-con-petit-dej",
+      "sources": [
+        {
+          "creator": "Danang Journey",
+          "url": "https://danangjourney.com/bun-cha-ca-da-nang/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Michelin Guide Vietnam 2024",
+          "url": "https://guide.michelin.com/vn/en/article/news-and-views/the-michelin-guide-da-nang-vietnam",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Saigoneer (Hẻm Gems Da Nang)",
+          "url": "https://saigoneer.com/vietnam-street-food-restaurants/25946-h%E1%BA%BBm-gems-in-%C4%91%C3%A0-n%E1%BA%B5ng,-d%C3%AC-g%C3%A1i-s-b%C3%BAn-ch%E1%BA%A3-c%C3%A1-is-a-family-heirloom",
+          "date": "2023-06"
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-bun-cha-ca",
+      "kicker": "Hải Châu · LE BOL",
+      "title": "Le bún chả cá — 300 bols par jour, sold-out avant 10h",
+      "image": "hoian-30",
+      "alt": "Bol de bún chả cá — galettes de poisson dans bouillon vermicelles de riz, Da Nang",
+      "intro": "À Da Nang, le bún chả cá est un plat du matin. Les pêcheurs le mangent avant l'aube, les travailleurs vers 7h, les familles avant 9h — et c'est terminé. Le bouillon est clair mais profond, cuit sur les arêtes de poisson toute la nuit. Les galettes (chả cá) sont moulées et frites maison — une texture ferme-élastique sans aucun rapport avec les versions industrielles. Bà Hoa, Michelin Bib Gourmand 2024 : 300 bols par jour à 25 000–30 000 VND, 109 Nguyễn Chí Thanh. Dì Gái, 50 ans d'existence, Saigoneer la documente comme un 'family heirloom' : recette transmise, 500 bols les vendredis, sold-out avant 9h. Deux adresses. Deux matins. Le prix plancher est un marqueur de clientèle : aucun touriste ne cherche un restaurant à 1,65 $CA.",
+      "reco": "Bà Hoa : 109 Nguyễn Chí Thanh, Hải Châu — arriver avant 7h30, commander le bol standard. Dì Gái : 119 Lê Đình Dương, Hải Châu — réserver le vendredi, arriver à 6h15. Les deux adresses n'ont aucun menu anglais : pointer vers le bol de la table voisine. Le Chợ Cồn à 290 Hùng Vương pour compléter le circuit petit-déjeuner : bánh bèo, bánh căn, bánh bột lọc, 20 000 VND par plat, tables partagées avec les locaux qui font leurs courses.",
+      "quote": "Le plat de la ville coûte 25 000 VND et il n'existe plus après 10h du matin.",
+      "poiRef": "bun-cha-ca-ba-hoa",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Danang Journey",
+          "url": "https://danangjourney.com/bun-cha-ca-da-nang/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Michelin Guide Vietnam 2024",
+          "url": "https://guide.michelin.com/vn/en/article/news-and-views/the-michelin-guide-da-nang-vietnam",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Saigoneer (Hẻm Gems Da Nang)",
+          "url": "https://saigoneer.com/vietnam-street-food-restaurants/25946-h%E1%BA%BBm-gems-in-%C4%91%C3%A0-n%E1%BA%B5ng,-d%C3%AC-g%C3%A1i-s-b%C3%BAn-ch%E1%BA%A3-c%C3%A1-is-a-family-heirloom",
+          "date": "2023-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-banh-xeo-ruelle",
+      "kicker": "Bình Hiên · LA RUELLE",
+      "title": "Bánh xèo Bà Dưỡng — 31 ans dans une ruelle qu'on rate si on regarde pas",
+      "image": "hoian-27",
+      "alt": "Bánh xèo du Centre-Vietnam — crêpe de riz fine et croustillante servie avec herbes fraîches",
+      "intro": "La ruelle du 280/23 Hoàng Diệu se voit pas depuis la rue. Bà Dưỡng fait grésiller ses crêpes dans l'huile depuis 31 ans — jaunes vif, fines comme du parchemin, farcies de crevettes, avec un nem lụi (brochette porc-lemongrass) grillé sur charbon à côté. La version centre-vietnam est différente du Sud : moins chargée, le curcuma moins présent, la texture d'une chips. Michelin Guide Da Nang 2024. La file locale existait bien avant. À midi en semaine : 25 minutes d'attente. À Thanh Khê, Năm Hiền (46 Phan Thanh, Michelin 2024-2025) pousse la chose encore plus loin avec le tôm nhảy — des crevettes de rivière encore vivantes au moment de la cuisson. Disponible selon la saison.",
+      "reco": "Bánh xèo Bà Dưỡng : 280/23 Hoàng Diệu, Bình Hiên — y aller avant midi ou après 13h30 pour éviter la file. Commander la crêpe + nem lụi. Couper en morceaux, enrouler dans une feuille de moutarde avec des herbes, tremper dans le nước chấm. Bánh xèo Năm Hiền : 46 Phan Thanh, Thanh Khê — vérifier à l'arrivée si le tôm nhảy est en saison (février-mars : habituellement oui).",
+      "quote": "31 ans de maîtrise, fine comme un Kleenex, croustillante comme une chips.",
+      "poiRef": "banh-xeo-ba-duong",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Visit Da Nang",
+          "url": "https://visitdanang.travel/vi/banh-xeo-ba-duong-da-nang-huong-vi-30-nam-kho-quen",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Michelin Guide (Da Nang)",
+          "url": "https://guide.michelin.com/jp/ja/da-nang-region/da-nang_2984390/restaurant/banh-xeo-ba-duong",
+          "date": "2024-03"
+        },
+        {
+          "creator": "We3Travel",
+          "url": "https://we3travel.com/skip-these-3-tourist-traps-10-authentic-street-foods-you-must-try-in-da-nang-vietnam/",
+          "date": "2024-06"
+        }
+      ]
+    },
+    {
+      "id": "scene-cam-kim",
+      "kicker": "Cẩm Kim · LES ATELIERS",
+      "title": "L'île des artisans — copeaux dans l'air, pêcheurs sur les canaux",
+      "image": "hoian-36",
+      "alt": "Île de Cẩm Kim — rizières et chemin de terre entre les champs, arrière-pays de Hội An",
+      "intro": "L'île Cẩm Kim est à 2 km de la vieille ville de Hội An mais elle n'est pas dans le circuit. Les tour-operators existent mais se concentrent sur les ateliers de démonstration du bord de quai — les ateliers familiaux actifs sont éparpillés sur les chemins de terre. Dans les ateliers de Kim Bồng au nord, on travaille du bois de jaquier et d'acajou pour des bateaux en bois traditionnels depuis cinq siècles : copeaux sur le sol, sciure dans l'air, bruit des rabots. À Trà Nhiêu côté est : pêcheurs qui réparent leurs filets au bord du canal, cocotiers d'eau, silence. Entre les deux : rizières actives, jardins maraîchers, zéro infrastructure touristique. Village Thanh Hà, à 3 km à l'ouest de la vieille ville, en bonus : des artisans en production commerciale depuis le 15e siècle, le tour à pied, les mains dans l'argile.",
+      "reco": "Boucle DIY à vélo depuis Cẩm Kim : pont Cẩm Kim sur Hùng Vương ou traversier gratuit avec vélo depuis le quai Bạch Đằng (~30 min). Kim Bồng (nord) — arriver avant 8h quand les artisans travaillent réellement, pas en mode démo. Trà Nhiêu (est) — pêcheurs, canaux, cocotiers. Thanh Hà : 3 km à l'ouest de la vieille ville, 35 000 VND d'entrée (~2 $CA), atelier argile 150 000 VND (~8,30 $CA), accès vélo 20 min.",
+      "quote": "Si tu traverses seul par le pont, l'île reste presque vide d'étrangers.",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Hoi An Day Trip",
+          "url": "https://hoiandaytrip.com/cam-kim-island-hoi-an-vietnam/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Culture Pham Travel",
+          "url": "https://culturephamtravel.com/cam-kim-island/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Ostrich Trails cycling guide",
+          "url": "https://www.ostrichtrails.com/asia/vietnam/hoi-an-cam-kim-cycling/",
+          "date": "2024-01"
+        }
+      ]
+    },
+    {
+      "id": "scene-goi-ca-nam-o",
+      "kicker": "Nam Ô · LE CEVICHE",
+      "title": "Gỏi cá — une recette centenaire qui ne voyage pas",
+      "image": "hoian-31",
+      "alt": "Gỏi cá — poisson cru mariné avec légumes de forêt et herbes fraîches, village de Nam Ô",
+      "intro": "Nam Ô est à 30 km scooter du centre de Da Nang — et cette distance est volontaire. Le gỏi cá qui voyage (vers les restos du centre-ville) a déjà perdu : le poisson n'est plus à la même fraîcheur, les herbes ne sont plus les mêmes, la sauce pimentée maison est remplacée par une version commerciale. L'originale, chez Gỏi Cá Thanh Hương (1029 Nguyễn Lương Bằng, Hòa Hiệp Nam), utilise un maquereau pêché le matin, du jus de carambole fraîchement pressé et des feuilles de forêt que les femmes du village ramassent elles-mêmes. Le résultat : acide, frais, légèrement piquant. La recette a plus de 100 ans. À 200 mètres : le récif de mousse verte fluo de Nam Ô (visible à marée basse, meilleur février-avril au lever du soleil) et le village de nuoc-mâm — 400 ans de production ininterrompue, centaines de jarres de 500 litres qui fermentent à l'air libre.",
+      "reco": "Gỏi Cá Thanh Hương : 1029 Nguyễn Lương Bằng, Hòa Hiệp Nam, district Liên Chiểu — compter 70 000–90 000 VND (~3,90–5,00 $CA) le plat. Y aller à midi. Combiner avec le récif de Nam Ô (200 m à pied, marée basse tôt matin en février) et le village nuoc-mâm (visite libre). Prévoir la journée entière.",
+      "quote": "Nam Ô est à 30 km de Da Nang — et cette distance est volontaire.",
+      "poiRef": "goi-ca-nam-o",
+      "via": null,
+      "sources": [
+        {
+          "creator": "VietnamNet",
+          "url": "https://vietnamnet.vn/en/nam-o-fish-salad-a-must-try-dish-of-da-nang-2117823.html",
+          "date": "2023-01"
+        },
+        {
+          "creator": "We3Travel",
+          "url": "https://we3travel.com/skip-these-3-tourist-traps-10-authentic-street-foods-you-must-try-in-da-nang-vietnam/",
+          "date": "2024-06"
+        },
+        {
+          "creator": "Not Quite Nigella",
+          "url": "https://www.notquitenigella.com/2026/04/04/da-nang-food-restaurant/",
+          "date": "2026-04"
+        }
+      ]
+    },
+    {
+      "id": "scene-plages",
+      "kicker": "Côte · L'EAU",
+      "title": "Les plages du second cercle — avant les foules et après le circuit",
+      "image": "hoian-r41",
+      "alt": "Bãi Rạng — côte rocheuse de la péninsule Son Trà avec eau bleu-vert et rochers dentelés",
+      "intro": "Trois plages pour ceux qui ont déjà vu An Bàng. Hà My : 4 km de sable blanc au nord d'An Bàng, jouxtant un hameau de pêcheurs actif — les barques-paniers (thuyền thúng) tirées au sec le matin, quasiment aucun étranger en semaine, stand de fruits de mer familial côté route. Bãi Tắm : 600 mètres de sable en croissant accessible uniquement par une piste en terre dans les casuarinas — aucun panneau officiel, juste une vieille planche de bois avec une flèche, deux cabanes de fruits de mer, source d'eau douce à marée basse. Bãi Rạng : côte nord de la péninsule Son Trà, 14 km de Da Nang — rochers dentelés qui sortent de l'eau à marée basse, eau bleu-vert intense, familles locales uniquement en semaine. La règle des trois : toutes avant 9h, toutes sans ticket.",
+      "reco": "Hà My : route Lạc Long Quân vers le nord depuis An Bàng, ~7 km de Hội An (15 min scooter). Bãi Tắm : Lạc Long Quân vers le nord (~4 km), chercher la planche de bois avec une flèche à droite, 200 m de piste en terre dans les casuarinas. Bãi Rạng : GPS 16°06′20.0″N 108°18′01.5″E, péninsule Son Trà — NE PAS prendre la montée vers la statue, virage à droite en descente côté nord.",
+      "quote": "Le personnel des restaurants d'An Bàng vient ici les jours de congé.",
+      "via": null,
+      "sources": [
+        {
+          "creator": "Nghe Villa (guide plages cachées Hội An)",
+          "url": "https://www.nghevilla.com/en/blog/hidden-beaches-near-hoi-an",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Hoi An Day Trip",
+          "url": "https://hoiandaytrip.com/bai-rang-beach-da-nang/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Hoi An Scooters Rental",
+          "url": "https://hoianscootersrental.com/hidden-beaches-in-hoi-an/",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "Le carnet de bouche",
+      "body": "Avant de filer vers Quy Nhơn : les bols à 25 000 VND de Bà Hoa et Dì Gái à Da Nang, les crêpes de Bà Dưỡng dans la ruelle de Bình Hiên, le gỏi cá centenaire de Nam Ô, les ateliers de Cẩm Kim et les plages que personne dans les circuits n'a vues. Les {count} adresses du chapitre — où dormir, où manger, où nager — vivent dans le carnet, avec leurs liens, leurs prix et le budget complet.",
+      "boundsPois": [
+        "cho-con-petit-dej",
+        "new-destination-homestay",
+        "gio-chieu-homestay"
+      ],
+      "targets": [
+        "cho-con-petit-dej"
+      ],
+      "thumb": "hoian-45",
+      "thumbAlt": "Plage de Hà My — sable blanc avec barques-paniers de pêcheurs tirées au sec",
+      "pills": [
+        {
+          "poiRef": "bun-cha-ca-ba-hoa",
+          "link": "maps",
+          "label": "Bún chả cá Bà Hoa (Michelin Bib 2024) · Maps"
+        },
+        {
+          "label": "Le carnet de bouche",
+          "url": "#carnet"
+        }
+      ],
+      "sources": [
+        {
+          "creator": "Danang Journey",
+          "url": "https://danangjourney.com/bun-cha-ca-da-nang/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Michelin Guide Vietnam 2024",
+          "url": "https://guide.michelin.com/vn/en/article/news-and-views/the-michelin-guide-da-nang-vietnam",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Nghe Villa (guide plages cachées Hội An)",
+          "url": "https://www.nghevilla.com/en/blog/hidden-beaches-near-hoi-an",
+          "date": "2024-01"
+        }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Où dormir",
+        "kinds": [
+          "hotel"
+        ],
+        "footer": "Sur l'île de Cẩm Kim : New Destination Homestay (6 chambres, hôte Tuân sur place, petit-déjeuner inclus, ~11–14 $CA) ou Gió Chiều Homestay (5 chambres côté rivière, piscine, vue Thu Bồn, ~18–25 $CA). À An Bang pour un accès direct à la plage : Tan Thanh Garden Homestay (7 chambres, jardin tropical, ~38–61 $CA). Réserver à l'avance en haute saison de février."
+      },
+      {
+        "label": "À table",
+        "kinds": [
+          "resto"
+        ],
+        "footer": "Le circuit Da Nang : Bà Hoa (bún chả cá, Michelin Bib 2024, 25 000 VND, sold-out avant 10h), Dì Gái (bún chả cá 50 ans d'existence, 30 000 VND, sold-out avant 9h les vendredis), Bà Dưỡng (bánh xèo Michelin dans la ruelle de Bình Hiên, 50 000–80 000 VND). Le grand écart : Gỏi Cá Thanh Hương à Nam Ô pour le ceviche centenaire (70 000–90 000 VND). À Hội An même : mì quảng chez Ông Hai à Cẩm Châu (15 000–40 000 VND, menu viet seulement). Le Chợ Cồn à Da Nang pour le circuit petit-déjeuner (20 000–50 000 VND par plat). Bánh tráng cuốn thịt heo chez Bà Mụa (50 000–65 000 VND). Cà phê muối chez Cà Phê Muối Huế sur Đống Đa (25 000 VND) avant de reprendre la route."
+      }
+    ],
+    "dishesTitle": "Le carnet de bouche",
+    "gemsTitle": "Pépites locales"
+  },
+  "outro": {
+    "kicker": "Hội An & Da Nang, c'est fait",
+    "body": "Dix nuits. Le matin pour les bols, l'après-midi pour l'île, l'eau pour décompresser. Les {count} adresses du chapitre — où dormir, où manger, où nager, quoi découvrir — vivent dans le carnet, avec leurs liens, leurs prix et le budget complet. L'épisode, c'est l'apéro ; le carnet, c'est l'outil. Prochain arrêt : Hanoï.",
+    "nextLabel": "Suite — Hanoï",
+    "nextHref": "/vietnam/hanoi/"
+  }
+}

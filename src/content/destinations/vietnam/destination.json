@@ -1,0 +1,118 @@
+{
+  "slug": "vietnam",
+  "pageTitle": "Vietnam — Février-Mars 2027 · Itinéraire de voyage",
+  "heroTitle": {
+    "main": "Vietnam",
+    "em": "février"
+  },
+  "heroSub": "Du sud au nord — la rue, le bouillon et la mer",
+  "subtitle": "Du sud au nord — la rue, le bouillon et la mer",
+  "season": "Février–Mars 2027",
+  "travelers": {
+    "count": 1,
+    "label": "Voyage solo"
+  },
+  "arrival": {
+    "date": "2027-02-13",
+    "airport": "SGN",
+    "city": "Hô Chi Minh-Ville"
+  },
+  "departure": {
+    "date": "2027-03-14",
+    "airport": "HAN",
+    "city": "Hanoi"
+  },
+  "theme": {
+    "favicon": "🍜",
+    "palette": "vietnam"
+  },
+  "hero": {
+    "image": "hero",
+    "label": "Itinéraire · Voyage solo"
+  },
+  "overviewKicker": "Logique du voyage",
+  "overviewTitle": "Quatre escales, du sud au nord par la table",
+  "overviewIntro": "Je commence par Saigon — la ville-choc, les ruelles, la bouffe de rue — puis je descends sur la côte tranquille de Quy Nhơn. Je m'ancre dix nuits à Hội An et Đà Nẵng, le centre que je connais par cœur mais que je reprends par sa porte de derrière, et je finis par Hanoi et le nord. Du sud au nord, en vols courts, trains côtiers et scooter local. Je bouge le moins possible, je m'attable le plus possible.",
+  "intro": {
+    "whySeason": {
+      "title": "Pourquoi février-mars",
+      "body": "Après le Têt (6 février 2027), quand les transports se replacent et les prix retombent. Saison sèche d'un bout à l'autre : le sud lumineux, le centre clair, le nord frais et brumeux — la lumière douce que j'aime pour la photo, et la mer calme sur la côte centrale."
+    },
+    "logistics": {
+      "title": "Logistique de base",
+      "body": "Vol Montréal → Bangkok pour décompresser du décalage, puis entrée à Saigon et remontée du pays jusqu'à Hanoi en billet open-jaw. E-visa 90 jours. Scooter local seulement à Quy Nhơn et Hội An, hors autoroute. Budget total estimé : ~5 500 $ CAD."
+    }
+  },
+  "footerNote": "Itinéraire préparé avec soin · Vietnam, février-mars 2027",
+  "episodic": true,
+  "chapterTotal": 4,
+  "container": {
+    "hookKicker": "Un mois · du delta du Mékong au fleuve Rouge · le bouillon, le grill, l'herbe fraîche",
+    "hookTitle": "Du sud au nord, c'est le bol qui raconte le pays — pis la rue qui le sert.",
+    "hookBody": "Le Vietnam, je le connais déjà — Hội An, je l'ai faite cinq fois. Mais cette fois je descends en-dessous de ce que j'ai vu. Le fil conducteur, c'est le bol : le phở au nord, le bún partout, le mì Quảng du centre, le cơm tấm du sud — et la rue qui le sert, à 6h du matin sur un tabouret en plastique. Je commence par Saigon qui grouille, les hẻm et les escargots de la rue Vĩnh Khánh à la nuit tombée. Je descends sur la côte de Quy Nhơn que personne regarde : le bánh xèo aux crevettes encore vivantes, le poisson qui sort du quai à 15h, des criques sans un touriste. À Hội An, j'évite la vieille ville que je connais par cœur — je prends le vélo vers les rizières de Cẩm Kim, j'arrive au marché aux poissons à 4h30 quand la lumière tape sur les barques. Et je finis par Hanoi : le bouillon du nord, le café à l'œuf, l'aube sur le pont Long Biên. Pas une course. Le bol décide, la mer met la table, pis je suis.",
+    "hookImage": "hero",
+    "sources": [
+      {
+        "creator": "Mark Wiens — Migrationology",
+        "url": "https://migrationology.com/bun-mam-saigon/",
+        "date": "2018-01"
+      },
+      {
+        "creator": "Saigoneer — Hẻm Gems (Sủi Cảo Street)",
+        "url": "https://saigoneer.com/saigon-street-food-restaurants/7003-h%E1%BA%BBm-gems-saigon-s-s%E1%BB%A7i-c%E1%BA%A3o-street",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Vietcetera — Quy Nhơn local food",
+        "url": "https://vietcetera.com/en/local-food-specialties-in-quy-nhon-and-where-to-try-them",
+        "date": "2023-01"
+      },
+      {
+        "creator": "MICHELIN Guide — Bánh Xèo Bà Dưỡng (Đà Nẵng)",
+        "url": "https://guide.michelin.com/jp/ja/da-nang-region/da-nang_2984390/restaurant/banh-xeo-ba-duong",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Saigoneer — Hẻm Gems (Bún Ốc Cô Huệ, Hanoi)",
+        "url": "https://saigoneer.com/hanoi-street-food-restaurants/21648-h%E1%BA%BBm-gems-piquant-broth-and-tangy-snails-at-bun-oc-co-hue",
+        "date": "2023-01"
+      },
+      {
+        "creator": "MICHELIN Guide — Phở Gia Truyền (Hanoi)",
+        "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/pho-gia-truyen",
+        "date": "2024-01"
+      }
+    ],
+    "tilesIntro": "Saigon pour le choc et la rue, Quy Nhơn pour la côte tranquille, Hội An pour la campagne en-dessous des cartes postales, Hanoi pour le bouillon du nord — du sud au nord, en suivant la table.",
+    "tiles": [
+      {
+        "base": "saigon",
+        "kicker": "Chapitre 1 · 6 nuits",
+        "title": "Le sud qui grouille",
+        "teaser": "Les hẻm cachés, les escargots de Vĩnh Khánh à la nuit tombée, le cơm tấm grillé sur charbon — l'énergie de Saigon avant de descendre au calme.",
+        "image": "saigon-cover"
+      },
+      {
+        "base": "quynhon",
+        "kicker": "Chapitre 2 · 7 nuits",
+        "title": "La côte que personne regarde",
+        "teaser": "Le bánh xèo aux crevettes encore vivantes, le poisson du quai à 15h, les criques de Bình Định sans touristes. Slow travel sur le sable.",
+        "image": "quynhon-cover"
+      },
+      {
+        "base": "hoian",
+        "kicker": "Chapitre 3 · 10 nuits",
+        "title": "Le 2e cercle de Hội An",
+        "teaser": "Pas la vieille ville que je connais par cœur — les rizières de Cẩm Kim à vélo, le marché aux poissons à 4h30, la bouffe de quartier de Đà Nẵng.",
+        "image": "hoian-cover"
+      },
+      {
+        "base": "hanoi",
+        "kicker": "Chapitre 4 · 6 nuits",
+        "title": "Le nord, le bouillon, le pont",
+        "teaser": "Le phở de Bát Đàn, le bún chả grillé sur braises, le café à l'œuf, l'aube sur le pont Long Biên. Finir par le fleuve Rouge.",
+        "image": "hanoi-cover"
+      }
+    ]
+  }
+}

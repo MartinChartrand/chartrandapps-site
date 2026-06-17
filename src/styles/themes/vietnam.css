@@ -1,0 +1,18 @@
+/* Thème Vietnam — ARCHITECTURE §4 : une destination = données + ~40 lignes CSS */
+/* Signature Vietnam : jaune ocre des façades coloniales (Hội An/Hanoi), vert laque/rizière, */
+/* terracotta des lanternes, turquoise des criques, crème chaude */
+
+[data-theme="vietnam"] {
+  --terre: #C0492B;        /* terracotta — lanternes, tuiles, brique latéritique */
+  --sand: #F3E9D6;         /* sable crème */
+  --deep: #15302A;         /* vert laque profond — hero + titres (rizière à l'ombre, laque) */
+  --mer: #149E97;          /* turquoise signature des criques */
+  --mer-light: #D8F0ED;    /* aqua clair */
+  --text: #1E2420;         /* texte principal — presque noir verdâtre */
+  --muted: #64706A;        /* texte secondaire */
+  --border: rgba(30, 36, 32, 0.10);
+  --accent: #D5612C;       /* rouge-orangé laque / piment — hover, underlines */
+  --bg: #FBF6EC;           /* background global — crème chaude */
+  --white: #FFFFFF;
+  --gold: #E0A02E;         /* jaune ocre des façades coloniales — 3e couleur signature */
+}

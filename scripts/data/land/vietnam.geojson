@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              105.5,
+              10.3
+            ],
+            [
+              109.7,
+              10.3
+            ],
+            [
+              109.7,
+              21.3
+            ],
+            [
+              105.5,
+              21.3
+            ],
+            [
+              105.5,
+              10.3
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "vietnam",
+        "note": "Polygone bbox approximatif — remplacer par un landmask OSM précis si besoin."
+      }
+    }
+  ]
+}

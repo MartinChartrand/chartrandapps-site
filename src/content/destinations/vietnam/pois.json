@@ -1,0 +1,2910 @@
+[
+  {
+    "id": "oc-vinh-khanh",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": null,
+    "name": "Rue Ốc Vĩnh Khánh — District 4",
+    "blurb": "Un kilomètre de tabourets en plastique, de fruits de mer grillés et d'ốc sautés au lait de coco — la rue où Ốc Oanh a décroché une étoile Michelin 2025 sans rien changer.",
+    "signature": "Ốc len xào dừa — escargots de mangrove sautés au lait de coco",
+    "image": "saigon-oc-nuit",
+    "price": {
+      "range": "50 000–100 000 VND/plat (~3–6 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 10.7637244,
+      "lng": 106.7016934,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Vinh+Khanh+street+seafood+District+4+Ho+Chi+Minh+City"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "La rue Vĩnh Khánh c'est une chose simple : du tabouret, de la bière fraîche, et tout ce que la mer donne à Saigon. De Ben Van Don à Ton Dan, un kilomètre de stands qui existent pour eux-mêmes — pas pour les circuits. Ốc Oanh au #534 a décroché une étoile Michelin 2025 sans rien changer à ses méthodes. Time Out l'a nommée parmi les dix meilleures rues de street food au monde. Les Saïgonnais s'en foutent — ils étaient là bien avant, et ils continuent.",
+    "sources": [
+      {
+        "creator": "Rusty Compass Vietnam",
+        "url": "https://www.rustycompass.com/vietnam-travel-guide-233/ho-chi-minh-city-4/eating-16/vinh-khanh-local-seafood-strip-saigon-1457",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vespa Adventures Saigon",
+        "url": "https://www.vespaadventures.com/where-to-find-the-best-snail-and-seafood-restaurants-in-saigon",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Streatery — Seafood Street D4",
+        "url": "https://streatery.net/seafood-street-d4/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Saigon Vibes",
+        "url": "https://saigonvibes.com/foods/the-10-best-snails-restaurant-in-ho-chi-minh-city/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "com-tam-ba-ghien",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Cơm Tấm Ba Ghiền",
+    "blurb": "Côtelette grillée au charbon, riz brisé saïgonnais, 95% de clientèle locale à Phú Nhuận — le seul cơm tấm Bib Gourmand Michelin au Vietnam.",
+    "signature": "Cơm tấm sườn nướng — côtelette grillée au charbon sur riz brisé",
+    "image": null,
+    "price": {
+      "range": "75 000–120 000 VND (~4–7 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 10.7921753,
+      "lng": 106.667854,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": "https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/com-tam-ba-ghien",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Com+Tam+Ba+Ghien+84+Dang+Van+Ngu+Phu+Nhuan+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "84 Đặng Văn Ngữ, Phú Nhuận — le quartier résidentiel que personne ne visite. Ba Ghiền existe depuis les années 90, et les ouvriers du coin s'y retrouvent encore à l'heure du lunch dans une file de locaux qui avance lentement et ne proteste pas. Michelin les a trouvés, Bib Gourmand 2023. La clientèle ne sait pas, ne change pas. La côtelette grillée au charbon reste la même.",
+    "sources": [
+      {
+        "creator": "Michelin Guide HCM",
+        "url": "https://guide.michelin.com/en/ho-chi-minh/ho-chi-minh_2978179/restaurant/com-tam-ba-ghien",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Saigon Vibes",
+        "url": "https://saigonvibes.com/foods/the-10-best-com-tam-restaurants-in-ho-chi-minh-city/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Impress Travel",
+        "url": "https://impresstravel.com/top-com-tam-spots-for-ho-chi-minh-city-tour-foodies/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "banh-mi-huynh-hoa",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh Mì Huynh Hoa",
+    "blurb": "Institution depuis 1989, District 1 — le bánh mì à beurre maximal, garniture débordante, file de 20 minutes de Saïgonnais qui assument le prix premium.",
+    "signature": "Bánh mì đặc biệt — garniture maximale, beurre généreux, ouvert 14h–23h",
+    "image": null,
+    "price": {
+      "range": "62 000 VND (~3,50 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Banh+Mi+Huynh+Hoa+26+Le+Thi+Rieng+District+1+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "26 Lê Thị Riêng, Phạm Ngũ Lão — depuis 1989. La file démarre avant 14h. À 80-90% des Saïgonnais qui savent exactement ce qu'ils viennent chercher : le beurre, la garniture qui déborde, et le pain qui craque. Daniel Food Diary l'a couvert en 2024 après une vraie visite. Pas le bánh mì le moins cher de la ville — le meilleur de sa catégorie.",
+    "sources": [
+      {
+        "creator": "Daniel Food Diary",
+        "url": "https://danielfooddiary.com/2024/02/26/banhmihuynhhoa/",
+        "date": "2024-02"
+      },
+      {
+        "creator": "Jackfruit Adventure",
+        "url": "https://jackfruitadventure.com/banh-mi-huynh-hoa-saigon-street-food-you-should-try-in-district-1/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "The City Lane",
+        "url": "https://thecitylane.com/banh-mi-huynh-hoa-district-1/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "bun-mam-phan-boi-chau",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Mắm Phan Bội Châu",
+    "blurb": "Bouillon sombre fermenté du delta, poisson serpentin entier, face au marché Ben Thanh mais c'est les locaux qui mangent ici — couvert par Mark Wiens.",
+    "signature": "Bún mắm đặc biệt — bouillon fermenté profond avec poisson serpentin entier",
+    "image": null,
+    "price": {
+      "range": "65 000 VND (~3,60 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bun+Mam+22+Phan+Boi+Chau+District+1+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "22 Phan Bội Châu, face à la porte est de Ben Thanh — les touristes entrent dans le marché, les Saïgonnais s'assoient ici. Le bún mắm, c'est le bouillon du Sud: fermenté, sombre, chargé d'umami et de poisson serpentin entier dans le bol. 65 000 VND. Mark Wiens y a mangé pendant un mois qu'il passait à Saigon — il mange avec les locaux, pas en circuit.",
+    "sources": [
+      {
+        "creator": "Mark Wiens / Migrationology",
+        "url": "https://migrationology.com/bun-mam-saigon/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Saigon Vibes",
+        "url": "https://saigonvibes.com/foods/the-10-best-bun-mam-places-in-ho-chi-minh-city/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Saigon Traveling",
+        "url": "https://saigontraveling.com/saigon-food/bun-mam/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "bun-mam-co-chinh",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Mắm Cô Chính",
+    "blurb": "Hẻm de District 3, matin seulement, 60 kg de noodles par jour — le bún mắm le plus caché de Saigon.",
+    "signature": "Bún mắm cá lóc + thịt quay — poisson serpentin + porc rôti maison",
+    "image": null,
+    "price": {
+      "range": "60 000–80 000 VND (~3,30–4,40 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bun+Mam+Co+Chinh+108+Tran+Quang+Dieu+District+3+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "108/20A Trần Quang Diệu, Phường 14, District 3 — dans un hẻm résidentiel. Ouvert le matin seulement. Aucune enseigne pour les étrangers. 60 kg de noodles partent avant midi, chaque jour, auprès d'une clientèle de quartier qui habite à deux rues d'ici. L'adresse qu'un local te donne à voix basse. La version de Phan Bội Châu est plus accessible — celle-ci, c'est le vrai.",
+    "sources": [
+      {
+        "creator": "Saigon Vibes",
+        "url": "https://saigonvibes.com/foods/the-10-best-bun-mam-places-in-ho-chi-minh-city/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Gtrip Vietnam",
+        "url": "https://gtrip.vn/travel-blogs/best-bun-mam-in-ho-chi-minh-city",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "bot-chien-dat-thanh",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bột Chiên Đạt Thành",
+    "blurb": "40 ans au même emplacement sur Võ Văn Tần — des galettes frites à l'oeuf sauce soja sucrée que des générations de Saïgonnais mangent après l'école.",
+    "signature": "Bột chiên trứng — galettes de riz frites à l'oeuf, sauce soja sucrée",
+    "image": null,
+    "price": {
+      "range": "25 000–40 000 VND (~1,40–2,20 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 10.7742868,
+      "lng": 106.6882195,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bot+Chien+Dat+Thanh+277+Vo+Van+Tan+District+3+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "277 Võ Văn Tần, 40 ans au comptoir. Les galettes de riz frites à l'oeuf dans de la graisse chaude, nappées de sauce soja sucrée — le snack de l'après-école saïgonnais. Saigoneer l'a mis dans ses Hẻm Gems, EatingSaigon en parle depuis 2013, BABLocal le référence en vietnamien. Depuis, rien n'a changé. Le comptoir de carrelage, le wok noir et les gens du quartier qui savent exactement ce qu'ils veulent.",
+    "sources": [
+      {
+        "creator": "Saigoneer — Hẻm Gems",
+        "url": "https://saigoneer.com/saigon-street-food-restaurants/16974-h%E1%BA%BBm-gems-the-greasy-extravaganza-of-deep-fried-b%E1%BB%99t-chi%C3%AAn-and-egg",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Eating Saigon",
+        "url": "https://www.eatingsaigon.com/2013/03/18/bot-chien-2/",
+        "date": "2013-03"
+      },
+      {
+        "creator": "BABLocal",
+        "url": "https://bablocal.com/post/bot-chien-dat-thanh-vo-van-tan-quan-3-moolhz",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "sui-cao-thien-thien",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Sủi Cảo Thiên Thiên — rue Hà Tôn Quyền",
+    "blurb": "District 11, zéro touriste — toute une micro-économie de rue construite sur un seul plat : le wonton soupe + frit en combo depuis 30 ans.",
+    "signature": "Sủi cảo nước tô lớn — soupe de wontons + sủi cảo chiên frit en combo",
+    "image": null,
+    "price": {
+      "range": "40 000–45 000 VND (~2,20–2,50 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Sui+Cao+195+Ha+Ton+Quyen+District+11+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "singleSourceTrusted": true,
+    "story": "195 Hà Tôn Quyền, District 11 — Saigoneer l'a classifié dans sa série Hẻm Gems, leur label pour les spots hors-circuit. Trois adresses de Thiên Thiên sur la même rue. Toute la micro-économie tient sur un seul plat : le wonton soupe + wonton frit en combo, 40 000–45 000 VND. District 11, clientèle 100% locale. Trente ans que ça marche comme ça.",
+    "sources": [
+      {
+        "creator": "Saigoneer — Hẻm Gems",
+        "url": "https://saigoneer.com/saigon-street-food-restaurants/7003-h%E1%BA%BBm-gems-saigon-s-s%E1%BB%A7i-c%E1%BA%A3o-street",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "hau-chien-trung-cho-lon",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Hàu Chiên Trứng — 128 Phùng Hưng (Chợ Lớn)",
+    "blurb": "L'omelette d'huîtres wok façon Teochew dans le vieux Chợ Lớn — famille au 128 Phùng Hưng depuis 56 ans. ⚠️ Vérifier Maps avant d'y aller.",
+    "signature": "Hàu chiên trứng — omelette d'huîtres wok, technique Teochew",
+    "image": null,
+    "price": {
+      "range": "45 000–60 000 VND (~2,50–3,30 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hau+Chien+Trung+128+Phung+Hung+District+5+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "singleSourceTrusted": true,
+    "story": "128 Phùng Hưng, District 5 — dans le vieux Chợ Lớn, rue du quartier chinois que les bus touristiques contournent. Famille ici depuis 56 ans. L'omelette d'huîtres au wok façon Teochew : croustillante en dessous, fondante au centre, huîtres approvisionnées localement. Le genre de plat qui n'existe pas hors des quartiers Teochew. ⚠️ Sources solides mais 2023 — vérifier Google Maps avant de traverser Cho Lon pour rien.",
+    "sources": [
+      {
+        "creator": "The Smart Local Vietnam",
+        "url": "https://thesmartlocal.com/vietnam/cho-lon-foods/",
+        "date": "2023-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "pasteur-street-brewing",
+    "base": "saigon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "drink"
+    ],
+    "tier": null,
+    "name": "Pasteur Street Brewing Company",
+    "blurb": "La brasserie 100% saïgonnaise — Jasmine IPA au jasmin de Hanoi, taprooms de D1 à Phú Nhuận, alternative sérieuse à la Bia Saigon.",
+    "signature": "Jasmine IPA — houblon + jasmin de Hanoi, légèrement floral",
+    "image": null,
+    "price": {
+      "range": "60 000–120 000 VND/pinte (~3,30–6,60 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://pasteurstreet.com",
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Pasteur+Street+Brewing+144+Pasteur+District+1+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "144 Đường Pasteur, taproom fondateur. Fondateurs résidents permanents à Saigon. La clientèle des taprooms de District 3 ou Phú Nhuận c'est les expats long-terme et les jeunes Saïgonnais aisés — pas un bar à touristes. La Jasmine IPA utilise du jasmin de Hanoi : floral sans être sucré, houblonné sans être agressif. Une scène craft beer locale qui existe pour elle-même depuis 2014.",
+    "sources": [
+      {
+        "creator": "Saigoneer",
+        "url": "https://saigoneer.com/sponsored-listings/244-eat-drink/19376-newest-pasteur-street-brewing-taproom-crafted-for-locals",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Cao Cao Adventures",
+        "url": "https://caocaoadventures.com/blog/best-craft-beer-in-saigon-10-breweries-and-bars-to-try",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Pale Ale Travel",
+        "url": "https://palealetravel.com/guide-craft-beer-saigon/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "maison-de-camille",
+    "base": "saigon",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Maison De Camille Boutique Hotel",
+    "blurb": "22 chambres mid-century dans Binh Thanh — quartier local, terrasse rooftop, petit-déj inclus, à deux pas de la rivière et loin du bruit de Bui Vien.",
+    "signature": "Boutique mid-century moderne dans un vrai quartier résidentiel",
+    "image": null,
+    "price": {
+      "range": "680 000–1 135 000 VND/nuit (~38–63 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": "https://www.booking.com/hotel/vn/maison-de-camille.en-gb.html",
+      "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g293925-d12847284-Reviews-Maison_De_Camille-Ho_Chi_Minh_City.html",
+      "maps": "https://www.google.com/maps/search/Maison+De+Camille+174+Dien+Bien+Phu+Binh+Thanh+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "174/21 Dien Bien Phu, Ward 17, Binh Thanh — entre District 1 et District 2. Le quartier local du vrai Saigon : marchés de ruelle, cà phê en plastique, église en face, rivière à deux pas. 22 chambres, esthétique rétro-moderne, navette gratuite vers le centre. Reviews 2024-2025 unanimes sur le service et la propreté. L'alternative au piège D1 sans se retrouver à 20 minutes de tout.",
+    "singleSourceTrusted": true,
+    "sources": [
+      {
+        "creator": "Nomad Is Beautiful",
+        "url": "https://nomadisbeautiful.com/travel-blogs/where-to-stay-in-ho-chi-minh/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "peninsule-thanh-da",
+    "base": "saigon",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "do",
+      "see"
+    ],
+    "tier": null,
+    "name": "Péninsule Thanh Đa / Île Bình Quới",
+    "blurb": "500 ha de vert encerclés par la rivière Saigon, à 15 min du centre — maisons sur pilotis, cafés de quartier, pêcheurs, zéro infrastructure touristique.",
+    "signature": "Boucle vélo le long de la rivière au milieu des jardins et des cafés locaux",
+    "image": "saigon-banyan-canal-1",
+    "price": {
+      "range": "GrabBike : 40 000–60 000 VND (~2–3,50 $CA), vélo loc. ~50 000/h (~3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Thanh+Da+Peninsula+Binh+Thanh+Ho+Chi+Minh+City"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "8 km du centre, un seul pont pour y entrer. La péninsule Thanh Đa, c'est 500 ha de Saigon que la modernisation a oublié de pressuriser. Des maisons sur pilotis, des jardins qui descendent à la rivière, des cafés de quartier où des seniors jouent aux échecs le matin. VnExpress et Adrien Jean Photography (tour opérateur photo) le citent comme l'un des secrets les mieux gardés de la ville. Éviter le Binh Quoi Tourist Village (groupes scolaires) — circuler à vélo dans les ruelles de la péninsule elle-même.",
+    "sources": [
+      {
+        "creator": "VnExpress",
+        "url": "https://e.vnexpress.net/news/life/trend/thanh-da-peninsula-saigon-s-memory-lane-4059944.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Adrien Jean Photography",
+        "url": "https://www.adrienjeanphotography.com/blog/my-favorite-districts-for-street-photography-in-saigon",
+        "date": "2024-01"
+      },
+      {
+        "creator": "iTour Vietnam",
+        "url": "https://itourvn.com/blog/thanh-da-island-saigon-s-peaceful-hideaway/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "canal-nhieu-loc",
+    "base": "saigon",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "do",
+      "see"
+    ],
+    "tier": null,
+    "name": "Promenade du canal Nhiêu Lộc – Thị Nghè",
+    "blurb": "8 km de canal assaini traversant Districts 1/3/Phú Nhuận/Bình Thạnh — trottoirs larges, cafés en terrasse, tai-chi à l'aube, zéro bus touristique.",
+    "signature": "Marche à l'aube entre les joggers et les seniors qui font leur café en plastique",
+    "image": "saigon-canal-aube",
+    "price": {
+      "range": "Gratuit — café bord de canal : 25 000–40 000 VND (~1,50–2,50 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Nhieu+Loc+Thi+Nghe+Canal+Ho+Chi+Minh+City"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Projet $350M de réhabilitation terminé. Le canal puait il y a 20 ans — aujourd'hui, les trottoirs sont larges, les cafés ouvrent sur l'eau, et le nouveau pont piétonnier de juillet 2024 connecte Điện Biên Phủ à Thị Nghè. Le matin de bonne heure : tai-chi, café đá en plastique, joggers, seniors en survêtement. Saigoneer le décrit comme 'one of the nicest places in Saigon to stroll.' Aucun bus touristique, aucune enseigne en anglais. Le Saigon de tous les matins.",
+    "sources": [
+      {
+        "creator": "Saigoneer",
+        "url": "https://saigoneer.com/saigon-news/26130-vignette-the-nhi%C3%AAu-l%E1%BB%99c-th%E1%BB%8B-ngh%C3%A8-canal-s-comeback-story",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vietnam.vn",
+        "url": "https://www.vietnam.vn/en/kenh-nhieu-loc-thi-nghe-dong-song-seine-giua-long-tp-ho-chi-minh",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Saigon on Film",
+        "url": "https://www.saigononfilm.com/saigon-best-photo-walk-locations",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "hao-sy-phuong-cho-lon",
+    "base": "saigon",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Hào Sỹ Phường + Phú Định — Chợ Lớn (District 5)",
+    "blurb": "Les ruelles du Chinatown historique que les bus touristiques ne prennent pas — shophouses sino-vietnamiennes du début du 20e siècle encore habitées, lumière de photo documentaire.",
+    "signature": "Photo documentaire dans les allées du vrai Chợ Lớn",
+    "image": "saigon-hao-sy-ruelle",
+    "price": {
+      "range": "Gratuit (donation temples ~20 000 VND, ~1 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Hao+Sy+Phuong+alley+District+5+Chinatown+Ho+Chi+Minh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Phú Định Street rendue célèbre par le film L'Amant (1992) de Jean-Jacques Annaud. Hào Sỹ Phường, l'allée de maisons colorées à deux pas de Trần Hưng Đạo. Dans le périmètre du quartier commerçant des temples (Bà Thiên Hậu, 1760). Contrairement au marché Bình Tây qui attire les tours, ces rues sont habitées et pratiquement absentes des brochures anglophones. Saigon on Film en fait la colonne vertébrale de leur walking tour photo Cho Lon. Les ateliers de médecine traditionnelle et les vendeurs d'oiseaux en cage ouvrent sur rue.",
+    "sources": [
+      {
+        "creator": "Saigon on Film",
+        "url": "https://www.saigononfilm.com/saigon-film-photography-walk-cho-lon-district-5",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Saigon on Film — Chinatown",
+        "url": "https://www.saigononfilm.com/all-about-saigon-chinatown",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Legend Travel Group",
+        "url": "https://www.legendtravelgroup.com/a/unique-streets-and-corners-of-chinatown-explore-cho-lon-in-ho-chi-minh-city",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "cho-ba-hoa-tan-binh",
+    "base": "saigon",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Chợ Bà Hoa — enclave Quảng Nam (Tân Bình)",
+    "blurb": "Marché fondé en 1954 par des migrants de Quảng Nam — la Miniature Hội An de Saigon, avec ses accents du Centre et ses produits fermentés introuvables ailleurs en ville.",
+    "signature": "Marché de la diaspora Quảng Nam — accents du Centre, bánh tráng, spécialités fermentées",
+    "image": null,
+    "price": {
+      "range": "Gratuit — Grab depuis D1 : 50 000–70 000 VND (~3–4 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Cho+Ba+Hoa+Tan+Binh+Ho+Chi+Minh+City"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Une ruelle entre Trương Công Định et Nguyễn Trãi, Tân Bình. Fondé en 1954 par les migrants de la province de Quảng Nam — ils ont amené leurs accents, leurs recettes, leurs produits fermentés. Vietnam Coracle le classe parmi ses marchés préférés pour l'authenticité : aucune mise en scène, pas un circuit touristique répertorié. Le matin, des ingrédients qu'on ne trouve pas en ville. Vers 14h, des étals de cuisine cuite du Centre. Une communauté diasporique interne à Saigon avec ses propres codes sonores.",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/top-5-markets-saigon/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vietnam Airlines Travel Guide",
+        "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/tan-binh-market",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vinwonders",
+        "url": "https://vinwonders.com/en/wonderpedia/news/tan-binh-district-saigon/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "ben-binh-dong-d8",
+    "base": "saigon",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Bến Bình Đông + canal Tàu Hủ (District 8)",
+    "blurb": "Vieux quai rizicole du 19e siècle avec entrepôts en bois sur le canal Tàu Hủ — barques, pêcheurs, shophouses sino-vietnamiennes encore debout. Spectaculaire avant le Tết.",
+    "signature": "Marché flottant de fleurs Tết (avant le Nouvel An lunaire) ou promenade calme hors saison",
+    "image": "saigon-ben-binh-dong",
+    "price": {
+      "range": "Gratuit — barque ~100 000–200 000 VND (~6–11 $CA) / Grab D1 : ~40 000–60 000 VND",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 10.7387278,
+      "lng": 106.6431953,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Ben+Binh+Dong+Tau+Hu+Canal+District+8+Ho+Chi+Minh"
+    },
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "District 8, l'un des quartiers les plus résidentiels et les moins touristiques de Saigon. Le quai Bến Bình Đông existe depuis le 19e siècle comme plaque tournante du riz du Delta. Entrepôts de bois, shophouses sino-vietnamiennes, canal Tàu Hủ. Hors Tết : promenade photographique, barques et vie de quai calme. Avant le Tết lunaire : bateaux chargés de chrysanthèmes, kumquats et hoa mai du Delta du Mékong — deux semaines de marché flottant unique à Saigon. Les Vietnamiens locaux y viennent, pas les circuits internationaux.",
+    "sources": [
+      {
+        "creator": "Vietnam Plus",
+        "url": "https://en.vietnamplus.vn/hcm-city-floating-tet-flower-market-opens/221417.vnp",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Adrien Jean Photography",
+        "url": "https://www.adrienjeanphotography.com/blog/my-favorite-districts-for-street-photography-in-saigon",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Rusty Compass — Tết Floating Flower Market",
+        "url": "https://www.rustycompass.com/photofeature/saigons-tet-floating-flower-market-104",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "saigon"
+  },
+  {
+    "id": "gia-vy-2",
+    "base": "quynhon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh Xèo Tôm Nhảy — Gia Vỹ 2",
+    "blurb": "Les crevettes arrivent vivantes dans la pâte dorée au curcuma — c'est ça, le bánh xèo de Quy Nhơn.",
+    "signature": "Bánh xèo tôm nhảy — crêpe de riz croustillante aux crevettes vivantes, à rouler dans des feuilles de moutarde fraîche",
+    "image": null,
+    "price": {
+      "range": "25 000 VND/pancake (~1,40 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 13.7622,
+      "lng": 109.2206,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": "https://www.quynhon.com/local-food-specialist/gia-vy-2.html",
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Gia+Vy+2+banh+xeo+14+Dien+Hong+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "14 Diên Hồng, loin du front de mer touristique. Le staff montre en direct : la crevette encore vivante dans la pâte de riz au curcuma, la saisie au wok, le croustillant obtenu. On enroule ensuite dans des feuilles de moutarde avec de la menthe fraîche. Institution du quartier depuis des décennies, 450+ avis Google — tous locaux.",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietcetera",
+        "url": "https://vietcetera.com/en/local-food-specialties-in-quy-nhon-and-where-to-try-them",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Gastronomy Blog",
+        "url": "https://gastronomyblog.com/2026/01/10/best-restaurants-food-quy-nhon-vietnam/",
+        "date": "2026-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "bun-ram-my-hanh",
+    "base": "quynhon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Rạm / Bún Tôm — Mỹ Hạnh",
+    "blurb": "Bouillon de crabe du lagon Trà Ô, vermicelle fait sur place, ouvert le matin seulement — pas de touriste à cette heure-là.",
+    "signature": "Bún rạm — bouillon crabe tourteau du lagon local sur vermicelle de riz frais, crevettes entières",
+    "image": null,
+    "price": {
+      "range": "16 000–18 000 VND/bol (~1,00 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/My+Hanh+bun+ram+48+Ngo+Gia+Tu+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Les propriétaires viennent de Phú Mỹ — ils gardent la méthode traditionnelle : crabe et crevettes arrivant directement du lagon Trà Ô, vermicelle roulé et coupé sur place. Ouvert seulement le matin. Aucun circuit touristique ne passe à 48 Ngô Gia Tự à cette heure. Un bol à 1 dollar canadien qui goûte la mer de Bình Định.",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "MyTour Vietnam",
+        "url": "https://mytour.vn/en/blog/bai-viet/discover-the-famed-bun-tom-and-bun-ram-of-quy-nhon.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Gastronomy Blog",
+        "url": "https://gastronomyblog.com/2026/01/10/best-restaurants-food-quy-nhon-vietnam/",
+        "date": "2026-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "goi-ca-mai-thanh-kieu",
+    "base": "quynhon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Gỏi Cá Mai — Thanh Kiều",
+    "blurb": "Sardine blanche filletée à cru dans le hẻm des pêcheurs — acide, croquant, introuvable dans les restos touristiques du bord de mer.",
+    "signature": "Gỏi cá mai — sardine blanche crue marinée vinaigre + lait de coco + herbes + sauce pimentée maison",
+    "image": null,
+    "price": {
+      "range": "100 000 VND/assiette (~5,55 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 13.7737,
+      "lng": 109.2402,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": "https://dulichquynhon.binhdinh.gov.vn/en/goicathanhkieu",
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Goi+ca+mai+Thanh+Kieu+69+Tran+Hung+Dao+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "69/1 Trần Hưng Đạo : on passe sous un porche, on suit l'allée, et on se retrouve dans une gargote de quartier pêcheur. La cá mai (sardine blanche locale) arrive filletée à cru, marinée dans un mélange vinaigre-lait de coco-herbes jusqu'à ce que la chair soit ferme et opaque. Légèrement acide, herbal, complètement différent de ce que les restos touristiques proposent au front de mer. Référencé par le site officiel du tourisme de Bình Định.",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Bình Định Tourism (officiel)",
+        "url": "https://dulichquynhon.binhdinh.gov.vn/en/goicathanhkieu",
+        "date": "2025-01"
+      },
+      {
+        "creator": "VietnamNet",
+        "url": "https://vietnamnet.vn/en/reminiscing-flavor-of-white-sardine-salad-2141101.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "banh-hoi-chao-long-dien-hong",
+    "base": "quynhon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh Hỏi Cháo Lòng — 20 Diên Hồng",
+    "blurb": "Vermicelle tressé fin + abats frais + congee, à partir de 5h du matin — le déjeuner des travailleurs du port.",
+    "signature": "Bánh hỏi cháo lòng — vermicelle fin tressé, intestins et foie frais, congee chaud servi ensemble",
+    "image": null,
+    "price": {
+      "range": "15 000–25 000 VND (~0,85–1,40 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 13.7622,
+      "lng": 109.2206,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": "https://www.facebook.com/p/B%C3%A1nh-H%E1%BB%8Fi-Ch%C3%A1o-L%C3%B2ng-20-Di%C3%AAn-H%E1%BB%93ng-100063633307124/",
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Banh+hoi+chao+long+20+Dien+Hong+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "5h du matin sur Diên Hồng. Aucun touriste à cette heure-là. Des femmes en áo bà ba commandent leur bol avant d'aller au marché, des hommes en sandales arrivent du port. Le bánh hỏi (vermicelle fin tressé en galette) s'accompagne du cháo lòng chaud — congee aux abats frais. Ouvert jusqu'à 11h30, puis c'est fini. À combiner avec le stand de bánh xèo de Gia Vỹ 2 deux numéros plus haut.",
+    "sources": [
+      {
+        "creator": "Facebook officiel établissement",
+        "url": "https://www.facebook.com/p/B%C3%A1nh-H%E1%BB%8Fi-Ch%C3%A1o-L%C3%B2ng-20-Di%C3%AAn-H%E1%BB%93ng-100063633307124/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "nhphow (Medium)",
+        "url": "https://medium.com/@nhphow/top-10-best-restaurant-in-quy-nhon-unlisted-elsewhere-54ac56291b31",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Xanh SM",
+        "url": "https://www.xanhsm.com/news/banh-hoi-chao-long-quy-nhon",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "bun-cha-ca-ngoc-lien",
+    "base": "quynhon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Chả Cá Ngọc Liên",
+    "blurb": "Galettes de poisson maison dans un bouillon doux légèrement tomaté — la version Bình Định du plat régional, sur une rue locale.",
+    "signature": "Bún chả cá — galettes de poisson fraîches sur vermicelle, bouillon os de poisson clair légèrement relevé",
+    "image": null,
+    "price": {
+      "range": "25 000–35 000 VND/bol (~1,40–1,95 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 13.7671,
+      "lng": 109.2268,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": "https://dulichquynhon.binhdinh.gov.vn/vi/buncangoclien",
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Bun+cha+ca+Ngoc+Lien+379+Nguyen+Hue+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "379 Nguyễn Huệ, une artère résidentielle à l'écart du front de mer. Les galettes de poisson de Ngọc Liên sont faites maison chaque matin — chả cá frais, pas du surgelé. Le bouillon est léger, légèrement tomaté, sans le piquant du bún bò. Référencé par le site officiel du tourisme de Bình Định — légitimité institutionnelle locale, clientèle 100% locale.",
+    "sources": [
+      {
+        "creator": "Bình Định Tourism (officiel)",
+        "url": "https://dulichquynhon.binhdinh.gov.vn/vi/buncangoclien",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Tim Duong Di",
+        "url": "https://timduongdi.com/bai-viet/bun-cha-ca-ngoc-lien-379-nguyen-hue-tran-phu-quy-nhon-binh-dinh",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "banh-beo-kim-dinh",
+    "base": "quynhon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh Bèo Kim Đình",
+    "blurb": "Galettes de riz étuvées depuis 1977 — version Bình Định distincte de Huế, à 0,85 $ l'assiette sur le front de mer.",
+    "signature": "Bánh bèo + bánh bột lọc — galettes riz étuvées + raviolis tapioca translucides, crevettes, sauce poisson sucrée",
+    "image": null,
+    "price": {
+      "range": "15 000 VND/assiette (~0,85 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 13.7671,
+      "lng": 109.2268,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": "https://www.quynhon.com/local-food-specialist/banhbeo-kim-dinh.html",
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Banh+beo+Kim+Dinh+18A+Nguyen+Hue+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Depuis 1977 au même emplacement sur Nguyễn Huệ, face à la mer. Deux générations sur le même recept. La version Bình Định du bánh bèo insiste sur le ravioli bánh bột lọc translucide — la pâte de tapioca gonfle à la vapeur en laissant voir la crevette à l'intérieur. Ouverte 7h–20h, accessible à pied depuis la plage. Les locaux défendent que le goût diffère fondamentalement de Huế ou Đà Nẵng.",
+    "sources": [
+      {
+        "creator": "Quy Nhon Tourism",
+        "url": "https://www.quynhon.com/local-food-specialist/banhbeo-kim-dinh.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietcetera",
+        "url": "https://vietcetera.com/en/local-food-specialties-in-quy-nhon-and-where-to-try-them",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "rue-nem-nuong-ngo-van-so",
+    "base": "quynhon",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "eat",
+      "do"
+    ],
+    "tier": null,
+    "name": "Rue Ngô Văn Sở — Nem Nướng / Nem Chua / Tre",
+    "blurb": "La rue du trio fermenté de Bình Định — nem grillé, nem fermenté, et tre (bambou fermenté) : introuvable en dehors de la province.",
+    "signature": "Nem nướng + nem chua + tre — grillé, fermenté cru, bambou fermenté : trio hyper-régional mangé enroulé dans du bánh tráng",
+    "image": null,
+    "price": {
+      "range": "~120 000 VND/plateau complet (~6,70 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 13.7643,
+      "lng": 109.2244,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": "https://www.quynhon.com/local-food-specialist/ngovanso-street.html",
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/rue+Ngo+Van+So+Quy+Nhon+nem+nuong"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Ngô Văn Sở s'éveille vers 15h quand les vendeurs allument les braises. Le tre — bambou finement tranché et fermenté — est une spécialité quasi absente hors Bình Định. On le mange avec le nem nướng (grillé au charbon) et le nem chua (fermenté cru en feuilles de goyave) sur du bánh tráng mince. Clientèle locale de quartier jusqu'à minuit. Trois sources indépendantes confirment la rue.",
+    "sources": [
+      {
+        "creator": "Quy Nhon Tourism",
+        "url": "https://www.quynhon.com/local-food-specialist/ngovanso-street.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietcetera",
+        "url": "https://vietcetera.com/en/local-food-specialties-in-quy-nhon-and-where-to-try-them",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "rue-oc-ngoc-han",
+    "base": "quynhon",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "eat",
+      "drink"
+    ],
+    "tier": null,
+    "name": "Rue des Ốc — Ngọc Hân Công Chúa",
+    "blurb": "Escargots de mer grillés au beurre-ciboulette à partir de 16h — la rue des nhậu de Quy Nhơn, clientèle exclusivement locale en semaine.",
+    "signature": "Ốc hương nướng mỡ hành — escargots de mer grillés beurre fondu + ciboulette verte, servis brûlants dans la coquille",
+    "image": null,
+    "price": {
+      "range": "25 000–50 000 VND/portion (~1,40–2,80 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Ngoc+Han+Cong+Chua+street+Quy+Nhon+oc+escargots"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Les Quy Nhonais appellent ça «la rue des escargots». À 16h les étals s'installent, les braises s'allument. Ốc Bà Bông au 22 est le spot le plus cité. On mange debout ou sur des tabourets en plastique, bière Tiger à la main, les escargots qui crépitent dans leur coquille. Les semaines de semaine c'est zéro touriste — juste le nhậu local, c'est-à-dire boire-manger-jaser jusqu'à 22h.",
+    "sources": [
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vinpearl Travel",
+        "url": "https://vinpearl.com/en/quy-nhon-food-street",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Du Lịch Quy Nhơn 77 (Facebook)",
+        "url": "https://www.facebook.com/dulichquynhon77/videos/kh%C3%A1m-ph%C3%A1-con-%C4%91%C6%B0%E1%BB%9Dng-%E1%BB%91c-n%E1%BB%95i-ti%E1%BA%BFng-ng%E1%BB%8Dc-h%C3%A2n-c%C3%B4ng-ch%C3%BAa",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "ruou-bau-da-vinh-thuy",
+    "base": "quynhon",
+    "kind": "winery",
+    "mapType": "sight",
+    "roles": [
+      "drink"
+    ],
+    "tier": null,
+    "name": "Rượu Bàu Đá — Boutique Vinh Thuy",
+    "blurb": "L'alcool de riz d'appellation géographique stricte de Bình Định — le seul endroit où tu peux acheter la vraie version distillée à Cu Lam.",
+    "signature": "Rượu bàu đá nature (~40% ABV) — eau-de-vie de riz sur lie naturelle, produite uniquement au village de Cu Lam, Bình Định",
+    "image": null,
+    "price": {
+      "range": "65 000–150 000 VND/bouteille (~3,60–8,35 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 13.7764,
+      "lng": 109.2253,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Vinh+Thuy+71+Ly+Thuong+Kiet+Quy+Nhon+ruou+bau+da"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Le rượu bàu đá ne peut légalement porter ce nom que s'il est distillé au village de Cu Lam, commune Nhơn An. Produit d'appellation géographique stricte, comme un cognac. La boutique Vinh Thuy au 71 Lý Thường Kiệt est l'adresse confirmée pour s'approvisionner en ville. Acheter une bouteille de 650 ml à 65-75 000 VND, l'emporter dans le sac, la partager le soir à Bãi Xếp avec le poisson grillé du village.",
+    "sources": [
+      {
+        "creator": "Vietcetera",
+        "url": "https://vietcetera.com/en/quy-nhon-has-spirit-alcoholic-drinks-in-the-coastal-city",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietnam Coracle",
+        "url": "https://www.vietnamcoracle.com/quy-nhon-food-guide/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Báo Bình Định",
+        "url": "https://baobinhdinh.vn/land-people/2011/6/111940/",
+        "date": "2011-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "nem-cho-huyen",
+    "base": "quynhon",
+    "kind": "activity",
+    "mapType": "sight",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Nem Chợ Huyện — 3D Tăng Bạt Hổ",
+    "blurb": "Nem fermenté cru enveloppé dans des feuilles de goyave — produit régional sans équivalent, vendu à 45 000 VND les 20 pièces.",
+    "signature": "Nem chợ Huyện — porc fermenté cru assaisonné ail-épices, enroulé serré dans feuilles de goyave fraîche, fermenté 2–3 jours",
+    "image": null,
+    "price": {
+      "range": "45 000 VND/20 pièces (~2,50 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://quynhonme.vn/nem-cho-huyen-dac-san-binh-dinh",
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/nem+cho+Huyen+3D+Tang+Bat+Ho+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Le nem chợ Huyện tire son nom du marché du district de Tuy Phước, à l'extérieur de la ville — mais on le trouve à 3D Tăng Bạt Hổ en centre-ville. La feuille de goyave est essentielle : son tanin contrôle la fermentation du porc cru et donne une amertume douce. Mangé tel quel avec un peu de piment frais. Le Tuổi Trẻ et le Vietnam Investment Review le couvrent comme spécialité régionale emblématique de Bình Định.",
+    "sources": [
+      {
+        "creator": "Quy Nhon Me (blog local)",
+        "url": "https://quynhonme.vn/nem-cho-huyen-dac-san-binh-dinh",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Tuổi Trẻ (quotidien national)",
+        "url": "https://tuoitre.vn/ruou-bau-da-nem-cho-huyen-bun-ca-quy-nhon-hop-hon-du-khach-20250501230450429.htm",
+        "date": "2025-05"
+      },
+      {
+        "creator": "Vietnam Investment Review",
+        "url": "https://vir.com.vn/binh-dinhs-nem-fuses-sweet-sour-and-spicy-40235.html",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "banh-canh-ba-o",
+    "base": "quynhon",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh Canh Bà Ổ",
+    "blurb": "Nouilles épaisses de tapioca avec crabe et galettes de poisson dans un bouillon genereux — méconnu des guides, populaire des locaux.",
+    "signature": "Bánh canh chả cá — grosses nouilles de tapioca translucides, crabe + galettes poisson, bouillon corsé",
+    "image": null,
+    "price": {
+      "range": "15 000–25 000 VND/bol (~0,85–1,40 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Banh+canh+Ba+O+384+Bach+Dang+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "384 Bạch Đằng, une adresse qui ne figure dans aucun circuit touristique. Les nouilles bánh canh sont plus épaisses que les vermicelles bún — en tapioca translucide, elles absorbent le bouillon de façon différente. Rusty Compass (guide Vietnam de référence anglophone) et nhphow (Medium) la citent tous deux comme «populaire auprès des locaux». À moins d'1,40 $ le bol, difficile de faire plus local.",
+    "sources": [
+      {
+        "creator": "Rusty Compass",
+        "url": "https://www.rustycompass.com/vietnam-travel-guide-233/quy-nhon-42/eating-16",
+        "date": "2025-01"
+      },
+      {
+        "creator": "nhphow (Medium)",
+        "url": "https://medium.com/@nhphow/top-10-best-restaurant-in-quy-nhon-unlisted-elsewhere-54ac56291b31",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "song-suoi-homestay",
+    "base": "quynhon",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Song Suoi Homestay",
+    "blurb": "Tri tient la maison, organise les excursions, t'indique les restos que les autres n'ont pas trouvés — à 5 min de la plage, à partir de 11 $CA.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "200 000–380 000 VND/nuit (~11–21 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g608528-d25153663-Reviews-Song_Suoi_Homestay-Quy_Nhon_Binh_Dinh_Province.html",
+      "maps": "https://www.google.com/maps/search/Song+Suoi+Homestay+18+Hai+Thuong+Lan+Ong+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "18 Hai Thuong Lan Ong, centre-ville, 5 min de la plage à pied. Tri — le propriétaire — incarne le concept : il invite les voyageurs à s'intégrer au quartier plutôt qu'à rester dans leur chambre. Il organise les mêmes excursions que les pêcheurs du coin — snorkeling à Hon Khô, loop à Bãi Xếp — pas des sorties packagées. #2 de 97 hébergements spéciaux sur TripAdvisor, 5.0/5, plusieurs voyageurs y ont allongé leur séjour de quelques jours.",
+    "sources": [
+      {
+        "creator": "Nomadic Notes",
+        "url": "https://www.nomadicnotes.com/where-to-stay-in-quy-nhon/",
+        "date": "2025-01"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "haven-bai-xep",
+    "base": "quynhon",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Haven Boutique Hotel — Bãi Xếp",
+    "blurb": "Enraciné depuis plus d'une décennie dans le village de pêcheurs de Bãi Xếp — restaurant Big Tree, plage directe, sans infrastructure resort.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "700 000–900 000 VND/nuit chambre (~39–50 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://www.havenvietnam.com/",
+      "booking": "https://www.booking.com/hotel/vn/big-tree-backpackers-and-bistro.html",
+      "maps": "https://www.google.com/maps/search/Haven+Vietnam+Bai+Xep+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Fondé avant que Bãi Xếp devienne connue — l'un des rares hébergements à s'être enraciné dans la communauté de pêcheurs plutôt que d'être bâti pour les touristes. Trois bâtiments (Ocean, Garden, Mountain) reliés par des jardins, accès plage privé. Le Big Tree Bistro est ouvert aux non-résidents — pizza au feu de bois, poisson du jour. Certifié par Rusty Compass (guide indépendant de référence Vietnam).",
+    "sources": [
+      {
+        "creator": "Haven Vietnam (officiel)",
+        "url": "https://www.havenvietnam.com/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Rusty Compass",
+        "url": "https://www.rustycompass.com/vietnam-travel-guide-233/quy-nhon-42/hotels-15/haven-guesthouse-quy-nhon-1049",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "mira-bai-xep",
+    "base": "quynhon",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Mira Bãi Xếp",
+    "blurb": "Architecture bambou-bois dans le village de pêcheurs, baignoire face à l'océan, breakfast 4 étoiles — à partir de 39 $CA.",
+    "signature": "",
+    "image": null,
+    "price": {
+      "range": "700 000–1 600 000 VND/nuit (~39–89 $CA), dortoir 150 000–250 000 (~8–14 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://miraquynhon.com/homestay-mira-bai-xep-quy-nhon/",
+      "booking": null,
+      "maps": "https://www.google.com/maps/search/Mira+Bai+Xep+Homestay+Quy+Nhon"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Dans le village de pêcheurs de Bãi Xếp, pas dans une zone de resort bétonnée. Architecture en bambou, bois et rotin avec une intégration naturelle dans le village. 20 chambres dont certaines avec baignoire positionnée face à l'océan. Transfert aéroport gratuit. Les avis mentionnent un breakfast de qualité remarquable pour la gamme de prix. Option slow travel complète : rester ici, louer un scooter, explorer la côte.",
+    "sources": [
+      {
+        "creator": "Mira Bãi Xếp (site officiel)",
+        "url": "https://miraquynhon.com/homestay-mira-bai-xep-quy-nhon/",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Hello Aline",
+        "url": "https://www.helloaline.com/mira-bai-xep-quy-nhon/",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "quynhon"
+  },
+  {
+    "id": "bun-cha-ca-ba-hoa",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún chả cá Bà Hoa",
+    "blurb": "Bib Gourmand Michelin 2024, 300 bols par jour — bouillon tomate-courge, galettes poisson maison, Hải Châu, aucun menu anglais.",
+    "signature": "Bún chả cá — galettes de poisson + maquereau dans bouillon tomate-courge",
+    "image": null,
+    "price": {
+      "range": "25 000–30 000 VND (~1,40–1,65 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {},
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "109 Nguyễn Chí Thanh, Hải Châu — ça grouille avant 7h. Bà Hoa achète au marché chaque matin avant d'ouvrir, et ses 300 bols quotidiens partent sans jamais chercher les touristes. Le Michelin Bib Gourmand 2024 lui a collé une étiquette — la clientèle locale n'a rien changé. Un bol à 25 000 VND, bouillon qui sent la courge rôtie et la tomate, galettes de poisson moelleuses. Sold-out avant 10h les fins de semaine.",
+    "sources": [
+      {
+        "creator": "Danang Journey",
+        "url": "https://danangjourney.com/bun-cha-ca-da-nang/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Michelin Guide Vietnam 2024",
+        "url": "https://guide.michelin.com/vn/en/article/news-and-views/the-michelin-guide-da-nang-vietnam",
+        "date": "2024-03"
+      },
+      {
+        "creator": "Saigoneer",
+        "url": "https://saigoneer.com/saigon-food-culture/26955-da-nang-is-michelin-s-new-destination-for-2024-version-of-vietnam-guide",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "banh-xeo-ba-duong",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh xèo Bà Dưỡng",
+    "blurb": "31 ans dans une ruelle de Bình Hiên, Michelin Guide Da Nang 2024 — crêpe fine croustillante, crevettes, nem lụi grillé au charbon.",
+    "signature": "Bánh xèo + nem lụi (brochette porc lemongrass grillée)",
+    "image": null,
+    "price": {
+      "range": "50 000–80 000 VND repas complet (~2,75–4,40 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {},
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "280/23 Hoàng Diệu, Bình Hiên — tu rates la ruelle si tu regardes pas bien. Bà Dưỡng fait grésiller ses crêpes dans l'huile depuis 31 ans : jaunes vif, fines comme du parchemin, farcies de crevettes, servies avec un nem lụi (brochette porc-lemongrass) grillé sur charbon. Aucune signalétique en anglais à l'origine. Le Michelin Guide 2024 l'a trouvée — la file locale existait bien avant. À midi en semaine, t'as 25 minutes d'attente. Plan B si tu arrives après 13h.",
+    "sources": [
+      {
+        "creator": "Visit Da Nang",
+        "url": "https://visitdanang.travel/vi/banh-xeo-ba-duong-da-nang-huong-vi-30-nam-kho-quen",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Michelin Guide (Da Nang)",
+        "url": "https://guide.michelin.com/jp/ja/da-nang-region/da-nang_2984390/restaurant/banh-xeo-ba-duong",
+        "date": "2024-03"
+      },
+      {
+        "creator": "We3Travel",
+        "url": "https://we3travel.com/skip-these-3-tourist-traps-10-authentic-street-foods-you-must-try-in-da-nang-vietnam/",
+        "date": "2024-06"
+      },
+      {
+        "creator": "Ngon43",
+        "url": "https://ngon43.vn/san-pham/banh-xeo-ba-duong-280-23-duong-hoang-dieu-hai-chau/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "mi-quang-ong-hai",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Mì Quảng Ông Hai",
+    "blurb": "Le mì quảng version locale, quartier Cẩm Châu — menu vietnamien uniquement, 15 000–40 000 VND, à l'écart de tout circuit touristique.",
+    "signature": "Mì quảng — bol épais au curcuma, bouillon concentré, version non-touristique",
+    "image": null,
+    "price": {
+      "range": "15 000–40 000 VND (~0,85–2,20 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "http://www.hoianworldheritage.org.vn/vi/news/am-thuc-hoi-an/den-hoi-an-an-my-ong-hai-1291.hwh"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "6A Trương Minh Lượng, Cẩm Châu — le quartier résidentiel juste à côté de la vieille ville, mais les circuits ne le voient jamais. Menu écrit à la main en vietnamien : tu commandes en pointant. Le bol arrive épais, jaune curcuma, avec une petite quantité de bouillon ultra-concentré qui n'a rien à voir avec les versions édulcorées du vieux quartier. Mis à jour mars 2026 selon les sources locales. À moto depuis la vieille ville, c'est 10 minutes.",
+    "sources": [
+      {
+        "creator": "Site officiel patrimoine mondial de Hội An",
+        "url": "http://www.hoianworldheritage.org.vn/vi/news/am-thuc-hoi-an/den-hoi-an-an-my-ong-hai-1291.hwh",
+        "date": "2023-01"
+      },
+      {
+        "creator": "CungDi",
+        "url": "https://cungdi.net/hoi-an/mi-quang-ong-hai-quan-mi-quang-tru-danh-xu-hoi/",
+        "date": "2024-06"
+      },
+      {
+        "creator": "HoianIT",
+        "url": "https://hoianit.com/5-quan-my-quang-ngon-nhat-tai-hoi-an/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "goi-ca-nam-o",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Gỏi Cá Thanh Hương (Nam Ô)",
+    "blurb": "Recette centenaire du village de Nam Ô — maquereau cru + légumes de forêt + sauce pimentée maison, introuvable en version authentique en ville.",
+    "signature": "Gỏi cá Nam Ô — maquereau cru mariné, banane verte, carambole, herbes forêt",
+    "image": null,
+    "price": {
+      "range": "70 000–90 000 VND (~3,90–5,00 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {},
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "1029 Nguyễn Lương Bằng, Hòa Hiệp Nam — le village de Nam Ô, district Liên Chiểu, à 30 km scooter au nord-ouest du centre de Da Nang. La recette a plus de 100 ans et ne voyage pas : le maquereau est filleté à cru, macéré dans le jus de carambole, disposé avec banane verte, légumes de forêt et une sauce pimentée maison. Pas de version pour palais international. Combiner avec la visite du village de fabrication de nuoc-mâm à 200 m — 400 ans d'existence, patrimoine culturel national.",
+    "sources": [
+      {
+        "creator": "VietnamNet",
+        "url": "https://vietnamnet.vn/en/nam-o-fish-salad-a-must-try-dish-of-da-nang-2117823.html",
+        "date": "2023-01"
+      },
+      {
+        "creator": "We3Travel",
+        "url": "https://we3travel.com/skip-these-3-tourist-traps-10-authentic-street-foods-you-must-try-in-da-nang-vietnam/",
+        "date": "2024-06"
+      },
+      {
+        "creator": "Not Quite Nigella",
+        "url": "https://www.notquitenigella.com/2026/04/04/da-nang-food-restaurant/",
+        "date": "2026-04"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "cho-con-petit-dej",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "sight",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Chợ Cồn — circuit petit-déjeuner",
+    "blurb": "Marché couvert de Da Nang depuis 1940, 7h–10h : bánh bèo + bánh căn + bánh bột lọc, tables partagées, zéro touriste.",
+    "signature": "Trio vapeur/fonte du matin : bánh bèo + bánh căn + bánh bột lọc",
+    "image": null,
+    "price": {
+      "range": "20 000–50 000 VND par plat (~1,10–2,75 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {},
+    "coords": {
+      "lat": 16.0681275,
+      "lng": 108.2145213,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "290 Hùng Vương, Hải Châu — pas le Chợ Hàn pour touristes à 2 km. C'est le marché de ravitaillement du quartier depuis 1940, bâtiment de 3000 m², 2000 étals. Au food court intérieur du rez-de-chaussée avant 9h : des dames derrière leurs marmites servent bánh bèo (galettes de riz étuvées), bánh căn (petits pains fonte croustillants), bánh bột lọc (raviolis tapioca) sur une table partagée avec des locaux qui font leurs courses. 20 000 VND par plat. Personne te regarde.",
+    "sources": [
+      {
+        "creator": "Danang Fantasticity",
+        "url": "https://danangfantasticity.com/en/local-markets/con-market-in-da-nang",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Queenbus Vietnam",
+        "url": "https://queenbus.com.vn/en/cho-con-da-nang",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Labantour",
+        "url": "https://labantour.com/cho-con-da-nang/",
+        "date": "2024-06"
+      },
+      {
+        "creator": "VietLuxtour",
+        "url": "https://vietluxtour.com/kham-pha/cho-con-da-nang.html",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "ca-phe-muoi-hue-dn",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "drink"
+    ],
+    "tier": null,
+    "name": "Cà Phê Muối Huế",
+    "blurb": "Café à la mousse salée, chaîne familiale de Huế — 25 000 VND, habitude de quartier locale, 53C Đống Đa, Thạch Thang.",
+    "signature": "Cà phê muối — robusta vietnamien sous une mousse crémeuse salée",
+    "image": null,
+    "price": {
+      "range": "25 000–35 000 VND (~1,40–1,95 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": "https://caphemuoihue.com/"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "53C Đống Đa, Thạch Thang, Hải Châu — une chaîne familiale partie de Huế, pas un café de centre commercial. Le truc : un café robusta vietnamien classique avec une mousse salée et crémeuse déposée sur le dessus, épaisse comme de la chantilly, légèrement sucrée, qui flotte sur l'amertume du café. Tu mélanges ou tu bois en layers. 25 000 VND. L'habitude de quartier des travailleurs de Da Nang — commande ça à 7h du matin, personne te regarde étrangement.",
+    "sources": [
+      {
+        "creator": "Cà Phê Muối Huế (site officiel de la chaîne)",
+        "url": "https://caphemuoihue.com/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vinwonders Vietnam",
+        "url": "https://vinwonders.com/vi/wonderpedia/news/ca-phe-muoi-da-nang/",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "bun-cha-ca-di-gai",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún chả cá Dì Gái",
+    "blurb": "500 bols par jour, 50+ ans d'existence, 119 Lê Đình Dương — sold-out avant 9h les fins de semaine, Saigoneer Hẻm Gems.",
+    "signature": "Bún chả cá heirloom — recette familiale 50 ans, bouillon nuit entière",
+    "image": null,
+    "price": {
+      "range": "30 000 VND (~1,65 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {},
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "singleSourceTrusted": true,
+    "story": "119 Lê Đình Dương, Nam Dương, Hải Châu — ouvert à 6h, fermé avant 11h30. Dì Gái a plus de 50 ans d'existence, 500 à 600 bols par jour les vendredis. La façade est modeste, fondue dans la rue résidentielle — aucune signalétique touristique. Saigoneer (série Hẻm Gems, media culinaire local sérieux) l'a documentée en visite in situ comme un 'family heirloom' : recette transmise, bouillon mijoté toute la nuit, galettes faites maison. 30 000 VND le bol. T'arrives après 9h le samedi, y'a rien.",
+    "sources": [
+      {
+        "creator": "Saigoneer (Hẻm Gems Da Nang)",
+        "url": "https://saigoneer.com/vietnam-street-food-restaurants/25946-h%E1%BA%BBm-gems-in-%C4%91%C3%A0-n%E1%BA%B5ng,-d%C3%AC-g%C3%A1i-s-b%C3%BAn-ch%E1%BA%A3-c%C3%A1-is-a-family-heirloom",
+        "date": "2023-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "banh-trang-ba-mua",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh tráng cuốn thịt heo — Bà Mụa",
+    "blurb": "Porc bouilli + légumes frais roulés dans galette de riz + sauce poisson maison — le plat signature du Centre, 93 Nguyễn Chí Thanh.",
+    "signature": "Bánh tráng cuốn thịt heo — la sauce maison pimentée de Bà Mụa",
+    "image": null,
+    "price": {
+      "range": "50 000–65 000 VND (~2,75–3,60 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {},
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "93 Nguyễn Chí Thanh, Thạch Thang, Hải Châu — à deux pas de Bà Hoa mais un univers différent. Tu reçois une assiette de porc bouilli tranché fin, une pile de galettes de riz, des herbes fraîches, puis le bol central : la sauce poisson maison pimentée de Bà Mụa, sa marque de commerce dans le quartier. Tu roules toi-même à ton rythme. Clientèle de quartier, aucun food tour ne s'y arrête. La sauce est le marqueur — chaque resto a la sienne et c'est là que tu juges.",
+    "sources": [
+      {
+        "creator": "Diff.vn",
+        "url": "https://diff.vn/dac-san-da-nang/banh-trang-cuon-thit-heo-da-nang-an-dau-chuan-nhat/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "CrystalBay Vietnam",
+        "url": "https://crystalbay.com/banh-trang-cuon-thit-heo-da-nang-o-dau-ngon-diem-danh-5-quan-an-ngon-nhuc-nach-n53013.html",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "banh-xeo-nam-hien",
+    "base": "hoian",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh xèo Tôm Nhảy Năm Hiền",
+    "blurb": "Michelin Guide Vietnam 2024-2025, 46 Phan Thanh Thanh Khê — crêpe aux crevettes de rivière vivantes (tôm nhảy), saisonnier.",
+    "signature": "Bánh xèo tôm nhảy — crevettes de rivière fraîches vivantes dans la crêpe",
+    "image": null,
+    "price": {
+      "range": "60 000–100 000 VND (~3,30–5,50 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {},
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "singleSourceTrusted": true,
+    "story": "46 Phan Thanh, Thanh Khê — le quartier résidentiel de Da Nang, loin de tout circuit touristique. La spécificité : le tôm nhảy, des crevettes de rivière encore vivantes au moment de la cuisson. Ça donne une texture différente de la crevette congelée — plus ferme, plus sucrée. Le Michelin Guide 2024-2025 confirme la qualité. Disponible selon la saison pour le tôm nhảy — vérifier à l'arrivée si tu veux la version originale.",
+    "sources": [
+      {
+        "creator": "Diff.vn (guide bánh xèo Da Nang 2025)",
+        "url": "https://diff.vn/dac-san-da-nang/top-13-quan-banh-xeo-da-nang-ngon-nhat-2025-khong-the-bo-lo/",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "new-destination-homestay",
+    "base": "hoian",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "New Destination Homestay",
+    "blurb": "6 chambres dans un village de Cẩm Kim, hôte Tuân sur place, petit-déjeuner inclus — l'ancrage idéal pour explorer l'île campagne.",
+    "signature": "Homestay familial Cẩm Kim, île des artisans, antidote au chaos du vieux quartier",
+    "image": null,
+    "price": {
+      "range": "200 000–250 000 VND/nuit (~11–14 $CA) petit-déjeuner inclus",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "booking": "https://www.klook.com/hotels/detail/117031-new-destination-hoi-an-homestay/"
+    },
+    "coords": {
+      "lat": 15.8683304,
+      "lng": 108.3502537,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "singleSourceTrusted": true,
+    "story": "Đồng Hà, île de Cẩm Kim — traverse le pont Cẩm Kim ou prends le traversier gratuit (vélo) depuis la rive de Hội An, puis 10 min dans les ruelles fleuries. Tuân et son mari vivent sur place : lui connaît chaque atelier et chemin de l'île, elle cuisine le petit-déjeuner chaque matin. 6 chambres seulement. Location scooter sur place à 130 000–150 000 VND/jour. À 15 min à vélo de la vieille ville — à des années-lumière de l'ambiance. Reviews 2024 unanimes : 'antidote au chaos'.",
+    "sources": [],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "gio-chieu-homestay",
+    "base": "hoian",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "budget",
+    "name": "Gió Chiều Homestay — Riverside",
+    "blurb": "5 chambres avec vue sur la Thu Bồn, côté rivière de Cẩm Kim — piscine, couchers de soleil, 18–25 $CA, vélos gratuits.",
+    "signature": "Cẩm Kim côté rivière — vue Thu Bồn, piscine, calme absolu",
+    "image": null,
+    "price": {
+      "range": "325 000–450 000 VND/nuit (~18–25 $CA) petit-déjeuner inclus",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "booking": "https://www.booking.com/hotel/vn/gio-chieu-homestay-hoi-an.html"
+    },
+    "coords": {
+      "lat": 15.8683304,
+      "lng": 108.3502537,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "singleSourceTrusted": true,
+    "story": "Même île de Cẩm Kim que New Destination mais côté rivière ouest — vue directe sur la Thu Bồn, couchers de soleil sur l'eau. 5 chambres, piscine extérieure, petit-déjeuner local 6h–9h, vélos gratuits pour rejoindre le quai ou les ateliers. Note 8,9/10 sur Trip.com (32 avis). L'hôte est cité pour sa disponibilité malgré la barrière de langue partielle. Depuis ici, l'accès photo crépusculaire sur la rivière est imbattable.",
+    "sources": [],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "tan-thanh-garden-homestay",
+    "base": "hoian",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Tan Thanh Garden Homestay",
+    "blurb": "7 chambres dans une maison familiale avec jardin donnant sur An Bang — café 'Sounds of Silence', vélos inclus, accès plage directe.",
+    "signature": "B&B familial An Bang, jardin tropical, 7 chambres, section calme de la plage",
+    "image": null,
+    "price": {
+      "range": "685 000–1 100 000 VND/nuit (~38–61 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "booking": null
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "singleSourceTrusted": true,
+    "story": "Allée Lac Long Quan, Cẩm An — la section d'An Bang non bondée, sans les vendeurs de plage du matin. Jardin tropical, café 'Sounds of Silence' sur place, vélos gratuits, petit-déjeuner avec vue mer. 7 chambres max — impossible pour les groupes organisés. Rusty Compass (le meilleur guide indépendant Vietnam, aucun intérêt commercial) en fait une de ses rares recommandations hôtelières sur Hội An. TripAdvisor #60/399 B&Bs dans la ville.",
+    "sources": [
+      {
+        "creator": "Rusty Compass Vietnam",
+        "url": "https://www.rustycompass.com/vietnam-travel-guide-233/hoi-an-28/hotels-15/tan-thanh-garden-homestay-an-bang-beach-1353",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hoian"
+  },
+  {
+    "id": "pho-gia-truyen-bat-dan",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Phở Gia Truyền Bát Đàn",
+    "blurb": "L'institution du phở du nord — file à l'ouverture, bol expédié en silence, bouillon droit comme une flèche.",
+    "signature": "Phở tái nạm (~3 $CA)",
+    "image": null,
+    "price": {
+      "range": "50 000–60 000 VND (~3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0336377,
+      "lng": 105.8463792,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Pho+Gia+Truyen+49+Bat+Dan+Hoan+Kiem+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Michelin Bib Gourmand, mais le Michelin l'a trouvé, pas créé. Ouvert avant 7h, fermé quand le chaudron est vide. Le service est cash et direct : on ne s'assoit pas, on ne choisit pas, on reçoit. Le bouillon du nord est clair, franc, non-sucré — zéro compromis avec le palais étranger. La clientèle est à 80 % hanoïenne qui s'arrête en chemin avant le bureau. La file avance vite, pas de chichi.",
+    "sources": [
+      {
+        "creator": "DanielFoodDiary",
+        "url": "https://danielfooddiary.com/2025/12/12/phogiatruyen/",
+        "date": "2025-12"
+      },
+      {
+        "creator": "Rusty Compass Vietnam",
+        "url": "https://www.rustycompass.com/vietnam-travel-guide-233/hanoi-5/eating-16/pho-gia-truyen-hanoi-1390",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Guide Michelin Vietnam",
+        "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/pho-gia-truyen",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "bun-cha-dac-kim",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Chả Đắc Kim",
+    "blurb": "Fondé en 1965, le bún chả d'avant le tourisme — galettes grillées sur charbon, ruelle du Vieux Quartier, prix de quartier.",
+    "signature": "Bún chả avec cha bao (~2–3 $CA)",
+    "image": null,
+    "price": {
+      "range": "40 000–60 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0323248,
+      "lng": 105.8480701,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bun+Cha+Dac+Kim+Hang+Manh+Hoan+Kiem+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "1965 — avant le Đổi Mới, avant le boom touristique, avant qu'un président américain ne rende le bún chả Instagram-célèbre. Đắc Kim est dans sa ruelle de Hàng Mành depuis avant tout ça. Michelin Selected (pas Bib), donc moins médiatisé que Hương Liên, donc la clientèle bureau-résidentielle qui s'y rend le midi est encore intacte. Les galettes de porc arrivent grillées à la commande, pas réchauffées — la fumée de charbon colle aux vêtements, le bouillon légèrement vinaigrette coupe le gras.",
+    "sources": [
+      {
+        "creator": "Guide Michelin Vietnam",
+        "url": "https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/bun-cha-%C4%91ac-kim",
+        "date": "2025-01"
+      },
+      {
+        "creator": "JackfruitAdventure",
+        "url": "https://jackfruitadventure.com/top-7-bun-cha-in-hanoi-where-locals-eat/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vinpearl Travel Guide",
+        "url": "https://vinpearl.com/en/bun-cha-in-hanoi",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "cha-ca-thang-long",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Chả Cá Thăng Long",
+    "blurb": "Un seul plat. Poisson flambé sur réchaud, aneth et ciboulette au bouquet, mắm tôm à côté — et les étrangers relégués à l'étage.",
+    "signature": "Chả cá la vọng flambé (~10 $CA/pers)",
+    "image": null,
+    "price": {
+      "range": "176 000 VND/pers (~10 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.033293,
+      "lng": 105.8459895,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Cha+Ca+Thang+Long+Duong+Thanh+Hoan+Kiem+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Menu à plat unique — on ne décide de rien ici. Le filet de poisson mariné au curcuma et à la galangale arrive sur un réchaud à charbon, on le retourne soi-même entre les bouquets d'aneth et de ciboule. On trempe dans le mắm tôm : c'est le test du palais. Le rez-de-chaussée, c'est les habitués locaux. L'étage, c'est pour les curieux. La rue Chả Cá toute proche doit son nom à ce plat — tout un pâté de maisons reconverti autour de cette seule préparation depuis des siècles.",
+    "sources": [
+      {
+        "creator": "Cavinteo blog Michelin Vietnam",
+        "url": "https://cavinteo.blogspot.com/2024/01/michelin-cha-ca-thang-long-in-hanoi-vietnam.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Guide Michelin Vietnam",
+        "url": "https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/cha-ca-thang-long",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Vietnam Airlines Travel Guide",
+        "url": "https://www.vietnamairlines.com/us/en/plan-book/travel/travel-guide/cha-ca-la-vong-hanoi",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "cafe-giang-ca-phe-trung",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "drink"
+    ],
+    "tier": null,
+    "name": "Café Giang — Cà Phê Trứng",
+    "blurb": "L'inventeur du café à l'œuf, toujours dans sa ruelle, toujours à 2 $CA — l'entrée en angle filtre les non-initiés.",
+    "signature": "Cà phê trứng nóng (~2 $CA)",
+    "image": null,
+    "price": {
+      "range": "35 000 VND (~2 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.033606,
+      "lng": 105.8546223,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Cafe+Giang+39+Nguyen+Huu+Huan+Hoan+Kiem+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Nguyễn Văn Giang a inventé ce breuvage pendant la guerre, quand le lait manquait — il a remplacé par la crème montée d'un jaune d'œuf battu avec sucre et café. Le résultat tient du tiramisu liquide, servi dans un bol d'eau chaude pour garder la température. La ruelle Nguyễn Hữu Huân, au fond à gauche, dans le noir : l'adresse filtre naturellement. Les cafés Instagram à 3x le prix ont copié l'idée, mais Giang est à 35 000 VND et n'a pas changé depuis.",
+    "sources": [
+      {
+        "creator": "Asiamystika Vietnam travel",
+        "url": "https://asiamystika.com/blog/cafe-giang",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Tom Henty's Travel",
+        "url": "https://www.tomhentystravel.co.uk/asia-1/cafe-giang-hanoi",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Fallon Travels",
+        "url": "https://fallontravels.com/blog/best-egg-coffee-hanoi-vietnamese-old-quarter-cafe",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "bia-hoi-ngoc-linh",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "drink"
+    ],
+    "tier": null,
+    "name": "Bia Hơi Ngọc Linh",
+    "blurb": "La bière pression locale à 50 cents — le coin de rue où les ouvriers du quartier décompressent après 18h, pas la Ta Hiện pour touristes.",
+    "signature": "Bia hơi + lạc rang (~0.50–1 $CA)",
+    "image": null,
+    "price": {
+      "range": "8 000–15 000 VND/verre (~0.50–1 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bia+Hoi+Ngoc+Linh+2+Duong+Thanh+Hoan+Kiem+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Ta Hiện est devenu un zoo à touristes — néons, vendeurs de tours, enceinte bluetooth. Ngọc Linh au coin de Đường Thành et Bát Đàn, c'est là où vont les ouvriers et résidents après 18h, autour d'un verre à 8 000 VND. La bia hơi est brassée chaque matin, livrée en fûts, vendue jusqu'à épuisement — pas de lendemain, pas de conservation. Cacahuètes grillées à l'ail incluses. C'est l'apéro quotidien du Vieux Quartier avant que les néons s'allument.",
+    "sources": [
+      {
+        "creator": "GrantourismoTravels Hanoi long séjour",
+        "url": "https://grantourismotravels.com/our-hanoi-bia-hoi-guide/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "The Street Food Guy",
+        "url": "https://www.thestreetfoodguy.com/bia-hoi-corner/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Hanoi Locals",
+        "url": "https://hanoilocals.com/bia-hoi-corner-hanoi/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "bun-oc-co-hue",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Ốc Cô Huệ",
+    "blurb": "Escargots croquants dans un bouillon aigre-vinaigrette à la carambole — ferme à 14h, zéro concession pour palais étranger.",
+    "signature": "Bún ốc classique + bouillon aigre (~2–3 $CA)",
+    "image": null,
+    "price": {
+      "range": "30 000–50 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bun+Oc+Co+Hue+43+Nguyen+Sieu+Hoan+Kiem+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "43 Nguyễn Siêu, Vieux Quartier — ouvert le matin, fermé à 14h. Deux modes seulement : dans le bouillon ou à sec, et c'est tout. Le bouillon est fortement aigre, à la tomate et au vinaigre, avec des éclats de carambole et du liseron d'eau. Les escargots d'eau douce sont petits, croquants, sans adoucissement. Saigoneer l'a documenté comme un hẻm gem : décor intouché, clientèle locale matinale, pas un pixel sur aucun circuit touristique.",
+    "sources": [
+      {
+        "creator": "Saigoneer Hẻm Gems Hanoi",
+        "url": "https://saigoneer.com/hanoi-street-food-restaurants/21648-h%E1%BA%BBm-gems-piquant-broth-and-tangy-snails-at-bun-oc-co-hue",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vietnam.vn",
+        "url": "https://www.vietnam.vn/en/4-quan-bun-oc-gia-truyen-dat-khach-o-ha-noi/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "TourinHanoi Guide",
+        "url": "https://tourinhanoi.com/guide/snail-vermicelli-rice/",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "pho-ga-156-quan-thanh",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Phở Gà 156 Quán Thánh",
+    "blurb": "Phở poulet + quẩy croustillant, bord de route Ba Đình — service ultra-rapide, aucun menu anglais, locaux matinaux seulement.",
+    "signature": "Phở gà tái + quẩy (~3–4 $CA)",
+    "image": null,
+    "price": {
+      "range": "50 000–70 000 VND (~3–4 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0428641,
+      "lng": 105.840594,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Pho+Ga+156+Quan+Thanh+Ba+Dinh+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Ba Đình, hors du circuit touristique — la rue Quán Thánh longe le temple Quan Thanh et aligne des résidents qui mangent leur phở debout ou sur le bord du trottoir avant 8h. Le phở gà du nord est différent : bouillon de poulet clair et concentré, pas d'excès d'anis étoilé, des tranches de blanc coupées à la minute. Le quẩy (bâtonnet frit croustillant) se trempe dans le bol — il faut manger vite avant qu'il ramollisse. Aucun menu anglais sur les murs.",
+    "sources": [
+      {
+        "creator": "Saucefish expat long-terme Hanoi",
+        "url": "https://saucefish.com/5-chicken-pho-places-to-try-in-hanoi/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "GM Premium Hotel Blog",
+        "url": "https://gmpremiumhotel.com/blog-posts/top-5-chicken-pho-in-hanoi-best-places-for-authentic-flavors",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "pho-cuon-huong-mai",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Phở Cuốn Hương Mai",
+    "blurb": "Le berceau du phở cuốn à Hanoi — rouleaux de bœuf sauté dans la feuille de riz, sauce familiale de 3 générations.",
+    "signature": "Phở cuốn bò (~2–4 $CA)",
+    "image": null,
+    "price": {
+      "range": "40 000–65 000 VND (~2–4 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0460551,
+      "lng": 105.8413064,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Pho+Cuon+Huong+Mai+25+Ngu+Xa+Ba+Dinh+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Ngũ Xã, village du cuivre reconverti en quartier résidentiel bord du lac Trúc Bạch — c'est ici que le phở cuốn est né avant que le plat se touristifie. Hương Mai, 3e génération dans son propre immeuble familial, pas une franchise. Le rouleau de bœuf sauté dans une feuille de riz fraîche est trempé dans une sauce maison dont la recette exacte n'est donnée à personne. La différence avec les imitations : la feuille de riz faite le matin, souple et légèrement résistante.",
+    "sources": [
+      {
+        "creator": "MyTour.vn blog vietnamien",
+        "url": "https://mytour.vn/en/blog/bai-viet/top-4-best-pho-roll-spots-in-ngu-xa-hanoi-mytour.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "VietnamNet",
+        "url": "https://vietnamnet.vn/en/top-5-pho-cuon-spots-in-hanoi-that-locals-and-tourists-love-2391473.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "VietnamOnline Guide",
+        "url": "https://www.vietnamonline.com/restaurant/hanoi/pho-cuon-ngu-xa.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "bun-rieu-ba-thiep",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Riêu Bà Thiếp",
+    "blurb": "Bún riêu cua de quartier à Ba Đình — galettes de crabe, tofu frit, tomates, multigénérationnel, hors de tout circuit touristique.",
+    "signature": "Bún riêu cua (~2–3 $CA)",
+    "image": null,
+    "price": {
+      "range": "30 000–50 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bun+Rieu+Ba+Thiep+Hong+Phuc+Ba+Dinh+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Rue Hồng Phúc, Ba Đình — quartier résidentiel de fonctionnaires, sans enseigne touristique, sans menu anglais. Le bún riêu cua du nord est plus léger que les versions saigonnaises sucrées : bouillon de crabe d'eau douce acide, galettes de crabe, tofu frit croustillant, tomates revenues, vermicelles de riz. La légèreté du bouillon est le marqueur d'authenticité — tout resto qui sucre pour le palais étranger trahit le plat. Note : l'adresse est probablement 22 Hồng Phúc (non 25, à confirmer sur place).",
+    "sources": [
+      {
+        "creator": "Asiamystika Vietnam",
+        "url": "https://asiamystika.com/blog/bun-rieu-hanoi",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Vietnam.vn",
+        "url": "https://www.vietnam.vn/en/bun-oc-hanoi%E2%80%99s-tasty-winter-and-summer-treat",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "bun-cha-tuyet-hang-than",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Chả Tuyết — 34 Hàng Than",
+    "blurb": "Bún chả Bib Gourmand à Ba Đình — le porc est grillé à la commande, pas précuit, et ça change tout.",
+    "signature": "Bún chả grillé à la commande (~2–3 $CA)",
+    "image": null,
+    "price": {
+      "range": "35 000–55 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0413124,
+      "lng": 105.8472298,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bun+Cha+Tuyet+34+Hang+Than+Ba+Dinh+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Ba Đình, rue Hàng Than — hors de la zone touristique, clientèle de fonctionnaires et résidents du quartier au déjeuner. Le Michelin Bib Gourmand confirme le rapport qualité-prix, pas la célébrité. La distinction technique : le porc n'est pas précuit et réchauffé — il part sur le charbon à la commande, ce qui donne une croûte caramélisée différente. Moins connu que Obama spot, la salle reste accessible sans attente de 45 minutes.",
+    "sources": [
+      {
+        "creator": "Hanoi Times",
+        "url": "https://hanoitimes.vn/five-must-try-bun-cha-restaurants-in-hanoi-praised-by-michelin.874227.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "JackfruitAdventure",
+        "url": "https://jackfruitadventure.com/top-places-to-try-bun-cha-hanoi/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "New Asia Tours",
+        "url": "https://newasiatours.com/best-bun-cha-in-hanoi.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "hanowood-homestay",
+    "base": "hanoi",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "gem",
+    "name": "Hanowood Homestay",
+    "blurb": "6 chambres calmes près de l'Opéra, thé à l'arrivée, hôtes qui connaissent chaque ruelle — le prix d'un hostel, l'âme d'une maison.",
+    "image": null,
+    "price": {
+      "range": "180 000–324 000 VND/nuit (~13–24 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": "https://www.booking.com/hotel/vn/hanowood.html",
+      "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g293924-d17673385-Reviews-Hanowood_Homestay-Hanoi.html",
+      "maps": "https://www.google.com/maps/search/Hanowood+Homestay+Ha+Hoi+Hoan+Kiem+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Xóm Hà Hồi 34, à deux pas de l'Opéra, hors des 36 rues commerçantes — ici le quartier est historique et calme, sans bruit de backpacker street. We Giang et Quyen offrent du thé à l'arrivée, vendent des SIM, organisent des tours sur demande et donnent des reco restaurants qu'aucun guide n'a indexées. 6 chambres seulement — impossible d'être anonyme. Le rapport qualité-attention est difficile à battre à ce prix dans tout Hanoi.",
+    "sources": [
+      {
+        "creator": "UncoverVietnam Guide",
+        "url": "https://www.uncovervietnam.com/best-homestays-in-hanoi/",
+        "date": "2024-01"
+      }
+    ],
+    "singleSourceTrusted": true,
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "chips-house-ba-dinh",
+    "base": "hanoi",
+    "kind": "hotel",
+    "mapType": "hotel",
+    "roles": [
+      "sleep"
+    ],
+    "tier": "mid",
+    "name": "Chip's House",
+    "blurb": "Homestay familial à Ba Đình — terrasse vue sur le lac de l'Ouest, cours de cuisine spontanés, quartier résidentiel calme à pied.",
+    "image": null,
+    "price": {
+      "range": "~900 000 VND/nuit (~67 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g293924-d15152301-Reviews-Chip_s_House-Hanoi.html",
+      "maps": "https://www.google.com/maps/search/Chip+House+141+Hoang+Hoa+Tham+Ba+Dinh+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "141 Hoàng Hoa Thám, Ba Đình — loin du Vieux Quartier touristique, dans un quartier de parcs, villas françaises et cafés locaux. La famille hôte (Loan) organise des cours de nems spontanés, donne des reco locales et sert le breakfast sur la terrasse avec vue partielle sur le lac de l'Ouest. Les voyageurs lents y reviennent — des séjours de 6 nuits documentés. Jardin, ambiance résidentielle, zéro bruit de bui vien.",
+    "sources": [
+      {
+        "creator": "UncoverVietnam Guide",
+        "url": "https://www.uncovervietnam.com/best-homestays-in-hanoi/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Viedasie blog FR",
+        "url": "https://viedasie.com/les-6-meilleurs-homestays-a-hanoi.htm",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "pont-long-bien",
+    "base": "hanoi",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Pont Long Biên — l'aube",
+    "blurb": "Pont ferroviaire 1902 traversé à l'aube par des motocyclistes de banlieue, des vendeurs de fleurs en équilibre sur leur vélo, et des trains qui frôlent les piétons.",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0430652,
+      "lng": 105.8580334,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Long+Bien+Bridge+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "1902, entreprise Eiffel — 1 700 mètres de métal riveté à la main sur le fleuve Rouge. Bombardé pendant la guerre, jamais complètement réparé, utilisé quand même. L'aube est le vrai horaire : de 5h30 à 7h, des centaines de motards de banlieue entrent en ville, des femmes pédalent avec 50 kg de fleurs sur leur porte-bagage, les trains de banlieue passent à 40 cm des piétons sans ralentir. Brume sur le fleuve, lumière rasante — le meilleur spot documentaire de Hanoi selon les photographes de rue.",
+    "sources": [
+      {
+        "creator": "Vietnam InFocus photo tours",
+        "url": "https://www.vietnaminfocus.com/day-tours/long-bien-sunrise/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Moment Lives photo travel blog",
+        "url": "https://www.momentlives.com/photography-blogs/best-things-to-photograph-in-hanoi-for-street-photographers/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Asiamystika Vietnam",
+        "url": "https://asiamystika.com/blog/long-bien-bridge",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "phung-hung-mural-street",
+    "base": "hanoi",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see"
+    ],
+    "tier": null,
+    "name": "Phùng Hưng — arches peintes",
+    "blurb": "200 mètres d'arches ferroviaires peintes du vieux Hanoi — vie de quartier en dessous, pas le zoo de Train Street.",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0329861,
+      "lng": 105.8453865,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Phung+Hung+Mural+Street+Hoan+Kiem+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "17 fresques sur les arches du vieux chemin de fer : la rue Hàng Mã à la mi-automne, les 36 corporations, le grand magasin Tràng Tiền — le Hanoi de 1950. Financé par la Korea Foundation et UN-Habitat en 2017-2018, réalisé par des artistes locaux. Contrairement à Train Street (barrières, tickets, selfie-sticks), Phùng Hưng reste habité : vendeurs de rue sous les arches, gamins qui jouent, trains de banlieue qui passent parfois. Le contraste entre la mémoire peinte et le quotidien qui continue en dessous.",
+    "sources": [
+      {
+        "creator": "VOV World Vietnam",
+        "url": "https://vovworld.vn/en-US/discovery-vietnam/phung-hung-mural-street-features-old-hanoi-636404.vov",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Travel Hanoi Org",
+        "url": "https://travelhanoi.org/place/phung-hung-street-art/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Roy Tells Tales photo blog",
+        "url": "https://roytellstales.com/exploring-the-murals-at-hanois-art-street-vietnam-a-photo-blog/",
+        "date": "2023-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "bai-giua-red-river",
+    "base": "hanoi",
+    "kind": "sight",
+    "mapType": "sight",
+    "roles": [
+      "see",
+      "do"
+    ],
+    "tier": null,
+    "name": "Bãi Giữa — l'île des bananes",
+    "blurb": "18 hectares de jardins cultivés sous le pont Long Biên, habitée par des familles de maraîchers — la ville disparaît complètement.",
+    "image": null,
+    "price": {
+      "range": "Gratuit",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/Bai+Giua+Red+River+Island+Long+Bien+Hanoi+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-17",
+      "method": "websearch"
+    },
+    "onMap": false,
+    "story": "Un îlot alluvial de 18 ha sous le pont Long Biên, accessible par les rampes latérales ou par les berges du quartier Phúc Tân. Une trentaine de familles cultivent des bananiers, légumes, herbes aromatiques. Maisons flottantes sur la berge, joggers matinaux, pêcheurs. En 5 minutes depuis le pont, la skyline de Hanoi disparaît et on est dans une ferme urbaine au milieu du fleuve Rouge. Pas de signalétique, pas de ticket, juste un chemin de terre sous les bananiers — quasi inconnu des circuits organisés.",
+    "sources": [
+      {
+        "creator": "Vietnam Cycling photo doc",
+        "url": "https://vietnamcycling.com/hanoi-red-river-island-photos/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Airial Travel Hanoi",
+        "url": "https://airial.travel/attractions/vietnam/red-river-banana-island-hanoi-3otKPJH3",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Location Scout Vietnam",
+        "url": "https://www.locationscout.net/vietnam/43710-long-bien-bridge-from-banana-island",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-17",
+    "approvedBy": "human",
+    "region": "hanoi"
+  }
+]

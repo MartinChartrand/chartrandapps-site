@@ -31,6 +31,7 @@ const BBOXES = {
   andalousie: [-7.6, 35.9, -1.4, 38.8], // Huelva/Jabugo → Almería ; Tarifa → Sierra Morena
   portugal:   [-9.6, 36.9, -6.0, 42.2], // Sagres/Faro → Minho ; côte atlantique → frontière espagnole
   philippines: [99.5, 8.5, 126.0, 15.5], // Bangkok (escale) + Pampanga/Angeles (sisig) + Visayas centrales (Panay→Bohol/Cebu)
+  vietnam:    [105.5, 10.3, 109.7, 21.3], // Saigon (sud) → Quy Nhơn → Hội An/Đà Nẵng → Hanoi (nord), côte centrale incluse
 };
 
 async function main() {
