@@ -1858,5 +1858,197 @@
       "verdict": "match",
       "checkedAt": "2026-06-16"
     }
+  },
+  {
+    "id": "kas-port-ville",
+    "slot": "kas-port-ville",
+    "base": null,
+    "role": "photo",
+    "file": "kas-port-ville.jpg",
+    "alt": "La ville blanche de Kaş aux toits rouges descendant vers son port plein de bateaux, une presqu’île et des collines, la Méditerranée bleue.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1700992401651-1d299af8afe6",
+      "photographer": "Arthur Shuraev",
+      "license": "unsplash-standard"
+    },
+    "sha256": "0350dd8f13012227fc3a0504caf6aec6672cede9af899c0e54c0d109023b1893",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "0350dd8f13012227fc3a0504caf6aec6672cede9af899c0e54c0d109023b1893",
+      "alt": "La ville blanche de Kaş aux toits rouges descendant vers son port plein de bateaux, une presqu’île et des collines, la Méditerranée bleue.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "kas-eau-turquoise",
+    "slot": "kas-eau-turquoise",
+    "base": null,
+    "role": "photo",
+    "file": "kas-eau-turquoise.jpg",
+    "alt": "Vue aérienne d’une eau turquoise cristalline de la côte près de Kaş, une pointe rocheuse couverte de pins, un petit bateau.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1591211028625-bf35ca092e43",
+      "photographer": "Hazal Ozturk",
+      "license": "unsplash-standard"
+    },
+    "sha256": "6ebd4052efab0bd0158954eb2bf70cb0e29887bcc4c3649a018ae174715eb459",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "6ebd4052efab0bd0158954eb2bf70cb0e29887bcc4c3649a018ae174715eb459",
+      "alt": "Vue aérienne d’une eau turquoise cristalline de la côte près de Kaş, une pointe rocheuse couverte de pins, un petit bateau.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "kas-kaputas",
+    "slot": "kas-kaputas",
+    "base": null,
+    "role": "photo",
+    "file": "kas-kaputas.jpg",
+    "alt": "Vue plongeante sur la crique de Kaputaş : une eau qui passe du turquoise à l’émeraude, une plage claire, des baigneurs et un paddle.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1672950301630-b9f735d8350a",
+      "photographer": "Aleksandr Kuzmenko",
+      "license": "unsplash-standard"
+    },
+    "sha256": "d48f906da195c558e14352a695e2e7af069a3e7d280d8762747e11130376e345",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "d48f906da195c558e14352a695e2e7af069a3e7d280d8762747e11130376e345",
+      "alt": "Vue plongeante sur la crique de Kaputaş : une eau qui passe du turquoise à l’émeraude, une plage claire, des baigneurs et un paddle.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "kas-kekova-ruines",
+    "slot": "kas-kekova-ruines",
+    "base": null,
+    "role": "photo",
+    "file": "kas-kekova-ruines.jpg",
+    "alt": "Un bateau longe la colline de Simena (Kekova) : maisons à toits rouges, le château au sommet avec un drapeau turc, l’eau turquoise au premier plan.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1758970434851-80415c4b45ea",
+      "photographer": "Seval Torun",
+      "license": "unsplash-standard"
+    },
+    "sha256": "9e90e8a6dccd6c342937a439e95908ad462b3c31d8f2f8043f6673bc6df73563",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "9e90e8a6dccd6c342937a439e95908ad462b3c31d8f2f8043f6673bc6df73563",
+      "alt": "Un bateau longe la colline de Simena (Kekova) : maisons à toits rouges, le château au sommet avec un drapeau turc, l’eau turquoise au premier plan.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "kas-limanagzi",
+    "slot": "kas-limanagzi",
+    "base": null,
+    "role": "photo",
+    "file": "kas-limanagzi.jpg",
+    "alt": "Une crique méditerranéenne sauvage vue de haut : des pins qui descendent jusqu’à une eau turquoise cristalline, un petit bateau au mouillage.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1760340044484-f67b5b1e8acf",
+      "photographer": "Marvin Tendies",
+      "license": "unsplash-standard"
+    },
+    "sha256": "efb2d21c968ddc2b20d6af1334972d0d77bdd648bc281a46c3083bafb5151536",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "efb2d21c968ddc2b20d6af1334972d0d77bdd648bc281a46c3083bafb5151536",
+      "alt": "Une crique méditerranéenne sauvage vue de haut : des pins qui descendent jusqu’à une eau turquoise cristalline, un petit bateau au mouillage.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "kas-hideaway-terrasse",
+    "slot": "kas-hideaway-terrasse",
+    "base": null,
+    "role": "photo",
+    "file": "kas-hideaway-terrasse.jpg",
+    "alt": "Une table de petit-déjeuner turc — fromages, olives, œufs, confitures, pain — sur une terrasse en bois, la mer et les collines en arrière-plan.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1748678801509-de9ef7404d17",
+      "photographer": "Joop Laan",
+      "license": "unsplash-standard"
+    },
+    "sha256": "bebee7acd2fe47458aca781346f14288076d505cff98c9d2a40e62e3f2293139",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "bebee7acd2fe47458aca781346f14288076d505cff98c9d2a40e62e3f2293139",
+      "alt": "Une table de petit-déjeuner turc — fromages, olives, œufs, confitures, pain — sur une terrasse en bois, la mer et les collines en arrière-plan.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "kas-cuma-pazari",
+    "slot": "kas-cuma-pazari",
+    "base": null,
+    "role": "photo",
+    "file": "kas-cuma-pazari.jpg",
+    "alt": "Un étal turc de produits frais — fromages, olives, mezze — sous une enseigne « TAZE-TEMİZ », denrées du matin alignées.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1776613016493-393648af6e6e",
+      "photographer": "Andreea Munteanu",
+      "license": "unsplash-standard"
+    },
+    "sha256": "575979d2380508ab9f57515ce1de77085a2eac8a85e336713ed49f655bb4305e",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "575979d2380508ab9f57515ce1de77085a2eac8a85e336713ed49f655bb4305e",
+      "alt": "Un étal turc de produits frais — fromages, olives, mezze — sous une enseigne « TAZE-TEMİZ », denrées du matin alignées.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
+  },
+  {
+    "id": "kas-bi-lokma-mezze",
+    "slot": "kas-bi-lokma-mezze",
+    "base": null,
+    "role": "photo",
+    "file": "kas-bi-lokma-mezze.jpg",
+    "alt": "Un plateau de mezze — houmous, taboulé, pommes de terre épicées, petits chaussons frits et pointes de pita grillée.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "1743674453093-592bed88018e",
+      "photographer": "Zoshua Colah",
+      "license": "unsplash-standard"
+    },
+    "sha256": "fa098093700cf600c7888d3af13750649e5dec4074a594906fa592755653a6ad",
+    "visionChecked": "opus-read-2026-06-16",
+    "visionCheckedSemantic": {
+      "sha256": "fa098093700cf600c7888d3af13750649e5dec4074a594906fa592755653a6ad",
+      "alt": "Un plateau de mezze — houmous, taboulé, pommes de terre épicées, petits chaussons frits et pointes de pita grillée.",
+      "verdict": "match",
+      "checkedAt": "2026-06-16"
+    }
   }
 ]

@@ -7,7 +7,7 @@
       "zoom": 14,
       "targets": ["hideaway-hotel-kas", "kaputas-beach"],
       "thumb": "kas-port-ville",
-      "thumbAlt": "La petite ville blanche de Kaş descendant vers son port en demi-cercle, l'amphithéâtre lycien à flanc de colline, et l'île grecque de Kastellorizo posée sur la mer en arrière-plan.",
+      "thumbAlt": "La ville blanche de Kaş aux toits rouges descendant vers son port plein de bateaux, une presqu'île et des collines, la Méditerranée bleue.",
       "poiRef": "hideaway-hotel-kas",
       "sources": [
         { "creator": "Hideaway Hotel (site officiel)", "url": "https://www.hotelhideaway.com/en/", "date": "2026-06" }
@@ -20,7 +20,7 @@
       "zoom": 13,
       "targets": ["limanagz-crique", "kekova-simena-cite-engloutie"],
       "thumb": "kas-eau-turquoise",
-      "thumbAlt": "Une eau turquoise cristalline de la côte Lycienne près de Kaş, des falaises calcaires qui plongent dans la mer, des pins méditerranéens jusqu'au bord de l'eau.",
+      "thumbAlt": "Vue aérienne d'une eau turquoise cristalline de la côte près de Kaş, une pointe rocheuse couverte de pins, un petit bateau.",
       "poiRef": "kaputas-beach",
       "sources": [
         { "creator": "Antalya Tourist Information — Kaputaş", "url": "https://antalyatouristinformation.com/things-to-do/beach/kaputas/", "date": "2026-06" }
@@ -33,7 +33,7 @@
       "kicker": "Kaputaş · LA CRIQUE",
       "title": "Cent quatre-vingt-sept marches vers le turquoise",
       "image": "kas-kaputas",
-      "alt": "Vue depuis le haut des marches sur la crique de Kaputaş : une eau turquoise vif coincée entre deux falaises calcaires verticales, une plage de galets dorés, quelques nageurs minuscules.",
+      "alt": "Vue plongeante sur la crique de Kaputaş : une eau qui passe du turquoise à l'émeraude, une plage claire, des baigneurs et un paddle.",
       "intro": "C'est la crique archétypale de la côte Lycienne : une brèche dans la roche entre deux falaises à pic, cent cinquante mètres de galets dorés, une eau d'un turquoise impossible à inventer. Aucun resort, aucune marina — juste l'escalier qui descend de la route et la mer en bas. La photo qui hante l'imaginaire de la côte, et pour une fois la réalité écrase la carte postale.",
       "reco": "Cent quatre-vingt-sept marches à descendre (prévoir des sandales, c'est raide) — la plage ouvre à 8h, et la fenêtre idéale est 8h30–10h, avant que les falaises perdent leur ombre et que la cohue arrive. Petite entrée municipale (~60 TL, ~CAD 3) pour les douches et les chaises. Filer vers le rocher de gauche pour moins de monde, et plonger directement du bord — l'eau devient profonde à dix mètres du rivage. C'est un site de tortues caretta : la plage peut fermer tôt en soirée, vérifier sur place.",
       "quote": "Une eau turquoise électrique entre deux murs de calcaire blanc, au bout de cent quatre-vingt-sept marches. On descend, on plonge, et on comprend pourquoi on est venus jusqu'ici.",
@@ -49,7 +49,7 @@
       "kicker": "Kekova & Simena · LA CITÉ ENGLOUTIE",
       "title": "Une ville lycienne à fleur d'eau",
       "image": "kas-kekova-ruines",
-      "alt": "Vue plongeante depuis le bastingage d'un gulet sur des ruines lyciennes immergées à un ou deux mètres de profondeur — fondations et escaliers de pierre visibles dans une eau turquoise cristalline, le château de Simena sur la colline.",
+      "alt": "Un bateau longe la colline de Simena (Kekova) : maisons à toits rouges, le château au sommet avec un drapeau turc, l'eau turquoise au premier plan.",
       "intro": "Un séisme du IIe siècle a avalé une ville entière. Aujourd'hui, le long de l'île de Kekova, les fondations, les escaliers et les sarcophages lyciens affleurent sous un ou deux mètres d'eau si transparente qu'on les voit depuis le pont du bateau, sans plonger. C'est l'expédition de la semaine : on part en gulet du vieux port de Kaş, on glisse au-dessus de la cité fantôme, et on monte au château de Simena qui domine la baie.",
       "reco": "Choisir un gulet local au vieux port — éviter les bateaux à sono et haut-parleurs. Important : la plongée et le snorkeling directement au-dessus des ruines sont interdits (zone protégée, amende à la clé) — les ruines se regardent depuis le bastingage, et on se baigne dans les baies voisines, comme l'Aquarium Bay, où l'eau est tout aussi turquoise. Monter à pied au château de Simena (Kaleköy, quinze minutes depuis le quai) pour la vue sur tout l'archipel. Le déjeuner est souvent servi à bord.",
       "quote": "On se penche par-dessus le bastingage et on regarde dans une ville fantôme — des escaliers, des murs, des tombeaux à fleur d'eau. Pas besoin de plonger : le fond est si clair que la cité remonte vers toi.",
@@ -65,7 +65,7 @@
       "kicker": "Bi Lokma · LA TABLE",
       "title": "Les mezze d'une mère, la baie en contrebas",
       "image": "kas-bi-lokma-mezze",
-      "alt": "Une terrasse-jardin avec tables en bois sous des oliviers, un plateau de mezze colorés — haydari blanc, aubergine fumée, olives noires — et la baie bleue de Kaş en arrière-plan.",
+      "alt": "Un plateau de mezze — houmous, taboulé, pommes de terre épicées, petits chaussons frits et pointes de pita grillée.",
       "intro": "On grimpe dans le quartier d'Andifli, au-dessus du port, jusqu'à Bi Lokma — une terrasse-jardin que les locaux indiquent à voix basse. Pas de bord de mer, pas de jetée : des tables en hauteur sous les arbres, la baie de Kaş et Kastellorizo qui s'ouvrent en contrebas, et une cuisine de mère de famille tenue depuis plus de vingt ans. Pas de carte plastifiée à photos, pas de chichi — des mezze faits à la main et le poisson du jour.",
       "reco": "Monter en terrasse avant le coucher du soleil, vers 19h, pour la lumière dorée sur la baie. Commencer par le plateau de mezze froids — aubergine fumée au yaourt, haydari, salade de poulpe en saison — puis le poisson du jour grillé, un verre de rakı coupé à l'eau. Réserver (WhatsApp). C'est la table tranquille du séjour, celle où on revient, où on devient un habitué en huit nuits.",
       "quote": "Une terrasse sous les oliviers, les mezze d'une mère qui cuisine pour de vrai depuis vingt ans, et la baie qui s'allume en contrebas. Le genre d'adresse qu'on ne trouve pas — qu'on te confie.",
@@ -81,7 +81,7 @@
       "kicker": "Limanağzı · LA BAIE SANS ROUTE",
       "title": "On débarque, et on change d'époque",
       "image": "kas-limanagzi",
-      "alt": "La baie de Limanağzı vue depuis l'eau : des pins méditerranéens qui descendent jusqu'au bord, une eau turquoise-vert cristalline, le petit ponton de bois d'un beach club, des collines boisées en fond.",
+      "alt": "Une crique méditerranéenne sauvage vue de haut : des pins qui descendent jusqu'à une eau turquoise cristalline, un petit bateau au mouillage.",
       "intro": "Juste en face du vieux port, mais inaccessible en voiture : Limanağzı est une baie qu'on n'atteint qu'en taxi-eau ou par le sentier Lycien. On débarque du bateau et on entre dans une autre époque — les pins jusqu'à l'eau, les cigales, quelques tables sur pilotis, et un fond marin qui grouille. Pas d'hôtel, pas de tour bus, juste les rochers et la mer à vingt-quatre, vingt-six degrés.",
       "reco": "Prendre le taxi-eau au kiosque du vieux port (environ 350 TL aller-retour, ~CAD 19 — vérifier l'heure du dernier retour, souvent vers 17h–18h), ou marcher une heure trente par le sentier Lycien. Plusieurs beach clubs simples se partagent la baie (Bilal'in Yeri, Nuri's Beach, La Moda) : on s'installe à l'ombre, on snorkèle autour des rochers — barracudas, poissons-trompette, parfois une tortue — et on demande si le poisson ou le poulpe grillé est dispo ce jour-là. La baignade longue, celle où on ne fait rien.",
       "quote": "Aucune route ne s'y rend. On monte dans une barque, on traverse cinq minutes, et on débarque dans une baie où il n'y a que les pins, les cigales et l'eau. Le luxe, c'est l'absence.",
@@ -97,7 +97,7 @@
       "kicker": "Hideaway · LE RÉVEIL",
       "title": "Le petit-déjeuner turc, une île grecque en face",
       "image": "kas-hideaway-terrasse",
-      "alt": "Une terrasse-toit au lever du soleil : une table de petit-déjeuner turc — fromages, olives, œufs, pain frais — au premier plan, la mer turquoise et l'île grecque de Kastellorizo distinctement visible en arrière-plan.",
+      "alt": "Une table de petit-déjeuner turc — fromages, olives, œufs, confitures, pain — sur une terrasse en bois, la mer et les collines en arrière-plan.",
       "intro": "Se loger à Kaş, c'est aussi choisir son réveil. Au Hideaway, petit hôtel-boutique collé à l'amphithéâtre antique, la terrasse-toit donne plein sud sur la Méditerranée et sur Kastellorizo — l'île grecque à deux kilomètres, la frontière maritime la plus absurde de la Méditerranée. Confortable et douillet sans être luxe : exactement le genre d'endroit où on traîne au petit-déjeuner.",
       "reco": "Demander une chambre Deluxe ou Sea View pour le balcon. Descendre tôt sur la terrasse pour le buffet turc — fromages de chèvre, olives, œufs, miel, tomates qui goûtent la tomate — dans la lumière fraîche du matin, le Meis en face. Le soir, le bar de toit pour un verre avec l'île grecque éclairée à l'horizon. C'est la scène qui justifie à elle seule de s'installer plutôt que de passer.",
       "quote": "On se lève, on monte sur le toit, et la première chose qu'on voit avec son café, c'est une île grecque à deux kilomètres. Le petit-déjeuner turc devant une frontière qui n'a aucun sens : on reste une heure de plus.",
@@ -116,7 +116,7 @@
       "boundsPois": ["kaputas-beach", "limanagz-crique", "kekova-simena-cite-engloutie", "mercan-restaurant-1956"],
       "targets": ["marche-vendredi-cuma-pazar"],
       "thumb": "kas-cuma-pazari",
-      "thumbAlt": "Le marché du vendredi de Kaş (Cuma Pazarı) : des femmes Yörük en costume traditionnel derrière des étals de fromages de chèvre, d'olives et de figues fraîches, sous la lumière du matin.",
+      "thumbAlt": "Un étal turc de produits frais — fromages, olives, mezze — sous une enseigne « TAZE-TEMİZ », denrées du matin alignées.",
       "pills": [
         { "poiRef": "marche-vendredi-cuma-pazar", "link": "maps", "label": "Cuma Pazarı · Maps" },
         { "label": "Le carnet de bouche", "url": "#carnet" }
