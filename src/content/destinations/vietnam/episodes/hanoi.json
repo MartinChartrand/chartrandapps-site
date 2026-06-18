@@ -32,13 +32,6 @@
     {
       "kicker": "Le terrain — Vieux Quartier, Ba Đình et la règle du bol",
       "body": "Six nuits réparties entre le Vieux Quartier (Hoàn Kiếm) et Ba Đình. La logique : le phở et le bún chả sont au cœur des 36 rues, le café à l'œuf dans sa ruelle, le chả cá en solo rue Đường Thành. Ba Đình donne accès au pont Long Biên à l'aube, aux arches de Phùng Hưng le soir, et aux adresses hors-radar de la clientèle résidentielle. Hanoi n'est pas une ville qu'on visite — c'est une ville qu'on mange, quartier par quartier, matin par matin.",
-      "boundsPois": [
-        "pho-gia-truyen-bat-dan",
-        "bun-cha-dac-kim",
-        "cha-ca-thang-long",
-        "cafe-giang-ca-phe-trung",
-        "phung-hung-mural-street"
-      ],
       "targets": [
         "bun-cha-dac-kim"
       ],

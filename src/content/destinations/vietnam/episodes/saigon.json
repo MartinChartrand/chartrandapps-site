@@ -3,12 +3,6 @@
     {
       "kicker": "13 février · L'ARRIVÉE",
       "body": "Saigon commence la nuit. Le Grab qui sort de Tân Sơn Nhất prend l'autoroute et lâche un flot de néons et de klaxons dans le rétroviseur — on est en période post-Tết, la ville a passé une semaine à faire la fête et n'a pas encore dormi. À Binh Thanh, un quartier résidentiel que personne ne visite, un hôtel boutique mid-century à quelques rues de la rivière. Demain, la ville. Ce soir, les hẻm allumées, le bruit du trafic, le premier café sữa đá sur le trottoir encore chaud.",
-      "boundsPois": [
-        "oc-vinh-khanh",
-        "com-tam-ba-ghien",
-        "bot-chien-dat-thanh",
-        "ben-binh-dong-d8"
-      ],
       "targets": [],
       "thumb": "saigon-cover",
       "thumbAlt": "Foule nocturne sur un boulevard de Saigon illuminé de néons et de lanternes pendant les festivités du Tết",
@@ -26,10 +20,6 @@
     {
       "kicker": "Binh Thanh · LE PREMIER CAFÉ",
       "body": "Le lendemain matin à 6h, il y a déjà quelqu'un assis devant un thermos avec des tabourets bleus. Café sữa đá, filtre phin qui goutte lentement, lait concentré sucré au fond du verre en plastique — assis sur le trottoir, les scooters passent à vingt centimètres. Dix minutes plus tard, bord du canal Nhiêu Lộc : des joggers, un groupe de tai-chi, les cafés qui ouvrent sur l'eau. Pas un touriste en vue. C'est comme ça que Saigon commence, chaque matin.",
-      "boundsPois": [
-        "oc-vinh-khanh",
-        "com-tam-ba-ghien"
-      ],
       "targets": [],
       "thumb": "saigon-cover",
       "thumbAlt": "Foule nocturne sur un boulevard de Saigon illuminé de néons et de lanternes pendant les festivités du Tết",
