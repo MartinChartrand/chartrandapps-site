@@ -153,7 +153,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "story": "26 Lê Thị Riêng, Phạm Ngũ Lão — depuis 1989. La file démarre avant 14h. À 80-90% des Saïgonnais qui savent exactement ce qu'ils viennent chercher : le beurre, la garniture qui déborde, et le pain qui craque. Daniel Food Diary l'a couvert en 2024 après une vraie visite. Pas le bánh mì le moins cher de la ville — le meilleur de sa catégorie.",
     "sources": [
       {
@@ -174,7 +174,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "saigon"
+    "region": "saigon",
+    "coords": {
+      "lat": 10.771469,
+      "lng": 106.692371,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "bun-mam-phan-boi-chau",
@@ -206,7 +212,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "story": "22 Phan Bội Châu, face à la porte est de Ben Thanh — les touristes entrent dans le marché, les Saïgonnais s'assoient ici. Le bún mắm, c'est le bouillon du Sud: fermenté, sombre, chargé d'umami et de poisson serpentin entier dans le bol. 65 000 VND. Mark Wiens y a mangé pendant un mois qu'il passait à Saigon — il mange avec les locaux, pas en circuit.",
     "sources": [
       {
@@ -227,7 +233,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "saigon"
+    "region": "saigon",
+    "coords": {
+      "lat": 10.772473,
+      "lng": 106.698797,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "bun-mam-co-chinh",
@@ -454,7 +466,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "story": "144 Đường Pasteur, taproom fondateur. Fondateurs résidents permanents à Saigon. La clientèle des taprooms de District 3 ou Phú Nhuận c'est les expats long-terme et les jeunes Saïgonnais aisés — pas un bar à touristes. La Jasmine IPA utilise du jasmin de Hanoi : floral sans être sucré, houblonné sans être agressif. Une scène craft beer locale qui existe pour elle-même depuis 2014.",
     "sources": [
       {
@@ -475,7 +487,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "saigon"
+    "region": "saigon",
+    "coords": {
+      "lat": 21.02851,
+      "lng": 105.84843,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "maison-de-camille",
@@ -1563,7 +1581,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "story": "109 Nguyễn Chí Thanh, Hải Châu — ça grouille avant 7h. Bà Hoa achète au marché chaque matin avant d'ouvrir, et ses 300 bols quotidiens partent sans jamais chercher les touristes. Le Michelin Bib Gourmand 2024 lui a collé une étiquette — la clientèle locale n'a rien changé. Un bol à 25 000 VND, bouillon qui sent la courge rôtie et la tomate, galettes de poisson moelleuses. Sold-out avant 10h les fins de semaine.",
     "sources": [
       {
@@ -1584,7 +1602,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "hoian"
+    "region": "hoian",
+    "coords": {
+      "lat": 15.88804,
+      "lng": 108.336788,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "banh-xeo-ba-duong",
@@ -1611,7 +1635,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "story": "280/23 Hoàng Diệu, Bình Hiên — tu rates la ruelle si tu regardes pas bien. Bà Dưỡng fait grésiller ses crêpes dans l'huile depuis 31 ans : jaunes vif, fines comme du parchemin, farcies de crevettes, servies avec un nem lụi (brochette porc-lemongrass) grillé sur charbon. Aucune signalétique en anglais à l'origine. Le Michelin Guide 2024 l'a trouvée — la file locale existait bien avant. À midi en semaine, t'as 25 minutes d'attente. Plan B si tu arrives après 13h.",
     "sources": [
       {
@@ -1637,7 +1661,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "hoian"
+    "region": "hoian",
+    "coords": {
+      "lat": 16.058803,
+      "lng": 108.216035,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "mi-quang-ong-hai",
@@ -1666,7 +1696,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "story": "6A Trương Minh Lượng, Cẩm Châu — le quartier résidentiel juste à côté de la vieille ville, mais les circuits ne le voient jamais. Menu écrit à la main en vietnamien : tu commandes en pointant. Le bol arrive épais, jaune curcuma, avec une petite quantité de bouillon ultra-concentré qui n'a rien à voir avec les versions édulcorées du vieux quartier. Mis à jour mars 2026 selon les sources locales. À moto depuis la vieille ville, c'est 10 minutes.",
     "sources": [
       {
@@ -1687,7 +1717,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "hoian"
+    "region": "hoian",
+    "coords": {
+      "lat": 16.061983,
+      "lng": 108.216348,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "goi-ca-nam-o",
@@ -1823,7 +1859,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "story": "53C Đống Đa, Thạch Thang, Hải Châu — une chaîne familiale partie de Huế, pas un café de centre commercial. Le truc : un café robusta vietnamien classique avec une mousse salée et crémeuse déposée sur le dessus, épaisse comme de la chantilly, légèrement sucrée, qui flotte sur l'amertume du café. Tu mélanges ou tu bois en layers. 25 000 VND. L'habitude de quartier des travailleurs de Da Nang — commande ça à 7h du matin, personne te regarde étrangement.",
     "sources": [
       {
@@ -1839,7 +1875,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "hoian"
+    "region": "hoian",
+    "coords": {
+      "lat": 16.471122,
+      "lng": 107.572903,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "bun-cha-ca-di-gai",
@@ -1866,7 +1908,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "singleSourceTrusted": true,
     "story": "119 Lê Đình Dương, Nam Dương, Hải Châu — ouvert à 6h, fermé avant 11h30. Dì Gái a plus de 50 ans d'existence, 500 à 600 bols par jour les vendredis. La façade est modeste, fondue dans la rue résidentielle — aucune signalétique touristique. Saigoneer (série Hẻm Gems, media culinaire local sérieux) l'a documentée en visite in situ comme un 'family heirloom' : recette transmise, bouillon mijoté toute la nuit, galettes faites maison. 30 000 VND le bol. T'arrives après 9h le samedi, y'a rien.",
     "sources": [
@@ -1878,7 +1920,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "hoian"
+    "region": "hoian",
+    "coords": {
+      "lat": 15.88804,
+      "lng": 108.336788,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "banh-trang-ba-mua",
@@ -2071,7 +2119,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "singleSourceTrusted": true,
     "story": "Allée Lac Long Quan, Cẩm An — la section d'An Bang non bondée, sans les vendeurs de plage du matin. Jardin tropical, café 'Sounds of Silence' sur place, vélos gratuits, petit-déjeuner avec vue mer. 7 chambres max — impossible pour les groupes organisés. Rusty Compass (le meilleur guide indépendant Vietnam, aucun intérêt commercial) en fait une de ses rares recommandations hôtelières sur Hội An. TripAdvisor #60/399 B&Bs dans la ville.",
     "sources": [
@@ -2083,7 +2131,13 @@
     ],
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "hoian"
+    "region": "hoian",
+    "coords": {
+      "lat": 15.90866,
+      "lng": 108.347453,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "pho-gia-truyen-bat-dan",
@@ -2676,7 +2730,7 @@
       "lastChecked": "2026-06-17",
       "method": "websearch"
     },
-    "onMap": false,
+    "onMap": true,
     "story": "Xóm Hà Hồi 34, à deux pas de l'Opéra, hors des 36 rues commerçantes — ici le quartier est historique et calme, sans bruit de backpacker street. We Giang et Quyen offrent du thé à l'arrivée, vendent des SIM, organisent des tours sur demande et donnent des reco restaurants qu'aucun guide n'a indexées. 6 chambres seulement — impossible d'être anonyme. Le rapport qualité-attention est difficile à battre à ce prix dans tout Hanoi.",
     "sources": [
       {
@@ -2688,7 +2742,13 @@
     "singleSourceTrusted": true,
     "verifiedAt": "2026-06-17",
     "approvedBy": "human",
-    "region": "hanoi"
+    "region": "hanoi",
+    "coords": {
+      "lat": 21.021002,
+      "lng": 105.846821,
+      "source": "nominatim",
+      "verifiedOn": "2026-06-17"
+    }
   },
   {
     "id": "chips-house-ba-dinh",

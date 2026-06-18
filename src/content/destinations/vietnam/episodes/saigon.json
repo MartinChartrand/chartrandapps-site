@@ -19,7 +19,9 @@
           "url": "https://nomadisbeautiful.com/travel-blogs/where-to-stay-in-ho-chi-minh/",
           "date": "2024-01"
         }
-      ]
+      ],
+      "focusPoi": "oc-vinh-khanh",
+      "zoom": 13
     },
     {
       "kicker": "Binh Thanh · LE PREMIER CAFÉ",
@@ -43,7 +45,9 @@
           "url": "https://www.vietnam.vn/en/kenh-nhieu-loc-thi-nghe-dong-song-seine-giua-long-tp-ho-chi-minh",
           "date": "2024-01"
         }
-      ]
+      ],
+      "focusPoi": "oc-vinh-khanh",
+      "zoom": 13
     }
   ],
   "scenes": [
