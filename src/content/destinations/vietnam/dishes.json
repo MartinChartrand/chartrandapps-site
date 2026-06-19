@@ -6,7 +6,12 @@
     "title": "Ốc len xào dừa — escargots de mangrove au lait de coco",
     "body": "Escargots de mangrove (ốc len) sautés au wok avec lait de coco, citronnelle, piment oiseau et feuilles de coriandre. Texture élastique, bouillon crémeux, iodé sans excès. Prix : 50 000–100 000 VND/portion (~3–6 $CA). Rue Vĩnh Khánh, District 4 — Ốc Oanh (#534, étoile Michelin 2025) ou Ốc Vũ (coin, toujours bondé).",
     "image": "",
-    "links": [],
+    "links": [
+      {
+        "label": "Où en manger — rue Vĩnh Khánh · Maps",
+        "url": "https://www.google.com/maps/search/Vinh+Khanh+street+seafood+District+4+Ho+Chi+Minh+City"
+      }
+    ],
     "type": "plat",
     "region": "saigon",
     "story": "Le plat signature de la rue Vĩnh Khánh, et du nhậu saïgonnais en général. Les ốc len viennent des mangroves du Delta — leur chair ferme et leur goût iodé s'accordent exactement avec la douceur du lait de coco. On les mange debout ou assis sur des tabourets en plastique, avec une bière Saigon froide et des amis. La rue entière a décroché une mention Time Out Top 10 mondial 2025 sans que les habitués s'en aperçoivent.",
@@ -37,7 +42,12 @@
     "title": "Cơm tấm sườn nướng — riz brisé à la côtelette grillée",
     "body": "Riz brisé (tấm) légèrement glueux, côtelette de porc grillée au charbon, tranche d'omelette vapeur (chả trứng), tranches de concombre, sauce nước chấm maison. Le plat du déjeuner de Saigon depuis des générations. Prix : 75 000–120 000 VND (~4–7 $CA).",
     "image": "saigon-comtam-grill",
-    "links": [],
+    "links": [
+      {
+        "label": "Où en manger — Cơm Tấm Ba Ghiền · Maps",
+        "url": "https://www.google.com/maps/search/Com+Tam+Ba+Ghien+84+Dang+Van+Ngu+Phu+Nhuan+Ho+Chi+Minh"
+      }
+    ],
     "type": "plat",
     "region": "saigon",
     "story": "Le cơm tấm est né des grains de riz brisés que les paysans du Sud mangeaient — trop abimés pour la vente, trop bons pour être jetés. La côtelette grillée au charbon de Ba Ghiền (Phú Nhuận, Bib Gourmand 2023) a une croûte caramélisée et une chair juteuse qui vient avec la sauce maison. 95% de clientèle locale, des ouvriers qui mangent ici depuis les années 90. Le plat qu'on retrouve partout à Saigon, mais dont chaque stand se distingue par sa sauce et son charbon.",
@@ -63,7 +73,12 @@
     "title": "Bánh mì đặc biệt — le bánh mì de Saigon",
     "body": "Baguette croustillante garnie de pâté de foie, jambon cuit, nem chua, mayonnaise, beurre généreux, daikon et carottes marinés, coriandre, piment. Version đặc biệt (spéciale) = garniture maximale. Prix 62 000 VND (~3,50 $CA) chez Huynh Hoa, 26 Lê Thị Riêng — ouvert 14h–23h uniquement.",
     "image": "",
-    "links": [],
+    "links": [
+      {
+        "label": "Où en manger — Bánh Mì Huynh Hoa · Maps",
+        "url": "https://www.google.com/maps/search/Banh+Mi+Huynh+Hoa+26+Le+Thi+Rieng+District+1+Ho+Chi+Minh"
+      }
+    ],
     "type": "plat",
     "region": "saigon",
     "story": "La baguette vietnamienne, c'est ce que la colonisation française a laissé de plus honnête. La version de Huynh Hoa (fondée 1989) est dense, beurrée, chargée — rien à voir avec un bánh mì de touristes. 80-90% de Saïgonnais dans la file, qui font 20-30 minutes volontairement. Le prix est plus élevé qu'un bánh mì de rue standard, et les locaux l'assument. Daniel Food Diary l'a couvert après une vraie visite en 2024 — pas un article de presse de voyagiste.",
@@ -153,7 +168,12 @@
     "title": "Cà phê sữa đá — café glacé au lait concentré",
     "body": "Robusta vietnamien brassé lentement dans un filtre phin en métal individuel, versé chaud sur glace pilée et lait condensé sucré. Servi sur le trottoir dans un verre en plastique bas, assis sur des tabourets de 20 cm. Prix : 10 000–20 000 VND (~0,55–1,10 $CA).",
     "image": "",
-    "links": [],
+    "links": [
+      {
+        "label": "Un classique de rue — cà phê vợt · Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=C%C3%A0%20ph%C3%AA%20v%E1%BB%A3t%20Phan%20%C4%90%C3%ACnh%20Ph%C3%B9ng%20Ho%20Chi%20Minh%20City"
+      }
+    ],
     "type": "plat",
     "region": "saigon",
     "story": "Pas un café, une pratique culturelle. Les stands tenus par des femmes qui squattent un coin de trottoir avec un thermos, une glacière et des tabourets — quasi-invisibles sur Google Maps, présents sur presque chaque bloc de la ville. 90% des Saïgonnais commencent leur journée comme ça, avant 8h. La découverte réelle n'est pas dans ce qu'on commande — c'est dans le fait de s'asseoir et d'observer la rue en buvant un café qui filtre lentement pendant 5 minutes dans la chaleur.",
@@ -297,7 +317,7 @@
     "group": "Le carnet de bouche — Quy Nhơn",
     "title": "Gỏi Cá Mai — sardine blanche marinée crue",
     "body": "Filets de cá mai (sardine blanche locale) coupés fins et marinés crus dans un mélange vinaigre de riz + lait de coco + gingembre + herbes. La chair blanchit et se raffermit par l'acidité — le même principe que le ceviche mais avec des ingrédients entièrement locaux. Servi avec bánh tráng grillé pour scooper. Prix : 100 000 VND/assiette (~5,55 $CA). Adresse de référence : Thanh Kiều, 69/1 Trần Hưng Đạo (dans le hẻm).",
-    "image": "",
+    "image": "quynhon-goi",
     "links": [],
     "type": "plat",
     "region": "quynhon",
@@ -329,7 +349,7 @@
     "group": "Le carnet de bouche — Quy Nhơn",
     "title": "Nem Nướng + Nem Chua + Tre — le trio fermenté de Bình Định",
     "body": "Trois préparations distinctes du porc mangées ensemble : (1) Nem nướng — saucisses de porc grillées au charbon, parfumées citronnelle ; (2) Nem chua — porc cru fermenté en feuilles de goyave 2–3 jours, acidulé et légèrement pétillant ; (3) Tre — bambou tranché finement et fermenté avec du porc et des épices, spécialité quasi absente hors Bình Định. Tout se mange enroulé dans du bánh tráng mince avec herbes fraîches. Prix rue Ngô Văn Sở : ~120 000 VND/plateau (~6,70 $CA). Ouvert 15h–minuit.",
-    "image": "",
+    "image": "quynhon-nem",
     "links": [],
     "type": "plat",
     "region": "quynhon",
@@ -393,7 +413,7 @@
     "group": "Le carnet de bouche — Quy Nhơn",
     "title": "Bánh Hỏi Cháo Lòng — vermicelle tressé et abats du matin",
     "body": "Deux éléments distincts présentés ensemble : bánh hỏi (vermicelle de riz ultra-fin tressé en galette molle) + cháo lòng (congee chaud aux abats frais — intestin, foie, sang coagulé selon le comptoir). On pose la galette de vermicelle dans le bol de congee ou on alterne cuillères. Prix : 15 000–25 000 VND (~0,85–1,40 $CA). Adresse : 20 Diên Hồng. Ouvert 5h–11h30.",
-    "image": "",
+    "image": "quynhon-banh-hoi",
     "links": [],
     "type": "plat",
     "region": "quynhon",
@@ -425,7 +445,7 @@
     "group": "Le carnet de bouche — Quy Nhơn",
     "title": "Ốc Hương Grillés au Beurre Ciboulette",
     "body": "Escargots de mer (ốc hương = turritelle locale, distincte des ốc len de Saigon) grillés sur braises avec beurre fondu et ciboulette verte. Chair ferme, légèrement iodée, arôme beurre-fines herbes. Se mange avec un cure-dent pour extraire la chair de la spirale. Prix rue Ngọc Hân Công Chúa : 25 000–50 000 VND/portion (~1,40–2,80 $CA). Horaire : 16h–22h. Meilleur spot : Ốc Bà Bông au numéro 22.",
-    "image": "",
+    "image": "quynhon-oc",
     "links": [],
     "type": "plat",
     "region": "quynhon",
@@ -458,7 +478,7 @@
     "type": "plat",
     "title": "Mì Quảng",
     "body": "Le plat du Centre par excellence — bol épais au curcuma, bouillon concentré servi en petite quantité (contrairement au phở), porc ou crevettes, feuilles de basilic thaï, galette de riz grillée par-dessus. Version authentique chez Ông Hai, Cẩm Châu : 15 000–40 000 VND, menu viet only.",
-    "image": "hoian-18",
+    "image": "hoian-r41",
     "poiRef": "mi-quang-ong-hai",
     "links": [
       {
@@ -490,7 +510,7 @@
     "type": "plat",
     "title": "Cao lầu",
     "body": "Plat unique à Hội An — les vermicelles épais sont traditionnellement faits avec l'eau du puits Bà Lễ et de la cendre de bois du village Cham de Cù Lao Chàm. Porc laqué, herbes fraîches locales, crackers de riz soufflés. Introuvable ailleurs dans sa forme authentique.",
-    "image": "hoian-22",
+    "image": "hoian-32",
     "links": [
       {
         "label": "Vietnam Coracle guide Hội An",
@@ -521,7 +541,7 @@
     "type": "plat",
     "title": "Bánh xèo du Centre",
     "body": "La version centrale est plus fine et plus croustillante que celle du Sud — pâte à base de farine de riz et curcuma, crevettes fraîches ou tôm nhảy (vivantes), porc, germes de soja. Servie avec nem lụi (brochette porc-lemongrass). Deux adresses de référence : Bà Dưỡng (Michelin, ruelle Bình Hiên) et Năm Hiền (Michelin, tôm nhảy de rivière, Thanh Khê).",
-    "image": "hoian-27",
+    "image": "hoian-22",
     "links": [
       {
         "label": "Bánh xèo Bà Dưỡng — Michelin Guide",
@@ -557,7 +577,7 @@
     "type": "plat",
     "title": "Bún chả cá Đà Nẵng",
     "body": "Spécialité de la ville — vermicelles de riz dans un bouillon os de poisson cuit toute la nuit, avec des galettes de poisson maison (chả cá) frites et/ou grillées. Différent du bún chả cá du Centre plus au nord. Deux adresses fortes : Bà Hoa (Michelin Bib 2024) et Dì Gái (500 bols/jour, 50+ ans).",
-    "image": "hoian-30",
+    "image": "hoian-r10",
     "links": [
       {
         "label": "Bà Hoa — Michelin Bib Gourmand 2024",
@@ -717,9 +737,9 @@
     "group": "Le carnet de bouche — Hanoi",
     "base": "hanoi",
     "title": "Bún chả — le plat du midi hanoïen",
-    "body": "Galettes de porc grillées au charbon + boulettes de porc en feuilles (cha bao), servies dans un bol de bouillon légèrement vinaigrette avec vermicelles et herbes fraîches à côté. On trempe, on assemble, on mange vite avant que la fumée refroidisse. Bún Chả Đắc Kim (Hàng Mành, Vieux Quartier) : 40 000–60 000 VND (~2–3 $CA). Bún Chả Tuyết (34 Hàng Than, Ba Đình) : 35 000–55 000 VND (~2–3 $CA).",
-    "poiRef": "bun-cha-dac-kim",
-    "image": "scene-bun-cha-hanoi",
+    "body": "Galettes de porc grillées au charbon + boulettes en feuilles (cha bao), dans un bol de bouillon légèrement vinaigrette avec vermicelles et herbes fraîches à côté. On trempe, on assemble, on mange vite avant que la fumée refroidisse. Le pick d'initié : Bún Chả Hàng Quạt (74 Hàng Quạt, la cour au fond d'une ruelle d'un mètre) — 40 000–60 000 VND (~2–3 $CA). Les institutions : Đắc Kim (Hàng Mành) et Bún Chả Tuyết (34 Hàng Than, Ba Đình).",
+    "poiRef": "bun-cha-hang-quat",
+    "image": "hanoi-bun-cha-dac-kim",
     "type": "plat",
     "region": "hanoi",
     "story": "Obama a mangé du bún chả avec Bourdain en 2016 chez Hương Liên — depuis, la queue pour cette table est internationale. Mais le bún chả n'est pas cette table-là : c'est le plat du midi que des centaines de milliers de résidents mangent chaque jour dans des salles en plastique sans enseigne. La fumée de charbon colle aux vêtements, le bouillon légèrement vinaigrette coupe le gras du porc grillé. Đắc Kim le fait depuis 1965, Tuyết à Hàng Than grille à la commande — pas précuit, ce qui change la croûte.",
@@ -781,7 +801,7 @@
     "title": "Cà phê trứng — le café à l'œuf",
     "body": "Robusta vietnamien fort brassé à la cafetière, surmonté d'une crème épaisse montée à partir d'un jaune d'œuf battu avec lait concentré sucré. Servi chaud dans un bol d'eau chaude. Texture entre la crème brûlée et le cappuccino. Café Giang (39 Nguyễn Hữu Huân, Vieux Quartier, ruelle au fond à gauche) : 35 000 VND (~2 $CA). Éviter les copies Instagram à 3× le prix.",
     "poiRef": "cafe-giang-ca-phe-trung",
-    "image": "scene-ca-phe-hanoi",
+    "image": "hanoi-ca-phe-trung",
     "type": "produit",
     "region": "hanoi",
     "story": "Nguyễn Văn Giang l'a inventé dans les années 40, pendant la guerre, quand le lait manquait à Hanoi — il a eu l'idée d'utiliser le jaune d'œuf battu pour reproduire la mousse, résultat accidentellement génial. Pendant des décennies, c'était un secret local. Depuis que les food bloggers l'ont découvert, des dizaines de copies ont surgi dans le Vieux Quartier à 80 000 VND avec déco Pinterest. Giang reste à 35 000 VND dans sa ruelle, sans déco, sans WiFi rapide, sans enseigne lumineuse.",
@@ -812,7 +832,7 @@
     "title": "Bia hơi — la pression quotidienne",
     "body": "Bière légère (~3% alc.) brassée chaque matin, livrée en fûts, vendue sur le trottoir jusqu'à épuisement — pas de conservation, pas de lendemain. Servie glacée dans des verres en plastique, avec lạc rang (cacahuètes grillées à l'ail) ou bánh tráng nướng. Bia Hơi Ngọc Linh (2 Đường Thành, coin Bát Đàn, Vieux Quartier) : 8 000–15 000 VND/verre (~0.50–1 $CA). Ouvert ~16h–23h.",
     "poiRef": "bia-hoi-ngoc-linh",
-    "image": "d-bia-hoi-hanoi",
+    "image": "",
     "type": "bière",
     "region": "hanoi",
     "story": "La bia hơi de Ta Hiện est devenue une attraction touristique avec néons et DJ set. Ngọc Linh au coin de Đường Thành et Bát Đàn reste là où vont les ouvriers et résidents après 18h : un verre à 8 000 VND, des tabourets en plastique, des cacahuètes. À ce prix, c'est la boisson la moins chère de toute la ville. Le concept est unique : une bière non conservée, brassée pour être bue dans les 24 heures — les Hanoïens en mangent la logique depuis des générations.",
@@ -926,6 +946,12 @@
       }
     ],
     "verifiedAt": "2026-06-17",
-    "approvedBy": "human"
+    "approvedBy": "human",
+    "links": [
+      {
+        "label": "Où en manger — vieille ville de Hanoi · Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=b%C3%BAn%20%C4%91%E1%BA%ADu%20m%E1%BA%AFm%20t%C3%B4m%20ph%E1%BB%91%20c%E1%BB%95%20H%C3%A0%20N%E1%BB%99i"
+      }
+    ]
   }
 ]

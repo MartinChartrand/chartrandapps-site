@@ -5,7 +5,7 @@
     "base": "saigon",
     "title": "Péninsule Thanh Đa — l'île verte de Binh Thanh",
     "body": "500 ha de péninsule encerclée par la rivière Saigon, à 15 min de scooter du centre. Un seul pont pour entrer. Maisons sur pilotis, jardins qui descendent à l'eau, cafés où des seniors jouent aux échecs le matin, marchés de quartier à l'entrée. Vélo de location disponible sur place (~50 000 VND/h, ~3 $CA). GrabBike depuis D1 : 40 000–60 000 VND (~2–3,50 $CA). Éviter le Bình Quới Tourist Village (groupes scolaires) — circuler dans les ruelles de la péninsule elle-même.",
-    "image": "",
+    "image": "saigon-banyan-canal-1",
     "links": [],
     "region": "saigon",
     "poiRef": "peninsule-thanh-da",
@@ -41,7 +41,7 @@
     "base": "saigon",
     "title": "Canal Nhiêu Lộc – Thị Nghè à l'aube",
     "body": "8 km de promenade le long du canal assaini (projet $350M) qui traverse Districts 1, 3, Phú Nhuận et Bình Thạnh. Nouveau pont piétonnier ouvert juillet 2024 (Điện Biên Phủ–Thị Nghè). Café bord de canal : 25 000–40 000 VND (~1,50–2,50 $CA). Meilleur créneau : 5h30–8h (tai-chi, joggers, café đá, rue qui se réveille). Entrée au canal depuis la rue Hoàng Sa ou Trần Khánh Dư.",
-    "image": "",
+    "image": "saigon-canal-aerien",
     "links": [],
     "region": "saigon",
     "poiRef": "canal-nhieu-loc",
@@ -72,7 +72,7 @@
     "base": "saigon",
     "title": "Hào Sỹ Phường + Phú Định — Chinatown photo walk",
     "body": "Deux axes photographiques dans le Chinatown historique (District 5), pratiquement absents des brochures anglophones. Phú Định Street : shophouses sino-vietnamiennes du début du 20e siècle, tournée par L'Amant (Annaud, 1992). Hào Sỹ Phường : allée de maisons colorées architecture hybride. Temples (Bà Thiên Hậu, 1760 — donation ~20 000 VND), ateliers de médecine traditionnelle ouverts sur rue, vendeurs d'oiseaux en cage. GrabBike depuis D1 : 20 000–35 000 VND (~1–2 $CA).",
-    "image": "",
+    "image": "saigon-hao-sy-ruelle",
     "links": [],
     "region": "saigon",
     "poiRef": "hao-sy-phuong-cho-lon",
@@ -108,7 +108,7 @@
     "base": "saigon",
     "title": "Chợ Bà Hoa — la Miniature Quảng Nam de Saigon",
     "body": "Marché fondé en 1954 dans une ruelle de Tân Bình (entre Trương Công Định et Nguyễn Trãi) par des réfugiés de la province de Quảng Nam. Produits spéciaux introuvables ailleurs en ville : bánh tráng (galettes de riz séchées), mắm nêm (pâte de poisson fermentée du Centre), herbes du Centre, spécialités fermentées. Atmosphère calme, aucune agressivité commerciale. Matin : ingrédients. Vers 14h : cuisine cuite du Centre. Grab depuis D1 : 50 000–70 000 VND (~3–4 $CA).",
-    "image": "",
+    "image": "saigon-marche-rue",
     "links": [],
     "region": "saigon",
     "poiRef": "cho-ba-hoa-tan-binh",
@@ -139,7 +139,7 @@
     "base": "saigon",
     "title": "Bến Bình Đông — le vieux quai rizicole du District 8",
     "body": "Quai du 19e siècle sur le canal Tàu Hủ, District 8. Entrepôts en bois, shophouses sino-vietnamiennes, barques de pêcheurs amarrées. Hors Tết : promenade calme et photographique, aucun touriste de masse. Avant le Tết lunaire (~janvier–début février) : spectacle des bateaux de fleurs du Delta (chrysanthèmes, kumquats, hoa mai). Grab depuis D1 : 40 000–60 000 VND (~2–3,50 $CA). Balade en barque négociée avec les pêcheurs : 100 000–200 000 VND (~6–11 $CA).",
-    "image": "",
+    "image": "saigon-ben-binh-dong",
     "links": [],
     "region": "saigon",
     "poiRef": "ben-binh-dong-d8",
@@ -176,7 +176,12 @@
     "title": "Chợ Tân Định + Église rose + canal Hoàng Sa — combo demi-journée",
     "body": "Trilogie piétonne District 1/3. (1) Marché Tân Định (1926) : tissus, soie, fleurs, poteries, cuisine — un vrai marché de résidents contrairement au Bến Thành. (2) Nhà thờ Tân Định : l'église néo-gothique rose bonbon de 1876, contraste saisissant dans une ruelle résidentielle (150m du marché). (3) Canal Hoàng Sa (branche Nhiêu Lộc) : promenade trottoir large, cafés plastiques, vie de rue. Combo marchable en 2–3h. Grab depuis D1 : 50 000–80 000 VND (~3–4,50 $CA).",
     "image": "saigon-cho-tan-dinh",
-    "links": [],
+    "links": [
+      {
+        "label": "Église rose & marché Tân Định · Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Nh%C3%A0%20th%E1%BB%9D%20T%C3%A2n%20%C4%90%E1%BB%8Bnh%20Ho%20Chi%20Minh%20City"
+      }
+    ],
     "region": "saigon",
     "story": "Tân Định, c'est le contre-exemple du Bến Thành — LocalVietnam et Saigon on Film le confirment : 'a real market for the locals', tissu au mètre, fleurs fraîches, ustensiles ménagers. À 150 mètres, l'église rose bonbon qu'on appelle parfois la 'Sainte-Sophie de Saigon' — néo-gothique français de 1876, peinte d'un rose qui n'a pas de précédent architectural. En semaine hors Instagram-hour, elle est calme. La promenade du canal Hoàng Sa complète la boucle : trottoir large, cafés qui débordent sur l'eau, aucune présence touristique. Trois couches de Saigon en deux heures à pied.",
     "sources": [
@@ -210,7 +215,7 @@
     "group": "Pépites locales — Quy Nhơn",
     "title": "Bãi Xếp — la crique des barques en bambou",
     "body": "Crique encaissée à 10 km au sud du centre, commune de Ghềnh Ráng. Des barques en bambou tressé (thúng chai) tirées sur la grève, des filets séchant dans les ruelles derrière. Village de pêcheurs encore fonctionnel : maisons modestes, allées étroites, eau couleur d'encre verte à l'abri du vent. Guesthouses locales disponibles (200 000–350 000 VND/nuit). Haven et Mira sont les hébergements de référence dans le village. Accès scooter direct ou à pied depuis Ghềnh Ráng.",
-    "image": "",
+    "image": "quynhon-bai-xep",
     "links": [
       {
         "label": "Local Vietnam — guide Bãi Xếp",
@@ -245,7 +250,7 @@
     "group": "Pépites locales — Quy Nhơn",
     "title": "Nhon Hải + Hòn Khô — village labyrinthique et barque négociée",
     "body": "Village de pêcheurs sur la péninsule Hải Giang, 20 km nord-est de Quy Nhơn (30 min via pont Thị Nại). Allées labyrinthiques, musique de haut-parleur le matin, femmes qui trient le poisson séché, enfants dans les ruelles. Depuis le quai du village, barques locales vers Hòn Khô (10 min de traversée) : eau claire, récifs coralliens peu profonds. Aller-retour en barque : 100 000 VND/personne (~5,50 $CA). Spécialité du village : bánh xèo mực (galette croustillante au calmar frais à l'encre). Pas de panneau en anglais — commandes par gestes.",
-    "image": "",
+    "image": "quynhon-nhon-hai-village",
     "links": [
       {
         "label": "Colorful Journeys — Nhon Hai",
@@ -280,7 +285,7 @@
     "group": "Pépites locales — Quy Nhơn",
     "title": "Xương Lý — le village médiéval + festival du culte de la baleine",
     "body": "Village de pêcheurs dans le cluster Nhơn Lý, 30 km nord-est de Quy Nhơn (~45 min scooter). Vietnam Coracle le décrit comme 'the most attractive and least touristy' du secteur. Passages qui 'weave like a medieval village', pagodes bouddhistes, statues monumentales. Festival Cầu Ngư Van Dam Xương Lý : 10e jour du 1er mois lunaire (généralement en fév), plus de 200 ans d'histoire, reconnu Patrimoine culturel immatériel national du Vietnam (2024). Cérémonie du culte de la baleine pour bénir la saison de pêche. Accès gratuit. Hors festival : village quasi-vide de touristes.",
-    "image": "",
+    "image": "quynhon-village-cotier",
     "links": [
       {
         "label": "Vietnam.vn — patrimoine festival Cầu Ngư",
@@ -345,7 +350,7 @@
     "group": "Pépites locales — Quy Nhơn",
     "title": "Eo Gió — le Détroit du vent (falaises volcaniques à l'aube)",
     "body": "Sentier de corniche au-dessus de falaises volcaniques noires, commune Nhơn Lý, 20 km nord-est de Quy Nhơn. Nom = 'Détroit du vent' — le vent y est réel. L'action des vagues en contrebas. Photographiquement : contraste fort eau-roche noire-ciel. Meilleure lumière : lever du soleil (arriver avant 6h) ou crépuscule. Après la visite, descendre au village de Nhơn Lý pour du seafood grillé directement chez les pêcheurs. Entrée : ~30 000 VND (~1,70 $CA). Accès scooter direct.",
-    "image": "",
+    "image": "quynhon-eo-gio",
     "links": [
       {
         "label": "VietnamPlus — Eo Gió",
@@ -475,7 +480,7 @@
     "group": "Campagne et artisanat",
     "title": "Cẩm Kim — boucle DIY vélo/scooter",
     "body": "Île agricole et artisanale séparée de Hội An par la Thu Bồn. Kim Bồng (nord) : ateliers de menuiserie et construction de bateaux, 500 ans de tradition. Trà Nhiêu (est) : village de pêcheurs et cocotiers d'eau, très calme. Rizières et jardins maraîchers entre les deux. Traversée gratuite (pont ou traversier vélo). Meilleur tôt le matin quand les artisans travaillent réellement.",
-    "image": "hoian-36",
+    "image": "hoian-31",
     "links": [
       {
         "label": "Hoi An Day Trip — Cẩm Kim",
@@ -514,7 +519,7 @@
     "group": "Marchés et pêcheurs",
     "title": "Duy Hải — marché aux poissons à l'aube",
     "body": "Plus grand marché aux poissons de la région de Hội An, opérationnel dès 4h. Des centaines de bateaux déchargent la pêche nocturne directement sur le quai. 10,5 km au sud-est de Hội An via pont Cửa Đại. Marché purement commercial : aucun stand souvenir, aucune infrastructure touristique. Lumière dorée du lever du soleil sur les barques-paniers. Arriver avant 5h30 — après 7h il n'y a plus rien.",
-    "image": "hoian-39",
+    "image": "hoian-marche-poissons",
     "links": [
       {
         "label": "Good Morning Hội An — Duy Hải",
@@ -622,7 +627,7 @@
     "group": "Plages et eau",
     "title": "Bãi Rạng — plage des rochers dentelés, péninsule Son Trà",
     "body": "800 mètres de sable pâle encadré de falaises avec des rochers dentés émergés à marée basse. Vue sur les îles Chàm. Côte nord de la péninsule Son Trà (Da Nang) — NE PAS prendre la montée vers la statue. En semaine : presque exclusivement des familles vietnamiennes de Da Nang. Source d'eau douce qui filtre dans le sable. Eau claire non polluée.",
-    "image": "hoian-r41",
+    "image": "hoian-bai-rang-son-tra",
     "links": [
       {
         "label": "Hoi An Day Trip — Bãi Rạng",
@@ -700,7 +705,7 @@
     "group": "Campagne et artisanat",
     "title": "Làng gốm Thanh Hà — village de poterie",
     "body": "Village de poterie fondé au 15e siècle, 3 km à l'ouest de la vieille ville. Artisans façonnent sans moules — tour à pied, à la main. Entrée : 35 000 VND (~2 $CA). Atelier 20 min : ~150 000 VND (~8,30 $CA). Plus discret que Kim Bồng côté flux touristique. Ouvert 8h30–17h sans réservation.",
-    "image": "hoian-39",
+    "image": "hoian-18",
     "links": [
       {
         "label": "The Abroad Guide — visite in situ",
@@ -739,7 +744,7 @@
     "group": "Campagne et artisanat",
     "title": "Cẩm Thanh — sentiers de digue entre rizières",
     "body": "Commune agricole à 5 km à l'est de Hội An avec rizières actives, canaux, étangs à crevettes et forêts de palmiers nipa. Un sentier de ~3 km longe les digues entre les champs — marchable ou vélo. Éviter les quais du circuit basket-boat : les digues côté campagne sont séparées, pratiquement sans infrastructure touristique. Nommée parmi les 50 plus beaux villages du monde (Forbes 2025).",
-    "image": "hoian-45",
+    "image": "hoian-31",
     "links": [
       {
         "label": "Visit Quảng Nam — Cẩm Thanh",
@@ -843,7 +848,7 @@
     "base": "hanoi",
     "title": "Làng Đa Sỹ — 600 ans de couteaux forgés",
     "body": "Kiến Hưng, Hà Đông — ~15 km du centre. Village artisan de plus de 600 ans, spécialisé dans la forge de couteaux et ciseaux. 100+ modèles de lames forgées main. Le matin : ateliers actifs, bruit des marteaux, craquement du charbon. Atelier participatif possible (forger, tremper, affûter, polir sa propre lame) — prix à négocier sur place, ~200 000–300 000 VND (~11–17 $CA estimé). Accès : taxi ~90 000 VND (~5 $CA) ou scooter 30 min via Nguyễn Trãi → Lê Văn Lương → Tô Hiệu.",
-    "image": "g-lang-da-sy",
+    "image": "",
     "links": [
       {
         "label": "Hanoi Local Tour",
@@ -943,7 +948,7 @@
     "base": "hanoi",
     "title": "Village Ngọc Hà + épave B-52 dans le lac Hữu Tiệp",
     "body": "Ba Đình, Ngọc Hà — 5 min à pied de la Citadelle impériale. Village fleuricole historique avec jardins de chrysanthèmes et roses devant les maisons. Au coeur du village : Hồ Hữu Tiệp, un petit lac où gît l'épave d'un bombardier B-52 américain abattu le 27/12/1972 — partiellement émergée, toujours là, sans mise en scène. Accès via ruelle Hữu Tiệp (entre Hoàng Hoa Thám et Đội Cấn). Gratuit.",
-    "image": "g-ngoc-ha-b52",
+    "image": "",
     "links": [
       {
         "label": "Vietnam Tourism Ngọc Hà",
