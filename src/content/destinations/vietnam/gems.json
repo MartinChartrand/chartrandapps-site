@@ -480,7 +480,7 @@
     "group": "Campagne et artisanat",
     "title": "Cẩm Kim — boucle DIY vélo/scooter",
     "body": "Île agricole et artisanale séparée de Hội An par la Thu Bồn. Kim Bồng (nord) : ateliers de menuiserie et construction de bateaux, 500 ans de tradition. Trà Nhiêu (est) : village de pêcheurs et cocotiers d'eau, très calme. Rizières et jardins maraîchers entre les deux. Traversée gratuite (pont ou traversier vélo). Meilleur tôt le matin quand les artisans travaillent réellement.",
-    "image": "hoian-36",
+    "image": "hoian-31",
     "links": [
       {
         "label": "Hoi An Day Trip — Cẩm Kim",
@@ -519,7 +519,7 @@
     "group": "Marchés et pêcheurs",
     "title": "Duy Hải — marché aux poissons à l'aube",
     "body": "Plus grand marché aux poissons de la région de Hội An, opérationnel dès 4h. Des centaines de bateaux déchargent la pêche nocturne directement sur le quai. 10,5 km au sud-est de Hội An via pont Cửa Đại. Marché purement commercial : aucun stand souvenir, aucune infrastructure touristique. Lumière dorée du lever du soleil sur les barques-paniers. Arriver avant 5h30 — après 7h il n'y a plus rien.",
-    "image": "hoian-39",
+    "image": "hoian-marche-poissons",
     "links": [
       {
         "label": "Good Morning Hội An — Duy Hải",
@@ -627,7 +627,7 @@
     "group": "Plages et eau",
     "title": "Bãi Rạng — plage des rochers dentelés, péninsule Son Trà",
     "body": "800 mètres de sable pâle encadré de falaises avec des rochers dentés émergés à marée basse. Vue sur les îles Chàm. Côte nord de la péninsule Son Trà (Da Nang) — NE PAS prendre la montée vers la statue. En semaine : presque exclusivement des familles vietnamiennes de Da Nang. Source d'eau douce qui filtre dans le sable. Eau claire non polluée.",
-    "image": "hoian-r41",
+    "image": "hoian-bai-rang-son-tra",
     "links": [
       {
         "label": "Hoi An Day Trip — Bãi Rạng",
@@ -848,7 +848,7 @@
     "base": "hanoi",
     "title": "Làng Đa Sỹ — 600 ans de couteaux forgés",
     "body": "Kiến Hưng, Hà Đông — ~15 km du centre. Village artisan de plus de 600 ans, spécialisé dans la forge de couteaux et ciseaux. 100+ modèles de lames forgées main. Le matin : ateliers actifs, bruit des marteaux, craquement du charbon. Atelier participatif possible (forger, tremper, affûter, polir sa propre lame) — prix à négocier sur place, ~200 000–300 000 VND (~11–17 $CA estimé). Accès : taxi ~90 000 VND (~5 $CA) ou scooter 30 min via Nguyễn Trãi → Lê Văn Lương → Tô Hiệu.",
-    "image": "g-lang-da-sy",
+    "image": "",
     "links": [
       {
         "label": "Hanoi Local Tour",
@@ -948,7 +948,7 @@
     "base": "hanoi",
     "title": "Village Ngọc Hà + épave B-52 dans le lac Hữu Tiệp",
     "body": "Ba Đình, Ngọc Hà — 5 min à pied de la Citadelle impériale. Village fleuricole historique avec jardins de chrysanthèmes et roses devant les maisons. Au coeur du village : Hồ Hữu Tiệp, un petit lac où gît l'épave d'un bombardier B-52 américain abattu le 27/12/1972 — partiellement émergée, toujours là, sans mise en scène. Accès via ruelle Hữu Tiệp (entre Hoàng Hoa Thám et Đội Cấn). Gratuit.",
-    "image": "g-ngoc-ha-b52",
+    "image": "",
     "links": [
       {
         "label": "Vietnam Tourism Ngọc Hà",

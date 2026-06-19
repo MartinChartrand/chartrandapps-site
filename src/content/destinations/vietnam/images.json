@@ -413,7 +413,7 @@
     "base": "saigon",
     "role": "photo",
     "file": "saigon-canal-aube.jpg",
-    "alt": "Promenade au bord d'un canal urbain à l'aube — trottoirs larges, cafés avec terrasses sur l'eau et arbres, lumière matinale à Saigon",
+    "alt": "Promenade arborée au bord de l'eau à l'aube — passants, chapeau conique et vélos le long de la berge",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -423,12 +423,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "7110f4b86b8ee8165f6f254249f1dea253ed13eef4adff915b983e5b1344ff83",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "7110f4b86b8ee8165f6f254249f1dea253ed13eef4adff915b983e5b1344ff83",
-      "alt": "Promenade au bord d'un canal urbain à l'aube — trottoirs larges, cafés avec terrasses sur l'eau et arbres, lumière matinale à Saigon",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Promenade arborée au bord de l'eau à l'aube — passants, chapeau conique et vélos le long de la berge",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -941,7 +941,7 @@
     "base": "hoian",
     "role": "foodie",
     "file": "hoian-31.jpeg",
-    "alt": "Jardin maraîcher en rangs serrés de laitues et herbes aromatiques cultivées en lignes parallèles impeccables — jardins de Trà Quế près de Hội An, agriculture traditionnelle du Centre-Vietnam",
+    "alt": "Cultures maraîchères dans la campagne de Hội An — rangées de légumes et terre cultivée, arrière-pays rural de l'île",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -954,7 +954,7 @@
     "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "3b486edd8f972a4742170681c7e9674097365467ba6fc59322b886a2152098ce",
-      "alt": "Jardin maraîcher en rangs serrés de laitues et herbes aromatiques cultivées en lignes parallèles impeccables — jardins de Trà Quế près de Hội An, agriculture traditionnelle du Centre-Vietnam",
+      "alt": "Cultures maraîchères dans la campagne de Hội An — rangées de légumes et terre cultivée, arrière-pays rural de l'île",
       "verdict": "unverifiable",
       "checkedAt": "2026-06-19"
     }
@@ -1581,6 +1581,102 @@
       "alt": "Petit lac urbain entouré de maisons dans un quartier résidentiel de Hanoi",
       "verdict": "match",
       "checkedAt": "2026-06-17"
+    }
+  },
+  {
+    "id": "hanoi-bun-cha-dac-kim",
+    "slot": "hanoi-bun-cha-dac-kim",
+    "base": "hanoi",
+    "role": "food",
+    "file": "hanoi-bun-cha-dac-kim.jpg",
+    "alt": "Plateau de bún chả à Hanoi — galettes de porc grillées dans un bol de bouillon, grande assiette d'herbes fraîches, vermicelles de riz et bière locale sur une table de marbre",
+    "layout": null,
+    "claims": "place",
+    "credit": {
+      "source": "perso",
+      "photoId": "icloud-04C155B2",
+      "photographer": "Archives personnelles",
+      "license": "personnel"
+    },
+    "sha256": "5a8c895949f974f70c43a93ff35a27ca1b5671e03610af7ad074ce85a9cde777",
+    "visionChecked": "rechecked-2026-06-19",
+    "visionCheckedSemantic": {
+      "sha256": "5a8c895949f974f70c43a93ff35a27ca1b5671e03610af7ad074ce85a9cde777",
+      "alt": "Plateau de bún chả à Hanoi — galettes de porc grillées dans un bol de bouillon, grande assiette d'herbes fraîches, vermicelles de riz et bière locale sur une table de marbre",
+      "verdict": "match",
+      "checkedAt": "2026-06-19"
+    }
+  },
+  {
+    "id": "hanoi-ca-phe-trung",
+    "slot": "hanoi-ca-phe-trung",
+    "base": "hanoi",
+    "role": "food",
+    "file": "hanoi-ca-phe-trung.jpg",
+    "alt": "Verre de cà phê trứng (café à l'œuf) à la mousse crémeuse dorée et son filtre phin, sur une table donnant sur un lac de Hanoi",
+    "layout": null,
+    "claims": "place",
+    "credit": {
+      "source": "perso",
+      "photoId": "hanoi-20",
+      "photographer": "Archives personnelles",
+      "license": "personnel"
+    },
+    "sha256": "d1c5dce5d4ec2d8783fabf2c14133b82643899f57919e1224b4b697051fd0d91",
+    "visionChecked": "rechecked-2026-06-19",
+    "visionCheckedSemantic": {
+      "sha256": "d1c5dce5d4ec2d8783fabf2c14133b82643899f57919e1224b4b697051fd0d91",
+      "alt": "Verre de cà phê trứng (café à l'œuf) à la mousse crémeuse dorée et son filtre phin, sur une table donnant sur un lac de Hanoi",
+      "verdict": "match",
+      "checkedAt": "2026-06-19"
+    }
+  },
+  {
+    "id": "hoian-marche-poissons",
+    "slot": "hoian-marche-poissons",
+    "base": "hoian",
+    "role": "photo",
+    "file": "hoian-marche-poissons.jpg",
+    "alt": "Étals de poisson frais au sol d'un marché près de Hội An — bassines bleues et rouges de petits poissons argentés, vendeuses qui trient, béton mouillé",
+    "layout": null,
+    "claims": "place",
+    "credit": {
+      "source": "perso",
+      "photoId": "icloud-9ABC151E",
+      "photographer": "Archives personnelles",
+      "license": "personnel"
+    },
+    "sha256": "212becd834587ea145fdb6dc919dbda57dbdc35acb5c8b66dd660c9db11847d6",
+    "visionChecked": "rechecked-2026-06-19",
+    "visionCheckedSemantic": {
+      "sha256": "212becd834587ea145fdb6dc919dbda57dbdc35acb5c8b66dd660c9db11847d6",
+      "alt": "Étals de poisson frais au sol d'un marché près de Hội An — bassines bleues et rouges de petits poissons argentés, vendeuses qui trient, béton mouillé",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
+    }
+  },
+  {
+    "id": "hoian-bai-rang-son-tra",
+    "slot": "hoian-bai-rang-son-tra",
+    "base": "hoian",
+    "role": "photo",
+    "file": "hoian-bai-rang-son-tra.jpg",
+    "alt": "Vue depuis la péninsule de Son Trà sur la baie de Đà Nẵng — eau bleu-vert, promontoire boisé et petite crique, silhouette de la ville au loin",
+    "layout": null,
+    "claims": "place",
+    "credit": {
+      "source": "perso",
+      "photoId": "icloud-821E4556",
+      "photographer": "Archives personnelles",
+      "license": "personnel"
+    },
+    "sha256": "02aaa7b73d41394cca96757125fe45790665f075ac9e7a9067febb7ac9ff3660",
+    "visionChecked": "rechecked-2026-06-19",
+    "visionCheckedSemantic": {
+      "sha256": "02aaa7b73d41394cca96757125fe45790665f075ac9e7a9067febb7ac9ff3660",
+      "alt": "Vue depuis la péninsule de Son Trà sur la baie de Đà Nẵng — eau bleu-vert, promontoire boisé et petite crique, silhouette de la ville au loin",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   }
 ]
