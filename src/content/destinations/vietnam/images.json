@@ -77,7 +77,7 @@
     "base": "saigon",
     "role": "photo",
     "file": "saigon-banyan-canal-1.jpg",
-    "alt": "Banian aux racines aériennes tombantes au bord d'un canal — bâtiment jaune colonial en arrière-plan, végétation dense et surface d'eau calme",
+    "alt": "Parc verdoyant à Saigon — pelouse taillée, grand banian et portail de temple jaune ocre orné au fond",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -86,12 +86,12 @@
       "photographer": "Archives personnelles",
       "license": "personnel"
     },
-    "sha256": "7b74b96dec9d23f465309068e55778d8832a4bef228f36fda36ed8f6f7eb2f65",
+    "sha256": "6974774de3bb61b7c6b03bf8fa46190de2ca36125921892704a9e6a43bea42bd",
     "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
-      "sha256": "7b74b96dec9d23f465309068e55778d8832a4bef228f36fda36ed8f6f7eb2f65",
-      "alt": "Banian aux racines aériennes tombantes au bord d'un canal — bâtiment jaune colonial en arrière-plan, végétation dense et surface d'eau calme",
-      "verdict": "unverifiable",
+      "sha256": "6974774de3bb61b7c6b03bf8fa46190de2ca36125921892704a9e6a43bea42bd",
+      "alt": "Parc verdoyant à Saigon — pelouse taillée, grand banian et portail de temple jaune ocre orné au fond",
+      "verdict": "match",
       "checkedAt": "2026-06-19"
     }
   },
@@ -1277,7 +1277,7 @@
     "base": "hanoi",
     "role": "photo",
     "file": "hanoi-12.jpg",
-    "alt": "Bâtiment colonial jaune ocre (style français, drapeaux rouges) et arbres verts reflétés inversés dans les eaux d'un lac — architecture coloniale de Hanoi",
+    "alt": "Palais présidentiel de Hanoi — bâtiment colonial français à la façade jaune ocre et toit rouge, jardins taillés, bonsaïs et topiaires devant",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1286,11 +1286,11 @@
       "photographer": "Archives personnelles",
       "license": "personnel"
     },
-    "sha256": "44ade7a247ef269d6dccacc3873e941b2dd4de40c0fe40acdfd7691093ac7ae9",
+    "sha256": "72c9c13afd52938867237ea51fdc91ca102d4c7c19a0c32e44b32eb2524e247e",
     "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
-      "sha256": "44ade7a247ef269d6dccacc3873e941b2dd4de40c0fe40acdfd7691093ac7ae9",
-      "alt": "Bâtiment colonial jaune ocre (style français, drapeaux rouges) et arbres verts reflétés inversés dans les eaux d'un lac — architecture coloniale de Hanoi",
+      "sha256": "72c9c13afd52938867237ea51fdc91ca102d4c7c19a0c32e44b32eb2524e247e",
+      "alt": "Palais présidentiel de Hanoi — bâtiment colonial français à la façade jaune ocre et toit rouge, jardins taillés, bonsaïs et topiaires devant",
       "verdict": "match",
       "checkedAt": "2026-06-19"
     }
