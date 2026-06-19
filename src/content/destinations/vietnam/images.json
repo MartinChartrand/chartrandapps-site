@@ -29,7 +29,7 @@
     "base": "saigon",
     "role": "cover",
     "file": "saigon-cover.jpg",
-    "alt": "Foule nocturne sur un boulevard de Saigon illuminé de néons et de lanternes pendant les festivités du Tết — immeubles avec enseignes lumineuses, décoration de rue",
+    "alt": "Rue commerçante de Saïgon la nuit — foule dense, enseignes lumineuses multicolores et panneau LED rouge, énergie urbaine festive",
     "layout": "wide",
     "claims": "place",
     "credit": {
@@ -39,12 +39,12 @@
       "license": "personnel"
     },
     "sha256": "5844bac9fd26357b99bfa86027603fa25a702e24f88981934a2f5983812f787f",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "5844bac9fd26357b99bfa86027603fa25a702e24f88981934a2f5983812f787f",
-      "alt": "Foule nocturne sur un boulevard de Saigon illuminé de néons et de lanternes pendant les festivités du Tết — immeubles avec enseignes lumineuses, décoration de rue",
+      "alt": "Rue commerçante de Saïgon la nuit — foule dense, enseignes lumineuses multicolores et panneau LED rouge, énergie urbaine festive",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -77,7 +77,7 @@
     "base": "saigon",
     "role": "photo",
     "file": "saigon-banyan-canal-1.jpg",
-    "alt": "Banyan aux racines aériennes au bord d'un canal ou d'un étang, avec maison jaune coloniale visible en arrière-plan — parc ou espace vert de Saigon",
+    "alt": "Banian aux racines aériennes tombantes au bord d'un canal — bâtiment jaune colonial en arrière-plan, végétation dense et surface d'eau calme",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -87,12 +87,12 @@
       "license": "personnel"
     },
     "sha256": "7b74b96dec9d23f465309068e55778d8832a4bef228f36fda36ed8f6f7eb2f65",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "7b74b96dec9d23f465309068e55778d8832a4bef228f36fda36ed8f6f7eb2f65",
-      "alt": "Banyan aux racines aériennes au bord d'un canal ou d'un étang, avec maison jaune coloniale visible en arrière-plan — parc ou espace vert de Saigon",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Banian aux racines aériennes tombantes au bord d'un canal — bâtiment jaune colonial en arrière-plan, végétation dense et surface d'eau calme",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -197,7 +197,7 @@
     "base": "saigon",
     "role": "photo",
     "file": "saigon-tet-lion.jpg",
-    "alt": "Têtes de lions du Nouvel An lunaire rangées devant un commerce décoré de lanternes rouges et de fleurs — rue de Saigon au Tết",
+    "alt": "Têtes de lions de danse rouge et jaune alignées devant un restaurant aux lanternes rouges et glycines violettes — animation de rue pour le Tết à Saïgon, membres du personnel en noir",
     "layout": null,
     "claims": "place",
     "credit": {
@@ -207,12 +207,12 @@
       "license": "personnel"
     },
     "sha256": "b282e745dc4de632419485ff9ac694c495f4cb37f254b8b6535bb5c8a1daf2e4",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "b282e745dc4de632419485ff9ac694c495f4cb37f254b8b6535bb5c8a1daf2e4",
-      "alt": "Têtes de lions du Nouvel An lunaire rangées devant un commerce décoré de lanternes rouges et de fleurs — rue de Saigon au Tết",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Têtes de lions de danse rouge et jaune alignées devant un restaurant aux lanternes rouges et glycines violettes — animation de rue pour le Tết à Saïgon, membres du personnel en noir",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -293,7 +293,7 @@
     "base": "saigon",
     "role": "food",
     "file": "saigon-bun-soup.jpg",
-    "alt": "Bol de soupe vietnamienne aux vermicelles, herbes et garnitures",
+    "alt": "Deux bols de bún au bouillon orangé-rougeâtre — tofu frit doré, baguettes posées sur les rebords, servis sur plateau en inox en cantine de rue",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -303,12 +303,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "0a598cea83e7ec8fb508e7b6b7134864aac055ff070ee7328bcb535ca3b62cb5",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "0a598cea83e7ec8fb508e7b6b7134864aac055ff070ee7328bcb535ca3b62cb5",
-      "alt": "Bol de soupe vietnamienne aux vermicelles, herbes et garnitures",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Deux bols de bún au bouillon orangé-rougeâtre — tofu frit doré, baguettes posées sur les rebords, servis sur plateau en inox en cantine de rue",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -365,7 +365,7 @@
     "base": "saigon",
     "role": "photo",
     "file": "saigon-oc-nuit.jpg",
-    "alt": "Rue de fruits de mer nocturne à Saigon — tabourets en plastique, woks fumants et bouteilles de bière sur la chaussée, lumière chaude des stands",
+    "alt": "Vendeur ambulant de fruits de mer la nuit à Saïgon — chariot vitré avec escargots et coquillages, néons de restaurants, foule de rue animée",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -375,12 +375,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "08a34efd21e836b526aa367d93277c616a20fd3321238ae4e6fb71947dc1dce7",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "08a34efd21e836b526aa367d93277c616a20fd3321238ae4e6fb71947dc1dce7",
-      "alt": "Rue de fruits de mer nocturne à Saigon — tabourets en plastique, woks fumants et bouteilles de bière sur la chaussée, lumière chaude des stands",
+      "alt": "Vendeur ambulant de fruits de mer la nuit à Saïgon — chariot vitré avec escargots et coquillages, néons de restaurants, foule de rue animée",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -389,7 +389,7 @@
     "base": "saigon",
     "role": "food",
     "file": "saigon-comtam-grill.jpg",
-    "alt": "Assiette de riz vietnamien avec porc grillé et accompagnements",
+    "alt": "Assiette de cơm tấm — riz brisé avec viande grillée dorée garnie d'oignons verts, œuf au plat et bol de sauce à côté",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -399,12 +399,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "233e0e7ccaace51b2ce021ce253e6936721114f56d346cde0ed28a6326ba1b40",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "233e0e7ccaace51b2ce021ce253e6936721114f56d346cde0ed28a6326ba1b40",
-      "alt": "Assiette de riz vietnamien avec porc grillé et accompagnements",
+      "alt": "Assiette de cơm tấm — riz brisé avec viande grillée dorée garnie d'oignons verts, œuf au plat et bol de sauce à côté",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -437,7 +437,7 @@
     "base": "saigon",
     "role": "photo",
     "file": "saigon-hao-sy-ruelle.jpg",
-    "alt": "Ruelle de shophouses sino-vietnamiennes habitées dans le Chinatown de Saigon — façades colorées, lessive suspendue et lumière filtrée entre les bâtiments",
+    "alt": "Ruelle (hẻm) étroite de Saïgon — immeubles serrés, fils électriques enchevêtrés, motos garées et passant en t-shirt sous le ciel bleu",
     "layout": "tall",
     "claims": "atmosphere",
     "credit": {
@@ -447,12 +447,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "7dc12d0acb9428d72640f7798c04a90e8a5861636906ca38583a56c1b9bc944e",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "7dc12d0acb9428d72640f7798c04a90e8a5861636906ca38583a56c1b9bc944e",
-      "alt": "Ruelle de shophouses sino-vietnamiennes habitées dans le Chinatown de Saigon — façades colorées, lessive suspendue et lumière filtrée entre les bâtiments",
+      "alt": "Ruelle (hẻm) étroite de Saïgon — immeubles serrés, fils électriques enchevêtrés, motos garées et passant en t-shirt sous le ciel bleu",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -461,7 +461,7 @@
     "base": "saigon",
     "role": "photo",
     "file": "saigon-ben-binh-dong.jpg",
-    "alt": "Vieux quai rizicole avec entrepôts en bois sur un canal — barques de pêcheurs amarrées et shophouses sino-vietnamiennes à Saigon District 8",
+    "alt": "Canal Bến Bình Đông au moment du Tết — rangée de bateaux en bois chargés de chrysanthèmes rouges et jaunes, palmiers et immeubles en arrière-plan",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -471,12 +471,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "950dd8f4c60af92cda828d14b110bbc5d603ee57f9425b3612966cd5847e2005",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "950dd8f4c60af92cda828d14b110bbc5d603ee57f9425b3612966cd5847e2005",
-      "alt": "Vieux quai rizicole avec entrepôts en bois sur un canal — barques de pêcheurs amarrées et shophouses sino-vietnamiennes à Saigon District 8",
+      "alt": "Canal Bến Bình Đông au moment du Tết — rangée de bateaux en bois chargés de chrysanthèmes rouges et jaunes, palmiers et immeubles en arrière-plan",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -485,7 +485,7 @@
     "base": "saigon",
     "role": "photo",
     "file": "saigon-cho-tan-dinh.jpg",
-    "alt": "Marché animé avec étals de tissus et de fleurs — église néo-gothique rose bonbon visible en arrière-plan ou détail de façade, District 1/3 Saigon",
+    "alt": "Terrasse de café en rotin avec en arrière-plan l'église Tân Định — bâtiment colonial néo-roman rose bonbon de 1876, lumière de journée à Saïgon",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -495,12 +495,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "50ecafdf21b0c6ee91326ea8073cca610b50f3e7c294c7a929736bc4c04096c9",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "50ecafdf21b0c6ee91326ea8073cca610b50f3e7c294c7a929736bc4c04096c9",
-      "alt": "Marché animé avec étals de tissus et de fleurs — église néo-gothique rose bonbon visible en arrière-plan ou détail de façade, District 1/3 Saigon",
+      "alt": "Terrasse de café en rotin avec en arrière-plan l'église Tân Định — bâtiment colonial néo-roman rose bonbon de 1876, lumière de journée à Saïgon",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -509,7 +509,7 @@
     "base": "quynhon",
     "role": "cover",
     "file": "quynhon-r04.jpg",
-    "alt": "Gỏi de crevettes et lanières de bánh tráng — salade vietnamienne colorée avec chou violet, carottes rapées, sésame et oignons frits, sur assiette ronde, Quy Nhơn",
+    "alt": "Assiette de gỏi vietnamien aux crevettes — chou violet, carottes, herbes fraîches et échalotes frites croustillantes sur le dessus, servie sur table en bois",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -519,12 +519,12 @@
       "license": "personnel"
     },
     "sha256": "efc4a2285356ad606523384158304403681369661c442c293f8bfa10b0a72fb3",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "efc4a2285356ad606523384158304403681369661c442c293f8bfa10b0a72fb3",
-      "alt": "Gỏi de crevettes et lanières de bánh tráng — salade vietnamienne colorée avec chou violet, carottes rapées, sésame et oignons frits, sur assiette ronde, Quy Nhơn",
+      "alt": "Assiette de gỏi vietnamien aux crevettes — chou violet, carottes, herbes fraîches et échalotes frites croustillantes sur le dessus, servie sur table en bois",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -557,7 +557,7 @@
     "base": "quynhon",
     "role": "photo",
     "file": "quynhon-r05.jpeg",
-    "alt": "Gỏi aux crevettes — salade de crevettes en coquille, lanières de bánh tráng, chou violet, carottes, oignons frits et sésame sur assiette ovale, restaurant local de Quy Nhơn",
+    "alt": "Assiette ovale de gỏi vietnamien aux crevettes — chou, carottes, herbes et condiments, légère plongée sur table en bois (illustration pour gỏi cá mai — même format, sardine blanche à la place des crevettes)",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -567,12 +567,12 @@
       "license": "personnel"
     },
     "sha256": "53ae9861f328be67c3ab804b18044c935d0632d5f3e1c5c6207c9ddc69aeb37c",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "53ae9861f328be67c3ab804b18044c935d0632d5f3e1c5c6207c9ddc69aeb37c",
-      "alt": "Gỏi aux crevettes — salade de crevettes en coquille, lanières de bánh tráng, chou violet, carottes, oignons frits et sésame sur assiette ovale, restaurant local de Quy Nhơn",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Assiette ovale de gỏi vietnamien aux crevettes — chou, carottes, herbes et condiments, légère plongée sur table en bois (illustration pour gỏi cá mai — même format, sardine blanche à la place des crevettes)",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -581,7 +581,7 @@
     "base": "quynhon",
     "role": "photo",
     "file": "quynhon-19.jpeg",
-    "alt": "Escargots de mer (ốc) dans leur coquille noire spiralée sur plat triangulaire noir, entourés de tiges de gingembre, avec petits bols de sauce dipping et piments rouges frais",
+    "alt": "Plateau d'ốc (coquillages de mer) cuits dans une sauce brune citronnelle-piments, plat noir triangulaire avec trois coupelles de sauces (nuoc-mâm, sauce épicée, citron vert et sel)",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -591,12 +591,12 @@
       "license": "personnel"
     },
     "sha256": "1e378b56fa20399302b5cbc867bfb5a037fde208d1c29d12a45195802114b38c",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "1e378b56fa20399302b5cbc867bfb5a037fde208d1c29d12a45195802114b38c",
-      "alt": "Escargots de mer (ốc) dans leur coquille noire spiralée sur plat triangulaire noir, entourés de tiges de gingembre, avec petits bols de sauce dipping et piments rouges frais",
+      "alt": "Plateau d'ốc (coquillages de mer) cuits dans une sauce brune citronnelle-piments, plat noir triangulaire avec trois coupelles de sauces (nuoc-mâm, sauce épicée, citron vert et sel)",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -605,7 +605,7 @@
     "base": "quynhon",
     "role": "photo",
     "file": "quynhon-22.jpeg",
-    "alt": "Nem nướng — saucisses de porc grillées marinées dans un bol en aluminium, accompagnées de tomates cerises coupées et tranches de concombre, plat de rue Quy Nhơn",
+    "alt": "Petite cassolette individuelle de tranches de porc grillé (nem nướng ou chả) avec tomates et concombres en accompagnement, gros plan légèrement incliné, cuisine locale de Bình Định",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -615,12 +615,12 @@
       "license": "personnel"
     },
     "sha256": "97a96055145ff6a2a6579a51ba6b67537d7fc2df15a8f513e0b843b4d2904832",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "97a96055145ff6a2a6579a51ba6b67537d7fc2df15a8f513e0b843b4d2904832",
-      "alt": "Nem nướng — saucisses de porc grillées marinées dans un bol en aluminium, accompagnées de tomates cerises coupées et tranches de concombre, plat de rue Quy Nhơn",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Petite cassolette individuelle de tranches de porc grillé (nem nướng ou chả) avec tomates et concombres en accompagnement, gros plan légèrement incliné, cuisine locale de Bình Định",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -653,7 +653,7 @@
     "base": "quynhon",
     "role": "photo",
     "file": "quynhon-18.jpeg",
-    "alt": "Verre de cà phê đá (café glacé vietnamien) avec tranche de citron vert posée sur le dessus, sous-verre à motifs terrazzo coloré, Quy Nhơn",
+    "alt": "Verre de cà phê đá — café glacé vietnamien brun foncé avec rondelle de citron vert, posé sur un sous-verre en terrazzo coloré, lumière naturelle douce",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -663,12 +663,12 @@
       "license": "personnel"
     },
     "sha256": "515935ef9805ab1664acbd7a7e2de2169d17d01f9c36508ad2a517d4c8d97575",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "515935ef9805ab1664acbd7a7e2de2169d17d01f9c36508ad2a517d4c8d97575",
-      "alt": "Verre de cà phê đá (café glacé vietnamien) avec tranche de citron vert posée sur le dessus, sous-verre à motifs terrazzo coloré, Quy Nhơn",
+      "alt": "Verre de cà phê đá — café glacé vietnamien brun foncé avec rondelle de citron vert, posé sur un sous-verre en terrazzo coloré, lumière naturelle douce",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -725,7 +725,7 @@
     "base": "quynhon",
     "role": "photo",
     "file": "quynhon-r20.jpeg",
-    "alt": "Nghêu (palourdes) cuites à la vapeur dans un bouillon clair à la citronnelle, dans une casserole en pierre, avec bols de sauce dipping à côté",
+    "alt": "Cocotte de palourdes ouvertes (nghêu hấp) dans un bouillon clair au gingembre et ciboule, servie sur panier tressé avec deux sauces d'accompagnement, fruits de mer locaux de Quy Nhơn",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -735,12 +735,12 @@
       "license": "personnel"
     },
     "sha256": "baf04282ce081f8dae3bd6ea68eb3bb786a47dcc7bd46a79d0ea104f0a3ee5ae",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "baf04282ce081f8dae3bd6ea68eb3bb786a47dcc7bd46a79d0ea104f0a3ee5ae",
-      "alt": "Nghêu (palourdes) cuites à la vapeur dans un bouillon clair à la citronnelle, dans une casserole en pierre, avec bols de sauce dipping à côté",
+      "alt": "Cocotte de palourdes ouvertes (nghêu hấp) dans un bouillon clair au gingembre et ciboule, servie sur panier tressé avec deux sauces d'accompagnement, fruits de mer locaux de Quy Nhơn",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -749,7 +749,7 @@
     "base": "quynhon",
     "role": "photo",
     "file": "quynhon-banh-hoi.jpg",
-    "alt": "Bol de bánh hỏi cháo lòng — galette de vermicelle fin tressé posée dans un congee aux abats, petit-déjeuner matinal local de Quy Nhơn",
+    "alt": "Bol de soupe de nouilles vietnamienne — vermicelles, tranches de viande, herbes fraîches et piments dans un bouillon brun, mis en scène sur planche de bois avec épices et citron vert",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -759,12 +759,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "616c0424e90ec0b069a884a60578c6b4f9bfa5d41aaa048f68a27a9b4360529b",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "616c0424e90ec0b069a884a60578c6b4f9bfa5d41aaa048f68a27a9b4360529b",
-      "alt": "Bol de bánh hỏi cháo lòng — galette de vermicelle fin tressé posée dans un congee aux abats, petit-déjeuner matinal local de Quy Nhơn",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Bol de soupe de nouilles vietnamienne — vermicelles, tranches de viande, herbes fraîches et piments dans un bouillon brun, mis en scène sur planche de bois avec épices et citron vert",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -773,7 +773,7 @@
     "base": "quynhon",
     "role": "photo",
     "file": "quynhon-bai-xep.jpg",
-    "alt": "La crique de Bãi Xếp — barques de pêche rondes en bambou tressé (thúng chai) tirées sur la grève, eau verte calme, village de pêcheurs en arrière-plan",
+    "alt": "Trois coracles ronds (thuyền thúng) — turquoise, bleu et brun rouille — amarrés dans une eau bleu-vert cristalline au village de pêcheurs de Bãi Xếp, composition hero",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -783,12 +783,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "c162da6448ea799ba52efe491ab8aef4ea4842d82e34d80ace3cf9af61a6e601",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "c162da6448ea799ba52efe491ab8aef4ea4842d82e34d80ace3cf9af61a6e601",
-      "alt": "La crique de Bãi Xếp — barques de pêche rondes en bambou tressé (thúng chai) tirées sur la grève, eau verte calme, village de pêcheurs en arrière-plan",
+      "alt": "Trois coracles ronds (thuyền thúng) — turquoise, bleu et brun rouille — amarrés dans une eau bleu-vert cristalline au village de pêcheurs de Bãi Xếp, composition hero",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -797,7 +797,7 @@
     "base": "quynhon",
     "role": "photo",
     "file": "quynhon-eo-gio.jpg",
-    "alt": "Falaises volcaniques noires d'Eo Gió (Détroit du vent) — rochers irréguliers au-dessus de l'eau, péninsule Nhơn Lý, Quy Nhơn",
+    "alt": "Formation rocheuse côtière volcanique déchiquetée au cap Eo Gió (Détroit du vent) — rochers noirs irréguliers et accidentés au premier plan sur toute la largeur du cadre, mer bleue et ciel légèrement nuageux en arrière-plan",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -807,12 +807,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "361b36dfd675195608b2b83b6fc60749ea82b7e926a7644c4b2d70b2d4ec6237",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "361b36dfd675195608b2b83b6fc60749ea82b7e926a7644c4b2d70b2d4ec6237",
-      "alt": "Falaises volcaniques noires d'Eo Gió (Détroit du vent) — rochers irréguliers au-dessus de l'eau, péninsule Nhơn Lý, Quy Nhơn",
+      "alt": "Formation rocheuse côtière volcanique déchiquetée au cap Eo Gió (Détroit du vent) — rochers noirs irréguliers et accidentés au premier plan sur toute la largeur du cadre, mer bleue et ciel légèrement nuageux en arrière-plan",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -821,7 +821,7 @@
     "base": "hoian",
     "role": "cover",
     "file": "hoian-cover.jpg",
-    "alt": "Barques de pêcheurs sur la Thu Bồn au lever du soleil, île de Cẩm Kim en arrière-plan",
+    "alt": "Un pêcheur rame debout dans une barque traditionnelle sur la rivière Thu Bồn à Hội An, bateaux amarrés avec bâches bleues et palmiers touffus en arrière-plan dans la lumière dorée du soir",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -831,12 +831,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "623c4b99cbe60bdf2fda472f9e9720664ce6c0f30a20c3361db6085f72df44b4",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "623c4b99cbe60bdf2fda472f9e9720664ce6c0f30a20c3361db6085f72df44b4",
-      "alt": "Barques de pêcheurs sur la Thu Bồn au lever du soleil, île de Cẩm Kim en arrière-plan",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Un pêcheur rame debout dans une barque traditionnelle sur la rivière Thu Bồn à Hội An, bateaux amarrés avec bâches bleues et palmiers touffus en arrière-plan dans la lumière dorée du soir",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -845,7 +845,7 @@
     "base": "hoian",
     "role": "foodie",
     "file": "hoian-18.jpeg",
-    "alt": "Maison-jardin patrimoniale et son bassin de lotus, Hội An",
+    "alt": "Temple ou sanctuaire vietnamien orné avec porte circulaire caractéristique patinée gris-brun et bassin rectangulaire de nénuphars verts sous ciel bleu vif — patrimoine historique de Hội An",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -855,12 +855,12 @@
       "license": "personnel"
     },
     "sha256": "dced2e5fd0bee6d5d9ffe94e2fd5f017ab20ed0d70c70eae6ecc0ec3c7f45419",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "dced2e5fd0bee6d5d9ffe94e2fd5f017ab20ed0d70c70eae6ecc0ec3c7f45419",
-      "alt": "Maison-jardin patrimoniale et son bassin de lotus, Hội An",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Temple ou sanctuaire vietnamien orné avec porte circulaire caractéristique patinée gris-brun et bassin rectangulaire de nénuphars verts sous ciel bleu vif — patrimoine historique de Hội An",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -869,7 +869,7 @@
     "base": "hoian",
     "role": "foodie",
     "file": "hoian-22.jpeg",
-    "alt": "Brochettes de porc grillées à la citronnelle et rouleaux d'herbes fraîches (street food)",
+    "alt": "Brochettes de rue grillées dans un marché de nuit à Hội An — bœuf lolot, saucisses et brochettes de poulet sur assiettes colorées, street food du Centre-Vietnam",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -879,12 +879,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "f664417e18fc33c50a296f42fc53d6dab346fa28edec68e086c6fde4cc882324",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "f664417e18fc33c50a296f42fc53d6dab346fa28edec68e086c6fde4cc882324",
-      "alt": "Brochettes de porc grillées à la citronnelle et rouleaux d'herbes fraîches (street food)",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Brochettes de rue grillées dans un marché de nuit à Hội An — bœuf lolot, saucisses et brochettes de poulet sur assiettes colorées, street food du Centre-Vietnam",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -941,7 +941,7 @@
     "base": "hoian",
     "role": "foodie",
     "file": "hoian-31.jpeg",
-    "alt": "Rangées de cultures maraîchères dans la campagne de Hội An",
+    "alt": "Jardin maraîcher en rangs serrés de laitues et herbes aromatiques cultivées en lignes parallèles impeccables — jardins de Trà Quế près de Hội An, agriculture traditionnelle du Centre-Vietnam",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -951,12 +951,12 @@
       "license": "personnel"
     },
     "sha256": "3b486edd8f972a4742170681c7e9674097365467ba6fc59322b886a2152098ce",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "3b486edd8f972a4742170681c7e9674097365467ba6fc59322b886a2152098ce",
-      "alt": "Rangées de cultures maraîchères dans la campagne de Hội An",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Jardin maraîcher en rangs serrés de laitues et herbes aromatiques cultivées en lignes parallèles impeccables — jardins de Trà Quế près de Hội An, agriculture traditionnelle du Centre-Vietnam",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -965,7 +965,7 @@
     "base": "hoian",
     "role": "foodie",
     "file": "hoian-32.jpeg",
-    "alt": "Bol de soupe vietnamienne aux vermicelles et herbes fraîches",
+    "alt": "Bol blanc de cao lầu — nouilles épaisses jaunes garnies d'herbes fraîches, arachides concassées et morceau de porc ou poulet frit, spécialité de Hội An, vue plongeante sur marbre rose",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -975,12 +975,12 @@
       "license": "personnel"
     },
     "sha256": "82b9dee26c3c8a094891e5c9bc270051a8c9b94225c0c39d890625e46f0dfddb",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "82b9dee26c3c8a094891e5c9bc270051a8c9b94225c0c39d890625e46f0dfddb",
-      "alt": "Bol de soupe vietnamienne aux vermicelles et herbes fraîches",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Bol blanc de cao lầu — nouilles épaisses jaunes garnies d'herbes fraîches, arachides concassées et morceau de porc ou poulet frit, spécialité de Hội An, vue plongeante sur marbre rose",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -989,7 +989,7 @@
     "base": "hoian",
     "role": "foodie",
     "file": "hoian-35.jpeg",
-    "alt": "Assiette de coquillages et escargots de mer grillés",
+    "alt": "Coquilles Saint-Jacques grillées dans leur coquille, garnies d'ail haché, cacahuètes concassées et oignons verts, sur assiette à motifs floraux rouges avec coupelle de sauce — fruits de mer grillés de rue à Hội An",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -999,12 +999,12 @@
       "license": "personnel"
     },
     "sha256": "9426b7ecdf833cb34eb7ee144ec0e2becad301268548fedd13ee974c7960538b",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "9426b7ecdf833cb34eb7ee144ec0e2becad301268548fedd13ee974c7960538b",
-      "alt": "Assiette de coquillages et escargots de mer grillés",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Coquilles Saint-Jacques grillées dans leur coquille, garnies d'ail haché, cacahuètes concassées et oignons verts, sur assiette à motifs floraux rouges avec coupelle de sauce — fruits de mer grillés de rue à Hội An",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1061,7 +1061,7 @@
     "base": "hoian",
     "role": "photo",
     "file": "hoian-45.jpeg",
-    "alt": "Plage de sable au bord de la mer, côte de Hội An",
+    "alt": "Plage de sable fin pratiquement déserte — mer avec vagues déferlantes blanches, palmiers et infrastructure balnéaire basse en arrière-plan, côte de Hội An",
     "layout": "wide",
     "claims": "place",
     "credit": {
@@ -1071,12 +1071,12 @@
       "license": "personnel"
     },
     "sha256": "ef8bb2b11483f0e0bf7dc9c202fe93c3c38a6f8036f798df3ad24d7a039a967f",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "ef8bb2b11483f0e0bf7dc9c202fe93c3c38a6f8036f798df3ad24d7a039a967f",
-      "alt": "Plage de sable au bord de la mer, côte de Hội An",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Plage de sable fin pratiquement déserte — mer avec vagues déferlantes blanches, palmiers et infrastructure balnéaire basse en arrière-plan, côte de Hội An",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1085,7 +1085,7 @@
     "base": "hoian",
     "role": "photo",
     "file": "hoian-r10.jpeg",
-    "alt": "Bol de soupe vietnamienne aux herbes fraîches",
+    "alt": "Bol de soupe de nouilles de riz abondamment garni de feuilles d'herbes fraîches entières — basilic thaï et menthe, baguettes noires sur table en rotin en plein air",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -1095,12 +1095,12 @@
       "license": "personnel"
     },
     "sha256": "415e63b1aa5df57aa82ef3978f2ab03e2636541bb4bdda1894366260cdfa73e7",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "415e63b1aa5df57aa82ef3978f2ab03e2636541bb4bdda1894366260cdfa73e7",
-      "alt": "Bol de soupe vietnamienne aux herbes fraîches",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Bol de soupe de nouilles de riz abondamment garni de feuilles d'herbes fraîches entières — basilic thaï et menthe, baguettes noires sur table en rotin en plein air",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1109,7 +1109,7 @@
     "base": "hoian",
     "role": "photo",
     "file": "hoian-r41.jpeg",
-    "alt": "Bol de bún en soupe aux vermicelles et herbes",
+    "alt": "Bol ovale de soupe de nouilles au bouillon orange doré, boulette de viande, tofu frit et oignons verts, accompagné de salade fraîche et piments rouges — style mì Quảng de Hội An",
     "layout": "wide",
     "claims": "place",
     "credit": {
@@ -1119,12 +1119,12 @@
       "license": "personnel"
     },
     "sha256": "cf19d77d3cafae961b0f39dfa73379214971c13b07c480c0a5f87389823301ac",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "cf19d77d3cafae961b0f39dfa73379214971c13b07c480c0a5f87389823301ac",
-      "alt": "Bol de bún en soupe aux vermicelles et herbes",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Bol ovale de soupe de nouilles au bouillon orange doré, boulette de viande, tofu frit et oignons verts, accompagné de salade fraîche et piments rouges — style mì Quảng de Hội An",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1133,7 +1133,7 @@
     "base": "hanoi",
     "role": "cover",
     "file": "hanoi-08.jpg",
-    "alt": "Reflet du pont Thê Húc dans les eaux du lac Hoàn Kiếm, drapeaux multicolores et feuillage — Hanoi",
+    "alt": "Reflet du pont rouge Thê Húc dans les eaux du lac Hoàn Kiếm, drapeaux colorés et feuillage dense — Hanoi, lumière brumeuse de journée grise",
     "layout": "wide",
     "claims": "place",
     "credit": {
@@ -1143,12 +1143,12 @@
       "license": "personnel"
     },
     "sha256": "c84a4a49ece6ebf45b719861bccc73da9744d77a5617990cad05179a8d3178bc",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "c84a4a49ece6ebf45b719861bccc73da9744d77a5617990cad05179a8d3178bc",
-      "alt": "Reflet du pont Thê Húc dans les eaux du lac Hoàn Kiếm, drapeaux multicolores et feuillage — Hanoi",
+      "alt": "Reflet du pont rouge Thê Húc dans les eaux du lac Hoàn Kiếm, drapeaux colorés et feuillage dense — Hanoi, lumière brumeuse de journée grise",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1157,7 +1157,7 @@
     "base": "hanoi",
     "role": "photo",
     "file": "scene-pho-hanoi.jpg",
-    "alt": "Bol de phở bò du nord — bouillon clair, lamelles de bœuf tái et nạm, coriandre longue, Hanoi",
+    "alt": "Bol de phở vu du dessus sur fond sombre — nouilles de riz blanches, tranches de bœuf, herbes fraîches, pousses de soja et bouillon clair, baguettes en bois à droite",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -1167,12 +1167,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "d81e3c2d7e4b52a4238b1cc56ab0e56da4df86cbf45519ced81387ca525f27b0",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "d81e3c2d7e4b52a4238b1cc56ab0e56da4df86cbf45519ced81387ca525f27b0",
-      "alt": "Bol de phở bò du nord — bouillon clair, lamelles de bœuf tái et nạm, coriandre longue, Hanoi",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Bol de phở vu du dessus sur fond sombre — nouilles de riz blanches, tranches de bœuf, herbes fraîches, pousses de soja et bouillon clair, baguettes en bois à droite",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1229,7 +1229,7 @@
     "base": "hanoi",
     "role": "photo",
     "file": "scene-long-bien-hanoi.jpg",
-    "alt": "Pont ferroviaire Long Biên à l'aube — structure métallique de 1902 sur le fleuve Rouge, brume matinale et lumière rasante",
+    "alt": "Pont Long Biên au coucher du soleil — train en flou de mouvement à gauche, cycliste sur chemin de terre parmi des bananiers à droite, lumière orangée et skyline de Hanoi en fond",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -1239,12 +1239,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "2d3fc5934f69592a6c80d325bb6cecbaf5972fef8382491f50f4e81dabdaf3a9",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "2d3fc5934f69592a6c80d325bb6cecbaf5972fef8382491f50f4e81dabdaf3a9",
-      "alt": "Pont ferroviaire Long Biên à l'aube — structure métallique de 1902 sur le fleuve Rouge, brume matinale et lumière rasante",
+      "alt": "Pont Long Biên au coucher du soleil — train en flou de mouvement à gauche, cycliste sur chemin de terre parmi des bananiers à droite, lumière orangée et skyline de Hanoi en fond",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1277,7 +1277,7 @@
     "base": "hanoi",
     "role": "photo",
     "file": "hanoi-12.jpg",
-    "alt": "Reflet d'un bâtiment colonial jaune inversé dans une flaque d'eau, route visible en haut — architecture française coloniale, Hanoi",
+    "alt": "Bâtiment colonial jaune ocre (style français, drapeaux rouges) et arbres verts reflétés inversés dans les eaux d'un lac — architecture coloniale de Hanoi",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1287,12 +1287,12 @@
       "license": "personnel"
     },
     "sha256": "44ade7a247ef269d6dccacc3873e941b2dd4de40c0fe40acdfd7691093ac7ae9",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "44ade7a247ef269d6dccacc3873e941b2dd4de40c0fe40acdfd7691093ac7ae9",
-      "alt": "Reflet d'un bâtiment colonial jaune inversé dans une flaque d'eau, route visible en haut — architecture française coloniale, Hanoi",
+      "alt": "Bâtiment colonial jaune ocre (style français, drapeaux rouges) et arbres verts reflétés inversés dans les eaux d'un lac — architecture coloniale de Hanoi",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1301,7 +1301,7 @@
     "base": "hanoi",
     "role": "foodie",
     "file": "d-pho-bac-hanoi.jpg",
-    "alt": "Bol de phở bò du nord — bouillon clair, lamelles de bœuf tái, ciboulette et coriandre longue, sans germes de soja",
+    "alt": "Bol de soupe de nouilles vu du dessus, éclairage studio — vermicelles de riz, poulet effiloché, brocoli, carottes, herbes fraîches, anis étoilé et cannelle en décor sur fond ardoise sombre",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1311,12 +1311,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "5806cdf747c06b81a63f468a55e442ae3fbc52c5ae18dd266e543e4d76e00d94",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "5806cdf747c06b81a63f468a55e442ae3fbc52c5ae18dd266e543e4d76e00d94",
-      "alt": "Bol de phở bò du nord — bouillon clair, lamelles de bœuf tái, ciboulette et coriandre longue, sans germes de soja",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Bol de soupe de nouilles vu du dessus, éclairage studio — vermicelles de riz, poulet effiloché, brocoli, carottes, herbes fraîches, anis étoilé et cannelle en décor sur fond ardoise sombre",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1325,7 +1325,7 @@
     "base": "hanoi",
     "role": "foodie",
     "file": "d-cha-ca-hanoi.jpg",
-    "alt": "Réchaud de table avec filets de poisson dorés au curcuma, bouquet d'aneth vert vif et ciboulette — chả cá la vọng, Hanoi",
+    "alt": "Poêle sur réchaud de table : filets de poisson mariné au curcuma (dorés), nappés d'aneth frais et de ciboulette verte en abondance — chả cá la vọng cuit à table, lumière naturelle, Hanoi",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1335,12 +1335,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "dc159d6fb7867b06a2b0d351197c0ab3d329fff054cd3194baefebf75a3de0d1",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "dc159d6fb7867b06a2b0d351197c0ab3d329fff054cd3194baefebf75a3de0d1",
-      "alt": "Réchaud de table avec filets de poisson dorés au curcuma, bouquet d'aneth vert vif et ciboulette — chả cá la vọng, Hanoi",
+      "alt": "Poêle sur réchaud de table : filets de poisson mariné au curcuma (dorés), nappés d'aneth frais et de ciboulette verte en abondance — chả cá la vọng cuit à table, lumière naturelle, Hanoi",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1373,7 +1373,7 @@
     "base": "hanoi",
     "role": "foodie",
     "file": "d-bun-oc-hanoi.jpg",
-    "alt": "Bol de bún ốc — vermicelles de riz avec escargots d'eau douce dans bouillon rouge-orangé acidulé, carambole et herbes fraîches",
+    "alt": "Bol de bún ốc sur nappe rouge vif — vermicelles fins, bouillon tomate rougeâtre, tofu frit doré, tomates fraîches et herbes hachées, lumière naturelle style street food",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1383,12 +1383,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "d36c7faf5eeb945f8bb29dc639e4286eab29b14775e15992e610965bba3932bd",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "d36c7faf5eeb945f8bb29dc639e4286eab29b14775e15992e610965bba3932bd",
-      "alt": "Bol de bún ốc — vermicelles de riz avec escargots d'eau douce dans bouillon rouge-orangé acidulé, carambole et herbes fraîches",
+      "alt": "Bol de bún ốc sur nappe rouge vif — vermicelles fins, bouillon tomate rougeâtre, tofu frit doré, tomates fraîches et herbes hachées, lumière naturelle style street food",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1397,7 +1397,7 @@
     "base": "hanoi",
     "role": "foodie",
     "file": "d-pho-cuon-hanoi.jpg",
-    "alt": "Rouleaux de phở cuốn alignés — feuilles de riz fraîches semi-transparentes enroulées autour de bœuf sauté et herbes, Ngũ Xã Hanoi",
+    "alt": "Plateau en bois rustique de phở cuốn — rouleaux de riz frais (certains verts, certains garnis de viande), items frits croustillants, herbes fraîches et feuilles de laitue, présentation soignée de restaurant",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1407,12 +1407,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "d029dc8a9ed12811f5f435f2c2b12bde976862300e2b77cda25d5d7ebfd8306f",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "d029dc8a9ed12811f5f435f2c2b12bde976862300e2b77cda25d5d7ebfd8306f",
-      "alt": "Rouleaux de phở cuốn alignés — feuilles de riz fraîches semi-transparentes enroulées autour de bœuf sauté et herbes, Ngũ Xã Hanoi",
+      "alt": "Plateau en bois rustique de phở cuốn — rouleaux de riz frais (certains verts, certains garnis de viande), items frits croustillants, herbes fraîches et feuilles de laitue, présentation soignée de restaurant",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1421,7 +1421,7 @@
     "base": "hanoi",
     "role": "foodie",
     "file": "hanoi-02.jpeg",
-    "alt": "Assiette de rue vietnamienne avec morceaux de tofu et items translucides, tomates, accompagnée d'un panier de coriandre fraîche — plateau vert, Hanoi",
+    "alt": "Assiette blanche sur plateau vert plastique posé sur trottoir — tofu, pièces de charcuterie fermentée, tomates rouges, herbes frites dorées et coriandre fraîche, vue du dessus",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1431,12 +1431,12 @@
       "license": "personnel"
     },
     "sha256": "739270f23b7f0ea6a07ad211758f5730754ecc54253ded47597f9f75556eb121",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "739270f23b7f0ea6a07ad211758f5730754ecc54253ded47597f9f75556eb121",
-      "alt": "Assiette de rue vietnamienne avec morceaux de tofu et items translucides, tomates, accompagnée d'un panier de coriandre fraîche — plateau vert, Hanoi",
+      "alt": "Assiette blanche sur plateau vert plastique posé sur trottoir — tofu, pièces de charcuterie fermentée, tomates rouges, herbes frites dorées et coriandre fraîche, vue du dessus",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1445,7 +1445,7 @@
     "base": "hanoi",
     "role": "photo",
     "file": "g-marche-fleurs-quang-ba.jpg",
-    "alt": "Marché de gros aux fleurs de Quảng Bá à 2h du matin — motos chargées de chrysanthèmes et roses sous lumière artificielle jaune, Tây Hồ Hanoi",
+    "alt": "Vélo de vendeur ambulant chargé de bouquets de lys roses, roses jaunes et glaïeuls blancs — rue animée de Hanoi avec motos en arrière-plan flou, chapeau conique visible",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1455,12 +1455,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "d465659b44f63d1db741600cc2c3f3fad4cef5a2f58db11ec62630c03a9a3244",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "d465659b44f63d1db741600cc2c3f3fad4cef5a2f58db11ec62630c03a9a3244",
-      "alt": "Marché de gros aux fleurs de Quảng Bá à 2h du matin — motos chargées de chrysanthèmes et roses sous lumière artificielle jaune, Tây Hồ Hanoi",
+      "alt": "Vélo de vendeur ambulant chargé de bouquets de lys roses, roses jaunes et glaïeuls blancs — rue animée de Hanoi avec motos en arrière-plan flou, chapeau conique visible",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1469,7 +1469,7 @@
     "base": "hanoi",
     "role": "photo",
     "file": "g-phuc-tan-art.jpg",
-    "alt": "Mural de street art coloré sur un mur de béton à Hanoi",
+    "alt": "Livreur à moto (veste verte, masque) passant devant une immense fresque murale colorée — dragon et fleurs rouges sur fond arc-en-ciel, Phúc Tân, berge du fleuve Rouge, Hanoi",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1479,12 +1479,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "4891dabbb4783d07b6a58032e975de407cf7487c75ec3186f7ab5ab06fafc0a8",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "4891dabbb4783d07b6a58032e975de407cf7487c75ec3186f7ab5ab06fafc0a8",
-      "alt": "Mural de street art coloré sur un mur de béton à Hanoi",
+      "alt": "Livreur à moto (veste verte, masque) passant devant une immense fresque murale colorée — dragon et fleurs rouges sur fond arc-en-ciel, Phúc Tân, berge du fleuve Rouge, Hanoi",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1517,7 +1517,7 @@
     "base": "hanoi",
     "role": "photo",
     "file": "g-lang-lua-van-phuc.jpg",
-    "alt": "Métier à tisser traditionnel en action dans une maison familiale — soie colorée visible sur les navettes, village Vạn Phúc Hà Đông",
+    "alt": "Artisane assise pieds nus sur un métier à tisser en bambou, tissant un tissu aux motifs rouge et bleu — atelier ouvert à végétation tropicale, village de soie Vạn Phúc",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1527,12 +1527,12 @@
       "license": "unsplash-standard"
     },
     "sha256": "b235805fe02205b3736dd2c660ff6c6c93c960be233fab8eef1b731ba60f3072",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "b235805fe02205b3736dd2c660ff6c6c93c960be233fab8eef1b731ba60f3072",
-      "alt": "Métier à tisser traditionnel en action dans une maison familiale — soie colorée visible sur les navettes, village Vạn Phúc Hà Đông",
+      "alt": "Artisane assise pieds nus sur un métier à tisser en bambou, tissant un tissu aux motifs rouge et bleu — atelier ouvert à végétation tropicale, village de soie Vạn Phúc",
       "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "checkedAt": "2026-06-19"
     }
   },
   {
@@ -1541,7 +1541,7 @@
     "base": "hanoi",
     "role": "photo",
     "file": "hanoi-36.jpg",
-    "alt": "Reflet de quartier résidentiel de Hanoi dans l'eau — bâtiments multicolores, arbres et fleurs rouges inversés, lumière de fin de journée",
+    "alt": "Reflet abstrait au ras de l'eau : immeubles urbains et arbres à fleurs rouges (flamboyants) ondulant dans les eaux calmes du lac de l'Ouest (Tây Hồ), Hanoi",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
@@ -1551,12 +1551,12 @@
       "license": "personnel"
     },
     "sha256": "92f7321cffc36c7c48089486c901c910171e9217be4196a285f0510e2d6ada1e",
-    "visionChecked": "pending",
+    "visionChecked": "rechecked-2026-06-19",
     "visionCheckedSemantic": {
       "sha256": "92f7321cffc36c7c48089486c901c910171e9217be4196a285f0510e2d6ada1e",
-      "alt": "Reflet de quartier résidentiel de Hanoi dans l'eau — bâtiments multicolores, arbres et fleurs rouges inversés, lumière de fin de journée",
-      "verdict": "match",
-      "checkedAt": "2026-06-17"
+      "alt": "Reflet abstrait au ras de l'eau : immeubles urbains et arbres à fleurs rouges (flamboyants) ondulant dans les eaux calmes du lac de l'Ouest (Tây Hồ), Hanoi",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
     }
   },
   {
