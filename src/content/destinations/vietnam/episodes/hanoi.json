@@ -90,29 +90,29 @@
     },
     {
       "id": "scene-bun-cha",
-      "kicker": "Hàng Mành · LE CHARBON",
-      "title": "Đắc Kim depuis 1965 — avant que l'Amérique arrive",
+      "kicker": "Hàng Quạt · LA COUR CACHÉE",
+      "title": "La cour de Hàng Quạt — quatre familles, une ruelle d’un mètre",
       "image": "hanoi-bun-cha-dac-kim",
       "alt": "Plateau de bún chả à Hanoi — galettes de porc grillées dans un bol de bouillon, grande assiette d'herbes fraîches, vermicelles de riz et bière locale sur une table de marbre",
-      "intro": "1965 — avant le Đổi Mới, avant le boom touristique, avant qu'un président américain et Anthony Bourdain rendent le bún chả Instagram-célèbre. Đắc Kim est dans sa ruelle de Hàng Mành depuis avant tout ça. Michelin Selected (pas Bib), donc moins médiatisé que Hương Liên, donc la clientèle bureau-résidentielle qui s'y rend le midi est encore intacte. Les galettes de porc arrivent grillées à la commande, pas réchauffées — la fumée de charbon colle aux vêtements, le bouillon légèrement vinaigrette coupe le gras. À Ba Đình, Hàng Than, Bún Chả Tuyết grille aussi à la commande — croûte caramélisée différente, file plus courte.",
-      "reco": "Bún Chả Đắc Kim, Hàng Mành, Hoàn Kiếm — repas du midi, arriver entre 11h30 et 12h30. Commander le bún chả avec cha bao (boulettes enveloppées de feuille). Ne pas hésiter à partager la table. Budget : 40 000–60 000 VND (~2–3 $CA). Alt : Bún Chả Tuyết au 34 Hàng Than, Ba Đình, pour la version grillée à la commande avec moins de monde.",
-      "quote": "La fumée de charbon colle aux vêtements. Signe que c'est le bon endroit.",
-      "poiRef": "bun-cha-dac-kim",
+      "intro": "Au 74 Hàng Quạt, il n'y a pas de devanture. Juste une ruelle d'un mètre de large qui s'enfonce sur trente mètres entre deux immeubles du Vieux Quartier, et au bout, une cour où quatre familles se partagent le service depuis vingt-cinq ans — l'une grille, l'autre sert, une troisième tient les boissons. Les galettes de porc passent sur le charbon à la commande, jamais réchauffées ; la fumée monte dans la cour, le bouillon légèrement vinaigrette coupe le gras, et le nem (rouleau frit) croustille encore à l'arrivée. Aucun menu en anglais, aucune enseigne à photographier — on s'assoit, on dit « bún chả » et « nem », et on attend. C'est le bún chả que les guides ne trouvent pas et que le quartier n'a jamais lâché. Pour comparer : Đắc Kim, à Hàng Mành, l'institution d'avant le tourisme (le bol sur la photo), grillée à la commande elle aussi.",
+      "reco": "Bún Chả Hàng Quạt, 74 Hàng Quạt, Hoàn Kiếm — ouvert 9h30–14h, à dix minutes à pied du lac Hoàn Kiếm. Entrer dans la ruelle étroite et marcher jusqu'à la cour au fond. Arriver avant midi : ça ferme dès que c'est vendu. Commander le bún chả + le nem ; pointer le bol de la table voisine au besoin. Budget : 40 000–60 000 VND (~2–3 $CA). Les institutions, si la cour déborde : Đắc Kim (Hàng Mành) et Bún Chả Tuyết (34 Hàng Than, Ba Đình), même charbon, même méthode à la commande.",
+      "quote": "Pas d'enseigne, pas de menu anglais. Une ruelle d'un mètre, et au bout, la cour.",
+      "poiRef": "bun-cha-hang-quat",
       "via": null,
       "sources": [
         {
-          "creator": "Guide Michelin Vietnam",
-          "url": "https://guide.michelin.com/us/en/ha-noi/ha-noi_2974158/restaurant/bun-cha-%C4%91ac-kim",
-          "date": "2025-01"
-        },
-        {
-          "creator": "JackfruitAdventure",
-          "url": "https://jackfruitadventure.com/top-7-bun-cha-in-hanoi-where-locals-eat/",
+          "creator": "Leila — curiousaboutvietnam (carte bún chả Hanoi, validée sur place)",
+          "url": "https://www.instagram.com/curiousaboutvietnam/",
           "date": "2024-01"
         },
         {
-          "creator": "Hanoi Times",
-          "url": "https://hanoitimes.vn/five-must-try-bun-cha-restaurants-in-hanoi-praised-by-michelin.874227.html",
+          "creator": "VnExpress — Hanoi's hidden bun cha, crowded for 25 years",
+          "url": "https://e.vnexpress.net/photo/food-recipes/hanois-hidden-bun-cha-crowded-for-25-years-4607715.html",
+          "date": "2023-01"
+        },
+        {
+          "creator": "Wanderlog — Bún chả 74 Hàng Quạt",
+          "url": "https://wanderlog.com/place/details/15028501/b%C3%BAn-ch%E1%BA%A3-74-h%C3%A0ng-qu%E1%BA%A1t",
           "date": "2024-01"
         }
       ]

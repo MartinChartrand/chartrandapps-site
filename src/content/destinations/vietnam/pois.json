@@ -2326,6 +2326,65 @@
     "region": "hanoi"
   },
   {
+    "id": "bun-cha-hang-quat",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Chả Hàng Quạt — la cour cachée",
+    "blurb": "Au bout d'une ruelle d'un mètre de large, une cour où quatre familles grillent le bún chả au charbon depuis 25 ans — aucune enseigne, aucun menu anglais, le pick d'initié du Vieux Quartier.",
+    "signature": "Bún chả + nem, grillé au charbon (~2–3 $CA)",
+    "image": null,
+    "price": {
+      "range": "40 000–60 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0334,
+      "lng": 105.8505,
+      "source": "websearch (VnExpress, Wanderlog) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%BAn%20ch%E1%BA%A3%2074%20H%C3%A0ng%20Qu%E1%BA%A1t%20Ho%C3%A0n%20Ki%E1%BA%BFm%20Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Au 74 Hàng Quạt, pas de devanture : une ruelle d'un mètre de large qui s'enfonce sur trente mètres entre deux immeubles, et au bout, une cour. Quatre familles s'y partagent le service depuis vingt-cinq ans — l'une grille, l'autre sert, une troisième tient les boissons. Les galettes passent sur le charbon à la commande, jamais réchauffées ; la fumée monte dans la cour, le nem croustille encore à l'arrivée. Aucun menu en anglais, aucune enseigne à photographier. C'est le bún chả que les guides ne trouvent pas et que le quartier n'a jamais lâché — ouvert le midi seulement, fermé dès que c'est vendu.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte bún chả Hanoi, validée sur place)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "VnExpress — Hanoi's hidden bun cha, crowded for 25 years",
+        "url": "https://e.vnexpress.net/photo/food-recipes/hanois-hidden-bun-cha-crowded-for-25-years-4607715.html",
+        "date": "2023-01"
+      },
+      {
+        "creator": "Wanderlog — Bún chả 74 Hàng Quạt",
+        "url": "https://wanderlog.com/place/details/15028501/b%C3%BAn-ch%E1%BA%A3-74-h%C3%A0ng-qu%E1%BA%A1t",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
     "id": "bun-cha-dac-kim",
     "base": "hanoi",
     "kind": "resto",
