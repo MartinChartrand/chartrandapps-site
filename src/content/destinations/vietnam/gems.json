@@ -41,7 +41,7 @@
     "base": "saigon",
     "title": "Canal Nhiêu Lộc – Thị Nghè à l'aube",
     "body": "8 km de promenade le long du canal assaini (projet $350M) qui traverse Districts 1, 3, Phú Nhuận et Bình Thạnh. Nouveau pont piétonnier ouvert juillet 2024 (Điện Biên Phủ–Thị Nghè). Café bord de canal : 25 000–40 000 VND (~1,50–2,50 $CA). Meilleur créneau : 5h30–8h (tai-chi, joggers, café đá, rue qui se réveille). Entrée au canal depuis la rue Hoàng Sa ou Trần Khánh Dư.",
-    "image": "",
+    "image": "saigon-canal-aerien",
     "links": [],
     "region": "saigon",
     "poiRef": "canal-nhieu-loc",
@@ -108,7 +108,7 @@
     "base": "saigon",
     "title": "Chợ Bà Hoa — la Miniature Quảng Nam de Saigon",
     "body": "Marché fondé en 1954 dans une ruelle de Tân Bình (entre Trương Công Định et Nguyễn Trãi) par des réfugiés de la province de Quảng Nam. Produits spéciaux introuvables ailleurs en ville : bánh tráng (galettes de riz séchées), mắm nêm (pâte de poisson fermentée du Centre), herbes du Centre, spécialités fermentées. Atmosphère calme, aucune agressivité commerciale. Matin : ingrédients. Vers 14h : cuisine cuite du Centre. Grab depuis D1 : 50 000–70 000 VND (~3–4 $CA).",
-    "image": "",
+    "image": "saigon-marche-rue",
     "links": [],
     "region": "saigon",
     "poiRef": "cho-ba-hoa-tan-binh",
@@ -250,7 +250,7 @@
     "group": "Pépites locales — Quy Nhơn",
     "title": "Nhon Hải + Hòn Khô — village labyrinthique et barque négociée",
     "body": "Village de pêcheurs sur la péninsule Hải Giang, 20 km nord-est de Quy Nhơn (30 min via pont Thị Nại). Allées labyrinthiques, musique de haut-parleur le matin, femmes qui trient le poisson séché, enfants dans les ruelles. Depuis le quai du village, barques locales vers Hòn Khô (10 min de traversée) : eau claire, récifs coralliens peu profonds. Aller-retour en barque : 100 000 VND/personne (~5,50 $CA). Spécialité du village : bánh xèo mực (galette croustillante au calmar frais à l'encre). Pas de panneau en anglais — commandes par gestes.",
-    "image": "",
+    "image": "quynhon-nhon-hai-village",
     "links": [
       {
         "label": "Colorful Journeys — Nhon Hai",
@@ -285,7 +285,7 @@
     "group": "Pépites locales — Quy Nhơn",
     "title": "Xương Lý — le village médiéval + festival du culte de la baleine",
     "body": "Village de pêcheurs dans le cluster Nhơn Lý, 30 km nord-est de Quy Nhơn (~45 min scooter). Vietnam Coracle le décrit comme 'the most attractive and least touristy' du secteur. Passages qui 'weave like a medieval village', pagodes bouddhistes, statues monumentales. Festival Cầu Ngư Van Dam Xương Lý : 10e jour du 1er mois lunaire (généralement en fév), plus de 200 ans d'histoire, reconnu Patrimoine culturel immatériel national du Vietnam (2024). Cérémonie du culte de la baleine pour bénir la saison de pêche. Accès gratuit. Hors festival : village quasi-vide de touristes.",
-    "image": "",
+    "image": "quynhon-village-cotier",
     "links": [
       {
         "label": "Vietnam.vn — patrimoine festival Cầu Ngư",

@@ -1678,5 +1678,101 @@
       "verdict": "unverifiable",
       "checkedAt": "2026-06-19"
     }
+  },
+  {
+    "id": "quynhon-nhon-hai-village",
+    "slot": "quynhon-nhon-hai-village",
+    "base": "quynhon",
+    "role": "photo",
+    "file": "quynhon-nhon-hai-village.jpg",
+    "alt": "Ruelle d'un village de pêcheurs côtier — maison de crépi patiné, lanternes tressées colorées suspendues en guirlande et bougainvillier rose",
+    "layout": null,
+    "claims": "place",
+    "credit": {
+      "source": "perso",
+      "photoId": "icloud-DC62D67D",
+      "photographer": "Archives personnelles",
+      "license": "personnel"
+    },
+    "sha256": "c9c4396325661f28c13bbfef45c698ca2cca8f1c31089c609c8f473c3a819794",
+    "visionChecked": "rechecked-2026-06-19",
+    "visionCheckedSemantic": {
+      "sha256": "c9c4396325661f28c13bbfef45c698ca2cca8f1c31089c609c8f473c3a819794",
+      "alt": "Ruelle d'un village de pêcheurs côtier — maison de crépi patiné, lanternes tressées colorées suspendues en guirlande et bougainvillier rose",
+      "verdict": "match",
+      "checkedAt": "2026-06-19"
+    }
+  },
+  {
+    "id": "saigon-canal-aerien",
+    "slot": "saigon-canal-aerien",
+    "base": "saigon",
+    "role": "photo",
+    "file": "saigon-canal-aerien.jpg",
+    "alt": "Canal de Saigon serpentant entre les quartiers denses, vu des hauteurs en plein jour — boulevard arboré et ponts sur l'eau",
+    "layout": null,
+    "claims": "place",
+    "credit": {
+      "source": "perso",
+      "photoId": "icloud-596EB587",
+      "photographer": "Archives personnelles",
+      "license": "personnel"
+    },
+    "sha256": "69d5b68e4b955b8f628797d31969db26c9319bd902b900ef84cee515aef5a576",
+    "visionChecked": "rechecked-2026-06-19",
+    "visionCheckedSemantic": {
+      "sha256": "69d5b68e4b955b8f628797d31969db26c9319bd902b900ef84cee515aef5a576",
+      "alt": "Canal de Saigon serpentant entre les quartiers denses, vu des hauteurs en plein jour — boulevard arboré et ponts sur l'eau",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
+    }
+  },
+  {
+    "id": "saigon-marche-rue",
+    "slot": "saigon-marche-rue",
+    "base": "saigon",
+    "role": "photo",
+    "file": "saigon-marche-rue.jpg",
+    "alt": "Marché de rue à l'aube à Saigon — étals de légumes verts frais posés au sol (choux, herbes, liserons d'eau), vendeuse assise au milieu",
+    "layout": null,
+    "claims": "place",
+    "credit": {
+      "source": "perso",
+      "photoId": "icloud-40F1984E",
+      "photographer": "Archives personnelles",
+      "license": "personnel"
+    },
+    "sha256": "58638a4f518886a34d3ae54e3155c9ce4c520ce94f5c75c498c368cb64b85dfa",
+    "visionChecked": "rechecked-2026-06-19",
+    "visionCheckedSemantic": {
+      "sha256": "58638a4f518886a34d3ae54e3155c9ce4c520ce94f5c75c498c368cb64b85dfa",
+      "alt": "Marché de rue à l'aube à Saigon — étals de légumes verts frais posés au sol (choux, herbes, liserons d'eau), vendeuse assise au milieu",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
+    }
+  },
+  {
+    "id": "quynhon-village-cotier",
+    "slot": "quynhon-village-cotier",
+    "base": "quynhon",
+    "role": "photo",
+    "file": "quynhon-village-cotier.jpg",
+    "alt": "Ruelle en pente d'un village côtier — maisons grises, lanternes dorées suspendues en file et scooter garé contre un muret blanc",
+    "layout": null,
+    "claims": "place",
+    "credit": {
+      "source": "perso",
+      "photoId": "icloud-4A3C9E3F",
+      "photographer": "Archives personnelles",
+      "license": "personnel"
+    },
+    "sha256": "483cf2b698b0a5a57f38e0a9ae31cc3c3611f641a8cb23a4d276d60fd82d72e8",
+    "visionChecked": "rechecked-2026-06-19",
+    "visionCheckedSemantic": {
+      "sha256": "483cf2b698b0a5a57f38e0a9ae31cc3c3611f641a8cb23a4d276d60fd82d72e8",
+      "alt": "Ruelle en pente d'un village côtier — maisons grises, lanternes dorées suspendues en file et scooter garé contre un muret blanc",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-06-19"
+    }
   }
 ]

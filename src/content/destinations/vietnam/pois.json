@@ -3182,5 +3182,615 @@
       "source": "web-manual-realign (OSM Nominatim — entité nommée 'Đường Bãi Giữa' (la route sur",
       "verifiedOn": "2026-06-19"
     }
+  },
+  {
+    "id": "pho-ganh-ms-thoa",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Phở gánh Hàng Chiếu — Ms. Thoa",
+    "blurb": "La légende du Vieux Quartier : trente ans de palanche, une boutique ouverte à 3h30 du matin, un bol de bœuf à partir de ~2 $CA.",
+    "signature": "Phở bò (ou Sốt vang phở) — 35 000–60 000 VNĐ (~2–3 $CA)",
+    "image": null,
+    "price": {
+      "range": "35 000–60 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.036752,
+      "lng": 105.85288,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=7+Ch%E1%BB%A3+G%E1%BA%A1o+Ho%C3%A0n+Ki%E1%BA%BFm+Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Trente ans de palanche dans les ruelles du Vieux Quartier avant de poser les baguettes sous un vrai toit : le phở de Cô Thoa est le genre d'adresse que les locaux ne mettent pas sur les cartes. À 3h30 du matin, quand la ville respire encore lentement et que les bouchers rentrent chez eux, on s'assoit sur un tabouret en plastique et le bol arrive — bouillon d'os mijoté toute la nuit, net et profond, larges rubans de riz souples, tranches de bœuf qui finissent de cuire dans la chaleur. Pour aller plus loin, le sốt vang — bœuf mijoté au vin rouge, sauce brune et longue — est la deuxième raison de revenir avant l'aube.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Báo Dân Trí",
+        "url": "https://dantri.com.vn/du-lich/pho-ganh-hang-chieu-ban-ban-ngay-khach-tiec-nuoi-bieu-tuong-an-dem-ha-noi-20211124182833299.htm",
+        "date": "2021-11"
+      },
+      {
+        "creator": "Pasgo.vn",
+        "url": "https://pasgo.vn/blog/an-pho-ganh-ha-noi-o-dau-6-quan-pho-ganh-mo-dem-sieu-ngon-de-tim-lanmkt-723-5255",
+        "date": "2023-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "pho-duong-tau-train-street",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Phở đường tàu — Train Street",
+    "blurb": "Un bol de phở bò à 35 000–60 000 đồng (~2–3 $CA), servi jusqu'à l'aube dans une ruelle longeant les rails du Train Street — institution nocturne de Hanoï depuis plus de 50 ans.",
+    "signature": "Phở bò poitrine (tái nạm) ou bœuf saignant + œuf poché à part (~2–3 $CA le bol)",
+    "image": null,
+    "price": {
+      "range": "35 000–60 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0305,
+      "lng": 105.84385,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=Ph%E1%BB%9F+B%C3%B2+%C4%90%C6%B0%E1%BB%9Dng+T%C3%A0u+3+Tr%E1%BA%A7n+Ph%C3%BA+Ha+Noi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "L'enseigne est sobre, mais le rideau de viande suspendue à l'entrée oriente mieux que n'importe quel GPS : c'est ici. Les os de bœuf mijotent depuis l'aube dans un bouillon de style Nam Định — limpide, légèrement sucré, avec ce fond d'oignon brûlé qui imprègne toute la ruelle. Vers 23h30, un train passe à quelques mètres des tables extérieures ; les habitués ne bronchent pas, bol chaud entre les mains. La cuisine tient jusqu'à quatre heures du matin, et c'est exactement le genre d'endroit où une ville révèle ce qu'elle mange vraiment.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "VnExpress International",
+        "url": "https://e.vnexpress.net/news/food-recipes/eaters-enjoy-train-sounds-at-hanoi-pho-joint-4581467.html",
+        "date": "2022-01"
+      },
+      {
+        "creator": "Foody.vn",
+        "url": "https://www.foody.vn/ha-noi/pho-bo-duong-tau",
+        "date": "2023-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "pho-ga-phuong",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Phở gà Phương",
+    "blurb": "Adresse de trottoir du Vieux Quartier ouverte depuis 1992 — un bol de phở gà au gingembre fumant pour environ 50 000 VND (~2,60 $CA), à avaler sur un tabouret bas rue Hàng Buồm.",
+    "signature": "Phở Gà (cuisse ou poitrine) — ~50 000 VND (~2,60 $CA) ; commander aussi le Phở Gà Trộn (sec, poulet effiloché + arachides grillées)",
+    "image": null,
+    "price": {
+      "range": "30 000–100 000 VND (~1,60–5,30 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.03537,
+      "lng": 105.85027,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=123+H%C3%A0ng+Bu%E1%BB%93m+Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Sur le trottoir du 123 Hàng Buồm, les tabourets sont à peine posés que le bol arrive : bouillon de poulet doré, long à réduire, tendu d'un fil de gingembre frais. Les tranches de volaille glissent entre les nouilles sans fanfare. Le geste décisif est sur chaque table — une petite cruche de vinaigre mariné à verser soi-même, qui tranche la richesse du fond d'un trait acidulé net. Le Phở Gà Trộn joue la partition inverse : poulet effiloché à sec, arachides grillées, oignons frits craquants. ⚠️ La fondatrice (Phạm Thị Phương) a relocalisé son stand à Nghi Tàm, à ~3 km du Vieux Quartier, depuis le printemps 2026 (VietnamNet, avril 2026) ; le 123 Hàng Buồm continue d'être listé actif sur plusieurs plateformes (MoMo, Foody), mais confirmer sur place avant de faire le déplacement.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "VietnamNet",
+        "url": "https://vietnamnet.vn/quan-pho-ga-34-nam-o-ha-noi-khach-toi-an-5-6-lan-moi-tuan-khong-chan-2506506.html",
+        "date": "2026-04-22"
+      },
+      {
+        "creator": "MoMo (Thổ Địa Ăn Uống) — listing avec coordonnées GPS",
+        "url": "https://www.momo.vn/page/9803123",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Foody.vn — fiche restaurant Phương - Phở Gà",
+        "url": "https://www.foody.vn/ha-noi/phuong-pho-ga",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "bun-thang-lan-lun",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Thang Lan Lùn",
+    "blurb": "Le phở gà trộn favori du Vieux Quartier — poulet fermier effiloché, échalotes frites et bouillon maison servi à part, pour environ 2,60 $CA.",
+    "signature": "Phở gà trộn — poulet sec, cacahuètes concassées, échalotes frites, bouillon à part (~2,60 $CA)",
+    "image": null,
+    "price": {
+      "range": "30 000–50 000 VND (~1,60–2,60 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.033705,
+      "lng": 105.847969,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=5+H%C3%A0ng+Thi%E1%BA%BFc%2C+Ho%C3%A0n+Ki%E1%BA%BFm%2C+H%C3%A0+N%E1%BB%99i+Vietnam"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Sur Hàng Thiếc, quand les néons s'allument et que la rue sent le métal chaud et le bouillon de gà ta, le bol arrive sans cérémonie : nouilles nappées d'une base soja, lamelles de poulet fermier effiloché à la main, cacahuètes concassées, germes qui croquent sous la dent et une cascade d'échalotes frites dorées à bloc. Le bouillon suit dans un bol séparé — cuit lentement aux champignons shiitake et aux os de poulet de race locale, à siroter entre deux bouchées ou à verser d'un coup selon l'humeur. Un œuf poché en option, cassé sur le dessus, se fond dans les nouilles encore chaudes. Pas de menu à rallonge, pas de lumière flatteuse — juste ce plat-là, fait bien, servi vite, dans un vieux quartier qui n'a pas de temps à perdre.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Foody.vn — Lan Lùn Bún Thang & Phở Gà Ta (fiche restaurant, note 8.1/10, prix 30 000–50 000 VND)",
+        "url": "https://www.foody.vn/ha-noi/lan-lun-bun-thang-pho-ga-ta",
+        "date": "2024-01"
+      },
+      {
+        "creator": "WanderLog — Bún Thang Lan Lùn (adresse + coordonnées GPS, 4.7/5 Google, 140 avis)",
+        "url": "https://wanderlog.com/place/details/6621405/b%C3%BAn-thang-lan-l%C3%B9n",
+        "date": "2025-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "banh-mi-cart-lady-hang-be",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh Mì — la dame au chariot (43 Hàng Bè)",
+    "blurb": "Un chariot, une dame, une sauce chili maison — la brochette de porc grillée la plus directe du Vieux Quartier (~1,50 $CA).",
+    "signature": "Bánh mì brochette de porc BBQ (~1,50 $CA)",
+    "image": null,
+    "price": {
+      "range": "20 000–30 000 VND (~1,05–1,60 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0328,
+      "lng": 105.8539,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=43+H%C3%A0ng+B%C3%A8+Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Le chariot apparaît en début d'après-midi, quand la chaleur commence à molir et que Hàng Bè reprend son souffle après le marché du matin. La dame badigeonne chaque baguette d'une sauce chili maison — un geste précis, mille fois répété — avant d'y glisser les brochettes de porc sorties de la braise. L'intérieur est tendre et fumé, la croûte craque, l'herbe fraîche tranche sur le gras. ⚠️ Elle remballe quand le stock est épuisé, pas quand l'horloge le décide — arriver avant 18 h, et demander la sauce chili en extra si on aime le piquant.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "The Discoveries Of — Hanoi Street Food Guide (confirme stands de rue actifs sur Hàng Bè)",
+        "url": "https://www.thediscoveriesof.com/hanoi-street-food/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "OpenStreetMap / Nominatim (géocodage 43 Phố Hàng Bè, Hoàn Kiếm, Hanoi)",
+        "url": "https://nominatim.openstreetmap.org/search?q=43+H%C3%A0ng+B%C3%A8%2C+Hanoi%2C+Vietnam&format=json",
+        "date": "2026-06"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "banh-mi-co-ba-phan-dinh-phung",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh Mì thịt nguội Hiệu Cô Ba",
+    "blurb": "Un bánh mì style sudiste rarissime à Hanoi — 30 000–45 000 VND (~1,50–2,50 $CA), ouvert 6h–21h, rue Phan Đình Phùng.",
+    "signature": "Bánh mì thịt nguội façon Saigon (porc croustillant, pâté, sauce maison) — ~1,50–2,50 $CA",
+    "image": null,
+    "price": {
+      "range": "30 000–45 000 VND (~1,50–2,50 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0413,
+      "lng": 105.8381,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%A1nh+M%C3%AC+Th%E1%BB%8Bt+Ngu%E1%BB%99i+Hi%E1%BB%87u+C%C3%B4+Ba+24+Phan+%C4%90%C3%ACnh+Ph%C3%B9ng+Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "La baguette sort du four bien sonnante, garnie à la façon de Saigon — thịt nguội lustré de sauce, pâté parfumé, concombre croquant. Dans une ville où le bánh mì du Nord joue volontiers la retenue, trouver ce style sudiste rue Phan Đình Phùng relève du coup de chance. Deux portes plus loin, le marchand de thé prépare un Trà Chanh à la citron pressé — clôture parfaite pour un déjeuner entier à moins de trois dollars canadiens. Ouvert dès 6h, sept jours sur sept.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "TripAdvisor — fiche établissement (7 avis)",
+        "url": "https://www.tripadvisor.com/Restaurant_Review-g23068219-d26516834-Reviews-Banh_Mi_Th_t_Ngu_i_Hi_u_Co_Ba-Ba_Dinh_Hanoi.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Foody.vn — fiche restaurant",
+        "url": "https://www.foody.vn/ha-noi/banh-mi-thit-nguoi-hieu-co-ba-phan-dinh-phung",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "banh-cuon-ba-xuan",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bánh cuốn Bà Xuân",
+    "blurb": "Crêpes de riz vapeur façonnées à la main depuis 30 ans sur une meule de pierre centenaire — distinguées par le Guide Michelin 2025, pour ~2–3 $CA l'assiette.",
+    "signature": "Bánh cuốn trứng — crêpe de riz vapeur avec jaune d'œuf coulant, porc haché, champignons noirs, échalotes frites (~2 $CA)",
+    "image": null,
+    "price": {
+      "range": "35 000–55 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.04216,
+      "lng": 105.84778,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=16+Hoe+Nhai%2C+Ba+Dinh%2C+Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Six heures du matin, Hòe Nhai s'éveille dans la brume de Ba Đình — et l'odeur de riz vapeur qui monte depuis cette minuscule échoppe suffit à tout expliquer. Bà Xuân tourne ses crêpes à la main depuis trente ans sur une meule de pierre quasi centenaire ; chaque feuille translucide se referme sur un cœur de porc haché et de champignons noirs, saupoudrée d'échalotes grillées, noyée dans un nước chấm qui pique juste ce qu'il faut. La version trứng — jaune d'œuf coulant enfermé dans la vapeur — est un détail qui change tout, crémeux contre le riz délicat. Le Michelin l'a noté ; les gens du quartier la connaissaient bien avant, et ça se voit à la file qui ne désemplit jamais avant midi.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Guide MICHELIN Vietnam",
+        "url": "https://guide.michelin.com/vn/en/ha-noi/ha-noi_2974158/restaurant/banh-cuon-ba-xuan",
+        "date": "2025-01"
+      },
+      {
+        "creator": "VietnamNet — A food lover's guide to the best banh cuon in Hanoi",
+        "url": "https://vietnamnet.vn/en/a-food-lover-s-guide-to-the-best-banh-cuon-in-hanoi-2373710.html",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Mia.vn — Bánh cuốn Bà Xuân lưu giữ hương vị truyền thống xưa",
+        "url": "https://mia.vn/cam-nang-du-lich/banh-cuon-ba-xuan-ha-noi-18001",
+        "date": "2023-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "xoi-yen",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Xôi Yến",
+    "blurb": "Depuis 1997, cette institution du Vieux Quartier sert les meilleurs xôi de Hanoi — riz gluant garni de poulet effiloché, saucisse et oignons frits — pour environ 2–4 $CA le bol.",
+    "signature": "Xôi gà complet (riz gluant au poulet effiloché, saucisse vietnamienne, œuf, oignons frits) — ~2–3 $CA",
+    "image": null,
+    "price": {
+      "range": "35 000–72 000 VND (~2–4 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0337304,
+      "lng": 105.85452,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=X%C3%B4i+Y%E1%BA%BFn+35B+Nguy%E1%BB%85n+H%E1%BB%AFu+Hu%C3%A2n+Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "À l'angle de Nguyễn Hữu Huân et Hàng Mắm, le parfum du riz gluant monte dans l'air avant l'aube et ne lâche pas jusqu'à minuit passé. Depuis 1997, Xôi Yến règne sur le xôi haïnaois : bol fumant couronné de poulet effiloché, de saucisse, d'œuf et d'oignons frits craquants, posé sur la table en quelques secondes par une salle à trois étages qui n'arrête jamais de tourner. On mange serré contre un inconnu sur un tabouret de plastique, et c'est exactement là l'essentiel — le Vieux Quartier dans toute sa densité, condensé dans un bol à 40 000 đồng.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Foody.vn — fiche établissement (adresse + menu)",
+        "url": "https://www.foody.vn/ha-noi/xoi-yen-35b-nguyen-huu-huan",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Google Maps — fiche lieu (coordonnées GPS)",
+        "url": "https://www.google.com/maps/place/X%C3%B4i+Y%E1%BA%BFn/@21.0356538,105.8467982,17z/data=!4m6!3m5!1s0x3135abf54e9751af:0x9720e5f2f8f19320!8m2!3d21.0337304!4d105.85452",
+        "date": "2025-01"
+      },
+      {
+        "creator": "VN Travel Guide — article de présentation",
+        "url": "https://vntravelguide.vn/en/article/xoi-yen-nguyen-huu-huan-huong-vi-ha-noi-kho-quen",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "bun-dau-met-ngo-23",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Bún Đậu Mẹt — Ngõ 23",
+    "blurb": "Tofu frit craquant et vermicelles sur plateau de bambou tressé dans un ngõ discret du Vieux Quartier — un classique Hanoïen à moins de 3 $CA.",
+    "signature": "Mẹt complet bún đậu mắm tôm — tofu frit, vermicelles, herbes, pâte de crevette fermentée (~2–3 $CA)",
+    "image": null,
+    "price": {
+      "range": "30 000–60 000 VND (~2–3 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.034,
+      "lng": 105.8494,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=B%C3%BAn+%C4%90%E1%BA%ADu+M%E1%BA%B9t+Ng%C3%B5+23+Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Onze heures à peine : les petits plastiques sont déjà occupés et la cuisinière sort de l'huile des cubes de tofu à la croûte rousse et soufflée, fermes dehors, soyeux dedans. Le mẹt arrive — plateau de bambou tressé couvert de vermicelles froides, d'herbes coupées à la main et de tranches de porc, avec en son centre un bol de mắm tôm, pâte de crevette fermentée d'un violet profond dont l'intensité ne négocie pas avec les demi-mesures. On trempe, on mélange, on comprend pourquoi le quartier revient ici chaque midi sans exception. ⚠️ La pâte de crevette est franche et puissante — les palais sensibles y vont progressivement.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Ms Travel Solo",
+        "url": "https://www.mstravelsolo.com/best-food-in-hanoi/",
+        "date": "2023-06"
+      },
+      {
+        "creator": "MindTrip AI (aggregateur de lieux vérifiés)",
+        "url": "https://mindtrip.ai/restaurant/hanoi-vietnam/bun-dau-met-ngo-23/re-B1RFrmeX",
+        "date": "2024-06"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
+  },
+  {
+    "id": "mien-luon-chan-cam",
+    "base": "hanoi",
+    "kind": "resto",
+    "mapType": "resto",
+    "roles": [
+      "eat"
+    ],
+    "tier": null,
+    "name": "Miến Lươn Chân Cầm",
+    "blurb": "Un classique du Vieux Quartier depuis 1987 — vermicelles d'anguille dans un bouillon clair, Michelin Bib Gourmand 2025-2026, à moins de 3 $CA le bol.",
+    "signature": "Miến lươn (vermicelles d'anguille croustillante ou mijotée, bouillon clair ou version sèche) — ~45 000–70 000 VND (~2,40–3,70 $CA)",
+    "image": null,
+    "price": {
+      "range": "45 000–70 000 VND (~2,40–3,70 $CA)",
+      "currency": "VND",
+      "asOf": "2026-06"
+    },
+    "coords": {
+      "lat": 21.0304881,
+      "lng": 105.8486531,
+      "source": "websearch (Leila/curiousaboutvietnam + corroboration) — niveau rue",
+      "verifiedOn": "2026-06-19"
+    },
+    "links": {
+      "official": null,
+      "booking": null,
+      "tripadvisor": null,
+      "maps": "https://www.google.com/maps/search/?api=1&query=Mi%E1%BA%BFn+L%C6%B0%C6%A1n+Ch%C3%A2n+C%E1%BA%A7m+Hanoi"
+    },
+    "seasonal": false,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-06-19",
+      "method": "websearch"
+    },
+    "onMap": true,
+    "story": "Depuis 1987, à l'angle serré de la rue Chân Cầm, le bol arrive presque sans qu'on ait demandé — bouillon clair et délicat, vermicelles de patate douce translucides qui retiennent chaque nuance du fond. L'anguille frite craque à la première bouchée, dorée, pas grasse, avec cette odeur de rivière qui lâche doucement en fond de gorge ; en version mijotée, elle fond. En version sèche, mêlée d'herbes fraîches et d'un trait de vinaigre, le même bol change complètement de registre. Trois cents bols par jour, quarante ans sans changer d'adresse ni de recette — le Bib Gourmand Michelin 2025–2026 n'a fait que mettre des mots sur ce que le quartier sait depuis toujours.",
+    "sources": [
+      {
+        "creator": "Leila — curiousaboutvietnam (carte vérifiée terrain)",
+        "url": "https://www.instagram.com/curiousaboutvietnam/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Guide Michelin — Bib Gourmand",
+        "url": "https://guide.michelin.com/en/ha-noi/ha-noi_2974158/restaurant/mien-luon-chan-cam-hoan-kiem",
+        "date": "2025-01"
+      },
+      {
+        "creator": "VietnamNet English",
+        "url": "https://vietnamnet.vn/en/37-year-old-hanoi-eel-noodle-shop-praised-by-michelin-guide-2412771.html",
+        "date": "2025-01"
+      },
+      {
+        "creator": "Le Courrier du Vietnam",
+        "url": "https://lecourrier.vn/cinq-restaurants-michelin-bons-et-abordables-nouvellement-selectionnes-a-hanoi/1284717.html",
+        "date": "2024-01"
+      }
+    ],
+    "verifiedAt": "2026-06-19",
+    "approvedBy": "human",
+    "region": "hanoi"
   }
 ]
