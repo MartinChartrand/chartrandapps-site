@@ -1,0 +1,18 @@
+/* Thème Scotland — ARCHITECTURE §4 : une destination = données + ~40 lignes CSS */
+/* Signature Écosse : ardoise-tourbe des lochs, turquoise hébridéen (Luskentyre), */
+/* roux Harris Tweed/fougère, crème machair, or d'ajonc en 3e signature */
+
+[data-theme="scotland"] {
+  --terre: #9A5B36;        /* roux Harris Tweed — fougère d'automne, grès des ports */
+  --sand: #F1EDE2;         /* crème machair — avoine, sable coquillier */
+  --deep: #22303B;         /* ardoise-tourbe profond — hero + titres (loch sous nuage) */
+  --mer: #2B8C9E;          /* turquoise hébridéen — l'eau de Luskentyre, LA signature */
+  --mer-light: #D7EDF0;    /* aqua pâle — hauts-fonds sur sable blanc */
+  --text: #20272B;         /* texte principal — presque noir ardoise */
+  --muted: #66707A;        /* texte secondaire — gris de brume */
+  --border: rgba(32, 39, 43, 0.10);
+  --accent: #C05A2E;       /* rouille chaude — hover, underlines (lichen, bouées) */
+  --bg: #FAF7F0;           /* background global — crème chaude */
+  --white: #FFFFFF;
+  --gold: #D7A72E;         /* or d'ajonc (gorse) — 3e couleur signature, mai en fleur */
+}

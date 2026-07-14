@@ -1,0 +1,87 @@
+{
+  "slug": "scotland",
+  "lang": "en",
+  "pageTitle": "Scotland — May–June 2027 · A three-week itinerary",
+  "heroTitle": {
+    "main": "Scotland",
+    "em": "in May"
+  },
+  "heroSub": "West by northwest — oysters, single-track roads and water you won't believe",
+  "subtitle": "West by northwest — oysters, single-track roads and water you won't believe",
+  "season": "May–June 2027",
+  "travelers": {
+    "count": 1,
+    "label": "Solo · a 50th birthday"
+  },
+  "arrival": {
+    "date": "2027-05-20",
+    "airport": "EDI",
+    "city": "Edinburgh"
+  },
+  "departure": {
+    "date": "2027-06-10",
+    "airport": "INV",
+    "city": "Inverness"
+  },
+  "theme": {
+    "favicon": "🦪",
+    "palette": "scotland"
+  },
+  "hero": {
+    "image": "hero",
+    "label": "Itinerary · Solo"
+  },
+  "overviewKicker": "The shape of the trip",
+  "overviewTitle": "Four bases, west by northwest, following the water",
+  "overviewIntro": "You start in Edinburgh — but in Leith, by the docks, where the city actually eats. Then you point the car west to Loch Fyne and the Secret Coast, where the oysters come out of the water in front of you. A ferry carries you to Harris, where the beaches look lifted from the Caribbean and stay empty. And you finish in the far northwest — Assynt, the Seafood Shack, sea light at eleven at night. Three weeks, four bases, no backtracking. You move as little as possible and sit at the table as long as you want.",
+  "intro": {
+    "whySeason": {
+      "title": "Why late May",
+      "body": "Seventeen hours of daylight, the statistically driest stretch of the year on the west coast, the midges barely awake, and the summer crowds still at home. Late May is the window Scots keep for themselves — the gorse is blazing yellow, the lambs are on the roads, and you can still book a table by the water without a fight."
+    },
+    "logistics": {
+      "title": "The bones of it",
+      "body": "Open-jaw flights: into Edinburgh, home from Inverness — no backtracking. No car in the city; you pick it up on day six heading west. Two CalMac ferries stitch the route together (book the car deck months ahead). Estimated total: ~CAD 12,000, with room built in for a couple of proper splurges."
+    }
+  },
+  "footerNote": "An itinerary built with care · Scotland, May–June 2027",
+  "episodic": true,
+  "chapterTotal": 4,
+  "container": {
+    "hookKicker": "Three weeks · Edinburgh to the Outer Hebrides · oysters, peat and turquoise water",
+    "hookTitle": "The best of Scotland isn't behind a ticket booth. It's at the end of a single-track road, and it's lunch.",
+    "hookBody": "This is a trip for a fiftieth birthday, and it skips almost everything the bus tours queue for. No Royal Mile crush, no Loch Ness, no Skye in season. Instead: the smokehouses and seafood bars of Leith, where Edinburgh actually eats. A loch-side shed in Argyll where the oysters come out of the water a hundred metres from your plate. A ferry to Harris, where Luskentyre beach runs white-sand-and-turquoise for three kilometres and you'll share it with sheep. And the far northwest — creel boats, hand-dived scallops served from a wheelhouse in Ullapool, beaches that glow at eleven at night in June light. You drive the single-track roads, you wave at the oncoming cars from the passing places, you eat what came off the boat that morning. The castles and the standing stones are there — through the windshield, as backdrop. The point is the table, the water, and three weeks of nobody rushing you.",
+    "hookImage": "hero",
+    "tilesIntro": "Edinburgh for the arrival and the eating, Argyll for oysters at the source, Harris for water that doesn't look real, Assynt for the wild slow finish — west by northwest, following the food.",
+    "tiles": [
+      {
+        "base": "edinburgh",
+        "kicker": "Chapter 1 · 5 nights",
+        "title": "The city that eats in Leith",
+        "teaser": "Hot-smoked salmon by the docks, Sunday market in Stockbridge, a sauna on Portobello beach — Edinburgh from the neighbourhoods, not the Royal Mile.",
+        "image": "edinburgh-cover"
+      },
+      {
+        "base": "argyll",
+        "kicker": "Chapter 2 · 5 nights",
+        "title": "Loch Fyne & the Secret Coast",
+        "teaser": "Oysters where they grow, langoustines landed at Tarbert pier, single-track lanes through Cowal — the coast the coaches never find.",
+        "image": "argyll-cover"
+      },
+      {
+        "base": "harris",
+        "kicker": "Chapter 3 · 5 nights",
+        "title": "Water you won't believe",
+        "teaser": "Luskentyre at low tide, gin made with sea kelp, scallops off a Scalpay boat — five nights in the Outer Hebrides, where the 50th actually happens.",
+        "image": "harris-cover"
+      },
+      {
+        "base": "assynt",
+        "kicker": "Chapter 4 · 5 nights",
+        "title": "The far northwest, slowly",
+        "teaser": "Off the Stornoway ferry into Ullapool, seafood from a wheelhouse, turquoise coves under Suilven, daylight past eleven — the slow finish before Inverness.",
+        "image": "assynt-cover"
+      }
+    ]
+  }
+}

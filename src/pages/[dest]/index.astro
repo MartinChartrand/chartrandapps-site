@@ -19,6 +19,7 @@ import MapSection from '../../components/MapSection.astro';
 import BudgetSection from '../../components/BudgetSection.astro';
 import PratiqueGrid from '../../components/PratiqueGrid.astro';
 import ContainerSurvol from '../../components/ContainerSurvol.astro';
+import { ui } from '../../lib/ui-strings';
 
 export async function getStaticPaths() {
   const destinations = await getCollection('destinations');
@@ -76,6 +77,8 @@ const budgetEntry = allBudget.find((b) => b.id.startsWith(`${dest}/`));
 const pratiqueEntry = allPratique.find((p) => p.id.startsWith(`${dest}/`));
 
 const d = destination.data;
+// `strings` (pas `t`) : `for (const t of c.tiles)` plus bas shadowerait `t`.
+const strings = ui(d.lang);
 
 // Résolution slot → URL d'asset buildée (hero + covers de chapitre).
 // Échec = warning au build, pas de silence : un slot référencé qui ne résout pas est un bug de contenu.
@@ -145,12 +148,13 @@ if (d.episodic && d.container) {
   );
   const c = d.container;
   const facts: Array<{ value: string; label: string }> = [
-    { value: d.season, label: 'Saison' },
-    { value: `~${totalNights} jours`, label: 'Durée du séjour' },
-    { value: `${d.arrival.airport} → ${d.departure.airport}`, label: 'Vol open-jaw' },
+    { value: d.season, label: strings.factSeason },
+    { value: strings.factDays(totalNights), label: strings.factDuration },
+    { value: `${d.arrival.airport} → ${d.departure.airport}`, label: strings.factFlight },
   ];
   const range = budgetRange(budgetEntry?.data);
-  if (range) facts.push({ value: range, label: 'Budget · 2 pers. (CAD)' });
+  // Label dérivé de travelers.count (l'ancien « 2 pers. » codé dur mentait pour les voyages solo).
+  if (range) facts.push({ value: range, label: strings.factBudget(d.travelers.count) });
   // Crédits photo (attribution légale CC) : image du hook + images de tuiles.
   const survolSlots = new Set<string>();
   if (c.hookImage) survolSlots.add(c.hookImage);
@@ -191,8 +195,10 @@ if (d.episodic && d.container) {
     description={d.subtitle}
     canonicalUrl={`https://chartrandapps.ca/${dest}/`}
     footerNote={d.footerNote}
+    lang={d.lang}
   >
     <ContainerSurvol
+      lang={d.lang}
       hookKicker={survol.hookKicker}
       hookTitle={survol.hookTitle}
       hookBody={survol.hookBody}
@@ -211,6 +217,7 @@ if (d.episodic && d.container) {
   description={d.subtitle}
   canonicalUrl={`https://chartrandapps.ca/${dest}/`}
   footerNote={d.footerNote}
+  lang={d.lang}
 >
   <Hero
     heroTitle={d.heroTitle}

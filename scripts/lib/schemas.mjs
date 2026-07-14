@@ -71,6 +71,9 @@ const containerSchema = z.object({
 
 export const destinationSchema = z.object({
   slug: z.string(),
+  // Langue du CHROME de rendu (boutons, aria, labels générés) — le contenu suit ses données.
+  // Additif : défaut 'fr', les 7 sites existants ne changent pas. Née avec scotland (1er site EN).
+  lang: z.enum(['fr', 'en']).default('fr'),
   pageTitle: z.string().default(''), // <title> v1 verbatim (« Crète — Septembre 2027 · Itinéraire de voyage »)
   heroTitle: z.object({ main: z.string(), em: z.string() }),
   heroSub: z.string(),

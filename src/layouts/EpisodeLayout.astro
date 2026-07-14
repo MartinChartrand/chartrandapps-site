@@ -10,6 +10,7 @@
 // vers le v2 : Astro ne bundle ce CSS que sur les pages qui utilisent ce layout (pages épisode).
 // Garde-fou : scripts/test/episode-css-global.test.mjs échoue si quelqu'un re-scope ce <style>.
 import DestinationLayout from './Destination.astro';
+import { ui, type UiLang } from '../lib/ui-strings';
 
 // CSS Leaflet : frontmatter = bundle global. JAMAIS en @import dans <style> (Astro scope → tuiles
 // empilées dans un coin — leçon v2, MapSection.astro).
@@ -26,26 +27,28 @@ interface Props {
   chapterTotal: number;  // 4
   chapterTitle: string;  // « Chania »
   storageKey: string;    // clé localStorage du mode (par chapitre)
+  lang?: UiLang;         // langue du chrome — défaut 'fr', additif
 }
-const { title, favicon, palette, description, destLabel, destHref, chapterNum, chapterTotal, chapterTitle, storageKey } =
+const { title, favicon, palette, description, destLabel, destHref, chapterNum, chapterTotal, chapterTitle, storageKey, lang = 'fr' } =
   Astro.props;
+const t = ui(lang);
 ---
 
-<DestinationLayout title={title} favicon={favicon} palette={palette} description={description}>
+<DestinationLayout title={title} favicon={favicon} palette={palette} description={description} lang={lang}>
   <div id="proto" data-view="episode" data-storage-key={storageKey}>
 
     <header class="topbar">
       <div class="topbar-inner">
         <span class="topbar-title">
           {destHref
-            ? <a class="topbar-dest topbar-dest-link" href={destHref} aria-label={`Retour au survol — ${destLabel}`}>{destLabel}</a>
+            ? <a class="topbar-dest topbar-dest-link" href={destHref} aria-label={t.backToSurvolAria(destLabel)}>{destLabel}</a>
             : <span class="topbar-dest">{destLabel}</span>}
           <span class="topbar-sep" aria-hidden="true">·</span>
           Ch. {chapterNum}/{chapterTotal} — {chapterTitle}
         </span>
-        <div class="mode-toggle" role="group" aria-label="Mode de consultation">
-          <button type="button" class="mode-btn" data-mode="episode" aria-pressed="true">Épisode</button>
-          <button type="button" class="mode-btn" data-mode="carnet" aria-pressed="false">Carnet</button>
+        <div class="mode-toggle" role="group" aria-label={t.modeToggleAria}>
+          <button type="button" class="mode-btn" data-mode="episode" aria-pressed="true">{t.modeEpisode}</button>
+          <button type="button" class="mode-btn" data-mode="carnet" aria-pressed="false">{t.modeCarnet}</button>
         </div>
       </div>
       <div class="progress-rail"><div class="progress-fill" id="progress-fill"></div></div>

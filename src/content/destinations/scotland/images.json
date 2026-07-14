@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hero",
+    "slot": "hero",
+    "base": null,
+    "role": "hero",
+    "file": "hero.jpg",
+    "alt": "Turquoise water and white sand at Luskentyre beach on a sunny day — Isle of Harris, Outer Hebrides",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1545240351-c350546ee55d",
+      "photographer": "Petia Koleva",
+      "license": "unsplash-standard"
+    },
+    "sha256": "0c1535634b05fb83a6f78de9139a1e0e00b3b73cb1bb795b7d1b17a7904f6592",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "0c1535634b05fb83a6f78de9139a1e0e00b3b73cb1bb795b7d1b17a7904f6592",
+      "alt": "Turquoise water and white sand at Luskentyre beach on a sunny day — Isle of Harris, Outer Hebrides",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "edinburgh-cover",
+    "slot": "edinburgh-cover",
+    "base": "edinburgh",
+    "role": "cover",
+    "file": "edinburgh-cover.jpg",
+    "alt": "The Shore in Leith — old stone buildings and moored boats along the Water of Leith, Edinburgh's historic port",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1597515307906-6a4d50032ce9",
+      "photographer": "Stuart Hay",
+      "license": "unsplash-standard"
+    },
+    "sha256": "81b2390c97982b7377632fc96c6f780058be0c130cb278ffd14cb9cebfad3b44",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "81b2390c97982b7377632fc96c6f780058be0c130cb278ffd14cb9cebfad3b44",
+      "alt": "The Shore in Leith — old stone buildings and moored boats along the Water of Leith, Edinburgh's historic port",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "argyll-cover",
+    "slot": "argyll-cover",
+    "base": "argyll",
+    "role": "cover",
+    "file": "argyll-cover.jpg",
+    "alt": "A sailboat gliding along the Crinan Canal between grassy banks, Argyll — the slow way to the west coast",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1560901017-a12344ec53fe",
+      "photographer": "Einar H. Reynis",
+      "license": "unsplash-standard"
+    },
+    "sha256": "3d612280828e99cc76de0aa061cccd1075c17b2990de5a86b08131bb301b62d5",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "3d612280828e99cc76de0aa061cccd1075c17b2990de5a86b08131bb301b62d5",
+      "alt": "A sailboat gliding along the Crinan Canal between grassy banks, Argyll — the slow way to the west coast",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "harris-cover",
+    "slot": "harris-cover",
+    "base": "harris",
+    "role": "cover",
+    "file": "harris-cover.jpg",
+    "alt": "Seilebost dunes and turquoise shallows at low tide — Isle of Harris, Outer Hebrides",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1634487474562-941d085053c6",
+      "photographer": "Nils Leonhardt",
+      "license": "unsplash-standard"
+    },
+    "sha256": "56c8b17224471f17f9a4795910720dc99f28004c94bd8c75d93ef7588e2af535",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "56c8b17224471f17f9a4795910720dc99f28004c94bd8c75d93ef7588e2af535",
+      "alt": "Seilebost dunes and turquoise shallows at low tide — Isle of Harris, Outer Hebrides",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "assynt-cover",
+    "slot": "assynt-cover",
+    "base": "assynt",
+    "role": "cover",
+    "file": "assynt-cover.jpg",
+    "alt": "Suilven rising alone over the Assynt moorland near Lochinver, northwest Highlands",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1499514694201-9e89bcba16c5",
+      "photographer": "Steve Bittinger",
+      "license": "unsplash-standard"
+    },
+    "sha256": "7edd43ae58141ed3642f78c14376f0476e7a7dfe3f75a1961a3af0e9b7b97a7a",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "7edd43ae58141ed3642f78c14376f0476e7a7dfe3f75a1961a3af0e9b7b97a7a",
+      "alt": "Suilven rising alone over the Assynt moorland near Lochinver, northwest Highlands",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  }
+]

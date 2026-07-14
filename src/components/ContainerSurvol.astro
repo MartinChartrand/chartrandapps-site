@@ -7,6 +7,7 @@
 // CSS scopé OK : ce composant rend son propre markup (aucun sous-composant), contrairement à
 // EpisodeLayout (is:global obligatoire car .beat-card etc. sont rendus par des sous-composants).
 import ImageCredits from './ImageCredits.astro';
+import { ui, type UiLang } from '../lib/ui-strings';
 interface Fact {
   value: string;
   label: string;
@@ -33,8 +34,11 @@ interface Props {
   tilesIntro: string;
   tiles: Tile[];
   imageCredits?: CreditItem[];
+  lang?: UiLang; // langue du chrome — défaut 'fr', additif
 }
-const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles, imageCredits = [] } = Astro.props;
+const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles, imageCredits = [], lang = 'fr' } = Astro.props;
+// `strings` (pas `t`) : le callback tiles.map((t) => …) shadowerait `t` dans le template.
+const strings = ui(lang);
 ---
 
 <main id="main-content" class="survol">
@@ -52,7 +56,7 @@ const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles,
     </div>
   </header>
 
-  <section class="survol-facts reveal" aria-label="Le voyage en bref">
+  <section class="survol-facts reveal" aria-label={strings.tripBriefAria}>
     {facts.map((f) => (
       <div class="fact">
         <span class="fact-value">{f.value}</span>
@@ -61,7 +65,7 @@ const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles,
     ))}
   </section>
 
-  <section class="survol-chapters" aria-label="Les chapitres du voyage">
+  <section class="survol-chapters" aria-label={strings.chaptersAria}>
     {tilesIntro && <p class="chapters-intro reveal">{tilesIntro}</p>}
     <ul class="tile-grid">
       {tiles.map((t) => {
@@ -84,7 +88,7 @@ const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles,
                 {t.kicker && <span class="tile-kicker">{t.kicker}</span>}
                 <h2 class="tile-title">{t.title}</h2>
                 {t.teaser && <p class="tile-teaser">{t.teaser}</p>}
-                <span class="tile-cta">{t.live ? 'Ouvrir l’épisode →' : 'À venir'}</span>
+                <span class="tile-cta">{t.live ? strings.tileOpen : strings.tileComing}</span>
               </div>
             </Tag>
           </li>
@@ -93,7 +97,7 @@ const { hookKicker, hookTitle, hookBody, hookImageUrl, facts, tilesIntro, tiles,
     </ul>
   </section>
 
-  <ImageCredits items={imageCredits} tone="light" />
+  <ImageCredits items={imageCredits} tone="light" title={strings.creditsTitle} />
 
 </main>
 

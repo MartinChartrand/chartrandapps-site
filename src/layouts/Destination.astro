@@ -1,6 +1,8 @@
 ---
 // Destination.astro — layout principal pour les pages itinéraire
 // ARCHITECTURE §4 — identité magazine + thème par destination
+import { ui, type UiLang } from '../lib/ui-strings';
+
 interface Props {
   title: string;
   favicon: string;
@@ -8,13 +10,15 @@ interface Props {
   description?: string;
   canonicalUrl?: string;
   footerNote?: string; // v1 : « Itinéraire préparé avec amour · Crète, septembre–octobre 2027 »
+  lang?: UiLang; // langue du chrome (destination.json) — défaut 'fr', additif
 }
 
-const { title, favicon, palette, description, canonicalUrl, footerNote } = Astro.props;
+const { title, favicon, palette, description, canonicalUrl, footerNote, lang = 'fr' } = Astro.props;
+const t = ui(lang);
 ---
 
 <!doctype html>
-<html lang="fr" data-theme={palette}>
+<html lang={lang} data-theme={palette}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,7 +40,7 @@ const { title, favicon, palette, description, canonicalUrl, footerNote } = Astro
 
   </head>
   <body>
-    <a href="#main-content" class="skip-link">Aller au contenu</a>
+    <a href="#main-content" class="skip-link">{t.skipLink}</a>
     <slot />
     {footerNote && (
       <footer class="site-footer">
@@ -44,7 +48,7 @@ const { title, favicon, palette, description, canonicalUrl, footerNote } = Astro
         <a href="https://chartrandapps.ca">chartrandapps.ca</a>
       </footer>
     )}
-    <button class="back-top" id="back-top" aria-label="Retour en haut">↑</button>
+    <button class="back-top" id="back-top" aria-label={t.backToTopAria}>↑</button>
   </body>
 </html>
 
@@ -84,6 +88,7 @@ const { title, favicon, palette, description, canonicalUrl, footerNote } = Astro
   @import '../styles/themes/philippines.css';
   @import '../styles/themes/portugal.css';
   @import '../styles/themes/vietnam.css';
+  @import '../styles/themes/scotland.css';
   @import '../styles/themes/home.css';
 
   /* Footer v1 */

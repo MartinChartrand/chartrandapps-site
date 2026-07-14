@@ -1,0 +1,39 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.8,
+              55.2
+            ],
+            [
+              -2,
+              55.2
+            ],
+            [
+              -2,
+              58.8
+            ],
+            [
+              -7.8,
+              58.8
+            ],
+            [
+              -7.8,
+              55.2
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "scotland",
+        "note": "Polygone bbox approximatif — remplacer par un landmask OSM précis si besoin."
+      }
+    }
+  ]
+}

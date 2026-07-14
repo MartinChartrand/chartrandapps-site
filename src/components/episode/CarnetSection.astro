@@ -3,6 +3,7 @@
 // pills (toute reco = lien cliquable), mini-carte qui suit le scroll (script dans EpisodeLayout),
 // export KML par chapitre. Purement présentationnel : la page pré-calcule `groups` (résolution
 // d'images comprise) — y compris la fusion des accomExtras dans « Où dormir » et les dishes/gems.
+import { ui, type UiLang } from '../../lib/ui-strings';
 interface Pill { label: string; url: string }
 interface Source { creator: string; url: string; date?: string }
 interface Row {
@@ -32,29 +33,26 @@ interface Props {
   markers: unknown[];
   openBounds: string;
   groups: Group[];
+  lang?: UiLang; // langue du chrome — défaut 'fr', additif
 }
-const { title, dates, focus, kmlHref, kmlDownload, kmlCount, markers, openBounds, groups } = Astro.props;
+const { title, dates, focus, kmlHref, kmlDownload, kmlCount, markers, openBounds, groups, lang = 'fr' } = Astro.props;
+const t = ui(lang);
 ---
 
 <div class="view-carnet" id="carnet">
   <div class="carnet-container">
-    <aside class="carnet-aside" aria-label="Mini-carte du carnet">
+    <aside class="carnet-aside" aria-label={t.carnetMapAria}>
       <div id="carnet-map" class="carnet-map" data-markers={JSON.stringify(markers)} data-open-bounds={openBounds}></div>
     </aside>
     <div class="carnet-main">
       <header class="carnet-head">
-        <span class="ep-kicker">Carnet — {title} · {dates}</span>
+        <span class="ep-kicker">{t.carnetKicker(title, dates)}</span>
         <p class="carnet-sub">{focus}</p>
         <div class="pill-row">
-          <a class="pill pill-kml" href={kmlHref} download={kmlDownload}>⤓ Exporter les {kmlCount} lieux (KML)</a>
+          <a class="pill pill-kml" href={kmlHref} download={kmlDownload}>{t.kmlExport(kmlCount)}</a>
         </div>
         <p class="carnet-kml-hint">
-          <strong>Étape ordi, une seule fois :</strong> télécharge le fichier sur ton ordinateur,
-          importe-le dans <a href="https://mymaps.google.com" target="_blank" rel="noopener">mymaps.google.com</a>
-          (Créer une carte → Importer). La carte apparaît ensuite dans l’app Google Maps de ton
-          téléphone — Enregistrés → Cartes — offline inclus. Le fichier ne s’ouvre pas directement
-          sur iPhone (Google n’a plus d’app My Maps). Sur le terrain, les pills « Maps » de chaque
-          lieu font la job en un tap.
+          <strong>{t.kmlHintLead}</strong>{t.kmlHintBefore}<a href="https://mymaps.google.com" target="_blank" rel="noopener">mymaps.google.com</a>{t.kmlHintAfter}
         </p>
       </header>
 
@@ -76,11 +74,11 @@ const { title, dates, focus, kmlHref, kmlDownload, kmlCount, markers, openBounds
                     </div>
                     {r.story && (
                       <details class="carnet-recit">
-                        <summary class="carnet-recit-toggle">le récit</summary>
+                        <summary class="carnet-recit-toggle">{t.storyToggle}</summary>
                         <p class="carnet-recit-prose">{r.story}</p>
                         {r.sources && r.sources.length > 0 && (
                           <p class="carnet-recit-sources">
-                            <span class="carnet-recit-srclabel">Sources :</span>{' '}
+                            <span class="carnet-recit-srclabel">{t.sourcesLabel}</span>{' '}
                             {r.sources.map((s, i) => (
                               <Fragment>{i > 0 && <span class="carnet-recit-sep"> · </span>}<a class="carnet-recit-src" href={s.url} target="_blank" rel="noopener">{s.creator}</a></Fragment>
                             ))}
@@ -117,7 +115,7 @@ const { title, dates, focus, kmlHref, kmlDownload, kmlCount, markers, openBounds
       ))}
 
       <div class="carnet-tail">
-        <button type="button" class="outro-btn" data-mode="episode">← Revenir à l’épisode</button>
+        <button type="button" class="outro-btn" data-mode="episode">{t.backToEpisode}</button>
       </div>
     </div>
   </div>

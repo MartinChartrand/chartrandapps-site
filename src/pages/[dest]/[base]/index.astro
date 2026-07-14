@@ -11,6 +11,7 @@ import CarnetSection from '../../../components/episode/CarnetSection.astro';
 import ImageCredits from '../../../components/ImageCredits.astro';
 import { getCollection } from 'astro:content';
 import { createEpisode, type Pill, type CarnetRow } from '../../../lib/episode';
+import { ui } from '../../../lib/ui-strings';
 
 export async function getStaticPaths() {
   const episodes = await getCollection('episodes');
@@ -31,6 +32,7 @@ const [allDestinations, allBases, allEpisodes] = await Promise.all([
 const destination = allDestinations.find((x) => x.data.slug === dest);
 if (!destination) throw new Error(`Destination introuvable : ${dest}`);
 const d = destination.data;
+const t = ui(d.lang);
 
 const episodeEntry = allEpisodes.find((e) => e.id === `${dest}/episodes/${base}`);
 if (!episodeEntry) throw new Error(`Épisode introuvable : ${dest}/${base}`);
@@ -178,11 +180,12 @@ const imageCredits = [...usedSlots]
   chapterTotal={chapterTotal}
   chapterTitle={bd.title}
   storageKey={`${dest}-${base}-mode`}
+  lang={d.lang}
 >
   <div class="view-episode">
 
     <ScrollyMapSection
-      ariaLabel="Cold open — la carte"
+      ariaLabel={t.coldOpenMapAria}
       markers={mapMarkers}
       openBounds={allCoords}
       mapId="scene-map"
@@ -190,7 +193,7 @@ const imageCredits = [...usedSlots]
     >
       <div class="beat beat-title">
         <div class="beat-card beat-card-title reveal">
-          <span class="ep-kicker">Chapitre {bd.order} de {chapterTotal} · {bd.nights} nuits · {bd.dates}</span>
+          <span class="ep-kicker">{t.chapterKicker(bd.order, chapterTotal, bd.nights, bd.dates)}</span>
           <h1 class="ep-title">{bd.title}</h1>
           <p class="ep-sub">{bd.subtitle}</p>
           <span class="scroll-hint" aria-hidden="true">↓</span>
@@ -205,15 +208,15 @@ const imageCredits = [...usedSlots]
     <SceneSection scenes={sceneData} />
 
     <ScrollyMapSection
-      ariaLabel="Le montage — le reste du chapitre"
+      ariaLabel={t.montageMapAria}
       markers={mapMarkers}
       openBounds={allCoords}
       beats={montageComponentBeats}
     >
       <div class="beat beat-title">
         <div class="beat-card beat-card-title reveal">
-          <span class="ep-kicker">Le montage</span>
-          <h2 class="montage-title">Ce que la caméra a pas eu le temps de filmer</h2>
+          <span class="ep-kicker">{t.montageKicker}</span>
+          <h2 class="montage-title">{t.montageTitle}</h2>
         </div>
       </div>
     </ScrollyMapSection>
@@ -222,16 +225,17 @@ const imageCredits = [...usedSlots]
       <div class="outro-inner reveal">
         <span class="ep-kicker">{ep.outro.kicker}</span>
         <p class="outro-body">{outroBody}</p>
-        <button type="button" class="outro-btn" data-mode="carnet">Ouvrir le carnet</button>
+        <button type="button" class="outro-btn" data-mode="carnet">{t.openCarnet}</button>
         <a class="outro-next" href={ep.outro.nextHref}>{ep.outro.nextLabel}</a>
       </div>
     </section>
 
-    <ImageCredits items={imageCredits} tone="dark" />
+    <ImageCredits items={imageCredits} tone="dark" title={t.creditsTitle} />
 
   </div>
 
   <CarnetSection
+    lang={d.lang}
     title={bd.title}
     dates={bd.dates}
     focus={bd.focus}
