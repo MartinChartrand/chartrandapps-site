@@ -355,7 +355,7 @@
     "visionCheckedSemantic": {
       "sha256": "6d02243b861eb6e40b6fb6679e501dfc4d3cc37fff380116d0b7e6fc0175a246",
       "alt": "A small blue fishing boat tied up at its moorings on the west coast",
-      "verdict": "unverifiable",
+      "verdict": "match",
       "checkedAt": "2026-07-14"
     }
   },
@@ -456,11 +456,11 @@
     }
   },
   {
-    "id": "ha-scene-loch",
-    "slot": "ha-scene-loch",
+    "id": "ha-scene-still",
+    "slot": "ha-scene-still",
     "base": "harris",
     "role": "photo",
-    "file": "ha-scene-loch.jpg",
+    "file": "ha-scene-still.jpg",
     "alt": "A close-up of a large copper pot still with its swan-neck rising, in a distillery still room.",
     "layout": "wide",
     "claims": "atmosphere",
@@ -1075,6 +1075,58 @@
     "visionCheckedSemantic": {
       "sha256": "5a7488f1a3368dfa9590ad793ae76213439711b83bdbfe2c23e2c8838fa513d5",
       "alt": "Thin translucent slices of cold-smoked salmon fanned out on a plate, dusted with cracked pepper, served with roasted baby potatoes and a diced tomato salad.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "dish-chowder",
+    "slot": "dish-chowder",
+    "base": "argyll",
+    "role": "food",
+    "file": "dish-chowder.jpg",
+    "alt": "A bowl of Cullen skink — pale creamy broth with chunks of potato and flakes of smoked haddock, topped with chopped chives, served with a bread roll.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Cullen_Skink.JPG",
+      "photographer": "Metukkalihis",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "227b1f2ca6c035f83431088adb2114d10ee39996cbb33c1150c60234a4ed13d2",
+    "visionChecked": "pending",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "227b1f2ca6c035f83431088adb2114d10ee39996cbb33c1150c60234a4ed13d2",
+      "alt": "A bowl of Cullen skink — pale creamy broth with chunks of potato and flakes of smoked haddock, topped with chopped chives, served with a bread roll.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "dish-scotch-pie",
+    "slot": "dish-scotch-pie",
+    "base": "edinburgh",
+    "role": "food",
+    "file": "dish-scotch-pie.jpg",
+    "alt": "A small, round, straight-sided Scotch pie with pale golden hot-water-crust pastry, whole on a white plate on a wooden table.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Scotch_pie.jpg",
+      "photographer": "Delta-NC (Wikimedia Commons)",
+      "license": "public-domain"
+    },
+    "sha256": "d8030e53d6d48bd9fe241399048ddad85d035e1f4cd6a4880e3799db97d6512c",
+    "visionChecked": "pending",
+    "dead": true,
+    "deadStatus": 429,
+    "visionCheckedSemantic": {
+      "sha256": "d8030e53d6d48bd9fe241399048ddad85d035e1f4cd6a4880e3799db97d6512c",
+      "alt": "A small, round, straight-sided Scotch pie with pale golden hot-water-crust pastry, whole on a white plate on a wooden table.",
       "verdict": "match",
       "checkedAt": "2026-07-14"
     }

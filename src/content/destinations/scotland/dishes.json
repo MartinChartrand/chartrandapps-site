@@ -36,7 +36,7 @@
     "region": "Edinburgh",
     "title": "Scotch pie",
     "body": "A double-crust hand pie of minced lamb in hot-water pastry, small enough to eat standing up — the working lunch of Edinburgh butchers' counters for over a century. Crombies on Broughton Street still makes theirs with lamb only, awards to prove it.",
-    "image": "",
+    "image": "dish-scotch-pie",
     "links": [
       {
         "label": "Crombies of Edinburgh",
@@ -185,7 +185,7 @@
     "region": "West coast",
     "title": "West-coast Cullen skink",
     "body": "The smoked-haddock-and-potato chowder that started life on the east coast turns up on nearly every pub menu around Loch Fyne in its own regional version — thicker, often finished with local cream, built around whatever smoked fish came off the day's boat.",
-    "image": "",
+    "image": "dish-chowder",
     "links": []
   },
   {
@@ -228,7 +228,8 @@
         "label": "Isle of Harris Distillery",
         "url": "https://www.harrisdistillery.com/"
       }
-    ]
+    ],
+    "approvedBy": "human"
   },
   {
     "id": "ha-dish-hearach",
@@ -336,7 +337,8 @@
         "label": "Croft36",
         "url": "https://croft36northton.wixsite.com/home"
       }
-    ]
+    ],
+    "approvedBy": "human"
   },
   {
     "id": "as-dish-scallops",
@@ -394,7 +396,8 @@
         "label": "Lochinver Larder",
         "url": "https://www.lochinverlarder.com/"
       }
-    ]
+    ],
+    "approvedBy": "human"
   },
   {
     "id": "as-dish-smoked-fish",
@@ -423,7 +426,8 @@
         "label": "Ullapool Smokehouse",
         "url": "https://www.ullapoolsmokehouse.com/"
       }
-    ]
+    ],
+    "approvedBy": "human"
   },
   {
     "id": "as-dish-venison",

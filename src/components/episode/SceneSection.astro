@@ -3,6 +3,7 @@
 // sticky, 3 beats par scène (intro · reco+liens · jalon optionnel). Rythme resserré (Martin).
 // `via` = provenance créateur ({label,url}) — le hook « X en a fait un épisode », souvent null
 // (règle de convergence : jamais de provenance non vérifiée). Images résolues par la page.
+import { ui, type UiLang } from '../../lib/ui-strings';
 interface Scene {
   id: string;
   num: number;
@@ -18,13 +19,15 @@ interface Scene {
 }
 interface Props {
   scenes: Scene[];
+  lang?: UiLang; // langue du chrome — défaut 'fr', additif
 }
-const { scenes } = Astro.props;
+const { scenes, lang = 'fr' } = Astro.props;
+const t = ui(lang);
 const total = scenes.length;
 ---
 
 {scenes.map((s) => (
-  <section class="scrolly scrolly-scene" id={s.id} aria-label={`Scène ${s.num} — ${s.title}`}>
+  <section class="scrolly scrolly-scene" id={s.id} aria-label={`${t.sceneWord} ${s.num} — ${s.title}`}>
     <div class="scrolly-sticky">
       <img class="scene-photo" src={s.imageSrc} alt={s.alt} loading="lazy" decoding="async" />
       <div class="scene-scrim" aria-hidden="true"></div>
@@ -32,7 +35,7 @@ const total = scenes.length;
     <div class="beats beats-scene">
       <div class="beat">
         <div class="beat-card reveal">
-          <span class="beat-kicker">Scène {s.num}/{total} · {s.kicker}</span>
+          <span class="beat-kicker">{`${t.sceneWord} ${s.num}/${total}`} · {s.kicker}</span>
           <h2 class="scene-title">{s.title}</h2>
           <p class="beat-body">{s.intro}</p>
         </div>

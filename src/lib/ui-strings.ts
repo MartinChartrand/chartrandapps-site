@@ -24,6 +24,10 @@ const fr = {
   montageKicker: 'Le montage',
   montageTitle: 'Ce que la caméra a pas eu le temps de filmer',
   openCarnet: 'Ouvrir le carnet',
+  sceneWord: 'Scène', // compteur « Scène 2/5 » + aria-label de la section
+
+  // Cartes (MapSection v2 + carnet)
+  mapPlaceholder: 'Carte',
 
   // Carnet (CarnetSection)
   carnetKicker: (title: string, dates: string) => `Carnet — ${title} · ${dates}`,
@@ -69,6 +73,9 @@ const en: typeof fr = {
   montageKicker: 'The montage',
   montageTitle: 'What the camera didn’t have time to film',
   openCarnet: 'Open the field notes',
+  sceneWord: 'Scene',
+
+  mapPlaceholder: 'Map',
 
   carnetKicker: (title: string, dates: string) => `Field notes — ${title} · ${dates}`,
   carnetMapAria: 'Field-notes mini-map',

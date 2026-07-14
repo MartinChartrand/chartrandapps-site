@@ -141,7 +141,8 @@
         "label": "Find the shed",
         "url": "https://www.google.com/maps/search/Luskentyre+Harris+Tweed"
       }
-    ]
+    ],
+    "approvedBy": "human"
   },
   {
     "id": "ha-gem-empty-traigh",
