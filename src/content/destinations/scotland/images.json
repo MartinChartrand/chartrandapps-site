@@ -629,20 +629,20 @@
     "base": "assynt",
     "role": "photo",
     "file": "as-scene-assynt-loch.jpg",
-    "alt": "A 'Passing Place' sign beside a single-track road running through rough Highland moorland, a jagged rocky peak rising behind.",
+    "alt": "A high view from the Drumbeg viewpoint over a sea loch and low hills, distant mountains hazy on the horizon.",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
-      "source": "unsplash",
-      "photoId": "photo-1709935903739-c420ed8ffe94",
-      "photographer": "Pix Tresa",
-      "license": "unsplash-standard"
+      "source": "wikimedia",
+      "photoId": "File:From Drumbeg viewpoint - geograph.org.uk - 1338768.jpg",
+      "photographer": "Sylvia Duckworth",
+      "license": "CC BY-SA 2.0"
     },
-    "sha256": "a48e73e148377db72a9301ee6254b80790fd7efb51946d499346c542154f4186",
+    "sha256": "5bafef9bf7f7caec99b6b3d7e0ec4161830fb9709372efa7ae1bdd3daaa8097c",
     "visionChecked": "pending",
     "visionCheckedSemantic": {
-      "sha256": "a48e73e148377db72a9301ee6254b80790fd7efb51946d499346c542154f4186",
-      "alt": "A 'Passing Place' sign beside a single-track road running through rough Highland moorland, a jagged rocky peak rising behind.",
+      "sha256": "5bafef9bf7f7caec99b6b3d7e0ec4161830fb9709372efa7ae1bdd3daaa8097c",
+      "alt": "A high view from the Drumbeg viewpoint over a sea loch and low hills, distant mountains hazy on the horizon.",
       "verdict": "match",
       "checkedAt": "2026-07-14"
     }
@@ -979,7 +979,7 @@
     "visionCheckedSemantic": {
       "sha256": "d6491bca476026d7c8fa9808c9cac52265c3e9f6b3bd333903e14ab2c45587ac",
       "alt": "A close-up of cured salmon",
-      "verdict": "unverifiable",
+      "verdict": "match",
       "checkedAt": "2026-07-14"
     }
   },
@@ -1127,6 +1127,702 @@
     "visionCheckedSemantic": {
       "sha256": "d8030e53d6d48bd9fe241399048ddad85d035e1f4cd6a4880e3799db97d6512c",
       "alt": "A small, round, straight-sided Scotch pie with pale golden hot-water-crust pastry, whole on a white plate on a wooden table.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ed-arthurs-seat",
+    "slot": "ed-arthurs-seat",
+    "base": null,
+    "role": "photo",
+    "file": "ed-arthurs-seat.jpg",
+    "alt": "Golden sunrise light on the volcanic peak of Arthur's Seat, with Edinburgh's rooftops and the Firth of Forth spread out below.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Sunrise on Arthur's Seat from Crow Hill - geograph.org.uk - 7976031.jpg",
+      "photographer": "Iain Lees",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "1176dcafa4434ce1e83854a936eadfc20b84ea2295e60a38e74ed138d274a8a0",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "1176dcafa4434ce1e83854a936eadfc20b84ea2295e60a38e74ed138d274a8a0",
+      "alt": "Golden sunrise light on the volcanic peak of Arthur's Seat, with Edinburgh's rooftops and the Firth of Forth spread out below.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ed-stockbridge-mkt",
+    "slot": "ed-stockbridge-mkt",
+    "base": null,
+    "role": "photo",
+    "file": "ed-stockbridge-mkt.jpg",
+    "alt": "Outdoor market stalls under striped awnings with shoppers browsing produce and clothing on a tree-lined street.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Stockbridge Market - geograph.org.uk - 3940809.jpg",
+      "photographer": "Richard Webb",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "f6c4acf2ba1f0e35f4889560bbbf92d1ab40e57172b0875c79b8edf20cbb6ae8",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "f6c4acf2ba1f0e35f4889560bbbf92d1ab40e57172b0875c79b8edf20cbb6ae8",
+      "alt": "Outdoor market stalls under striped awnings with shoppers browsing produce and clothing on a tree-lined street.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ed-gem-st-bernards-well",
+    "slot": "ed-gem-st-bernards-well",
+    "base": null,
+    "role": "photo",
+    "file": "ed-gem-st-bernards-well.jpg",
+    "alt": "St Bernard's Well — a circular neoclassical temple with columns and a domed roof sheltering a statue, on the wooded bank of the Water of Leith.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:DSCN4168 St Bernard's Well from Dean Gardens.jpg",
+      "photographer": "AlasdairW",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "d3cfe3b9e5c929dffdc8f0c870a840cf3bdb74419f38c12505f9ae3c095794d4",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "d3cfe3b9e5c929dffdc8f0c870a840cf3bdb74419f38c12505f9ae3c095794d4",
+      "alt": "St Bernard's Well — a circular neoclassical temple with columns and a domed roof sheltering a statue, on the wooded bank of the Water of Leith.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ed-gem-warriston",
+    "slot": "ed-gem-warriston",
+    "base": null,
+    "role": "photo",
+    "file": "ed-gem-warriston.jpg",
+    "alt": "Ornate Victorian stone tombs and an urn monument overtaken by tall grass and ferns in an overgrown cemetery.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Diplomat and wife's tombstones, Warriston Cemetery - geograph.org.uk - 1405486.jpg",
+      "photographer": "Kim Traynor",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "805b8b80b5ae0f8123ec5c8a6d5cd9f71d3c0c2392d056ad3280469a7559ec9e",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "805b8b80b5ae0f8123ec5c8a6d5cd9f71d3c0c2392d056ad3280469a7559ec9e",
+      "alt": "Ornate Victorian stone tombs and an urn monument overtaken by tall grass and ferns in an overgrown cemetery.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ed-gem-gormley",
+    "slot": "ed-gem-gormley",
+    "base": null,
+    "role": "photo",
+    "file": "ed-gem-gormley.jpg",
+    "alt": "A life-size rusted cast-iron figure standing upright in the shallow Water of Leith — one of Antony Gormley's '6 Times' sculptures.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Antony Gormley 6 Times statue in Powderhall, Edinburgh (landscape) 01.jpg",
+      "photographer": "Mike Shaw",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "33cadf51f341de383c42a41218525c2b97ffbe256e8fd98439d3807bde1bcc0a",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "33cadf51f341de383c42a41218525c2b97ffbe256e8fd98439d3807bde1bcc0a",
+      "alt": "A life-size rusted cast-iron figure standing upright in the shallow Water of Leith — one of Antony Gormley's '6 Times' sculptures.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ar-kyles-viewpoint",
+    "slot": "ar-kyles-viewpoint",
+    "base": null,
+    "role": "photo",
+    "file": "ar-kyles-viewpoint.jpg",
+    "alt": "The narrow twisting sea channels of the Kyles of Bute seen from a hillside viewpoint, wooded points framing the water.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Kyles of Bute from the viewpoint on the main road - geograph.org.uk - 1365840.jpg",
+      "photographer": "John Ferguson",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "a3adf25d2c94963749adcedd956252607a5116eae998344d737cde32c10b348a",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "a3adf25d2c94963749adcedd956252607a5116eae998344d737cde32c10b348a",
+      "alt": "The narrow twisting sea channels of the Kyles of Bute seen from a hillside viewpoint, wooded points framing the water.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ar-ostel-bay",
+    "slot": "ar-ostel-bay",
+    "base": null,
+    "role": "photo",
+    "file": "ar-ostel-bay.jpg",
+    "alt": "A sandy beach and dune grass at Kilbride Bay looking across the water to the mountains of Arran.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:A view to the Isle of Arran from the dunes above Kilbride Bay - geograph.org.uk - 998972.jpg",
+      "photographer": "Leslie Barrie",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "9045dc83efd94edc5d1331f938a38589d303462fee4cb1b0669214a4ccb5b08c",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "9045dc83efd94edc5d1331f938a38589d303462fee4cb1b0669214a4ccb5b08c",
+      "alt": "A sandy beach and dune grass at Kilbride Bay looking across the water to the mountains of Arran.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ar-gem-auchindrain",
+    "slot": "ar-gem-auchindrain",
+    "base": null,
+    "role": "photo",
+    "file": "ar-gem-auchindrain.jpg",
+    "alt": "A whitewashed stone longhouse with a thick thatched roof and a red door at the historic Auchindrain township.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Auchindrain Township Open Air Museum, Bell a' Phuill's Thatched Roof House - geograph.org.uk - 4159686.jpg",
+      "photographer": "James T M Towill",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "5da401778e7731992ce863073f5b2530fe48ad31b612bccd039a7c20d0fb1a0f",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "5da401778e7731992ce863073f5b2530fe48ad31b612bccd039a7c20d0fb1a0f",
+      "alt": "A whitewashed stone longhouse with a thick thatched roof and a red door at the historic Auchindrain township.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ar-gem-waverley",
+    "slot": "ar-gem-waverley",
+    "base": null,
+    "role": "photo",
+    "file": "ar-gem-waverley.jpg",
+    "alt": "The PS Waverley paddle steamer underway with its black-and-white hull and two red-and-black funnels, passengers on deck.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Paddle steamer Waverley near Bogany Point - geograph.org.uk - 3572814.jpg",
+      "photographer": "Ian Paterson",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "7a958c8086c45259cae500d71508ed6637063e0a63cd6937feec1d205902ddd0",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "7a958c8086c45259cae500d71508ed6637063e0a63cd6937feec1d205902ddd0",
+      "alt": "The PS Waverley paddle steamer underway with its black-and-white hull and two red-and-black funnels, passengers on deck.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ar-secret-coast",
+    "slot": "ar-secret-coast",
+    "base": null,
+    "role": "photo",
+    "file": "ar-secret-coast.jpg",
+    "alt": "A narrow rural lane in Argyll, a red post box and phone box tucked among roadside trees.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Country road turning left to Ardlamont Point. - geograph.org.uk - 550266.jpg",
+      "photographer": "Johnny Durnan",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "7e82012cf5363c8543d57eab1a0d4e86cb1572a54f3ebace4f5befddfeadd00f",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "7e82012cf5363c8543d57eab1a0d4e86cb1572a54f3ebace4f5befddfeadd00f",
+      "alt": "A narrow rural lane in Argyll, a red post box and phone box tucked among roadside trees.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ha-st-clements",
+    "slot": "ha-st-clements",
+    "base": null,
+    "role": "photo",
+    "file": "ha-st-clements.jpg",
+    "alt": "St Clement's Church at Rodel — a medieval stone church with a tall square tower, seen across its grassy graveyard.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:St Clement's Church, Rodel, Harris, exterior 1.jpg",
+      "photographer": "LornaMCampbell",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "e2b52d42c7fd398bc8ecc92f202996bc011c9e38d48eec2a6f34697f6645b372",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "e2b52d42c7fd398bc8ecc92f202996bc011c9e38d48eec2a6f34697f6645b372",
+      "alt": "St Clement's Church at Rodel — a medieval stone church with a tall square tower, seen across its grassy graveyard.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ha-eilean-glas",
+    "slot": "ha-eilean-glas",
+    "base": null,
+    "role": "photo",
+    "file": "ha-eilean-glas.jpg",
+    "alt": "Eilean Glas lighthouse on Scalpay — a red-and-white striped tower with keeper's cottages on a rocky headland.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:EileanGlas01LB.jpg",
+      "photographer": "Lesbardd",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "e0992f464e9692c71e27b27d60583a97bbcd8898dfc89b192f8429b42fcfdb5d",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "e0992f464e9692c71e27b27d60583a97bbcd8898dfc89b192f8429b42fcfdb5d",
+      "alt": "Eilean Glas lighthouse on Scalpay — a red-and-white striped tower with keeper's cottages on a rocky headland.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ha-gem-tweed-loom",
+    "slot": "ha-gem-tweed-loom",
+    "base": null,
+    "role": "photo",
+    "file": "ha-gem-tweed-loom.jpg",
+    "alt": "A Harris Tweed weaver at a black cast-iron Hattersley loom in a stone shed, a roll of woven tweed on the beam.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Harris Tweed Weaver c1960.jpg",
+      "photographer": "The Harris Tweed Authority",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "34b60e2dd820c14c2e0c7c1ee5736bb2d5948345578fae9a859e35391d19d58f",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "34b60e2dd820c14c2e0c7c1ee5736bb2d5948345578fae9a859e35391d19d58f",
+      "alt": "A Harris Tweed weaver at a black cast-iron Hattersley loom in a stone shed, a roll of woven tweed on the beam.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ha-gem-traigh",
+    "slot": "ha-gem-traigh",
+    "base": null,
+    "role": "photo",
+    "file": "ha-gem-traigh.jpg",
+    "alt": "An empty white-sand beach near Northton, South Harris, water grading turquoise to navy, a distant island on the horizon, nobody in sight.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Tràigh na h-Uidhe - geograph.org.uk - 4995896.jpg",
+      "photographer": "M J Richardson",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "59ed993cc0769e02a20434097cad6c14b6f7320cbcde1ea66f56bf8e2304e8da",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "59ed993cc0769e02a20434097cad6c14b6f7320cbcde1ea66f56bf8e2304e8da",
+      "alt": "An empty white-sand beach near Northton, South Harris, water grading turquoise to navy, a distant island on the horizon, nobody in sight.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "as-clachtoll",
+    "slot": "as-clachtoll",
+    "base": null,
+    "role": "photo",
+    "file": "as-clachtoll.jpg",
+    "alt": "The ruined Iron Age broch at Clachtoll — thick drystone circular walls and a low entrance passage still standing.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Clachtoll Iron Age Broch (48129163122).jpg",
+      "photographer": "Landscapes and Aviation",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "955df6a8bd097fbe0f1a57ec20dd3a7a98105f83df37db0f1d7536f3fb23b533",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "955df6a8bd097fbe0f1a57ec20dd3a7a98105f83df37db0f1d7536f3fb23b533",
+      "alt": "The ruined Iron Age broch at Clachtoll — thick drystone circular walls and a low entrance passage still standing.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "as-clashnessie",
+    "slot": "as-clashnessie",
+    "base": null,
+    "role": "photo",
+    "file": "as-clashnessie.jpg",
+    "alt": "Clashnessie Bay — a curved sandy beach wrapping a calm bay, white crofts scattered on the green hillside beyond.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Clashnessie Bay - geograph.org.uk - 1215662.jpg",
+      "photographer": "Stuart Wilding",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "b9ff723968bcd8ec9553e2b1ea0c1f8e2f24f958bd52b64840e426be7e6b4906",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "b9ff723968bcd8ec9553e2b1ea0c1f8e2f24f958bd52b64840e426be7e6b4906",
+      "alt": "Clashnessie Bay — a curved sandy beach wrapping a calm bay, white crofts scattered on the green hillside beyond.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "as-wailing-widow",
+    "slot": "as-wailing-widow",
+    "base": null,
+    "role": "photo",
+    "file": "as-wailing-widow.jpg",
+    "alt": "Wailing Widow Falls dropping down a dark rock cliff at the head of a steep heather-covered gorge into a boulder-strewn burn.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:The Wailing Widow Falls - geograph.org.uk - 4379611.jpg",
+      "photographer": "Peter Moore",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "1058f54c5d280cacb49c4d1232c0a97c56815ab8a02a8b32a338f37d825cb870",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "1058f54c5d280cacb49c4d1232c0a97c56815ab8a02a8b32a338f37d825cb870",
+      "alt": "Wailing Widow Falls dropping down a dark rock cliff at the head of a steep heather-covered gorge into a boulder-strewn burn.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "as-stac-pollaidh",
+    "slot": "as-stac-pollaidh",
+    "base": null,
+    "role": "photo",
+    "file": "as-stac-pollaidh.jpg",
+    "alt": "Stac Pollaidh — a small mountain with a jagged pinnacled summit ridge rising above Loch Lurgainn under a clear sky.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Stac Pollaidh 3.jpg",
+      "photographer": "Mehmet Karatay",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "52e3ebc8b60ba8ebb4c369cc26a3ac6906ad7d216fe695d825daa14b0630f5e1",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "52e3ebc8b60ba8ebb4c369cc26a3ac6906ad7d216fe695d825daa14b0630f5e1",
+      "alt": "Stac Pollaidh — a small mountain with a jagged pinnacled summit ridge rising above Loch Lurgainn under a clear sky.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "as-ardvreck",
+    "slot": "as-ardvreck",
+    "base": null,
+    "role": "photo",
+    "file": "as-ardvreck.jpg",
+    "alt": "The roofless stone tower of Ardvreck Castle on a grassy point jutting into Loch Assynt under a dramatic sky.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Ardvreck Castle Loch Assynt.JPG",
+      "photographer": "Cgfletch",
+      "license": "CC BY-SA 3.0"
+    },
+    "sha256": "8575666111482b10dfad7d743344cb4e00a30840d1b06e4ea8aaca2d1576becf",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "8575666111482b10dfad7d743344cb4e00a30840d1b06e4ea8aaca2d1576becf",
+      "alt": "The roofless stone tower of Ardvreck Castle on a grassy point jutting into Loch Assynt under a dramatic sky.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "as-gem-hermits-castle",
+    "slot": "as-gem-hermits-castle",
+    "base": null,
+    "role": "photo",
+    "file": "as-gem-hermits-castle.jpg",
+    "alt": "Hermit's Castle at Achmelvich — a tiny brutalist concrete folly with slit windows and a stepped roofline among coastal rocks.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Hermits Castle Achmelvich Scotland (Front).jpg",
+      "photographer": "TheWishy",
+      "license": "CC BY 4.0"
+    },
+    "sha256": "1228fe14140ab08f7a64d679deac387937240e9d29d2cd2bc8965fb6b55e8442",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "1228fe14140ab08f7a64d679deac387937240e9d29d2cd2bc8965fb6b55e8442",
+      "alt": "Hermit's Castle at Achmelvich — a tiny brutalist concrete folly with slit windows and a stepped roofline among coastal rocks.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ha-boat-stkilda",
+    "slot": "ha-boat-stkilda",
+    "base": null,
+    "role": "photo",
+    "file": "ha-boat-stkilda.jpg",
+    "alt": "Village Bay on Hirta, St Kilda — the abandoned crofting village in its green bowl above the bay, a sea stack offshore.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Village Bay, Hirta, St Kilda.jpg",
+      "photographer": "Hugh Miller",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "125175dd5e739fa18cb9f4cb8adb0a6c14c7b92a66a07a0a64b411be650fe65b",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "125175dd5e739fa18cb9f4cb8adb0a6c14c7b92a66a07a0a64b411be650fe65b",
+      "alt": "Village Bay on Hirta, St Kilda — the abandoned crofting village in its green bowl above the bay, a sea stack offshore.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ed-fingal",
+    "slot": "ed-fingal",
+    "base": null,
+    "role": "accom",
+    "file": "ed-fingal.jpg",
+    "alt": "The bow of the Fingal — a former lighthouse-tender ship converted into a hotel — moored at Leith, black hull with the name in gold, modern flats behind.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:MV Fingal at Leith - geograph.org.uk - 6029766.jpg",
+      "photographer": "M J Richardson",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "fff71b4efd9c3f17696eb905bee71ea37a091719826a85777917f99e699e7570",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "fff71b4efd9c3f17696eb905bee71ea37a091719826a85777917f99e699e7570",
+      "alt": "The bow of the Fingal — a former lighthouse-tender ship converted into a hotel — moored at Leith, black hull with the name in gold, modern flats behind.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "ar-portavadie",
+    "slot": "ar-portavadie",
+    "base": null,
+    "role": "accom",
+    "file": "ar-portavadie.jpg",
+    "alt": "Portavadie marina on Loch Fyne — pontoons packed with yachts and the modern resort buildings on the point, hills across the loch.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Portavadie Marina - geograph.org.uk - 3831542.jpg",
+      "photographer": "John Ferguson",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "240852a61136286382a088099f4b7377c81cef4586d4b4517c874e69b17b2390",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "240852a61136286382a088099f4b7377c81cef4586d4b4517c874e69b17b2390",
+      "alt": "Portavadie marina on Loch Fyne — pontoons packed with yachts and the modern resort buildings on the point, hills across the loch.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "dish-kippers",
+    "slot": "dish-kippers",
+    "base": null,
+    "role": "food",
+    "file": "dish-kippers.jpg",
+    "alt": "A whole smoked kipper split open flat, its skin a deep golden-amber, on white paper.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Smoked kipper whitby.jpg",
+      "photographer": "Secretlondon",
+      "license": "CC BY-SA 4.0"
+    },
+    "sha256": "5889ac1d591093128c8db125723ca4f70fdc51c1041ad54e202694296a0bb1b0",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "5889ac1d591093128c8db125723ca4f70fdc51c1041ad54e202694296a0bb1b0",
+      "alt": "A whole smoked kipper split open flat, its skin a deep golden-amber, on white paper.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "dish-smokie",
+    "slot": "dish-smokie",
+    "base": null,
+    "role": "food",
+    "file": "dish-smokie.jpg",
+    "alt": "An Arbroath smokie served on a plate — flaked smoked haddock with sauté potatoes and a fried egg on top.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Arbroath Smokie (3512960528).jpg",
+      "photographer": "Simon Doggett",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "4219ae40e265dfbacc3db735e2398f82daf058408a62db388ee442a50ad88e26",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "4219ae40e265dfbacc3db735e2398f82daf058408a62db388ee442a50ad88e26",
+      "alt": "An Arbroath smokie served on a plate — flaked smoked haddock with sauté potatoes and a fried egg on top.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "dish-cranachan",
+    "slot": "dish-cranachan",
+    "base": null,
+    "role": "food",
+    "file": "dish-cranachan.jpg",
+    "alt": "Two glasses of cranachan layered with crushed raspberries, whipped cream, and a thick topping of toasted oats.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Cranachan (4332953688).jpg",
+      "photographer": "Saskia van de Nieuwenhof",
+      "license": "CC BY-SA 2.0"
+    },
+    "sha256": "58486465645c54b7f0c90a1349fcdaa9d7b3382c79fff2624861c55fa3617378",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "58486465645c54b7f0c90a1349fcdaa9d7b3382c79fff2624861c55fa3617378",
+      "alt": "Two glasses of cranachan layered with crushed raspberries, whipped cream, and a thick topping of toasted oats.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "dish-venison",
+    "slot": "dish-venison",
+    "base": null,
+    "role": "food",
+    "file": "dish-venison.jpg",
+    "alt": "Sliced roasted venison loin, rosy pink in the centre with a dark seared crust, plated with wilted greens, chestnut puree and a dark jus.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Roasted venison loin (16050409222).jpg",
+      "photographer": "Lou Stejskal",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "c97ffeece543ff2e82e4c331e23239674633f1935e42b1b6092cb0758932a431",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "c97ffeece543ff2e82e4c331e23239674633f1935e42b1b6092cb0758932a431",
+      "alt": "Sliced roasted venison loin, rosy pink in the centre with a dark seared crust, plated with wilted greens, chestnut puree and a dark jus.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "dish-chowder-cup",
+    "slot": "dish-chowder-cup",
+    "base": null,
+    "role": "food",
+    "file": "dish-chowder-cup.jpg",
+    "alt": "A creamy fish chowder full of cubed white fish, potato chunks and chopped dill, in a plain round bowl.",
+    "layout": null,
+    "claims": "atmosphere",
+    "credit": {
+      "source": "wikimedia",
+      "photoId": "File:Fishchowder.jpg",
+      "photographer": "Nate Steiner",
+      "license": "CC BY 2.0"
+    },
+    "sha256": "63540721089a6656eb3e1cb0a563c0e6deea7246780d9e347d493ff47461a8a2",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "63540721089a6656eb3e1cb0a563c0e6deea7246780d9e347d493ff47461a8a2",
+      "alt": "A creamy fish chowder full of cubed white fish, potato chunks and chopped dill, in a plain round bowl.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
+  },
+  {
+    "id": "as-boat",
+    "slot": "as-boat",
+    "base": null,
+    "role": "photo",
+    "file": "as-boat.jpg",
+    "alt": "A small fishing boat moored among rocks and mooring buoys on a calm sea, Scottish hills across the water.",
+    "layout": "wide",
+    "claims": "atmosphere",
+    "credit": {
+      "source": "unsplash",
+      "photoId": "photo-1592875769564-366ce4fb3a79",
+      "photographer": "Unsplash",
+      "license": "unsplash-standard"
+    },
+    "sha256": "66bb3563fee64977954a3bfe520871dee82b65d853424bf33d9a2ad601e92eb2",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "66bb3563fee64977954a3bfe520871dee82b65d853424bf33d9a2ad601e92eb2",
+      "alt": "A small fishing boat moored among rocks and mooring buoys on a calm sea, Scottish hills across the water.",
       "verdict": "match",
       "checkedAt": "2026-07-14"
     }

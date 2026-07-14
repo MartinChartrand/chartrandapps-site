@@ -51,7 +51,7 @@
     "region": "Edinburgh & the East Coast",
     "title": "Arbroath smokie",
     "body": "Whole haddock, salted then hot-smoked in a barrel until the skin bronzes and the flesh stays moist — a protected East Coast specialty that Leith kitchens fold into modern plates. Simplest is the fish itself, warm, with brown bread and butter.",
-    "image": "",
+    "image": "dish-smokie",
     "links": [
       {
         "label": "Dulse Leith (smokie croquettes)",
@@ -96,7 +96,7 @@
     "region": "Scotland-wide",
     "title": "Cranachan",
     "body": "Whipped cream folded with toasted oatmeal, a good glug of whisky, honey and fresh raspberries, layered in a glass — traditionally a harvest dessert, served year-round in Edinburgh. The natural place to taste Scotch in something other than a glass.",
-    "image": "",
+    "image": "dish-cranachan",
     "links": []
   },
   {
@@ -123,11 +123,11 @@
     "title": "Tarbert langoustines",
     "body": "Locally called Loch Fyne prawns — landed daily at Tarbert harbour by the boats you can watch tie up. Best the plainest way possible: simply boiled, garlic butter or good mayonnaise, bread to mop up. Anything fancier misses the point.",
     "image": "dish-langoustines",
-    "poiRef": "argyll-starfish-tarbert",
+    "poiRef": "argyll-red-herring",
     "links": [
       {
-        "label": "Starfish Tarbert",
-        "url": "https://www.starfishtarbert.com/"
+        "label": "The Red Herring, Tarbert",
+        "url": "https://www.theredherringtarbert.co.uk/"
       }
     ]
   },
@@ -138,7 +138,7 @@
     "region": "Tarbert, Loch Fyne",
     "title": "Loch Fyne kippers",
     "body": "Oak-smoked herring from the last true kipper smokery still working the Loch Fyne shore, run by the same family for three generations at Skipness. Order them for breakfast at your guesthouse, or buy a pair to take home.",
-    "image": "",
+    "image": "dish-kippers",
     "links": [
       {
         "label": "Skipness Smokehouse",
@@ -436,7 +436,7 @@
     "region": "Highlands",
     "title": "Wild venison",
     "body": "Red deer from the surrounding estates — lean, gamey, usually slow-cooked in a casserole or a pie filling, sometimes a loin special on a pub blackboard when a cull's just come in.",
-    "image": "",
+    "image": "dish-venison",
     "links": []
   },
   {
@@ -446,7 +446,7 @@
     "region": "Ullapool",
     "title": "Seafood chowder",
     "body": "The Seafood Shack's version changes with the boat's catch — smoked haddock, mussels, whatever white fish came in — thick, warm, and exactly right eaten from a paper cup at a picnic table on a breezy Ullapool afternoon.",
-    "image": "",
+    "image": "dish-chowder-cup",
     "poiRef": "assynt-seafood-shack",
     "links": []
   },

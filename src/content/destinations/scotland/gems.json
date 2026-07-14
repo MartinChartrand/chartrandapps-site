@@ -17,7 +17,7 @@
     "base": "edinburgh",
     "title": "St Bernard's Well — a Greek temple over a spring",
     "body": "A round neoclassical folly built in 1789 over a sulphurous mineral spring, right on the Water of Leith walkway between Dean Village and Stockbridge — a statue of Hygeia inside. Most walkers pass without stopping; it rewards five minutes.",
-    "image": "",
+    "image": "ed-gem-st-bernards-well",
     "links": [
       {
         "label": "Find it",
@@ -43,7 +43,7 @@
     "base": "edinburgh",
     "title": "Warriston Cemetery, gone beautifully wild",
     "body": "Edinburgh's first garden cemetery (1843) on the Water of Leith's north bank — ivy has swallowed most of the Victorian monuments, and what's left is atmospheric rather than manicured. Quiet, strange, and completely free of tour groups.",
-    "image": "",
+    "image": "ed-gem-warriston",
     "links": [
       {
         "label": "Find it",
@@ -56,7 +56,7 @@
     "base": "edinburgh",
     "title": "6 Times — Gormley figures standing in the river",
     "body": "Six life-size cast-iron Antony Gormley figures placed directly in the Water of Leith between the Modern Art gallery and the docks — the water rises and falls around them, so each looks different every time. One stands below the bridge at Stockbridge.",
-    "image": "",
+    "image": "ed-gem-gormley",
     "links": [
       {
         "label": "National Galleries — 6 Times",
@@ -95,7 +95,7 @@
     "base": "argyll",
     "title": "Auchindrain — the township that time forgot",
     "body": "Six miles south of Inveraray, the best-preserved communal farm township in the Highlands — inhabited until 1963, twenty-two buildings, self-guided, almost never crowded. An hour of quiet wandering.",
-    "image": "",
+    "image": "ar-gem-auchindrain",
     "links": [
       {
         "label": "Auchindrain Township",
@@ -108,7 +108,7 @@
     "base": "argyll",
     "title": "Tighnabruaich Pier & the last paddle steamer",
     "body": "The PS Waverley — the world's last seagoing paddle steamer — still makes seasonal calls at the village pier. Catching it in is a small, real event; check the sailing schedule.",
-    "image": "",
+    "image": "ar-gem-waverley",
     "links": [
       {
         "label": "Waverley Excursions",
@@ -121,7 +121,7 @@
     "base": "harris",
     "title": "Donald John Mackay's loom at Luskentyre",
     "body": "A third-generation weaver working a foot-treadle Hattersley loom a hundred metres from the beach — the man who wove for Nike when they came calling (MBE, 2012). Call ahead (01859 550261); tweed bought at the loom is the real souvenir.",
-    "image": "",
+    "image": "ha-gem-tweed-loom",
     "story": "When Nike needed Harris Tweed for a limited-edition trainer, they found Donald John Mackay in his shed at Luskentyre — and he quietly mobilised most of the weavers in the Western Isles to deliver the order in three months. Madonna wore the shoes; Donald John kept weaving at the same foot-treadle loom, a hundred metres from the beach. The MBE followed in 2012. Call ahead and buy from the loom itself.",
     "sources": [
       {
@@ -149,7 +149,7 @@
     "base": "harris",
     "title": "The empty traigh of the deep south",
     "body": "Even in high season, Scarista, Northton and Horgabost are close to deserted before 9am and after 6pm — the crowds concentrate at Luskentyre's main car park. A short walk south buys total solitude on sand just as good.",
-    "image": "",
+    "image": "ha-gem-traigh",
     "links": [
       {
         "label": "Find Horgabost",
@@ -231,15 +231,15 @@
     "links": []
   },
   {
-    "id": "as-gem-achins",
+    "id": "as-gem-ceilidh-place",
     "base": "assynt",
-    "title": "Achins Bookshop, Inverkirkaig",
-    "body": "One of the most remote bookshops in Britain, at the end of the road where the Falls of Kirkaig path takes over — serious Scottish shelves, homemade soup, home baking, and nothing else around for miles.",
+    "title": "The Ceilidh Place, Ullapool",
+    "body": "Bookshop, café, bar, restaurant and live-music room in one rambling Ullapool institution — open year-round, coffee from 8am, ceilidhs and gigs most weeks. The place to wait out weather with a book and a dram.",
     "image": "",
     "links": [
       {
-        "label": "Discover Assynt",
-        "url": "https://www.discoverassynt.co.uk/achins-bookshop"
+        "label": "The Ceilidh Place",
+        "url": "https://www.theceilidhplace.com/"
       }
     ]
   },
@@ -248,7 +248,7 @@
     "base": "assynt",
     "title": "Hermit's Castle — Europe's smallest",
     "body": "A Brutalist concrete folly the size of a garden shed, built single-handedly in the 1950s by an architect who spent one night in it — or several weeks, depending which local you ask — then vanished. Unmarked, free, tucked into the rocks at Achmelvich.",
-    "image": "",
+    "image": "as-gem-hermits-castle",
     "links": [
       {
         "label": "Undiscovered Scotland",

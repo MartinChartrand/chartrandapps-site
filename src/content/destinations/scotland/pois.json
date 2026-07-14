@@ -4,21 +4,36 @@
     "base": "edinburgh",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "budget",
     "name": "A-Haven Townhouse",
     "blurb": "A Victorian townhouse guesthouse on Ferry Road, a short walk into Leith proper — full Scottish breakfast included, free parking, and rooms that are simple rather than shabby (~CAD 140–175/night).",
     "signature": "ask for a room at the back — Ferry Road carries traffic",
     "image": null,
-    "price": { "range": "~£75–95/night (~CAD 140–175)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9718, "lng": -3.1975, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£75–95/night (~CAD 140–175)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9718,
+      "lng": -3.1975,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://a-haven.co.uk/",
       "booking": "https://www.booking.com/hotel/gb/a-haven-townhouse.html",
       "maps": "https://www.google.com/maps/search/A-Haven+Townhouse+180+Ferry+Road+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -26,21 +41,36 @@
     "base": "edinburgh",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "mid",
     "name": "Nira Caledonia",
     "blurb": "A Georgian townhouse on the New Town edge of Stockbridge — 26 individually decorated rooms, a genuinely good breakfast, and quiet residential-street charm steps from St Stephen Street (~CAD 325–435/night).",
     "signature": "book early for May — Friday nights jump well above the weekday rate",
     "image": null,
-    "price": { "range": "~£175–235/night (~CAD 325–435)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.956681, "lng": -3.206962, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£175–235/night (~CAD 325–435)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.956681,
+      "lng": -3.206962,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://niracaledonia.com/",
       "booking": "https://www.booking.com/hotel/gb/nira-caledonia.en-gb.html",
       "maps": "https://www.google.com/maps/search/Nira+Caledonia+6+Gloucester+Place+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -48,21 +78,36 @@
     "base": "edinburgh",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "gem",
     "name": "Fingal",
     "blurb": "A decommissioned lighthouse-tender ship, permanently docked in Leith and converted into 23 cabins named after Stevenson lighthouses — the birthday-splurge night that becomes part of the trip's story (~CAD 685–795+/night).",
     "signature": "one night aboard for the birthday — book months ahead, 23 cabins only",
-    "image": null,
-    "price": { "range": "~£370–430+/night (~CAD 685–795+)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.984, "lng": -3.168, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ed-fingal",
+    "price": {
+      "range": "~£370–430+/night (~CAD 685–795+)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.984,
+      "lng": -3.168,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.fingal.co.uk/",
       "booking": "https://www.booking.com/hotel/gb/fingal-edinburgh.en-gb.html",
       "maps": "https://www.google.com/maps/search/Fingal+Alexandra+Dock+Leith+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -70,122 +115,214 @@
     "base": "edinburgh",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "Fishers Leith",
     "blurb": "The original Fishers, at the foot of a 17th-century windmill on The Shore — over twenty years of simply-cooked Scottish fish, and a smoked-fish platter that's a meal in itself (~CAD 33–59/mains).",
     "signature": "the smoked-fish platter — salmon, trout, mackerel, rollmops, oysters, langoustine",
     "image": null,
-    "price": { "range": "~£18–32/mains (~CAD 33–59)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9766, "lng": -3.172, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£18–32/mains (~CAD 33–59)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9766,
+      "lng": -3.172,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.fishersrestaurants.co.uk/fishers-leith/",
       "maps": "https://www.google.com/maps/search/Fishers+Leith+1+The+Shore+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "edinburgh-dulse-leith",
     "base": "edinburgh",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "Dulse Leith",
     "blurb": "AA Rosette seafood on Constitution Street — the menu changes with what local fishermen bring in that morning, and the hands-on seafood boil is built for lingering (~CAD 72–100+/pers).",
     "signature": "the seafood boil — mussels, langoustine, crab, £78 for two, book ahead",
     "image": null,
-    "price": { "range": "~£39–55/pers (~CAD 72–100)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9762, "lng": -3.1735, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£39–55/pers (~CAD 72–100)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9762,
+      "lng": -3.1735,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.dulse.co.uk/dulseleith",
       "booking": "https://www.opentable.co.uk/r/dulse-edinburgh-2",
       "maps": "https://www.google.com/maps/search/Dulse+Leith+102+Constitution+Street+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "edinburgh-the-fishmarket-newhaven",
     "base": "edinburgh",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "The Fishmarket Newhaven",
     "blurb": "A Victorian fishmonger's counter turned takeaway hatch at Newhaven's little harbour — fish and chips cooked to order, oysters at harbourside tables, and a straight view to Fife past the boats (~CAD 22–35/pers).",
     "signature": "fish & chips from the hatch, eaten on the harbour wall",
     "image": null,
-    "price": { "range": "~£12–19/pers (~CAD 22–35)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9805, "lng": -3.1935, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£12–19/pers (~CAD 22–35)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9805,
+      "lng": -3.1935,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.thefishmarketnewhaven.co.uk/",
       "maps": "https://www.google.com/maps/search/The+Fishmarket+23A+Pier+Place+Newhaven+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "edinburgh-twelve-triangles-brunswick",
     "base": "edinburgh",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "Twelve Triangles — Brunswick Street",
     "blurb": "A scratch bakery working entirely in cold-fermented sourdough — no additives, everything hand-shaped, and doughnut flavours worth planning a morning around (~CAD 6–15/pers).",
     "signature": "the doughnuts — coffee custard, pink grapefruit ricotta — before 10am",
     "image": null,
-    "price": { "range": "~£3–8/pers (~CAD 6–15)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.966, "lng": -3.165, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£3–8/pers (~CAD 6–15)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.966,
+      "lng": -3.165,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://twelvetriangles.co.uk/",
       "maps": "https://www.google.com/maps/search/Twelve+Triangles+90+Brunswick+Street+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "edinburgh-roseleaf",
     "base": "edinburgh",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat", "drink"],
+    "roles": [
+      "eat",
+      "drink"
+    ],
     "tier": null,
     "name": "Roseleaf Bar Café",
     "blurb": "A family-run Leith fixture since 2007 on Sandport Place — hearty Scottish comfort food, all-day brunch, and cocktails served in mismatched teapots (~CAD 18–35/pers).",
     "signature": "cocktails in a teapot — Somebody Feed Phil drank here too",
     "image": null,
-    "price": { "range": "~£10–19/pers (~CAD 18–35)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9758, "lng": -3.175, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£10–19/pers (~CAD 18–35)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9758,
+      "lng": -3.175,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.roseleaf.co.uk/",
       "booking": "https://www.opentable.com/r/roseleaf-bar-cafe",
       "maps": "https://www.google.com/maps/search/Roseleaf+Bar+Cafe+23+Sandport+Place+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "edinburgh-dean-village",
     "base": "edinburgh",
     "kind": "sight",
     "mapType": "sight",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Dean Village & Water of Leith Walkway",
     "blurb": "A former milling village on a bend of the Water of Leith, utterly silent at 7am — Well Court's clock tower, the view from Dean Bridge, and a footpath upstream that feels like leaving the city entirely.",
     "signature": "go at 7am, then walk the river path to Stockbridge",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9535, "lng": -3.217, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ed-scene-stockbridge",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9535,
+      "lng": -3.217,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.waterofleith.org.uk/walkway/",
       "maps": "https://www.google.com/maps/search/Dean+Village+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -193,19 +330,34 @@
     "base": "edinburgh",
     "kind": "plage",
     "mapType": "plage",
-    "roles": ["do"],
+    "roles": [
+      "do"
+    ],
     "tier": null,
     "name": "Portobello Beach",
     "blurb": "Edinburgh's own beach — a proper stretch of sand facing the Firth of Forth, a promenade lined with cafés, and a year-round wild-swimming crowd that treats the North Sea as a perfectly reasonable place to be.",
     "signature": "golden hour on the promenade, then the sauna",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.953, "lng": -3.114, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ed-scene-portobello",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.953,
+      "lng": -3.114,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Portobello+Beach+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -213,20 +365,35 @@
     "base": "edinburgh",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do"],
+    "roles": [
+      "do"
+    ],
     "tier": null,
     "name": "Soul Water Sauna — Portobello",
     "blurb": "A wood-fired mobile sauna right on the Portobello promenade, steps from the North Sea — the honest version of a spa day: heat, cold plunge, repeat, host stoking the fire the whole time (~CAD 24–46/session).",
     "signature": "sauna, North Sea plunge, repeat — bring a swimsuit and two towels",
     "image": null,
-    "price": { "range": "~£13–25/session (~CAD 24–46)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9545, "lng": -3.1125, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£13–25/session (~CAD 24–46)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9545,
+      "lng": -3.1125,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.soulwatersauna.com/",
       "maps": "https://www.google.com/maps/search/Soul+Water+Sauna+Portobello+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -234,20 +401,36 @@
     "base": "edinburgh",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "eat"],
+    "roles": [
+      "do",
+      "eat"
+    ],
     "tier": null,
     "name": "Stockbridge Market",
     "blurb": "Forty-plus independent stalls on Saunders Street by the Water of Leith, every Sunday all year — Lanark Blue cheese, Scottish charcuterie, East Lothian veg, hot food, and dog owners outnumbering tourists.",
     "signature": "Sunday 10am–4pm — it runs on May 23, 2027",
-    "image": null,
-    "price": { "range": "free entry", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9635, "lng": -3.21, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ed-stockbridge-mkt",
+    "price": {
+      "range": "free entry",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9635,
+      "lng": -3.21,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.stockbridgemarket.com/",
       "maps": "https://www.google.com/maps/search/Stockbridge+Market+Saunders+Street+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -255,19 +438,35 @@
     "base": "edinburgh",
     "kind": "sight",
     "mapType": "sight",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Newhaven Harbour",
     "blurb": "A small working fishing harbour with its own lighthouse and a straight sightline across the Forth to Fife — walk the pier before or after lunch at the Fishmarket hatch, boats coming and going the whole time.",
     "signature": "morning for the boats, late afternoon for the light on the Forth",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9812, "lng": -3.1948, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ed-scene-newhaven",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9812,
+      "lng": -3.1948,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Newhaven+Harbour+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -275,19 +474,34 @@
     "base": "edinburgh",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do"],
+    "roles": [
+      "do"
+    ],
     "tier": null,
     "name": "Arthur's Seat — at sunrise",
     "blurb": "The one classic sight worth setting an alarm for — an extinct volcano inside the city, empty at dawn, with the whole of Edinburgh and the Forth laid out below while the tour buses are still parked.",
     "signature": "summit 15 minutes before sunrise (~4h45 in late May) — headlamp, wind layer",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9445, "lng": -3.1615, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ed-arthurs-seat",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9445,
+      "lng": -3.1615,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Arthur's+Seat+Dunsapie+Loch+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -295,20 +509,36 @@
     "base": "edinburgh",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "drink"],
+    "roles": [
+      "do",
+      "drink"
+    ],
     "tier": null,
     "name": "Port of Leith Distillery",
     "blurb": "Scotland's first vertical distillery — nine storeys of working whisky-making on Leith's waterfront — where a 90-minute tour ends with your own miniature bottle filled and a dram on the 8th-floor bar over the docks (~CAD 55/pers).",
     "signature": "the 90-minute tour + a dram over the working port — book ahead, timed entry",
-    "image": null,
-    "price": { "range": "~£30/pers (~CAD 55)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9838, "lng": -3.166, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ed-scene-distillery",
+    "price": {
+      "range": "~£30/pers (~CAD 55)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9838,
+      "lng": -3.166,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.leithdistillery.com/",
       "maps": "https://www.google.com/maps/search/Port+of+Leith+Distillery+Whisky+Quay+Edinburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -316,41 +546,73 @@
     "base": "argyll",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "budget",
     "name": "Tregortha Guesthouse",
     "blurb": "A Victorian stone villa on the hill above Tighnabruaich, four ensuite rooms, breakfast in a conservatory looking straight down the Kyles of Bute — the honest budget pick with the £200-a-night view (~CAD 165–215/night).",
     "signature": "the conservatory breakfast over the Kyles",
     "image": null,
-    "price": { "range": "~£90–115/night (~CAD 165–215)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.9067, "lng": -5.2332, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£90–115/night (~CAD 165–215)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.9067,
+      "lng": -5.2332,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.tregortha.co.uk/",
       "maps": "https://www.google.com/maps/search/Tregortha+Guesthouse+Tighnabruaich"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
-    "id": "argyll-royal-an-lochan",
+    "id": "argyll-kames-hotel",
     "base": "argyll",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep", "eat", "drink"],
+    "roles": [
+      "sleep",
+      "eat",
+      "drink"
+    ],
     "tier": "mid",
-    "name": "The Royal An Lochan",
-    "blurb": "Eleven rooms built right on the Tighnabruaich shore, restaurant and the Shinty Bar looking straight over the Kyles of Bute — the closest thing the village has to a proper dinner-and-a-dram evening without moving the car (~CAD 205–305/night).",
-    "signature": "ask for Room 9 — the view guests request by name",
+    "name": "Kames Hotel",
+    "blurb": "A family-run hotel on the shore at Kames, a mile from Tighnabruaich — sea-view rooms over the Kyles of Bute, a proper bar-restaurant downstairs, and a full Scottish breakfast that name-checks Loch Fyne kippers (~CAD 195–275/night).",
+    "signature": "ask for a sea-view room over the Kyles",
     "image": null,
-    "price": { "range": "~£110–165/night (~CAD 205–305)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.909, "lng": -5.2345, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£114–161/night (~CAD 195–275)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.899,
+      "lng": -5.246,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
-      "official": "https://www.theroyalanlochan.co.uk/",
-      "maps": "https://www.google.com/maps/search/The+Royal+An+Lochan+Tighnabruaich"
+      "official": "https://www.kames-hotel.com/",
+      "maps": "https://www.google.com/maps/search/Kames+Hotel+Tighnabruaich"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -358,20 +620,36 @@
     "base": "argyll",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep", "do"],
+    "roles": [
+      "sleep",
+      "do"
+    ],
     "tier": "gem",
     "name": "Portavadie — Loch Fyne",
     "blurb": "A converted 1970s oil-rig yard turned architect-designed marina resort — Scotland's biggest heated outdoor infinity pool sits at the edge of Loch Fyne, so you swim looking at open water. One or two nights of assumed holiday (~CAD 295–480/night, cottage).",
     "signature": "the loch-edge infinity pool — day-spa access works even without a room",
-    "image": null,
-    "price": { "range": "~£160–260/night (~CAD 295–480)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.8735, "lng": -5.3103, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ar-portavadie",
+    "price": {
+      "range": "~£160–260/night (~CAD 295–480)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.8735,
+      "lng": -5.3103,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.portavadie.com/",
       "maps": "https://www.google.com/maps/search/Portavadie+Loch+Fyne"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -379,119 +657,211 @@
     "base": "argyll",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "Loch Fyne Oyster Bar & Deli",
     "blurb": "The shed at Cairndow that put Loch Fyne oysters on the map in 1978 — independently owned again, natives and rocks shucked to order at the counter, smoked salmon done on site (~CAD 28–65/pers).",
     "signature": "a dozen shucked to order, eaten twenty metres from the water they grew in",
-    "image": null,
-    "price": { "range": "~£15–35/pers (~CAD 28–65)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 56.2545, "lng": -4.9386, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ar-scene-lochfyne",
+    "price": {
+      "range": "~£15–35/pers (~CAD 28–65)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 56.2545,
+      "lng": -4.9386,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.lochfyne.com/oyster-bar",
       "maps": "https://www.google.com/maps/search/Loch+Fyne+Oyster+Bar+Cairndow"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "argyll-oystercatcher",
     "base": "argyll",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat", "drink"],
+    "roles": [
+      "eat",
+      "drink"
+    ],
     "tier": null,
     "name": "The Oystercatcher — Otter Ferry",
     "blurb": "A bar-restaurant literally on the Loch Fyne shore, twenty minutes up the B8000 from the base — fresh local seafood, daily specials, tables angled straight at the water, under new owners who haven't lost the plot (~CAD 28–55/pers).",
     "signature": "dinner facing the loch — closed Mondays, call ahead",
     "image": null,
-    "price": { "range": "~£15–30/mains (~CAD 28–55)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 56.0077, "lng": -5.3219, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£15–30/mains (~CAD 28–55)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 56.0077,
+      "lng": -5.3219,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.oystercatcherotterferry.com/",
       "maps": "https://www.google.com/maps/search/The+Oystercatcher+Otter+Ferry"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "argyll-skipness-seafood-cabin",
     "base": "argyll",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "Skipness Seafood Cabin",
     "blurb": "A wooden cabin, a few picnic tables, the sea and a 13th-century castle ruin as your dining room — dressed crab and whole langoustines, family-run for decades (~CAD 15–37/dish).",
     "signature": "dressed crab at a picnic table under the castle — closed Saturdays, seasonal",
     "image": null,
-    "price": { "range": "~£8–20/dish (~CAD 15–37)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.7702, "lng": -5.406, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£8–20/dish (~CAD 15–37)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.7702,
+      "lng": -5.406,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.skipnessseafoodcabin.co.uk/",
       "maps": "https://www.google.com/maps/search/Skipness+Seafood+Cabin"
     },
     "seasonal": true,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
-    "id": "argyll-starfish-tarbert",
+    "id": "argyll-red-herring",
     "base": "argyll",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
-    "name": "Starfish — Tarbert",
-    "blurb": "A proper sit-down seafood restaurant on Tarbert's working harbour — langoustines and shellfish platters sourced from the boats tied up outside the front door (~CAD 33–65/pers).",
-    "signature": "Tarbert prawns, landed by the boats you can see from your table",
+    "name": "The Red Herring — Tarbert",
+    "blurb": "Tarbert harbour's current seafood spot — opened 2024 in the old fish-bar premises and already the local default: fresh fish off the boats outside, honest prices, no ceremony (~CAD 19–37/pers).",
+    "signature": "the day-boat fish, landed a hundred metres away",
     "image": null,
-    "price": { "range": "~£18–35/mains (~CAD 33–65)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.8628, "lng": -5.4114, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£10–20/pers (~CAD 19–37)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.8663,
+      "lng": -5.4046,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
-      "official": "https://www.starfishtarbert.com/",
-      "maps": "https://www.google.com/maps/search/Starfish+Restaurant+Tarbert+Loch+Fyne"
+      "official": "https://www.theredherringtarbert.co.uk/",
+      "maps": "https://www.google.com/maps/search/The+Red+Herring+Tarbert"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "argyll-kilberry-inn",
     "base": "argyll",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "The Kilberry Inn",
-    "blurb": "A converted croft at the end of a single-track road on Kintyre's west coast — hand-dived scallops, Tarbert langoustine bisque, Gigha oysters, and a Michelin Bib Gourmand 2026. Seven tables, one seating (~CAD 74–100/pers).",
-    "signature": "the Bib Gourmand worth forty minutes of single-track — book well ahead",
+    "blurb": "A converted croft at the end of a single-track road on Kintyre's west coast — the coast's one Bib Gourmand (2026). Taken over by the Kilberry Estate and CLOSED for a full renovation at last check (July 2026), reopening date not announced — verify before building a night around it.",
+    "signature": "closed for renovation as of mid-2026, reopening TBC — check before travelling",
     "image": null,
-    "price": { "range": "~£40–55/pers (~CAD 74–100)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.8197, "lng": -5.6481, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£40–55/pers (~CAD 74–100)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.8197,
+      "lng": -5.6481,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://kilberryinn.com/",
       "maps": "https://www.google.com/maps/search/Kilberry+Inn+Argyll"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": false,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "argyll-ostel-bay",
     "base": "argyll",
     "kind": "plage",
     "mapType": "plage",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Ostel Bay (Kilbride Bay)",
     "blurb": "A crescent of sand facing due south to Arran, four miles from Kames — widely called Cowal's best beach, reached by a layby at Kilbride Farm and a short walk through the dunes. The coach tours never come.",
     "signature": "low tide widens the sand — morning light comes in gold toward Arran",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.851, "lng": -5.2596, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ar-ostel-bay",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.851,
+      "lng": -5.2596,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Kilbride+Bay+Ostel+Bay+Argyll"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -499,19 +869,34 @@
     "base": "argyll",
     "kind": "sight",
     "mapType": "sight",
-    "roles": ["see"],
+    "roles": [
+      "see"
+    ],
     "tier": null,
     "name": "Kyles of Bute Viewpoint",
     "blurb": "A signed layby on the A8003 above Tighnabruaich with the single best view on this coast — three narrow sea channels wrapping the north end of Bute — and you'll likely have it to yourself.",
     "signature": "evening light — the sun drops behind Bute and the channels go silver",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.925, "lng": -5.22, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ar-kyles-viewpoint",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.925,
+      "lng": -5.22,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Kyles+of+Bute+viewpoint+A8003"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -519,19 +904,35 @@
     "base": "argyll",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "see"],
+    "roles": [
+      "do",
+      "see"
+    ],
     "tier": null,
     "name": "The Secret Coast loop",
     "blurb": "A half-day single-track loop around the southern tip of Cowal — Millhouse, Ardlamont Point, the Ostel Bay turn-off, then back up the B8000 along Loch Fyne through Otter Ferry. Seals, oystercatchers, and not another car for long stretches.",
     "signature": "practice your passing-place waves — it's the local handshake",
-    "image": null,
-    "price": { "range": "free (fuel only)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.895, "lng": -5.27, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ar-secret-coast",
+    "price": {
+      "range": "free (fuel only)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.895,
+      "lng": -5.27,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Millhouse+Ardlamont+Argyll"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -539,40 +940,71 @@
     "base": "argyll",
     "kind": "transport",
     "mapType": "sight",
-    "roles": ["do"],
+    "roles": [
+      "do"
+    ],
     "tier": null,
     "name": "Portavadie–Tarbert ferry (CalMac)",
     "blurb": "A 25-minute crossing of Loch Fyne that turns the whole Kintyre seafood run into an easy day trip — about 11 sailings a day, turn-up-and-go, pay on board (~CAD 19–28 car + driver).",
     "signature": "the gateway to Tarbert langoustines and the Skipness crab",
     "image": null,
-    "price": { "range": "~£10–15 one-way, car + driver (~CAD 19–28)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.8735, "lng": -5.3103, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£10–15 one-way, car + driver (~CAD 19–28)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.8735,
+      "lng": -5.3103,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.calmac.co.uk/en-gb/route-information/tarbert-loch-fyne-portavadie/",
       "maps": "https://www.google.com/maps/search/Portavadie+ferry+terminal"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "argyll-bute-distillery",
     "base": "argyll",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "drink"],
+    "roles": [
+      "do",
+      "drink"
+    ],
     "tier": null,
     "name": "Isle of Bute Distillery (Oyster Gin)",
     "blurb": "Scotland's shortest ferry crossing (5 minutes, hourly, no booking) hops you onto Bute for the distillery that puts actual Loch Fyne oyster shells in the still — a briny, maritime gin built to pair with seafood (~CAD 42/tasting).",
     "signature": "Oyster Gin tasting — the seafood theme, distilled",
     "image": null,
-    "price": { "range": "tasting from £22.50 (~CAD 42)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 55.8375, "lng": -5.0533, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "tasting from £22.50 (~CAD 42)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 55.8375,
+      "lng": -5.0533,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://isleofbutedistillery.com/",
       "maps": "https://www.google.com/maps/search/Isle+of+Bute+Distillery+Rothesay"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -580,20 +1012,35 @@
     "base": "argyll",
     "kind": "sight",
     "mapType": "sight",
-    "roles": ["see"],
+    "roles": [
+      "see"
+    ],
     "tier": null,
     "name": "Inveraray Castle & Jail",
     "blurb": "History as backdrop, not the point: the Duke of Argyll's fairy-tale Georgian pile and the genuinely well-done jail museum next door — go at opening, then make the real event the oyster-bar lunch on the same road home (~CAD 28–37/site).",
     "signature": "at opening, before the coaches — busiest 11am–2pm",
-    "image": null,
-    "price": { "range": "~£15–20/site (~CAD 28–37)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 56.2308, "lng": -5.0728, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ar-inveraray",
+    "price": {
+      "range": "~£15–20/site (~CAD 28–37)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 56.2308,
+      "lng": -5.0728,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.inveraray-castle.com/",
       "maps": "https://www.google.com/maps/search/Inveraray+Castle"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -601,40 +1048,72 @@
     "base": "argyll",
     "kind": "sight",
     "mapType": "sight",
-    "roles": ["see", "eat"],
+    "roles": [
+      "see",
+      "eat"
+    ],
     "tier": null,
     "name": "Crinan Canal & Kilmartin Glen",
     "blurb": "A slower day out: yachts locking through at the Crinan sea lock, lunch at the Crinan Seafood Bar, then eight hundred prehistoric monuments within six miles of Kilmartin on the drive home — without either asking to be the main event.",
     "signature": "the Seafood Bar, not Lock 16 (groups only in season) — Kilmartin as backdrop",
-    "image": null,
-    "price": { "range": "canal free · Kilmartin Museum ~£8–10 (~CAD 15–19)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 56.0833, "lng": -5.5833, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "argyll-cover",
+    "price": {
+      "range": "canal free · Kilmartin Museum ~£8–10 (~CAD 15–19)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 56.0833,
+      "lng": -5.5833,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.crinanhotel.com/food-drink",
       "maps": "https://www.google.com/maps/search/Crinan+Canal+sea+lock"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
-    "id": "harris-tigh-na-mara",
+    "id": "harris-ceol-na-mara",
     "base": "harris",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "budget",
-    "name": "Tigh na Mara B&B",
-    "blurb": "A well-loved, no-fuss B&B two minutes' walk from the Tarbert ferry pier — good value, generous breakfast, views across the bay, and the distillery and Co-op at walking distance (~CAD 165–205/night).",
-    "signature": "book 3–6 months ahead — Harris B&Bs fill fast for early June",
+    "name": "Ceol na Mara Guest House",
+    "blurb": "Tarbert's top-rated guest house — five-star grading, a short walk from the ferry pier, run with the kind of care that keeps it at #1 of the village's B&Bs year after year (~CAD 185–230/night).",
+    "signature": "book 3–6 months ahead — Harris beds go fast for early June",
     "image": null,
-    "price": { "range": "~£90–110/night (~CAD 165–205)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.8957, "lng": -6.7998, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£100–125/night (~CAD 185–230)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.8975,
+      "lng": -6.8025,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
-      "maps": "https://www.google.com/maps/search/Tigh+na+Mara+Tarbert+Isle+of+Harris"
+      "official": "https://ceolnamara.com/",
+      "maps": "https://www.google.com/maps/search/Ceol+na+Mara+Tarbert+Isle+of+Harris"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -642,20 +1121,37 @@
     "base": "harris",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep", "eat", "drink"],
+    "roles": [
+      "sleep",
+      "eat",
+      "drink"
+    ],
     "tier": "mid",
     "name": "Hotel Hebrides",
     "blurb": "Tarbert's old harbour hotel refurbished into a 21-room boutique on the ferry pier — the Pierhouse restaurant and The Mote bar (locals, live Gaelic sessions) mean eating and drinking well without moving the car (~CAD 365+/night).",
     "signature": "the practical comfort pick — Luskentyre is 15 minutes away",
     "image": null,
-    "price": { "range": "from ~£198/night (~CAD 365+), breakfast incl.", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.8963, "lng": -6.8005, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "from ~£198/night (~CAD 365+), breakfast incl.",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.8963,
+      "lng": -6.8005,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.hotel-hebrides.com/",
       "maps": "https://www.google.com/maps/search/Hotel+Hebrides+Tarbert"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -663,20 +1159,35 @@
     "base": "harris",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "gem",
     "name": "The Rock House — Borve Lodge Estate",
     "blurb": "A single-storey stone-and-glass retreat built for two, positioned to watch the Atlantic roll straight onto Borve beach — one bay over from Luskentyre, total privacy, Taransay offshore. The 50th-birthday splurge (~CAD 425+/night, self-catering).",
     "signature": "the view that started the trip — books 6–12 months ahead; The Broch is the fallback",
     "image": null,
-    "price": { "range": "from ~£230/night, weekly lets (~CAD 425+)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.918, "lng": -6.984, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "from ~£230/night, weekly lets (~CAD 425+)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.918,
+      "lng": -6.984,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://borvelodge.com/the-rock-house/",
       "maps": "https://www.google.com/maps/search/Borve+Lodge+Estate+Isle+of+Harris"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -684,98 +1195,177 @@
     "base": "harris",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "North Harbour Bistro — Scalpay",
     "blurb": "Right on Scalpay's harbour, ten minutes past Tarbert over the bridge — the menu is whatever George Lavery's creel boats landed that morning: langoustine, scallops, crab, sometimes within the hour (~CAD 28–55/pers).",
     "signature": "today's weather, translated into shellfish — closed Sundays, call ahead",
     "image": null,
-    "price": { "range": "~£15–30/pers (~CAD 28–55)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.8686, "lng": -6.6799, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£15–30/pers (~CAD 28–55)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.8686,
+      "lng": -6.6799,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.northharbourbistro.co.uk/",
       "maps": "https://www.google.com/maps/search/North+Harbour+Bistro+Scalpay"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "harris-croft36",
     "base": "harris",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "Croft36 — Northton",
     "blurb": "An honesty-box shed, not a restaurant — Julie and Steve Olley have baked bread and cooked seafood here since 2010. Langoustine soup, lobster butteries, homemade tarts, cash or PayPal in the box (~CAD 7–22/item).",
     "signature": "the lobster buttery — arrive before noon, it sells out",
     "image": null,
-    "price": { "range": "~£4–12/item (~CAD 7–22)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.7967, "lng": -7.0658, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£4–12/item (~CAD 7–22)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.7967,
+      "lng": -7.0658,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://croft36northton.wixsite.com/home",
       "maps": "https://www.google.com/maps/search/Croft+36+Northton+Isle+of+Harris"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
-    "id": "harris-anchorage",
+    "id": "harris-brewery-taproom",
     "base": "harris",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat", "drink"],
+    "roles": [
+      "eat",
+      "drink"
+    ],
     "tier": null,
-    "name": "The Anchorage — Leverburgh",
-    "blurb": "West-facing on the working pier at Leverburgh — lobster, hand-dived scallops and creel langoustines off the catch-of-the-day blackboard, with sunset over the Sound of Harris doing the rest (~CAD 28–65/pers).",
-    "signature": "langoustines at sunset over the Sound — book ahead in summer",
+    "name": "Isle of Harris Brewery & Taproom",
+    "blurb": "The old Anchorage building on Leverburgh pier, reborn in 2024 as the island's brewery — twelve house beers, a deli-bottle-shop, and a fish-forward menu whose langoustines are named in honour of the restaurant that fed this pier for twenty years (~CAD 20–28/plate).",
+    "signature": "the 'Anchorage langoustines' with a house beer, west-facing over the Sound — closed Sundays",
     "image": null,
-    "price": { "range": "~£15–35/pers (~CAD 28–65)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.7678, "lng": -7.017, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£11–15/plate (~CAD 20–28)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.7678,
+      "lng": -7.017,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
-      "maps": "https://www.google.com/maps/search/The+Anchorage+Leverburgh"
+      "official": "https://www.isleofharrisbrewery.com/",
+      "maps": "https://www.google.com/maps/search/Isle+of+Harris+Brewery+Leverburgh"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "harris-scarista-house",
     "base": "harris",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat", "sleep"],
+    "roles": [
+      "eat",
+      "sleep"
+    ],
     "tier": null,
     "name": "Scarista House",
     "blurb": "A Georgian manse turned six-room hotel where dinner is a daily-changing, no-choice set menu — island fish, shellfish, machair lamb, home-baked everything — candlelit, facing three miles of shell-sand beach (~CAD 100–130/pers).",
     "signature": "the dining pilgrimage of the trip — open to non-residents, book well ahead",
     "image": null,
-    "price": { "range": "~£55–70/pers set menu (~CAD 100–130)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.8579, "lng": -6.9598, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£55–70/pers set menu (~CAD 100–130)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.8579,
+      "lng": -6.9598,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://scaristahouse.com/",
       "maps": "https://www.google.com/maps/search/Scarista+House+Isle+of+Harris"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "harris-luskentyre-seilebost",
     "base": "harris",
     "kind": "plage",
     "mapType": "plage",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Luskentyre & Seilebost",
     "blurb": "Three miles of white shell sand and water that runs through every shade of turquoise, backed by machair and the silhouette of Taransay — at low tide the two beaches merge into one enormous flat threaded with tidal channels.",
     "signature": "mid-to-low tide for the colour; early morning for nobody — watch the channels as the tide turns",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.8859, "lng": -6.955, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ha-scene-luskentyre",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.8859,
+      "lng": -6.955,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Luskentyre+Beach+Isle+of+Harris"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -783,19 +1373,35 @@
     "base": "harris",
     "kind": "plage",
     "mapType": "plage",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Hushinish & the B887",
     "blurb": "Twelve miles of single-track switchbacks from Tarbert, sheep contesting right of way the whole time — ending at a sheltered white beach good for swimming, looking straight at the uninhabited island of Scarp.",
     "signature": "the drive is the price and the beach is the reward — late afternoon light on the machair",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.995, "lng": -7.0941, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ha-scene-road",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.995,
+      "lng": -7.0941,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Hushinish+Beach+Isle+of+Harris"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -803,19 +1409,35 @@
     "base": "harris",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "The Golden Road (Bays of Harris)",
     "blurb": "The east coast — the exact opposite of the west's beaches: a slow, twisting 1897 road through terrain geologists compare to the moon, past inlets too small for proper harbours. Stop at Skoon in Geocrab for coffee.",
     "signature": "allow two hours to actually stop — the appeal is the rock and the crofts, not a golden hour",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.8144, "lng": -6.8527, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ha-track",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.8144,
+      "lng": -6.8527,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Golden+Road+Drinishader+Isle+of+Harris"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -823,19 +1445,34 @@
     "base": "harris",
     "kind": "sight",
     "mapType": "sight",
-    "roles": ["see"],
+    "roles": [
+      "see"
+    ],
     "tier": null,
     "name": "St Clement's Church, Rodel",
     "blurb": "A late-15th-century church at the island's southern tip holding the carved tomb of Alexander MacLeod — 'the finest late medieval sculpture in the Western Isles' — with sheep grazing between the leaning gravestones outside.",
     "signature": "morning light through the small windows onto the tomb — almost never crowded",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.7397, "lng": -6.9608, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ha-st-clements",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.7397,
+      "lng": -6.9608,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/St+Clement's+Church+Rodel"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -843,19 +1480,35 @@
     "base": "harris",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Scalpay & Eilean Glas Lighthouse",
     "blurb": "Bridge-connected Scalpay, then the waymarked (boggy) circular walk to the 1824 Stevenson lighthouse — about 13 km round trip, with a tiny coffee shop in the keepers' cluster and open water beyond. Shorter version: just the village and the bistro.",
     "signature": "start by mid-morning for the full loop — reward: coffee at the light, nothing else for miles",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.8575, "lng": -6.6428, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ha-eilean-glas",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.8575,
+      "lng": -6.6428,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Eilean+Glas+Lighthouse+Scalpay"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -863,20 +1516,36 @@
     "base": "harris",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "drink"],
+    "roles": [
+      "do",
+      "drink"
+    ],
     "tier": null,
     "name": "Isle of Harris Distillery",
     "blurb": "The 'social distillery' in Tarbert, founded to strengthen the island's economy — a 75-minute tour covering the sugar-kelp gin and The Hearach, the first single malt ever distilled, matured and bottled on Harris. Peat fire always burning in the visitor centre.",
     "signature": "tours Mon–Fri 10am/12pm/2pm, closed Sundays — book ahead",
-    "image": null,
-    "price": { "range": "tour price at booking (~£20–35 est., ~CAD 37–65)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.8951, "lng": -6.7989, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ha-scene-still",
+    "price": {
+      "range": "tour price at booking (~£20–35 est., ~CAD 37–65)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.8951,
+      "lng": -6.7989,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.harrisdistillery.com/pages/distillery-tours",
       "maps": "https://www.google.com/maps/search/Isle+of+Harris+Distillery+Tarbert"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -884,40 +1553,71 @@
     "base": "harris",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "see"],
+    "roles": [
+      "do",
+      "see"
+    ],
     "tier": null,
     "name": "St Kilda day trip or wildlife boat",
     "blurb": "The big-ticket option: a full-day open-Atlantic sail from Leverburgh to St Kilda, the abandoned edge-of-the-world archipelago (~CAD 575). Lower commitment: local wildlife trips past seal skerries and sea-eagle perches, sometimes to the puffin colonies of the Shiants (~CAD 260).",
     "signature": "weather-dependent — book weeks ahead and keep a buffer day",
-    "image": null,
-    "price": { "range": "£140–310/pers (~CAD 260–575)", "currency": "GBP", "asOf": "2026-07" },
-    "coords": { "lat": 57.7672, "lng": -7.0182, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "ha-boat-stkilda",
+    "price": {
+      "range": "£140–310/pers (~CAD 260–575)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 57.7672,
+      "lng": -7.0182,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.kildacruises.co.uk/st-kilda",
       "maps": "https://www.google.com/maps/search/Leverburgh+Pier+Isle+of+Harris"
     },
     "seasonal": true,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "assynt-polcraig",
     "base": "assynt",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "budget",
     "name": "Polcraig Guest House",
     "blurb": "Family-run B&B a short walk from Lochinver harbour — plain, spotless, unfussy rooms and a proper cooked breakfast; quietly good for decades rather than freshly styled for Instagram (~CAD 130–160/night single).",
     "signature": "the kind of place that's been good for decades — contact directly for rates",
     "image": null,
-    "price": { "range": "~£70–85/night single occ. (~CAD 130–160)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.1462, "lng": -5.2431, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£70–85/night single occ. (~CAD 130–160)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.1462,
+      "lng": -5.2431,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.polcraig.com/tariff",
       "maps": "https://www.google.com/maps/search/Polcraig+Guest+House+Lochinver"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -925,21 +1625,36 @@
     "base": "assynt",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "mid",
     "name": "Davar Guest House",
     "blurb": "Four-star B&B right on the harbour — the king room looks straight across Lochinver bay to Suilven and Cul Mor, which is most of the reason to book it. Three rooms only (~CAD 250+/night).",
     "signature": "Suilven from the bed — three rooms, books out fast for June",
     "image": null,
-    "price": { "range": "from ~£134/night (~CAD 250+)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.1471, "lng": -5.2447, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "from ~£134/night (~CAD 250+)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.1471,
+      "lng": -5.2447,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "http://www.davar-lochinver.co.uk/",
       "booking": "https://www.booking.com/hotel/gb/davar.en-gb.html",
       "maps": "https://www.google.com/maps/search/Davar+Guest+House+Lochinver"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -947,21 +1662,35 @@
     "base": "assynt",
     "kind": "hotel",
     "mapType": "hotel",
-    "roles": ["sleep"],
+    "roles": [
+      "sleep"
+    ],
     "tier": "gem",
-    "name": "Mountview Lodges — Suilven View Pod",
-    "blurb": "A hillside pod above Lochinver built around one view: Suilven, framed from the bed and from the two-person hot tub. Self-catering, sleeps two — the splurge that isn't a formal hotel, just a very good room with a mountain in it (~CAD 250–400/night equiv.).",
-    "signature": "Suilven from the hot tub — confirm short-stay rates, weeks sell first; Inver Lodge is the formal fallback",
+    "name": "Suilven View Pod (Waterloo House)",
+    "blurb": "A hillside pod above Lochinver built around one view: Suilven, framed from the bed and from the two-person hot tub. Self-catering, sleeps two — now let through Waterloo House after a change of operator; price on enquiry (~CAD 250 range historically).",
+    "signature": "the pod changed hands in 2024-25 — enquire directly (07595 727355); Inver Lodge is the formal fallback",
     "image": null,
-    "price": { "range": "~£135–215/night equiv. (~CAD 250–400)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.1495, "lng": -5.2398, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "on enquiry (historically ~£135/night, ~CAD 250)",
+      "currency": "GBP",
+      "asOf": "2026-07"
+    },
+    "coords": {
+      "lat": 58.1495,
+      "lng": -5.2398,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
-      "official": "https://mountviewlodges.com/suilven-view-pod/",
-      "booking": "https://www.booking.com/hotel/gb/mountview-pod-lochinver.en-gb.html",
-      "maps": "https://www.google.com/maps/search/Mountview+Lodges+Lochinver"
+      "official": "https://www.waterloo-house-lochinver.co.uk/pod-self-catering-accommodation-lochinver/",
+      "maps": "https://www.google.com/maps/search/Waterloo+House+Lochinver"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   },
   {
@@ -969,117 +1698,210 @@
     "base": "assynt",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "Peet's Restaurant",
     "blurb": "Harbourside in Lochinver, family-run since 2014, terrace over the water — fresh scallops, creel langoustines and the seafood platter that carries the weight of every evening you don't drive to Ullapool (~CAD 37–65/pers).",
     "signature": "the seafood platter — closed Wednesdays, reserve ahead, don't wing it",
     "image": null,
-    "price": { "range": "~£20–35/pers (~CAD 37–65)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.147, "lng": -5.244, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£20–35/pers (~CAD 37–65)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.147,
+      "lng": -5.244,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.peets.co.uk/",
       "maps": "https://www.google.com/maps/search/Peet's+Restaurant+Lochinver"
     },
-    "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "seasonal": true,
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "assynt-an-cala",
     "base": "assynt",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat", "drink"],
+    "roles": [
+      "eat",
+      "drink"
+    ],
     "tier": null,
     "name": "An Cala Café",
     "blurb": "Set in the old Fishermen's Mission by the Lochinver harbour — breakfast, seafood lunches, afternoon tea and home baking; the reliable daytime anchor in a village that runs on one dinner restaurant (~CAD 15–37/pers).",
     "signature": "the harbour breakfast — evening meals some weeks only, call ahead",
     "image": null,
-    "price": { "range": "~£8–20/pers (~CAD 15–37)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.1465, "lng": -5.2445, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£8–20/pers (~CAD 15–37)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.1465,
+      "lng": -5.2445,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/An+Cala+Cafe+Lochinver"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "assynt-lochinver-larder",
     "base": "assynt",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "Lochinver Larder & Pie Shop",
     "blurb": "Forty years of independent pie-making on Main Street — the Venison & Cranberry took Scotland's Best Meat Pie at the British Pie Awards 2022. Deli counter for pies-to-go, café tables for sit-in (~CAD 11–22/pers).",
     "signature": "the venison & cranberry pie — Tue–Sat 10–4, plan the pie-run",
     "image": null,
-    "price": { "range": "~£6–12/pers (~CAD 11–22)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.1469, "lng": -5.2434, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£6–12/pers (~CAD 11–22)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.1469,
+      "lng": -5.2434,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.lochinverlarder.com/",
       "maps": "https://www.google.com/maps/search/Lochinver+Larder"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "assynt-seafood-shack",
     "base": "assynt",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat"],
+    "roles": [
+      "eat"
+    ],
     "tier": null,
     "name": "The Seafood Shack — Ullapool",
     "blurb": "Ullapool's cult seafood counter — ten years as a trailer, upgraded April 2026 to a permanent timber servery on the same spot. Still takeaway, still no bookings, still built entirely around what the boats landed (~CAD 22–46/pers).",
     "signature": "langoustines in hot garlic butter, eaten on the harbour wall — no indoor seating, that's the point",
-    "image": null,
-    "price": { "range": "~£12–25/pers (~CAD 22–46)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 57.8949, "lng": -5.1622, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-scene-shack",
+    "price": {
+      "range": "~£12–25/pers (~CAD 22–46)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 57.8949,
+      "lng": -5.1622,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/The+Seafood+Shack+Ullapool"
     },
     "seasonal": true,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "assynt-am-fuaran",
     "base": "assynt",
     "kind": "resto",
     "mapType": "resto",
-    "roles": ["eat", "drink"],
+    "roles": [
+      "eat",
+      "drink"
+    ],
     "tier": null,
     "name": "Am Fuaran Bar — Altandhu",
     "blurb": "A real coastal local at the far end of the Coigach peninsula, beer garden looking straight at the Summer Isles — creel langoustines gathered by a relative of the owners, in lemon-ginger or garlic butter (~CAD 28–65/pers).",
     "signature": "langoustines with the Summer Isles for a backdrop — pair with the Stac Pollaidh day",
     "image": null,
-    "price": { "range": "~£15–35/pers (~CAD 28–65)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.0562, "lng": -5.4149, "source": "research", "verifiedOn": "2026-07-14" },
+    "price": {
+      "range": "~£15–35/pers (~CAD 28–65)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.0562,
+      "lng": -5.4149,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://amfuaran.co.uk/",
       "maps": "https://www.google.com/maps/search/Am+Fuaran+Bar+Altandhu"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" }
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    }
   },
   {
     "id": "assynt-achmelvich",
     "base": "assynt",
     "kind": "plage",
     "mapType": "plage",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Achmelvich Bay",
     "blurb": "Caribbean-white sand ten minutes from Lochinver, water that goes genuinely turquoise on a calm day, gneiss headlands framing the bay and Suilven's profile behind — the most photographed water in Assynt for good reason.",
     "signature": "before 9:30am or after 6pm — the convoys own 11-to-4, the light owns the rest",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.1495, "lng": -5.3067, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-scene-achmelvich",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.1495,
+      "lng": -5.3067,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Achmelvich+Beach"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -1087,19 +1909,35 @@
     "base": "assynt",
     "kind": "plage",
     "mapType": "plage",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Clachtoll Beach & Broch",
     "blurb": "Gently sloping white sand plus a genuine Iron Age broch, excavated 2017–2023 after a fiery collapse two thousand years ago preserved it almost intact — an easy flat walk from the car park, otters and dolphins offshore.",
     "signature": "the broch stonework in early-evening light — quieter than Achmelvich all day",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.1908, "lng": -5.2814, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-clachtoll",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.1908,
+      "lng": -5.2814,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Clachtoll+Beach"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -1107,19 +1945,35 @@
     "base": "assynt",
     "kind": "plage",
     "mapType": "plage",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "Clashnessie Bay & Falls",
     "blurb": "One of the few Assynt beaches facing north, with a fraction of the visitors — and a 20-minute walk from the car park to a 15-metre waterfall dropping into a boulder plunge pool. The real hidden-beach pick.",
     "signature": "the falls almost nobody walks to — best after rain",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.2456, "lng": -5.268, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-clashnessie",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.2456,
+      "lng": -5.268,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Clashnessie+Bay"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -1127,19 +1981,35 @@
     "base": "assynt",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["see", "do"],
+    "roles": [
+      "see",
+      "do"
+    ],
     "tier": null,
     "name": "The Drumbeg road (B869)",
     "blurb": "Twenty-two miles of single-track from Lochinver to Kylesku via Drumbeg and Nedd — blind summits, hairpins, no barriers, sea on one side and Assynt's bare mountains on the other. Rated harder than Applecross, which is why the motorhomes skip it.",
     "signature": "morning, compact car, reverse into passing places without complaint — that's the game",
-    "image": null,
-    "price": { "range": "free (fuel only)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.2394, "lng": -5.2011, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-scene-assynt-loch",
+    "price": {
+      "range": "free (fuel only)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.2394,
+      "lng": -5.2011,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Drumbeg+B869+Assynt"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -1147,19 +2017,34 @@
     "base": "assynt",
     "kind": "sight",
     "mapType": "sight",
-    "roles": ["see"],
+    "roles": [
+      "see"
+    ],
     "tier": null,
     "name": "Wailing Widow Falls",
     "blurb": "A 30-metre cascade off Loch na Gainmhich, three hundred yards from a roadside car park between Loch Assynt and the Kylesku Bridge — one of the easiest real-waterfall payoffs in Sutherland.",
     "signature": "ten minutes return — the natural stop at the north end of the Drumbeg loop",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.265, "lng": -5.04, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-wailing-widow",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.265,
+      "lng": -5.04,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "maps": "https://www.google.com/maps/search/Wailing+Widow+Falls+Assynt"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -1167,20 +2052,36 @@
     "base": "assynt",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "see"],
+    "roles": [
+      "do",
+      "see"
+    ],
     "tier": null,
     "name": "Stac Pollaidh",
     "blurb": "Coigach's little mountain — a short, punchy two-to-three-hour circuit to a saddle with half of Assynt to the north and the Summer Isles to the south. The east summit needs no scrambling; leave the true top to the scramblers.",
     "signature": "by 9am or after 4pm (small car park) — the low sun over the Summer Isles is the better show",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.04, "lng": -5.2, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-stac-pollaidh",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.04,
+      "lng": -5.2,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.walkhighlands.co.uk/ullapool/stacpollaidh.shtml",
       "maps": "https://www.google.com/maps/search/Stac+Pollaidh+car+park"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -1188,20 +2089,36 @@
     "base": "assynt",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "see"],
+    "roles": [
+      "do",
+      "see"
+    ],
     "tier": null,
     "name": "Bone Caves & Ardvreck Castle",
     "blurb": "A marked walk to four limestone caves where lynx, reindeer and polar-bear remains were dug out of the Ice Age — bring a torch. Ardvreck's ruined tower on Loch Assynt is the five-minute photo stop down the road, with Quinag doing the real work behind it.",
     "signature": "history as backdrop, exactly where it belongs — early or late for an empty foreground",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.118, "lng": -4.982, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-ardvreck",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.118,
+      "lng": -4.982,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.walkhighlands.co.uk/ullapool/bonecaves.shtml",
       "maps": "https://www.google.com/maps/search/Bone+Caves+Inchnadamph"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -1209,20 +2126,36 @@
     "base": "assynt",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "see"],
+    "roles": [
+      "do",
+      "see"
+    ],
     "tier": null,
     "name": "Falls of Kirkaig & the Suilven view",
-    "blurb": "From the Inverkirkaig car park (beside Achins Bookshop), a wooded two-mile path to a 20-metre waterfall — the short, honest version of Suilven without committing to the mountain. Push one more kilometre to Fionn Loch for the classic sugar-loaf reveal.",
+    "blurb": "From the Inverkirkaig car park, a wooded two-mile path to a 20-metre waterfall — the short, honest version of Suilven without committing to the mountain. Push one more kilometre to Fionn Loch for the classic sugar-loaf reveal.",
     "signature": "morning light for the Fionn Loch reveal — steep final drop to the falls, good shoes",
-    "image": null,
-    "price": { "range": "free", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.1372, "lng": -5.2789, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-scene-suilven",
+    "price": {
+      "range": "free",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.1372,
+      "lng": -5.2789,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.walkhighlands.co.uk/ullapool/falls-of-kirkaig.shtml",
       "maps": "https://www.google.com/maps/search/Falls+of+Kirkaig+car+park"
     },
     "seasonal": false,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch"
+    },
     "onMap": true
   },
   {
@@ -1230,20 +2163,36 @@
     "base": "assynt",
     "kind": "activity",
     "mapType": "sight",
-    "roles": ["do", "see"],
+    "roles": [
+      "do",
+      "see"
+    ],
     "tier": null,
     "name": "Summer Isles boat trip",
     "blurb": "Two operators, two piers: the twelve-passenger 'Isabella' from Achiltibuie (three sailings a day, Mon–Sat) or the longer wildlife run from Ullapool harbour — seals on the skerries, dolphins, porpoises, the occasional eagle (~CAD 83–88/pers).",
     "signature": "book ahead — twelve seats sell out; pair with Stac Pollaidh and an Am Fuaran dinner",
-    "image": null,
-    "price": { "range": "~£45–47.50/pers (~CAD 83–88)", "currency": "GBP", "asOf": "2026" },
-    "coords": { "lat": 58.0553, "lng": -5.3298, "source": "research", "verifiedOn": "2026-07-14" },
+    "image": "as-boat",
+    "price": {
+      "range": "~£45–47.50/pers (~CAD 83–88)",
+      "currency": "GBP",
+      "asOf": "2026"
+    },
+    "coords": {
+      "lat": 58.0553,
+      "lng": -5.3298,
+      "source": "research",
+      "verifiedOn": "2026-07-14"
+    },
     "links": {
       "official": "https://www.summerisles-seatours.co.uk/",
       "maps": "https://www.google.com/maps/search/Badentarbet+Pier+Achiltibuie"
     },
     "seasonal": true,
-    "status": { "open": true, "lastChecked": "2026-07-14", "method": "websearch" },
+    "status": {
+      "open": true,
+      "lastChecked": "2026-07-14",
+      "method": "websearch-agent"
+    },
     "onMap": true
   }
 ]

@@ -107,7 +107,7 @@
       "image": "ar-scene-dinner",
       "alt": "Evening dinner view over a still Scottish loch, the water flat as oil",
       "intro": "Twenty minutes up the B8000 — the kind of shore road where the loch is your passenger — the Oystercatcher sits at Otter Ferry with its tables aimed straight across Loch Fyne. New owners, same plot: fresh local seafood, daily specials, and sunset doing the decorating. This is the base's default proper dinner, close enough to feel local by night three.",
-      "reco": "The Oystercatcher, Otter Ferry — open Tue–Sun, food till 8pm, closed Mondays; call ahead since the handover. Order the daily catch and eat it slowly. For the one big-occasion dinner of the base, book the Kilberry Inn instead — Bib Gourmand 2026, seven tables, one seating, forty minutes of single-track past Tarbert and worth every passing place. ~CAD 28–55 (Oystercatcher) / ~CAD 74–100 (Kilberry).",
+      "reco": "The Oystercatcher, Otter Ferry — open Tue–Sun, food till 8pm, closed Mondays; call ahead since the handover. Order the daily catch and eat it slowly. The coast's one Bib Gourmand, the Kilberry Inn, was closed for a full renovation at last check (mid-2026, reopening TBC) — if it has reopened by your dates, it's worth every one of the forty single-track minutes; verify first. ~CAD 28–55 (Oystercatcher).",
       "quote": "The loch is your passenger the whole way to dinner.",
       "poiRef": "argyll-oystercatcher",
       "via": null,
@@ -130,10 +130,10 @@
       "title": "Across the loch — langoustines at Tarbert, crab under a castle",
       "image": "ar-scene-kintyre",
       "alt": "A small blue fishing boat tied up at its moorings on the west coast",
-      "intro": "The Portavadie–Tarbert ferry takes twenty-five minutes, runs about eleven times a day, and asks nothing of you — turn up, pay on board, watch Loch Fyne slide past. On the far side: Tarbert's working harbour, where the langoustines locals call Loch Fyne prawns come off the boats you can see from Starfish's tables. Twenty minutes further south, the Skipness Seafood Cabin serves dressed crab at picnic tables beside a 13th-century castle ruin — the definitive Argyll seafood-shack afternoon, and the Hairy Bikers' old stomping ground on this coast.",
-      "reco": "Ferry over mid-morning, langoustines at Starfish (Tarbert harbour) or crab at Skipness (Sun–Fri, closed Saturdays, seasonal — confirm May opening), kippers from the Skipness Smokehouse for tomorrow's breakfast, last ferry back. Car + driver ~CAD 19–28 each way, no booking needed.",
+      "intro": "The Portavadie–Tarbert ferry takes twenty-five minutes, runs about eleven times a day, and asks nothing of you — turn up, pay on board, watch Loch Fyne slide past. On the far side: Tarbert's working harbour, where the langoustines locals call Loch Fyne prawns come off the boats by the pier. The Red Herring — opened in 2024 in the old fish-bar premises — is the harbour's current seafood spot, honest prices and no ceremony. Twenty minutes further south, the Skipness Seafood Cabin serves dressed crab at picnic tables beside a 13th-century castle ruin — the definitive Argyll seafood-shack afternoon, and the Hairy Bikers' old stomping ground on this coast.",
+      "reco": "Ferry over mid-morning, fish at The Red Herring on Tarbert harbour or crab at Skipness (open late May–Sept, closed Saturdays), kippers from the Skipness Smokehouse for tomorrow's breakfast, last ferry back. Car + driver ~CAD 19–28 each way, no booking needed.",
       "quote": "Langoustines with the boats that caught them tied up outside the window.",
-      "poiRef": "argyll-starfish-tarbert",
+      "poiRef": "argyll-red-herring",
       "via": {
         "label": "📺 The Hairy Bikers — Argyll & Bute (BBC)",
         "url": "https://www.hairybikers.com/"
@@ -237,14 +237,14 @@
         "kinds": [
           "hotel"
         ],
-        "footer": "The sensible split: three or four nights at Tregortha (the budget view) or the Royal An Lochan (Room 9, the shore), then one or two at Portavadie as the mid-stay splurge — it's a 15-minute drive, not a relocation, and it doubles as your ferry slip for the Kintyre day. All prices are 2026 anchors; confirm live rates before booking."
+        "footer": "The sensible split: three or four nights at Tregortha (the budget view) or the Kames Hotel (sea-view rooms over the Kyles, a mile from the village), then one or two at Portavadie as the mid-stay splurge — it's a 15-minute drive, not a relocation, and it doubles as your ferry slip for the Kintyre day. All prices are 2026 anchors; confirm live rates before booking."
       },
       {
         "label": "At the table",
         "kinds": [
           "resto"
         ],
-        "footer": "The pattern: oyster bar on arrival day (it's on the road in), the Oystercatcher as the default dinner (closed Mondays), the Kintyre ferry day for Starfish langoustines and Skipness crab (cabin closed Saturdays), and one booked-ahead night at the Kilberry Inn — the Bib Gourmand at the end of the single-track. Small places change hours often out here; a phone call beats a surprise."
+        "footer": "The pattern: oyster bar on arrival day (it's on the road in), the Oystercatcher as the default dinner (closed Mondays), the Kintyre ferry day for Red Herring fish and Skipness crab (cabin closed Saturdays). The Kilberry Inn — the Bib Gourmand at the end of the single-track — was mid-renovation at last check with no reopening date: call before hoping. Small places change hours often out here; a phone call beats a surprise."
       },
       {
         "label": "See & do",

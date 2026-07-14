@@ -12,8 +12,8 @@ pullquote: "Everyone warns you about Luskentyre, and everyone is still not ready
 cover: "harris-cover"
 mapLabel: "Map — Harris, Scalpay & the Sound"
 infoBlocks:
-  - { label: "Where to sleep", type: "poi-list", items: ["harris-tigh-na-mara", "harris-hotel-hebrides", "harris-rock-house"] }
-  - { label: "At the table", type: "poi-list", items: ["harris-north-harbour-bistro", "harris-croft36", "harris-anchorage", "harris-scarista-house"] }
+  - { label: "Where to sleep", type: "poi-list", items: ["harris-ceol-na-mara", "harris-hotel-hebrides", "harris-rock-house"] }
+  - { label: "At the table", type: "poi-list", items: ["harris-north-harbour-bistro", "harris-croft36", "harris-brewery-taproom", "harris-scarista-house"] }
   - { label: "See & do", type: "poi-list", items: ["harris-luskentyre-seilebost", "harris-hushinish", "harris-golden-road", "harris-st-clements-rodel", "harris-scalpay-eilean-glas", "harris-distillery", "harris-boat-trip"] }
   - label: "Book this one first"
     type: "prose"
