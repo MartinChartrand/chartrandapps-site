@@ -1,0 +1,157 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "June 5 · THE LANDING",
+      "body": "The Stornoway boat puts you down in Ullapool mid-afternoon — a planned fishing town from 1788, one long white terrace against Loch Broom, creels stacked on the pier. The temptation is to stay. Resist it for now: Lochinver is fifty minutes north, the light will hold past ten, and Assynt's lone mountains are already standing on the horizon like a geology lesson nobody asked for. You'll be back for the Shack.",
+      "targets": [],
+      "thumb": "assynt-cover",
+      "thumbAlt": "Suilven rising alone over the Assynt moorland near Lochinver, northwest Highlands",
+      "poiRef": "assynt-seafood-shack",
+      "sources": [
+        { "creator": "CalMac — Stornoway–Ullapool", "url": "https://www.calmac.co.uk/en-gb/route-information/stornoway-ullapool/", "date": "2026-07" }
+      ],
+      "focusPoi": "assynt-peets",
+      "zoom": 9
+    },
+    {
+      "kicker": "Lochinver · THE WORKING THEORY",
+      "body": "Lochinver is the working village of Assynt — a SPAR, a post office, the only petrol pump for miles, one proper dinner restaurant and a pie shop with a national award. Every headline sight sits inside a 25-minute radius: three turquoise beaches, the Suilven trailheads, the start of the wildest single-track in the north. Five nights run on a simple theory: eat well first, sightsee around it.",
+      "targets": [],
+      "thumb": "assynt-cover",
+      "thumbAlt": "Suilven rising alone over the Assynt moorland near Lochinver, northwest Highlands",
+      "poiRef": "assynt-lochinver-larder",
+      "sources": [
+        { "creator": "Lochinver Larder (official)", "url": "https://www.lochinverlarder.com/", "date": "2026-07" }
+      ],
+      "boundsPois": ["assynt-achmelvich", "assynt-peets", "assynt-stac-pollaidh"]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-seafood-shack",
+      "kicker": "Ullapool · THE COUNTER",
+      "title": "The Seafood Shack — a servery, not a restaurant, and better for it",
+      "image": "as-scene-shack",
+      "alt": "Lobster and crab creels stacked on the harbour at Ullapool",
+      "intro": "Ten years in a trailer earned the Seafood Shack a cult that most starred kitchens would trade for, and the permanent timber servery that replaced the van in April 2026 changed nothing that mattered: no bookings, no indoor seating, a blackboard that rewrites itself around what the boats landed. Langoustines in hot garlic butter, half lobster in herb butter, a chowder that changes with the catch — handed across a counter, eaten on the harbour wall, thirty feet from the boats responsible.",
+      "reco": "West Argyle Street, Ullapool — roughly noon to 6pm in season, some sources say closed Sun/Mon, check the week you're there. Order the langoustines and whatever the chowder is that day, walk it to the harbour wall. Pair the run south with the Ullapool Smokehouse (Iain Boyd's oak-and-whisky cold smoke — take a vacuum-packed side home) and a proper dinner in town before driving back north. ~CAD 22–46.",
+      "quote": "Food handed across a counter while the boats responsible are still tied up in view.",
+      "poiRef": "assynt-seafood-shack",
+      "via": null,
+      "sources": [
+        { "creator": "Ross-shire Journal — Seafood Shack permanent building", "url": "https://www.ross-shirejournal.co.uk/news/ullapool-seafood-shack-shares-plans-for-permanent-building-424447/", "date": "2026-04" },
+        { "creator": "Press & Journal — Ullapool Smokehouse (Iain Boyd)", "url": "https://www.pressandjournal.co.uk/fp/lifestyle/food-and-drink/6385707/ullapool-smokehouse-iain-boyd/", "date": "2024-01" }
+      ]
+    },
+    {
+      "id": "scene-beaches",
+      "kicker": "The coast road · THE WATER",
+      "title": "Achmelvich, Clachtoll, Clashnessie — the turquoise the convoys miss",
+      "image": "as-scene-achmelvich",
+      "alt": "Clear turquoise water meeting pale sand at Achmelvich bay",
+      "intro": "Achmelvich is ten minutes from the village and looks like the Hebrides came back for an encore: white gneiss sand, water that goes properly turquoise on a calm day, Suilven presiding behind. Clachtoll adds an Iron Age broch that burned down two thousand years ago and got excavated almost intact. Clashnessie faces north, gets a fraction of the visitors, and hides a fifteen-metre waterfall a twenty-minute walk from the sand. The NC500 convoys sweep through between eleven and four; the trick is to simply not be there then.",
+      "reco": "Before 9:30am or after 6pm — in June the light holds until nearly eleven, so a 9pm beach is a real plan, not a compromise. Achmelvich for the water, Clachtoll for the broch in low light, Clashnessie for the falls after rain. All free. Find Hermit's Castle in the rocks at Achmelvich's edge — Europe's smallest castle, one architect, 1950s, no explanation offered.",
+      "quote": "Water that photographs turquoise and isn't lying about it.",
+      "poiRef": "assynt-achmelvich",
+      "via": null,
+      "sources": [
+        { "creator": "Walkhighlands — Clashnessie Bay", "url": "https://www.walkhighlands.co.uk/ullapool/clashnessie-beach.shtml", "date": "2026-07" },
+        { "creator": "History Hit — Clachtoll Broch excavation", "url": "https://www.historyhit.com/the-archaeological-excavation-of-clachtoll-broch/", "date": "2024-01" }
+      ]
+    },
+    {
+      "id": "scene-suilven",
+      "kicker": "Inverkirkaig · THE MOUNTAIN",
+      "title": "Suilven — no foothills, no warning",
+      "image": "as-scene-suilven",
+      "alt": "Suilven's sugar-loaf summit rising alone above the Assynt moorland",
+      "intro": "Suilven is not the region's tallest mountain, just its most improbable — a sugar-loaf of sandstone rising alone off the moor, no range around it, no build-up. You don't need to climb it to have it. From the Inverkirkaig car park, a wooded path runs two miles to the Falls of Kirkaig; one more kilometre puts you at Fionn Loch, where the mountain does its full reveal across the water. At the trailhead sits Achins, one of the most remote bookshops in Britain — soup, home baking, serious Scottish shelves, and nothing else around for miles.",
+      "reco": "Morning light for the Fionn Loch reveal. The final descent to the falls viewpoint is steep and rocky — good shoes, take it slow. Bookshop first or after, soup either way. Free; half a day total, all of it on foot from a car park ten minutes out of Lochinver.",
+      "quote": "Suilven appears at the top of the moor all at once — no foothills to warn you.",
+      "poiRef": "assynt-falls-of-kirkaig",
+      "via": null,
+      "sources": [
+        { "creator": "Walkhighlands — Falls of Kirkaig", "url": "https://www.walkhighlands.co.uk/ullapool/falls-of-kirkaig.shtml", "date": "2026-07" },
+        { "creator": "Discover Assynt — Achins Bookshop", "url": "https://www.discoverassynt.co.uk/achins-bookshop", "date": "2026-07" }
+      ]
+    },
+    {
+      "id": "scene-drumbeg",
+      "kicker": "The B869 · THE ROAD",
+      "title": "The Drumbeg road — twenty-two miles the motorhomes refuse",
+      "image": "as-scene-assynt-loch",
+      "alt": "A lone figure sitting on rock above Loch Assynt, mountains in cloud behind",
+      "intro": "The B869 from Lochinver to Kylesku is the anti-NC500: twenty-two miles of genuine single-track over blind summits and around barrier-less bends, rated harder than the famous Applecross pass — which is precisely why the convoys route around it and you shouldn't. Past Drumbeg village there's a bend where the road crests and the whole northern seaboard opens at once: skerries, sea lochs, Quinag's ridgeline. No sign, no car park. You just come around the corner and the view happens.",
+      "reco": "Morning, compact car, no schedule. Reversing into a passing place is normal etiquette, not a failure. At the Kylesku end, Wailing Widow Falls is a ten-minute return stroll from the roadside — thirty metres of water off Loch na Gainmhich, best after rain. Loop home past Ardvreck Castle on Loch Assynt for the five-minute photo stop, mountains doing the real work behind it.",
+      "quote": "Rated harder than Applecross — which is exactly why the convoys stay away.",
+      "poiRef": "assynt-drumbeg-loop",
+      "via": null,
+      "sources": [
+        { "creator": "Dangerous Roads — B869 Drumbeg", "url": "https://www.dangerousroads.org/europe/scotland/3860-b869-drumbeg-road.html", "date": "2026-07" },
+        { "creator": "Live Breathe Scotland — Wailing Widow Falls", "url": "https://www.livebreathescotland.com/wailing-widow-falls-assynt/", "date": "2026-07" }
+      ]
+    },
+    {
+      "id": "scene-coigach",
+      "kicker": "Coigach · THE LAST FULL DAY",
+      "title": "Stac Pollaidh, the Summer Isles, and langoustines at the end of the road",
+      "image": "as-scene-coigach",
+      "alt": "Golden sunset over a Highland sea loch at Clachtoll",
+      "intro": "Coigach is Assynt's quieter sibling, out on its own single-track peninsula. Stac Pollaidh — the 'little mountain' — gives the best view-per-hour ratio in the northwest: two to three hours up and around to a saddle with half of Assynt on one side and the Summer Isles scattered on the other. Down at Badentarbet Pier, the twelve-seat 'Isabella' runs out among those same islands — seals on the skerries, the odd eagle. And at the very end of the road, Am Fuaran's beer garden faces the islands you just sailed, serving langoustines a relative of the owners pulled from a creel that morning.",
+      "reco": "The full Coigach day: Stac Pollaidh by 9am (small car park), boat from Achiltibuie early afternoon (book ahead — twelve seats), dinner at Am Fuaran (~6–8:30pm) before the single-track home in the long light. Boat ~CAD 83; langoustines ~CAD 28–65. Fill the tank in Lochinver first — Coigach has no fuel.",
+      "quote": "Half of Assynt on one side, every one of the Summer Isles on the other.",
+      "poiRef": "assynt-stac-pollaidh",
+      "via": null,
+      "sources": [
+        { "creator": "Walkhighlands — Stac Pollaidh", "url": "https://www.walkhighlands.co.uk/ullapool/stacpollaidh.shtml", "date": "2026-07" },
+        { "creator": "Summer Isles Sea Tours (official)", "url": "https://www.summerisles-seatours.co.uk/", "date": "2026-07" },
+        { "creator": "Am Fuaran Bar (official)", "url": "https://amfuaran.co.uk/", "date": "2026-07" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "The rest of the chapter — and the way home",
+      "body": "Also in these five days: the venison-and-cranberry pie that won Scotland's Best (Tue–Sat, closes at four — plan the pie-run), a duvet night of Larder pies and Spar wine with no driving after dark, the Bone Caves with a torch, and the eleven-o'clock gloaming that hands the beaches back to you every evening. Then June 10: Lochinver to Inverness is under two hours — with an afternoon flight, stop at Glen Ord in Muir of Ord for the last dram of the trip; with a morning one, skip it and just go. The field notes hold the numbers.",
+      "boundsPois": ["assynt-lochinver-larder", "assynt-bone-caves-ardvreck", "assynt-clashnessie", "assynt-achmelvich"],
+      "targets": ["assynt-lochinver-larder"],
+      "thumb": "as-croft",
+      "thumbAlt": "A small thatched croft house by the water at Little Assynt",
+      "pills": [
+        { "poiRef": "assynt-lochinver-larder", "link": "official", "label": "Lochinver Larder — the pie" },
+        { "label": "The food notebook", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Lochinver Larder — British Pie Awards", "url": "https://www.lochinverlarder.com/stories/the-lochinver-pie", "date": "2026-07" },
+        { "creator": "Glen Ord Distillery visitor centre", "url": "https://www.distillerytours.scot/distilleries/glen-ord-distillery-visitor-centre", "date": "2026-07" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Where to sleep",
+        "kinds": ["hotel"],
+        "footer": "Polcraig for the quietly-good budget bed, Davar for Suilven from the king room (three rooms — move fast), and the Suilven View Pod for the birthday-adjacent splurge: the mountain framed from a hot tub. Pods often sell by the week — confirm a 5-night rate, and keep Inver Lodge (5-star, formal) as the fallback."
+      },
+      {
+        "label": "At the table",
+        "kinds": ["resto"],
+        "footer": "Peet's is the village dinner (closed Wednesdays, book), An Cala the daytime anchor, the Larder the lunch legend. Two evenings pair with the day's outing: Seafood Shack + Ullapool for one, Am Fuaran after the Coigach day for the other. One night stays in: pies, Spar wine, zero single-track after dark."
+      },
+      {
+        "label": "See & do",
+        "kinds": ["sight", "plage", "activity"],
+        "footer": "Beaches before 9:30 or after 6 — June light holds to eleven. Drumbeg in the morning with a full tank (Lochinver Stores is the only pump). Stac Pollaidh early, boat at midday, langoustines after. Suilven the honest way: falls, bookshop, Fionn Loch reveal. Bring Smidge — early June midges are present but not yet in charge."
+      }
+    ],
+    "dishesTitle": "The food notebook",
+    "gemsTitle": "Local gems — Assynt"
+  },
+  "outro": {
+    "kicker": "Scotland, done",
+    "body": "Scallops off a counter in Ullapool, a pie forty years in the making, turquoise coves with nobody on them, a mountain with no foothills, and light that wouldn't quit before eleven. The {count} addresses of this final chapter live in the field notes with hours, booking flags and the fuel warnings that matter out here. Three weeks, four bases, two ferries, one transit night on Skye — and a fiftieth birthday spent standing in water that changes colour. Drive to Inverness, one last dram at Glen Ord if the flight allows, and home. The notebook keeps.",
+    "nextLabel": "Back to the overview →",
+    "nextHref": "/scotland/"
+  }
+}

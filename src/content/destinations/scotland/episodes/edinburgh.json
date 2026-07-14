@@ -1,0 +1,156 @@
+{
+  "coldOpen": [
+    {
+      "kicker": "May 20 · THE ARRIVAL",
+      "body": "The tram from the airport takes 40 minutes and drops you at The Shore — no rental car, no left-side driving on day one, no decisions bigger than which side of the water to walk. Leith is Edinburgh's old port, rough for decades, now the city's best eating neighbourhood without having gentrified the working docks away. Check in, drop the bags, and follow the smell of oak smoke to the first plate of hot-smoked salmon. The Royal Mile can wait. It'll still be there, and you'll be gladder you started here.",
+      "targets": [],
+      "thumb": "edinburgh-cover",
+      "thumbAlt": "The Shore in Leith — old stone buildings and moored boats along the Water of Leith, Edinburgh's historic port",
+      "poiRef": "edinburgh-fishers-leith",
+      "sources": [
+        { "creator": "Edinburgh Trams (official)", "url": "https://edinburghtrams.com/", "date": "2026-07" },
+        { "creator": "Fishers Leith (official)", "url": "https://www.fishersrestaurants.co.uk/fishers-leith/", "date": "2026-07" }
+      ],
+      "focusPoi": "edinburgh-fishers-leith",
+      "zoom": 14
+    },
+    {
+      "kicker": "Leith · WHY HERE",
+      "body": "Late May is the window Edinburgh keeps for itself: the Fringe is ten weeks away, daylight runs past 9:30pm, and a table at the good places is a phone call, not a campaign. Five nights, no car — everything in this chapter is a walk, a bus, or a short tram ride. The pattern is simple: a slow morning by the water, a proper lunch, one thing per day, and dinner where the fish came off a boat you can see.",
+      "targets": [],
+      "thumb": "edinburgh-cover",
+      "thumbAlt": "The Shore in Leith — old stone buildings and moored boats along the Water of Leith, Edinburgh's historic port",
+      "poiRef": "edinburgh-dulse-leith",
+      "sources": [
+        { "creator": "Edinburgh Festival Fringe (official dates)", "url": "https://www.edfringe.com/", "date": "2026-07" }
+      ],
+      "boundsPois": ["edinburgh-fishers-leith", "edinburgh-stockbridge-market", "edinburgh-portobello-beach"]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-dulse",
+      "kicker": "Constitution Street · THE TABLE",
+      "title": "Dulse — what the boats brought in that morning",
+      "image": "ed-scene-dulse",
+      "alt": "A plate of fresh oysters on ice with lemon wedges",
+      "intro": "Dulse doesn't print a fixed menu because it can't: the kitchen builds the day around what Scottish day-boats actually landed. It earned an AA Rosette doing exactly that on Constitution Street, a room small enough that the chef can see every table. The seafood boil — mussels, langoustine, crab, hands-on, no cutlery dignity — is the thing to plan a night around.",
+      "reco": "Dulse Leith, 102 Constitution Street. Open Wednesday to Sunday; book by phone, the room is small. Order the seafood boil (£78 for two — or ask how they handle it solo; they do), a glass of something white and cold, and whatever the day-boat special is. Come hungry, leave slowly. ~CAD 72–100 per person.",
+      "quote": "The menu changes because the sea does. That's the whole pitch, and it's enough.",
+      "poiRef": "edinburgh-dulse-leith",
+      "via": null,
+      "sources": [
+        { "creator": "Dulse Leith (official)", "url": "https://www.dulse.co.uk/dulseleith", "date": "2026-07" },
+        { "creator": "It's Pippa — Edinburgh guide (Substack)", "url": "https://itspippa.substack.com/p/your-ultimate-guide-to-edinburgh", "date": "2025-01" }
+      ]
+    },
+    {
+      "id": "scene-newhaven",
+      "kicker": "Newhaven · THE HARBOUR WALL",
+      "title": "The Fishmarket — fish and chips with your feet over the water",
+      "image": "ed-scene-newhaven",
+      "alt": "A fishing boat in the water near a small lighthouse",
+      "intro": "Newhaven is a fishing village the city grew around and forgot to ruin: a stone harbour, a stub of a lighthouse, and a Victorian fishmonger's counter that now fries fish to order. Phil Rosenthal ate here for Somebody Feed Phil's Scotland episode, which means the secret is technically out — but on a Tuesday in May it's still just you, the gulls negotiating, and Fife across the water.",
+      "reco": "The Fishmarket, 23A Pier Place, Newhaven — open seven days, 11am–10pm. Order at the hatch: haddock and chips, half a dozen oysters if the counter has them, and take it to the harbour wall. The tram's Newhaven terminus is steps away. ~CAD 22–35, no reservation, no ceremony.",
+      "quote": "A fishmonger's counter, a harbour wall, and Fife across the water. Lunch solved.",
+      "poiRef": "edinburgh-the-fishmarket-newhaven",
+      "via": { "label": "📺 Somebody Feed Phil — Scotland (S7E8, Netflix, 2024)", "url": "https://www.imdb.com/title/tt31170495/" },
+      "sources": [
+        { "creator": "The Fishmarket Newhaven (official)", "url": "https://www.thefishmarketnewhaven.co.uk/", "date": "2026-07" },
+        { "creator": "Somebody Feed Phil S7E8 (Netflix)", "url": "https://www.imdb.com/title/tt31170495/", "date": "2024-03" }
+      ]
+    },
+    {
+      "id": "scene-portobello",
+      "kicker": "Portobello · THE NORTH SEA",
+      "title": "A wood-fired sauna and a cold sea, on repeat",
+      "image": "ed-scene-portobello",
+      "alt": "A person walking on a wide sandy beach at sunset",
+      "intro": "Portobello is Edinburgh's beach — a real one, with sand and a promenade and a year-round crowd of swimmers who treat the North Sea as a perfectly reasonable place to be. Soul Water Sauna parks its wood-fired cabin right on the promenade: you sweat until you can't, walk into the sea until you gasp, and go back. By the third round you understand why the locals never explain it to visitors. It can't be explained. It has to be done.",
+      "reco": "Soul Water Sauna, Portobello promenade — book a community session online (~£13–25, ~CAD 24–46), bring a swimsuit and two towels. Go late afternoon, then stay for golden hour on the promenade with chips or an ice cream. Bus or a 20-minute ride from Leith.",
+      "quote": "Heat, cold water, repeat until you stop counting. The honest version of a spa day.",
+      "poiRef": "edinburgh-soul-water-sauna",
+      "via": null,
+      "sources": [
+        { "creator": "Soul Water Sauna (official)", "url": "https://www.soulwatersauna.com/", "date": "2026-07" }
+      ]
+    },
+    {
+      "id": "scene-stockbridge",
+      "kicker": "Stockbridge · THE SLOW MORNING",
+      "title": "Dean Village at seven, the market at ten",
+      "image": "ed-scene-stockbridge",
+      "alt": "Historic stone buildings lining a small river in a European city",
+      "intro": "Dean Village at 7am is the quietest place in Edinburgh — a former milling hamlet folded into a bend of the Water of Leith, five minutes from the New Town and completely silent before the tour groups. The river path runs upstream past St Bernard's Well, a small Greek temple over a mineral spring, and delivers you into Stockbridge just as the coffee machines warm up. On Sundays, keep walking to Saunders Street: forty-plus stalls of Scottish cheese, charcuterie and East Lothian veg, and more dogs than tourists.",
+      "reco": "Walk it in this order: Dean Village (7–9am, before the groups) → Water of Leith Walkway → St Bernard's Well → Stockbridge for coffee. Sunday: Stockbridge Market, 10am–4pm, all year — it runs on May 23, 2027. Free, flat, unhurried. Detour on the way out: Circus Lane, the cobbled mews everyone photographs and nobody lingers in.",
+      "quote": "The river path does in forty minutes what a bus tour can't do in a day.",
+      "poiRef": "edinburgh-stockbridge-market",
+      "via": null,
+      "sources": [
+        { "creator": "Stockbridge Market (official)", "url": "https://www.stockbridgemarket.com/", "date": "2026-07" },
+        { "creator": "Water of Leith Conservation Trust", "url": "https://www.waterofleith.org.uk/walkway/", "date": "2026-07" }
+      ]
+    },
+    {
+      "id": "scene-distillery",
+      "kicker": "Whisky Quay · THE DRAM",
+      "title": "Port of Leith — whisky made in a tower on the docks",
+      "image": "ed-scene-distillery",
+      "alt": "A glass of whisky on a wooden table",
+      "intro": "Scotland's first vertical distillery is nine storeys of new-build ambition on Leith's working waterfront — grain in at one level, spirit out at another, no gift-shop Braveheart anywhere. For the whisky-curious rather than the whisky-pilgrim, it's the right kind of first date with Scotch: a 90-minute tour that ends with you filling your own miniature bottle, then a dram at the 8th-floor bar with the port cranes out the window.",
+      "reco": "Port of Leith Distillery, 11 Whisky Quay — tour + tasting ~£30 (~CAD 55), 90 minutes, timed entry, book a week or two ahead. Go late afternoon and stay for one more dram at the bar as the light drops over the docks. It's a 15-minute walk from The Shore.",
+      "quote": "Nine storeys of working distillery, zero tartan gift shop. That's the whisky story worth telling.",
+      "poiRef": "edinburgh-port-of-leith-distillery",
+      "via": null,
+      "sources": [
+        { "creator": "Port of Leith Distillery (official)", "url": "https://www.leithdistillery.com/", "date": "2026-07" }
+      ]
+    }
+  ],
+  "montage": [
+    {
+      "kicker": "The rest of the chapter",
+      "body": "What the five scenes don't cover: the smoked-fish platter under the windmill at Fishers, cocktails out of mismatched teapots at Roseleaf (Phil found it too), sourdough doughnuts from Twelve Triangles eaten standing up, one 4:30am alarm for Arthur's Seat while the city sleeps, and the accidental finds — Circus Lane, the ivy-swallowed Victorian graves at Warriston, a Gormley statue standing in the river. The field notes hold every address, price and link.",
+      "boundsPois": ["edinburgh-fishers-leith", "edinburgh-roseleaf", "edinburgh-arthurs-seat-sunrise", "edinburgh-portobello-beach"],
+      "targets": ["edinburgh-fishers-leith"],
+      "thumb": "ed-gem-circus-lane",
+      "thumbAlt": "Colourful old mews houses lining a curved cobblestone lane",
+      "pills": [
+        { "poiRef": "edinburgh-fishers-leith", "link": "maps", "label": "Fishers Leith · Maps" },
+        { "label": "The food notebook", "url": "#carnet" }
+      ],
+      "sources": [
+        { "creator": "Roseleaf (official)", "url": "https://www.roseleaf.co.uk/", "date": "2026-07" },
+        { "creator": "Somebody Feed Phil S7E8 (Netflix)", "url": "https://www.imdb.com/title/tt31170495/", "date": "2024-03" },
+        { "creator": "Twelve Triangles (official)", "url": "https://twelvetriangles.co.uk/", "date": "2026-07" }
+      ]
+    }
+  ],
+  "carnet": {
+    "groups": [
+      {
+        "label": "Where to sleep",
+        "kinds": ["hotel"],
+        "footer": "Three registers: A-Haven Townhouse for the budget nights (ask for a back room), Nira Caledonia for Georgian-townhouse comfort on the Stockbridge edge, and one splurge night aboard Fingal — a converted lighthouse ship with 23 cabins, booked months ahead. Nobody needs all five nights on the ship; one is a story."
+      },
+      {
+        "label": "At the table",
+        "kinds": ["resto"],
+        "footer": "Dulse for the seafood boil (Wed–Sun, small room, phone ahead). Fishers under the windmill for the smoked-fish platter. The Fishmarket hatch at Newhaven for fish and chips on the harbour wall. Twelve Triangles before 10am for the doughnuts. Roseleaf for all-day brunch and a teapot cocktail — say hi to the regulars, they were here before Netflix."
+      },
+      {
+        "label": "See & do",
+        "kinds": ["sight", "plage", "activity"],
+        "footer": "Dean Village early, then the river path to Stockbridge. Sunday market on Saunders Street (10–4, year-round). Portobello for the sauna-and-sea routine. Newhaven pier for the light on the Forth. One dawn: Arthur's Seat from Dunsapie Loch, headlamp on, summit before 5am. One late afternoon: the Port of Leith tour, dram included."
+      }
+    ],
+    "dishesTitle": "The food notebook",
+    "gemsTitle": "Local gems — Edinburgh"
+  },
+  "outro": {
+    "kicker": "Edinburgh, done",
+    "body": "The seafood boil on Constitution Street, fish and chips on the Newhaven wall, the sauna-and-sea loop at Portobello, the river path at seven in the morning, one dram over the working docks. The {count} addresses of this chapter — where to sleep, eat and wander — live in the field notes with their links, prices and booking windows. The episode is the aperitif; the notes are the tool. On the fifth morning, pick up the car at the airport and point it west: the oysters are waiting at the loch.",
+    "nextLabel": "Next episode — Loch Fyne & the Secret Coast →",
+    "nextHref": "/scotland/argyll/"
+  }
+}

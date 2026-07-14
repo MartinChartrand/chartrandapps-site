@@ -1,0 +1,160 @@
+[
+  {
+    "id": "ed-gem-circus-lane",
+    "base": "edinburgh",
+    "title": "Circus Lane — Stockbridge's cobbled mews",
+    "body": "A curved, cobbled lane of converted stable-houses behind St Stephen Street — no shops, no signage, just window boxes and old carriage doors. Early morning or after dinner it's just a quiet residential lane again.",
+    "image": "ed-gem-circus-lane",
+    "links": [{ "label": "Find it", "url": "https://www.google.com/maps/search/Circus+Lane+Edinburgh" }]
+  },
+  {
+    "id": "ed-gem-st-bernards-well",
+    "base": "edinburgh",
+    "title": "St Bernard's Well — a Greek temple over a spring",
+    "body": "A round neoclassical folly built in 1789 over a sulphurous mineral spring, right on the Water of Leith walkway between Dean Village and Stockbridge — a statue of Hygeia inside. Most walkers pass without stopping; it rewards five minutes.",
+    "image": "",
+    "links": [{ "label": "Find it", "url": "https://www.google.com/maps/search/St+Bernard's+Well+Edinburgh" }]
+  },
+  {
+    "id": "ed-gem-golden-hare",
+    "base": "edinburgh",
+    "title": "Golden Hare Books",
+    "body": "An award-winning indie bookshop on St Stephen Street stocked by people who've clearly read it all — the browse-for-twenty-minutes stop that fits a slow afternoon between the market and dinner.",
+    "image": "",
+    "links": [{ "label": "Golden Hare Books", "url": "https://goldenharebooks.com/" }]
+  },
+  {
+    "id": "ed-gem-warriston",
+    "base": "edinburgh",
+    "title": "Warriston Cemetery, gone beautifully wild",
+    "body": "Edinburgh's first garden cemetery (1843) on the Water of Leith's north bank — ivy has swallowed most of the Victorian monuments, and what's left is atmospheric rather than manicured. Quiet, strange, and completely free of tour groups.",
+    "image": "",
+    "links": [{ "label": "Find it", "url": "https://www.google.com/maps/search/Warriston+Cemetery+Edinburgh" }]
+  },
+  {
+    "id": "ed-gem-gormley",
+    "base": "edinburgh",
+    "title": "6 Times — Gormley figures standing in the river",
+    "body": "Six life-size cast-iron Antony Gormley figures placed directly in the Water of Leith between the Modern Art gallery and the docks — the water rises and falls around them, so each looks different every time. One stands below the bridge at Stockbridge.",
+    "image": "",
+    "links": [{ "label": "National Galleries — 6 Times", "url": "https://www.nationalgalleries.org/" }]
+  },
+  {
+    "id": "ar-gem-kyles-viewpoint",
+    "base": "argyll",
+    "title": "The Kyles viewpoint nobody queues for",
+    "body": "A signed layby on the A8003 above Tighnabruaich with the single best view on this coast — the three sea channels of the Kyles wrapping the top of Bute. No admission, no gift shop, no crowd.",
+    "image": "",
+    "links": [{ "label": "Find it", "url": "https://www.google.com/maps/search/Kyles+of+Bute+viewpoint" }]
+  },
+  {
+    "id": "ar-gem-ostel-bay",
+    "base": "argyll",
+    "title": "Ostel Bay — the beach the maps barely mark",
+    "body": "A crescent of sand facing Arran, four miles south of Kames — a farm layby, a walk through the dunes, no facilities, no crowd control. Argyll's best beach, essentially unadvertised.",
+    "image": "",
+    "links": [{ "label": "Find it", "url": "https://www.google.com/maps/search/Kilbride+Bay+Argyll" }]
+  },
+  {
+    "id": "ar-gem-auchindrain",
+    "base": "argyll",
+    "title": "Auchindrain — the township that time forgot",
+    "body": "Six miles south of Inveraray, the best-preserved communal farm township in the Highlands — inhabited until 1963, twenty-two buildings, self-guided, almost never crowded. An hour of quiet wandering.",
+    "image": "",
+    "links": [{ "label": "Auchindrain Township", "url": "https://www.auchindrain.org.uk/" }]
+  },
+  {
+    "id": "ar-gem-waverley",
+    "base": "argyll",
+    "title": "Tighnabruaich Pier & the last paddle steamer",
+    "body": "The PS Waverley — the world's last seagoing paddle steamer — still makes seasonal calls at the village pier. Catching it in is a small, real event; check the sailing schedule.",
+    "image": "",
+    "links": [{ "label": "Waverley Excursions", "url": "https://waverleyexcursions.co.uk/" }]
+  },
+  {
+    "id": "ha-gem-tweed-loom",
+    "base": "harris",
+    "title": "Donald John Mackay's loom at Luskentyre",
+    "body": "A third-generation weaver working a foot-treadle Hattersley loom a hundred metres from the beach — the man who wove for Nike when they came calling (MBE, 2012). Call ahead (01859 550261); tweed bought at the loom is the real souvenir.",
+    "image": "",
+    "story": "When Nike needed Harris Tweed for a limited-edition trainer, they found Donald John Mackay in his shed at Luskentyre — and he quietly mobilised most of the weavers in the Western Isles to deliver the order in three months. Madonna wore the shoes; Donald John kept weaving at the same foot-treadle loom, a hundred metres from the beach. The MBE followed in 2012. Call ahead and buy from the loom itself.",
+    "sources": [
+      { "creator": "Country Life — Donald John Mackay profile", "url": "https://www.countrylife.co.uk/", "date": "2024-01" },
+      { "creator": "Isle of Harris — Luskentyre Harris Tweed", "url": "https://www.isleofharris.co/", "date": "2025-01" }
+    ],
+    "verifiedAt": "2026-07-14",
+    "links": [{ "label": "Find the shed", "url": "https://www.google.com/maps/search/Luskentyre+Harris+Tweed" }]
+  },
+  {
+    "id": "ha-gem-empty-traigh",
+    "base": "harris",
+    "title": "The empty traigh of the deep south",
+    "body": "Even in high season, Scarista, Northton and Horgabost are close to deserted before 9am and after 6pm — the crowds concentrate at Luskentyre's main car park. A short walk south buys total solitude on sand just as good.",
+    "image": "",
+    "links": [{ "label": "Find Horgabost", "url": "https://www.google.com/maps/search/Horgabost+Beach+Harris" }]
+  },
+  {
+    "id": "ha-gem-rodel-graveyard",
+    "base": "harris",
+    "title": "The graveyard at Rodel, past the famous tomb",
+    "body": "Everyone comes for the carved tomb inside St Clement's; almost nobody lingers in the graveyard around it, where sheep graze between leaning stones at the literal end of the road south. The quietest five minutes on the island.",
+    "image": "",
+    "links": [{ "label": "Find it", "url": "https://www.google.com/maps/search/St+Clement's+Church+Rodel" }]
+  },
+  {
+    "id": "ha-gem-seallam",
+    "base": "harris",
+    "title": "Seallam! — the emigration archive",
+    "body": "Bill Lawson's forty-year genealogy archive at Northton holds family-tree records for virtually every Outer Hebrides household over two centuries — including the families who left for Canada. Worth an hour for any Canadian with Hebridean curiosity. Mon–Fri only.",
+    "image": "",
+    "links": [{ "label": "Hebrides People", "url": "https://hebridespeople.com/" }]
+  },
+  {
+    "id": "ha-gem-eilean-glas",
+    "base": "harris",
+    "title": "The keepers' cluster at Eilean Glas",
+    "body": "Past the boggy final stretch of the Scalpay walk: a huddle of historic light-keeper buildings and an unexpected little coffee shop, looking at open water with nothing else for miles — the reward most day-trippers never earn.",
+    "image": "",
+    "links": [{ "label": "Find it", "url": "https://www.google.com/maps/search/Eilean+Glas+Lighthouse" }]
+  },
+  {
+    "id": "as-gem-drumbeg-reveal",
+    "base": "assynt",
+    "title": "The Drumbeg reveal",
+    "body": "A specific bend past Drumbeg village where the single-track crests and the whole northern seaboard opens at once — skerries, sea lochs, Quinag behind. No sign, no car park. Pull into the next passing place and let it sit.",
+    "image": "",
+    "links": [{ "label": "The B869", "url": "https://www.google.com/maps/search/Drumbeg+Assynt" }]
+  },
+  {
+    "id": "as-gem-clashnessie-quiet",
+    "base": "assynt",
+    "title": "Clashnessie Falls, twenty minutes off the sand",
+    "body": "Almost nobody who stops at the beach walks the extra twenty minutes to the falls. The reward is a genuine waterfall with nobody standing in front of it — which, by NC500-in-June standards, is close to unheard of.",
+    "image": "",
+    "links": [{ "label": "Walkhighlands route", "url": "https://www.walkhighlands.co.uk/ullapool/clashnessie-beach.shtml" }]
+  },
+  {
+    "id": "as-gem-gloaming",
+    "base": "assynt",
+    "title": "Eleven o'clock light",
+    "body": "This far northwest in early June, real dusk doesn't arrive until close to 11pm. It rearranges the day: a 9pm walk to Achmelvich still has an hour of soft light left, and the beaches you shared at 2pm are entirely yours by 9:30.",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": "as-gem-achins",
+    "base": "assynt",
+    "title": "Achins Bookshop, Inverkirkaig",
+    "body": "One of the most remote bookshops in Britain, at the end of the road where the Falls of Kirkaig path takes over — serious Scottish shelves, homemade soup, home baking, and nothing else around for miles.",
+    "image": "",
+    "links": [{ "label": "Discover Assynt", "url": "https://www.discoverassynt.co.uk/achins-bookshop" }]
+  },
+  {
+    "id": "as-gem-hermits-castle",
+    "base": "assynt",
+    "title": "Hermit's Castle — Europe's smallest",
+    "body": "A Brutalist concrete folly the size of a garden shed, built single-handedly in the 1950s by an architect who spent one night in it — or several weeks, depending which local you ask — then vanished. Unmarked, free, tucked into the rocks at Achmelvich.",
+    "image": "",
+    "links": [{ "label": "Undiscovered Scotland", "url": "https://www.undiscoveredscotland.co.uk/lochinver/hermitscastle/index.html" }]
+  }
+]

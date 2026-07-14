@@ -1,0 +1,464 @@
+[
+  {
+    "id": "ed-dish-hot-smoked-salmon",
+    "base": "edinburgh",
+    "type": "plat",
+    "region": "Edinburgh & Leith",
+    "title": "Hot-smoked salmon",
+    "body": "Scottish salmon hot-smoked over oak until the flesh flakes and takes on a deep amber colour — a world away from the thin cold-smoked slices sold abroad as 'Scottish smoked salmon.' Leith's fish restaurants build entire platters around it.",
+    "image": "dish-hot-smoked-salmon",
+    "links": [
+      {
+        "label": "Fishers Leith",
+        "url": "https://www.fishersrestaurants.co.uk/fishers-leith/"
+      }
+    ]
+  },
+  {
+    "id": "ed-dish-forth-oysters",
+    "base": "edinburgh",
+    "type": "plat",
+    "region": "Edinburgh & Leith",
+    "title": "Oysters by the Forth",
+    "body": "Rock oysters served simply on ice with lemon, within sight of the water — the Fishmarket at Newhaven does them at harbourside tables. A half-dozen with a glass of something cold is the honest way to start a Leith evening.",
+    "image": "dish-oysters-ice",
+    "links": [
+      {
+        "label": "The Fishmarket Newhaven",
+        "url": "https://www.thefishmarketnewhaven.co.uk/"
+      }
+    ]
+  },
+  {
+    "id": "ed-dish-scotch-pie",
+    "base": "edinburgh",
+    "type": "plat",
+    "region": "Edinburgh",
+    "title": "Scotch pie",
+    "body": "A double-crust hand pie of minced lamb in hot-water pastry, small enough to eat standing up — the working lunch of Edinburgh butchers' counters for over a century. Crombies on Broughton Street still makes theirs with lamb only, awards to prove it.",
+    "image": "dish-scotch-pie",
+    "links": [
+      {
+        "label": "Crombies of Edinburgh",
+        "url": "https://www.sausages.co.uk/"
+      }
+    ]
+  },
+  {
+    "id": "ed-dish-arbroath-smokie",
+    "base": "edinburgh",
+    "type": "plat",
+    "region": "Edinburgh & the East Coast",
+    "title": "Arbroath smokie",
+    "body": "Whole haddock, salted then hot-smoked in a barrel until the skin bronzes and the flesh stays moist — a protected East Coast specialty that Leith kitchens fold into modern plates. Simplest is the fish itself, warm, with brown bread and butter.",
+    "image": "",
+    "links": [
+      {
+        "label": "Dulse Leith (smokie croquettes)",
+        "url": "https://www.dulse.co.uk/dulseleith"
+      }
+    ]
+  },
+  {
+    "id": "ed-dish-leith-beer",
+    "base": "edinburgh",
+    "type": "bière",
+    "region": "Leith & Bonnington",
+    "title": "Leith craft beer",
+    "body": "Leith and Bonnington have quietly become Edinburgh's densest small-brewery cluster — Pilot and Newbarns both pour from their own taprooms a short walk from The Shore. Walk-ins only, dog-friendly, no pretense.",
+    "image": "dish-craft-beer",
+    "links": [
+      {
+        "label": "Newbarns Brewery",
+        "url": "https://www.newbarnsbrewery.com/"
+      }
+    ]
+  },
+  {
+    "id": "ed-dish-port-of-leith-whisky",
+    "base": "edinburgh",
+    "type": "alcool",
+    "region": "Leith",
+    "title": "Port of Leith whisky",
+    "body": "Made in a nine-storey vertical distillery on the working docks — grain to bottle in one building, finished in sherry and port casks. The house Table Whisky is built as an everyday dram, not a collector's bottle, which suits a curious-not-pilgrim approach.",
+    "image": "dish-whisky-dram",
+    "links": [
+      {
+        "label": "Port of Leith Distillery",
+        "url": "https://www.leithdistillery.com/"
+      }
+    ]
+  },
+  {
+    "id": "ed-dish-cranachan",
+    "base": "edinburgh",
+    "type": "plat",
+    "region": "Scotland-wide",
+    "title": "Cranachan",
+    "body": "Whipped cream folded with toasted oatmeal, a good glug of whisky, honey and fresh raspberries, layered in a glass — traditionally a harvest dessert, served year-round in Edinburgh. The natural place to taste Scotch in something other than a glass.",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": "ar-dish-loch-fyne-oysters",
+    "base": "argyll",
+    "type": "produit",
+    "region": "Loch Fyne",
+    "title": "Loch Fyne oysters",
+    "body": "Farmed in the loch since the 1970s — cold, clean water and a long tidal flush give them a mineral snap rather than warm-water creaminess. Eat them at the source at Cairndow, shucked to order, rather than the ones that travel.",
+    "image": "dish-oysters-shucked",
+    "poiRef": "argyll-loch-fyne-oyster-bar",
+    "links": [
+      {
+        "label": "Loch Fyne Oyster Bar",
+        "url": "https://www.lochfyne.com/oyster-bar"
+      }
+    ]
+  },
+  {
+    "id": "ar-dish-tarbert-langoustines",
+    "base": "argyll",
+    "type": "plat",
+    "region": "Tarbert, Loch Fyne",
+    "title": "Tarbert langoustines",
+    "body": "Locally called Loch Fyne prawns — landed daily at Tarbert harbour by the boats you can watch tie up. Best the plainest way possible: simply boiled, garlic butter or good mayonnaise, bread to mop up. Anything fancier misses the point.",
+    "image": "dish-langoustines",
+    "poiRef": "argyll-starfish-tarbert",
+    "links": [
+      {
+        "label": "Starfish Tarbert",
+        "url": "https://www.starfishtarbert.com/"
+      }
+    ]
+  },
+  {
+    "id": "ar-dish-kippers",
+    "base": "argyll",
+    "type": "produit",
+    "region": "Tarbert, Loch Fyne",
+    "title": "Loch Fyne kippers",
+    "body": "Oak-smoked herring from the last true kipper smokery still working the Loch Fyne shore, run by the same family for three generations at Skipness. Order them for breakfast at your guesthouse, or buy a pair to take home.",
+    "image": "",
+    "links": [
+      {
+        "label": "Skipness Smokehouse",
+        "url": "https://www.skipnesssmokehouse.com/product/loch-fyne-kippers/"
+      }
+    ]
+  },
+  {
+    "id": "ar-dish-dressed-crab",
+    "base": "argyll",
+    "type": "plat",
+    "region": "Kintyre",
+    "title": "Dressed Argyll crab",
+    "body": "Brown crab picked and dressed the old way — white and brown meat kept separate in the shell — sold at seafood shacks like Skipness for a fraction of a city price. Eat it outdoors with your fingers; that's how it's meant to go.",
+    "image": "dish-crab",
+    "poiRef": "argyll-skipness-seafood-cabin",
+    "links": [
+      {
+        "label": "Skipness Seafood Cabin",
+        "url": "https://www.skipnessseafoodcabin.co.uk/"
+      }
+    ]
+  },
+  {
+    "id": "ar-dish-bute-oyster-gin",
+    "base": "argyll",
+    "type": "alcool",
+    "region": "Isle of Bute",
+    "title": "Isle of Bute Oyster Gin",
+    "body": "A savoury gin distilled with actual Loch Fyne oyster shells charged into the still — briny, maritime, built specifically to pair with seafood. Launched 2019 in Rothesay, a five-minute ferry from the Cowal shore.",
+    "image": "",
+    "poiRef": "argyll-bute-distillery",
+    "links": [
+      {
+        "label": "Isle of Bute Distillery",
+        "url": "https://isleofbutedistillery.com/"
+      }
+    ]
+  },
+  {
+    "id": "ar-dish-cullen-skink",
+    "base": "argyll",
+    "type": "plat",
+    "region": "West coast",
+    "title": "West-coast Cullen skink",
+    "body": "The smoked-haddock-and-potato chowder that started life on the east coast turns up on nearly every pub menu around Loch Fyne in its own regional version — thicker, often finished with local cream, built around whatever smoked fish came off the day's boat.",
+    "image": "dish-chowder",
+    "links": []
+  },
+  {
+    "id": "ar-dish-scallops",
+    "base": "argyll",
+    "type": "plat",
+    "region": "Argyll & the west coast",
+    "title": "Hand-dived scallops",
+    "body": "Diver-caught, not dredged — diving doesn't damage the shellfish bed, and the scallops come up sweeter and intact. The Kilberry Inn builds a signature dish around them, simply seared.",
+    "image": "dish-scallops-seared",
+    "poiRef": "argyll-kilberry-inn",
+    "links": [
+      {
+        "label": "The Kilberry Inn",
+        "url": "https://kilberryinn.com/"
+      }
+    ]
+  },
+  {
+    "id": "ha-dish-harris-gin",
+    "base": "harris",
+    "type": "alcool",
+    "region": "Harris",
+    "title": "Isle of Harris Gin",
+    "body": "Distilled in Tarbert around sugar kelp hand-harvested by a local diver from the surrounding sea lochs — juniper and pine up front, a saline finish that's pure Atlantic. The ribbed bottle alone earns its shelf space.",
+    "image": "",
+    "poiRef": "harris-distillery",
+    "story": "The distillery calls itself 'the social distillery' without irony — it was founded in 2015 to keep young people on an island that was losing them, and the peat fire in the visitor centre burns for anyone who walks in. The kelp in the gin is cut by hand by a single local diver working the sea lochs; the saline finish isn't a marketing line, it's provenance you can taste.",
+    "sources": [
+      {
+        "creator": "Isle of Harris Distillery (official)",
+        "url": "https://www.harrisdistillery.com/",
+        "date": "2026-07"
+      }
+    ],
+    "verifiedAt": "2026-07-14",
+    "singleSourceTrusted": true,
+    "links": [
+      {
+        "label": "Isle of Harris Distillery",
+        "url": "https://www.harrisdistillery.com/"
+      }
+    ]
+  },
+  {
+    "id": "ha-dish-hearach",
+    "base": "harris",
+    "type": "alcool",
+    "region": "Harris",
+    "title": "The Hearach single malt",
+    "body": "The first single malt ever distilled, matured and bottled entirely on Harris — released in 2023 after an eight-year wait, 46%, no chill-filtration, no added colour, aged across bourbon, Fino and Oloroso casks.",
+    "image": "",
+    "poiRef": "harris-distillery",
+    "links": [
+      {
+        "label": "The Hearach",
+        "url": "https://www.harrisdistillery.com/"
+      }
+    ]
+  },
+  {
+    "id": "ha-dish-scalpay-shellfish",
+    "base": "harris",
+    "type": "plat",
+    "region": "Scalpay",
+    "title": "Scalpay langoustines & scallops",
+    "body": "Creel boats out of Scalpay pier land langoustines and scallops that reach a plate — North Harbour Bistro's, most famously — within minutes of the catch. Follow Scalpay Shellfish for the rare chance to buy straight off the boat.",
+    "image": "dish-langoustines-plate",
+    "poiRef": "harris-north-harbour-bistro",
+    "links": [
+      {
+        "label": "North Harbour Bistro",
+        "url": "https://www.northharbourbistro.co.uk/"
+      }
+    ]
+  },
+  {
+    "id": "ha-dish-stornoway-black-pudding",
+    "base": "harris",
+    "type": "produit",
+    "region": "Lewis",
+    "title": "Stornoway black pudding",
+    "body": "Made to an 80-year family recipe by Charles Macleod in Stornoway, with EU/UK Protected Geographical Indication status — oat-heavy, deeply savoury, the definitive taste of the Hebrides. Grab it from the shop on the Saturday drive to the ferry.",
+    "image": "dish-black-pudding",
+    "links": [
+      {
+        "label": "Charles Macleod",
+        "url": "https://www.charlesmacleod.co.uk/"
+      }
+    ]
+  },
+  {
+    "id": "ha-dish-machair-lamb",
+    "base": "harris",
+    "type": "plat",
+    "region": "Harris",
+    "title": "Machair-grazed lamb",
+    "body": "Hebridean sheep forage the machair and heather moor rather than being penned — lean, dark, distinctly sweet meat with a subtle gamey edge, served simply at Scarista House and most island tables. Look for it on set menus.",
+    "image": "dish-lamb",
+    "poiRef": "harris-scarista-house",
+    "links": [
+      {
+        "label": "Scarista House",
+        "url": "https://scaristahouse.com/"
+      }
+    ]
+  },
+  {
+    "id": "ha-dish-peat-smoked-salmon",
+    "base": "harris",
+    "type": "produit",
+    "region": "Outer Hebrides",
+    "title": "Hebridean peat-smoked salmon",
+    "body": "Peat smoke does to salmon what oak can't — a deeper, earthier cure. The named producers are technically off-island (Hebridean Smokehouse on North Uist, the Stornoway smokehouse on Lewis) but both reach Tarbert's shelves.",
+    "image": "dish-smoked-salmon-slices",
+    "links": [
+      {
+        "label": "Hebridean Smokehouse",
+        "url": "https://www.hebrideansmokehouse.com/"
+      }
+    ]
+  },
+  {
+    "id": "ha-dish-croft36-buttery",
+    "base": "harris",
+    "type": "plat",
+    "region": "Northton, Harris",
+    "title": "Croft36 lobster buttery",
+    "body": "A soft, buttery roll packed with fresh-picked lobster or langoustine, sold from an honesty-box shed with zero pretension and a queue that forms the moment it's known to be open. Cash in the box, thanks on the chalkboard.",
+    "image": "dish-lobster-roll",
+    "poiRef": "harris-croft36",
+    "story": "Julie and Steve Olley have been baking bread and cooking seafood out of their croft shed since 2010, and the honesty box has never needed replacing with a till. The butteries sell out by early afternoon — the queue is two crofters and a delivery van, and nobody photographs their lunch. It holds the island's top rating because of what it is, not in spite of it.",
+    "sources": [
+      {
+        "creator": "Croft36 (official)",
+        "url": "https://croft36northton.wixsite.com/home",
+        "date": "2026-07"
+      },
+      {
+        "creator": "Stories My Suitcase Could Tell — Katie MacLeod (Hebrides local)",
+        "url": "https://storiesmysuitcasecouldtell.com/2019/08/22/best-restaurants-in-lewis-and-harris/",
+        "date": "2019-08"
+      }
+    ],
+    "verifiedAt": "2026-07-14",
+    "links": [
+      {
+        "label": "Croft36",
+        "url": "https://croft36northton.wixsite.com/home"
+      }
+    ]
+  },
+  {
+    "id": "as-dish-scallops",
+    "base": "assynt",
+    "type": "plat",
+    "region": "Assynt & Coigach",
+    "title": "Hand-dived scallops",
+    "body": "Diver-caught rather than dredged — a diver hand-picks each shell instead of dragging the seabed. Seared hard and served simply, they're the default opener at Peet's, Am Fuaran and the Seafood Shack whenever the boats had a good day.",
+    "image": "dish-scallops-shell",
+    "poiRef": "assynt-peets",
+    "links": [
+      {
+        "label": "Peet's Restaurant",
+        "url": "https://www.peets.co.uk/"
+      }
+    ]
+  },
+  {
+    "id": "as-dish-creel-langoustines",
+    "base": "assynt",
+    "type": "plat",
+    "region": "Assynt & Coigach",
+    "title": "Creel-caught langoustines",
+    "body": "Caught in baited pots, not trawled — sweeter and less battered than the scampi most people know. Am Fuaran's are gathered by a relative of the owners; expect lemon-and-ginger, garlic butter, or whole and cold with mayonnaise.",
+    "image": "dish-langoustines-butter",
+    "poiRef": "assynt-am-fuaran",
+    "links": [
+      {
+        "label": "Am Fuaran Bar",
+        "url": "https://amfuaran.co.uk/"
+      }
+    ]
+  },
+  {
+    "id": "as-dish-lochinver-pie",
+    "base": "assynt",
+    "type": "plat",
+    "region": "Lochinver",
+    "title": "The Lochinver pie",
+    "body": "Forty years of independent pie-making on Main Street culminated in Scotland's Best Meat Pie at the British Pie Awards 2022 — venison from the surrounding hills, cranberry cutting the richness, a proper hand-raised crust.",
+    "image": "dish-meat-pie",
+    "poiRef": "assynt-lochinver-larder",
+    "story": "The Larder has made pies in the same Main Street shop since 1986, and the venison in the award-winner comes off the hills you can see from the counter. When the British Pie Awards named it Scotland's best in 2022, the shop's response was to keep closing at 4pm sharp — the pies were already selling out anyway.",
+    "sources": [
+      {
+        "creator": "Lochinver Larder — the Lochinver Pie",
+        "url": "https://www.lochinverlarder.com/stories/the-lochinver-pie",
+        "date": "2026-07"
+      }
+    ],
+    "verifiedAt": "2026-07-14",
+    "singleSourceTrusted": true,
+    "links": [
+      {
+        "label": "Lochinver Larder",
+        "url": "https://www.lochinverlarder.com/"
+      }
+    ]
+  },
+  {
+    "id": "as-dish-smoked-fish",
+    "base": "assynt",
+    "type": "produit",
+    "region": "Ullapool & Loch Broom",
+    "title": "Ullapool smoked salmon & kippers",
+    "body": "Iain Boyd, still working into his eighties, hand-smokes over oak with a whisky finish at the Ullapool Smokehouse; Wester Ross Salmon, Scotland's oldest independent salmon farm (1977, Loch Broom), supplies much of the fresh fish. A vacuum-packed side survives the flight home.",
+    "image": "dish-oak-smoked",
+    "story": "Iain Boyd refuses to retire. At 82 he still cures with sea salt, cold-smokes over oak and finishes with whisky, five to six hundred kilos a week out of one of the last small artisan smokehouses in Scotland. The salmon likely started life a few miles away at Wester Ross, the country's oldest independent farm — provenance you can walk in an afternoon.",
+    "sources": [
+      {
+        "creator": "Press & Journal — Iain Boyd, Ullapool Smokehouse",
+        "url": "https://www.pressandjournal.co.uk/fp/lifestyle/food-and-drink/6385707/ullapool-smokehouse-iain-boyd/",
+        "date": "2024-01"
+      },
+      {
+        "creator": "Wester Ross Salmon (official)",
+        "url": "https://www.wrs.co.uk/",
+        "date": "2026-07"
+      }
+    ],
+    "verifiedAt": "2026-07-14",
+    "links": [
+      {
+        "label": "Ullapool Smokehouse",
+        "url": "https://www.ullapoolsmokehouse.com/"
+      }
+    ]
+  },
+  {
+    "id": "as-dish-venison",
+    "base": "assynt",
+    "type": "plat",
+    "region": "Highlands",
+    "title": "Wild venison",
+    "body": "Red deer from the surrounding estates — lean, gamey, usually slow-cooked in a casserole or a pie filling, sometimes a loin special on a pub blackboard when a cull's just come in.",
+    "image": "",
+    "links": []
+  },
+  {
+    "id": "as-dish-chowder",
+    "base": "assynt",
+    "type": "plat",
+    "region": "Ullapool",
+    "title": "Seafood chowder",
+    "body": "The Seafood Shack's version changes with the boat's catch — smoked haddock, mussels, whatever white fish came in — thick, warm, and exactly right eaten from a paper cup at a picnic table on a breezy Ullapool afternoon.",
+    "image": "",
+    "poiRef": "assynt-seafood-shack",
+    "links": []
+  },
+  {
+    "id": "as-dish-glen-ord",
+    "base": "assynt",
+    "type": "alcool",
+    "region": "Muir of Ord (the road out)",
+    "title": "The Singleton of Glen Ord",
+    "body": "Not Assynt, but directly on the route to Inverness Airport: a rich, fruity Highland single malt with a proper visitor centre and a tasting room over the bonded warehouse — the clean way to close a whisky-curious trip, if the flight allows.",
+    "image": "",
+    "links": [
+      {
+        "label": "Glen Ord visitor centre",
+        "url": "https://www.distillerytours.scot/distilleries/glen-ord-distillery-visitor-centre"
+      }
+    ]
+  }
+]
