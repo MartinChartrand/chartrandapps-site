@@ -1,6 +1,6 @@
 # HANDOFF — Scotland 2027 (1er site anglophone) — 2026-07-14
 
-**État : Phase 3 quasi complète sur branche `scotland-episode` (2 commits, PAS mergée). Session coupée à 94% quota Martin.**
+**État final : ✅ DÉPLOYÉ EN PROD — chartrandapps.ca/scotland/ (merge FF `c87e995`, CI verte, 5/5 pages 200, scotland dans ORDER de la landing).** `validate:fast` exit 0 · 47 images vision-scellées zéro mismatch · 5 récits `approvedBy:human` (GO Martin) · rendu 100% anglais vérifié (3 rounds de chasse au FR : SceneSection « Scène X/Y », pills lib/episode « Site officiel », format budget). Reste côté Martin : passe iPhone, réservation CalMac à l'ouverture des ventes (janv. 2027), B&B transit à Uig (jalons détaillés dans DevBrain `Voyage-Scotland-2027-Amie-50e`). Le reste de ce document décrit l'état AVANT la 2e session — gardé pour trace.
 
 ## Le voyage (validé Martin, Checkpoints 1 & 2 passés)
 - Amie anglophone de Martin, **50e anniversaire**, solo (défaut — profil voyageuse à confirmer), conduit sans problème, whisky curieuse, budget 11-14 k$ CAD « on se gâte ».
