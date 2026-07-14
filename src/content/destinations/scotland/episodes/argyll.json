@@ -8,8 +8,16 @@
       "thumbAlt": "A sailboat gliding along the Crinan Canal between grassy banks, Argyll — the slow way to the west coast",
       "poiRef": "argyll-loch-fyne-oyster-bar",
       "sources": [
-        { "creator": "Loch Fyne Oyster Bar (official)", "url": "https://www.lochfyne.com/oyster-bar", "date": "2026-07" },
-        { "creator": "Scotland Off the Beaten Track — Rest and Be Thankful", "url": "https://sobt.co.uk/rest-and-be-thankful/", "date": "2026-07" }
+        {
+          "creator": "Loch Fyne Oyster Bar (official)",
+          "url": "https://www.lochfyne.com/oyster-bar",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Scotland Off the Beaten Track — Rest and Be Thankful",
+          "url": "https://sobt.co.uk/rest-and-be-thankful/",
+          "date": "2026-07"
+        }
       ],
       "focusPoi": "argyll-loch-fyne-oyster-bar",
       "zoom": 9
@@ -22,10 +30,22 @@
       "thumbAlt": "Sunset over the still water of Loch Fyne, Scotland",
       "poiRef": "argyll-kyles-viewpoint",
       "sources": [
-        { "creator": "Rick Stein's Food Stories — Argyll (BBC)", "url": "https://rickstein.com/food-stories/", "date": "2024-01" },
-        { "creator": "Wild About Argyll — Tighnabruaich", "url": "https://www.wildaboutargyll.co.uk/visit/dunoon-cowal/tighnabruaich/", "date": "2026-07" }
+        {
+          "creator": "Rick Stein's Food Stories — Argyll (BBC)",
+          "url": "https://rickstein.com/food-stories/",
+          "date": "2024-01"
+        },
+        {
+          "creator": "Wild About Argyll — Tighnabruaich",
+          "url": "https://www.wildaboutargyll.co.uk/visit/dunoon-cowal/tighnabruaich/",
+          "date": "2026-07"
+        }
       ],
-      "boundsPois": ["argyll-tregortha", "argyll-ostel-bay", "argyll-loch-fyne-oyster-bar"]
+      "boundsPois": [
+        "argyll-tregortha",
+        "argyll-ostel-bay",
+        "argyll-loch-fyne-oyster-bar"
+      ]
     }
   ],
   "scenes": [
@@ -39,10 +59,21 @@
       "reco": "Loch Fyne Oyster Bar, Cairndow — on the A83, a natural first-day lunch (open Thu–Mon, check hours; the deli runs daily). Order half native oysters, half rocks, the smoked salmon platter, brown bread. Time the arrival drive around it. ~CAD 28–65 per person.",
       "quote": "A dozen oysters, twenty metres from the water they grew in. Arrival, solved.",
       "poiRef": "argyll-loch-fyne-oyster-bar",
-      "via": { "label": "📺 Rick Stein's Food Stories — Argyll (BBC)", "url": "https://rickstein.com/food-stories/" },
+      "via": {
+        "label": "📺 Rick Stein's Food Stories — Argyll (BBC)",
+        "url": "https://rickstein.com/food-stories/"
+      },
       "sources": [
-        { "creator": "Loch Fyne Oyster Bar (official)", "url": "https://www.lochfyne.com/oyster-bar", "date": "2026-07" },
-        { "creator": "Rick Stein's Food Stories — Argyll (BBC)", "url": "https://rickstein.com/food-stories/", "date": "2024-01" }
+        {
+          "creator": "Loch Fyne Oyster Bar (official)",
+          "url": "https://www.lochfyne.com/oyster-bar",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Rick Stein's Food Stories — Argyll (BBC)",
+          "url": "https://rickstein.com/food-stories/",
+          "date": "2024-01"
+        }
       ]
     },
     {
@@ -50,15 +81,23 @@
       "kicker": "Cowal · THE LOOP",
       "title": "The Secret Coast — single track, passing places, an empty beach",
       "image": "ar-scene-coast",
-      "alt": "Rocky shoreline and calm water near Crinan, on Argyll's west coast",
+      "alt": "An empty rocky and sandy Scottish beach at low tide — dark seaweed-covered rocks, calm sea, and a hazy silhouette of low mountains across the water in evening light. Nobody in sight.",
       "intro": "The loop south of the village is where the nickname earns itself: a single-track lane past Millhouse and Ardlamont Point, seals hauled out on the skerries, oystercatchers piping you along, and long stretches where yours is the only engine. At the bottom, a farm layby and a walk through the dunes deliver Ostel Bay — a crescent of sand facing Arran that most road maps barely bother to name. In late May you'll likely count more sheep than people.",
       "reco": "Half a day, unhurried: Tighnabruaich → Millhouse → Ardlamont → Ostel Bay (park at the Kilbride Farm layby, 15-minute walk through the dunes) → back up the B8000 along Loch Fyne to Otter Ferry. Low tide widens the beach dramatically — check the tables. Free, save fuel and the passing-place waves.",
       "quote": "Single track, a wave for every car, and a beach the maps barely name.",
       "poiRef": "argyll-ostel-bay",
       "via": null,
       "sources": [
-        { "creator": "Wild About Argyll — Ostel Bay", "url": "https://www.wildaboutargyll.co.uk/blogs/visit-beautiful-ostel-bay-on-cowal-peninsula/", "date": "2026-07" },
-        { "creator": "Argyll Self Catering — The Secret Coast", "url": "https://www.argyllselfcateringholidays.co.uk/areas/argylls-secret-coast/", "date": "2026-07" }
+        {
+          "creator": "Wild About Argyll — Ostel Bay",
+          "url": "https://www.wildaboutargyll.co.uk/blogs/visit-beautiful-ostel-bay-on-cowal-peninsula/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Argyll Self Catering — The Secret Coast",
+          "url": "https://www.argyllselfcateringholidays.co.uk/areas/argylls-secret-coast/",
+          "date": "2026-07"
+        }
       ]
     },
     {
@@ -73,8 +112,16 @@
       "poiRef": "argyll-oystercatcher",
       "via": null,
       "sources": [
-        { "creator": "The Oystercatcher (official)", "url": "https://www.oystercatcherotterferry.com/", "date": "2026-07" },
-        { "creator": "MICHELIN Guide — Kilberry Inn (Bib Gourmand)", "url": "https://guide.michelin.com/gb/en/argyll-and-bute/kilberry/restaurant/kilberry-inn", "date": "2026-01" }
+        {
+          "creator": "The Oystercatcher (official)",
+          "url": "https://www.oystercatcherotterferry.com/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "MICHELIN Guide — Kilberry Inn (Bib Gourmand)",
+          "url": "https://guide.michelin.com/gb/en/argyll-and-bute/kilberry/restaurant/kilberry-inn",
+          "date": "2026-01"
+        }
       ]
     },
     {
@@ -87,11 +134,26 @@
       "reco": "Ferry over mid-morning, langoustines at Starfish (Tarbert harbour) or crab at Skipness (Sun–Fri, closed Saturdays, seasonal — confirm May opening), kippers from the Skipness Smokehouse for tomorrow's breakfast, last ferry back. Car + driver ~CAD 19–28 each way, no booking needed.",
       "quote": "Langoustines with the boats that caught them tied up outside the window.",
       "poiRef": "argyll-starfish-tarbert",
-      "via": { "label": "📺 The Hairy Bikers — Argyll & Bute (BBC)", "url": "https://www.hairybikers.com/" },
+      "via": {
+        "label": "📺 The Hairy Bikers — Argyll & Bute (BBC)",
+        "url": "https://www.hairybikers.com/"
+      },
       "sources": [
-        { "creator": "Starfish Tarbert (official)", "url": "https://www.starfishtarbert.com/", "date": "2026-07" },
-        { "creator": "Skipness Seafood Cabin (official)", "url": "https://www.skipnessseafoodcabin.co.uk/", "date": "2026-07" },
-        { "creator": "CalMac — Tarbert–Portavadie route", "url": "https://www.calmac.co.uk/en-gb/route-information/tarbert-loch-fyne-portavadie/", "date": "2026-07" }
+        {
+          "creator": "Starfish Tarbert (official)",
+          "url": "https://www.starfishtarbert.com/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Skipness Seafood Cabin (official)",
+          "url": "https://www.skipnessseafoodcabin.co.uk/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "CalMac — Tarbert–Portavadie route",
+          "url": "https://www.calmac.co.uk/en-gb/route-information/tarbert-loch-fyne-portavadie/",
+          "date": "2026-07"
+        }
       ]
     }
   ],
@@ -99,33 +161,72 @@
     {
       "kicker": "The rest of the chapter",
       "body": "What the scenes leave out: Inveraray Castle at opening before the coaches (history through the windshield, lunch at the oyster bar on the same road home), the Crinan sea lock where yachts drop to the Atlantic, Kilmartin's eight hundred standing stones as a drive-home backdrop, the five-minute ferry to Bute for a gin distilled with oyster shells, and one splurge night at Portavadie — an infinity pool at the edge of Loch Fyne, built where they used to weld oil rigs. The field notes have every address and every ferry time.",
-      "boundsPois": ["argyll-inveraray", "argyll-crinan-kilmartin", "argyll-bute-distillery", "argyll-portavadie"],
-      "targets": ["argyll-portavadie"],
+      "boundsPois": [
+        "argyll-inveraray",
+        "argyll-crinan-kilmartin",
+        "argyll-bute-distillery",
+        "argyll-portavadie"
+      ],
+      "targets": [
+        "argyll-portavadie"
+      ],
       "thumb": "ar-inveraray",
       "thumbAlt": "Inveraray Castle with its grey conical towers, Argyll",
       "pills": [
-        { "poiRef": "argyll-portavadie", "link": "official", "label": "Portavadie — the splurge night" },
-        { "label": "The food notebook", "url": "#carnet" }
+        {
+          "poiRef": "argyll-portavadie",
+          "link": "official",
+          "label": "Portavadie — the splurge night"
+        },
+        {
+          "label": "The food notebook",
+          "url": "#carnet"
+        }
       ],
       "sources": [
-        { "creator": "Portavadie (official)", "url": "https://www.portavadie.com/", "date": "2026-07" },
-        { "creator": "Isle of Bute Distillery (official)", "url": "https://isleofbutedistillery.com/", "date": "2026-07" },
-        { "creator": "Inveraray Castle (official)", "url": "https://www.inveraray-castle.com/", "date": "2026-07" }
+        {
+          "creator": "Portavadie (official)",
+          "url": "https://www.portavadie.com/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Isle of Bute Distillery (official)",
+          "url": "https://isleofbutedistillery.com/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Inveraray Castle (official)",
+          "url": "https://www.inveraray-castle.com/",
+          "date": "2026-07"
+        }
       ]
     },
     {
       "kicker": "May 30–31 · THE FERRY GATE",
       "body": "The exit needs one honest note: the Harris ferry leaves Uig, on Skye, at half past nine in the morning — five hours' drive from Cowal — and it doesn't sail on Sundays at all. So May 30 becomes its own small road movie: up the A82 through Glencoe's big theatre, over the Skye bridge, north to Uig, and a transit night by the ferry slip. Book the car deck the moment CalMac opens 2027 sales (third Friday of January, and it does sell out). Monday morning: drive on, ninety minutes of Minch, and the Hebrides.",
-      "boundsPois": ["argyll-tregortha", "argyll-loch-fyne-oyster-bar"],
+      "boundsPois": [
+        "argyll-tregortha",
+        "argyll-loch-fyne-oyster-bar"
+      ],
       "targets": [],
       "thumb": "ar-transit-skye",
-      "thumbAlt": "A winding single-track road through green mountains on the Isle of Skye",
+      "thumbAlt": "A road winding through the green mountains of the Isle of Skye.",
       "pills": [
-        { "label": "CalMac — Uig–Tarbert (Harris)", "url": "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/" },
-        { "label": "The food notebook", "url": "#carnet" }
+        {
+          "label": "CalMac — Uig–Tarbert (Harris)",
+          "url": "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/"
+        },
+        {
+          "label": "The food notebook",
+          "url": "#carnet"
+        }
       ],
       "sources": [
-        { "creator": "CalMac — Uig–Tarbert (Harris)", "url": "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/", "date": "2026-07" }
+        {
+          "creator": "CalMac — Uig–Tarbert (Harris)",
+          "url": "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/",
+          "date": "2026-07"
+        }
       ]
     }
   ],
@@ -133,17 +234,26 @@
     "groups": [
       {
         "label": "Where to sleep",
-        "kinds": ["hotel"],
+        "kinds": [
+          "hotel"
+        ],
         "footer": "The sensible split: three or four nights at Tregortha (the budget view) or the Royal An Lochan (Room 9, the shore), then one or two at Portavadie as the mid-stay splurge — it's a 15-minute drive, not a relocation, and it doubles as your ferry slip for the Kintyre day. All prices are 2026 anchors; confirm live rates before booking."
       },
       {
         "label": "At the table",
-        "kinds": ["resto"],
+        "kinds": [
+          "resto"
+        ],
         "footer": "The pattern: oyster bar on arrival day (it's on the road in), the Oystercatcher as the default dinner (closed Mondays), the Kintyre ferry day for Starfish langoustines and Skipness crab (cabin closed Saturdays), and one booked-ahead night at the Kilberry Inn — the Bib Gourmand at the end of the single-track. Small places change hours often out here; a phone call beats a surprise."
       },
       {
         "label": "See & do",
-        "kinds": ["sight", "plage", "activity", "transport"],
+        "kinds": [
+          "sight",
+          "plage",
+          "activity",
+          "transport"
+        ],
         "footer": "The Kyles viewpoint at evening light. The Secret Coast loop with the Ostel Bay walk at low tide. Inveraray at opening only. Crinan and Kilmartin on the slow day. The Bute gin hop. And fill the tank before Cowal — the village station's status is uncertain, so top up at Arrochar or Strachur on the way in."
       }
     ],

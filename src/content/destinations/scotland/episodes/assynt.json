@@ -8,7 +8,11 @@
       "thumbAlt": "Suilven rising alone over the Assynt moorland near Lochinver, northwest Highlands",
       "poiRef": "assynt-seafood-shack",
       "sources": [
-        { "creator": "CalMac — Stornoway–Ullapool", "url": "https://www.calmac.co.uk/en-gb/route-information/stornoway-ullapool/", "date": "2026-07" }
+        {
+          "creator": "CalMac — Stornoway–Ullapool",
+          "url": "https://www.calmac.co.uk/en-gb/route-information/stornoway-ullapool/",
+          "date": "2026-07"
+        }
       ],
       "focusPoi": "assynt-peets",
       "zoom": 9
@@ -21,9 +25,17 @@
       "thumbAlt": "Suilven rising alone over the Assynt moorland near Lochinver, northwest Highlands",
       "poiRef": "assynt-lochinver-larder",
       "sources": [
-        { "creator": "Lochinver Larder (official)", "url": "https://www.lochinverlarder.com/", "date": "2026-07" }
+        {
+          "creator": "Lochinver Larder (official)",
+          "url": "https://www.lochinverlarder.com/",
+          "date": "2026-07"
+        }
       ],
-      "boundsPois": ["assynt-achmelvich", "assynt-peets", "assynt-stac-pollaidh"]
+      "boundsPois": [
+        "assynt-achmelvich",
+        "assynt-peets",
+        "assynt-stac-pollaidh"
+      ]
     }
   ],
   "scenes": [
@@ -39,8 +51,16 @@
       "poiRef": "assynt-seafood-shack",
       "via": null,
       "sources": [
-        { "creator": "Ross-shire Journal — Seafood Shack permanent building", "url": "https://www.ross-shirejournal.co.uk/news/ullapool-seafood-shack-shares-plans-for-permanent-building-424447/", "date": "2026-04" },
-        { "creator": "Press & Journal — Ullapool Smokehouse (Iain Boyd)", "url": "https://www.pressandjournal.co.uk/fp/lifestyle/food-and-drink/6385707/ullapool-smokehouse-iain-boyd/", "date": "2024-01" }
+        {
+          "creator": "Ross-shire Journal — Seafood Shack permanent building",
+          "url": "https://www.ross-shirejournal.co.uk/news/ullapool-seafood-shack-shares-plans-for-permanent-building-424447/",
+          "date": "2026-04"
+        },
+        {
+          "creator": "Press & Journal — Ullapool Smokehouse (Iain Boyd)",
+          "url": "https://www.pressandjournal.co.uk/fp/lifestyle/food-and-drink/6385707/ullapool-smokehouse-iain-boyd/",
+          "date": "2024-01"
+        }
       ]
     },
     {
@@ -55,8 +75,16 @@
       "poiRef": "assynt-achmelvich",
       "via": null,
       "sources": [
-        { "creator": "Walkhighlands — Clashnessie Bay", "url": "https://www.walkhighlands.co.uk/ullapool/clashnessie-beach.shtml", "date": "2026-07" },
-        { "creator": "History Hit — Clachtoll Broch excavation", "url": "https://www.historyhit.com/the-archaeological-excavation-of-clachtoll-broch/", "date": "2024-01" }
+        {
+          "creator": "Walkhighlands — Clashnessie Bay",
+          "url": "https://www.walkhighlands.co.uk/ullapool/clashnessie-beach.shtml",
+          "date": "2026-07"
+        },
+        {
+          "creator": "History Hit — Clachtoll Broch excavation",
+          "url": "https://www.historyhit.com/the-archaeological-excavation-of-clachtoll-broch/",
+          "date": "2024-01"
+        }
       ]
     },
     {
@@ -71,8 +99,16 @@
       "poiRef": "assynt-falls-of-kirkaig",
       "via": null,
       "sources": [
-        { "creator": "Walkhighlands — Falls of Kirkaig", "url": "https://www.walkhighlands.co.uk/ullapool/falls-of-kirkaig.shtml", "date": "2026-07" },
-        { "creator": "Discover Assynt — Achins Bookshop", "url": "https://www.discoverassynt.co.uk/achins-bookshop", "date": "2026-07" }
+        {
+          "creator": "Walkhighlands — Falls of Kirkaig",
+          "url": "https://www.walkhighlands.co.uk/ullapool/falls-of-kirkaig.shtml",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Discover Assynt — Achins Bookshop",
+          "url": "https://www.discoverassynt.co.uk/achins-bookshop",
+          "date": "2026-07"
+        }
       ]
     },
     {
@@ -80,15 +116,23 @@
       "kicker": "The B869 · THE ROAD",
       "title": "The Drumbeg road — twenty-two miles the motorhomes refuse",
       "image": "as-scene-assynt-loch",
-      "alt": "A lone figure sitting on rock above Loch Assynt, mountains in cloud behind",
+      "alt": "A 'Passing Place' sign beside a single-track road running through rough Highland moorland, a jagged rocky peak rising behind.",
       "intro": "The B869 from Lochinver to Kylesku is the anti-NC500: twenty-two miles of genuine single-track over blind summits and around barrier-less bends, rated harder than the famous Applecross pass — which is precisely why the convoys route around it and you shouldn't. Past Drumbeg village there's a bend where the road crests and the whole northern seaboard opens at once: skerries, sea lochs, Quinag's ridgeline. No sign, no car park. You just come around the corner and the view happens.",
       "reco": "Morning, compact car, no schedule. Reversing into a passing place is normal etiquette, not a failure. At the Kylesku end, Wailing Widow Falls is a ten-minute return stroll from the roadside — thirty metres of water off Loch na Gainmhich, best after rain. Loop home past Ardvreck Castle on Loch Assynt for the five-minute photo stop, mountains doing the real work behind it.",
       "quote": "Rated harder than Applecross — which is exactly why the convoys stay away.",
       "poiRef": "assynt-drumbeg-loop",
       "via": null,
       "sources": [
-        { "creator": "Dangerous Roads — B869 Drumbeg", "url": "https://www.dangerousroads.org/europe/scotland/3860-b869-drumbeg-road.html", "date": "2026-07" },
-        { "creator": "Live Breathe Scotland — Wailing Widow Falls", "url": "https://www.livebreathescotland.com/wailing-widow-falls-assynt/", "date": "2026-07" }
+        {
+          "creator": "Dangerous Roads — B869 Drumbeg",
+          "url": "https://www.dangerousroads.org/europe/scotland/3860-b869-drumbeg-road.html",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Live Breathe Scotland — Wailing Widow Falls",
+          "url": "https://www.livebreathescotland.com/wailing-widow-falls-assynt/",
+          "date": "2026-07"
+        }
       ]
     },
     {
@@ -103,9 +147,21 @@
       "poiRef": "assynt-stac-pollaidh",
       "via": null,
       "sources": [
-        { "creator": "Walkhighlands — Stac Pollaidh", "url": "https://www.walkhighlands.co.uk/ullapool/stacpollaidh.shtml", "date": "2026-07" },
-        { "creator": "Summer Isles Sea Tours (official)", "url": "https://www.summerisles-seatours.co.uk/", "date": "2026-07" },
-        { "creator": "Am Fuaran Bar (official)", "url": "https://amfuaran.co.uk/", "date": "2026-07" }
+        {
+          "creator": "Walkhighlands — Stac Pollaidh",
+          "url": "https://www.walkhighlands.co.uk/ullapool/stacpollaidh.shtml",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Summer Isles Sea Tours (official)",
+          "url": "https://www.summerisles-seatours.co.uk/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Am Fuaran Bar (official)",
+          "url": "https://amfuaran.co.uk/",
+          "date": "2026-07"
+        }
       ]
     }
   ],
@@ -113,17 +169,39 @@
     {
       "kicker": "The rest of the chapter — and the way home",
       "body": "Also in these five days: the venison-and-cranberry pie that won Scotland's Best (Tue–Sat, closes at four — plan the pie-run), a duvet night of Larder pies and Spar wine with no driving after dark, the Bone Caves with a torch, and the eleven-o'clock gloaming that hands the beaches back to you every evening. Then June 10: Lochinver to Inverness is under two hours — with an afternoon flight, stop at Glen Ord in Muir of Ord for the last dram of the trip; with a morning one, skip it and just go. The field notes hold the numbers.",
-      "boundsPois": ["assynt-lochinver-larder", "assynt-bone-caves-ardvreck", "assynt-clashnessie", "assynt-achmelvich"],
-      "targets": ["assynt-lochinver-larder"],
+      "boundsPois": [
+        "assynt-lochinver-larder",
+        "assynt-bone-caves-ardvreck",
+        "assynt-clashnessie",
+        "assynt-achmelvich"
+      ],
+      "targets": [
+        "assynt-lochinver-larder"
+      ],
       "thumb": "as-croft",
-      "thumbAlt": "A small thatched croft house by the water at Little Assynt",
+      "thumbAlt": "A whitewashed Highland farmhouse and its outbuildings on green pasture above a curving sandy bay, ringed by low moorland hills, yellow gorse in the foreground.",
       "pills": [
-        { "poiRef": "assynt-lochinver-larder", "link": "official", "label": "Lochinver Larder — the pie" },
-        { "label": "The food notebook", "url": "#carnet" }
+        {
+          "poiRef": "assynt-lochinver-larder",
+          "link": "official",
+          "label": "Lochinver Larder — the pie"
+        },
+        {
+          "label": "The food notebook",
+          "url": "#carnet"
+        }
       ],
       "sources": [
-        { "creator": "Lochinver Larder — British Pie Awards", "url": "https://www.lochinverlarder.com/stories/the-lochinver-pie", "date": "2026-07" },
-        { "creator": "Glen Ord Distillery visitor centre", "url": "https://www.distillerytours.scot/distilleries/glen-ord-distillery-visitor-centre", "date": "2026-07" }
+        {
+          "creator": "Lochinver Larder — British Pie Awards",
+          "url": "https://www.lochinverlarder.com/stories/the-lochinver-pie",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Glen Ord Distillery visitor centre",
+          "url": "https://www.distillerytours.scot/distilleries/glen-ord-distillery-visitor-centre",
+          "date": "2026-07"
+        }
       ]
     }
   ],
@@ -131,17 +209,25 @@
     "groups": [
       {
         "label": "Where to sleep",
-        "kinds": ["hotel"],
+        "kinds": [
+          "hotel"
+        ],
         "footer": "Polcraig for the quietly-good budget bed, Davar for Suilven from the king room (three rooms — move fast), and the Suilven View Pod for the birthday-adjacent splurge: the mountain framed from a hot tub. Pods often sell by the week — confirm a 5-night rate, and keep Inver Lodge (5-star, formal) as the fallback."
       },
       {
         "label": "At the table",
-        "kinds": ["resto"],
+        "kinds": [
+          "resto"
+        ],
         "footer": "Peet's is the village dinner (closed Wednesdays, book), An Cala the daytime anchor, the Larder the lunch legend. Two evenings pair with the day's outing: Seafood Shack + Ullapool for one, Am Fuaran after the Coigach day for the other. One night stays in: pies, Spar wine, zero single-track after dark."
       },
       {
         "label": "See & do",
-        "kinds": ["sight", "plage", "activity"],
+        "kinds": [
+          "sight",
+          "plage",
+          "activity"
+        ],
         "footer": "Beaches before 9:30 or after 6 — June light holds to eleven. Drumbeg in the morning with a full tank (Lochinver Stores is the only pump). Stac Pollaidh early, boat at midday, langoustines after. Suilven the honest way: falls, bookshop, Fionn Loch reveal. Bring Smidge — early June midges are present but not yet in charge."
       }
     ],

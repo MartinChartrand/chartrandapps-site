@@ -188,7 +188,7 @@ export function writeImages(dest, images) {
  * Lance le vision-check d'une destination. Logique pure ; l'écriture disque est déléguée au caller.
  * @returns {{ exitCode:number, report:object, updated:Array|null, changed:boolean }}
  */
-export function visionImages({ dest, images, pois, dishes, gems, claudeBin = 'claude', timeoutMs = 300_000, ranAt, fileExists }) {
+export function visionImages({ dest, images, pois, dishes, gems, claudeBin = 'claude', timeoutMs = 300_000, batchSize = 0, ranAt, fileExists }) {
   const ts = ranAt ?? new Date().toISOString();
   const imgs = images ?? loadImages(dest);
   const targets = collectImageTargets({
@@ -205,25 +205,38 @@ export function visionImages({ dest, images, pois, dishes, gems, claudeBin = 'cl
     return { exitCode: 0, report, updated: imgs, changed: false };
   }
 
-  const prompt = buildVisionPrompt(targets, dest);
-  const { stdout, status, timedOut } = runClaude(prompt, { bin: claudeBin, timeoutMs });
+  // Lots (VISION_BATCH) : un gros manifeste dépasse le timeout d'un seul appel claude.
+  // Tous les lots doivent réussir — sinon rien n'est écrit (même contrat qu'avant).
+  const chunks = [];
+  const size = batchSize > 0 ? batchSize : targets.length;
+  for (let i = 0; i < targets.length; i += size) chunks.push(targets.slice(i, i + size));
 
-  if (status !== 0 || timedOut) {
-    const report = makeReport({ dest, script: 'vision-images', ranAt: ts, verdicts: [], incomplete: true });
-    return { exitCode: 2, report, updated: null, changed: false };
-  }
+  const allResults = [];
+  let anyIncomplete = false;
+  for (const chunk of chunks) {
+    const prompt = buildVisionPrompt(chunk, dest);
+    const { stdout, status, timedOut } = runClaude(prompt, { bin: claudeBin, timeoutMs });
 
-  const parsed = parseVisionOutput(stdout);
-  if (!parsed.ok) {
-    const report = makeReport({
-      dest,
-      script: 'vision-images',
-      ranAt: ts,
-      verdicts: [verdict(dest, 'inverifiable', `sortie claude non conforme : ${parsed.reason}`)],
-      incomplete: true,
-    });
-    return { exitCode: 2, report, updated: null, changed: false };
+    if (status !== 0 || timedOut) {
+      const report = makeReport({ dest, script: 'vision-images', ranAt: ts, verdicts: [], incomplete: true });
+      return { exitCode: 2, report, updated: null, changed: false };
+    }
+
+    const parsed = parseVisionOutput(stdout);
+    if (!parsed.ok) {
+      const report = makeReport({
+        dest,
+        script: 'vision-images',
+        ranAt: ts,
+        verdicts: [verdict(dest, 'inverifiable', `sortie claude non conforme : ${parsed.reason}`)],
+        incomplete: true,
+      });
+      return { exitCode: 2, report, updated: null, changed: false };
+    }
+    allResults.push(...parsed.data.results);
+    if (parsed.data.incomplete) anyIncomplete = true;
   }
+  const parsed = { data: { results: allResults, incomplete: anyIncomplete } };
 
   const { updated, changed, verdicts } = applyVisionResults(imgs, targets, parsed.data.results, ts);
   const hasMismatch = verdicts.some((v) => v.state === 'probleme');
@@ -240,13 +253,16 @@ function main() {
   const jsonOutput = args.includes('--json');
   const destArg = args.find((a) => !a.startsWith('--'));
   const claudeBin = process.env.CLAUDE_BIN ?? 'claude';
+  // VISION_TIMEOUT_MS / VISION_BATCH : overrides env pour les gros manifestes (défauts inchangés).
+  const timeoutMs = Number(process.env.VISION_TIMEOUT_MS ?? 300_000);
+  const batchSize = Number(process.env.VISION_BATCH ?? 0);
   const dests = destArg ? [destArg] : listDestinations();
 
   let anyMismatch = false;
   const ranAt = new Date().toISOString();
 
   for (const dest of dests) {
-    const { exitCode, report, updated, changed } = visionImages({ dest, claudeBin, ranAt });
+    const { exitCode, report, updated, changed } = visionImages({ dest, claudeBin, timeoutMs, batchSize, ranAt });
 
     if (exitCode === 2) {
       process.stderr.write(`vision-images [${dest}] — ERREUR : sortie claude non conforme ou crash (aucun fichier touché)\n`);

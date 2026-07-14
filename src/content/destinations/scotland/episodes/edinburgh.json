@@ -8,8 +8,16 @@
       "thumbAlt": "The Shore in Leith — old stone buildings and moored boats along the Water of Leith, Edinburgh's historic port",
       "poiRef": "edinburgh-fishers-leith",
       "sources": [
-        { "creator": "Edinburgh Trams (official)", "url": "https://edinburghtrams.com/", "date": "2026-07" },
-        { "creator": "Fishers Leith (official)", "url": "https://www.fishersrestaurants.co.uk/fishers-leith/", "date": "2026-07" }
+        {
+          "creator": "Edinburgh Trams (official)",
+          "url": "https://edinburghtrams.com/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Fishers Leith (official)",
+          "url": "https://www.fishersrestaurants.co.uk/fishers-leith/",
+          "date": "2026-07"
+        }
       ],
       "focusPoi": "edinburgh-fishers-leith",
       "zoom": 14
@@ -22,9 +30,17 @@
       "thumbAlt": "The Shore in Leith — old stone buildings and moored boats along the Water of Leith, Edinburgh's historic port",
       "poiRef": "edinburgh-dulse-leith",
       "sources": [
-        { "creator": "Edinburgh Festival Fringe (official dates)", "url": "https://www.edfringe.com/", "date": "2026-07" }
+        {
+          "creator": "Edinburgh Festival Fringe (official dates)",
+          "url": "https://www.edfringe.com/",
+          "date": "2026-07"
+        }
       ],
-      "boundsPois": ["edinburgh-fishers-leith", "edinburgh-stockbridge-market", "edinburgh-portobello-beach"]
+      "boundsPois": [
+        "edinburgh-fishers-leith",
+        "edinburgh-stockbridge-market",
+        "edinburgh-portobello-beach"
+      ]
     }
   ],
   "scenes": [
@@ -40,8 +56,16 @@
       "poiRef": "edinburgh-dulse-leith",
       "via": null,
       "sources": [
-        { "creator": "Dulse Leith (official)", "url": "https://www.dulse.co.uk/dulseleith", "date": "2026-07" },
-        { "creator": "It's Pippa — Edinburgh guide (Substack)", "url": "https://itspippa.substack.com/p/your-ultimate-guide-to-edinburgh", "date": "2025-01" }
+        {
+          "creator": "Dulse Leith (official)",
+          "url": "https://www.dulse.co.uk/dulseleith",
+          "date": "2026-07"
+        },
+        {
+          "creator": "It's Pippa — Edinburgh guide (Substack)",
+          "url": "https://itspippa.substack.com/p/your-ultimate-guide-to-edinburgh",
+          "date": "2025-01"
+        }
       ]
     },
     {
@@ -49,15 +73,26 @@
       "kicker": "Newhaven · THE HARBOUR WALL",
       "title": "The Fishmarket — fish and chips with your feet over the water",
       "image": "ed-scene-newhaven",
-      "alt": "A fishing boat in the water near a small lighthouse",
+      "alt": "A tall white lighthouse with a rose-tinted stone base and a yellow lantern room at the end of a stone harbour pier at sunset, calm estuary water beyond, with waterside apartments and two distant bridge silhouettes on the horizon.",
       "intro": "Newhaven is a fishing village the city grew around and forgot to ruin: a stone harbour, a stub of a lighthouse, and a Victorian fishmonger's counter that now fries fish to order. Phil Rosenthal ate here for Somebody Feed Phil's Scotland episode, which means the secret is technically out — but on a Tuesday in May it's still just you, the gulls negotiating, and Fife across the water.",
       "reco": "The Fishmarket, 23A Pier Place, Newhaven — open seven days, 11am–10pm. Order at the hatch: haddock and chips, half a dozen oysters if the counter has them, and take it to the harbour wall. The tram's Newhaven terminus is steps away. ~CAD 22–35, no reservation, no ceremony.",
       "quote": "A fishmonger's counter, a harbour wall, and Fife across the water. Lunch solved.",
       "poiRef": "edinburgh-the-fishmarket-newhaven",
-      "via": { "label": "📺 Somebody Feed Phil — Scotland (S7E8, Netflix, 2024)", "url": "https://www.imdb.com/title/tt31170495/" },
+      "via": {
+        "label": "📺 Somebody Feed Phil — Scotland (S7E8, Netflix, 2024)",
+        "url": "https://www.imdb.com/title/tt31170495/"
+      },
       "sources": [
-        { "creator": "The Fishmarket Newhaven (official)", "url": "https://www.thefishmarketnewhaven.co.uk/", "date": "2026-07" },
-        { "creator": "Somebody Feed Phil S7E8 (Netflix)", "url": "https://www.imdb.com/title/tt31170495/", "date": "2024-03" }
+        {
+          "creator": "The Fishmarket Newhaven (official)",
+          "url": "https://www.thefishmarketnewhaven.co.uk/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Somebody Feed Phil S7E8 (Netflix)",
+          "url": "https://www.imdb.com/title/tt31170495/",
+          "date": "2024-03"
+        }
       ]
     },
     {
@@ -72,7 +107,11 @@
       "poiRef": "edinburgh-soul-water-sauna",
       "via": null,
       "sources": [
-        { "creator": "Soul Water Sauna (official)", "url": "https://www.soulwatersauna.com/", "date": "2026-07" }
+        {
+          "creator": "Soul Water Sauna (official)",
+          "url": "https://www.soulwatersauna.com/",
+          "date": "2026-07"
+        }
       ]
     },
     {
@@ -87,8 +126,16 @@
       "poiRef": "edinburgh-stockbridge-market",
       "via": null,
       "sources": [
-        { "creator": "Stockbridge Market (official)", "url": "https://www.stockbridgemarket.com/", "date": "2026-07" },
-        { "creator": "Water of Leith Conservation Trust", "url": "https://www.waterofleith.org.uk/walkway/", "date": "2026-07" }
+        {
+          "creator": "Stockbridge Market (official)",
+          "url": "https://www.stockbridgemarket.com/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Water of Leith Conservation Trust",
+          "url": "https://www.waterofleith.org.uk/walkway/",
+          "date": "2026-07"
+        }
       ]
     },
     {
@@ -103,7 +150,11 @@
       "poiRef": "edinburgh-port-of-leith-distillery",
       "via": null,
       "sources": [
-        { "creator": "Port of Leith Distillery (official)", "url": "https://www.leithdistillery.com/", "date": "2026-07" }
+        {
+          "creator": "Port of Leith Distillery (official)",
+          "url": "https://www.leithdistillery.com/",
+          "date": "2026-07"
+        }
       ]
     }
   ],
@@ -111,18 +162,44 @@
     {
       "kicker": "The rest of the chapter",
       "body": "What the five scenes don't cover: the smoked-fish platter under the windmill at Fishers, cocktails out of mismatched teapots at Roseleaf (Phil found it too), sourdough doughnuts from Twelve Triangles eaten standing up, one 4:30am alarm for Arthur's Seat while the city sleeps, and the accidental finds — Circus Lane, the ivy-swallowed Victorian graves at Warriston, a Gormley statue standing in the river. The field notes hold every address, price and link.",
-      "boundsPois": ["edinburgh-fishers-leith", "edinburgh-roseleaf", "edinburgh-arthurs-seat-sunrise", "edinburgh-portobello-beach"],
-      "targets": ["edinburgh-fishers-leith"],
+      "boundsPois": [
+        "edinburgh-fishers-leith",
+        "edinburgh-roseleaf",
+        "edinburgh-arthurs-seat-sunrise",
+        "edinburgh-portobello-beach"
+      ],
+      "targets": [
+        "edinburgh-fishers-leith"
+      ],
       "thumb": "ed-gem-circus-lane",
-      "thumbAlt": "Colourful old mews houses lining a curved cobblestone lane",
+      "thumbAlt": "A curved cobbled mews lane lined with low converted stable-houses, ivy and flowering shrubs along the walls, a church clock-tower spire at the end of the lane.",
       "pills": [
-        { "poiRef": "edinburgh-fishers-leith", "link": "maps", "label": "Fishers Leith · Maps" },
-        { "label": "The food notebook", "url": "#carnet" }
+        {
+          "poiRef": "edinburgh-fishers-leith",
+          "link": "maps",
+          "label": "Fishers Leith · Maps"
+        },
+        {
+          "label": "The food notebook",
+          "url": "#carnet"
+        }
       ],
       "sources": [
-        { "creator": "Roseleaf (official)", "url": "https://www.roseleaf.co.uk/", "date": "2026-07" },
-        { "creator": "Somebody Feed Phil S7E8 (Netflix)", "url": "https://www.imdb.com/title/tt31170495/", "date": "2024-03" },
-        { "creator": "Twelve Triangles (official)", "url": "https://twelvetriangles.co.uk/", "date": "2026-07" }
+        {
+          "creator": "Roseleaf (official)",
+          "url": "https://www.roseleaf.co.uk/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Somebody Feed Phil S7E8 (Netflix)",
+          "url": "https://www.imdb.com/title/tt31170495/",
+          "date": "2024-03"
+        },
+        {
+          "creator": "Twelve Triangles (official)",
+          "url": "https://twelvetriangles.co.uk/",
+          "date": "2026-07"
+        }
       ]
     }
   ],
@@ -130,17 +207,25 @@
     "groups": [
       {
         "label": "Where to sleep",
-        "kinds": ["hotel"],
+        "kinds": [
+          "hotel"
+        ],
         "footer": "Three registers: A-Haven Townhouse for the budget nights (ask for a back room), Nira Caledonia for Georgian-townhouse comfort on the Stockbridge edge, and one splurge night aboard Fingal — a converted lighthouse ship with 23 cabins, booked months ahead. Nobody needs all five nights on the ship; one is a story."
       },
       {
         "label": "At the table",
-        "kinds": ["resto"],
+        "kinds": [
+          "resto"
+        ],
         "footer": "Dulse for the seafood boil (Wed–Sun, small room, phone ahead). Fishers under the windmill for the smoked-fish platter. The Fishmarket hatch at Newhaven for fish and chips on the harbour wall. Twelve Triangles before 10am for the doughnuts. Roseleaf for all-day brunch and a teapot cocktail — say hi to the regulars, they were here before Netflix."
       },
       {
         "label": "See & do",
-        "kinds": ["sight", "plage", "activity"],
+        "kinds": [
+          "sight",
+          "plage",
+          "activity"
+        ],
         "footer": "Dean Village early, then the river path to Stockbridge. Sunday market on Saunders Street (10–4, year-round). Portobello for the sauna-and-sea routine. Newhaven pier for the light on the Forth. One dawn: Arthur's Seat from Dunsapie Loch, headlamp on, summit before 5am. One late afternoon: the Port of Leith tour, dram included."
       }
     ],

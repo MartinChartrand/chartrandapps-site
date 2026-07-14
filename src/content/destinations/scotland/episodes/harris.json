@@ -8,7 +8,11 @@
       "thumbAlt": "Seilebost dunes and turquoise shallows at low tide — Isle of Harris, Outer Hebrides",
       "poiRef": "harris-hotel-hebrides",
       "sources": [
-        { "creator": "CalMac — Uig–Tarbert (Harris)", "url": "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/", "date": "2026-07" }
+        {
+          "creator": "CalMac — Uig–Tarbert (Harris)",
+          "url": "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/",
+          "date": "2026-07"
+        }
       ],
       "focusPoi": "harris-hotel-hebrides",
       "zoom": 9
@@ -21,9 +25,17 @@
       "thumbAlt": "Seilebost dunes and turquoise shallows at low tide — Isle of Harris, Outer Hebrides",
       "poiRef": "harris-luskentyre-seilebost",
       "sources": [
-        { "creator": "Stories My Suitcase Could Tell — Katie MacLeod (Hebrides local)", "url": "https://storiesmysuitcasecouldtell.com/2019/08/22/best-restaurants-in-lewis-and-harris/", "date": "2019-08" }
+        {
+          "creator": "Stories My Suitcase Could Tell — Katie MacLeod (Hebrides local)",
+          "url": "https://storiesmysuitcasecouldtell.com/2019/08/22/best-restaurants-in-lewis-and-harris/",
+          "date": "2019-08"
+        }
       ],
-      "boundsPois": ["harris-luskentyre-seilebost", "harris-north-harbour-bistro", "harris-st-clements-rodel"]
+      "boundsPois": [
+        "harris-luskentyre-seilebost",
+        "harris-north-harbour-bistro",
+        "harris-st-clements-rodel"
+      ]
     }
   ],
   "scenes": [
@@ -39,8 +51,16 @@
       "poiRef": "harris-luskentyre-seilebost",
       "via": null,
       "sources": [
-        { "creator": "Scotland Less Explored — Luskentyre guide", "url": "https://scotlandlessexplored.com/", "date": "2025-01" },
-        { "creator": "Stories My Suitcase Could Tell — Katie MacLeod", "url": "https://storiesmysuitcasecouldtell.com/", "date": "2025-11" }
+        {
+          "creator": "Scotland Less Explored — Luskentyre guide",
+          "url": "https://scotlandlessexplored.com/",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Stories My Suitcase Could Tell — Katie MacLeod",
+          "url": "https://storiesmysuitcasecouldtell.com/",
+          "date": "2025-11"
+        }
       ]
     },
     {
@@ -55,9 +75,21 @@
       "poiRef": "harris-croft36",
       "via": null,
       "sources": [
-        { "creator": "Croft36 (official)", "url": "https://croft36northton.wixsite.com/home", "date": "2026-07" },
-        { "creator": "North Harbour Bistro (official)", "url": "https://www.northharbourbistro.co.uk/", "date": "2026-07" },
-        { "creator": "Stories My Suitcase Could Tell — Katie MacLeod (Hebrides local)", "url": "https://storiesmysuitcasecouldtell.com/2019/08/22/best-restaurants-in-lewis-and-harris/", "date": "2019-08" }
+        {
+          "creator": "Croft36 (official)",
+          "url": "https://croft36northton.wixsite.com/home",
+          "date": "2026-07"
+        },
+        {
+          "creator": "North Harbour Bistro (official)",
+          "url": "https://www.northharbourbistro.co.uk/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Stories My Suitcase Could Tell — Katie MacLeod (Hebrides local)",
+          "url": "https://storiesmysuitcasecouldtell.com/2019/08/22/best-restaurants-in-lewis-and-harris/",
+          "date": "2019-08"
+        }
       ]
     },
     {
@@ -65,14 +97,18 @@
       "kicker": "Tarbert · THE DRAM",
       "title": "The social distillery — kelp gin and the island's first whisky",
       "image": "ha-scene-loch",
-      "alt": "A moody Harris loch under low cloud, rock and heather at the shore",
+      "alt": "A close-up of a large copper pot still with its swan-neck rising, in a distillery still room.",
       "intro": "The Isle of Harris Distillery was built to keep young people on the island, and calls itself the social distillery without irony — there's a peat fire always burning in the visitor centre and a canteen where locals actually eat. The gin gets its saline finish from sugar kelp hand-harvested by a local diver; The Hearach, first released in 2023, is the first single malt ever distilled, matured and bottled entirely on Harris. For the whisky-curious, this is the second and last distillery of the trip — and the better story.",
       "reco": "Tours Monday–Friday at 10am, 12pm and 2pm, 75 minutes, gin and whisky samples included — book ahead, closed Sundays. Buy the gin (the bottle alone, ribbed like water, earns its shelf space) and a dram-sized Hearach. The peat fire and canteen are free to anyone. ~CAD 37–65 for the tour.",
       "quote": "A distillery built to keep the island's young people home. The gin tastes of the sea because it is.",
       "poiRef": "harris-distillery",
       "via": null,
       "sources": [
-        { "creator": "Isle of Harris Distillery (official)", "url": "https://www.harrisdistillery.com/pages/distillery-tours", "date": "2026-07" }
+        {
+          "creator": "Isle of Harris Distillery (official)",
+          "url": "https://www.harrisdistillery.com/pages/distillery-tours",
+          "date": "2026-07"
+        }
       ]
     },
     {
@@ -80,15 +116,23 @@
       "kicker": "North Harris · THE SINGLE-TRACK",
       "title": "The road to Hushinish — twelve miles of negotiation",
       "image": "ha-scene-road",
-      "alt": "A single-track road winding through the hills of Harris",
+      "alt": "A narrow single-track lane, no centre line, running down between fenced fields to a scattering of white croft houses at the sea's edge, low hills across the water.",
       "intro": "The B887 to Hushinish is twelve miles of single-track that takes forty-five minutes when the sheep are feeling reasonable — switchbacks, blind crests, a castle gate you drive straight through, passing places doing their quiet choreography. At the end: a sheltered white-sand bay looking straight at the uninhabited island of Scarp, where the sheep follow you onto the beach and the only sound is water. The drive is the price. The beach is the reward. Both are the point.",
       "reco": "Allow a half day: 45 minutes out, longer back (you'll stop more), late-afternoon light on the machair if you can time it. Fill the tank first — Ardhasaig station north of Tarbert is the last fuel. Swim if you're brave; the bay is sheltered. Free.",
       "quote": "Sheep contest every blind corner, and the beach at the end looks like a reward for surviving the drive.",
       "poiRef": "harris-hushinish",
       "via": null,
       "sources": [
-        { "creator": "Scotland Less Explored — Hushinish", "url": "https://scotlandlessexplored.com/", "date": "2025-01" },
-        { "creator": "Visit Outer Hebrides — practical info", "url": "https://www.visitouterhebrides.co.uk/", "date": "2026-07" }
+        {
+          "creator": "Scotland Less Explored — Hushinish",
+          "url": "https://scotlandlessexplored.com/",
+          "date": "2025-01"
+        },
+        {
+          "creator": "Visit Outer Hebrides — practical info",
+          "url": "https://www.visitouterhebrides.co.uk/",
+          "date": "2026-07"
+        }
       ]
     },
     {
@@ -103,8 +147,16 @@
       "poiRef": "harris-st-clements-rodel",
       "via": null,
       "sources": [
-        { "creator": "Historic Environment Scotland — St Clement's", "url": "https://www.historicenvironment.scot/visit-a-place/places/st-clements-church/", "date": "2026-07" },
-        { "creator": "Skoon Art Cafe (official)", "url": "https://skoon.com/", "date": "2026-07" }
+        {
+          "creator": "Historic Environment Scotland — St Clement's",
+          "url": "https://www.historicenvironment.scot/visit-a-place/places/st-clements-church/",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Skoon Art Cafe (official)",
+          "url": "https://skoon.com/",
+          "date": "2026-07"
+        }
       ]
     }
   ],
@@ -112,17 +164,39 @@
     {
       "kicker": "The rest of the chapter",
       "body": "Also inside these five days, weather permitting: the half-day lighthouse walk on Scalpay to the 1824 Stevenson light and its improbable coffee shop; a boat from Leverburgh — the full St Kilda pilgrimage or the gentler seal-and-sea-eagle run; Donald John Mackay's Harris Tweed loom at Luskentyre (call ahead — the man wove for Nike from a shed by the beach); and the deep-south beaches at Scarista and Horgabost, deserted before 9am even in June. The field notes carry every number, tide caveat and booking window.",
-      "boundsPois": ["harris-scalpay-eilean-glas", "harris-boat-trip", "harris-luskentyre-seilebost", "harris-st-clements-rodel"],
-      "targets": ["harris-boat-trip"],
+      "boundsPois": [
+        "harris-scalpay-eilean-glas",
+        "harris-boat-trip",
+        "harris-luskentyre-seilebost",
+        "harris-st-clements-rodel"
+      ],
+      "targets": [
+        "harris-boat-trip"
+      ],
       "thumb": "ha-track",
-      "thumbAlt": "A gravel single-track road crossing open moorland on the Isle of Harris",
+      "thumbAlt": "A view over interlocking sea lochs and lochans cutting through rocky moorland, white-walled croft houses scattered along the low hills.",
       "pills": [
-        { "poiRef": "harris-boat-trip", "link": "official", "label": "Kilda Cruises — book early" },
-        { "label": "The food notebook", "url": "#carnet" }
+        {
+          "poiRef": "harris-boat-trip",
+          "link": "official",
+          "label": "Kilda Cruises — book early"
+        },
+        {
+          "label": "The food notebook",
+          "url": "#carnet"
+        }
       ],
       "sources": [
-        { "creator": "Kilda Cruises (official)", "url": "https://www.kildacruises.co.uk/st-kilda", "date": "2026-07" },
-        { "creator": "Country Life — Donald John Mackay MBE", "url": "https://www.countrylife.co.uk/", "date": "2024-01" }
+        {
+          "creator": "Kilda Cruises (official)",
+          "url": "https://www.kildacruises.co.uk/st-kilda",
+          "date": "2026-07"
+        },
+        {
+          "creator": "Country Life — Donald John Mackay MBE",
+          "url": "https://www.countrylife.co.uk/",
+          "date": "2024-01"
+        }
       ]
     }
   ],
@@ -130,17 +204,25 @@
     "groups": [
       {
         "label": "Where to sleep",
-        "kinds": ["hotel"],
+        "kinds": [
+          "hotel"
+        ],
         "footer": "Tigh na Mara for honest value by the Tarbert pier; Hotel Hebrides when you want the Pierhouse and The Mote bar downstairs; and the Rock House at Borve — stone, glass, and the Atlantic arriving on your private bay — as THE birthday splurge. Luxury self-catering on Harris books 6–12 months out: move early, and keep The Broch as the fallback."
       },
       {
         "label": "At the table",
-        "kinds": ["resto"],
+        "kinds": [
+          "resto"
+        ],
         "footer": "The rhythm: Croft36 before noon (honesty box, closed Sundays), North Harbour Bistro on Scalpay for the creel-boat dinner (call first), the Anchorage for sunset langoustines at Leverburgh, and one booked-ahead candlelit set menu at Scarista House. Groceries at the Tarbert Co-op — closed Sundays, like almost everything human-run out here."
       },
       {
         "label": "See & do",
-        "kinds": ["sight", "plage", "activity"],
+        "kinds": [
+          "sight",
+          "plage",
+          "activity"
+        ],
         "footer": "Luskentyre and Seilebost at mid-to-low tide, early. Hushinish with a full tank. The Golden Road with time to stop. Rodel in morning light. The Scalpay lighthouse loop if the legs want it, a Leverburgh boat if the Atlantic allows. Petrol: Ardhasaig (north of Tarbert) and the Leverburgh community shop — the only pumps in South Harris."
       }
     ],

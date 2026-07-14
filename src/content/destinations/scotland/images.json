@@ -123,7 +123,7 @@
     "id": "ed-scene-dulse",
     "slot": "ed-scene-dulse",
     "base": "edinburgh",
-    "role": "scene",
+    "role": "photo",
     "file": "ed-scene-dulse.jpg",
     "alt": "A plate of fresh oysters on ice with lemon wedges",
     "layout": "wide",
@@ -135,31 +135,43 @@
       "license": "unsplash-standard"
     },
     "sha256": "9ac7d6b20627ae0c592c0815b69c3c2f0e652f4b06f4ea36f56b842b080143e4",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "9ac7d6b20627ae0c592c0815b69c3c2f0e652f4b06f4ea36f56b842b080143e4",
+      "alt": "A plate of fresh oysters on ice with lemon wedges",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ed-scene-newhaven",
     "slot": "ed-scene-newhaven",
     "base": "edinburgh",
-    "role": "scene",
+    "role": "photo",
     "file": "ed-scene-newhaven.jpg",
-    "alt": "A fishing boat in the water near a small lighthouse",
+    "alt": "A tall white lighthouse with a rose-tinted stone base and a yellow lantern room at the end of a stone harbour pier at sunset, calm estuary water beyond, with waterside apartments and two distant bridge silhouettes on the horizon.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1687706418918-1c95d829b478",
-      "photographer": "Nick Fewings",
+      "photoId": "photo-1720885409238-5ab2a47b1274",
+      "photographer": "Andrew Dawes",
       "license": "unsplash-standard"
     },
-    "sha256": "c55bec96431a6a79b7973687077a668f2ba489a9669f64ab432459fc1295e167",
-    "visionChecked": "pending"
+    "sha256": "e91dcc1f6fe2cf67b1718c8270840fd1db809757f7e7e99e6612e1b41b581002",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "e91dcc1f6fe2cf67b1718c8270840fd1db809757f7e7e99e6612e1b41b581002",
+      "alt": "A tall white lighthouse with a rose-tinted stone base and a yellow lantern room at the end of a stone harbour pier at sunset, calm estuary water beyond, with waterside apartments and two distant bridge silhouettes on the horizon.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ed-scene-portobello",
     "slot": "ed-scene-portobello",
     "base": "edinburgh",
-    "role": "scene",
+    "role": "photo",
     "file": "ed-scene-portobello.jpg",
     "alt": "A person walking on a wide sandy beach at sunset",
     "layout": "wide",
@@ -171,13 +183,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "aefb96df276e5628072df283eddf7c9860fce5d970ee41c111aa1aaed303b6b6",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "aefb96df276e5628072df283eddf7c9860fce5d970ee41c111aa1aaed303b6b6",
+      "alt": "A person walking on a wide sandy beach at sunset",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ed-scene-stockbridge",
     "slot": "ed-scene-stockbridge",
     "base": "edinburgh",
-    "role": "scene",
+    "role": "photo",
     "file": "ed-scene-stockbridge.jpg",
     "alt": "Historic stone buildings lining a small river in a European city",
     "layout": "wide",
@@ -189,13 +207,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "aeb8693a41cdf00eaff8d9534c8f0c906590c9081ec57d0ddc71de01ee590ef9",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "aeb8693a41cdf00eaff8d9534c8f0c906590c9081ec57d0ddc71de01ee590ef9",
+      "alt": "Historic stone buildings lining a small river in a European city",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ed-scene-distillery",
     "slot": "ed-scene-distillery",
     "base": "edinburgh",
-    "role": "scene",
+    "role": "photo",
     "file": "ed-scene-distillery.jpg",
     "alt": "A glass of whisky on a wooden table",
     "layout": "wide",
@@ -207,31 +231,43 @@
       "license": "unsplash-standard"
     },
     "sha256": "5393becee5282dc684d046e2b6fe679f1aefe5a8a2dc5e4b68993d3832797df7",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "5393becee5282dc684d046e2b6fe679f1aefe5a8a2dc5e4b68993d3832797df7",
+      "alt": "A glass of whisky on a wooden table",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ed-gem-circus-lane",
     "slot": "ed-gem-circus-lane",
     "base": "edinburgh",
-    "role": "gem",
+    "role": "photo",
     "file": "ed-gem-circus-lane.jpg",
-    "alt": "Colourful old mews houses lining a curved cobblestone lane",
+    "alt": "A curved cobbled mews lane lined with low converted stable-houses, ivy and flowering shrubs along the walls, a church clock-tower spire at the end of the lane.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1760042907170-c1d948aaa935",
-      "photographer": "Jonathan Rathgeb",
+      "photoId": "photo-1620492090058-4ce64d1470d6",
+      "photographer": "Chloe Frost-Smith",
       "license": "unsplash-standard"
     },
-    "sha256": "9104a2260c0e9d2aba55f849e97701033074a91b073077a7a86a4d20aa8a6d31",
-    "visionChecked": "pending"
+    "sha256": "d0bcf655c7a8aed53b7fd9fb1ad55be8179fc420fa7cfffc3a359aec386d5183",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "d0bcf655c7a8aed53b7fd9fb1ad55be8179fc420fa7cfffc3a359aec386d5183",
+      "alt": "A curved cobbled mews lane lined with low converted stable-houses, ivy and flowering shrubs along the walls, a church clock-tower spire at the end of the lane.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ar-scene-lochfyne",
     "slot": "ar-scene-lochfyne",
     "base": "argyll",
-    "role": "scene",
+    "role": "photo",
     "file": "ar-scene-lochfyne.jpg",
     "alt": "Sunset over the still water of Loch Fyne, Scotland",
     "layout": "wide",
@@ -243,31 +279,43 @@
       "license": "unsplash-standard"
     },
     "sha256": "b6dcf5c1095da5f7075736c715430ec3b385caca83e9fedbd9381a37ba168da4",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "b6dcf5c1095da5f7075736c715430ec3b385caca83e9fedbd9381a37ba168da4",
+      "alt": "Sunset over the still water of Loch Fyne, Scotland",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ar-scene-coast",
     "slot": "ar-scene-coast",
     "base": "argyll",
-    "role": "scene",
+    "role": "photo",
     "file": "ar-scene-coast.jpg",
-    "alt": "Rocky shoreline and calm water near Crinan, on Argyll's west coast",
+    "alt": "An empty rocky and sandy Scottish beach at low tide — dark seaweed-covered rocks, calm sea, and a hazy silhouette of low mountains across the water in evening light. Nobody in sight.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1560901017-01e1dcde2bd5",
-      "photographer": "Einar H. Reynis",
+      "photoId": "photo-1678448946826-965a4db67a15",
+      "photographer": "Andrew Dawes",
       "license": "unsplash-standard"
     },
-    "sha256": "539c20e68a163e74dbb4de629bd77c2b2f21e391b9df6c8c86eff5c59894f027",
-    "visionChecked": "pending"
+    "sha256": "180e31c728802bcb0edecf3bc884df5077e60e1ce4681e865c5c2de2b6fcc4d7",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "180e31c728802bcb0edecf3bc884df5077e60e1ce4681e865c5c2de2b6fcc4d7",
+      "alt": "An empty rocky and sandy Scottish beach at low tide — dark seaweed-covered rocks, calm sea, and a hazy silhouette of low mountains across the water in evening light. Nobody in sight.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ar-scene-dinner",
     "slot": "ar-scene-dinner",
     "base": "argyll",
-    "role": "scene",
+    "role": "photo",
     "file": "ar-scene-dinner.jpg",
     "alt": "Evening dinner view over a still Scottish loch, the water flat as oil",
     "layout": "wide",
@@ -279,13 +327,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "5f91e6c7a9d86d5b3cb17828cf79957616da517834478355ca4753c4ec524e67",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "5f91e6c7a9d86d5b3cb17828cf79957616da517834478355ca4753c4ec524e67",
+      "alt": "Evening dinner view over a still Scottish loch, the water flat as oil",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ar-scene-kintyre",
     "slot": "ar-scene-kintyre",
     "base": "argyll",
-    "role": "scene",
+    "role": "photo",
     "file": "ar-scene-kintyre.jpg",
     "alt": "A small blue fishing boat tied up at its moorings on the west coast",
     "layout": "tall",
@@ -297,13 +351,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "6d02243b861eb6e40b6fb6679e501dfc4d3cc37fff380116d0b7e6fc0175a246",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "6d02243b861eb6e40b6fb6679e501dfc4d3cc37fff380116d0b7e6fc0175a246",
+      "alt": "A small blue fishing boat tied up at its moorings on the west coast",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ar-inveraray",
     "slot": "ar-inveraray",
     "base": "argyll",
-    "role": "thumb",
+    "role": "photo",
     "file": "ar-inveraray.jpg",
     "alt": "Inveraray Castle with its grey conical towers, Argyll",
     "layout": "wide",
@@ -315,15 +375,21 @@
       "license": "unsplash-standard"
     },
     "sha256": "fcc1e144b061ffd81739150b179d1acd1b34310218f7fa47e32b6739fc45ad94",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "fcc1e144b061ffd81739150b179d1acd1b34310218f7fa47e32b6739fc45ad94",
+      "alt": "Inveraray Castle with its grey conical towers, Argyll",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ar-transit-skye",
     "slot": "ar-transit-skye",
     "base": "argyll",
-    "role": "thumb",
+    "role": "photo",
     "file": "ar-transit-skye.jpg",
-    "alt": "A winding single-track road through green mountains on the Isle of Skye",
+    "alt": "A road winding through the green mountains of the Isle of Skye.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -333,13 +399,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "3dac907419376bc6540929858fdd3141ae90c781bbf391a2cf809bb010681245",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "3dac907419376bc6540929858fdd3141ae90c781bbf391a2cf809bb010681245",
+      "alt": "A road winding through the green mountains of the Isle of Skye.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ha-scene-luskentyre",
     "slot": "ha-scene-luskentyre",
     "base": "harris",
-    "role": "scene",
+    "role": "photo",
     "file": "ha-scene-luskentyre.jpg",
     "alt": "Turquoise water meeting white sand at Luskentyre with hills across the sound",
     "layout": "tall",
@@ -351,13 +423,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "99f9afb5d19354d68d5c7602f63ad64e3dd98488bdca83196858f948a43da4a0",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "99f9afb5d19354d68d5c7602f63ad64e3dd98488bdca83196858f948a43da4a0",
+      "alt": "Turquoise water meeting white sand at Luskentyre with hills across the sound",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ha-scene-scarista",
     "slot": "ha-scene-scarista",
     "base": "harris",
-    "role": "scene",
+    "role": "photo",
     "file": "ha-scene-scarista.jpg",
     "alt": "Dune grass above a white-sand beach on the Isle of Harris",
     "layout": null,
@@ -369,49 +447,67 @@
       "license": "unsplash-standard"
     },
     "sha256": "adf906c245dfb628bc29b9801ec4317bea1b019b86db31a53fc227d6a7d2cad3",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "adf906c245dfb628bc29b9801ec4317bea1b019b86db31a53fc227d6a7d2cad3",
+      "alt": "Dune grass above a white-sand beach on the Isle of Harris",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ha-scene-loch",
     "slot": "ha-scene-loch",
     "base": "harris",
-    "role": "scene",
+    "role": "photo",
     "file": "ha-scene-loch.jpg",
-    "alt": "A moody Harris loch under low cloud, rock and heather at the shore",
+    "alt": "A close-up of a large copper pot still with its swan-neck rising, in a distillery still room.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1536779694786-3d45305c850d",
-      "photographer": "Fraser McFadzean",
+      "photoId": "photo-1445140463371-d8036feedc2f",
+      "photographer": "Martin Martz",
       "license": "unsplash-standard"
     },
-    "sha256": "954a1e766793dbff91d9e8cbf176354ce77be758fa15b99b8c75d6c43dcb0124",
-    "visionChecked": "pending"
+    "sha256": "a8bc7cffaa1f8fae6bd5b351ee724d62e9ea498ca4e0193b0f0e21592f362c43",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "a8bc7cffaa1f8fae6bd5b351ee724d62e9ea498ca4e0193b0f0e21592f362c43",
+      "alt": "A close-up of a large copper pot still with its swan-neck rising, in a distillery still room.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ha-scene-road",
     "slot": "ha-scene-road",
     "base": "harris",
-    "role": "scene",
+    "role": "photo",
     "file": "ha-scene-road.jpg",
-    "alt": "A single-track road winding through the hills of Harris",
+    "alt": "A narrow single-track lane, no centre line, running down between fenced fields to a scattering of white croft houses at the sea's edge, low hills across the water.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1536947537443-d4467bd5c753",
-      "photographer": "Fraser McFadzean",
+      "photoId": "photo-1745943451986-9eb7c688fca0",
+      "photographer": "Ian Ward",
       "license": "unsplash-standard"
     },
-    "sha256": "81e53e3a93f589805637ddbaa87477b3b0f4e3738ccd258679a1db182036fdc8",
-    "visionChecked": "pending"
+    "sha256": "5946105773149fdf6e0dfe17025119f178bf2adafcb41a0098c0e371e6284649",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "5946105773149fdf6e0dfe17025119f178bf2adafcb41a0098c0e371e6284649",
+      "alt": "A narrow single-track lane, no centre line, running down between fenced fields to a scattering of white croft houses at the sea's edge, low hills across the water.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ha-scene-swell",
     "slot": "ha-scene-swell",
     "base": "harris",
-    "role": "scene",
+    "role": "photo",
     "file": "ha-scene-swell.jpg",
     "alt": "Atlantic swell rolling toward the rocky shore of the Isle of Harris",
     "layout": null,
@@ -423,31 +519,43 @@
       "license": "unsplash-standard"
     },
     "sha256": "f2dfe2a3e750e96102fb9b493f7aa552de0aece1265a2ed26a2296335b2dd505",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "f2dfe2a3e750e96102fb9b493f7aa552de0aece1265a2ed26a2296335b2dd505",
+      "alt": "Atlantic swell rolling toward the rocky shore of the Isle of Harris",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "ha-track",
     "slot": "ha-track",
     "base": "harris",
-    "role": "thumb",
+    "role": "photo",
     "file": "ha-track.jpg",
-    "alt": "A gravel single-track road crossing open moorland on the Isle of Harris",
+    "alt": "A view over interlocking sea lochs and lochans cutting through rocky moorland, white-walled croft houses scattered along the low hills.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1536779632303-4dadfa69394a",
-      "photographer": "Fraser McFadzean",
+      "photoId": "photo-1723535477394-fb2f1f4c7d02",
+      "photographer": "martin bennie",
       "license": "unsplash-standard"
     },
-    "sha256": "e91938870ebdc820802c4bc7f5daf5a17c30b9e8893d1bd94d3d011fb6bc8d74",
-    "visionChecked": "pending"
+    "sha256": "ba1bd16ddebf1db932b4039973f56366390f9a645957e3e92dcb1dfc9652304f",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "ba1bd16ddebf1db932b4039973f56366390f9a645957e3e92dcb1dfc9652304f",
+      "alt": "A view over interlocking sea lochs and lochans cutting through rocky moorland, white-walled croft houses scattered along the low hills.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "as-scene-shack",
     "slot": "as-scene-shack",
     "base": "assynt",
-    "role": "scene",
+    "role": "photo",
     "file": "as-scene-shack.jpg",
     "alt": "Lobster and crab creels stacked on the harbour at Ullapool",
     "layout": "wide",
@@ -459,13 +567,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "136e09595a69823158110c12dc03e0744dcde7c6ac1d33563ffb3d2127d1c0a9",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "136e09595a69823158110c12dc03e0744dcde7c6ac1d33563ffb3d2127d1c0a9",
+      "alt": "Lobster and crab creels stacked on the harbour at Ullapool",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "as-scene-achmelvich",
     "slot": "as-scene-achmelvich",
     "base": "assynt",
-    "role": "scene",
+    "role": "photo",
     "file": "as-scene-achmelvich.jpg",
     "alt": "Clear turquoise water meeting pale sand at Achmelvich bay",
     "layout": "wide",
@@ -477,13 +591,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "c582864e5e8da754087477443f8d655c203d08437b9ce8bc31c941bf2d513175",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "c582864e5e8da754087477443f8d655c203d08437b9ce8bc31c941bf2d513175",
+      "alt": "Clear turquoise water meeting pale sand at Achmelvich bay",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "as-scene-suilven",
     "slot": "as-scene-suilven",
     "base": "assynt",
-    "role": "scene",
+    "role": "photo",
     "file": "as-scene-suilven.jpg",
     "alt": "Suilven's sugar-loaf summit rising alone above the Assynt moorland",
     "layout": "wide",
@@ -495,31 +615,43 @@
       "license": "unsplash-standard"
     },
     "sha256": "cbf9420b92897a0ffc042f4ba85544871ae720df449fb8696a47a92ba6360bd0",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "cbf9420b92897a0ffc042f4ba85544871ae720df449fb8696a47a92ba6360bd0",
+      "alt": "Suilven's sugar-loaf summit rising alone above the Assynt moorland",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "as-scene-assynt-loch",
     "slot": "as-scene-assynt-loch",
     "base": "assynt",
-    "role": "scene",
+    "role": "photo",
     "file": "as-scene-assynt-loch.jpg",
-    "alt": "A lone figure sitting on rock above Loch Assynt, mountains in cloud behind",
+    "alt": "A 'Passing Place' sign beside a single-track road running through rough Highland moorland, a jagged rocky peak rising behind.",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1623860840587-aaf24e1fc5fc",
-      "photographer": "v2osk",
+      "photoId": "photo-1709935903739-c420ed8ffe94",
+      "photographer": "Pix Tresa",
       "license": "unsplash-standard"
     },
-    "sha256": "c2d2e17cb026de54cf24052d3b2a0795dd1855bddb725ad65f8bb6b446732970",
-    "visionChecked": "pending"
+    "sha256": "a48e73e148377db72a9301ee6254b80790fd7efb51946d499346c542154f4186",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "a48e73e148377db72a9301ee6254b80790fd7efb51946d499346c542154f4186",
+      "alt": "A 'Passing Place' sign beside a single-track road running through rough Highland moorland, a jagged rocky peak rising behind.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "as-scene-coigach",
     "slot": "as-scene-coigach",
     "base": "assynt",
-    "role": "scene",
+    "role": "photo",
     "file": "as-scene-coigach.jpg",
     "alt": "Golden sunset over a Highland sea loch at Clachtoll",
     "layout": "wide",
@@ -531,49 +663,67 @@
       "license": "unsplash-standard"
     },
     "sha256": "c192186cbb0df1527c4793ac94c510200a0f6c20a77f7e8de51873da9aafa1e0",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "c192186cbb0df1527c4793ac94c510200a0f6c20a77f7e8de51873da9aafa1e0",
+      "alt": "Golden sunset over a Highland sea loch at Clachtoll",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "as-croft",
     "slot": "as-croft",
     "base": "assynt",
-    "role": "thumb",
+    "role": "photo",
     "file": "as-croft.jpg",
-    "alt": "A small thatched croft house by the water at Little Assynt",
+    "alt": "A whitewashed Highland farmhouse and its outbuildings on green pasture above a curving sandy bay, ringed by low moorland hills, yellow gorse in the foreground.",
     "layout": null,
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1696755761091-217bad7e31a5",
-      "photographer": "Janita Top",
+      "photoId": "photo-1720390553321-eaf7b46d2581",
+      "photographer": "David Bayliss",
       "license": "unsplash-standard"
     },
-    "sha256": "4c1658ca7041488f19cb062e5bb0e0cc3f2fc734525d7acb72df3a6ef52d5ce0",
-    "visionChecked": "pending"
+    "sha256": "a74c94fe3a0d7dadc88edc88ab32daebf27a54dd499b0327a1ddcbfc0b489022",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "a74c94fe3a0d7dadc88edc88ab32daebf27a54dd499b0327a1ddcbfc0b489022",
+      "alt": "A whitewashed Highland farmhouse and its outbuildings on green pasture above a curving sandy bay, ringed by low moorland hills, yellow gorse in the foreground.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-hot-smoked-salmon",
     "slot": "dish-hot-smoked-salmon",
     "base": "edinburgh",
-    "role": "dish",
+    "role": "food",
     "file": "dish-hot-smoked-salmon.jpg",
-    "alt": "Fresh salmon fillets stacked, close up",
+    "alt": "A whole salmon fillet with a deep amber glazed crust, pulled apart with a fork to reveal opaque flaked flesh, on a wood board with lemon and dill.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1763062550082-2c9f94096abb",
-      "photographer": "Gennady Zakharin",
+      "photoId": "photo-1565299647508-7c3b8ec04837",
+      "photographer": "Chad Montano",
       "license": "unsplash-standard"
     },
-    "sha256": "a32599addc1fc24f4c0401ce9f59f6ad16951d4ca9e42e23f0d0f1a2badae3c6",
-    "visionChecked": "pending"
+    "sha256": "9450ff91ec84b345712bc98f46f9c156340187c4e52253f997ca98be427e01ae",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "9450ff91ec84b345712bc98f46f9c156340187c4e52253f997ca98be427e01ae",
+      "alt": "A whole salmon fillet with a deep amber glazed crust, pulled apart with a fork to reveal opaque flaked flesh, on a wood board with lemon and dill.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-oysters-ice",
     "slot": "dish-oysters-ice",
     "base": "edinburgh",
-    "role": "dish",
+    "role": "food",
     "file": "dish-oysters-ice.jpg",
     "alt": "Oysters on crushed ice",
     "layout": "wide",
@@ -585,33 +735,21 @@
       "license": "unsplash-standard"
     },
     "sha256": "2414fc90fcc8de3c2cc1d39c9357254a0854c183ff5d7e144157ef11529a56b8",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "dish-scotch-pie",
-    "slot": "dish-scotch-pie",
-    "base": "edinburgh",
-    "role": "dish",
-    "file": "dish-scotch-pie.jpg",
-    "alt": "A rustic golden savoury pie",
-    "layout": "wide",
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "photo-1581986675622-41eccf27129d",
-      "photographer": "David Foodphototasty",
-      "license": "unsplash-standard"
-    },
-    "sha256": "bcc18fd108ec8e9ed7fec54c2d644b6fb944b274e49a40e1a08594b95da02e36",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "2414fc90fcc8de3c2cc1d39c9357254a0854c183ff5d7e144157ef11529a56b8",
+      "alt": "Oysters on crushed ice",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-craft-beer",
     "slot": "dish-craft-beer",
     "base": "edinburgh",
-    "role": "dish",
+    "role": "food",
     "file": "dish-craft-beer.jpg",
-    "alt": "Glasses of craft beer on a taproom counter",
+    "alt": "A man holding a glass of pale craft beer at a wooden table.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -621,13 +759,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "09f519afbb438442820bb8fbfe585c610e06127b8385b756738bc95826b7aacd",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "09f519afbb438442820bb8fbfe585c610e06127b8385b756738bc95826b7aacd",
+      "alt": "A man holding a glass of pale craft beer at a wooden table.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-whisky-dram",
     "slot": "dish-whisky-dram",
     "base": "edinburgh",
-    "role": "dish",
+    "role": "food",
     "file": "dish-whisky-dram.jpg",
     "alt": "A glass of whisky sitting on a wooden table",
     "layout": "wide",
@@ -639,13 +783,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "63f4f3436c3ab93952eeba15ce33724de1772cc42b4672b1089352805e55c4f6",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "63f4f3436c3ab93952eeba15ce33724de1772cc42b4672b1089352805e55c4f6",
+      "alt": "A glass of whisky sitting on a wooden table",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-oysters-shucked",
     "slot": "dish-oysters-shucked",
     "base": "argyll",
-    "role": "dish",
+    "role": "food",
     "file": "dish-oysters-shucked.jpg",
     "alt": "Three shucked oysters on ice on a dark plate",
     "layout": "wide",
@@ -657,13 +807,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "bd2df431ca405d7802f4197b018228bbb84bbc552fff99943155e3c74540d7bc",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "bd2df431ca405d7802f4197b018228bbb84bbc552fff99943155e3c74540d7bc",
+      "alt": "Three shucked oysters on ice on a dark plate",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-langoustines",
     "slot": "dish-langoustines",
     "base": "argyll",
-    "role": "dish",
+    "role": "food",
     "file": "dish-langoustines.jpg",
     "alt": "Freshly caught langoustines",
     "layout": "wide",
@@ -675,15 +831,21 @@
       "license": "unsplash-standard"
     },
     "sha256": "fc1c68028916aa1090ffea16c9b1911db53cb08c7ad2df40c31d3726ec3e34a0",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "fc1c68028916aa1090ffea16c9b1911db53cb08c7ad2df40c31d3726ec3e34a0",
+      "alt": "Freshly caught langoustines",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-crab",
     "slot": "dish-crab",
     "base": "argyll",
-    "role": "dish",
+    "role": "food",
     "file": "dish-crab.jpg",
-    "alt": "Cooked whole crabs",
+    "alt": "A tray of cooked crab claws and picked white crab meat.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
@@ -693,31 +855,19 @@
       "license": "unsplash-standard"
     },
     "sha256": "1b8aa41e3ededc2940cbc2f8471a383a90365301623e5dcfe7c8c6dc01c27f83",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "dish-chowder",
-    "slot": "dish-chowder",
-    "base": "argyll",
-    "role": "dish",
-    "file": "dish-chowder.jpg",
-    "alt": "A bowl of creamy soup",
-    "layout": "wide",
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "photo-1628642585518-2d63c2beab6b",
-      "photographer": "Jessica Kantak Baile",
-      "license": "unsplash-standard"
-    },
-    "sha256": "5a0633103fbe846aa5f544aba3786d43d491f538a8c5e9eb7bed5c20f2cbce93",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "1b8aa41e3ededc2940cbc2f8471a383a90365301623e5dcfe7c8c6dc01c27f83",
+      "alt": "A tray of cooked crab claws and picked white crab meat.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-scallops-seared",
     "slot": "dish-scallops-seared",
     "base": "argyll",
-    "role": "dish",
+    "role": "food",
     "file": "dish-scallops-seared.jpg",
     "alt": "Seared scallops plated with cauliflower",
     "layout": "wide",
@@ -729,31 +879,43 @@
       "license": "unsplash-standard"
     },
     "sha256": "cc47708a164622fd43819411565260c959682eeeb604cc14229bcd71e9689d3f",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "cc47708a164622fd43819411565260c959682eeeb604cc14229bcd71e9689d3f",
+      "alt": "Seared scallops plated with cauliflower",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-langoustines-plate",
     "slot": "dish-langoustines-plate",
     "base": "harris",
-    "role": "dish",
+    "role": "food",
     "file": "dish-langoustines-plate.jpg",
-    "alt": "Prawns with garlic and fresh herbs",
+    "alt": "Whole cooked langoustines — orange shells, long claws and antennae — piled in a blue bowl with small pink prawns and a half lemon, on a weathered wooden table.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1599655345131-6eb73b81d8d6",
-      "photographer": "Maggie Hung",
+      "photoId": "photo-1626727873980-fa047e09507f",
+      "photographer": "Rasmus Järborg",
       "license": "unsplash-standard"
     },
-    "sha256": "9094ee664bb567e579fa04d0f1fb48bf821689b6958fbd9eb6783821835f47cf",
-    "visionChecked": "pending"
+    "sha256": "bd1d448e2d4ad663f449b7af2d93436bd8e3c461d24c0f21043c4f0094927e04",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "bd1d448e2d4ad663f449b7af2d93436bd8e3c461d24c0f21043c4f0094927e04",
+      "alt": "Whole cooked langoustines — orange shells, long claws and antennae — piled in a blue bowl with small pink prawns and a half lemon, on a weathered wooden table.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-black-pudding",
     "slot": "dish-black-pudding",
     "base": "harris",
-    "role": "dish",
+    "role": "food",
     "file": "dish-black-pudding.jpg",
     "alt": "A full cooked breakfast spread across a cafe table",
     "layout": "wide",
@@ -765,31 +927,43 @@
       "license": "unsplash-standard"
     },
     "sha256": "fab0263b9e8efecea166ed7aec54a67e98e4db0e98ec2d03204e931ad4899d15",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "fab0263b9e8efecea166ed7aec54a67e98e4db0e98ec2d03204e931ad4899d15",
+      "alt": "A full cooked breakfast spread across a cafe table",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-lamb",
     "slot": "dish-lamb",
     "base": "harris",
-    "role": "dish",
+    "role": "food",
     "file": "dish-lamb.jpg",
-    "alt": "A roast dinner plate",
+    "alt": "A rack of lamb cut into chops, bones frenched, seared dark with cracked pepper and coarse salt, plated with a sprig of rosemary.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1635897411141-7bd2b9c6ab16",
-      "photographer": "Lisa Baker",
+      "photoId": "photo-1766589152343-874c0e138262",
+      "photographer": "Diego Arenas de Rodrigo",
       "license": "unsplash-standard"
     },
-    "sha256": "8f0baf4a35e9824f584976edcc67138254e2cacc41c21bc69fb2e7204a6a369e",
-    "visionChecked": "pending"
+    "sha256": "f9d028d21b1ee6dfc7d7492d13c2a17d53b47f3af4828c8b7b9028ee280570c9",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "f9d028d21b1ee6dfc7d7492d13c2a17d53b47f3af4828c8b7b9028ee280570c9",
+      "alt": "A rack of lamb cut into chops, bones frenched, seared dark with cracked pepper and coarse salt, plated with a sprig of rosemary.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-smoked-salmon-slices",
     "slot": "dish-smoked-salmon-slices",
     "base": "harris",
-    "role": "dish",
+    "role": "food",
     "file": "dish-smoked-salmon-slices.jpg",
     "alt": "A close-up of cured salmon",
     "layout": "wide",
@@ -801,96 +975,108 @@
       "license": "unsplash-standard"
     },
     "sha256": "d6491bca476026d7c8fa9808c9cac52265c3e9f6b3bd333903e14ab2c45587ac",
-    "visionChecked": "pending"
-  },
-  {
-    "id": "dish-lobster-roll",
-    "slot": "dish-lobster-roll",
-    "base": "harris",
-    "role": "dish",
-    "file": "dish-lobster-roll.jpg",
-    "alt": "A lobster roll in a toasted bun",
-    "layout": "wide",
-    "claims": "atmosphere",
-    "credit": {
-      "source": "unsplash",
-      "photoId": "photo-1698805808756-923b189f85d9",
-      "photographer": "Will Ma",
-      "license": "unsplash-standard"
-    },
-    "sha256": "68837de9d2a2a79091c5eca8887a0be9527ad215f004da85b2ba8c404d9a0a7a",
-    "visionChecked": "pending"
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "d6491bca476026d7c8fa9808c9cac52265c3e9f6b3bd333903e14ab2c45587ac",
+      "alt": "A close-up of cured salmon",
+      "verdict": "unverifiable",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-scallops-shell",
     "slot": "dish-scallops-shell",
     "base": "assynt",
-    "role": "dish",
+    "role": "food",
     "file": "dish-scallops-shell.jpg",
-    "alt": "Scallops served in the shell",
+    "alt": "Two pan-seared scallops with a golden-brown crust and orange roe, served in their ribbed shells on a blue plate with a lemon wedge and dark bread.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1660457831961-e5a47365796a",
-      "photographer": "Jannet Serhan",
+      "photoId": "photo-1750874693860-51c322b34bc9",
+      "photographer": "Geoffrey Moffett",
       "license": "unsplash-standard"
     },
-    "sha256": "6005e5e5288d6fe9052418f064755163824c645ef89e5ad62e5555b48682ecce",
-    "visionChecked": "pending"
+    "sha256": "1945c1006a22398194c33e2b651dca34a413e552fc2368f589dea910cc9a365d",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "1945c1006a22398194c33e2b651dca34a413e552fc2368f589dea910cc9a365d",
+      "alt": "Two pan-seared scallops with a golden-brown crust and orange roe, served in their ribbed shells on a blue plate with a lemon wedge and dark bread.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-langoustines-butter",
     "slot": "dish-langoustines-butter",
     "base": "assynt",
-    "role": "dish",
+    "role": "food",
     "file": "dish-langoustines-butter.jpg",
-    "alt": "Scampi in a dark pot, close up",
+    "alt": "Three whole langoustines with long slender claws and antennae, plated on white alongside an oyster as part of a restaurant seafood platter.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1625943553852-781c6dd46faa",
-      "photographer": "Farhad Ibrahimzade",
+      "photoId": "photo-1641474551291-ee618f09970f",
+      "photographer": "Alexandra Tran",
       "license": "unsplash-standard"
     },
-    "sha256": "b0fb2d71d8c2547d0948a5a8a42f43ab89dc77cd14742555dbda2a8a6afe1b4e",
-    "visionChecked": "pending"
+    "sha256": "a5cbae0ae8965b6e22157b947dc68f58c6ac2daafbfbd342805597bc2c2b4196",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "a5cbae0ae8965b6e22157b947dc68f58c6ac2daafbfbd342805597bc2c2b4196",
+      "alt": "Three whole langoustines with long slender claws and antennae, plated on white alongside an oyster as part of a restaurant seafood platter.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-meat-pie",
     "slot": "dish-meat-pie",
     "base": "assynt",
-    "role": "dish",
+    "role": "food",
     "file": "dish-meat-pie.jpg",
-    "alt": "A golden pastry pie on a ceramic plate",
+    "alt": "Two individual savoury pies with golden crimped shortcrust pastry, one split open to reveal a dark glossy meat filling, on a wooden board.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1587248720664-4ccef82d9a60",
-      "photographer": "Priscilla Du Preez",
+      "photoId": "photo-1590234504126-0e3b7f2676d6",
+      "photographer": "SHOT",
       "license": "unsplash-standard"
     },
-    "sha256": "ee2462a6d9555326fab41a6cddb322845d5c787842f14a060eafae0ba143d6c4",
-    "visionChecked": "pending"
+    "sha256": "8b07ca0bb807f484cf0c07967360bce42327f07311fcfc63467c32f56c96b15e",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "8b07ca0bb807f484cf0c07967360bce42327f07311fcfc63467c32f56c96b15e",
+      "alt": "Two individual savoury pies with golden crimped shortcrust pastry, one split open to reveal a dark glossy meat filling, on a wooden board.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   },
   {
     "id": "dish-oak-smoked",
     "slot": "dish-oak-smoked",
     "base": "assynt",
-    "role": "dish",
+    "role": "food",
     "file": "dish-oak-smoked.jpg",
-    "alt": "Slices of cured fish on a pale surface",
+    "alt": "Thin translucent slices of cold-smoked salmon fanned out on a plate, dusted with cracked pepper, served with roasted baby potatoes and a diced tomato salad.",
     "layout": "wide",
     "claims": "atmosphere",
     "credit": {
       "source": "unsplash",
-      "photoId": "photo-1599084993091-1cb5c0721cc6",
-      "photographer": "Abstral Official",
+      "photoId": "photo-1770494660219-8699c954adf1",
+      "photographer": "Gennady Zakharin",
       "license": "unsplash-standard"
     },
-    "sha256": "79076a039e449c6effb753093741410820e691693098477c7767d90b5f99af62",
-    "visionChecked": "pending"
+    "sha256": "5a7488f1a3368dfa9590ad793ae76213439711b83bdbfe2c23e2c8838fa513d5",
+    "visionChecked": "pending",
+    "visionCheckedSemantic": {
+      "sha256": "5a7488f1a3368dfa9590ad793ae76213439711b83bdbfe2c23e2c8838fa513d5",
+      "alt": "Thin translucent slices of cold-smoked salmon fanned out on a plate, dusted with cracked pepper, served with roasted baby potatoes and a diced tomato salad.",
+      "verdict": "match",
+      "checkedAt": "2026-07-14"
+    }
   }
 ]
