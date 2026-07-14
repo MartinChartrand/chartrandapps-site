@@ -128,11 +128,12 @@ const gemGroups = groupsOf(gems);
 // ——— ADR-5 : le CONTAINER « survol » (rendu si episodic=true) ———
 // Fourchette budget pour la grille factuelle : 1er → dernier scénario (serré → confort+),
 // chiffres nettoyés pour une fourchette condensée. Repli sur le total si pas de scénarios.
+// Le symbole se place selon la langue (fr « 12 000 $ » vs en « $12,000 ») → strings.budgetFmt.
 function budgetRange(b: any): string {
   const nums = (b?.scenarios ?? [])
-    .map((s: any) => String(s.total ?? '').replace(/[^\d\s]/g, '').trim())
+    .map((s: any) => String(s.total ?? '').replace(/[^\d\s,]/g, '').trim())
     .filter(Boolean);
-  if (nums.length >= 2) return `${nums[0]} – ${nums[nums.length - 1]} $`;
+  if (nums.length >= 2) return strings.budgetFmt(nums[0], nums[nums.length - 1]);
   return b?.total ? String(b.total) : '';
 }
 

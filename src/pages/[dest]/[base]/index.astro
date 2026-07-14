@@ -50,7 +50,7 @@ const {
   bd, pois, dishes, gems, imageManifest,
   resolveSlot, poi, poiPills, toBeat, carnetRow,
   mapMarkers, allCoords, kmlCount, byKind, proseBlocks,
-} = await createEpisode(dest, base, { carnetThumbs: ep.carnetThumbs });
+} = await createEpisode(dest, base, { carnetThumbs: ep.carnetThumbs, lang: d.lang });
 
 // ——— Résolution fiche → shapes des composants (coords/pills/images depuis les POIs) ———
 function resolvePill(p: any): Pill {

@@ -15,6 +15,16 @@ infoBlocks:
   - { label: "Where to sleep", type: "poi-list", items: ["harris-tigh-na-mara", "harris-hotel-hebrides", "harris-rock-house"] }
   - { label: "At the table", type: "poi-list", items: ["harris-north-harbour-bistro", "harris-croft36", "harris-anchorage", "harris-scarista-house"] }
   - { label: "See & do", type: "poi-list", items: ["harris-luskentyre-seilebost", "harris-hushinish", "harris-golden-road", "harris-st-clements-rodel", "harris-scalpay-eilean-glas", "harris-distillery", "harris-boat-trip"] }
+  - label: "Book this one first"
+    type: "prose"
+    body: "The single most time-critical thing in the whole trip: the CalMac car deck from Uig to Tarbert sells out months ahead for summer sailings, and bookings for the following year typically open around the third Friday of January. Put a reminder on it. That ferry does NOT sail on Sundays — Sabbath observance is still real here — which is why this itinerary crosses on the Monday morning with a transit night at Uig on the Skye side. Harris accommodation is the other early booking: the island has very few beds and the good ones go 6–12 months out."
+    links:
+      - { label: "CalMac — Uig ↔ Tarbert", url: "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/" }
+      - { label: "CalMac — Stornoway ↔ Ullapool (the way out)", url: "https://www.calmac.co.uk/en-gb/route-information/stornoway-ullapool/" }
+  - label: "On the ground"
+    type: "prose"
+    body: "Fuel: Ardhasaig, just north of Tarbert, and the Leverburgh community shop — the only pumps in South Harris. Fill up before the Hushinish road. Groceries and the cash machine: Tarbert (closed Sundays, like almost everything human-run out here). Mobile signal is patchy off the main road, so download offline maps before the ferry. Single-track etiquette: passing places are for passing, not parking; whoever is nearest one pulls in; wave at everyone who pulls in for you. The sheep have no traffic sense whatsoever."
+    links: []
 ---
 
 You don't so much arrive on Harris as get delivered to it — the Tarbert pier appearing out of ninety minutes of open Minch, the MV Hebrides swinging in past the loch, and then the car's wheels are on Harris tarmac and there's nowhere else to be for five days. The first hour on the island rarely goes further than the nearest window: everyone warns you about [[poi:harris-luskentyre-seilebost]] and everyone is still not ready for it. The sand doesn't end so much as dissolve into water that changes colour while you're standing in it, and Taransay sits offshore like a rumour. You turn fifty here, or close enough to it, and there's a specific kind of relief in a landscape that asks nothing of you except to look.

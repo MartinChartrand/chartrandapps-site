@@ -15,6 +15,11 @@ infoBlocks:
   - { label: "Where to sleep", type: "poi-list", items: ["argyll-tregortha", "argyll-royal-an-lochan", "argyll-portavadie"] }
   - { label: "At the table", type: "poi-list", items: ["argyll-loch-fyne-oyster-bar", "argyll-oystercatcher", "argyll-skipness-seafood-cabin", "argyll-starfish-tarbert", "argyll-kilberry-inn"] }
   - { label: "See & do", type: "poi-list", items: ["argyll-ostel-bay", "argyll-kyles-viewpoint", "argyll-secret-coast-loop", "argyll-portavadie-tarbert-ferry", "argyll-bute-distillery", "argyll-inveraray", "argyll-crinan-kilmartin"] }
+  - label: "The drive, the fuel, the way out"
+    type: "prose"
+    body: "Edinburgh to Tighnabruaich is about four hours with the Rest and Be Thankful pass in the middle — break it at the oyster bar in Cairndow, which sits directly on the road. Fuel is genuinely scarce on Cowal and the village pump's status is uncertain, so fill up at Arrochar or Strachur on the way in. Cell signal is patchy: download offline maps. And the exit needs planning — on the last day you drive north through Glencoe to Skye (about five hours), sleep by the Uig slipway, and take the morning boat to Harris. Book that car deck the day CalMac opens 2027 sales."
+    links:
+      - { label: "CalMac — Uig ↔ Tarbert (book early)", url: "https://www.calmac.co.uk/en-gb/route-information/uig-tarbert-harris/" }
 ---
 
 You leave Edinburgh behind at the Rest and Be Thankful, the old drovers' pass where the road hairpins up out of Glen Croe and the trees just stop — heather and rock and, more often than not, a low cloud sitting on the col like it's been asked to stay. Coming down the other side into Cairndow, you're already at [[poi:argyll-loch-fyne-oyster-bar]], the shed on the water's edge that put Loch Fyne oysters on the map back in 1978 — a dozen shucked to order before you've even reached your base for the next five nights. That's the right way to arrive in Argyll: eating before you've unpacked.

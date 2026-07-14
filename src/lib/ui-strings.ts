@@ -26,6 +26,11 @@ const fr = {
   openCarnet: 'Ouvrir le carnet',
   sceneWord: 'Scène', // compteur « Scène 2/5 » + aria-label de la section
 
+  // Pills de liens dérivées des POIs (lib/episode.ts) — « Booking »/« TripAdvisor » sont
+  // des noms de marque, jamais traduits.
+  pillMaps: 'Maps',
+  pillOfficial: 'Site officiel',
+
   // Cartes (MapSection v2 + carnet)
   mapPlaceholder: 'Carte',
 
@@ -52,6 +57,7 @@ const fr = {
   factFlight: 'Vol open-jaw',
   factBudget: (count: number) =>
     count > 1 ? `Budget · ${count} pers. (CAD)` : 'Budget · solo (CAD)',
+  budgetFmt: (lo: string, hi: string) => `${lo} – ${hi} $`,
 
   // Crédits photo (ImageCredits)
   creditsTitle: 'Crédits photo',
@@ -74,6 +80,9 @@ const en: typeof fr = {
   montageTitle: 'What the camera didn’t have time to film',
   openCarnet: 'Open the field notes',
   sceneWord: 'Scene',
+
+  pillMaps: 'Maps',
+  pillOfficial: 'Official site',
 
   mapPlaceholder: 'Map',
 
@@ -98,6 +107,7 @@ const en: typeof fr = {
   factFlight: 'Open-jaw flights',
   factBudget: (count: number) =>
     count > 1 ? `Budget · ${count} people (CAD)` : 'Budget · solo (CAD)',
+  budgetFmt: (lo: string, hi: string) => `$${lo} – $${hi}`,
 
   creditsTitle: 'Photo credits',
 };

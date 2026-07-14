@@ -3,68 +3,80 @@
   "title": "What it costs",
   "intro": "In Canadian dollars, reference rate £1 ≈ CAD 1.85 (July 2026 — re-check before booking). Costed for one traveller, solo, at the comfort level this trip is built for: clean, warm, well-run places rather than luxury, seafood dinners without flinching, and two or three deliberate splurges because it's a fiftieth. Twenty-one nights, 20 May – 10 June 2027.",
   "statCards": [
-    { "computed": "total", "label": "Total, solo, 21 nights" },
-    { "value": "~570 $", "label": "Per day on the ground" },
-    { "value": "£1 ≈ 1,85 $", "label": "Reference rate (CAD)" },
-    { "value": "2 ferries", "label": "Book the car deck in January" }
+    {
+      "computed": "total",
+      "label": "Total, solo, 21 nights"
+    },
+    {
+      "value": "~$570",
+      "label": "Per day on the ground"
+    },
+    {
+      "value": "£1 ≈ $1.85",
+      "label": "Reference rate (CAD)"
+    },
+    {
+      "value": "2 ferries",
+      "label": "Book the car deck in January"
+    }
   ],
   "lines": [
     {
       "label": "Flights (open-jaw)",
       "category": "Into Edinburgh (EDI), home from Inverness (INV) — no backtracking. Via a European or direct UK hub; book 5–6 months out for late May.",
-      "amount": "~1 500 $"
+      "amount": "~$1,500"
     },
     {
       "label": "Accommodation — 21 nights",
       "category": "Edinburgh 5n (~CAD 175–435, one night aboard Fingal at ~CAD 700) · Argyll 5n (~CAD 165–315, one at Portavadie ~CAD 400) · Skye transit 1n (~CAD 220) · Harris 5n (Rock House splurge ~CAD 425) · Assynt 5n (~CAD 160–400). Solo occupancy, single supplement included.",
-      "amount": "~5 100 $"
+      "amount": "~$5,100"
     },
     {
       "label": "Car hire — 16 days",
       "category": "Picked up at Edinburgh airport on day 6, returned at Inverness airport. Compact — the Drumbeg and Hushinish single-tracks reward a small car. One-way drop fee included. Full insurance.",
-      "amount": "~1 500 $"
+      "amount": "~$1,500"
     },
     {
       "label": "Fuel",
       "category": "~1 800 km of west coast and islands. Petrol ~£1.60/litre (~CAD 2.95), and it costs more on Harris and in Assynt than on the mainland — the pumps are scarce, not cheap.",
-      "amount": "~500 $"
+      "amount": "~$500"
     },
     {
       "label": "Ferries (CalMac)",
       "category": "Uig → Tarbert with the car (~CAD 90) · Stornoway → Ullapool with the car (~CAD 145) · plus the small Portavadie–Tarbert and Bute hops (~CAD 60). Vehicle space MUST be booked the day 2027 sales open — roughly the third Friday of January.",
-      "amount": "~300 $"
+      "amount": "~$300"
     },
     {
       "label": "Food and drink",
       "category": "Coffee and a bakery morning, a proper lunch (a hatch, a shed, a harbour wall), seafood dinner most nights: ~CAD 120/day average, with room for Scarista House and the Kilberry Inn (~CAD 100–130 each) and the Dulse seafood boil.",
-      "amount": "~2 600 $"
+      "amount": "~$2,600"
     },
     {
       "label": "Activities and tastings",
       "category": "Port of Leith and Harris distillery tours · the Portobello sauna · a Summer Isles boat (~CAD 85) or the full St Kilda sail (~CAD 575, weather permitting) · Inveraray · Kilmartin.",
-      "amount": "~700 $"
+      "amount": "~$700"
     },
     {
       "label": "Travel insurance",
       "category": "Solo, full medical coverage, 22 days, over-50 rate.",
-      "amount": "~250 $"
+      "amount": "~$250"
     }
   ],
   "scenarios": [
     {
       "name": "Trimmed",
-      "total": "~10 200 $",
-      "desc": "~10 200 $ — skip Fingal and Portavadie, take the guesthouse tier throughout, cook two or three nights on Harris (the Rock House has a kitchen), and choose the short Summer Isles boat over St Kilda."
+      "total": "~$10,200",
+      "desc": "~$10,200 — skip Fingal and Portavadie, take the guesthouse tier throughout, cook two or three nights on Harris (the Rock House has a kitchen), and choose the short Summer Isles boat over St Kilda."
     },
     {
       "name": "As built",
-      "total": "~12 450 $",
-      "desc": "~12 450 $ — the itinerary as written: three deliberate splurges (a night aboard the Fingal, a night at Portavadie, the Rock House on Harris), seafood dinners without doing the arithmetic, and both distillery tours."
+      "total": "~$12,450",
+      "desc": "~$12,450 — the itinerary as written: three deliberate splurges (a night aboard the Fingal, a night at Portavadie, the Rock House on Harris), seafood dinners without doing the arithmetic, and both distillery tours."
     },
     {
       "name": "No arithmetic at all",
-      "total": "~14 500 $",
-      "desc": "~14 500 $ — Scarista House with dinner, the full St Kilda day, the Kilberry Inn with the wine pairing, an extra night on Harris, and a car you don't wince at on the single-tracks."
+      "total": "~$14,500",
+      "desc": "~$14,500 — Scarista House with dinner, the full St Kilda day, the Kilberry Inn with the wine pairing, an extra night on Harris, and a car you don't wince at on the single-tracks."
     }
   ],
   "advice": "Two line items are non-negotiable and time-sensitive: the CalMac car deck (Uig–Tarbert sells out months ahead — book the day 2027 sales open, around the third Friday of January) and the Harris accommodation (the island has very few beds; the good ones go 6–12 months out). Everything else can wait. The honest way to trim this budget is not to eat worse — it's to sleep more simply, since Scotland's guesthouses at CAD 165 are frequently warmer and better run than its hotels at CAD 400."

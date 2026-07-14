@@ -5,6 +5,7 @@
 // mécanique : chargement des collections, résolution d'images, transformations.
 // Golden-master : la sortie HTML des protos doit rester byte-identique après extraction.
 import { getCollection, type CollectionEntry } from 'astro:content';
+import { ui, type UiLang } from './ui-strings';
 
 export type Poi = CollectionEntry<'pois'>['data'];
 
@@ -37,6 +38,9 @@ const pageAssets = import.meta.glob<{ default: ImageMetadata }>(
 export type EpisodeOptions = {
   // Override de vignettes pixel-vérifiées (ex: crète a un manifest décalé ; andalousie non).
   carnetThumbs?: Record<string, { slot: string; alt: string }>;
+  // Langue du chrome — les labels de pills générés ici (« Site officiel ») en dépendent.
+  // Défaut 'fr' : les 7 sites existants ne bougent pas.
+  lang?: UiLang;
 };
 
 // Charge le contexte d'un épisode (dest + base) et retourne les helpers bindés sur ses données.
@@ -94,10 +98,11 @@ export async function createEpisode(dest: string, baseSlug: string, opts: Episod
     return p;
   };
 
+  const t = ui(opts.lang);
   function poiPills(p: Poi): Pill[] {
     const pills: Pill[] = [];
-    if (p.links.maps) pills.push({ label: 'Maps', url: p.links.maps });
-    if (p.links.official) pills.push({ label: 'Site officiel', url: p.links.official });
+    if (p.links.maps) pills.push({ label: t.pillMaps, url: p.links.maps });
+    if (p.links.official) pills.push({ label: t.pillOfficial, url: p.links.official });
     if (p.links.booking) pills.push({ label: 'Booking', url: p.links.booking });
     if (p.links.tripadvisor) pills.push({ label: 'TripAdvisor', url: p.links.tripadvisor });
     for (const l of p.extraLinks ?? []) pills.push({ label: l.label, url: l.url });

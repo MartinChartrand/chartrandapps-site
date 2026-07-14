@@ -15,6 +15,11 @@ infoBlocks:
   - { label: "Where to sleep", type: "poi-list", items: ["edinburgh-a-haven-townhouse", "edinburgh-nira-caledonia", "edinburgh-fingal"] }
   - { label: "At the table", type: "poi-list", items: ["edinburgh-fishers-leith", "edinburgh-dulse-leith", "edinburgh-the-fishmarket-newhaven", "edinburgh-twelve-triangles-brunswick", "edinburgh-roseleaf"] }
   - { label: "See & do", type: "poi-list", items: ["edinburgh-dean-village", "edinburgh-portobello-beach", "edinburgh-soul-water-sauna", "edinburgh-stockbridge-market", "edinburgh-newhaven-harbour", "edinburgh-arthurs-seat-sunrise", "edinburgh-port-of-leith-distillery"] }
+  - label: "Getting here, and getting around"
+    type: "prose"
+    body: "The tram runs from the airport straight to The Shore in Leith — about 40 minutes, roughly £8, every 7 minutes. No car for these five days: Edinburgh is a walking city and the Old Town punishes drivers. Pick the rental up at the airport on the morning of day six, heading west — you'll be on the motorway within minutes, which is the gentlest possible place to start driving on the left. Late May is the quiet window: the Fringe is an August thing, so tables are a phone call, not a campaign."
+    links:
+      - { label: "Edinburgh Trams", url: "https://edinburghtrams.com/" }
 ---
 
 You'll smell the smokehouse before you see it. Leith doesn't announce itself the way the Old Town does — no bagpipes, no tartan shopfronts, no menu translated into six languages and taped to a window. It announces itself with oak smoke drifting off a grill on The Shore, with the tide smell of a working harbour, with a queue of actual Leithers waiting for a table at [[poi:edinburgh-dulse-leith]] because the seafood boil is on. This was a shipping port long before it was a place anyone came for atmosphere, and it still runs on that logic: the fish is good because the fish arrives here first.

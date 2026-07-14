@@ -15,6 +15,11 @@ infoBlocks:
   - { label: "Where to sleep", type: "poi-list", items: ["assynt-polcraig", "assynt-davar", "assynt-suilven-pod"] }
   - { label: "At the table", type: "poi-list", items: ["assynt-peets", "assynt-an-cala", "assynt-lochinver-larder", "assynt-seafood-shack", "assynt-am-fuaran"] }
   - { label: "See & do", type: "poi-list", items: ["assynt-achmelvich", "assynt-clachtoll", "assynt-clashnessie", "assynt-drumbeg-loop", "assynt-wailing-widow-falls", "assynt-stac-pollaidh", "assynt-bone-caves-ardvreck", "assynt-falls-of-kirkaig", "assynt-summer-isles-boat"] }
+  - label: "On the ground, and the way home"
+    type: "prose"
+    body: "Lochinver Stores is the only petrol pump for miles — it's also the SPAR, the post office and the cash machine. Fill up before Coigach, which has no fuel at all. Early June is the start of midge season: present, building, not yet in charge — pack Smidge and favour breezy coastal spots at dusk. Take a compact car on the Drumbeg road. Departure day: Lochinver to Inverness airport is under two hours. With an afternoon flight, stop at Glen Ord in Muir of Ord for the last dram of the trip; with a morning one, skip it and just go."
+    links:
+      - { label: "Glen Ord distillery (on the way out)", url: "https://www.distillerytours.scot/distilleries/glen-ord-distillery-visitor-centre" }
 ---
 
 You come off the CalMac boat at Ullapool with the car still smelling faintly of the crossing, and the first thing that registers isn't a landmark — it's the light. Late afternoon in early June out here runs long and low, and the road north from the ferry slip already has Assynt's lone mountains on the horizon, laid out like something that shouldn't be geologically possible: sugar-loaf summits rising straight out of peat bog with nothing around them. You don't stop for any of it yet. You drive to Lochinver, drop the bags, and walk down to [[poi:assynt-peets]] on the harbour, because five nights here run on one working theory — eat well first, sightsee around it.

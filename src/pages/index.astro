@@ -22,7 +22,7 @@ function heroUrl(slug: string, heroSlot: string): string | undefined {
 }
 
 // Ordre éditorial (le plus frais d'abord) ; test-fixture exclu (pas public).
-const ORDER = ['vietnam', 'portugal', 'philippines', 'cyclades', 'andalousie', 'crete', 'turquie'];
+const ORDER = ['scotland', 'vietnam', 'portugal', 'philippines', 'cyclades', 'andalousie', 'crete', 'turquie'];
 const voyages = ORDER
   .map((slug) => allDest.find((d) => d.data.slug === slug))
   .filter((d): d is NonNullable<typeof d> => !!d)
