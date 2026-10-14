@@ -1,8 +1,24 @@
 {
+  "catalogs": [
+    {
+      "id": "foreign-recent",
+      "name": "Films internationaux — nouvelles annonces",
+      "type": "movie"
+    },
+    {
+      "id": "foreign-packs",
+      "name": "Séries internationales — nouvelles annonces",
+      "type": "series"
+    },
+    {
+      "id": "quebec-watch",
+      "name": "Québec — séries repérées",
+      "type": "series"
+    }
+  ],
+  "description": "Annonces internationales et séries repérées au Québec, actualisées chaque jour. Les sources proviennent de tes extensions habituelles.",
   "id": "ca.chartrand.nuvio.release-watch.preview",
-  "version": "0.1.0",
-  "name": "Veille — prototype Nuvio",
-  "description": "Catalogue de test des annonces internationales et d’une sélection québécoise. Les sources de lecture proviennent de tes extensions habituelles.",
+  "name": "Veille — Nuvio",
   "resources": [
     "catalog"
   ],
@@ -10,21 +26,5 @@
     "movie",
     "series"
   ],
-  "catalogs": [
-    {
-      "type": "movie",
-      "id": "foreign-recent",
-      "name": "Films internationaux — nouvelles annonces"
-    },
-    {
-      "type": "series",
-      "id": "foreign-packs",
-      "name": "Séries internationales — nouvelles annonces"
-    },
-    {
-      "type": "series",
-      "id": "quebec-watch",
-      "name": "Québec — sélection de test"
-    }
-  ]
+  "version": "0.2.0"
 }
