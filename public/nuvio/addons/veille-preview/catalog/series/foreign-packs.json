@@ -1,0 +1,298 @@
+{
+  "metas": [
+    {
+      "id": "tt38234547",
+      "name": "The Arena",
+      "poster": "https://image.tmdb.org/t/p/w500/t00g6l4L3xbPgPoB5QZzBl5hiZR.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt38681829",
+      "name": "Love Is Blind: Netherlands",
+      "poster": "https://image.tmdb.org/t/p/w500/6zRBZpedwwbXmmPZbINZjVIyqBi.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt35769369",
+      "name": "Chitose Is in the Ramune Bottle",
+      "poster": "https://image.tmdb.org/t/p/w500/7tpcFkOpLcWkJU6mV5ooJyHA3DR.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt36470958",
+      "name": "The Trap",
+      "poster": "https://image.tmdb.org/t/p/w500/dkLTaC44QqnCAgzCf180TxMmmG5.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt19106798",
+      "name": "Love Village",
+      "poster": "https://image.tmdb.org/t/p/w500/1gWm0758PmrU8RWVcSulrLywT6W.jpg",
+      "type": "series",
+      "year": "2023"
+    },
+    {
+      "id": "tt9140604",
+      "name": "Blinded",
+      "poster": "https://image.tmdb.org/t/p/w500/lmo5v253Aeonasb3XzZPfWIwRKy.jpg",
+      "type": "series",
+      "year": "2019"
+    },
+    {
+      "id": "tt41793323",
+      "name": "Honor Thy Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt32639706",
+      "name": "Blue Box",
+      "poster": "https://image.tmdb.org/t/p/w500/sN3TuYevEPWxZhwcp6I2PJRW1jl.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt7441658",
+      "name": "Black Clover",
+      "poster": "https://image.tmdb.org/t/p/w500/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
+      "type": "series",
+      "year": "2017"
+    },
+    {
+      "id": "tt37022415",
+      "name": "Traqueur de chars",
+      "poster": "https://image.tmdb.org/t/p/w500/vpv4JVT03rpriq1TqQRSH6QHJc1.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt39328047",
+      "name": "Doctor X: Mafia in White",
+      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt26743760",
+      "name": "The Apothecary Diaries",
+      "poster": "https://image.tmdb.org/t/p/w500/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
+      "type": "series",
+      "year": "2023"
+    },
+    {
+      "id": "tt42727894",
+      "name": "Romelia War Chronicle",
+      "poster": "https://image.tmdb.org/t/p/w500/xOhx5KpSAlrEbqsu9TaCdmdIb72.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt37540577",
+      "name": "A Day Like No Other",
+      "poster": "https://image.tmdb.org/t/p/w500/y4kX6n4PgEJcmvG49MDQRuH9ay5.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt4378376",
+      "name": "Babylon Berlin",
+      "poster": "https://image.tmdb.org/t/p/w500/hr18RHPMQSA0zbCzAZN2asIOqy5.jpg",
+      "type": "series",
+      "year": "2017"
+    },
+    {
+      "id": "tt37737331",
+      "name": "Take Charge of My Heart",
+      "poster": "https://image.tmdb.org/t/p/w500/ecRrKGXfflZmDZBD4irdkybClT.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt32485985",
+      "name": "Real Men",
+      "poster": "https://image.tmdb.org/t/p/w500/nqmDX50dhW4UlWaS4jIU7dre05u.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt36743307",
+      "name": "Inside the Circle",
+      "poster": "https://image.tmdb.org/t/p/w500/3JpnP8fYVb9B9FuvdGT4ZkRRYZJ.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt41293320",
+      "name": "Please Excuse My Younger Brothers",
+      "poster": "https://image.tmdb.org/t/p/w500/x280gtjgwPxsVFqYmMEKXPjFgBr.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt5754602",
+      "name": "4 Blocks",
+      "poster": "https://image.tmdb.org/t/p/w500/jVObyxtNxuPbG5czuKvm7pW56EV.jpg",
+      "type": "series",
+      "year": "2017"
+    },
+    {
+      "id": "tt13167196",
+      "name": "EDENS ZERO",
+      "poster": "https://image.tmdb.org/t/p/w500/nfkn7IVG5aY2fyjHBIF3A98rMcl.jpg",
+      "type": "series",
+      "year": "2021"
+    },
+    {
+      "id": "tt43308829",
+      "name": "Patrocínio",
+      "poster": "https://image.tmdb.org/t/p/w500/r1DZd5rka497nbkN0kVJlVu2bdE.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt38674953",
+      "name": "#Love",
+      "poster": "https://image.tmdb.org/t/p/w500/cyJKP6Fsg8ds4O4g1Q1SCOKJQdn.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt41159656",
+      "name": "Yacht Deals Monaco",
+      "poster": "https://image.tmdb.org/t/p/w500/1z3IzPuYXXurmW9elHMowtSIX9d.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt40250814",
+      "name": "Paul",
+      "poster": "https://image.tmdb.org/t/p/w500/u2SKO0CdlpVytRvvoIj16X6vrb1.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt31841438",
+      "name": "I Would Rather Die",
+      "poster": "https://image.tmdb.org/t/p/w500/1HehlJEDVfHf9nt36Ygq8apTWQD.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt20883126",
+      "name": "Red Queen",
+      "poster": "https://image.tmdb.org/t/p/w500/lk7LVXYSOO5rReR2jzLo8Le3cO1.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt39281887",
+      "name": "Jaadugar: A Witch in Mongolia",
+      "poster": "https://image.tmdb.org/t/p/w500/723NT7KY9xBFLYNNBaEEREbLaPC.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt38049145",
+      "name": "Goodbye, Lara",
+      "poster": "https://image.tmdb.org/t/p/w500/b6MTa4eZA9uQBEBeSRnGXLjutc5.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt42152894",
+      "name": "Food Samouraï",
+      "poster": "https://image.tmdb.org/t/p/w500/rABJz1w9sIIPbFE9rPJsC4leaZt.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt35836959",
+      "name": "Medusa",
+      "poster": "https://image.tmdb.org/t/p/w500/mFsjwJdNBKDRYLqPdBFaoVCKXLq.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt21345930",
+      "name": "My Master Has No Tail",
+      "poster": "https://image.tmdb.org/t/p/w500/88ccdyBEYrel6rMQyAR9EbxFk06.jpg",
+      "type": "series",
+      "year": "2022"
+    },
+    {
+      "id": "tt36832679",
+      "name": "The Final Problem",
+      "poster": "https://image.tmdb.org/t/p/w500/v7LQJ8GUvvvKhGRNp8F4hiRzwiI.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt35929525",
+      "name": "Shaque: Trust No One",
+      "poster": "https://image.tmdb.org/t/p/w500/xddc9KBcqffXjLEYLX8cZzRwYkS.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt37158600",
+      "name": "My Sad Dead",
+      "poster": "https://image.tmdb.org/t/p/w500/7FEUvXEgpsevAse8gNFk1h1RPRd.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt39390479",
+      "name": "Physical 100: Mexico",
+      "poster": "https://image.tmdb.org/t/p/w500/vPsjiq0O8PCX9vdMCmXbbvVQmlC.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt45403168",
+      "name": "Stolen Heartbeats",
+      "poster": "https://image.tmdb.org/t/p/w500/rmoGrMzPRCKGMGccNxda3eyCq48.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt41278620",
+      "name": "The Cat and the Dragon",
+      "poster": "https://image.tmdb.org/t/p/w500/yZ116ytKSsar7EaeDMWyDBbaUQH.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt28765828",
+      "name": "Minerva Academy",
+      "poster": "https://image.tmdb.org/t/p/w500/mVXUJjlOSiYMpApFoPyWTnqBhUm.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt36347588",
+      "name": "The Scandal",
+      "poster": "https://image.tmdb.org/t/p/w500/4TU0PcHBIl0wPW5B6aVRGExOnHE.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt37884325",
+      "name": "Plastic Beauty",
+      "poster": "https://image.tmdb.org/t/p/w500/u0mCeqVvQW2HEfrRy1we9UklsQd.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt39495239",
+      "name": "The Fixers",
+      "poster": "https://image.tmdb.org/t/p/w500/hwEfhJNLii8oUfuiRBPk11DDv8y.jpg",
+      "type": "series",
+      "year": "2026"
+    }
+  ]
+}

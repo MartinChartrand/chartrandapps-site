@@ -1,0 +1,30 @@
+{
+  "id": "ca.chartrand.nuvio.release-watch.preview",
+  "version": "0.1.0",
+  "name": "Veille — prototype Nuvio",
+  "description": "Catalogue de test des annonces internationales et d’une sélection québécoise. Les sources de lecture proviennent de tes extensions habituelles.",
+  "resources": [
+    "catalog"
+  ],
+  "types": [
+    "movie",
+    "series"
+  ],
+  "catalogs": [
+    {
+      "type": "movie",
+      "id": "foreign-recent",
+      "name": "Films internationaux — nouvelles annonces"
+    },
+    {
+      "type": "series",
+      "id": "foreign-packs",
+      "name": "Séries internationales — nouvelles annonces"
+    },
+    {
+      "type": "series",
+      "id": "quebec-watch",
+      "name": "Québec — sélection de test"
+    }
+  ]
+}

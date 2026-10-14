@@ -1,0 +1,46 @@
+{
+  "metas": [
+    {
+      "id": "tt33056986",
+      "type": "series",
+      "name": "Dumas",
+      "year": "2024",
+      "poster": "https://image.tmdb.org/t/p/w500/pew8V18cVnCR5L5BXX32XUkIzX2.jpg"
+    },
+    {
+      "id": "tt22037002",
+      "type": "series",
+      "name": "STAT",
+      "year": "2022",
+      "poster": "https://image.tmdb.org/t/p/w500/i8t2DQVBv7rfJeUerVSIWGyMLqw.jpg"
+    },
+    {
+      "id": "tt21826522",
+      "type": "series",
+      "name": "Indéfendable",
+      "year": "2022",
+      "poster": "https://image.tmdb.org/t/p/w500/6ZshgR9vy5lLEIpptGFr3RQsxfP.jpg"
+    },
+    {
+      "id": "tt38590149",
+      "type": "series",
+      "name": "Antigang",
+      "year": "2025",
+      "poster": "https://image.tmdb.org/t/p/w500/kYyctU3oPUW3zyoUcNboEGgeU2r.jpg"
+    },
+    {
+      "id": "tt43697612",
+      "type": "series",
+      "name": "Sur le fil",
+      "year": "2026",
+      "poster": "https://image.tmdb.org/t/p/w500/iZ86oUKdQaCpejkUrV0jr44YJOM.jpg"
+    },
+    {
+      "id": "tt32827662",
+      "type": "series",
+      "name": "Empathie",
+      "year": "2025",
+      "poster": "https://image.tmdb.org/t/p/w500/6HGhzruSv399nvZmLJ3Sns9ntRP.jpg"
+    }
+  ]
+}
