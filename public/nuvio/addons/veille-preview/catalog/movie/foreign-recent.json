@@ -1,6 +1,48 @@
 {
   "metas": [
     {
+      "id": "tt34276991",
+      "name": "Suprema",
+      "poster": "https://image.tmdb.org/t/p/w500/z7FS9eyVfDeqJXbAkiy2jIctLco.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
+      "id": "tt33336255",
+      "name": "The Deaths of Hera",
+      "poster": "https://image.tmdb.org/t/p/w500/7p1hZhzRtIt1bo0xIO1Rj4HLXgz.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
+      "id": "tt37070354",
+      "name": "The Storm",
+      "poster": "https://image.tmdb.org/t/p/w500/5YNjTi5AhbSM4hDOynJcgFfvKRn.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt33571304",
+      "name": "Garuda Di Dadaku",
+      "poster": "https://image.tmdb.org/t/p/w500/lqK1P7iLrXnYdXoK2FLv8euV4RF.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt0158395",
+      "name": "Self-Fashion Show",
+      "poster": "https://image.tmdb.org/t/p/w500/weH6mkT1yohWUNx7l09gZlQksGF.jpg",
+      "type": "movie",
+      "year": "1976"
+    },
+    {
+      "id": "tt33057069",
+      "name": "Googoosh: Made of Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/r8JYZGl9kf4pIiIfqFvrIyJrSyg.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
       "id": "tt0387898",
       "name": "Caché",
       "poster": "https://image.tmdb.org/t/p/w500/vTzjRi0Uhy0tt3Rjw8SARZZJHlX.jpg",
