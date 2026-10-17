@@ -1,6 +1,97 @@
 {
   "metas": [
     {
+      "id": "tt43700003",
+      "name": "Captive",
+      "poster": "https://image.tmdb.org/t/p/w500/iQpdPJ2SSWHGdeCV7n5GGt95g4I.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt42576855",
+      "name": "Where the Mask Ends",
+      "poster": "https://image.tmdb.org/t/p/w500/cE9Og0lCCRCP2RArarzJXmu6xEB.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt13196080",
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/arB3L9pZZBSzUPSC8BEv8c3X0bF.jpg",
+      "type": "series",
+      "year": "2021"
+    },
+    {
+      "id": "tt27517632",
+      "name": "Benefits with Friends",
+      "poster": "https://image.tmdb.org/t/p/w500/nZcIT8YCPoXOIGHPgCx6TxDuPpJ.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt39328047",
+      "name": "Doctor X: Mafia in White",
+      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt32344704",
+      "name": "Tougen Anki",
+      "poster": "https://image.tmdb.org/t/p/w500/vnasRNhwT5M3OvTAMzYn4i5fQcT.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt39394153",
+      "name": "Firefly Wedding",
+      "poster": "https://image.tmdb.org/t/p/w500/954dt0dTqoUhIW0EvMFZ0KvVQmk.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt26743760",
+      "name": "The Apothecary Diaries",
+      "poster": "https://image.tmdb.org/t/p/w500/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
+      "type": "series",
+      "year": "2023"
+    },
+    {
+      "id": "tt38732131",
+      "name": "Money Trap",
+      "poster": "https://image.tmdb.org/t/p/w500/5UCLCdz8CMTnrKrERAWUkhZhySQ.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt37180305",
+      "name": "Friends Sex and Games",
+      "poster": "https://image.tmdb.org/t/p/w500/zijeb3WqqTIYJm3mmp1sb0uNGUj.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt41793323",
+      "name": "Honor Thy Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt14976292",
+      "name": "LINK CLICK",
+      "poster": "https://image.tmdb.org/t/p/w500/wo9jwu5qMvXzhW2cyy5E6hOVs92.jpg",
+      "type": "series",
+      "year": "2021"
+    },
+    {
+      "id": "tt5105452",
+      "name": "SCHOOL-LIVE!",
+      "poster": "https://image.tmdb.org/t/p/w500/9emJgQBvRrUiTobsbEmArDG7qFF.jpg",
+      "type": "series",
+      "year": "2015"
+    },
+    {
       "id": "tt37884717",
       "name": "The Early Spring",
       "poster": "https://image.tmdb.org/t/p/w500/lGFngmJWMO4HTPcI0sUGKBAFqMe.jpg",
@@ -50,13 +141,6 @@
       "year": "2019"
     },
     {
-      "id": "tt41793323",
-      "name": "Honor Thy Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
       "id": "tt32639706",
       "name": "Blue Box",
       "poster": "https://image.tmdb.org/t/p/w500/sN3TuYevEPWxZhwcp6I2PJRW1jl.jpg",
@@ -76,20 +160,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vpv4JVT03rpriq1TqQRSH6QHJc1.jpg",
       "type": "series",
       "year": "2025"
-    },
-    {
-      "id": "tt39328047",
-      "name": "Doctor X: Mafia in White",
-      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
-      "id": "tt26743760",
-      "name": "The Apothecary Diaries",
-      "poster": "https://image.tmdb.org/t/p/w500/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
-      "type": "series",
-      "year": "2023"
     },
     {
       "id": "tt42727894",
