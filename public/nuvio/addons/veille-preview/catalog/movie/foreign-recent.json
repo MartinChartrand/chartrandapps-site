@@ -1,6 +1,76 @@
 {
   "metas": [
     {
+      "id": "tt38961362",
+      "name": "Aryabhatt Ka Zero",
+      "poster": "https://image.tmdb.org/t/p/w500/hI5MZ78pj2aFuyEz1oOFMVsr8dM.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt16377872",
+      "name": "The Legacy of elBulli",
+      "poster": "https://image.tmdb.org/t/p/w500/kzcdfOngDWx3uDTkjg6dzwi1jVU.jpg",
+      "type": "movie",
+      "year": "2021"
+    },
+    {
+      "id": "tt32502698",
+      "name": "The Wedding",
+      "poster": "https://image.tmdb.org/t/p/w500/aMLphoNMfSyxVftCoIpnBNAYQzL.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt0065417",
+      "name": "Days and Nights in the Forest",
+      "poster": "https://image.tmdb.org/t/p/w500/lkaPfN95q8aaO8c0jUR6ytUhcwd.jpg",
+      "type": "movie",
+      "year": "1970"
+    },
+    {
+      "id": "tt35705184",
+      "name": "Three Goodbyes",
+      "poster": "https://image.tmdb.org/t/p/w500/xveTFM80yTfN1lYQibdqQE0Kc8C.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
+      "id": "tt47663424",
+      "name": "Awakening the Last Dream",
+      "poster": "https://image.tmdb.org/t/p/w500/oNhuiEG41RjF1LbeLQNLTREf7zP.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt26680124",
+      "name": "After",
+      "poster": "https://image.tmdb.org/t/p/w500/hTg2fCHuDyg0vLSZSmf9939DHiR.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
+      "id": "tt43719197",
+      "name": "Ela",
+      "poster": "https://image.tmdb.org/t/p/w500/87lMRbuJT368AbICNGPsYzoAcTV.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt0187499",
+      "name": "The 14 Amazons",
+      "poster": "https://image.tmdb.org/t/p/w500/zPhlwsnQFxnNpbc0z9u8uCCCp1Q.jpg",
+      "type": "movie",
+      "year": "1972"
+    },
+    {
+      "id": "tt34766794",
+      "name": "On Our Own",
+      "poster": "https://image.tmdb.org/t/p/w500/9QsoEzaTv2hlHqIjtFNIoEJFJ4a.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
       "id": "tt45962416",
       "name": "Dutdot",
       "poster": "https://image.tmdb.org/t/p/w500/82lWo1MHYGG0mSyBvpBRQCop70n.jpg",

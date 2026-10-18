@@ -1,9 +1,44 @@
 {
   "metas": [
     {
-      "id": "tt43700003",
-      "name": "Captive",
-      "poster": "https://image.tmdb.org/t/p/w500/iQpdPJ2SSWHGdeCV7n5GGt95g4I.jpg",
+      "id": "tt40699747",
+      "name": "LIS",
+      "poster": "https://image.tmdb.org/t/p/w500/A5O98FinhWGH2BWQKHXXBAQDyV2.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt34748043",
+      "name": "Heartbeats: Pyaar aur Armaan",
+      "poster": "https://image.tmdb.org/t/p/w500/lSNw3lgebQX34kJZmtaC7pV9vmq.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt32639706",
+      "name": "Blue Box",
+      "poster": "https://image.tmdb.org/t/p/w500/sN3TuYevEPWxZhwcp6I2PJRW1jl.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt37022415",
+      "name": "Traqueur de chars",
+      "poster": "https://image.tmdb.org/t/p/w500/vpv4JVT03rpriq1TqQRSH6QHJc1.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt7441658",
+      "name": "Black Clover",
+      "poster": "https://image.tmdb.org/t/p/w500/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
+      "type": "series",
+      "year": "2017"
+    },
+    {
+      "id": "tt39328047",
+      "name": "Doctor X: Mafia in White",
+      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
       "type": "series",
       "year": "2026"
     },
@@ -11,6 +46,48 @@
       "id": "tt42576855",
       "name": "Where the Mask Ends",
       "poster": "https://image.tmdb.org/t/p/w500/cE9Og0lCCRCP2RArarzJXmu6xEB.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt42727894",
+      "name": "Romelia War Chronicle",
+      "poster": "https://image.tmdb.org/t/p/w500/xOhx5KpSAlrEbqsu9TaCdmdIb72.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt34586849",
+      "name": "Nepobaby",
+      "poster": "https://image.tmdb.org/t/p/w500/9aepIJg1PGd5DD6rgdVp1gG63YQ.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt35852536",
+      "name": "Sogn Murders",
+      "poster": "https://image.tmdb.org/t/p/w500/kRocZjeLcsYh7NSsZY1nMkOH3uM.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt32146322",
+      "name": "A Better Man",
+      "poster": "https://image.tmdb.org/t/p/w500/dy6atwSPpNUIUO5SfvVLSgOQ9A7.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt37626694",
+      "name": "Birangana",
+      "poster": "https://image.tmdb.org/t/p/w500/xoKf05z8PdiUksM7Fnw54gVRyYS.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt43700003",
+      "name": "Captive",
+      "poster": "https://image.tmdb.org/t/p/w500/iQpdPJ2SSWHGdeCV7n5GGt95g4I.jpg",
       "type": "series",
       "year": "2026"
     },
@@ -27,13 +104,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/nZcIT8YCPoXOIGHPgCx6TxDuPpJ.jpg",
       "type": "series",
       "year": "2024"
-    },
-    {
-      "id": "tt39328047",
-      "name": "Doctor X: Mafia in White",
-      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
-      "type": "series",
-      "year": "2026"
     },
     {
       "id": "tt32344704",
@@ -139,34 +209,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/lmo5v253Aeonasb3XzZPfWIwRKy.jpg",
       "type": "series",
       "year": "2019"
-    },
-    {
-      "id": "tt32639706",
-      "name": "Blue Box",
-      "poster": "https://image.tmdb.org/t/p/w500/sN3TuYevEPWxZhwcp6I2PJRW1jl.jpg",
-      "type": "series",
-      "year": "2024"
-    },
-    {
-      "id": "tt7441658",
-      "name": "Black Clover",
-      "poster": "https://image.tmdb.org/t/p/w500/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
-      "type": "series",
-      "year": "2017"
-    },
-    {
-      "id": "tt37022415",
-      "name": "Traqueur de chars",
-      "poster": "https://image.tmdb.org/t/p/w500/vpv4JVT03rpriq1TqQRSH6QHJc1.jpg",
-      "type": "series",
-      "year": "2025"
-    },
-    {
-      "id": "tt42727894",
-      "name": "Romelia War Chronicle",
-      "poster": "https://image.tmdb.org/t/p/w500/xOhx5KpSAlrEbqsu9TaCdmdIb72.jpg",
-      "type": "series",
-      "year": "2026"
     },
     {
       "id": "tt37540577",
