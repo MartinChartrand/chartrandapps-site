@@ -1,9 +1,44 @@
 {
   "metas": [
     {
-      "id": "tt40699747",
-      "name": "LIS",
-      "poster": "https://image.tmdb.org/t/p/w500/A5O98FinhWGH2BWQKHXXBAQDyV2.jpg",
+      "id": "tt12590266",
+      "name": "Cyberpunk: Edgerunners",
+      "poster": "https://image.tmdb.org/t/p/w500/v3JuB15WybKmxDeT1hWdK3j6eSJ.jpg",
+      "type": "series",
+      "year": "2022"
+    },
+    {
+      "id": "tt19106798",
+      "name": "Love Village",
+      "poster": "https://image.tmdb.org/t/p/w500/1gWm0758PmrU8RWVcSulrLywT6W.jpg",
+      "type": "series",
+      "year": "2023"
+    },
+    {
+      "id": "tt21991034",
+      "name": "Incognito",
+      "poster": "https://image.tmdb.org/t/p/w500/j1WfKF33zxA1hUIZq6wGlAGB5oi.jpg",
+      "type": "series",
+      "year": "2023"
+    },
+    {
+      "id": "tt39395275",
+      "name": "Dragon Ball Super: Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt38681829",
+      "name": "Love Is Blind: Netherlands",
+      "poster": "https://image.tmdb.org/t/p/w500/6zRBZpedwwbXmmPZbINZjVIyqBi.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt42576855",
+      "name": "Where the Mask Ends",
+      "poster": "https://image.tmdb.org/t/p/w500/cE9Og0lCCRCP2RArarzJXmu6xEB.jpg",
       "type": "series",
       "year": "2026"
     },
@@ -13,6 +48,13 @@
       "poster": "https://image.tmdb.org/t/p/w500/lSNw3lgebQX34kJZmtaC7pV9vmq.jpg",
       "type": "series",
       "year": "2024"
+    },
+    {
+      "id": "tt40699747",
+      "name": "LIS",
+      "poster": "https://image.tmdb.org/t/p/w500/A5O98FinhWGH2BWQKHXXBAQDyV2.jpg",
+      "type": "series",
+      "year": "2026"
     },
     {
       "id": "tt32639706",
@@ -39,13 +81,6 @@
       "id": "tt39328047",
       "name": "Doctor X: Mafia in White",
       "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
-      "id": "tt42576855",
-      "name": "Where the Mask Ends",
-      "poster": "https://image.tmdb.org/t/p/w500/cE9Og0lCCRCP2RArarzJXmu6xEB.jpg",
       "type": "series",
       "year": "2026"
     },
@@ -176,13 +211,6 @@
       "year": "2026"
     },
     {
-      "id": "tt38681829",
-      "name": "Love Is Blind: Netherlands",
-      "poster": "https://image.tmdb.org/t/p/w500/6zRBZpedwwbXmmPZbINZjVIyqBi.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
       "id": "tt35769369",
       "name": "Chitose Is in the Ramune Bottle",
       "poster": "https://image.tmdb.org/t/p/w500/7tpcFkOpLcWkJU6mV5ooJyHA3DR.jpg",
@@ -195,13 +223,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/dkLTaC44QqnCAgzCf180TxMmmG5.jpg",
       "type": "series",
       "year": "2026"
-    },
-    {
-      "id": "tt19106798",
-      "name": "Love Village",
-      "poster": "https://image.tmdb.org/t/p/w500/1gWm0758PmrU8RWVcSulrLywT6W.jpg",
-      "type": "series",
-      "year": "2023"
     },
     {
       "id": "tt9140604",
