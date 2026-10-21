@@ -57,18 +57,18 @@
       "year": "2009"
     },
     {
-      "id": "tt36436507",
-      "name": "Libre dès maintenant",
-      "poster": "https://image.tmdb.org/t/p/w500/pRTRnHAwD9e2PBKZjh2RAj7QprW.jpg",
-      "type": "series",
-      "year": "2025"
-    },
-    {
       "id": "tt39673782",
       "name": "Je te tiens",
       "poster": "https://image.tmdb.org/t/p/w500/tsDAHnDwbGUejgy74gbPSfx1rZX.jpg",
       "type": "series",
       "year": "2026"
+    },
+    {
+      "id": "tt36976127",
+      "name": "Le dernier des monstres",
+      "poster": "https://image.tmdb.org/t/p/w500/synwtLLLfsTM8jyK6Kl3wYmX69O.jpg",
+      "type": "series",
+      "year": "2025"
     }
   ]
 }
