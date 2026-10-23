@@ -1,6 +1,41 @@
 {
   "metas": [
     {
+      "id": "tt2531336",
+      "name": "Lupin",
+      "poster": "https://image.tmdb.org/t/p/w500/h6Z2oogE4mJk2uffdtIlLhb0EHx.jpg",
+      "type": "series",
+      "year": "2021"
+    },
+    {
+      "id": "tt39387986",
+      "name": "Fading Grandeur",
+      "poster": "https://image.tmdb.org/t/p/w500/jhjVQtqQgSYjv91IoYWyZvMoqZF.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt14976292",
+      "name": "LINK CLICK",
+      "poster": "https://image.tmdb.org/t/p/w500/hCt2bLRGTCjHGqtV5FP3Img6w1h.jpg",
+      "type": "series",
+      "year": "2021"
+    },
+    {
+      "id": "tt41793323",
+      "name": "Honor Thy Mother",
+      "poster": "https://image.tmdb.org/t/p/w500/rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt38337376",
+      "name": "Did Someone Happen to Mention Me?",
+      "poster": "https://image.tmdb.org/t/p/w500/fDwpR6oVx1TsxvelEQQIXnb3zYx.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
       "id": "tt42576855",
       "name": "Where the Mask Ends",
       "poster": "https://image.tmdb.org/t/p/w500/cE9Og0lCCRCP2RArarzJXmu6xEB.jpg",
@@ -94,7 +129,7 @@
     {
       "id": "tt7441658",
       "name": "Black Clover",
-      "poster": "https://image.tmdb.org/t/p/w500/kaMisKeOoTBPxPkbC3OW7Wgt6ON.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/uZUtoVChBGhNj9OfrM2LYpwBm8E.jpg",
       "type": "series",
       "year": "2017"
     },
@@ -185,7 +220,7 @@
     {
       "id": "tt38732131",
       "name": "Money Trap",
-      "poster": "https://image.tmdb.org/t/p/w500/5UCLCdz8CMTnrKrERAWUkhZhySQ.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/7KnFHnuHjeOMkrE5zfw0G7e9daC.jpg",
       "type": "series",
       "year": "2026"
     },
@@ -195,20 +230,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/zijeb3WqqTIYJm3mmp1sb0uNGUj.jpg",
       "type": "series",
       "year": "2026"
-    },
-    {
-      "id": "tt41793323",
-      "name": "Honor Thy Mother",
-      "poster": "https://image.tmdb.org/t/p/w500/rAdn0E8u53QQZrBbgKEwyO2mhCs.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
-      "id": "tt14976292",
-      "name": "LINK CLICK",
-      "poster": "https://image.tmdb.org/t/p/w500/wo9jwu5qMvXzhW2cyy5E6hOVs92.jpg",
-      "type": "series",
-      "year": "2021"
     },
     {
       "id": "tt5105452",
@@ -248,7 +269,7 @@
     {
       "id": "tt37540577",
       "name": "A Day Like No Other",
-      "poster": "https://image.tmdb.org/t/p/w500/y4kX6n4PgEJcmvG49MDQRuH9ay5.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/10wH74nYxv3mU9TEaAL0zqp4ZJj.jpg",
       "type": "series",
       "year": "2026"
     },
