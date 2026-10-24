@@ -1,6 +1,41 @@
 {
   "metas": [
     {
+      "id": "tt39518280",
+      "name": "Papi Ricky: La Película",
+      "poster": "https://image.tmdb.org/t/p/w500/y0EhzwaNnpMezpIDNoBcRCoAhMN.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt32777398",
+      "name": "Fenomeno Rockets",
+      "poster": "https://image.tmdb.org/t/p/w500/6HAr94Pj6dLBbpB9D38O3jN5WsV.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
+      "id": "tt1523513",
+      "name": "Naked of Defenses",
+      "poster": "https://image.tmdb.org/t/p/w500/6OfW1wPo1MtjtkVMXrvEOTyjQGm.jpg",
+      "type": "movie",
+      "year": "2008"
+    },
+    {
+      "id": "tt35149269",
+      "name": "Slackers",
+      "poster": "https://image.tmdb.org/t/p/w500/8n6NCzYPWEEy7tbmkHQkhjxMxGK.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt11826260",
+      "name": "The Best Friend",
+      "poster": "https://image.tmdb.org/t/p/w500/l7iCcLIMYn8Oaa02b4PmCJGR7UR.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
       "id": "tt6260210",
       "name": "Walking Street",
       "poster": "https://image.tmdb.org/t/p/w500/bQMUyJy3El2WJYPh8R6qMhRi8uO.jpg",
