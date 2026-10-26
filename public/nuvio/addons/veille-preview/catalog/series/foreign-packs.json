@@ -1,6 +1,55 @@
 {
   "metas": [
     {
+      "id": "tt42576855",
+      "name": "Where the Mask Ends",
+      "poster": "https://image.tmdb.org/t/p/w500/cE9Og0lCCRCP2RArarzJXmu6xEB.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt39395275",
+      "name": "Dragon Ball Super: Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt32639706",
+      "name": "Blue Box",
+      "poster": "https://image.tmdb.org/t/p/w500/sN3TuYevEPWxZhwcp6I2PJRW1jl.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt7441658",
+      "name": "Black Clover",
+      "poster": "https://image.tmdb.org/t/p/w500/uZUtoVChBGhNj9OfrM2LYpwBm8E.jpg",
+      "type": "series",
+      "year": "2017"
+    },
+    {
+      "id": "tt36260294",
+      "name": "Sai",
+      "poster": "https://image.tmdb.org/t/p/w500/fhoCf1pOR3IRWHfVBHisFaA0mlg.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt39328047",
+      "name": "Doctor X: Mafia in White",
+      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt43625977",
+      "name": "Kraken: The Black Book of Hours",
+      "poster": "https://image.tmdb.org/t/p/w500/dUXjK9jKXXamGAOlYWo0cIrOn9Q.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
       "id": "tt43700003",
       "name": "Captive",
       "poster": "https://image.tmdb.org/t/p/w500/iQpdPJ2SSWHGdeCV7n5GGt95g4I.jpg",
@@ -41,13 +90,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/vnasRNhwT5M3OvTAMzYn4i5fQcT.jpg",
       "type": "series",
       "year": "2025"
-    },
-    {
-      "id": "tt39328047",
-      "name": "Doctor X: Mafia in White",
-      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
-      "type": "series",
-      "year": "2026"
     },
     {
       "id": "tt26743760",
@@ -99,13 +141,6 @@
       "year": "2026"
     },
     {
-      "id": "tt42576855",
-      "name": "Where the Mask Ends",
-      "poster": "https://image.tmdb.org/t/p/w500/cE9Og0lCCRCP2RArarzJXmu6xEB.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
       "id": "tt32245065",
       "name": "The Mothers of Penguins",
       "poster": "https://image.tmdb.org/t/p/w500/1pBeRmqnMEGlBgpjPK0OYqPw6Kg.jpg",
@@ -148,13 +183,6 @@
       "year": "2023"
     },
     {
-      "id": "tt39395275",
-      "name": "Dragon Ball Super: Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
       "id": "tt38681829",
       "name": "Love Is Blind: Netherlands",
       "poster": "https://image.tmdb.org/t/p/w500/6zRBZpedwwbXmmPZbINZjVIyqBi.jpg",
@@ -176,25 +204,11 @@
       "year": "2026"
     },
     {
-      "id": "tt32639706",
-      "name": "Blue Box",
-      "poster": "https://image.tmdb.org/t/p/w500/sN3TuYevEPWxZhwcp6I2PJRW1jl.jpg",
-      "type": "series",
-      "year": "2024"
-    },
-    {
       "id": "tt37022415",
       "name": "Traqueur de chars",
       "poster": "https://image.tmdb.org/t/p/w500/vpv4JVT03rpriq1TqQRSH6QHJc1.jpg",
       "type": "series",
       "year": "2025"
-    },
-    {
-      "id": "tt7441658",
-      "name": "Black Clover",
-      "poster": "https://image.tmdb.org/t/p/w500/uZUtoVChBGhNj9OfrM2LYpwBm8E.jpg",
-      "type": "series",
-      "year": "2017"
     },
     {
       "id": "tt42727894",
@@ -227,7 +241,7 @@
     {
       "id": "tt37626694",
       "name": "Birangana",
-      "poster": "https://image.tmdb.org/t/p/w500/xoKf05z8PdiUksM7Fnw54gVRyYS.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/b7BmNpQ3XAF3scqcoVM3EEGTi3i.jpg",
       "type": "series",
       "year": "2025"
     },
