@@ -1,6 +1,433 @@
 {
   "metas": [
     {
+      "id": "tt0078128",
+      "name": "Spiritual Kung Fu",
+      "poster": "https://image.tmdb.org/t/p/w500/5NwhAvXqaVDacl3fvXlfsYXt8Dw.jpg",
+      "type": "movie",
+      "year": "1978"
+    },
+    {
+      "id": "tt15146486",
+      "name": "Seoul 1988",
+      "poster": "https://image.tmdb.org/t/p/w500/wcxO4ArrO8mzvyBsvEVtmXy8AhT.jpg",
+      "type": "movie",
+      "year": "1989"
+    },
+    {
+      "id": "tt36361934",
+      "name": "cocoon - One Summer of Girlhood",
+      "poster": "https://image.tmdb.org/t/p/w500/pTql9ek3bCdTkZTh2UvvXIy69qN.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt0096472",
+      "name": "School on Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/uTVfcol62NROZw2W2Q7ykbFgPQ.jpg",
+      "type": "movie",
+      "year": "1988"
+    },
+    {
+      "id": "tt0091229",
+      "name": "Royal Warriors",
+      "poster": "https://image.tmdb.org/t/p/w500/79QtxrBbDG2FbvgJSxWQpYCKJbM.jpg",
+      "type": "movie",
+      "year": "1986"
+    },
+    {
+      "id": "tt0093258",
+      "name": "Rouge",
+      "poster": "https://image.tmdb.org/t/p/w500/q2wAAeGagOmqmqEkEgveLJYBj89.jpg",
+      "type": "movie",
+      "year": "1987"
+    },
+    {
+      "id": "tt0102293",
+      "name": "Riki-Oh: The Story of Ricky",
+      "poster": "https://image.tmdb.org/t/p/w500/dzG0PAbBDLbJSYuv2SM2Mjxw2MH.jpg",
+      "type": "movie",
+      "year": "1991"
+    },
+    {
+      "id": "tt0103044",
+      "name": "Prison on Fire II",
+      "poster": "https://image.tmdb.org/t/p/w500/ybMjmFC1oY51i2MZ3XD3o9HaOfg.jpg",
+      "type": "movie",
+      "year": "1991"
+    },
+    {
+      "id": "tt38504402",
+      "name": "You, Me, Us",
+      "poster": "https://image.tmdb.org/t/p/w500/4Gw8ukw5aAUP1uzNtYZ0CNTUy5A.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt0093304",
+      "name": "Prison on Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/59o7OyB8J37GwOAod9mhgJjhgH2.jpg",
+      "type": "movie",
+      "year": "1987"
+    },
+    {
+      "id": "tt0105384",
+      "name": "Pom Pom and Hot Hot",
+      "poster": "https://image.tmdb.org/t/p/w500/rZuOkWRBNmZSHXdVRlNwiuiX0yL.jpg",
+      "type": "movie",
+      "year": "1992"
+    },
+    {
+      "id": "tt0095403",
+      "name": "Police Story 2",
+      "poster": "https://image.tmdb.org/t/p/w500/kjq1FXtHh9i2sIuM0JaoYf43FDU.jpg",
+      "type": "movie",
+      "year": "1988"
+    },
+    {
+      "id": "tt0089374",
+      "name": "Police Story",
+      "poster": "https://image.tmdb.org/t/p/w500/1eFB0Iy1TMU4VO5hMcoCE064JAT.jpg",
+      "type": "movie",
+      "year": "1985"
+    },
+    {
+      "id": "tt1287878",
+      "name": "Poetry",
+      "poster": "https://image.tmdb.org/t/p/w500/5RS3zovYbHdpZqLqyEOr24qWKwf.jpg",
+      "type": "movie",
+      "year": "2010"
+    },
+    {
+      "id": "tt1221141",
+      "name": "The Headless Woman",
+      "poster": "https://image.tmdb.org/t/p/w500/qzDfJLfKQZY9D6zpaadFiugtphK.jpg",
+      "type": "movie",
+      "year": "2008"
+    },
+    {
+      "id": "tt0098971",
+      "name": "Saga of the Phoenix",
+      "poster": "https://image.tmdb.org/t/p/w500/avxkrLsM1wIwBCnyTsAm1FV5lB5.jpg",
+      "type": "movie",
+      "year": "1989"
+    },
+    {
+      "id": "tt44090278",
+      "name": "Baththa",
+      "poster": "https://image.tmdb.org/t/p/w500/n8Df1H1TmcmZfjGgWh5uQyRFzHy.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt35697374",
+      "name": "Beautiful!",
+      "poster": "https://image.tmdb.org/t/p/w500/A8qfRcRDQvJLl005jufxOOAjmAv.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
+      "id": "tt0077740",
+      "name": "Insiang",
+      "poster": "https://image.tmdb.org/t/p/w500/v8ABYJ28OXvzEceox2NrN9Vgycr.jpg",
+      "type": "movie",
+      "year": "1976"
+    },
+    {
+      "id": "tt0256106",
+      "name": "The Rites of May",
+      "poster": "https://image.tmdb.org/t/p/w500/zrjv83EpsjQgcYt9IAbArAr5LOo.jpg",
+      "type": "movie",
+      "year": "1976"
+    },
+    {
+      "id": "tt38865049",
+      "name": "Warkop DKI: ViRaLiN dOoOoNg..!!",
+      "poster": "https://image.tmdb.org/t/p/w500/w9B66TqXL0WGw2roQOk3ohxJQWM.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt0374339",
+      "name": "Infernal Affairs III",
+      "poster": "https://image.tmdb.org/t/p/w500/kXTHj16K8Lr1EgwdzuzAB1j4Cy5.jpg",
+      "type": "movie",
+      "year": "2003"
+    },
+    {
+      "id": "tt0369060",
+      "name": "Infernal Affairs II",
+      "poster": "https://image.tmdb.org/t/p/w500/q9MCjc4CMXju59slJEzYEtr7F3W.jpg",
+      "type": "movie",
+      "year": "2003"
+    },
+    {
+      "id": "tt2115336",
+      "name": "Influenza",
+      "poster": "https://image.tmdb.org/t/p/w500/eJIUhG3FrsQGkOo4KWnwb0xLKQf.jpg",
+      "type": "movie",
+      "year": "2004"
+    },
+    {
+      "id": "tt0338564",
+      "name": "Infernal Affairs",
+      "poster": "https://image.tmdb.org/t/p/w500/gix9thDBXfjJ8M7rYbihqbQGBcP.jpg",
+      "type": "movie",
+      "year": "2002"
+    },
+    {
+      "id": "tt28772075",
+      "name": "Hito",
+      "poster": "https://image.tmdb.org/t/p/w500/ly6O4gJZfAV0oKFv8JgxIuen3rV.jpg",
+      "type": "movie",
+      "year": "2023"
+    },
+    {
+      "id": "tt0156587",
+      "name": "Flowers of Shanghai",
+      "poster": "https://image.tmdb.org/t/p/w500/9N3TdNbr5pyT69M5cHODmfc4zTs.jpg",
+      "type": "movie",
+      "year": "1998"
+    },
+    {
+      "id": "tt0104684",
+      "name": "Hard Boiled",
+      "poster": "https://image.tmdb.org/t/p/w500/oMqr4CGGqVlfI8DdrSelK1e9aFM.jpg",
+      "type": "movie",
+      "year": "1992"
+    },
+    {
+      "id": "tt7266728",
+      "name": "Hand in Hand",
+      "poster": "https://image.tmdb.org/t/p/w500/ofM5AbaFtUNGtr4PS3bb2KfKyQd.jpg",
+      "type": "movie",
+      "year": "1989"
+    },
+    {
+      "id": "tt29279903",
+      "name": "Happyend",
+      "poster": "https://image.tmdb.org/t/p/w500/fRN6U0srlhNe0B69dJZ0seuv4GZ.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
+      "id": "tt0101258",
+      "name": "Days of Being Wild",
+      "poster": "https://image.tmdb.org/t/p/w500/g0nbZt1eFlL8FqG8r524iXnpoQV.jpg",
+      "type": "movie",
+      "year": "1990"
+    },
+    {
+      "id": "tt0134664",
+      "name": "Full Alert",
+      "poster": "https://image.tmdb.org/t/p/w500/54EorHKcOokVBFWgJX6clsPoEcN.jpg",
+      "type": "movie",
+      "year": "1997"
+    },
+    {
+      "id": "tt0080623",
+      "name": "Half a Loaf of Kung Fu",
+      "poster": "https://image.tmdb.org/t/p/w500/lH11m3LC8itFSTWzkS4xVYL6nB.jpg",
+      "type": "movie",
+      "year": "1978"
+    },
+    {
+      "id": "tt0258885",
+      "name": "Platform",
+      "poster": "https://image.tmdb.org/t/p/w500/kFsp0NVmzHskDVoCjbpc9Asy8dV.jpg",
+      "type": "movie",
+      "year": "2001"
+    },
+    {
+      "id": "tt0106332",
+      "name": "Farewell My Concubine",
+      "poster": "https://image.tmdb.org/t/p/w500/f54hNIiHNINw3JiUJB2XaQl5wCN.jpg",
+      "type": "movie",
+      "year": "1993"
+    },
+    {
+      "id": "tt0099000",
+      "name": "Farewell China",
+      "poster": "https://image.tmdb.org/t/p/w500/xFS0CUBGJ7h5EneHnwzdQ7fSOTn.jpg",
+      "type": "movie",
+      "year": "1990"
+    },
+    {
+      "id": "tt0092252",
+      "name": "Evil Cat",
+      "poster": "https://image.tmdb.org/t/p/w500/AqA1iJxcLuRvjlg6onDsFm7W99i.jpg",
+      "type": "movie",
+      "year": "1987"
+    },
+    {
+      "id": "tt37502860",
+      "name": "A Very Straight Neck",
+      "poster": "https://image.tmdb.org/t/p/w500/pEsJTVJuuz5Ey4Co8507NSOtMR3.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
+      "id": "tt0080827",
+      "name": "Encounters of the Spooky Kind",
+      "poster": "https://image.tmdb.org/t/p/w500/pca4RsHaV1dzSR0Ex9zeE0ONrj4.jpg",
+      "type": "movie",
+      "year": "1980"
+    },
+    {
+      "id": "tt14807000",
+      "name": "NightMare",
+      "poster": "https://image.tmdb.org/t/p/w500/rlB7pf3dVwRcF4tFKXxNwx3wwXx.jpg",
+      "type": "movie",
+      "year": "2022"
+    },
+    {
+      "id": "tt15555264",
+      "name": "Clytaemnestra",
+      "poster": "https://image.tmdb.org/t/p/w500/hXtJX5wF8UYalvj5tZPYUG2YA7I.jpg",
+      "type": "movie",
+      "year": "2021"
+    },
+    {
+      "id": "tt43720986",
+      "name": "Kraken",
+      "poster": "https://image.tmdb.org/t/p/w500/mQZaeZAiDBredbH19WHZx8sLZbo.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt0080964",
+      "name": "Cute Girl",
+      "poster": "https://image.tmdb.org/t/p/w500/aw4tm3YnhEe9DlxVBKjhgU9obik.jpg",
+      "type": "movie",
+      "year": "1980"
+    },
+    {
+      "id": "tt35652980",
+      "name": "Dream Theatre",
+      "poster": "https://image.tmdb.org/t/p/w500/2uVtPeHmG7OhCRMXjmw8WzTrkcY.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
+      "id": "tt0093435",
+      "name": "City on Fire",
+      "poster": "https://image.tmdb.org/t/p/w500/uOgCKhHsQvOFVNxOUdewPwc0Z9N.jpg",
+      "type": "movie",
+      "year": "1987"
+    },
+    {
+      "id": "tt0109424",
+      "name": "Chungking Express",
+      "poster": "https://image.tmdb.org/t/p/w500/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg",
+      "type": "movie",
+      "year": "1994"
+    },
+    {
+      "id": "tt30954113",
+      "name": "The Watchman",
+      "poster": "https://image.tmdb.org/t/p/w500/sILAEXt9ny5EZQPhcQHtqTdFyGb.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
+      "id": "tt38552353",
+      "name": "Dobbeltspil",
+      "poster": "https://image.tmdb.org/t/p/w500/6ssnzqrXNwXig5LlM7YHh9Y5X6t.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt20221070",
+      "name": "Vovó Ninja",
+      "poster": "https://image.tmdb.org/t/p/w500/bfvasPhu04Utqq6YzhyrS10n80H.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
+      "id": "tt0202054",
+      "name": "The Black Vampire",
+      "poster": "https://image.tmdb.org/t/p/w500/28njLSHDv1raFzQKKmHTEU46rh0.jpg",
+      "type": "movie",
+      "year": "1953"
+    },
+    {
+      "id": "tt16968976",
+      "name": "Through the Night",
+      "poster": "https://image.tmdb.org/t/p/w500/mWLGbRnbRnvoF1asGrGCFkzKZgW.jpg",
+      "type": "movie",
+      "year": "2023"
+    },
+    {
+      "id": "tt37838802",
+      "name": "Wild Heart",
+      "poster": "https://image.tmdb.org/t/p/w500/kTHcE3btlb8O1fAvSFyAUjYV3aG.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
+      "id": "tt46084824",
+      "name": "General Mayhem: The Killing of Brigadier J",
+      "poster": "https://image.tmdb.org/t/p/w500/iN2M4vfplS1m0QqixtNpe1vWM1g.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt1937097",
+      "name": "Year of Grace",
+      "poster": "https://image.tmdb.org/t/p/w500/t8aGnJ93CzRDH2SmT1nXI6DJgw8.jpg",
+      "type": "movie",
+      "year": "2011"
+    },
+    {
+      "id": "tt37180686",
+      "name": "Drive - The Pretenders",
+      "poster": "https://image.tmdb.org/t/p/w500/c6Gx7JTc8pYyW2WH7yLWj5Rx66I.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt30576709",
+      "name": "Bloodletting",
+      "poster": "https://image.tmdb.org/t/p/w500/7AghIplzkBR7yHKySBz0bzERr0e.jpg",
+      "type": "movie",
+      "year": "2024"
+    },
+    {
+      "id": "tt35405685",
+      "name": "Close to September",
+      "poster": "https://image.tmdb.org/t/p/w500/h8yUvqvPbfmGzSid66zJvpsYNTA.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
+      "id": "tt26913427",
+      "name": "Madden",
+      "poster": "https://image.tmdb.org/t/p/w500/92Tb7o4OsRgxuOvK3ROs9T6QE24.jpg",
+      "type": "movie",
+      "year": "2023"
+    },
+    {
+      "id": "tt31688586",
+      "name": "Nouvelle Vague",
+      "poster": "https://image.tmdb.org/t/p/w500/AfE7DZ0DPgme6I58dlYp1Bo9xeN.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
+      "id": "tt42680348",
+      "name": "Death Whisperer: Saming the Werebeast",
+      "poster": "https://image.tmdb.org/t/p/w500/lN4YqCIVjDMvlUbmcEO5d060WoL.jpg",
+      "type": "movie",
+      "year": "2026"
+    },
+    {
+      "id": "tt35231039",
+      "name": "Kokuho",
+      "poster": "https://image.tmdb.org/t/p/w500/a15F5KJ4mleusJR1YKP4zUyZaxG.jpg",
+      "type": "movie",
+      "year": "2025"
+    },
+    {
       "id": "tt0080125",
       "name": "West Indies: The Fugitive Slaves of Liberty",
       "poster": "https://image.tmdb.org/t/p/w500/px8QJjA5i0l8r9kWov2FNpkpP47.jpg",
@@ -404,13 +831,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/wSc6tOp1yoAFbZqxG5XVGHcFvRN.jpg",
       "type": "movie",
       "year": "2001"
-    },
-    {
-      "id": "tt35231039",
-      "name": "Kokuho",
-      "poster": "https://image.tmdb.org/t/p/w500/a15F5KJ4mleusJR1YKP4zUyZaxG.jpg",
-      "type": "movie",
-      "year": "2025"
     },
     {
       "id": "tt29634843",

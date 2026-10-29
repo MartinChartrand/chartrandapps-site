@@ -1,6 +1,62 @@
 {
   "metas": [
     {
+      "id": "tt39751377",
+      "name": "Balaraw: Blood Island",
+      "poster": "https://image.tmdb.org/t/p/w500/s1A6UOu8IOmw0kJXohlitMRiwQb.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt49250618",
+      "name": "The Fall of El Mayo",
+      "poster": "https://image.tmdb.org/t/p/w500/wxmOGnyZ1ZxIbYOxkG4TLNQ6L26.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt38820819",
+      "name": "LOL: Last One Laughing - Norway - Halloween Special",
+      "poster": "https://image.tmdb.org/t/p/w500/3E9a5ydNPHIOFpZ9WHwfED8Wgh3.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt49814930",
+      "name": "Au service de la mafia",
+      "poster": "https://image.tmdb.org/t/p/w500/ePdEobfr2K97ZaephabcAj15Zu4.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt14650074",
+      "name": "Dhindora",
+      "poster": "https://image.tmdb.org/t/p/w500/cVaqEhiRPtnWzZVNZu9iaJHsoVE.jpg",
+      "type": "series",
+      "year": "2021"
+    },
+    {
+      "id": "tt45854934",
+      "name": "The Gift of Deceit",
+      "poster": "https://image.tmdb.org/t/p/w500/f6GiVWPeexCV6mQ6W5fgiDFQdfB.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt35769369",
+      "name": "Chitose Is in the Ramune Bottle",
+      "poster": "https://image.tmdb.org/t/p/w500/7tpcFkOpLcWkJU6mV5ooJyHA3DR.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt38674523",
+      "name": "In vitro",
+      "poster": "https://image.tmdb.org/t/p/w500/6xdTAnEJrvNqgX5SlAVpbr3YcR9.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
       "id": "tt19106798",
       "name": "Love Village",
       "poster": "https://image.tmdb.org/t/p/w500/1gWm0758PmrU8RWVcSulrLywT6W.jpg",
@@ -143,7 +199,7 @@
     {
       "id": "tt38337376",
       "name": "Did Someone Happen to Mention Me?",
-      "poster": "https://image.tmdb.org/t/p/w500/fDwpR6oVx1TsxvelEQQIXnb3zYx.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/4zNytZ6R4awYY9vFBNdENkT4hPC.jpg",
       "type": "series",
       "year": "2026"
     },
@@ -153,20 +209,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/1pBeRmqnMEGlBgpjPK0OYqPw6Kg.jpg",
       "type": "series",
       "year": "2024"
-    },
-    {
-      "id": "tt35769369",
-      "name": "Chitose Is in the Ramune Bottle",
-      "poster": "https://image.tmdb.org/t/p/w500/7tpcFkOpLcWkJU6mV5ooJyHA3DR.jpg",
-      "type": "series",
-      "year": "2025"
-    },
-    {
-      "id": "tt38674523",
-      "name": "In vitro",
-      "poster": "https://image.tmdb.org/t/p/w500/6xdTAnEJrvNqgX5SlAVpbr3YcR9.jpg",
-      "type": "series",
-      "year": "2026"
     },
     {
       "id": "tt12590266",
