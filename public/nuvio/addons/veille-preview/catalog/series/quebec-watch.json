@@ -43,6 +43,13 @@
       "year": "2025"
     },
     {
+      "id": "tt4940028",
+      "name": "Les Enfants de la télé",
+      "poster": "https://image.tmdb.org/t/p/w500/mPbGh7BoZG5TrdwtFz1VnbVMTbV.jpg",
+      "type": "series",
+      "year": "2010"
+    },
+    {
       "id": "tt13935682",
       "name": "En direct de l'univers",
       "poster": "https://image.tmdb.org/t/p/w500/4fjas6de3ElKhe1HwNYDUwH1Q23.jpg",
@@ -55,20 +62,6 @@
       "poster": "https://image.tmdb.org/t/p/w500/23Bd2pH9VUE4ECKrL4SqDyKwovJ.jpg",
       "type": "series",
       "year": "2017"
-    },
-    {
-      "id": "tt0431577",
-      "name": "Tout le monde en parle",
-      "poster": "https://image.tmdb.org/t/p/w500/2ij9iqLwm2FMnd6chiX4VvJDiIh.jpg",
-      "type": "series",
-      "year": "2004"
-    },
-    {
-      "id": "tt39317974",
-      "name": "Indomptables",
-      "poster": "https://image.tmdb.org/t/p/w500/mKXvScJKWpS9DzraWTMOSMdYGNv.jpg",
-      "type": "series",
-      "year": "2026"
     },
     {
       "id": "tt39673782",
