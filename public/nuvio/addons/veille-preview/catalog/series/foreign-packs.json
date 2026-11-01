@@ -1,6 +1,69 @@
 {
   "metas": [
     {
+      "id": "tt32625029",
+      "name": "LOL: Last One Laughing Philippines",
+      "poster": "https://image.tmdb.org/t/p/w500/5v6xysCUVEDfcfiPSU2OMCFZl9Q.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt43688849",
+      "name": "Harvest",
+      "poster": "https://image.tmdb.org/t/p/w500/wghyXXrub7oAkfdd7ew4W5ECIfF.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt7441658",
+      "name": "Black Clover",
+      "poster": "https://image.tmdb.org/t/p/w500/uZUtoVChBGhNj9OfrM2LYpwBm8E.jpg",
+      "type": "series",
+      "year": "2017"
+    },
+    {
+      "id": "tt39328047",
+      "name": "Doctor X: Mafia in White",
+      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt36838527",
+      "name": "Obsess",
+      "poster": "https://image.tmdb.org/t/p/w500/evZ32lniPdFD2US6McKn0Rj5dG8.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt13196080",
+      "name": "Tokyo Revengers",
+      "poster": "https://image.tmdb.org/t/p/w500/arB3L9pZZBSzUPSC8BEv8c3X0bF.jpg",
+      "type": "series",
+      "year": "2021"
+    },
+    {
+      "id": "tt26743760",
+      "name": "The Apothecary Diaries",
+      "poster": "https://image.tmdb.org/t/p/w500/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
+      "type": "series",
+      "year": "2023"
+    },
+    {
+      "id": "tt32344704",
+      "name": "Tougen Anki",
+      "poster": "https://image.tmdb.org/t/p/w500/vnasRNhwT5M3OvTAMzYn4i5fQcT.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt39394153",
+      "name": "Firefly Wedding",
+      "poster": "https://image.tmdb.org/t/p/w500/954dt0dTqoUhIW0EvMFZ0KvVQmk.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
       "id": "tt36832423",
       "name": "The Traitor Within",
       "poster": "https://image.tmdb.org/t/p/w500/6uFaEHVmoP88w0RxIOYAjWq2A7W.jpg",
@@ -113,25 +176,11 @@
       "year": "2024"
     },
     {
-      "id": "tt7441658",
-      "name": "Black Clover",
-      "poster": "https://image.tmdb.org/t/p/w500/uZUtoVChBGhNj9OfrM2LYpwBm8E.jpg",
-      "type": "series",
-      "year": "2017"
-    },
-    {
       "id": "tt36260294",
       "name": "Sai",
       "poster": "https://image.tmdb.org/t/p/w500/fhoCf1pOR3IRWHfVBHisFaA0mlg.jpg",
       "type": "series",
       "year": "2025"
-    },
-    {
-      "id": "tt39328047",
-      "name": "Doctor X: Mafia in White",
-      "poster": "https://image.tmdb.org/t/p/w500/nDDVzQfv95PGwj9nV2fJvUrkcvU.jpg",
-      "type": "series",
-      "year": "2026"
     },
     {
       "id": "tt43625977",
@@ -155,41 +204,6 @@
       "year": "2026"
     },
     {
-      "id": "tt43688849",
-      "name": "Harvest",
-      "poster": "https://image.tmdb.org/t/p/w500/wghyXXrub7oAkfdd7ew4W5ECIfF.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
-      "id": "tt13196080",
-      "name": "Tokyo Revengers",
-      "poster": "https://image.tmdb.org/t/p/w500/arB3L9pZZBSzUPSC8BEv8c3X0bF.jpg",
-      "type": "series",
-      "year": "2021"
-    },
-    {
-      "id": "tt39394153",
-      "name": "Firefly Wedding",
-      "poster": "https://image.tmdb.org/t/p/w500/954dt0dTqoUhIW0EvMFZ0KvVQmk.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
-      "id": "tt32344704",
-      "name": "Tougen Anki",
-      "poster": "https://image.tmdb.org/t/p/w500/vnasRNhwT5M3OvTAMzYn4i5fQcT.jpg",
-      "type": "series",
-      "year": "2025"
-    },
-    {
-      "id": "tt26743760",
-      "name": "The Apothecary Diaries",
-      "poster": "https://image.tmdb.org/t/p/w500/sJZcy8QsOPuRPiCfoCWVB3r9Ohg.jpg",
-      "type": "series",
-      "year": "2023"
-    },
-    {
       "id": "tt49522873",
       "name": "Duniya Ki Thain Thain",
       "poster": "https://image.tmdb.org/t/p/w500/dTRrU7y2HQ4mGnuK8sfVSP17Lx9.jpg",
@@ -206,7 +220,7 @@
     {
       "id": "tt39387986",
       "name": "Fading Grandeur",
-      "poster": "https://image.tmdb.org/t/p/w500/jhjVQtqQgSYjv91IoYWyZvMoqZF.jpg",
+      "poster": "https://image.tmdb.org/t/p/w500/4AUgc7JhcLQHNzoa1l0jwxBdK0.jpg",
       "type": "series",
       "year": "2026"
     },
