@@ -50,25 +50,18 @@
       "year": "2009"
     },
     {
-      "id": "tt0431577",
-      "name": "Tout le monde en parle",
-      "poster": "https://image.tmdb.org/t/p/w500/2ij9iqLwm2FMnd6chiX4VvJDiIh.jpg",
-      "type": "series",
-      "year": "2004"
-    },
-    {
-      "id": "tt4940028",
-      "name": "Les Enfants de la télé",
-      "poster": "https://image.tmdb.org/t/p/w500/mPbGh7BoZG5TrdwtFz1VnbVMTbV.jpg",
-      "type": "series",
-      "year": "2010"
-    },
-    {
       "id": "tt22109948",
       "name": "Chanteurs masqués",
       "poster": "https://image.tmdb.org/t/p/w500/9ADk4KoFb7MTAvYlEnz9NKDd9jE.jpg",
       "type": "series",
       "year": "2021"
+    },
+    {
+      "id": "tt0431577",
+      "name": "Tout le monde en parle",
+      "poster": "https://image.tmdb.org/t/p/w500/2ij9iqLwm2FMnd6chiX4VvJDiIh.jpg",
+      "type": "series",
+      "year": "2004"
     },
     {
       "id": "tt39673782",
