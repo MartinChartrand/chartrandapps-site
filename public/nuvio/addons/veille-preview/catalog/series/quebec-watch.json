@@ -43,6 +43,20 @@
       "year": "2025"
     },
     {
+      "id": "tt33247029",
+      "name": "Les Armes",
+      "poster": "https://image.tmdb.org/t/p/w500/hNPl5YyfgRcf1sslGh3MREtl4PP.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt10635878",
+      "name": "Alertes",
+      "poster": "https://image.tmdb.org/t/p/w500/smUWHDQnfaLltefKSYz9qg3G2bX.jpg",
+      "type": "series",
+      "year": "2021"
+    },
+    {
       "id": "tt13935682",
       "name": "En direct de l'univers",
       "poster": "https://image.tmdb.org/t/p/w500/4fjas6de3ElKhe1HwNYDUwH1Q23.jpg",
@@ -50,9 +64,9 @@
       "year": "2009"
     },
     {
-      "id": "tt10635878",
-      "name": "Alertes",
-      "poster": "https://image.tmdb.org/t/p/w500/smUWHDQnfaLltefKSYz9qg3G2bX.jpg",
+      "id": "tt22109948",
+      "name": "Chanteurs masqués",
+      "poster": "https://image.tmdb.org/t/p/w500/9ADk4KoFb7MTAvYlEnz9NKDd9jE.jpg",
       "type": "series",
       "year": "2021"
     },
