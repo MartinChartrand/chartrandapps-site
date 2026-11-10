@@ -1,6 +1,41 @@
 {
   "metas": [
     {
+      "id": "tt30087808",
+      "name": "Chaos",
+      "poster": "https://image.tmdb.org/t/p/w500/sDvBVpNXc0w5zfG2WvqEps3VA2N.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
+      "id": "tt18246842",
+      "name": "Last One Standing",
+      "poster": "https://image.tmdb.org/t/p/w500/ccrIAENWOZE7gcXFrTwL8QqcW99.jpg",
+      "type": "series",
+      "year": "2022"
+    },
+    {
+      "id": "tt35659504",
+      "name": "The Traitors - Italy",
+      "poster": "https://image.tmdb.org/t/p/w500/gkyrD1MGAtPOfAmkU3PRDDhC6gX.jpg",
+      "type": "series",
+      "year": "2025"
+    },
+    {
+      "id": "tt39395275",
+      "name": "Dragon Ball Super: Beerus",
+      "poster": "https://image.tmdb.org/t/p/w500/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg",
+      "type": "series",
+      "year": "2026"
+    },
+    {
+      "id": "tt27535062",
+      "name": "City of God: The Fight Rages On",
+      "poster": "https://image.tmdb.org/t/p/w500/8VU9RTbNojFw3kaAUc2wE16zMxf.jpg",
+      "type": "series",
+      "year": "2024"
+    },
+    {
       "id": "tt32639706",
       "name": "Blue Box",
       "poster": "https://image.tmdb.org/t/p/w500/sN3TuYevEPWxZhwcp6I2PJRW1jl.jpg",
@@ -71,13 +106,6 @@
       "year": "2026"
     },
     {
-      "id": "tt35659504",
-      "name": "The Traitors - Italy",
-      "poster": "https://image.tmdb.org/t/p/w500/gkyrD1MGAtPOfAmkU3PRDDhC6gX.jpg",
-      "type": "series",
-      "year": "2025"
-    },
-    {
       "id": "tt37762350",
       "name": "Palace",
       "poster": "https://image.tmdb.org/t/p/w500/ju6k9yjDo4kmGq2nylFtBCSmfML.jpg",
@@ -143,13 +171,6 @@
       "id": "tt38674523",
       "name": "In vitro",
       "poster": "https://image.tmdb.org/t/p/w500/6xdTAnEJrvNqgX5SlAVpbr3YcR9.jpg",
-      "type": "series",
-      "year": "2026"
-    },
-    {
-      "id": "tt39395275",
-      "name": "Dragon Ball Super: Beerus",
-      "poster": "https://image.tmdb.org/t/p/w500/AojgldgsOlzZV8ahyOzaiAjJWvV.jpg",
       "type": "series",
       "year": "2026"
     },
